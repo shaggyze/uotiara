@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-16" standalone="yes" ?> 
+<meshdesc version="4" effect_version="7">
+	<EffectGroup play_mode="loop" play_length="0" play="0">
+		<Effect name="pet_dragon_ice_breath" parent="Head" effect_name="Pet_ice_dragon_breath" align="parent" offset="0 0 0" rot_axis="0 1 0" rot_angle="-20" />
+		<Effect name="pet_dragon_ice_breath_casting" parent="Head" effect_name="Pet_ice_dragon_breath_casting" align="framework" offset="0 -50 -40" rot_axis="0 1 0" rot_angle="0" />
+		<Effect name="pet_dragon_ice_booster" parent="Tail4" effect_name="pet_ice_booster_trail" align="parent" offset="0 0 0" rot_axis="0 0 1" rot_angle="0" />
+		<Effect name="pet_dragon_ice_booster_body" parent="Head" effect_name="pet_ice_booster_trail_body" align="parent" offset="0 0 0" rot_axis="0 1 0" rot_angle="0" />
+
+	</EffectGroup>
+</meshdesc>
+
