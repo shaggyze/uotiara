@@ -1,0 +1,9 @@
+<cutscene>
+	<scenario name="elven_missile_camera_fire">
+		<stage region="current" origin="player_pos" />
+		<client_sequence wait_server_reply="false">
+
+
+		<system cmd="nop">
+	</scenario>
+</cutscene>
