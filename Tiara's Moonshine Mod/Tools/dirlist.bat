@@ -1,0 +1,1 @@
+dir /a-h /b /s /-p /o:gen >modlist.txt

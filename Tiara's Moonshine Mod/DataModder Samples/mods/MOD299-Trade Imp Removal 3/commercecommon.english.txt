@@ -1,0 +1,367 @@
+﻿0	Tir Chonaill
+1	Dunbarton
+2	Bangor
+3	Emain Macha
+4	Taillteann
+5	Tara
+6	Cobh
+7	Belvast
+8	???? ???
+9	Baby Potion
+10	Diet Potion
+11	Snore Prevention Potion
+12	Wild Ginseng Potion
+13	Lovely Potion
+14	Spider Gloves
+15	Wool Boots
+16	Ogre Executioner Mask
+17	Incubus Suit
+18	Succubus Swimsuit
+19	Bangor Coal
+20	Marble
+21	Topaz
+22	Highlander Ore
+23	Lead
+24	Berry Granola
+25	Butter Beer
+26	Smoked Wild Animal
+27	Triple Pasta
+28	Whole BBQ Bear
+29	Heat Crystal
+30	Music Box Preservation Stone
+31	Palala Crystal
+32	Circle Barrier Spikes Crystal
+33	Alchemy Crystal
+34	Mini Dressing Table
+35	Tea Table
+36	Rocking Chair
+37	Bunk Bed
+38	Giant Wine Rack
+39	Cobh Seaweed
+40	Cobh Oyster
+41	Shark Fin
+42	Jellyfish
+43	Neid Scales
+44	Iron Whip
+45	Dark Sword
+46	Safe
+47	Skeleton Ogre Armor
+48	Fake Morgant Helmet
+49	Backpack
+50	Handcart
+51	Wagon
+52	Pack Elephant
+53	???
+54	A purified potion that is safe for children. It doesn't restore HP, but it tastes fruity!
+55	A potion that helps people lose weight. Drink it right before working out. This potion has jumped in popularity recently.
+56	Pour this potion on a plate next to your bed before sleeping. It will produce a pungent smell that expands your nostrils, preventing you from snoring. Just remember to air your bedroom out the next day.
+57	A potion made with a rare wild ginseng from the mountain behind Tir Chonaill. It restores Strength and has other beneficial effects. Be careful of giving to someone with a high body temperature.
+58	A potion that brings true love between the two that drink it. Only works if your intended lover does not know what it is.
+59	Special gloves made for gathering cobwebs. They are coated to prevent the cobwebs from sticking.
+60	Special boots with sound-insulated soles. Makes it easier to sneak up on sheep.
+61	A mask that resembles an Ogre Executioner. Often worn for self-defense at night.
+62	A suit perfect for attracting attention. The Red Incubus Suit is popular these days.
+63	A swimsuit for the Succubus. Only ever seen at noblemen's auctions, for some reason. It is very rare, and rumored to attract the Succubus, perhaps not in a good way.
+64	A mineral used as fuel. It's a little heavy.
+65	A slick white stone. It's often used for floor tiling in luxurious mansions. Tara Royal Castle purchased all marble produced in the last 7 years.
+67	An ore that is synonymous with the weapons it is used to make, such as the Highlander Claymore. Blacksmiths like Ferghus have worked tirelessly to craft better weapons with this ore, but no one has discovered its true potential yet.
+68	The world's heaviest metal. It is too soft to make weapons or armor from, but it has been researched exhaustively by Alchemists such as Leymore and Cai, trying to find a way to transmute it into gold.
+69	A berry-granola mixture, baked in an oven. You can eat it with milk or as a dry snack.
+70	A soft beer made with Emain Macha Butter. Even though it's called beer, it doesn't contain alcohol, so anybody can drink it.
+71	The leg of some beast, wrapped in silver and smoked over an open fire. Whatever it is, it's pretty chewy.
+72	Pasta made with white mushrooms. Since white mushrooms are so rare, this dish is a highly-valued delicacy.
+73	Cooked bear from Emain Macha. To make this, you must tie the bear to a tree trunk, and cook it for a whole day while five strong men rotate it constantly. Definitely worth the effort, though.
+74	A crystal made by compounding Fire and Wind Crystals. You can use it in cylinders, or as a heat pack.
+75	This stone plays a saved sound when it is struck. Only works once.
+76	A crystal that shines incredibly brightly for an instant when used in a cylinder. Excellent for blinding enemies. Just don't forget to cover your own eyes.
+77	A crystal that creates a circular protective barrier around you. Try using it when you need some time alone.
+78	A crystal that can change a small life form into gold. However, it always creates less gold than it takes to make the crystal. Used to make gold beetles or gold minnows. Has no effect on large life forms such as dogs or humans.
+79	A dressing table used by women. It's small enough for anyone to use.
+80	A table made specifically for enjoying a cup of tea. It is round, with engraved patterns adorning its surface.
+81	A rocking chair with a fluffy cushion, filled with cotton. Sitting in it for more than a few minutes will put you out for the night.
+82	A bunk bed with stairs, made with consideration of children's safety. It's low enough that you can fall off and still be fine.
+83	A huge rack for storing wine bottles. A collector's item due to its large size.
+84	Seaweed that tastes good no matter how you cook it. Soggy seaweed gets stuck on the roof of your mouth, so be careful.
+85	A shellfish with a unique smell. It is said that Edern eats them to stay healthy.
+86	Part of the shark that's popular not for its taste, but for its rarity. Since it's hard to catch a shark at all, this remains an extremely rare dish.
+87	A jellyfish. Since it's so slippery, it will go straight down your throat even if you don't chew. Don't forget to clean it before eating!
+88	Scales dropped by Neid. You can obtain a few by pouring some water from Lake Neagh into the waters of Port Cobh. This will make the scales shine. Many consider the scales to be a symbol of luck.
+89	An iron whip used to train horses. Just like a morning star, it has linked chains.
+90	A black-bladed sword. Looks like an ordinary one-handed sword, just black.
+91	A small safe crafted of solid steel, used for storing precious objects. Ordinary beings can't even move this thing.
+92	Armor worn by the Skeleton Ogre. Since it's too heavy for humans, it's used more as a decoration than for battle purposes. It is said the wearer can have superhuman strength, but they probably had it just to be able to wear it at all.
+93	A helmet that looks like just like Dark Lord Morgant's helmet. Don't expect it to have the same power, though!
+94	
+95	
+96	
+97	
+98	
+99	
+100	
+101	
+102	
+103	
+104	
+105	
+106	
+107	
+108	
+109	
+110	
+111	
+112	
+113	
+114	
+115	
+116	
+117	
+118	
+119	
+120	
+121	
+122	
+124	
+125	
+126	
+127	
+128	
+129	
+130	
+133	
+134	
+135	
+136	
+137	
+138	
+139	
+140	
+141	
+142	
+143	
+144	
+145	
+146	
+147	
+148	
+149	
+150	
+151	
+152	
+153	
+154	
+155	
+156	
+157	
+158	
+159	
+160	
+161	
+162	
+163	
+164	
+165	
+166	
+167	
+168	
+169	
+170	
+171	
+172	
+173	
+174	
+175	
+176	
+177	
+178	
+179	
+180	
+182	
+183	
+184	
+185	
+186	
+187	
+188	
+189	
+190	
+191	
+192	
+193	
+194	
+195	
+196	
+197	
+198	
+199	
+200	
+201	
+202	
+203	
+204	
+205	
+206	
+208	
+209	
+210	
+212	
+213	
+214	
+215	
+216	
+217	
+218	
+219	
+220	
+221	
+222	
+223	
+224	
+225	
+226	
+227	
+228	
+229	
+230	
+231	
+232	
+233	
+234	
+235	
+236	
+237	
+238	
+239	
+240	
+241	
+242	
+243	
+244	
+245	
+246	
+247	
+248	
+249	
+250	
+251	
+252	
+253	
+254	
+255	
+256	
+257	
+258	
+259	
+260	
+261	
+262	
+263	
+264	
+265	
+266	
+267	
+268	
+269	
+270	
+271	
+272	
+273	
+274	
+275	
+276	
+277	
+278	
+279	
+280	
+281	
+282	
+283	
+284	
+287	
+288	
+289	
+297	[P]Backpack
+298	[P]Handcart
+299	[P]Wagon
+300	[P]Elephant
+301	They stole {0}!\nHurry up and tell the Bounty Hunter!\nThose punks will get away with it if we don't hurry!
+302	We might get our item back once the Outlaw is captured.\nYou don't have any friends?\nShould I introduce you to a hunter?
+303	The board already has the news about how you got robbed.\Congrats on becoming famous!
+304	The faster you catch them,\nthe more items you can get back.\You won't get squat if you take too long.
+308	"One-Eye" Klugger
+310	"Zippy" Nipmore
+311	"No-Face" Nelson
+312	"Horrifying" Herbert
+313	"Shifty" Shankleton
+315	"Scandalous" Charlene
+316	"Stinky" Berkkus
+317	Klugger used to be Belvast's greatest bandit, feared by even pirates, until losing an eye to Admiral Owen. He's moved to Uladh to start fresh.
+318	Berkkus is infamous for his poisonous blade, and eagerness to use it. Many folk have been sent to the Soul Stream by this foul miscreant.
+319	Nipmore lives up to his nickname with his ability to chase after swift wagons and empty them without stopping.
+320	Nelson, also known as the 'shark of Belvast', is rumored to be gathering funds for a rebellion. His true identity remains hidden from all.
+321	Nothing is known of this terrifying figure. Some say his skin is pure steel, immune to any sort of normal attacks.
+322	Shankleton specializes in stealing right from the Trading Posts themselves. Even among thieves, he has no loyalty and no friends.
+323	Also called the 'Eweca stalker', Charlene is famous for her incredible beauty. Merchants who fall for her spell find their wagons empty in a flash.
+325	Ocean Tear
+326	Allure Stem
+327	Abyss Crystal
+328	Sage Crystals
+330	Night Sky Leather
+331	Unidentified Fish
+332	Crystal Blade
+333	A formation of coral and pearl that evokes the beauty of the ocean.
+341	Scathach Beach
+342	A purified potion that is safe for children. It doesn't restore HP, but it tastes fruity!
+343	A potion that helps people lose weight. Drink it right before working out. This potion has jumped in popularity recently.
+344	Pour this potion on a plate next to your bed before sleeping. It will produce a pungent smell that expands your nostrils, preventing you from snoring. Just remember to air your bedroom out the next day.
+345	A potion made with a rare wild ginseng from the mountain behind Tir Chonaill. It restores Strength and has other beneficial effects. Be careful of giving to someone with a high body temperature.
+346	A potion that brings true love between the two that drink it. Only works if your intended lover does not know what it is.
+347	Special gloves made for gathering cobwebs. They are coated to prevent the cobwebs from sticking.
+348	A mask that resembles an Ogre Executioner. Often worn for self-defense at night.
+349	A suit perfect for attracting attention. The Red Incubus Suit is popular these days.
+350	A swimsuit for the Succubus. Only ever seen at noblemen's auctions, for some reason. It is very rare, and rumored to attract the Succubus, perhaps not in a good way.
+351	A mineral used as fuel. It's a little heavy.
+352	A slick white stone. It's often used for floor tiling in luxurious mansions. Tara Royal Castle purchased all marble produced in the last 7 years.
+353	A yellow crystal. Decorate your windows with topaz to make your room yellow, just like Lileas's hair, and give it a warm feel.
+354	An ore that is synonymous with the weapons it is used to make, such as the Highlander Claymore. Blacksmiths like Ferghus have worked tirelessly to craft better weapons with this ore, but no one has discovered its true potential yet.
+355	The world's heaviest metal. It is too soft to make weapons or armor from, but it has been researched exhaustively by Alchemists such as Leymore and Cai, trying to find a way to transmute it into gold.
+356	A berry-granola mixture, baked in an oven. You can eat it with milk or as a dry snack.
+357	A soft beer made with Emain Macha Butter. Even though it's called beer, it doesn't contain alcohol, so anybody can drink it.
+358	The leg of some beast, wrapped in silver and smoked over an open fire. Whatever it is, it's pretty chewy.
+359	Pasta made with white mushrooms. Since white mushrooms are so rare, this dish is a highly-valued delicacy.
+360	Cooked bear from Emain Macha. To make this, you must tie the bear to a tree trunk, and cook it for a whole day while five strong men rotate it constantly. Definitely worth the effort, though.
+361	A crystal made by compounding Fire and Wind Crystals. You can use it in cylinders, or as a heat pack.
+362	This stone plays a saved sound when it is struck. Only works once.
+363	A crystal that shines incredibly brightly for an instant when used in a cylinder. Excellent for blinding enemies. Just don't forget to cover your own eyes.
+364	A crystal that creates a circular protective barrier around you. Try using it when you need some time alone.
+365	A crystal that can change a small life form into gold. However, it always creates less gold than it takes to make the crystal. Used to make gold beetles or gold minnows. Has no effect on large life forms such as dogs or humans.
+366	A dressing table used by women. It's small enough for anyone to use.
+367	A table made specifically for enjoying a cup of tea. It is round, with engraved patterns adorning its surface.
+368	A rocking chair with a fluffy cushion, filled with cotton. Sitting in it for more than a few minutes will put you out for the night.
+369	A bunk bed with stairs, made with consideration of children's safety. It's low enough that you can fall off and still be fine.
+370	A huge rack for storing wine bottles. A collector's item due to its large size.
+371	Seaweed that tastes good no matter how you cook it. Soggy seaweed gets stuck on the roof of your mouth, so be careful.
+372	A shellfish with a unique smell. It is said that Edern eats them to stay healthy.
+373	Part of the shark that's popular not for its taste, but for its rarity. Since it's hard to catch a shark at all, this remains an extremely rare dish.
+374	A jellyfish. Since it's so slippery, it will go straight down your throat even if you don't chew. Don't forget to clean it before eating!
+375	Scales dropped by Neid. You can obtain a few by pouring some water from Lake Neagh into the waters of Port Cobh. This will make the scales shine. Many consider the scales to be a symbol of luck.
+376	An iron whip used to train horses. Just like a morning star, it has linked chains.
+377	A black-bladed sword. Looks like an ordinary one-handed sword, just black.
+378	A small safe crafted of solid steel, used for storing precious objects. Ordinary beings can't even move this thing.
+379	Armor worn by the Skeleton Ogre. Since it's too heavy for humans, it's used more as a decoration than for battle purposes. It is said the wearer can have superhuman strength, but they probably had it just to be able to wear it at all.
+380	A helmet that looks like just like Dark Lord Morgant's helmet. Don't expect it to have the same power, though!
+381	A tough, smooth stem. Must flora taken from the Forest of Temptation crumbles quickly, so rare samples like this are highly sought after.
+382	You feel like you might get sucked into the blackness of this crystal. Infusing it with mana can create many colorful effects, making this a valuable decorative piece.
+383	A bottle of colorless crystals. These can be used to enhance the quality of other alchemy crystals, regardless of attributes or effects.
+384	A blue, viscous liquid. Adding this to potions will give them a little extra kick.
+385	Leather that shines in the dark. Looking into this is like looking into the night sky. Used in high quality outfits.
+386	Unidentifiable fish from the deep seas. Highly valued among collectors.
+387	A long, thin, cracked blade made out of crystal. Used as a decoration, not a weapon; the longer, the better.
+388	River's Source
+389	[Alpaca] Wagon
+390	[P] Light Backpack
+391	[P] Hard Handcart
+392	[P] Expensive Wagon
+393	[P] Strong Elephant
+397	Rental Wagon
+398	[P] Rental Wagon
+399	[P] Rental Wagon

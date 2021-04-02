@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<cutscene>
+	<scenario name="bossroom_new_gremlin_barri_2">
+		<stage region="904" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_new_gremlin_barri_3">
+		<stage region="904" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_new_gremlin_barri_unlimiteds">
+		<stage region="904" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_mini_golem_Ciar_unlimited">
+		<stage region="901" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_Hardmode_mini_golem_Ciar_unlimited">
+		<stage region="930" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_mini_golem_Ciar_2">
+		<stage region="901" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_mini_golem_Ciar_3">
+		<stage region="901" origin="10000 0 10000" />
+	</scenario>
+	<!-- 튜토리얼 알비 새끼 거대거미 -->
+	<scenario name="bossroom_tutorial_giantspider_kid">
+		<stage region="900" origin="10000 0 10000" />
+	</scenario>
+	<!-- 튜토리얼 알비 새끼 거대 황금거미 -->
+	<scenario name="bossroom_tutorial_giantgoldenspiderkid">
+		<stage region="900" origin="10000 0 10000" />
+	</scenario>
+	<!-- 알비 새끼 거대 거미 -->
+	<scenario name="bossroom_tutorial_2010_giantspiderkid">
+		<stage region="900" origin="10000 0 10000" />
+	</scenario>
+	<!-- 2010 new 튜토리얼용 알비 새끼 거대 황금 거미 -->
+	<scenario name="bossroom_tutorial_2010_giantgoldenspider_kid">
+	</scenario>
+	<!-- 2010 new 튜토리얼 알비 새끼 거대 거미 -->
+	<scenario name="bossroom_tutorial_2010_giantspiderkid2">
+		<stage region="900" origin="10000 0 10000" />
+	</scenario>
+	<!-- 알비 초급 보스방컷신 -->
+	<scenario name="bossroom_GiantSpider_kid">
+		<stage region="900" origin="10000 0 10000" />
+	</scenario>
+	<!--알비 브란 보스방컷신-->
+	<scenario name="bossroom_Fran">
+		<stage region="900" origin="10000 0 10000" />
+	</scenario>
+	<!-- 키아 초급 보스방컷신 -->
+	<scenario name="bossroom_small_golem_Ciar">
+		<stage region="901" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_banshee_peaca">
+		<stage region="914" origin="10000 0 10000" />
+	</scenario>
+</cutscene>

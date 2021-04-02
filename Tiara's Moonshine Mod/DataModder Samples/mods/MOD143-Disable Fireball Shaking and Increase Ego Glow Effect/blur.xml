@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-16" standalone="yes" ?>
+<posteffect_blur version="1">
+	<!-- 
+	
+	# blur configuration file 
+	
+	written by henjeon(henjeon@nexon.co.kr)
+		
+	-->
+
+	<enable debug="0"/>
+
+	<config>
+		<!--
+			frequency : 초당 블러 텍스쳐를 갱신하는 횟수. 10으로 설정하는 것이 경험상 좋다.
+			alpha_min, alpha_max : 1.0이면 블러 텍스쳐 100%, 0.0이면 블러 텍스쳐 0%로 블렌딩함
+			pivot_min, pivot_max : 스케일링, 회전 중심점
+			scale_min, scale_max : 블러 텍스쳐 스케일링
+			rotation_min, rotation_max : 블러 텍스쳐 회전(시계방향)
+			offset_min, offset_max : 블러 텍스쳐 평행이동
+			duration : 0이 아닐 경우, 이 시간동안만 블러를 적용함
+			fading : 0이 아닐 경우, 블러 효과를 이 시간동안 부드럽게 멈춤
+			
+			quake 노드가 있을 경우, 카메라를 흔드는 지진이펙트를 추가할 수 있다.
+			quake 노드의 attribute로는,
+				amount : 각각 x,y로 카메라를 흔드는 정도
+				duration : 카메라를 흔드는 시간
+		-->
+
+		<!-- 기본값. 반드시 있어야 하므로 제거하지 마시오. -->
+		<param name="default" frequency="0" alpha_min="0.0" alpha_max="0.0" pivot_min="0.0 0.0" pivot_max="0.0 0.0" 
+			scale_min="0.00 0" scale_max="0.0 0" rotation_min="0" rotation_max="0" 
+			offset_min="0 0" offset_max="0 0"/>
+		<!-- 디버그용. 반드시 있어야 하므로 제거하지 마시오. -->
+		<param name="debug" frequency="0" alpha_min="0.0" alpha_max="0.0" pivot_min="0.0 0.0" pivot_max="0.0 0.0" 
+			scale_min="0.00 0" scale_max="0.0 0" rotation_min="0" rotation_max="0" 
+			offset_min="0 0" offset_max="0 0"/>
+		<!-- 컷신에서 사용하는 파라메터. 화면에 잔상이 오래 남음. -->
+		<param name="ghost" frequency="0" alpha_min="0.0" alpha_max="0.0" pivot_min="0.0 0.0" pivot_max="0.0 0.0" 
+			scale_min="0 0" scale_max="0 0" rotation_min="0" rotation_max="0" 
+			offset_min="0 0" offset_max="0 0"/>
+		
+		<param name="ego_effect_blur" frequency="20" alpha_min="1.2" alpha_max="1.2" pivot_min="1.0 1.0" pivot_max="1.0 1.0" 
+			scale_min="1 1" scale_max="1 1" rotation_min="0" rotation_max="0" 
+			offset_min="0 0" offset_max="0 0" duration="600" fading="600"/>
+
+		<!-- 파이어볼이 폭발할 때의 효과 -->
+		<param name="fireball_boom" frequency="0" alpha_min="0.0" alpha_max="0.0" pivot_min="0.0 0.0" pivot_max="0.0 0.0" 
+			scale_min="0 0" scale_max="0 0" rotation_min="0" rotation_max="0" 
+			offset_min="0 0" offset_max="0 0" duration="0" fading="0">
+			<quake amount="0.0 0.0" duration="0" />
+		</param>
+		
+		<!-- 방사형으로 블러가 생기는 효과 (용이 소리지를 때) -->
+		<param name="blur_zooming" frequency="0" alpha_min="0.0" alpha_max="0.0" pivot_min="0.0 0.0" pivot_max="0.0 0.0" 
+			scale_min="0.0 0.0" scale_max="0.0 0.0" rotation_min="0" rotation_max="0" 
+			offset_min="0 0" offset_max="0 0" duration="0" fading="0"/>
+
+		<!-- 빠른속도로 달리는 물체위에 있을때 (예를들어 뗏목) -->
+		<param name="speed_blur" frequency="0" alpha_min="0.0" alpha_max="0.0" pivot_min="0.0 0.0" pivot_max="0.0 0.0" 
+			scale_min="0 0" scale_max="0 0" rotation_min="0" rotation_max="0" 
+			offset_min="0 0" offset_max="0 0" duration="0" fading="0"/>
+
+		<!-- 방사형으로 블러가 생기는 효과 (스캔) -->
+		<param name="scan" frequency="10" alpha_min="0.5" alpha_max="0.5" pivot_min="0.5 0.5" pivot_max="0.5 0.5" 
+			scale_min="1.1 1.1" scale_max="1.1 1.1" rotation_min="0" rotation_max="0" 
+			offset_min="0 0" offset_max="0 0"/>
+
+		<param name="ghost" frequency="10" alpha_min="0.5" alpha_max="0.5" pivot_min="0.5 0.5" pivot_max="0.5 0.5" 
+			scale_min="1.1 1.1" scale_max="1.1 1.1" rotation_min="0" rotation_max="0" 
+			offset_min="0 0" offset_max="0 0" duration="3000" fading="300"/>
+
+		<!-- # 이리아 에피소드 엔딩에 사용하는 파라메터. 드라마 엔딩 효과 A -->
+		<param name="DramaIria_ending_A" frequency="7" alpha_min="0.7" alpha_max="0.7" pivot_min="0.5 0.5" pivot_max="0.5 0.5" 
+			scale_min="1 1" scale_max="1 1" rotation_min="0" rotation_max="0" 
+			offset_min="0 0" offset_max="0 0"/>
+			
+		<!-- # 이리아 에피소드 엔딩에 사용하는 파라메터. 드라마 엔딩 효과 B -->
+		<param name="DramaIria_ending_B" frequency="5" alpha_min="0.6" alpha_max="0.6" pivot_min="0.5 0.5" pivot_max="0.5 0.5" 
+			scale_min="1 1" scale_max="1 1" rotation_min="0" rotation_max="0" 
+			offset_min="0 0" offset_max="0 0"/>
+			
+	</config>
+</posteffect_blur>

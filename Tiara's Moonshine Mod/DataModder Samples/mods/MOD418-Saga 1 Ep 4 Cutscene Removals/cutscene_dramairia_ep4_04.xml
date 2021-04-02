@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<cutscene>
+	<scenario name="DramaIria_Ep4_04">
+		<!--4-4 : 성물, 그리고 습격-->
+		<!-->move /r:3300 /x:65117 /y:149863-->
+	</scenario>
+</cutscene>

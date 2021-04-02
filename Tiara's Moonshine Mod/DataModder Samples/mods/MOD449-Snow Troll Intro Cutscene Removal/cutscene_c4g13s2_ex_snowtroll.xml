@@ -1,0 +1,11 @@
+﻿<cutscene>
+		<!--++++S#1 [intro] 국경지대 I ++++-->
+	<scenario name="C4G13S2_EX_snowtroll_intro">
+	</scenario>
+	<!--++++S#1 [intro] 국경지대 I +++++++++++++++++++++++++++++++++++++++자이언트++++++++++++++++++++++++++++++++++++++++++++++++++-->
+	<scenario name="C4G13S2_EX_snowtroll_intro_giant">	
+	</scenario>	
+		<!--++++S#2 [outro] 국경지대 II++++-->
+	<scenario name="C4G13S2_EX_snowtroll_outro">
+	</scenario>
+</cutscene>

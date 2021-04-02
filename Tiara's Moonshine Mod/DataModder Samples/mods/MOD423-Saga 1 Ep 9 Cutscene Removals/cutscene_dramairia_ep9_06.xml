@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<cutscene>
+	<scenario name="DramaIria_Ep9_06">
+		<!--9_6 : 리아파르-->
+	</scenario>
+	<!--자이언트 시나리오-->
+	<scenario name="DramaIria_Ep9_06_giant">
+		<!--9_6 : 리아파르-->
+	</scenario>
+</cutscene>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<!-- 인큐버스 변신하는 컷씬 작업 시작입니다-->
+<cutscene>
+	<scenario name="bossroom_incubus_Transform">
+		<stage region="903" origin="10000 0 10000" />
+	</scenario>
+</cutscene>

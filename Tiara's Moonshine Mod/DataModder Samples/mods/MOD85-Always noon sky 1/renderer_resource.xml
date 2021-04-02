@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<resources>
+	<texture>
+		<standalone>
+			<texture name="sky_default" file="data/material/fx/skydome/skygradation.dds" manage="no" priority="asap" />
+			<texture name="sky_tirnanog" file="data/material/fx/skydome/skygradation.dds" manage="no" priority="asap" />
+			<texture name="sky_cc" file="data/material/fx/skydome/skygradation.dds" manage="no" priority="asap" />
+			<texture name="sky_falias" file="data/material/fx/skydome/skygradation.dds" manage="no" priority="asap" />
+			<texture name="sky_noise_default_1" file="data/material/fx/skydome/skygradation.dds" manage="no" priority="asap" />
+			<texture name="sky_noise_default_2" file="data/material/fx/skydome/skygradation.dds" manage="no" priority="asap" />
+			<texture name="sky_noise_default_3" file="data/material/fx/skydome/skygradation.dds" manage="no" priority="asap" />
+			<texture name="sky_noise_default_4" file="data/material/fx/skydome/skygradation.dds" manage="no" priority="asap" />
+			<texture name="sky_noise_default_5" file="data/material/fx/skydome/skygradation.dds" manage="no" priority="asap" />
+		</standalone>
+	</texture>
+</resources>

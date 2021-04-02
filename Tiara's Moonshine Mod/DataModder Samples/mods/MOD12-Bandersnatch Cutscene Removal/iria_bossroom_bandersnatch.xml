@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<cutscene>
+	<scenario name="iria_bossroom_Bandersnatch">
+		<stage region="920" origin="10000 0 10000" />
+	</scenario>
+</cutscene>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<cutscene>
+	<!-- 물레 수호자 아라크네 컷신 -->
+	<scenario name="bossroom_Hardmode_Albi_Arachne">
+		<stage region="932" origin="10000 0 10000" />
+	</scenario>
+</cutscene>

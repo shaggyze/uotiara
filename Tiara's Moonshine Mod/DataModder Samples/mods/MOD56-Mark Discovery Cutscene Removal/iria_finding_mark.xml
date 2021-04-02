@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<cutscene>
+	<scenario name="iria_finding_mark">
+		<stage region="current_only" origin="player_pos" hide_balloon="true" />
+		<client_sequence terminated_by_key="true">
+			<system cmd="nop">
+							</system>
+		</client_sequence>
+	</scenario>
+</cutscene>

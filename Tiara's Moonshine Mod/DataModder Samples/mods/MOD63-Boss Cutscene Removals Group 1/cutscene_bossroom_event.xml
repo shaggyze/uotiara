@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<cutscene>
+	<scenario name="bossroom_giant_spiderB">
+		<stage region="900" origin="10000 0 10000" />
+			</scenario>
+	<!-- 라이칸 컷신 -->
+	<scenario name="bossroom_lycan">
+		<stage region="900" origin="10000 0 10000" />
+			</scenario>
+	<!-- 라이칸 컷신 -->
+	<scenario name="bossroom_Hardmode_lycan">
+		<stage region="929" origin="10000 0 10000" />
+			</scenario>
+	<!-- 중급 마족 던전 4인용짜리 -->
+	<scenario name="bossroom_giant_spiderRBW">
+		<stage region="900" origin="10000 0 10000" />
+			</scenario>
+	<!-- 피오드 중급 마족던전 1인용 -->
+	<scenario name="bossroom_small_golem">
+		<stage region="909" origin="10000 0 30000" />
+			</scenario>
+	<!-- 피오드 중급 마족 던전 2인용 -->
+	<scenario name="bossroom_argos">
+		<stage region="909" origin="10000 0 30000" />
+			</scenario>
+	<!-- 피오드 중급 마족 던전 4인용 -->
+	<scenario name="bossroom_imp">
+		<stage region="909" origin="10000 0 30000" />
+			</scenario>
+	<!-- 피오드 상급 던전 아머 베어 -->
+	<scenario name="bossroom_armor_bear">
+		<stage region="909" origin="10000 0 30000" />
+			</scenario>
+</cutscene>

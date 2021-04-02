@@ -1,0 +1,508 @@
+﻿0	Inc.
+1	Per Sec. Inc.
+2	Inc.
+3	Inc.
+4	Inc.
+5	Training Rate Inc.
+6	m Inc.
+7	Inc.
+8	% Inc.
+9	Training Rate Inc.
+10	Training Rate Inc.
+11	% Inc.
+12	% Inc.
+13	cm Inc.
+14	cm Inc.
+15	Per Sec. Inc.
+16	Per Sec. Dec.
+17	m Inc.
+18	% Inc.
+19	Per Sec. Dec.
+20	% Inc.
+21	Training Rate Inc.
+22	Per Sec. Inc.
+23	Inc.
+24	Inc.
+25	Training Rate Inc.
+26	Inc.
+27	Training Rate Inc.
+28	Inc.
+29	0
+30	m Inc.
+31	m Dec.
+32	Per Sec. Dec.
+33	Inc.
+34	Inc.
+35	Training Rate Inc.
+36	Inc.
+37	Inc.
+38	Per Sec. Inc.
+39	Per Sec. Dec.
+40	Training Rate Inc.
+41	Inc.
+42	Inc.
+43	Inc.
+44	Inc. (Per Sec. In Party)
+45	Dec. (Per Sec. In Party)
+46	Inc.
+47	Inc.
+48	Inc.
+49	Inc.
+50	Inc.
+51	% Inc.
+52	% Inc.
+53	% Inc.
+54	m Inc.
+55	m Inc.
+56	Training Rate Inc.
+57	m Inc.
+58	Exp. Rate Inc.
+59	Exp. Rate Inc.
+60	Exp. Rate Inc.
+61	% Inc.
+62	cm Inc.
+63	cm Inc.
+64	% Inc.
+65	% Inc.
+66	Exp. Rate Inc.
+67	Exp. Rate Inc.
+68	Exp. Rate Inc.
+69	0
+70	m Dec.
+71	Per Sec. Dec.
+72	Exp. Rate Inc.
+73	Per Sec. Inc.
+74	Per Sec. Dec.
+75	Exp. Rate Inc.
+76	Inc. (Per Sec. In Party)
+77	Dec. (Per Sec. In Party)
+78	Inc.
+79	Inc.
+80	Inc.
+81	% Inc.
+82	% Inc.
+83	% Inc.
+84	Exp. Rate Inc.
+85	m Inc.
+86	% Inc.
+87	m Inc.
+88	Per Sec. Dec.
+89	Inc.
+90	Exp. Rate Inc.
+91	% Inc.
+92	Inc.
+93	m Inc.
+94	m Inc.
+95	Per Sec. Dec.
+96	Per Sec. Inc.
+97	m Inc.
+98	Per Sec. Dec.
+99	% Inc.
+100	Inc.
+101	Inc.
+102	% Inc.
+103	% Inc.
+104	Inc.
+105	% Inc.
+106	Inc.
+107	Inc.
+108	% Inc.
+109	% Inc.
+110	% Inc.
+111	Exp. Rate Inc.
+112	Exp. Rate Inc.
+113	Inc.
+114	Inc.
+115	m Inc.
+116	Inc.
+117	Inc.
+118	Inc.
+119	Inc.
+120	Inc.
+121	m Inc.
+122	Exp. Rate Inc.
+123	Inc.
+124	% Inc.
+125	Exp. Rate Inc.
+126	Inc.
+127	Per Sec. Inc.
+128	% Inc.
+129	Inc.
+130	Inc.
+131	Inc.
+132	Inc.
+133	Inc.
+134	Exp. Rate Inc.
+135	Inc.
+136	Inc.
+137	Inc.
+138	% Inc.
+139	Inc.
+140	% Inc.
+141	Exp. Rate Inc.
+142	% Inc.
+143	Inc.
+144	Inc.
+145	% Inc.
+146	% Inc.
+147	% Inc.
+148	m Inc.
+149	Exp. Rate Inc.
+150	Per Sec. Dec.
+151	Inc.
+152	Inc.
+153	Per Sec. Inc.
+154	Per Sec. Inc.
+155	Inc.
+156	Inc.
+157	Inc.
+158	% Inc.
+159	Inc.
+160	Inc.
+161	% Inc.
+162	Inc.
+163	Inc.
+164	% Inc.
+165	% Inc.
+166	Inc.
+167	Inc.
+168	Inc.
+169	Inc.
+170	Per Sec. Inc.
+171	Exp. Rate Inc.
+172	Inc.
+173	Inc.
+174	% Inc.
+175	% Inc.
+176	Inc.
+177	Per Sec. Inc.
+178	m Inc.
+179	Per Sec. Inc.
+180	Inc.
+181	% Inc.
+182	Inc.
+183	Per Sec. Inc.
+184	Inc.
+185	Inc.
+186	Exp. Rate Inc.
+187	Inc.
+188	Inc.
+189	Inc.
+190	m Inc.
+191	m Inc.
+192	Inc.
+193	Inc.
+194	Inc.
+195	Exp. Rate Inc.
+196	Inc.
+197	Inc.
+198	Inc.
+199	Inc.
+200	Inc.
+201	Inc.
+202	Inc.
+203	Per Sec. Inc.
+204	Per Sec. Dec.
+205	Exp. Rate Inc.
+206	Inc.
+207	Inc.
+208	Inc.
+209	Exp. Rate Inc.
+210	Inc.
+211	Inc.
+212	m Inc.
+213	m Inc.
+214	Exp. Rate Inc.
+215	% Inc.
+216	% Inc.
+217	% Inc.
+218	Inc.
+219	Inc.
+220	% Inc.
+221	Inc.
+222	Inc.
+223	% Inc.
+224	Exp. Rate Inc.
+225	% Inc.
+226	Inc.
+227	m Inc.
+228	% Inc.
+229	Per Sec. Inc.
+230	Exp. Rate Inc.
+231	Inc.
+232	Inc.
+233	Per Sec. Inc.
+234	Exp. Rate Inc.
+235	Inc.
+236	m Inc.
+237	Exp. Rate Inc.
+238	Inc.
+239	Inc.
+240	m Inc.
+241	% Inc.
+242	Inc.
+243	Per Sec. Inc.
+244	Per Sec. Dec.
+245	m Inc.
+246	Exp. Rate Inc.
+247	Inc.
+248	Inc.
+249	% Inc.
+250	Inc.
+251	Exp. Rate Inc.
+252	Exp. Rate Inc.
+253	Inc.
+254	% Inc.
+255	Per Sec. Dec.
+256	% Inc.
+257	% Inc.
+258	m Inc.
+259	m Inc.
+260	% Inc.
+261	Inc.
+262	% Inc.
+263	Exp. Rate Inc.
+264	Exp. Rate Inc.
+265	Inc.
+266	% Inc.
+267	Inc.
+268	% Inc.
+269	Exp. Rate Inc.
+270	% Inc.
+271	Inc.
+272	Inc.
+273	Inc.
+274	Inc.
+275	Inc.
+276	% Inc.
+277	Inc.
+278	Inc.
+279	Inc.
+280	% Inc.
+281	Inc.
+282	Exp. Rate Inc.
+283	Inc.
+284	Per Sec. Inc.
+285	% Inc.
+286	Inc.
+287	Inc.
+288	% Inc.
+289	m Inc.
+290	Inc.
+291	% Inc.
+292	Inc.
+293	Inc.
+294	% Inc.
+295	Exp. Rate Inc.
+296	% Inc.
+297	m Inc.
+298	Per Sec. Inc.
+299	Inc.
+300	Dist of Mobs Inc.
+301	Dist of Mobs Inc.
+302	m Inc.
+303	Inc.
+304	Inc.
+305	m Inc.
+306	Per Sec. Inc.
+307	Inc.
+308	Inc.
+309	Per Sec. Dec.
+310	Per Sec. Inc.
+311	Per Sec. Dec.
+312	Inc.
+313	Per Sec. Inc.
+314	Per Sec. Dec.
+315	Exp. Rate Inc.
+316	Exp. Rate Inc.
+317	Inc.
+318	Inc.
+319	Inc.
+320	Inc.
+321	Inc.
+322	Inc.
+323	Exp. Rate Inc.
+324	Inc.
+325	m Inc.
+326	Inc.
+327	Per Sec. Dec.
+328	% Inc.
+329	% Inc.
+330	Per Sec. Inc.
+331	Inc.
+332	Inc.
+333	Inc.
+334	Inc.
+335	Inc.
+336	Exp. Rate Inc.
+337	Per Sec. Inc.
+338	Inc.
+339	m Inc.
+340	Per Sec. Inc.
+341	Exp. Rate Inc.
+342	Per Sec. Inc.
+343	Inc.
+344	Inc.
+345	Exp. Rate Inc.
+346	Exp. Rate Inc.
+347	% Inc.
+348	% Inc.
+349	Inc.
+350	Inc.
+351	Exp. Rate Inc.
+352	m Inc.
+353	Inc.
+354	Inc.
+355	Exp. Rate Inc.
+356	m Inc.
+357	Per Sec. Dec.
+358	Inc.
+359	Inc.
+360	Inc.
+361	Per Sec. Dec.
+362	Per Sec. Inc.
+363	Dec.
+364	Inc.
+365	Inc.
+366	Inc.
+367	Inc.
+368	Exp. Rate Inc.
+369	% Inc.
+370	Inc.
+371	Inc.
+372	% Inc.
+373	Per Sec. Dec.
+374	m Inc.
+375	% Inc.
+376	Per Sec. Dec.
+377	Per Sec. Dec.
+378	m Inc.
+379	% Inc.
+380	Per Sec. Dec.
+381	Inc.
+382	Inc.
+383	% Inc.
+384	% Inc.
+385	Per Sec. Dec.
+386	Per Sec. Inc.
+387	% Inc.
+388	% Inc.
+389	Per Sec. Dec.
+390	% Inc.
+391	m Inc.
+392	% Inc.
+393	% Inc.
+394	Per Sec. Dec.
+395	Size Inc.
+396	Size Inc.
+397	m Inc.
+398	% Inc.
+399	% Inc.
+400	Inc.
+401	Inc.
+402	% Inc.
+403	Inc.
+404	Inc.
+405	Per Sec. Inc.
+406	m Inc.
+407	% Inc.
+408	% Inc.
+409	% Inc.
+410	Per Sec. Inc.
+411	% Inc.
+412	% Inc.
+413	% Inc.
+414	Ratio Inc.
+415	Ratio Inc.
+416	% Inc.
+417	% Inc.
+418	% Inc.
+419	Per Sec. Inc.
+420	m Inc.
+421	Inc.
+422	Inc.
+423	% Inc.
+424	% Inc.
+425	Per Sec. Inc.
+426	Inc.
+427	% Inc.
+428	% Inc.
+429	Per Sec. Inc.
+430	m Inc.
+431	Per Sec. Dec.
+432	Per Sec. Inc.
+433	m Inc.
+434	% Inc.
+435	Per Sec. Inc.
+436	m Inc.
+437	% Inc.
+438	% Inc.
+439	Inc.
+440	% Inc.
+441	Inc.
+442	Per Sec. Inc.
+443	m Inc.
+444	Inc.
+445	m Inc.
+446	Inc.
+447	m Inc.
+448	Per Sec. Dec.
+449	Inc.
+450	m Inc.
+451	Per Sec. Dec.
+452	Inc.
+453	Inc.
+454	Per Sec. Inc.
+455	Inc.
+456	Per Sec. Inc.
+457	m Inc.
+458	Inc.
+459	m Inc.
+460	Inc.
+461	Inc.
+462	Inc.
+463	Inc.
+464	Inc.
+465	Inc.
+466	Inc.
+467	Inc.
+468	% Inc.
+469	Inc.
+506	Inc.
+507	Inc.
+508	Per Sec. Dec.
+509	% Inc.
+510	% Inc.
+511	% Inc.
+512	% Inc.
+513	m Inc.
+514	m Inc.
+515	% Inc.
+516	m Inc.
+517	m Inc.
+518	Per Sec. Inc.
+520	Per Sec. Inc.
+521	% Inc.
+522	Person Inc.
+523	Inc.
+524	Inc.
+525	m Inc.
+526	% Inc.
+527	m Inc.
+528	% Inc.
+529	Boost Inc.
+530	Per Sec. Dec.
+531	Per Sec. Inc.
+532	Per Sec. Inc.
+533	% Inc.
+534	m Inc.
+535	Add. Dec.
+536	m Inc.
+537	Per Sec. Add. Dec.
+538	cm Inc.
+539	Inc.
+540	Inc.
+541	cm Inc.
+542	Inc.
+543	Inc.
+544	Inc.

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<cutscene>
+	<scenario name="cutscene_g19_renovation">
+		<stage region="215" origin="0 3472 0" hide="character_only" sky_time="2100" hide_balloon="true" />
+	</scenario>
+</cutscene>

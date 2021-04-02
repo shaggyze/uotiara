@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<cutscene>
+	<scenario name="DramaIria_Ep4_05">
+	
+	<!--4-5 : 완성된 성물-->
+		<!-->move /r:3300 /x:65117 /y:149863-->
+	</scenario>
+	<!--자이언트 시나리오-->
+<scenario name="DramaIria_Ep4_05_giant">
+	<!--4-5 : 완성된 성물-->
+		<!-->move /r:3300 /x:65117 /y:149863-->
+	</scenario>
+</cutscene>

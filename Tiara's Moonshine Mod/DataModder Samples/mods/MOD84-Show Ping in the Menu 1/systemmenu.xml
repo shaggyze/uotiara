@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<SystemMenuView name="SystemMenu" x="0" y="[$backBufferHeight]-[height]" width="140" height="[@ViewHeight;u16] - [@posUSA;u16]" isSingleton="true" title="_LT[xml.layout.723]" noClose="true" noMinimize="true" noMove="true" icon="mabinogi">
+	<meta>
+		<data key="fullScreenMode" type="string" valueLocal="_LT[xml.layout.738]" />
+		<data key="fullScreenModeToolTip" type="string" valueLocal="_LT[xml.layout.739]" />
+		<data key="windowMode" type="string" valueLocal="_LT[xml.layout.740]" />
+		<data key="windowModeToolTip" type="string" valueLocal="_LT[xml.layout.741]" />
+		<data key="ViewHeight" type="u16" value="350" __feature="gfCircleBoreadaeBoann" />
+		<data key="ViewHeight" type="u16" value="320" __feature="!gfCircleBoreadaeBoann" />
+		<!-- 미국 로케일 처리 -->
+		<data key="isUSA" type="bool" value="false" />
+		<data key="isUSA" type="bool" value="true" locale="usa" />
+		<data key="isUSA" type="bool" value="true" locale="china" />
+		<data key="isUSA" type="bool" value="true" locale="taiwan" />
+		<data key="posUSA" type="u16" value="0" />
+		<data key="posUSA" type="u16" value="74" locale="usa" />
+		<data key="posUSA" type="u16" value="108" locale="china" />
+		<data key="posUSA" type="u16" value="108" locale="taiwan" />
+		<data key="posJAPAN" type="u16" value="0" />
+		<data key="posJAPAN" type="u16" value="22" locale="japanese" />
+	</meta>
+	<Image name="PingImage" file="data/gfx/image/GUI_ping2.dds" frameWidth="20" frameHeight="20" x="-5" y="-8" visible="true">
+		<Layer index="1" color1="ffffffff" color2="[@pingColor;string]" color3="[@pingColor;string]" color4="[@pingColor;string]" />
+	</Image>
+	<Text name="ServerText" titleNoLocal="[@serverName;string]" x="17" y="-5" width="135" height="35" />
+	<Button name="MoveContinentButton" x="5" y="15" width="145" height="34" imageType="4" align="left" title="_LT[xml.layout.724]" enable="false">
+		<ResizeDependency top="bottom" bottom="bottom" />
+		<ToolTip title="_LT[xml.layout.725]" immediate="true" />
+	</Button>
+	<Button name="MoveChannelButton" x="5" y="15 + 34" width="145" height="34" imageType="4" align="left" title="_LT[xml.layout.726]">
+		<ResizeDependency top="bottom" bottom="bottom" />
+	</Button>
+	<Button name="FullScreenButton" x="5" y="13 + 34 * 2 + 4" width="145" height="34" imageType="4" align="left" title="_LT[xml.layout.727]">
+		<ResizeDependency top="bottom" bottom="bottom" />
+	</Button>
+	<Button name="ScreenShotButton" x="5" y="15 + 34 * 3 + 4" width="145" height="34" imageType="4" align="left" title="_LT[xml.layout.728]">
+		<ResizeDependency top="bottom" bottom="bottom" />
+	</Button>
+	<Button name="HomepageButton" x="5" y="13 + 34 * 4 + 4 * 2" width="145" height="34" imageType="4" align="left" title="_LT[xml.layout.729]">
+		<ResizeDependency top="bottom" bottom="bottom" />
+	</Button>
+	<!--Button name="GameBoardButton" x="10" y="15 + 34 * 4 + 22 + 4 * 2" width="145" height="22" imageType="4" align="left" title="_LT[xml.layout.730]">
+		<ResizeDependency top="bottom" bottom="bottom" />
+	</Button>
+	<Button name="ManualBoardButton" x="10" y="15 + 34 * 4 + 22 * 2 + 4 * 2" width="145" height="22" imageType="4" align="left" title="_LT[xml.layout.731]">
+		<ResizeDependency top="bottom" bottom="bottom" />
+	</Button-->
+	<!-- gfCircleBoreadaeBoann 음유시인 버튼 추가 레이아웃 변경 -->
+	<if condition="[$feature gfCircleBoreadaeBoann]">
+		<Button __locale="korea" name="Composer" x="5" y="15 + 34 * 4 + 14 * 5 + 4 * 2" width="145" height="34" imageType="4" align="left" title="_LT[xml.layout.2636]">
+			<ResizeDependency top="bottom" bottom="bottom" />
+		</Button>
+		<if condition="[$feature gfBardBoard]">
+			
+			<Button __locale="usa" name="Composer" x="5" y="15 + 34 * 5 + 4 * 2" width="145" height="34" imageType="4" align="left" title="_LT[xml.layout.2636]">
+				<ResizeDependency top="bottom" bottom="bottom" />
+			</Button>
+		</if>
+		<!--Button name="QnAButton" x="10" y="15 + 34 * 4 + 22 * 3 + 4 * 2" width="145" height="22" imageType="4" align="left" title="_LT[xml.layout.732]">
+				<ResizeDependency top="bottom" bottom="bottom" />
+			</Button-->
+		<Button __locale="korea|japan" name="ShopButton" x="5" y="13 + 34 * 4 + 9 * 4 + 4 * 2" width="145" height="34" imageType="4" align="left" title="_LT[xml.layout.733]">
+			<ResizeDependency top="bottom" bottom="bottom" />
+		</Button>
+		<Button name="OptionButton" x="5" y="17 + 34 * 5 + 17 * 6 + 4 * 3 - [@posUSA;u16] - [@posJAPAN;u16]" width="145" height="34" imageType="4" align="left" title="_LT[xml.layout.735]">
+			<ResizeDependency top="bottom" bottom="bottom" />
+		</Button>
+		<Button name="LogOffButton" x="5" y="15 + 34 * 6 + 17 * 6 + 4 * 4 - [@posUSA;u16] - [@posJAPAN;u16]" width="145" height="34" imageType="4" align="left" title="_LT[xml.layout.736]">
+			<ResizeDependency top="bottom" bottom="bottom" />
+		</Button>
+		<Button name="ExitButton" x="5" y="17 + 34 * 7 + 17 * 6 + 4 * 4 - [@posUSA;u16] - [@posJAPAN;u16]" width="145" height="34" imageType="4" align="left" title="_LT[xml.layout.737]">
+			<ResizeDependency top="bottom" bottom="bottom" />
+		</Button>
+		<if condition="[$feature gfRelationSystem]">
+			<Button name="ErinnOnButton" x="5" y="17 + 34 * 5 + 14 * 5 + 4 * 2" width="145" height="34" imageType="4" align="left" title="_LT[xml.layout.734]">
+				<ResizeDependency top="bottom" bottom="bottom" />
+			</Button>
+		</if>
+	</if>
+	<if condition="[$feature gfCircleBoreadaeBoann]" not="true">
+		<!-- USA는 아래 세 가지 항목 표시 안함 -->
+		<if condition="[@isUSA;bool]" not="true">
+			<!--Button name="QnAButton" x="10" y="15 + 34 * 4 + 22 * 3 + 4 * 2" width="145" height="22" imageType="4" align="left" title="_LT[xml.layout.732]">
+				<ResizeDependency top="bottom" bottom="bottom" />
+			</Button-->
+			<Button name="ShopButton" x="5" y="13 + 34 * 4 + 9 * 4 + 4 * 2" width="145" height="34" imageType="4" align="left" title="_LT[xml.layout.733]">
+				<ResizeDependency top="bottom" bottom="bottom" />
+			</Button>
+			<if condition="[$feature gfRelationSystem]">
+				<Button name="ErinnOnButton" x="5" y="15 + 34 * 4 + 14 * 5 + 4 * 2" width="145" height="34" imageType="4" align="left" title="_LT[xml.layout.734]">
+					<ResizeDependency top="bottom" bottom="bottom" />
+				</Button>
+			</if>
+		</if>
+		<Button name="OptionButton" x="5" y="15 + 34 * 4 + 17 * 6 + 4 * 3 - [@posUSA;u16] - [@posJAPAN;u16]" width="145" height="34" imageType="4" align="left" title="_LT[xml.layout.735]">
+			<ResizeDependency top="bottom" bottom="bottom" />
+		</Button>
+		<Button name="LogOffButton" x="5" y="13 + 34 * 5 + 17 * 6 + 4 * 4 - [@posUSA;u16] - [@posJAPAN;u16]" width="145" height="34" imageType="4" align="left" title="_LT[xml.layout.736]">
+			<ResizeDependency top="bottom" bottom="bottom" />
+		</Button>
+		<Button name="ExitButton" x="5" y="15 + 34 * 6 + 17 * 6 + 4 * 4 - [@posUSA;u16] - [@posJAPAN;u16]" width="145" height="34" imageType="4" align="left" title="_LT[xml.layout.737]">
+			<ResizeDependency top="bottom" bottom="bottom" />
+		</Button>
+	</if>
+</SystemMenuView>

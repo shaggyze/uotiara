@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<!--컷씬 작업해봅니다-->
+<cutscene>
+	<scenario name="bossroom_giant_ice_sprite">
+		<stage region="911" origin="10000 0 10000" />
+	</scenario>
+</cutscene>

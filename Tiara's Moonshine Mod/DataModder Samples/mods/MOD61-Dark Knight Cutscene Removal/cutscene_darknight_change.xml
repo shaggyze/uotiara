@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<cutscene>
+
+	
+	<!-- 다크나이트 3급 -->	
+	<scenario name="dark_knight_change_1">
+		<stage region="current_only" origin="player_pos" hide_balloon="true" />
+        </scenario>
+
+	<!-- 다크나이트 3급 여성 -->	
+	<scenario name="dark_knight_change_1_f">
+		<stage region="current_only" origin="player_pos" hide_balloon="true" />
+        </scenario>
+
+	<!-- 다크나이트 2급 남성 -->	
+	<scenario name="dark_knight_change_2">
+	</scenario>
+
+	<!-- 다크나이트 2급 여성 -->	
+	<scenario name="dark_knight_change_2_f">
+
+	</scenario>
+
+        <!-- 다크나이트 1급 남성 -->	
+	<scenario name="dark_knight_change_3">
+		<stage region="current_only" origin="player_pos" hide_balloon="true" />
+	</scenario>
+
+	<!-- 다크나이트 1급 여성 -->
+	<scenario name="dark_knight_change_3_f">
+	</scenario>
+
+	<!-- 다크나이트 특급 남성 -->
+	<scenario name="dark_knight_change_4">
+		<stage region="current_only" origin="player_pos" hide_balloon="true" />
+	</scenario>
+
+	<!-- 다크나이트 특급 여성 -->
+	<scenario name="dark_knight_change_4_f">
+		<stage region="current_only" origin="player_pos" hide_balloon="true" />
+	</scenario>
+
+	</cutscene>

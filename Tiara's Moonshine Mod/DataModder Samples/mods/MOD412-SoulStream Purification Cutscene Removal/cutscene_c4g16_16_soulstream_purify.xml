@@ -1,0 +1,1537 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<cutscene>
+	<scenario name="C4G16_16_Soulstream_Purify">
+		<stage region="current_only" variation="region_variation_797006.xml" origin="player_pos" />
+		<client_sequence terminated_by_key="true">
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<system cmd="wait" duration="2000" />
+			<system cmd="nop">
+				<sequence>
+					<system cmd="wait" duration="2000" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="401" origin="113960 5525 120390" variation="region_variation_797006.xml" sky_time="0300" hide="character" />
+			<appear cmd="appear" id="벨라" actor="#bella" pos="0 0 0" dir="135" alpha="255" />
+			<appear cmd="appear" id="셰익스피어" actor="#Shakespear_16_guard" pos="-80 0 80" dir="-30" alpha="255" />
+			<appear cmd="appear" id="오원" actor="#admiral_owen" pos="0 0 200" dir="180" alpha="255" />
+			<appear cmd="appear" id="유저" actor="me" pos="200 0 100" dir="-90" alpha="255" />
+			<appear cmd="appear" id="오란" actor="#odran" pos="100 0 100" dir="90" alpha="255" />
+			<appear cmd="appear" id="에레원" actor="#eremon" pos="300 0 120" dir="180" alpha="255" />
+			<appear cmd="appear" id="시네이드" actor="_sinead_mission" pos="120 0 300" dir="0" alpha="255" />
+			<appear cmd="appear" id="안드라스" actor="#andras" pos="-250 0 -100" dir="180" alpha="255" />
+			<appear cmd="appear" id="페이단" actor="_padan_mission" pos="-80 0 -200" dir="0" alpha="255" />
+			<system cmd="set_actor_group" id="기타" members="에레원 시네이드 안드라스 페이단 셰익스피어 오원 유저 오란" />
+			<action cmd="set_eye" id="벨라" keyword="38" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="unequip" id="기타" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+			<action cmd="look_at_actor" id="기타" target="벨라" />
+			<action cmd="set_motion" id="벨라" motion="chapter4/human/anim/cutscene4/death.ani" chain="false" loop="true" />
+			<action cmd="set_motion" id="셰익스피어" motion="paladin\anim\tool\natural\paladin_natural_sit_01.ani" chain="false" loop="true" />
+
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="set_roll_angle" angle="0.0" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="set_weather" duration1="10" weather1="0" duration2="10" weather2="0" />
+				</sequence>
+				<sequence>
+					<effect cmd="set_atmosphere_time" duration="10" to="0300" />
+				</sequence>
+				<sequence>
+					<effect cmd="play_music" name="cutscene25" loop="0" />
+					<effect cmd="fadein" duration="3000" color="000000" continue="false" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="60" />
+					<camera cmd="set_pos" pos="-1471 400 -200" />
+					<camera cmd="set_target_pos" pos="-1 94 0" />
+					<camera cmd="rotate" speed="0.6" axis="0 -1 0" />
+					<system cmd="wait" duration="8000" />
+
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="60" />
+					<camera cmd="set_pos" pos="-409 800 -321" />
+					<camera cmd="set_target_pos" pos="0 0 0" />
+					<camera cmd="rotate" speed="1.6" axis="0 -1 0" />
+					<system cmd="wait" duration="4000" />
+
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="60" />
+					<camera cmd="set_pos" pos="-306 50 -28" />
+					<camera cmd="set_target_pos" pos="700 110 250" />
+					<camera cmd="rotate" speed="0.2" axis="0 -1 0" />
+					<system cmd="wait" duration="3000" />
+					<effect cmd="fadeout" duration="2000" color="000000" continue="true" />
+					<disappear cmd="disappear" id="기타" />
+					<disappear cmd="disappear" id="벨라" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="401" origin="73500 3400 126950" variation="region_variation_797006.xml" sky_time="0300" hide="character"  />
+			<appear cmd="appear" id="병사01" actor="#tara_guard" pos="0 0 0" dir="90" alpha="255" />
+			<appear cmd="appear" id="병사02" actor="_skathawarden_female_g16" pos="100 0 100" dir="0" alpha="255" />
+			<appear cmd="appear" id="병사03" actor="_royalalchemist_g16" pos="-100 0 -100" dir="180" alpha="255" />
+			<appear cmd="appear" id="병사04" actor="_humanfemalesoldier_g16" pos="-80 0 -200" dir="0" alpha="255" />
+			<system cmd="set_actor_group" id="병사" members="병사01 병사02 병사03 병사04" />
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+			<action cmd="set_motion_timescale" id="병사" scale="2.0" />
+			<system cmd="wait" duration="2000" />
+			<action cmd="set_motion" id="병사" motion="chapter4/human/anim/cutscene3/somebody_die.ani" chain="false" loop="false" />
+			<system cmd="wait" duration="2000" />
+			<action cmd="set_motion_timescale" id="병사" scale="0.001" />
+			<system cmd="wait" duration="500" />
+			<system cmd="nop">
+				<sequence>
+					<system cmd="wait" duration="2000" />
+					<effect cmd="fadein" duration="1500" color="000000" continue="false" />
+					<action cmd="set_motion_timescale" id="병사" scale="0.001" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="40" />
+					<camera cmd="set_pos" pos="216 600 -234" />
+					<camera cmd="set_target_pos" pos="50 0 -50" />
+					<camera cmd="rotate" speed="1.3" axis="0 1 0" />
+					<system cmd="wait" duration="6000" />
+
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="40" />
+					<camera cmd="set_pos" pos="500 30 0" />
+					<camera cmd="set_target_pos" pos="-1500 60 0" />
+					<camera cmd="rotate" speed="0.3" axis="0 -1 0" />
+					<camera cmd="set_roll_angle" angle="-2.0" />
+					<effect cmd="play_effect" effect="cutscene_ghost_out" pos="0 0 100" duration="999999" wait="false" id="" />
+					<effect cmd="play_effect" effect="cutscene_ghost_out" pos="200 0 100" duration="999999" wait="false" id="" />
+					<effect cmd="play_effect" effect="cutscene_ghost_out" pos="-200 0-100" duration="999999" wait="false" id="" />
+					<effect cmd="play_effect" effect="cutscene_ghost_out" pos="-80 0 -200" duration="999999" wait="false" id="" />
+					<system cmd="wait" duration="6000" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="5" />
+					<camera cmd="set_pos" pos="50 1500 500" />
+					<camera cmd="set_target_pos" pos="-100 0 -100" />
+					<system cmd="wait" duration="4000" />
+					<effect cmd="fadeout" duration="1000" color="000000" continue="true" />
+					<disappear cmd="disappear" id="병사" />
+				</sequence>
+				<sequence>
+					<camera cmd="change_fov" start="5" end="30" duration="5000" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="401" origin="113960 5525 120390" variation="region_variation_797006.xml" sky_time="0300" hide="character" />
+			<appear cmd="appear" id="벨라" actor="#bella" pos="0 0 0" dir="135" alpha="255" />
+			<appear cmd="appear" id="셰익스피어" actor="#Shakespear_16_guard" pos="-80 0 80" dir="-30" alpha="255" />
+			<appear cmd="appear" id="오원" actor="#admiral_owen" pos="0 0 200" dir="180" alpha="255" />
+			<appear cmd="appear" id="유저" actor="me" pos="200 0 100" dir="-90" alpha="255" />
+			<appear cmd="appear" id="오란" actor="#odran" pos="100 0 220" dir="90" alpha="255" />
+			<appear cmd="appear" id="에레원" actor="#eremon" pos="300 0 120" dir="180" alpha="255" />
+			<appear cmd="appear" id="시네이드" actor="_sinead_mission" pos="120 0 300" dir="0" alpha="255" />
+			<appear cmd="appear" id="안드라스" actor="#andras" pos="-250 0 -100" dir="180" alpha="255" />
+			<appear cmd="appear" id="페이단" actor="_padan_mission" pos="-80 0 -200" dir="0" alpha="255" />
+			<system cmd="set_actor_group" id="기타" members="에레원 시네이드 안드라스 페이단 셰익스피어 오원 유저 오란" />
+			<action cmd="set_eye" id="벨라" keyword="38" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="unequip" id="기타" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="플레이어" on="false" />
+			<action cmd="set_motion" id="벨라" motion="chapter4/human/anim/cutscene4/death.ani" chain="false" loop="true" />
+			<action cmd="set_motion" id="기타" motion="chapter4/human/anim/cutscene/1act/1act1ch_soldier_scare_guard01.ani" chain="false" />
+
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="set_roll_angle" angle="0.0" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="unequip" id="플레이어" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="플레이어" on="false" />
+
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="fadein" duration="1000" color="000000" continue="false" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="45" />
+					<camera cmd="set_pos" pos="-1471 400 -200" />
+					<camera cmd="set_target_pos" pos="-1 94 0" />
+					<camera cmd="rotate" speed="0.6" axis="0 -1 0" />
+					<camera cmd="set_roll_angle" angle="10.0" />
+					<camera cmd="vibrate" on="true" duration="9000" amount="10 10 10" />
+					<effect cmd="play_effect" effect="cutscene_ghost_in" pos="0 0 0" duration="999999" wait="false" id="g01" />
+					<effect cmd="play_effect" effect="cutscene_ghost_glow" pos="0 -50 0" duration="999999" wait="false" id="g02" />
+					<system cmd="wait" duration="4000" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="change_fov" start="70" end="20" duration="4500" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="70" />
+					<camera cmd="set_pos" pos="-50 600 -50" />
+					<camera cmd="set_target_pos" pos="0 0 0" />
+					<camera cmd="set_roll_angle" angle="5.0" />
+					<action cmd="set_motion" id="기타" motion="chapter4/human/anim/cutscene/1act/1act1ch_soldier_scare_guard01.ani" chain="false" />
+					<system cmd="wait" duration="3000" />
+					<effect cmd="fadeout" duration="1000" color="ffffff" continue="true" />
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="90" />
+					<camera cmd="set_pos" pos="335 0 -14000" />
+					<camera cmd="set_target_pos" pos="-5 600 -5" />
+					<camera cmd="rotate" speed="0.6" axis="0 -200 0" />
+					<camera cmd="set_roll_angle" angle="0.0" />
+					<effect cmd="fadein" duration="1000" color="ffffff" continue="false" />
+					<system cmd="wait" duration="1800" />
+					<effect cmd="play_sound_2d" name="g1_darkmagic_1.wav" />
+					<system cmd="wait" duration="500" />
+					<camera cmd="move_to" start_speed="600.0" acceleration="0.0" pos="335 0 -14000" />
+					<camera cmd="move_target_to" start_speed="600.0" acceleration="0.0" pos="-5 2000 -5" />
+					<system cmd="wait" duration="800" />
+					<effect cmd="fadeout" duration="1000" color="ffffff" continue="true" />
+					<disappear cmd="disappear" id="기타" />
+					<disappear cmd="disappear" id="벨라" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="220" origin="5600 6 6400" sky_time="1800" />
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="stop" />
+			<camera cmd="stop_target" />
+			<camera cmd="set_roll_angle" angle="0.0" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="set_weather" duration1="10" weather1="1" duration2="10" weather2="1" />
+				</sequence>
+				<sequence>
+					<effect cmd="set_atmosphere_time" duration="10" to="1800" />
+				</sequence>
+				<sequence>
+					<effect cmd="fadein" duration="1000" color="ffffff" continue="false" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="60" />
+					<camera cmd="set_pos" pos="800 400 -2828" />
+					<camera cmd="set_target_pos" pos="0 99 135" />
+					<camera cmd="set_roll_angle" angle="0.0" />
+					<camera cmd="rotate" speed="1.0" axis="0 -1 0" />
+					<system cmd="wait" duration="2500" />
+					<effect cmd="play_sound_2d" name="g1_darkmagic_1.wav" />
+					<system cmd="wait" duration="300" />
+					<effect cmd="stop_effect" id="fog" />
+					<camera cmd="vibrate" on="true" duration="3000" amount="10 30 10" />
+					<system cmd="wait" duration="1500" />
+					<effect cmd="fadeout" duration="1000" color="ffffff" continue="true" />
+					<system cmd="wait" duration="1000" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="219" origin="5625 6 6400" sky_time="2200" />
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="stop" />
+			<camera cmd="stop_target" />
+			<camera cmd="set_roll_angle" angle="0.0" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="set_weather" duration1="10" weather1="0" duration2="10" weather2="0" />
+				</sequence>
+				<sequence>
+					<effect cmd="set_atmosphere_time" duration="10" to="1200" />
+				</sequence>
+				<sequence>
+					<effect cmd="fadein" duration="2000" color="ffffff" continue="false" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="60" />
+					<camera cmd="set_pos" pos="800 700 -3828" />
+					<camera cmd="set_target_pos" pos="800 99 135" />
+					<camera cmd="set_roll_angle" angle="0.0" />
+					<camera cmd="rotate" speed="1.0" axis="0 -1 0" />
+					<system cmd="wait" duration="4500" />
+					<effect cmd="fadeout" duration="1000" color="000000" continue="true" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="4014" origin="72752 -1300 68623" sky_time="0300" />
+			<appear cmd="appear" id="병사01" actor="#hidden_wardens_B" pos="0 0 80" dir="0" alpha="255" />
+			<appear cmd="appear" id="병사02" actor="#hidden_wardens_D" pos="-80 0 -80" dir="-120" alpha="255" />
+			<appear cmd="appear" id="병사03" actor="#hidden_wardens_E" pos="-80 0 80" dir="120" alpha="255" />
+			<appear cmd="appear" id="괴물01" actor="#g16_cutscene_monster" pos="0 0 -1000" dir="90" alpha="255" />
+			<appear cmd="appear" id="괴물02" actor="#g16_cutscene_monster" pos="0 0 1000" dir="-90" alpha="255" />
+			<appear cmd="appear" id="괴물03" actor="#g16_cutscene_monster" pos="1000 0 0" dir="180" alpha="255" />
+			<appear cmd="appear" id="괴물04" actor="#g16_cutscene_monster" pos="-1000 0 0" dir="0" alpha="255" />
+			<system cmd="set_actor_group" id="병사" members="병사01 병사02 병사03" />
+			<system cmd="set_actor_group" id="괴물" members="괴물01 괴물02 괴물03 괴물04" />
+			<action cmd="look_at_pos" id="괴물" pos="0 100 0" />
+			<action cmd="switch_weaponset" id="병사" set="255" />
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+			<action cmd="set_battle_mode" id="병사" on="true" />
+			<action cmd="set_battle_mode" id="괴물" on="true" />
+
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="set_weather" duration1="10" weather1="0" duration2="10" weather2="0" />
+				</sequence>
+				<sequence>
+					<effect cmd="set_atmosphere_time" duration="10" to="1200" />
+				</sequence>
+				<sequence>
+					<system cmd="wait" duration="2000" />
+					<effect cmd="fadein" duration="1500" color="000000" continue="false" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="55" />
+					<camera cmd="set_pos" pos="150 113 -1515" />
+					<camera cmd="set_target_pos" pos="-5 94 -5" />
+					<camera cmd="rotate" speed="3.3" axis="0 1 0" />
+					<system cmd="wait" duration="7500" />
+
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="35" />
+					<camera cmd="set_pos" pos="500 80 0" />
+					<camera cmd="set_target_pos" pos="0 80 0" />
+					<camera cmd="rotate" speed="2.3" axis="0 -1 0" />
+					<camera cmd="set_roll_angle" angle="-2.0" />
+					<system cmd="wait" duration="3500" />
+
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="65" />
+					<camera cmd="set_pos" pos="1600 113 -2100" />
+					<camera cmd="set_target_pos" pos="0 2000 0" />
+
+					<system cmd="wait" duration="1500" />
+					<effect cmd="play_sound_2d" name="g1_darkmagic_1.wav" />
+					<system cmd="wait" duration="300" />
+					<camera cmd="move_to" start_speed="1500.0" acceleration="0.0" pos="1600 113 -2100" />
+					<camera cmd="move_target_to" start_speed="1500.0" acceleration="0.0" pos="0 150 0" />
+					<camera cmd="vibrate" on="true" duration="3000" amount="10 30 10" />
+					<system cmd="wait" duration="1500" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<system cmd="wait" duration="600" />
+					<action cmd="change_alpha" id="괴물" alpha="0" duration="2500" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="65" />
+					<camera cmd="set_pos" pos="1191 113 313" />
+					<camera cmd="set_target_pos" pos="-5 94 -957" />
+					<camera cmd="set_roll_angle" angle="6.0" />
+					<effect cmd="stop_effect" id="r02" />
+					<effect cmd="fadeout" duration="1000" color="ffffff" continue="true" />
+					<disappear cmd="disappear" id="괴물" />
+					<system cmd="wait" duration="1600" />
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="65" />
+					<camera cmd="set_pos" pos="1007 250 -1211" />
+					<camera cmd="set_target_pos" pos="0 94 0" />
+					<camera cmd="set_roll_angle" angle="0.0" />
+					<effect cmd="fadein" duration="1500" color="000000" continue="false" />
+					<system cmd="wait" duration="500" />
+					<action cmd="set_battle_mode" id="병사" on="false" />
+					<system cmd="wait" duration="1500" />
+					<effect cmd="stop_music" />
+					<effect cmd="fadeout" duration="3000" color="000000" continue="true" />
+					<system cmd="quit" />
+				</sequence>
+			</system>
+
+		</client_sequence>
+		<server_sequence>
+			<master>
+				<mint value="event/g16_event.mint::OnCutSceneEnded_797006_3" />
+			</master>
+		</server_sequence>
+	</scenario>
+
+
+<!--=========자이언트 컷신 분리=========-->
+
+	<scenario name="C4G16_16_Soulstream_Purify_giant">
+		<stage region="current_only" variation="region_variation_797006.xml" origin="player_pos" />
+		<client_sequence terminated_by_key="true">
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<system cmd="wait" duration="2000" />
+			<system cmd="nop">
+				<sequence>
+					<system cmd="wait" duration="2000" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="401" origin="113960 5525 120390" variation="region_variation_797006.xml" sky_time="0300" hide="character" />
+			<appear cmd="appear" id="벨라" actor="#bella" pos="0 0 0" dir="135" alpha="255" />
+			<appear cmd="appear" id="셰익스피어" actor="#Shakespear_16_guard" pos="-80 0 80" dir="-30" alpha="255" />
+			<appear cmd="appear" id="오원" actor="#admiral_owen" pos="0 0 200" dir="180" alpha="255" />
+			<appear cmd="appear" id="유저" actor="me" pos="200 0 100" dir="-90" alpha="255" />
+			<appear cmd="appear" id="오란" actor="#odran" pos="100 0 100" dir="90" alpha="255" />
+			<appear cmd="appear" id="에레원" actor="#eremon" pos="300 0 120" dir="180" alpha="255" />
+			<appear cmd="appear" id="시네이드" actor="_sinead_mission" pos="120 0 300" dir="0" alpha="255" />
+			<appear cmd="appear" id="안드라스" actor="#andras" pos="-250 0 -100" dir="180" alpha="255" />
+			<appear cmd="appear" id="페이단" actor="_padan_mission" pos="-80 0 -200" dir="0" alpha="255" />
+			<system cmd="set_actor_group" id="기타" members="에레원 시네이드 안드라스 페이단 셰익스피어 오원 유저 오란" />
+			<action cmd="set_eye" id="벨라" keyword="38" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="unequip" id="기타" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+			<action cmd="look_at_actor" id="기타" target="벨라" />
+			<action cmd="set_motion" id="벨라" motion="chapter4/human/anim/cutscene4/death.ani" chain="false" loop="true" />
+			<action cmd="set_motion" id="셰익스피어" motion="paladin\anim\tool\natural\paladin_natural_sit_01.ani" chain="false" loop="true" />
+
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="set_roll_angle" angle="0.0" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="set_weather" duration1="10" weather1="0" duration2="10" weather2="0" />
+				</sequence>
+				<sequence>
+					<effect cmd="set_atmosphere_time" duration="10" to="0300" />
+				</sequence>
+				<sequence>
+					<effect cmd="fadein" duration="3000" color="ffffff" continue="false" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="60" />
+					<camera cmd="set_pos" pos="-1471 400 -200" />
+					<camera cmd="set_target_pos" pos="-1 94 0" />
+					<camera cmd="rotate" speed="0.6" axis="0 -1 0" />
+					<system cmd="wait" duration="8000" />
+
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="70" />
+					<camera cmd="set_pos" pos="-409 800 -321" />
+					<camera cmd="set_target_pos" pos="0 0 0" />
+					<camera cmd="rotate" speed="1.6" axis="0 -1 0" />
+					<system cmd="wait" duration="4000" />
+
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="65" />
+					<camera cmd="set_pos" pos="-306 55 -28" />
+					<camera cmd="set_target_pos" pos="700 115 250" />
+					<camera cmd="rotate" speed="0.2" axis="0 -1 0" />
+					<system cmd="wait" duration="3000" />
+					<effect cmd="fadeout" duration="2000" color="000000" continue="true" />
+					<disappear cmd="disappear" id="기타" />
+					<disappear cmd="disappear" id="벨라" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="401" origin="73500 3400 126950" variation="region_variation_797006.xml" sky_time="0300" hide="character" />
+			<appear cmd="appear" id="병사01" actor="#tara_guard" pos="0 0 0" dir="90" alpha="255" />
+			<appear cmd="appear" id="병사02" actor="_skathawarden_female_g16" pos="100 0 100" dir="0" alpha="255" />
+			<appear cmd="appear" id="병사03" actor="_royalalchemist_g16" pos="-100 0 -100" dir="180" alpha="255" />
+			<appear cmd="appear" id="병사04" actor="_humanfemalesoldier_g16" pos="-80 0 -200" dir="0" alpha="255" />
+			<system cmd="set_actor_group" id="병사" members="병사01 병사02 병사03 병사04" />
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+			<action cmd="set_motion_timescale" id="병사" scale="2.0" />
+			<system cmd="wait" duration="2000" />
+			<action cmd="set_motion" id="병사" motion="chapter4/human/anim/cutscene3/somebody_die.ani" chain="false" loop="false" />
+			<system cmd="wait" duration="2000" />
+			<action cmd="set_motion_timescale" id="병사" scale="0.001" />
+			<system cmd="wait" duration="500" />
+			<system cmd="nop">
+				<sequence>
+					<system cmd="wait" duration="2000" />
+					<effect cmd="fadein" duration="1500" color="000000" continue="false" />
+					<action cmd="set_motion_timescale" id="병사" scale="0.001" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="40" />
+					<camera cmd="set_pos" pos="216 600 -234" />
+					<camera cmd="set_target_pos" pos="50 0 -50" />
+					<camera cmd="rotate" speed="1.3" axis="0 1 0" />
+					<system cmd="wait" duration="6000" />
+
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="40" />
+					<camera cmd="set_pos" pos="500 30 0" />
+					<camera cmd="set_target_pos" pos="-1500 60 0" />
+					<camera cmd="rotate" speed="0.3" axis="0 -1 0" />
+					<camera cmd="set_roll_angle" angle="-2.0" />
+					<effect cmd="play_effect" effect="cutscene_ghost_out" pos="0 0 100" duration="999999" wait="false" id="" />
+					<effect cmd="play_effect" effect="cutscene_ghost_out" pos="200 0 100" duration="999999" wait="false" id="" />
+					<effect cmd="play_effect" effect="cutscene_ghost_out" pos="-200 0-100" duration="999999" wait="false" id="" />
+					<effect cmd="play_effect" effect="cutscene_ghost_out" pos="-80 0 -200" duration="999999" wait="false" id="" />
+					<system cmd="wait" duration="6000" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="5" />
+					<camera cmd="set_pos" pos="50 1500 500" />
+					<camera cmd="set_target_pos" pos="-100 0 -100" />
+					<system cmd="wait" duration="4000" />
+					<effect cmd="fadeout" duration="1000" color="000000" continue="true" />
+					<disappear cmd="disappear" id="병사" />
+				</sequence>
+				<sequence>
+					<camera cmd="change_fov" start="5" end="30" duration="5000" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="401" origin="113960 5525 120390" variation="region_variation_797006.xml"  sky_time="0300" hide="character" />
+			<appear cmd="appear" id="벨라" actor="#bella" pos="0 0 0" dir="135" alpha="255" />
+			<appear cmd="appear" id="셰익스피어" actor="#Shakespear_16_guard" pos="-80 0 80" dir="-30" alpha="255" />
+			<appear cmd="appear" id="오원" actor="#admiral_owen" pos="0 0 200" dir="180" alpha="255" />
+			<appear cmd="appear" id="유저" actor="me" pos="200 0 100" dir="-90" alpha="255" />
+			<appear cmd="appear" id="오란" actor="#odran" pos="100 0 220" dir="90" alpha="255" />
+			<appear cmd="appear" id="에레원" actor="#eremon" pos="300 0 120" dir="180" alpha="255" />
+			<appear cmd="appear" id="시네이드" actor="_sinead_mission" pos="120 0 300" dir="0" alpha="255" />
+			<appear cmd="appear" id="안드라스" actor="#andras" pos="-250 0 -100" dir="180" alpha="255" />
+			<appear cmd="appear" id="페이단" actor="_padan_mission" pos="-80 0 -200" dir="0" alpha="255" />
+			<system cmd="set_actor_group" id="2기타" members="에레원 시네이드 안드라스 페이단 셰익스피어 오원 유저 오란" />
+			<action cmd="set_eye" id="벨라" keyword="38" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="unequip" id="2기타" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="true" />
+			<action cmd="set_motion" id="벨라" motion="chapter4/human/anim/cutscene4/death.ani" chain="false" loop="true" />
+			<action cmd="set_motion" id="2기타" motion="chapter4/human/anim/cutscene/1act/1act1ch_soldier_scare_guard01.ani" chain="false" />
+
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="set_roll_angle" angle="0.0" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="fadein" duration="1000" color="000000" continue="false" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="45" />
+					<camera cmd="set_pos" pos="-1471 400 -200" />
+					<camera cmd="set_target_pos" pos="-1 94 0" />
+					<camera cmd="rotate" speed="0.6" axis="0 -1 0" />
+					<camera cmd="set_roll_angle" angle="10.0" />
+					<camera cmd="vibrate" on="true" duration="9000" amount="10 10 10" />
+					<effect cmd="play_effect" effect="cutscene_ghost_in" pos="0 0 0" duration="999999" wait="false" id="g01" />
+					<effect cmd="play_effect" effect="cutscene_ghost_glow" pos="0 -50 0" duration="999999" wait="false" id="g02" />
+					<system cmd="wait" duration="4000" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="change_fov" start="70" end="20" duration="4500" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="70" />
+					<camera cmd="set_pos" pos="-50 600 -50" />
+					<camera cmd="set_target_pos" pos="0 0 0" />
+					<camera cmd="set_roll_angle" angle="5.0" />
+					<effect cmd="play_effect" effect="cutscene_ghost_in_2" pos="0 0 0" duration="999999" wait="false" id="g03" />
+					<action cmd="set_motion" id="병사" motion="chapter4/human/anim/cutscene/1act/1act1ch_soldier_scare_guard01.ani" chain="false" />
+					<system cmd="wait" duration="3000" />
+					<effect cmd="fadeout" duration="1000" color="ffffff" continue="true" />
+					<effect cmd="stop_effect" id="g01" />
+					<effect cmd="stop_effect" id="g02" />
+					<effect cmd="stop_effect" id="g03" />
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="90" />
+					<camera cmd="set_pos" pos="335 0 -14000" />
+					<camera cmd="set_target_pos" pos="-5 600 -5" />
+					<camera cmd="rotate" speed="0.6" axis="0 -200 0" />
+					<camera cmd="set_roll_angle" angle="0.0" />
+					<effect cmd="fadein" duration="1000" color="ffffff" continue="false" />
+					<system cmd="wait" duration="1800" />
+					<effect cmd="play_sound_2d" name="g1_darkmagic_1.wav" />
+					<system cmd="wait" duration="500" />
+					<camera cmd="move_to" start_speed="600.0" acceleration="0.0" pos="335 0 -14000" />
+					<camera cmd="move_target_to" start_speed="600.0" acceleration="0.0" pos="-5 2000 -5" />
+					<system cmd="wait" duration="800" />
+					<effect cmd="fadeout" duration="1000" color="ffffff" continue="true" />
+					<disappear cmd="disappear" id="2기타" />
+					<disappear cmd="disappear" id="벨라" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="220" origin="5600 6 6400" sky_time="1800" />
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="stop" />
+			<camera cmd="stop_target" />
+			<camera cmd="set_roll_angle" angle="0.0" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="set_weather" duration1="10" weather1="1" duration2="10" weather2="1" />
+				</sequence>
+				<sequence>
+					<effect cmd="set_atmosphere_time" duration="10" to="1800" />
+				</sequence>
+				<sequence>
+					<effect cmd="fadein" duration="1000" color="ffffff" continue="false" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="60" />
+					<camera cmd="set_pos" pos="800 400 -2828" />
+					<camera cmd="set_target_pos" pos="0 99 135" />
+					<camera cmd="set_roll_angle" angle="0.0" />
+					<camera cmd="rotate" speed="1.0" axis="0 -1 0" />
+					<effect cmd="play_effect" effect="G15_red_fog" pos="0 30 0" duration="99999999" wait="false" id="fog" />
+					<system cmd="wait" duration="2500" />
+					<effect cmd="play_sound_2d" name="g1_darkmagic_1.wav" />
+					<system cmd="wait" duration="300" />
+					<effect cmd="stop_effect" id="fog" />
+					<camera cmd="vibrate" on="true" duration="3000" amount="10 30 10" />
+					<system cmd="wait" duration="1500" />
+					<effect cmd="fadeout" duration="1000" color="ffffff" continue="true" />
+					<system cmd="wait" duration="1000" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="219" origin="5625 6 6400" sky_time="2200" />
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="stop" />
+			<camera cmd="stop_target" />
+			<camera cmd="set_roll_angle" angle="0.0" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="set_weather" duration1="10" weather1="0" duration2="10" weather2="0" />
+				</sequence>
+				<sequence>
+					<effect cmd="set_atmosphere_time" duration="10" to="1200" />
+				</sequence>
+				<sequence>
+					<effect cmd="fadein" duration="2000" color="ffffff" continue="false" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="60" />
+					<camera cmd="set_pos" pos="800 700 -3828" />
+					<camera cmd="set_target_pos" pos="800 99 135" />
+					<camera cmd="set_roll_angle" angle="0.0" />
+					<camera cmd="rotate" speed="1.0" axis="0 -1 0" />
+					<system cmd="wait" duration="4500" />
+					<effect cmd="fadeout" duration="1000" color="000000" continue="true" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="4014" origin="72752 -1300 68623" sky_time="0300" />
+			<appear cmd="appear" id="병사01" actor="#hidden_wardens_B" pos="0 0 80" dir="0" alpha="255" />
+			<appear cmd="appear" id="병사02" actor="#hidden_wardens_D" pos="-80 0 -80" dir="-120" alpha="255" />
+			<appear cmd="appear" id="병사03" actor="#hidden_wardens_E" pos="-80 0 80" dir="120" alpha="255" />
+			<appear cmd="appear" id="괴물01" actor="#g16_cutscene_monster" pos="0 0 -1000" dir="90" alpha="255" />
+			<appear cmd="appear" id="괴물02" actor="#g16_cutscene_monster" pos="0 0 1000" dir="-90" alpha="255" />
+			<appear cmd="appear" id="괴물03" actor="#g16_cutscene_monster" pos="1000 0 0" dir="180" alpha="255" />
+			<appear cmd="appear" id="괴물04" actor="#g16_cutscene_monster" pos="-1000 0 0" dir="0" alpha="255" />
+			<system cmd="set_actor_group" id="병사" members="병사01 병사02 병사03" />
+			<system cmd="set_actor_group" id="괴물" members="괴물01 괴물02 괴물03 괴물04" />
+			<action cmd="look_at_pos" id="괴물" pos="0 100 0" />
+			<action cmd="switch_weaponset" id="병사" set="255" />
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+			<action cmd="set_battle_mode" id="병사" on="true" />
+			<action cmd="set_battle_mode" id="괴물" on="true" />
+
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="set_weather" duration1="10" weather1="0" duration2="10" weather2="0" />
+				</sequence>
+				<sequence>
+					<effect cmd="set_atmosphere_time" duration="10" to="1200" />
+				</sequence>
+				<sequence>
+					<system cmd="wait" duration="2000" />
+					<effect cmd="fadein" duration="1500" color="000000" continue="false" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="55" />
+					<camera cmd="set_pos" pos="150 113 -1515" />
+					<camera cmd="set_target_pos" pos="-5 94 -5" />
+					<camera cmd="rotate" speed="3.3" axis="0 1 0" />
+					<system cmd="wait" duration="7500" />
+
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="35" />
+					<camera cmd="set_pos" pos="500 80 0" />
+					<camera cmd="set_target_pos" pos="0 80 0" />
+					<camera cmd="rotate" speed="2.3" axis="0 -1 0" />
+					<camera cmd="set_roll_angle" angle="-2.0" />
+					<system cmd="wait" duration="3500" />
+
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="65" />
+					<camera cmd="set_pos" pos="1600 113 -2100" />
+					<camera cmd="set_target_pos" pos="0 2000 0" />
+
+					<system cmd="wait" duration="1500" />
+					<effect cmd="play_sound_2d" name="g1_darkmagic_1.wav" />
+					<system cmd="wait" duration="300" />
+					<camera cmd="move_to" start_speed="1500.0" acceleration="0.0" pos="1600 113 -2100" />
+					<camera cmd="move_target_to" start_speed="1500.0" acceleration="0.0" pos="0 150 0" />
+					<camera cmd="vibrate" on="true" duration="3000" amount="10 30 10" />
+					<system cmd="wait" duration="1500" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<system cmd="wait" duration="600" />
+					<action cmd="change_alpha" id="괴물" alpha="0" duration="2500" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="65" />
+					<camera cmd="set_pos" pos="1191 113 313" />
+					<camera cmd="set_target_pos" pos="-5 94 -957" />
+					<camera cmd="set_roll_angle" angle="6.0" />
+					<effect cmd="stop_effect" id="r02" />
+					<effect cmd="fadeout" duration="1000" color="ffffff" continue="true" />
+					<disappear cmd="disappear" id="괴물" />
+					<system cmd="wait" duration="1600" />
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="65" />
+					<camera cmd="set_pos" pos="1007 250 -1211" />
+					<camera cmd="set_target_pos" pos="0 94 0" />
+					<camera cmd="set_roll_angle" angle="0.0" />
+					<effect cmd="fadein" duration="1500" color="000000" continue="false" />
+					<system cmd="wait" duration="500" />
+					<action cmd="set_battle_mode" id="병사" on="false" />
+					<system cmd="wait" duration="1500" />
+					<effect cmd="stop_music" />
+					<effect cmd="fadeout" duration="3000" color="000000" continue="true" />
+					<system cmd="nop" />
+				</sequence>
+			</system>
+
+		</client_sequence>
+		<!--서버시퀀스 입력-->
+		<server_sequence>
+			<master>
+				<mint value="event/g16_event.mint::OnCutSceneEnded_797006_3" />
+			</master>
+		</server_sequence>
+	</scenario>
+
+	<!-- C4 수정구슬 전용 -->
+	<scenario name="C4G16_16_Soulstream_Purify_crystal">
+		<stage region="current_only" variation="region_variation_797006.xml" origin="player_pos" />
+		<client_sequence terminated_by_key="true">
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<system cmd="wait" duration="2000" />
+			<system cmd="nop">
+				<sequence>
+					<system cmd="wait" duration="2000" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="401" origin="113960 5525 120390" variation="region_variation_797006.xml" sky_time="0300" hide="character" __feature="!gfTaraRenewal"/>
+			<system cmd="set_region" region="438" origin="113960 5525 120390" variation="region_variation_797006.xml" sky_time="0300" hide="character" __feature="gfTaraRenewal"/>
+
+			<appear cmd="appear" id="벨라" actor="#bella" pos="0 0 0" dir="135" alpha="255" />
+			<appear cmd="appear" id="셰익스피어" actor="#Shakespear_16_guard" pos="-80 0 80" dir="-30" alpha="255" />
+			<appear cmd="appear" id="오원" actor="#admiral_owen" pos="0 0 200" dir="180" alpha="255" />
+			<appear cmd="appear" id="유저" actor="me" pos="200 0 100" dir="-90" alpha="255" />
+			<appear cmd="appear" id="오란" actor="#odran" pos="100 0 100" dir="90" alpha="255" />
+			<appear cmd="appear" id="에레원" actor="#eremon" pos="300 0 120" dir="180" alpha="255" />
+			<appear cmd="appear" id="시네이드" actor="_sinead_mission" pos="120 0 300" dir="0" alpha="255" />
+			<appear cmd="appear" id="안드라스" actor="#andras" pos="-250 0 -100" dir="180" alpha="255" />
+			<appear cmd="appear" id="페이단" actor="_padan_mission" pos="-80 0 -200" dir="0" alpha="255" />
+			<system cmd="set_actor_group" id="기타" members="에레원 시네이드 안드라스 페이단 셰익스피어 오원 유저 오란" />
+			<action cmd="set_eye" id="벨라" keyword="38" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="unequip" id="기타" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+			<action cmd="look_at_actor" id="기타" target="벨라" />
+			<action cmd="set_motion" id="벨라" motion="chapter4/human/anim/cutscene4/death.ani" chain="false" loop="true" />
+			<action cmd="set_motion" id="셰익스피어" motion="paladin\anim\tool\natural\paladin_natural_sit_01.ani" chain="false" loop="true" />
+
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="set_roll_angle" angle="0.0" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="set_weather" duration1="10" weather1="0" duration2="10" weather2="0" />
+				</sequence>
+				<sequence>
+					<effect cmd="set_atmosphere_time" duration="10" to="0300" />
+				</sequence>
+				<sequence>
+					<effect cmd="play_music" name="cutscene25" loop="0" />
+					<effect cmd="fadein" duration="3000" color="000000" continue="false" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="60" />
+					<camera cmd="set_pos" pos="-1471 400 -200" />
+					<camera cmd="set_target_pos" pos="-1 94 0" />
+					<camera cmd="rotate" speed="0.6" axis="0 -1 0" />
+					<system cmd="wait" duration="8000" />
+
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="60" />
+					<camera cmd="set_pos" pos="-409 800 -321" />
+					<camera cmd="set_target_pos" pos="0 0 0" />
+					<camera cmd="rotate" speed="1.6" axis="0 -1 0" />
+					<system cmd="wait" duration="4000" />
+
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="60" />
+					<camera cmd="set_pos" pos="-306 50 -28" />
+					<camera cmd="set_target_pos" pos="700 110 250" />
+					<camera cmd="rotate" speed="0.2" axis="0 -1 0" />
+					<system cmd="wait" duration="3000" />
+					<effect cmd="fadeout" duration="2000" color="000000" continue="true" />
+					<disappear cmd="disappear" id="기타" />
+					<disappear cmd="disappear" id="벨라" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="401" origin="73500 3400 126950" variation="region_variation_797006.xml" sky_time="0300" hide="character"  __feature="!gfTaraRenewal"/>
+			<system cmd="set_region" region="438" origin="73500 3400 126950" variation="region_variation_797006.xml" sky_time="0300" hide="character"  __feature="gfTaraRenewal"/>
+
+			<appear cmd="appear" id="병사01" actor="#tara_guard" pos="0 0 0" dir="90" alpha="255" />
+			<appear cmd="appear" id="병사02" actor="_skathawarden_female_g16" pos="100 0 100" dir="0" alpha="255" />
+			<appear cmd="appear" id="병사03" actor="_royalalchemist_g16" pos="-100 0 -100" dir="180" alpha="255" />
+			<appear cmd="appear" id="병사04" actor="_humanfemalesoldier_g16" pos="-80 0 -200" dir="0" alpha="255" />
+			<system cmd="set_actor_group" id="병사" members="병사01 병사02 병사03 병사04" />
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+			<action cmd="set_motion_timescale" id="병사" scale="2.0" />
+			<system cmd="wait" duration="2000" />
+			<action cmd="set_motion" id="병사" motion="chapter4/human/anim/cutscene3/somebody_die.ani" chain="false" loop="false" />
+			<system cmd="wait" duration="2000" />
+			<action cmd="set_motion_timescale" id="병사" scale="0.001" />
+			<system cmd="wait" duration="500" />
+			<system cmd="nop">
+				<sequence>
+					<system cmd="wait" duration="2000" />
+					<effect cmd="fadein" duration="1500" color="000000" continue="false" />
+					<action cmd="set_motion_timescale" id="병사" scale="0.001" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="40" />
+					<camera cmd="set_pos" pos="216 600 -234" />
+					<camera cmd="set_target_pos" pos="50 0 -50" />
+					<camera cmd="rotate" speed="1.3" axis="0 1 0" />
+					<system cmd="wait" duration="6000" />
+
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="40" />
+					<camera cmd="set_pos" pos="500 30 0" />
+					<camera cmd="set_target_pos" pos="-1500 60 0" />
+					<camera cmd="rotate" speed="0.3" axis="0 -1 0" />
+					<camera cmd="set_roll_angle" angle="-2.0" />
+					<effect cmd="play_effect" effect="cutscene_ghost_out" pos="0 0 100" duration="999999" wait="false" id="" />
+					<effect cmd="play_effect" effect="cutscene_ghost_out" pos="200 0 100" duration="999999" wait="false" id="" />
+					<effect cmd="play_effect" effect="cutscene_ghost_out" pos="-200 0-100" duration="999999" wait="false" id="" />
+					<effect cmd="play_effect" effect="cutscene_ghost_out" pos="-80 0 -200" duration="999999" wait="false" id="" />
+					<system cmd="wait" duration="6000" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="5" />
+					<camera cmd="set_pos" pos="50 1500 500" />
+					<camera cmd="set_target_pos" pos="-100 0 -100" />
+					<system cmd="wait" duration="4000" />
+					<effect cmd="fadeout" duration="1000" color="000000" continue="true" />
+					<disappear cmd="disappear" id="병사" />
+				</sequence>
+				<sequence>
+					<camera cmd="change_fov" start="5" end="30" duration="5000" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="401" origin="113960 5525 120390" variation="region_variation_797006.xml" sky_time="0300" hide="character" __feature="!gfTaraRenewal"/>
+			<system cmd="set_region" region="438" origin="113960 5525 120390" variation="region_variation_797006.xml" sky_time="0300" hide="character" __feature="gfTaraRenewal"/>
+
+			<appear cmd="appear" id="벨라" actor="#bella" pos="0 0 0" dir="135" alpha="255" />
+			<appear cmd="appear" id="셰익스피어" actor="#Shakespear_16_guard" pos="-80 0 80" dir="-30" alpha="255" />
+			<appear cmd="appear" id="오원" actor="#admiral_owen" pos="0 0 200" dir="180" alpha="255" />
+			<appear cmd="appear" id="유저" actor="me" pos="200 0 100" dir="-90" alpha="255" />
+			<appear cmd="appear" id="오란" actor="#odran" pos="100 0 220" dir="90" alpha="255" />
+			<appear cmd="appear" id="에레원" actor="#eremon" pos="300 0 120" dir="180" alpha="255" />
+			<appear cmd="appear" id="시네이드" actor="_sinead_mission" pos="120 0 300" dir="0" alpha="255" />
+			<appear cmd="appear" id="안드라스" actor="#andras" pos="-250 0 -100" dir="180" alpha="255" />
+			<appear cmd="appear" id="페이단" actor="_padan_mission" pos="-80 0 -200" dir="0" alpha="255" />
+			<system cmd="set_actor_group" id="기타" members="에레원 시네이드 안드라스 페이단 셰익스피어 오원 유저 오란" />
+			<action cmd="set_eye" id="벨라" keyword="38" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="unequip" id="기타" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="플레이어" on="false" />
+			<action cmd="set_motion" id="벨라" motion="chapter4/human/anim/cutscene4/death.ani" chain="false" loop="true" />
+			<action cmd="set_motion" id="기타" motion="chapter4/human/anim/cutscene/1act/1act1ch_soldier_scare_guard01.ani" chain="false" />
+
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="set_roll_angle" angle="0.0" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="unequip" id="플레이어" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="플레이어" on="false" />
+
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="fadein" duration="1000" color="000000" continue="false" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="45" />
+					<camera cmd="set_pos" pos="-1471 400 -200" />
+					<camera cmd="set_target_pos" pos="-1 94 0" />
+					<camera cmd="rotate" speed="0.6" axis="0 -1 0" />
+					<camera cmd="set_roll_angle" angle="10.0" />
+					<camera cmd="vibrate" on="true" duration="9000" amount="10 10 10" />
+					<effect cmd="play_effect" effect="cutscene_ghost_in" pos="0 0 0" duration="999999" wait="false" id="g01" />
+					<effect cmd="play_effect" effect="cutscene_ghost_glow" pos="0 -50 0" duration="999999" wait="false" id="g02" />
+					<system cmd="wait" duration="4000" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="change_fov" start="70" end="20" duration="4500" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="70" />
+					<camera cmd="set_pos" pos="-50 600 -50" />
+					<camera cmd="set_target_pos" pos="0 0 0" />
+					<camera cmd="set_roll_angle" angle="5.0" />
+					<effect cmd="play_effect" effect="cutscene_ghost_in_2" pos="0 0 0" duration="999999" wait="false" id="g03" />
+					<action cmd="set_motion" id="기타" motion="chapter4/human/anim/cutscene/1act/1act1ch_soldier_scare_guard01.ani" chain="false" />
+					<system cmd="wait" duration="3000" />
+					<effect cmd="fadeout" duration="1000" color="ffffff" continue="true" />
+					<effect cmd="stop_effect" id="g01" />
+					<effect cmd="stop_effect" id="g02" />
+					<effect cmd="stop_effect" id="g03" />
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="90" />
+					<camera cmd="set_pos" pos="335 0 -14000" />
+					<camera cmd="set_target_pos" pos="-5 600 -5" />
+					<camera cmd="rotate" speed="0.6" axis="0 -200 0" />
+					<camera cmd="set_roll_angle" angle="0.0" />
+					<effect cmd="fadein" duration="1000" color="ffffff" continue="false" />
+					<system cmd="wait" duration="1800" />
+					<effect cmd="play_sound_2d" name="g1_darkmagic_1.wav" />
+					<effect cmd="play_effect" effect="cutscene_G16_castle_light" pos="0 500 0" duration="999999" wait="false" id="g01" />
+					<system cmd="wait" duration="500" />
+					<camera cmd="move_to" start_speed="600.0" acceleration="0.0" pos="335 0 -14000" />
+					<camera cmd="move_target_to" start_speed="600.0" acceleration="0.0" pos="-5 2000 -5" />
+					<system cmd="wait" duration="800" />
+					<effect cmd="fadeout" duration="1000" color="ffffff" continue="true" />
+					<disappear cmd="disappear" id="기타" />
+					<disappear cmd="disappear" id="벨라" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="220" origin="5600 6 6400" sky_time="1800" />
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="stop" />
+			<camera cmd="stop_target" />
+			<camera cmd="set_roll_angle" angle="0.0" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="set_weather" duration1="10" weather1="1" duration2="10" weather2="1" />
+				</sequence>
+				<sequence>
+					<effect cmd="set_atmosphere_time" duration="10" to="1800" />
+				</sequence>
+				<sequence>
+					<effect cmd="fadein" duration="1000" color="ffffff" continue="false" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="60" />
+					<camera cmd="set_pos" pos="800 400 -2828" />
+					<camera cmd="set_target_pos" pos="0 99 135" />
+					<camera cmd="set_roll_angle" angle="0.0" />
+					<camera cmd="rotate" speed="1.0" axis="0 -1 0" />
+					<effect cmd="play_effect" effect="G15_red_fog" pos="0 30 0" duration="99999999" wait="false" id="fog" />
+					<system cmd="wait" duration="2500" />
+					<effect cmd="play_sound_2d" name="g1_darkmagic_1.wav" />
+					<effect cmd="play_effect" effect="cutscene_G16_light_rev" pos="0 4000 0" duration="999999" wait="false" id="r01" />
+					<system cmd="wait" duration="300" />
+					<effect cmd="stop_effect" id="fog" />
+					<camera cmd="vibrate" on="true" duration="3000" amount="10 30 10" />
+					<effect cmd="play_effect" effect="cutscene_G16_castle_light_boom" pos="0 0 0" duration="999999" wait="false" id="b01" />
+					<system cmd="wait" duration="1500" />
+					<effect cmd="fadeout" duration="1000" color="ffffff" continue="true" />
+					<system cmd="wait" duration="1000" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="219" origin="5625 6 6400" sky_time="2200" />
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="stop" />
+			<camera cmd="stop_target" />
+			<camera cmd="set_roll_angle" angle="0.0" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="set_weather" duration1="10" weather1="0" duration2="10" weather2="0" />
+				</sequence>
+				<sequence>
+					<effect cmd="set_atmosphere_time" duration="10" to="1200" />
+				</sequence>
+				<sequence>
+					<effect cmd="fadein" duration="2000" color="ffffff" continue="false" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="60" />
+					<camera cmd="set_pos" pos="800 700 -3828" />
+					<camera cmd="set_target_pos" pos="800 99 135" />
+					<camera cmd="set_roll_angle" angle="0.0" />
+					<camera cmd="rotate" speed="1.0" axis="0 -1 0" />
+					<system cmd="wait" duration="4500" />
+					<effect cmd="fadeout" duration="1000" color="000000" continue="true" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="4014" origin="72752 -1300 68623" sky_time="0300" />
+			<appear cmd="appear" id="병사01" actor="#hidden_wardens_B" pos="0 0 80" dir="0" alpha="255" />
+			<appear cmd="appear" id="병사02" actor="#hidden_wardens_D" pos="-80 0 -80" dir="-120" alpha="255" />
+			<appear cmd="appear" id="병사03" actor="#hidden_wardens_E" pos="-80 0 80" dir="120" alpha="255" />
+			<appear cmd="appear" id="괴물01" actor="#g16_cutscene_monster" pos="0 0 -1000" dir="90" alpha="255" />
+			<appear cmd="appear" id="괴물02" actor="#g16_cutscene_monster" pos="0 0 1000" dir="-90" alpha="255" />
+			<appear cmd="appear" id="괴물03" actor="#g16_cutscene_monster" pos="1000 0 0" dir="180" alpha="255" />
+			<appear cmd="appear" id="괴물04" actor="#g16_cutscene_monster" pos="-1000 0 0" dir="0" alpha="255" />
+			<system cmd="set_actor_group" id="병사" members="병사01 병사02 병사03" />
+			<system cmd="set_actor_group" id="괴물" members="괴물01 괴물02 괴물03 괴물04" />
+			<action cmd="look_at_pos" id="괴물" pos="0 100 0" />
+			<action cmd="switch_weaponset" id="병사" set="255" />
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+			<action cmd="set_battle_mode" id="병사" on="true" />
+			<action cmd="set_battle_mode" id="괴물" on="true" />
+
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="set_weather" duration1="10" weather1="0" duration2="10" weather2="0" />
+				</sequence>
+				<sequence>
+					<effect cmd="set_atmosphere_time" duration="10" to="1200" />
+				</sequence>
+				<sequence>
+					<system cmd="wait" duration="2000" />
+					<effect cmd="fadein" duration="1500" color="000000" continue="false" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="55" />
+					<camera cmd="set_pos" pos="150 113 -1515" />
+					<camera cmd="set_target_pos" pos="-5 94 -5" />
+					<camera cmd="rotate" speed="3.3" axis="0 1 0" />
+					<system cmd="wait" duration="7500" />
+
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="35" />
+					<camera cmd="set_pos" pos="500 80 0" />
+					<camera cmd="set_target_pos" pos="0 80 0" />
+					<camera cmd="rotate" speed="2.3" axis="0 -1 0" />
+					<camera cmd="set_roll_angle" angle="-2.0" />
+					<system cmd="wait" duration="3500" />
+
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="65" />
+					<camera cmd="set_pos" pos="1600 113 -2100" />
+					<camera cmd="set_target_pos" pos="0 2000 0" />
+
+					<system cmd="wait" duration="1500" />
+					<effect cmd="play_sound_2d" name="g1_darkmagic_1.wav" />
+					<effect cmd="play_effect" effect="cutscene_G16_light_rev" pos="0 4000 0" duration="999999" wait="false" id="r02" />
+					<system cmd="wait" duration="300" />
+					<camera cmd="move_to" start_speed="1500.0" acceleration="0.0" pos="1600 113 -2100" />
+					<camera cmd="move_target_to" start_speed="1500.0" acceleration="0.0" pos="0 150 0" />
+					<camera cmd="vibrate" on="true" duration="3000" amount="10 30 10" />
+					<effect cmd="play_effect" effect="cutscene_G16_castle_light_boom" pos="0 150 0" duration="999999" wait="false" id="b02" />
+					<system cmd="wait" duration="1500" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<system cmd="wait" duration="600" />
+					<action cmd="change_alpha" id="괴물" alpha="0" duration="2500" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="65" />
+					<camera cmd="set_pos" pos="1191 113 313" />
+					<camera cmd="set_target_pos" pos="-5 94 -957" />
+					<camera cmd="set_roll_angle" angle="6.0" />
+					<effect cmd="stop_effect" id="r02" />
+					<effect cmd="fadeout" duration="1000" color="ffffff" continue="true" />
+					<disappear cmd="disappear" id="괴물" />
+					<system cmd="wait" duration="1600" />
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="65" />
+					<camera cmd="set_pos" pos="1007 250 -1211" />
+					<camera cmd="set_target_pos" pos="0 94 0" />
+					<camera cmd="set_roll_angle" angle="0.0" />
+					<effect cmd="fadein" duration="1500" color="000000" continue="false" />
+					<system cmd="wait" duration="500" />
+					<action cmd="set_battle_mode" id="병사" on="false" />
+					<system cmd="wait" duration="1500" />
+					<effect cmd="stop_music" />
+					<effect cmd="fadeout" duration="3000" color="000000" continue="true" />
+					<system cmd="quit" />
+				</sequence>
+			</system>
+		</client_sequence>
+	</scenario>
+
+	<!-- 자이언트 전용-->
+	<scenario name="C4G16_16_Soulstream_Purify_crystal_giant">
+		<stage region="current_only" variation="region_variation_797006.xml" origin="player_pos" />
+		<client_sequence terminated_by_key="true">
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<system cmd="wait" duration="2000" />
+			<system cmd="nop">
+				<sequence>
+					<system cmd="wait" duration="2000" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="401" origin="113960 5525 120390" variation="region_variation_797006.xml" sky_time="0300" hide="character_only" __feature="!gfTaraRenewal"/>
+			<system cmd="set_region" region="438" origin="113960 5525 120390" variation="region_variation_797006.xml" sky_time="0300" hide="character_only" __feature="gfTaraRenewal"/>
+
+			<appear cmd="appear" id="벨라" actor="#bella" pos="0 0 0" dir="135" alpha="255" />
+			<appear cmd="appear" id="셰익스피어" actor="#Shakespear_16_guard" pos="-80 0 80" dir="-30" alpha="255" />
+			<appear cmd="appear" id="오원" actor="#admiral_owen" pos="0 0 200" dir="180" alpha="255" />
+			<appear cmd="appear" id="유저" actor="me" pos="200 0 100" dir="-90" alpha="255" />
+			<appear cmd="appear" id="오란" actor="#odran" pos="100 0 100" dir="90" alpha="255" />
+			<appear cmd="appear" id="에레원" actor="#eremon" pos="300 0 120" dir="180" alpha="255" />
+			<appear cmd="appear" id="시네이드" actor="_sinead_mission" pos="120 0 300" dir="0" alpha="255" />
+			<appear cmd="appear" id="안드라스" actor="#andras" pos="-250 0 -100" dir="180" alpha="255" />
+			<appear cmd="appear" id="페이단" actor="_padan_mission" pos="-80 0 -200" dir="0" alpha="255" />
+			<system cmd="set_actor_group" id="기타" members="에레원 시네이드 안드라스 페이단 셰익스피어 오원 유저 오란" />
+			<action cmd="set_eye" id="벨라" keyword="38" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="unequip" id="기타" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+			<action cmd="look_at_actor" id="기타" target="벨라" />
+			<action cmd="set_motion" id="벨라" motion="chapter4/human/anim/cutscene4/death.ani" chain="false" loop="true" />
+			<action cmd="set_motion" id="셰익스피어" motion="paladin\anim\tool\natural\paladin_natural_sit_01.ani" chain="false" loop="true" />
+
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="set_roll_angle" angle="0.0" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="set_weather" duration1="10" weather1="0" duration2="10" weather2="0" />
+				</sequence>
+				<sequence>
+					<effect cmd="set_atmosphere_time" duration="10" to="0300" />
+				</sequence>
+				<sequence>
+					<effect cmd="fadein" duration="3000" color="ffffff" continue="false" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="60" />
+					<camera cmd="set_pos" pos="-1471 400 -200" />
+					<camera cmd="set_target_pos" pos="-1 94 0" />
+					<camera cmd="rotate" speed="0.6" axis="0 -1 0" />
+					<system cmd="wait" duration="8000" />
+
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="70" />
+					<camera cmd="set_pos" pos="-409 800 -321" />
+					<camera cmd="set_target_pos" pos="0 0 0" />
+					<camera cmd="rotate" speed="1.6" axis="0 -1 0" />
+					<system cmd="wait" duration="4000" />
+
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="65" />
+					<camera cmd="set_pos" pos="-306 55 -28" />
+					<camera cmd="set_target_pos" pos="700 115 250" />
+					<camera cmd="rotate" speed="0.2" axis="0 -1 0" />
+					<system cmd="wait" duration="3000" />
+					<effect cmd="fadeout" duration="2000" color="000000" continue="true" />
+					<disappear cmd="disappear" id="기타" />
+					<disappear cmd="disappear" id="벨라" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="401" origin="73500 3400 126950" variation="region_variation_797006.xml" sky_time="0300" hide="character_only" __feature="!gfTaraRenewal"/>
+			<system cmd="set_region" region="438" origin="73500 3400 126950" variation="region_variation_797006.xml" sky_time="0300" hide="character_only" __feature="gfTaraRenewal"/>
+
+
+			<appear cmd="appear" id="병사01" actor="#tara_guard" pos="0 0 0" dir="90" alpha="255" />
+			<appear cmd="appear" id="병사02" actor="_skathawarden_female_g16" pos="100 0 100" dir="0" alpha="255" />
+			<appear cmd="appear" id="병사03" actor="_royalalchemist_g16" pos="-100 0 -100" dir="180" alpha="255" />
+			<appear cmd="appear" id="병사04" actor="_humanfemalesoldier_g16" pos="-80 0 -200" dir="0" alpha="255" />
+			<system cmd="set_actor_group" id="병사" members="병사01 병사02 병사03 병사04" />
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+			<action cmd="set_motion_timescale" id="병사" scale="2.0" />
+			<system cmd="wait" duration="2000" />
+			<action cmd="set_motion" id="병사" motion="chapter4/human/anim/cutscene3/somebody_die.ani" chain="false" loop="false" />
+			<system cmd="wait" duration="2000" />
+			<action cmd="set_motion_timescale" id="병사" scale="0.001" />
+			<system cmd="wait" duration="500" />
+			<system cmd="nop">
+				<sequence>
+					<system cmd="wait" duration="2000" />
+					<effect cmd="fadein" duration="1500" color="000000" continue="false" />
+					<action cmd="set_motion_timescale" id="병사" scale="0.001" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="40" />
+					<camera cmd="set_pos" pos="216 600 -234" />
+					<camera cmd="set_target_pos" pos="50 0 -50" />
+					<camera cmd="rotate" speed="1.3" axis="0 1 0" />
+					<system cmd="wait" duration="6000" />
+
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="40" />
+					<camera cmd="set_pos" pos="500 30 0" />
+					<camera cmd="set_target_pos" pos="-1500 60 0" />
+					<camera cmd="rotate" speed="0.3" axis="0 -1 0" />
+					<camera cmd="set_roll_angle" angle="-2.0" />
+					<effect cmd="play_effect" effect="cutscene_ghost_out" pos="0 0 100" duration="999999" wait="false" id="" />
+					<effect cmd="play_effect" effect="cutscene_ghost_out" pos="200 0 100" duration="999999" wait="false" id="" />
+					<effect cmd="play_effect" effect="cutscene_ghost_out" pos="-200 0-100" duration="999999" wait="false" id="" />
+					<effect cmd="play_effect" effect="cutscene_ghost_out" pos="-80 0 -200" duration="999999" wait="false" id="" />
+					<system cmd="wait" duration="6000" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="5" />
+					<camera cmd="set_pos" pos="50 1500 500" />
+					<camera cmd="set_target_pos" pos="-100 0 -100" />
+					<system cmd="wait" duration="4000" />
+					<effect cmd="fadeout" duration="1000" color="000000" continue="true" />
+					<disappear cmd="disappear" id="병사" />
+				</sequence>
+				<sequence>
+					<camera cmd="change_fov" start="5" end="30" duration="5000" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="401" origin="113960 5525 120390" variation="region_variation_797006.xml"  sky_time="0300" hide="character_only" __feature="!gfTaraRenewal"/>
+			<system cmd="set_region" region="438" origin="113960 5525 120390" variation="region_variation_797006.xml"  sky_time="0300" hide="character_only" __feature="gfTaraRenewal"/>
+
+			<appear cmd="appear" id="벨라" actor="#bella" pos="0 0 0" dir="135" alpha="255" />
+			<appear cmd="appear" id="셰익스피어" actor="#Shakespear_16_guard" pos="-80 0 80" dir="-30" alpha="255" />
+			<appear cmd="appear" id="오원" actor="#admiral_owen" pos="0 0 200" dir="180" alpha="255" />
+			<appear cmd="appear" id="유저" actor="me" pos="200 0 100" dir="-90" alpha="255" />
+			<appear cmd="appear" id="오란" actor="#odran" pos="100 0 220" dir="90" alpha="255" />
+			<appear cmd="appear" id="에레원" actor="#eremon" pos="300 0 120" dir="180" alpha="255" />
+			<appear cmd="appear" id="시네이드" actor="_sinead_mission" pos="120 0 300" dir="0" alpha="255" />
+			<appear cmd="appear" id="안드라스" actor="#andras" pos="-250 0 -100" dir="180" alpha="255" />
+			<appear cmd="appear" id="페이단" actor="_padan_mission" pos="-80 0 -200" dir="0" alpha="255" />
+			<system cmd="set_actor_group" id="2기타" members="에레원 시네이드 안드라스 페이단 셰익스피어 오원 오란" />
+			<action cmd="set_eye" id="벨라" keyword="38" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="unequip" id="2기타" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="true" />
+			<action cmd="set_motion" id="벨라" motion="chapter4/human/anim/cutscene4/death.ani" chain="false" loop="true" />
+			<action cmd="set_motion" id="2기타" motion="chapter4/human/anim/cutscene/1act/1act1ch_soldier_scare_guard01.ani" chain="false" />
+			<action cmd="set_motion" id="유저" motion="chapter4/giant/anim/social_motion/giant_female_gaze_around" chain="false" />
+
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="set_roll_angle" angle="0.0" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="fadein" duration="1000" color="000000" continue="false" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="45" />
+					<camera cmd="set_pos" pos="-1471 400 -200" />
+					<camera cmd="set_target_pos" pos="-1 94 0" />
+					<camera cmd="rotate" speed="0.6" axis="0 -1 0" />
+					<camera cmd="set_roll_angle" angle="10.0" />
+					<camera cmd="vibrate" on="true" duration="9000" amount="10 10 10" />
+					<effect cmd="play_effect" effect="cutscene_ghost_in" pos="0 0 0" duration="999999" wait="false" id="g01" />
+					<effect cmd="play_effect" effect="cutscene_ghost_glow" pos="0 -50 0" duration="999999" wait="false" id="g02" />
+					<system cmd="wait" duration="4000" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="change_fov" start="70" end="20" duration="4500" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="70" />
+					<camera cmd="set_pos" pos="-50 600 -50" />
+					<camera cmd="set_target_pos" pos="0 0 0" />
+					<camera cmd="set_roll_angle" angle="5.0" />
+					<effect cmd="play_effect" effect="cutscene_ghost_in_2" pos="0 0 0" duration="999999" wait="false" id="g03" />
+					<action cmd="set_motion" id="병사" motion="chapter4/human/anim/cutscene/1act/1act1ch_soldier_scare_guard01.ani" chain="false" />
+					<system cmd="wait" duration="3000" />
+					<effect cmd="fadeout" duration="1000" color="ffffff" continue="true" />
+					<effect cmd="stop_effect" id="g01" />
+					<effect cmd="stop_effect" id="g02" />
+					<effect cmd="stop_effect" id="g03" />
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="90" />
+					<camera cmd="set_pos" pos="335 0 -14000" />
+					<camera cmd="set_target_pos" pos="-5 600 -5" />
+					<camera cmd="rotate" speed="0.6" axis="0 -200 0" />
+					<camera cmd="set_roll_angle" angle="0.0" />
+					<effect cmd="fadein" duration="1000" color="ffffff" continue="false" />
+					<system cmd="wait" duration="1800" />
+					<effect cmd="play_sound_2d" name="g1_darkmagic_1.wav" />
+					<effect cmd="play_effect" effect="cutscene_G16_castle_light" pos="0 500 0" duration="999999" wait="false" id="g01" />
+					<system cmd="wait" duration="500" />
+					<camera cmd="move_to" start_speed="600.0" acceleration="0.0" pos="335 0 -14000" />
+					<camera cmd="move_target_to" start_speed="600.0" acceleration="0.0" pos="-5 2000 -5" />
+					<system cmd="wait" duration="800" />
+					<effect cmd="fadeout" duration="1000" color="ffffff" continue="true" />
+					<disappear cmd="disappear" id="2기타" />
+					<disappear cmd="disappear" id="벨라" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="220" origin="5600 6 6400" hide="character_only" sky_time="1800" />
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="stop" />
+			<camera cmd="stop_target" />
+			<camera cmd="set_roll_angle" angle="0.0" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="set_weather" duration1="10" weather1="1" duration2="10" weather2="1" />
+				</sequence>
+				<sequence>
+					<effect cmd="set_atmosphere_time" duration="10" to="1800" />
+				</sequence>
+				<sequence>
+					<effect cmd="fadein" duration="1000" color="ffffff" continue="false" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="60" />
+					<camera cmd="set_pos" pos="800 400 -2828" />
+					<camera cmd="set_target_pos" pos="0 99 135" />
+					<camera cmd="set_roll_angle" angle="0.0" />
+					<camera cmd="rotate" speed="1.0" axis="0 -1 0" />
+					<effect cmd="play_effect" effect="G15_red_fog" pos="0 30 0" duration="99999999" wait="false" id="fog" />
+					<system cmd="wait" duration="2500" />
+					<effect cmd="play_sound_2d" name="g1_darkmagic_1.wav" />
+					<effect cmd="play_effect" effect="cutscene_G16_light_rev" pos="0 4000 0" duration="999999" wait="false" id="r01" />
+					<system cmd="wait" duration="300" />
+					<effect cmd="stop_effect" id="fog" />
+					<camera cmd="vibrate" on="true" duration="3000" amount="10 30 10" />
+					<effect cmd="play_effect" effect="cutscene_G16_castle_light_boom" pos="0 0 0" duration="999999" wait="false" id="b01" />
+					<system cmd="wait" duration="1500" />
+					<effect cmd="fadeout" duration="1000" color="ffffff" continue="true" />
+					<system cmd="wait" duration="1000" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="219" origin="5625 6 6400" sky_time="2200" />
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="stop" />
+			<camera cmd="stop_target" />
+			<camera cmd="set_roll_angle" angle="0.0" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="set_weather" duration1="10" weather1="0" duration2="10" weather2="0" />
+				</sequence>
+				<sequence>
+					<effect cmd="set_atmosphere_time" duration="10" to="1200" />
+				</sequence>
+				<sequence>
+					<effect cmd="fadein" duration="2000" color="ffffff" continue="false" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="60" />
+					<camera cmd="set_pos" pos="800 700 -3828" />
+					<camera cmd="set_target_pos" pos="800 99 135" />
+					<camera cmd="set_roll_angle" angle="0.0" />
+					<camera cmd="rotate" speed="1.0" axis="0 -1 0" />
+					<system cmd="wait" duration="4500" />
+					<effect cmd="fadeout" duration="1000" color="000000" continue="true" />
+				</sequence>
+			</system>
+
+			<system cmd="set_region" region="4014" origin="72752 -1300 68623" sky_time="0300" />
+			<appear cmd="appear" id="병사01" actor="#hidden_wardens_B" pos="0 0 80" dir="0" alpha="255" />
+			<appear cmd="appear" id="병사02" actor="#hidden_wardens_D" pos="-80 0 -80" dir="-120" alpha="255" />
+			<appear cmd="appear" id="병사03" actor="#hidden_wardens_E" pos="-80 0 80" dir="120" alpha="255" />
+			<appear cmd="appear" id="괴물01" actor="#g16_cutscene_monster" pos="0 0 -1000" dir="90" alpha="255" />
+			<appear cmd="appear" id="괴물02" actor="#g16_cutscene_monster" pos="0 0 1000" dir="-90" alpha="255" />
+			<appear cmd="appear" id="괴물03" actor="#g16_cutscene_monster" pos="1000 0 0" dir="180" alpha="255" />
+			<appear cmd="appear" id="괴물04" actor="#g16_cutscene_monster" pos="-1000 0 0" dir="0" alpha="255" />
+			<system cmd="set_actor_group" id="병사" members="병사01 병사02 병사03" />
+			<system cmd="set_actor_group" id="괴물" members="괴물01 괴물02 괴물03 괴물04" />
+			<action cmd="look_at_pos" id="괴물" pos="0 100 0" />
+			<action cmd="switch_weaponset" id="병사" set="255" />
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="unequip" id="유저" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="유저" on="false" />
+			<action cmd="set_battle_mode" id="병사" on="true" />
+			<action cmd="set_battle_mode" id="괴물" on="true" />
+
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="set_weather" duration1="10" weather1="0" duration2="10" weather2="0" />
+				</sequence>
+				<sequence>
+					<effect cmd="set_atmosphere_time" duration="10" to="1200" />
+				</sequence>
+				<sequence>
+					<system cmd="wait" duration="2000" />
+					<effect cmd="fadein" duration="1500" color="000000" continue="false" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="55" />
+					<camera cmd="set_pos" pos="150 113 -1515" />
+					<camera cmd="set_target_pos" pos="-5 94 -5" />
+					<camera cmd="rotate" speed="3.3" axis="0 1 0" />
+					<system cmd="wait" duration="7500" />
+
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="35" />
+					<camera cmd="set_pos" pos="500 80 0" />
+					<camera cmd="set_target_pos" pos="0 80 0" />
+					<camera cmd="rotate" speed="2.3" axis="0 -1 0" />
+					<camera cmd="set_roll_angle" angle="-2.0" />
+					<system cmd="wait" duration="3500" />
+
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="65" />
+					<camera cmd="set_pos" pos="1600 113 -2100" />
+					<camera cmd="set_target_pos" pos="0 2000 0" />
+
+					<system cmd="wait" duration="1500" />
+					<effect cmd="play_sound_2d" name="g1_darkmagic_1.wav" />
+					<effect cmd="play_effect" effect="cutscene_G16_light_rev" pos="0 4000 0" duration="999999" wait="false" id="r02" />
+					<system cmd="wait" duration="300" />
+					<camera cmd="move_to" start_speed="1500.0" acceleration="0.0" pos="1600 113 -2100" />
+					<camera cmd="move_target_to" start_speed="1500.0" acceleration="0.0" pos="0 150 0" />
+					<camera cmd="vibrate" on="true" duration="3000" amount="10 30 10" />
+					<effect cmd="play_effect" effect="cutscene_G16_castle_light_boom" pos="0 150 0" duration="999999" wait="false" id="b02" />
+					<system cmd="wait" duration="1500" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<system cmd="wait" duration="600" />
+					<action cmd="change_alpha" id="괴물" alpha="0" duration="2500" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="65" />
+					<camera cmd="set_pos" pos="1191 113 313" />
+					<camera cmd="set_target_pos" pos="-5 94 -957" />
+					<camera cmd="set_roll_angle" angle="6.0" />
+					<effect cmd="stop_effect" id="r02" />
+					<effect cmd="fadeout" duration="1000" color="ffffff" continue="true" />
+					<disappear cmd="disappear" id="괴물" />
+					<system cmd="wait" duration="1600" />
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="65" />
+					<camera cmd="set_pos" pos="1007 250 -1211" />
+					<camera cmd="set_target_pos" pos="0 94 0" />
+					<camera cmd="set_roll_angle" angle="0.0" />
+					<effect cmd="fadein" duration="1500" color="000000" continue="false" />
+					<system cmd="wait" duration="500" />
+					<action cmd="set_battle_mode" id="병사" on="false" />
+					<system cmd="wait" duration="1500" />
+					<effect cmd="stop_music" />
+					<effect cmd="fadeout" duration="3000" color="000000" continue="true" />
+					<system cmd="quit" />
+				</sequence>
+			</system>
+		</client_sequence>
+	</scenario>
+</cutscene>

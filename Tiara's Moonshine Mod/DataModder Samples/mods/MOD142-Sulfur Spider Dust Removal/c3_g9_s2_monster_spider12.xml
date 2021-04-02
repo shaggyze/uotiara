@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<EffectGroup classname="EffectGroup[10]" name="C3_g9_s2_monster_spider12">
+	<Glas_Footstep_dust classname="CEmitterType[10]" rotation_axis="0 0 1" emission_dirtype="3" bsphere_radius="10" name="c3_spider12_smoke_01">
+	</Glas_Footstep_dust>
+</EffectGroup>

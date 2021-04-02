@@ -1,0 +1,161 @@
+Interface.english.txt
+
+;Search for, and replace the following lines. Various edits.
+
+msg.etc.hide_mode_msg   Hide All Windows (To cancel: \\)
+msg.etc.hide_party_mode_msg   Hide Party Window (To cancel: Ctrl+P)
+msg.etc.hide_user_name   Hide Name (To cancel: Ctrl+N)
+pli_captionmgrrender.1   Hide All Windows (Cancel {0})
+pli_captionmgrrender.2   Hide Party Window (Cancel {0})
+pli_captionmgrrender.3   Hide Name (Cancel {0})
+pli_windowlobby.14   << Assistant Character >>
+pli_windowpvpjoinview.2   Accept the PvP against {0}?
+window.character.explo_level   Exploration Level {0}
+window.trade_join.message   Will you accept a trade with {0}?
+
+msg.etc.hide_mode_msg   
+msg.etc.hide_party_mode_msg   
+msg.etc.hide_user_name   
+pli_captionmgrrender.1   
+pli_captionmgrrender.2   
+pli_captionmgrrender.3   
+pli_windowlobby.14   
+pli_windowpvpjoinview.2   {0} Would Like to Duel
+window.character.explo_level   Expl. Level {0}
+window.trade_join.message   {0} Would Like to Trade
+_________________________________________________________________________
+Client.english.txt
+
+;Search for, and replace the following line. Changes the Window Title of Mabinogi.
+
+maintitle.default   Mabinogi
+
+maintitle.default   Unofficial Tiara'd Mabinogi
+_________________________________________________________________________
+race.english.txt
+
+;Replace the following lines. Edits the name of Skeleton Squads
+
+513   Skeleton Squad
+519   Skeleton Squad
+
+513   Skeleton Squad(Weak)
+519   Skeleton Squad(Strong)
+_________________________________________________________________________
+itemdb.english.txt
+
+;Replace the following lines. Edits the name of Fossils.
+
+15669   Fossil
+15670   Fossil
+15671   Fossil
+15672   Fossil
+15673   Fossil
+15674   Fossil
+
+15669   Beak Fossil
+15670   Tibia Fossil
+15671   Tooth Fossil
+15672   Scapula Fossil
+15673   Skull Fossil
+15674   Pelvis Fossil
+_________________________________________________________________________
+animationevent.anievent
+
+;Replace the lines, open up animationevent.anievent in Notepad.
+;Changes the music for Dark Knight Transformation.
+
+//0:sound("data\sound\g1_darkmagic_0.wav")
+//45:sound("data\sound\g1_scene_change.wav")
+//81:sound("data\sound\g1_scene_change.wav")
+
+0:sound("data\sound\Glasgavelen_blowaway_endure.wav")
+30:sound("data\sound\g1_darkmagic_1.wav")
+81:sound("data\sound\g1_scene_change.wav")
+_____________________________________________________________________
+dungeondb2.xml/dungeondb.xml
+
+;Press Control+H, and replace all. Unfogs dungeon maps.
+
+fog="1"->fog="0"
+_____________________________________________________________________
+itemdb.xml
+
+;Replace the lines with the following, changes Fossil names.
+;All the fossil names are in a row.
+
+Text_Name0="Fossil"
+Text_Name0="Fossil"
+Text_Name0="Fossil"
+Text_Name0="Fossil"
+Text_Name0="Fossil"
+Text_Name0="Fossil"
+
+Text_Name0="Beak Fossil"
+Text_Name0="Tibia Fossil"
+Text_Name0="Tooth Fossil"
+Text_Name0="Scapula Fossil"
+Text_Name0="Skull Fossil"
+Text_Name0="PelvisFossil"
+_____________________________________________________________________
+race.xml
+
+;Same edit as before to change Skeleton Squad names.
+;Yes, search Squid, not Squad.
+
+Search: Squid
+
+ EnglishName="Skeleton Squad"
+ EnglishName="Skeleton Squad"
+
+ EnglishName="Skeleton Squad(Weak)"
+ EnglishName="Skeleton Squad(Strong)"
+_____________________________________________________________________
+minimapinfo.xml
+
+;Control+H, replace all ZoomMax as shown
+;Same for EnableFog, but set it to true for certain regions.
+
+ZoomMax="0"-> ZoomMax="3"
+EnableFog="true"-> EnableFog="false"
+
+EnableFog=”true” for
+
+284]   Courcle District of Iria
+841]   Rano
+451]   Rano
+458]   Connous
+_____________________________________________________________________
+skillinfo.xml
+
+;Changes settings for skills, range of FirstAid/Heal/Dice,
+;Time out for Lightningbolt.
+
+Search FirstAid             TargetRange="200"->TargetRange="100000"
+Search SkillEngName="Healing"      TargetRange="1000"->TargetRange="100000"
+Search Lightningbolt            StackLimitTime="15"->StackLimitTime="0"
+Search Dice Throwing         TargetRange="400"->TargetRange="100000"
+_____________________________________________________________________
+propdb.xml
+
+;Search and Replace    (ShowName="false"->ShowName="true")
+;Shows name of certain props.
+
+ClassName="scene_field_TirChonaill_wheat"
+ClassName="scene_field_TirChonaill_barley"
+ClassName="scene_field_Dunbarton_potato"
+ClassName="scene_prop_silverevent_01"
+ClassName="scene_prop_goldevent_01"
+ClassName="scene_prop_Iria_NN_rock_sulfur_01"
+ClassName="scene_prop_Iria_NN_rock_sulfur_02"
+ClassName="farm_cabbage_01"
+ClassName="farm_strawberry_01"
+ClassName="farm_tomato_01"
+ClassName="farm_eggplant_01"
+ClassName="farm_pumpkin_01"
+_____________________________________________________________________
+production.xml
+
+;Control+H, replace all. Changes max autoproduction to 1000.
+
+MaxAutoProduction="10"->MaxAutoProduction="1000"

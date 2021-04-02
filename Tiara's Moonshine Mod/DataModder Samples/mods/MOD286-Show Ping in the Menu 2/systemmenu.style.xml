@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<xml>
+	<style name="main" width="172" height="child" position="DockLeftBottom" viewoption="voNoMinimize | voNoClose | voNoMove" />
+	<style name="text" height="16" />
+	<style name="button" margin="0 10 0 0" height="34" buttonimage="8" />
+	<style name="button_g4" margin="0 10 0 0" height="34" buttonimage="8" visible="feature" generation="4" season="2" />
+	<style name="smallbutton" margin="0 10 0 0" height="22" buttonimage="8" />
+	<style name="smallbutton_except_nhnjapan" margin="0 10 0 0" height="22" buttonimage="8" visible="except_locale" localeinfo="japan,nhnjapan" />
+	<style name="smallbutton_except_nhnjapan_and_usa" margin="0 10 0 0" height="22" buttonimage="8" visible="except_locale" localeinfo="japan,nhnjapan|usa" />
+	<style name="smallbutton_g1" margin="0 10 0 0" height="22" buttonimage="8" visible="featurestring" featurestring="releasedversion" />
+	<style name="smallbutton_relation" margin="0 10 0 0" height="22" buttonimage="8" visible="featurestring" featurestring="relationSystem" />
+	<style name="space1" height="4" />
+	<style name="space_bottom" height="40" />
+
+	<style name="firstline" height="16" filldirection="horizontal" />
+
+	<style name="ping_red" position="absolute" top="-5" left="-8" width="20" height="20" pickable="true" fadeintime="0" color1="ffffffff" color2="ffff0000" color3="ffff0000" color4="ffff0000" visible="feature" locale="usa" generation="0" season="0" development="or" />
+  	<style name="ping_green" position="absolute" top="-5" left="-8" width="20" height="20" pickable="true" fadeintime="0" color1="ffffffff" color2="ff00ff00" color3="ff00ff00" color4="ff00ff00" visible="feature" locale="usa" generation="0" season="0" development="or" />
+   	<style name="ping_yellow" position="absolute" top="-5" left="-8" width="20" height="20" pickable="true" fadeintime="0" color1="ffffffff" color2="ffffff00" color3="ffffff00" color4="ffffff00" visible="feature" locale="usa" generation="0" season="0" development="or" />
+
+  	<style name="ping_box" width="14" height="20" visible="feature" locale="usa" generation="0" season="0" development="or" />
+</xml>

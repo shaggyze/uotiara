@@ -1,0 +1,525 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MabiPacker</name>
+    </assembly>
+    <members>
+        <member name="M:MabiPacker.PackBrowser.InsertFileNode(System.UInt32)">
+            <summary>
+            Draw file tree (Left panel)
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:MabiPacker.PackBrowser.UnpackById(System.UInt32)">
+            <summary>
+            Unpack selected file by Id
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:MabiPacker.PackBrowser.UnpackByName(System.String)">
+            <summary>
+            Unpack selected file by file name (unused)
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="M:MabiPacker.PackBrowser.PreviewById(System.UInt32)">
+            <summary>
+            Open selected file to display right panel.
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:MabiPacker.PackBrowser.DDS2Bitmap(System.IO.MemoryStream)">
+            <summary>
+            Convert DDS data to Bitmap data.
+            </summary>
+            <param name="ms"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MabiPacker.PackBrowser.WavePlayer">
+            <summary>
+            Playing sound via winmm.dll
+            </summary>
+            <param name="buffer">Byte array containing wave data</param>
+        </member>
+        <member name="M:MabiPacker.PackBrowser.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+            <summary>
+            Textbox Shortcut key Enabler
+            </summary>
+            <param name="msg"></param>
+            <param name="keyData"></param>
+            <returns></returns>
+        </member>
+        <member name="F:MabiPacker.PackBrowser.components">
+            <summary>
+            必要なデザイナー変数です。
+            </summary>
+        </member>
+        <member name="M:MabiPacker.PackBrowser.Dispose(System.Boolean)">
+            <summary>
+            使用中のリソースをすべてクリーンアップします。
+            </summary>
+            <param name="disposing">マネージ リソースが破棄される場合 true、破棄されない場合は false です。</param>
+        </member>
+        <member name="M:MabiPacker.PackBrowser.InitializeComponent">
+            <summary>
+            デザイナー サポートに必要なメソッドです。このメソッドの内容を
+            コード エディターで変更しないでください。
+            </summary>
+        </member>
+        <member name="M:MabiPacker.MabiEnvironment.#ctor">
+            <summary>
+            Get Mabinogi Environment
+            </summary>
+        </member>
+        <member name="M:MabiPacker.MabiEnvironment.GetMabiDir">
+            <summary>
+            Get Mabinogi Environment
+            </summary>
+            <param name="url">Url to Patch.txt</param>
+            <summary>
+            Get Mabinogi installed directory from Registory.
+            </summary>
+            <returns>Fullpath of Mabinogi directory</returns>
+        </member>
+        <member name="M:MabiPacker.MabiEnvironment.GetMabiVer">
+            <summary>
+            Read Mabinogi Version from version.dat
+            </summary>
+            <returns>Local Version</returns>
+        </member>
+        <member name="M:MabiPacker.MabiEnvironment.Launch(System.String[],System.Windows.Forms.Form)">
+            <summary>
+            Fetch and parse patch.txt
+            </summary>
+            <param name="url">URL to patch text.</param>
+            <returns>Key-value data of patch.txt.</returns>
+            <summary>
+            Launch Mabinogi client. If Crackshild is detected, launch crackshield.
+            Notice : The parent program MUST be put on the same directory as client.exe. 
+            </summary>
+            <param name="form">The window of a parent program.</param>
+            <returns>When client is launched returns true, otherwise returns false.</returns>
+        </member>
+        <member name="M:MabiPacker.MabiEnvironment.RunElevated(System.String,System.String,System.Windows.Forms.Form,System.Boolean)">
+            <summary>
+            Launch other program as Administrator.
+            </summary>
+            <param name="fileName">Fullpath of program you would launch</param>
+            <param name="arguments">Argument of program.</param>
+            <param name="parentForm">The window of a parent program.</param>
+            <param name="waitExit">Wait for program exit.</param>
+            <returns>When launch succeed returns true, cancelled by UAC returns false.</returns>
+        </member>
+        <member name="M:MabiPacker.ProgressDialog.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:MabiPacker.ProgressDialog.#ctor(System.IntPtr)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="parentHandle">Handle</param>
+        </member>
+        <member name="M:MabiPacker.ProgressDialog.ShowDialog(MabiPacker.ProgressDialog.PROGDLG[])">
+            <summary>
+            Show Progress Dialog
+            </summary>
+            <param name="flags">Parameter of dialog flags. (comma separated)</param>
+            <seealso cref="T:MabiPacker.ProgressDialog.PROGDLG"/>
+        </member>
+        <member name="M:MabiPacker.ProgressDialog.CloseDialog">
+            <summary>
+            Close Dialog
+            </summary>
+        </member>
+        <member name="M:MabiPacker.ProgressDialog.Win32IProgressDialog.StartProgressDialog(System.IntPtr,System.Object,MabiPacker.ProgressDialog.PROGDLG,System.IntPtr)">
+            <summary>
+            Starts the progress dialog box.
+            </summary>
+            <param name="hwndParent">A handle to the dialog box's parent window.</param>
+            <param name="punkEnableModless">Reserved. Set to null.</param>
+            <param name="dwFlags">Flags that control the operation of the progress dialog box. </param>
+            <param name="pvResevered">Reserved. Set to IntPtr.Zero</param>
+        </member>
+        <member name="M:MabiPacker.ProgressDialog.Win32IProgressDialog.StopProgressDialog">
+            <summary>
+            Stops the progress dialog box and removes it from the screen.
+            </summary>
+        </member>
+        <member name="M:MabiPacker.ProgressDialog.Win32IProgressDialog.SetTitle(System.String)">
+            <summary>
+            Sets the title of the progress dialog box.
+            </summary>
+            <param name="pwzTitle">A pointer to a null-terminated Unicode string that contains the dialog box title.</param>
+        </member>
+        <member name="M:MabiPacker.ProgressDialog.Win32IProgressDialog.SetAnimation(System.IntPtr,System.UInt16)">
+            <summary>
+            Specifies an Audio-Video Interleaved (AVI) clip that runs in the dialog box. Note: Note  This method is not supported in Windows Vista or later versions.
+            </summary>
+            <param name="hInstAnimation">An instance handle to the module from which the AVI resource should be loaded.</param>
+            <param name="idAnimation">An AVI resource identifier. To create this value, use the MAKEINTRESOURCE macro. The control loads the AVI resource from the module specified by hInstAnimation.</param>
+        </member>
+        <member name="M:MabiPacker.ProgressDialog.Win32IProgressDialog.HasUserCancelled">
+            <summary>
+            Checks whether the user has canceled the operation.
+            </summary>
+            <returns>TRUE if the user has cancelled the operation; otherwise, FALSE.</returns>
+            <remarks>
+            The system does not send a message to the application when the user clicks the Cancel button.
+            You must periodically use this function to poll the progress dialog box object to determine
+            whether the operation has been canceled.
+            </remarks>
+        </member>
+        <member name="M:MabiPacker.ProgressDialog.Win32IProgressDialog.SetProgress(System.UInt32,System.UInt32)">
+            <summary>
+            Updates the progress dialog box with the current state of the operation.
+            </summary>
+            <param name="dwCompleted">An application-defined value that indicates what proportion of the operation has been completed at the time the method was called.</param>
+            <param name="dwTotal">An application-defined value that specifies what value dwCompleted will have when the operation is complete.</param>
+        </member>
+        <member name="M:MabiPacker.ProgressDialog.Win32IProgressDialog.SetProgress64(System.UInt64,System.UInt64)">
+            <summary>
+            Updates the progress dialog box with the current state of the operation.
+            </summary>
+            <param name="ullCompleted">An application-defined value that indicates what proportion of the operation has been completed at the time the method was called.</param>
+            <param name="ullTotal">An application-defined value that specifies what value ullCompleted will have when the operation is complete.</param>
+        </member>
+        <member name="M:MabiPacker.ProgressDialog.Win32IProgressDialog.SetLine(System.UInt32,System.String,System.Boolean,System.IntPtr)">
+            <summary>
+            Displays a message in the progress dialog.
+            </summary>
+            <param name="dwLineNum">The line number on which the text is to be displayed. Currently there are three lines—1, 2, and 3. If the PROGDLG_AUTOTIME flag was included in the dwFlags parameter when IProgressDialog.StartProgressDialog was called, only lines 1 and 2 can be used. The estimated time will be displayed on line 3.</param>
+            <param name="pwzString">A null-terminated Unicode string that contains the text.</param>
+            <param name="fCompactPath">TRUE to have path strings compacted if they are too large to fit on a line. The paths are compacted with PathCompactPath.</param>
+            <param name="pvResevered"> Reserved. Set to IntPtr.Zero.</param>
+            <remarks>This function is typically used to display a message such as "Item XXX is now being processed." typically, messages are displayed on lines 1 and 2, with line 3 reserved for the estimated time.</remarks>
+        </member>
+        <member name="M:MabiPacker.ProgressDialog.Win32IProgressDialog.SetCancelMsg(System.String,System.IntPtr)">
+            <summary>
+            Sets a message to be displayed if the user cancels the operation.
+            </summary>
+            <param name="pwzCancelMsg">A pointer to a null-terminated Unicode string that contains the message to be displayed.</param>
+            <param name="pvResevered">Reserved. Set to NULL.</param>
+            <remarks>Even though the user clicks Cancel, the application cannot immediately call
+            IProgressDialog.StopProgressDialog to close the dialog box. The application must wait until the
+            next time it calls IProgressDialog.HasUserCancelled to discover that the user has canceled the
+            operation. Since this delay might be significant, the progress dialog box provides the user with
+            immediate feedback by clearing text lines 1 and 2 and displaying the cancel message on line 3.
+            The message is intended to let the user know that the delay is normal and that the progress dialog
+            box will be closed shortly.
+            It is typically is set to something like "Please wait while ...". </remarks>
+        </member>
+        <member name="M:MabiPacker.ProgressDialog.Win32IProgressDialog.Timer(MabiPacker.ProgressDialog.PDTIMER,System.IntPtr)">
+            <summary>
+            Resets the progress dialog box timer to zero.
+            </summary>
+            <param name="dwTimerAction">Flags that indicate the action to be taken by the timer.</param>
+            <param name="pvResevered">Reserved. Set to NULL.</param>
+            <remarks>
+            The timer is used to estimate the remaining time. It is started when your application
+            calls IProgressDialog.StartProgressDialog. Unless your application will start immediately,
+            it should call Timer just before starting the operation.
+            This practice ensures that the time estimates will be as accurate as possible. This method
+            should not be called after the first call to IProgressDialog.SetProgress.</remarks>
+        </member>
+        <member name="T:MabiPacker.ProgressDialog.PDTIMER">
+            <summary>
+            Flags that indicate the action to be taken by the ProgressDialog.SetTime() method.
+            </summary>
+        </member>
+        <member name="F:MabiPacker.ProgressDialog.PDTIMER.Reset">
+            <summary>Resets the timer to zero. Progress will be calculated from the time this method is called.</summary>
+        </member>
+        <member name="F:MabiPacker.ProgressDialog.PDTIMER.Pause">
+            <summary>Progress has been suspended.</summary>
+        </member>
+        <member name="F:MabiPacker.ProgressDialog.PDTIMER.Resume">
+            <summary>Progress has been resumed.</summary>
+        </member>
+        <member name="F:MabiPacker.ProgressDialog.PROGDLG.Normal">
+            <summary>Normal progress dialog box behavior.</summary>
+        </member>
+        <member name="F:MabiPacker.ProgressDialog.PROGDLG.Modal">
+            <summary>The progress dialog box will be modal to the window specified by hwndParent. By default, a progress dialog box is modeless.</summary>
+        </member>
+        <member name="F:MabiPacker.ProgressDialog.PROGDLG.AutoTime">
+            <summary>Automatically estimate the remaining time and display the estimate on line 3. </summary>
+            <remarks>If this flag is set, IProgressDialog::SetLine can be used only to display text on lines 1 and 2.</remarks>
+        </member>
+        <member name="F:MabiPacker.ProgressDialog.PROGDLG.NoTime">
+            <summary>Do not show the "time remaining" text.</summary>
+        </member>
+        <member name="F:MabiPacker.ProgressDialog.PROGDLG.NoMinimize">
+            <summary>Do not display a minimize button on the dialog box's caption bar.</summary>
+        </member>
+        <member name="F:MabiPacker.ProgressDialog.PROGDLG.NoProgressBar">
+            <summary>Do not display a progress bar.</summary>
+            <remarks>Typically, an application can quantitatively determine how much of the operation remains and periodically pass that value to IProgressDialog::SetProgress. The progress dialog box uses this information to update its progress bar. This flag is typically set when the calling application must wait for an operation to finish, but does not have any quantitative information it can use to update the dialog box.</remarks>
+        </member>
+        <member name="F:MabiPacker.ProgressDialog.PROGDLG.MarqueeProgress">
+            <summary>Use marquee progress.</summary>
+            <remarks>comctl32 v6 required.</remarks>
+        </member>
+        <member name="F:MabiPacker.ProgressDialog.PROGDLG.NoCancel">
+            <summary>No cancel button (operation cannot be canceled).</summary>
+            <remarks>Use sparingly.</remarks>
+        </member>
+        <member name="F:MabiPacker.ProgressDialog.PROGDLG.EnablePause">
+            <summary>Add a pause button (operation can be paused)</summary>
+        </member>
+        <member name="F:MabiPacker.ProgressDialog.PROGDLG.AllowUndo">
+            <summary>The operation can be undone in the dialog.</summary>
+            <remarks>The Stop button becomes Undo.</remarks>
+        </member>
+        <member name="F:MabiPacker.ProgressDialog.PROGDLG.DontDisplaySourcePath">
+            <summary>Don't display the path of source file in progress dialog.</summary>
+        </member>
+        <member name="F:MabiPacker.ProgressDialog.PROGDLG.DontDisplayDistPath">
+            <summary>Don't display the path of destination file in progress dialog.</summary>
+        </member>
+        <member name="F:MabiPacker.MainWindow.components">
+            <summary>
+            必要なデザイナー変数です。
+            </summary>
+        </member>
+        <member name="M:MabiPacker.MainWindow.Dispose(System.Boolean)">
+            <summary>
+            使用中のリソースをすべてクリーンアップします。
+            </summary>
+            <param name="disposing">マネージ リソースが破棄される場合 true、破棄されない場合は false です。</param>
+        </member>
+        <member name="M:MabiPacker.MainWindow.InitializeComponent">
+            <summary>
+            デザイナー サポートに必要なメソッドです。このメソッドの内容を
+            コード エディターで変更しないでください。
+            </summary>
+        </member>
+        <member name="M:MabiPacker.Program.Main(System.String[])">
+            <summary>
+            アプリケーションのメイン エントリ ポイントです。
+            </summary>
+        </member>
+        <member name="T:MabiPacker.Properties.Resources">
+            <summary>
+              ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.ResourceManager">
+            <summary>
+              このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Culture">
+            <summary>
+              厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+              現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.bg">
+            <summary>
+              型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.ChoosePackDir">
+            <summary>
+              Choose data directory to pack. に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.ChooseUnpackDir">
+            <summary>
+              Choose directory of the unpacked files. に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.ChooseUnpackFile">
+            <summary>
+              Choose *.pack file to unpack. に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Complete">
+            <summary>
+              The task was completed. に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Confirm">
+            <summary>
+              Confirm に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Error">
+            <summary>
+              Error に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.ErrorMsg">
+            <summary>
+              An unexpected error occured. に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Info">
+            <summary>
+              Infomation に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.logo">
+            <summary>
+              型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.PackFileDesc">
+            <summary>
+              Mabinogi Package File に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.play">
+            <summary>
+              型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.SaveAsPackFile">
+            <summary>
+              Save as *.pack file. に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Str_Confirm">
+             <summary>
+               Work will be started.
+            Are you sure? に類似しているローカライズされた文字列を検索します。
+             </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Str_Copied">
+            <summary>
+              Copied to the clipboard. に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Str_DataDirNotExists">
+             <summary>
+               The directory you entered does not exist.
+            Please check data directory value. に類似しているローカライズされた文字列を検索します。
+             </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Str_Done">
+            <summary>
+              The operation was done. に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Str_ExtractTo">
+            <summary>
+              Extract to: に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Str_Finish">
+            <summary>
+              Finish. に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Str_Initialize">
+            <summary>
+              Initializing... に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Str_Interrupt">
+            <summary>
+              The operation was interrupted by user. に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Str_Loading">
+            <summary>
+              Loading... に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Str_LoadingMsg">
+            <summary>
+              Now Loading... ({0} / {1}) に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Str_LoadingPreview">
+            <summary>
+              Now loading data for preview... に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Str_NotFound">
+            <summary>
+              File does not exist. に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Str_Overwrite">
+            <summary>
+              File or directory is exists. Overwrite? に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Str_Pack">
+            <summary>
+              Pack に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Str_Packing">
+            <summary>
+              Now Packing... ({0} / {1}) に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Str_Ready">
+            <summary>
+              Ready. に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Str_Sorting">
+            <summary>
+              Sorting... に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Str_SortingMsg">
+            <summary>
+              Now sorting package file list... に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Str_Unpack">
+            <summary>
+              Unpack に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Str_Unpacking">
+            <summary>
+              Now Unpacking... ({0} / {1}) に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="P:MabiPacker.Properties.Resources.Uri_PatchTxt">
+            <summary>
+              http://mabipatchinfo.nexon.net/patch/patch.txt に類似しているローカライズされた文字列を検索します。
+            </summary>
+        </member>
+        <member name="M:MabiPacker.Worker.#ctor(System.Boolean)">
+            <summary>
+            Initialize Worker Progress Window.
+            </summary>
+            <param name="ShowDoneMsg">Show MessageBox and Progress. (default is true)</param>
+        </member>
+        <member name="M:MabiPacker.Worker.Pack(System.String,System.String,System.UInt32,System.Int32)">
+            <summary>
+            Packing Package file process.
+            </summary>
+            <param name="InputDir">Set distnation of data directory for pack.</param>
+            <param name="OutputFile">Set filename of outputted *.pack file, with path.</param>
+            <param name="OutputVer">Set version of *.pack file.</param>
+            <param name="OutputVer">Set compress level of *.pack file.</param>
+        </member>
+        <member name="M:MabiPacker.Worker.Unpack(System.String,System.String)">
+            <summary>
+            Unpacking Package file process.
+            </summary>
+            <param name="InputFile">Set filename of unpack file..</param>
+            <param name="OutputDir">Set output distnation of Unpacked files.</param>
+        </member>
+        <member name="M:MabiPacker.Worker.UnpackFile(MabinogiResource.PackResource)">
+            <summary>
+            Unpacking file
+            </summary>
+            <param name="Res">PackResource </param>
+        </member>
+        <member name="M:MabiPacker.Worker.Interrupt">
+            <summary>
+            Show message box when process aborted.
+            </summary>
+        </member>
+    </members>
+</doc>

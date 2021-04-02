@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<SkillReadyView name="SkillReadyView" x="[$backBufferWidth]/2 - 7" y="[$backBufferHeight] * [@yStartPosFactor;float] " width="0" height="0" isSingleton="false" >
+	<meta>
+	</meta>
+	<Image name="Icon" x="0" y="0" />	
+</SkillReadyView>

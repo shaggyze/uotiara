@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<!-- 거울마녀 인트로 컷씬 작업-->
+<cutscene>
+	<scenario name="iria_bossroom_mirrorwitch_intro">
+		<stage region="919" origin="10000 0 10000" />
+	</scenario>
+</cutscene>

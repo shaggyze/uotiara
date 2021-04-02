@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<cutscene>
+	<scenario name="bossroom_CriMath_HellHound">
+		<stage region="902" origin="10000 0 10000" />
+	</scenario>	
+
+	<scenario name="bossroom_OgreBros">
+		<stage region="904" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_WereWolf">
+		<stage region="904" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_HellHound">
+		<stage region="902" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_GoldGoblin">
+		<stage region="903" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_BlackSuccubus">
+		<stage region="903" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_Lycanthrope2">
+		<stage region="903" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_RedSuccubus">
+		<stage region="903" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_G15_smallskeleton_01">
+		<stage region="903" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_G15_smallskeleton_02">
+		<stage region="903" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_G15_smallskeleton_03">
+		<stage region="903" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_SmallGolem_FlyingSword">
+		<stage region="909" origin="10000 0 30000" />
+	</scenario>
+	<scenario name="bossroom_GiantSpider">
+		<stage region="900" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_Hardmode_GiantSpider">
+		<stage region="929" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_Metalskeleton_Golem">
+		<stage region="901" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_Hardmode_Metalskeleton_Golem">
+		<stage region="930" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_MetalskeletonArmorA_Golem">
+		<stage region="901" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_Hardmode_MetalskeletonArmorA_Golem">
+		<stage region="930" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_LightGargoyle">
+		<stage region="905" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_GiantHeadless">
+		<stage region="909" origin="10000 0 30000" />
+	</scenario>
+</cutscene>

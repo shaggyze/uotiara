@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<cutscene>
+	<scenario name="iria_bossroom_desert_ruins_defender">
+		<stage region="918" origin="6721 0 8209" />
+	</scenario>
+	<scenario name="iria_bossroom_desert_ruins_defender_high_level">
+		<stage region="918" origin="6721 0 8209" />
+	</scenario>
+	<!-- 론가 파이널 샷 던전  -->
+	<scenario name="iria_bossroom_desert_ruins_defender_finalShot">	
+		<stage region="918" origin="6721 0 8209" />	
+	</scenario>	
+	<!-- 토파즈 골렘 -->
+	<scenario name="iria_bossroom_topaz_magic_golem">
+		<stage region="918" origin="6721 0 8209" />
+	</scenario>
+	<!-- 에메랄드 골렘 -->
+	<scenario name="iria_bossroom_emerald_magic_golem">
+		<stage region="918" origin="6721 0 8209" />
+	</scenario>
+	<!-- 자수정 골렘 -->
+	<scenario name="iria_bossroom_amethyst_magic_golem">
+		<stage region="918" origin="6721 0 8209" />
+	</scenario>
+</cutscene>

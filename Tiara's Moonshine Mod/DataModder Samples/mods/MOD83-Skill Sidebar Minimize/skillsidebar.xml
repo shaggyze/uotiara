@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<SkillSideBar name="SkillSideBar" x="[@posX;s32]" y="[@posY;s32]" width="[@w;u16]" height="[@iconPosY;u32] + [@gap;u32] * 9" isSingleton="false" >
+	<meta>
+		<data key="posX" type="s32" value="0" />
+		<data key="posY" type="s32" value="200" />
+		<data key="w" type="u16" value="90" />
+		<data key="miniW" type="u16" value="75" />
+		<data key="skillCount" type="u32" value="16" />
+		<data key="gap" type="u32" value="45" />
+		<data key="iconPosX" type="u32" value="-2" />
+		<data key="iconPosY" type="u32" value="0" />
+	</meta>
+	<SkillSideBarTitleBar name="TitleBar" x="[$parent x]" y="[$parent y]" title="_LT[xml.layout.797]" width="[$parent $innerWidth]" height="[$themepack TitleBarMinHeight]" adjustExtent="false" imageType="8" icon="skill" noClose="true" noMinimize="false" visible="false" />
+	<SkillButton name="SkillButton1" x="[@iconPosX;u32]" y="[@iconPosY;u32] + [@gap;u32] * 0" />
+	<SkillButton name="SkillButton2" x="[@iconPosX;u32]" y="[@iconPosY;u32] + [@gap;u32] * 1" />
+	<SkillButton name="SkillButton3" x="[@iconPosX;u32]" y="[@iconPosY;u32] + [@gap;u32] * 2" />
+	<SkillButton name="SkillButton4" x="[@iconPosX;u32]" y="[@iconPosY;u32] + [@gap;u32] * 3" />
+	<SkillButton name="SkillButton5" x="[@iconPosX;u32]" y="[@iconPosY;u32] + [@gap;u32] * 4" />
+	<SkillButton name="SkillButton6" x="[@iconPosX;u32]" y="[@iconPosY;u32] + [@gap;u32] * 5" />
+	<SkillButton name="SkillButton7" x="[@iconPosX;u32]" y="[@iconPosY;u32] + [@gap;u32] * 6" />
+	<SkillButton name="SkillButton8" x="[@iconPosX;u32]" y="[@iconPosY;u32] + [@gap;u32] * 7" />
+	<SkillButton name="SkillButton9" x="[@iconPosX;u32] + [@gap;u32]" y="[@iconPosY;u32] + [@gap;u32] * 0" />
+	<SkillButton name="SkillButton10" x="[@iconPosX;u32] + [@gap;u32]" y="[@iconPosY;u32] + [@gap;u32] * 1" />
+	<SkillButton name="SkillButton11" x="[@iconPosX;u32] + [@gap;u32]" y="[@iconPosY;u32] + [@gap;u32] * 2" />
+	<SkillButton name="SkillButton12" x="[@iconPosX;u32] + [@gap;u32]" y="[@iconPosY;u32] + [@gap;u32] * 3" />
+	<SkillButton name="SkillButton13" x="[@iconPosX;u32] + [@gap;u32]" y="[@iconPosY;u32] + [@gap;u32] * 4" />
+	<SkillButton name="SkillButton14" x="[@iconPosX;u32] + [@gap;u32]" y="[@iconPosY;u32] + [@gap;u32] * 5" />
+	<SkillButton name="SkillButton15" x="[@iconPosX;u32] + [@gap;u32]" y="[@iconPosY;u32] + [@gap;u32] * 6" />
+	<SkillButton name="SkillButton16" x="[@iconPosX;u32] + [@gap;u32]" y="[@iconPosY;u32] + [@gap;u32] * 7" />
+</SkillSideBar>

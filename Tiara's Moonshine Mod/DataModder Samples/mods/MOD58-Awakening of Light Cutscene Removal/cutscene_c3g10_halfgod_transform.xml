@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<cutscene>
+	<!-- 인간 반신화 -->
+	<scenario name="C3G10_halfgod_transform_human_01">
+		<stage region="current_only" origin="player_pos" hide_balloon="true" />
+	</scenario>
+	
+	<!-- 자이언트 남자 반신화 -->
+	<scenario name="C3G10_halfgod_transform_giant_male_01">
+		<stage region="current_only" origin="player_pos" hide_balloon="true" />
+	</scenario>
+	
+	<!-- 자이언트 여자 반신화 -->
+	<scenario name="C3G10_halfgod_transform_giant_female_01">
+		<stage region="current_only" origin="player_pos" hide_balloon="true" />
+	</scenario>
+</cutscene> 
+

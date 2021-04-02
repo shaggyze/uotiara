@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<!--유령군단 컷씬 제작입니다-->
+<cutscene>
+	<scenario name="bossroom_ghostarmy">
+		<stage region="208" origin="10000 0 10000" />
+	</scenario>
+</cutscene>

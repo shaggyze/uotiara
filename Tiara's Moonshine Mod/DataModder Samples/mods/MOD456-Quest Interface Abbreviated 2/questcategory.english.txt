@@ -1,0 +1,60 @@
+﻿0	Tut
+1	Evt
+2	Rpt
+3	Bas
+4	Skill
+5	DivKn
+6	Saga
+7	Shake
+8	Alch
+9	Iria
+10	AdvGod
+11	Squire
+12	Field
+13	[Adventure]
+14	[Close Combat]
+15	[Magic]
+16	[Archery]
+17	[Mercantile]
+18	[Battle Alchemy]
+19	[Martial Arts]
+20	[Music]
+21	[Puppetry]
+22	[Lance]
+23	[Holy Arts]
+24	[Transmutation]
+25	[Cooking]
+26	[Smithing]
+27	[Tailoring]
+28	[Medicine]
+29	[Carpentry]
+30	[Gunslinger]
+31	[Ninja]
+32	[Merlin]
+33	[Starlet]
+34	[Professor J]
+35	[Culinary Artist]
+36	[Treasure Hunter]
+37	[Event]
+38	[Guide]
+39	[Normal]
+40	[Life]
+41	[Common]
+42	[Action]
+43	[Paladin]
+44	[Hidden Talent]
+45	[Contents]
+46	[Exploration]
+47	[Partner]
+48	[Guild]
+49	[Daily]
+50	[Party]
+51	[Tutorial]
+52	[Part-Time Job]
+53	[Return Incentive]
+54	Midsummer Mission
+55	[Daily]
+56	[Weekly]
+57	[Monthly]
+58	[Renown]
+59	Stamp Sprint

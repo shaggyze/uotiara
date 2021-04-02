@@ -1,0 +1,39 @@
+=========================================================================
+
+___________        _________              .___       .___   __  ________  
+\_   _____/  ____  \_   ___ \   ____    __| _/ ____  |   |_/  |_\_____  \ 
+ |    __)_  /    \ /    \  \/  /  _ \  / __ |_/ __ \ |   |\   __\/  ____/ 
+ |        \|   |  \\     \____(  <_> )/ /_/ |\  ___/ |   | |  | /       \ 
+/_______  /|___|  / \______  / \____/ \____ | \___  >|___| |__| \_______ \
+        \/      \/         \/              \/     \/                    \/
+       ; :            :.; ,            ;.
+ 	.; : ; :		.; : ; :		.; : ; :		~ EnCodeIt2  Reloaded ~
+.; : ; : .; : ; :  .; : ; :.; : ; :.; : ; :.; : ; :.; : ; :.; : ; :.; : ; :
+.; : ; :.; : ; :.; : ; :.; : ; :.; : ; :.; : ; :.; : ; :.; : ; :.; : ; : ;:
+===========================================================================
+
+
+Did you also found it pity that EnCodeIt2 somehow was gone. Well that's a
+try to revive that legendary Autoit-project and to make it open source.
+
+Most of the restauration and documentation work has already been done.
+Well EncodeIt 2.0 is now working(stupid internet check is done + changes to make it 
+runnning with the latest AutoIt interpreter (v3.2.4.9).
+
+However there are still places in the sources that need some more comments
+and speaking var and function names.
+
+You like Sodoku or cross word riddles ?  So young coder fire up ya favourite editor
+and ya grey cells and defumigate this riddle word by research & replace.
+
+
+Changes:
+
+	* obligatorily onlineCheck for blacklisted User disabled
+	* Launch of autToExe and ExetoAut to check syntax and to
+	  append includes disabled (because ExetoAut don't support commandline arguments)
+	  -> Do this manually when it is needed
+	* Function name BinaryString() replaced by Binary() to make it runable on the newest autoit interpreter
+
+	
+<cw2k@gmx.de>

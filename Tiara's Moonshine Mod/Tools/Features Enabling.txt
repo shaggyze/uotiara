@@ -1,0 +1,8 @@
+[Reforge Realview]
+	<Feature _Name="2196ca73" _RealName="gfMetalwareRealview" Default="" Enable="G16S1@Korea,G1S1@USA" Disable="" />
+
+[Multiclient]
+    <Feature _Name="e28729b7" _RealName="?" Default="" Enable="G19S1@USA, G18S5@Japan, G17S3@Korea, G17S2@Taiwan" Disable="" />
+	
+[Visual Chat]
+    <Feature _Name="8a124e66" _RealName="gfVisualChat" Default="" Enable="G10S2" Disable="" />

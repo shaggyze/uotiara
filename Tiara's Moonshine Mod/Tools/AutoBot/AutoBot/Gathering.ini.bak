@@ -1,0 +1,75 @@
+[Settings]
+useitems=4
+finditems=4
+hidewindows=4
+usemover=0
+hitcount=10
+hitdelay=5000
+pause=10000
+shortestdelay=250
+shortdelay=100
+delay=200
+longdelay=300
+longestdelay=500
+mousedelay=70
+mousespeed=1
+twoslots=4
+mobsearch=4
+attackanything=4
+List=Use
+findprops=1
+deathcheck=4
+boxarea=fullscreen
+
+[Skill Settings]
+firstskill=|F1|
+secondskill=|F2|
+thirdskill=|F3|
+useskill=1
+skilluses=1
+skilldelay=4000
+useskill2=4
+skill2uses=5
+skill2delay=4000
+useskill3=4
+skill3uses=1
+skill3delay=4000
+selfclick=1
+selfclickafter=First Skill
+selfclickuses=5
+selfclickdelay=4000
+
+[Fossil Settings]
+autoscan=1
+completefossil=1
+
+[Pet Settings]
+summonpet=0
+summonkey=`9`
+petinvkey=`-`
+desummonkey=`=`
+summontime=60000
+
+[Mob List]
+mongoose=0
+
+[Prop List]
+snowman=0
+tree=1
+papersheep=0
+
+[Item List]
+cobweb=0
+snowball=1
+playpage=0
+balloon=0
+
+[Use List]
+fossil=0
+
+[Equip List]
+goodsieve=0
+
+[Drop List]
+sulfur=0
+hpstam30pot=0

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<cutscene>
+	<scenario name="bossroom_Albi_Giant_Golden_Spider">
+		<stage region="921" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_Albi_Giant_Golden_Spider_Trio">
+		<stage region="921" origin="10000 0 10000" />
+	</scenario>
+</cutscene>

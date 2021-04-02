@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<cutscene>
+	<!--인간, 엘프 시나리오-->
+	<scenario name="DramaIria_Ep1_05">
+		<!--5 최종의식 -->
+	</scenario>
+	<!--인간, 엘프 시나리오 끝-->
+	<!--자이언트 시나리오-->
+	<scenario name="DramaIria_Ep1_05_giant">
+		<!--5 최종의식 -->
+	</scenario>
+	<!--자이언트 시나리오 끝-->
+</cutscene>

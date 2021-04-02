@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<EffectGroup classname="EffectGroup[10]" name="fx_g5_fieldeffect">
+	<Effect classname="CEmitterType[10]" rotation_axis="0 0 1" emission_dirtype="3" bsphere_radius="200" name="iria_desert_anthell">
+		<ActiveController classname="CActiveController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </ActiveController>
+		<EmissionAngleController classname="CEmissionAngleController[11]" variance="1" min="-1.0" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </EmissionAngleController>
+		<EmissionOuterRangeController classname="CEmissionRangeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">2000 10 3000 30 </EmissionOuterRangeController>
+		<EffectType classname="CParticleType[10]" gravity_scale="10" pivot="0.5 0.1" align="screen" align_axis="0 1 0" name="start_01">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 700 </Life>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 550 0 600 24 950 24 1000 2 1400 1 1500 8 2500 4 4000 0 </Number>
+			<Angle classname="CAngleController[11]" variance="1" min="-1.0" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 0.4 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.8" max="1.2" interpolation="1" repeat="0" repeat_from="0">0 200 450 250 900 400 1500 400 3000 250 </Size>
+			<Speed classname="CSpeedController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 500 </Speed>
+			<Spin classname="CSpinController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 F5E8DEBB 1500 F5E8DEBB 2000 8BE8DEBB </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="8" row="4" x="5" y="3" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 0.7 0.15 1 1 1.5 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 00FFFFFF 0.2 FFFFFFFF 1 00FFFFFF </ColorOverLife>
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="4.5" pivot="0.5 0.5" align="screen" align_axis="0 1 0" name="dust_02">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 2000 </Life>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 4 1800 2 3500 0.5 4000 0 </Number>
+			<Angle classname="CAngleController[11]" variance="1" min="-1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 3.14 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.8" max="1.2" interpolation="1" repeat="0" repeat_from="0">0 600 2500 600 3500 350 4000 0 </Size>
+			<Speed classname="CSpeedController[11]" variance="1" min="0.5" max="1.5" interpolation="1" repeat="0" repeat_from="0">0 400 2500 500 3500 300 </Speed>
+			<Spin classname="CSpinController[11]" variance="1" min="-1.0" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 10 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 C3F1DE9A </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="8" row="8" x="1" y="0" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 0.5 0.1 1 1 1.2 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 00FFFFFF 0.2 FFFFFFFF 0.6 FFFFFFFF 1 00FFFFFF </ColorOverLife>
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="1" pivot="0.5 0.2" align="screen" align_axis="0 1 0" name="start_02">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 2000 </Life>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 16 500 16 1000 4 3000 0 </Number>
+			<Angle classname="CAngleController[11]" variance="0" min="-1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 0 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.8" max="1.2" interpolation="1" repeat="0" repeat_from="0">0 600 400 600 1000 450 </Size>
+			<Speed classname="CSpeedController[11]" variance="1" min="0.5" max="1.5" interpolation="1" repeat="0" repeat_from="0">0 200 2500 300 3500 200 </Speed>
+			<Spin classname="CSpinController[11]" variance="0" min="-1.0" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 0 </Spin>
+			<Color classname="CColorController[11]" variance="1" min="0.7" max="1.1" interpolation="1" repeat="0" repeat_from="0">1000 76BEB788 3000 00BEB788 </Color>
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 0.8 0.1 1 1 1.35 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 00FFFFFF 0.2 FFFFFFFF 0.6 FFFFFFFF 1 00FFFFFF </ColorOverLife>
+			<Texture tas_classname="tas_dynamicgrid[10]" texture="common_effect_alpha" tex_width="512" tex_height="512" x="0" y="64" width="256" height="64" column="4" row="1" ani_loop_per_sec="0" ani_start_frame="-1" ani_time_type="0" name="Texture" />
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="0" pivot="0.5 0.5" align="screen" align_axis="0 1 0" name="dust_03">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 3000 </Life>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 0 1200 0 1600 2 3500 2 4000 2 </Number>
+			<Angle classname="CAngleController[11]" variance="1" min="-1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 3.14 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.8" max="1.2" interpolation="1" repeat="0" repeat_from="0">0 1500 </Size>
+			<Speed classname="CSpeedController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 150 </Speed>
+			<Spin classname="CSpinController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 0 </Spin>
+			<Color classname="CColorController[11]" variance="1" min="0.6" max="1.2" interpolation="1" repeat="0" repeat_from="0">0 CDE6D7A5 </Color>
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 0.2 1 1 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 00FFFFFF 0.2 FFFFFFFF 0.6 FFFFFFFF 1 00FFFFFF </ColorOverLife>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="4" row="4" x="0" y="2" name="Texture" />
+		</EffectType>
+		<EmitterShape classname="CEmitterShapeCircle[10]" link_to_emitter="1" area_type="0" radius="100" name="EmitterShape" />
+	</Effect>
+	<Effect classname="CEmitterType[10]" rotation_axis="0.000000 1.000000 0.000000" emission_dirtype="3" bsphere_radius="200" name="iria_desert_skill_dig">
+		<ActiveController classname="CActiveController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </ActiveController>
+		<EmissionAngleController classname="CEmissionAngleController[11]" variance="0" min="-1.0" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </EmissionAngleController>
+		<EmissionOuterRangeController classname="CEmissionRangeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </EmissionOuterRangeController>
+		<EffectType classname="CParticleType[10]" gravity_scale="-2" pivot="0.4 0.4" align="world_y" align_axis="0 1 0" name="dust_Y">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 1500 </Life>
+			<Angle classname="CAngleController[11]" variance="1" min="-1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 5 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">2000 1000 </Size>
+			<Speed classname="CSpeedController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 600 </Speed>
+			<Spin classname="CSpinController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 720 </Spin>
+			<Color classname="CColorController[11]" variance="1" min="0.8" max="1.1" interpolation="1" repeat="0" repeat_from="0">1500 C6EFDCA8 2500 00EFDCA8 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="4" row="4" x="1" y="2" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 0 0.5 0.5 1 1.2 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 8BFFFFFF 0.5 58FFFFFF 1 00FFFFFF </ColorOverLife>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="Number">2500 40 3000 0 </Number>
+			<SpinOverLife classname="CSpinOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="회전 변화">0 1 1 0 </SpinOverLife>
+			<SpeedOverLife classname="CSpeedOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="속력 변화">0 1 0.5 1 1 0 </SpeedOverLife>
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="0" pivot="0.5 0.5" align="emission_dir" align_axis="0 1 0" name="dust_screen">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 2000 </Life>
+			<Angle classname="CAngleController[11]" variance="1" min="-1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 10 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">2000 1500 </Size>
+			<Speed classname="CSpeedController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 1000 </Speed>
+			<Spin classname="CSpinController[11]" variance="1" min="0.7" max="1.6" interpolation="1" repeat="0" repeat_from="0">0 -360 1000 -360 3000 0 </Spin>
+			<Color classname="CColorController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">1000 FFEFDCA8 3000 00EFDCA8 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="4" row="4" x="1" y="2" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 0 0.5 0.7 1 1.2 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 00FFFFFF 0.4 D2FFFFFF 1 00FFFFFF </ColorOverLife>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="Number">2000 5 2500 0 </Number>
+			<SpinOverLife classname="CSpinOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="회전 변화">0 1 0.8 0.5 1 0 </SpinOverLife>
+			<SpeedOverLife classname="CSpeedOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="속력 변화">0 1 0.5 1 1 0 </SpeedOverLife>
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="0" pivot="0.4 0.4" align="screen" align_axis="0 1 0" name="sand_noise">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 1500 </Life>
+			<Angle classname="CAngleController[11]" variance="1" min="-1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 20 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.6" max="1.4" interpolation="1" repeat="0" repeat_from="0">2000 1500 </Size>
+			<Speed classname="CSpeedController[11]" variance="1" min="0.7" max="1.4" interpolation="1" repeat="0" repeat_from="0">0 1400 </Speed>
+			<Spin classname="CSpinController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 -360 </Spin>
+			<Color classname="CColorController[11]" variance="1" min="0.9" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 4EEFDCA8 1500 C6EFDCA8 3000 00EFDCA8 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="8" row="8" x="2" y="0" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 0.2 1 1 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0.5 C3FFFFFF 0.6 C3FFFFFF 0.9 00FFFFFF </ColorOverLife>
+			<Number classname="CNumberController[11]" variance="0" min="0.4" max="1.8" interpolation="1" repeat="0" repeat_from="0" name="Number">300 0 500 10 1000 20 3000 0 </Number>
+			<SpinOverLife classname="CSpinOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="회전 변화">0 1 1 0 </SpinOverLife>
+			<SpeedOverLife classname="CSpeedOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="속력 변화">0 1 0.5 1 1 0 </SpeedOverLife>
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="-2" pivot="0.5 0.5" align="world_y" align_axis="0 1 0" name="sand_noise_Y">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 1500 </Life>
+			<Angle classname="CAngleController[11]" variance="1" min="-1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 5 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">2000 1500 </Size>
+			<Speed classname="CSpeedController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 1000 </Speed>
+			<Spin classname="CSpinController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 -360 </Spin>
+			<Color classname="CColorController[11]" variance="1" min="0.9" max="1.0" interpolation="1" repeat="0" repeat_from="0">1500 C6EFDCA8 3000 31EFDCA8 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="8" row="8" x="2" y="0" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 0.4 0.5 0.8 1 1 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 8BFFFFFF 0.5 58FFFFFF 0.8 C3FFFFFF 1 00FFFFFF </ColorOverLife>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="Number">0 20 1000 5 2000 2 3000 0 </Number>
+			<SpinOverLife classname="CSpinOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="회전 변화">0 1 1 0 </SpinOverLife>
+			<SpeedOverLife classname="CSpeedOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="속력 변화">0 1 0.5 1 1 0 </SpeedOverLife>
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="2" pivot="0.5 0.1" align="screen" align_axis="0 1 0" name="start_01">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 1200 </Life>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">800 0 900 0 </Number>
+			<Angle classname="CAngleController[11]" variance="1" min="-1.0" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 0.1 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.8" max="1.2" interpolation="1" repeat="0" repeat_from="0">500 600 1500 0 </Size>
+			<Speed classname="CSpeedController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 200 </Speed>
+			<Spin classname="CSpinController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </Spin>
+			<Color classname="CColorController[11]" variance="1" min="1" max="1.2" interpolation="1" repeat="0" repeat_from="0">0 F1FBF0CB </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="8" row="4" x="5" y="3" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 0.7 0.10 1 1 1.5 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 00FFFFFF 0.2 FFFFFFFF 1 00FFFFFF </ColorOverLife>
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="2" pivot="0.5 0" align="screen" align_axis="0 1 0" name="boom">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 700 </Life>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 1500 2 1800 0 </Number>
+			<Angle classname="CAngleController[11]" variance="1" min="-1.0" max="1.0" interpolation="1" repeat="0" repeat_from="0">500 0.2 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.6" max="1.4" interpolation="1" repeat="0" repeat_from="0">0 80 1000 600 </Size>
+			<Speed classname="CSpeedController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 100 </Speed>
+			<Spin classname="CSpinController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 8CF8EDC8 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="8" row="4" x="5" y="3" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 0 0.10 1 1 1.5 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 00FFFFFF 0.5 FFFFFFFF 1 00FFFFFF </ColorOverLife>
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="1" pivot="0.4 0.4" align="world_y" align_axis="0 1 0" name="dust_Y_down">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 1500 </Life>
+			<Angle classname="CAngleController[11]" variance="1" min="-1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 5 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">2000 600 </Size>
+			<Speed classname="CSpeedController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 100 </Speed>
+			<Spin classname="CSpinController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 180 </Spin>
+			<Color classname="CColorController[11]" variance="1" min="0.9" max="1.0" interpolation="1" repeat="0" repeat_from="0">1500 C6EFDCA8 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="4" row="4" x="1" y="2" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 0 0.5 0.5 1 1.2 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 8BFFFFFF 0.5 58FFFFFF 0.7 C3FFFFFF 1 00FFFFFF </ColorOverLife>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="Number">2000 5 3000 0 </Number>
+			<SpinOverLife classname="CSpinOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="회전 변화">0 1 1 0 </SpinOverLife>
+			<SpeedOverLife classname="CSpeedOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="속력 변화">0 1 0.5 1 1 0 </SpeedOverLife>
+		</EffectType>
+		<EmitterShape classname="CEmitterShapePoint[10]" link_to_emitter="1" area_type="0" position="0 0 0" name="EmitterShape" />
+	</Effect>
+	<Effect classname="CEmitterType[10]" rotation_axis="0.000000 1.000000 0.000000" emission_dirtype="3" bsphere_radius="200" name="iria_desert_skill_build1">
+		<ActiveController classname="CActiveController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </ActiveController>
+		<EmissionAngleController classname="CEmissionAngleController[11]" variance="0" min="-1.0" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </EmissionAngleController>
+		<EmissionOuterRangeController classname="CEmissionRangeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </EmissionOuterRangeController>
+		<EffectType classname="CParticleType[10]" gravity_scale="0" pivot="0.4 0.4" align="world_y" align_axis="0 1 0" name="dust_Y">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 1500 </Life>
+			<Angle classname="CAngleController[11]" variance="1" min="-1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 5 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">2000 300 </Size>
+			<Speed classname="CSpeedController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 200 </Speed>
+			<Spin classname="CSpinController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 360 </Spin>
+			<Color classname="CColorController[11]" variance="1" min="0.9" max="1.0" interpolation="1" repeat="0" repeat_from="0">1500 C6EFDCA8 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="4" row="4" x="1" y="2" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 0 0.5 0.5 1 1.2 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 8BFFFFFF 0.5 58FFFFFF 0.7 C3FFFFFF 1 00FFFFFF </ColorOverLife>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="Number">2000 30 </Number>
+			<SpinOverLife classname="CSpinOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="회전 변화">0 1 1 0 </SpinOverLife>
+			<SpeedOverLife classname="CSpeedOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="속력 변화">0 1 0.5 1 1 0 </SpeedOverLife>
+		</EffectType>
+		<EmitterShape classname="CEmitterShapePoint[10]" link_to_emitter="1" area_type="0" position="0 0 0" name="EmitterShape" />
+		<EffectType classname="CParticleType[10]" gravity_scale="0" pivot="0.5 0.5" align="emission_dir" align_axis="0 1 0" name="dust_screen">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 2000 </Life>
+			<Angle classname="CAngleController[11]" variance="1" min="-1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 10 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">2000 300 </Size>
+			<Speed classname="CSpeedController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 180 </Speed>
+			<Spin classname="CSpinController[11]" variance="1" min="0.7" max="1.6" interpolation="1" repeat="0" repeat_from="0">0 -360 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">1500 FFEFDCA8 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="4" row="4" x="1" y="2" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 0 0.5 0.7 1 1.2 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 00FFFFFF 0.4 D2FFFFFF 0.6 FFFFFFFF 0.8 42FFFFFF 1 00FFFFFF </ColorOverLife>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="Number">2000 2 </Number>
+			<SpinOverLife classname="CSpinOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="회전 변화">0 1 0.8 0.5 1 0 </SpinOverLife>
+			<SpeedOverLife classname="CSpeedOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="속력 변화">0 1 0.5 1 1 0 </SpeedOverLife>
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="0" pivot="0.4 0.4" align="screen" align_axis="0 1 0" name="sand_noise">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 1500 </Life>
+			<Angle classname="CAngleController[11]" variance="1" min="-1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 20 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.6" max="1.4" interpolation="1" repeat="0" repeat_from="0">2000 300 </Size>
+			<Speed classname="CSpeedController[11]" variance="1" min="0.7" max="1.4" interpolation="1" repeat="0" repeat_from="0">0 300 </Speed>
+			<Spin classname="CSpinController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 0 </Spin>
+			<Color classname="CColorController[11]" variance="1" min="0.9" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 4EEFDCA8 1500 C6EFDCA8 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="8" row="8" x="2" y="0" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 0.2 1 1 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0.5 C3FFFFFF 0.6 FFFFFFFF 0.9 00FFFFFF </ColorOverLife>
+			<Number classname="CNumberController[11]" variance="0" min="0.4" max="1.8" interpolation="1" repeat="0" repeat_from="0" name="Number">300 0 500 10 </Number>
+			<SpinOverLife classname="CSpinOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="회전 변화">0 1 1 0 </SpinOverLife>
+			<SpeedOverLife classname="CSpeedOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="속력 변화">0 1 0.5 1 1 0 </SpeedOverLife>
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="-2" pivot="0.5 0.5" align="world_y" align_axis="0 1 0" name="sand_noise_Y">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 1500 </Life>
+			<Angle classname="CAngleController[11]" variance="1" min="-1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 5 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">2000 400 </Size>
+			<Speed classname="CSpeedController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 80 </Speed>
+			<Spin classname="CSpinController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 -360 </Spin>
+			<Color classname="CColorController[11]" variance="1" min="0.9" max="1.0" interpolation="1" repeat="0" repeat_from="0">1500 C6EFDCA8 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="8" row="8" x="2" y="0" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 0.4 0.5 0.8 1 1 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 8BFFFFFF 0.5 58FFFFFF 0.8 C3FFFFFF 1 00FFFFFF </ColorOverLife>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="Number">2000 5 </Number>
+			<SpinOverLife classname="CSpinOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="회전 변화">0 1 1 0 </SpinOverLife>
+			<SpeedOverLife classname="CSpeedOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="속력 변화">0 1 0.5 1 1 0 </SpeedOverLife>
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="2" pivot="0.5 0" align="screen" align_axis="0 1 0" name="boom">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 700 </Life>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 200 4 </Number>
+			<Angle classname="CAngleController[11]" variance="1" min="-1.0" max="1.0" interpolation="1" repeat="0" repeat_from="0">500 0.2 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.6" max="1.4" interpolation="1" repeat="0" repeat_from="0">0 20 1000 100 </Size>
+			<Speed classname="CSpeedController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 100 </Speed>
+			<Spin classname="CSpinController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 F5F8EDC8 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="8" row="4" x="5" y="3" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 0 0.10 1 1 1.5 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 00FFFFFF 0.5 FFFFFFFF 1 00FFFFFF </ColorOverLife>
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="1" pivot="0.5 0.4" align="world_y" align_axis="0 1 0" name="dust_Y_down">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 1500 </Life>
+			<Angle classname="CAngleController[11]" variance="1" min="-1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 5 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">2000 300 </Size>
+			<Speed classname="CSpeedController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 60 </Speed>
+			<Spin classname="CSpinController[11]" variance="1" min="0.7" max="1.2" interpolation="1" repeat="0" repeat_from="0">0 360 </Spin>
+			<Color classname="CColorController[11]" variance="1" min="0.9" max="1.0" interpolation="1" repeat="0" repeat_from="0">1500 C6EFDCA8 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="4" row="4" x="1" y="2" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 1.2 0.5 0.5 1 0 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 00FFFFFF 0.5 FFFFFFFF 0.7 C3FFFFFF 1 00FFFFFF </ColorOverLife>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="Number">2000 5 </Number>
+			<SpinOverLife classname="CSpinOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="회전 변화">0 0 0.5 0.7 1 1.1 </SpinOverLife>
+			<SpeedOverLife classname="CSpeedOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="속력 변화">0 1 0.5 1 1 0 </SpeedOverLife>
+		</EffectType>
+	</Effect>
+	<Effect classname="CEmitterType[10]" rotation_axis="-0.894427 0.447214 0.000000" emission_dirtype="3" bsphere_radius="200" name="iria_desert_skill_build">
+		<ActiveController classname="CActiveController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </ActiveController>
+		<EmissionAngleController classname="CEmissionAngleController[11]" variance="0" min="-1.0" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </EmissionAngleController>
+		<EmissionOuterRangeController classname="CEmissionRangeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </EmissionOuterRangeController>
+		<EffectType classname="CParticleType[10]" gravity_scale="-2" pivot="0.4 0.4" align="world_y" align_axis="0 1 0" name="dust_Y">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 1500 </Life>
+			<Angle classname="CAngleController[11]" variance="1" min="-1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 5 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.6" max="1.4" interpolation="1" repeat="0" repeat_from="0">2000 1000 </Size>
+			<Speed classname="CSpeedController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 600 </Speed>
+			<Spin classname="CSpinController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 720 </Spin>
+			<Color classname="CColorController[11]" variance="1" min="0.8" max="1.1" interpolation="1" repeat="0" repeat_from="0">1500 C6EFDCA8 2500 00EFDCA8 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="4" row="4" x="1" y="2" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 1.2 0.5 0.5 1 0 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 00FFFFFF 0.5 58FFFFFF 1 00FFFFFF </ColorOverLife>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="Number">2500 40 3000 0 </Number>
+			<SpinOverLife classname="CSpinOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="회전 변화">0 0 1 1 </SpinOverLife>
+			<SpeedOverLife classname="CSpeedOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="속력 변화">0 1 0.5 1 1 0 </SpeedOverLife>
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="0" pivot="0.5 0.5" align="emission_dir" align_axis="0 1 0" name="dust_screen">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 2000 </Life>
+			<Angle classname="CAngleController[11]" variance="1" min="-1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 10 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.4" max="1.8" interpolation="1" repeat="0" repeat_from="0">2000 1000 </Size>
+			<Speed classname="CSpeedController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 1000 </Speed>
+			<Spin classname="CSpinController[11]" variance="1" min="0.7" max="1.6" interpolation="1" repeat="0" repeat_from="0">0 -360 1000 -360 3000 0 </Spin>
+			<Color classname="CColorController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">1000 FFEFDCA8 2500 00EFDCA8 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="4" row="4" x="1" y="2" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 1 0.7 0.5 1 1 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 00FFFFFF 0.3 D2FFFFFF 1 00FFFFFF </ColorOverLife>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="Number">2000 20 2500 0 </Number>
+			<SpinOverLife classname="CSpinOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="회전 변화">0 0 1 1 </SpinOverLife>
+			<SpeedOverLife classname="CSpeedOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="속력 변화">0 1 0.5 1 1 0 </SpeedOverLife>
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="0" pivot="0.4 0.4" align="screen" align_axis="0 1 0" name="sand_noise">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 1500 </Life>
+			<Angle classname="CAngleController[11]" variance="1" min="-1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 20 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.5" max="1.4" interpolation="1" repeat="0" repeat_from="0">2000 1500 </Size>
+			<Speed classname="CSpeedController[11]" variance="1" min="0.7" max="1.4" interpolation="1" repeat="0" repeat_from="0">0 1400 </Speed>
+			<Spin classname="CSpinController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 -360 </Spin>
+			<Color classname="CColorController[11]" variance="1" min="0.9" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 4EEFDCA8 1500 C6EFDCA8 3000 00EFDCA8 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="8" row="8" x="2" y="0" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 1 1 0.2 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 00FFFFFF 0.3 C3FFFFFF 1 00FFFFFF </ColorOverLife>
+			<Number classname="CNumberController[11]" variance="0" min="0.4" max="1.8" interpolation="1" repeat="0" repeat_from="0" name="Number">300 0 500 10 1000 20 3000 0 </Number>
+			<SpinOverLife classname="CSpinOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="회전 변화">0 0 1 1 </SpinOverLife>
+			<SpeedOverLife classname="CSpeedOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="속력 변화">0 1 0.5 1 1 0 </SpeedOverLife>
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="-2" pivot="0.5 0.5" align="world_y" align_axis="0 1 0" name="sand_noise_Y">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 1500 </Life>
+			<Angle classname="CAngleController[11]" variance="1" min="-1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 5 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">2000 1500 </Size>
+			<Speed classname="CSpeedController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 1000 </Speed>
+			<Spin classname="CSpinController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 -360 </Spin>
+			<Color classname="CColorController[11]" variance="1" min="0.9" max="1.0" interpolation="1" repeat="0" repeat_from="0">1500 C6EFDCA8 3000 31EFDCA8 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="8" row="8" x="2" y="0" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 1 0.5 0.8 1 0.4 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 00FFFFFF 0.5 58FFFFFF 1 00FFFFFF </ColorOverLife>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="Number">0 20 1000 5 2000 2 3000 0 </Number>
+			<SpinOverLife classname="CSpinOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="회전 변화">0 0 1 1 </SpinOverLife>
+			<SpeedOverLife classname="CSpeedOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="속력 변화">0 1 0.5 1 1 0 </SpeedOverLife>
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="2" pivot="0.5 0.1" align="screen" align_axis="0 1 0" name="start_01">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 1200 </Life>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">800 10 1000 0 </Number>
+			<Angle classname="CAngleController[11]" variance="1" min="-1.0" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 0.2 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.5" max="1.3" interpolation="1" repeat="0" repeat_from="0">500 1000 1500 0 </Size>
+			<Speed classname="CSpeedController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 200 </Speed>
+			<Spin classname="CSpinController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </Spin>
+			<Color classname="CColorController[11]" variance="1" min="1" max="1.2" interpolation="1" repeat="0" repeat_from="0">0 F1FBF0CB </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="8" row="4" x="5" y="3" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 0.7 0.10 1 1 1.5 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 00FFFFFF 0.2 35FFFFFF 1 00FFFFFF </ColorOverLife>
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="2" pivot="0.5 0" align="screen" align_axis="0 1 0" name="boom">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 700 </Life>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 1500 2 1800 0 </Number>
+			<Angle classname="CAngleController[11]" variance="1" min="-1.0" max="1.0" interpolation="1" repeat="0" repeat_from="0">500 0.2 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.6" max="1.4" interpolation="1" repeat="0" repeat_from="0">0 80 1000 600 </Size>
+			<Speed classname="CSpeedController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 100 </Speed>
+			<Spin classname="CSpinController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 8CF8EDC8 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="8" row="4" x="5" y="3" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 0 0.10 1 1 1.5 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 00FFFFFF 0.5 FFFFFFFF 1 00FFFFFF </ColorOverLife>
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="1" pivot="0.4 0.4" align="world_y" align_axis="0 1 0" name="dust_Y_down">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 1500 </Life>
+			<Angle classname="CAngleController[11]" variance="1" min="-1" max="1.0" interpolation="1" repeat="0" repeat_from="0">0 5 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">2000 1200 </Size>
+			<Speed classname="CSpeedController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 500 </Speed>
+			<Spin classname="CSpinController[11]" variance="1" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 180 </Spin>
+			<Color classname="CColorController[11]" variance="1" min="0.9" max="1.0" interpolation="1" repeat="0" repeat_from="0">1500 C6EFDCA8 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="4" row="4" x="1" y="2" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 0 0.5 0.5 1 1.2 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 8BFFFFFF 0.5 58FFFFFF 0.7 C3FFFFFF 1 00FFFFFF </ColorOverLife>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="Number">2000 5 3000 0 </Number>
+			<SpinOverLife classname="CSpinOverLifeController[11]" variance="0" min="1" max="1.0" interpolation="1" repeat="0" repeat_from="0" name="회전 변화">0 1 1 0 </SpinOverLife>
+			<SpeedOverLife classname="CSpeedOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="속력 변화">0 1 0.5 1 1 0 </SpeedOverLife>
+		</EffectType>
+		<EmitterShape classname="CEmitterShapePoint[10]" link_to_emitter="1" area_type="0" position="0 0 0" name="EmitterShape" />
+	</Effect>
+	</EffectGroup>

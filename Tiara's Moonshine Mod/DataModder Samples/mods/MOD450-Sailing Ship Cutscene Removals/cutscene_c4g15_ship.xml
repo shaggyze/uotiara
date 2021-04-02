@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<cutscene>
+
+   <!-- 카브 항구에서 켈라를 향해 떠나다.-->
+	<scenario name="G15Ship_Leave_Cobh_for_Kela">
+	</scenario>
+
+	<!-- 이리아에 도착하다 -->
+	<scenario name="G15Ship_Leave_Ocean_for_Kela">
+	</scenario>
+
+
+	<!-- 켈라에서 카브를 향해 떠나다 -->  
+	<scenario name="G15Ship_leave_Kela_for_Cobh">
+	</scenario>
+
+	<!-- 카브에 도착하다.(켈라) -->
+	<scenario name="G15Ship_Leave_Ocean_for_Cobh1">
+	</scenario>
+
+   <!-- 카브에서 벨바스트로 출항  (G15 296003 퀘스트 전용)-->
+	<scenario name="G15Ship_Leave_Cobh_for_Belfast_Quest">
+	</scenario>
+
+   <!-- 카브에서 벨바스트로 출항 -->
+	<scenario name="G15Ship_Leave_Cobh_for_Belfast">
+	</scenario>
+
+
+   <!-- 배에서 벨바스트로 입항-->
+	<scenario name="G15Ship_Leave_Ocean_for_Belfast">
+	</scenario>
+
+ <!-- 벨바스트로에서 카브로 -->
+	<scenario name="G15Ship_Leave_Belfast_for_Cobh">
+	</scenario>
+
+
+   <!-- 배에서 카브로 입항(벨바스트버전)-->
+	<scenario name="G15Ship_Leave_Ocean_for_Cobh2">
+	</scenario>
+
+		
+
+</cutscene>

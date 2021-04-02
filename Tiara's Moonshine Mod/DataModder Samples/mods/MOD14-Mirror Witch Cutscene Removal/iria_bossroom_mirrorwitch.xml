@@ -1,0 +1,6 @@
+﻿<!-- 웬디고의 사망 이후 거울마녀가 실체화된다 -->
+<cutscene>
+	<scenario name="iria_bossroom_mirrorwitch">
+		<stage region="919" origin="10000 0 10000" />
+	</scenario>
+</cutscene>

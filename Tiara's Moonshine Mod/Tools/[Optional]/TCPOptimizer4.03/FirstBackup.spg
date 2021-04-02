@@ -1,0 +1,71 @@
+[netsh]
+TCP Window Auto-Tuning=3
+Congestion Control Provider=1
+TCP Chimney Offload=3
+Receive-Side Scaling State=1
+EnableDCA=2
+EnableTCPA=1
+ECN Capability=2
+Windows Scaling heuristics=1
+[SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+DefaultTTL=-1
+Tcp1323Opts=-1
+DisableTaskOffload=-1
+DisableTaskOffload_SEL=0
+MaxUserPort=-1
+TcpTimedWaitDelay=-1
+SynAttackProtect=-1
+SynAttackProtect_SEL=0
+TCPMaxDataRetransmissions=-1
+[SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl\FEATURE_MAXCONNECTIONSPER1_0SERVER]
+explorer.exe=4
+iexplore.exe=-1
+[SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl\FEATURE_MAXCONNECTIONSPERSERVER]
+explorer.exe=2
+iexplore.exe=-1
+[SYSTEM\CurrentControlSet\Services\Tcpip\ServiceProvider]
+LocalPriority=499
+HostsPriority=500
+DnsPriority=2000
+NetbtPriority=2001
+[SOFTWARE\Policies\Microsoft\Windows\Psched]
+NonBestEffortLimit=-2
+[System\CurrentControlSet\Services\Tcpip\QoS]
+Do not use NLA=-2
+Do not use NLA_SEL=0
+[SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+NetworkThrottlingIndex=10
+NetworkThrottlingIndex_SEL=10
+SystemResponsiveness=20
+SystemResponsiveness_SEL=20
+[SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters]
+Size=1
+Size_SEL=1
+[SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+LargeSystemCache=0
+LargeSystemCache_SEL=0
+[SOFTWARE\Microsoft\MSMQ\Parameters]
+TCPNoDelay=-2
+TCPNoDelay_SEL=0
+[SYSTEM\CurrentControlSet\Services\Dnscache\Parameters]
+NegativeCacheTime=-1
+NetFailureCacheTime=-1
+NegativeSOACacheTime=-1
+[Local Area Connection 2]
+MTU=1500
+[SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{FF054E51-7FED-4376-BD58-17772D9845E0}]
+TcpAckFrequency=1
+TcpAckFrequency_SEL=1
+TcpDelAckTicks=-1
+TcpDelAckTicks_SEL=0
+TCPNoDelay=-1
+TCPNoDelay_SEL=0
+[Local Area Connection]
+MTU=1500
+[SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{75324FD3-FBBE-4C03-ACD0-98EAF47560AC}]
+TcpAckFrequency=1
+TcpAckFrequency_SEL=1
+TcpDelAckTicks=-1
+TcpDelAckTicks_SEL=0
+TCPNoDelay=-1
+TCPNoDelay_SEL=0

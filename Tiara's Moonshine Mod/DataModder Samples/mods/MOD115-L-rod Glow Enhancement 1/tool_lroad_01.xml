@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-16" standalone="yes" ?> 
+<meshdesc version="3" effect_version="7">
+	<EffectGroup play_mode="loop" play_length="0" play="1">
+		<Effect name="Lrod_1"  parent="HandtoolR" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="1 0 0" rot_angle="0" />
+		<Effect name="Lrod_12" parent="HandtoolR" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="1 0 0" rot_angle="45" />
+		<Effect name="Lrod_13" parent="HandtoolR" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="1 0 0" rot_angle="90" />
+		<Effect name="Lrod_14" parent="HandtoolR" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="1 0 0" rot_angle="135" />
+		<Effect name="Lrod_15" parent="HandtoolR" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="1 0 0" rot_angle="-45" />
+		<Effect name="Lrod_16" parent="HandtoolR" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="1 0 0" rot_angle="-90" />
+		<Effect name="Lrod_17" parent="HandtoolR" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="1 0 0" rot_angle="135" />
+		<Effect name="Lrod_18" parent="HandtoolR" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="1 0 0" rot_angle="180" />
+		<Effect name="Lrod_19" parent="HandtoolR" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="0 0 1" rot_angle="45" />
+		<Effect name="Lrod_1A" parent="HandtoolR" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="0 0 1" rot_angle="90" />
+		<Effect name="Lrod_1B" parent="HandtoolR" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="0 0 1" rot_angle="135" />
+		<Effect name="Lrod_1C" parent="HandtoolR" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="0 0 1" rot_angle="-45" />
+		<Effect name="Lrod_1D" parent="HandtoolR" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="0 0 1" rot_angle="-90" />
+		<Effect name="Lrod_1E" parent="HandtoolR" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="0 0 1" rot_angle="-135" />
+		<Effect name="Lrod_2"  parent="HandtoolL" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="1 0 0" rot_angle="0" />
+		<Effect name="Lrod_22" parent="HandtoolL" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="1 0 0" rot_angle="45" />
+		<Effect name="Lrod_23" parent="HandtoolL" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="1 0 0" rot_angle="90" />
+		<Effect name="Lrod_24" parent="HandtoolL" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="1 0 0" rot_angle="135" />
+		<Effect name="Lrod_25" parent="HandtoolL" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="1 0 0" rot_angle="-45" />
+		<Effect name="Lrod_26" parent="HandtoolL" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="1 0 0" rot_angle="-90" />
+		<Effect name="Lrod_27" parent="HandtoolL" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="1 0 0" rot_angle="135" />
+		<Effect name="Lrod_28" parent="HandtoolL" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="1 0 0" rot_angle="180" />
+		<Effect name="Lrod_29" parent="HandtoolL" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="0 0 1" rot_angle="45" />
+		<Effect name="Lrod_2A" parent="HandtoolL" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="0 0 1" rot_angle="90" />
+		<Effect name="Lrod_2B" parent="HandtoolL" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="0 0 1" rot_angle="135" />
+		<Effect name="Lrod_2C" parent="HandtoolL" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="0 0 1" rot_angle="-45" />
+		<Effect name="Lrod_2D" parent="HandtoolL" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="0 0 1" rot_angle="-90" />
+		<Effect name="Lrod_2E" parent="HandtoolL" effect_name="L_rod_01" offset="0 0 0" 	rot_axis="0 0 1" rot_angle="-135" />
+	</EffectGroup>
+</meshdesc>

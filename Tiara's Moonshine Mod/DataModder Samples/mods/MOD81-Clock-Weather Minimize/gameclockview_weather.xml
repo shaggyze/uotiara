@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<GameClockWeatherView name="GameClockWeatherView" x="220" y="220" width="104" height="80" minWidth="120" minHeight="30" isSingleton="true" destroyOnEsc="false" alwaysEnable="true" noBorder="true">
+	<meta>
+		<data key="count" type="u32" value="3" />
+		<data key="interval" type="u32" value="1200000" />
+		<data key="weatherB" type="u32" value="18" />
+		<data key="weather1" type="u32" value="0" />
+		<data key="weather2" type="u32" value="17" />
+		<data key="weather3" type="u32" value="54" />
+		<data key="weather4" type="u32" value="71" />
+		<data key="weatherX" type="u32" value="128" />
+		<data key="weatherY" type="u32" value="77" />
+	</meta>
+	<Image name="BackgroundImage" file="data/gfx/gui/GUI_Alarm_main.dds" x="0" y="0" frameWidth="[$parent $innerWidth]" frameHeight="[$parent $innerHeight]" pickable="false">
+		<Layer index="1" originX="1" originY="37" />
+	</Image>
+	<Image name="WeatherImage1" file="data/gfx/gui/GUI_Alarm_main.dds" x="3" y="4" frameWidth="19" frameHeight="20" pickable="false">
+		<Layer index="1" originX="[@weather1;u32]" originY="18" />
+	</Image>
+	<Text name="WeatherText1" title="_LT[xml.layout.844]" x="40" y="7" width="[$parent $innerWidth] - 20" height="30" textColor="ff949392" align="left">
+	</Text>
+	<Image name="WeatherImage2" file="data/gfx/gui/GUI_Alarm_main.dds" x="3" y="26" frameWidth="19" frameHeight="20" pickable="false">
+		<Layer index="1" originX="[@weatherX;u32]" originY="[@weatherY;u32]" />
+	</Image>
+	<Text name="WeatherText2" title="_LT[xml.layout.845]" x="40" y="29" width="[$parent $innerWidth] - 20" height="30" textColor="ff949392" align="left">
+	</Text>
+	<Image name="WeatherImage3" file="data/gfx/gui/GUI_Alarm_main.dds" x="3" y="48" frameWidth="19" frameHeight="20" pickable="false">
+		<Layer index="1" originX="[@weather5;u32]" originY="18" />
+	</Image>
+	<Text name="WeatherText3" title="_LT[xml.layout.846]" x="40" y="51" width="[$parent $innerWidth] - 20" height="30" textColor="ff949392" align="left">
+	</Text>
+</GameClockWeatherView>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<cutscene>
+	<scenario name="DramaIria_Ep3_02">
+		<!--3-2 : 광산의 괴물들-->
+		<!-->move /r:3207 /x:5409 /y:4542-->
+	</scenario>
+</cutscene>

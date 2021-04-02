@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<cutscene>
+	<scenario name="bossroom_peaca_masterlich">
+		<stage region="914" origin="0 0 0" />
+	</scenario>
+</cutscene>

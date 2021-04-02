@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<cutscene id="npc_1">
+	<scenario name="bossroom_CriMath_BardSkeleton_GiantSkeletonHellhound">
+		<stage region="902" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_CriMath_BardSkeleton_change">
+		<stage region="902" origin="10000 0 10000" />
+	</scenario>		
+	<scenario name="bossroom_Runda_Cyclops1">
+		<stage region="69" origin="10000 200 10300" />
+	</scenario>
+	<scenario name="bossroom_Hardmode_Runda_Cyclops1">
+		<stage region="931" origin="10000 200 10300" />
+			</scenario>
+	<scenario name="bossroom_Runda_Cyclops2">
+		<stage region="69" origin="10000 200 10300" />
+	</scenario>
+	<scenario name="bossroom_Hardmode_Runda_Cyclops2">
+		<stage region="931" origin="10000 200 10300" />
+	</scenario>
+	<scenario name="bossroom_Hardmode_Albi_GiantSpider_DarkBlueSpider">
+		<stage region="929" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_Albi_GiantSpider_DarkBlueSpider">
+		<stage region="900" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_Math_BardSkeleton_GiantSkeletonHellhound">
+		<stage region="902" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_Math_BardSkeleton_change">
+		<stage region="902" origin="10000 0 10000" />
+			</scenario>
+	<scenario name="bossroom_Metalskeleton_Golem3">
+		<stage region="901" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_Metalskeleton_Golem4">
+		<stage region="901" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_Hardmode_Metalskeleton_Golem4">
+		<stage region="930" origin="10000 0 10000" />
+	</scenario>
+	<scenario name="bossroom_Golem34">
+		<stage region="901" origin="10000 0 10500" />
+	</scenario>
+	<scenario name="bossroom_Runda_Catsith">
+		<stage region="69" origin="10000 200 10000" />
+	</scenario>
+	<scenario name="bossroom_Hardmode_Runda_Catsith">
+		<stage region="931" origin="10000 200 10000" />
+	</scenario>
+</cutscene>

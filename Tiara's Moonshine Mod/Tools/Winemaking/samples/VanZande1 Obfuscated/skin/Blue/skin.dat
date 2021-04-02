@@ -1,0 +1,19 @@
+[Info]
+Title=Blue
+Author=big_daddy & SmStroble
+
+[color]
+background=0xDEE1DA
+Button=0xDEE1DA
+mouseover=0xB3DA75
+fontcolor=Black
+
+[settings]
+size=37
+
+
+[icon]
+style=Light-Green
+Isize=18
+adjustleft=32
+adjustdown=7

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<cutscene>
+	<!--인간 버전-->
+	<scenario name="DramaIria_Ep3_03">
+		<!-->move /r:3200 /x:276971 /y:228828-->
+		<!--3-3 : 사안의 진정한 의미-->
+	</scenario>
+	<!--자이언트 버전-->
+	<scenario name="DramaIria_Ep3_03_giant">
+		<!--3-3 : 사안의 진정한 의미-->
+	</scenario>
+</cutscene>

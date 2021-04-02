@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<cutscene>
+	<!--NPC 무술대회 컷신-->
+	<scenario name="C4G15_NPC_Mission_Tara">
+		<stage region="503" origin="5550 370 94230"
+		</client_sequence>	
+	</scenario>
+	<scenario name="C4G15_NPC_Mission_Tir">
+		<stage region="503" origin="5550 370 94230"
+		</client_sequence>
+	</scenario>
+	<scenario name="C4G15_NPC_Mission_Dunba">
+		<stage region="503" origin="5550 370 94230"
+		</client_sequence>
+	</scenario>
+	<scenario name="C4G15_NPC_Mission_Bangor">
+		<stage region="503" origin="5550 370 94230"
+		</client_sequence>
+	</scenario>
+	<scenario name="C4G15_NPC_Mission_Emain">
+		<stage region="503" origin="5550 370 94230"
+		</client_sequence>
+	</scenario>
+	<scenario name="C4G15_NPC_Mission_Taillt">
+		<stage region="503" origin="5550 370 94230"
+		</client_sequence>
+	</scenario>
+	<scenario name="C4G15_NPC_Mission_Human">
+		<stage region="503" origin="5550 370 94230"
+		</client_sequence>
+	</scenario>
+	<scenario name="C4G15_NPC_Mission_Elfiant">
+		<stage region="503" origin="5550 370 94230"
+		</client_sequence>
+	</scenario>
+	<scenario name="C4G15_NPC_Mission_Boss">
+		<stage region="503" origin="5550 370 94230"
+		</client_sequence>
+	</scenario>
+</cutscene>

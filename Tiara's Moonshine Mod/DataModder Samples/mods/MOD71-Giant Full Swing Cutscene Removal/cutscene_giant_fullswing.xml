@@ -1,0 +1,34 @@
+﻿<cutscene>
+
+	<scenario name="full_swing_camera_male">
+		<stage region="current" origin="player_pos" />
+		<client_sequence wait_server_reply="false">
+
+
+		<system cmd="nop">
+
+		</system>
+
+
+		</client_sequence>
+
+	</scenario>
+
+
+
+
+	<scenario name="full_swing_camera_female">
+		<stage region="current" origin="player_pos" />
+		<client_sequence wait_server_reply="false">
+
+
+		<system cmd="nop">
+
+		</system>
+
+
+		</client_sequence>
+
+	</scenario>
+
+</cutscene>

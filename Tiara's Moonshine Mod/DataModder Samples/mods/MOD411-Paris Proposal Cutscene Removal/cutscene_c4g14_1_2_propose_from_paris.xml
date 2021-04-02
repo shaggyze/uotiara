@@ -1,0 +1,200 @@
+﻿<cutscene>
+	<scenario name="C4G14_1_2_Propose_from_Paris">
+		<stage region="503" origin="21910 370 24051" hide="character" sky_time="0005" />
+		<client_sequence terminated_by_key="true">
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="fadein" duration="1" color="000000" continue="false" />
+				</sequence>
+				<sequence>
+					<action cmd="look_at_actor" id="패리스" target="캐퓰릿" />
+					<effect cmd="image_simple" name="data\gfx/image/G14/scene_num/act1_scene2_01.dds" x="0.62" y="0.68" color="ffffffff" duration="20" fade_duration="10" topmost="true" />
+				</sequence>
+			</system>
+			<!--- 끝 -->
+			<system cmd="nop">
+				<sequence>
+					<system cmd="wait" duration="1" />
+					<system cmd="quit" />
+				</sequence>
+			</system>
+		</client_sequence>
+		<server_sequence>
+			<master>
+				<mint value="dungeon2/puzzle_StageDungeon_G14PlayCutscene.mint::OnEndCutscene" />
+			</master>
+		</server_sequence>
+	</scenario>
+	<!--======================================================자이언트================================================================-->
+	<scenario name="C4G14_1_2_Propose_from_Paris_giant">
+		<stage region="503" origin="21910 370 24051" hide="character" sky_time="1200" />
+		<client_sequence terminated_by_key="true">
+			<!--- 등장 인물 -->
+			<appear cmd="appear" id="캐퓰릿" actor="#capulet" pos="-300 0 1000" dir="0" alpha="255" />
+			<appear cmd="appear" id="플레이어" actor="me" pos="-150 0 1000" dir="180" alpha="255" />
+			<appear cmd="appear" id="패리스" actor="#paris" pos="-1000 0 -50" dir="90" alpha="255" />
+			<!--- 엑스트라 -->
+			<appear cmd="appear" id="하녀01" actor="#G14_maid" pos="-50 0 -50" dir="0" alpha="255" />
+			<appear cmd="appear" id="하녀02" actor="#G14_maid" pos="-950 0 1500" dir="-30" alpha="255" />
+			<appear cmd="appear" id="캐퓰릿하인01" actor="#Capulet_servant_01" pos="-850 0 1450" dir="130" alpha="255" />
+			<appear cmd="appear" id="캐퓰릿엑스트라01" actor="#capulet_family_01" pos="190 0 1800" dir="0" alpha="255" />
+			<appear cmd="appear" id="캐퓰릿엑스트라02" actor="#capulet_family_02" pos="320 0 1800" dir="180" alpha="255" />
+			<!--- 카메라 디폴트 -->
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<action cmd="switch_weaponset" id="캐퓰릿엑스트라01" set="1" />
+			<action cmd="switch_weaponset" id="캐퓰릿엑스트라02" set="1" />
+			<action cmd="unequip" id="플레이어" pocket="current_tool" />
+			<action cmd="unequip" id="캐퓰릿하인01" pocket="current_tool" />
+			<action cmd="set_battle_mode" id="플레이어" on="false" />
+			<!--- 엑스트라 모션-->
+			<action cmd="set_motion" id="캐퓰릿엑스트라01" motion="chapter4\human\anim\cutscene\1act\1act5ch_player_talk01.ani" chain="false" loop="true" />
+			<action cmd="set_motion" id="캐퓰릿엑스트라02" motion="chapter4\human\anim\cutscene\1act\1act5ch_horatio_talk01.ani" chain="false" loop="true" />
+			<action cmd="set_motion" id="하녀02" motion="chapter4\human\anim\cutscene\1act\1act5ch_player_talk01.ani" chain="false" loop="true" />
+			<action cmd="set_motion" id="캐퓰릿하인01" motion="chapter4\human\anim\cutscene\1act\1act5ch_horatio_talk01.ani" chain="false" loop="true" />
+			<!--- 시작 -->
+			<system cmd="nop">
+				<sequence>
+					<!--- 배경 음악 -->
+					<effect cmd="play_music" name="NPC_Juliet" loop="0" />
+					<action cmd="move_to" id="하녀01" pos="850 0 -100" run="false" async="true" motion="data/gfx/char/chapter4/human/anim/cutscene/gertrude_walk01.ani" />
+				</sequence>
+				<sequence>
+					<effect cmd="fadein" duration="3000" color="000000" continue="false" />
+				</sequence>
+				<sequence>
+					<action cmd="look_at_actor" id="패리스" target="캐퓰릿" />
+					<effect cmd="image_simple" name="data\gfx/image/G14/scene_num/act1_scene2_01.dds" x="0.62" y="0.68" color="ffffffff" duration="6500" fade_duration="500" topmost="true" />
+				</sequence>
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="set_pos" pos="91 220 -495" />
+					<camera cmd="set_target_pos" pos="-187 80 718" />
+					<camera cmd="set_fov" fov="40" />
+					<camera cmd="rotate" speed="0.7" axis="0 -1 0" />
+					<action cmd="set_motion" id="캐퓰릿" motion="chapter4/human/anim/cutscene\1act\1act3ch_polonius_talk02.ani" chain="false" />
+					<action cmd="set_motion" id="플레이어" motion="chapter4/human/anim/cutscene/1act/1act5ch_giant_player_talk01.ani " chain="false" />
+					<action cmd="play_facial_lip" id="캐퓰릿" index="45 0 44 0 46 0" random="true" final_index="0" speed="500" duration="3500" />
+					<action cmd="play_facial_lip" id="플레이어" index="45 0 44 0 46 0" random="true" final_index="0" speed="500" duration="3500" />
+					<system cmd="wait" duration="6500" />
+					<action cmd="locate" id="패리스" pos="-250 0 50" />
+					<camera cmd="stop" />
+					<camera cmd="set_pos" pos="-201 150 1651" />
+					<camera cmd="set_target_pos" pos="-283 50 33" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="rotate" speed="0.7" axis="-1 0 0" />
+					<action cmd="move_to" id="패리스" pos="-250 0 800" run="false" async="true" />
+					<action cmd="set_motion" id="캐퓰릿" motion="human\anim\uni_natural_stand_straight.ani" chain="false" loop="true" />
+					<action cmd="look_at_actor" id="캐퓰릿" target="패리스" />
+					<action cmd="look_at_actor" id="플레이어" target="패리스" />
+					<system cmd="wait" duration="4000" />
+					<effect cmd="image_simple" name="data/gfx/image/G14/char_nametag/06_paris.dds" x="0.5" y="0.68" color="ffffffff" duration="3000" fade_duration="500" topmost="true" />
+					<action cmd="set_motion" id="패리스" motion="human/anim/social_motion/male_natural_emotion_curtsey.ani" chain="false" />
+					<system cmd="wait" duration="3000" />
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="60" />
+					<camera cmd="set_pos" pos="165 160 384" />
+					<camera cmd="set_target_pos" pos="-130 120 719" />
+					<camera cmd="rotate" speed="0.7" axis="0 -1 0" />
+					<action cmd="set_dir" id="캐퓰릿" dir="-80" />
+					<action cmd="set_motion" id="캐퓰릿" motion="chapter4/human/anim/cutscene/2act/2act1ch_polonius_welcom.ani" chain="false" loop="true" />
+					<action cmd="play_facial_lip" id="캐퓰릿" index="45 0 44 0 46 0" random="true" final_index="0" speed="500" duration="2500" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.3822]" />
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="30" />
+					<camera cmd="set_pos" pos="-200 144 1440" />
+					<camera cmd="set_target_pos" pos="-241 134 894" />
+					<camera cmd="rotate" speed="0.5" axis="0 -1 0" />
+					<action cmd="set_motion" id="캐퓰릿" motion="human\anim\uni_natural_stand_straight.ani" chain="false" loop="true" />
+					<action cmd="set_motion" id="패리스" motion="chapter4\human\anim\cutscene\1act\1act5ch_player_talk01.ani" chain="false" loop="true" />
+					<action cmd="play_facial_lip" id="패리스" index="45 0 44 0 46 0" random="true" final_index="0" speed="500" duration="4500" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.3823]" />
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="35" />
+					<camera cmd="set_pos" pos="-281 144 605" />
+					<camera cmd="set_target_pos" pos="-286 134 977" />
+					<camera cmd="rotate" speed="0.5" axis="0 -1 0" />
+					<action cmd="set_motion" id="패리스" motion="human\anim\uni_natural_stand_straight.ani" chain="false" loop="true" />
+					<action cmd="set_motion" id="캐퓰릿" motion="chapter4/human/anim/cutscene\1act\1act3ch_polonius_talk02.ani" chain="false" loop="true" />
+					<action cmd="play_facial_lip" id="캐퓰릿" index="45 0 44 0 46 0" random="true" final_index="0" speed="500" duration="5500" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.3824]" />
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="30" />
+					<camera cmd="set_pos" pos="-253 144 1207" />
+					<camera cmd="set_target_pos" pos="-262 134 886" />
+					<action cmd="set_motion" id="캐퓰릿" motion="human\anim\uni_natural_stand_straight.ani" chain="false" loop="true" />
+					<action cmd="set_motion" id="패리스" motion="chapter4\human\anim\cutscene\1act\1act5ch_player_talk01.ani" chain="false" loop="true" />
+					<action cmd="play_facial_lip" id="패리스" index="45 0 44 0 46 0" random="true" final_index="0" speed="500" duration="5500" />
+					<action cmd="move_to" id="하녀01" pos="750 0 1800" run="false" async="true" motion="data/gfx/char/chapter4/human/anim/cutscene/gertrude_walk01.ani" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.3825]" />
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="set_pos" pos="-737 144 573" />
+					<camera cmd="set_target_pos" pos="-272 134 974" />
+					<camera cmd="rotate" speed="0.5" axis="0 -1 0" />
+					<action cmd="set_motion" id="패리스" motion="human\anim\uni_natural_stand_straight.ani" chain="false" loop="true" />
+					<action cmd="set_motion" id="캐퓰릿" motion="chapter4/human/anim/cutscene\1act\1act3ch_polonius_talk02.ani" chain="false" loop="true" />
+					<action cmd="play_facial_lip" id="캐퓰릿" index="45 0 44 0 46 0" random="true" final_index="0" speed="500" duration="15000" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.3826]" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.3827]" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.3828]" />
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="set_pos" pos="-596 144 1146" />
+					<camera cmd="set_target_pos" pos="-159 134 876" />
+					<action cmd="set_motion" id="캐퓰릿" motion="human\anim\uni_natural_stand_straight.ani" chain="false" loop="true" />
+					<action cmd="set_motion" id="패리스" motion="chapter4\human\anim\cutscene\1act\1act5ch_player_talk01.ani" chain="false" loop="true" />
+					<action cmd="play_facial_lip" id="패리스" index="45 0 44 0 46 0" random="true" final_index="0" speed="500" duration="4000" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.3829]" />
+					<camera cmd="stop" />
+					<camera cmd="set_pos" pos="91 220 -495" />
+					<camera cmd="set_target_pos" pos="-187 80 718" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="rotate" speed="0.7" axis="0 -1 0" />
+					<action cmd="stop_look_at" id="패리스" />
+					<action cmd="move_to" id="패리스" pos="-250 0 -1000" run="false" async="true" />
+					<system cmd="wait" duration="3000" />
+					<effect cmd="fadeout" duration="1500" color="000000" continue="true" />
+					<action cmd="stop_look_at" id="캐퓰릿" />
+					<action cmd="stop_look_at" id="플레이어" />
+					<action cmd="set_dir" id="캐퓰릿" dir="0" />
+					<action cmd="set_dir" id="플레이어" dir="180" />
+					<action cmd="equip" id="캐퓰릿" pocket="weapon1" item="40996" c1="808080" c2="808080" c3="808080" animation="true" />
+					<action cmd="play_facial_lip" id="캐퓰릿" index="45 0 44 0 46 0" random="true" final_index="0" speed="500" duration="7000" />
+					<action cmd="set_motion" id="캐퓰릿" motion="chapter4/human/anim/cutscene2/1act/1act2ch_capulet_talk01.ani" chain="false" loop="true" />
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="40" />
+					<camera cmd="set_pos" pos="400 180 574" />
+					<camera cmd="set_target_pos" pos="-230 130 1020" />
+					<system cmd="wait" duration="500" />
+					<effect cmd="fadein" duration="1500" color="000000" continue="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.3830]" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.3831]" />
+					<camera cmd="stop" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="set_pos" pos="-761 100 710" />
+					<camera cmd="set_target_pos" pos="-128 100 1003" />
+					<action cmd="look_at_actor" id="플레이어" target="캐퓰릿" />
+					<action cmd="set_motion" id="캐퓰릿" motion="human\anim\uni_natural_stand_straight.ani" chain="false" loop="true" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.3832]" />
+					<system cmd="wait" duration="500" />
+					<effect cmd="stop_music" />
+					<effect cmd="fadeout" duration="3000" color="000000" continue="true" />
+				</sequence>
+			</system>
+			<!--- 끝 -->
+			<system cmd="nop">
+				<sequence>
+					<system cmd="wait" duration="500" />
+					<system cmd="quit" />
+				</sequence>
+			</system>
+		</client_sequence>
+		<server_sequence>
+			<master>
+				<mint value="dungeon2/puzzle_StageDungeon_G14PlayCutscene.mint::OnEndCutscene" />
+			</master>
+		</server_sequence>
+	</scenario>
+</cutscene>

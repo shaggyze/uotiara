@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<cutscene>
+	<!--01_인간 현상범_퇴장컷신-->
+	<scenario name="CrminalFarm_exit_01_human">
+		<stage region="830" origin="0 -990 0" hide="character_only" />
+	</scenario>
+	<!--02_고블린 현상범_퇴장컷신-->
+	<scenario name="CrminalFarm_exit_02_goblin">
+		<stage region="830" origin="0 -990 0" hide="character_only" />
+	</scenario>
+	<!--03_임프 현상범_퇴장컷신-->
+	<scenario name="CrminalFarm_exit_03_imp">
+		<stage region="830" origin="0 -990 0" hide="character_only" />
+	</scenario>
+	<!--04_세이렌 현상범_퇴장컷신-->
+	<scenario name="CrminalFarm_exit_04_siren">
+		<stage region="830" origin="0 -990 0" hide="character_only" />
+	</scenario>
+	<!--05_도살자 현상범_퇴장컷신-->
+	<scenario name="CrminalFarm_exit_05_butcher">
+		<stage region="830" origin="0 -990 0" hide="character_only" />
+	</scenario>
+	<!--06_레프리컨 현상범_퇴장컷신-->
+	<scenario name="CrminalFarm_exit_06_leprechaun">
+		<stage region="830" origin="0 -990 0" hide="character_only" />
+	</scenario>
+	<!--07_오거 현상범_퇴장컷신-->
+	<scenario name="CrminalFarm_exit_07_ogre">
+		<stage region="830" origin="0 -990 0" hide="character_only" />
+	</scenario>
+</cutscene>

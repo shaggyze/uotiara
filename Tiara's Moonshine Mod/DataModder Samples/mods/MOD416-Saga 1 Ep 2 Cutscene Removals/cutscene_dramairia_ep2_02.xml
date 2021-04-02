@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<cutscene>
+    <!--인간, 엘프 시나리오-->
+	<scenario name="DramaIria_Ep2_02">
+	<!--Ep2_02 정체불명의 사나이-->
+	</scenario>	
+	<!--인간, 엘프 시나리오 끝-->	
+	<!--자이언트 시나리오-->
+	<scenario name="DramaIria_Ep2_02_giant">
+	<!--Ep2_02 정체불명의 사나이-->
+	</scenario>	
+	<!--자이언트 시나리오 끝-->	
+</cutscene>

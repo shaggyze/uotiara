@@ -1,0 +1,15 @@
+﻿<cutscene>
+	<scenario name="elven_missile_camera_ice">
+		<stage region="current" origin="player_pos" />
+		<client_sequence wait_server_reply="false">
+
+
+		<system cmd="nop">
+
+		
+		</system>
+
+
+		</client_sequence>
+	</scenario>
+</cutscene>

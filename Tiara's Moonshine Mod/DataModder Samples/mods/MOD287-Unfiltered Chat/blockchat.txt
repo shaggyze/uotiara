@@ -1,0 +1,16 @@
+﻿;------------------------------------------------------------------------------
+; ';'로 주석을 시작합니다. 
+; 대소문자는 구분하지 않으며 컴마(,)나 탭 혹은 공백으로 단어들을 구분합니다.
+; 채팅중에 아래에 나열된 단어가 포함되어 있으면 막히게 됩니다.
+; (와일드 카드는 필요 없습니다.)
+;
+; Any comment starts with ';'
+; The list is not case-sensitive, and the words are separated by using comma, tab, or blank
+; The chat is blocked when any of the words below are mentioned in the chat.
+; (No need for the wild card)
+;
+;	주의!!  채팅 필터입니다!! 캐릭터 필터가 아닙니다!!
+;
+; Please be aware that this is the Chat Filter!!! Not a Character Filter!!! 
+;
+;------------------------------------------------------------------------------

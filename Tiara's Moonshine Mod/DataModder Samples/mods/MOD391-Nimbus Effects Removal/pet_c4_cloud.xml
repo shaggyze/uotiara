@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<EffectGroup classname="EffectGroup[10]" name="pet_c4_cloud">
+	<Effect classname="CEmitterType[10]" rotation_axis="0 0 1" emission_dirtype="4" bsphere_radius="400" name="pet_c4_cloud01_03">
+	<!--
+		<ActiveController classname="CActiveController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </ActiveController>
+		<EmissionAngleController classname="CEmissionAngleController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 180 </EmissionAngleController>
+		<EmissionOuterRangeController classname="CEmissionRangeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 360 </EmissionOuterRangeController>
+		<EffectType classname="CParticleType[10]" gravity_scale="-2.00" pivot="0.5 0.5" align="screen" align_axis="0 1 0" name="whitecloud">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 500 </Life>
+			<Angle classname="CAngleController[11]" variance="1" min="0.4" max="1.5" interpolation="1" repeat="0" repeat_from="0">0 90 </Angle>
+			<Size classname="CSizeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 65 </Size>
+			<Speed classname="CSpeedController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 20 100 6 500 6 </Speed>
+			<Spin classname="CSpinController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 10 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 FFFFFFFF </Color>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 FFFFFFFF 0.3 93FFFFFF 0.8 FFFFFFFF 1 00FFFFFF </ColorOverLife>
+			<Texture tas_classname="tas_dynamicgrid[10]" texture="common_effect_alpha04" tex_width="512" tex_height="512" x="0" y="320" width="256" height="64" column="4" row="1" ani_loop_per_sec="1" ani_start_frame="0" ani_time_type="0" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 0.8 0.1 1.2 1 0.8 </SizeOverLife>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="Number">0 5 1500 20 3000 5 </Number>
+		</EffectType>
+		<EmitterShapeSize classname="CSizeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="크기">0 2 </EmitterShapeSize>
+		<EmitterShapeMove classname="CPositionController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="이동">0 0 70 0 </EmitterShapeMove>
+		<EmitterShape classname="CEmitterShapePoint[10]" link_to_emitter="1" area_type="0" position="0 0 0" name="EmitterShape" />
+	-->
+	</Effect>
+	<Effect classname="CEmitterType[10]" rotation_axis="0 0 1" emission_dirtype="4" bsphere_radius="400" name="pet_c4_cloud01_04">
+	<!--
+		<ActiveController classname="CActiveController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </ActiveController>
+		<EmissionAngleController classname="CEmissionAngleController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 180 </EmissionAngleController>
+		<EmissionOuterRangeController classname="CEmissionRangeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 360 </EmissionOuterRangeController>
+		<EffectType classname="CParticleType[10]" gravity_scale="-2.00" pivot="0.5 0.5" align="screen" align_axis="0 1 0" name="whitecloud">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 500 </Life>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 5 1500 10 3000 5 4500 10 </Number>
+			<Angle classname="CAngleController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 90 </Angle>
+			<Size classname="CSizeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 80 </Size>
+			<Speed classname="CSpeedController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 6 </Speed>
+			<Spin classname="CSpinController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 10 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 FFFFFFFF </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="8" row="8" x="3" y="0" name="Texture" />
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0 00FFFFFF 0.3 93FFFFFF 0.7 FFFFFFFF 1 00E7E7E7 </ColorOverLife>
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 0.8 0.1 1.2 1 0.5 </SizeOverLife>
+		</EffectType>
+		<EmitterShapeSize classname="CSizeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="크기">0 2 </EmitterShapeSize>
+		<EmitterShapeMove classname="CPositionController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="이동">0 0 70 0 </EmitterShapeMove>
+		<EmitterShape classname="CEmitterShapePoint[10]" link_to_emitter="1" area_type="0" position="0 0 0" name="EmitterShape" />
+	-->
+	</Effect>
+	<Effect classname="CEmitterType[10]" rotation_axis="0 0 1" emission_dirtype="3" bsphere_radius="100000" name="pet_c4_cloud01_trail_01">
+	<!--
+		<EmitterShape classname="CEmitterShapePoint[10]" link_to_emitter="1" area_type="0" position="0 0 1" />
+		<ActiveController classname="CActiveController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </ActiveController>
+		<EmissionAngleController classname="CEmissionAngleController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </EmissionAngleController>
+		<EmissionOuterRangeController classname="CEmissionRangeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </EmissionOuterRangeController>
+		<EffectType classname="CTrailType[10]" check_occlusion="false" samples_per_sec="9999" life="2000" start_width="30" end_width="10" start_color="782D2C24" end_color="FF000000" name="EffectType1">
+			<Texture texture="common_effect_add_2" tas_classname="tas_grid[10]" row="8" column="4" x="2" y="0" />
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="1" life_randomness="0" pivot="0 0.5" align="screen" name="fire_effect" align_axis="0 1 0">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 500 </Life>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 20 </Number>
+			<Size classname="CSizeController[11]" variance="1" min="0.8" max="1.2" interpolation="1" repeat="0" repeat_from="0">0 15 </Size>
+			<Speed classname="CSpeedController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 20</Speed>
+			<Spin classname="CSpinController[8]" variance="1" min="-1" max="1">0 50</Spin>
+			<Angle classname="CAngleController[8]" variance="1" min="-1" max="1">0 20</Angle>
+			<SpeedOverLife classname="CSpeedOverLifeController[8]" variance="0">0 1</SpeedOverLife>
+			<SpinOverLife classname="CSpinOverLifeController[8]" variance="0">0 1</SpinOverLife>
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 1 1 0</SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="0" max="1" interpolation="1" repeat="0" repeat_from="0">0 00000000 0.09 00000000 0.1 FFFFFFFF 0.3 FFFFD090 0.7 FFFF9070 1 00000000</ColorOverLife>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_add_2" column="8" row="8" x="2" y="4" name="Texture" />
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 FF8A8A8A </Color>
+		</EffectType>
+	-->
+	</Effect>
+	<Glasgavelen_ShoutOfDeath_beam classname="CEmitterType[10]" rotation_axis="0.000000 0.000000 1.000000" emission_dirtype="4" bsphere_radius="10" name="pet_c4_cloud01_01">
+	<!--
+		<ActiveController classname="CActiveController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" />
+		<EmissionAngleController classname="CEmissionAngleController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0</EmissionAngleController>
+		<EmissionOuterRangeController classname="CEmissionRangeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 360 </EmissionOuterRangeController>
+		<EffectType classname="CParticleType[10]" gravity_scale="-0.1" pivot="0 0" align="screen" align_axis="0 1 0" name="파티클">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 1500 </Life>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 5 1000 8 1700 5 </Number>
+			<Angle classname="CAngleController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 360 </Angle>
+			<Size classname="CSizeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 8 </Size>
+			<Speed classname="CSpeedController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 2 </Speed>
+			<Spin classname="CSpinController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 10 </Spin>
+			<Color classname="CColorController[11]" variance="1" min="0.4" max="1.5" interpolation="1" repeat="0" repeat_from="0">0 FFFEFFA3 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect" column="16" row="16" x="1" y="6" name="Texture" />
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="0.7" max="1.2" interpolation="1" repeat="0" repeat_from="0" name="색상 변화">0.1 CF867444 0.3 FF000000 0.4 FFB6BC73 0.5 FF000000 0.65 BDB4A034 0.7 FF000000 0.75 FFCA852C 0.8 FF000000 0.9 82777E49 1 2EAD9339 </ColorOverLife>
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="크기 변화">0 0.9 0.2 1.5 0.3 1 0.8 0.4 1 0.1 </SizeOverLife>
+			<SpeedOverLife classname="CSpeedOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="속력 변화">0 1 0.4 2 0.5 2.5 0.8 2.7 </SpeedOverLife>
+		</EffectType>
+		<EmitterShape classname="CEmitterShapeCircle[10]" link_to_emitter="1" area_type="0" radius="26" name="EmitterShape" />
+		<EffectType classname="CBillboardType[10]" angle="50" pivot="0.5 0.5" name="빌보드11">
+			<Size classname="CSizeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 30 </Size>
+			<Spin classname="CSpinController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 5 </Spin>
+			<Color classname="CColorController[11]" variance="1" min="0.8" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 FF000000 300 FF23221C </Color>
+			<Texture texture="common_effect_add_nozbuffer" tas_classname="tas_grid[10]" row="2" column="2" x="0" y="0" name="Texture" />
+		</EffectType>
+	-->
+	</Glasgavelen_ShoutOfDeath_beam>
+	<char_buffed_by_pet classname="CEmitterType[8]" rotation_axis="0.0 0.0 1.0" emission_dirtype="3" bsphere_radius="200 200 200" name="pet_c4_cloud01_02">
+	<!--
+		<EmitterShape classname="CEmitterShapePoint[8]" link_to_emitter="1" area_type="0" position="0.0 0.0 0.0" />
+		<ActiveController classname="CActiveController[8]" variance="0" />
+		<EmissionAngleController classname="CEmissionAngleController[8]" variance="0">0 0</EmissionAngleController>
+		<EmissionOuterRangeController classname="CEmissionRangeController[8]" variance="0">0 0.0</EmissionOuterRangeController>
+		<EmissionInnerRangeController classname="CEmissionRangeController[8]" variance="0">0 0.0</EmissionInnerRangeController>
+		<EffectType classname="CParticleType[8]" gravity_scale="0" life_randomness="0" pivot="0.5 0.5" align="screen">
+			<Texture texture="common_effect" tas_classname="tas_dynamicgrid[8]" tex_width="512" tex_height="512" width="128" height="64" x="0" y="352" column="2" row="1" ani_loop_per_sec="0" ani_start_frame="-1" ani_time_type="0" />
+			<Life classname="CLifeController[11]" variance="0" min="0.2" max="1" interpolation="1" repeat="0" repeat_from="0">0 2000</Life>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 9 </Number>
+			<Size classname="CSizeController[8]" variance="0" min="0.5" max="1">0 200</Size>
+			<Speed classname="CSpeedController[8]" variance="1" min="-1" max="1">0 50 </Speed>
+			<Spin classname="CSpinController[8]" variance="0" min="-1" max="1">0 0 </Spin>
+			<Angle classname="CAngleController[8]" variance="1" min="0" max="1">0 360 </Angle>
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 1 1 1.2</SizeOverLife>
+			<SpeedOverLife classname="CSpeedOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 1 1 0</SpeedOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 ff000000 0.1 ff102030 0.2 ff102030 1 FF000000</ColorOverLife>
+		</EffectType>
+	-->
+	</char_buffed_by_pet>
+</EffectGroup>

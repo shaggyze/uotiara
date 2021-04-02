@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<aidescdata>
+	<template>
+		<var_decl>
+			<var name="visualfield_radius" default="7000" />
+			<var name="audio_range" default="800" />
+		</var_decl>
+		<sensor visualfield_radius="%visualfield_radius" visualfield_angle="360" audio_range="%audio_range" />
+		<character return_to_startpoint="false" auto_respawn="false" target_type="always" support_type="none">
+			<!--race stringid="*/wolf/*" type="hate" / -->
+		</character>
+		<patterns>
+			<!-- 똑똑한 펫: 아이템 줍기 -->
+			<pattern name="pick_item">
+				<sequence>
+					<!-- 아이템이 있는지 검사한다 -->
+					<if condition="expr" expr="@check_enable_shuttle_item_in_dist">
+						<then>
+							<!-- 있다면 아이템 줍기를 시도한다. -->
+							<cmd name="pet_shuttle_item" success_msg="|" fail_msg="|" />
+							<cmd name="wait" min="40" max="100"/>
+						</then>
+						<else>
+							<!-- 없다면 주위를 걍 돌아다닌다. -->
+							<!-- <cmd name="move_random" radius="300" run="" timeout="1000" /> -->
+							<cmd name="wait" min="0" max="500" />
+						</else>
+					</if>					
+				</sequence>
+			</pattern>
+		</patterns>
+		<strategy>
+			<!-- 주인과 max_radius거리만큼 멀어지면 follow_radius거리안으로 주인에게 다가감 -->
+			<idle type="idle_pet" max_radius="750" follow_radius="200">
+				<pattern name="pick_item" />
+			</idle>
+		</strategy>
+	</template>
+	<definition race="Miku_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Ruairi_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Mari_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Tarlach_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Ferghus_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Rtboy_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Kristell_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Reno_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Va_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Tion_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Fessi_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Tia_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="MH_Ferghus_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Merlin_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Diva_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Vate_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Masterchef_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Treasurehunter_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Succubus_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Incubus_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Squirrel_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Tiger_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Bear_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Fox_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Rabbit_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Pink_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Pink_tarlach_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Pink_ruari_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+	<definition race="Pink_millia_toy">
+		<var_def>
+			<var name="visualfield_radius" value="7000" />
+			<var name="audio_range" value="800" />
+		</var_def>
+	</definition>
+</aidescdata>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<GameClockView2 name="GameClockView" x="[@posX;s32]" y="[@posY;s32]" width="150" height="30" minWidth="120" minHeight="30" isSingleton="true" color1="00000000" color2="00000000" destroyOnEsc="false" alwaysEnable="true" picking="true">
+	<meta>
+		<data key="posX" type="s32" value="[$backBufferWidth]-[width] - 24" />
+		<data key="posY" type="s32" value="120" />
+		<data key="alarmX" type="s32" value="-9" />
+		<data key="alarmY" type="s32" value="6" />
+		<data key="alarmW" type="u32" value="148" />
+		<data key="alarmH" type="u32" value="26" />
+		<data key="alarmGap" type="s32" value="28" />
+		<data key="alarmVisible" type="bool" value="false" />
+		<data key="weatherB" type="u32" value="0" />
+		<data key="weather1" type="u32" value="0" />
+		<data key="weather2" type="u32" value="17" />
+		<data key="weather3" type="u32" value="54" />
+		<data key="weather4" type="u32" value="71" />
+		<data key="weatherX" type="u32" value="108" />
+		<data key="weatherY" type="u32" value="76" />
+		<data key="alarmTextWidth" type="u32" value="56" />
+	</meta>
+	<GameClockViewTitleBar name="TitleBar" x="[$parent x] - 1" y="[$parent y] - 35" title="_LT[xml.layout.813]" width="146" height="35" icon="gameclock" imageType="1" alwaysEnable="true" noMinimize="false" visible="true" destroyOnEsc="false" />
+	<Text name="CurrentTime" x="15" y="-24" width="120" height="30" textColor="ffffffff" visible="true" align="right" textOptionColorApply="true" fixedTextColor="true">
+		<TextOption useSmallFont="false" outline="true" align="right" alignWidth="120" overrideLineGap="true" outlineColor="1" textColor="0">
+			<ColorPalette index="0" color="ffffffff" />
+			<ColorPalette index="1" color="ff808080" />
+			<TrueType fontSize="20" lineGap="0" />
+			<TrueType locale="korean" fontSize="24" lineGap="0" />
+			<TrueType locale="japanese" fontSize="24" lineGap="0" />
+		</TextOption>
+	</Text>
+	<Button name="WeatherButton" x="-8" y="-33" width="40" height="33" autoPressedPosition="true">
+		<ButtonImage file="data/gfx/gui/GUI_Alarm_main.dds" frameWidth="[$parent width]" frameHeight="[$parent height]">
+			<Layer index="1" originX="94" originY="0" />
+		</ButtonImage>
+	</Button>
+	<Image name="WeatherImage" file="data/gfx/gui/GUI_Alarm_main.dds" x="-2" y="-25" frameWidth="20" frameHeight="20" pickable="false">
+		<Layer index="1" originX="[@weatherX;u32]" originY="[@weatherY;u32]" />
+	</Image>
+	<Button name="ButtonAlarmAdd" title="_LT[xml.layout.814]" x="70" y="4" width="80" height="18" autoPressedPosition="true" align="center">
+		<ButtonImage file="data/gfx/gui/GUI_Alarm_main.dds" frameWidth="[$parent width]" frameHeight="[$parent height]">
+			<Layer index="1" originX="132" originY="0" />
+		</ButtonImage>
+		<TextOption useSmallFont="true" outline="true" textColor="0" outlineColor="2" />
+		<TextPalette index="2" color="ff000000" />
+	</Button>
+	<Button name="ButtonAlarm1" visible="[@alarmVisible;bool]" title="_LT[xml.layout.815]" x="[@alarmX;s32]" y="[@alarmY;s32]" width="[@alarmW;u32]" height="[@alarmH;u32]" autoPressedPosition="true" align="left">
+		<TextOption useSmallFont="true" outline="false" align="left" alignWidth="[$parent width] + 30">
+		</TextOption>
+		<TextPalette index="4" color="ecbb64" />
+		<TextPalette index="5" color="62beec" />
+		<TextPalette index="6" color="c0bbb7" />
+		<ButtonImage file="data/gfx/gui/GUI_Alarm_main.dds" frameWidth="[$parent width]" frameHeight="[$parent height]">
+			<Layer index="1" originX="106" originY="38" />
+		</ButtonImage>
+	</Button>
+	<Button name="ButtonAlarm2" visible="[@alarmVisible;bool]" x="[@alarmX;s32]" y="[@alarmY;s32] + [@alarmGap;s32] * 1" width="[@alarmW;u32]" height="[@alarmH;u32]" autoPressedPosition="true" align="left">
+		<TextOption useSmallFont="true" outline="false" align="left" alignWidth="[$parent width] + 30">
+		</TextOption>
+		<TextPalette index="4" color="ecbb64" />
+		<TextPalette index="5" color="62beec" />
+		<TextPalette index="6" color="c0bbb7" />
+		<ButtonImage file="data/gfx/gui/GUI_Alarm_main.dds" frameWidth="[$parent width]" frameHeight="[$parent height]">
+			<Layer index="1" originX="106" originY="38" />
+		</ButtonImage>
+	</Button>
+	<Button name="ButtonAlarm3" visible="[@alarmVisible;bool]" x="[@alarmX;s32]" y="[@alarmY;s32] + [@alarmGap;s32] * 2" width="[@alarmW;u32]" height="[@alarmH;u32]" autoPressedPosition="true" align="left">
+		<TextOption useSmallFont="true" outline="false" align="left" alignWidth="[$parent width] + 30">
+		</TextOption>
+		<TextPalette index="4" color="ecbb64" />
+		<TextPalette index="5" color="62beec" />
+		<TextPalette index="6" color="c0bbb7" />
+		<ButtonImage file="data/gfx/gui/GUI_Alarm_main.dds" frameWidth="[$parent width]" frameHeight="[$parent height]">
+			<Layer index="1" originX="106" originY="38" />
+		</ButtonImage>
+	</Button>
+	<Button name="ButtonAlarm4" visible="[@alarmVisible;bool]" x="[@alarmX;s32]" y="[@alarmY;s32] + [@alarmGap;s32] * 3" width="[@alarmW;u32]" height="[@alarmH;u32]" autoPressedPosition="true" align="left">
+		<TextOption useSmallFont="true" outline="false" align="left" alignWidth="[$parent width] + 30">
+		</TextOption>
+		<TextPalette index="4" color="ecbb64" />
+		<TextPalette index="5" color="62beec" />
+		<TextPalette index="6" color="c0bbb7" />
+		<ButtonImage file="data/gfx/gui/GUI_Alarm_main.dds" frameWidth="[$parent width]" frameHeight="[$parent height]">
+			<Layer index="1" originX="106" originY="38" />
+		</ButtonImage>
+	</Button>
+	<Button name="ButtonAlarm5" visible="[@alarmVisible;bool]" x="[@alarmX;s32]" y="[@alarmY;s32] + [@alarmGap;s32] * 4" width="[@alarmW;u32]" height="[@alarmH;u32]" autoPressedPosition="true" align="left">
+		<TextOption useSmallFont="true" outline="false" align="left" alignWidth="[$parent width] + 30">
+		</TextOption>
+		<TextPalette index="4" color="ecbb64" />
+		<TextPalette index="5" color="62beec" />
+		<TextPalette index="6" color="c0bbb7" />
+		<ButtonImage file="data/gfx/gui/GUI_Alarm_main.dds" frameWidth="[$parent width]" frameHeight="[$parent height]">
+			<Layer index="1" originX="106" originY="38" />
+		</ButtonImage>
+	</Button>
+</GameClockView2>

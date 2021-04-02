@@ -1,0 +1,6051 @@
+﻿1	Nao
+2	Morrighan the Goddess
+3	Evil Cichol
+4	Brown Bear
+5	Succubus Kristell
+6	Glas Ghaibhleann
+7	Dark Lord
+8	Dark Knight
+9	Human
+10	Human
+11	Black Wizard
+12	Black Warrior
+13	Black Soldier
+14	Ghost
+15	Ghost
+16	Goblin
+17	Poison Goblin
+18	Goblin Archer
+19	Gold Goblin
+20	Arena Goblin
+21	Goblin Bandit
+22	Kobold
+23	Poison Kobold
+24	Kobold Archer
+25	Gold Kobold
+26	Miner Kobold
+27	Kobold Bandit
+28	Black Succubus
+29	Red Succubus
+30	White Succubus
+31	Yellow Succubus
+32	Brown Succubus
+33	Pink Succubus
+34	Fire Succubus
+35	Lightning Succubus
+36	Ice Succubus
+37	Poison Succubus
+38	Troll
+39	Wooden Man
+40	Iron Man
+41	Imp
+42	Skeleton
+43	Red Skeleton
+44	Metal Skeleton
+45	Skeleton Soldier
+46	Giant Skeleton
+47	Skeleton
+48	Skeleton
+49	Red Skeleton
+50	Red Skeleton
+51	Metal Skeleton
+52	Metal Skeleton
+53	Ghost Armor
+54	Gray Wolf
+55	Black Wolf
+56	White Wolf
+57	Skeleton Wolf
+58	Brown Dire Wolf
+59	Gray Dire Wolf
+60	Black Dire Wolf
+61	White Dire Wolf
+62	Brown Dire Wolf Cub
+63	Gray Dire Wolf Cub
+64	Black Dire Wolf Cub
+65	White Dire Wolf Cub
+66	Giant White Wolf
+67	Giant Black Wolf
+68	Dog
+69	Hellhound
+70	Coyote
+71	Dingo
+72	Jackal
+73	White Spider
+74	Black Spider
+75	Red Spider
+76	Giant Spider
+77	White Spiderling
+78	Sickle Laghodessa
+79	Spike Laghodessa
+80	Sheep
+81	Black Pan
+82	Pig
+83	Boar
+84	Brown Fox
+85	Red Fox
+86	Gray Fox
+87	북극여우
+88	Young Red Fox
+89	Young Gray Fox
+90	Young Brown Fox
+91	Raccoon
+92	Young Raccoon
+93	Young Gray Raccoon
+94	Black Raccoon
+95	Young Black Raccoon
+96	Rooster
+97	Hen
+98	Chick
+99	Brown Bear
+100	Red Bear
+101	Black Bear
+102	Brown Grizzly Bear
+103	Red Grizzly Bear
+104	Black Grizzly Bear
+105	Brown Grizzly Bear Cub
+106	Red Grizzly Bear Cub
+107	Black Grizzly Bear Cub
+108	Giant Bear
+109	Bat
+110	Meek Bat
+111	Vampire Bat
+112	Giant Bat
+113	Wisp
+114	Mimic
+115	Old Mimic
+116	Great Mimic
+117	King Mimic
+118	Ogre
+119	Giant Ogre
+120	Ogre Warrior
+121	Ogre Warrior
+122	Ogre Warrior
+123	Ogre Warrior
+124	Ogre Warrior
+125	Bull
+126	Cow
+127	Gorgon
+128	Giant Rat
+129	Brown Town Rat
+130	Gray Town Rat
+131	Country Rat
+132	Black Town Rat
+133	Young Country Rat
+134	Golem
+135	Brown Snake
+136	Blue Snake
+137	White Snake
+138	Giant Worm
+139	Heavy Gargoyle
+140	Light Gargoyle
+141	Gray Gremlin
+142	Green Gremlin
+143	Brown Gremlin
+144	Nightmare Humanoid
+145	Werewolf
+146	Rat Man
+147	Zombie
+148	Zombie
+149	Flying Sword
+150	Sheep(Event)
+151	Dog(Event)
+152	Red Bear(Event)
+153	Brown Fox(Event)
+154	White Wolf(Event)
+155	Snowball
+156	Lycanthrope
+157	Lycanthrope
+158	Lycanthrope
+159	Lycanthrope
+160	Lycanthrope
+161	Lycanthrope
+162	Lycanthrope
+163	Golem
+164	Dark Lord
+165	Black Succubus
+166	DevCAT
+167	Small Golem
+168	Traveler A
+169	Traveler A
+170	Black Wizard
+171	Caravan
+172	Light Gargoyle
+173	Light Gargoyle
+174	Giant Headless
+175	Sea Squirt Worm
+176	Sea Slug Worm
+177	Cyclops
+178	Argus
+179	Spider
+180	Chick
+181	Small Golem
+182	Argus
+183	Argus
+184	Argus
+185	Argus
+186	Argus
+187	Giant Imp
+188	Giant Black Spider
+189	Giant Red Spider
+190	Giant White Spider
+191	Giant Black Spider
+192	Giant Red Spider
+193	Giant White Spider
+194	Gorgon
+195	Blue Grizzly Bear
+196	Burgundy Grizzly Bear
+197	Giant Jackal
+198	Wood Jackal
+199	Wild Boar
+200	Burgundy Spider
+201	Burgundy Dire Wolf
+202	Blue Dire Wolf
+203	Gray Werewolf
+204	Blue Werewolf
+205	Giant Forest Rat
+206	Bunny Rat
+207	Hollow Bear
+208	Invisible Imp
+209	White Grizzly Bear
+210	Skeleton Imp
+211	Giant Skeleton Imp
+212	Golem
+213	Golem
+214	Lightning Sprite
+215	Fire Sprite
+216	Ice Sprite
+217	Giant Lightning Sprite
+218	Giant Fire Sprite
+219	Giant Ice Sprite
+220	Miner Kobold
+221	Miner Kobold
+222	Ruairi
+223	Triona
+224	Paladin-in-training
+225	Redire
+226	Esras
+227	Tabhartas
+228	Dark Skeleton
+229	Rua
+230	Tabhartas
+231	Telescope
+232	Rua's younger sibling
+233	White Wolf
+234	Giant White Wolf
+235	Red Skeleton
+236	Skeleton
+237	Skeleton
+238	Brown Bear
+239	Pocket Mouse
+240	Banner Imp
+241	Pirate Skeleton
+242	Pirate Skeleton
+243	Captain Skeleton
+244	Ogre Warrior
+245	Blue Wolf
+246	Dark Blue Spider
+247	Burgundy Sickle Laghodessa
+248	Blue Rat Man
+249	Black Snake
+250	Treasure Mimic
+251	Flying Sword
+252	Flying Sword
+253	Golem
+254	Golem
+255	Red Kobold
+256	Red Kobold Archer
+257	Small Troll
+258	Viewscope
+259	Skeleton HellHound
+260	Pirate Red Skeleton
+261	Pirate Red Skeleton
+262	Captain Red Skeleton
+263	Small Argus
+264	Black Ship Rat
+265	Dungeon Rat
+266	Red Goblin Archer
+267	Red Goblin
+268	Cyclops
+269	Giant Skeleton Hellhound
+270	Bard Skeleton
+271	Metal Bard Skeleton
+272	Aer
+273	Gnoll
+274	Light Gargoyle
+275	Young Raccoon
+276	Sheep Wolf
+277	Hen
+278	Sahagin Soldier
+279	Sahagin
+280	Sahagin Ranger
+281	White Spider
+282	Yellow Jindo
+283	White Jindo
+284	Golden Retriever
+285	Labrador Retriever
+286	Dalmatian
+287	Orange Pixie
+288	Brown Pixie
+289	Japanese Bobtail
+290	오드아이 저패니즈 밥테일
+291	Light Russian Blue
+292	Dark Russian Blue
+293	Brown Fox
+294	Red Fox
+295	Gray Fox
+296	Gray Raccoon
+297	Black Raccoon
+298	Gray Wolf
+299	Black Wolf
+300	White Wolf
+301	Brown Dire Wolf
+302	Gray Dire Wolf
+303	Black Dire Wolf
+304	White Dire Wolf
+305	Coyote
+306	Dingo
+307	Jackal
+308	Brown Dire Wolf
+309	Gray Dire Wolf
+310	Black Dire Wolf
+311	White Dire Wolf
+312	Sahagin
+313	Gnoll
+314	Cat Sith Knights
+315	Cat Sith Knights
+316	Cat Sith Knights
+317	Cat Sith Knights
+318	Crystal Marble
+319	Bookshelf
+320	Cat Sith
+321	Cat Sith
+322	Siren
+323	Silver Fox
+324	Cat Sith Wizard
+325	Sahagin Fighter
+327	Labrador Retriever
+328	Brown Pixie
+329	Labrador Retriever
+330	Sahagin Warrior
+343	Wight
+344	Ghoul
+345	Ghoul
+346	Cloaker
+347	Hollow Knight
+350	Blue Ghost
+351	Red Ghost
+354	Ghost
+355	Ghost
+356	Cow
+357	White Sheep
+358	White Flame Spider
+359	Herb Pig
+360	Demi Lich
+361	Ghost
+362	Coffin Mimic
+363	Border Collie
+364	Samoyed
+366	Miniature Pinscher
+368	Cromm Cruaich
+371	Ruairi
+372	Morc
+373	Giant Worm
+374	Giant Worm
+387	Guard Skeleton Hellhound
+388	Guard Skeleton
+389	Guard Laghodessa
+390	Guard Gargoyle
+391	Guard Spider
+392	Cromm Cruaich
+393	White Spider
+394	Gray Wolf
+395	Brown Fox
+396	Goblin
+397	Skeleton
+403	Beyaya
+404	Black Sheep
+408	Mini Bear
+409	Albino King Snake
+418	White Hedgehog
+419	Black Hedgehog
+424	White Ferret
+425	Black Ferret
+426	좀비_강하다 (임시)
+427	하우징 npc 집사 (임시)
+428	하우징 npc 생산 (임시)
+429	하우징 npc 악사 - 류트 (임시)
+430	하우징 npc 악사 - 피리 (임시)
+431	하우징 npc 악사 - 플룻 (임시)
+432	Lost Sahuagin
+433	Armed Gremlin
+434	Giant Worm
+435	Spiked Worm
+436	Goblin Hunter
+437	Chon Chon
+438	Goblin Hunter Archer
+444	Giant Spiderling
+445	Red Spiderling
+446	Greyhound
+447	Borzoi
+448	Siberian Husky
+449	Bug Bear
+450	Lost Sahuagin
+451	Red Sickle Laghodessa
+452	Red Spike Laghodessa
+453	Dark Rat Man
+455	Green Snake
+456	Red Town Rat
+458	Blue New Gremlin
+459	Pink New Gremlin
+460	Green New Gremlin
+461	White New Gremlin
+462	Black New Gremlin
+463	Golem
+464	Golem
+465	Poison Skeleton Soldier
+466	Giant Lightning Sprite
+467	Giant Lightning Sprite
+468	Metal Skeleton
+469	Golem
+470	Golem
+471	Bard Skeleton
+472	Golem
+473	Naak
+477	<mini>NPC</mini> Tiro
+478	Bluebird
+479	Crow
+480	Falcon
+481	Young Goblin
+482	Young Poison Goblin
+485	Small Golem
+486	Young Goblin Archer
+487	Black Succubus
+490	Imp
+491	White Wolf
+493	White Bear
+494	Black Wizard
+495	Human
+497	Bengal
+498	Siamese
+499	Ogre Warrior
+500	Bombay
+501	Mimic
+502	Wisp
+503	Flying Sword
+504	Lost Sahuagin
+505	Gorgon
+506	Red Succubus
+507	Black Succubus
+508	White Succubus
+509	Yellow Succubus
+510	Pink Succubus
+513	Skeleton Squad (Weak)
+514	Giant Firefly
+515	Giant Firefly
+516	Banshee
+517	Hellcat
+518	Skeleton Wolf
+519	Skeleton Squad (Strong)
+520	Skeleton
+521	Red Skeleton
+522	Metal Skeleton
+525	Skeleton Laghodessa
+526	Gold Goblin
+528	Wight
+529	Ghoul
+530	Ghoul
+531	Hollow Knight
+532	Blue Ghost
+533	Red Ghost
+534	Ghost
+536	Ghost Cloaker
+537	Black Succubus
+538	Red Succubus
+540	Haflinger
+541	Thoroughbred
+542	Shire
+543	Unicorn
+544	Yellow Succubus
+548	Cactus Lizard
+552	Skeleton
+553	Imp
+554	Salamander
+555	Imp
+564	Mini Cockerspaniel
+565	Dapple Thunderspaniel
+567	White Thunderspaniel
+579	Pot-Belly Spider
+581	Stone Imp
+582	Masked Goblin
+583	Masked Goblin
+584	Masked Goblin Archer
+585	Stone Zombie
+588	Short Mane Hyena
+589	Head Hyena
+590	Striped Hyena
+591	Stripeless Hyena
+592	Small-eared Aardvark
+593	Black Aardvark
+594	Horned Aardvark
+595	Maned Aardvark
+596	Stone Hound
+599	Mane Bush Boar
+600	Big-eared Bush Boar
+602	White Bush Boar
+603	Stone Bison
+604	Skeleton Ghost
+606	Black-legged Fennec Fox
+607	Black-tailed Mongoose
+608	White Fennec Fox
+609	Brown-legged Fennec Fox
+610	Long Mane Hyena
+611	Short Horn Gnu
+612	Blue-tailed Mongoose
+613	Big-eared Aardvark
+614	White-eared Bush Boar
+615	Long Horn Gnu
+616	Black-eared Bush Boar
+617	Black Desert Spider
+618	Gray-legged Fennec Fox
+621	Brown-tailed Mongoose
+622	Gray-tailed Mongoose
+623	White-tailed Mongoose
+624	Gold-tailed Mongoose
+625	White-spot Desert Spider
+626	White-striped Desert Spider
+627	White Desert Spider
+628	Wolf-striped Desert Spider
+630	Black Forest Lizard
+631	White Forest Lizard
+632	Gold Forest Lizard
+633	Green Forest Lizard
+634	Red-legged Fennec Fox
+635	Blue-legged Fennec Fox
+636	Brown Forest Lizard
+637	Manchurian Black Bear
+638	Manchurian White Bear
+639	Brown Forest Mushroom Spider
+640	Red Forest Mushroom Spider
+641	Blue Forest Mushroom Spider
+642	Black Forest Mushroom Spider
+643	Giant Gold Forest Mushroom Spider
+644	Young Short Horn Gnu
+645	Young Long Horn Gnu
+646	Giant Short Horn Gnu
+647	Giant Long Horn Gnu
+648	Manchurian White Bear Cub
+649	Manchurian Black Bear Cub
+650	Young Cactus Lizard
+651	Stone Horse Keeper
+652	Stone Horse
+653	Pot-Belly Spider
+654	Karu Forest Ruins
+655	Stone Mimic
+656	Pot-Belly Spider with Glowing Legs
+657	Pot-Belly Spider with Glowing Pot
+658	Pot-Belly Spider with Glowing Fang
+659	Pot-Belly Spider with Glowing Pincers
+660	Pot-Belly Spider with Glowing Venom Sac
+661	Glowing Pot-Belly Spider
+662	Stone Imp with Glowing Hat
+663	Stone Imp with Glowing Jewelry
+664	Stone Imp with Glowing Hat Access.
+665	Stone Imp with Glowing Nose
+666	Stone Imp with Glowing Ears
+667	Stone Imp with Glowing Sandals
+668	Glowing Stone Imp
+669	Stone Zombie with Glowing Circlet
+670	Stone Zombie with Glowing Headband
+671	Stone Zombie with Glowing Eyes
+672	Stone Zombie with Glowing Shoulder Access.
+673	Stone Zombie with Glowing Belt
+674	Stone Zombie with Glowing Bracelet
+675	Glowing Stone Zombie
+676	Stone Bison with Glowing Tooth
+677	Stone Bison with Glowing Tail
+678	Stone Bison with Glowing Hoof
+679	Stone Bison with Glowing Horn
+680	Glowing Stone Bison
+681	Stone Hound with Glowing Ears
+682	Stone Hound with Glowing Tooth
+683	Stone Hound with Glowing Tail
+684	Stone Hound with Glowing Anklet
+685	Stone Hound with Glowing Claws
+686	Glowing Stone Hound
+687	Pot-Belly Spider
+688	Stone Imp
+689	Stone Zombie
+690	Stone Bison
+691	Stone Hound
+692	Gold Kiwi
+693	Green Kiwi
+694	White Kiwi
+695	Black Kiwi
+696	Mustang
+697	Mustang
+698	Mustang
+699	Mustang
+700	Mustang
+701	Mustang
+702	Mustang
+703	Mustang
+704	Mustang
+705	Mustang
+706	Mustang
+707	Mustang
+708	Quest Board
+709	Gold Mask Ghost
+712	Pot-Belly Spider
+713	Stone Imp
+714	Stone Zombie
+715	Stone Bison
+716	Stone Hound
+717	Black Ostrich
+718	Brown Ostrich
+719	Red Ostrich
+720	Gray Ostrich
+721	Wild Ostrich
+722	Wild Ostrich
+723	Wild Ostrich
+724	Wild Ostrich
+725	Stone Gargoyle
+726	Camera Poison
+727	Stone Zombie
+728	Green Sarracenia
+729	Yellow Sarracenia
+730	Pink Sarracenia
+731	Red Sarracenia
+732	King Slate
+733	Queen Slate
+734	Archer Slate
+735	Fighter Slate
+736	Stone Gargoyle with Glowing Shoulder Access.
+737	Stone Gargoyle with Glowing Gloves
+738	Stone Gargoyle with Glowing Boots
+739	Glowing Stone Gargoyle
+740	Green Skeleton Ghost
+741	Blue Skeleton Ghost
+742	White Skeleton Ghost
+743	Red Skeleton Ghost
+744	Young Brown-tailed Mongoose
+745	Young Big-eared Aardvark
+746	Incubus
+747	Incubus
+748	Turkey
+749	Specter Leader
+750	Specter Fighter
+751	Specter Warrior
+752	Specter Archer
+753	Ogre Executioner
+755	Pot Warrior
+756	Bisque Doll
+759	Candle Warrior
+763	Keep Hound
+767	Pot Warrior
+774	Candle Warrior
+775	Young Black Aardvark
+776	Young Gray-tailed Mongoose
+777	Young White-tailed Mongoose
+778	Young Mane Aardvark
+779	Phantom Red Mask
+780	Phantom Black Mask
+781	Phantom White Mask
+782	Phantom Copper Tableware
+783	Phantom Silver Tableware
+784	Phantom Gold Tableware
+785	Wolf Sprite
+786	Bear Sprite
+787	Horse Sprite
+788	Candle Spider
+789	Chandelier Spider
+790	Incubus
+791	Incubus
+792	Elf
+793	Elf
+794	거대 샌드웜 (임시)
+795	평원 용 (임시)
+796	사막 용 (임시)
+797	Human
+798	Elf
+799	(임시)가드 하이에나
+802	Kangaroo Rat
+803	Green Gecko
+804	Short Horned Lizard
+805	Giant Sandworm
+808	Prairie Dragon
+809	Desert Dragon
+812	Guard Hyena
+814	Goblin Swordman
+815	Goblin Sword Master
+816	Cactus Lizard
+817	Elf
+818	Elf
+819	Clover Pig
+820	Clover Gnu
+821	Desert Cobra
+823	Coral Cobra
+824	사막 전갈 (임시)
+825	Panda
+828	Young Desert Rhino
+829	Desert Rhino
+841	Altar
+844	Young Cave Millipede
+845	Cave Millipede
+846	Young Sand Millipede
+847	Sand Millipede
+848	Young Lungfish
+849	Lungfish
+856	Young Dark Red Porcupine
+857	Dark Red Porcupine
+858	Young Brown Porcupine
+859	Brown Porcupine
+860	Young Black Porcupine
+861	Black Porcupine
+862	Red Horn Cobra
+863	Blue Horn Cobra
+864	Gray Horn Cobra
+865	Green Horn Cobra
+866	Young Gray Armadillo
+867	Gray Armadillo
+868	Young White Armadillo
+869	White Armadillo
+870	Young Black Armadillo
+871	Black Armadillo
+872	Venomous Sand Scorpion
+873	Red Sand Scorpion
+874	Blue Sand Scorpion
+875	Black Sand Scorpion
+876	Young Gray Armadillo
+877	Desert Warrior Ghost
+878	Desert Warrior Ghost
+881	Venomous Rock Scorpion
+882	White Rock Scorpion
+884	Desert Hunter Ghost
+885	Desert Hunter Ghost
+886	White Ant Lion
+887	Yellow Ant Lion
+888	Red Ant Lion
+889	White Cave Bat
+890	Yellow Cave Bat
+891	Brown Cave Bat
+892	Gray Rock Scorpion
+893	Ifrit
+894	Connous Lizard
+895	King Connous Lizard
+896	Young Brown-legged Fennec Fox
+897	Brown Desert Bear
+898	Red-Brown Desert Bear
+899	Black Desert Bear
+900	White Desert Bear
+901	Cave Masked Goblin
+902	붉은 곰
+903	흰 곰
+905	Afghan Hound
+906	Red Panda
+907	Polar Bear
+908	Watermelon
+909	Arc Lich
+910	Watermelon
+911	(임시)데스 마스크
+912	(임시)메두사
+913	(임시)미이라
+914	(임시)지니
+915	Longa Desert Ruins
+916	(임시)나가
+917	(임시)발롱
+918	(임시)마법 골렘
+919	(임시)플라잉 소드
+920	(임시)라이더
+921	(임시)스톤 마스크
+922	(임시)작은 스톤 마스크
+923	(임시)브라운 리저드 위치
+924	(임시)그린 리저드 위치
+925	(임시)블루 리저드 위치
+926	(임시)붉은 미이라 서번트
+927	(임시)검은 미이라 서번트
+928	(임시)흰 미이라 서번트
+929	(임시)브라운 고스트 서번트
+930	(임시)블랙 고스트 서번트
+931	(임시)화이트 고스트 서번트
+932	(임시)블랙 파이톤
+933	(임시)블루 파이톤
+934	(임시)화이트 파이톤
+938	(임시)토파즈 마법 골렘
+939	(임시)에메랄드 마법 골렘
+940	(임시)자수정 마법 골렘
+942	(임시)골드 아머 하운드
+943	(임시)실버 아머 하운드
+944	(임시)브론즈 아머 하운드
+945	(임시)장수풍뎅이
+946	(임시)작은 장수풍뎅이
+947	(임시)작은 블루 파이톤
+948	(임시)유적 수호자
+949	(임시)유적 수호마
+950	(임시)토파즈 풍뎅이
+951	(임시)에메랄드 풍뎅이
+952	(임시)자수정 풍뎅이
+953	(임시)작은 에메랄드 풍뎅이
+954	(임시)유적 수호자
+955	(임시)유적 수호마
+956	Sand Mimic
+957	Old Sand Mimic
+958	Brown Ruins Gargoyle
+959	Black Ruins Gargoyle
+960	White Ruins Gargoyle
+961	Stone Mask
+962	Young Stone Mask
+963	Brown Lizard Witch
+964	Green Lizard Witch
+965	Blue Lizard Witch
+966	Red Mummy Servant
+967	Black Mummy Servant
+968	White Mummy Servant
+969	Brown Ghost Servant
+970	Black Ghost Servant
+971	White Ghost Servant
+972	Black Python
+973	Blue Python
+974	White Python
+975	Young Blue Python
+976	Gold Armor Hound
+977	Silver Armor Hound
+978	Bronze Armor Hound
+979	Magic Golem
+980	Topaz Magic Golem
+981	Emerald Magic Golem
+982	Amethyst Magic Golem
+983	플라잉 소드
+984	Guardian of Ruins
+985	Guardian Horse of Ruins
+986	Topaz Beetle
+987	Emerald Beetle
+988	Amethyst Beetle
+989	Young Emerald Beetle
+990	Guardian of Ruins
+991	Guardian Horse of Ruins
+992	플라잉 소드
+993	Brown Horned Horse
+994	White Horned Horse
+995	Black Horned Horse
+996	(임시)레이드 고스트1
+997	(임시)레이드 고스트2
+998	(임시)레이드 고스트3
+999	Persian
+1000	Persian
+1001	Veggie & Fruit Shop
+1002	Fish & Meat Shop
+1003	Black Wolf
+1004	Black Wolf
+1005	Hamster
+1006	Hamster
+1010	Brown Prison Ghost
+1011	Red Prison Ghost
+1012	Blue Prison Ghost
+1013	Gray Prison Zombie
+1014	Black Prison Zombie
+1015	White Prison Zombie
+1016	Prison Flying Sword
+1018	Desert Warrior Ghost
+1019	Bomb Steed
+1020	호박
+1021	호박
+1022	Octopus
+1023	Golem
+1024	Cyclops
+1025	Goldfinch
+1026	Pitta
+1027	Kingfisher
+1028	Siren
+1029	Giant
+1030	Giant
+1031	Giant
+1032	(임시)새끼 누베스 노래기
+1033	(임시)누베스 노래기
+1034	(임시)고블린 키퍼
+1035	(임시)사티로스
+1036	(임시)라마
+1037	(임시)새끼 산양
+1038	(임시)산양
+1039	(임시)누베스 들개
+1040	(임시)새끼 야크
+1041	(임시)야크
+1042	(임시)스라소니
+1043	(임시)새끼 북극여우
+1044	(임시)북극여우
+1045	(임시)새끼 순록
+1046	(임시)순록
+1047	(임시)어린 물소
+1048	(임시)물소
+1049	(임시)새끼 북극곰
+1050	(임시)북극곰
+1051	(임시)아이스 웜
+1052	(임시)새끼 워그
+1053	(임시)워그
+1054	(임시)울버린
+1055	Baby Pig
+1056	Laghodessa
+1057	(임시)설원 고슴도치
+1058	(임시)설원 뱀
+1059	(임시)아이스 웜
+1060	(임시)설원 시골쥐
+1061	(임시)설원 승냥이
+1062	(임시)설원 코요테
+1125	Kirine
+1144	Young Nubes Millipede
+1145	Nubes Millipede
+1146	Goblin Keeper
+1147	Saturos
+1148	Young Brown Physis Fox
+1149	Brown Physis Fox
+1150	Young Brown Reindeer
+1151	Brown Reindeer
+1152	Young Black Buffalo
+1153	Black Buffalo
+1156	Ice Worm
+1157	Young Brown Warg
+1158	Brown Warg
+1159	Ice Worm
+1160	Snowfield Hedgehog
+1162	Ice Worm
+1164	Young Red Physis Fox
+1165	Red Physis Fox
+1166	Young Gray Physis Fox
+1167	Gray Physis Fox
+1168	Young White Physis Fox
+1169	White Physis Fox
+1170	Young Brown Dingo
+1171	Brown Dingo
+1173	Gray Dingo
+1174	Young Brown Coyote
+1175	Brown Coyote
+1176	Young Gray Coyote
+1177	Gray Coyote
+1178	Young Blue Warg
+1179	Blue Warg
+1180	Young Black Warg
+1181	Black Warg
+1182	Young White Warg
+1183	White Warg
+1184	Young Gray Reindeer
+1185	Gray Reindeer
+1186	Young Red Antler Reindeer
+1187	Red Antler Reindeer
+1188	Young White Reindeer
+1189	White Reindeer
+1190	Young Black Physis Fox
+1191	Black Physis Fox
+1192	Young White Dingo
+1193	White Dingo
+1194	Young White Coyote
+1195	White Coyote
+1196	Goblin Keeper Archer
+1197	Young White Buffalo
+1198	White Buffalo
+1205	Young Emperor Penguin
+1206	Emperor Penguin
+1207	Young Red Brow Emperor Penguin
+1208	Red Brow Emperor Penguin
+1209	Ice Worm
+1210	Ice Worm
+1211	Young Blue Brow Emperor Penguin
+1212	Blue Brown Emperor Penguin
+1213	Goblin Keeper
+1214	Goblin Keeper Archer
+1215	Goblin Keeper 
+1216	Goblin Keeper Archer
+1217	Brown Snowfield Bear Cub
+1218	Brown Snowfield Bear
+1219	Red Snowfield Bear Cub
+1220	Red Snowfield Bear
+1221	Black Snowfield Bear Cub
+1222	Black Snowfield Bear
+1223	White Snowfield Bear Cub
+1224	White Snowfield Bear
+1225	Young Gray Dingo
+1226	Yellow Snowfield Ostrich
+1227	Black Snowfield Ostrich
+1230	Krug
+1231	Snowfield Rat
+1233	Brown Mountain Sheep
+1234	White Mountain Sheep
+1242	Nubes Wild Dog
+1243	<mini>NPC</mini> Giant Guard
+1244	<mini>NPC</mini> Giant Guard
+1245	<mini>NPC</mini> Elf Guard
+1246	<mini>NPC</mini> Elf Guard
+1247	<mini>NPC</mini> Giant Guard
+1248	<mini>NPC</mini> Giant Guard
+1249	<mini>NPC</mini> Elf Guard
+1250	<mini>NPC</mini> Elf Guard
+1252	Yellow Llama
+1253	White Hair Llama
+1254	Red Lynx
+1255	White Lynx
+1256	Yeti
+1257	Malamute
+1260	Weide
+1262	Wanst
+1263	Taunes
+1264	Cave Rat
+1265	Alaskan Husky
+1266	Reindeer
+1267	Yellow Snowfield Ostrich
+1268	Black Snowfield Ostrich
+1269	렛서 팬더
+1270	흰 푸들
+1271	갈색 푸들
+1272	Golden Pig
+1273	Emperor Penguin
+1274	Adelie Penguin
+1275	Mammoth
+1276	Lunar Lion
+1277	Lunar Lion Cub
+1281	Wendigo
+1282	Mirror Witch
+1283	Vales Glacier Ruis
+1284	Mirror Witch
+1286	Shrieker
+1287	Snow Imp
+1288	Snow Imp
+1289	Snow Imp
+1290	Ice Hyena
+1292	Ice Bear
+1294	Small Ice Worm
+1295	Small Ice Worm
+1296	Ice Mimic
+1297	Old Ice Mimic
+1301	Snow Zombie
+1302	Snow Zombie
+1303	Ice Bison
+1304	Wooden Mimic
+1305	Antique Mimic
+1306	White Wicked Penguin
+1307	Black Wicked Penguin
+1308	Red Wicked Penguin
+1309	Bandersnatch
+1310	Bandersnatch
+1311	Giant Bandersnatch
+1312	Camera Penguin H
+1313	Camera Penguin P
+1316	Spider Warrior
+1321	Beetle Wolf
+1322	Beetle Wolf
+1327	Golden Bat
+1331	Larva
+1332	Larva
+1334	Giant Golden Spider
+1335	Spider Fighter
+1336	Spider Archer
+1337	Spider Soldier
+1338	Spider Ranger
+1339	Black Poisonous Spider
+1340	Black Poisonous Spiderling
+1341	Arachne
+1342	Grendel
+1343	Grendel
+1344	Yellow Spider Wasp
+1345	Red Spider Wasp
+1346	White Spider Wasp
+1347	Cobweb Mummy
+1348	White Rabbit
+1349	Brown Rabbit
+1350	Elf
+1351	Elf
+1352	Giant
+1353	Giant
+1354	Cotton Candy Sheep
+1355	Cotton Candy Sheep
+1356	Cotton Candy Sheep
+1357	Lesser Panda
+1358	Cotton Candy Sheep
+1359	Cotton Candy Sheep
+1360	Cotton Candy Sheep
+1361	Lightning Kobold
+1362	Fire Kobold
+1363	Ice Kobold
+1364	Bow Kobold
+1365	Jumping Kobold
+1367	Hippo
+1369	Hippo
+1380	Elephant
+1381	Young Elephant
+1382	Zebra
+1389	Raft Constructor
+1394	Otter
+1397	(_임시)라이트닝 매직 실드 사용하는 코볼트
+1398	(_임시)파이어 매직 실드 사용하는 코볼트
+1399	(_임시)아이스 매직 실드 사용하는 코볼트
+1400	(_임시)내츄럴 매직 실드 사용하는 코볼트
+1402	Dragonfly
+1403	Giant Dragonfly
+1404	Giant Dragonfly
+1405	Gray Jungle Wolf
+1406	Red Jungle Wolf
+1409	Carnivorous Plant
+1410	Carnivorous Plant
+1411	Carnivorous Plant
+1412	White-footed Tarantula
+1413	Black-footed Tarantula
+1414	Young Elephant
+1415	Elephant
+1416	Jungle Millipede
+1417	Giant Jungle Millipede
+1418	Jungle Bear
+1419	Savanna Jackal
+1420	Striped Hyena
+1421	Short-maned Hyena
+1422	Imp
+1426	Black-haired Buffalo
+1427	Gold-haired Buffalo
+1431	Ruwai
+1432	Goblin
+1433	Kobold
+1434	Skeleton
+1435	Rat Man
+1436	Jungle Cobra
+1437	Swamp Cobra
+1438	La Terra Dog
+1439	Hobgoblin Bowman
+1440	Hobgoblin Exorcist
+1441	Hobgoblin Exorcist
+1442	Hobgoblin Exorcist
+1443	Hobgoblin Warrior
+1444	Hippo
+1445	Hobgoblin Bowman
+1446	Hobgoblin Exorcist
+1447	Hobgoblin Exorcist
+1448	Hobgoblin Exorcist
+1449	Hobgoblin Bowman
+1450	Hobgoblin Exorcist
+1451	Hobgoblin Exorcist
+1452	Hobgoblin Exorcist
+1453	Hobgoblin Warrior
+1454	_Lost Sahuagin (Passive Explosion)
+1455	_Lost Sahuagin (Active Explosion)
+1456	Nao
+1459	Hobgoblin Grenadier
+1460	Hobgoblin Grenadier
+1461	갈색 타조
+1462	Watermelon
+1465	Head Hobgoblin
+1466	Head Hobgoblin
+1467	Weak Ghost
+1468	검은 타조
+1469	Alligator
+1471	Captain Skeleton
+1472	Pirate Skeleton
+1473	Sahagin Warrior
+1474	Eagle
+1477	Thunderbird
+1478	Pelican
+1479	Aerial Photography Team T
+1480	Aerial Photography Team E
+1481	Aerial Photography Team P
+1483	Giant Golden Spiderling
+1484	<mini>NPC</mini> Lost Resident
+1485	Old Mimic
+1486	Giant Spiderling
+1487	Gray Wolf
+1488	Giant Alligator
+1489	Sheep
+1490	Altar of Lightning
+1491	Altar of Sun
+1492	Altar of Snow
+1493	Golem
+1494	Black Unicorn
+1495	Applying for Advancement Test
+1496	Lion
+1500	Brown Dire Wolf Cub
+1501	Gray Dire Wolf Cub
+1503	Metal Skeleton
+1504	Metal Skeleton
+1505	Metal Skeleton
+1506	Metal Skeleton
+1508	Desert Ghost Fanatic
+1509	Desert Ghost Fanatic Priest
+1510	Giant Lion
+1511	Giant Lioness
+1512	Lioness
+1513	Desert Ghost Fanatic
+1514	Spotted Deer
+1515	Ruwai
+1516	Stone Imp
+1517	Stone Hound
+1518	Pot-Belly Spider
+1519	Stone Bison
+1520	Stone Zombie
+1521	Short Horned Antelope
+1522	Nao
+1524	Sahagin Fighter
+1525	Red Skeleton
+1526	Banner Imp
+1527	Golem
+1528	Lost Sahuagin
+1529	Advancement Test Inspector
+1530	Banner Imp
+1531	Banner Imp
+1532	Grandfather Ghost
+1533	Father Ghost
+1534	Mother Ghost
+1535	Son Ghost
+1536	Daughter Ghost
+1537	Gnoll
+1538	Sahagin Fighter
+1539	Sahagin Fighter
+1540	Sahagin Fighter
+1541	Red Skeleton
+1542	Red Skeleton
+1543	Red Skeleton
+1544	Gnoll
+1545	Gnoll
+1546	Gnoll
+1547	Dark Rat Man
+1548	Dark Rat Man
+1549	Dark Rat Man
+1550	Dark Rat Man
+1551	Lost Sahuagin
+1552	Chon Chon
+1553	Troll
+1554	Ogre Warrior
+1555	Werewolf
+1556	Green Gremlin
+1557	Red Sickle Laghodessa
+1558	Green Snake
+1559	Red Kobold
+1560	Red Kobold
+1561	Red Kobold
+1562	Red Kobold
+1563	Gnoll
+1564	Gnoll
+1565	Gnoll
+1566	Gnoll
+1567	Goblin Hunter
+1568	Goblin Hunter
+1569	Goblin Hunter
+1570	Goblin Hunter
+1571	Pirate Red Skeleton
+1572	Pirate Red Skeleton
+1573	Pirate Red Skeleton
+1574	Pirate Red Skeleton
+1575	Sahagin Ranger
+1576	Red Town Rat
+1577	Goblin Hunter Archer
+1578	Advancement Test Inspector
+1579	Giant Worm
+1580	Bug Bear
+1581	Snow Imp
+1582	Ice Hyena
+1583	Shrieker
+1584	Snow Zombie
+1585	Snow Imp
+1586	Snow Imp
+1587	Snow Zombie
+1588	Ice Bear
+1589	Atrata
+1590	Mirror Witch
+1591	Taunes
+1592	Mirror Witch
+1597	Blue Dragon
+1598	크리스마스 곰
+1600	거대 흰 뱀
+1601	거대 스노우 임프
+1602	거대 라바
+1603	Giant Blue Ghost
+1604	거대 다크 랫맨
+1605	Cyclops
+1606	Bandersnatch
+1607	Holiday Mini Bear
+1608	Mailbox
+1609	Volcano Wolf
+1610	Volcano Wild Dog
+1611	Blue Blind Crab
+1612	Red Blind Crab
+1613	Capybara
+1614	Horned Wild Boar
+1615	Horned Wild Boar
+1619	Balrog
+1620	Volcano Lizard
+1621	Volcano Lizard
+1622	Stag Beetle
+1624	Caldera Goat
+1625	Carnivorous Plant
+1626	Black Leopard
+1628	Piked Horn Deer
+1629	Anteater
+1633	Red Dragon
+1635	Human
+1638	Desert Ghost Fanatic
+1639	Desert Ghost Fanatic Priest
+1640	Unicorn
+1644	Mailbox
+1645	Mailbox
+1646	Fire Wyvern
+1647	Lightning Wyvern
+1648	Ice Wyvern
+1649	Fire Wyvern
+1650	Lightning Wyvern
+1651	Ice Wyvern
+1652	Fire Wyvern
+1653	Fire Wyvern
+1654	Lightning Wyvern
+1655	Lightning Wyvern
+1656	Lightning Wyvern
+1657	Ice Wyvern
+1658	Ice Wyvern
+1659	Ice Wyvern
+1660	Cromm Cruaich
+1661	Salamander
+1662	White Blind Crab
+1663	Gold Dragon
+1667	Brown Ixion
+1668	Volcano Horned Wild Boar
+1669	Stag Beetle
+1670	Volcano Rock Scorpion
+1671	Big-Horned Deer
+1672	Kelpie
+1673	Ballista(cut scene)
+1674	Crumena
+1678	Flying Star
+1679	Oak Magic Broom
+1681	Straw Magic Broom
+1682	Bat
+1683	Country Rat
+1684	Giant Spider
+1685	Young Country Rat
+1686	White Spiderling
+1687	Meek Bat
+1688	Old Mimic
+1689	Red Spider
+1690	White Spider
+1691	Blue Grizzly Bear
+1692	Blue Wolf
+1693	Dark Blue Spider
+1694	Burgundy Spider
+1695	Giant Bat
+1696	Giant Red Spider
+1697	Blue Dire Wolf
+1698	Burgundy Dire Wolf
+1699	Gorgon
+1700	Gray Werewolf
+1701	Lycanthrope
+1702	Giant White Spider
+1703	Wisp
+1704	Black Spider
+1705	Goblin
+1706	Goblin Archer
+1707	Golem
+1708	Gray Town Rat
+1709	Metal Skeleton
+1710	Mimic
+1711	Poison Goblin
+1712	Blue Snake
+1713	Brown Snake
+1714	White Snake
+1715	Golem
+1716	Great Mimic
+1717	Metal Skeleton
+1718	Rat Man
+1719	Sickle Laghodessa
+1720	Spike Laghodessa
+1721	Black Snake
+1722	Blue Rat Man
+1723	Burgundy Sickle Laghodessa
+1724	Golem
+1725	Bug Bear
+1726	Dark Rat Man
+1727	Giant Lightning Sprite
+1728	Green Snake
+1729	Golem
+1730	Golem
+1731	Red Sickle Laghodessa
+1732	Red Spike Laghodessa
+1733	Red Town Rat
+1734	Cyclops
+1735	Flying Sword
+1736	Pirate Skeleton
+1737	Pirate Skeleton
+1738	Skeleton
+1739	Skeleton Wolf
+1740	Treasure Mimic
+1741	Cat Sith Knights
+1742	Cat Sith Knights
+1743	Cat Sith Knights
+1744	Cat Sith Knights
+1745	Gnoll
+1746	Gnoll
+1747	Sahagin Soldier
+1748	Sahagin Fighter
+1749	Sahagin Ranger
+1750	Sahagin Warrior
+1751	Siren
+1752	Captain Red Skeleton
+1753	Captain Skeleton
+1754	Cyclops
+1755	Flying Sword
+1756	Pirate Red Skeleton
+1757	Pirate Red Skeleton
+1758	Small Argus
+1759	Arachne
+1760	Beetle Wolf
+1761	Beetle Wolf
+1762	Black Poisonous Spider
+1763	Cobweb Mummy
+1764	Grendel
+1765	Grendel
+1766	Larva
+1767	Larva
+1768	Red Spider Wasp
+1769	Spider Fighter
+1770	Spider Archer
+1771	Spider Soldier
+1772	Spider Ranger
+1773	Spider Warrior
+1774	White Spider Wasp
+1775	Yellow Spider Wasp
+1776	Black Ship Rat
+1777	Cat Sith Wizard
+1778	Golden Rat
+1779	Golden Rat Man
+1780	거대 황금 랫맨
+1781	Golden Rat
+1783	(임시)원숭이
+1785	Red Rock Crab
+1786	Black Mud Crab
+1787	Sulfur Golem
+1790	Rat Man
+1791	Sulfur Golem
+1792	Hot Spring Monkey
+1793	퍼거스
+1798	Balrog
+1799	Volcano Lizard
+1800	Volcano Rock Scorpion
+1801	Black Leopard
+1817	Balrog
+1827	Dragon Egg
+1830	Crumena
+1846	Volcano Lizard
+1851	Volcano Rock Scorpion
+1852	Volcano Wolf
+1853	Volcano Wolf
+1854	Volcano Wild Dog
+1855	Volcano Wild Dog
+1856	Volcano Horned Wild Boar
+1857	Volcano Horned Wild Boar
+1858	Cotton Candy Sheep
+1859	Cotton Candy Sheep
+1860	Cotton Candy Sheep
+1861	Balrog
+1865	Caldera Goat
+1866	Sheep Wolf
+1867	White Cotton Ostrich
+1868	Black Cotton Ostrich
+1869	Imp
+1870	Ogre Warrior
+1871	Imp
+1872	Giant Imp
+1874	Gremlin
+1875	Ogre Warrior
+1876	Ogre Warrior
+1877	Ogre Warrior
+1878	Ogre Warrior
+1880	Barrier Spikes
+1881	Golem
+1882	Wendigo
+1883	Sparkling Stone Bison
+1885	Hunter Ghost
+1889	(임시)워리어(가고일소드+카실)
+1890	Ruins Guardian
+1891	(임시)랜서1
+1892	(임시)아쳐1
+1893	Shadow Mission Bulletin
+1894	Pierrick
+1895	Cow
+1896	Sheep
+1897	Rooster
+1898	Hen
+1899	Chick
+1900	Sheep
+1901	Pig
+1903	Dog
+1906	(임시)파이터 A
+1907	(임시)파이터 B
+1910	(임시)아처 A
+1911	(임시)랜서 A
+1915	(임시)버려진 개 A
+1916	(임시)버려진 개 B
+1917	(임시)그림자 말
+1918	(임시)크래그카우
+1920	(임시)미니 가고일A
+1921	(임시)미니 가고일B
+1922	(임시)미니 가고일C
+1926	Karpfen
+1927	Devi
+1928	Elatha
+1929	Pierrick
+1930	Dorren
+1931	Goblin
+1932	Goblin Archer
+1933	Ogre Warrior
+1934	Dark Lord
+1935	Allied Guardsman
+1937	Allied Castle Guard
+1946	Fallon's Envoy
+1947	Fallon's Guardsman
+1949	Shadow Lancer
+1950	Shadow Archer
+1951	Shadow Fighter
+1952	Jenna
+1953	Human Guardsman
+1954	Human Guardsman
+1955	Human Guardsman
+1956	Human Guardsman
+1957	Human Guardsman
+1958	Human Guardsman
+1959	Human Guardsman
+1960	Human Guardsman
+1961	Human Guardsman
+1962	Human Guardsman
+1963	Giant Guardsman
+1964	Giant Guardsman
+1965	Giant Guardsman
+1966	Giant Guardsman
+1967	Giant Guardsman
+1968	Giant Guardsman
+1969	Giant Guardsman
+1970	Giant Guardsman
+1971	Elf Guardsman
+1972	Elf Guardsman
+1973	Elf Guardsman
+1974	Elf Guardsman
+1975	Elf Guardsman
+1976	Elf Guardsman
+1977	Elf Guardsman
+1978	Elf Guardsman
+1979	(임시)용굴 발록
+1983	Claimh Solas
+1984	Lugh
+1985	Stone Golem
+1987	Sulfur Golem
+1988	Snow Golem
+1989	Forest Golem
+1990	Claimh Solas
+1991	Jenna
+1997	Human Guardsman
+1998	Temple Knight
+1999	Temple Knight
+2000	Temple Knight
+2001	Temple Knight
+2002	Temple Knight
+2003	Temple Knight
+2004	Temple Knight
+2005	Temple Knight
+2006	Shadow Fighter
+2007	Shadow Warrior
+2008	Shadow Lancer
+2011	Shadow Archer
+2013	Shadow Archer
+2014	Adniel
+2016	Barrier Spikes
+2017	Shadow Warrior
+2018	Shadow Wizard
+2019	Shadow Wizard
+2020	Glas Ghaibhleann
+2021	HQ Guardsman
+2022	HQ Castle Guard
+2024	Shadow Fighter
+2025	Shadow Archer
+2026	Elf Scout
+2027	Tethra
+2029	Snow Golem
+2030	Human Guardsman
+2031	Human Guardsman
+2032	Giant Guardsman
+2033	Giant Guardsman
+2034	Elf Guardsman
+2035	Elf Guardsman
+2036	Taillteann Goat
+2040	Shadow Archer
+2041	Shadow Alchemist
+2042	Shadow Commander
+2043	Shadow Lancer
+2044	Shadow Lancer
+2045	Shadow Fighter
+2046	Shadow Archer
+2047	Shadow Lancer
+2048	Shadow Shire
+2050	Shadow Fighter
+2051	Shadow Archer
+2052	Grumbill
+2053	Grumbill
+2054	Grumbill
+2055	Crag Cow
+2057	Burgundy Bear
+2058	Plateau Wild Boar
+2059	Crag Cow
+2060	Jenna
+2061	Black Wizard
+2062	Fallon's Guardsman
+2063	Fallon's Guardsman
+2064	Fallon's Guardsman
+2065	Fallon's Guardsman
+2066	Fallon's Guardsman
+2067	Black Warrior
+2068	Arat Boar
+2069	Shadow Bear
+2070	Crag Cow
+2081	Taillteann Guardsman
+2082	Taillteann Guardsman
+2083	Taillteann Guardsman
+2084	Taillteann Guardsman
+2085	Taillteann Guardsman
+2086	Taillteann Guardsman
+2087	Taillteann Guardsman
+2088	Taillteann Guardsman
+2089	Taillteann Guardsman
+2090	Taillteann Guardsman
+2091	Leymore
+2092	Cai
+2093	Inflames
+2094	Incubus
+2095	Shadow Dog
+2096	Shadow Dog
+2097	Arat Deer
+2098	Tiamat
+2099	Cuilin Golem
+2100	Granat
+2101	Andras
+2102	Golem
+2103	Leymore
+2104	Human Guardsman
+2105	Elf Guardsman
+2106	Giant Guardsman
+2107	Cai
+2108	Karpfen
+2113	Yellow Sprite
+2114	Lime Sprite
+2115	Rainbow Sprite
+2116	Crag Cow
+2117	Mini Skeleton
+2118	Shadow Commander
+2119	Scarecrow
+2122	Shadow Wizard
+2123	Shadow Warrior
+2124	Shadow Fighter
+2125	Shadow Lancer
+2126	Shadow Archer
+2127	Shadow Shire
+2128	Crag Cow
+2129	Shadow Alchemist
+2130	Golem
+2134	White Elephant
+2135	Blue Elephant
+2137	Neid
+2138	Sulfur Spider
+2139	Giant Sulfur Spider
+2140	Magic Carpet
+2141	Magic Carpet
+2145	Eagle Owl
+2146	Snowy Owl
+2147	Incubus
+2148	Incubus
+2149	Royal Magic Carpet
+2150	Royal Magic Carpet
+2151	Horse
+2152	Horse
+2153	Santa
+2154	Santa
+2155	Santa
+2156	Santa
+2157	Santa
+2160	Shadow Archer
+2167	Dark Commander
+2168	Arat Alchemist
+2169	Bone Fighter
+2170	Gold Bone Fighter
+2178	Possessed Cai
+2180	Astrologer
+2182	Horse for Jousting
+2183	Horse for Jousting
+2185	Shadow Fighter
+2186	Shadow Lancer
+2188	Silver Bone Fighter
+2189	Bronze Bone Fighter
+2190	Gold Bone Lancer
+2191	Silver Bone Lancer
+2192	Bronze Bone Lancer
+2193	Gold Bone Archer
+2194	Silver Bone Archer
+2195	Bronze Bone Archer
+2196	Model Student Grumbill
+2207	Doe
+2208	Fawn
+2209	Incubus
+2210	Goddess Neamhain
+2213	Water Crow
+2214	Yellow-breasted Bunting
+2215	Pigeon
+2216	Lost Cat
+2217	Lost Dog
+2218	Tara Sheep
+2219	Arat Alchemist
+2220	Bone Fighter
+2221	Dark Commander
+2224	Bronze Bone Fighter
+2225	Bronze Bone Lancer
+2226	Bronze Bone Archer
+2227	Dark Horse
+2228	Dark Horse
+2229	Mata
+2231	Bone Lancer
+2232	Dark Horse
+2233	Horse for Jousting
+2234	Surviving Soldier
+2235	Doppelganger
+2236	Doppelganger
+2237	Doppelganger
+2238	Doppelganger Clone
+2239	Doppelganger Clone
+2240	Shadow Ghost
+2241	Bone Archer
+2242	Dark Commander
+2243	Bone Lancer
+2244	Bone Archer
+2245	Stone Mimic
+2246	Buck
+2247	Mata
+2248	Old Ice Mimic
+2249	Stone Mimic
+2250	Neamhain
+2251	Prisoner Soldier
+2252	Zombie Soldier
+2253	Zombie Soldier
+2254	Dead Soldier
+2255	Dead Soldier
+2256	Dead Soldier
+2257	Dead Soldier
+2258	Dead Soldier
+2259	Dead Soldier
+2260	Dead Soldier
+2261	Dead Soldier
+2262	Dead Soldier
+2263	Dead Soldier
+2264	Possessed Cai
+2265	Possessed Cai
+2267	Arctic Skeleton
+2268	Mini Skeleton
+2269	Magic Golem
+2270	쿠키 마녀
+2271	Himalayan
+2273	Mini Milk Cow
+2274	Giant Snow Bunny
+2275	Giant Moon Bunny
+2280	Orange Pixie
+2281	Brown Pixie
+2282	Scottish Fold
+2283	마쯔리 상인
+2284	마쯔리 상인
+2285	마쯔리 상인
+2286	마쯔리 상인
+2287	Krug
+2295	Corrupted Alchemist
+2296	마네키네코
+2297	캣시 기사
+2298	캣시 궁수
+2299	거대 캣시
+2301	Jenna
+2304	Black Seal
+2305	White Seal
+2306	마네키네코
+2307	길고양이
+2308	길고양이
+2309	길고양이
+2310	길고양이
+2311	길고양이
+2312	길고양이
+2313	마을고양이
+2317	Leprechaun
+2318	거대 노란 라마
+2319	신묘한 고양이
+2320	신묘한 고양이
+2321	원령 기사
+2322	원령 궁수
+2323	거대 원령 기사
+2324	거대 원령 궁수
+2325	Thoroughbred (Color Selectable)
+2326	Shire (Color Selectable)
+2327	Unicorn (Color Selectable)
+2330	Silver Tableware
+2331	Sewer Rat
+2333	Water
+2334	Piece of Meat
+2336	Fruit
+2337	Cheese
+2338	Wine
+2339	Spice
+2341	Flour
+2342	Griffin
+2343	Rusted Flying Sword
+2344	Rusted Flying Sword
+2345	Dark Commander
+2349	Dullahan
+2350	Hell Steed
+2351	Skeleton Soldier
+2353	Bone Fighter
+2355	Basilisk
+2357	Shadow Alchemist
+2358	Chandelier
+2360	Seafood
+2364	Glewyas
+2366	Ghost of Partholon
+2367	Ghost of Partholon
+2368	Ghost of Partholon
+2372	Stone Golem
+2373	Forest Golem
+2374	Sulfur Golem
+2375	Snow Golem
+2377	Shadow Wizard
+2379	Bone Fighter
+2380	Bone Lancer
+2381	Bone Archer
+2382	Bone Fighter
+2383	Bone Lancer
+2384	Bone Archer
+2389	Egg
+2391	Iron Pot
+2392	Uroborus
+2393	Uroborus
+2394	Uroborus
+2395	Uroborus
+2396	Blinker
+2397	Strange Book
+2400	Corrupted Alchemist
+2401	Corrupted Alchemist
+2407	Python Soldier
+2408	Python Shaman
+2409	Cerberus
+2410	Cerberus
+2411	Vegetable
+2413	Shadow Wizard Illusion
+2414	Bone Lance Illusion
+2415	Small Bone Lancer
+2416	Small Bone Archer
+2417	Small Bone Fighter
+2418	Small Shadow Commander
+2421	Lucas
+2422	Giant Ghost of Partholon
+2423	Giant Leprechaun
+2425	Leymore 
+2426	Cai
+2427	Goddess Morrighan
+2429	Leprechaun
+2430	Mini Unicorn
+2431	Royal Castle Horse
+2432	Python Knight
+2433	Python Knight
+2434	Cai
+2436	Leymore 
+2437	Possessed Gold Bone Fighter
+2438	Possessed Gold Bone Lancer
+2439	Possessed Gold Bone Archer
+2440	Corrupted Alchemist
+2441	Strange Book
+2444	Summoned Python Soldier
+2445	Summoned Python Shaman
+2447	New Cichol
+2448	Zombie
+2449	Zombie
+2450	Zombie
+2451	Zombie
+2452	Zombie
+2453	Zombie
+2454	<mini>NPC</mini> Buchanan
+2455	Uroborus
+2456	Uroborus
+2457	Uroborus
+2458	Uroborus
+2459	Uroborus
+2460	Uroborus
+2461	Uroborus
+2462	Uroborus
+2463	Uroborus
+2464	Uroborus
+2465	Uroborus
+2466	Uroborus
+2467	Python Soldier
+2468	Python Shaman
+2471	Uroborus Statue
+2472	Jenna
+2473	Goddess Neamhain
+2474	Python Wizard
+2475	Python Soldier
+2476	Python Shaman
+2477	Leymore 
+2479	Jenna_G11_Effect
+2480	Python Knight
+2481	Uroborus
+2482	Uroborus
+2483	Uroborus
+2484	Uroborus
+2485	Uroborus
+2486	Uroborus
+2487	Uroborus
+2488	Uroborus
+2489	Uroborus
+2490	Uroborus
+2491	Uroborus
+2492	Uroborus
+2493	Uroborus
+2494	Uroborus
+2495	Uroborus
+2496	Uroborus
+2497	Black Python
+2498	Zombie
+2499	Zombie
+2500	Zombie
+2501	Zombie
+2502	Zombie
+2503	Zombie
+2504	Zombie
+2505	Zombie
+2506	Zombie
+2507	Zombie
+2508	Stone Imp
+2509	Stone Hound
+2510	Stone Bison
+2511	Stone Zombie
+2514	Volatile Zombie
+2517	Volatile Zombie
+2520	Volatile Zombie
+2521	Kid Zombie
+2522	Innocent Zombie
+2523	King Zombie
+2524	Kid Zombie
+2525	Innocent Zombie
+2526	Kid Zombie
+2527	Innocent Zombie
+2528	Magic Shield Imp
+2531	Uroborus
+2532	Uroborus
+2533	Jungle Scout Imp
+2534	Lava Walker Imp
+2535	Dullahan
+2536	Hell Steed
+2537	Basilisk
+2538	Uroborus
+2540	Black Sulfur Spider
+2541	Red Sulfur Spider
+2542	Giant Sulfur Spider
+2543	Corrupted Alchemist
+2544	Corrupted Alchemist
+2545	Stone Golem
+2546	Black Sulfur Spider
+2547	Red Sulfur Spider
+2548	Small Sulfur Spider
+2549	Stone Golem
+2550	Forest Golem
+2551	Sulfur Golem
+2552	Snow Golem
+2555	Red Dragon
+2556	Snow Giant Golem
+2557	Father Ghost
+2558	Mother Ghost
+2559	Brother Ghost
+2560	Sister Ghost
+2561	Small Sulfur Spider
+2562	Black Sulfur Spider
+2563	Red Sulfur Spider
+2564	Black Sulfur Spider
+2565	Red Sulfur Spider
+2566	Giant Sulfur Spider
+2567	Giant Sulfur Spider
+2568	Claimh Solas
+2569	Sulfur Giant Golem
+2570	Claimh Solas
+2571	Claimh Solas
+2576	Royal Castle Rat
+2577	Royal Castle Rat
+2578	Little Ghost
+2583	Treat Pumpkin
+2584	Trick Pumpkin
+2585	Glas Ghaibhleann
+2586	Sheep Wolf
+2587	Hellhound
+2588	Keep Hound
+2589	Silver Armor Hound
+2590	Nubes Wild Dog
+2591	Shadow Dog
+2592	White Warg
+2593	Brown Warg
+2594	Wolf Sprite
+2595	Black Wolf
+2596	Chi Chi
+2597	Blinker
+2598	Falias Floating Stone
+2599	Aonbharr
+2607	Aonbharr
+2608	Aonbharr
+2609	Aonbharr
+2611	Aonbharr
+2612	Aonbharr
+2613	Aonbharr
+2614	Aonbharr
+2615	Aonbharr
+2616	Aonbharr
+2620	Temple Knight Officer
+2621	Temple Knight Officer
+2622	Temple Knight Officer
+2623	Goddess Morrighan
+2624	Goddess Morrighan
+2625	Nuadha
+2626	Nuadha
+2627	Nuadha
+2628	Daol
+2629	Daol
+2630	Goddess Neamhain
+2631	Goddess Morrighan
+2632	Corrupted Alchemist Corpse
+2633	Nuadha
+2634	Corrupted Alchemist
+2635	Daol
+2636	Corrupted Alchemist
+2637	Royal Alchemist
+2638	Royal Alchemist
+2639	Royal Alchemist
+2640	Royal Alchemist
+2641	Royal Alchemist
+2642	Royal Alchemist
+2643	Helvetius
+2644	Royal Alchemist
+2645	Royal Alchemist
+2646	Corrupted Alchemist
+2647	Daol
+2648	Nuadha
+2649	Goddess Neamhain
+2650	Arat Boar
+2651	Arat Deer
+2652	Crag Cow
+2653	Grumbill
+2654	Grumbill
+2655	Shadow Archer
+2656	Shadow Alchemist
+2657	Shadow Fighter
+2658	Shadow Lancer
+2659	Grumbill
+2660	Stone Golem
+2661	Sulfur Spider
+2662	Shadow Shire
+2663	Arat Boar
+2664	Arat Deer
+2666	Human
+2667	Aonbharr
+2668	Aonbharr
+2669	Nuadha
+2670	Goddess Morrighan
+2671	Guardian Spider
+2672	Nuadha
+2673	Daol
+2674	Lennox
+2675	Human
+2676	Weak Ghoul
+2677	Just Revived Ghoul
+2678	Frail Cloaker
+2679	Faint Cloaker
+2680	Wight
+2681	Wight
+2682	Tired Ghost
+2683	Tired Ghost
+2684	Coffin Mimic
+2685	Lennox
+2686	Nuadha
+2687	Aonbharr
+2688	Aonbharr
+2689	Aonbharr
+2690	Wings of Rage
+2691	<mini>NPC</mini> Eabha
+2692	Lugh
+2693	호랑이
+2694	백호
+2695	Yellow Jindo
+2696	Brown Pixie
+2697	Sulfur Spider
+2700	Master Lich
+2713	Enraged Ghoul
+2714	Blue Ghost King
+2715	Red Ghost King
+2716	Ghost King
+2717	Pledged Hollow Knight 
+2718	Agile Vampire Bat
+2719	Champion Cloaker
+2720	Champion Ghost Cloaker
+2721	Giant Queen Moth
+2722	Broken Coffin Mimic
+2723	Forgotten Treasure Mimic
+2724	Enraged Ghoul
+2725	Stubborn Wight
+2726	Ghast 		
+2729	Red Ghast
+2730	Blue Ghast
+2735	Snow Tiger
+2736	Bengal Tiger
+2740	지상촬영팀T
+2741	Leprechaun
+2742	눈물로 밤을 새는 고블린
+2743	솔로 전도사 고블린 아처
+2744	쓸쓸한 코볼트
+2745	외톨이 임프
+2746	100전 150패 그럼빌
+2747	입대 후 300년 좀비 병사
+2748	입대 후 300년 좀비 병사
+2749	손도 못 잡아본 좀비
+2750	손도 못 잡아본 좀비
+2751	솔로 좀비
+2753	무적 솔로 부대 해골 병사
+2755	Skeleton Maid
+2756	Brown Explorer Cat
+2757	Petal Collar Dog
+2758	메이드 스켈레톤
+2760	C4 NPC Job Advancement Knight
+2761	C4 NPC Job Advancement Knight 02
+2762	Little Ghost
+2763	Incubus
+2764	Incubus
+2765	Monkey
+2766	Jenna
+2767	Taunes
+2768	Atrata
+2769	Elf Guard
+2770	Elf Guard
+2771	Elf Captain
+2772	Elf Captain
+2773	Giant Guard
+2774	Giant Guard
+2775	Giant Guard
+2776	Civilian
+2777	Goblin
+2778	Civilian
+2779	Civilian
+2780	Civilian
+2781	Red Goblin
+2782	Goblin Swordman
+2783	Ogre Warrior
+2784	Goblin Archer
+2785	Red Goblin Archer
+2786	Lightning Sprite
+2787	Fire Sprite
+2788	Ice Sprite
+2789	Ogre Executioner
+2790	Cyclops
+2791	Grim Reaper
+2792	Shark Robe Seal
+2793	Nao
+2794	Fortinbras
+2795	Norway Soldier
+2796	Norway Soldier
+2797	War Horse
+2798	Snow Troll
+2799	Large Snowball
+2800	Large Mud Clump
+2801	Laertes
+2802	Snow Troll
+2803	Elsinore Ghost
+2804	Fenrir
+2805	Drehu
+2806	Large Snowball
+2807	Large Mud Clump
+2808	Large Snowball
+2809	Large Mud Clump
+2810	Large Snowball
+2811	Large Mud Clump
+2812	Large Snowball
+2813	Large Mud Clump
+2814	Supply Guard
+2815	Black Seal with Mini Pet
+2816	White Seal with Mini Pet
+2817	Fenrir
+2818	Snow Troll
+2819	Snow Troll
+2820	Elsinore Ghost
+2821	White Dire Wolf
+2822	Giant White Wolf
+2823	Black Dire Wolf
+2824	Paper Sheep
+2825	Treasure Chest
+2826	Goblin Archer
+2827	Goblin
+2828	Black Dire Wolf
+2829	Bat
+2830	Cloaker
+2831	Ghost Cloaker
+2832	Gray Town Rat
+2833	Brown Town Rat
+2834	Black Wolf
+2838	Horatio
+2842	Sentry
+2843	Sentry
+2847	Civilian
+2848	Civilian
+2849	Civilian
+2850	Skeleton Ogre
+2851	Skeleton Ogre Warrior
+2852	Skeleton Ogre Warrior
+2853	Giant White Wolf
+2854	Giant Black Wolf
+2855	Giant Bear
+2856	Black Warrior
+2857	Goblin Bandit
+2858	Black Raccoon
+2859	Giant Ogre
+2860	Black Wizard
+2861	White Grizzly Bear
+2862	Brown Bear
+2863	Golem
+2864	Small-eared Aardvark
+2865	Giant Short Horn Gnu
+2866	Giant Long Horn Gnu
+2867	Gold-tailed Mongoose
+2868	White Fennec Fox
+2869	Head Hyena
+2870	Wolf-striped Desert Spider
+2871	Gold Kiwi
+2872	Green Kiwi
+2873	Giant Gold Forest Mushroom Spider
+2874	Gold Forest Lizard
+2875	Armored Bear
+2876	Giant Werewolf
+2877	Giant Wild Boar
+2878	Giant Brown Bear
+2879	Giant Wood Jackal
+2880	Blue Poisonous Snake
+2881	White Poisonous Snake
+2882	Black Poisonous Snake
+2883	Castle Wall Golem
+2886	Small Ice Worm
+2887	Snow Zombie
+2890	Rosencrantz
+2891	Osric
+2892	Hamlet
+2893	Giant Castle Wall Golem
+2900	Cave Rat
+2901	Pirate Crewman Skeleton
+2902	Pirate Crewman Skeleton
+2903	Pirate Crewman Skeleton
+2904	Pirate Crewman Skeleton
+2905	Pirate Captain Skeleton
+2906	Pirate Captain Skeleton
+2907	Pirate Captain Skeleton
+2909	Paper Butterfly
+2910	Pawn
+2911	Bishop
+2912	Rook
+2913	Incubus
+2914	Incubus
+2915	Snowfield Spider
+2918	<mini>NPC</mini> Lost Child
+2919	Royal Castle Rat
+2920	Letter-stealing Castle Rat
+2921	Elsinore Rat
+2922	Large Elsinore Rat
+2923	Elsinore Rat
+2926	Small Golem
+2927	Strange Book
+2928	Grim Reaper
+2929	Human
+2930	Castle Wall Golem
+2931	Siren
+2932	Siren
+2933	Siren
+2939	Thunder Dragon
+2940	Fire Dragon
+2945	Thunder Dragon (Dragon Rider Set)
+2946	Fire Dragon (Dragon Rider Set)
+2948	Large Piece of Meat
+2950	Guildenstern
+2951	Rosencrantz
+2952	Guildenstern
+2953	Giant Snowfield Spider
+2954	Giant Snow Troll
+2955	서러브레드 (기간 제한)
+2956	Cloaker
+2957	거대 양 늑대
+2958	Skeleton Armor Ogre
+2959	Skeleton Full Armor Ogre
+2960	Grim Reaper
+2961	로떼 유령
+2962	샤론 유령
+2963	두두 유령
+2964	제레미 유령
+2965	노베르 유령
+2966	마법 융단
+2967	마법 융단
+2968	고급 마법 융단
+2969	고급 마법 융단
+2970	Free Thoroughbred (7-day)
+2971	Crystal Deer
+2972	Montague Family
+2973	Montague Family
+2974	Montague Family
+2975	Montague Family
+2980	Verona Ghoul
+2981	Verona Dark Skeleton Soldier
+2982	Verona Black Prison Ghost
+2983	Panther
+2984	Tybalt
+2985	Capulet Family
+2986	Capulet Family
+2987	Capulet Family
+2988	Capulet Family
+2989	The Nurse
+2991	Bran
+2992	Guard
+2993	Bran
+2994	Count Paris
+2995	Bull
+2996	Fake
+2997	Golvan
+2998	Aisling
+2999	Snow Troll
+3000	Aisling
+3001	Aisling
+3002	Lightning Sprite
+3003	Fire Sprite
+3004	Ice Sprite
+3005	Human
+3006	Paper Sheep
+3007	Forest Golem
+3008	Sulfur Golem
+3009	Snow Golem
+3010	Stone Golem
+3011	Magic Golem
+3012	Bran
+3013	Verona Ghoul
+3014	Verona Dark Skeleton Soldier
+3015	Verona Black Prison Ghost
+3016	Town Square Rat
+3018	Event Giant White Wolf
+3019	Event Giant Black Wolf
+3020	Event Giant Sheep Wolf
+3021	Event Blue Wolf
+3022	Event Sheep Wolf
+3023	Event Gray Wolf
+3024	Event Black Wolf
+3025	Event White Wolf
+3027	Transportation Carriage
+3028	Transportation Carriage
+3029	Transportation Carriage
+3030	Transportation Carriage
+3031	Transportation Carriage
+3034	서큐버스
+3035	Sunburst Shire
+3036	Nightshade Mustang
+3037	Ethereal Mist War Horse
+3038	Event Kobold
+3039	Event Kobold Archer
+3040	Event Goblin
+3041	Event Goblin Archer
+3042	Event White Wolf
+3043	Event Giant White Wolf
+3044	Event Imp
+3045	Event Giant Imp
+3046	Event Ogre Warrior
+3047	Event Ogre Executioner
+3048	Event Giant Ogre
+3049	Event Heavy Gargoyle
+3050	Event Light Gargoyle
+3051	Event Lion
+3052	Event Giant Lioness
+3053	Event Balrog
+3054	Event Hobgoblin Grenadier
+3055	Event Hobgoblin Grenadier
+3056	Event Hobgoblin Bowman
+3060	Event Hobgoblin Warrior
+3061	Event Head Hobgoblin
+3062	Event Wight
+3063	Event White Succubus
+3064	Event Black Leopard
+3065	Event Incubus
+3066	Event Dark Knight
+3068	Event Zombie
+3069	Event Zombie
+3070	Event Volatile Zombie
+3071	Event Volatile Zombie
+3072	Event Volatile Zombie
+3073	Event Dark Skeleton Soldier
+3074	Event Dark Rat Man
+3075	Event Giant Dark Rat Man
+3076	Event Shadow Wizard
+3077	Event Ghast
+3078	Event Blue Ghast
+3079	Event Red Ghast
+3080	Event Ghoul
+3081	Event Cloaker
+3082	Event Hallow Knight
+3083	Event Arachne
+3085	Event King Zombie
+3086	Event Argus
+3087	Event Banshee
+3088	Event Giant Lion
+3089	Event Red Dragon
+3090	Event Desert Dragon
+3091	Event Prairie Dragon
+3092	Event Ifrit
+3093	Event Cyclops
+3094	Event Giant Long Horn Gnu
+3095	Event Arachne
+3096	Event Argus
+3097	Event Argus
+3098	Event Argus
+3100	Event Demi-Lich
+3101	Event Spider Archer
+3102	Weide
+3103	Wanst
+3106	Yellow Tiger Cub
+3107	White Tiger Cub
+3108	Young Goblin
+3109	Young Poison Goblin
+3110	Young Goblin Archer
+3111	Poison Goblin
+3112	Goblin Archer
+3113	Small Golem
+3114	Small Golem
+3115	Golem
+3116	Golem
+3117	Golem
+3118	Golem
+3119	Golem
+3120	Golem
+3121	Golem
+3122	Golem
+3123	Golem
+3124	Golem
+3125	Golem
+3126	Golem
+3127	Golem
+3128	Golem
+3129	Golem
+3130	Golem
+3131	Golem
+3132	Golem
+3133	Stone Golem
+3134	Stone Golem
+3135	Forest Golem
+3136	Forest Golem
+3137	Sulfur Golem
+3138	Sulfur Golem
+3139	Snow Golem
+3140	Snow Golem
+3141	Stone Golem
+3142	Golem
+3143	Small Golem
+3144	Goblin
+3145	Worker
+3146	Lonnie
+3147	Arranz
+3148	Tiny Billy
+3149	Maurice the Engorged
+3150	Tamon
+3153	Mother Cyclops
+3154	Young Cyclops
+3155	Kid Cyclops
+3158	Father Cyclops
+3159	Demi Lich
+3160	Hollow Knight
+3161	Hollow Knight
+3162	Banshee
+3163	Giant Firefly
+3164	Giant Firefly
+3165	Giant Ice Sprite
+3166	Giant Ice Sprite
+3167	Mirror Witch
+3168	Mirror Witch
+3169	Frenzied Herald
+3171	Training Defense Dummy
+3172	Training Smash Dummy
+3173	Training Counter Dummy
+3174	Training Windmill Dummy
+3175	Training White Spider
+3176	Training Pot-Belly Spider
+3177	Training Young Brown Fox
+3178	Training Red Fox
+3179	Training Red Spider
+3180	Training Giant Spider
+3181	Training Brown Dire Wolf Cub
+3182	Training Sheep Wolf
+3183	Training Brown Warg
+3184	Training Skeleton Wolf
+3185	Training Black Wolf
+3186	Training Fernir
+3187	Training Young Gobling
+3188	Training Hobgoblin Bowman
+3189	Training Hobgoblin Warrior
+3190	Training Kobold Bandit
+3191	Training Poison Kobold
+3192	Training Hobgoblin Grenadier
+3193	Training Hobgoblin Exorcist
+3194	Training Skeleton
+3195	Training Pot Warrior
+3196	Training Candle Warrior
+3197	Training Skeleton Soldier
+3198	Training Pirate Skeleton
+3199	Training Captain Skeleton
+3200	Training Manchurian Black Bear Cub
+3201	Training Manchurian Black Bear
+3202	Training Reinforced Dummy
+3203	Backpack
+3204	Handcart
+3205	Wagon
+3206	Pack Elephant
+3207	Training Dummy Archer
+3208	Doppelganger
+3209	Cave Rat
+3210	Cave Rat
+3211	Sewer Rat
+3212	Cave Rat
+3213	Cave Rat
+3214	Sewer Rat
+3215	Trainee Soldier
+3217	Small Skeleton
+3218	Small Skeleton
+3219	Trade Assistant Imp
+3220	Trade Assistant Goblin
+3221	Trade Assistant Ogre
+3222	Backpack
+3223	Handcart
+3250	Coy Lucy
+3251	Dreary Julia
+3252	Low-Rank Maurice
+3253	Traitor Billy
+3254	Pirate Crewman
+3255	Pirate Crewman
+3256	Ghost
+3257	Red Ghost
+3259	Wisp
+3260	Giant Ghost
+3261	Bella
+3263	Skeleton Armor Ogre
+3264	Training Basic Dummy
+3265	Skeleton Full Armor Ogre
+3268	Bandit Goblin Final Hit
+3269	Bandit Goblin Arrow Revolver
+3270	Bandit Goblin Mirage Missile
+3271	Bandit Goblin Crash Shot
+3272	Bandit Giant Lance
+3273	Bandit Giant Throwing Attack
+3274	Bandit Imp Thunder
+3275	Bandit Imp Fireball
+3276	Bandit Imp Ice Spear
+3277	Bandit Human Assault Crash
+3278	Bandit Human Frozen Blast
+3279	Bandit Human Flame Burst
+3280	Bandit Human Life Drain
+3281	Bandit Ogre Ogre Heavy Stander
+3282	Bandit Ogre Natural Shield
+3283	Bandit Ogre Mana Deflector
+3286	Bran
+3287	Bran
+3288	Bran
+3289	Cave Masked Goblin
+3290	Brown Dire Wolf
+3291	Brown Dire Wolf Cub
+3292	Gray Wolf
+3293	Gray Wolf
+3294	Brown Coyote
+3295	Young Gray Coyote
+3296	Gray Coyote
+3297	Young White Coyote
+3298	White Coyote
+3299	Young White Dingo
+3300	White Dingo
+3301	Young Brown Warg
+3302	Young Blue Warg
+3303	Blue Warg
+3304	Young Black Warg
+3305	Black Warg
+3306	Young White Warg
+3307	White Warg
+3308	Brown Warg
+3309	Brown Warg
+3310	Volcano Wolf
+3311	Volcano Wolf
+3312	Volcano Wolf
+3313	White Ant Lion
+3314	Yellow Ant Lion
+3315	Red Ant Lion
+3316	Big-eared Aardvark
+3317	Young Big-eared Aardvark
+3318	Young Black Aardvark
+3319	Young Maned Aardvark
+3320	Young Brown Fox
+3321	Brown Fox
+3322	Brown-tailed Mongoose
+3323	Young Brown-tailed Mongoose
+3324	Young Gray-tailed Mongoose
+3325	Young White-tailed Mongoose
+3326	Young White Physis Fox
+3327	White Physis Fox
+3328	White Cave Bat
+3329	Yellow Cave Bat
+3330	Brown Cave Bat
+3331	Young White Buffalo
+3332	Young Gray Reindeer
+3333	Gray Reindeer
+3334	Young White Reindeer
+3335	Brown Fox
+3336	Gray Wolf
+3337	Stag Beetle
+3338	Stag Beetle
+3339	Brown Mountain Sheep
+3340	White Mountain Sheep
+3341	Grim Reaper
+3342	Beginner Combat Class Board
+3343	Trade Assistant Goblin
+3344	Tybalt
+3345	Trainee Soldier
+3346	Trainee Soldier
+3347	Trainee Soldier
+3348	Trainee Soldier
+3349	Trainee Soldier
+3350	Trainee Soldier
+3351	Mont
+3356	Antonio
+3357	Bassanio
+3358	Nicca
+3359	Ethna
+3385	Trick Zombie Soldier
+3386	Trick Snow Zombie
+3387	Trick Stone Zombie
+3388	Trick Bandersnatch
+3389	Trick Zombie Soldier
+3390	Trick Snow Zombie
+3391	Trick Stone Zombie
+3392	Trick Bandersnatch
+3393	Trick Zombie Soldier
+3394	Trick Snow Zombie
+3395	Trick Stone Zombie
+3396	Trick Bandersnatch
+3397	Trick Zombie Soldier
+3398	Trick Snow Zombie
+3399	Trick Stone Zombie
+3400	Trick Bandersnatch
+3401	Goblin Hunter
+3402	Ogre Executioner
+3403	Snow Imp
+3404	Turtle
+3405	Turtle
+3406	Turtle
+3417	Rookie Bandit Goblin
+3418	Rookie Bandit Goblin Archer
+3419	Rookie Bandit Imp
+3420	Rookie Bandit Human
+3421	Rookie Bandit Giant
+3422	Rookie Bandit Boss
+3423	Rookie Bandit Boss
+3424	Trained Bandit Goblin
+3425	Trained Bandit Goblin Archer
+3426	Trained Bandit Imp
+3427	Trained Bandit Human
+3428	Trained Bandit Giant
+3429	Trained Bandit Boss
+3430	Trained Bandit Boss
+3431	Hardened Bandit Goblin
+3432	Hardened Bandit Goblin Archer
+3433	Hardened Bandit Imp
+3434	Hardened Bandit Human
+3435	Hardened Bandit Giant
+3436	Hardened Bandit Boss
+3437	Hardened Bandit Boss
+3438	Veteran Bandit Goblin
+3439	Veteran Bandit Goblin Archer
+3440	Veteran Bandit Imp
+3441	Veteran Bandit Human
+3442	Veteran Bandit Giant
+3443	Veteran Bandit Boss
+3444	Veteran Bandit Boss
+3445	Master Bandit Goblin
+3446	Master Bandit Goblin Archer
+3447	Master Bandit Imp
+3448	Master Bandit Human
+3449	Master Bandit Giant
+3450	Master Bandit Boss
+3451	Master Bandit Boss
+3452	Trading Post Elephant
+3453	Trading Post Horse
+3454	Defense Dummy for Training
+3455	Smash Dummy for Training
+3456	Counter Dummy for Training
+3457	Windmill Dummy for Training
+3458	Reinforced Dummy for Training
+3459	Lost Zombie Soldier
+3460	Lost Snow Zombie
+3461	Lost Stone Zombie
+3462	Lost Bandersnatch
+3463	Lost Zombie Soldier
+3464	Lost Snow Zombie
+3465	Lost Stone Zombie
+3466	Lost Bandersnatch
+3467	Lost Giant Zombie Soldier
+3468	Lost Giant Snow Zombie
+3469	Lost Giant Stone Zombie
+3470	Lost Giant Bandersnatch
+3471	Lost Zombie Soldier
+3472	Lost Snow Zombie
+3473	Lost Stone Zombie
+3474	Lost Bandersnatch
+3475	Blue-footed Booby
+3476	Blue-footed Booby
+3477	Blue-footed Booby
+3481	Handcart
+3486	Iguana
+3487	Iguana
+3488	Iguana
+3489	Iguana
+3492	Worker
+3493	Worker
+3497	Toum
+3498	Jenny
+3499	Teenyk
+3500	Newbie Bandit Imp
+3501	Black Flamemare
+3502	Blue-footed Booby
+3503	Blue-footed Booby
+3511	Wishing Tree
+3513	Belvast Guardsman
+3514	Belvast Guardsman
+3515	Belvast Guard Commander
+3516	Skeleton Squad
+3517	Bandit Goblin
+3518	Bandit Goblin Archer
+3519	Bandit Imp
+3520	Bandit Human
+3521	Bandit Giant
+3522	Bandit Boss
+3523	Disguised Bandit Goblin
+3524	Disguised Bandit Imp
+3525	Disguised Bandit Human
+3526	Disguised Bandit Giant
+3527	Disguised Bandit Boss
+3537	마당을 탈출한 거대 수탉
+3538	Raccoon Mercenary
+3539	Red Fox Mercenary
+3540	White Wolf Mercenary
+3541	Black Bear Mercenary
+3544	Elf Female Partner
+3545	Elf Male Partner
+3546	Giant Female Partner
+3547	Giant Male Partner
+3548	Noble Carriage
+3549	Magical Broom
+3553	The Ninth Sun
+3685	Black Grizzly Bear
+3686	Lion
+3687	Partner Character
+3688	Partner [Maid]
+3689	Partner [Butler]
+3710	Trefor
+3711	Ferghus
+3712	Ranald
+3713	Admiral Owen
+3714	Nerys
+3715	Aranwen
+3716	Bryce
+3717	Sion
+3718	Seumas
+3719	Aodhan
+3720	Beggar
+3721	Andras
+3722	Karpfen
+3723	Padan
+3724	Voight
+3725	Waboka
+3726	Hagel
+3727	Kirine
+3728	Krug
+3729	Pierrick
+3730	Belita
+3731	Granat
+3732	Riocard
+3733	Caitin
+3734	Endelyon
+3735	Annick
+3736	Walter
+3737	Elen
+3738	Jennifer
+3739	Del
+3740	Delen
+3741	Arzhela
+3742	Kusina
+3743	Meles
+3744	Granites
+3745	Lassar
+3746	Stewart
+3747	Galvin
+3748	Berched
+3749	Pencast
+3750	Kousai
+3751	Castanea
+3752	Duncan
+3753	Manus
+3754	Manus
+3755	Comgan
+3756	Agnes
+3757	Collen
+3758	Corentin
+3759	Heulfryn
+3760	Atrata
+3761	Eabha
+3762	Heledd
+3763	Sinead
+3764	Dorren
+3765	Deian
+3766	Simon
+3767	Edern
+3768	Nele
+3769	Ruwai
+3770	Lileas
+3771	Taunes
+3772	Tarlach
+3773	Price
+3774	Fleta
+3775	Kristell
+3776	Ostrich
+3777	Rab
+3778	Glewyas
+3779	Lucas
+3780	Ethna
+3781	Sheep Wolf
+3782	Hippo
+3783	Sheep
+3784	Nao
+3785	Angry Bear
+3786	Thunder Dragon (For 2)
+3787	Leprechaun
+3788	Halloween Bomb Zombie
+3789	Event Goblin
+3790	Event Goblin Archer
+3791	Event Hobgoblin Grenadier
+3792	Event Hobgoblin Grenadier
+3793	Event Hobgoblin Bowman
+3794	Event Kobold
+3795	Event Kobold Archer
+3796	Event Hobgoblin Warrior
+3797	Event Head Hobgoblin
+3798	Event White Succubus
+3799	Event Imp
+3800	Event Giant Imp
+3801	Event Wight
+3802	Event Ghoul
+3803	Event Dark Skeleton Soldier
+3804	Event Incubus
+3805	Event Demi-Lich
+3806	Event Hallow Knight
+3807	Event Banshee
+3808	Event Shadow Wizard
+3809	Event Arachne
+3810	Event Arachne
+3811	Event White Wolf
+3812	Event Giant White Wolf
+3813	Event Cloaker
+3814	Event Ogre Warrior
+3815	Event Ogre Executioner
+3816	Event Giant Ogre
+3817	Event Cyclops
+3818	Event Argus
+3819	Event Argus
+3820	Event Argus
+3821	Event Argus
+3822	Event Ifrit
+3823	Event Ghast
+3824	Event Blue Ghast
+3825	Event Red Ghast
+3826	Event Giant Long Horn Gnu
+3827	Event Heavy Gargoyle
+3828	Event Light Gargoyle
+3829	Event Balrog
+3830	Event Dark Rat Man
+3831	Event Giant Dark Rat Man
+3832	Event Zombie
+3833	Event Zombie
+3834	Event Volatile Zombie
+3835	Event Volatile Zombie
+3836	Event Volatile Zombie
+3837	Event King Zombie
+3838	Event Desert Dragon
+3839	Event Prairie Dragon
+3840	Event Lion
+3841	Event Giant Lioness
+3842	Event Giant Lion
+3843	Event Black Leopard
+3844	Event Red Dragon
+3845	Event Temple Knight
+3846	Event Spider Archer
+3848	Smuggler Elephant
+3849	키이스
+3850	Black Flamemare
+3851	파트너 [멘마]
+3852	Marshal Street Cat
+3853	Marshal Street Cat
+3854	Marshal Street Cat
+3855	Marshal Street Cat
+3856	Marshal Street Cat
+3857	Marshal Street Cat
+3858	Marshal Town Cat
+3859	Marshal Skeleton Wolf
+3860	Marshal Ogre Warrior
+3869	Veteran Bandit Goblin
+3870	Veteran Bandit Goblin Archer
+3871	Veteran Bandit Imp
+3872	Veteran Bandit Human
+3873	Veteran Bandit Giant
+3874	Master Bandit Goblin
+3875	Master Bandit Goblin Archer
+3876	Master Bandit Imp
+3877	Master Bandit Human
+3878	Master Bandit Giant
+3879	[P]Backpack
+3880	[P]Handcart
+3881	[P]Wagon
+3882	[P]Pack Elephant
+3883	[P]Backpack
+3884	[P]Handcart
+3885	[P]Wagon
+3886	[P]Pack Elephant
+3894	블랙 플레임메어
+3895	"One-Eye" Klugger
+3896	"No-Face" Nelson
+3897	"Stinky" Berkkus
+3898	"Zippy" Nipmore
+3899	"Scandalous" Charlene
+3900	"Horrifying" Herbert
+3901	"Shifty" Shankleton
+3902	"One-Eye" Klugger
+3903	"No-Face" Nelson
+3904	"Stinky" Berkkus
+3905	"Zippy" Nipmore
+3906	"Scandalous" Charlene
+3907	"Horrifying" Herbert
+3914	Homestead Goblin
+3915	Housekeeping Goblin Archer
+3916	Homestead Digger Imp
+3917	Plowing Human
+3918	Chopping Giant
+3919	Wanted Board
+3920	"Shifty" Shankleton
+3921	Forest Golem
+3922	Sulfur Golem
+3923	Snow Golem
+3924	Stone Golem
+3927	Amethyst Golem
+3928	Snowman
+3929	Crystal Golem
+3930	Crystal Golem
+3931	Amethyst Golem
+3932	Sea Troll
+3933	Giant Sea Troll
+3934	Wild Troll
+3935	Giant Wild Troll
+3936	River Sahagin Ranger
+3937	River Sahagin Fighter
+3938	Cave Sahagin Mage
+3939	Cave Sahagin Warrior
+3940	Feral Brown Wolf
+3941	Wild Gray Wolf
+3942	Long Maned Hyena
+3943	Short Maned Hyena
+3946	Feral Boar
+3947	Giant Feral Boar
+3948	Giant Male Hornet
+3949	Giant Soldier Hornet
+3950	Giant Female Hornet
+3951	Giant Queen Hornet
+3954	White Poisonous Snake
+3956	Young White Poisonous Snake
+3958	Black Rabbit
+3959	Brown Rabbit
+3960	Buck
+3961	Doe
+3962	Fawn
+3964	Magic Golem
+3965	Assassin
+3966	Assassin
+3967	Assassin
+3999	Merrow
+4000	Argel
+4103	Ice Dragon
+4105	Shakespeare
+4106	Black Cave Bat
+4107	Giant Black Cave Bat
+4108	Argel's Elite Disciple
+4109	Somersault Disciple
+4110	Argel's Beginner Disciple
+4111	Argel's Beginner Disciple
+4112	Argel's Giant Disciple
+4113	Argel's Giant Disciple
+4114	Manannan Golem
+4121	Corrupted Aonbharr
+4122	Corrupted Aonbharr
+4170	Shiny Object
+4171	Red-eyed Ornata Spider
+4172	Giant Red-eyed Ornata Spider
+4173	Red Rat
+4174	Giant Red Rat
+4175	Red Poisonous Snake
+4176	Young Red Poisonous Snake
+4177	Triona's Grave
+4178	Argel's Disciple
+4179	Argel's Disciple
+4180	Argel's Giant Disciple
+4181	Argel's Giant Disciple
+4182	Merrow
+4183	Merrow
+4184	Morrighan
+4185	Armored Skeleton
+4186	Armored Skeleton
+4187	Royal Guard
+4188	Royal Guard
+4189	Hand-biting Brown Rat
+4190	Hand-biting Gray Rat
+4191	Hand-biting Black Rat
+4192	Hand-biting Golden Rat
+4193	Hand-biting Red Rat
+4194	Hand-biting Hamster
+4195	Hand-biting Giant Hamster
+4196	Hand-biting Cave Rat
+4197	Hand-biting Cave Rat
+4199	Sea Troll
+4200	Giant Sea Troll
+4201	Wild Troll
+4202	Giant Wild Troll
+4203	River Sahagin Ranger
+4204	River Sahagin Fighter
+4205	Cave Sahagin Mage
+4206	Cave Sahagin Warrior
+4207	Feral Brown Wolf
+4208	Wild Gray Wolf
+4209	Red-eyed Ornata Spider
+4210	Giant Red-eyed Ornata Spider
+4211	Feral Boar
+4212	Giant Male Hornet
+4213	Giant Soldier Hornet
+4214	Giant Female Hornet
+4215	Giant Queen Hornet
+4216	Crystal Golem
+4217	Amethyst Golem
+4218	Crystal Golem
+4219	Amethyst Golem
+4220	Hand-biting Sewer Rat
+4221	Ghost
+4222	Corentin
+4223	Eirawen
+4224	Cichol's Thrall
+4225	Cichol's Thrall
+4226	Thoroughbred
+4227	Lugh Lavada
+4229	Bound Hollow Knight
+4230	Odran
+4231	Patrolman
+4232	Patrolman
+4233	Royal Alchemist
+4234	Royal Alchemist
+4235	Bound Hollow Knight
+4236	Admiral Owen
+4237	Admiral Owen
+4238	Andras
+4239	Padan
+4240	Sinead
+4241	Giant Guardsman
+4242	Giant Guardsman
+4243	Elf Guardsman
+4244	Elf Guardsman
+4245	Human Guardsman
+4246	Human Guardsman
+4247	Ghoul
+4248	Ghoul
+4249	Ghoul
+4250	Ghoul
+4251	Cave Sahagin Mage
+4252	Cave Sahagin Warrior
+4253	Demi Lich
+4254	Ghost Cloaker
+4255	Cloaker
+4256	Ghost Cloaker
+4257	Cloaker
+4258	Giant Firefly
+4259	Ghast
+4260	Blue Ghast
+4261	Red Ghast
+4262	Master Lich
+4263	Zombie
+4264	Zombie
+4265	Royal Alchemist
+4266	Royal Alchemist
+4267	Vekurd
+4268	Patrolman
+4269	Patrolman
+4270	Urman
+4271	Popper
+4274	Black Succubus
+4275	White Succubus
+4276	Red Succubus
+4277	Yellow Succubus
+4278	Brown Succubus
+4279	Pink Succubus
+4280	Maid Partner
+4281	Butler Partner
+4282	Lonely Kobold
+4283	Lonely Poison Kobold
+4284	Lonely Kobold Archer
+4285	Giant White Snowfield Bear
+4286	Giant Brown Hawk
+4287	White Snowfield Bear
+4288	Brown Hawk
+4291	Event Goblin
+4292	Event Goblin Archer
+4293	Event Imp
+4294	Event Kobold
+4295	Event Kobold Archer
+4296	Event Dark Rat Man
+4297	Event Goblin
+4298	Event Goblin Archer
+4299	Event Imp
+4300	Event Kobold
+4301	Event Kobold Archer
+4302	Event Temple Knight
+4303	Event Zombie
+4304	Event Volatile Zombie
+4305	Event Volatile Zombie
+4306	Event Volatile Zombie
+4307	Event Goblin
+4308	Event Goblin Archer
+4309	Event Hobgoblin Grenadier
+4310	Event Hobgoblin Bowman
+4311	Event Kobold
+4312	Event Kobold Archer
+4313	Event Hobgoblin Warrior
+4314	Event Head Hobgoblin
+4315	Event White Succubus
+4316	Event Imp
+4317	Event Giant Imp
+4318	Event Wight
+4319	Event Ghoul
+4320	Event Dark Skeleton Soldier
+4321	Event Incubus
+4322	Event Demi-Lich
+4323	Event Hallow Knight
+4324	Event Banshee
+4325	Event Shadow Wizard
+4326	Event Arachne
+4327	Event Arachne
+4328	Event White Wolf
+4329	Event Giant White Wolf
+4330	Event Cloaker
+4331	Event Ogre Warrior
+4332	Event Ogre Executioner
+4333	Event Cyclops
+4334	Event Argus
+4335	Event Argus
+4336	Event Argus
+4337	Event Argus
+4338	Event Ifrit
+4339	Event Ghast
+4340	Event Blue Ghast
+4341	Event Red Ghast
+4342	Event Giant Long Horn Gnu
+4343	Event Heavy Gargoyle
+4344	Event Light Gargoyle
+4345	Event Balrog
+4346	Event Dark Rat Man
+4347	Event Giant Dark Rat Man
+4348	Event Zombie
+4349	Event Zombie
+4350	Event Volatile Zombie
+4351	Event Volatile Zombie
+4352	Event Volatile Zombie
+4353	Event King Zombie
+4354	Event Temple Knight
+4355	Event Desert Dragon
+4356	Event Prairie Dragon
+4357	Event Lion
+4358	Event Giant Lioness
+4359	Event Giant Lion
+4360	Event Black Leopard
+4361	Event Red Dragon
+4362	Event Temple Knight
+4363	Event Spider Archer
+4364	Beginner's Horse
+4365	Beginner's Eagle
+4366	Cecilia
+4367	Ysolte
+4368	Mina
+4369	Keane
+4370	7주년 기념 미니썬더버드
+4371	Pillow-wielding Black Wizard
+4372	Pillow-wielding Black Warrior
+4373	Pillow-wielding Black Succubus
+4374	Pillow-wielding Red Succubus
+4375	Pillow-wielding Siren
+4376	Pillow-wielding Wight
+4377	Pillow-wielding Ghoul
+4378	Pillow-wielding Incubus
+4379	Pillow-wielding Incubus
+4380	Pillow-wielding Cat Sith Knight
+4381	Pillow-wielding Cat Sith Knight
+4382	Pillow-wielding Shadow Wizard
+4383	Pillow-wielding Shadow Wizard
+4384	Pillow-wielding Shadow Alchemist
+4385	Pillow-wielding Mirror Witch
+4386	Pillow-wielding Werewolf
+4387	Pillow-wielding Zombie
+4388	Pillow-wielding Zombie
+4389	Cecilia
+4390	Ysolte
+4391	Mina
+4392	Keane
+4393	Bandit Goblin
+4394	Bandit Goblin Archer
+4395	Bandit Imp
+4396	Bandit Human
+4397	Bandit Giant
+4398	Bandit Boss
+4399	"Horrifying" Herbert
+4400	"Stinky" Berkkus
+4401	"Scandalous" Charlene
+4402	"Horrifying" Herbert
+4403	"Shifty" Shankleton
+4404	Bandit Goblin
+4405	Bandit Goblin Archer
+4406	Bandit Imp
+4407	Bandit Human
+4408	Bandit Giant
+4409	"Scandalous" Charlene
+4410	Bandit Boss
+4411	Keane
+4412	Keane
+4413	Keane
+4414	Keane
+4415	"Zippy" Nipmore
+4416	Gypsy Horse
+4417	Bandit Goblin
+4418	Bandit Imp
+4419	Bandit Human
+4420	Bandit Giant
+4421	Glas Ghaibhleann Bomb Doll
+4422	Unforgotten Pig
+4423	Trump Guardsman
+4424	Trump Giant Guardsman
+4427	Trump Reaper
+4429	미니썬더버드
+4430	미니썬더버드
+4432	<mini>NPC</mini> Elf Guard
+4433	<mini>NPC</mini> Elf Guard
+4434	<mini>NPC</mini> Elf Guard
+4435	<mini>NPC</mini> Elf Guard
+4436	<mini>NPC</mini> Giant Guard
+4437	<mini>NPC</mini> Giant Guard
+4438	<mini>NPC</mini> Giant Guard
+4439	<mini>NPC</mini> Giant Guard
+4440	Event Unicorn (Color Selected)
+4441	Event Griffin
+4443	Trump Guardsman
+4444	Trump Giant Guardsman
+4445	야생 호랑이
+4446	야생 백호
+4447	썬더스패니얼 대플
+4448	사모예드
+4449	맬러뮤트
+4450	파랑새
+4451	팔색조
+4452	흰올빼미
+4453	Cheetah
+4454	썬더스패니얼 대플
+4455	썬더스패니얼 대플
+4456	사모예드
+4457	사모예드
+4458	맬러뮤트
+4459	맬러뮤트
+4462	팔색조
+4463	팔색조
+4464	흰올빼미
+4467	야생 백호
+4468	야생 백호
+4469	체스터
+4470	체스터
+4471	흰올빼미
+4472	리네
+4473	팔색조
+4474	체스터
+4475	체스터
+4476	Snowy Owl
+4477	Commerce Partner
+4480	Ghastly Zombie
+4481	Ghastly Zombie
+4482	Ghastly Stone Zombie
+4483	Ghastly Zombie Soldier
+4484	Ghastly Zombie Soldier
+4485	Ghastly Snow Zombie
+4486	Ghastly Bandersnatch
+4487	Ghastly Volatile Zombie
+4488	Ghastly Black Prison Zombie
+4489	Ghastly White Prison Zombie
+4490	Test Marionette A
+4491	Test Marionette B
+4492	Baby Monkey
+4493	Adult Monkey
+4494	Bruiser Monkey
+4495	Boss Monkey
+4496	Hobgoblin Bowman
+4497	Hobgoblin Exorcist
+4498	Hobgoblin Exorcist
+4499	Hobgoblin Exorcist
+4500	Hobgoblin Bowman
+4501	Hobgoblin Exorcist
+4502	Hobgoblin Exorcist
+4503	Hobgoblin Exorcist
+4504	Hobgoblin Warrior
+4505	Hobgoblin Grenadier
+4506	Hobgoblin Grenadier
+4507	Head Hobgoblin
+4508	Head Hobgoblin
+4509	Hot Spring Spirit
+4527	"Stinky" Berkkus
+4528	"Shifty" Shankleton
+4529	"Scandalous" Charlene
+4530	"Horrifying" Herbert
+4531	Bandit Goblin
+4532	Bandit Goblin Archer
+4533	Bandit Imp
+4534	Bandit Human
+4535	Bandit Giant
+4538	Bandit Goblin Marksman
+4539	Bandit Goblin Sniper
+4540	Bandit Giant Fighter
+4541	Bandit Imp Lightning Mage
+4542	Bandit Imp Fire Mage
+4543	Bandit Imp Ice Mage
+4544	"One-Eye" Klugger
+4545	"No-Face" Nelson
+4546	Bandit Ogre
+4547	"Zippy" Nipmore
+4548	Pierrot Marionette
+4549	Pierrot Marionette
+4550	Pierrot Marionette
+4551	Pierrot Marionette
+4552	Colossus Marionette
+4553	Colossus Marionette
+4554	Colossus Marionette
+4555	Colossus Marionette
+4556	Phoenix
+4562	Tricky Invisible Imp
+4563	Squirrel Rag Doll
+4564	Fennec Fox Rag Doll
+4565	Warp Imp
+4566	Old Sand Mimic
+4567	교역 파트너
+4568	Berry
+4569	Wheat Flour
+4570	Egg
+4571	Ghastly Demi Lich
+4572	Ghastly Master Lich
+4573	Ghastly Arc Lich
+4574	Ghastly Ghost
+4575	Ghastly Ghast
+4576	Ghastly Blue Ghast
+4577	Ghastly Red Ghast
+4578	Ghastly Bomb Steed
+4579	Lezarro
+4580	[Amateur Warlord] Andras
+4581	[Amateur Warrior] Trefor
+4582	[Master Romantic Chef] Glewyas
+4583	[Master Artifact Finder] Voight
+4584	[Master Commercial Star] Karpfen
+4585	[Apprentice Sailor] Admiral Owen
+4586	[Food Fighter] Ogre Executioner
+4587	[Fledgling Home Economist] Kirine
+4588	[Master Blacksmith] Edern
+4589	[Fledgling Blacksmith] Ferghus
+4590	[Apprentice Warrior] Ranald
+4591	[Master Battle Bard] Pierrick
+4592	[Master Gourmet] Beggar
+4593	[Master Butler] Neighbor's Butler
+4594	[Master Ladeca Warrior] Hagel
+4595	[Master of the Single Life] Bryce
+4596	[Skilled Miner] Sion
+4598	[Master Vagabond] Price
+4599	[Master Warrior] Aodhan
+4600	[Master of Pillows] Siren
+4601	[Master Addicted Swordsman] Lucas
+4604	[Warrior of Flame] Ifrit
+4605	[Clumsy Warrior] Ogre Warrior
+4606	[Master of the Ages] Hot Spring Spirit
+4607	[Senior Vanguard] Nerys
+4609	[Skilled Vanguard] Aranwen
+4610	[Master Executioner] Krug
+4611	[Master Vanguard] Lileas
+4612	[Master Orfevre] Walter
+4613	[Master of Reading] Arzhela
+4614	[Seasoned Flower Merchant] Del
+4615	[Skilled Flower Merchant] Delen
+4616	[Apprentice Artisan Shooter] Elen
+4617	[Apprentice Sharp Shooter] Riocard
+4619	[Skilled Bombardier] Ethna
+4620	[Apprentice Addicted Archer] Granites
+4621	[Senior Ranger] Kusina
+4622	[Apprentice Ranger] Caitin
+4623	[Master Bombardier] Belita
+4624	[Master Addicted Archer] Annick
+4625	[Amateur Repairer] Jennifer
+4626	[Master Archer] Granat
+4627	[Master Marksman] Drone
+4628	[Master Ranger] Waboka
+4629	[Fledgling Troubadour] Imp Lightning Mage
+4630	[Fledgling Troubadour] Imp Fire Mage
+4631	[Fledgling Troubadour] Imp Ice Mage
+4632	[Amateur Druid] Berched
+4633	[Apprentice Mage] Incubus
+4634	[Amateur Student] Lassar
+4635	[Skilled Mage] Stewart
+4636	[Apprentice Mage] Galvin
+4637	[Master Maid] Older Girl Next Door
+4638	[Wise Mage] White Succubus
+4639	[Master of Sewing] Arachne
+4640	[Master Druid] Tarlach
+4641	[Master Dog Figher] Fleta
+4642	[Master of Water] Merrow
+4643	[Amateur Princess] Banshee
+4644	[Master Mage] Master Lich
+4645	[Panic Master] Arc Lich
+4647	[Fledgling Battle Alchemist] Heledd
+4648	[Master Battle Alchemist] Eabha
+4649	[Apprentice Vampiric Warrior] Shadow Commander
+4650	[Amateur Conqueror] Black Warrior
+4651	[Apprentice Commander] Tethra
+4652	[Apprentice Troubadour] Sinead
+4653	[Master Alchemist] Dorren
+4654	[Master Tailor] Simon
+4655	[Champion Fighter] Giant Fighter
+4656	[Champion Fighter] Giant Fighter
+4657	[Wise Fighter] Goblin Fighter
+4658	[Master Brawler] Cecilia
+4659	[Master Fighter] Argel
+4660	[Master Shepherd Fighter] Deian
+4661	[Skilled Battle Mage] Giant Lion
+4663	[Amateur Cleric] Heulfryn
+4664	[Master of Forgetfulness] Atrata
+4665	[Master Shaman] Kousai
+4666	[Master of Wild Beasts] Ruwai
+4667	[Seasoned Cleric] Agnes
+4668	[Master of the Confessional] Corentin
+4669	[Master Cleric] Comgan
+4670	[Master Chief] Duncan
+4672	[Apprentice Bard] Nele
+4673	[Master Bard] Yvona
+4674	Goblin
+4675	Kobold
+4676	Mutant Kobold
+4677	Hobgoblin Grenadier
+4678	Mutant Grenadier
+4680	Hot Spring Monkey
+4681	[Wise Warrior] Pink Succubus Warrior
+4682	[Wise Warrior] Black Succubus Warrior
+4683	[Wise Warrior] Red Succubus Warrior
+4686	Werewolf
+4688	[Master Musician] Briana
+4689	[Apprentice Holy Shooter] Endelyon
+4690	Soldier Knight
+4691	Giant Knight
+4692	Knight Balrog
+4693	[Apprentice Lance Executioner] Ogre Executioner
+4694	[Amateur Conqueror] Black Knight
+4695	[Naive Knight] Knight of Darkness
+4696	[Master Dark Knight] Dullahan
+4697	Spider Archer
+4698	Specter Archer
+4699	Giant Cat Sith Archer
+4700	[Master Dark Archer] Dullahan
+4701	[Apprentice Sniper] Goblin Chief Marksman
+4702	Royal Alchemist
+4703	Royal Alchemist
+4704	[Amateur Thumbelina] Banshee
+4705	[Master Alchemist] Abyssal Alchemist
+4706	[Skilled Sage] Castanea
+4707	[Master Sage] Pencast
+4710	Giant Feral Boar
+4711	Mutant Werewolf
+4712	Giant Bear
+4713	Giant Long Horn Gnu
+4714	Giant Short Horn Gnu
+4715	Pack Elephant
+4716	Pack Elephant
+4717	[Master Gourmet] Hot Spring Monkey
+4719	Small Golem
+4720	Golem
+4721	Forest Golem
+4722	Topaz Magic Golem
+4723	Emerald Magic Golem
+4724	Amethyst Magic Golem
+4725	Sulfur Giant Golem
+4726	Castle Wall Golem
+4727	Giant Castle Wall Golem
+4728	Crystal Golem
+4729	Crystal Golem
+4730	Crystal Golem
+4731	Snow Golem
+4732	Snow White Giant Golem
+4733	Tabhartas
+4734	Outlaw Hunter
+4735	썬더 드래곤 (2인승)(드래곤 라이더 세트))
+4736	Incubus
+4737	[Apprentice Holy Knight] Collen
+4738	Hollow Knight
+4739	[Wise Musical Child Prodigy] Goblin Bard
+4740	Cai
+4741	Leymore
+4742	Fallon's Soldiers
+4743	Fallon's Soldiers
+4744	Fallon's Soldiers
+4745	Fallon's Soldiers
+4746	Odran
+4747	Andras
+4748	Padan
+4749	Sinead
+4750	[Apprentice Warrior in Crush] Padan
+4751	[Apprentice Home Economist] Taunes
+4752	[Apprentice Holy Knight] Secretive Knightage
+4753	[Apprentice Capabled] Demi Lich
+4754	Sahagin Mage
+4755	Elf Archer
+4756	Human Guardsman
+4757	Human Guardsman
+4758	Secret Templar Archer
+4759	Fighter-in-training
+4760	Fighter-in-training
+4761	Hellhound
+4763	White Wolf
+4764	Giant White Wolf
+4765	Volatile Zombie
+4766	Huw the Kid
+4767	The Kid
+4768	Friend
+4769	Wooden Man
+4770	Red Bear
+4771	Brown Bear
+4772	[Master Dark Executioner] Dullahan
+4773	Mini Cockerspaniel
+4774	Hywell
+4775	Moss Lump
+4776	[Master of the Mind] Arc Lich
+4777	Bear Rag Doll
+4778	Tiger Rag Doll
+4779	Rabbit Rag Doll
+4780	Big Moss Clump
+4781	Puppeteer's Friend
+4782	Puppeteer's Creation
+4783	Sandbag Puppet
+4784	Sandbag Puppet
+4785	Banshee Sandbag Puppet
+4786	Sandbag Puppet
+4787	Taillteann Expeditionary Force Supply Wagon
+4788	Taillteann Expeditionary Force Supply Wagon
+4789	Taillteann Expeditionary Force Supply Wagon
+4790	Taillteann Expeditionary Force Supply Wagon
+4791	Taillteann Expeditionary Force Supply Wagon
+4792	Black Wizard
+4793	Light Gargoyle
+4794	Guard Gargoyle
+4795	Guard Skeleton Hellhound
+4796	Red-eyed Ornata Spider
+4797	Giant Female Hornet
+4798	Giant Skeleton
+4799	Giant Fire Sprite
+4800	Giant Gold Spider
+4801	Red Spider Wasp
+4802	Gorgon
+4803	Goblin Sword Master
+4804	Goblin Keeper
+4805	Goblin Keeper Archer
+4806	Goblin Hunter
+4807	Goblin Hunter Archer
+4808	Ghost
+4809	Golem
+4810	Gremlin
+4811	Green Sarracenia
+4812	Black New Gremlin
+4813	Cave Millipede
+4814	Giant Black Cave Bat
+4815	Wild Dog
+4816	Maned Aardvark
+4817	White Hair Llama
+4818	Rat Man
+4819	Masked Goblin
+4820	Merrow
+4821	Small Golem
+4822	Black Buffalo
+4823	Giant Red-eyed Ornata Spider
+4824	Green Horn Cobra
+4825	Cave Sahagin Ranger
+4826	Cave Lost Sahagin
+4827	Cave Sahagin Mage
+4828	Cave Sahagin Warrior
+4829	Cave Sahagin Fighter
+4830	Pack Elephant
+4831	Red Lynx
+4832	Skeleton Armor Ogre
+4833	Dingo
+4834	Argus
+4835	Alligator
+4836	Turtle
+4837	Wild Horse
+4838	Sheep Wolf
+4839	Ogre Executioner
+4840	Imp
+4841	Jackal
+4842	Short Horn Gnu
+4843	Blue Blind Crab
+4844	Coyote
+4845	Long Horn Gnu
+4846	Gold Kiwi
+4847	Invisible Imp
+4848	Head Hyena
+4849	Pirate Skeleton
+4850	Heavy Gargoyle
+4851	Black Leopard
+4852	Warp Imp
+4853	Pierrot Marionette
+4854	Pierrot Marionette
+4855	Colossus Marionette
+4856	Colossus Marionette
+4857	Merrow
+4858	Bone Dragon
+4859	Warp Imp
+4860	Frail Green Kiwi
+4861	Hobgoblin Bowman
+4862	Hobgoblin Exorcist
+4863	Hobgoblin Exorcist
+4864	Hobgoblin Exorcist
+4865	Hobgoblin Warrior
+4867	Head Hobgoblin
+4868	Head Hobgoblin
+4869	Armored Bear
+4870	Giant Lion
+4872	White Ant Lion
+4873	Sulfur Golem
+4874	Amethyst Golem
+4875	Crystal Golem
+4876	Snow Golem
+4877	Golem
+4878	Shamala
+4881	Black Panther
+4882	King Black Panther
+4883	Black Panther (Shamala)
+4884	Rescued Hostage
+4885	Terrorist Goblin
+4886	Terrorist Goblin Archer
+4887	Terrorist Imp
+4888	Terrorist Ogre
+4890	Blue Snake
+4891	White Snake
+4895	Blue Python
+4896	White Python
+4897	Red Horn Cobra
+4900	Jungle Cobra
+4903	Lycanthrope
+4904	Hellhound
+4905	Ghost
+4906	Ascended Python
+4907	Shamala
+4908	Possessed Boar
+4909	Giant Lycanthrope
+4910	Elephant Demon
+4911	Salamander
+4912	Pack Elephant
+4914	Giant Headless
+4915	Shamala
+4920	Hobgoblin Grenadier
+4921	Watcher's Eye
+4922	Bran
+4923	Ifrit
+4925	Arachne
+4937	Tethra
+4942	Squirrel Rag Doll
+4943	Bone Dragon
+4945	Frail Bran
+4946	Frail Ifrit
+4948	Frail Tethra
+4951	Frail Arachne
+4962	Frail Squirrel Rag Doll
+4964	Bunny Rag Doll
+4965	Furious Bear
+4966	Fennec Fox Rag Doll
+4967	Stone Gargoyle
+4969	Arc Lich
+4970	Frail Claimh Solas
+4971	Frail Tabhartas
+4972	Frail Cobweb Mummy
+4973	Frail Turtle
+4975	Frail Furious Bear
+4976	Frail Fennec Fox Rag Doll
+4977	Frail Stone Gargoyle
+4979	Frail Skeleton Armor Ogre
+4980	Frail Arc Lich
+4981	Frail Giant Headless
+4982	Cobweb Mummy
+4983	Claimh Solas
+4984	Tabhartas
+4985	Giant Headless
+4986	Skeleton Armor Ogre
+4987	Turtle
+4988	Verona Black Prison Ghost
+4989	Ghast
+4990	Blue Ghast
+4991	Red Ghast
+4992	Skeleton Squad
+4993	Bomb Steed
+4994	Gold Bone Fighter
+4995	Silver Bone Fighter
+4996	Gold Bone Lancer
+4997	Silver Bone Lancer
+4998	Gold Bone Archer
+4999	Silver Bone Archer
+5000	Blinker
+5001	Ghast
+5002	Blue Ghast
+5003	Red Ghast
+5004	Frail Bunny Rag Doll
+5005	Bisque Warrior
+5006	Bisque Knight
+5007	Bisque Fighter
+5008	Bisque Archer
+5009	Hail Bisque
+5010	Ice Bisque
+5011	Electric Bisque
+5012	Bisque Fire Alchemist
+5013	Bisque Water Alchemist
+5014	Bone Dragon
+5015	Leek
+5016	Nimbus
+5017	White Dragon
+5018	Hatsune Miku
+5019	약탈단 다크 랫맨
+5020	약탈단 거대 다크 랫맨
+5021	약탈단 거대 임프
+5022	약탈단 거대 흰늑대
+5023	약탈단 고블린
+5024	약탈단 고블린아처
+5025	약탈단 임프
+5026	약탈단 코볼트
+5027	약탈단 코볼트아처
+5028	약탈단 어둠 기사단
+5029	약탈단 흰늑대
+5030	약탈단 아라크네
+5031	약탈단 아르고스
+5032	약탈단 아르고스
+5033	약탈단 아르고스
+5034	약탈단 아르고스
+5035	약탈단 화이트 서큐버스
+5036	약탈단 폭탄 좀비
+5037	약탈단 폭탄 좀비
+5038	약탈단 폭탄 좀비
+5039	약탈단 좀비
+5040	약탈단 거대 큰 뿔 누
+5041	약탈단 거대 암사자
+5042	약탈단 고블린
+5043	약탈단 고블린아처
+5044	약탈단 아라크네
+5045	약탈단 사이클롭스
+5046	약탈단 헤비 가고일
+5047	약탈단 홉고블린 궁수
+5048	약탈단 홉고블린 전사
+5049	약탈단 홉고블린 두목
+5050	약탈단 임프
+5051	약탈단 코볼트
+5052	약탈단 코볼트아처
+5053	Bandit Light Gargoyle
+5054	약탈단 사자
+5055	약탈단 좀비
+5056	약탈단 오거 전사
+5057	약탈단 오거 도살자
+5058	약탈단 새도우 위자드
+5059	약탈단 어둠 기사단
+5060	약탈단  다크 스켈레톤 병사
+5061	약탈단 발록
+5062	약탈단 반시
+5063	약탈단 흑표범
+5064	약탈단 폭탄 좀비
+5065	약탈단 폭탄 좀비
+5066	약탈단 폭탄 좀비
+5067	약탈단 좀비왕
+5068	약탈단 클로커
+5069	약탈단 다크 랫맨
+5070	약탈단 데미 리치
+5071	약탈단 사막 드래곤
+5072	약탈단 좀비
+5073	약탈단 가스트
+5074	약탈단 블루 가스트
+5075	약탈단 레드 가스트
+5076	약탈단 구울
+5077	약탈단 거대 사자
+5078	약탈단 고블린
+5079	약탈단 고블린아처
+5080	약탈단 스파이더 아처
+5081	약탈단 홉고블린 폭탄병
+5082	약탈단 할로우 나이트
+5083	약탈단 이프리트
+5084	약탈단 임프
+5085	약탈단 인큐버스
+5086	약탈단 코볼트
+5087	약탈단 코볼트아처
+5088	약탈단 평원 드래곤
+5089	약탈단 레드 드래곤
+5090	약탈단 어둠 기사단
+5091	약탈단 와이트
+5092	약탈단 코볼트
+5093	약탈단 코볼트아처
+5094	약탈단 홉고블린 전사
+5095	약탈단 홉고블린 두목
+5096	약탈단 고블린
+5097	약탈단 고블린아처
+5098	약탈단 홉고블린 폭탄병
+5099	약탈단 홉고블린 폭탄병
+5100	약탈단 홉고블린 궁수
+5101	약탈단 흰늑대
+5102	약탈단 거대 흰늑대
+5103	약탈단 임프
+5104	약탈단 거대 임프
+5105	약탈단 어둠 기사단
+5106	약탈단 스파이더 아처
+5107	약탈단 다크 랫맨
+5108	약탈단 거대 다크 랫맨
+5109	약탈단 오거 전사
+5110	약탈단 오거 도살자
+5111	약탈단 자이언트 오거
+5112	약탈단 헤비 가고일
+5113	Bandit Light Gargoyle
+5114	약탈단 사자
+5115	약탈단 거대 암사자
+5116	약탈단 거대 사자
+5117	약탈단 흑표범
+5118	약탈단 좀비
+5119	약탈단 좀비
+5120	약탈단 폭탄 좀비
+5121	약탈단 폭탄 좀비
+5122	약탈단 폭탄 좀비
+5123	약탈단 좀비왕
+5124	약탈단  다크 스켈레톤 병사
+5125	약탈단 새도우 위자드
+5126	약탈단 사이클롭스
+5127	약탈단 아르고스
+5128	약탈단 아르고스
+5129	약탈단 아르고스
+5130	약탈단 아르고스
+5131	약탈단 거대 큰 뿔 누
+5132	약탈단 아라크네
+5133	약탈단 아라크네
+5134	약탈단 클로커
+5135	약탈단 할로우 나이트
+5136	약탈단 반시
+5137	약탈단 인큐버스
+5138	약탈단 와이트
+5139	약탈단 구울
+5140	약탈단 사막 드래곤
+5141	약탈단 평원 드래곤
+5142	약탈단 레드 드래곤
+5143	약탈단 데미 리치
+5144	약탈단 이프리트
+5145	약탈단 수송 마차
+5146	약탈단 수송 마차
+5147	약탈단 수송 마차
+5148	약탈단 수송 마차
+5149	약탈단 수송 마차
+5150	Blade Wyvern
+5151	Snowfield Slayer
+5152	Shamala
+5153	Unknown Man
+5155	Elizabeth
+5156	Banshee
+5157	Arachne
+5158	Waboka
+5159	Kousai
+5160	Ruwai
+5161	Demi Lich
+5162	Ghoul
+5163	Cloaker
+5164	Bone Dragon
+5167	Plateau Wild Boar
+5170	Black Aardvark
+5171	Horned Aardvark
+5173	Black-Eared Bush Boar
+5174	White Bush Boar
+5175	Ifrit
+5176	Troll
+5177	Demonic Warrior
+5178	Demonic Warrior
+5179	Demonic Archer
+5180	Demonic Archer
+5182	Demonic Cleric
+5183	Demonic Archpriest
+5184	Demonic Cleric
+5185	Demonic Cleric
+5186	Demonic Archpriest
+5187	Demonic Archer
+5188	Masked Ghost
+5189	Shrieker
+5190	Argus
+5192	Millia
+5193	Waboka
+5194	Bone Drake
+5195	Sacrificial Pig
+5196	Almost Sacrifice-worthy Boar
+5197	Tupai
+5198	Lesser Lich
+5199	Kusina
+5200	Kousai
+5201	Ruwai
+5202	Kusina
+5203	Cor Villager
+5204	Cor Villager
+5205	Hollow Knight
+5206	Giant Headless
+5207	Volatile Zombie
+5208	Ghoul
+5209	Demi Lich
+5210	Lesser Lich
+5211	Masked Ghost
+5212	Shrieker
+5213	Giant Headless
+5216	Argus
+5218	Skeleton Wolf
+5219	Skeleton Ogre
+5220	Skeleton
+5221	Red Skeleton
+5222	Metal Skeleton
+5223	Skeleton Soldier
+5224	Pirate Crewman Skeleton
+5225	Pirate Captain Skeleton
+5228	Skeleton Squad
+5229	Specter Leader
+5230	Specter Fighter
+5231	Specter Warrior
+5232	Specter Archer
+5241	Giant Skeleton
+5242	Skeleton Armor Ogre
+5243	Armored Skeleton
+5244	Giant Skeleton Hellhound
+5245	Skeleton Ghost
+5246	Skeleton Hellhound
+5247	Pirate Skeleton
+5248	Shamala
+5250	Ghoul
+5252	Arachne
+5253	Young Black Poisonous Spider
+5255	Prison Flying Sword
+5256	White Ghost Servant
+5257	Verona Black Prison Ghost
+5258	Doppelganger
+5259	Doppelganger Clone
+5260	Ghost
+5261	Argus
+5262	Otter
+5263	Tupai
+5264	Otter
+5265	Light Banshee
+5266	Ostrich
+5267	Hippo
+5268	Demonic Poet
+5269	교역 파트너
+5270	Demonic Poet
+5271	Korsek Raptor
+5272	Giant Lion
+5273	Giant Lioness
+5274	Giant Alligator
+5275	Prairie Dragon
+5276	Desert Dragon
+5277	Red Dragon
+5278	Yeti
+5279	Mammoth
+5280	Giant Sandworm
+5281	Ifrit
+5282	Collision Check Snowball
+5283	Red Team Snowman
+5284	Blue Team Snowman
+5285	Snowfield Slayer
+5289	Polar Hornet
+5290	Young Tundra Reindeer
+5291	Tundra Reindeer
+5293	Polar Hornet
+5294	Tundra Fox
+5295	Ascended Python
+5296	Blue Python
+5297	White Python
+5298	Red Horn Cobra
+5299	Jungle Cobra
+5300	Swamp Cobra
+5301	Blue Horn Cobra
+5302	Gray Horn Cobra
+5303	Green Horn Cobra
+5304	Brown Snake
+5305	Blue Snake
+5306	White Snake
+5307	Black Snake
+5308	Green Snake
+5309	Giant White Snake
+5310	Black Poisonous Snake
+5311	White Poisonous Snake
+5312	Red Poisonous Snake
+5313	Ascended Python
+5315	Millia
+5316	Expedition Horse
+5317	Black Dragon
+5318	Black Dragon Knight
+5319	Bear Rag Doll
+5320	Tiger Rag Doll
+5321	Bunny Rag Doll
+5323	Squirrel Rag Doll
+5325	Mysterious Karu Forest Ruins
+5326	Floating Stone
+5327	Floating Stone
+5328	Strange Snowball
+5329	Floating Stone
+5330	Shamala
+5331	Floating Stone
+5332	Floating Stone
+5333	Strange Snowball
+5334	Gigantic Demon
+5335	Black-Tailed Mongoose
+5336	Akule
+5337	Cessair
+5338	Glowing Stone Gargoyle
+5339	Blue Phoenix
+5340	White Phoenix
+5341	Dragon Eater
+5342	Dragon Eater
+5343	Dragon Eater
+5344	Dragon Eater
+5345	Shamala
+5346	Akule
+5347	Black Dragon Knight
+5348	Black Dragon
+5349	Pit Viper
+5350	Wandering Prison Ghost
+5351	Hatsune Miku Doll
+5352	Kagamine Len Doll
+5353	Kagamine Rin Doll
+5354	Kaito Doll
+5355	White Dragon
+5356	White Dragon
+5357	Blade Wyvern
+5358	Snowfield Slayer
+5359	Korsek Raptor
+5360	Snowfield Slayer
+5361	Black Dragon
+5365	Intelligence Officer
+5366	Apprentice Spy
+5367	Apprentice Spy
+5368	Interim Royal Guard
+5369	Interim Royal Guard
+5370	Spy Q
+5371	Secret Agent K
+5372	Operations Officer
+5373	Demonic Elizabeth
+5375	Demonic Ghoul
+5376	Demonic Lich
+5378	Demonic Warrior
+5379	Demonic Archer
+5380	Demonic Archer
+5381	Demonic Poet
+5382	Demonic Specter Leader
+5383	Demonic Specter Fighter
+5384	Demonic Skeleton Ghost
+5385	Demonic Argus
+5386	Demonic Archpriest
+5387	Demonic Lesser Lich
+5388	Black Dragon Knight
+5389	Waboka
+5390	Kousai
+5391	Ruwai
+5392	Kusina
+5393	Tupai
+5394	Otter
+5395	Cor Villager
+5396	Cor Villager
+5397	Korsek Raptor
+5398	Unknown Man
+5399	White Phoenix (Limited Duration)
+5400	Blue Phoenix (Limited Duration)
+5401	White Dragon
+5402	White Dragon
+5407	Giant Guard
+5408	Giant Guard
+5409	Giant Guard
+5410	Elf Guard
+5411	Elf Guard
+5412	Snowfield Slayer
+5413	Snowfield Slayer
+5414	Bandit Goblin
+5415	Bandit Goblin Archer
+5416	Bandit Imp
+5417	White Dragon
+5418	Black Dragon
+5419	Korsek Raptor
+5420	Bandit Boss
+5421	Krug
+5422	Shamala
+5423	Spy
+5424	Spy
+5425	Royal Guard
+5426	Royal Guard
+5427	Giant
+5428	Giant
+5429	Dark Cloud
+5430	Millia
+5431	Millia
+5432	Black-Tailed Mongoose
+5433	Big Black-Tail Mongoose
+5434	Shamala
+5435	Black Dragon
+5436	Akule
+5437	Millia
+5438	Blade Wyvern
+5439	Maike
+5440	Dowra
+5441	Red Demonic Warrior
+5442	Hobgoblin Grenadier
+5443	Mutant Grenadier
+5444	Raging Demon
+5445	Bandit Girl
+5446	Pegasus
+5447	Perseus
+5448	Another Controlled Milletian
+5449	Huw-spurned Milletian
+5450	Mysterious Robe Milletian
+5451	Bandit Goblin
+5452	Bandit Goblin Archer
+5453	Bandit Imp
+5454	Snowfield Slayer
+5455	Snowfield Slayer
+5456	Snowfield Beast
+5457	Blue Lesser Lich
+5458	Cessair
+5459	Cessair
+5460	Cessair
+5461	Fixed Dummy
+5462	Undying Dummy
+5463	Lifeless Dummy
+5464	Intelligence Officer
+5465	Demonic Headless
+5466	Magic Scholar
+5467	Ancient Shaman's Ghost
+5468	Bhafel
+5469	Black Dragon Knight
+5470	Black Dragon Knight
+5471	Black Dragon Knight
+5472	Black Dragon Knight
+5473	Shaman Warrior
+5474	Shaman Fighter
+5475	Shaman Ranger
+5476	Shaman Mage
+5477	Shaman
+5478	Guardian Pillar
+5479	Guardian Pillar
+5480	Guardian Pillar
+5481	Broken Pillar of Protection
+5482	Broken Pillar of Protection
+5483	Broken Pillar of Protection
+5484	Shaman Guardian
+5485	Emerald Hyena
+5486	Emerald Shrieker
+5487	Emerald Bison
+5488	Emerald Golem
+5489	Poisoned Sasquatch
+5490	Mutant Rabbit
+5491	Mutant Carnivorous Plant
+5492	Mutant Maneating Plant
+5493	Black Dragon Knight's Illusion
+5495	Sasquatch Under Treatment
+5496	Mutant Rabbit
+5497	Another Controlled Milletian
+5498	Huw-spurned Milletian
+5499	Mysterious Robe Milletian
+5500	Spy
+5501	Spy
+5502	Royal Guard
+5503	Royal Guard
+5504	Giant Guard
+5505	Giant Guard
+5506	Giant Guard
+5507	Elf Guard
+5508	Elf Guard
+5509	Cessair
+5510	Zombie
+5511	Zombie
+5512	Zombie Soldier
+5513	Zombie Soldier
+5514	Emerald Hyena
+5515	Emerald Shrieker
+5517	Master Lich
+5519	Black Prison Zombie
+5520	White Prison Zombie
+5521	Arc Lich
+5522	Ghast 		
+5523	Blue Ghast
+5524	Red Ghast
+5525	Bomb Steed
+5527	Demi Lich
+5528	Volatile Zombie
+5529	Ghost
+5530	Injured Ruairi
+5531	Succubus Doll
+5532	Incubus Doll
+5533	Squirrel Doll
+5534	Bunny Doll
+5535	Fennec Fox Doll
+5536	Bear Doll
+5537	Tiger Doll
+5538	Languhiris
+5539	Nimbus
+5540	Dungeon Rat
+5541	Underling Rabbit
+5542	Swift Rabbit
+5543	Max Captain Rabbit
+5544	Tarlach
+5545	Goddess Macha
+5546	Cessair's Heart
+5547	Aonbharr
+5548	Goddess Macha
+5549	Red Falias Floating Stone
+5550	Nine-Tailed Fox
+5551	Nine-Tailed Fox
+5552	단진
+5553	만진
+5554	아린
+5555	포킨
+5556	카딘
+5557	Mushmom
+5565	Scooter
+5572	Josephine
+5573	노란 진돗개
+5576	Shadow Golem
+5577	Caravan Joe Sand Sculpture Stage 1
+5578	Caravan Joe Sand Sculpture Stage 2
+5579	Caravan Joe Sand Sculpture Stage 3
+5580	Caravan Joe Sand Sculpture Stage 4
+5581	Caravan Joe Sand Sculpture Stage 5
+5582	Unicorn Sand Sculpture Stage 1
+5583	Unicorn Sand Sculpture Stage 2
+5584	Unicorn Sand Sculpture Stage 3
+5585	Unicorn Sand Sculpture Stage 4
+5586	Unicorn Sand Sculpture Stage 5
+5587	Mermaid Sand Sculpture Stage 1
+5588	Mermaid Sand Sculpture Stage 2
+5589	Mermaid Sand Sculpture Stage 3
+5590	Mermaid Sand Sculpture Stage 4
+5591	Mermaid Sand Sculpture Stage 5
+5592	Shadow Golem
+5593	Shadow Golem
+5594	Shadow Golem
+5595	Shadow Golem
+5596	Human
+5597	Elf
+5598	Giant
+5599	Sephirot
+5600	Duke
+5602	Sephirot
+5603	Slime
+5604	파
+5605	Spider Fighter
+5606	Poison Kobold
+5607	Kobold Archer
+5608	Gold Kobold
+5609	Red Kobold Archer
+5610	Red Kobold
+5611	Giant Imp
+5612	Wight
+5613	Bard Skeleton
+5614	Blue Ghost
+5615	Ghost King
+5616	Red Ghost
+5617	Blue Dire Wolf
+5618	Burgundy Dire Wolf
+5619	Giant Jackal
+5620	Wood Jackal
+5621	Giant Wood Jackal
+5622	Beetle Wolf
+5623	Giant Spider
+5624	Giant Black Spider
+5625	Giant Black Spider
+5626	Burgundy Spider
+5627	Giant Spider
+5628	White Spiderling
+5629	Red Spider
+5630	White Spider
+5631	Black Poisonous Spider
+5632	Burgundy Spider
+5633	Giant Red Spider
+5634	Giant White Spider
+5635	Black Spider
+5636	Wild Boar
+5637	Giant Wild Boar
+5638	Burgundy Grizzly Bear
+5639	Blue Grizzly Bear
+5640	Giant Brown Bear
+5641	Armored Bear
+5642	Vampire Bat
+5643	Meek Bat
+5644	Agile Vampire Bat
+5645	Bat
+5646	Wisp
+5647	Ice Sprite
+5648	Ghost Cloaker
+5649	White Spider Wasp
+5650	Old Mimic
+5651	Mimic
+5652	Broken Coffin Mimic
+5653	Coffin Mimic
+5654	Giant Forest Rat
+5655	Country Rat
+5656	Young Country Rat
+5657	Black Ship Rat
+5658	Gray Town Rat
+5659	Cave Rat
+5660	Blue Poisonous Snake
+5661	Green Gremlin
+5662	Blue Werewolf
+5663	Gray Werewolf
+5664	Giant Bear Wolf
+5665	Master Lich
+5666	Blue Ghast
+5667	Blue Ghast
+5668	Red Ghast
+5669	Hellcat
+5670	Kobold
+5671	Spider Archer
+5672	Hellhound
+5673	Cloaker
+5674	Demi Lich
+5675	Giant Headless
+5676	Giant Skeleton Hellhound
+5677	Skeleton Hellhound
+5678	Banshee
+5679	Arachne
+5680	Ghoul
+5681	Giant Fire Sprite
+5682	Giant Gold Spider
+5683	Red Spider Wasp
+5684	Gorgon
+5685	Small Golem
+5686	Jackal
+5687	Brown Snake
+5688	Blue Snake
+5689	Larva
+5690	Larva
+5691	Giant Millipede
+5692	Millipede
+5693	Red Millipede
+5694	Lynx
+5695	Spider Wasp
+5696	Giant Hornet
+5697	Red-eyed Spider
+5698	Lightning Sprite
+5699	Fire Sprite
+5700	Ice Sprite
+5701	Giant Lightning Sprite
+5702	Giant Ice Sprite
+5703	Blue Crab
+5704	Yellow Sarracenia
+5705	Pink Sarracenia
+5706	Red Sarracenia
+5707	Carnivorous Plant
+5708	Mutant Carnivorous Plant
+5709	Mutant Man-eating Plant
+5710	Dragonfly
+5711	Giant Dragonfly
+5712	Giant Dragonfly
+5713	Forest Golem
+5714	Giant Fire Sprite
+5715	Green Sarracenia
+5716	Rat Man
+5717	Dingo
+5718	Jackal
+5719	Coyote
+5720	Green Horn Cobra
+5721	Zombie
+5722	Zombie
+5723	Zombie
+5724	Zombie
+5725	Zombie
+5726	Zombie
+5727	Zombie
+5728	Zombie
+5729	Zombie
+5730	Zombie
+5731	Zombie
+5732	Zombie
+5733	Gray Prison Zombie
+5734	Black Prison Zombie
+5735	White Prison Zombie
+5736	Heavy Skeleton Armor Ogre
+5737	Red Skeleton
+5738	Metal Skeleton
+5739	Captain Red Skeleton
+5740	Captain Skeleton
+5741	Pirate Red Skeleton
+5742	Pirate Red Skeleton
+5743	Pirate Crewman Skeleton
+5744	Skeleton Hellhound
+5745	Ghost Cloaker
+5746	Blue Ghost
+5747	Red Ghost
+5748	Blue Ghost King
+5749	Red Ghost King
+5750	Ghost King
+5751	Green Skeleton Ghost
+5752	Blue Skeleton Ghost
+5753	Red Skeleton Ghost
+5754	Shadow Ghost
+5755	Brown Prison Ghost
+5756	Red Prison Ghost
+5757	Blue Prison Ghost
+5758	Brown Ghost Servant
+5759	Black Ghost Servant
+5760	Wolf Sprite
+5761	Bear Sprite
+5762	Horse Sprite
+5763	Red Phantom Mask
+5764	Black Phantom Mask
+5765	White Phantom Mask
+5766	Flying Sword
+5767	Flying Sword
+5768	Rusty Flying Sword
+5769	Gray Gremlin
+5770	Green Gremlin
+5771	Brown Gremlin
+5772	Blue New Gremlin
+5773	Green New Gremlin
+5774	White New Gremlin
+5775	Brown Ruins Gargoyle
+5776	Black Ruins Gargoyle
+5777	White Ruins Gargoyle
+5778	Ghast
+5779	Blue Ghast
+5780	Red Ghast
+5781	Red Mummy Servant
+5782	Black Mummy Servant
+5783	White Mummy Servant
+5784	Bug Bear
+5785	Giant Wild Troll
+5786	Nightmare Humanoid
+5787	Balrog
+5788	Black Bat
+5789	White Horned Horse
+5790	Black Horned Horse
+5791	Bomb Steed
+5792	Cobweb Mummy
+5794	Cloaker
+5795	Hollow Knight
+5796	Bone Drake
+5797	Troll
+5798	Ghoul
+5799	Masked Ghost
+5800	Volatile Zombie
+5801	Skeleton Wolf
+5802	Skeleton Ogre
+5804	Red Skeleton
+5805	Metal Skeleton
+5806	Pirate Crewman Skeleton
+5807	Pirate Captain Skeleton
+5808	Pirate Skeleton
+5809	Skeleton Squad
+5810	Specter Leader
+5811	Specter Fighter
+5812	Specter Warrior
+5813	Specter Archer
+5814	Skeleton Ghost
+5815	Skeleton Hellhound
+5816	Banshee
+5817	Ghoul
+5818	Prison Flying Sword
+5819	White Ghost Servant
+5820	Light Gargoyle
+5821	Guard Gargoyle
+5822	Ghost
+5823	Gremlin
+5824	Black New Gremlin
+5825	Skeleton Armor Ogre
+5826	Pirate Skeleton
+5827	Heavy Gargoyle
+5828	Armored Skeleton
+5829	Armored Skeleton
+5830	Spider Soldier
+5831	Spider Ranger
+5832	Spider Warrior
+5833	Little Troll
+5834	Beetle Wolf
+5835	Giant Red Spider
+5836	Giant White Spider
+5837	Red Grizzly Bear
+5838	Giant Queen Moth
+5839	Larva
+5840	Larva
+5841	Blue Ghost
+5842	Green Gremlin
+5843	Werewolf
+5844	Hollow Knight
+5845	Argus
+5846	White Snake
+5847	Black Poisonous Snake
+5848	White Poisonous Snake
+5849	Ice Dragon (Event)
+5850	파이어 드래곤 (이벤트)
+5851	썬더 드래곤 (이벤트)
+5852	Ice Dragon (Event)
+5853	파이어 드래곤 (이벤트)
+5854	썬더 드래곤 (이벤트)
+5856	하데스 (이벤트)
+5858	Kirito
+5859	White Dragon
+5860	Snowfield Slayer
+5861	Heathcliff
+5863	Knight of Blood
+5864	Frost Dragon
+5865	Blue Dire Wolf
+5866	Sword Art Online Designer
+5868	근두운
+5869	스쿠터
+5870	전투 페가수스
+5871	플레임메어
+5872	크리스탈 루돌프
+5873	피닉스
+5874	Warp Imp
+5876	Armored Bear
+5877	Ancient Stone Mask
+5878	하데스 (이벤트)
+5879	Neid
+5880	Trickster
+5881	Returned Trickster
+5882	Halloween Eastern Vampire
+5883	Belisha
+5884	Belisha
+5885	Alpaca
+5886	Dragon
+5887	Little Hopper
+5888	Little Hopper
+5889	Halloween Carriage
+5890	Halloween Cutscene Door
+5891	Possessed Tiger Doll
+5892	Possessed Bunny Doll
+5893	Mischevious Rat
+5894	Big Boss Rat
+5895	Stinky Ogre
+5896	Dirty Troll
+5897	Bookshelf Spirit
+5898	Common Zombie
+5899	Mutated Zombie
+5900	Common Zombie
+5901	Mutated Zombie
+5902	Common Zombie
+5903	Mutated Zombie
+5904	Halloween Eastern Vampire (F)
+5908	Spider Ranger
+5909	Spider Soldier
+5910	Spider Warrior
+5911	Werewolf
+5912	Giant White Spider
+5913	White Poisonous Snake
+5914	White Snake
+5915	Heathcliff
+5916	Blood Brotherhood Knight
+5917	Enslaved Neid
+5918	Santa's Helper
+5919	Humbugger
+5920	Rudolph
+5921	Head Hobgoblin
+5922	Head Hobgoblin
+5924	Lovely Boston Terrier
+5926	Lovely Siamese
+5927	Lovely Scottish Fold
+5928	Lovely Labrador Retriever
+5929	Alpaca Commerce Cart
+5930	Skeleton Maid
+5931	Shark Robe Seal
+5932	Pink Cheetah
+5933	Rainbow Nimbus
+5934	Christmas Alpaca
+5935	True Love Torch
+5936	Juicy Boar
+5937	Juiciest Boar
+5938	Cosmic Stallion
+5939	Enslaved Crumena
+5942	Giant Brown Bear
+5943	Black Beard
+5944	Black Bart
+5945	El Draco
+5946	Merlin
+5947	Professor J
+5948	Christmas Alpaca
+5949	Giant Brown Bear
+5950	Giant Brown Bear
+5951	Giant Brown Bear
+5952	Giant Brown Bear
+5953	Giant Brown Bear
+5954	Red Fox
+5955	Black Wolf
+5956	Flying Food Truck
+5958	Pirate Scallywag
+5959	Pirate Picaroon
+5960	Pirate Boatswain
+5961	Pirate Reaver
+5962	Treasure Hunter
+5963	Red Ruins Gargoyle
+5964	Glas Ghaibhleann
+5965	Zombie
+5966	Zombie
+5967	Cosmic Stallion
+5968	Enslaved Wyvern
+5969	Kidnapper's Hot-Air Balloon
+5970	Statue of Love
+5971	Alien Creature
+5972	Alien Map Eater
+5973	Enslaved Ifrit
+5974	Enslaved Salamander
+5975	Arc Lich
+5976	Bandit Cutpurse
+5977	Skittish Bandit
+5978	Menhir
+5979	Enslaved Alpha Wyvern
+5981	Whirlpool Snake
+5982	Wandering Scorpion
+5983	Gravel Rhino
+5984	Fruited Lizard
+5985	Bandit Cutpurse Corpse
+5986	Black Sand Scorpion
+5987	Venomous Rock Scorpion
+5988	Kidnapper's Dog Sled
+5989	Cessair
+5990	Floating Crystal
+5991	Crystal of Memories
+5992	Kidnapper's Dog Sled
+5993	Dian Cecht
+5994	Dian Cecht
+5995	Dian Cecht
+5996	Demonic Archer
+5997	Demonic Warrior
+5998	아이스 드래곤 (이벤트)
+6001	Cessair
+6002	Gorilla
+6003	Gorilla
+6004	Polar Bear Hat Seal
+6005	Ruairi
+6006	Adventurer Pinky
+6007	Tarlach Pinky
+6008	Ruairi Pinky
+6009	Millia Pinky
+6010	Merlin
+6011	Cessair
+6012	Ruairi
+6013	Professor J
+6014	Starlet
+6015	Starlet
+6016	Irinid's Phantom
+6017	Cessair
+6018	Cessair
+6019	Merlin in Disguise
+6020	Treasure Hunter in Disguise
+6021	Dian's Crystal
+6022	Cessair
+6023	Cessair (Magic)
+6024	Cessair (Support)
+6025	Cessair
+6026	Cessair
+6027	Giant White Rabbit
+6028	Giant Brown Rabbit
+6029	Black Rabbit
+6030	Mutant Rabbit
+6031	블랙 플레임메어(30일)
+6032	화이트 플레임메어(30일)
+6033	블루 플레임메어(30일)
+6034	레드 플레임메어(30일)
+6035	블루 피닉스(30일)
+6036	화이트 피닉스(30일)
+6037	Ruairi
+6038	Cessair
+6039	Ruairi's Doppelganger
+6040	Cessair's Heart
+6041	Mutated Cessair
+6042	Cessair Commander
+6043	Cessair Commander
+6044	Cessair Officer
+6045	Cessair Officer
+6046	Cessair
+6047	Cessair
+6048	Cessair Commander
+6049	Tarlach
+6050	Guardian Crystal
+6051	Gold Dragon
+6052	Defensive Wall
+6053	Ruairi's Doppelganger
+6058	Black Fennec Fox
+6059	Lesser Panda
+6060	Giant Spiderling
+6061	Anju
+6062	Anju
+6063	Anju
+6064	Anju
+6065	Anju
+6066	Hagi
+6067	Hagi
+6068	Shinobi
+6069	Floral Fairy
+6070	Cone Hat Seal
+6071	Festival Goblin
+6073	Girgashiy
+6074	Girgashiy
+6075	Girgashiy
+6076	Girgashiy
+6077	Girgashiy
+6078	Girgashiy
+6079	Girgashiy
+6081	Crusader Emblem
+6082	Tabhartas
+6083	Claimh Solas
+6084	Merrow
+6085	Grim Reaper
+6086	Glas Ghaibhleann
+6087	Giant Spider
+6088	Small Golem
+6089	Siren
+6090	Black Succubus
+6091	Master Lich
+6092	Mineral
+6093	Staff Swing Test
+6094	Holy Contagion Test
+6095	Onyx Crystal Bear
+6096	Ruby Crystal Bear
+6097	Peridot Crystal Bear
+6098	Sapphire Crystal Bear
+6099	Quartz Crystal Bear
+6100	Holy Confinement Test
+6101	Fanaticism Test
+6102	Soul Absorption Test
+6103	Mineral Hail Test
+6104	Marcan
+6105	Pennar
+6106	Brilluen
+6107	Altam
+6108	Avelin
+6109	Talvish
+6110	White Dire Wolf
+6111	White Dire Wolf the Ancient
+6112	Onyx Crystal Bear
+6113	Ruby Crystal Bear
+6114	Peridot Crystal Bear
+6115	Sapphire Crystal Bear
+6116	Quartz Crystal Bear
+6117	Onyx Crystal Wolf
+6118	Ruby Crystal Wolf
+6119	Peridot Crystal Wolf
+6120	Sapphire Crystal Wolf
+6121	Quartz Crystal Wolf
+6122	Onyx Crystal Boar
+6123	Ruby Crystal Boar
+6124	Peridot Crystal Boar
+6125	Sapphire Crystal Boar
+6126	Quartz Crystal Boar
+6127	Marcan
+6128	Pennar
+6129	Brilluen
+6130	Human Guardsman
+6131	Human Guardsman
+6132	Human Guardsman
+6133	Human Guardsman
+6134	Human Guardsman
+6135	Human Guardsman
+6136	Human Guardsman
+6137	Human Guardsman
+6138	Human Guardsman
+6139	Human Guardsman
+6140	Royal Guard
+6141	Royal Guard
+6142	Eirawen
+6143	Lassar
+6144	Cow
+6145	Altam
+6146	Avelin
+6147	Talvish
+6148	Peridot Crystal Bear the Ancient
+6149	Peridot Crystal Wolf the Ancient
+6150	Peridot Crystal Boar the Ancient
+6151	Girgashiy
+6152	Peridot Crystal Bear
+6153	Peridot Crystal Wolf
+6154	Peridot Crystal Boar
+6155	Girgashiy
+6156	Girgashiy
+6157	Girgashiy
+6158	Girgashiy
+6159	Hen
+6160	Chick
+6161	Baby Dragon
+6162	Ogre
+6163	Beyaya
+6164	Sheep
+6165	Fox
+6166	Zombie
+6167	Labrador Retriever
+6168	Snake
+6169	Rooster
+6170	Roaming Roaster
+6171	Night Sweeper
+6172	Ghost Cat
+6173	Ruairi Doll
+6174	Mari Doll
+6175	Tarlach Doll
+6176	Ferghus Doll
+6177	Young Tarlach Doll
+6178	Kristell Doll
+6180	Girgashiy
+6181	Mineral Wolf
+6182	Mineral Boar
+6183	Girgashiy Fledgling
+6184	Skeleton
+6185	Watermelon
+6186	Pumpkin
+6187	Courageous Night Sweeper
+6188	Bashful Night Sweeper
+6189	Pumpkin Seal
+6190	Belisha
+6191	Belisha
+6192	Belisha
+6193	Belisha
+6194	Belisha
+6195	Trickster
+6196	Returned Trickster
+6197	Floral Fairy (M)
+6198	Floral Fairy (F)
+6199	Girgashiy
+6200	Human Guardsman
+6201	Knitwear Penguin
+6202	Knitwear Seal
+6203	Kobold
+6204	Kobold Archer
+6205	Black Spider
+6206	Gray Town Rat
+6207	Hellhound
+6208	Red Kobold
+6209	Red Kobold Archer
+6210	Small Troll
+6211	Skeleton Hellhound
+6212	Ice Sprite
+6213	Giant Skeleton Hellhound
+6214	Bard Skeleton
+6215	Metal Bard Skeleton
+6216	Humbugger
+6217	Red Rainbow Sheep
+6218	Orange Rainbow Sheep
+6219	Yellow Rainbow Sheep
+6220	Green Rainbow Sheep
+6221	Blue Rainbow Sheep
+6222	Navy Rainbow Sheep
+6223	Purple Rainbow Sheep
+6224	무지개 하얀 양
+6225	무지개 검은 양
+6230	Brainy Sheep
+6231	썬더 드래곤 (이벤트)
+6232	파이어 드래곤 (이벤트)
+6233	Cumulosheepus
+6234	 
+6235	 
+6236	 
+6237	Enraged Interim Archaeologist
+6238	Enraged Senior Archaeologist
+6239	Enraged Explorer
+6240	Enraged High-Ranked Geologist
+6241	Enraged Senior Geologist
+6242	Enraged Desert Warrior Ghost
+6243	Raging Warrior
+6244	Smarmy Sheep
+6245	Grumpy Sheep
+6246	Cutie Sheep
+6247	Gloomy Sheep
+6248	Cranky Sheep
+6249	Meany Sheep
+6250	Alban Knight Golem
+6251	Gigantic Sheep Wolf
+6252	Alban Knight Golem
+6253	Alban Knight Golem
+6254	Alban Knight Golem
+6255	Alban Knight Golem
+6256	Alban Knight Golem
+6257	Onyx Crystal Bear
+6258	Manchurian Bear
+6259	Lion
+6260	Black Leopard
+6261	Mammoth
+6262	Giant Gold Spider
+6263	White-footed Tarantula
+6264	Giant Female Hornet
+6265	Topaz Beetle
+6266	Venomous Sand Scorpion
+6267	Heavy Gargoyle
+6268	Black New Gremlin
+6269	Goblin Hunter
+6270	"Stinky" Berkkus
+6271	Ogre Warrior
+6272	Heavy Skeleton Armor Ogre
+6273	Sahagin Soldier
+6274	Cave Sahagin Mage
+6275	Balrog
+6276	Blue Skeleton Ghost
+6277	Cobweb Mummy
+6278	Zombie
+6279	Lost Giant Snow Zombie
+6280	Captain Skeleton
+6281	Bard Skeleton
+6282	Wisp
+6283	Ice Sprite
+6284	Enslaved Ifrit
+6285	Imp
+6286	Bandit Imp
+6287	Giant Castle Wall Golem
+6288	Golem
+6289	Crystal Golem
+6290	Sweet Gingerman
+6291	Savory Gingerman
+6292	Buttery Gingerman
+6293	Crispy Gingerman
+6294	Masked Goblin Archer
+6295	Sahagin Ranger
+6296	Specter Archer
+6297	Silver Bone Archer
+6299	Gingerbread Truck
+6300	Goblin Hunter
+6301	Goblin Hunter
+6302	Warrior Spirit
+6303	Warrior Spirit
+6304	Warrior Spirit
+6305	Strong Warrior Spirit
+6310	Mage Spirit
+6311	Mage Spirit
+6312	Mage Spirit
+6313	Strong Mage Spirit
+6314	Archer Spirit
+6315	Archer Spirit
+6316	Archer Spirit
+6317	Strong Archer Spirit
+6318	Reno
+6319	Vay
+6320	Tion
+6321	Sheep Wolf
+6322	Sweet Gingerman
+6323	Savory Gingerman
+6324	Buttery Gingerman
+6325	Crispy Gingerman
+6326	Tail Chase King Slate
+6327	Tail Chase Archer Slate
+6328	Tail Chase Fighter Slate
+6329	Tail Chase Lightning Sprite
+6330	Tail Chase Fire Sprite
+6331	Tail Chase Ice Sprite
+6335	Spirit of Tuan
+6336	Cone Hat Penguin
+6337	Hagi
+6338	Anju
+6339	Skeleton
+6344	Saber Doll
+6345	Archer Doll
+6346	Rin Doll
+6347	Illyasviel Doll
+6348	Skeleton
+6349	Zombie
+6350	Sheep
+6351	Pig
+6353	Rooster
+6354	Hen
+6355	Chick
+6356	Paper Butterfly
+6357	Brown Rabbit
+6358	Spirit of Tuan
+6359	Archer
+6360	Saber
+6361	Archer
+6362	Saber
+6363	Gilgamesh
+6364	Berserker
+6365	Archer
+6366	Saber
+6367	Gilgamesh
+6368	Lancer
+6369	Illyasviel
+6370	Rin
+6371	Festival Goblin
+6376	Tabhartas
+6377	Claimh Solas
+6378	Merrow
+6379	Grim Reaper
+6380	Master Lich
+6381	Glas Ghaibhleann
+6382	Duro
+6383	Cirque Sheep
+6384	Altam
+6385	Avelin
+6386	Talvish
+6387	Caswyn
+6388	Pihne
+6389	Avelin
+6390	Talvish
+6391	Caswyn
+6392	Pihne
+6394	Gilgamesh
+6395	Barrier Crystal
+6396	Skeleton Wolf
+6397	Skeleton
+6398	Skeleton Hellhound
+6399	Gold Bone Lancer
+6400	Gold Bone Fighter
+6401	Gold Bone Archer
+6402	Dangerous Skeleton
+6403	Skeleton Squad
+6404	Skeleton Ogre
+6405	Skeleton Armor Ogre
+6406	Heavy Skeleton Armor Ogre
+6407	Skeleton Ghost
+6408	Skeleton Ogre
+6409	Skeleton Armor Ogre
+6410	Heavy Skeleton Armor Ogre
+6411	Bone Drake
+6412	Gilgamesh
+6413	Skeleton Ogre
+6414	Skeleton Armor Ogre
+6415	Heavy Skeleton Armor Ogre
+6416	Skeleton Ghost
+6417	Bone Drake
+6418	The Elder
+6419	Arthuan
+6420	Elved
+6421	Heruin
+6422	Eiler
+6423	Arthuan
+6424	Elved
+6425	Heruin
+6426	Eiler
+6427	Arthuan Knight
+6428	Arthuan Knight
+6429	Elved Knight
+6430	Elved Knight
+6431	Heruin Knight
+6432	Heruin Knight
+6433	Eiler Knight
+6434	Eiler Knight
+6435	Pennar
+6436	Brilluen
+6437	Marcan
+6438	Black Wizard
+6439	
+6440	Zebach
+6441	Zebach
+6442	Zebach
+6443	Crystal Wolf
+6444	Crystal Boar
+6445	Crystal Bear
+6446	Invisible One
+6447	Suspicious Corpse
+6448	Giant
+6449	Elf
+6450	Human
+6452	Berserker
+6453	Kanna
+6454	Eirlys
+6455	Elsie
+6456	Logan
+6457	Kaour
+6458	Dai
+6459	Heretic
+6460	Heretic
+6461	Heretic's Phantom
+6462	Heretic's Phantom
+6463	Reanimated Corpse
+6464	Reanimated Corpse
+6465	Kanna
+6466	Eirlys
+6467	Elsie
+6468	Logan
+6469	Kaour
+6470	Dai
+6471	Shuan
+6472	Archer
+6473	Saber
+6474	Berserker
+6475	Gilgamesh
+6476	Kanna
+6477	Eirlys
+6478	Elsie
+6479	Logan
+6480	Kaour
+6481	Dai
+6482	Prancing Pony
+6483	Coach Pengu
+6484	Invisible Prop
+6485	Kanna
+6486	Eirlys
+6487	Eirlys
+6488	Gaella
+6489	Bullies
+6490	Bullies
+6491	Bullies
+6493	Recall Mage Imp
+6494	Crystal Chime Deer
+6495	Albino Tiger
+6496	Celestial Unicorn
+6497	Lightning Dragon
+6498	Solar Stallion
+6499	Reanimated Corpse
+6500	Reanimated Corpse
+6501	Reanimated Corpse
+6502	Reanimated Corpse
+6503	Reanimated Corpse
+6504	Reanimated Corpse
+6505	Reanimated Corpse
+6506	Rainbow Nimbus
+6507	Tassel Scooter
+6508	Umeboshi Blossom
+6509	Handsome Alpaca
+6510	Sundae Truck
+6511	Lemongrass Flora
+6512	Recall Imp
+6513	Battle Pegasus
+6514	Cosmic Stallion
+6515	Tiny Elephant
+6516	Abyss Dragon
+6517	Altam
+6518	Avelin
+6519	Talvish
+6520	Caswyn
+6521	Pihne
+6522	Gold Bone Lancer
+6523	Gold Bone Fighter
+6524	Gold Bone Archer
+6525	Skeleton Wolf
+6526	Skeleton
+6527	Skeleton Hellhound
+6528	Lost Arachne
+6529	Lost Golem
+6530	Lost Ursa Minor
+6531	Lost Aries
+6532	Lost Vulpecula
+6533	Lost Monoceros
+6534	Lost Serpens
+6535	Lost Lynx
+6536	Lost Draco
+6537	Shuan
+6538	Caswyn
+6539	Talvish
+6540	Caswyn
+6541	Kanna
+6542	Eirlys
+6543	Elsie
+6544	Logan
+6545	Kaour
+6546	Dai
+6547	Kanna
+6548	Eirlys
+6549	Elsie
+6550	Logan
+6551	Kaour
+6552	Dai
+6553	Girgashiy
+6554	Pihne's Corrupted Spirit
+6555	Pihne's Corrupted Spirit
+6556	Blue Crab
+6557	Red Crab
+6558	White Crab
+6559	Soul
+6560	Pihne
+6561	Security Device
+6562	Volcano Horned Wild Boar
+6565	Fallen Fairy
+6566	적토마
+6567	Bard Skeleton
+6568	Battle Crewman Skeleton
+6569	Skeleton
+6570	Battle Spearman Skeleton
+6571	Bone Archer
+6572	Zombie
+6573	Zombie
+6574	Zombie
+6575	Zombie
+6576	Cobweb Mummy
+6577	Meryl
+6578	Laighlinne
+6579	Crystal Chime Deer
+6580	Albino Tiger
+6581	Celestial Unicorn
+6582	Lightning Dragon
+6583	RM Unicorn
+6584	White Stallion
+6585	Laighlinne Partner
+6586	Laighlinne Boat
+6587	Oak Barrel
+6588	Oak Barrel
+6589	Oak Barrel
+6590	Defensive Country Rat
+6591	Smash-happy Gray Wolf
+6592	Counter King Brown Snake
+6593	Reno Figure
+6594	Vay Figure
+6595	Tion Figure
+6596	Kristell
+6597	Skeleton Ogre
+6598	Cobweb Mummy
+6599	Thief's Minion
+6600	Thief's Minion
+6601	Lute Thief
+6602	Dirty Pigeon
+6603	Floofy Broom
+6604	Raccoon
+6605	Raccoon Cub
+7282	Young Country Rat
+7283	Meek Bat
+7284	White Spiderling
+7285	Country Rat
+7286	Old Mimic
+7287	Bat
+7288	White Spider
+7289	Giant Bat
+7290	Blue Wolf
+7291	Giant Spider
+7292	Burgundy Spider
+7293	Blue Grizzly Bear
+7294	Burgundy Spider
+7295	Blue Dire Wolf
+7296	Giant Spider
+7297	Blue Grizzly Bear
+7298	Burgundy Dire Wolf
+7299	Wisp
+7300	Gray Werewolf
+7301	Giant White Spider
+7302	Giant Red Spider
+7303	White Spider Wasp
+7304	Black Poisonous Spider
+7305	Spider Fighter
+7306	Beetle Wolf
+7307	Spider Archer
+7308	Cobweb Mummy
+7309	Spider Soldier
+7310	Beetle Wolf
+7311	Spider Ranger
+7312	Grendel
+7313	Red Spider Wasp
+7314	Larva
+7315	Grendel
+7316	Spider Warrior
+7317	Larva
+7318	Yellow Spider Wasp
+7319	Black Spider
+7320	Goblin
+7321	Gray Town Rat
+7322	Mimic
+7323	Goblin Archer
+7324	Red Spider
+7325	Bat
+7326	Poison Goblin
+7327	Sickle Laghodessa
+7328	Brown Snake
+7329	Blue Snake
+7330	Rat Man
+7331	White Snake
+7332	Great Mimic
+7333	Spike Laghodessa
+7334	Bat
+7335	Sickle Laghodessa
+7336	Brown Snake
+7337	Blue Snake
+7338	Rat Man
+7339	White Snake
+7340	Burgundy Sickle Laghodessa
+7341	Blue Rat Man
+7342	Black Snake
+7343	Red Town Rat
+7344	Green Snake
+7345	Dark Rat Man
+7346	Red Sickle Laghodessa
+7347	Red Spike Laghodessa
+7348	Bug Bear
+7349	Black Spider
+7350	Kobold
+7351	Gray Town Rat
+7352	Mimic
+7353	Kobold Archer
+7354	Pocket Mouse
+7355	Red Spider
+7356	Bat
+7357	Poison Kobold
+7358	Black Spider
+7359	Poison Kobold
+7360	Gray Town Rat
+7361	Gold Kobold
+7362	Ice Sprite
+7363	Red Kobold
+7364	Skeleton Hellhound
+7365	Red Kobold Archer
+7366	Small Troll
+7367	Fire Sprite
+7368	Bat
+7369	Gray Town Rat
+7370	Mimic
+7371	Skeleton
+7372	Skeleton Wolf
+7373	Red Skeleton
+7374	Metal Skeleton
+7375	Bat
+7376	Gray Town Rat
+7377	Spike Laghodessa
+7378	King Mimic
+7379	Skeleton
+7380	Red Skeleton
+7381	Metal Skeleton
+7382	Gray Town Rat
+7383	Gold Goblin
+7384	Treasure Mimic
+7385	Skeleton Wolf
+7386	Skeleton
+7387	Skeleton Squad
+7388	Skeleton Squad
+7389	Red Skeleton
+7390	Skeleton Laghodessa
+7391	Metal Skeleton
+7392	Black Spider
+7393	Goblin
+7394	Imp
+7395	Goblin Archer
+7396	Mimic
+7397	Banner Imp
+7398	Great Mimic
+7399	Poison Goblin
+7400	Red Spider
+7401	Vampire Bat
+7402	Sickle Laghodessa
+7403	Green Gremlin
+7404	Flying Sword
+7405	Brown Gremlin
+7406	Gray Gremlin
+7407	Great Mimic
+7408	Gorgon
+7409	King Mimic
+7410	Spike Laghodessa
+7411	Vampire Bat
+7412	Imp
+7413	Chon Chon
+7414	Brown Gremlin
+7415	Goblin Hunter Archer
+7416	Goblin Hunter
+7417	Gray Gremlin
+7418	Spiked Worm
+7419	Lost Sahagin
+7420	King Mimic
+7421	Green Gremlin
+7422	Giant Worm
+7423	Black Spider
+7424	Jackal
+7425	Gray Town Rat
+7426	Blue Snake
+7427	Brown Snake
+7428	Ice Sprite
+7429	Lightning Sprite
+7430	Fire Sprite
+7431	White Snake
+7432	Gorgon
+7433	Red Spider
+7434	Mimic
+7435	Invisible Imp
+7436	Werewolf
+7437	Green Gremlin
+7438	Red Grizzly Bear
+7439	Red Bear
+7440	Black Spider
+7441	Jackal
+7442	Gray Town Rat
+7443	Blue Snake
+7444	Brown Snake
+7445	Werewolf
+7446	White Snake
+7447	Gorgon
+7448	Red Spider
+7449	Wisp
+7450	Mimic
+7451	Red Bear
+7452	Green Gremlin
+7453	Red Grizzly Bear Cub
+7454	Red Grizzly Bear
+7455	Wild Boar
+7456	Wood Jackal
+7457	Giant Forest Rat
+7458	Blue Werewolf
+7459	Giant Jackal
+7460	Brown Snake
+7461	Burgundy Grizzly Bear
+7462	White Snake
+7463	Wisp
+7464	Gorgon
+7465	Blue Snake
+7466	Werewolf
+7467	Jackal
+7468	Green Gremlin
+7469	Argus
+7470	Argus
+7471	Argus
+7472	Giant Wood Jackal
+7473	Blue Poison Snake
+7474	Giant Brown Bear
+7475	Giant Bear Wolf
+7476	Cave Rat
+7477	Giant Wild Boar
+7478	Wisp
+7479	Black Poisonous Snake
+7480	White Poisonous Snake
+7481	Werewolf
+7482	Argus
+7483	Gray Town Rat
+7484	Black Spider
+7485	White Spider
+7486	Red Spider
+7487	Pirate Skeleton
+7488	Skeleton
+7489	Treasure Mimic
+7490	Flying Sword
+7491	Skeleton Wolf
+7492	Pirate Skeleton
+7493	Bat
+7494	Gray Town Rat
+7495	Sahagin Ranger
+7496	Treasure Mimic
+7497	Sahagin Soldier
+7498	Gnoll
+7499	Gnoll
+7500	Black Ship Rat
+7501	Pirate Red Skeleton
+7502	Black Spider
+7503	Small Argus
+7504	Pirate Red Skeleton
+7505	Captain Red Skeleton
+7506	Flying Sword
+7507	Gray Town Rat
+7508	Skeleton
+7509	Coffin Mimic
+7510	Ghoul
+7511	Cloaker
+7512	Ghoul
+7513	Vampire Bat
+7514	Wight
+7515	Red Ghost
+7516	Blue Ghost
+7517	Hollow Knight
+7518	Treasure Mimic
+7519	Coffin Mimic
+7520	Ghost Cloaker
+7521	Vampire Bat
+7522	Ghoul
+7523	Ghoul
+7524	Blue Ghost
+7525	Red Ghost
+7526	Wight
+7527	Hollow Knight
+7528	Giant Firefly
+7529	Agile Vampire Bat
+7530	Broken Coffin Mimic
+7531	Enraged Ghoul
+7532	Ghost King
+7533	Enraged Ghoul
+7534	Stubborn Wight
+7535	Pledged Hollow Knight
+7536	Red Ghost King
+7537	Blue Ghost King
+7538	Giant Queen Moth
+7539	Champion Ghost Cloaker
+7540	Ghast
+7541	Blue Ghast
+7542	Red Ghast
+7543	Black Spider
+7544	Goblin
+7545	Gray Town Rat
+7546	Mimic
+7547	Goblin Archer
+7548	Poison Goblin
+7549	Red Spider
+7550	Bat
+7551	Sickle Laghodessa
+7552	Brown Snake
+7553	Blue Snake
+7554	Rat Man
+7555	White Snake
+7556	Burgundy Sickle Laghodessa
+7557	Blue Rat Man
+7558	Black Snake
+7559	Great Mimic
+7560	Spike Laghodessa
+7561	Red Town Rat
+7562	Green Snake
+7563	Dark Rat Man
+7564	Red Sickle Laghodessa
+7565	Red Spike Laghodessa
+7566	Bug Bear
+7567	Young Country Rat
+7568	Meek Bat
+7569	White Spiderling
+7570	Country Rat
+7571	Old Mimic
+7572	Bat
+7573	White Spider
+7574	Dark Blue Spider
+7575	Giant Bat
+7576	Blue Wolf
+7577	Giant Spider
+7578	Burgundy Spider
+7579	Blue Dire Wolf
+7580	Giant White Spider
+7581	Blue Grizzly Bear
+7582	Wisp
+7583	Burgundy Dire Wolf
+7584	Gray Werewolf
+7585	Red Spider Wasp
+7586	Black Poisonous Spider
+7587	Spider Fighter
+7588	Spider Archer
+7589	Beetle Wolf
+7590	Spider Soldier
+7591	Larva
+7592	Beetle Wolf
+7593	Grendel
+7594	Cobweb Mummy
+7595	Spider Ranger
+7596	Spider Warrior
+7597	Grendel
+7598	Larva
+7599	Gray Town Rat
+7600	Black Spider
+7601	White Spider
+7602	Red Spider
+7603	Pirate Skeleton
+7604	Skeleton
+7605	Treasure Mimic
+7606	Flying Sword
+7607	Skeleton Wolf
+7608	Pirate Skeleton
+7609	Bat
+7610	Sahagin Ranger
+7611	Sahagin Soldier
+7612	Gnoll
+7613	Gnoll
+7614	Black Ship Rat
+7615	Pirate Red Skeleton
+7616	Small Argus
+7617	Pirate Red Skeleton
+7618	Captain Red Skeleton
+7619	Flying Sword
+7620	Gold Kobold
+7621	Poison Kobold
+7622	Red Kobold Archer
+7623	Small Troll
+7624	Training Dummy
+7625	Succubus Queen
+7626	Skelemancer
+7627	Succubus Fiend
+7628	Wraith
+7629	Gargoyle Idol
+7630	Gargoyle Idol Plinth
+7631	Black Armored Skeleton
+7632	Black Heavy Skeleton Armor Ogre
+7633	Crimson Laghodessa
+7634	Black Skeleton Wolf
+7635	Crimson Giant Firefly
+7636	Fire Succubus
+7637	Lightning Succubus
+7638	Ice Succubus
+7639	Poison Succubus
+7640	Giant Spider
+7641	Giant Red Spider
+7642	Giant Black Spider
+7643	Lycanthrope
+7644	Giant Black Spider
+7645	Giant Red Spider
+7646	Giant White Spider
+7647	Arachne
+7648	Giant Gold Spider
+7649	Giant Gold Spider
+7650	Golem
+7651	Golem
+7652	Golem
+7653	Golem
+7654	Golem
+7655	Golem
+7656	Golem
+7657	Golem
+7658	Golem
+7659	Golem
+7660	Golem
+7661	Hellhound
+7662	Giant Skeleton Hellhound
+7663	Metal Bard Skeleton
+7664	Black Succubus
+7665	Gold Goblin
+7666	Red Succubus
+7667	Lycanthrope
+7668	Lycanthrope
+7669	Red Succubus
+7670	Black Succubus
+7671	White Succubus
+7672	Yellow Succubus
+7673	Pink Succubus
+7674	Black Succubus
+7675	Yellow Succubus
+7676	Red Succubus
+7677	Yellow Succubus
+7678	Red Succubus
+7679	Yellow Succubus
+7680	Black Succubus
+7681	Ogre Warrior
+7682	Ogre Warrior
+7683	Ogre Warrior
+7684	Ogre Warrior
+7685	Ogre Warrior
+7686	Werewolf
+7687	Blue New Gremlin
+7688	Pink New Gremlin
+7689	Blue New Gremlin
+7690	Pink New Gremlin
+7691	Green New Gremlin
+7692	Blue New Gremlin
+7693	Pink New Gremlin
+7694	Green New Gremlin
+7695	White New Gremlin
+7696	Black New Gremlin
+7697	Giant Headless
+7698	Small Golem
+7699	Small Golem
+7700	Argus
+7701	Argus
+7702	Argus
+7703	Giant Imp
+7704	Armored Bear
+7705	Cyclops
+7706	Cat Sith Knights
+7707	Cat Sith Knights
+7708	Cat Sith Knights
+7709	Cat Sith Knights
+7710	Cyclops
+7711	Demi Lich
+7712	Banshee
+7713	Master Lich
+7714	Golem
+7715	Golem
+7716	Golem
+7717	Golem
+7718	Golem
+7719	Giant Spider
+7720	Giant Red Spider
+7721	Lycanthrope
+7722	Arachne
+7723	Cyclops
+7724	Cat Sith Knights
+7725	Cat Sith Knights
+7726	Cat Sith Knights
+7727	Cat Sith Knights
+7728	Cyclops
+7729	Red Spider
+7730	Dark Blue Spider
+7731	Burgundy Spider
+7732	Gorgon
+7733	Burgundy Spider
+7734	Spider Warrior
+7735	Metal Skeleton
+7736	Metal Skeleton
+7737	Metal Skeleton
+7738	Metal Skeleton
+7739	Dark Rat Man
+7740	Giant Lightning Sprite
+7741	Giant Lightning Sprite
+7742	Bard Skeleton
+7743	Goblin Archer
+7744	Skeleton Imp
+7745	Skeleton Laghodessa
+7746	Giant Lightning Sprite
+7747	Giant Fire Sprite
+7748	Flying Sword
+7749	Green Gremlin
+7750	Werewolf
+7751	Flying Sword
+7752	Captain Skeleton
+7753	Black Ship Rat
+7754	Hellcat
+7755	Blue Ghast
+7756	Red Ghast
+7757	Metal Skeleton
+7758	Metal Skeleton
+7759	Giant Lightning Sprite
+7760	Red Spider
+7761	Dark Blue Spider
+7762	Gorgon
+7763	Flying Sword
+7764	Captain Skeleton
+7765	Mimic
+7766	Black Spider
+7767	Red Spider
+7768	Blue Snake
+7769	Brown Snake
+7770	White Snake
+7771	Ice Sprite
+7772	Lightning Sprite
+7773	Fire Sprite
+7774	Werewolf
+7775	Gorgon
+7776	Mimic
+7777	Jackal
+7778	Blue Snake
+7779	Brown Snake
+7780	White Snake
+7781	Ice Sprite
+7782	Lightning Sprite
+7783	Fire Sprite
+7784	Green Gremlin
+7785	Werewolf
+7786	Red Grizzly Bear
+7787	Red Bear
+7788	Gorgon
+7789	Hellhound
+7790	Giant Headless
+7791	Giant Headless
+7792	Red Monkey
+7793	Phantasm Wisp
+7794	Runaway Gingerman
+7795	순간이동 마법사 임프
+7796	Astral Cosmic Stallion
+7797	Astral Pegasus
+7798	Astral Cheetah
+7799	Astral Nimbus
+7800	Succubus Fiend
+7801	Astral Frost Dragon
+7802	Astral Lightning Dragon
+7803	Astral Scooter
+7804	Succubus Queen
+7805	Astral Abyss Dragon
+7806	Astral Rudolf
+7807	Astral Fox
+7808	Supakupa Wam-Bam
+7809	Brave Gummy Bear
+7810	Grumpy Gummy Bear
+7811	Timid Gummy Bear
+7812	Weird Gummy Bear
+7813	Cookie Tent
+7814	Strawberry Kupa
+7815	Orange Kupa
+7816	Lemon Kupa
+7817	Lime Kupa
+7818	Soda Kupa
+7819	Grape Kupa
+7820	S.S. Cotton Candy
+7821	Big Kupa
+7822	Little Kupa
+7824	Vanilla Candy Wand
+7825	Gummy Bear
+7826	Gummy Bear
+7827	Giant Gingerman
+7828	Cookie Witch
+7829	Sweet Gingerman
+7830	Savory Gingerman
+7831	Buttery Gingerman
+7832	Crispy Gingerman
+7833	Caravan Joe
+7834	Caravan Joe
+7835	Caravan Joe
+7836	Caravan Joe
+7837	Caravan Joe
+7840	Scooter Imp
+7842	<mini>NPC</mini>Supakupa Wam-Bam
+7843	<mini>NPC</mini>Kupa
+7844	별빛이 담긴 청마
+7845	별빛이 담긴 페가수스
+7846	별빛이 담긴 체스터
+7847	별빛이 담긴 근두운
+7848	별빛이 담긴 아이스 드래곤
+7849	별빛이 담긴 썬더 드래곤 (2인승)
+7850	별빛이 담긴 스쿠터
+7851	별빛이 담긴 하데스
+7852	별빛이 담긴 루돌프
+7853	별빛이 담긴 여우
+7854	백마
+7855	Cone Hat Panda
+7856	서큐버스 퀸
+7857	Fez
+7858	Tia
+7859	배고픈 고깔모자 팬더
+7860	두로
+7861	축제 고블린
+7862	Fez
+7863	Tia
+7864	Matryoshka
+7865	Piano
+7866	Mysterious Box
+7867	Mysterious Box
+7868	Mysterious Box
+7869	Mysterious Box
+7870	Mysterious Box
+7871	Mysterious Box
+7872	Mysterious Box
+7873	Mysterious Box
+7874	Mysterious Box
+7875	Mysterious Box
+7876	White Spider Wasp
+7877	Larva
+7878	Black Poisonous Spider
+7879	Spider Archer
+7880	Grendel
+7881	Green Snake
+7882	Dark Rat Man
+7883	Red Sickle Laghodessa
+7884	Red Spike Laghodessa
+7885	Bug Bear
+7886	Ice Sprite
+7887	Red Kobold
+7888	Skeleton Hellhound
+7889	Red Kobold Archer
+7890	Small Troll
+7891	Skeleton Wolf
+7892	Skeleton Squad
+7893	Red Skeleton
+7894	Skeleton Laghodessa
+7895	Metal Skeleton
+7896	Imp
+7897	Chon Chon
+7898	Spiked Worm
+7899	Green Gremlin
+7900	Giant Worm
+7901	Fire Sprite
+7902	Green Gremlin
+7903	Werewolf
+7904	Red Bear
+7905	Gorgon
+7906	Giant Wood Jackal
+7907	Giant Brown Bear
+7908	Giant Werewolf
+7909	Giant Wild Boar
+7910	Argus
+7911	Black Spider
+7912	Small Argus
+7913	Pirate Red Skeleton
+7914	Captain Red Skeleton
+7915	Flying Sword
+7916	Agile Vampire Bat
+7917	Ghost King
+7918	Stubborn Wight
+7919	Giant Queen Moth
+7920	Ghast
+7921	Giant Gold Spider
+7922	Golem
+7923	Metal Bard Skeleton
+7924	Red Succubus
+7925	Green New Gremlin
+7926	Giant Headless
+7927	Armored Bear
+7928	Cyclops
+7929	Master Lich
+7930	Raccoon
+7931	Barrier Crystal
+7932	Giant Lightning Sprite
+7933	Fez Doll
+7934	Tia Doll
+7935	Matryoshka
+7936	Matryoshka
+7937	Matryoshka
+7938	Matryoshka
+7939	화이트 피닉스
+7940	순간이동 마법사 임프
+7941	Fez
+7942	Tia
+7943	Mir Dragon
+7946	Succubus Queen
+7947	Skelemancer
+7948	Succubus Fiend
+7949	Wraith
+7950	Gargoyle Idol
+7951	Gargoyle Idol Plinth
+7952	Black Armored Skeleton
+7953	Black Heavy Skeleton Armor Ogre
+7954	Crimson Laghodessa
+7955	Black Skeleton Wolf
+7956	Crimson Giant Firefly
+7957	Fire Succubus
+7958	Lightning Succubus
+7959	Ice Succubus
+7960	Poison Succubus
+7961	Phantasm Wisp
+7962	Succubus Fiend
+7964	듀크
+7965	에린 음악대 원숭이
+7966	에린 음악대 마법사 임프
+7967	에린 음악대 플로라
+7968	에린 음악대 알파카
+7969	에린 음악대 지휘할꺼양
+7970	에린 음악대 스쿠터
+7971	에린 음악대 황마
+7972	흑마
+7973	Black Spider
+7974	Gray Town Rat
+7975	Kobold Archer
+7976	Bard Skeleton
+7977	Red Bard Skeleton
+7978	Gold Bard Skeleton
+7980	Fomor Bard
+7981	Fomor Bard
+7982	The Invisible One
+7983	Spirit of Jabchiel
+7984	Horny Mushroom
+7985	Green Mushroom
+7986	Yeti
+7987	King Pepe
+7988	Pink Bean
+7989	Kokopo
+7990	Mir Dragon
+7991	밀키웨이 피아노
+7992	밀키웨이 첼로 의자
+7993	Haunted House
+7994	Spirit of Tuan (Event)
+7995	Concert Helper
+7996	Kyle's Servant
+7997	Watchman Cloaker
+7998	Blue Ghost
+7999	Red Ghost
+8000	Ghost
+8002	Ghost Bomber
+8003	Stone Statue
+8004	Stone Statue_Transparent
+8005	Alfie, the Little Ghost
+8006	Ghost Bomber
+8007	Little Ghost
+8008	Kyle
+8009	Colton
+8010	William
+8011	Colton
+8012	황금 미르
+8013	Little Ghost
+8014	Kyle
+8015	Colton
+8016	William
+8017	Ghost Bomber
+8018	Ghost Bomber
+8019	Ghost Bomber
+8020	Ghost Bomber
+8021	Kokopo
+8022	William
+8023	Partner [William]
+8024	Little Ghost
+8025	Red Bandit Goblin
+8026	Red Bandit Goblin Archer
+8027	Red Bandit Imp
+8028	Red Bandit Giant
+8029	Red Bandit Human
+8030	Klobberin' Pete
+8031	흑마
+8032	할로윈 슬라임
+8033	Alto
+8034	Form of Silence
+8035	Lament of Agony
+8036	Form of Gloom
+8037	Form of Strife
+8038	Form of Strife
+8039	Form of Strife
+8040	Form of Doubt
+8041	Form of Doubt
+8042	Form of Doubt
+8043	Shape of Horror
+8044	Shape of Horror
+8045	Shape of Horror
+8046	Form of Nightmares
+8047	Form of Emptiness
+8048	Form of Rage
+8049	Form of Chaos
+8050	Enn
+8062	Form of Nightmares
+8063	Form of Nightmares
+8064	Form of Nightmares
+8065	Form of Awakening
+8066	Form of Rage
+8067	Form of Rage
+8068	Form of Rage
+8069	Form of Emptiness
+8070	Form of Chaos
+8071	알래스칸 허스키
+8072	맬러뮤트
+8073	Song of Grief
+8074	Song of Grief
+8075	Song of Grief
+8076	Form of Harmony
+8077	Lament of Agony
+8078	Form of Tuning
+8079	Form of Valor
+8080	Form of Wisdom
+8081	Form of Patience
+8082	Song of Grief
+8083	Enn
+8084	Song of Grief
+8108	Milky Way Scooter
+8109	Milky Way Nimbus
+8110	Milky Way Bone Dragon
+8111	Milky Way Ice Dragon
+8112	Milky Way Pegasus
+8115	Milk Chocolate
+8116	Almond Chocolate
+8117	Dark Chocolate
+8118	Secret Spice
+8119	Wheat Flour
+8120	Strawberry Bonbon
+8121	Baby Strawberry Bonbon
+8122	Baby Bonbon
+8123	Chocolate Fondue Stick
+8128	Alto
+8129	Lento
+8130	Gio
+8131	Fantasia Bone Dragon
+8132	Fantasia Pegasus
+8133	Fantasia Clover Gnu
+8134	Fantasia Scooter Imp
+8135	Fantasia Snack Truck
+8136	Fantasia Fallen Fairy
+8137	Fantasia Cheetah
+8138	Fantasia Phoenix
+8139	Suave Sheep
+8140	Sheep Wolf
+8141	Sheep Wolf
+8142	Sheep Wolf
+8143	Sheepdog
+8144	밀키웨이 하데스 (이벤트)
+8145	밀키웨이 페가수스 (이벤트)
+8146	Sheep Wolf
+8147	Sheep
+8148	Moonlight Hammer Ferghus Doll
+8149	밀키웨이 스쿠터 (이벤트)
+8150	밀키웨이 아이스 드래곤 (이벤트)
+8151	Merlin Doll
+8152	Starlet Doll
+8153	Professor J Doll
+8154	Culinary Artist Doll
+8155	Treasure Hunter Doll
+8273	축제 훼방꾼 알로
+8274	축제 훼방꾼 꼬마 강시
+8275	축제 훼방꾼 여우님
+8287	장미화관 꽃사슴
+8288	축제 고블린
+8289	비탄의 노래
+8290	두로
+8292	미니곰 웅
+8351	흥이 깨진 그루기
+8352	점쟁이 클레젝
+8353	모피 애호가 페러스
+8355	꽃 장식 미니어처 핀셔
+8368	고깔모자 포니
+8369	다람쥐 인형
+8371	축제 훼방꾼 꼬마 강시
+8372	축제 훼방꾼 꼬마 강시
+8373	축제 훼방꾼 여우님
+8374	축제 훼방꾼 여우님
+8375	축제 훼방꾼 알로
+4431	바드 고블린 헌터
+4442	엘프
+4916	거대 악어
+4917	사막 드래곤
+4918	평원 드래곤
+4919	레드 드래곤

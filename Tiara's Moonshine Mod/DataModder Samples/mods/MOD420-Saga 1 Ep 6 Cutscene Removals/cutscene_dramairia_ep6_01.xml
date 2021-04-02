@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<cutscene>
+	<scenario name="DramaIria_Ep6_01">
+	</scenario>
+	<!--자이언트 시나리오-->
+	<scenario name="DramaIria_Ep6_01_giant">
+	</scenario>
+</cutscene>

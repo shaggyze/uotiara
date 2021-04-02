@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<!--메이즈 던전 유적 컷씬제작 입니다-->
+<cutscene>
+	<scenario name="iria_bossroom_stonegargoyle_shoulder">
+		<stage region="917" origin="10000 0 10000" />
+	</scenario>
+</cutscene>

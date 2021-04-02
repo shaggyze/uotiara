@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<!--일단 발견 컷씬 작업해봅니다-->
+<cutscene>
+	<scenario name="iria_bossroom_shiningpotspider">
+		<stage region="917" origin="10000 0 10000" />
+	</scenario>
+</cutscene>

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<cutscene>
+	<!-- 양 문양 찾음-->
+	<scenario name="iria_finding_landmark_sheep">
+		<stage region="3001" origin="365300 0 261700" />
+		<client_sequence terminated_by_key="true">
+			<system cmd="nop">
+			</system>
+		</client_sequence>
+	</scenario>
+	<!-- 사람 문양 찾음-->
+	<scenario name="iria_finding_landmark_man">
+		<stage region="3001" origin="297800 0 321100" />
+		<client_sequence terminated_by_key="true">
+			<system cmd="nop">
+			</system>
+		</client_sequence>
+	</scenario>
+	<!-- 새 문양 찾음-->
+	<scenario name="iria_finding_landmark_bird">
+		<stage region="3001" origin="280106 0 137312" />
+		<client_sequence terminated_by_key="true">
+			<system cmd="nop">
+			</system>
+		</client_sequence>
+	</scenario>
+	<!-- 뱀 문양 찾음-->
+	<scenario name="iria_finding_landmark_sneak">
+		<stage region="3001" origin="345831 0 132751" />
+		<client_sequence terminated_by_key="true">
+			<system cmd="nop">
+			</system>
+		</client_sequence>
+	</scenario>
+	<!-- 나무 문양 찾음-->
+	<scenario name="iria_finding_landmark_wood">
+		<stage region="3001" origin="429800 0 183600" />
+		<client_sequence terminated_by_key="true">
+			<system cmd="nop">
+			</system>
+		</client_sequence>
+	</scenario>
+	<!-- 꽃 문양 찾음-->
+	<scenario name="iria_finding_landmark_flower">
+		<stage region="3001" origin="226800 0 274945" />
+		<client_sequence terminated_by_key="true">
+			<system cmd="nop">
+			</system>
+		</client_sequence>
+	</scenario>
+	<!-- 원숭이 문양 찾음-->
+	<scenario name="iria_finding_landmark_monkey">
+		<stage region="3001" origin="164722 0 327638" />
+		<client_sequence terminated_by_key="true">
+			<system cmd="nop">
+			</system>
+		</client_sequence>
+	</scenario>
+	<!-- 태양 문양 찾음-->
+	<scenario name="iria_finding_landmark_sun">
+		<stage region="3001" origin="279930 0 265787" />
+		<client_sequence terminated_by_key="true">
+			<system cmd="nop">
+			</system>
+		</client_sequence>
+	</scenario>
+	<!-- 별 문양 찾음-->
+	<scenario name="iria_finding_landmark_star">
+		<stage region="3203" origin="84600 0 73400" />
+		<client_sequence terminated_by_key="true">
+			<system cmd="nop">
+			</system>
+		</client_sequence>
+	</scenario>
+	<!-- 순록 문양 찾음-->
+	<scenario name="iria_finding_landmark_reindeer">
+		<stage region="3200" origin="212973 0 158619" />
+		<client_sequence terminated_by_key="true">
+			<system cmd="nop">
+			</system>
+		</client_sequence>
+	</scenario>
+	<!-- 소용돌이 문양 찾음-->
+	<scenario name="iria_finding_landmark_whirlpool">
+		<stage region="3200" origin="191983 0 234236" />
+		<client_sequence terminated_by_key="true">
+			<system cmd="nop">
+			</system>
+		</client_sequence>
+	</scenario>
+	<!-- 열매 맺힌 나무 문양 찾음-->
+	<scenario name="iria_finding_landmark_fruitwood">
+		<stage region="3200" origin="333200 0 217390" />
+		<client_sequence terminated_by_key="true">
+			<system cmd="nop">
+			</system>
+		</client_sequence>
+	</scenario>
+	<!-- 날개 달린 말 문양 찾음-->
+	<scenario name="iria_finding_landmark_winghorse">
+		<stage region="3200" origin="347710 0 142702" />
+		<client_sequence terminated_by_key="true">
+			<system cmd="nop">
+			</system>
+		</client_sequence>
+	</scenario>
+	<!-- 날지 못하는 새 문양 찾음-->
+	<scenario name="iria_finding_landmark_noflybird">
+		<stage region="3200" origin="425562 0 238127" />
+		<client_sequence terminated_by_key="true">
+			<system cmd="nop">
+			</system>
+		</client_sequence>
+	</scenario>
+	<!-- 코뿔소 문양 찾음-->
+	<scenario name="iria_finding_landmark_rhinoceros">
+		<stage region="3100" origin="203242 0 257444" />
+		<client_sequence terminated_by_key="true">
+			<system cmd="nop">
+			</system>
+		</client_sequence>
+	</scenario>
+	<!-- 전갈 문양 찾음-->
+	<scenario name="iria_finding_landmark_scorpion">
+		<stage region="3100" origin="232200 0 343900" />
+		<client_sequence terminated_by_key="true">
+			<system cmd="nop">
+			</system>
+		</client_sequence>
+	</scenario>
+	<!-- 물고기 문양 찾음-->
+	<scenario name="iria_finding_landmark_fish">
+		<stage region="3100" origin="308800 0 293000" />
+		<client_sequence terminated_by_key="true">
+			<system cmd="nop">
+			</system>
+		</client_sequence>
+	</scenario>
+	<!-- 거미 문양 찾음-->
+	<scenario name="iria_finding_landmark_spider">
+		<stage region="3100" origin="289955 0 446300" />
+		<client_sequence terminated_by_key="true">
+			<system cmd="nop">
+			</system>
+		</client_sequence>
+	</scenario>
+	<!-- 도마뱀 문양 찾음-->
+	<scenario name="iria_finding_landmark_lizard">
+		<stage region="3100" origin="403149 0 457809" />
+		<client_sequence terminated_by_key="true">
+			<system cmd="nop">
+			</system>
+		</client_sequence>
+	</scenario>
+	<!-- 샌드웜 문양 찾음-->
+	<scenario name="iria_finding_landmark_sandworm">
+		<stage region="3100" origin="388328 0 355992" />
+		<client_sequence terminated_by_key="true">
+			<system cmd="nop">
+			</system>
+		</client_sequence>
+	</scenario>
+</cutscene>

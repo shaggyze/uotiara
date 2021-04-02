@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<underground_mazes>
+	<underground_maze regionid="3101" enter_msg="_LT[xml.undergroundmaze.1]" fov="90" farplane_normal="200" farplane_far="250" />
+	<underground_maze regionid="3201" fov="90" farplane_normal="200" farplane_far="250" />
+	<underground_maze regionid="3202" fov="90" farplane_normal="200" farplane_far="250" />
+</underground_mazes>

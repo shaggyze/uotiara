@@ -1,0 +1,188 @@
+(Name of Mod / creator)
+
+Main Client Modifications:
+Fantasia R57/ spr33 (fixed by Tylian)
+NogiParty lv234 / Garang (Translated by CrystalArc)
+MNG / serge
+Cryptnogi / Codeh
+Nova / The Proffessor
+Abyss / Blade3575
+(current) propdb / The Proffessor
+(current) itemdb / The Proffessor
+(current) race / The Proffessor
+(current) Alternate Interface / The Proffessor
+(current) dungeon_ruin / The Proffessor
+(current) dungeondb2 / The Proffessor
+(current) minimapinfo/ The Proffessor
+(current) propdb.english / The Proffessor
+
+
+Cutscene Modifications:
+Waterfall Cutscene Skip / The Proffessor
+(current) Final Shot Boss cutscene skip / The Proffessor
+C1 and G8 Boss Cutscene skips / The Proffessor
+Demigod Transformation Cutscene Skip / The Proffessor
+
+
+Sound Modifications:
+"Shut up, Sheep!" v2 / Alfr
+Penguin Silencer / The Proffessor
+Fireball sound to "WTF Bomb" and/or "Nuclear Launch Detected" / The Proffessor
+Dark Knight Transform Sounds / The Proffessor
+Silence Golems / Amaretto
+Silence Tigers/Lions / The Proffessor
+Silence Alchemy Ovens / The Proffessor
+Silence Mining Drills / The Proffessor
+Kapooya! Meteor Strike / The Proffessor
+
+
+Weapons and Shields Modifications:
+Mandolin to Guitar Mod / <Chinese Characters> (Translated to "Noriyuki" something)
+Crossbow Bolt to Harpoon / chris159876
+Muramasa Mod 3.0 / Shuri
+Fishbone Sword / The Proffessor
+Gun Mod 2.0 / thatguy
+Enhanced Wands / Raptorr
+Thor's Hammer / Raptorr
+Sniper Rifle Mod / Raptorr
+Lazer Arrow Trails / Raptorr
+Sparkly Weapon Effect / adam
+Hylian Shield (LoZ) / adam
+Master Sword (LoZ) / adam
+Spiral Bow / Serif
+Moonshield / Serif
+Giant Hatchet Mace / Serif
+Blue Fire Sword / Serif
+Dragon Blade / Serif
+Squall's Gunblade / LuffyDD
+WOW Bow / <Chinese Characters> (Translated to "Huan Huo Bells")
+Shortsword to Umbrella / blahblah
+Shortsword to Teddy Bear / blahblah
+DMC Rebellion Awakened Sword / Blaze
+Bleach Ichigo's Black and White Zanpaktous / 0maka0
+Soul Edge / Blaze
+FFX Yuna Sphere GUN / Blaze
+Katen Kyoukotsu Cutlass sword / Blaze
+Sword of Omens / Blaze
+Ebony Scimitar / Blaze
+Awesome G10 or 9 shield / Rominzxx
+Nightmare dual gun / Blaze
+Gladius to Ice Sword / Simply Orange
+New Arrow Quiver / Oddy
+Claymore to Ivory Sword / Simply Orange
+Flaming 2h w/ Sakura Tree Effect / sageta (Fixed by The Proffessor)
+
+
+Clothes and Armor Modifications:
+Gamyu Demon Set / Arcane
+Adora Mask + Eyepatch / clarity
+BBF + Eyepatch / clarity
+FF7 Tifa Clothes / jazneo
+FF7 Aeris Clothes / jazneo
+FF7 Sephiroth Clothes / jazneo
+Guild Robe to Shark Robe / sntmrdg
+Akatsuki Slender Robe / Raptorr and Serif???
+Winged Snow Mountain Robe / adam
+Lava Cat Robe / adam
+Nao Costume Mod / Raptorr
+Giant Female Pirta(Type B) With Wings / Aldeel
+long jacket with belt on pants / Blaze
+Lacards Layerd Muffler with white wings / Rominzxx
+Triona's clothing / blahblah
+Armor with cape (Like Aodhan) / blahblah
+Winged Guild Robe / ShadowFoxx
+female dustin with wings / inugami
+"PG" Nao / The Proffessor
+Goggle Cap Goggle over Eyes / Nooj
+Karis Wizard Suit / The Proffessor
+
+
+Pet AI:
+Pet AI Compilation / Serif
+Other Pet AIs / thi_avatar
+Icebolt Spam Ai / benji23
+Firebolt Spam Ai / benji23/The Proffessor
+Lightningbolt Spam Ai / benji23/The Proffessor
+
+
+GUI Modifications:
+Target Mod / yyhdz
+Target Mod (2?) / yyhdz
+Magic Circle Target / gazoinks
+Detailed Connous Underground Maps / Arcane
+Detailed Connous and Rano Maps / Arcane
+Ranged Attack Image Mod / Boof
+Transparent Riverbed / MForey
+"4 Lines" Target / iWin
+Sniper Scope Target / hengsheng120
+Shadow Realm Maps / Tetris (translated by Zallist)
+Mythril Color Change / The Proffessor
+Solea Underground Maps / Amaretto
+Remove Screenshot Watermark / Amaretto
+Ping Meter in Client Menu / The Proffessor
+Remove Window/Name/etc. Minimization/Minimap Messages; Show PvP requestor ((current) interface.english) / The Proffessor
+Shadow Tara Maps / Amaretto? (Fixed by The Proffessor)
+Physis Map / Amaretto? (Fixed by The Proffessor)
+Disable Fog and/or Enable Zoom on Outdoor Minimaps / The Proffessor
+BusAccident! Font / BusAccident
+White Rabbit Font / I Shot the Serif
+Bold Bitmap Font / hengsheng120 (fixed by The Proffessor)
+Friz Quadrata Bitmap Font / hengsheng120 (fixed by The Proffessor)
+Transparent NPC Dialogue Box / hengsheng120 (fixed by The Proffessor)
+
+
+Tools:
+Nimbus Weather Forecast System / The Proffessor
+MabiChef Recipe Database / The Proffessor
+PMG List / anthonyjr2
+MabiTimer / Mabichan.org/The Proffessor
+Mabi UnPacker / Serif
+PGM View Express / Serif
+3MLE v2 / ALOE
+Maestro Music System / The Proffessor
+TeamViewer / Teamviewer
+FIONA / The Proffessor
+Mohbius Housing Board Search / The Proffessor
+MacWars / The Proffessor
+AK-Busica / The Proffessor
+
+
+Pet Modifications:
+Flaming Horse / LLB
+Thunderbird to Icebird / Arcane
+Orange Pixie to Persian / LLB
+Black Pirate Skeleton Pet / Shuri
+Skelly Wolf Pet / Shuri
+Fox into White Ferret / I_c_u
+Mini Skeleton Replaced with Mirror Witch Model / Navi
+Female Sword Ego a Skeleton Pet / adam
+Thoroughbreds Unicorn / Serif
+Pegasus (cant fly) / Blaze
+Broom --> Scarecrow. / Kitty~ (Fixed by The Proffessor)
+
+
+Other Modifications:
+Auto-play Instrument / ROOT50199
+Level-Up Effects Mod / Boof
+Lightning Color Pack / Boof
+Remove Aviation Vertical Boundaries / Amaretto
+Rapid Aviation Rise/Drop Speed / The Proffessor
+Giant Mushrooms / Amaretto
+Transparent Shadow Realm Walls / Amaretto
+Remove Rain/Sandstorm/Snow / Halfslashed
+Taillteann Trees Cut / Halfslashed
+Remove Tara Buildings / mabiassist/Amaretto
+Sakura Trees-Emain / miku21
+Max Auto Production / The Proffessor
+
+
+Tools and Content used in the R&D Intro Movie:
+Tools:
+Source Filmmaker
+Sony Vegas
+Audacity
+Melodyne
+
+Content:
+Half-Life 2
+Enhanced Breen - Patrick Hunt

@@ -1,0 +1,223 @@
+BnR;P;Brifne Whiskey,Leighean Gin,Ice;1:+30,2:-12,3:-12,4:+20,6:+50;85,82,63
+Potato & Egg Salad;P;Boiled Potato,Boiled Egg,Mayonnaise;1:+3,2:+10,3:+5,6:+25;122,82,26
+Potato Salad;P;Boiled Potato,Onion,Salt;2:+4,3:+5,6:+19;160,51,19
+Dog Biscuit;P;Chocolate Chip Cookie,Butter Biscuit;1:+2,2:+2,6:+8;134,96,0
+Egg Salad;P;Boiled Egg,Mayonnaise,Salt;1:+3,2:+10,6:+20;177,35,18
+Mixed Fruit;P;Strawberry,Apple,Berry;3:+3,6:+25;102,71,57
+Fruit Salad;P;Mixed Fruit,Mayonnaise,Sugar;2:+5,3:+3,6:+30;174,32,24
+Nares Cake Set;P;Coconut Pound Cake,Gateau Au Chocolat,Rare Cheesecake;3:+5,6:+45;114,68,48
+Strawberry Milk;P;Milk,Strawberry,Sugar;2:+6,6:+25;150,71,9
+Leighean Sling;P;Leighean Gin,Lemon Juice,Sugar;1:+20,2:-8,3:-8,4:+15,6:+38;43,178,9
+Red Sunrise;P;Brifne Whiskey,Orange Juice,Sugar;1:+20,2:-10,3:-10,4:+15,6:+42;62,140,28
+Lemon Juice;P;Lemon,Berry,Sugar;2:+5,5:+5,6:+10;141,65,24
+Lemon Tea;P;Lemon,Berry,Water;0:no effect;196,22,12
+Rare Cheese Cake;P;Big Lump of Cheese,Butter Biscuit,Whipped Cream;5:+5,6:+18;160,33,37
+Lutra Cocktail set;P;Leighean Sling,Screwdriver,Red Sunrise;1:+20,3:+5;94,66,70
+Macchiato;P;Espresso,Steam Milk,Whipped Cream;1:+15,6:+10;70,80,80
+Magic Bean Curd;P;Magic Bean Flour,Water,Nigari;1:+10,5:+10,6:+20;182,39,9
+Mayonnaise;P;Egg,Olive Oil,Salt;0:no effect;166,45,19
+Water-soaked Bean;P;Bean,Water,Salt;0:no effect;160,51,19
+Mashed Tofu;P;Magic Bean Powder,Water,Nigari;1:+2,5:+2,6:+5;160,52,18
+Vales Fire;P;Vales Whiskey,Ice;1:+38,2:-15,3:-15,4:+25,6:+30;173,57,0
+Mushroom Canape;P;Hazelnut Mushroom,Slice of Cheese,Whipped Cream;3:+3,4:+10,6:+18;114,68,48
+Bacon & Potato Dog Food;P;Potato,Bacon;1:+6,3:-6,6:+10;134,96,0
+Vegetable Canape;P;Carrot,Boiled Potato,Lemon;3:-9,4:+12,6:+25,10:7;114,92,24
+Brifne Rocks;P;Ice,Brifne Whiskey,Lemon;1:+25,2:-10,3:-10,4:+15,6:+45;132,89,9
+Seasoned Smelt;P;Smelt,Fried Vegetables;1:+5,5:+15,6:+20,9:+15;95,135,0
+Apple Juice;P;Apple,Berry,Sugar;1:+5,3:+5,6:+12;167,39,24
+Shrimp Dog Food;P;Steamed Rice,Shrimp,Salt;1:+8,3:-8,6:+14;134,68,28
+Screwdriver;P;Brifne Whiskey,Orange Juice,Lemon;1:+28,2:-8,3:-8,4:+18,6:+42;42,179,9
+Iced Macchiato;P;Macchiato,Ice,Whipped Cream;1:+25,6:+20;115,44,71
+Ice Cafe Mocha;P;Cafe Mocha,Ice,Whipped Cream;1:+20,2:+30,3:+30;138,47,45
+Mixed Vegetables;P;Celery,Carrot,Onion;0:no effect;80,70,80
+Espresso Macchiato;P;Espresso,Steam Milk,Water;4:+5,5:+5,6:+5;95,89,46
+Orange Juice;P;Orange,Berry,Sugar;2:+5,5:+5,6:+10;167,45,18
+Chocolate;P;Baking Chocolate,Whipped Cream,Sugar;1:+4,2:+4,6:+12;97,97,36
+Chocolate Milk;P;Chocolate,Milk,Sugar;1:+5,2:+5,6:+15;99,95,36
+Cheese Bread;P;Bread,Slice of Cheese,Salt;6:+14;175,44,11
+Curry Bread;P;Bread,Sliced Meat,Curry Powder;1:+8,6:+15;160,35,35
+Curry Paste;P;Curry Powder,Potato,Sliced Meat;0:no effect;164,38,28
+Camellia Sling;P;Camellia Fruit,Water,Vales Whiskey;1:+10,2:-3,3:-3 ,4:+10,6:+18;71,24,135
+Cafe Mocha;P;Espresso,Baking Chocolate,Steam Milk;1:+10,2:+20,3:+20;95,39,96
+Cappuccino;P;Espresso,Steam Milk,Milk;4:+20;70,90,70
+Cream Farfalle;P;Short Pasta,Cream Sauce,Pepper;1:+8,2:+8,3:+20,5:+20,6:+20;146,75,9
+Kiss On The Lips;P;Brifne Whiskey,Lemon Juice,Sugar;1:+26,2:-8,3:-8,4:+18,6:+45;126,73,31
+Tomato Basil Salad;P;Tomato,Basil,Boiled Potato;2:+5,3:-8,4:+5,10:7;114,71,45
+Tomato Spaghetti;P;Long Pasta,Tomato Sauce,Pepper;1:+10,2:+4,3:+30,5:+10,6:+15;150,71,9
+Filia Cookie Set;P;Mushroom Cookie,Coconut Cookie,Chocolate Chip Cookie;3:+5,4:+20;94,88,48
+Seafood Spaghetti;P;Long Pasta,Seafood Sauce,Pepper;1:+5,2:+12,3:+25,5:+15,6:+30;150,71,9
+Jellyfish Salad;P;Jellyfish,Salt,Sugar;2:+12,5:+8,7:+8,9:+14;182,24,24
+Herb Mushroom Salad;P;Steamed Mushroom,Thyme,Olive Oil;3:-7,4:+5,5:+5,10:7;160,46,24
+Catfish Garden Salad;P;Catfish,Mixed Vegetables,Mayonnaise;2:+20,6:+30,7:+30;134,60,36
+Corned Abb Neagh Carp and Vegetables;P;Abb Neagh Carp,Mixed Vegetables,Salt;2:+5,6:+15,7:+10;126,68,36
+Egg Caviar;P;Sturgeon,Fried Egg,Slice of Cheese;1:+10,5:+11,6:+17;70,100,60
+Caviar Salad;P;Mako Shark,Mixed Fruit,Mayonnaise;2:+30,7:+30;42,168,20
+Caviar Canape;P;Sturgeon,Bread,Berry;0:no effect;92,128,10
+Obedience bait Shrimp;P;Shrimp,Garlic,Sugar;0:Obedience bait;77,77,76
+Meat Marinade;P;Salt,Pepper,Garlic;0:No effect;23,23,184
+Chojang;P;Vinegar,Gochujang,Garlic;0:no effect added yet;103,101,26
+Celery Salad;P;Celery,Cabbage,Carrot;0:no effect added yet;80,87,63
+T-Bone Steak;F;Sliced Meat,Thyme,Salt;1:+8,3:+5,5:+5,6:+40;178,33,19
+Gateau Au Chocolat;F;Wheat Flour,Chocolate,Egg;3:+3,6:+22;87,76,67
+Fried Egg;F;Egg,Salt;6:+14;187,43,0
+Roasted Bean;F;Bean,Olive Oil,Salt;0:no effect;177,40,13
+Kikiki Mushroom Cookie;F;Mushroom Cookie,Cooking Potion,Brown Pine Mushroom;0:smiley face continued;102,72,56
+Flying Fish Crepe;F;Flying Fish,Potato,Egg;2:+5,7:+16;92,90,48
+Roasted Chicken Wing;F;Chicken Wings,Olive Oil;4:+10,6:+28;182,48,0
+Strawberry Jam Toast;F;Milk Bread,Strawberry Jam,Butter;2:+30;137,69,24
+Roast Chicken;F;Chicken Wings,Thyme,Salt;1:+15,3:+2,5:+8,6:+25;167,39,24
+Garlic Bread;F;Bread,Garlic;1:+3,6:+10;191,39,0
+Toast;F;Sliced Bread,Butter;1:+3,6:+30;184,46,0
+Mushroom Gratin;F;Hazelnut Mushroom,Onion,Big Lump of Cheese;1:+15,2:+30,6:+20;114,68,48
+Mushroom Cookie;F;Flour Dough,Hazelnut Mushroom,Whipped Cream;2:+5,3:+3,6:+10;114,92,24
+Butter Biscuit;F;Flour Dough,Butter,Sugar;1:+9,3:+3,6:+15;107,60,63
+Roasted Bacon;F;Bacon,Salt;2:+3,6:+18;206,24,0
+Barley Bread;F;Barley Flour,Water,Yeast;2:+9,6:+15;126,85,19
+Roasted Coffee;F;Courcle Coffee Bean,Water;0:no effect;206,24,0
+Brownies;F;Chocolate,Flour Dough,Yeast;1:+6,2:+8,6:+12;107,109,14
+Broiled Brifne Carp;F;Brifne Carp,Olive Oil,Salt;5:+5,6:+11;196,20,14
+Grilled Silk-Striped Marlin;F;Silk-Striped Marlin,Olive Oil,Salt;5:+5,6:+12;198,23,9
+Porterhouse Steak;F;Beef,Garlic,Pepper;1:+15,5:+10,6:+40;150,60,20
+Sliced Bread;F;Flour Dough,Butter;5:+3,6:+15;198,32,0
+Omelets;F;Egg,Mixed Vegetables,Bacon;1:+18,2:+8,3:+4,5:+12,6:+10;126,59,45
+Corn Scone;F;Flour Dough,Corn,Whipped Cream;1:+15,2:+8,3:+15,5:+10,6:+30;141,65,24
+Corn Bread;F;Corn,Egg,Yeast;1:+16,2:+12,3:+8,5:+8,6:+30;173,35,22
+Milk Bread;F;Flour Dough,Milk,Butter;3:+7,6:+18;160,51,19
+Taitinn Carp Brochette;F;Taitinn Carp,Thyme,Lemon;1:+14,6:+20;163,43,24
+Pretentious Steak;F;Beef Steak,Whipped Cream,Cooking Potion;0:title changes,3:+8,2:+3,6:+10;70,80,80
+Eel;F;Lamprey,Salt;1:+30,6:+20;206,24,0
+Roasted Shellfish;F;Shellfish,Salt;5:+5,6:+10;206,24,0
+Sturgeon Steak;F;Sturgeon,Pepper,Lemon;1:+10,5:+20,6:+45;184,28,18
+Striped Marlin Steak;F;Striped Marlin,Salt,Pepper;1:+10,2:+10,6:+22,9:+30;187,19,24
+Chocolate Chip Cookie;F;Flour Dough,Baking Chocolate,Butter;1:+5,3:+2,6:+12;107,59,64
+Cheese Gratin;F;Cheese Bread,Big Lump of Cheese,Egg;2:+3,3:+3,6:+25;75,89,66
+Coconut Cookie;F;Flour Dough,Coconut,Butter;1:+18,5:+17,6:+20;114,92,24
+Coconut Pound Cake;F;Flour Dough,Coconut,Egg;1:+11,4:+11,6:+25;114,68,48
+Cross-network Monsieur;F;Bread,Slice of Cheese,Sliced Meat;2:+5,6:+15;102,64,64
+Club Sandwich;F;Bread,Tomato,Cabbage;3:+35;114,46,70
+Chisinau;F;Big Lump of Cheese,Fried Onion,Egg;1:+13,5:+18,6:+28;67,70,93
+Toast;F;Sliced Bread,Butter;1:+3,6:+30;184,46,0
+French Fries;F;Potato,Fry Batter;5:+5,6:+10;206,24,0
+Smoked Sunfish;F;Sunfish,Salt,Pepper;1:+10,2:+10,6:+22,9:+30;183,23,24
+Grilled Catfish;F;Catfish,Cabbage;1:+10,4:+20,6:+26;187,43,0
+Salt Grilled Sweetfish;F;Sweetfish,Salt,Lemon;3:+10,5:+10,6:+25;174,34,22
+Curry-Roasted Red Sea Bream;F;Red Sea Bream,Curry Powder,Salt;3:+20,5:+20;180,32,18
+Curry-Roasted Black Sea Bream;F;Black Sea Bream,Curry Powder,Salt;1:+20,4:+20;180,32,18
+Tortilla;F;Cornbread Dough,Cornbread Dough;0:no effect added yet;229,1,0
+Steamed Mushroom;E;Hazelnut Mushroom,Water,Salt;3:+5,4:+5,6:+18;140,66,24
+Steamed Brifne Carp;E;Brifne Carp,Water,Salt;1:+6,6:+12;150,61,19
+Boiled Potato;E;Potato,Water,Salt;1:+3,6:+12;94,127,9
+Boiled Egg;E;Water,Egg,Salt;3:+3,6:+12;140,81,9
+Steamed Trout;E;Rainbow Trout,Water,Thyme;2:+7,3:+5,4:+5,6:+22;126,85,19
+Steamed Corn;E;Corn,Water;1:+20,2:+8,3:+8,5:+10,6:+40;182,48,0
+Curry and Rice;E;Rice,Curry Paste,Butter;1:+5,3:+5,6:+20;118,80,32
+Coq au vin;E;Chicken Wings,Emain Macha Wine,Thyme;1:+3,3:+10,5:+8,6:+20;114,92,24
+Steamed Shark Fin;E;Mako Shark,Water,Celery;1:+30,3:+30;95,80,55
+Flour Dough;D;Wheat Flour,Water,Yeast;0:no effect;150,52,28
+Corn Bread Dough;D;Wheat Flour,Corn Flour,Water;0:no effect;87,90,53
+Fry Batter;D;Water,Deep Fry Batter,Egg;0:no effect;138,34,58
+Taitinn Carp Taming Bait;D;Taitinn Carp,Garlic,Starch Syrup;0:Obedience bait;77,77,76
+Cornbread Dough;D;Wheat Flour,Corn Powder,Water;0:no effect added yet;80,80,70
+Ray Gill Filet;C;Ray,Water,Garlic;5:+7,8:+12;182,32,16
+Spicy Fish Stew;C;Taitinn Carp,Golden Scale Fish,Red Pepper Powder;1:+15,2:+10,6:+35;104,103,23
+Curry-Roasted Black Sea Bream;C;Black Sea Bream,Red Sea Bream,Red Pepper Powder;1:+10,2:+10,3:+10,4:+10,5:+10;104,103,23
+Tear Noodles;C;Noodle,Red Pepper Powder,Cooking Potion;0:continuous crying face,2:+5,3:+8,7:+12;187,34,9
+Poisonous Mushroom Stew;C;Brown Pine Mushroom,Brifne Whiskey;0:treatment of symptoms of poisoning potions,1:+10,5:+15,6:+20;137,93,0
+Heartbeat Gateau Au Chocolat;C;Gateau Au Chocolat,Cooking Potion,Vales Whiskey;0:character next to the Hart made things worse;114,71,45
+Lemon Tea;C;Water,Lemon,Sugar;2:+10,3:+8,6:+6;195,20,15
+Basil Tea;C;Water,Basil;3:+8,5:+12;194,36,0
+Steamed Rice;C;Rice,Water;1:+6,2:+7,3:+8;136,94,0
+Mushroom Cappuccino Soup;C;Hazelnut Mushroom,Emain Macha Wine,Pepper;4:+10,5:+12,6:+13;126,82,22
+Mushroom Consomme;C;Hazelnut Mushroom,Onion,Pepper;2:+30,6:+15;126,85,19
+Mushroom Potage;C;Hazelnut Mushroom,Whipped Cream,Pepper;1:+20,5:+10,6:+25;150,64,16
+Barley Tea;C;Water,Barley Flour;3:+3,4:+12;160,70,0
+Bouillabaisse;C;Emain Macha Wine,Shrimp,Taitinn Carp;1:+10,3:+5,5:+5,6:+32;76,74,80
+Shark Fin Soup;C;Carnivorous Fish,Shrimp,Egg;1:+15,2:+6,3:+8,5:+16,6:+40;56,104,70
+Steam Milk;C;Milk,Water;1:+6,2:+3,6:+5;206,24,0
+Vegetable Soup;C;Fried Vegetables,Whipped Cream,Pepper;2:+10,3:+10,6:+15;122,89,19
+Mushroom Soup;C;Fried Mushroom,Whipped Cream,Pepper;2:+15,6:+15;141,73,16
+Onion Soup;C;Fried Onion,Whipped Cream,Pepper;3:+15,6:+15;123,81,26
+Espresso;C;Roasted Coffee,Water;3:+5,4:+15,5:+15;46,184,0
+Corn Soup;C;Corn,Fried Vegetables,Whipped Cream;1:+8,2:+8,3:+8,5:+10,6:+40;46,56,128
+Steamed Corn;C;Corn,Water,;3:-5,4:+20;160,70,0
+Taitinn Carp Stew;C;Taitinn Carp,Potato,Garlic;5:+9,6:+16;126,75,29
+Pine Nut Soup;C;Pine Nut,Steamed Rice,Salt;1:+5,4:+8,6:+10;104,111,15
+Juniper Jelly;C;Juniper Berry,Sugar;3:+10,5:+15,6:+5;70,160,0
+Cheese fondue;C;Slice of Cheese,Potato,Sliced Meat;2:+8,3:+5,5:+5,6:+28;98,66,66
+Chicken Noodle Consomme;C;Chicken Wings,Noodle,Consomme;1:+10,2:+8,3:+8,5:+12,6:+35;42,60,128
+Coconut Crab Soup;C;Steamed King Crab,Coconut,Steamed Mushroom;1:+28,4:+21,6:+38;114,68,48
+Consomme;C;Mixed Vegetables,Sliced Meat,Emain Macha Wine;1:+8,2:+9,5:+12,6:+20;94,80,56
+Crazy Chocolate Ball;C;Cooking Potion,Baking Chocolate,Pepper;0:expression varies wildly,4:+6,5:+10,8:+15;54,120,56
+Cream Sauce;C;Whipped Cream,Milk;0:no effect;155,75,0
+Braised King Crab;C;King Crab,Celery;1:+15,5:+10,6:+24;182,48,0
+Thyme Tea;C;Water,Thyme;4:+10,5:+10,6:+10;206,24,0
+Tomato Sauce;C;Tomato,Sliced Meat;0:no effect;178,52,0
+Hot Chocolate;C;Chocolate,Steam Milk,Whipped Cream;1:+25,2:+22,6:+20;160,48,22
+Seafood Sauce;C;Shrimp,Garlic,Pepper;0:no effect;160,48,22
+Fish Soup;C;Blowfish,Water,Garlic;2:+15,6:+25,7:+30;88,120,22
+Starch Syrup;C;Rice,Sugar,Water;0:no effect;77,77,76
+Abb Neagh Carp Stew;C;Abb Neagh Carp,Rice,Water;1:+10,4:+5,5:+20,6:+25;115,68,47
+Noodle;B;Water,Wheat Flour,Egg;0:no effect;97,94,39
+Somen Noodles;B;Water,Wheat Flour,Salt;0:no effect;114,100,16
+French Fries;A;Potato,Fry Batter,Salt;1:+7,6:+18;182,29,19
+Fried Chicken Wings;A;Chicken Wings,Fry Batter,Salt;4:+14,6:+14;166,57,7
+Tempura Plate;A;Mixed Vegetables,Bacon,Fry Batter;1:+20,2:+8,3:+10,5:+22,6:+30;102,80,48
+Marinated Mushroom;A;Hazelnut Mushroom,Coconut,Fry Batter;2:-8,4:+26,6:+45;114,92,24
+Fried Smelt;A;Smelt,Fry Batter,Salt;1:+15,6:+30;160,56,14
+Fried Shrimp;A;Shrimp,Fry Batter,Pepper;5:+5,6:+12;138,76,16
+Fried Onion;A;Onion,Fry Batter,Salt;1:+22,2:+4,3:+4,5:+20,6:+20;136,70,24
+Corn Chip;A;Cornbread Dough,Salt;1:+8,2:+8,3:+12,5:+12,6:+10;185,45,0
+Fish And Chips;A;Potato,Taitinn Carp,Fry Batter;3:+5,5:+5,6:+18;92,114,24
+Fried Abb Neagh Carp;A;Abb Neagh Carp,Fry Batter,Salt;1:+40,2:-20,3:-20,5:+30,6:+20;152,69,9
+Mixed Fried Rice;9;Rice,Mixed Vegetables,Bacon;1:+15,2:+4,3:+8,5:+20,6:+40;114,68,48
+Mushroom Fried Rice;9;Rice,Mixed Vegetables,Mushroom;1:+12,2:+8,3:+10,5:+18,6:+35;114,68,48
+Shrimp Fried Rice;9;Rice,Shrimp,Egg;2:+10,3:+10,5:+15,6:+6;149,62,19
+Vegetable;9;Cabbage,Carrot,Onion;2:+10,3:+10,6:+6;103,72,55
+Fried Mushroom;9;Mushroom,Garlic,Salt;2:+12,6:+10;148,58,24
+Fried Onion;9;Onion,Garlic,Salt;3:+12,6:+10;111,91,28
+Popcorn;9;Corn,Butter,Salt;1:+10,2:+8,3:+10,5:+8,6:+15;182,33,15
+Friendship Shrimp Fried Rice;9;Cooking Potion,Shrimp Fried Rice,Fried Shrimp;0:Magic Effect,1:+8,3:+8,6:+9;46,116,68
+Long Pasta;8;Water,Pasta Dough;0:no effect;182,48,0
+Short Pasta;8;Water,Pasta Dough,Egg;0:no effect;174,40,16
+Pasta Dough;8;Wheat Flour,Egg;0:no effect;155,75,0
+Pumpkin Jam;7;Ripe Pumpkin,Sugar,Lemon Juice;10:07;153,70,7
+Grape Jam;7;Grape,Sugar,Salt;10:07;120,105,5
+Peanut Butter Jam;7;Berry,Olive Oil,Sugar;10:07;132,71,27
+Apple Jam;7;Apple,Sugar,Salt;10:07;150,70,10
+Strawberry Jam;7;Strawberry,Sugar,Lemon Juice;10:+7;139,80,11
+Pumpkin Tart;6;Tart Crust,Ripe Pumpkin,Whipped Cream;7:+30;116,92,22
+Pecan Pie;6;Pan Pie Crust,Pecan,Egg;4:+20,10:6;80,80,70
+Egg Tart;6;Tart Crust,Egg,Water;6:+14,10:7;95,65,70
+Apple Pie;6;Pan Pie Crust,Apple,Sugar;5:+30;103,103,24
+Pan Pie Crust;6;Wheat Flour,Milk,Egg;0:no effect;160,46,24
+Tart Crust;6;Wheat Flour,Butter,Egg;0:no effect;141,65,24
+Shrimp Bruschetta;P;Bread,Mixed Vegetables,Shrimp;5:23,6:10,7:10,8:10,0:1;96,87,47
+Pasta Marinara;9;Long Pasta,Tomato,Onion;1:30,8:30,0:2;125,59,46
+Granita;P;Mixed Fruit,Ice,Sugar;5:23,7:27,0:2;115,82,33
+Mana Herb Garlic Steak;F;Sliced Meat,Mana Herb,Garlic;5:20,6:20,7:20,8:20,0:increased combat experience;140,55,35
+Braised Angler Fish;5;Angler Fish,Celery;1:+10,5:+15,6:+26;139,91,0
+Braised Catfish and Clams;5;Catfish,Shellfish,Garlic;5:+16,6:+15;114,88,28
+Holiday Rice Cake;5;Rice,Water,Sugar;0:no effect added yet;173,41,16
+Pork Galbi Stew;5;Large Meat,Mixed Vegetables,Meat Marinade;0:no effect added yet;161,23,46
+Pumpkin Galbi Stew;5;Sweet Pumpkin,Sliced Meat,Meat Marinade;0:no effect added yet;184,39,7
+Plain Pizza Dough;4;Flour Dough,Flour Dough;0:no effect added yet;229,1,0
+Red Sauce Pizza Dough;4;Flour Dough,Tomato Sauce;0:no effect added yet;202,28,0
+Calzone;4;Red Sauce Pizza Dough,Bacon,Slice of Cheese;0:no effect added yet;94,74,62
+Chocolate Pizza;4;Plain Pizza Dough,Baking Chocolate,Marshmallow;0:no effect added yet;92,94,44
+Courcle Pizza;4;Red Sauce Pizza Dough,Pineapple,Handmade Sirloin Ham;0:no effect added yet;85,60,85
+Anchovy;3;Herring,Salt,Olive Oil;0:no effect added yet;195,21,14
+Gochujang;3;Water,Malt,Red Pepper Powder;0:no effect added yet;159,27,44
+Salami;3;Sliced Meat,Salt,Meat Marinade;0:no effect added yet;184,23,23
+Vinegar;3;Water,Sugar,Apple;0:no effect added yet;161,34,35
+Wine Vinegar;3;Water,Emain Macha Wine,Grapes;0:no effect added yet;161,46,23
+Plain Yogurt;3;Milk,Milk;0:no effect added yet;229,1,0
+Bossam;2;Large Meat,Leek,Cabbage;0:no effect added yet;184,28,18
+Chicken Breast Salad;2;Chicken,Celery Salad,Wine Vinegar;0:no effect added yet;149,67,14
+Chicken Breast Yurinki;2;Chicken,Spicy Pepper,Cabbage;0:no effect added yet;177,18,35
+Gelatinous Custard Pudding;2;Egg,Milk,Whipped Cream;0:no effect added yet;156,46,28
+Handmade Sirloin Ham;2;Large Meat,Pepper,Butter;0:no effect added yet;195,14,21
+Beltfish Sashimi;1;Beltfish,Chojang;0:no effect added yet;211,19,0
+Blowfish Sashimi;1;Blowfish,Antidote Potion,Water;0:no effect added yet;211,18,1
+Burrito;1;Handmade Sirloin Ham,Mixed Vegetables,Tortilla;0:no effect added yet;211,18,1
+Eel Sashimi;1;Belvast Eel,Chojang;0:no effect added yet;211,19,0
+Iskender Kebab;1;Large Meat,Bread,Plain Yogurt;0:no effect added yet;211,18,1

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<cutscene>
+  <scenario name="bossroom_Giant_Rat">
+    <stage region="914" origin="10000 0 10000" />
+  </scenario>
+  <scenario name="bossroom_demi_lich">
+    <stage region="914" origin="10000 0 10000" />
+  </scenario>
+</cutscene>

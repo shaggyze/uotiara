@@ -1,0 +1,40 @@
+﻿<cutscene>
+	<scenario name="into_the_belfast">
+	</scenario>
+	<!--stage region="4008" origin="75500 300 40750" />
+		<client_sequence terminated_by_key="true">
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<camera cmd="set_pos" pos="0 0 0" />
+			<camera cmd="set_target_pos" pos="0 0 0" />
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="play_music" name="Belfast" loop="0" />
+					<system cmd="wait" duration="1500" />
+					<effect cmd="fadein" duration="3000" color="000000" continue="false" />
+				</sequence>
+				<sequence>
+					<system cmd="wait" duration="1500" />
+							<camera cmd="change_fov" start="100" end="70" duration="25000" />
+				</sequence>
+				<sequence>
+					<system cmd="wait" duration="19000" />
+					<effect cmd="caption" text="벨바스트\nBelfast" duration="4000" font_size="26" line_gap="20" />
+				</sequence>
+				<sequence>
+					<system cmd="wait" duration="1500" />
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="100" />
+					<camera cmd="set_pos" pos="3273 600 6258" />
+					<camera cmd="set_target_pos" pos="-6072 600 -7665" />
+					<camera cmd="rotate" speed="0.7" axis="0 1 0" />
+					<camera cmd="move_to" start_speed="580.0" acceleration="0.0" pos="-2866 600 -7656" />
+					<camera cmd="move_target_to" start_speed="580.0" acceleration="0.0" pos="-8072 600 -7665" />
+					<system cmd="wait" duration="23000" />
+
+					<effect cmd="fadeout" duration="2500" color="000000" continue="true" />
+					<system cmd="wait" duration="1000" />
+					<system cmd="quit" />
+				</sequence>
+			</system-->
+</cutscene>

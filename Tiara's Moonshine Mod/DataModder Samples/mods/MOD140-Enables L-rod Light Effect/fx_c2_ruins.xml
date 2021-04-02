@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<EffectGroup classname="EffectGroup[10]" name="fx_c2_ruins">
+	<Effect classname="CEmitterType[10]" rotation_axis="0 0 1.0" emission_dirtype="3" bsphere_radius="200" name="fx_ruins_appear">
+		<EmitterShape classname="CEmitterShapePoint[10]" link_to_emitter="1" area_type="0" position="0 500 0" />
+		<ActiveController classname="CActiveController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </ActiveController>
+		<EmissionAngleController classname="CEmissionAngleController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </EmissionAngleController>
+		<EmissionOuterRangeController classname="CEmissionRangeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </EmissionOuterRangeController>
+		<EffectType classname="CParticleType[10]" gravity_scale="1" pivot="0.5 0.5" align="world_y" align_axis="0 1 0" name="????">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">2000 2000 3000 500 </Life>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">2500 3 3000 0 </Number>
+			<Angle classname="CAngleController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </Angle>
+			<Size classname="CSizeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 700 </Size>
+			<Speed classname="CSpeedController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 -300 </Speed>
+			<Spin classname="CSpinController[11]" variance="1" min="0.7" max="1.6" interpolation="1" repeat="0" repeat_from="0">0 180 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 FFFFFFFF 1000 FFCDCDCD 2000 FF000000 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_add_3" column="2" row="2" x="0" y="0" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="?? ??">0 1 1 1 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="?? ??">0 FF000000 0.3 FFFFEFA4 0.5 FF815C52 1 FF000000 </ColorOverLife>
+			<SpinOverLife classname="CSpinOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="?? ??">0 0 0.5 0.8 1 1 </SpinOverLife>
+			<SpeedOverLife classname="CSpeedOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="?? ??">0 1 0.5 0.7 0.8 0 </SpeedOverLife>
+		</EffectType>
+		<EffectType classname="CCylinderType[11]" texture_wrap="0" axis="0 1 0" unit_angle="20" texture_dir="1" name="???">
+			<Radius classname="CRadiusController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 300 </Radius>
+			<StartAngle classname="CAngleController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 135 </StartAngle>
+			<Angle classname="CAngleController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 360 </Angle>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect" column="32" row="32" x="6" y="20" name="Texture" />
+			<PositionY classname="CSizeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="?? ??">0 0 </PositionY>
+			<StartColor classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="StartColor">1000 FF000000 1500 FF231700 2200 FF511D03 3000 FF000000 </StartColor>
+			<Height classname="CSizeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="Height">0 0 1000 0 2500 1000 3000 2000 </Height>
+			<UpperRadius classname="CSizeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="?? ???">1000 400 2000 300 3000 280 </UpperRadius>
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="0" pivot="0.5 0.5" align="screen" name="?????? ??" align_axis="0 1 0">
+			<Texture texture="common_effect" tas_classname="tas_grid[10]" x="11" y="3" column="16" row="4" />
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 2000 </Life>
+			<Angle classname="CAngleController[8]" variance="0">0 0</Angle>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 500 4 2000 4 3500 0 </Number>
+			<Size classname="CSizeController[11]" variance="1" min="0.4" max="1.5" interpolation="1" repeat="0" repeat_from="0">0 350 </Size>
+			<Speed classname="CSpeedController[11]" variance="1" min="0.5" max="1.5" interpolation="1" repeat="0" repeat_from="0">0 -500 </Speed>
+			<Spin classname="CSpinController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </Spin>
+			<SizeOverLife classname="CSizeOverLifeController[8]" variance="0">0 1 1 1 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 FF000000 0.3 FFECE09E 0.5 FF230864 0.9 FF000000 </ColorOverLife>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 FF969696 </Color>
+		</EffectType>
+		<EffectType classname="CSuperEmitterType[10]" emitter_name="ruin_wind_sub" gravity_scale="0" life_randomness="50" name="???? ?(?????)">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">2000 1500 4000 1000 </Life>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 1500 20 2000 0 </Number>
+			<Speed classname="CSpeedController[11]" variance="1" min="0.3" max="1.3" interpolation="1" repeat="0" repeat_from="0">0 -400 </Speed>
+			<Angle classname="CAngleController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0.000000 </Angle>
+			<Spin classname="CSpinController[11]" variance="1" min="0" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </Spin>
+			<SpeedOverLife classname="CSpeedOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="?? ??">0 1 0.5 0.8 0.7 0 </SpeedOverLife>
+		</EffectType>
+	</Effect>
+	<nao_support_appear_sub_wind classname="CEmitterType[10]" rotation_axis="0 0 1" emission_dirtype="3" bsphere_radius="100 100 100" name="ruin_wind_sub">
+		<EmitterShape classname="CEmitterShapePoint[10]" link_to_emitter="0" area_type="0" position="0.0 0.0 0.0" />
+		<ActiveController classname="CActiveController[7]" variance="0" />
+		<EmissionAngleController classname="CEmissionAngleController[7]" variance="0">0 0</EmissionAngleController>
+		<EmissionOuterRangeController classname="CEmissionRangeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0</EmissionOuterRangeController>
+		<EmissionInnerRangeController classname="CEmissionRangeController[7]" variance="0">0 0</EmissionInnerRangeController>
+		<EffectType classname="CDiskType[10]" partition="1" pivot="0 1">
+			<Texture texture="common_effect_add_3" tas_classname="tas_grid[10]" x="1" y="0" column="2" row="2" />
+			<Life classname="CLifeController[11]" variance="0" min="0.1" max="0.6" interpolation="1" repeat="0" repeat_from="0">2500 2000 3000 0 </Life>
+			<Angle classname="CAngleController[11]" variance="0" min="0" max="1" interpolation="1" repeat="0" repeat_from="0">0 360</Angle>
+			<Size classname="CSizeController[11]" variance="0" min="0.7" max="1.3" interpolation="1" repeat="0" repeat_from="0">0 600 3000 800 </Size>
+			<Spin classname="CSpinController[11]" variance="0" min="0.8" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 450 </Spin>
+			<Color classname="CColorController[11]" variance="1" min="0.8" max="1.2" interpolation="1" repeat="0" repeat_from="0">0 FF000000 500 FF877122 1000 FFDBCD83 3000 FF000000 </Color>
+		</EffectType>
+	</nao_support_appear_sub_wind>
+	<Glasgavelen_ShoutOfDeath_beam classname="CEmitterType[10]" rotation_axis="0.000000 0.000000 1.000000" emission_dirtype="1" bsphere_radius="10" name="L_rod_01">
+		<ActiveController classname="CActiveController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" />
+		<EmissionAngleController classname="CEmissionAngleController[11]" variance="1" min="1.6" max="1" interpolation="0" repeat="0" repeat_from="0">0 90 </EmissionAngleController>
+		<EmissionOuterRangeController classname="CEmissionRangeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0.0</EmissionOuterRangeController>
+		<EmitterShape classname="CEmitterShapePoint[10]" link_to_emitter="1" area_type="0" position="0 0 0" name="EmitterShape" />
+		<EffectType classname="CCylinderType[11]" texture_wrap="2" axis="0 1 0" unit_angle="120" texture_dir="0" name="???1">
+			<VertexModifier classname="CLRodColor" />
+			<Radius classname="CRadiusController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 30 </Radius>
+			<StartAngle classname="CAngleController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </StartAngle>
+			<Angle classname="CAngleController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 360 </Angle>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect" column="16" row="4" x="11" y="3" name="Texture" />
+			<PositionY classname="CSizeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="?? ??">0 0 </PositionY>
+			<StartColor classname="CColorController[11]" variance="1" min="1" max="1" interpolation="1" repeat="1" repeat_from="0" name="StartColor">0 FFFF0000 700 FF000000 1400 FF00FF00 2100 FF000000 2800 FF0000FF 3500 FF000000 4200 FFFFFFFF 4900 FF000000 5000 FF000000</StartColor>
+			<Height classname="CSizeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="Height">0 300 </Height>
+		</EffectType>
+	</Glasgavelen_ShoutOfDeath_beam>
+	<Effect classname="CEmitterType[10]" rotation_axis="0 0 1.000000" emission_dirtype="3" bsphere_radius="200" name="fx_ruins_selecting">
+		<ActiveController classname="CActiveController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </ActiveController>
+		<EmissionAngleController classname="CEmissionAngleController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </EmissionAngleController>
+		<EmissionOuterRangeController classname="CEmissionRangeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </EmissionOuterRangeController>
+		<EmitterShape classname="CEmitterShapeCircle[10]" link_to_emitter="1" area_type="0" radius="400" name="EmitterShape" />
+		<EffectType classname="CCylinderType[11]" texture_wrap="1" axis="0 1 0" unit_angle="20" texture_dir="1" name="???">
+			<Radius classname="CRadiusController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 500 330 1900 420 </Radius>
+			<Height classname="CSizeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 300 300 2000 600 </Height>
+			<StartAngle classname="CAngleController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 225 </StartAngle>
+			<Angle classname="CAngleController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 360 </Angle>
+			<StartColor classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 FF000000 100 FF7D6A01 500 FF63300F 1900 FF000000 </StartColor>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect" column="16" row="4" x="11" y="3" name="Texture" />
+			<PositionY classname="CSizeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="?? ??">0 -100 </PositionY>
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="0.5" pivot="0.5 0.5" align="screen" align_axis="0 1 0" name="???">
+			<Life classname="CLifeController[11]" variance="1" min="0.8" max="1.2" interpolation="0" repeat="0" repeat_from="0">0 1000 </Life>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">100 0 700 50 2000 0 </Number>
+			<Angle classname="CAngleController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </Angle>
+			<Size classname="CSizeController[11]" variance="1" min="0.7" max="1.2" interpolation="1" repeat="0" repeat_from="0">0 40 </Size>
+			<Speed classname="CSpeedController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 50 </Speed>
+			<Spin classname="CSpinController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 300 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 FFFFEC9F </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect" column="16" row="16" x="1" y="6" name="Texture" />
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="0.9" max="1.1" interpolation="0" repeat="1" repeat_from="0" name="?? ??">0 FFC32900 0.3 FF000000 0.7 FFFFE787 1 FF000000 </ColorOverLife>
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="?? ??">0 1 0.3 2 0.8 1 1 0 </SizeOverLife>
+			<SpeedOverLife classname="CSpeedOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="?? ??">0 3 0.2 1 1 0.5 </SpeedOverLife>
+		</EffectType>
+		<EffectType classname="CBillboardType[10]" angle="0" pivot="0.5 0.5" name="???">
+			<Size classname="CSizeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 500 800 2000 1000 </Size>
+			<Spin classname="CSpinController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 FF000000 500 FFA8AC76 1500 FF192039 2000 FF000000 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_add_3" column="2" row="2" x="0" y="0" name="Texture" />
+		</EffectType>
+	</Effect>
+	<Effect classname="CEmitterType[10]" rotation_axis="0 0 1.0" emission_dirtype="3" bsphere_radius="200" name="fx_ruins_disappear">
+		<EmitterShape classname="CEmitterShapePoint[10]" link_to_emitter="1" area_type="0" position="0 0 0" />
+		<ActiveController classname="CActiveController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </ActiveController>
+		<EmissionAngleController classname="CEmissionAngleController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </EmissionAngleController>
+		<EmissionOuterRangeController classname="CEmissionRangeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </EmissionOuterRangeController>
+		<EffectType classname="CParticleType[10]" gravity_scale="1" pivot="0.5 0.5" align="world_y" align_axis="0 1 0" name="????">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">1000 2000 3500 500 </Life>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">2800 1 3000 0 </Number>
+			<Angle classname="CAngleController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </Angle>
+			<Size classname="CSizeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 700 </Size>
+			<Speed classname="CSpeedController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 500 </Speed>
+			<Spin classname="CSpinController[11]" variance="1" min="0.7" max="1.6" interpolation="1" repeat="0" repeat_from="0">0 180 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 FFFFFFFF 1000 FFCDCDCD 2000 FF000000 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_add_3" column="2" row="2" x="0" y="0" name="Texture" />
+			<SizeOverLife classname="CSizeOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="?? ??">0 1 1 1 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="?? ??">0 FF000000 0.3 FFFFEFA4 0.5 FF815C52 1 FF000000 </ColorOverLife>
+			<SpinOverLife classname="CSpinOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="?? ??">0 0 0.5 0.8 1 1 </SpinOverLife>
+		</EffectType>
+		<EffectType classname="CCylinderType[11]" texture_wrap="0" axis="0 1 0" unit_angle="20" texture_dir="1" name="???">
+			<Radius classname="CRadiusController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 300 </Radius>
+			<StartAngle classname="CAngleController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 135 </StartAngle>
+			<Angle classname="CAngleController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 360 </Angle>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect" column="32" row="32" x="6" y="20" name="Texture" />
+			<PositionY classname="CSizeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="?? ??">0 0 </PositionY>
+			<StartColor classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="StartColor">1000 FF000000 1500 FF342200 2200 FF612304 3000 FF000000 </StartColor>
+			<Height classname="CSizeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="Height">0 0 1000 0 2500 1000 3000 2000 </Height>
+			<UpperRadius classname="CSizeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0" name="?? ???">1000 400 2000 300 3000 280 </UpperRadius>
+		</EffectType>
+		<EffectType classname="CParticleType[10]" gravity_scale="0" pivot="0.5 0.5" align="screen" name="?????? ??" align_axis="0 1 0">
+			<Texture texture="common_effect" tas_classname="tas_grid[10]" x="11" y="3" column="16" row="4" />
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 2000 </Life>
+			<Angle classname="CAngleController[8]" variance="0">0 0</Angle>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 500 4 2000 4 2500 0 </Number>
+			<Size classname="CSizeController[11]" variance="1" min="0.4" max="1.5" interpolation="1" repeat="0" repeat_from="0">0 250 </Size>
+			<Speed classname="CSpeedController[11]" variance="1" min="0.5" max="1.5" interpolation="1" repeat="0" repeat_from="0">0 1000 </Speed>
+			<Spin classname="CSpinController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </Spin>
+			<SizeOverLife classname="CSizeOverLifeController[8]" variance="0">0 1 1 1 </SizeOverLife>
+			<ColorOverLife classname="CColorOverLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 FF000000 0.3 FFECE09E 0.5 FF230864 0.9 FF000000 </ColorOverLife>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 FF969696 </Color>
+		</EffectType>
+		<EffectType classname="CSuperEmitterType[10]" emitter_name="ruin_wind_sub" gravity_scale="0" life_randomness="50" name="???? ?(?????)">
+			<Life classname="CLifeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 1500 </Life>
+			<Number classname="CNumberController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 1000 20 1500 0 </Number>
+			<Speed classname="CSpeedController[11]" variance="1" min="0.3" max="1.3" interpolation="1" repeat="0" repeat_from="0">0 200 </Speed>
+			<Angle classname="CAngleController[7]" variance="0">0 0.000000 </Angle>
+			<Spin classname="CSpinController[7]" variance="1" min="0" max="1">0 0</Spin>
+		</EffectType>
+	</Effect>
+	<Effect classname="CEmitterType[10]" rotation_axis="0.000000 1.000000 0.000000" emission_dirtype="3" bsphere_radius="200" name="L_rod_02">
+		<ActiveController classname="CActiveController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </ActiveController>
+		<EmissionAngleController classname="CEmissionAngleController[11]" variance="0" min="-1.0" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </EmissionAngleController>
+		<EmissionOuterRangeController classname="CEmissionRangeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </EmissionOuterRangeController>
+		<EmitterShape classname="CEmitterShapePoint[10]" link_to_emitter="1" area_type="0" position="0 0 0" name="EmitterShape" />
+		<EffectType classname="CBillboardType[10]" angle="0" pivot="0.5 0.5" name="screw">
+			<VertexModifier classname="CLRodColor" />
+			<Size classname="CSizeController[11]" variance="0" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 12 </Size>
+			<Spin classname="CSpinController[11]" variance="1" min="0.6" max="1.5" interpolation="1" repeat="0" repeat_from="0">0 -180 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="1" repeat_from="0">0 FFDEDEDE 400 FF6C6C6C 600 FF6C6C6C 1000 FFDEDEDE </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_add_2" column="8" row="8" x="1" y="1" name="Texture" />
+		</EffectType>
+		<EffectType classname="CBillboardType[10]" angle="0" pivot="0.4 0.4" name="noise">
+			<VertexModifier classname="CLRodColor" />
+			<Size classname="CSizeController[11]" variance="0" min="0.9" max="1.1" interpolation="1" repeat="1" repeat_from="0">0 8 300 10 800 15 1000 20 </Size>
+			<Spin classname="CSpinController[11]" variance="0" min="-1" max="1" interpolation="1" repeat="0" repeat_from="0">0 -180 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="1" repeat_from="0">0 FF000000 300 FFFFFFFF 500 FFFFFFFF 800 FF424242 1000 FF000000 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_add_2" column="8" row="8" x="3" y="1" name="Texture" />
+		</EffectType>
+		<EffectType classname="CBillboardType[10]" angle="0" pivot="0.7 0.7" name="noise2">
+			<VertexModifier classname="CLRodColor" />
+			<Size classname="CSizeController[11]" variance="0" min="0.9" max="1.1" interpolation="1" repeat="1" repeat_from="0">400 10 700 13 1200 15 1400 20 </Size>
+			<Spin classname="CSpinController[11]" variance="0" min="-1" max="1" interpolation="1" repeat="0" repeat_from="0">0 -180 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="1" repeat_from="0">400 FF000000 700 FFFFFFFF 900 FFFFFFFF 1200 FF424242 1400 FF000000 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_add_2" column="8" row="8" x="3" y="1" name="Texture" />
+		</EffectType>
+		<EffectType classname="CBillboardType[10]" angle="65" pivot="0.7 0.7" name="cloud">
+			<VertexModifier classname="CLRodColor" />
+			<Size classname="CSizeController[11]" variance="0" min="0.9" max="1.1" interpolation="1" repeat="1" repeat_from="0">400 10 700 13 1400 30 </Size>
+			<Spin classname="CSpinController[11]" variance="0" min="-1" max="1" interpolation="1" repeat="0" repeat_from="0">0 -130 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="1" repeat_from="0">400 00FFFFFF 700 FF6E6E6E 900 FFC2C2C2 1200 00FFFFFF 1400 00FFFFFF </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="4" row="4" x="1" y="2" name="Texture" />
+		</EffectType>
+		<EffectType classname="CBillboardType[10]" angle="0" pivot="0.7 0.7" name="cloud2">
+			<VertexModifier classname="CLRodColor" />
+			<Size classname="CSizeController[11]" variance="0" min="0.9" max="1.1" interpolation="1" repeat="1" repeat_from="0">100 10 400 13 1100 30 </Size>
+			<Spin classname="CSpinController[11]" variance="0" min="-1" max="1" interpolation="1" repeat="0" repeat_from="0">0 -70 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="1" repeat_from="0">100 00FFFFFF 400 FF8D8D8D 600 FFFFFFFF 900 00FFFFFF 1100 00FFFFFF </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="4" row="4" x="1" y="2" name="Texture" />
+		</EffectType>
+		<EmitterShapeMove classname="CPositionController[11]" variance="0" min="1" max="1" interpolation="1" repeat="1" repeat_from="0" name="??">0 0 0 0 300 0 0 0 500 0 0 0 800 0 0 0 1000 0 0 0 </EmitterShapeMove>
+		<EffectType classname="CBillboardType[10]" angle="0" pivot="0.5 0.5" name="screw1">
+			<VertexModifier classname="CLRodColor" />
+			<Size classname="CSizeController[11]" variance="0" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 14 </Size>
+			<Spin classname="CSpinController[11]" variance="1" min="0.6" max="1.5" interpolation="1" repeat="0" repeat_from="0">0 -180 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="1" repeat_from="0">0 FFC0C0C0 300 FF000000 500 FF000000 1000 FFC3C3C3 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_add_2" column="8" row="8" x="1" y="1" name="Texture" />
+		</EffectType>
+	</Effect>
+	<Effect classname="CEmitterType[10]" rotation_axis="0.000000 1.000000 0.000000" emission_dirtype="3" bsphere_radius="200" name="L_rod_03">
+		<ActiveController classname="CActiveController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </ActiveController>
+		<EmissionAngleController classname="CEmissionAngleController[11]" variance="0" min="-1.0" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </EmissionAngleController>
+		<EmissionOuterRangeController classname="CEmissionRangeController[11]" variance="0" min="1" max="1" interpolation="1" repeat="0" repeat_from="0">0 0 </EmissionOuterRangeController>
+		<EmitterShape classname="CEmitterShapePoint[10]" link_to_emitter="1" area_type="0" position="0 0 0" name="EmitterShape" />
+		<EffectType classname="CBillboardType[10]" angle="0" pivot="0.5 0.5" name="screw">
+			<VertexModifier classname="CLRodColor" />
+			<Size classname="CSizeController[11]" variance="0" min="0.9" max="1.1" interpolation="1" repeat="0" repeat_from="0">0 12 </Size>
+			<Spin classname="CSpinController[11]" variance="0" min="0.6" max="1.5" interpolation="1" repeat="0" repeat_from="0">0 200 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="1" repeat_from="0">0 FFDEDEDE 500 FF4D4D4D 1000 FFDEDEDE </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_add_2" column="8" row="8" x="1" y="1" name="Texture" />
+		</EffectType>
+		<EffectType classname="CBillboardType[10]" angle="0" pivot="0.4 0.4" name="noise">
+			<VertexModifier classname="CLRodColor" />
+			<Size classname="CSizeController[11]" variance="0" min="0.9" max="1.1" interpolation="1" repeat="1" repeat_from="0">0 8 300 10 800 15 1000 20 </Size>
+			<Spin classname="CSpinController[11]" variance="0" min="-1" max="1" interpolation="1" repeat="0" repeat_from="0">0 180 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="1" repeat_from="0">0 FF000000 300 FFFFFFFF 500 FFFFFFFF 800 FF424242 1000 FF000000 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_add_2" column="8" row="8" x="3" y="1" name="Texture" />
+		</EffectType>
+		<EffectType classname="CBillboardType[10]" angle="0" pivot="0.7 0.7" name="noise2">
+			<VertexModifier classname="CLRodColor" />
+			<Size classname="CSizeController[11]" variance="0" min="0.9" max="1.1" interpolation="1" repeat="1" repeat_from="0">400 10 700 13 1200 15 1400 20 </Size>
+			<Spin classname="CSpinController[11]" variance="0" min="-1" max="1" interpolation="1" repeat="0" repeat_from="0">0 180 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="1" repeat_from="0">400 FF000000 700 FFFFFFFF 900 FFFFFFFF 1200 FF424242 1400 FF000000 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_add_2" column="8" row="8" x="3" y="1" name="Texture" />
+		</EffectType>
+		<EffectType classname="CBillboardType[10]" angle="65" pivot="0.7 0.7" name="cloud">
+			<VertexModifier classname="CLRodColor" />
+			<Size classname="CSizeController[11]" variance="0" min="0.9" max="1.1" interpolation="1" repeat="1" repeat_from="0">400 10 700 13 1400 30 </Size>
+			<Spin classname="CSpinController[11]" variance="0" min="-1" max="1" interpolation="1" repeat="0" repeat_from="0">0 130 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="1" repeat_from="0">400 00FFFFFF 700 FF6E6E6E 900 FFC2C2C2 1200 00FFFFFF 1400 00FFFFFF </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="4" row="4" x="1" y="2" name="Texture" />
+		</EffectType>
+		<EffectType classname="CBillboardType[10]" angle="0" pivot="0.7 0.7" name="cloud2">
+			<VertexModifier classname="CLRodColor" />
+			<Size classname="CSizeController[11]" variance="0" min="0.9" max="1.1" interpolation="1" repeat="1" repeat_from="0">100 10 400 13 1100 30 </Size>
+			<Spin classname="CSpinController[11]" variance="0" min="-1" max="1" interpolation="1" repeat="0" repeat_from="0">0 70 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="1" repeat_from="0">100 00FFFFFF 400 FF8D8D8D 600 FFFFFFFF 900 00FFFFFF 1100 00FFFFFF </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_alpha" column="4" row="4" x="1" y="2" name="Texture" />
+		</EffectType>
+		<EmitterShapeMove classname="CPositionController[11]" variance="0" min="1" max="1" interpolation="1" repeat="1" repeat_from="0" name="??">0 0 0 0 300 0 0 0 500 0 0 0 800 0 0 0 1000 0 0 0 </EmitterShapeMove>
+		<EffectType classname="CBillboardType[10]" angle="0" pivot="0.5 0.5" name="screw1">
+			<VertexModifier classname="CLRodColor" />
+			<Size classname="CSizeController[11]" variance="0" min="0.9" max="1.1" interpolation="1" repeat="1" repeat_from="0">0 18 300 16 500 16 1000 18 </Size>
+			<Spin classname="CSpinController[11]" variance="0" min="0.6" max="1.5" interpolation="1" repeat="0" repeat_from="0">0 180 </Spin>
+			<Color classname="CColorController[11]" variance="0" min="1" max="1" interpolation="1" repeat="1" repeat_from="0">0 FFC0C0C0 500 FF4D4D4D 1000 FFC3C3C3 </Color>
+			<Texture tas_classname="tas_grid[10]" texture="common_effect_add_2" column="8" row="8" x="1" y="1" name="Texture" />
+		</EffectType>
+	</Effect>
+</EffectGroup>

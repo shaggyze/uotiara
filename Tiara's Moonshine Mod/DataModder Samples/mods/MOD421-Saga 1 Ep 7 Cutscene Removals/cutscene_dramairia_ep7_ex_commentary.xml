@@ -1,0 +1,626 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<cutscene>
+	<scenario name="DramaIria_Ep7_EX_commentary">
+		<!--7-5 : 제목미정-->
+		<stage region="411" origin="0 3000 0" hide="character_only" hide_balloon="true" />
+		<client_sequence terminated_by_esc_with_keyword="drama_iria06_complete">
+			<!--암전-->
+			<effect cmd="fadeout" duration="0" color="000000" continue="true" />
+			<appear cmd="appear" id="쇼르" actor="#DramaIria_sior2" pos="9215 0 8655" dir="-90" alpha="255" />
+			<appear cmd="appear" id="슬레이트맨" actor="#DramaIria_staff_slateman" pos="9211 0 8517" dir="-90" alpha="255" />
+			<!--인터뷰-->
+			<appear cmd="appear" id="루에리" actor="#DramaIria_Ruari" pos="9159 0 8987" dir="-90" alpha="255" />
+			<appear cmd="appear" id="타르라크" actor="#DramaEp7BlaskMask" pos="9071 0 8987" dir="-90" alpha="255" />
+			<appear cmd="appear" id="아쿨" actor="#DramaIria_Akule" pos="8994 0 8987" dir="-90" alpha="255" />
+			<appear cmd="appear" id="밀리아" actor="#shamalaS2_girl" pos="8918 0 8987" dir="-90" alpha="255" />
+			<appear cmd="appear" id="샤말라" actor="#shamala_cutscene" pos="8813 0 8987" dir="-90" alpha="255" />
+			<appear cmd="appear" id="메이크" actor="#DramaMeic" pos="8725 0 8998" dir="-90" alpha="255" />
+			<appear cmd="appear" id="다우라" actor="#DramaDaella" pos="8640 0 8997" dir="-90" alpha="255" />
+			<!--배우들-->
+			<system cmd="set_actor_group" id="배우들" members="루에리 타르라크 아쿨 밀리아 샤말라 메이크 다우라" />
+			<!--슬레이트, 영상 시작-->
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="play_music" name="Dugald_aisle_camp" loop="true" />
+					<!--배우들 아이들 모션 세팅-->
+					<action cmd="set_motion" id="타르라크" motion="human\male\anim\male_stand_Tarlach_anguish" chain="false" loop="true" />
+					<action cmd="set_motion" id="아쿨" motion="chapter4\human\male\anim\male_c4_npc_owen_talk" chain="false" loop="true" />
+					<action cmd="set_motion" id="밀리아" motion="chapter4\human\female\anim\female_c4_npc_posser_talk" chain="false" loop="true" />
+					<action cmd="set_motion" id="샤말라" motion="chapter4\human\female\anim\female_c4_npc_skatha_talk" chain="false" loop="true" />
+					<action cmd="set_motion" id="메이크" motion="chapter4\human\male\anim\male_c4_npc_guest_talk" chain="false" loop="true" />
+					<action cmd="set_motion" id="다우라" motion="chapter3\giant\female\anim\giant_female_c3_npc_karpfen" chain="false" loop="true" />
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="set_pos" pos="9213 120 8237" />
+					<camera cmd="set_target_pos" pos="9225 120 8758" />
+					<action cmd="set_motion" id="슬레이트맨" motion="chapter4/human/anim/cutscene2/ending18_slateman.ani" chain="false" />
+					<effect cmd="fadein" duration="1000" color="000000" />
+					<system cmd="wait" duration="2000" />
+					<action cmd="set_motion" id="쇼르" motion="chapter4/human/anim/cutscene/2act/2act2ch_shakespear_talk01.ani" chain="false" />
+					<system cmd="wait" duration="4500" />
+					<action cmd="set_motion_timescale" id="슬레이트맨" scale="0.01" />
+				</sequence>
+				<sequence>
+					<system cmd="wait" duration="5000" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5419]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<disappear cmd="disappear" id="슬레이트맨" />
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="65" />
+					<camera cmd="set_pos" pos="9307 120 8406" />
+					<camera cmd="set_target_pos" pos="8880 120 9000" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5420]" />
+					<action cmd="set_motion" id="쇼르" motion="human/anim/uni_natural_stand_widestraight" chain="false" />
+					<action cmd="look_at_actor" id="쇼르" target="아쿨" />
+					<system cmd="wait" duration="1000" />
+					<action cmd="set_motion" id="쇼르" motion="human/anim/social_motion/human_male_natural_emotion_greeting" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5421]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="65" />
+					<camera cmd="set_pos" pos="8873 120 8145" />
+					<camera cmd="set_target_pos" pos="8875 120 8959" />
+					<action cmd="set_motion" id="루에리" motion="human/anim/social_motion/human_male_natural_emotion_greeting" chain="false" />
+					<action cmd="set_motion" id="타르라크" motion="human/anim/social_motion/human_male_natural_emotion_greeting" chain="false" />
+					<action cmd="set_motion" id="아쿨" motion="human/anim/social_motion/human_male_natural_emotion_greeting" chain="false" />
+					<action cmd="set_motion" id="밀리아" motion="human/anim/social_motion/human_female_natural_emotion_greeting" chain="false" />
+					<action cmd="set_motion" id="샤말라" motion="human/anim/social_motion/human_female_natural_emotion_greeting" chain="false" />
+					<action cmd="set_motion" id="메이크" motion="chapter4\human\male\anim\male_c4_npc_augustine_talk" loop="true" chain="false" />
+					<action cmd="set_motion" id="다우라" motion="giant/anim/social_motion/giant_female_natural_emotion_greeting" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5422]" />
+					<action cmd="move_to" id="쇼르" pos="9001 0 8902" run="false" async="true" />
+					<system cmd="wait" duration="500" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<!--배우들 아이들 모션 세팅-->
+					<action cmd="set_motion" id="타르라크" motion="human\male\anim\male_stand_Tarlach_anguish" chain="false" loop="true" />
+					<action cmd="set_motion" id="아쿨" motion="chapter4\human\male\anim\male_c4_npc_owen_talk" chain="false" loop="true" />
+					<action cmd="set_motion" id="밀리아" motion="chapter4\human\female\anim\female_c4_npc_posser_talk" chain="false" loop="true" />
+					<action cmd="set_motion" id="샤말라" motion="chapter4\human\female\anim\female_c4_npc_skatha_talk" chain="false" loop="true" />
+					<action cmd="set_motion" id="메이크" motion="chapter4\human\male\anim\male_c4_npc_guest_talk" chain="false" loop="true" />
+					<action cmd="set_motion" id="다우라" motion="chapter3\giant\female\anim\giant_female_c3_npc_karpfen" chain="false" loop="true" />
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="40" />
+					<camera cmd="set_pos" pos="8739 120 8638" />
+					<camera cmd="set_target_pos" pos="8964 120 8928" />
+					<action cmd="look_at_actor" id="밀리아" target="쇼르" />
+					<system cmd="wait" duration="1800" />
+					<action cmd="look_at_pos" id="쇼르" pos="8739 120 8638" />
+					<system cmd="wait" duration="500" />
+					<action cmd="set_motion" id="쇼르" motion="chapter4/human/anim/cutscene/1act/1act5ch_horatio_talk01.ani " chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5423]" />
+					<action cmd="stop_look_at" id="밀리아" />
+					<action cmd="set_motion" id="밀리아" motion="chapter4/human/anim/cutscene2/1act/1act1ch_ca_servant_talk01.ani" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5424]" />
+					<action cmd="set_motion" id="쇼르" motion="human/anim/uni_natural_stand_widestraight" chain="false" />
+					<action cmd="look_at_actor" id="쇼르" target="밀리아" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5425]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<action cmd="set_motion" id="쇼르" motion="human/anim/uni_natural_stand_widestraight" chain="false" />
+					<action cmd="set_motion" id="밀리아" motion="chapter4\human\female\anim\female_c4_npc_posser_talk" chain="false" loop="true" />
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="40" />
+					<camera cmd="set_pos" pos="9403 170 8880" />
+					<camera cmd="set_target_pos" pos="9025 120 8946" />
+					<action cmd="look_at_actor" id="쇼르" target="루에리" />
+					<action cmd="look_at_actor" id="루에리" target="쇼르" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5426]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="40" />
+					<camera cmd="set_pos" pos="9087 150 8794" />
+					<camera cmd="set_target_pos" pos="9158 150 8996" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5427]" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5428]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="30" />
+					<camera cmd="set_pos" pos="9138 170 8832" />
+					<camera cmd="set_target_pos" pos="9158 170 8996" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5429]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="55" />
+					<camera cmd="set_pos" pos="9248 170 8629" />
+					<camera cmd="set_target_pos" pos="9076 120 8924" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5430]" />
+					<action cmd="set_motion" id="쇼르" motion="chapter4/human/anim/cutscene/1act/1act5ch_horatio_talk01.ani" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5431]" />
+					<action cmd="stop_look_at" id="루에리" />
+					<action cmd="set_motion" id="루에리" motion="chapter3\human\male\anim\male_c3_npc_leymore" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5432]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="set_pos" pos="8941 120 8732" />
+					<camera cmd="set_target_pos" pos="9125 150 9017" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5433]" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5434]" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5435]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="set_pos" pos="8879 120 8651" />
+					<camera cmd="set_target_pos" pos="8968 120 8960" />
+					<action cmd="look_at_actor" id="쇼르" target="밀리아" />
+					<action cmd="look_at_actor" id="밀리아" target="쇼르" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5436]" />
+					<action cmd="set_motion" id="밀리아" motion="chapter4\human\female\anim\female_c4_npc_wildwoman_talk" loop="true" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5437]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<action cmd="change_alpha" id="샤말라" alpha="0" duration="0" />
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="set_pos" pos="8709 150 9050" />
+					<camera cmd="set_target_pos" pos="9017 120 8925" />
+					<action cmd="set_face" id="쇼르" keyword="2" />
+					<action cmd="set_motion" id="쇼르" motion="chapter4/human/anim/cutscene2/1act/1act1ch_citizen_talk03.ani" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5438]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<action cmd="change_alpha" id="샤말라" alpha="255" duration="0" />
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="30" />
+					<camera cmd="set_pos" pos="8940 140 8785" />
+					<camera cmd="set_target_pos" pos="8918 140 8990" />
+					<action cmd="set_motion" id="쇼르" motion="human/anim/uni_natural_stand_widestraight" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5439]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="55" />
+					<camera cmd="set_pos" pos="8890 150 8946" />
+					<camera cmd="set_target_pos" pos="9005 150 8905" />
+					<action cmd="set_face" id="쇼르" keyword="18" />
+					<action cmd="set_motion" id="쇼르" motion="chapter4/human/anim/cutscene/1act/1act5ch_player_talk01.ani" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5440]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="set_pos" pos="9064 120 8667" />
+					<camera cmd="set_target_pos" pos="9037 120 9001" />
+					<action cmd="set_face" id="쇼르" keyword="0" />
+					<action cmd="look_at_actor" id="쇼르" target="타르라크" />
+					<action cmd="look_at_actor" id="타르라크" target="쇼르" />
+					<action cmd="look_at_actor" id="루에리" target="타르라크" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5441]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="40" />
+					<camera cmd="set_pos" pos="9071 150 8765" />
+					<camera cmd="set_target_pos" pos="9067 150 8992" />
+					<action cmd="stop_look_at" id="타르라크" />
+					<action cmd="set_dir" id="타르라크" dir="-110" />
+					<action cmd="set_motion" id="타르라크" motion="chapter3\human\male\anim\male_c3_npc_leymore" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5442]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="45" />
+					<camera cmd="set_pos" pos="9064 120 8667" />
+					<camera cmd="set_target_pos" pos="9037 120 9001" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5443]" />
+					<action cmd="set_motion" id="타르라크" motion="human/anim/social_motion/human_uni_natural_emotion_yes" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5444]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="40" />
+					<camera cmd="set_pos" pos="9161 120 8786" />
+					<camera cmd="set_target_pos" pos="9060 150 8996" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5445]" />
+					<action cmd="set_motion" id="타르라크" motion="human/anim/social_motion/human_uni_natural_emotion_no" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5446]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="set_pos" pos="8555 150 8853" />
+					<camera cmd="set_target_pos" pos="8889 120 8944" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5447]" />
+					<action cmd="look_at_actor" id="쇼르" target="샤말라" />
+					<action cmd="move_to" id="쇼르" pos="8892 0 8879" run="false" async="true" />
+					<system cmd="wait" duration="1000" />
+					<action cmd="look_at_actor" id="샤말라" target="쇼르" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5448]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="set_pos" pos="8830 140 8869" />
+					<camera cmd="set_target_pos" pos="8816 140 8989" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5449]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="40" />
+					<camera cmd="set_pos" pos="8923 170 8633" />
+					<camera cmd="set_target_pos" pos="8839 120 8987" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5450]" />
+					<action cmd="set_motion" id="샤말라" motion="chapter4/human/anim/social_motion/human_folder_arm" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5451]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="set_pos" pos="8732 140 8904" />
+					<camera cmd="set_target_pos" pos="8892 140 8879" />
+					<action cmd="set_motion" id="쇼르" motion="chapter4/human/anim/social_motion/human_folder_arm" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5452]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="set_pos" pos="8830 140 8869" />
+					<camera cmd="set_target_pos" pos="8816 140 8989" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5453]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="set_pos" pos="9183 120 8762" />
+					<camera cmd="set_target_pos" pos="8942 120 8935" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5454]" />
+					<action cmd="look_at_actor" id="쇼르" target="아쿨" />
+					<action cmd="look_at_actor" id="아쿨" target="쇼르" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5455]" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5456]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="set_pos" pos="9027 140 8949" />
+					<camera cmd="set_target_pos" pos="8892 140 8879" />
+					<action cmd="set_face" id="쇼르" keyword="12" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5457]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="60" />
+					<camera cmd="set_pos" pos="8925 150 8848" />
+					<camera cmd="set_target_pos" pos="8992 150 8988" />
+					<action cmd="stop_look_at" id="아쿨" />
+					<action cmd="set_dir" id="아쿨" dir="-120" />
+					<action cmd="set_motion" id="아쿨" motion="chapter3\human\male\anim\male_c3_npc_devi" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5458]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="set_pos" pos="8832 120 8648" />
+					<camera cmd="set_target_pos" pos="8960 120 8995" />
+					<action cmd="set_motion" id="쇼르" motion="human/anim/social_motion/human_uni_natural_emotion_surprise" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5459]" />
+					<action cmd="set_motion" id="아쿨" motion="human/anim/social_motion/human_uni_natural_emotion_laugh" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5460]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="set_pos" pos="9027 140 8949" />
+					<camera cmd="set_target_pos" pos="8892 140 8879" />
+					<action cmd="set_face" id="쇼르" keyword="18" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5461]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="40" />
+					<camera cmd="set_pos" pos="8832 150 8648" />
+					<camera cmd="set_target_pos" pos="8960 130 8995" />
+					<action cmd="set_motion" id="아쿨" motion="chapter4/human/anim/social_motion/human_folder_arm" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5462]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="set_pos" pos="9137 120 8768" />
+					<camera cmd="set_target_pos" pos="8945 140 8922" />
+					<action cmd="set_dir" id="밀리아" dir="-70" />
+					<action cmd="set_face" id="쇼르" keyword="0" />
+					<action cmd="set_motion" id="밀리아" motion="human/anim/emotion/uni_natural_emotion_test_TT" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5463]" />
+					<action cmd="set_motion" id="쇼르" motion="human/anim/social_motion/human_uni_natural_emotion_question" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5464]" />
+					<action cmd="set_motion" id="아쿨" motion="chapter3\human\male\anim\male_c3_npc_leymore" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5465]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="set_pos" pos="8933 120 8600" />
+					<camera cmd="set_target_pos" pos="8877 120 8886" />
+					<action cmd="look_at_pos" id="쇼르" pos="8920 120 8718" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5466]" />
+					<action cmd="stop_look_at" id="쇼르" />
+					<action cmd="move_to" id="쇼르" pos="8705 0 8887" run="false" async="true" />
+					<system cmd="wait" duration="500" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="set_pos" pos="8654 80 8638" />
+					<camera cmd="set_target_pos" pos="8665 170 8947" />
+					<action cmd="look_at_actor" id="다우라" target="쇼르" />
+					<action cmd="look_at_actor" id="메이크" target="쇼르" />
+					<system cmd="wait" duration="800" />
+					<action cmd="look_at_pos" id="쇼르" pos="8713 150 8634" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5467]" />
+					<action cmd="look_at_actor" id="쇼르" target="다우라" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5468]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="set_pos" pos="8640 220 8706" />
+					<camera cmd="set_target_pos" pos="8636 220 9004" />
+					<action cmd="stop_look_at" id="다우라" />
+					<action cmd="set_motion" id="다우라" motion="giant/anim/social_motion/giant_female_natural_emotion_laugh" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5469]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="60" />
+					<camera cmd="set_pos" pos="8952 140 8838" />
+					<camera cmd="set_target_pos" pos="8713 120 8949" />
+					<action cmd="set_motion" id="쇼르" motion="human/anim/social_motion/human_uni_natural_emotion_yes" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5470]" />
+					<action cmd="look_at_actor" id="쇼르" target="메이크" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5471]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="60" />
+					<camera cmd="set_pos" pos="8822 120 8736" />
+					<camera cmd="set_target_pos" pos="8698 120 8996" />
+					<action cmd="set_dir" id="쇼르" dir="80" />
+					<action cmd="set_motion" id="메이크" motion="chapter4\human\female\anim\female_c4_npc_wildwoman" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5472]" />
+					<action cmd="set_motion" id="쇼르" motion="chapter4/human/anim/social_motion/uni_offer" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5473]" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5474]" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5475]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<action cmd="set_motion" id="쇼르" motion="human/anim/uni_natural_stand_widestraight" chain="false" />
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="40" />
+					<camera cmd="set_pos" pos="8793 160 8844" />
+					<camera cmd="set_target_pos" pos="8713 160 9008" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5476]" />
+					<action cmd="stop_look_at" id="메이크" />
+					<action cmd="move_to" id="메이크" pos="9110 0 10453" run="false" async="true" />
+					<system cmd="wait" duration="200" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<action cmd="set_dir" id="쇼르" dir="70" />
+					<action cmd="look_at_actor" id="다우라" target="메이크" />
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="40" />
+					<camera cmd="set_pos" pos="8711 150 9307" />
+					<camera cmd="set_target_pos" pos="8703 120 8885" />
+					<action cmd="stop_look_at" id="쇼르" />
+					<action cmd="set_mouth" id="쇼르" keyword="44" />
+					<action cmd="set_motion" id="쇼르" motion="chapter4/human/anim/social_motion/male_tarzan_cutscene" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5477]" />
+					<system cmd="wait" duration="500" />
+					<action cmd="set_motion" id="쇼르" motion="human/anim/social_motion/human_uni_natural_emotion_cry" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5478]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="60" />
+					<camera cmd="set_pos" pos="8380 400 9183" />
+					<camera cmd="set_target_pos" pos="8715 100 8907" />
+					<action cmd="set_motion" id="다우라" motion="giant/anim/social_motion/giant_female_natural_emotion_question" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5479]" />
+					<action cmd="look_at_actor" id="다우라" target="쇼르" />
+					<action cmd="look_at_actor" id="쇼르" target="다우라" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5480]" />
+				</sequence>
+			</system>
+			<disappear cmd="disappear" id="메이크" />
+			<appear cmd="appear" id="퀘사르" actor="#shamalaS2_stranger" pos="8275 0 8819" dir="-90" alpha="255" />
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="50" />
+					<camera cmd="set_pos" pos="8711 120 8654" />
+					<camera cmd="set_target_pos" pos="8712 130 8886" />
+					<action cmd="look_at_pos" id="쇼르" pos="8711 120 8654" />
+					<action cmd="look_at_actor" id="배우들" target="쇼르" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5481]" />
+					<action cmd="set_motion" id="쇼르" motion="human/anim/social_motion/male_natural_emotion_salutec" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5482]" />
+					<action cmd="stop_look_at" id="쇼르" />
+					<action cmd="set_face" id="쇼르" keyword="2" />
+					<action cmd="set_motion" id="쇼르" motion="chapter4/human/anim/cutscene2/1act/1act1ch_citizen_talk03.ani" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5483]" />
+				</sequence>
+			</system>
+			<system cmd="nop">
+				<sequence>
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="60" />
+					<camera cmd="set_pos" pos="8947 120 8654" />
+					<camera cmd="set_target_pos" pos="8666 100 8812" />
+					<action cmd="look_at_actor" id="플레이어" target="퀘사르" />
+					<action cmd="look_at_actor" id="퀘사르" target="플레이어" />
+					<action cmd="move_to" id="퀘사르" pos="8562 0 8783" run="false" async="true" />
+					<system cmd="wait" duration="1000" />
+					<action cmd="look_at_actor" id="퀘사르" target="플레이어" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5484]" />
+					<action cmd="stop_look_at" id="쇼르" />
+					<action cmd="set_motion" id="쇼르" motion="chapter4/human/anim/social_motion/human_head_shake" chain="false" />
+					<action cmd="say_to_all" text="_LT[xml.cutscene.5485]" />
+					<!--시전모션-->
+					<action cmd="set_motion" id="퀘사르" motion="human/anim/magic/natural/uni_natural_magic_casting_offensive" chain="false" />
+					<effect cmd="play_effect" effect="collect_shape_success_old" pos="8608 80 8781" duration="5000" wait="false" />
+					<effect cmd="play_sound_2d" name="g1_dark_magic.wav" />
+					<effect cmd="play_effect" effect="g18_shamala2_snake_eye" pos="8711 150 8835" duration="5000" wait="false" />
+					<system cmd="wait" duration="500" />
+					<action cmd="set_face" id="쇼르" keyword="5" />
+					<action cmd="set_motion" id="쇼르" motion="chapter4/human/anim/social_motion/human_surprise02" chain="false" />
+					<system cmd="wait" duration="2000" />
+					<effect cmd="blur" name="DramaIria_ending_A" />
+					<camera cmd="stop" />
+					<action cmd="set_motion_timescale" id="다우라" scale="0.01" />
+					<action cmd="set_motion_timescale" id="쇼르" scale="0.01" />
+					<action cmd="set_motion_timescale" id="퀘사르" scale="0.01" />
+					<system cmd="wait" duration="1500" />
+					<effect cmd="fadeout" duration="1000" color="ffffff" continue="true" />
+					<effect cmd="stop_effect" id="blur" />
+					<effect cmd="stop_music" />
+				</sequence>
+			</system>
+			<!--예고편 영상 재생-->
+			<system cmd="set_region" region="current_only" origin="player_pos" hide="all" bg_color="000000" sky_time="1900" />
+			<system cmd="nop">
+				<sequence>
+					<effect cmd="create_prop" id="prop1" class_name="scene_test_BlackBox_01" pos="0 0 0" dir="-90" />
+					<camera cmd="stop" />
+					<camera cmd="stop_target" />
+					<camera cmd="set_fov" fov="2" />
+					<camera cmd="set_pos" pos="20 5 20" />
+					<camera cmd="set_target_pos" pos="0 5 0" />
+					<system cmd="wait" duration="2000" />
+					<effect cmd="fadein" duration="1000" color="ffffff" continue="true" />
+				</sequence>
+				<sequence>
+					<system cmd="wait" duration="2000" />
+					<effect cmd="movie" name="movie/DramaIria/DramaIria_ED_07.wmv" x="0.5" y="0.5" width="1024" height="576" loop="false" autofit="true" color="ffffffff" duration="32000" fade_duration="2000" />
+				</sequence>
+				<sequence>
+					<system cmd="wait" duration="32000" />
+					<system cmd="quit" />
+				</sequence>
+			</system>
+		</client_sequence>
+		<!--<server_sequence>
+				<master>
+					<mint value="dungeon2/798501_DragonNightRuairiBattle.mint::OnEndCutsceneEnter01" />		
+				</master>
+			</server_sequence>-->
+	</scenario>
+</cutscene>

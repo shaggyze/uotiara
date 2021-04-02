@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<!-- TabFrame for CharacterInfo.xml -->
+<CharacterPetFrame name="Partner" x="0" y="0" width="[$parent $innerWidth]" height="[$parent $innerHeight]" noBorder="true">
+	
+	<meta>
+		<data key="mode" type="string" value="partner" />
+	</meta>
+	<ResizeDependency top="top" bottom="bottom" left="left" right="right" />
+	<Frame name="PetRTTFrame" x="0" y="0" width="120" height="230" noBorder="false" >
+		<Image name="PetRTTImage" x="15" y="0" scaleX="0.64" scaleY="0.64" file="rts:charview_portrait" picking="false" />
+	</Frame>
+	<Button name="SummonButton" x="0" y="[PetRTTFrame height]" width="120" height="24" title="_LT[xml.layout.143]" enable="false"  imageType="0" />
+	<!-- 펫 이름표 관련 - creator, 2012, 03, 28 -->
+	<ToggleButton name="NameTagButton" x="0" y="[PetRTTFrame height]+25" width="120" height="24" titleOff="_LT[xml.layout.873]" titleOn="_LT[xml.layout.872]" enable="false" imageType="0" />
+	<Frame name="NameTagSetFrame" x="-127" y="[$parent $innerHeight]-147" width="120" height="150" imageType="8" externalFrame="true" visible="false" noBorder="true">
+		<Edit2 name="NameTagEdit" title="" x="2" y="4" width="[$parent $innerWidth]-10" height="[$parent $innerHeight]-70" length="80" editable="false" multiLine="true" />
+		<Text name="NameTagLengthText" title="" x="[$parent $innerWidth]-40" y="[$parent $innerHeight]-65" width="40" height="20" align="right" multiline="false" />
+		<Frame x="2" y="[$parent $innerHeight]-[height]-14" width="[$parent $innerWidth]-4" height="22*2+7" noBorder="true" >
+			<Button name="NameTagSaveButton" x="-2" y="0" width="[$parent $innerWidth]+4" height="24" title="_LT[xml.layout.870]" enable="false"  imageType="0" />
+			<Button name="NameTagCloseButton" x="-2" y="26" width="[$parent $innerWidth]+4" height="24" title="_LT[xml.layout.871]"  imageType="0" />
+		</Frame>
+	</Frame>
+	<Button name="ShopSummonButton" x="0" y="[SummonButton y]+[SummonButton height]" width="120" height="24" title="_LT[xml.layout.144]" enable="false" visible="false"  imageType="0" />
+	<LobbyListBox name="PetListBox" x="[PetRTTFrame width]+4" y="0" width="[$parent $innerWidth]-([x])-2" height="[$parent $innerHeight] - 24" capture_icon="true">
+		<ResizeDependency top="top" bottom="bottom" />
+	</LobbyListBox>
+	<Button name="SetAIButton" x="[PetListBox x]" y="[PetListBox y]+[PetListBox height]" width="([PetListBox width])/3" height="24" title="_LT[xml.layout.146]"  imageType="0" >
+		<ResizeDependency top="bottom" bottom="bottom" />
+	</Button>
+	<ToggleButton name="SetPetOrderButton" x="[SetAIButton x]+[SetAIButton width]" y="[SetAIButton y]" width="([PetListBox width])/3" height="24" titleOff="_LT[xml.layout.158]" titleOn="_LT[xml.layout.157]" imageType="0" >
+		<ResizeDependency top="bottom" bottom="bottom" />
+	</ToggleButton>
+	<Frame name="PetSortFrame" x="[$parent width]+8" y="90" width="120" height="206" externalFrame="true" visible="false">
+		<ComboBox name="PetSortComboBox" x="4" y="4" width="[$parent width]-20" maxListHeight="50" title="_LT[xml.layout.147]" defaultSelectedIndex="-1">
+			<ComboBoxItem title="_LT[xml.layout.148]" />
+			<ComboBoxItem title="_LT[xml.layout.149]" />
+			<ComboBoxItem title="_LT[xml.layout.150]" />
+		</ComboBox>
+		<Frame x="2" y="42" width="[$parent $innerWidth]-4" height="22*4+7">
+			<Button name="PetMoveTopButton" x="-2" y="-2" width="[$parent $innerWidth]+4" height="22" title="_LT[xml.layout.151]" />
+			<Button name="PetMoveUpButton" x="-2" y="[PetMoveTopButton y]+[PetMoveTopButton height]" width="[$parent $innerWidth]+4" height="22" title="_LT[xml.layout.152]" />
+			<Button name="PetMoveDownButton" x="-2" y="[PetMoveUpButton y]+[PetMoveUpButton height]" width="[$parent $innerWidth]+4" height="22" title="_LT[xml.layout.153]" />
+			<Button name="PetMoveBottomButton" x="-2" y="[PetMoveDownButton y]+[PetMoveDownButton height]" width="[$parent $innerWidth]+4" height="22" title="_LT[xml.layout.154]" />
+		</Frame>
+		<Frame x="2" y="[$parent $innerHeight]-[height]-14" width="[$parent $innerWidth]-4" height="22*2+7">
+			<Button name="SavePetListButton" x="-2" y="-2" width="[$parent $innerWidth]+4" height="22" title="_LT[xml.layout.155]" enable="false" />
+			<Button name="ClosePetSortViewButton" x="-2" y="[PetMoveTopButton y]+[PetMoveTopButton height]" width="[$parent $innerWidth]+4" height="22" title="_LT[xml.layout.156]" />
+		</Frame>
+	</Frame>
+</CharacterPetFrame>

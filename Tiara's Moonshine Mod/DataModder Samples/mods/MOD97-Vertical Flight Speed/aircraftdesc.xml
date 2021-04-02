@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<aircraft_descs>
+<!--
+	<aircraft_desc>
+	- id : race ID
+		<aviation>
+		- velocity : 수평 속도, m / s
+		- rising : 상승 속도, m / s
+		- drop : 하강 속도, m / s
+ 		- rotation : 회전속도, rad / s
+		</aviation>
+	</aircraft_desc>
+-->
+
+	<aircraft_desc id="10001" desc="인간여자">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.5" />
+	</aircraft_desc>
+
+	<aircraft_desc id="10002" desc="인간남자">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.5" />
+	</aircraft_desc>
+	
+	<aircraft_desc id="8001" desc="자이언트여자">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.5" />
+	</aircraft_desc>
+
+	<aircraft_desc id="8002" desc="자이언트남자">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.5" />
+	</aircraft_desc>
+
+	<aircraft_desc id="9001" desc="엘프여자">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.5" />
+	</aircraft_desc>
+
+	<aircraft_desc id="9002" desc="엘프남자">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.5" />
+	</aircraft_desc>
+
+	<!-- 셰프의 포장마차 (펫) -->
+	<aircraft_desc id="270902" desc="셰프의 포장마차">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+
+		<!-- 발렌타인 셰프의 과자마차 (펫) -->
+	<aircraft_desc id="490041" desc="발렌타인 셰프의 과자마차">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+
+	<aircraft_desc id="490059" desc="빙수 마차">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+
+	<aircraft_desc id="490215" desc="판타지아 스낵마차">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+
+	<!-- 페가수스 (펫) -->
+	<aircraft_desc id="490015" desc="페가수스">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490016" desc="페가수스(페르세우스)">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490022" desc="페가수스(전투 페가수스 스폐셜)">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="271401" desc="청마">
+		<aviation velocity="28" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+		<aircraft_desc id="271402" desc="청마">
+		<aviation velocity="28" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490054" desc="적토마">
+		<aviation velocity="28" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490062" desc="전투 페가수스">
+		<aviation velocity="28" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490063" desc="청마">
+		<aviation velocity="28" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490067" desc="적토마2">
+		<aviation velocity="28" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490072" desc="백마">
+		<aviation velocity="28" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490075" desc="별빛이 담긴 청마">
+		<aviation velocity="28" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490076" desc="별빛이 담긴 페가수스">
+		<aviation velocity="28" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490089" desc="별빛이 담긴 청마2">
+	<aviation velocity="28" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490090" desc="별빛이 담긴 페가수스2">
+		<aviation velocity="28" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490099" desc="백마_카드">
+		<aviation velocity="28" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490112" desc="에린 음악대 황마">
+		<aviation velocity="28" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490113" desc="흑마">
+		<aviation velocity="28" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490119" desc="흑마">
+		<aviation velocity="28" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490205" desc="밀키웨이 페가수스">
+		<aviation velocity="28" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490221" desc="밀키웨이 페가수스 (이벤트)">
+		<aviation velocity="28" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490212" desc="판타지아 페가수스">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+
+	<!-- 투안의 혼 (펫) -->
+	<aircraft_desc id="490042" desc="투안의 혼">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<!-- 투안의 혼 (펫) 일본 버전 -->
+	<aircraft_desc id="490044" desc="투안의 혼">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<!-- 투안의 혼 (펫) 이벤트 -->
+	<aircraft_desc id="490116" desc="투안의 혼">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+
+	<!-- 근두운 (펫)-->
+	<aircraft_desc id="490013" desc="싸리 빗자루(근두운)">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>
+	<aircraft_desc id="490017" desc="싸리 빗자루(근두운/대만)">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>
+	<aircraft_desc id="490014" desc="싸리 빗자루(먹구름)">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>
+	<aircraft_desc id="490020" desc="싸리 빗자루(근두운 스폐셜)">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>
+	<aircraft_desc id="471009" desc="싸리 빗자루(무지개 근두운)">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>
+	<aircraft_desc id="490046" desc="싸리 빗자루(뽀도동 포니)">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>
+	<aircraft_desc id="490055" desc="싸리 빗자루(무지개 근두운)">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>
+	<aircraft_desc id="490078" desc="별빛이 담긴 근두운">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>
+	<aircraft_desc id="490092" desc="별빛이 담긴 근두운2">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>
+	<aircraft_desc id="490202" desc="밀키웨이 근두운">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>
+	
+	<!-- 카르눈의 일곱 쌍둥이 (펫)-->
+	<aircraft_desc id="490033" desc="똑똑해질꺼양">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>	
+	<aircraft_desc id="490034" desc="하늘을날꺼양">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>
+	<aircraft_desc id="490035" desc="도도해질꺼양">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>
+	<aircraft_desc id="490036" desc="버럭할꺼양">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>
+	<aircraft_desc id="490037" desc="애교부릴꺼양">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>
+	<aircraft_desc id="490038" desc="시무룩할꺼양">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>
+	<aircraft_desc id="490039" desc="심술부릴꺼양">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>
+	<aircraft_desc id="490040" desc="삐뚤어질꺼양">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>
+
+	<!-- 서커스 양 (펫)-->
+	<aircraft_desc id="490045" desc="재주부릴꺼양">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>	
+
+	<!-- 에린 음악대 지휘할꺼양 (펫)-->
+	<aircraft_desc id="490110" desc="에린 음악대 지휘할꺼양">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>	
+
+	<aircraft_desc id="490219" desc="함께할꺼양">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>		
+
+
+	<!-- 새 (펫)-->
+	<aircraft_desc id="430001" desc="썬더버드">
+		<aviation velocity="13.5" rising="100" drop="-100" rotation="2.20" />
+	</aircraft_desc>
+	<aircraft_desc id="430002" desc="항공촬영팀T">
+		<aviation velocity="13.5" rising="100" drop="-100" rotation="2.20" />
+	</aircraft_desc>
+	<aircraft_desc id="430101" desc="독수리">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+	<aircraft_desc id="430102" desc="항공촬영팀E">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+	<aircraft_desc id="430201" desc="펠리컨">
+		<aviation velocity="13.5" rising="100" drop="-100" rotation="2.20" />
+	</aircraft_desc>
+	<aircraft_desc id="430202" desc="항공촬용팀P">
+		<aviation velocity="13.5" rising="100" drop="-100" rotation="2.20" />
+	</aircraft_desc>
+	<aircraft_desc id="430103" desc="초보자용 독수리">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+	<aircraft_desc id="440514" desc="피닉스">
+		<aviation velocity="27" rising="100" drop="-100" rotation="2.0" />
+	</aircraft_desc>
+	<aircraft_desc id="440515" desc="블루 피닉스">
+		<aviation velocity="27" rising="100" drop="-100" rotation="2.0" />
+	</aircraft_desc>
+	<aircraft_desc id="440516" desc="화이트 피닉스">
+		<aviation velocity="27" rising="100" drop="-100" rotation="2.0" />
+	</aircraft_desc>
+	<aircraft_desc id="440517" desc="화이트 피닉스(기간제)">
+		<aviation velocity="27" rising="100" drop="-100" rotation="2.0" />
+	</aircraft_desc>
+	<aircraft_desc id="440518" desc="블루 피닉스(기간제)">
+		<aviation velocity="27" rising="100" drop="-100" rotation="2.0" />
+	</aircraft_desc>
+	<aircraft_desc id="490026" desc="피닉스(스폐셜)">
+		<aviation velocity="27" rising="100" drop="-100" rotation="2.0" />
+	</aircraft_desc>
+	<aircraft_desc id="490103" desc="화이트 피닉스">
+		<aviation velocity="27" rising="100" drop="-100" rotation="2.0" />
+	</aircraft_desc>
+	<aircraft_desc id="490218" desc="판타지아 피닉스">
+		<aviation velocity="27" rising="100" drop="-100" rotation="2.0" />
+	</aircraft_desc>
+
+	<!--키덜트페어 펫-->
+	<aircraft_desc id="490048" desc="화이트 피닉스"> 
+	<aviation velocity="27" rising="100" drop="-100" rotation="2.0" />
+	</aircraft_desc>
+
+	<!-- 자르딘 상공 몬스터 -->
+	<aircraft_desc id="460101" desc="와이번(파이어)">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+	<aircraft_desc id="460102" desc="와이번(파이어)">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+	<aircraft_desc id="460103" desc="와이번(파이어)">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+	<aircraft_desc id="460104" desc="강한 와이번(파이어)">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+	
+	<aircraft_desc id="460201" desc="와이번(라이트닝)">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+	<aircraft_desc id="460202" desc="와이번(라이트닝)">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+	<aircraft_desc id="460203" desc="와이번(라이트닝)">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+	<aircraft_desc id="460204" desc="강한 와이번(라이트닝)">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+	<aircraft_desc id="460205" desc="강한 와이번(라이트닝)">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+	
+	<aircraft_desc id="460301" desc="와이번(아이스)">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+	<aircraft_desc id="460302" desc="와이번(아이스)">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+	<aircraft_desc id="460303" desc="와이번(아이스)">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+	<aircraft_desc id="460304" desc="강한 와이번(아이스)">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+	<aircraft_desc id="460305" desc="강한 와이번(아이스)">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+
+	<!-- 드라마 S2 E3 와이번 -->
+	<aircraft_desc id="2026" desc="잠식된 와이번">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+
+	<aircraft_desc id="2036" desc="잠식된 강한 와이번">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+
+	<!-- 드라마 S2 E3 열기구 -->
+	<aircraft_desc id="2027" desc="납치범의 열기구">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+
+	<!-- 빗자루 (펫) -->
+	<aircraft_desc id="490001" desc="한정 빗자루">
+		<aviation velocity="15.0" rising="100" drop="-100" rotation="3.0" />
+	</aircraft_desc>
+	<aircraft_desc id="490002" desc="나무 빗자루">
+		<aviation velocity="15.0" rising="100" drop="-100" rotation="3.0" />
+	</aircraft_desc>
+	<aircraft_desc id="490003" desc="싸리 빗자루">
+		<aviation velocity="13.5" rising="100" drop="-100" rotation="2.8" />
+	</aircraft_desc>
+	<aircraft_desc id="490012" desc="파">
+		<aviation velocity="15.0" rising="100" drop="-100" rotation="3.0" />
+	</aircraft_desc>
+	<aircraft_desc id="490027" desc="밤의 빗자루">
+		<aviation velocity="20" rising="100" drop="-100" rotation="3.0" />
+	</aircraft_desc>
+	<aircraft_desc id="490028" desc="밤의 빗자루">
+		<aviation velocity="20" rising="100" drop="-100" rotation="3.0" />
+	</aircraft_desc>
+	<aircraft_desc id="490029" desc="밤의 빗자루">
+		<aviation velocity="20" rising="100" drop="-100" rotation="3.0" />
+	</aircraft_desc>
+	<aircraft_desc id="490073" desc="복슬복슬 빗자루">
+		<aviation velocity="20" rising="100" drop="-100" rotation="3.0" />
+	</aircraft_desc>
+	<aircraft_desc id="490085" desc="솜사탕 빗자루">
+		<aviation velocity="20" rising="100" drop="-100" rotation="3.0" />
+	</aircraft_desc>
+
+	<!-- 마법 융단 (펫)-->
+	<aircraft_desc id="490004" desc="2인승 융단">
+		<aviation velocity="13.5" rising="100" drop="-100" rotation="2.20" />
+	</aircraft_desc>
+	<aircraft_desc id="490005" desc="2인승 융단">
+		<aviation velocity="13.5" rising="100" drop="-100" rotation="2.20" />
+	</aircraft_desc>
+	<aircraft_desc id="490006" desc="한정 2인승 융단">
+		<aviation velocity="15.0" rising="100" drop="-100" rotation="2.20" />
+	</aircraft_desc>
+	<aircraft_desc id="490007" desc="한정 2인승 융단">
+		<aviation velocity="15.0" rising="100" drop="-100" rotation="2.20" />
+	</aircraft_desc>
+
+	<aircraft_desc id="490008" desc="한정 2인승 융단">
+		<aviation velocity="13.5" rising="100" drop="-100" rotation="2.20" />
+	</aircraft_desc>
+	<aircraft_desc id="490009" desc="한정 2인승 융단">
+		<aviation velocity="13.5" rising="100" drop="-100" rotation="2.20" />
+	</aircraft_desc>
+	<aircraft_desc id="490010" desc="한정 2인승 융단">
+		<aviation velocity="15.0" rising="100" drop="-100" rotation="2.20" />
+	</aircraft_desc>
+	<aircraft_desc id="490011" desc="한정 2인승 융단">
+		<aviation velocity="15.0" rising="100" drop="-100" rotation="2.20" />
+	</aircraft_desc>
+	<!-- 미니 강시 (펫)-->
+	<aircraft_desc id="270701" desc="2인승 융단">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>
+	<aircraft_desc id="270702" desc="2인승 융단">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>
+	<aircraft_desc id="490057" desc="2인승 융단">
+		<aviation velocity="26" rising="100" drop="-100" rotation="2.2" />
+	</aircraft_desc>
+
+
+
+	<!-- 그리핀 (펫) -->
+	<aircraft_desc id="430301" desc="그리핀">
+		<aviation velocity="14.5" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+	<aircraft_desc id="260115" desc="이벤트 그리핀(기간제)">
+		<aviation velocity="14.5" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+
+	<!-- 드래곤 (펫) -->
+	<aircraft_desc id="430501" desc="썬더 드래곤">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="430502" desc="파이어 드래곤">
+		<aviation velocity="14" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="430503" desc="썬더 드래곤">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="430504" desc="파이어 드래곤">
+		<aviation velocity="14" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="430510" desc="2인승 썬더 드래곤">
+		<aviation velocity="13.5" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+		<aircraft_desc id="430511" desc="2인승 썬더 드래곤(드래곤 라이더 세트)">
+		<aviation velocity="13.5" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="430505" desc="아이스 드래곤">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="430512" desc="본 드래곤">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490053" desc="2인승 썬더 드래곤">
+		<aviation velocity="13.5" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490065" desc="심연의 하데스">
+		<aviation velocity="13.5" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490071" desc="2인승 썬더 드래곤 노엠플">
+		<aviation velocity="13.5" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490079" desc="별빛이 담긴 아이스 드래곤">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490080" desc="별빛이 담긴 썬더 드래곤 (2인승)">
+		<aviation velocity="13.5" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490082" desc="별빛이 담긴 하데스">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490093" desc="별빛이 담긴 아이스 드래곤2">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490094" desc="별빛이 담긴 썬더 드래곤 (2인승)2">
+		<aviation velocity="13.5" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490096" desc="별빛이 담긴 하데스2">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490105" desc="청룡">
+		<aviation velocity="13.5" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490115" desc="청룡_카드">
+		<aviation velocity="13.5" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490117" desc="청룡">
+		<aviation velocity="13.5" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490203" desc="밀키웨이 하데스">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490220" desc="밀키웨이 하데스 (이벤트)">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490204" desc="밀키웨이 아이스 드래곤">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490211" desc="판타지아 하데스">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+
+	<!-- 크리스탈 루돌프 (펫) -->
+	<aircraft_desc id="450601" desc="크리스탈 루돌프">
+		<aviation velocity="14" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490024" desc="크리스탈 루돌프 (스폐셜)">
+		<aviation velocity="14" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490050" desc="크리스탈 챠임 루돌프">
+		<aviation velocity="14" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490068" desc="크리스탈 챠임 루돌프 노엠플">
+		<aviation velocity="14" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490083" desc="별빛이 담긴 루돌프">
+		<aviation velocity="14" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490097" desc="별빛이 담긴 루돌프2">
+		<aviation velocity="14" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+
+
+	<!-- 안바르 (팔리아스 몬스터) -->
+	<aircraft_desc id="430413" desc="안바르">
+		<aviation velocity="14.5" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+	<aircraft_desc id="430414" desc="안바르">
+		<aviation velocity="14.5" rising="100" drop="-100" rotation="2.57" />
+	</aircraft_desc>
+	
+	<!-- 파트너 빗자루 (파트너 탈것) -->
+	<aircraft_desc id="800002" desc="마법 빗자루">
+		<aviation velocity="14" rising="100" drop="-100" rotation="2.5" />
+	</aircraft_desc>
+
+	<!-- 이벤트 아이스 드래곤 -->
+	<aircraft_desc id="430506" desc="아이스 드래곤">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+
+	<!-- 이벤트 파 펫 -->
+	<aircraft_desc id="490019" desc="파 펫">
+		<aviation velocity="15.0" rising="100" drop="-100" rotation="3.0" />
+	</aircraft_desc>
+	<!-- 2013/8/3 핫타임 이벤트 드래곤 (지염포함) -->
+	<aircraft_desc id="430513" desc="아이스 드래곤">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="430514" desc="파이어 드래곤">
+		<aviation velocity="14" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="430515" desc="썬더 드래곤">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<!-- 2013/8/3 핫타임 이벤트 드래곤 (지염없음) -->
+	<aircraft_desc id="430516" desc="아이스 드래곤">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="430517" desc="파이어 드래곤">
+		<aviation velocity="14" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="430518" desc="썬더 드래곤">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="430520" desc="본 드래곤">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<!-- 2013/8/3 핫타임 이벤트 드래곤 (PC방 보상) -->
+	<aircraft_desc id="430519" desc="본 드래곤">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<!-- 2014 귀환유저 지급용  드래곤 (지염없음) -->
+	<aircraft_desc id="430521" desc="아이스 드래곤">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+
+	<!-- 요정(펫) -->
+	<aircraft_desc id="270903" desc="요정 플로라">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490060" desc="레모티 플로라">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<!-- 디나시(펫) -->
+	<aircraft_desc id="490066" desc="디나시">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<!-- 요정(펫) 미국 패키지용 -->
+	<aircraft_desc id="270904" desc="요정 플로라">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+		<aircraft_desc id="270905" desc="요정 플로라">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490108" desc="에린 음악대 플로라">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<!-- 디나시(펫) -->
+	<aircraft_desc id="490216" desc="판타지아 디나시">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+
+	<!-- 알로(펫) -->
+	<aircraft_desc id="490200" desc="흥겨움의 알로">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490208" desc="흥겨움의 알로">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490209" desc="경쾌함의 레토">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="490210" desc="서정성의 지오">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+
+	<!-- 중국 드림프로젝트 쿠폰 펫 리스트 -->
+	<aircraft_desc id="440519" desc="블루 피닉스">
+		<aviation velocity="27" rising="100" drop="-100" rotation="2.0" />
+	</aircraft_desc>
+	<aircraft_desc id="440520" desc="화이트 피닉스">
+		<aviation velocity="27" rising="100" drop="-100" rotation="2.0" />
+	</aircraft_desc>
+
+	<!-- 2014 복귀유저 용 펫(분양불가) -->
+	<aircraft_desc id="430522" desc="썬더 드래곤">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<aircraft_desc id="430523" desc="파이어 드래곤">
+		<aviation velocity="14" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+	<!-- 파트너 조각배 (파트너 탈것) -->
+	<aircraft_desc id="800005" desc="파트너 조각배">
+		<aviation velocity="16" rising="100" drop="-100" rotation="2.6" />
+	</aircraft_desc>
+</aircraft_descs>

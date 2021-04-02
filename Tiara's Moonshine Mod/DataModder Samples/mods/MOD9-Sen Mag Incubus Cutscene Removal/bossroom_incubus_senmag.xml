@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<!-- 인큐버스 컷씬 작업-->
+<cutscene>
+	<scenario name="bossroom_incubus_senmag">
+		<stage region="208" origin="10000 0 10000" />
+	</scenario>
+</cutscene>

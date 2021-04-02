@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<!--교역 현상범 낭만농장 입장 컷신 제작-->
+<cutscene>
+	<!--01_인간 현상범_입장컷신-->
+	<scenario name="CrminalFarm_enter_01_human">
+		<stage region="current_only" origin="0 -990 0" hide="character_only" />
+	</scenario>
+	<!--02_고블린 현상범_입장컷신-->
+	<scenario name="CrminalFarm_enter_02_goblin">
+		<stage region="current_only" origin="0 -990 0" hide="character_only" />
+	</scenario>
+	<scenario name="CrminalFarm_enter_03_imp">
+		<stage region="current_only" origin="0 -990 0" hide="character_only" />
+	</scenario>
+	<scenario name="CrminalFarm_enter_04_siren">
+		<stage region="current_only" origin="0 -990 0" hide="character_only" />
+	</scenario>
+	<scenario name="CrminalFarm_enter_05_butcher">
+		<stage region="current_only" origin="0 -990 0" hide="character_only" />
+	</scenario>
+	<scenario name="CrminalFarm_enter_06_leprechaun">
+		<stage region="current_only" origin="0 -990 0" hide="character_only" />
+	</scenario>
+	<scenario name="CrminalFarm_enter_07_ogre">
+		<stage region="current_only" origin="0 -990 0" hide="character_only" />
+	</scenario>
+</cutscene>

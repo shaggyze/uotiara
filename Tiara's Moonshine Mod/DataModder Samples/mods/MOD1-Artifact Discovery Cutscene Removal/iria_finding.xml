@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-16"?>
+<!--일단 발견 컷씬 작업해봅니다-->
+<cutscene>
+	<scenario name="iria_finding_it">
+		<stage region="current_only" origin="player_pos" hide_balloon="true" />
+	</scenario>
+</cutscene>
