@@ -8,8 +8,8 @@ THIS DISCLAIMER OF LIABILITY APPLIES TO ANY DAMAGES OR INJURY CAUSED BY ANY FAIL
 
 
 >> Current Version:
-For NA Client Ver. R365 (2021) (build .0.0.3)
-Build on April 2nd 2021 02:15
+For NA Client Ver. R365 (2021) (build .0.0.2)
+Build on April 1st 2021 22:15
 
 
 Official Thread:
