@@ -2674,6 +2674,21 @@ set("C4_human")
 
 	folder("char\chapter4\human\anim")
 	
+		"male_calligraphychair01_sit"
+			0:lookat(off)
+			0:hideequip(false)
+			0:hand(right,fist)
+			0:hand(left,palm)
+			0:generic ("custom_equip(weapon:tool_brush)")
+			
+		"female_calligraphychair01_sit"
+			0:lookat(off)
+			0:hideequip(false)
+			0:hideequip(false)
+			0:hand(right,fist)
+			0:generic ("custom_equip(weapon:tool_brush)")	
+
+			
 
 		"human_HorseStatue_Sit"
 			0:lookat(off)
@@ -3658,6 +3673,17 @@ set("C4_human")
 			0:hideequip(false)
 			0:hand(both, palm)
 		
+		"human_partydanceL"
+			0:lookat(off)
+			0:hideequip(false)
+			0:hand(both, palm)
+
+		"human_partydanceR"
+			0:lookat(off)
+			0:hideequip(false)
+			0:hand(both, palm)
+
+
 		"male_photowall_sit"
 			0:lookat(off)
 			0:hideequip(true)
@@ -13135,6 +13161,16 @@ set("C4_giant")
 			225:effect("flash06")
 			239:effect("flash02")
 
+
+		"giant_female_partydanceL"
+			0:lookat(off)
+			0:hideequip(false)	
+			0:hand(both, palm)
+
+		"giant_female_partydanceR"
+			0:lookat(off)
+			0:hideequip(false)	
+			0:hand(both, palm)
 
 		"giant_floralsuit_sit"		
 			0:lookat(off)
@@ -28111,7 +28147,18 @@ set("social motion")
 	"female_16thblouse"
 		0:lookat(off)
 		0:hand(both, palm)
+		0:hideequip(false)
+
+	"male_guardknight"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)
+		
+	"female_guardknight"
+		0:lookat(off)
+		0:hand(both, palm)
 		0:hideequip(false)		
+		
 		
 	///세일러 수영복의상
 	
@@ -51763,6 +51810,24 @@ set("prop concerned - temporary")
 								
 			
 		endfolder		
+		
+		folder("::scene_prop_flower_sedanchair01")	
+		
+			"scene_prop_flower_sedanchair01_sit"			
+				0:linkframework(1, "race:990322", "bone01", "data/gfx/char/chapter4/human/anim/uni_sedanchairporter01")				
+				0:linkframework(2, "race:990322", "bone01", "data/gfx/char/chapter4/human/anim/uni_sedanchairporter02")									
+				
+		endfolder			
+		
+
+		folder("::scene_prop_flower_sedanchair02")	
+		
+			"scene_prop_flower_sedanchair02_sit"			
+				0:linkframework(1, "race:990323", "bone01", "data/gfx/char/chapter4/human/anim/giant_sedanchairporter01")				
+				0:linkframework(2, "race:990323", "bone01", "data/gfx/char/chapter4/human/anim/giant_sedanchairporter02")									
+				
+		endfolder			
+		
 
 	folder("::scene_prop_dragon_store")
 		"scene_prop_dragon_store"
@@ -73580,6 +73645,10 @@ endset
 set("zombie")
 
 	folder("char\chapter4\giant\anim")
+	
+		"giant_bambooforest_sit"
+			0:hand(both, palm)
+			
 
 		"giant_zombie_friendly_walk"
 			0:hand(both, palm)
@@ -83251,6 +83320,16 @@ set("social motion")
 		0:lookat(off)
 		0:hand(both, palm)
 		0:hideequip(false)
+		
+	"giant_guardknight"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)
+		
+	"giant_female_guardknight"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)			
 
 	"giant_troubadour"
 		0:lookat(off)
