@@ -10534,7 +10534,7 @@ Delete "C:\UOTiara_installlog.txt"
 
 SetFileAttributes $INSTDIR\Package\language.pack NORMAL
 ;First removes all optional components
-!insertmacro SectionList "RemoveSection"
+;!insertmacro SectionList "RemoveSection"
 
 ;Removes directory and registry key:
 IfFileExists "$INSTDIR\Data" DataFound1 DataNotFound1
