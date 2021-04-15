@@ -9,7 +9,9 @@
 !define KananEnable "True"
 !define HyddwnEnable "False"
 !define HyddwnUpdateEnable "False"
-Var AbyssLoadKanan
+
+!addincludedir ".\bin"
+!addplugindir ".\bin"
 
 Name "${UOSHORTNAME} ${UOVERSION}"
 AllowRootDirInstall true
@@ -21,8 +23,6 @@ VIAddVersionKey "ProductName" "${UOSHORTNAME}"
 VIAddVersionKey "ProductVersion" ${UOVERSION}
 VIAddVersionKey "Comments" "http://uotiara.com"
 VIAddVersionKey "CompanyName" "ShaggyZE"
-
-
 VIAddVersionKey "LegalTrademarks" "${UOSHORTNAME} by ShaggyZE"
 VIAddVersionKey "LegalCopyright" "© ShaggyZE"
 VIAddVersionKey "FileDescription" "${UOSHORTNAME} ${UOVERSION}"
@@ -45,6 +45,8 @@ VIProductVersion ${UOVERSION}
 !define StrStr "!insertmacro StrStr"
 !define StrContains '!insertmacro "_StrContainsConstructor"'
 
+Var AbyssLoadKanan
+
 Var AR_SecFlags
 Var AR_RegFlags
 Var AR_RegFlags2
@@ -58,10 +60,7 @@ Var STR_CONTAINS_VAR_4
 Var STR_RETURN_VAR
 
 
-!addplugindir ".\bin"
-
-
- !macro _StrContainsConstructor OUT NEEDLE HAYSTACK
+!macro _StrContainsConstructor OUT NEEDLE HAYSTACK
   Push `${HAYSTACK}`
   Push `${NEEDLE}`
   Call StrContains
@@ -134,7 +133,7 @@ Var STR_RETURN_VAR
 !define stRECT "(i, i, i, i) i"
 !define FontBMPCreate "!insertmacro FontBMPCreate"
 !define FontBMPChange "!insertmacro FontBMPChange"
-;!include x64.nsh
+!include x64.nsh
 !include Sections.nsh
 !include nsDialogs.nsh
 !include WinMessages.nsh
@@ -148,7 +147,7 @@ Var STR_RETURN_VAR
 
 SetDatablockOptimize on
 CRCCheck on
-ChangeUI all "${NSISDIR}\Contrib\UIs\Modern.exe"
+ChangeUI all ".\bin\Modern.exe"
 AutoCloseWindow true
 ;ShowInstDetails hide
 SetDateSave on
@@ -838,8 +837,8 @@ WriteRegStr HKCR "PS.ps1\shell" "" "Open"
 WriteRegStr HKCR "PS.ps1\shell\Open\command" "" '"$SYSDIR\WindowsPowerShell\v1.0\powershell.exe" "%1"'
 WriteRegStr HKCR "PS.ps1\DefaultIcon" "" "$SYSDIR\WindowsPowerShell\v1.0\powershell.exe"
   DetailPrint "Downloading Kanan..."
-  ;NSISdl::download  "https://ci.appveyor.com/api/projects/cursey/kanan-new/artifacts/kanan.zip" "kanan.zip"
-  inetc::get /NOCANCEL /SILENT "https://ci.appveyor.com/api/projects/cursey/kanan-new/artifacts/kanan.zip" "kanan.zip" /end
+  NSISdl::download  "https://ci.appveyor.com/api/projects/cursey/kanan-new/artifacts/kanan.zip" "kanan.zip"
+  ;inetc::get /NOCANCEL /SILENT "https://ci.appveyor.com/api/projects/cursey/kanan-new/artifacts/kanan.zip" "kanan.zip" /end
   NSISdl::download  "http://uotiara.com/shaggyze/unzip.exe" "unzip.exe"
   DetailPrint "Extracting kanan.zip..."
   nsExec::ExecToStack 'unzip.exe -o kanan.zip'
@@ -11524,12 +11523,14 @@ FunctionEnd
 
 Function UpdateHyddwn
 ${If} ${HyddwnUpdateEnable} == "True"
-inetc::get /NOCANCEL /SILENT "http://launcher.hyddwnproject.com/version" "$TEMP\version" /end
+NSISdl::download  "http://launcher.hyddwnproject.com/version" "$TEMP\version"
+;inetc::get /NOCANCEL /SILENT "http://launcher.hyddwnproject.com/version" "$TEMP\version" /end
 FileOpen $0 "$TEMP\version" r
 StrCpy $3 ""
 ${Do}
 FileRead $0 $1 
 ${If} ${Errors}
+goto updatehyddwnerror
 ${EndIf}
 ${StrContains} $2 "http" $1
 StrCmp $2 "" linknotfound
@@ -11543,11 +11544,13 @@ ${StrStr} $4 $3 "http"
 Delete "$TEMP\version"
 SetOutPath "$INSTDIR\Hyddwn Launcher"
 DetailPrint "Downloading Hyddwn Launcher..."
-inetc::get /NOCANCEL /SILENT "$4" "$INSTDIR\Hyddwn Launcher\HL.zip" /end
+NSISdl::download  "$4" "$INSTDIR\Hyddwn Launcher\HL.zip"
+;inetc::get /NOCANCEL /SILENT "$4" "$INSTDIR\Hyddwn Launcher\HL.zip" /end
 NSISdl::download  "http://uotiara.com/shaggyze/unzip.exe" "unzip.exe"
 DetailPrint "Extracting HL.zip..."
 nsExec::ExecToStack 'unzip.exe -o "HL.zip"'
 ${EndIf}
+updatehyddwnerror:
 Delete "$INSTDIR\Hyddwn Launcher\unzip.exe"
 Delete "$INSTDIR\Hyddwn Launcher\HL.zip"
 Delete "$INSTDIR\HL.zip"
