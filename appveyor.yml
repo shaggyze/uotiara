@@ -3,8 +3,8 @@ clone_depth: 1
 image: Visual Studio 2019
 
 build_script:
-- '"C:\Program Files (x86)\NSIS\makensis.exe" Tiara.nsi'
+- '"C:\Program Files (x86)\NSIS\makensis.exe" uotiara.nsi'
 
 artifacts:
 - path: release
-  name: Tiara
+  name: uotiara

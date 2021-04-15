@@ -229,7 +229,7 @@ Icon "${icon}"
 !define MUI_UNICON "Etc\Tiaras Moonshine Icon.ico"
 !define MUI_CUSTOMFUNCTION_GUIINIT myonguiinit
 ;!define MUI_LICENSEPAGE_TEXT_TOP "Information"
-!insertmacro MUI_PAGE_LICENSE "Tiaras_Moonshine_Mod_Readme.txt"
+!insertmacro MUI_PAGE_LICENSE "README.md"
 !define MUI_DIRECTORYPAGE_TEXT_TOP "Directory containing Client.exe to install ${UOLONGNAME} in:"
 !define MUI_DIRECTORYPAGE_TEXT_DESTINATION "Destination Folder Containing Client.exe"
 !insertmacro MUI_PAGE_DIRECTORY
@@ -11079,7 +11079,7 @@ Call .onSelChange
 ;SectionGetFlags ${MOD435} $7
 ;IntOp $7 $7 | ${SECTION_OFF}
 ;SectionSetFlags ${MOD435} $7
-File /oname=Tiaras_Moonshine_Mod_Readme.txt "Tiaras_Moonshine_Mod_Readme.txt"
+File /oname=README.md "README.md"
 File /oname=spltmp.bmp "Etc\Unofficial_Tiara_Image.bmp"
 File /oname=spltmp.wav "Etc\se_2443.wav"
 advsplash::show 4500 4500 400 -1 $TEMP\spltmp
