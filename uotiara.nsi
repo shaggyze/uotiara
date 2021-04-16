@@ -9,6 +9,7 @@
 !define KananEnable "True"
 !define HyddwnEnable "False"
 !define HyddwnUpdateEnable "False"
+!define MUI_UI ".\bin\modern.exe"
 
 !addincludedir ".\bin"
 !addplugindir ".\bin"
@@ -19,6 +20,7 @@ OutFile "${InstFile}"
 RequestExecutionLevel admin
 XPStyle on
 SetCompressor /SOLID /FINAL lzma
+;ChangeUI all ".\bin\modern.exe"
 VIAddVersionKey "ProductName" "${UOSHORTNAME}"
 VIAddVersionKey "ProductVersion" ${UOVERSION}
 VIAddVersionKey "Comments" "http://uotiara.com"
@@ -141,7 +143,7 @@ Var STR_RETURN_VAR
 
 SetDatablockOptimize on
 CRCCheck on
-ChangeUI all ".\bin\Modern.exe"
+
 AutoCloseWindow true
 ;ShowInstDetails hide
 SetDateSave on

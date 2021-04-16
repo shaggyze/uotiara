@@ -22,8 +22,6 @@
   !define sysDeleteObject     "gdi32::DeleteObject(i) i"
 !endif
 
-!define MUI_UI "${NSISDIR}\Contrib\UIs\modern.exe"
-ShowInstDetails nevershow
 
 !macro DisplayImage IMG_NAME
 	Push $0
