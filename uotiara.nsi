@@ -133,7 +133,8 @@ Var STR_RETURN_VAR
 !define stRECT "(i, i, i, i) i"
 !define FontBMPCreate "!insertmacro FontBMPCreate"
 !define FontBMPChange "!insertmacro FontBMPChange"
-;!include x64.nsh
+!include x64.nsh
+;!include Sections.nsh
 !include nsDialogs.nsh
 !include WinMessages.nsh
 !include Image.nsh
