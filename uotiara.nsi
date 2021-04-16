@@ -122,13 +122,7 @@ Var STR_RETURN_VAR
  "exit_${SecName}:"
 !macroend
 
-!macro RemoveSection SecName
-  ;  This macro is used to call section's Remove_... macro
-  ;from the uninstaller.
-  ;Input: section index constant name specified in Section command.
 
-  !insertmacro "Remove_${${SecName}}"
-!macroend
 ;--- End of Add/Remove macros ---
 !define stRECT "(i, i, i, i) i"
 !define FontBMPCreate "!insertmacro FontBMPCreate"
