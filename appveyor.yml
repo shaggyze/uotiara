@@ -6,5 +6,5 @@ build_script:
 - '"C:\Program Files (x86)\NSIS\makensis.exe" uotiara.nsi'
 
 artifacts:
-- path: uotiara
+- path: - path: '**\*.exe'
   name: uotiara
