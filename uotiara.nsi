@@ -122,7 +122,7 @@ Var STR_RETURN_VAR
  "exit_${SecName}:"
 !macroend
 
-;!macro RemoveSection SecName
+!macro RemoveSection SecName
   ;  This macro is used to call section's Remove_... macro
   ;from the uninstaller.
   ;Input: section index constant name specified in Section command.
