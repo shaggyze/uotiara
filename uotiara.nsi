@@ -41,7 +41,7 @@ VIProductVersion ${UOVERSION}
 ;!define LVM_GETITEMCOUNT 0x1004
 ;!define LVM_GETITEMTEXT 0x102D
 !define screenimage            "Etc\background.bmp"
-!define srcdir                 "C:\Users\Shaggy\Google Drive\Tiara"
+!define srcdir                 "."
 !define StrStr "!insertmacro StrStr"
 !define StrContains '!insertmacro "_StrContainsConstructor"'
 
@@ -6706,7 +6706,7 @@ SectionGroupEnd
 SectionGroup "Optional Mods"
 Section "Unofficial Tiaras Moonshine Mod Readme" MOD205
 SetOutPath "$INSTDIR\data"
-File "${srcdir}\Tiaras_Moonshine_Mod_Readme.txt"
+File "${srcdir}\README.md"
 SectionIn 1
 SectionEnd
 !macro Remove_${MOD205}
@@ -11395,7 +11395,7 @@ StrCmp $0 0 exit
 FileOpen $5 $5 "a"
 FileSeek $5 0 END
 StrCmp $5 "" exit
-SendMessage $0 ${LVM_GETITEMCOUNT} 0 0 $6
+SendMessage $0 0x1004 0 0 $6
 System::Alloc ${NSIS_MAX_STRLEN}
 Pop $3
 StrCpy $2 0
@@ -11403,7 +11403,7 @@ System::Call "*(i, i, i, i, i, i, i, i, i) i \
   (0, 0, 0, 0, 0, r3, ${NSIS_MAX_STRLEN}) .r1"
 loop: StrCmp $2 $6 done
   System::Call "User32::SendMessageA(i, i, i, i) i \
-    ($0, ${LVM_GETITEMTEXT}, $2, r1)"
+    ($0, 0x102D, $2, r1)"
   System::Call "*$3(&t${NSIS_MAX_STRLEN} .r4)"
   ${GetTime} "" "L" $R0 $R1 $R2 $R3 $R4 $R5 $R6
   FileWrite $5 "[$R1/$R0/$R2 $R4:$R5:$R6] - $4$\r$\n"
