@@ -38,7 +38,7 @@ VIProductVersion ${UOVERSION}
 ;!define SECTION_OFF           0xFFFFFFFE
 !define SF_UNSELECTED          128
 !define SECTIONCOUNT           11
-!define LVM_GETITEMCOUNT 0x1004
+;!define LVM_GETITEMCOUNT 0x1004
 !define LVM_GETITEMTEXT 0x102D
 !define screenimage            "Etc\background.bmp"
 !define srcdir                 "C:\Users\Shaggy\Google Drive\Tiara"
