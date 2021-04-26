@@ -15,6 +15,9 @@ http://mabimods.net/index.php?topic=10456.0
 Discord:
 http://discord.uotiara.com
 
+Donate for Support:
+https://www.patreon.com/shaggyze
+
 
 >> What is Tiara's Moonshine Mod?
 Tiara's Moonshine Mod is a simple client-side modification package aimed at assisting players who have difficulty or wish to minimize concentration during the game.
