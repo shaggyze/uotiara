@@ -3,6 +3,8 @@ Unofficial Tiara's Moonshine Mod by ShaggyZE. Thanks to this months donator/s an
 *Intended solely for Mabinogi (North America)
 
 Download Location:
+https://github.com/shaggyze/uotiara/releases 
+or
 https://ci.appveyor.com/project/shaggyze/uotiara/build/artifacts
 
 Official Thread:
