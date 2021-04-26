@@ -1,5 +1,5 @@
 !define UOSHORTVERSION        "366"
-!define UOLONGVERSION         "0.1.6"
+!define UOLONGVERSION         "0.1.7"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -336,10 +336,10 @@ CopyFiles /SILENT "$INSTDIR\Abyss_patchlog.txt" "$INSTDIR\Logs\Abyss\Abyss_patch
 Delete "$INSTDIR\Abyss_patchlog.txt"
 AbyssLogNotFound1:
   DetailPrint "Downloading Abyss..."
-  NSISdl::download  "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/Abyss/Abyss.ini" "Abyss.ini"
-  NSISdl::download  "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/Abyss/ijl11.dat" "ijl11.dat"
-  NSISdl::download  "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/Abyss/ijl11.dll" "ijl11.dll"
-  NSISdl::download  "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/Abyss/README_Abyss.txt" "README_Abyss.txt"
+  inetc::get /NOCANCEL "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/Abyss/Abyss.ini" "Abyss.ini" /end
+  inetc::get /NOCANCEL "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/Abyss/ijl11.dat" "ijl11.dat" /end
+  inetc::get /NOCANCEL "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/Abyss/ijl11.dll" "ijl11.dll" /end
+  inetc::get /NOCANCEL "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/Abyss/README_Abyss.txt" "README_Abyss.txt" /end
   Sleep 3000
   IfFileExists "$INSTDIR\Abyss.ini" AbyssFound1 AbyssNotFound1
 AbyssNotFound1:
@@ -347,7 +347,7 @@ File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\ijl11.dat"
 File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\Abyss.ini"
 ; comment out File for mediafire/google drive
 ;File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\ijl11.dll"
-  NSISdl::download  "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/Abyss/ijl11.dll" "ijl11.dll"
+  inetc::get /NOCANCEL "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/Abyss/ijl11.dll" "ijl11.dll" /end
 File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\README_Abyss.txt"
 AbyssFound1:
 DetailPrint "Installing Abyss..."
@@ -833,9 +833,8 @@ WriteRegStr HKCR "PS.ps1\shell" "" "Open"
 WriteRegStr HKCR "PS.ps1\shell\Open\command" "" '"$SYSDIR\WindowsPowerShell\v1.0\powershell.exe" "%1"'
 WriteRegStr HKCR "PS.ps1\DefaultIcon" "" "$SYSDIR\WindowsPowerShell\v1.0\powershell.exe"
   DetailPrint "Downloading Kanan..."
-  NSISdl::download  "https://ci.appveyor.com/api/projects/cursey/kanan-new/artifacts/kanan.zip" "kanan.zip"
-  ;inetc::get /NOCANCEL /SILENT "https://ci.appveyor.com/api/projects/cursey/kanan-new/artifacts/kanan.zip" "kanan.zip" /end
-  NSISdl::download  "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/unzip.exe" "unzip.exe"
+  inetc::get /NOCANCEL "https://ci.appveyor.com/api/projects/cursey/kanan-new/artifacts/kanan.zip" "kanan.zip" /end
+  inetc::get /NOCANCEL "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/unzip.exe" "unzip.exe" /end
   DetailPrint "Extracting kanan.zip..."
   nsExec::ExecToStack 'unzip.exe -o kanan.zip'
   Delete "unzip.exe"
@@ -1010,8 +1009,8 @@ Section "AutoBot (fossil restoration & updates Mods)" MOD431
   SetOutPath "$INSTDIR"
   Delete "$INSTDIR\Update AutoBot.exe"
   DetailPrint "Downloading AutoBot..."
-  NSISdl::download  "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/AutoBot/AutoBotS.rar" "AutoBotS.rar"
-  NSISdl::download  "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/UnRAR.exe" "UnRAR.exe"
+  inetc::get /NOCANCEL "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/AutoBot/AutoBotS.rar" "AutoBotS.rar" /end
+  inetc::get /NOCANCEL "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/UnRAR.exe" "UnRAR.exe" /end
   DetailPrint "Extracting AutoBotS.rar..."
   nsExec::ExecToStack 'UnRAR.exe x -o+ "AutoBotS.rar"'
   Delete "$INSTDIR\AutoBot\Tailor Minigame.exe"
@@ -11014,7 +11013,7 @@ Call DumpLog1
 ;ExecWait "$Temp\ninite.exe"
 ;${EndIf}
 ;noinst:
-NSISdl::download  "https://raw.githubusercontent.com/shaggyze/uotiara/master/version.ini" "$TEMP\${UOVERSION}version.ini"
+inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/version.ini" "$TEMP\${UOVERSION}version.ini" /end
 StrCpy $R7 ".onInit Downloading Version"
 
 Call DumpLog1
@@ -11026,7 +11025,7 @@ StrCpy $R7 ".onInit $0 / $1"
 Call DumpLog1
 xtInfoPlugin::CompareVersion
 Pop $1
-MessageBox MB_OK "$1 : $NEWUOVERSION >= ${UOVERSION}"
+;MessageBox MB_OK "$1 : $NEWUOVERSION >= ${UOVERSION}"
 ;MessageBox MB_OK "http://uotiara.com/utdlze/UO%20Tiaras%20Moonshine%20Mod%20V$NEWUOVERSION.exe"
 Delete $TEMP\${UOVERSION}version.ini
 ${If} $1 > "-1"
@@ -11044,7 +11043,7 @@ ${If} $1 = 0
 StrCpy $0 "0.0.0.0"
 ${EndIf}
 MessageBox MB_YESNOCANCEL|MB_ICONQUESTION "New UO Tiara detected V$NEWUOVERSION$\r$\nV$0 currently installed$\r$\nYou are running V${UOVERSION}$\r$\n$\r$\nWould you like to download the latest version?$\r$\n$\r$\nClick Yes to download automatically$\r$\nNo to continue installing$\r$\nCancel to download latest version from site." IDNO EndNewVersion IDCANCEL SetupSite
-NSISdl::download  "https://ci.appveyor.com/api/projects/shaggyze/uotiara/artifacts/UO%20Tiaras%20Moonshine%20Mod%20V$NEWUOVERSION.exe" "$INSTDIR\Archived\UOTiara\UOSetup1.exe"
+inetc::get /NOCANCEL /SILENT "https://ci.appveyor.com/api/projects/shaggyze/uotiara/artifacts/UO%20Tiaras%20Moonshine%20Mod%20V$NEWUOVERSION.exe" "$INSTDIR\Archived\UOTiara\UOSetup1.exe" /end
 IfFileExists "$INSTDIR\Archived\UOTiara\UOSetup1.exe" SetupFound SetupNotFound
 SetupFound:
 Exec $INSTDIR\Archived\UOTiara\UOSetup1.exe
@@ -11540,9 +11539,8 @@ ${StrStr} $4 $3 "http"
 Delete "$TEMP\version"
 SetOutPath "$INSTDIR\Hyddwn Launcher"
 DetailPrint "Downloading Hyddwn Launcher..."
-NSISdl::download  "$4" "$INSTDIR\Hyddwn Launcher\HL.zip"
-;inetc::get /NOCANCEL /SILENT "$4" "$INSTDIR\Hyddwn Launcher\HL.zip" /end
-NSISdl::download  "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/unzip.exe" "unzip.exe"
+inetc::get /NOCANCEL "$4" "$INSTDIR\Hyddwn Launcher\HL.zip" /end
+inetc::get /NOCANCEL "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/unzip.exe" "unzip.exe" /end
 DetailPrint "Extracting HL.zip..."
 nsExec::ExecToStack 'unzip.exe -o "HL.zip"'
 ${EndIf}
