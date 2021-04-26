@@ -6,15 +6,18 @@ THIS DISCLAIMER OF LIABILITY APPLIES TO ANY DAMAGES OR INJURY CAUSED BY ANY FAIL
 -------------------------------------------------------------------------
 *Intended solely for Mabinogi (North America)
 
+Download Location:
+https://ci.appveyor.com/project/shaggyze/uotiara/build/artifacts
 
 Official Thread:
 http://mabimods.net/index.php?topic=10456.0
 
+Discord:
+https://discord.gg/mCNBwZT
+
 
 >> What is Tiara's Moonshine Mod?
 Tiara's Moonshine Mod is a simple client-side modification package aimed at assisting players who have difficulty or wish to minimize concentration during the game.
-
-
 
 
 [Tiara Data Folder Mod]
@@ -169,8 +172,6 @@ Note: Some mods of this are not included in Official Tiara, but I think they des
 Note: The new font file must be renamed "nanumgothicbold.ttf" to function. If there is no nanumgothicbold.ttf-named file at all or a file other than nanumgothicbold.ttf, the default mabinogi font will be used. If you are using a dll patcher that uses Bitmap font or BitmapPositionFix, then nanumgothicbold.ttf will be undetected and font_eng.dds will be read instead.
 
 
-
-
 >>Frequently asked questions<<
 If you get PACK malformated or a 'delete etc language.Package'(http://puu.sh/5iDlT.jpg) error then delete language.pack from the package folder then run mabinogi.exe to download a new language.pack and it should let you apply mods again.
 
@@ -225,7 +226,6 @@ ControlDayTime=0
 
 
 
-
 To Remove Talent Level Number:
 Find these 2 mods in the installer and uncheck. If you use abyss/kanan you can delete the files manually and if you use mabipacker/UOTiaraPack.bat delete UOTiara.pack in package folder.
 
@@ -239,9 +239,6 @@ data/xml/talenttitle.english.txt
 
 
 
-
-
-
 ---Mods included in the compilation.---
 
-http://uotiara.com/uotiaralist.ini
+https://raw.githubusercontent.com/shaggyze/uotiara/master/uotiaralist.ini

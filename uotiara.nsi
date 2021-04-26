@@ -1,5 +1,5 @@
 !define UOSHORTVERSION        "366"
-!define UOLONGVERSION         "0.1.2"
+!define UOLONGVERSION         "0.1.3"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -11014,7 +11014,7 @@ Call DumpLog1
 ;ExecWait "$Temp\ninite.exe"
 ;${EndIf}
 ;noinst:
-NSISdl::download  "http://uotiara.com/utdlze/version.ini" "$TEMP\${UOVERSION}version.ini"
+NSISdl::download  "https://raw.githubusercontent.com/shaggyze/uotiara/master/version.ini" "$TEMP\${UOVERSION}version.ini"
 StrCpy $R7 ".onInit Downloading Version"
 
 Call DumpLog1
@@ -11044,7 +11044,7 @@ ${If} $1 = 0
 StrCpy $0 "0.0.0.0"
 ${EndIf}
 MessageBox MB_YESNOCANCEL|MB_ICONQUESTION "New UO Tiara detected V$NEWUOVERSION$\r$\nV$0 currently installed$\r$\nYou are running V${UOVERSION}$\r$\n$\r$\nWould you like to download the latest version?$\r$\n$\r$\nClick Yes to download automatically$\r$\nNo to continue installing$\r$\nCancel to download latest version from site." IDNO EndNewVersion IDCANCEL SetupSite
-NSISdl::download  "http://uotiara.com/utdlze/UO%20Tiaras%20Moonshine%20Mod%20V$NEWUOVERSION.exe" "$INSTDIR\Archived\UOTiara\UOSetup1.exe"
+NSISdl::download  "https://ci.appveyor.com/api/projects/shaggyze/uotiara/artifacts/UO%20Tiaras%20Moonshine%20Mod%20V$NEWUOVERSION.exe" "$INSTDIR\Archived\UOTiara\UOSetup1.exe"
 IfFileExists "$INSTDIR\Archived\UOTiara\UOSetup1.exe" SetupFound SetupNotFound
 SetupFound:
 Exec $INSTDIR\Archived\UOTiara\UOSetup1.exe

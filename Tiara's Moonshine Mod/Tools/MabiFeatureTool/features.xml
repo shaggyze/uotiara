@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <FeatureList>
   <Settings>
     <Setting Name="Regular, Korea" Locale="Korea" Test="False" Development="False" Generation="23" Season="1" Subseason="0" />
@@ -926,7 +926,7 @@
     <Feature _Name="937ef193" _RealName="?" Default="" Enable="G18S1@China, G14S5@Japan, G17S3@Korea, G14S4@Taiwan, G14S4@USA" Disable="" />
     <Feature _Name="5e20a8ba" _RealName="?" Default="" Enable="G17S1@China, G18S1@Japan, G17S3@Korea(Development), G17S3@USA" Disable="" />
     <Feature _Name="8ce4af5d" _RealName="?" Default="" Enable="G17S3@Korea(Development)" Disable="" />
-    <Feature _Name="e28729b7" _RealName="?" Default="" Enable="G18S5@Japan, G17S3@Korea, G17S2@Taiwan" Disable="" />
+    <Feature _Name="e28729b7" _RealName="?" Default="" Enable="G10S1@USA, G18S5@Japan, G17S3@Korea, G17S2@Taiwan" Disable="" />
     <Feature _Name="9beedf80" _RealName="?" Default="" Enable="G17S3@China, G17S3@Japan, G17S4@Korea, G17S3@Taiwan, G17S4@USA" Disable="" />
     <Feature _Name="74f332f0" _RealName="?" Default="" Enable="G17S3@China, G17S3@Japan, G17S3@Korea, G17S3@Taiwan, G17S4@USA" Disable="" />
     <Feature _Name="bc0530ef" _RealName="?" Default="" Enable="G18S1@China, G18S1@Japan, G17S4@Korea, G18S1@Taiwan, G18S1@USA" Disable="" />
