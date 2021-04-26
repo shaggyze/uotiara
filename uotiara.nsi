@@ -1,5 +1,5 @@
 !define UOSHORTVERSION        "366"
-!define UOLONGVERSION         "0.1.7"
+!define UOLONGVERSION         "0.1.8"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -238,7 +238,7 @@ page components "" FontBMPChange
   !define MUI_PAGE_CUSTOMFUNCTION_PRE fin_pre
   !define MUI_PAGE_CUSTOMFUNCTION_SHOW fin_show
   !define MUI_PAGE_CUSTOMFUNCTION_LEAVE fin_leave
-  !define MUI_FINISHPAGE_SHOWREADME "$TEMP\Tiaras_Moonshine_Mod_Readme.txt"
+  !define MUI_FINISHPAGE_SHOWREADME "$TEMP\README.md"
   !define MUI_FINISHPAGE_RUN
   !define MUI_FINISHPAGE_RUN_FUNCTION Show_Config
   !define MUI_FINISHPAGE_RUN_TEXT "Show Config"
@@ -6712,7 +6712,7 @@ SectionIn 1
 SectionEnd
 !macro Remove_${MOD205}
   DetailPrint "*** Removing MOD205..."
-  Delete "$INSTDIR\data\Tiaras_Moonshine_Mod_Readme.txt"
+  Delete "$INSTDIR\data\README.md"
 !macroend
 Section "Realistic Rain" MOD394
 SetOutPath "$INSTDIR\data\sound"
@@ -8875,7 +8875,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD443" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD443" "CREATOR" "Draconis"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD443" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD205" "" "Unofficial Tiaras Moonshine Mod Readme"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD205" "FILE1" "\data\Tiaras_Moonshine_Mod_Readme.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD205" "FILE1" "\data\README.md"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD205" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD205" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD205" "DESCRIPTION" "Unofficial Tiaras Moonshine Mod Readme"
