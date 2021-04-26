@@ -1,8 +1,4 @@
-Unofficial Tiara's Moonshine Mod by ShaggyZE. Thanks to this months donator/s and special thanks to Amaretto, Penguin Eater, Draconis, Blade3575 and Step29 (along with Plonecakes, kotarou3, thatguysteve and Halfslashed) for Abyss, Logue for MabiPacker, Sven for Hyddwn Launcher and Cursey for Kanan
--------------------------------------------------------------------------
-By using Unofficial Tiara's Moonshine Mod, including any software and content contained therein, you agree that use of the Program/s is entirely at your own risk. The Program/s are provided to you as a convenience and I do not guarantee the accuracy, or completeness of the information.
-THE PROGRAM/S PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION, ANY WARRANTY FOR INFORMATION, DATA, SERVICES, OR UNINTERRUPTED ACCESS. SPECIFICALLY, BANNING, INCLUDING, BUT NOT LIMITED TO: ANY WARRANTIES CONCERNING THE AVAILABILITY, ACCURACY, USEFULNESS, OR CONTENT OF INFORMATION OR SERVICES.
-THIS DISCLAIMER OF LIABILITY APPLIES TO ANY DAMAGES OR INJURY CAUSED BY ANY FAILURE OF PERFORMANCE, ERROR, OMISSION, INTERRUPTION, DELETION, DEFECT, DELAY IN OPERATION OR TRANSMISSION, COMPUTER VIRUS, COMMUNICATION LINE FAILURE, THEFT OR DESTRUCTION OR UNAUTHORIZED ACCESS TO, ALTERATION OF, OR USE OF RECORD, WHETHER FOR BREACH OF CONTRACT, TORT, NEGLIGENCE, OR UNDER ANY OTHER CAUSE OF ACTION.
+Unofficial Tiara's Moonshine Mod by ShaggyZE. Thanks to this months donator/s and special thanks to Amaretto, Penguin Eater, Draconis, Blade3575 and Step29 (along with Plonecakes, kotarou3, thatguysteve and Halfslashed) for Abyss, Logue for MabiPacker, Sven for Hyddwn Launcher and Cursey for Kanan.
 -------------------------------------------------------------------------
 *Intended solely for Mabinogi (North America)
 
@@ -245,3 +241,8 @@ data/xml/talenttitle.english.txt
 ---Mods included in the compilation.---
 
 https://raw.githubusercontent.com/shaggyze/uotiara/master/uotiaralist.ini
+
+-------------------------------------------------------------------------
+By using Unofficial Tiara's Moonshine Mod, including any software and content contained therein, you agree that use of the Program/s is entirely at your own risk. The Program/s are provided to you as a convenience and I do not guarantee the accuracy, or completeness of the information.
+THE PROGRAM/S PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION, ANY WARRANTY FOR INFORMATION, DATA, SERVICES, OR UNINTERRUPTED ACCESS. SPECIFICALLY, BANNING, INCLUDING, BUT NOT LIMITED TO: ANY WARRANTIES CONCERNING THE AVAILABILITY, ACCURACY, USEFULNESS, OR CONTENT OF INFORMATION OR SERVICES.
+THIS DISCLAIMER OF LIABILITY APPLIES TO ANY DAMAGES OR INJURY CAUSED BY ANY FAILURE OF PERFORMANCE, ERROR, OMISSION, INTERRUPTION, DELETION, DEFECT, DELAY IN OPERATION OR TRANSMISSION, COMPUTER VIRUS, COMMUNICATION LINE FAILURE, THEFT OR DESTRUCTION OR UNAUTHORIZED ACCESS TO, ALTERATION OF, OR USE OF RECORD, WHETHER FOR BREACH OF CONTRACT, TORT, NEGLIGENCE, OR UNDER ANY OTHER CAUSE OF ACTION.
