@@ -13,7 +13,7 @@ Official Thread:
 http://mabimods.net/index.php?topic=10456.0
 
 Discord:
-https://discord.gg/mCNBwZT
+http://discord.uotiara.com
 
 
 >> What is Tiara's Moonshine Mod?
