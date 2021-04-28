@@ -1,5 +1,5 @@
 !define UOSHORTVERSION        "366"
-!define UOLONGVERSION         "0.1.9"
+!define UOLONGVERSION         "0.2.10"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -249,6 +249,36 @@ page components "" FontBMPChange
   !insertmacro MUI_UNPAGE_INSTFILES
   !insertmacro MUI_UNPAGE_FINISH
 
+Function Trim
+	Exch $R1 ; Original string
+	Push $R2
+
+Loop:
+	StrCpy $R2 "$R1" 1
+	StrCmp "$R2" " " TrimLeft
+	StrCmp "$R2" "$\r" TrimLeft
+	StrCmp "$R2" "$\n" TrimLeft
+	StrCmp "$R2" "	" TrimLeft ; this is a tab.
+	GoTo Loop2
+TrimLeft:
+	StrCpy $R1 "$R1" "" 1
+	Goto Loop
+
+Loop2:
+	StrCpy $R2 "$R1" 1 -1
+	StrCmp "$R2" " " TrimRight
+	StrCmp "$R2" "$\r" TrimRight
+	StrCmp "$R2" "$\n" TrimRight
+	StrCmp "$R2" "	" TrimRight ; this is a tab
+	GoTo Done
+TrimRight:
+	StrCpy $R1 "$R1" -1
+	Goto Loop2
+
+Done:
+	Pop $R2
+	Exch $R1
+FunctionEnd
 
 Function Show_Config
 BgImage::Destroy
@@ -11013,21 +11043,27 @@ Call DumpLog1
 ;ExecWait "$Temp\ninite.exe"
 ;${EndIf}
 ;noinst:
-inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/version.ini" "$TEMP\${UOVERSION}version.ini" /end
-StrCpy $R7 ".onInit Downloading Version"
 
+inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/appveyor.yml" "$TEMP\${UOVERSION}appveyor.yml" /end
+FileOpen $4 "$TEMP\${UOVERSION}appveyor.yml" r
+FileRead $4 $1
+FileClose $4
+Push $1
+Call Trim
+Pop $1
+;MessageBox MB_OK "$1"
+StrCpy $NEWUOVERSION $1 "" 9
+;MessageBox MB_OK "$NEWUOVERSION >= ${UOVERSION}"
+StrCpy $R7 ".onInit Downloading Version"
 Call DumpLog1
-ReadINIStr $NEWUOVERSION $TEMP\${UOVERSION}version.ini version version
 Push $NEWUOVERSION
 Push ${UOVERSION}
 StrCpy $R7 ".onInit $0 / $1"
-
 Call DumpLog1
 xtInfoPlugin::CompareVersion
 Pop $1
 ;MessageBox MB_OK "$1 : $NEWUOVERSION >= ${UOVERSION}"
-;MessageBox MB_OK "http://uotiara.com/utdlze/UO%20Tiaras%20Moonshine%20Mod%20V$NEWUOVERSION.exe"
-Delete $TEMP\${UOVERSION}version.ini
+Delete $TEMP\${UOVERSION}appveyor.yml
 ${If} $1 > "-1"
       Goto EndNewVersion
 ${EndIf}
@@ -11056,8 +11092,8 @@ SetupSite:
 ExecShell "open" "http://uotiara.com/"
 Quit
 EndNewVersion:
-!insertmacro SetSectionInInstType "${SECTION1}" "${INSTTYPE_1}"
 
+!insertmacro SetSectionInInstType "${SECTION1}" "${INSTTYPE_1}"
 Push $5
 Call .onSelChange
 !insertmacro SaveSections $R2
