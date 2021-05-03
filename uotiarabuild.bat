@@ -25,3 +25,5 @@ attrib +r C:\Nexon\Library\mabinogi\appdata\package\UOTiara.pack
 copy /Y "C:\Users\%username%\Documents\GitHub\uotiara\README.md" "C:\Users\%username%\Documents\GitHub\uotiara\unofficialtiara\README.md"
 copy /Y "C:\Nexon\Library\mabinogi\appdata\package\UOTiara.pack" "C:\Users\%username%\Google Drive\Tiara\unofficialtiara\UOTiara.pack"
 copy /Y  "C:\Nexon\Library\mabinogi\appdata\package\language.pack" "C:\Users\%username%\Google Drive\Tiara\unofficialtiara\language.pack"
+copy /Y "C:\Nexon\Library\mabinogi\appdata\package\UOTiara.pack" "C:\Users\%username%\Documents\GitHub\uotiara\UOTiara.pack"
+copy /Y  "C:\Nexon\Library\mabinogi\appdata\package\language.pack" "C:\Users\%username%\Documents\GitHub\uotiara\language.pack"

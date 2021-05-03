@@ -1,4 +1,4 @@
-version: 366.0.2.11
+version: 366.0.2.12
 clone_depth: 5
 skip_tags: true
 image: Visual Studio 2019
@@ -8,4 +8,6 @@ build_script:
 
 artifacts:
 - path: '*.exe'
+- path: 'UOTiara.pack'
+- path: 'language.pack'
   name: uotiara
