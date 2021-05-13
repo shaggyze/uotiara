@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FeatureList>
   <Settings>
-    <Setting Name="Regular, Korea" Locale="Korea" Test="False" Development="False" Generation="23" Season="1" Subseason="0" />
+    <Setting Name="Regular, Korea" Locale="Korea" Test="False" Development="False" Generation="25" Season="2" Subseason="0" />
     <Setting Name="Test, Korea" Locale="Korea" Test="True" Development="False" Generation="24" Season="2" Subseason="0" />
     <Setting Name="GM Test, Korea" Locale="Korea" Test="False" Development="True" Generation="25" Season="2" Subseason="0" />
     <Setting Name="Private, Korea" Locale="Korea" Test="False" Development="True" Generation="25" Season="2" Subseason="0" />
@@ -1074,7 +1074,7 @@
     <Feature _Name="f58d2849" _RealName="?" Default="" Enable="G18S5@Japan, G18S8@Korea, G18S5@USA" Disable="" />
     <Feature _Name="d34f5d43" _RealName="?" Default="" Enable="G18S8@Korea" Disable="" />
     <Feature _Name="2023bcc3" _RealName="?" Default="" Enable="G18S8@Korea" Disable="" />
-    <Feature _Name="5d84576a" _RealName="?" Default="" Enable="G24S1@Japan, G24S1@Korea" Disable="G24S1@China, G24S1@Japan, G24S1@Taiwan, G22S1@USA" />
+    <Feature _Name="5d84576a" _RealName="?" Default="" Enable="G24S1@Japan" Disable="G24S1@China, G24S1@Japan, G24S1@Korea, G24S1@Taiwan, G22S1@USA" />
     <Feature _Name="a64fffd9" _RealName="?" Default="" Enable="G18S4@China, G18S7@Japan, G18S8@Korea, G18S5@Taiwan, G18S5@USA" Disable="" />
     <Feature _Name="89bdf84a" _RealName="?" Default="" Enable="" Disable="G18S8@Korea(Development)" />
     <Feature _Name="2cd79ec9" _RealName="?" Default="" Enable="G18S5@Japan, G18S8@Korea(Development)" Disable="" />
@@ -1506,7 +1506,7 @@
     <Feature _Name="deaeea63" _RealName="?" Default="" Enable="G23S1@China, G23S1@Japan, G22S2@Korea(Development), G23S1@Taiwan, G24S1@USA" Disable="" />
     <Feature _Name="579233c9" _RealName="?" Default="" Enable="G23S1@China, G23S1@Japan, G23S1@Korea, G23S2@Taiwan, G23S1@USA" Disable="" />
     <Feature _Name="3ef799e5" _RealName="?" Default="G24S1" Enable="" Disable="" />
-    <Feature _Name="0b5c45c5" _RealName="?" Default="" Enable="G22S2@China, G22S1@Japan, G23S1@Korea(Development), G22S1@Taiwan, G22S1@USA" Disable="" />
+    <Feature _Name="0b5c45c5" _RealName="?" Default="" Enable="G22S2@China, G22S1@Japan, G23S1@Korea, G22S1@Taiwan, G22S1@USA" Disable="" />
     <Feature _Name="503a83ee" _RealName="?" Default="" Enable="G22S1@China, G22S1@Japan, G23S1@Korea(Development), G22S1@Taiwan, G22S1@USA" Disable="" />
     <Feature _Name="e0b9f106" _RealName="?" Default="" Enable="G23S1@China, G23S1@Japan, G23S1@Korea(Development), G23S2@Taiwan, G23S1@USA" Disable="" />
     <Feature _Name="74317b6e" _RealName="?" Default="G24S1" Enable="" Disable="" />
@@ -1535,7 +1535,7 @@
     <Feature _Name="c5c68186" _RealName="?" Default="" Enable="G24S2@China, G24S1@Japan, G23S1@Korea, G24S1@Taiwan, G24S1@USA" Disable="" />
     <Feature _Name="3d667044" _RealName="?" Default="" Enable="G23S1@China, G23S1@Japan, G23S1@Korea(Development), G23S2@Taiwan, G23S1@USA" Disable="" />
     <Feature _Name="26050fe8" _RealName="?" Default="" Enable="G23S1@China, G23S1@Japan, G23S1@Korea, G23S2@Taiwan, G23S1@USA" Disable="" />
-    <Feature _Name="20998e00" _RealName="?" Default="" Enable="G22S2@Japan, G23S1@Korea(Development), G24S1@Taiwan, G24S1@USA" Disable="" />
+    <Feature _Name="20998e00" _RealName="?" Default="" Enable="G24S1@China, G22S2@Japan, G23S1@Korea(Development), G24S1@Taiwan, G24S1@USA" Disable="" />
     <Feature _Name="afcfcf99" _RealName="?" Default="" Enable="G23S1@China, G24S1@Japan, G23S1@Korea, G24S1@Taiwan, G24S1@USA" Disable="" />
     <Feature _Name="2980c1f2" _RealName="?" Default="" Enable="G22S2@China, G23S1@Korea(Development), G23S2@Taiwan" Disable="" />
     <Feature _Name="af500dd4" _RealName="?" Default="" Enable="G24S1@China, G25S1@Japan, G23S1@Korea, G24S1@Taiwan, G24S1@USA" Disable="" />
@@ -1593,14 +1593,14 @@
     <Feature _Name="963ed4f2" _RealName="?" Default="" Enable="G24S2@Korea(Development)" Disable="" />
     <Feature _Name="cf294116" _RealName="?" Default="" Enable="G24S2@Korea" Disable="" />
     <Feature _Name="974d9313" _RealName="?" Default="" Enable="G24S2@Korea" Disable="" />
-    <Feature _Name="34f18b7d" _RealName="?" Default="" Enable="G24S2@Korea" Disable="" />
+    <Feature _Name="34f18b7d" _RealName="?" Default="" Enable="G25S1@China, G24S2@Korea, G25S1@Taiwan, G25S1@USA" Disable="" />
     <Feature _Name="16073060" _RealName="?" Default="" Enable="G24S2@Korea" Disable="" />
     <Feature _Name="473682b5" _RealName="?" Default="" Enable="G24S2@Korea" Disable="" />
     <Feature _Name="3bb09174" _RealName="?" Default="G24S2" Enable="" Disable="" />
     <Feature _Name="ce7706e9" _RealName="?" Default="G24S2" Enable="" Disable="" />
-    <Feature _Name="6d78d4f4" _RealName="?" Default="" Enable="G24S2@Japan, G24S2@Korea, G24S1@Taiwan, G24S2@USA" Disable="" />
-    <Feature _Name="b3b55e22" _RealName="?" Default="" Enable="G24S2@Japan, G24S2@Korea, G24S1@Taiwan, G24S2@USA" Disable="" />
-    <Feature _Name="563f4328" _RealName="?" Default="" Enable="G24S2@Japan, G24S2@Korea, G24S1@Taiwan, G24S2@USA" Disable="" />
+    <Feature _Name="6d78d4f4" _RealName="?" Default="" Enable="G24S2@China, G24S2@Japan, G24S2@Korea, G24S1@Taiwan, G24S2@USA" Disable="" />
+    <Feature _Name="b3b55e22" _RealName="?" Default="" Enable="G24S2@China, G24S2@Japan, G24S2@Korea, G24S1@Taiwan, G24S2@USA" Disable="" />
+    <Feature _Name="563f4328" _RealName="?" Default="" Enable="G24S2@China, G24S2@Japan, G24S2@Korea, G24S1@Taiwan, G24S2@USA" Disable="" />
     <Feature _Name="4fd884b9" _RealName="?" Default="" Enable="G24S2@Korea" Disable="" />
     <Feature _Name="4dcd02df" _RealName="?" Default="" Enable="G24S1@China, G24S1@Japan, G24S2@Korea(Development), G24S1@Taiwan, G24S1@USA" Disable="" />
     <Feature _Name="649719e3" _RealName="?" Default="" Enable="G24S1@China, G24S1@Japan, G24S2@Korea(Development), G24S1@Taiwan, G24S1@USA" Disable="" />
@@ -1617,15 +1617,15 @@
     <Feature _Name="373e40ee" _RealName="?" Default="G25S1" Enable="" Disable="" />
     <Feature _Name="34525953" _RealName="?" Default="" Enable="G24S2@China, G24S1@Korea(Development), G24S2@Taiwan, G24S2@USA" Disable="" />
     <Feature _Name="6bee35f4" _RealName="?" Default="" Enable="G24S2@China, G25S1@Japan, G24S1@Korea(Development), G24S1@Taiwan, G24S1@USA" Disable="" />
-    <Feature _Name="5f76e942" _RealName="?" Default="" Enable="G25S1@Korea(Development)" Disable="" />
+    <Feature _Name="5f76e942" _RealName="?" Default="" Enable="G25S1@China, G25S1@Korea(Development), G25S1@Taiwan, G25S1@USA" Disable="" />
     <Feature _Name="ae11f4b0" _RealName="?" Default="" Enable="G24S2@China, G24S2@Japan, G25S1@Korea(Development), G24S2@Taiwan, G24S2@USA" Disable="" />
-    <Feature _Name="731ecda6" _RealName="?" Default="" Enable="G25S1@Korea" Disable="" />
+    <Feature _Name="731ecda6" _RealName="?" Default="G25S1" Enable="" Disable="" />
     <Feature _Name="d797dcd7" _RealName="?" Default="" Enable="G25S1@Korea(Development)" Disable="" />
     <Feature _Name="a91d97b8" _RealName="?" Default="" Enable="G25S2@Korea" Disable="" />
     <Feature _Name="07f5ac08" _RealName="?" Default="" Enable="G25S1@Korea(Development)" Disable="" />
     <Feature _Name="86e18269" _RealName="?" Default="" Enable="G25S1@Korea" Disable="" />
-    <Feature _Name="695c294e" _RealName="?" Default="" Enable="G25S1@Korea" Disable="" />
-    <Feature _Name="4e99f2c2" _RealName="?" Default="" Enable="G25S1@Korea" Disable="" />
+    <Feature _Name="695c294e" _RealName="?" Default="G25S1" Enable="" Disable="" />
+    <Feature _Name="4e99f2c2" _RealName="?" Default="G25S1" Enable="" Disable="" />
     <Feature _Name="e8f52ab5" _RealName="?" Default="" Enable="G25S2@Korea" Disable="" />
     <Feature _Name="f7ccf68d" _RealName="?" Default="" Enable="G24S2@China, G24S2@Japan, G25S2@Korea(Development), G24S2@Taiwan, G24S2@USA" Disable="" />
     <Feature _Name="54819cfa" _RealName="?" Default="" Enable="G25S2@Korea" Disable="" />
@@ -1633,18 +1633,25 @@
     <Feature _Name="58410dd9" _RealName="?" Default="" Enable="G25S2@Korea" Disable="" />
     <Feature _Name="e6f615fe" _RealName="?" Default="" Enable="G25S2@Korea" Disable="" />
     <Feature _Name="a6cf6974" _RealName="?" Default="" Enable="G25S2@Korea(Development)" Disable="" />
-    <Feature _Name="98f86124" _RealName="?" Default="" Enable="G25S1@China, G25S1@Korea(Development), G25S1@Taiwan, G25S1@USA" Disable="" />
+    <Feature _Name="98f86124" _RealName="?" Default="" Enable="G25S1@China, G25S1@Japan, G25S1@Korea(Development), G25S1@Taiwan, G25S1@USA" Disable="" />
     <Feature _Name="9123ca6b" _RealName="?" Default="" Enable="G25S1@Korea(Development)" Disable="" />
-    <Feature _Name="f53eddf8" _RealName="?" Default="" Enable="G25S2@Korea(Development)" Disable="" />
+    <Feature _Name="f53eddf8" _RealName="?" Default="" Enable="G25S1@China, G25S2@Korea(Development), G25S1@Taiwan" Disable="" />
     <Feature _Name="19f76e52" _RealName="?" Default="" Enable="G25S1@Taiwan" Disable="" />
-    <Feature _Name="524436fb" _RealName="?" Default="" Enable="" Disable="" />
+    <Feature _Name="524436fb" _RealName="?" Default="" Enable="G25S1@Korea(Development)" Disable="" />
     <Feature _Name="b9aad04c" _RealName="?" Default="" Enable="G25S1@Korea(Development)" Disable="" />
     <Feature _Name="4008c0c5" _RealName="?" Default="" Enable="G25S1@Korea(Development)" Disable="" />
-    <Feature _Name="19c6ddcc" _RealName="?" Default="" Enable="G25S1@Korea(Development)" Disable="" />
-    <Feature _Name="ae5bbf3e" _RealName="?" Default="" Enable="G25S1@Korea(Development)" Disable="" />
-    <Feature _Name="e6f405da" _RealName="?" Default="" Enable="G25S1@Korea(Development)" Disable="" />
+    <Feature _Name="19c6ddcc" _RealName="?" Default="" Enable="G25S1@China, G25S1@Japan, G25S1@Korea(Development), G25S1@Taiwan, G25S1@USA" Disable="" />
+    <Feature _Name="ae5bbf3e" _RealName="?" Default="" Enable="G25S1@China, G25S1@Japan, G25S1@Korea(Development), G25S1@Taiwan, G25S1@USA" Disable="" />
+    <Feature _Name="e6f405da" _RealName="?" Default="" Enable="G25S1@China, G25S1@Korea(Development), G25S1@Taiwan" Disable="" />
     <Feature _Name="3ae09fc2" _RealName="?" Default="" Enable="G25S1@Korea(Development)" Disable="" />
     <Feature _Name="f5f51a01" _RealName="?" Default="" Enable="G25S1@Korea(Development)" Disable="" />
     <Feature _Name="c69ed9f4" _RealName="?" Default="" Enable="G25S2@Korea" Disable="" />
+    <Feature _Name="55264d1c" _RealName="?" Default="" Enable="G25S2@Korea(Development)" Disable="" />
+    <Feature _Name="71ae7a39" _RealName="?" Default="" Enable="G25S2@Korea" Disable="" />
+    <Feature _Name="9bd8d59b" _RealName="?" Default="" Enable="G25S2@Korea" Disable="" />
+    <Feature _Name="a560b915" _RealName="?" Default="" Enable="G25S2@Korea(Development)" Disable="" />
+    <Feature _Name="8d8ee5a2" _RealName="?" Default="" Enable="G25S2@Korea(Development)" Disable="" />
+    <Feature _Name="a4edd51f" _RealName="?" Default="" Enable="G25S2@Korea(Development)" Disable="" />
+    <Feature _Name="605082ac" _RealName="?" Default="" Enable="G25S2@Korea" Disable="" />
   </Features>
 </FeatureList>

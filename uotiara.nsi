@@ -1,4 +1,4 @@
-!define UOSHORTVERSION        "366"
+!define UOSHORTVERSION        "367"
 !define UOLONGVERSION         "0.2.13"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
@@ -371,7 +371,7 @@ AbyssLogNotFound1:
   inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/Abyss/ijl11.dll" "ijl11.dll" /end
   inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/Abyss/README_Abyss.txt" "README_Abyss.txt" /end
   Sleep 3000
-  IfFileExists "$INSTDIR\Abyss.ini" AbyssFound1 AbyssNotFound1
+  IfFileExists "$INSTDIR\ijl11.dll" AbyssFound1 AbyssNotFound1
 AbyssNotFound1:
 File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\ijl11.dat"
 File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\Abyss.ini"
