@@ -15,6 +15,7 @@ http://discord.uotiara.com
 
 Donate for Support:
 https://www.patreon.com/shaggyze
+https://paypal.me/thoggsr
 
 
 What is Tiara's Moonshine Mod?
