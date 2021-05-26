@@ -1,4 +1,4 @@
-version: 367.0.2.16
+version: 367.0.2.17
 clone_depth: 5
 skip_tags: true
 image: Visual Studio 2019
@@ -16,11 +16,11 @@ artifacts:
 
 deploy:
 - provider: GitHub
-   artifact: 'UOTiara.pack'
-   artifact: 'language.pack'
-   artifact: '*.exe'
-   draft: false
-   prerelease: false
- on:
-   branch: master
-   APPVEYOR_REPO_TAG: true
+  artifact: 'UOTiara.pack'
+  artifact: 'language.pack'
+  artifact: '*.exe'
+  draft: false
+  prerelease: false
+on:
+  branch: master
+  APPVEYOR_REPO_TAG: true
