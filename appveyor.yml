@@ -1,4 +1,4 @@
-version: 367.0.2.17
+version: 367.0.2.18
 clone_depth: 5
 skip_tags: true
 image: Visual Studio 2019
@@ -15,12 +15,5 @@ artifacts:
   name: uotiara
 
 deploy:
-- provider: GitHub
-  artifact: 'UOTiara.pack'
-  artifact: 'language.pack'
-  artifact: '*.exe'
-  draft: false
-  prerelease: false
-on:
-  branch: master
-  APPVEYOR_REPO_TAG: true
+- provider: Environment
+  name: uotiara
