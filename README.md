@@ -1,4 +1,6 @@
-Unofficial Tiara's Moonshine Mod by ShaggyZE. Thanks to this months donator/s and special thanks to Amaretto, Penguin Eater, Draconis, Blade3575 and Step29 (along with Plonecakes, kotarou3, thatguysteve and Halfslashed) for Abyss, Logue for MabiPacker, Sven for Hyddwn Launcher and Cursey for Kanan.
+Unofficial Tiara's Moonshine Mod by ShaggyZE. ![Build status](https://ci.appveyor.com/api/projects/status/frp20d9y14rpxha0?svg=true)](https://ci.appveyor.com/project/shaggyze/uotiara)
+
+Thanks to this months donator/s and special thanks to Amaretto, Penguin Eater, Draconis, Blade3575 and Step29 (along with Plonecakes, kotarou3, thatguysteve and Halfslashed) for Abyss, Logue for MabiPacker, Sven for Hyddwn Launcher and Cursey for Kanan.
 -------------------------------------------------------------------------
 *Intended solely for Mabinogi (North America)
 
@@ -15,6 +17,7 @@ http://discord.uotiara.com
 
 Donate for Support:
 https://www.patreon.com/shaggyze
+or
 https://paypal.me/thoggsr
 
 
