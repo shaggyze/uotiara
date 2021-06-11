@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FeatureList>
   <Settings>
-    <Setting Name="Regular, Korea" Locale="Korea" Test="False" Development="False" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="Regular, Korea" Locale="Korea" Test="False" Development="False" Generation="25" Season="3" Subseason="0" />
     <Setting Name="Test, Korea" Locale="Korea" Test="True" Development="False" Generation="24" Season="2" Subseason="0" />
-    <Setting Name="GM Test, Korea" Locale="Korea" Test="False" Development="True" Generation="25" Season="2" Subseason="0" />
-    <Setting Name="Private, Korea" Locale="Korea" Test="False" Development="True" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="GM Test, Korea" Locale="Korea" Test="False" Development="True" Generation="25" Season="3" Subseason="0" />
+    <Setting Name="Private, Korea" Locale="Korea" Test="False" Development="True" Generation="25" Season="3" Subseason="0" />
     <Setting Name="GM FR Test, Korea" Locale="Korea" Test="False" Development="True" Generation="20" Season="1" Subseason="0" />
-    <Setting Name="Regular, Japan" Locale="Japan" Test="False" Development="False" Generation="25" Season="1" Subseason="0" />
-    <Setting Name="Test, Japan" Locale="Japan" Test="True" Development="False" Generation="25" Season="1" Subseason="0" />
-    <Setting Name="GM Public Test, Japan" Locale="Japan" Test="False" Development="False" Generation="25" Season="1" Subseason="0" />
-    <Setting Name="GM Test, Japan" Locale="Japan" Test="False" Development="True" Generation="25" Season="1" Subseason="0" />
-    <Setting Name="Private, Japan" Locale="Japan" Test="False" Development="True" Generation="25" Season="1" Subseason="0" />
-    <Setting Name="Regular, China" Locale="China" Test="False" Development="False" Generation="25" Season="1" Subseason="0" />
-    <Setting Name="Regular PreCG, China" Locale="China" Test="False" Development="False" Generation="25" Season="1" Subseason="0" />
-    <Setting Name="Test, China" Locale="China" Test="False" Development="False" Generation="25" Season="1" Subseason="0" />
-    <Setting Name="GM Test, China" Locale="China" Test="False" Development="False" Generation="25" Season="1" Subseason="0" />
-    <Setting Name="GM Test PreCG, China" Locale="China" Test="False" Development="False" Generation="25" Season="1" Subseason="0" />
-    <Setting Name="Private, China" Locale="China" Test="False" Development="True" Generation="25" Season="1" Subseason="0" />
-    <Setting Name="GM KR Test, China" Locale="China" Test="False" Development="True" Generation="25" Season="1" Subseason="0" />
-    <Setting Name="Regular, Taiwan" Locale="Taiwan" Test="False" Development="False" Generation="25" Season="1" Subseason="0" />
-    <Setting Name="Regular Event, Taiwan" Locale="Taiwan" Test="False" Development="False" Generation="25" Season="1" Subseason="0" />
-    <Setting Name="Test, Taiwan" Locale="Taiwan" Test="True" Development="False" Generation="25" Season="1" Subseason="0" />
-    <Setting Name="GM Test, Taiwan" Locale="Taiwan" Test="False" Development="True" Generation="25" Season="1" Subseason="0" />
-    <Setting Name="Private, Taiwan" Locale="Taiwan" Test="False" Development="True" Generation="25" Season="1" Subseason="0" />
-    <Setting Name="Regular, USA" Locale="USA" Test="False" Development="False" Generation="25" Season="1" Subseason="0" />
-    <Setting Name="Test, USA" Locale="USA" Test="True" Development="False" Generation="25" Season="1" Subseason="0" />
-    <Setting Name="GM Test, USA" Locale="USA" Test="False" Development="True" Generation="25" Season="1" Subseason="0" />
-    <Setting Name="GM KR Test, USA" Locale="USA" Test="False" Development="False" Generation="25" Season="1" Subseason="0" />
-    <Setting Name="Private, USA" Locale="USA" Test="False" Development="True" Generation="25" Season="1" Subseason="0" />
+    <Setting Name="Regular, Japan" Locale="Japan" Test="False" Development="False" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="Test, Japan" Locale="Japan" Test="True" Development="False" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="GM Public Test, Japan" Locale="Japan" Test="False" Development="False" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="GM Test, Japan" Locale="Japan" Test="False" Development="True" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="Private, Japan" Locale="Japan" Test="False" Development="True" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="Regular, China" Locale="China" Test="False" Development="False" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="Regular PreCG, China" Locale="China" Test="False" Development="False" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="Test, China" Locale="China" Test="False" Development="False" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="GM Test, China" Locale="China" Test="False" Development="False" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="GM Test PreCG, China" Locale="China" Test="False" Development="False" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="Private, China" Locale="China" Test="False" Development="True" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="GM KR Test, China" Locale="China" Test="False" Development="True" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="Regular, Taiwan" Locale="Taiwan" Test="False" Development="False" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="Regular Event, Taiwan" Locale="Taiwan" Test="False" Development="False" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="Test, Taiwan" Locale="Taiwan" Test="True" Development="False" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="GM Test, Taiwan" Locale="Taiwan" Test="False" Development="True" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="Private, Taiwan" Locale="Taiwan" Test="False" Development="True" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="Regular, USA" Locale="USA" Test="False" Development="False" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="Test, USA" Locale="USA" Test="True" Development="False" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="GM Test, USA" Locale="USA" Test="False" Development="True" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="GM KR Test, USA" Locale="USA" Test="False" Development="False" Generation="25" Season="2" Subseason="0" />
+    <Setting Name="Private, USA" Locale="USA" Test="False" Development="True" Generation="25" Season="2" Subseason="0" />
   </Settings>
   <Features>
     <Feature _Name="be76806e" _RealName="gfClosedBetaVersion" Default="G0S1" Enable="" Disable="" />
@@ -759,7 +759,7 @@
     <Feature _Name="3209f770" _RealName="?" Default="" Enable="G15S1@China, G15S3@Japan, G16S1@Korea, G15S3@Taiwan, G15S2@USA" Disable="" />
     <Feature _Name="0371b947" _RealName="gfBomberManEvent" Default="" Enable="G15S1@China, G15S3@Japan, G16S1@Korea, G15S4@Taiwan, G15S3@USA" Disable="" />
     <Feature _Name="7f9e13b2" _RealName="?" Default="" Enable="G16S1@Korea" Disable="" />
-    <Feature _Name="2196ca73" _RealName="gfMetalwareRealview" Default="" Enable="G16S1@Korea" Disable="" />
+    <Feature _Name="2196ca73" _RealName="gfMetalwareRealview" Default="" Enable="G25S2@Japan, G16S1@Korea, G25S2@Taiwan, G25S2@USA" Disable="" />
     <Feature _Name="87a29e24" _RealName="?" Default="" Enable="G16S1@Korea" Disable="" />
     <Feature _Name="2b8bd3a0" _RealName="?" Default="" Enable="G16S1@Korea, G16S2@USA" Disable="" />
     <Feature _Name="a3116763" _RealName="?" Default="" Enable="G16S1@Korea" Disable="" />
@@ -1026,7 +1026,7 @@
     <Feature _Name="d5cb8160" _RealName="?" Default="" Enable="G18S3@China, G18S1@Japan, G18S6@Korea, G18S3@Taiwan, G18S3@USA" Disable="" />
     <Feature _Name="cc522b55" _RealName="?" Default="" Enable="G18S8@China, G18S5@Japan, G18S7@Korea, G18S8@Taiwan, G18S5@USA" Disable="" />
     <Feature _Name="b3862cfc" _RealName="?" Default="" Enable="G18S8@China, G18S5@Japan, G18S7@Korea, G18S8@Taiwan, G18S5@USA" Disable="" />
-    <Feature _Name="167b7cb7" _RealName="?" Default="" Enable="" Disable="G25S1@Japan, G24S2@Taiwan, G24S2@USA" />
+    <Feature _Name="167b7cb7" _RealName="?" Default="" Enable="G25S2@China, G25S2@Japan, G24S2@Taiwan, G24S2@USA" Disable="" />
     <Feature _Name="785934d0" _RealName="?" Default="" Enable="G18S8@China, G18S4@Japan, G18S7@Korea, G18S7@Taiwan, G18S4@USA" Disable="" />
     <Feature _Name="8ce71e11" _RealName="?" Default="" Enable="G18S3@China, G18S5@Korea, G18S3@Taiwan" Disable="" />
     <Feature _Name="246a330b" _RealName="?" Default="" Enable="G18S3@China, G18S3@Japan, G18S6@Korea, G18S3@Taiwan, G18S3@USA" Disable="" />
@@ -1560,7 +1560,7 @@
     <Feature _Name="1b927bb3" _RealName="?" Default="G24S1" Enable="" Disable="" />
     <Feature _Name="27385230" _RealName="?" Default="G24S1" Enable="" Disable="" />
     <Feature _Name="ff1c67cb" _RealName="?" Default="G24S1" Enable="" Disable="" />
-    <Feature _Name="d1d46d53" _RealName="?" Default="" Enable="G24S1@Korea(Development)" Disable="" />
+    <Feature _Name="d1d46d53" _RealName="?" Default="" Enable="G25S2@Japan, G24S1@Korea(Development), G25S2@Taiwan, G25S2@USA" Disable="" />
     <Feature _Name="2774fa64" _RealName="?" Default="" Enable="G23S1@China, G23S1@Japan, G23S1@Korea(Development), G23S1@Taiwan, G23S1@USA" Disable="" />
     <Feature _Name="376980a5" _RealName="?" Default="" Enable="G24S1@China, G23S1@Japan, G24S1@Korea(Development), G23S1@Taiwan, G23S1@USA" Disable="" />
     <Feature _Name="86bbf49f" _RealName="?" Default="G24S1" Enable="" Disable="" />
@@ -1577,7 +1577,7 @@
     <Feature _Name="faf269fe" _RealName="?" Default="" Enable="G24S1@China, G24S1@Japan, G24S1@Korea(Development), G24S1@Taiwan, G24S1@USA" Disable="" />
     <Feature _Name="7ffaf198" _RealName="?" Default="" Enable="G24S1@Korea" Disable="" />
     <Feature _Name="51ef1712" _RealName="?" Default="" Enable="G24S1@China, G24S1@Japan, G24S1@Korea(Development), G24S1@Taiwan, G24S1@USA" Disable="" />
-    <Feature _Name="ad9db70c" _RealName="?" Default="" Enable="G24S1@China, G24S1@Japan, G24S1@Korea(Development), G24S1@USA" Disable="" />
+    <Feature _Name="ad9db70c" _RealName="?" Default="" Enable="G24S1@China, G24S1@Japan, G24S1@Korea(Development), G25S2@Taiwan, G24S1@USA" Disable="" />
     <Feature _Name="4beffc79" _RealName="?" Default="" Enable="G24S1@China, G24S1@Japan, G24S1@Korea(Development), G24S1@Taiwan, G24S1@USA" Disable="" />
     <Feature _Name="975035bc" _RealName="?" Default="" Enable="G24S1@China, G24S1@Japan, G24S1@Korea(Development), G24S1@Taiwan, G24S1@USA" Disable="" />
     <Feature _Name="98e3bccc" _RealName="?" Default="" Enable="G24S1@China, G24S1@Korea(Development)" Disable="" />
@@ -1621,37 +1621,40 @@
     <Feature _Name="ae11f4b0" _RealName="?" Default="" Enable="G24S2@China, G24S2@Japan, G25S1@Korea(Development), G24S2@Taiwan, G24S2@USA" Disable="" />
     <Feature _Name="731ecda6" _RealName="?" Default="G25S1" Enable="" Disable="" />
     <Feature _Name="d797dcd7" _RealName="?" Default="" Enable="G25S1@Korea(Development)" Disable="" />
-    <Feature _Name="a91d97b8" _RealName="?" Default="" Enable="G25S2@Korea" Disable="" />
+    <Feature _Name="a91d97b8" _RealName="?" Default="" Enable="G25S2@China, G25S2@Korea, G25S2@Taiwan" Disable="" />
     <Feature _Name="07f5ac08" _RealName="?" Default="" Enable="G25S1@Korea(Development)" Disable="" />
     <Feature _Name="86e18269" _RealName="?" Default="" Enable="G25S1@Korea" Disable="" />
     <Feature _Name="695c294e" _RealName="?" Default="G25S1" Enable="" Disable="" />
     <Feature _Name="4e99f2c2" _RealName="?" Default="G25S1" Enable="" Disable="" />
-    <Feature _Name="e8f52ab5" _RealName="?" Default="" Enable="G25S2@Korea" Disable="" />
+    <Feature _Name="e8f52ab5" _RealName="?" Default="" Enable="G25S2@China, G25S2@Korea, G25S2@Taiwan" Disable="" />
     <Feature _Name="f7ccf68d" _RealName="?" Default="" Enable="G24S2@China, G24S2@Japan, G25S2@Korea(Development), G24S2@Taiwan, G24S2@USA" Disable="" />
-    <Feature _Name="54819cfa" _RealName="?" Default="" Enable="G25S2@Korea" Disable="" />
+    <Feature _Name="54819cfa" _RealName="?" Default="" Enable="G25S2@China, G25S2@Korea, G25S2@Taiwan" Disable="" />
     <Feature _Name="e7a060fb" _RealName="?" Default="" Enable="G25S1@Korea(Development)" Disable="" />
     <Feature _Name="58410dd9" _RealName="?" Default="" Enable="G25S2@Korea" Disable="" />
     <Feature _Name="e6f615fe" _RealName="?" Default="" Enable="G25S2@Korea" Disable="" />
-    <Feature _Name="a6cf6974" _RealName="?" Default="" Enable="G25S2@Korea(Development)" Disable="" />
+    <Feature _Name="a6cf6974" _RealName="?" Default="" Enable="G25S2@China, G25S2@Korea(Development), G25S2@Taiwan" Disable="" />
     <Feature _Name="98f86124" _RealName="?" Default="" Enable="G25S1@China, G25S1@Japan, G25S1@Korea(Development), G25S1@Taiwan, G25S1@USA" Disable="" />
     <Feature _Name="9123ca6b" _RealName="?" Default="" Enable="G25S1@Korea(Development)" Disable="" />
-    <Feature _Name="f53eddf8" _RealName="?" Default="" Enable="G25S1@China, G25S2@Korea(Development), G25S1@Taiwan" Disable="" />
+    <Feature _Name="f53eddf8" _RealName="?" Default="" Enable="G25S1@China, G25S2@Japan, G25S2@Korea(Development), G25S1@Taiwan, G25S1@USA" Disable="" />
     <Feature _Name="19f76e52" _RealName="?" Default="" Enable="G25S1@Taiwan" Disable="" />
     <Feature _Name="524436fb" _RealName="?" Default="" Enable="G25S1@Korea(Development)" Disable="" />
-    <Feature _Name="b9aad04c" _RealName="?" Default="" Enable="G25S1@Korea(Development)" Disable="" />
+    <Feature _Name="b9aad04c" _RealName="?" Default="" Enable="G25S1@Korea(Development), G25S1@USA" Disable="" />
     <Feature _Name="4008c0c5" _RealName="?" Default="" Enable="G25S1@Korea(Development)" Disable="" />
     <Feature _Name="19c6ddcc" _RealName="?" Default="" Enable="G25S1@China, G25S1@Japan, G25S1@Korea(Development), G25S1@Taiwan, G25S1@USA" Disable="" />
     <Feature _Name="ae5bbf3e" _RealName="?" Default="" Enable="G25S1@China, G25S1@Japan, G25S1@Korea(Development), G25S1@Taiwan, G25S1@USA" Disable="" />
-    <Feature _Name="e6f405da" _RealName="?" Default="" Enable="G25S1@China, G25S1@Korea(Development), G25S1@Taiwan" Disable="" />
+    <Feature _Name="e6f405da" _RealName="?" Default="" Enable="G25S1@China, G25S2@Japan, G25S1@Korea(Development), G25S1@Taiwan" Disable="G25S1@USA" />
     <Feature _Name="3ae09fc2" _RealName="?" Default="" Enable="G25S1@Korea(Development)" Disable="" />
     <Feature _Name="f5f51a01" _RealName="?" Default="" Enable="G25S1@Korea(Development)" Disable="" />
     <Feature _Name="c69ed9f4" _RealName="?" Default="" Enable="G25S2@Korea" Disable="" />
     <Feature _Name="55264d1c" _RealName="?" Default="" Enable="G25S2@Korea(Development)" Disable="" />
-    <Feature _Name="71ae7a39" _RealName="?" Default="" Enable="G25S2@Korea" Disable="" />
+    <Feature _Name="71ae7a39" _RealName="?" Default="" Enable="G25S2@Japan, G25S2@Korea, G25S2@Taiwan, G25S2@USA" Disable="" />
     <Feature _Name="9bd8d59b" _RealName="?" Default="" Enable="G25S2@Korea" Disable="" />
     <Feature _Name="a560b915" _RealName="?" Default="" Enable="G25S2@Korea(Development)" Disable="" />
     <Feature _Name="8d8ee5a2" _RealName="?" Default="" Enable="G25S2@Korea(Development)" Disable="" />
     <Feature _Name="a4edd51f" _RealName="?" Default="" Enable="G25S2@Korea(Development)" Disable="" />
     <Feature _Name="605082ac" _RealName="?" Default="" Enable="G25S2@Korea" Disable="" />
+    <Feature _Name="67b57fa7" _RealName="?" Default="" Enable="G25S2@Korea" Disable="" />
+    <Feature _Name="8eab9803" _RealName="?" Default="" Enable="G25S2@Korea(Development)" Disable="" />
+    <Feature _Name="86cc3db0" _RealName="?" Default="" Enable="G25S2@Korea(Development)" Disable="" />
   </Features>
 </FeatureList>

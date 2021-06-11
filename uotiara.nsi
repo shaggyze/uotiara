@@ -1,5 +1,5 @@
-!define UOSHORTVERSION        "367"
-!define UOLONGVERSION         "0.2.19"
+!define UOSHORTVERSION        "368"
+!define UOLONGVERSION         "0.3.19"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -366,11 +366,17 @@ CopyFiles /SILENT "$INSTDIR\Abyss_patchlog.txt" "$INSTDIR\Logs\Abyss\Abyss_patch
 Delete "$INSTDIR\Abyss_patchlog.txt"
 AbyssLogNotFound1:
   DetailPrint "Downloading Abyss..."
-  inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/Abyss/Abyss.ini" "Abyss.ini" /end
-  inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/Abyss/ijl11.dat" "ijl11.dat" /end
-  inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/Abyss/ijl11.dll" "ijl11.dll" /end
-  inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/Abyss/README_Abyss.txt" "README_Abyss.txt" /end
+  inetc::get /NOCANCEL /SILENT "https://blade3575.com/Abyss/Abyss.7z" "Abyss.7z" /end
+  inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/7za.exe" "7za.exe" /end
+  inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/7za.dll" "7za.dll" /end
+  inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/7zxa.dll" "7zxa.dll" /end
+  DetailPrint "Extracting Abyss.7z..."
+  nsExec::ExecToStack '7za.exe e Abyss.7z -r'
   Sleep 3000
+  Delete "7za.exe"
+  Delete "7za.dll"
+  Delete "7zxa.dll"
+  Delete "Abyss.7z"
   IfFileExists "$INSTDIR\ijl11.dll" AbyssFound1 AbyssNotFound1
 AbyssNotFound1:
 File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\ijl11.dat"
