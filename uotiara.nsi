@@ -1,5 +1,5 @@
 !define UOSHORTVERSION        "368"
-!define UOLONGVERSION         "0.3.19"
+!define UOLONGVERSION         "0.3.20"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -371,7 +371,7 @@ AbyssLogNotFound1:
   inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/7za.dll" "7za.dll" /end
   inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/7zxa.dll" "7zxa.dll" /end
   DetailPrint "Extracting Abyss.7z..."
-  nsExec::ExecToStack '7za.exe e Abyss.7z -r'
+  nsExec::ExecToStack '7za.exe e Abyss.7z -aoa'
   Sleep 3000
   Delete "7za.exe"
   Delete "7za.dll"
