@@ -1,5 +1,5 @@
-!define UOSHORTVERSION        "368"
-!define UOLONGVERSION         "0.3.20"
+!define UOSHORTVERSION        "369"
+!define UOLONGVERSION         "0.4.20"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -11369,6 +11369,8 @@ WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "LoadDLL" "Kanan\Kanan.dll"
 goto AbyssEnd3
 ${EndIf}
 AbyssNotFound3:
+IfFileExists $INSTDIR\Kanan\Kanan.dll KananFound5 KananNotFound5
+KananFound5:
 Call KananEnableData
 MessageBox MB_YESNO "Would you like to Run Loader.exe?" IDNO no7
 StrCpy $R7 ".oninstsuccess Execute Loader.exe"
@@ -11377,6 +11379,7 @@ ExecShell "" "$DESKTOP\Loader.exe.lnk"
 no7:
 AbyssEnd3:
 KananNotFound3:
+KananNotFound5:
 StrCpy $R7 ".oninstsuccess Execute Launchers"
 Call DumpLog1
 IfFileExists "$INSTDIR\Hyddwn Launcher\Hyddwn Launcher.exe" ExecHyddwn ExecMabinogi
