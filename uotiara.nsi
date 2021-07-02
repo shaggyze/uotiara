@@ -1,5 +1,5 @@
 !define UOSHORTVERSION        "369"
-!define UOLONGVERSION         "0.4.20"
+!define UOLONGVERSION         "0.4.21"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -318,7 +318,7 @@ AbyssFound14:
 IfFileExists $INSTDIR\Kanan\Kanan.dll KananFound14 KananNotFound14
 KananFound14:
 StrCpy $AbyssLoadKanan "0"
-MessageBox MB_YESNO "Would you like Abyss to run Kanan via LoadDLL=Kanan\Kanan.dll in Abyss.ini?" IDNO AbyssNotFound14
+MessageBox MB_YESNO "Would you like Abyss to run Kanan via LoadDLL=Kanan\Kanan.dll in Abyss.ini?$\r$\n(clicking yes can sometimes result in crashing after secondary password)" IDNO AbyssNotFound14
 StrCpy $AbyssLoadKanan "1"
 AbyssNotFound14:
 KananNotFound14:
@@ -724,6 +724,8 @@ no4:
 
 Section "MabiPacker" MOD434
 SetOutPath "$INSTDIR\MabiPacker"
+IfFileExists $INSTDIR\MabiPacker\MabinogiResource.dll MabiPackerFound2 MabiPackerNotFound2
+MabiPackerNotFound2:
 File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\MabiPacker.exe.config"
 File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\Be.Windows.Forms.HexBox.dll"
 File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\DevIL.dll"
@@ -757,7 +759,7 @@ File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\MabiPacker.pdb"
 ;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\WPFLocalizeExtension.pdb"
 ;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\XAMLMarkupExtensions.pdb"
 SetOutPath "$INSTDIR\"
-Call UOTiaraPackBuild
+
 SetOutPath "$INSTDIR\ja"
 File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\ja\MabiPacker.resources.dll"
 
@@ -771,7 +773,8 @@ File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\zh-CN\MabiPacker.resource
 File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\zh-TW\MabiPacker.resources.dll"
 
 ;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\zh\MabiPacker.resources.dll"
-
+MabiPackerFound2:
+Call UOTiaraPackBuild
 WriteRegStr HKCR ".pack" "" "MP.pack"
 WriteRegStr HKCR "MP.pack" "" "PACK File"
 WriteRegStr HKCR "MP.pack\shell" "" "Open"
@@ -869,7 +872,7 @@ WriteRegStr HKCR "PS.ps1\shell" "" "Open"
 WriteRegStr HKCR "PS.ps1\shell\Open\command" "" '"$SYSDIR\WindowsPowerShell\v1.0\powershell.exe" "%1"'
 WriteRegStr HKCR "PS.ps1\DefaultIcon" "" "$SYSDIR\WindowsPowerShell\v1.0\powershell.exe"
   DetailPrint "Downloading Kanan..."
-  inetc::get /NOCANCEL /SILENT "https://ci.appveyor.com/api/projects/cursey/kanan-new/artifacts/kanan.zip" "kanan.zip" /end
+  inetc::get /NOCANCEL /SILENT "https://github.com/cursey/kanan-new/releases/latest/download/kanan.zip" "kanan.zip" /end
   inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/unzip.exe" "unzip.exe" /end
   DetailPrint "Extracting kanan.zip..."
   nsExec::ExecToStack 'unzip.exe -o kanan.zip'
@@ -11085,7 +11088,7 @@ ${If} $1 = 0
 StrCpy $0 "0.0.0.0"
 ${EndIf}
 MessageBox MB_YESNOCANCEL|MB_ICONQUESTION "New UO Tiara detected V$NEWUOVERSION$\r$\nV$0 currently installed$\r$\nYou are running V${UOVERSION}$\r$\n$\r$\nWould you like to download the latest version?$\r$\n$\r$\nClick Yes to download automatically$\r$\nNo to continue installing$\r$\nCancel to download latest version from site." IDNO EndNewVersion IDCANCEL SetupSite
-inetc::get /NOCANCEL /SILENT "https://ci.appveyor.com/api/projects/shaggyze/uotiara/artifacts/UO%20Tiaras%20Moonshine%20Mod%20V$NEWUOVERSION.exe" "$INSTDIR\Archived\UOTiara\UOSetup1.exe" /end
+inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/releases/latest/download/UO.Tiaras.Moonshine.Mod.V$NEWUOVERSION.exe" "$INSTDIR\Archived\UOTiara\UOSetup1.exe" /end
 IfFileExists "$INSTDIR\Archived\UOTiara\UOSetup1.exe" SetupFound SetupNotFound
 SetupFound:
 Exec $INSTDIR\Archived\UOTiara\UOSetup1.exe

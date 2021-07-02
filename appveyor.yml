@@ -1,4 +1,4 @@
-version: 369.0.4.20
+version: 369.0.4.21
 clone_depth: 5
 skip_tags: true
 image: Visual Studio 2019
