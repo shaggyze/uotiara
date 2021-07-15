@@ -6724,6 +6724,28 @@ set("tool_training glove")
     
 endset
 
+
+
+
+
+
+set("riding_pierrotfox")
+
+	folder("char\chapter4\human\anim\riding\riding_pierrotfox")
+	
+		"uni_pegasus_riding_bigball"
+			0:lookat(off)
+			0:hand(both, palm)
+			0:generic ("custom_equip(weapon:tool_circusbigball)")
+
+	
+	
+	endfolder
+    
+endset
+
+
+
 ////////////////////////////////////// 드래곤 타기 모션 - 인간  //////////////////////////////////////////
 
 
@@ -7163,6 +7185,24 @@ set("riding_dragon")
 endset
 
 
+set("riding_pierrotfox")
+
+	folder("char\chapter4\giant\anim\riding\riding_pierrotfox")
+	
+		"giant_pegasus_riding_bigball"
+			0:lookat(off)
+			0:hand(both, palm)
+			0:generic ("custom_equip(weapon:giant_tool_circusbigball)")
+
+		"giant_female_pegasus_riding_bigball"
+			0:lookat(off)
+			0:hand(both, palm)
+			0:generic ("custom_equip(weapon:giant_tool_circusbigball)")			
+	
+	
+	endfolder
+    
+endset
 
 ////////////////////요정 펫 자이언트 탑승 모션///////////////////
 
@@ -9321,8 +9361,8 @@ set("riding_HumanPetCrarriage")
 			0:lookat(off)
 
 	endfolder
-////////////////////////////////////////////////////////////////////
-	
+
+////////////////////////////////////////////////////////////////////	
 set("riding_Welshcorgi")
 
 	folder("char\chapter4\human\anim\riding\riding_Welshcorgi")	
@@ -24725,11 +24765,24 @@ set("social motion")
 	
 	
 	folder("char\chapter4\human\anim\social_motion")
+	
+		"female_heulwenengineer"
+			0:lookat(off)		
+			0:hand(both, fist)			
+			90:generic("custom_equip(weapon:tool_heulwenenghammer)")
+			553:jump(100)
+			
+		"male_heulwenengineer"
+			0:lookat(off)		
+			0:hand(both, fist)			
+			90:generic("custom_equip(weapon:tool_heulwenenghammer)")
+			553:jump(100)		
 
 	
 		"male_summervac"
 			0:lookat(off)		
-			0:hand(both, palm)		
+			0:hand(right, palm)		
+			0:hand(left, fist)		
 			0:hideequip(false)	
 			1:generic("custom_equipmentmesh(1, male_c4_summervac_bsl_ani)")	
 			
@@ -24737,7 +24790,8 @@ set("social motion")
 			0:lookat(off)		
 			0:hand(both, palm)		
 			0:hideequip(false)	
-			1:generic("custom_equipmentmesh(1, female_c4_summervac_bss_ani)")			
+			1:generic("custom_equipmentmesh(1, female_c4_summervac_bss_ani)")
+		
 	
 	
 	
@@ -45431,6 +45485,147 @@ set("phoenix")
 			
     endfolder	
 	
+///////////////////////////////// C4_pet_여우펫  ////////////////////////////////////
+	
+	 folder("char\chapter4\pet\anim\pierrotfox")
+
+	"pet_pierrotfox_stand"
+		0:lookat(off)
+		0:generic ("custom_mesh(0)")	
+		37:changealpha(0, 1,0)
+		43:changealpha(255, 1,0)
+		99:changealpha(0, 1,0)
+		110:changealpha(255, 1,0)
+		191:changealpha(0, 1,0)
+		198:changealpha(255, 1,0)
+		
+	"pet_pierrotfox_offensive"
+		0:lookat(off)
+		1:generic ("custom_mesh(0:pet_pierrotfox_sword)")
+		
+	"pet_pierrotfox_run"
+		0:lookat(off)
+		0:generic ("custom_mesh(0)")	
+		
+	"pet_pierrotfox_walk"
+		0:lookat(off)
+		0:generic ("custom_mesh(0)")	
+		
+	"pet_pierrotfox_stand_to_sit"
+		0:lookat(off)
+		0:generic ("custom_mesh(0)")	
+		
+	"pet_pierrotfox_sit"
+		0:lookat(off)
+		0:generic ("custom_mesh(0:pet_pierrotfox_box)")
+		
+	"pet_pierrotfox_sit_to_stand"
+		0:lookat(off)
+		0:generic ("custom_mesh(0)")	
+		
+	"pet_pierrotfox_summon"
+		0:lookat(off)
+		0:generic ("custom_mesh(0)")	
+			
+	"pet_pierrotfox_attack"
+		0:lookat(off)
+		0:generic ("custom_mesh(0:pet_pierrotfox_sword)")
+		
+	"pet_pierrotfox_counter"
+		0:lookat(off)
+		0:generic ("custom_mesh(0:pet_pierrotfox_sword)")
+		
+	"pet_pierrotfox_smash"
+		0:lookat(off)
+		0:generic ("custom_mesh(0:pet_pierrotfox_sword)")
+		
+	"pet_pierrotfox_lovely_start"
+		0:lookat(off)
+		0:generic ("custom_mesh(0)")	
+			
+	"pet_pierrotfox_lovely"
+		0:lookat(off)
+		0:generic ("custom_mesh(0:pet_c4_foxball_mesh)")
+		
+	"pet_pierrotfox_lovely_end"
+		0:lookat(off)
+		0:generic ("custom_mesh(0)")	
+			
+	"pet_pierrotfox_hitA"
+		0:lookat(off)
+		0:generic ("custom_mesh(0:pet_pierrotfox_sword)")
+		
+	"pet_pierrotfox_hitB"
+		0:lookat(off)
+		0:generic ("custom_mesh(0:pet_pierrotfox_sword)")
+		
+	"pet_pierrotfox_defence"
+		0:lookat(off)
+		0:generic ("custom_mesh(0:pet_pierrotfox_sword)")
+		
+	"pet_pierrotfox_hitblowawayforward"
+		0:lookat(off)
+		0:generic ("custom_mesh(0:pet_pierrotfox_sword)")
+		
+	"pet_pierrotfox_hitblowawaybackward"
+		0:lookat(off)
+		0:generic ("custom_mesh(0:pet_pierrotfox_sword)")
+		
+	"pet_pierrotfox_hitBlowawaySpin"
+		0:lookat(off)
+		0:generic ("custom_mesh(0:pet_pierrotfox_sword)")
+		
+	"pet_pierrotfox_hitblowawaybound"
+		0:lookat(off)
+		0:generic ("custom_mesh(0:pet_pierrotfox_sword)")
+		
+	"pet_pierrotfox_hitgroggy"
+		0:lookat(off)
+		0:generic ("custom_mesh(0:pet_pierrotfox_sword)")
+		
+	"pet_pierrotfox_endurance"
+		0:lookat(off)
+		0:generic ("custom_mesh(0:pet_pierrotfox_sword)")
+		
+	"pet_pierrotfox_down"
+		0:lookat(off)
+		0:generic ("custom_mesh(0:pet_pierrotfox_sword)")
+		
+	"pet_pierrotfox_down_to_stand"
+		0:lookat(off)
+		0:generic ("custom_mesh(0)")	
+			
+	"pet_pierrotfox_takeoff"
+		0:lookat(off)
+		0:generic ("custom_mesh(0:pet_pierrotfox_balloon)")	
+			
+	"pet_pierrotfox_landing"
+		0:lookat(off)
+		0:generic ("custom_mesh(0:pet_pierrotfox_balloon)")	
+			
+	"pet_pierrotfox_fly_stand"
+		0:lookat(off)
+		0:generic ("custom_mesh(0:pet_pierrotfox_balloon)")	
+			
+	"pet_pierrotfox_fly_run"
+		0:lookat(off)
+		0:generic ("custom_mesh(0:pet_pierrotfox_balloon)")	
+			
+	"pet_pierrotfox_BrilliantDancing"
+		0:lookat(off)
+		0:generic ("custom_mesh(0:pet_pierrotfox_sword)")
+		
+	"pet_pierrotfox_SpecialGift"
+		0:lookat(off)
+		0:generic ("custom_mesh(0:pet_pierrotfox_box)")
+		
+	"pet_pierrotfox_Applause"
+		0:lookat(off)
+		0:generic ("custom_mesh(0)")	
+			
+	
+    endfolder	
+
 ///////////////////////////////// C4_pet_코기  ////////////////////////////////////
 	
 	   folder("char\chapter4\pet\anim\welshcorgi")
@@ -49417,11 +49612,7 @@ set("monster_lich")
 			1:sound("data\sound\demi_lich.wav")
 			30:hit(up,spin)
 			
-		"lich_natural_attack_smash02"
-		  0:ForceTargetInRange
-			0:lookat(off)
-			1:sound("data\sound\demi_lich.wav")
-			30:hit(up,spin)			
+	
 			
 		"lich_natural_attack_counter"
 		  13:hit(down,normal)
@@ -49432,14 +49623,6 @@ set("monster_lich")
 			// ...맞는쪽이 13,14,15,16,17 의 5프레임동안 경직되어 있다가 18프레임부터 날아간다.
 			0:lookat(off)
 			
-		"lich_natural_attack_counter02"
-		  13:hit(down,normal)
-		  18:sound("data\sound\demi_lich.wav")
-			// 카운터 타격 발동은 18프레임이다.
-			// 맞는쪽 애니메이션에는 0,1,2,3,4 의 5프레임동안의 경직프레임이 포함되어있다.
-			// 그러므로 치는쪽에서 13프레임째에 타격선언을 미리 해줘야...
-			// ...맞는쪽이 13,14,15,16,17 의 5프레임동안 경직되어 있다가 18프레임부터 날아간다.
-			0:lookat(off)			
 			
 		"lich_natural_guard"
 		  0:lookat(off)
@@ -49460,9 +49643,7 @@ set("monster_lich")
 		  0:lookat(off)
 		  5:vibrate(17)
 		  
-		"lich_natural_hitB02"
-		  0:lookat(off)
-		  5:vibrate(17)		  
+	  
       
 		"lich_natural_blowaway_body"
 		  0:lookat(off)
@@ -49472,9 +49653,7 @@ set("monster_lich")
 		  0:lookat(off)
 		  5:blowaway
 		  
-		"lich_natural_blowaway_headup02"
-		  0:lookat(off)
-		  5:blowaway		  
+  
 		  
 		"lich_natural_blowaway_spin"
 		  0:lookat(off)
@@ -49492,9 +49671,7 @@ set("monster_lich")
 		"lich_natural_groggy"
 		  0:lookat(off)
 		  
-		"lich_natural_groggy02"
-		  0:lookat(off)		  
-		  
+	  
 		"lich_natural_endure"
 		  0:lookat(off)
 		  5:blowaway
@@ -49502,8 +49679,6 @@ set("monster_lich")
 		"lich_natural_magic_casting_friendly"
 		  0:lookat(off)
 		  
-		"lich_natural_magic_casting_friendly02"
-		  0:lookat(off)		  
 		  
 		"lich_natural_magic_casting_offensive"
 		  0:lookat(off)
@@ -52789,6 +52964,14 @@ endset
 set("prop concerned - temporary")
 
 	// setting file 안의 animation을 정의할 때는 folder를 "::세팅파일 이름" 으로 지정해야 한다.
+
+	folder("::dg_ntd_darkghost02")	
+		"dg_ntd_darkghost02_off"
+			90:jump(1)
+	
+	endfolder	
+		
+	
 	folder("::scene_prop_golem01")	
 		"scene_prop_golem01_sit"
 			0:linkframework(1, "race:990140,  c1:56D682 c2:2F674C c3:487A7E", "bone01", "data/gfx/char/monster/anim/golem/prop_golem01_stand_friendly")	
@@ -79725,12 +79908,23 @@ set("social motion")
 	
 	folder("char\chapter4\giant\anim\social_motion")
 
+		"giant_female_heulwenengineer"
+			0:lookat(off)		
+			0:hand(both, fist)			
+			90:generic("custom_equip(weapon:giant_tool_heulwenenghammer)")
+			553:jump(100)
 			
+		"giant_heulwenengineer"
+			0:lookat(off)		
+			0:hand(both, fist)			
+			90:generic("custom_equip(weapon:giant_tool_heulwenenghammer)")
+			553:jump(100)			
 	
 	
 		"giant_summervac"
 			0:lookat(off)		
-			0:hand(both, palm)		
+			0:hand(right, palm)		
+			0:hand(left, fist)		
 			0:hideequip(false)	
 			1:generic("custom_equipmentmesh(1, giant_male_c4_summervac_bsl_ani)")		
 			
@@ -79738,7 +79932,8 @@ set("social motion")
 			0:lookat(off)		
 			0:hand(both, palm)		
 			0:hideequip(false)	
-			1:generic("custom_equipmentmesh(1, giant_female_c4_summervac_bss_ani)")				
+			1:generic("custom_equipmentmesh(1, giant_female_c4_summervac_bss_ani)")
+		
 	
 		"giant_hydrangea"
 			0:lookat(off)
@@ -96529,6 +96724,96 @@ set("C4_monster")
 	   
     endfolder	
 	
+	
+	folder("char/chapter4/monster/anim/frozenbride")	
+	
+	"frozenbride_attack_01"
+ 		  14:hit(down,normal)
+		  0:lookat(off)
+
+
+	"frozenbride_blowaway_body"
+		0:lookat(off)
+		  5:blowaway
+
+	"frozenbride_blowaway_ground"
+		0:lookat(off)
+
+
+	"frozenbride_blowaway_headup"
+		0:lookat(off)
+		  5:blowaway
+
+	"frozenbride_blowaway_spin"
+		0:lookat(off)
+		  5:blowaway
+
+	"frozenbride_counter"
+		  13:hit(down,normal)
+		  18:sound("data\sound\demi_lich.wav")
+			// 카운터 타격 발동은 18프레임이다.
+			// 맞는쪽 애니메이션에는 0,1,2,3,4 의 5프레임동안의 경직프레임이 포함되어있다.
+			// 그러므로 치는쪽에서 13프레임째에 타격선언을 미리 해줘야...
+			// ...맞는쪽이 13,14,15,16,17 의 5프레임동안 경직되어 있다가 18프레임부터 날아간다.
+			0:lookat(off)
+
+
+	"frozenbride_downb_to_stand"
+		0:lookat(off)
+
+	"frozenbride_groggy"
+		0:lookat(off)
+
+	"frozenbride_guard"
+		0:lookat(off)
+
+	"frozenbride_hita"
+    		  0:lookat(off)
+   		  5:vibrate(17)
+
+	"frozenbride_hitb"
+		  0:lookat(off)
+		  5:vibrate(17)
+
+	"frozenbride_magic_casting_friendly"
+		0:lookat(off)
+
+	"frozenbride_magic_casting_offensive"
+		  0:lookat(off)
+		  1:sound("data/sound/demi_lich_magic.wav")
+		  98:jump(44,true)
+
+	"frozenbride_magic_processing_topc_offensive"
+		  3:hit(up,normal)
+		  0:lookat(off)
+
+	"frozenbride_natural_downb"
+		0:lookat(off)
+
+	"frozenbride_run_offensive"
+		0:lookat(off)
+
+	"frozenbride_smash"
+		  0:ForceTargetInRange
+			0:lookat(off)
+			1:sound("data\sound\demi_lich.wav")
+			30:hit(up,spin)
+
+	"frozenbride_stand_friendly"
+		0:lookat(off)
+
+	"frozenbride_stand_offensive"
+		0:lookat(off)
+
+	"frozenbride_walk_friendly"
+		0:lookat(off)
+
+	"frozenbride_walk_offensive"
+		0:lookat(off)
+	
+	
+    endfolder		
+	
 /////////////////////////nk//////////////////////////	
 	folder("char/chapter4/monster/anim/nk")
 	
@@ -96636,10 +96921,11 @@ set("C4_monster")
 		
 	"irusan_RayOfDevil_prepare"
 		0:lookat(off)	
-        0:effect("iru_absorb001")	
+        0:effect("iru_absorb001",0,1)	
 		
 	"irusan_RayOfDevil_process"
-		0:lookat(off)			
+		0:lookat(off)	
+        0:effect("iru_beam001")		
 
 	"irusan_NightMare_prepare"
 		0:lookat(off)	
@@ -97069,14 +97355,12 @@ set("C4_monster")
 		0:lookat(off)
 
 	"NTD_confusion_complete"
-		0:lookat(off)		
-		
-	"NTD_bladestorm_prepare"
 		0:lookat(off)
 		
 	"NTD_bladestorm_process"
 		0:lookat(off)
-
+		120:jump(60)
+		
 	"NTD_bladestorm_complete"
 		0:lookat(off)		
 
@@ -97113,7 +97397,9 @@ set("C4_monster")
 
 	"NTD_dying"
 		0:lookat(off)
-
+		
+	"NTD01_dash_prepare"
+		180:jump(120)
 
 
     endfolder	
@@ -97477,7 +97763,9 @@ set("C4_monster")
 ///////////////////////////////////////몹슬라임///////////////////////////////////////////
 	folder("char\chapter4\monster\anim\slime")
 
-
+		"slime_skill"
+			0:lookat(off)	
+			40:jump(30)
 
 		"slime_attack"
                        0:lookat(off)
