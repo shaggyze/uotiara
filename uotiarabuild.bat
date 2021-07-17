@@ -1,4 +1,3 @@
-set /P username=Enter User Name:
 for %%A in ("C:\Nexon\Library\mabinogi\appdata\package\data\features.xml.compiled") do for %%B in ("C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\Tools\MabiFeatureTool\features.xml.compiled") do Copy %%~sA %%~sB
 "C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\Tools\MabiFeatureTool\MabiFeatureTool.exe" "C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\Tools\MabiFeatureTool\features.xml.compiled"
 for %%A in ("C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\Tools\MabiFeatureTool\UpdateFeatures.ps1") do PowerShell -ExecutionPolicy RemoteSigned -File %%~sA
@@ -21,6 +20,6 @@ C:\Nexon\Library\mabinogi\appdata\MabiPacker\MabiPacker.exe /input C:\Nexon\Libr
 attrib +r C:\Nexon\Library\mabinogi\appdata\package\UOTiara.pack
 copy /Y "C:\Users\%username%\Documents\GitHub\uotiara\README.md" "C:\Users\%username%\Google Drive\Tiara\unofficialtiara\README.md"
 copy /Y "C:\Nexon\Library\mabinogi\appdata\package\UOTiara.pack" "C:\Users\%username%\Google Drive\Tiara\unofficialtiara\UOTiara.pack"
-copy /Y  "C:\Nexon\Library\mabinogi\appdata\package\language.pack" "C:\Users\%username%\Google Drive\Tiara\unofficialtiara\language.pack"
+copy /Y "C:\Nexon\Library\mabinogi\appdata\package\language.pack" "C:\Users\%username%\Google Drive\Tiara\unofficialtiara\language.pack"
 copy /Y "C:\Nexon\Library\mabinogi\appdata\package\UOTiara.pack" "C:\Users\%username%\Documents\GitHub\uotiara\UOTiara.pack"
-copy /Y  "C:\Nexon\Library\mabinogi\appdata\package\language.pack" "C:\Users\%username%\Documents\GitHub\uotiara\language.pack"
+copy /Y "C:\Nexon\Library\mabinogi\appdata\package\language.pack" "C:\Users\%username%\Documents\GitHub\uotiara\language.pack"

@@ -1,5 +1,5 @@
 !define UOSHORTVERSION        "371"
-!define UOLONGVERSION         "0.6.22"
+!define UOLONGVERSION         "0.6.23"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -758,7 +758,6 @@ File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\MabiPacker.pdb"
 ;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\Ookii.Dialogs.Wpf.pdb"
 ;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\WPFLocalizeExtension.pdb"
 ;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\XAMLMarkupExtensions.pdb"
-SetOutPath "$INSTDIR\"
 
 SetOutPath "$INSTDIR\ja"
 File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\ja\MabiPacker.resources.dll"
@@ -774,6 +773,7 @@ File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\zh-TW\MabiPacker.resource
 
 ;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\zh\MabiPacker.resources.dll"
 MabiPackerFound2:
+SetOutPath "$INSTDIR\"
 Call UOTiaraPackBuild
 WriteRegStr HKCR ".pack" "" "MP.pack"
 WriteRegStr HKCR "MP.pack" "" "PACK File"
@@ -11691,42 +11691,22 @@ FunctionEnd
 
 Function KananShellBuild
 Delete "$INSTDIR\Update_Kanan.ps1"
-StrCpy $R7 "$$apiUrl = 'https://ci.appveyor.com/api'"
+StrCpy $R7 "$$kananUrl = 'https://github.com/cursey/kanan-new/releases/latest/download/kanan.zip'"
 Call KananShell
-StrCpy $R7 "$$token = 'qk4jiv9uobtrnuu2ue57'"
-Call KananShell
-StrCpy $R7 "$$headers = @{'Authorization' = 'Bearer $$token'"
-Call KananShell
-StrCpy $R7 "'Content-type' = 'application/json'}"
-Call KananShell
-StrCpy $R7 "$$accountName = 'cursey'"
-Call KananShell
-StrCpy $R7 "$$projectSlug = 'kanan-new'"
-Call KananShell
-StrCpy $R7 "$$downloadLocation = '$INSTDIR\Kanan'"
+StrCpy $R7 "$$downloadLocation = '$INSTDIR'"
 Call KananShell
 StrCpy $R7 "$$ArchiveLocation = '$INSTDIR\Logs\Kanan'"
 Call KananShell
-StrCpy $R7 "$$project = Invoke-RestMethod -Method Get -Uri $$apiUrl/projects/$$accountName/$$projectSlug -Headers $$headers"
+StrCpy $R7 "$$ZipFile = $downloadLocation + '\kanan.zip'"
 Call KananShell
-StrCpy $R7 "$$jobId = $$project.build.jobs.jobId"
+StrCpy $R7 "Invoke-WebRequest -Uri $kananUrl -OutFile $ZipFile"
 Call KananShell
-StrCpy $R7 "$$artifacts = Invoke-RestMethod -Method Get -Uri $$apiUrl/buildjobs/$$jobId/artifacts -Headers $$headers"
+StrCpy $R7 "Expand-Archive $ZipFile -DestinationPath $downloadLocation\Kanan -Force"
 Call KananShell
-StrCpy $R7 "$$artifactFileName = $$artifacts[0].fileName"
-Call KananShell
-StrCpy $R7 "$$localArtifactPath = $\"$$downloadLocation\$$artifactFileName$\""
-Call KananShell
-StrCpy $R7 "Invoke-RestMethod -Method Get -Uri $$apiUrl/buildjobs/$$jobId/artifacts/$$artifactFileName `"
-Call KananShell
-StrCpy $R7 "-OutFile $$localArtifactPath -Headers @{ 'Authorization' = 'Bearer $$token' }"
-Call KananShell
-StrCpy $R7 "Expand-Archive -Path $$downloadLocation\$$artifactFileName -DestinationPath $$downloadLocation -Force"
-Call KananShell
-StrCpy $R7 "if (Test-Path $$downloadLocation\$$artifactFileName) {Remove-Item -Path $$downloadLocation\$$artifactFileName}"
+StrCpy $R7 "if (Test-Path $ZipFile) {Remove-Item -Path $ZipFile}"
 Call KananShell
 ${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
-StrCpy $R7 "Copy-Item -Path $$downloadLocation\log.txt -Destination $$ArchiveLocation\log-$2$1$0$4$5$6.txt"
+StrCpy $R7 "if (Test-Path $downloadLocation\Kanan\log.txt) {Copy-Item -Path $downloadLocation\Kanan\log.txt -Destination $$ArchiveLocation\log-$2$1$0$4$5$6.txt}"
 Call KananShell
 FunctionEnd
 

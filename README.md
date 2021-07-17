@@ -9,6 +9,8 @@ https://github.com/shaggyze/uotiara/releases
 or
 https://ci.appveyor.com/project/shaggyze/uotiara/build/artifacts
 
+NSIS is required to compile uotiara.nsi https://nsis.sourceforge.io/Download
+
 Official Thread:
 http://mabimods.net/index.php?topic=10456.0
 
