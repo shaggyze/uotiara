@@ -1,0 +1,1418 @@
+﻿1	Poisoned
+2	Strong Poisoned
+3	Disease
+4	Numb
+5	Silence
+6	Petrified
+7	Coward
+8	Outraged
+9	Confused
+10	Blind
+11	Sleeping
+12	Luck
+13	Misfortune
+14	Drunk
+15	Cold
+16	Deaf
+17	Fool
+18	Weak
+19	Lazy
+20	Lethargic
+21	Gluttony
+22	Camouflage
+23	Blessed
+24	Invisible
+25	Not Tradable
+26	Following
+27	Chat Banned
+28	View Cut Scene
+29	stack(life,+,-5)
+30	stack(life,+,-10);checkdead()
+31	
+32	
+33	
+34	
+35	
+36	
+37	
+38	
+39	
+40	
+41	
+42	say (*hic*|hiccup, 20);
+43	say (Cough|Ahchoo, 20);stack(stamina,*,0.5)
+44	
+45	
+46	
+47	
+48	
+49	
+50	
+51	
+52	
+53	
+54	
+55	
+56	
+60	poison(0.5,1,5)
+61	Ensemble
+62	
+64	Quick Summon
+65	
+66	
+67	poison(0.4,1,5)
+68	Increase in Aim Accuracy
+69	Deadly
+70	Potion Poisoning
+71	
+74	Cancel Dark Knight
+77	stack(life,+,-1.0)
+78	stack(life,+,-10.0)
+79	PVP Penalty
+80	Infected
+81	
+82	Weakened Attack
+83	
+84	Explode
+85	Explode
+86	
+87	slow
+89	
+90	Leader's Blessing
+91	Combat 2x EXP
+92	Giggle Mushroom Cookie
+93	Tear Noodles
+94	Crazy Chocolate Balls
+95	Conceited Steak
+96	Gateau Chocolat of Ecstasy
+97	
+98	
+99	
+100	
+101	
+102	Poison Immunity
+110	
+111	
+112	
+113	
+114	
+115	
+116	
+117	
+129	Petrification Immunity
+136	Mana Usage Reduction
+137	Stamina Usage Reduction
+138	Explosive Resistance
+139	Stomp Resistance
+140	Mana Usage Increase
+141	Stamina Usage Increase
+142	Shrimp Fried Rice of Friendship
+143	
+148	
+149	
+150	
+151	
+152	Fire Shield
+153	Ice Shield
+154	Lightning Shield
+155	Natural Shield
+156	Move Slow
+157	
+158	Master Gatherer
+159	
+160	
+161	
+162	
+163	
+164	
+165	
+166	
+167	
+168	
+169	
+170	
+171	
+172	
+173	
+174	
+175	
+176	
+177	
+178	
+179	
+180	
+181	
+182	
+183	
+184	
+185	
+186	
+187	
+188	
+189	
+190	
+191	
+192	
+193	
+194	
+195	
+196	
+197	You will not be poisoned.
+198	You will not be petrified or get caught in yarn binding.
+199	Mana usage will decrease when using the skill.
+200	Stamina usage will decrease when using the skill.
+201	Damage caused by explosion will decrease and you will not fall.
+202	Damage caused by stomping will decrease and you will not fall.
+203	Mana usage will increase when using the skill.
+204	Stamina usage will increase when using the skill.
+205	
+206	
+207	
+208	
+209	
+210	
+211	Increases gathering speed.
+212	Charge
+213	
+214	
+215	Attack Speed Increase
+216	
+218	Increases the speed of melee weapons with less than average attack speeds and improves the aiming speed of long range weapons. 
+219	달빛 이팩트 컨디션
+220	
+221	
+222	Sulfur Poisoning
+224	
+225	poison(0, 1, 5)
+226	Burn
+227	
+228	
+229	Ice
+230	
+231	
+232	별사탕
+233	
+234	
+235	Mana Shield
+236	
+237	Uses Mana to reduce damage taken.
+238	벚꽃놀이
+239	
+240	평소보다 경험치를 많이 받을 수 있다.
+241	
+242	
+243	
+244	Magic Casting Speed Boost
+245	Increase Attack
+246	
+247	
+248	Boosts your magic casting speed.
+249	Boosts your attack.
+251	
+252	반투명하게 보이며 서로 공격할 수 없게 된다.
+253	Combat EXP 1.1x
+254	
+255	
+256	반투명
+257	Combat 2x EXP
+258	
+259	
+260	Bewildered
+261	
+262	
+263	Elephant Shower
+264	
+265	
+266	Curse
+268	Receives a set amount of damage for a set period of time, and the overall movements will slow down considerably.
+269	Blindness
+270	
+271	Blinds opponents and immobilizes or discombobulates them.
+272	Ice - no effect
+273	
+274	
+275	poison(0, 1, 1)
+278	
+279	
+282	Production Skill Success Rate Changed
+283	Production Skill Success Rate Adjusted
+284	Item Proficiency Increased
+285	Item Proficiency stats increased and same as a character 25 years of age
+286	Cloud - Alchemy
+287	
+288	Cloud Effect
+289	Bot-check failed.
+290	
+291	Condition the character is put into when bot-check fails.
+292	Snow Storm Status
+293	
+294	Frozen after being hit with a snow storm
+295	Doppelganger
+296	
+297	You've become a target of the Doppelganger.
+298	Demigod
+299	
+300	Demigod Status
+301	Doppelganger's Laugh
+302	
+303	The Doppelganger is laughing.
+304	Doppelganger's Pain
+305	
+306	The Doppelganger is feeling pain.
+307	발렌타인의 행복
+308	발렌타인의 불행
+309	
+310	
+311	발렌타인이 되어서 너무 행복하다.
+312	발렌타인 따위는 왜 있는거냐!
+313	Mirage
+314	Fashion Show
+315	
+316	You are currently participating in the Fashion Show.
+318	혀가 꼬임
+319	
+320	
+322	말할때 혀가 꼬이는 증상이 생겼다.
+323	거대상체
+324	거대하체
+327	
+328	
+329	
+333	키가 커짐
+334	키가 작아짐
+335	
+336	
+337	
+338	
+339	Blessed Effect
+340	Outraged Effect
+341	
+342	
+343	
+344	
+345	Mini Potion Used.
+346	
+347	You've become small enough to fit through the small hole.
+348	Unable to consume potions or food.
+349	
+350	You cannot consume potions or food.
+351	Python Stone Barrier Status
+352	
+353	Python Stone Barrier
+354	High Voltage
+355	
+357	checkdead
+358	서서 하는 이펙트
+359	
+360	
+361	Life Skill Training Boost
+362	Battle Skill Training Boost
+363	Magic Skill Training Boost
+364	Alchemy Skill Training Boost
+365	
+366	
+367	
+368	
+369	
+370	
+371	
+372	
+373	Name Color Change
+374	
+375	
+376	Demigod STR increased
+377	Demigod DEX increased
+378	Demigod WILL increased
+379	Demigod LUCK increased
+380	Demigod INT increased
+384	Demigod duration increased
+385	Demigod cooldown decreased
+387	Critical rate increased when Brionac is equipped
+388	Magical Music effect increased
+389	Movement speed increased
+390	Demigod STR increased
+391	Demigod DEX increased
+392	Demigod WILL increased
+393	Demigod LUCK increased
+394	Demigod INT increased
+398	Demigod duration increased
+399	Demigod cooldown decreased
+401	Critical rate increased when Brionac is equipped
+402	Magical Music effect increased
+403	Movement speed increased
+404	Demigod Invulnerability
+405	Demigod Invulnerability
+406	Height Change
+407	Movement speed increased
+408	Tower Cylinder installed
+409	Equips the Tower Cylinder to use an offensive alchemy skill.
+410	Attacked by a Crow.
+411	Attacked by a Crow.
+413	Doppelganger suffers.\nThe boss goes to the next phase.
+414	Demigod Fury of Light damage increased
+415	Demigod Spear of Light damage increased
+416	Demigod Spear of Shadow damage increased
+417	Damage increased when Brionac is equipped
+418	Continuously suffer a fixed amount of damage and Speed decreased.
+419	Demigod Dark Storm damage increased
+420	Demigod Spear of God damage increased
+421	Demigod Spear of Shadow damage increased
+422	Damage increased when Brionac is equipped
+423	checkdead
+424	누아자 페이즈 전환
+425	누아자의 페이즈 전환
+428	Allows you to attack while mounted.
+429	Allows you to attack while mounted.
+430	Decrease Stats Curse
+432	Five of your stats are temporarily decreased.
+436	Item Drop Rate Boost Status
+437	Increases the item drop rate.
+439	You'll receive a bonus when you complete a Shadow Mission.
+440	Shadow Crystal
+441	Item Drop Rate Boost Status
+442	Increases the item drop rate.
+443	Fishing Booster
+444	Fishing Booster
+445	Increases your chance of acquiring items that are normally hard to get.
+446	Increases your chance of acquiring items that are normally hard to get.
+447	채팅 색상 변경
+448	Combat EXP Increase
+449	Combat EXP increased based on Meta.
+450	Damage Curse
+451	Increased damage taken the next time you are hit.
+452	Nuadha Set Item
+453	Theatre Dungeon Spotlight
+454	Designated stats are buffed.
+455	Hamelin Contract
+456	Lured by the sound of a flute
+457	Out of Body
+458	Spirit Clear
+459	stack(life,%,-3); stack(mana,%,-3); stack(stamina,%,-3)
+460	You were hit by the Grim Reaper's scythe. Your spirit has been separated from your body.
+461	Occurs when the Grim Reaper takes a certain amount of damage.
+462	Hands Full
+463	Equipped with Shaved Ice
+464	Demigod Shadow Spirit damage increased
+465	Demigod Shadow Spirit damage increased
+466	Troll Recovery
+467	stack(life,%,5);
+468	Trolls get enhanced HP recovery.
+469	Smash Enhancement
+471	Charge Enhancement
+472	Ice Bolt Enhancement
+473	Fire Bolt Enhancement
+474	Healing Enhancement
+475	Flame Burst Enhancement
+476	Water Cannon Enhancement
+477	Life Drain Enhancement
+478	Magnum Shot Enhancement
+479	Support Shot Enhancement
+480	Fishing Enhancement
+481	Refining Enhancement
+482	Blacksmith Enhancement
+483	Metallurgy Enhancement
+485	Assault Slash Enhancement
+486	Armor Bear Roar
+487	Rosemary Gloves Equipped
+488	Ice Magic Damage +15%
+489	Flying Pet Boost
+490	Flying Speed Increase, Turning Speed Decrease
+492	stack(stamina,+,-1.0)
+493	Claudius Pursuit
+494	Translucent State, Stealthy Walk
+495	Animal Character Training Kit
+496	Movement speed increased with the Animal Character Training Kit.
+497	Flying speed increased with the Animal Character Training Kit.
+498	Today's Mission Completed
+499	Goes up to Ladeca
+500	Mabinogi Quiz Show Event
+501	Pet Land Boost
+502	stack(stamina,+,-2.0)
+504	Currently transporting goods
+505	Demigod Wings of Eclipse Enhancement
+506	Demigod Wings of Rage Enhancement
+507	Demigod Wings of Eclipse Enhancement
+508	Demigod Wings of Rage Enhancement
+509	마누스의 건강 비약
+510	마누스의 비약을 마시고 강해진 상태
+511	Movement speed increased
+512	Movement speed increased
+513	Movement Speed Increase, Gathering Speed Increase
+514	Movement Speed Increase, Gathering Speed Increase
+515	Weapon Seal Removal
+516	Removes the hidden seal from a weapon.
+517	Your body is becoming smaller.
+518	You have become smaller and can now pass through small holes.
+519	Reforging Movement Speed Boost
+520	Reforging Trading Movement Speed Boost
+521	Reforging Movement Speed Boost
+522	Reforging Trading Movement Speed Boost
+523	낚시용 의자 사용
+524	낚시용 의자 사용
+528	Grants higher compensation when selling Trade Goods
+529	Letter of Guarantee
+530	이동 속도 증가 포션 사용
+531	이동 속도 증가 포션에 의한 이동 속도 증가
+532	Magic Power Boost
+533	Zombie Infection
+534	Musical Petrification
+535	Petrified by the music of desert giants.
+536	Gold Strike Enhancement
+538	Mode for pursuing Outlaws
+539	Uppercut Debuff (Defense/Protection Down)
+540	Defense/Protection Down
+543	Movement Speed Boost (Ducking Fighter)
+544	Movement Speed Boost (Ducking Fighter)
+547	Pinned (Pummel)
+548	Pinned (Pummel)
+549	Dazed (Sommersault Kick/Cannot use Magic or Alchemy)
+550	Dazed (Sommersault Kick/Cannot use Magic or Alchemy)
+551	Outlaw Pursuit Mode
+553	Received Alchemy Cloud Effect
+554	Using Pummel
+555	Using Pummel
+556	Merrow's Curse
+557	stack(mana,%,-2); stack(stamina,%,-2)
+558	Merrow's Curse
+559	Fighter Skill Training Boost
+560	Respite Aftereffect
+561	Respite Aftereffect
+562	The decal is following the character
+563	Popper Bomb received
+564	Popper Bomb received
+567	Movement Speed increased by music.
+569	Harvest Song
+570	Music of Peace
+573	Vivace
+574	March Song
+575	Magic & Alchemy Charging Time decreased, Attack Speed increased.
+576	Production & Gathering Success Rate increased, Gathering Speed increased.
+577	Puts monsters to sleep.
+578	Batter
+579	Batter
+583	poison(0,1,1)
+584	수호의 영혼석 사용
+585	수호의 영혼석으로 부활되어 잠시 반무적이 된다.
+586	교역 불가 상태
+587	교역 불가 상태
+588	Music Skill Training Boost
+589	Puppeteer Skill Training Boost
+590	Flame of Resurrection
+591	After using the Flame of Resurrection, you cannot use it again for a while.
+592	Wire-Bound
+593	Bleeding damage from being bound in puppetry string.
+594	Wire-Bound and Immobilized
+595	Bleeding damage from being bound in puppetry string.
+596	Theatre Mission Crystal
+597	Grants a bonus upon completing a Theatre Mission.
+598	Bounty Hunter Mode
+599	추적자 농장을 클리어하면 보너스를 받는다
+600	Marionette Spirit
+601	Getting attacked doesn't cancel skills.
+602	Marionette Spiral Buff (Defense and Protection Increased)
+603	Getting attacked doesn't cancel skills.
+604	Buff you get right after using Spiral
+605	Skill Stun
+606	Stun caused by specific skills.
+607	Flame of Resurrection
+608	사망 시 자동으로 부활의 불꽃으로 부활한다.
+609	사망 시 자동으로 부활의 불꽃으로 부활한다. 동시에 큰 충격파를 발생시킨다.
+610	Bone Dragon Devil's Dash
+611	Defense/Protection Down
+612	Bone Dragon Devil's Cry
+613	Movement Speed Down
+614	Transformation Enhancement
+615	Increased chance of obtaining monster transformation information.
+616	Skill 2x EXP
+617	Skill 2x EXP
+618	Increases Damage
+619	Decreases Damage
+620	Decreases Defense/Protection
+621	Increases Damage by %
+622	Decreases Damage by %
+623	Decreases Defense and Protection by %
+624	Enhances Windmill
+625	Tangled
+626	Berserk
+628	You are caught in a spider web and cannot move.
+629	You are enraged, increasing your attack power and dulling any pain you feel.
+631	Restful Wind
+632	Increases Defense, Protection, and Mana and Stamina recovery speed.
+633	Restful Wind's Embrace
+634	Puts monsters to sleep.
+635	Guard Increase
+637	Increases Defensive and Protective stats by %.
+639	Steadfast
+640	You will not be knocked down even when hit.
+641	Absorption
+642	Increases Quest EXP
+643	Raid Crystal
+645	Increases Attack Power against Dragons
+646	Increases Attack Power against the Red Dragon.
+647	You will receive a bonus after completing the Field Quest Raid.
+648	Contribution Bonus
+649	Increases Contributions by 1,000 upon entering the summoned Field Quest
+650	Way of the Gun
+651	Critical and Attack Speed increase temporarily.
+652	Dual Gun Skill Training Boost
+653	Wing condition after use
+658	Continuous Statue Damage
+659	Continuous Statue Damage
+660	Enhanced Assault Slash
+667	Elemental Wave
+668	Golden Time
+669	When Elemental Wave is used
+670	When Golden Time is used
+671	Prepare to play a placed Instrument
+672	Prepare to play a placed Instrument
+673	Combat 2x EXP (Same Day Effect)
+674	Life Skill Training Experience Increased (Same Day Effect)
+675	More EXP from Shadow Missions (Same Day Effect)
+676	The character will receive 2x Combat EXP for one day.
+677	Life Skill Training Experience is increased. Effects only applied on the same day.
+678	Doubles the amount of EXP awarded for completing a Shadow Mission. Effects only applied on the same day.
+679	Electrocuted by the enhanced Shock skill
+680	When electrocuted by the enhanced Shock skill
+681	Received a passive effect of the Wind Alchemy
+682	When the Wind Alchemy's passive effect is received
+685	Abyss Curse
+686	Abyss Curse
+687	Bloody Duke
+688	Duke's Temptation
+689	Kissed in the Mist
+690	Tempted by the Duke
+691	Crisis Escape
+692	Crisis Escape Skill Condition
+695	인식 불가
+696	특정 적에게 노출되지 않는 상태
+697	나오의 축복(초보 펫 보너스)
+698	초보자가 펫을 소환하면 펫에게 걸어주는 효과
+699	Banshee Howl
+700	Silent Voice
+701	Damaged by Spooky Sounds
+702	Unable to use skills
+703	Beast Roar
+704	Dance Time
+705	ATT and Movement Speed have increased
+706	ATT and Physical DEF/Protection have increased
+709	Ghost Madness
+710	Color changes based on condition
+711	Eastern Vampire Protection
+712	Buffed by Eastern Vampire Protection
+713	Halloween Channel Buff
+714	Buffed after defeating monsters during the Halloween World Event
+715	Halloween World
+716	Halloween World Event Defeat Quest Check Condition
+717	As a reward for defeating the Returned Trickster, some of your stats will be greatly increased for 1 hour.
+718	Flight Boost
+719	Seize the Skies Flight Boost
+720	Stun
+721	Stunned Condition
+722	Typhoon Boost
+723	Seize the Skies Typhoon Boost
+726	Commerce Speed
+727	Commerce Speed
+729	Doki Doki Island Campfire Effect
+730	Lovey Dovey
+731	Fly Together Preparation
+732	Fly Together Preparation
+739	Cooking Production EXP Boost
+740	Cooking Production EXP Boost
+741	이동 속도 증가
+742	이동 속도 증가
+743	-DEF
+744	Defense Down
+745	보스무적
+746	맞아도 체력이 감소하지 않는다.
+749	Possessed Ruairi Swng Skill DOT Damage
+750	Possessed Ruairi Swng Skill DOT Damage
+751	Shadow Mission EXP boost
+753	Ninja Skill Training Boost
+755	Increase movement and gathering speed
+756	Increase HP, Wound, MP, Strength recovery rate
+758	Increase HP, Wound, MP, Strength recovery rate
+763	Remove Debuff
+764	The debuff has been removed.
+771	Contagion
+772	Confinement
+773	Condition given to player from 'The Holy Contagion' skill
+774	Condition given to player from 'The Holy Confinement' skill
+775	Refreshed
+776	Fanaticism Buff
+777	Binding Timing
+778	Smiting Timing
+779	Apostle Warding
+780	Smiting Enhancement effect
+781	Shield of Trust
+782	Celestial Spike
+783	Condition given to player from the caster(boss)'s Fanaticism skill.
+784	Condition given to the caster(boss) from a Crusader skill.
+785	Condition given to the caster(boss) from a Crusader skill.
+786	Condition given to the caster (boss) as a default
+787	Condition given to the caster(boss) from a Crusader skill.
+788	Warding power of the Alban Knights
+789	Binding power of the Alban Knights
+790	Fatty
+791	Your time during The Fattening has bulked you up to epic proportions.
+792	Crusader Warding Power
+793	Your warding power has been increased from divine strength.
+794	Celestial Spike Divine Damage
+795	Damage over time Condition from Crusader Warding skill
+796	펫소환 불가 상태
+797	Fanaticism Debuff
+798	Condition given to player from the caster(boss)'s Fanaticism skill.
+799	Meditation
+800	Conditions depending on the use of Meditation skill
+801	Perfect Pitch
+802	Condition that prevents going off-key when using Hamelin's Tuner.
+803	Incarnation
+804	A temporary condition you get during the main Storyline. Crusader Skill cooldowns will be applied separately.
+805	Aquarius Sign
+806	Pisces Sign
+807	Aries Sign
+808	Taurus Sign
+809	Gemini Sign
+810	Cancer Sign
+811	Leo Sign
+812	Virgo Sign
+813	Libra Sign
+814	Scorpio Sign
+815	Sagittarius Sign
+816	Capricorn Sign
+817	During the Aquarius sign period:\nItem Drop Rate x2, Item (Weapons) repair rate x2
+818	During the Pisces sign period:\nQuest Completion EXP x2, Monster EXP x2
+819	During the Aries sign period:\nProduction Success Rate +20%, Life Skill EXP x2
+820	During the Taurus sign period:\nDucat Trade Profit x2, EXP x2, Gold x2,Merchant Rating x2
+821	During the Gemini sign period:\nAP obtained when leveling up x2, AP obtained when leveling up Exploration x2
+822	During the Cancer sign period:\nStrength +20, Intelligence +20, Dexterity +20, Will +20, Luck +20
+823	During the Leo sign period:\nCombat EXP x2 (Close Combat, Magic, Battle Alchemy, Fighter)
+824	During the Virgo sign period:\nCombat EXP x2 (Puppetry, Music, Transmutation)
+825	During the Libra sign period\nQuest Completion Gold x2, Gold Drop x2
+826	During the Scorpio sign period:\nCombat EXP x2 (Archery, Lance, Dual Gun, Ninja)
+827	During the Sagittarius sign period:\nMin Damage +5, Max Damage +10, Magic Attack +40
+828	During the Sagittarius sign period:\nDefense +10, Protection +10, Critical +10
+829	Close Combat Bleeding Effect
+830	Close Combat Dazed Effect
+831	Close Combat Shatter Effect
+832	Effect that is activated when using Smash with a blade-type Close Combat weapon equipped. Baseline bleed damage: 0
+833	Effect that is activated when using Smash with a blunt-type Close Combat weapon equipped. Baseline dazed effect: 186
+834	Effect that is activated when using Smash with an axe-type Close Combat weapon equipped. Baseline defensive decrease: 216
+837	Bash Combo
+838	(Tentative)Condition that the Bash 20019 Skill gives\nCounts every attack and increases damage
+839	Bash Combo Max
+840	Damage Curse 2
+841	(Tentative)Condition that the Bash 20019 Skill gives\nCondition given at max combo
+842	Same condition as the Support Shot 21006 condition [129. Damage Curse]. Created it separately to allow it to overlap.
+843	Enhanced Critical Damage
+844	Enhanced Bash
+845	Decreased Durability Loss
+846	Sleeping Wool
+847	Giving Off the Charm
+848	Movement speed decreases after falling asleep.
+849	Charmed and immobilized.
+850	Light as Wool
+851	Increases your movement speed.
+852	Ice Spear Deep Freeze
+853	Frozen\nYour damage is reduced while this effect lasts.
+854	Icebolt Hobble
+855	Movement Speed reduced\nYour movement speed is reduced while this effect lasts.
+856	Increases HP
+857	Increases Max Damage
+858	Increases HP Recovery Speed
+859	Increases MP Recovery Speed
+860	Increases Stamina Recovery Speed
+861	Critical Rate Boost
+862	Increases Training Experience for particular talent skills
+863	Increases Close Combat Talent Skill damage
+864	Increases Magic Talent Skill Casting Speed
+865	Increases Archer Talent Aim Speed
+866	Increases Gathering Speed and success rate
+867	Sheep Wolf World Quest check
+868	Sheep Wolf World Event defeat condition
+869	Ranged aiming speed increased
+870	Urgent Shot effect. Aiming speed for all Archery skills increased.
+871	Binding
+872	You cannot move or use movement skills.
+882	God Hand: Twelve Labors
+884	Smokescreen decreases Defense and Protection
+885	Defense/Protection Down
+886	Soul Linked
+888	Soul Linked
+890	Cooking Training EXP Boost
+891	Cooking Training EXP Boost
+892	Cooking Quality Boost
+893	Cooking Buff Duration Boost
+894	Cooking Training EXP Boost
+895	Cooking Training EXP Boost
+896	Recipe Quality Boost
+897	Cooking Buff Duration Increased
+898	Judgment Blade Enhancement
+899	Judgment Blade Enhancement
+900	Lance Charge Enhancement
+902	Lance Charge Enhancement
+903	Fallen Fairy Summon Skill
+904	Fallen Fairy Summon Skill
+905	Increases Movement Speed
+906	Increases Attack Speed
+907	Fallen Fairy Summon Skill Movement Speed Buff
+908	Fallen Fairy Summon Skill Attack Speed Buff
+909	the Returned
+910	The character will receive Skill 2x EXP. When clearing dungeons, Shadow Missions, or Theatre Missions, party members receive 1.5x EXP bonus.
+911	풍등 날리기
+912	풍등을 날리는 중
+913	Craft Success Rate Enhanced
+914	Adds a success rate bonus when using a craft skill
+915	Safeguard
+916	An exclusive Succubus Queen status effect that gets stacks every time she hits you
+917	Berserk Phantom
+918	Phantom's Roar
+919	An exclusive Wraith status effect. When it becomes active, the enemy does not stagger when hit, and Attack, Magic Attack, Defense, Protection, Magic Defense and Magic Protection all increase.
+920	A condition for the Phantom's Roar skill. When applied, pets cannot be summoned.
+921	Captive Audience
+922	The performance you're observing is so captivating that you find yourself unable to perform certain disruptive actions. This is similar to when you participate in OX quizzes but even more strict.
+923	Soul Rift
+924	User's condition when the Succubus Queen casts Soul Rift
+925	Combat 2x EXP (Event)
+926	Grants 2x EXP during some events.
+927	Cannot be revived by the balloon.
+928	Auto-revive not available even when equipped with a balloon.
+929	Stealth Soul
+930	This takes effect when Soul Rift is used. Any enemy you are currently engaged with will stop targeting you, and no other enemies will target you unless you strike first.
+931	Doki Doki Wig Condition 1
+932	Doki Doki Wig Condition 2
+933	Doki Doki Wig Condition 3
+934	Effects take place during the Doki Doki Island event.\nStrength +20, Intelligence +20, Dexterity +20, Will +20, Luck +20
+935	Effects take place during the Doki Doki Island event.\nMin Damage + 5, Max Damage +10, Magic Attack +40
+936	Effects take place during the Doki Doki Island event.\nDefense +10, Protection +10, Magic Defense +10, Magic Protection +10, Critical +10
+939	Boss Monster Hit Check Condition
+940	World Event Boss Monster Hit Check Condition
+941	Scooter Imp Summon Skill
+942	Scooter Imp Summon Skill
+943	Tiny Jibes
+944	Tiny Jibes
+945	Pet Combat 2x EXP
+947	The Pet will receive Combat 2x EXP.
+948	Movement Speed Increase
+949	Requirements for increased movement speed from totem
+950	Shooting Gallery
+951	Shooting Gallery Conditions
+952	Play Music Box
+953	Music Box ON/OFF status
+954	Great Mood
+955	Increases All Stats
+956	Increases Movement Speed
+957	Increases Attack Delay
+958	Increases Max Damage
+959	Increases Magic ATT
+960	A condition of the Festia ranking reward wings. Can be stacked with other conditions.
+961	A condition of the Festia ranking reward wings. Can be stacked with other conditions.
+962	A condition of the Festia ranking reward wings. Can be stacked with other conditions.
+963	A condition of the Festia ranking reward wings. Can be stacked with other conditions.
+964	No Summon, No Skill
+965	A condition where you are unable to use skills or summon pets.
+966	Immune to DoT Damage
+967	A condition where your HP is unaffected by DoT damage and/or Modify Life.
+968	Decreases Defense/Protection
+969	Defense/Protection Down
+970	Melody Step
+971	Mezzo-Forte
+972	Psychomancy
+973	Haunted House Event Skill condition. Psychomancy reflects the caster's suffering, increasing damage and attack.
+974	Blessed Melody Step
+975	Mezzo-Forte decreases the durability loss of your items.\nMusic Buff Effect +3.
+976	Recovery Potion Effect Bonus
+977	Exploration EXP Bonus
+978	Huge Lucky Bonus
+979	Stats Boost
+980	Increases the effectiveness of potions.
+981	Increases the amount of Exploration EXP gained.
+982	Triggers the Huge Lucky Effect in combat or gathering.
+983	Increases the values of certain stats.
+984	Production EXP Bonus
+985	Increases the amount of Production EXP gained.
+986	Combat EXP x4
+987	You gain Combat EXP x4.
+988	MP Consumption Decrease
+989	Stamina Consumption Decrease
+990	Critical Increase
+991	Decreases MP consumption of skill preparation by 5%
+992	Decreases Stamina consumption of skill preparation by 10%
+993	Increases Critical damage by 5
+994	Use Imp Mini Potion
+995	The imp magic shrank you!
+996	Breath of Ladeca
+997	Vision of Ladeca
+998	Might of Ladeca
+999	You received the blessings of Ladeca. Speed increases.
+1000	You received the blessings of Ladeca. Aiming Rate and Aiming Speed increases for ranged attack.
+1001	You received the blessings of Ladeca. Attack Speed increases, and additional damage is applied upon using close combat talent skills with close combat weapons.
+1002	Crusader Skill Training Boost
+1003	Dance of Death
+1004	Dance of Death Debuff
+1005	Applied to character while using the Dance of Death skill.
+1006	Applied to monsters hit by the Dance of Death.
+1007	Shadowlike
+1008	Bleeding
+1009	You can avoid being recognized by certain monsters.
+1010	Bleeding consumes Strength. The more Bleeding is stacked, the more Strength it consumes.
+1011	Increases Attack Speed
+1012	Increases Movement Speed
+1013	Increase Attack Speed for a limited time
+1014	Increase Movement Speed for a limited time
+1017	Interrupted Connection
+1018	Temporarily cuts off ties to your pet.
+1021	Peeved
+1022	You are provoked into a fury. Movement Speed and ATT increased.
+1023	Enemy Movement Speed Decrease
+1024	Increases Movement Speed
+1025	Partner Rem's Active Skill. Decreases Enemy Speed.
+1026	Partner Ram's Active Skill. Increases Speed.
+1027	Exploration EXP Bonus
+1028	Gain bonus Exploration EXP while wearing this set.
+1029	Homestead Stone Mine Owner
+1030	Receive Homestead Stones upon logging in every day.
+1031	Cannot move
+1032	Cannot move character or monster
+1033	Acquire Bachram
+1034	Death Mark
+1035	Bachram Status
+1036	Death Mark Debuff. Increases attack damage and attracts nearby monsters.
+1037	Chain Burst
+1038	Increases the effect of Dorcha skills for a brief time.
+1039	Bachram Boost
+1040	Quickly builds Dorcha for a brief time.
+1041	Shadow Mission Monster EXP Bonus
+1042	You can get more EXP by defeating monsters in Shadow Missions.
+1043	Chain Slash Skill Training Boost
+1044	Receiver of Nao's Blessing
+1045	The character will receive Skill 2x EXP. When clearing dungeons, Shadow Missions, or Theatre Missions, party members receive 1.5x EXP bonus.
+1046	Let's go nuts and have an adventure!
+1047	Detective Squirrel is away on an investigation, darting off after every single clue. Good thing you gave the squirrel a bento box for lunch! What sort of adorable mystery is being investigated right now? We'll never know...
+1048	Meditation Potion
+1049	If you Rest continuously, you will gain EXP at each full elapse of the set number of minutes.
+1050	Crusader 2x EXP
+1051	Music Buff Skill Effect Boost
+1052	The character will receive Crusader 2x EXP.
+1053	Music Buff Skill Effect +2.
+1054	Dorcha Leech Amount Increase
+1055	Death Mark Damage Increase
+1056	Eiren's Outfit Set Effect. Dorcha leech amount is increased.
+1057	Eiren's Outfit Set Effect. Death Mark damage is increased.
+1058	Attack Delay Reduction
+1059	Your delay between attacks is reduced, and so is your recovery from being stunned, AND the time it takes you to start charging a special skill.
+1060	Aquarius Sign
+1061	Pisces Sign
+1062	Aries Sign
+1063	Taurus Sign
+1064	Gemini Sign
+1065	Cancer Sign
+1066	Leo Sign
+1067	Virgo Sign
+1068	Libra Sign
+1069	Scorpio Sign
+1070	Sagittarius Sign
+1071	Capricorn Sign
+1072	Item Drop Rate x2, Item repair rate x2 when activated, for the duration
+1073	Quest Completion EXP x2, Monster EXP x2 when activated, for the duration
+1074	Production Success Rate +20%, Life Skill EXP x2 when activated, for the duration
+1075	Ducat Trade Profit x2, EXP x2, Gold x2, Merchant Rating x2 when activated, for the duration
+1076	AP obtained when leveling up x2, AP obtained when leveling up Exploration x2 when activated, for the duration
+1077	Increases Strength, Intelligence, Dexterity, Will, and Luck by 20 when activated, for the duration
+1078	Doubles Skill Training EXP for Close Combat, Magic, Battle Alchemy, and Martial Arts talents when activated, for the duration
+1079	Doubles Skill Training EXP for Puppetry, Music, Transmutation, and Chain Slash talents when activated, for the duration
+1080	Quest Completion Gold x2, Gold Drop x2 when activated, for the duration
+1081	Doubles Skill Training EXP for Archery, Lance Combat, Dual Gun, and Ninja talents when activated, for the duration
+1082	Min Damage +5, Max Damage +10, Magic Attack +40 when activated, for the duration
+1083	Increases Defense, Protection, Magic Defense, Magic Protection, and Critical by 10 when activated, for the duration
+1084	Prism
+1085	Blue Prism
+1086	Collect EXP in the Empty Prism.
+1087	The Prism Effect grants Skill 2x EXP.
+1090	Loving Bond
+1091	Party Buff
+1092	Loving Bond Item Effect Activated
+1093	Party Buff Item Effect Activated
+1094	Orange Prism
+1095	This prism effects doubles the amount of AP you gain upon character or exploration level up.
+1096	Yellow Prism
+1097	Sky Blue Prism
+1098	The Prism Effect grants Combat 2x EXP.
+1099	The Prism Effect grants Shadow Mission 2x EXP.
+1102	Unable to Use Crusader Skills
+1103	You cannot use Crusader Skills for a set time.
+1104	Critical Counter
+1105	This condition will be removed once you take Critical damage the specified number of times.
+1106	Vulnerability Revealed!
+1107	Used for monsters with attack parts (ex Sylvan Dragon). When this condition is applied, the part that was entered along takes damage normally, but the other parts become invincible.
+1108	Crusader EXP Increase
+1110	Frozen
+1111	Frozen
+1112	A debuff from being hit by Lil Jack's normal attack. Reduces movement speed, defense, and protection.
+1113	Suffering a debuff from being hit by Lil Jack's normal attack. Reduces movement speed, defense, and protection.
+1114	Blink
+1115	Momentarily vanish from the enemy's sight.
+1116	Mini Hold Up
+1117	Lil Jack briefly prevent enemies from moving by hanging on to them.
+1118	Nascent Divinity Boost
+1119	Movement Speed Down
+1120	Movement Speed Decreased by %
+1121	Nascent Divinity
+1122	Doll Companion Bonus
+1123	Doll Companion Bonus
+1124	Baltane Combat EXP Boost
+1125	Baltane Mission Combat EXP increased based on Meta.
+1126	Rich Aroma
+1127	You got enough rest near a campfire at which a Scented Candle was burned.
+1128	크리티컬 대미지 증가
+1129	음악 버프 스킬 효과 증가
+1130	메타에 따라서 프랍 터치 시 크리티컬 대미지가 증가한다.
+1131	메타에 따라서 프랍 터치 시 음악 버프 스킬 효과가 증가한다.
+1132	Exploit Weakness
+1133	Relentless Assault
+1134	Vital Surge
+1135	Iron Will
+1140	Purple Prism
+1141	Green Prism
+1142	Red Prism
+1143	The Prism's effect grants Crusader 2x EXP.
+1144	The Prism's effect grants Combat 2x EXP to the summoned pet.
+1145	The Prism effect grants Quest 2x EXP.
+1146	Elemental Attunement
+1147	Elemental Attunement
+1148	Elemental Attunement
+1149	Hard
+1150	Time Shift
+1151	Lorna's Growth Support
+1152	Lorna's Growth Support Stage 1
+1153	Lorna's Growth Support Stage 2
+1154	Lorna's Growth Support Stage 3
+1155	Lorna's Growth Support Bonus
+1156	Lorna's Special Support
+1157	Lorna's Growth Support Charm Duration\nActivate Lorna's Growth Support Charm to receive Lorna's Growth Support effects.
+1158	Combat EXP +100%, Shadow Mission EXP +100%, Max Damage +20, Min Damage +20, Magic Attack +20, Defense +20, Protection +20, Magic Defense +20, Magic Protection +20
+1159	Combat EXP +50%, Shadow Mission EXP +50%, Max Damage +10, Min Damage +10, Magic Attack +10, Defense +10, Protection +10, Magic Defense +10, Magic Protection +10
+1160	Combat EXP +20%, Shadow Mission EXP +20%
+1161	Quest Mission Completion EXP +100%
+1162	As part of Lorna's Special Support, you'll receive double the Skill EXP. Also, when clearing dungeons, Shadow Missions, or Theatre Missions, party members receive a 1.5x EXP bonus.
+1163	Invincible
+1164	Illusion Decal condition
+1165	HP and Wound recovery
+1166	Defiance Activation Boost
+1167	Iron Will Duration Boost
+1168	Vital Surge Duration Boost
+1169	Redoubled Offensive Activation Boost
+1170	Exploit Weakness Duration Boost
+1171	Relentless Assault Duration Boost
+1172	Powerless Status
+1173	Becomes powerless for a limited time.
+1174	Decreases Magic Defense, Magic Protection
+1175	Magic Defense/Protection Down
+1176	Defiance Activation Boost
+1177	Iron Will Duration Boost
+1178	Vital Surge Duration Boost
+1179	Redoubled Offensive Activation Boost
+1180	Exploit Weakness Duration Boost
+1181	Relentless Assault Duration Boost
+1182	Greatly increases the activation chance of Defiance.
+1183	Greatly increases the duration of Iron Will.
+1184	Greatly increases the duration of Vital Surge.
+1185	Greatly increases the activation chance of Redoubled Offensive.
+1186	Greatly increases the duration of Exploit Weakness.
+1187	Greatly increases the duration of Relentless Assault.
+1188	Increases the activation chance of Defiance.
+1189	Increases the duration of Iron Will.
+1190	Increases the duration of Vital Surge.
+1191	Increases the activation chance of Redoubled Offensive.
+1192	Increases the duration of Exploit Weakness.
+1193	Increases the duration of Relentless Assault.
+1194	Aspect of Might
+1195	Aspect of Fortification
+1196	Aspect of Swiftness
+1197	Aspect of Focus
+1198	Aspect of Reversal
+1199	Awaken
+1200	Tenacious Taunt - Caster
+1201	Tenacious Taunt - Target
+1202	Tenacious Taunt 
+1203	Steadfast
+1204	Phantasmal Sight
+1205	Zone of Renewal
+1206	Aspect of Might
+1207	Aspect of Fortification
+1208	Aspect of Swiftness
+1209	Aspect of Focus
+1210	Aspect of Reversal
+1211	Awaken
+1212	Tenacious Taunt - Caster
+1213	Tenacious Taunt - Target
+1214	Tenacious Taunt
+1215	Temporarily grants HP +30% and Defense/Protection/Magic Defense/Magic Protection +10%.
+1216	Phantasmal Sight
+1217	Zone of Renewal
+1218	Gathering Success Rate Boost
+1219	Increases your gathering success rate.
+1220	Stampede Enhancement
+1221	Final Strike Enhancement
+1222	Increases the damage of chained Close Combat skill after performing Stampede by 1.1x.
+1223	Increases the skill damage of Final Strike by x1.1.
+1224	Final Strike
+1225	Final Strike
+1226	Chained Close Combat Skill Enhancement
+1227	Enhances the final damage of Close Combat skills once.
+1228	Manannan's Rising Waters
+1229	Possession
+1230	Talek's Illusion
+1233	Battle Alchemy Enhancement
+1234	Transmutation Enhancement
+1235	Hero Alchemy Enhancement
+1236	Marionette Stun Resistance Rate
+1237	Marionette Critical Damage
+1238	Puppetry skill cooldown decreased
+1239	Applies a variety of enhancements to Battle Alchemy Talent skills.
+1240	Applies a variety of enhancements to Transmutation Talent skills. 
+1241	Applies a variety of enhancements to Hero Alchemy Talent skills.
+1242	Marionette stun resistance rate increased.
+1243	Marionette critical damage increased.
+1244	Puppetry skill cooldown decreased.
+1245	Master Plan Special Effect
+1246	Increases Defense, Protection, Magic Defense, Magic Protection, HP, MP, and Stamina. This status effect will disappear when the Master Plan event ends.
+1247	Kraken Rex Ink Skill Shield
+1248	A barrier that reduces the damage from all Kraken Rex's ink skills
+1249	Condition to check whether the player is under Kraken Leg's coiling attack
+1250	Condition to check whether the player is under Kraken Leg's coiling attack
+1251	Kraken Poison
+1252	You've been poisoned by the gas released when the Kraken Leg self-destructed! Taking damage every 2 sec for a total of 10 sec.
+1253	Combat EXP Increase
+1254	Increases the amount of EXP gained from combat.
+1255	Pet Mana Shield
+1256	Magic Defense and Magic Protection Boost
+1257	Healing Rays
+1258	Area Healing Effect
+1259	Bonding Ties
+1260	AP 획득 두배
+1261	특별한 부스터
+1262	레벨업(탐험 레벨 제외) 시 획득 AP 2배 증가.
+1263	모든 스킬 수련치 2배, 파티로 던전과 그림자 미션, 연극 미션 플레이 시 자신은 전투 경험치 2배, 파티원은 1.5배.
+1264	Increases Movement Speed
+1265	Bleeding
+1266	Decreases Defense/Protection
+1267	Increases Cast Range
+1268	Restores MP
+1270	Bleeds for {0}% of Character's Damage
+1271	Decreases Defense by {0} and Protection by {1}
+1272	Increases Normal Ranged Attack by {0} cm
+1273	Shield
+1274	Concert Goer
+1275	You'll receive a bonus when you complete a Shadow Mission.
+1276	Burn
+1277	Perk: Blue Shield Effect (Mana Shield)
+1278	Perk: Blue Shield Effect (Magic Defense and Magic Protection Boost)
+1279	Perk: Healing Rays Activated
+1280	Perk: Healing Rays Active Effect (Applies Area Healing upon using Healing)
+1281	Perk: Bonding Ties Effect (Pet receives partial EXP upon clearing Shadow Missions while activate)
+1282	Aquarius Starbright Potion
+1283	Pisces Starbright Potion
+1284	Aries Starbright Potion
+1285	Taurus Starbright Potion
+1286	Gemini Starbright Potion
+1287	Cancer Starbright Potion
+1288	Leo Starbright Potion
+1289	Virgo Starbright Potion
+1290	Libra Starbright Potion
+1291	Scorpio Starbright Potion
+1292	Sagittarius Starbright Potion
+1293	Capricorn Starbright Potion
+1294	Doubles item drop rate for the duration
+1295	Double EXP from defeating monsters for the duration
+1296	Increases Production Skills' production success rate by 10% for the duration
+1297	Doubles Quest Completion EXP for the duration
+1298	Doubles the amount of AP gained at an increase of character or exploration level for the duration
+1299	Increases Strength, Intelligence, Dexterity, Will, and Luck by +15 for the duration
+1300	Doubles Skill Training EXP for Close Combat, Magic, Battle Alchemy, and Martial Arts talents for the duration
+1301	Doubles Skill Training EXP for Puppetry, Music, Transmutation, and Chain Slash talents for the duration
+1302	Doubles quest completion gold for the duration
+1303	Doubles Skill Training EXP for Archery, Lance Combat, Dual Gun, and Ninja talents for the duration
+1304	Increases Max Damage by 5 and Magic Attack by 15, when activated, for the duration
+1305	Increases Defense, Protection, Magic Defense, and Magic Protection by 5 and Critical by 2 for the duration
+1306	Combat 5x EXP
+1307	You gain Combat EXP x5.
+1308	Nightmare
+1309	Debuff Defense
+1310	Combat EXP Increase
+1311	Lightning Rod Enhancement
+1312	Increases Combat EXP obtained by {0}%
+1313	Enhances the Lightning Rod skill
+1314	Skill 3x EXP
+1315	Skill 3x EXP
+1316	Ultimate Lance
+1317	Spirit Awakening Skill Buff
+1318	Skill damage is enhanced by the Spirit Awakening Skill Buff.
+1319	Circle of Magic
+1320	Mark of Light
+1321	A debuff from being hit by Catsidhe's normal attack. Reduces movement speed, defense, and protection.
+1322	A condition from being hit by Catsidhe's Sharp Howling. Grants additional EXP when defeating monsters.
+1323	Decaying Swamp Poisoning
+1324	You've been poisoned upon entering the Swamp of Decadence. Taking damage every sec.
+1325	Stage 1 Effect for Watching the Concert: Pet Combat 2x EXP
+1326	The Pet will receive Combat 2x EXP.
+1327	Blissful Aura Effect
+1328	Grants Combat EXP +30%, 1.5x Item Drop Rate, and Movement Speed +5% for 1 hour.
+1329	Weaken
+1330	Skills cannot be used. You wander endlessly through a nightmare.
+1331	Cannot consume potions or food, and you suffer from Bleeding, decreasing movement speed.
+1332	Wild Frenzy
+1333	Wings of Haste
+1334	Active effect for the Wild Frenzy perk. Increases pet's min/max damage, reduces attack delay, increases character speed, and increases critical damage.
+1335	Active effect for the Wings of Haste perk. Increases speed for both the pet and master.
+1336	Milletian Booster
+1337	모든 스킬 수련치 2배, 파티로 던전과 그림자 미션, 연극 미션 플레이 시 자신은 전투 경험치 2배, 파티원은 1.5배.
+1338	Tein Element Burn
+1339	Gao Element Contagion
+1340	Burning from the pet's Tein elemental attack
+1341	Contagion from the pet's Gao element
+1342	Exclusive Fynn Pet Food Buff
+1343	Exclusive Fynn Pet food was consumed, granting a special effect.
+1344	Floral Shield
+1345	Fynn Bead Skill - Floral Shield Condition
+1348	Petal Protection
+1349	A condition inflicted upon being hit by a special petal from Fleur's Petal Attack. When this condition is active, you can block an attack from Scent of Death 1 time.
+1352	KartRider Water Balloon
+1353	KartRider UFO
+1354	Hit by a kart's water balloon! Reduces movement speed.
+1355	Hit by a kart's summon attack! Reduces movement speed.
+1356	Fleur Shield
+1357	Powerless (Fleur)
+1358	Effective Range Increase
+1359	A condition Fleur inflicts on herself. Although it reflects 100% of all the attacks coming from the player character, attacks from pets will go through it.
+1360	A condition Fleur inflicts on herself. Increases damage taken from pets by 5 times.
+1361	The weapon's effective range is extended. Applied together with reforging and echostones.
+1362	솟구치는 분노 면역
+1363	해당 컨디션이 걸려있으면 솟구치는 분노 스킬로 피격 되지 않고, 타격자의 솟구치는 분노 스킬 사용을 취소시킨다.
+1364	KartRider Water Balloon
+1365	Hit by a kart's water balloon! Reduces defense and protection.
+1366	옭아매는 죽음
+1367	생명력이 0이 되고 죽는 모션을 하면서 사망. 사망과 동시에 걸려있던 컨디션은 삭제.
+1368	KartRider Missile
+1369	The kart's missile draws the enemy's attention.
+1370	Heat Boost
+1371	Amplifies the damage dealt by each hit.
+1372	KartRider Shield
+1373	Activates the kart's shield effect.
+1387	Divine Link Harmony
+1388	Campfire Harmony
+1389	Commerce Harmony
+1390	Gathering Harmony
+1391	Smithing Harmony
+1392	Sheep Shearing Harmony
+1393	Carpentry Harmony
+1394	Pet Training Harmony
+1395	Harmony of Curiosity
+1396	Harmony of Delight
+1410	Increases the duration of Divine Links.
+1411	Increases the effect of Campfire Mastery.
+1412	Increases the effect of Commerce Mastery.
+1413	Increases the effect of Tasting.
+1414	Increases the effect of Smithing Mastery.
+1415	Increases the effect of Sheep Shearing Mastery.
+1416	Increases the effect of Carpentry Mastery.
+1417	Increases the effect of Pet Mastery.
+1418	Increases the effect of Curiosity Mastery.
+1419	Increases the effect of Delight Mastery.
+1420	Joyful Japari Park
+1421	Joyful Japari Park Cooldown
+1422	Increases all stats.
+1423	Unable to receive the effects of the Joyful Japari Park buff.
+1424	Magic Casting Speed Boost
+1425	Boosts your magic casting speed.
+1426	Critical Increase
+1427	Increases your critical damage.
+1428	Curse Damage
+1429	Take damage over time for a certain duration from the curse.
+1434	Heat Boost
+1435	Amplifies the damage dealt by each hit.
+1444	Stun
+1445	Stunned
+1446	스위트 로즈 가시에 찔린
+1447	스위트 로즈 멜로디 스텝
+1448	출혈이 지속되어 스위트 로즈 꽃잎을 채취할 수 없다.
+1449	내구력 감소 속도 완화 효과.\n음악 버프 스킬 효과 5 증가
+1452	Party Buff
+1453	Party Buff Item Effect Activated
+1458	Hymerark's Whisper
+1459	MP/Stamina/Dorcha Reduction
+1460	Flame Crystal
+1461	Removes and prevents Potion Poisoning.
+1462	Halt
+1463	You're completely immobilized.
+1464	Seal: Pragarah
+1465	Campfire Spirit's Friend
+1466	The character will receive Skill 2x EXP. When clearing dungeons, Shadow Missions, or Theatre Missions, party members receive 1.5x EXP bonus.
+1467	Corgi Companionship
+1468	Increases Defense, Protection, Magic Defense, and Magic Protection.
+1469	Adorable Wiggle
+1470	Weakens Defense and Protection, enamored by the Corgi's powerful cuteness.
+1471	Adorable Wiggle
+1472	Weakens Magic Defense and Magic Protection, enamored by the Corgi's powerful cuteness.
+1473	Persistent Damage Glyph
+1474	Physical Vulnerability Glyph
+1475	Magic Vulnerability Glyph
+1476	Healing Glyph
+1477	Muscle Building Glyph
+1478	Fattening Glyph
+1480	Whispering Glyph
+1481	MP Wellspring Glyph
+1482	Stamina Wellspring Glyph
+1483	Satiating Glyph
+1484	Wound Closing Glyph
+1485	Muscle Atrophy Glyph
+1486	Slimming Glyph
+1487	Defense Skill Augment Glyph
+1488	Smash Skill Augment Glyph
+1489	Counterattack Skill Augment Glyph
+1490	Charge Skill Augment Glyph
+1491	Assault Slash Skill Augment Glyph
+1492	Rage Impact Skill Augment Glyph
+1493	Bash Skill Augment Glyph
+1494	Final Strike Skill Augment Glyph
+1495	Stampede Skill Augment Glyph
+1496	Throwing Attack Skill Augment Glyph
+1497	Windmill Skill Augment Glyph
+1498	Final Hit Skill Augment Glyph
+1499	Stomp Skill Augment Glyph
+1500	Wind Guard Skill Augment Glyph
+1501	Taunt Skill Augment Glyph
+1502	Evasion Skill Augment Glyph
+1503	Doppelganger Skill Augment Glyph
+1504	Berserk Skill Augment Glyph
+1505	Meditation Skill Augment Glyph
+1506	Lightning Bolt Skill Augment Glyph
+1507	Thunder Skill Augment Glyph
+1508	Shockwave Skill Augment Glyph
+1509	Lightning Rod Skill Augment Glyph
+1510	Firebolt Skill Augment Glyph
+1511	Fireball Skill Augment Glyph
+1512	Meteor Strike Skill Augment Glyph
+1513	Icebolt Skill Augment Glyph
+1514	Ice Spear Skill Augment Glyph
+1515	Hail Storm Skill Augment Glyph
+1516	Fusion Bolt Skill Augment Glyph
+1517	Blaze Skill Augment Glyph
+1518	Spellwalk Skill Augment Glyph
+1519	Snap Cast Skill Augment Glyph
+1520	Inspiration Skill Augment Glyph
+1521	Magnum Shot Skill Augment Glyph
+1522	Arrow Revolver Skill Augment Glyph
+1523	Support Shot Skill Augment Glyph
+1524	Mirage Missile Skill Augment Glyph
+1525	Spider Shot Skill Augment Glyph
+1526	Urgent Shot Skill Augment Glyph
+1527	Crash Shot Skill Augment Glyph
+1528	Final Shot Skill Augment Glyph
+1529	Life Drain Skill Augment Glyph
+1530	Water Cannon Skill Augment Glyph
+1531	Wind Blast Skill Augment Glyph
+1532	Flame Burst Skill Augment Glyph
+1533	Sand Burst Skill Augment Glyph
+1534	Frozen Blast Skill Augment Glyph
+1535	Shock Skill Augment Glyph
+1536	Heat Buster Skill Augment Glyph
+1537	Golden Time Skill Augment Glyph
+1538	Combo: Charging Strike Skill Augment Glyph
+1539	Combo: Focused Fist Skill Augment Glyph
+1540	Combo: Counter Punch Skill Augment Glyph
+1541	Combo: Spinning Uppercut Skill Augment Glyph
+1542	Combo: Somersault Kick Skill Augment Glyph
+1543	Combo: Drop Kick Skill Augment Glyph
+1544	Combo: Pummel Skill Augment Glyph
+1545	Respite Skill Augment Glyph
+1546	Tumble Skill Augment Glyph
+1547	Enthralling Performance Skill Augment Glyph
+1548	Dischord Skill Augment Glyph
+1549	Fantastic Chorus Skill Augment Glyph
+1550	Battlefield Overture Skill Augment Glyph
+1551	Lullaby Skill Augment Glyph
+1552	Vivace Skill Augment Glyph
+1553	Enduring Melody Skill Augment Glyph
+1554	Harvest Song Skill Augment Glyph
+1555	March Song Skill Augment Glyph
+1556	Dance of Death Skill Augment Glyph
+1557	Act 2: Threshold Cutter Skill Augment Glyph
+1558	Act 1: Inciting Incident Skill Augment Glyph
+1559	Act 4: Rising Action Skill Augment Glyph
+1560	Act 6: Crisis Skill Augment Glyph
+1561	Act 7: Climactic Crash Skill Augment Glyph
+1562	Act 9: Invigorating Encore Skill Augment Glyph
+1563	Wire Pull Skill Augment Glyph
+1564	Puppet's Snare Skill Augment Glyph
+1565	Lance Counter Skill Augment Glyph
+1566	Lance Charge Skill Augment Glyph
+1574	Mana Crystallization Skill Augment Glyph
+1575	Barrier Spikes Skill Augment Glyph
+1576	Rain Casting Skill Augment Glyph
+1577	Hydra Transmutation Skill Augment Glyph
+1578	Summon Golem Skill Augment Glyph
+1579	Flash Launcher Skill Augment Glyph
+1580	Grapple Shot Skill Augment Glyph
+1581	Bullet Slide Skill Augment Glyph
+1582	Shooting Rush Skill Augment Glyph
+1583	Bullet Storm Skill Augment Glyph
+1584	Reload Skill Augment Glyph
+1585	Way of the Gun Skill Augment Glyph
+1586	Shuriken Charge Skill Augment Glyph
+1587	Kunai Storm Skill Augment Glyph
+1588	Shadow Bind Skill Augment Glyph
+1589	Shadow Cloak Skill Augment Glyph
+1590	Explosive Kunai Skill Augment Glyph
+1591	Smokescreen Skill Augment Glyph
+1592	Sakura Abyss Skill Augment Glyph
+1593	Dorcha Snatch Skill Augment Glyph
+1594	Chain Impale Skill Augment Glyph
+1595	Raging Spike Skill Augment Glyph
+1596	Spinning Slasher Skill Augment Glyph
+1597	Chain Crush Skill Augment Glyph
+1598	Chain Sweep Skill Augment Glyph
+1599	Dorcha Conversion Skill Augment Glyph
+1600	Anchor Rush Skill Augment Glyph
+1601	Death Mark Skill Augment Glyph
+1602	Chain Burst Skill Augment Glyph
+1603	Bachram Explosion Skill Augment Glyph
+1604	Loving Bond
+1605	Loving Bond Item Effect Activated
+1606	원문수정해서 사용하세요
+1607	원문수정해서 사용하세요
+1609	원문수정해서 사용하세요
+1610	원문수정해서 사용하세요
+1611	원문수정해서 사용하세요
+1615	Water Wave
+1616	Purifying Wave
+1617	A condition inflicted on targets damaged by Water Wave. Afflicted targets are more vulnerable to damage.
+1618	Purifying Wave cleanses the character's status effects and increases Movement Speed and Recovery Speed.
+1619	Royal Academy Crystal
+1620	You will receive a bonus after completing the Society sponsorship quest.
+1629	Hail Storm Enhancement
+1630	Lightning Rod Charge Time Reduction
+1631	Meteor Strike Enhancement
+1632	Increases Hail Storm Damage
+1633	Decreases time needed to cast Lightning Rod
+1634	Increases Meteor Strike Damage
+1635	Guardian Impulse
+1636	Dynamis Rush
+1637	Steadfast Blessing
+1638	Tainted Matter
+1639	Mutagenic Enhancement
+1640	Fantastic Chorus Effect Increased
+1641	Music Buff Duration Increased
+1642	Vivace Buff Effect Increased
+1643	Battlefield Overture Buff Effect Increased
+1644	Enduring Melody Buff Effect Increased
+1645	Harvest Song Buff Effect Increased
+1646	Lullaby Buff Effect Increased
+1647	March Song Buff Effect Increased
+1648	Increases Fantastic Chorus's buff effect. Applied together with reforging and echostones.
+1649	Increases Music Buff duration. Applied with reforging and echostones.
+1650	Increases Vivace music buff effect. Applied with reforging and echostones.
+1651	Increases Battlefield Overture music buff effect. Applied with reforging and echostones.
+1652	Increases Enduring Melody music buff effect. Applied with reforging and echostones.
+1653	Increases Harvest Song music buff effect. Applied with reforging and echostones.
+1654	Increases Lullaby music buff effect. Applied with reforging and echostones.
+1655	Increases March Song music buff effect. Applied with reforging and echostones.

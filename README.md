@@ -169,6 +169,7 @@ Note: Some mods of this are not included in Official Tiara, but I think they des
 89. Aahz's Simplified Festia
 90. Fl0rn's Tech Duinn Fog Removal
 91. Japari Bus Sound Removal
+92. Xeme's Music Buff Status List
 
 >>To restore things, find the corresponding files in the data folder (or whatever directory you use) and delete/remove/replace to modify them to fit your preferences, delete uotiara.pack in the package folder or use the installer/uninstaller.
 

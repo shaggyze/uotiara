@@ -1,5 +1,5 @@
 !define UOSHORTVERSION        "371"
-!define UOLONGVERSION         "0.6.23"
+!define UOLONGVERSION         "0.6.24"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -1331,7 +1331,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\gui_condition_custom.dds"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD98?2}
-  DetailPrint "*** Removing MOD98?2..."
+  DetailPrint "*** Removing MOD98?1..."
   Delete "$INSTDIR\data\gfx\image\gui_condition_custom.dds"
 !macroend
 SectionGroupEnd
@@ -1339,6 +1339,21 @@ SectionGroupEnd
   DetailPrint "*** Removing MOD98..."
   Delete "$INSTDIR\data\db\charactercondition.xml"
   Delete "$INSTDIR\data\gfx\image\gui_condition_custom.dds"
+!macroend
+Section "Music Buff Status List" MOD73
+SetOutPath "$INSTDIR\data\db"
+File "${srcdir}\Tiara's Moonshine Mod\data\db\charactercondition.xml"
+SetOutPath "$INSTDIR\data\local\xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\charactercondition.english.txt"
+SetOutPath "$INSTDIR\data\xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\xml\charactercondition.english.txt"
+SectionIn 1 2 3
+SectionEnd
+!macro Remove_${MOD73}
+  DetailPrint "*** Removing MOD73..."
+  Delete "$INSTDIR\data\db\charactercondition.xml"
+  Delete "$INSTDIR\data\local\xml\charactercondition.english.txt"
+  Delete "$INSTDIR\data\xml\charactercondition.english.txt"
 !macroend
 SectionGroup "cutscene"
 Section "Paladin Cutscene Removal" MOD60
@@ -7007,6 +7022,7 @@ SectionGroupEnd
 !insertmacro "${MacroName}" "MOD72?1"
 !insertmacro "${MacroName}" "MOD72?2"
 !insertmacro "${MacroName}" "MOD72?3"
+!insertmacro "${MacroName}" "MOD73"
 !insertmacro "${MacroName}" "MOD444"
 !insertmacro "${MacroName}" "MOD445"
 !insertmacro "${MacroName}" "MOD446"
@@ -8094,6 +8110,13 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD72?3" "FILE1" "\data\sound\kmn\
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD72?3" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD72?3" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD72?3" "DESCRIPTION" "Mute data\sound\kmn\2020_kmn_summon.wav"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "" "Music Buff Status List"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILE1" "\data\db\charactercondition.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILE2" "\data\local\xml\charactercondition.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILE3" "\data\xml\charactercondition.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILES" "3"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "CREATOR" "Xeme"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "DESCRIPTION" "Show Music Buff Status List"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD444" "" "Peaca Dungeon Master Lich Cutscene Removal"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD444" "FILE1" "\data\db\cutscene\bossroom_peaca_masterlich.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD444" "FILES" "1"
@@ -8209,12 +8232,12 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98" "" "View Deadly as Red Glow
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98" "FILE1" "\data\db\charactercondition.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98" "FILE2" "\data\gfx\image\gui_condition_custom.dds"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98" "FILES" "2"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98" "CREATOR" "Marck, ShaggyZE, Draconis, Fl0rn & Chacha"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98" "CREATOR" "Marck, ShaggyZE, Draconis, Fl0rn, Chacha & Xeme"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98" "DESCRIPTION" "Changes several character condition colors and icons when performing skills"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98?1" "" "View Deadly as Red Glow-Mana Shield as Blue Glow-etc ?1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98?1" "FILE1" "\data\db\charactercondition.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98?1" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98?1" "CREATOR" "Marck, ShaggyZE, Draconis & Fl0rn"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98?1" "CREATOR" "Marck, ShaggyZE, Draconis, Fl0rn, Chacha & Xeme"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98?1" "DESCRIPTION" "Changes several character condition colors and icons when performing skills"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98?2" "" "View Deadly as Red Glow-Mana Shield as Blue Glow-etc ?2"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98?2" "FILE1" "\data\gfx\image\gui_condition_custom.dds"
