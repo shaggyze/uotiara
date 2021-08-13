@@ -15,7 +15,7 @@ Official Thread:
 http://mabimods.net/index.php?topic=10456.0
 
 Discord:
-http://discord.uotiara.com
+https://discord.gg/mCNBwZT
 
 Donate for Support:
 https://www.patreon.com/shaggyze

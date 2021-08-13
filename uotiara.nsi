@@ -1,5 +1,5 @@
 !define UOSHORTVERSION        "372"
-!define UOLONGVERSION         "0.7.25"
+!define UOLONGVERSION         "0.7.26"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"

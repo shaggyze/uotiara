@@ -3,18 +3,18 @@ for %%A in ("C:\Nexon\Library\mabinogi\appdata\package\data\features.xml.compile
 for %%A in ("C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\Tools\MabiFeatureTool\UpdateFeatures.ps1") do PowerShell -ExecutionPolicy RemoteSigned -File %%~sA
 "C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\Tools\MabiFeatureTool\MabiFeatureTool.exe" "C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\Tools\MabiFeatureTool\features.xml"
 for %%A in ("C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\Tools\MabiFeatureTool\features.xml.compiled") do for %%B in ("C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\data\features.xml.compiled") do Copy %%~sA %%~sB
-copy C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\data\local\code C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\data\code
-copy C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\data\local\xml C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\data\xml
+copy /Y "C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\data\local\code" "C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\data\code"
+copy /Y "C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\data\local\xml" "C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\data\xml"
 Xcopy "C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\data" "C:\Nexon\Library\mabinogi\appdata\data" /Y /E /H /C /I
 cd C:\Nexon\Library\mabinogi\appdata
-attrib -r C:\Nexon\Library\mabinogi\appdata\package\language.pack
-attrib -r C:\Nexon\Library\mabinogi\appdata\package\UOTiara.pack
+attrib -r "C:\Nexon\Library\mabinogi\appdata\package\language.pack"
+attrib -r "C:\Nexon\Library\mabinogi\appdata\package\UOTiara.pack"
 C:\Nexon\Library\mabinogi\appdata\MabiPacker\MabiPacker.exe /input C:\Nexon\Library\mabinogi\appdata\package\language.pack /output . /version 999 /level 1
-copy C:\Nexon\Library\mabinogi\appdata\data\local\code C:\Nexon\Library\mabinogi\appdata\data\code
-copy C:\Nexon\Library\mabinogi\appdata\data\local\xml C:\Nexon\Library\mabinogi\appdata\data\xml
-copy C:\Nexon\Library\mabinogi\appdata\data\code C:\Nexon\Library\mabinogi\appdata\data\local\code
-copy C:\Nexon\Library\mabinogi\appdata\data\xml C:\Nexon\Library\mabinogi\appdata\data\local\xml
-copy C:\Nexon\Library\mabinogi\appdata\data\world.english.txt C:\Nexon\Library\mabinogi\appdata\data\local\world.english.txt
+copy /Y "C:\Nexon\Library\mabinogi\appdata\data\local\code" "C:\Nexon\Library\mabinogi\appdata\data\code"
+copy /Y "C:\Nexon\Library\mabinogi\appdata\data\local\xml" "C:\Nexon\Library\mabinogi\appdata\data\xml"
+copy /Y "C:\Nexon\Library\mabinogi\appdata\data\code" "C:\Nexon\Library\mabinogi\appdata\data\local\code"
+copy /Y "C:\Nexon\Library\mabinogi\appdata\data\xml" "C:\Nexon\Library\mabinogi\appdata\data\local\xml"
+copy /Y "C:\Nexon\Library\mabinogi\appdata\data\world.english.txt" "C:\Nexon\Library\mabinogi\appdata\data\local\world.english.txt"
 del C:\Nexon\Library\mabinogi\appdata\package\language.pack
 del C:\Nexon\Library\mabinogi\appdata\package\UOTiara.pack
 C:\Nexon\Library\mabinogi\appdata\MabiPacker\MabiPacker.exe /input C:\Nexon\Library\mabinogi\appdata\data /output C:\Nexon\Library\mabinogi\appdata\package\UOTiara.pack /version 999 /level 1
@@ -24,4 +24,4 @@ copy /Y "C:\Nexon\Library\mabinogi\appdata\package\UOTiara.pack" "C:\Users\%user
 copy /Y "C:\Nexon\Library\mabinogi\appdata\package\language.pack" "C:\Users\%username%\Google Drive\Tiara\unofficialtiara\language.pack"
 copy /Y "C:\Nexon\Library\mabinogi\appdata\package\UOTiara.pack" "C:\Users\%username%\Documents\GitHub\uotiara\UOTiara.pack"
 copy /Y "C:\Nexon\Library\mabinogi\appdata\package\language.pack" "C:\Users\%username%\Documents\GitHub\uotiara\language.pack"
-attrib +r C:\Nexon\Library\mabinogi\appdata\package\UOTiara.pack
+attrib +r "C:\Nexon\Library\mabinogi\appdata\package\UOTiara.pack"
