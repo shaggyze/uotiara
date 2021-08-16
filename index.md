@@ -1,26 +1,26 @@
-Unofficial Tiara's Moonshine Mod by ShaggyZE. ![Build status](https://ci.appveyor.com/api/projects/status/frp20d9y14rpxha0?svg=true)([link]https://ci.appveyor.com/project/shaggyze/uotiara[/link])
+Unofficial Tiara's Moonshine Mod by ShaggyZE. ![Build status](https://ci.appveyor.com/api/projects/status/frp20d9y14rpxha0?svg=true)([Link](https://ci.appveyor.com/project/shaggyze/uotiara))
 
 Thanks to this months donator/s and special thanks to Amaretto, Penguin Eater, Draconis, Blade3575 and Step29 (along with Plonecakes, kotarou3, thatguysteve and Halfslashed) for Abyss, Logue for MabiPacker, Sven for Hyddwn Launcher and Cursey for Kanan.
 -------------------------------------------------------------------------
 *Intended solely for Mabinogi (North America)
 
 Download Location:
-[link]https://github.com/shaggyze/uotiara/releases[/link]
+[Link](https://github.com/shaggyze/uotiara/releases)
 or
-[link]https://ci.appveyor.com/project/shaggyze/uotiara/build/artifacts[/link]
+[Link](https://ci.appveyor.com/project/shaggyze/uotiara/build/artifacts)
 
-NSIS is required to compile uotiara.nsi [link]https://nsis.sourceforge.io/Download[/link]
+NSIS is required to compile uotiara.nsi [Link](https://nsis.sourceforge.io/Download)
 
 Official Thread:
-[link]http://mabimods.net/index.php?topic=10456.0[/link]
+[Link](http://mabimods.net/index.php?topic=10456.0)
 
 Discord:
-[link]https://discord.gg/mCNBwZT[/link]
+[Link](https://discord.gg/mCNBwZT)
 
 Donate for Support:
-[link]https://www.patreon.com/shaggyze[/link]
+[Link](https://www.patreon.com/shaggyze)
 or
-[link]https://paypal.me/thoggsr[/link]
+[Link](https://paypal.me/thoggsr)
 
 
 What is Tiara's Moonshine Mod?
@@ -249,7 +249,7 @@ data/xml/talenttitle.english.txt
 
 ---Mods included in the compilation.---
 
-[link]https://raw.githubusercontent.com/shaggyze/uotiara/master/uotiaralist.ini[/link]
+[Link](https://raw.githubusercontent.com/shaggyze/uotiara/master/uotiaralist.ini)
 
 -------------------------------------------------------------------------
 By using Unofficial Tiara's Moonshine Mod, including any software and content contained therein, you agree that use of the Program/s is entirely at your own risk. The Program/s are provided to you as a convenience and I do not guarantee the accuracy, or completeness of the information.
