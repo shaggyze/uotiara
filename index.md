@@ -1,26 +1,26 @@
-Unofficial Tiara's Moonshine Mod by ShaggyZE. ![Build status](https://ci.appveyor.com/api/projects/status/frp20d9y14rpxha0?svg=true)(https://ci.appveyor.com/project/shaggyze/uotiara)
+Unofficial Tiara's Moonshine Mod by ShaggyZE. ![Build status](https://ci.appveyor.com/api/projects/status/frp20d9y14rpxha0?svg=true)([link]https://ci.appveyor.com/project/shaggyze/uotiara[/link])
 
 Thanks to this months donator/s and special thanks to Amaretto, Penguin Eater, Draconis, Blade3575 and Step29 (along with Plonecakes, kotarou3, thatguysteve and Halfslashed) for Abyss, Logue for MabiPacker, Sven for Hyddwn Launcher and Cursey for Kanan.
 -------------------------------------------------------------------------
 *Intended solely for Mabinogi (North America)
 
 Download Location:
-https://github.com/shaggyze/uotiara/releases 
+[link]https://github.com/shaggyze/uotiara/releases[/link]
 or
-https://ci.appveyor.com/project/shaggyze/uotiara/build/artifacts
+[link]https://ci.appveyor.com/project/shaggyze/uotiara/build/artifacts[/link]
 
-NSIS is required to compile uotiara.nsi https://nsis.sourceforge.io/Download
+NSIS is required to compile uotiara.nsi [link]https://nsis.sourceforge.io/Download[/link]
 
 Official Thread:
-http://mabimods.net/index.php?topic=10456.0
+[link]http://mabimods.net/index.php?topic=10456.0[/link]
 
 Discord:
-https://discord.gg/mCNBwZT
+[link]https://discord.gg/mCNBwZT[/link]
 
 Donate for Support:
-https://www.patreon.com/shaggyze
+[link]https://www.patreon.com/shaggyze[/link]
 or
-https://paypal.me/thoggsr
+[link]https://paypal.me/thoggsr[/link]
 
 
 What is Tiara's Moonshine Mod?
@@ -78,7 +78,7 @@ What is Tiara's Moonshine Mod?
 
 
 Note: Some mods of this are not included in Official Tiara, but I think they deserved to be put in anyways:
-1. You can zoom in Uladh Minimaps http://mabimods.net/index.php?topic=2273.msg24639.html#msg24639
+1. You can zoom in Uladh Minimaps
 2. You can now see who wants to duel you
 3. Exploration Level is shortened, so you can see your level above level 10 in Character Window.
 4. Taillteann SM maps are redone, I spent some time using Paint.net to make a more accurate trail.
@@ -124,7 +124,7 @@ Note: Some mods of this are not included in Official Tiara, but I think they des
 44. akeno's Trade Imp Removal.
 45. Tekashi's Nimbus Effects Removal.
 46. Jragon0's Strange book Mod.
-47. Changed DATA Packer's PACK malformatted error http://puu.sh/5iDlT.jpg
+47. Changed DATA Packer's PACK malformatted error
 48. Rydian's Zero/Enlightenment SM Maps.
 49. step29's Reforge Realview Mod. (removed)
 50. kirbysama's V176 Exploration Maps. Remade + Cleaned
@@ -181,7 +181,7 @@ Note: The new font file must be renamed "nanumgothicbold.ttf" to function. If th
 
 
 >>Frequently asked questions<<
-If you get PACK malformated or a 'delete etc language.Package'(http://puu.sh/5iDlT.jpg) error then delete language.pack from the package folder then run mabinogi.exe to download a new language.pack and it should let you apply mods again.
+If you get PACK malformated or a 'delete etc language.Package' error then delete language.pack from the package folder then run mabinogi.exe to download a new language.pack and it should let you apply mods again.
 
 
 To Remove Graphic Always Noon Sky:
@@ -249,7 +249,7 @@ data/xml/talenttitle.english.txt
 
 ---Mods included in the compilation.---
 
-https://raw.githubusercontent.com/shaggyze/uotiara/master/uotiaralist.ini
+[link]https://raw.githubusercontent.com/shaggyze/uotiara/master/uotiaralist.ini[/link]
 
 -------------------------------------------------------------------------
 By using Unofficial Tiara's Moonshine Mod, including any software and content contained therein, you agree that use of the Program/s is entirely at your own risk. The Program/s are provided to you as a convenience and I do not guarantee the accuracy, or completeness of the information.
