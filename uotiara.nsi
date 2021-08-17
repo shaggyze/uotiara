@@ -1,5 +1,5 @@
 !define UOSHORTVERSION        "372"
-!define UOLONGVERSION         "0.7.26"
+!define UOLONGVERSION         "0.7.27"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -377,7 +377,7 @@ AbyssLogNotFound1:
   Delete "7za.dll"
   Delete "7zxa.dll"
   Delete "Abyss.7z"
-  IfFileExists "$INSTDIR\ijl11.dll" AbyssFound1 AbyssNotFound1
+  IfFileExists "$INSTDIR\ijl11.dat" AbyssFound1 AbyssNotFound1
 AbyssNotFound1:
 File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\ijl11.dat"
 File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\Abyss.ini"
@@ -386,6 +386,12 @@ File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\Abyss.ini"
   inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/Abyss/ijl11.dll" "ijl11.dll" /end
 File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\README_Abyss.txt"
 AbyssFound1:
+Push "$INSTDIR\ijl11.dll"
+Call FileSizeNew
+Pop $0
+${If} $0 < "1000000"
+MessageBox MB_OK "Abyss either failed to download or was blocked by security.$\r$\nTry adding your Mabinogi folder to your Exclusion lists." IDOK AbyssFound1
+${EndIf}
 DetailPrint "Installing Abyss..."
 WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "DataFolder" "1"
 WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "EnableMultiClient" "1"
@@ -11825,6 +11831,17 @@ Function StrContains
    Exch $STR_RETURN_VAR  
 FunctionEnd
 
+Function FileSizeNew
+
+  Exch $0
+  Push $1
+  FileOpen $1 $0 "r"
+  FileSeek $1 0 END $0
+  FileClose $1
+  Pop $1
+  Exch $0
+
+FunctionEnd
 !insertmacro MUI_LANGUAGE "English"
 !endif
 ; eof
