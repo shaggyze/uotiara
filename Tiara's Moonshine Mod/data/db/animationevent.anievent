@@ -3318,7 +3318,41 @@ set("C4_human")
 			197:face(default)
 			219:jump(0,true)			
 						
-			
+		"female_fantasyplatform01_sit"
+			0:hideequip(false)			
+			0:lookat(off)		
+			0:hand(both, palm)
+			0:face(default)
+			350:face(serious)
+			432:effect("fantasyplatform01",0,1)
+			644:hand(both, fist)
+			697:hand(both, palm)
+			692:face(upset)
+			692:effectoff("fantasyplatform01")
+			692:effect("fantasyplatform02",0,1)
+			750:effectoff("fantasyplatform02")
+			830:face(default)
+			841:hand(left, fist)
+			889:hand(left, palm)
+			896:jump(0,true)			
+
+		"male_fantasyplatform01_sit"
+			0:hideequip(false)			
+			0:lookat(off)		
+			0:hand(both, palm)
+			0:face(default)
+			350:face(serious)
+			432:effect("fantasyplatform01",0,1)
+			644:hand(both, fist)
+			697:hand(both, palm)
+			692:face(upset)
+			692:effectoff("fantasyplatform01")
+			692:effect("fantasyplatform02",0,1)
+			750:effectoff("fantasyplatform02")
+			830:face(default)
+			841:hand(left, fist)
+			889:hand(left, palm)
+			896:jump(0,true)	
 			
 	"human_snowfield"
 			21:effect("snow_ex",0,1)
@@ -6175,7 +6209,8 @@ set("C4_human")
 			22:sound("data\sound\bat01_.wav")		
 			0:lookat(off)
 			0:hand(both,fist) 
-			
+		
+		
 			
 		"male_godfeatherwing_standfriendly"
 			0:hand(both,fist) 		
@@ -6203,7 +6238,45 @@ set("C4_human")
 			18:sound("data\sound\bat01_.wav")					
 	
 
+			"female_royalwizcapech_fly_walk"
+				0:lookat(off)
+				0:hand(both,fist) 
+				
+			"male_royalwizcapech_fly_walk"
+				0:lookat(off)
+				0:hand(both,fist) 
+				
+			
+			"female_royalwizcapech_fly_run"
+				0:lookat(off)
+				0:hand(both,fist) 
+				
+			"male_royalwizcapech_fly_run"
+				0:lookat(off)
+				0:hand(both,fist) 	
+			
+			"female_royalwizcapech_fly_stand"
+				0:lookat(off)
+				0:hand(both,fist) 
+				
+			"male_royalwizcapech_fly_stand"
+				0:lookat(off)
+				0:hand(both,fist) 	
 
+			"female_elegantwing01_run"
+				0:hand(both,fist) 		
+				12:sound("data\sound\bat01_.wav")				
+
+			"male_elegantwing01_run"
+				0:hand(both,fist) 		
+				12:sound("data\sound\bat01_.wav")	
+
+			"male_flapwing_run"
+				0:hand(both,fist)
+			
+			"female_flapwing_run"
+				0:hand(both,fist)
+				
 	endfolder
 	
 ///////////////////////양손 모션//////////////////////
@@ -13050,7 +13123,42 @@ set("C4_giant")
 			150:face(happy)
 			197:face(default)
 			219:jump(0,true)			
-						
+
+		"giant_female_fantasyplatform01_sit"
+			0:hideequip(false)			
+			0:lookat(off)		
+			0:hand(both, palm)
+			0:face(default)
+			350:face(serious)
+			432:effect("fantasyplatform01",0,1)
+			644:hand(both, fist)
+			697:hand(both, palm)
+			692:face(upset)
+			692:effectoff("fantasyplatform01")
+			692:effect("fantasyplatform02",0,1)
+			750:effectoff("fantasyplatform02")
+			830:face(default)
+			841:hand(left, fist)
+			889:hand(left, palm)
+			896:jump(0,true)			
+
+		"giant_fantasyplatform01_sit"
+			0:hideequip(false)			
+			0:lookat(off)		
+			0:hand(both, palm)
+			0:face(default)
+			350:face(serious)
+			432:effect("fantasyplatform01",0,1)
+			644:hand(both, fist)
+			697:hand(both, palm)
+			692:face(upset)
+			692:effectoff("fantasyplatform01")
+			692:effect("fantasyplatform02",0,1)
+			750:effectoff("fantasyplatform02")
+			830:face(default)
+			841:hand(left, fist)
+			889:hand(left, palm)
+			896:jump(0,true)			
 			
 	"giant_snowfield"
 			21:effect("snow_exg",0,1)
@@ -16779,7 +16887,7 @@ set("C4_giant")
 
 		"giant_female_starwing_standfriendly"
 			0:lookat(off)
-			0:hand(both,fist) 
+			0:hand(both,fist) f
 			26:sound("data\sound\bat01_.wav")		
 
 		"giant_female_starwing_walk"
@@ -16902,8 +17010,39 @@ set("C4_giant")
 		"giant_female_godfeatherwing_standfriendly"
 			0:hand(both,fist)		
 			22:sound("data\sound\bat01_.wav")				
-		
-		
+	
+			"giant_female_royalwizcapech_fly_walk"
+				0:lookat(off)
+				0:hand(both,fist) 
+				
+			"giant_royalwizcapech_fly_walk"
+				0:lookat(off)
+				0:hand(both,fist) 
+				
+			
+			"giant_female_royalwizcapech_fly_run"
+				0:lookat(off)
+				0:hand(both,fist) 
+				
+			"giant_royalwizcapech_fly_run"
+				0:lookat(off)
+				0:hand(both,fist) 	
+			
+			"giant_female_royalwizcapech_fly_stand"
+				0:lookat(off)
+				0:hand(both,fist) 
+				
+			"giant_royalwizcapech_fly_stand"
+				0:lookat(off)
+				0:hand(both,fist) 
+				
+			"giant_female_elegantwing01_ch_run"
+				0:hand(both,fist) 		
+				12:sound("data\sound\bat01_.wav")				
+
+			"giant_elegantwing01_ch_run"
+				0:hand(both,fist) 		
+				12:sound("data\sound\bat01_.wav")
 
 		//인스턴스 캐스팅
 		"giant_Instance_casting"
@@ -24014,6 +24153,24 @@ endset
 set("wing_human_ani")
 
 	folder("char\chapter4\human\wing")
+	
+		"uni_flapwing01_offensive"
+			20:sound("data\sound\bat01_.wav")	
+			
+		"uni_flapwing01_run"
+			28:sound("data\sound\bat01_.wav")		
+			72:sound("data\sound\bat01_.wav")		
+			172:sound("data\sound\bat01_.wav")	
+
+		"uni_flapwing01_flying_walk"
+			23:sound("data\sound\bat01_.wav")	
+			
+		"uni_flapwing01_flying_stand"
+			44:sound("data\sound\bat01_.wav")	
+			
+		"uni_flapwing01_flying_run"
+			26:sound("data\sound\bat01_.wav")	
+	
 
 	"uni_movewing_stand"
 		0:effectoff("wingspread001")
@@ -26440,10 +26597,22 @@ set("social motion")
 		270:effect("water07",0,1)
 		270:effect("water08",0,1)
 		270:effect("water09",0,1)		
-		992:jump(416,true)
+		978:jump(402,true)
 		
+	"female_wavewear"
+		0:lookat(off)
+		0:hideequip(false)					
+		0:hand(both, palm)
+		155:effect("wave_bottom01",0,1)
+	    978:jump(402,true)
 		
-
+	"male_wavewear"
+		0:lookat(off)
+		0:hideequip(false)					
+		0:hand(both, palm)
+		155:effect("wave_bottom01",0,1)
+	    978:jump(402,true)
+		
 	"female_thief"
 		0:lookat(off)
 		0:hideequip(false)			
@@ -29174,7 +29343,34 @@ set("social motion")
 		600:effectoff("uniwind01")
 		850:jump(274,true)
 
+	"female_fantasyschool01"
+			0:lookat(off)		
+			0:hand(both, fist)	
+			0:hideequip(false)
+			92:generic("custom_equip(weapon:tool_c4_book01_02)")	
+			700:jump(192)
 
+	"female_fantasyschool02"
+			0:lookat(off)		
+			0:hand(both, fist)	
+			0:hideequip(false)
+			130:generic("custom_equip(weapon:tool_c4_book01_02)")	
+			710:jump(260)	
+			
+	"male_fantasyschool01"
+			0:lookat(off)		
+			0:hand(both, fist)	
+			0:hideequip(false)
+			92:generic("custom_equip(weapon:tool_c4_book01_02)")
+			700:jump(192)
+
+	"male_fantasyschool02"
+			0:lookat(off)		
+			0:hand(both, fist)	
+			0:hideequip(false)
+			125:generic("custom_equip(weapon:tool_c4_book01_02)")
+			710:jump(260)
+				
 	"male_troubadour"
 		0:lookat(off)
 		0:hideequip(false)
@@ -53601,6 +53797,61 @@ endset
 set("prop concerned - temporary")
 
 	// setting file 안의 animation을 정의할 때는 folder를 "::세팅파일 이름" 으로 지정해야 한다.
+
+	folder("::farm_prop_witchhouse01")	
+		"farm_prop_witchhouse01"
+			0:linkframework(1, "race:470001", "skeleton", "data/gfx/char/monster/anim/skeleton/natural/skeleton01_house")
+			180:jump(1)
+	
+	endfolder	
+
+
+
+	
+	
+	folder("::scene_prop_gayageum_chair03")	
+		"scene_prop_gayageum_chair03_sit"
+			0:sound("data\sound\Prop\title_gayaguem.wav")
+	
+	endfolder	
+
+	folder("::scene_prop_gayageum_chair04")	
+		"scene_prop_gayageum_chair04_sit"
+			0:sound("data\sound\Prop\title_gayaguem.wav")		
+			
+	
+	endfolder
+
+	
+
+	
+	folder("::farm_prop_halloween_tombstone_tree01")	
+		"farm_prop_halloween_tombstone_tree01"
+			180:jump(1)
+	
+	endfolder		
+	folder("::scene_int_housing_halloween_tombstone_tree01")	
+		"scene_int_housing_halloween_tombstone_tree01"
+			180:jump(1)
+	
+	endfolder		
+
+
+	
+	
+	folder("::farm_prop_halloween_witchpot01")	
+		"farm_prop_halloween_witchpot01"
+			180:jump(1)
+	
+	endfolder		
+	folder("::scene_int_housing_halloween_witchpot01")	
+		"scene_int_housing_halloween_witchpot01"
+			180:jump(1)
+	
+	endfolder	
+
+
+
 	
 	folder("::field_prop_tr_bonetree01")	
 		"field_prop_tr_bonetree01"
@@ -57937,7 +58188,19 @@ set("Knight")
 			0:hand(right,fist)
 			0:hand(left, palm)
 			0:lookat(off)
-		
+
+		"female_selfiestick_stand"
+			0:hand(right,fist)
+			0:hand(left, palm)
+			0:lookat(off)
+			0:generic("custom_equip(weapon:tool_c4_selfiestick_ani)")			
+
+		"male_selfiestick_stand"
+			0:hand(right,fist)
+			0:hand(left, palm)
+			0:lookat(off)
+			0:generic("custom_equip(weapon:tool_c4_selfiestick_ani)")				
+			
 		"female_telescope"
 			0:hand(right,fist)
 			0:hand(left, palm)
@@ -59043,7 +59306,7 @@ set("Knight")
 			0:hand(right,fist)
 			0:hand(left, palm)
 			0:lookat(off)
-			
+				
 		"giant_female_tool_telescope"
 			0:hand(right,fist)
 			0:hand(left, palm)
@@ -59814,6 +60077,18 @@ set("Knight")
 	endfolder
 
 	folder("char\chapter4\giant\anim\tool\Rhand_A")
+	
+		"giant_female_selfiestick_stand"
+			0:hand(right,fist)
+			0:hand(left, palm)
+			0:lookat(off)
+			0:generic("custom_equip(weapon:giant_tool_c4_selfiestick_ani)")				
+
+		"giant_selfiestick_stand"
+			0:hand(right,fist)
+			0:hand(left, palm)
+			0:lookat(off)
+			0:generic("custom_equip(weapon:giant_tool_c4_selfiestick_ani)")	
 	
 		"giant_perfume_stand"
 			0:lookat(off)
@@ -65627,6 +65902,14 @@ set("magician")
 			0:hand(both,fist) 		
 			6:sound("data\sound\bat01_.wav")
 
+		"elf_female_elegantwing01_run"
+			0:hand(both,fist) 		
+			12:sound("data\sound\bat01_.wav")	
+
+		"elf_male_elegantwing01_run"
+			0:hand(both,fist) 		
+			12:sound("data\sound\bat01_.wav")			
+
 		/// 엘프 움직이는 날개 모션 ///	
 		
 		"elf_datewing_run"
@@ -65639,8 +65922,23 @@ set("magician")
 			0:hand(both,fist)
 			14:sound("data\sound\bat01_.wav")
 
-		
-
+		"elf_female_royalwizcapech_fly_walk"
+				0:lookat(off)
+				0:hand(both,fist) 
+				
+		"elf_royalwizcapech_fly_walk"
+				0:lookat(off)
+				0:hand(both,fist) 
+				
+			
+		"elf_female_royalwizcapech_fly_run"
+				0:lookat(off)
+				0:hand(both,fist) 
+				
+		"elf_royalwizcapech_fly_run"
+				0:lookat(off)
+				0:hand(both,fist) 	
+			
 	endfolder
 
 //////////////////////////// 엘프 //////////////////////////////////////////////////
@@ -82504,7 +82802,21 @@ set("social motion")
 			0:hideequip(false)					
 			0:hand(both, palm)					
 			
-	
+		
+	"giant_female_wavewear"
+		0:lookat(off)
+		0:hideequip(false)					
+		0:hand(both, palm)
+		155:effect("wave_bottom_g01",0,1)
+	    978:jump(402,true)
+				
+	"giant_wavewear"
+		0:lookat(off)
+		0:hideequip(false)					
+		0:hand(both, palm)
+		155:effect("wave_bottom_g01",0,1)
+	    978:jump(402,true)
+		
 	"giant_waterelemental"
 		0:lookat(off)
 		0:hideequip(false)					
@@ -85797,7 +86109,36 @@ set("social motion")
 		776:generic("custom_equip(weapon)")
 		776:hand(right, palm)		
 
+		"giant_female_fantasyschool01"
+				0:lookat(off)		
+				0:hand(both, palm)
+				0:hideequip(false)
+				90:hand(right, fist)
+				92:generic("custom_equip(weapon:giant_tool_c4_book06)")	
+				110:hand(both, fist)
+				700:jump(192)
 
+		"giant_female_fantasyschool02"
+				0:lookat(off)		
+				0:hand(both, fist)
+				0:hideequip(false)
+				125:generic("custom_equip(weapon:giant_tool_c4_book06)")	
+				710:jump(260)
+				
+		"giant_fantasyschool01"
+				0:lookat(off)		
+				0:hideequip(false)
+				0:hand(both, fist )
+				92:generic("custom_equip(weapon:giant_tool_c4_book06)")	
+				700:jump(192)
+
+		"giant_fantasyschool02"
+				0:lookat(off)		
+				0:hand(both, fist )
+				0:hideequip(false)
+				125:generic("custom_equip(weapon:giant_tool_c4_book06)")	
+				710:jump(260)
+				
 	"giant_female_unicornwear"
 		0:lookat(off)
 		0:hideequip(false)					
@@ -86016,7 +86357,24 @@ set("social motion")
 		425:generic("custom_equip(shield:giant_tool_c4_feather_pen_l)")		
 		764:jump(467)
 
-		
+		"giant_royalwiz"
+			0:lookat(off)
+			0:hand(both, palm)
+			0:hideequip(false)
+			67:hand(right, fist)
+			120:linkframework(1, "race:490123, c1:FAF1E5 c2:2A2C3A c4:080808", "HandtoolR", "data/gfx/char/pet/anim/pet_broom/pet_broom_royalwizwear")
+			132:hand(right, palm)
+			815:jump(311)
+
+		"giant_female_royalwiz"
+			0:lookat(off)
+			0:hand(both, palm)
+			0:hideequip(false)
+			67:hand(right, fist)
+			120:linkframework(1, "race:490123, c1:FAF1E5 c2:2A2C3A c4:080808", "HandtoolR", "data/gfx/char/pet/anim/pet_broom/pet_broom_royalwizwear")
+			132:hand(right, palm)
+			815:jump(311)
+			
 	"giant_troubadour"
 		0:lookat(off)
 		0:hideequip(false)
@@ -98421,8 +98779,8 @@ set("C4_monster")
 		0:lookat(off)
 		0:lookat(off)
 		30:quake(0,30,30,2500)
-		30:generic("line_path_effect_attach(effectName:cube_beam01,startJoint:effectbone01,endJoint:effectbone02)")
-		90:generic("line_path_effect_detach(effectName:cube_beam01,startJoint:effectbone01,endJoint:effectbone02)")
+		30:generic("line_path_effect_attach(effectName:glas_beam02,startJoint:effectbone01,endJoint:effectbone02)")
+		90:generic("line_path_effect_detach(effectName:glas_beam02,startJoint:effectbone01,endJoint:effectbone02)")
 		0:sound("data\sound\ntdgg_ergbeam.wav")
 		30:sound("data\sound\GlasgavelenNTD_ErgBeam.wav")
 		90:jump(30)
@@ -98469,8 +98827,8 @@ set("C4_monster")
 			30:quake(0,30,30,2500)
 			0:sound("data\sound\ntdgg_ergbeam.wav")
 			30:sound("data\sound\GlasgavelenNTD_ErgBeam.wav")
-			40:generic("line_path_effect_attach(effectName:cube_beam01,startJoint:effectbone01,endJoint:effectbone02)")
-			70:generic("line_path_effect_detach(effectName:cube_beam01,startJoint:effectbone01,endJoint:effectbone02)")
+			40:generic("line_path_effect_attach(effectName:glas_beam02,startJoint:effectbone01,endJoint:effectbone02)")
+			70:generic("line_path_effect_detach(effectName:glas_beam02,startJoint:effectbone01,endJoint:effectbone02)")
 			70:jump(40)
 
 		"NTD_HD_jumpingdash_prepare"

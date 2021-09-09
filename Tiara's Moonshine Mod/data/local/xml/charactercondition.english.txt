@@ -480,13 +480,13 @@
 562	The decal is following the character
 563	Popper Bomb received
 564	Popper Bomb received
-567	Movement Speed increased by music.
+567	Movement Speed Increase
 569	Harvest Song
 570	Music of Peace
 573	Vivace
 574	March Song
-575	Magic & Alchemy Charging Time decreased, Attack Speed increased.
-576	Production & Gathering Success Rate increased, Gathering Speed increased.
+575	Increases Attack Speed, Magic Casting Speed, and Alchemy Casting Speed
+576	Increases Production Success Rate, Gathering Success Rate, and Gathering Speed
 577	Puts monsters to sleep.
 578	Batter
 579	Batter
@@ -524,7 +524,7 @@
 614	Transformation Enhancement
 615	Increased chance of obtaining monster transformation information.
 616	Skill 2x EXP
-617	Skill 2x EXP
+617	Grants Skill 2x EXP.
 618	Increases Damage
 619	Decreases Damage
 620	Decreases Defense/Protection
@@ -535,7 +535,7 @@
 625	Tangled
 626	Berserk
 628	You are caught in a spider web and cannot move.
-629	You are enraged, increasing your attack power and dulling any pain you feel.
+629	Decreases Intelligence, Increases Damage Received, Increases Strength, and grants Immunity to Knockdown, Stun, Frozen, Petrification, and Poisoned effects
 631	Restful Wind
 632	Increases Defense, Protection, and Mana and Stamina recovery speed.
 633	Restful Wind's Embrace
@@ -556,6 +556,8 @@
 651	Critical and Attack Speed increase temporarily.
 652	Dual Gun Skill Training Boost
 653	Wing condition after use
+656	Snap Cast
+657	Allows you to immediately use chargeable magic skills without casting time or charging them.
 658	Continuous Statue Damage
 659	Continuous Statue Damage
 660	Enhanced Assault Slash
@@ -878,7 +880,7 @@
 1035	Bachram Status
 1036	Death Mark Debuff. Increases attack damage and attracts nearby monsters.
 1037	Chain Burst
-1038	Increases the effect of Dorcha skills for a brief time.
+1038	Increases Dorcha Skill Damage, Increases Chain Impale Stun Duration
 1039	Bachram Boost
 1040	Quickly builds Dorcha for a brief time.
 1041	Shadow Mission Monster EXP Bonus
@@ -1383,12 +1385,23 @@
 1609	원문수정해서 사용하세요
 1610	원문수정해서 사용하세요
 1611	원문수정해서 사용하세요
+1612	Stardust Support Effect 5
+1613	Binds and deals damage over time to enemies hit by Support Effect 4.
+1614	Decreases the damage taken when Support Effect 5 activates.
 1615	Water Wave
 1616	Purifying Wave
 1617	A condition inflicted on targets damaged by Water Wave. Afflicted targets are more vulnerable to damage.
 1618	Purifying Wave cleanses the character's status effects and increases Movement Speed and Recovery Speed.
 1619	Royal Academy Crystal
 1620	You will receive a bonus after completing the Society sponsorship quest.
+1621	Decreases Defense and Protection
+1622	Decreases Damage
+1623	Increases Damage
+1624	Magic Power Boost
+1625	Decreases Defense and Protection by %
+1626	Decreases Damage by %
+1627	Increases Damage by %
+1628	Increases Magic Damage
 1629	Hail Storm Enhancement
 1630	Lightning Rod Charge Time Reduction
 1631	Meteor Strike Enhancement
@@ -1416,3 +1429,9 @@
 1653	Increases Harvest Song music buff effect. Applied with reforging and echostones.
 1654	Increases Lullaby music buff effect. Applied with reforging and echostones.
 1655	Increases March Song music buff effect. Applied with reforging and echostones.
+1684	Battlefield Overture
+1685	Enduring Melody
+1686	Increases Minimum Damage, Maximum Damage, and Critical
+1687	Increases Defense, Protection, Magic Defense, Magic Protection, and MP and Stamina recovery speed
+1750	Production Skill Production Success Rate +20%
+1751	Production Skill Production Success Rate +20%

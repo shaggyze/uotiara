@@ -1,5 +1,5 @@
-!define UOSHORTVERSION        "373"
-!define UOLONGVERSION         "0.8.27"
+!define UOSHORTVERSION        "374"
+!define UOLONGVERSION         "0.9.27"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -23,7 +23,7 @@ SetCompressor /SOLID /FINAL lzma
 ;ChangeUI all ".\bin\modern.exe"
 VIAddVersionKey "ProductName" "${UOSHORTNAME}"
 VIAddVersionKey "ProductVersion" ${UOVERSION}
-VIAddVersionKey "Comments" "http://uotiara.com"
+VIAddVersionKey "Comments" "https://shaggyze.github.io/uotiara/"
 VIAddVersionKey "CompanyName" "ShaggyZE"
 VIAddVersionKey "LegalTrademarks" "${UOSHORTNAME} by ShaggyZE"
 VIAddVersionKey "LegalCopyright" "© ShaggyZE"
@@ -10161,7 +10161,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD404" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD404" "CREATOR" "Rydian"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD404" "DESCRIPTION" "Enables Hotkeying Partner to Skillbar by dragging Partner Icon to skillbar"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD431" "" "AutoBot (fossil restoration & updates Mods)"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD431" "FILE1" "http://uotiara.com/shaggyze/AutoBotS.rar"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD431" "FILE1" "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/AutoBot/AutoBotS.rar"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD431" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD431" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD431" "DESCRIPTION" "Various macros to assist in skill training"
@@ -11124,10 +11124,10 @@ Exec $INSTDIR\Archived\UOTiara\UOSetup1.exe
 Quit
 SetupNotFound:
   MessageBox MB_OK "$INSTDIR\Archived\UOTiara\UOSetup1.exe not found. It either failed to download or was blocked by security."
-  ExecShell "open" "http://uotiara.com"
+  ExecShell "open" "https://github.com/shaggyze/uotiara/releases/latest"
 Quit
 SetupSite:
-ExecShell "open" "http://uotiara.com/"
+ExecShell "open" "https://github.com/shaggyze/uotiara/releases/latest"
 Quit
 EndNewVersion:
 
