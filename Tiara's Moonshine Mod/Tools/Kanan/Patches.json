@@ -69,7 +69,7 @@
         "category": "Speedup",
         "patches": [
             {
-                "pattern": "74 ? E8 ? ? ? ? 8B C8 85 C9 74 ? F6 46 14 ? 75 ? 8B 01 8B 80 80 01 00 00 FF D0 84 C0 75 ? 83 BE C8 00 00 00 ? C6 86 C4 00 00 00 ? 75 ? B9 ? ? ? ? E8 ? ? ? ? 89 86 C8 00 00 00 8B 8E C8 00 00 00",
+                "pattern": "74 ? E8 ? ? ? ? 8B C8 85 C9 74 ? F6 46 14 ? 75 ? 8B 01 8B 80 88 01 00 00 FF D0 84 C0 75 ? 83 BE C8 00 00 00 ? C6 86 C4 00 00 00 ? 75 ? B9 ? ? ? ? E8 ? ? ? ? 89 86 C8 00 00 00 8B 8E C8 00 00 00",
                 "patch": "EB"
             },
             {
@@ -129,7 +129,7 @@
         "category": "Speedup",
         "patches": [
             {
-                "pattern": "0F 84 ? ? ? ? 68 ? ? ? ? 8D 4D E8 E8 ? ? ? ? C6 45 FC ? 8D 45 E8 50 8D 45 D8 50 E8 ? ? ? ? 8B C8 E8 ? ? ? ? C6 45 FC ? 8D 4D EC",
+                "pattern": "0F 84 ? ? ? ? 68 ? ? ? ? 8D 4D E8 E8 ? ? ? ? C6 45 FC ? 8D 45 E8 50 8D 45 CC 50 E8 ? ? ? ? 8B C8 E8 ? ? ? ? C6 45 FC ? 8D 4D EC 51 8B C8 E8 ? ? ? ? C6 45 FC ? C7 45 F0 ? ? ? ?",
                 "patch": "90 E9"
             }
         ]
@@ -308,7 +308,7 @@
         "category": "Information",
         "patches": [
             {
-                "pattern": "74 ? 8B 06 8B CE FF 90 94 00 00 00 8B C8 E8 ? ? ? ? B9 ? ? ? ? 66 3B C1 74 ? 32 C0",
+                "pattern": "74 ? 8B 06 8B CE FF 90 94 00 00 00 8B C8 E8 ? ? ? ? 3D ? ? ? ? 74 04",
                 "patch": "EB"
             }
         ]
@@ -459,6 +459,11 @@
                 "pattern": "55 8B EC 8B 4D 08 85 C9 74 ? 68 ? ? ? ? E8 ? ? ? ? 84 C0 74 ? B0 ? 5D C2 ? ?",
                 "offset": 30,
                 "patch": "B0 01"
+            },
+            {
+                "pattern": "8D 4D E0 E8 ? ? ? ? 32 C0 8B 4D F4 64 89 0D 00000000 59 5F 5E 8B E5 5D C2 0400",
+                "offset": 8,
+                "patch": "EB 05"
             }
         ]
     },
@@ -764,18 +769,15 @@
         "category": "Speedup",
         "patches": [
             {
-                "pattern": "8B 5F 7C 80 3B ?",
-                "offset": 6,
+                "pattern": "74 ? 8B 45 F0 51",
                 "patch": "EB"
             },
             {
-                "pattern": "74 ? 90 E8 ? ? ? ? 8B 96 80 00 00 00 2B 44 96 08",
-                "offset": 0,
-                "patch": "EB"
+                "pattern": "75 ? B0 ? 5E C3 90",
+                "patch": "90 90"
             },
             {
-                "pattern": "74 ? 90 E8 ? ? ? ? 8B 96 80 00 00 00 89 44 96 08",
-                "offset": 0,
+                "pattern": "74 ? 90 E8 ? ? ? ? 8B 56 08",
                 "patch": "EB"
             }
         ]
@@ -798,7 +800,7 @@
         "category": "Speedup",
         "patches": [
             {
-                "pattern": "50 52 C7 45 E8 98 3A",
+                "pattern": "8B C8 C7 45 E8 98 3A",
                 "offset": 6,
                 "patch": "00 00"
             }
@@ -846,8 +848,7 @@
         "category": "Information",
         "patches": [
             {
-                "pattern": "68 F8 03 00 00 89 5D",
-                "offset": -12,
+                "pattern": "0F 84 ? ? ? ? 8B 0D ? ? ? ? 68 ? ? ? ? C7 45 B8 ? ? ? ?",
                 "patch": "90 90 90 90 90 90"
             }
         ]
@@ -1116,16 +1117,65 @@
             }
         ]
     },
+  {
+    "name": "Remove Sunglare",
+    "desc": "Removes the annoying and ugly sunglare effect",
+    "category": "Graphics",
+    "patches": [
+      {
+        "pattern": "FF D2 84 C0 0F 84 ? ? ? ? 6A ? 68 ? ? ? ?",
+        "offset": 4,
+        "patch": "90 E9"
+      }
+    ]
+  },
+      {
+      "name": "Remove Pet Summon Notification",
+      "desc": "Removes the Summoning... notification that pops up when summoning pets",
+      "category": "Speedup",
+      "patches": [
+        {
+          "pattern": "0F 84 14 02 00 00 8B 01 8B 80 ? ? ? ? FF D0 84 C0 0F 84 02 02 00 00 8B CB E8",
+          "patch": "90 E9"
+        }
+      ]
+    },
     {
-        "name": "Remove Sunglare",
-        "desc": "Removes the annoying and ugly sunglare effect",
-        "category": "Graphics",
-        "patches": [
-            {
-                "pattern": "FF D2 84 C0 0F 84 ? ? ? ? 6A ? 68 ? ? ? ?",
-                "offset": 4,
-                "patch": "90 E9"
-            }
-        ]
+      "name": "Disable CatSidhe Talent Bonus Training Select Popup",
+      "desc": "Disables the CatSidhe talent training selection pupup that appears when you summon a CatSidhe and haven't selected a talent yet. \nDisable this patch to show the popup once more when you have decided on a talent for the bonus and would like to select it to recieve that bonus.",
+      "category": "Interface",
+      "patches": [
+        {
+          "pattern": "? ? AD 00 00 0F 87 ? ? ? ? 0F 84 ? ? ? ? 2D A4 A8 00 00",
+          "offset": 5,
+          "patch": "90 E9"
+        }
+      ]
+    },
+    {
+      "name": "Disable Hotkey Removal",
+      "desc": "Disables the ability to right click a hotkey to remove it from the hotkey bars",
+      "category": "Interface",
+      "patches": [
+        {
+          "pattern": "e8 ? ? ? ? 84 c0 74 0b ff 75 10 8b cf",
+          "patch": "90 90 90 90 90"
+        },
+        {
+          "pattern": "74 3D 53 FF B6 ? ? ? ? 8D 8E ? ? ? ? 57",
+          "patch":  "EB"
+        }
+      ]
+    },
+    {
+      "name": "Disable WaitProcess Skill Locks",
+      "desc": "Allows the use of changing skills without needing to first cancel the skill for cetain skills (Windmill, Deathmark, Anchor Rush, etc) \nMay interact with some skills in strange ways.",
+      "category": "Speedup",
+      "patches": [
+        {
+          "pattern": "OF85 ? ? ? ? 8B B3 ? ? ? ? 85 F6 74 29",
+          "patch": "90 90 90 90 90 90"
+        }
+      ]
     }
 ]

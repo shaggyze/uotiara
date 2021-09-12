@@ -1,5 +1,5 @@
 !define UOSHORTVERSION        "374"
-!define UOLONGVERSION         "0.9.27"
+!define UOLONGVERSION         "0.9.28"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -7,6 +7,8 @@
 !define InstFile "${UOLONGNAME}.exe"
 !define AbyssEnable "True"
 !define KananEnable "True"
+!define KananUpdateEnable "True"
+!define KananUpdateGithub "False"
 !define HyddwnEnable "False"
 !define HyddwnUpdateEnable "False"
 !define MUI_UI ".\bin\modern.exe"
@@ -877,8 +879,12 @@ WriteRegStr HKCR "PS.ps1" "" "PS1 File"
 WriteRegStr HKCR "PS.ps1\shell" "" "Open"
 WriteRegStr HKCR "PS.ps1\shell\Open\command" "" '"$SYSDIR\WindowsPowerShell\v1.0\powershell.exe" "%1"'
 WriteRegStr HKCR "PS.ps1\DefaultIcon" "" "$SYSDIR\WindowsPowerShell\v1.0\powershell.exe"
+${If} ${KananUpdateEnable} == "True"
   DetailPrint "Downloading Kanan..."
+  inetc::get /NOCANCEL /SILENT "https://ci.appveyor.com/api/projects/cursey/kanan-new/artifacts/kanan.zip" "kanan.zip" /end
+  ${If} ${KananUpdateGithub} == "True"
   inetc::get /NOCANCEL /SILENT "https://github.com/cursey/kanan-new/releases/latest/download/kanan.zip" "kanan.zip" /end
+  ${EndIf}
   inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/unzip.exe" "unzip.exe" /end
   DetailPrint "Extracting kanan.zip..."
   nsExec::ExecToStack 'unzip.exe -o kanan.zip'
@@ -890,6 +896,7 @@ KananFound1:
 KananNotFound1:
   nsExec::Exec 'powershell -ExecutionPolicy ByPass -File $INSTDIR\Update_Kanan.ps1'
 KananDone:
+${EndIf}
 SetOutPath "$INSTDIR\Kanan"
 CreateShortCut "$SMPROGRAMS\Unofficial Tiara\Loader.exe.lnk" "$INSTDIR\Kanan\Loader.exe" "" "$INSTDIR\Kanan\Kanan.ico" "0" "SW_SHOWNORMAL" "ALT|CONTROL|F11" "Loader.exe"
 SetOutPath "$INSTDIR\Kanan"
