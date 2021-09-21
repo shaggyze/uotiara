@@ -1,3 +1,8 @@
+for %%A in ("C:\Nexon\Library\mabinogi\appdata\package\data\features.xml.compiled") do for %%B in ("C:\Users\%username%\Documents\GitHub\uotiara\features.xml.compiled") do Copy %%~sA %%~sB
+"C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\Tools\MabiFeatureTool\MabiFeatureTool.exe" "C:\Users\%username%\Documents\GitHub\uotiara\features.xml.compiled"
+for %%A in ("C:\Users\%username%\Documents\GitHub\uotiara\UpdateFeatures.ps1") do PowerShell -ExecutionPolicy RemoteSigned -File %%~sA
+"C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\Tools\MabiFeatureTool\MabiFeatureTool.exe" "C:\Users\%username%\Documents\GitHub\uotiara\features.xml"
+for %%A in ("C:\Users\%username%\Documents\GitHub\uotiara\features.xml.compiled") do for %%B in ("C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\data\features.xml.compiled") do Copy %%~sA %%~sB
 copy /Y "C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\data\local\code" "C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\data\code"
 copy /Y "C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\data\local\xml" "C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\data\xml"
 Xcopy "C:\Users\%username%\Documents\GitHub\uotiara\Tiara's Moonshine Mod\data" "C:\Nexon\Library\mabinogi\appdata\data" /Y /E /H /C /I
