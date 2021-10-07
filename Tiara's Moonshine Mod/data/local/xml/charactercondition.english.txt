@@ -1382,6 +1382,7 @@
 1605	Loving Bond Item Effect Activated
 1606	원문수정해서 사용하세요
 1607	원문수정해서 사용하세요
+1608	Character Movement Speed Settings
 1609	원문수정해서 사용하세요
 1610	원문수정해서 사용하세요
 1611	원문수정해서 사용하세요
@@ -1429,6 +1430,8 @@
 1653	Increases Harvest Song music buff effect. Applied with reforging and echostones.
 1654	Increases Lullaby music buff effect. Applied with reforging and echostones.
 1655	Increases March Song music buff effect. Applied with reforging and echostones.
+1664	Decreased Durability Loss
+1665	The durability degradation rate of your currently equipped gear will be reduced
 1684	Battlefield Overture
 1685	Enduring Melody
 1686	Increases Minimum Damage, Maximum Damage, and Critical
