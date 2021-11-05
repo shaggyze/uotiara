@@ -1,5 +1,5 @@
-!define UOSHORTVERSION        "375"
-!define UOLONGVERSION         "0.10.29"
+!define UOSHORTVERSION        "378"
+!define UOLONGVERSION         "0.11.29"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -378,22 +378,23 @@ AbyssLogNotFound1:
   Delete "7za.exe"
   Delete "7za.dll"
   Delete "7zxa.dll"
-  Delete "Abyss.7z"
   IfFileExists "$INSTDIR\ijl11.dat" AbyssFound1 AbyssNotFound1
 AbyssNotFound1:
 File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\ijl11.dat"
 File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\Abyss.ini"
 ; comment out File for mediafire/google drive
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\ijl11.dll"
-  inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/Abyss/ijl11.dll" "ijl11.dll" /end
+File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\ijl11.dll"
+; inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/Abyss/ijl11.dll" "ijl11.dll" /end
 File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\README_Abyss.txt"
 AbyssFound1:
 Push "$INSTDIR\ijl11.dll"
 Call FileSizeNew
 Pop $0
 ${If} $0 < "1000000"
-MessageBox MB_OK "Abyss either failed to download or was blocked by security.$\r$\nTry adding your Mabinogi folder to your Exclusion lists." IDOK AbyssFound1
+MessageBox MB_OKCANCEL "Abyss failed to download or extract and/or is being blocked by security.$\r$\nTry adding your Mabinogi folder to your Exclusion lists." IDOK AbyssNotFound1 IDCANCEL AbyssInstall
 ${EndIf}
+Delete "Abyss.7z"
+AbyssInstall:
 DetailPrint "Installing Abyss..."
 WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "DataFolder" "1"
 WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "EnableMultiClient" "1"
@@ -409,10 +410,11 @@ WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "ScouterBoss" "<mini>Boss</mini>"
 WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "ExtraThreads" "0"
 WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "Debug" "1"
 WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "ZoomMax" "6000"
+WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "ChMoveDescCut" "0"
 CreateShortCut "$SMPROGRAMS\Unofficial Tiara\Abyss.lnk" "$INSTDIR\Abyss.ini" "" "$INSTDIR\Abyss.ini" "0" "SW_SHOWNORMAL" "ALT|CONTROL|F9" "Abyss.ini"
 CreateShortCut "$DESKTOP\Abyss.lnk" "$INSTDIR\Abyss.ini" "" "$INSTDIR\Abyss.ini" "0" "SW_SHOWNORMAL" "ALT|CONTROL|F9" "Abyss.ini"
 SetOutPath "$INSTDIR"
-Call CreateDisableFirewall
+;Call CreateDisableFirewall
 Sleep 3000
 ${Else}
 IfFileExists $INSTDIR\Abyss.ini 0 +3

@@ -1434,7 +1434,7 @@
 1665	The durability degradation rate of your currently equipped gear will be reduced
 1684	Battlefield Overture
 1685	Enduring Melody
-1686	Increases Minimum Damage, Maximum Damage, and Critical
+1686	Increases Min Damage, Max Damage, and Critical
 1687	Increases Defense, Protection, Magic Defense, Magic Protection, and MP and Stamina recovery speed
 1750	Production Skill Production Success Rate +20%
 1751	Production Skill Production Success Rate +20%
