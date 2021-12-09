@@ -1,5 +1,5 @@
-!define UOSHORTVERSION        "378"
-!define UOLONGVERSION         "0.11.30"
+!define UOSHORTVERSION        "379"
+!define UOLONGVERSION         "0.12.31"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -8,7 +8,6 @@
 !define AbyssEnable "True"
 !define KananEnable "True"
 !define KananUpdateEnable "True"
-!define KananUpdateGithub "False"
 !define HyddwnEnable "False"
 !define HyddwnUpdateEnable "False"
 !define MUI_UI ".\bin\modern.exe"
@@ -883,10 +882,8 @@ WriteRegStr HKCR "PS.ps1\shell\Open\command" "" '"$SYSDIR\WindowsPowerShell\v1.0
 WriteRegStr HKCR "PS.ps1\DefaultIcon" "" "$SYSDIR\WindowsPowerShell\v1.0\powershell.exe"
 ${If} ${KananUpdateEnable} == "True"
   DetailPrint "Downloading Kanan..."
-  inetc::get /NOCANCEL /SILENT "https://ci.appveyor.com/api/projects/cursey/kanan-new/artifacts/kanan.zip" "kanan.zip" /end
-  ${If} ${KananUpdateGithub} == "True"
   inetc::get /NOCANCEL /SILENT "https://github.com/cursey/kanan-new/releases/latest/download/kanan.zip" "kanan.zip" /end
-  ${EndIf}
+  inetc::get /NOCANCEL /SILENT "https://ci.appveyor.com/api/projects/cursey/kanan-new/artifacts/kanan.zip" "kanan.zip" /end
   inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/unzip.exe" "unzip.exe" /end
   DetailPrint "Extracting kanan.zip..."
   nsExec::ExecToStack 'unzip.exe -o kanan.zip'
@@ -11528,6 +11525,7 @@ IfFileExists "$INSTDIR\Kanan\config.txt" KananFound2 KananNotFound2
 KananNotFound2:
 FileOpen $9 $INSTDIR\Kanan\config.txt w
 FileWrite $9 "UseDataFolder.Enabled=true$\r$\n"
+FileWrite $9 "FasterNetworking.Enabled=false$\r$\n"
 FileClose $9
 KananFound2:
 ClearErrors
@@ -11541,6 +11539,10 @@ KananEnableDataloop:
       StrCpy $2 "UseDataFolder.Enabled=true$\r$\n"
    StrCmp $2 "UseDataFolder.Enabled=false" 0 +2
       StrCpy $2 "UseDataFolder.Enabled=true"
+   StrCmp $2 "FasterNetworking.Enabled=true$\r$\n" 0 +2
+      StrCpy $2 "FasterNetworking.Enabled=false$\r$\n"
+   StrCmp $2 "FasterNetworking.Enabled=true" 0 +2
+      StrCpy $2 "FasterNetworking.Enabled=false"
    FileWrite $1 $2
    Goto KananEnableDataloop
  

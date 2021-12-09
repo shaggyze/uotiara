@@ -349,7 +349,7 @@
 410	Attacked by a Crow.
 411	Attacked by a Crow.
 413	Doppelganger suffers.\nThe boss goes to the next phase.
-414	Demigod Fury of Light damage increased
+414	Demigod Fury of Light - damage increased
 415	Demigod Spear of Light damage increased
 416	Demigod Spear of Shadow damage increased
 417	Damage increased when Brionac is equipped
@@ -392,8 +392,8 @@
 461	Occurs when the Grim Reaper takes a certain amount of damage.
 462	Hands Full
 463	Equipped with Shaved Ice
-464	Demigod Shadow Spirit damage increased
-465	Demigod Shadow Spirit damage increased
+464	Demigod Shadow Spirit - damage increased
+465	Demigod Shadow Spirit - damage increased
 466	Troll Recovery
 467	stack(life,%,5);
 468	Trolls get enhanced HP recovery.
@@ -1430,11 +1430,74 @@
 1653	Increases Harvest Song music buff effect. Applied with reforging and echostones.
 1654	Increases Lullaby music buff effect. Applied with reforging and echostones.
 1655	Increases March Song music buff effect. Applied with reforging and echostones.
+1656	Irusan's Deathly Brand
+1657	Irusan's Enervating Brand
+1658	Irusan's Binding Brand
+1659	Irusan's attack placed a Deathly Brandupon you! A fell shadow grows long upon you.
+1660	Irusan's attack placed an Enervating Brand upon you! The power of Dark Erg is temporarily preventing the use of Skills and Potions and lowering your Movement Speed.
+1661	Irusan's attack placed a Binding Brand upon you! Dark shadows coil around your body, draining your HP while preventing you from moving or using Skills. You'd best break free quickly.
+1662	Irusan's Snacktastic Brand
+1663	Irusan's attack placed a Snacktastic Brand upon you, temporarily changing your form!
 1664	Decreased Durability Loss
 1665	The durability degradation rate of your currently equipped gear will be reduced
+1668	Erg Beam After-effect
+1669	Erg Poisoning
+1670	Death Sentence
+1671	Confusion
+1672	Divine Blessing
+1673	Possession
+1674	Cannot consume potions or food
+1675	Hardening
+1676	Pet removed. Pet summoning restricted for the duration.
+1677	Cannot move or use movement skills
+1678	Your strength is waning.
+1679	Amplifies the damage dealt by each hit.
+1680	Increases Defense, Protection, Magic Defense, and Magic Protection by a certain %.
+1681	The fell spirits' painful memories are seeping through. Decreases Stamina, MP, and Movement Speed, while Hunger is increased. Cannot attack or use Skills.
+1682	Cannot consume potions or food.
 1684	Battlefield Overture
 1685	Enduring Melody
 1686	Increases Min Damage, Max Damage, and Critical
 1687	Increases Defense, Protection, Magic Defense, Magic Protection, and MP and Stamina recovery speed
+1688	Close Combat Enhancement
+1689	Level {0}. Bonus Damage when equipped with a Sword, Blunt Weapon, Axe, Lance, or Two-Handed Weapon +{1}%
+1690	Archery Enhancement
+1691	Magic Enhancement
+1692	Alchemy Enhancement
+1693	Martial Arts Enhancement
+1694	Puppetry Enhancement
+1695	Dual Gun Enhancement
+1696	Ninja Enhancement
+1697	Chain Slash Enhancement
+1698	Healing Enhancement
+1699	Music Enhancement
+1700	Defense Increase
+1701	Protection Increase
+1702	HP Increase
+1703	MP Increase
+1704	Level {0}. Bonus Damage when equipped with a Bow or Crossbow +{1}%
+1705	Level {0}. Bonus Damage when equipped with a Wand or Staff +{1}%
+1706	Level {0}. Bonus Damage when equipped with a Cylinder +{1}%
+1707	Level {0}. Bonus Damage when equipped with Knuckles +{1}%
+1708	Level {0}. Bonus Damage when equipped with a Control Bar +{1}%
+1709	Level {0}. Bonus Damage when equipped with Dual Guns +{1}%
+1710	Level {0}. Bonus Damage when equipped with a Shuriken +{1}%
+1711	Level {0}. Bonus Damage when equipped with a Chain Blade +{1}%
+1712	Level {0}. Healing / Party Healing Recovery Rate +{1}%
+1713	Level {0}. Encore Cooldown Reduction +{1}%
+1714	Level {0}. Defense +{1}
+1715	Level {0}. Protection +{1}
+1716	Level {0}. HP +{1}
+1717	Level {0}. MP +{1}
+1748	Potion Indigestion
+1749	Unable to digest potions very well.
 1750	Production Skill Production Success Rate +20%
 1751	Production Skill Production Success Rate +20%
+1756	Foxyquin's Mark
+1757	Foxyquin's Mark
+1758	Foxyquin's Luck
+1759	Foxyquin's Luck
+1760	Foxyquin's Special Gift
+1761	Foxyquin's Special Gift
+1769	Monster Damage Amplification
+1770	Increases damage dealt by all attacks.

@@ -1,15 +1,15 @@
-Unofficial Tiara's Moonshine Mod by ShaggyZE. ![Build status](https://ci.appveyor.com/api/projects/status/frp20d9y14rpxha0?svg=true)(https://ci.appveyor.com/project/shaggyze/uotiara)
+# Unofficial Tiara's Moonshine Mod by ShaggyZE. ![Build status](https://ci.appveyor.com/api/projects/status/frp20d9y14rpxha0?svg=true)(https://ci.appveyor.com/project/shaggyze/uotiara)
 
 Thanks to this months donator/s and special thanks to Amaretto, Penguin Eater, Draconis, Blade3575 and Step29 (along with Plonecakes, kotarou3, thatguysteve and Halfslashed) for Abyss, Logue for MabiPacker, Sven for Hyddwn Launcher and Cursey for Kanan.
 -------------------------------------------------------------------------
 *Intended solely for Mabinogi (North America)
 
-Download Location:
+**Download Location: (Click Releases on the right of Github)**
 https://github.com/shaggyze/uotiara/releases 
 or
 https://ci.appveyor.com/project/shaggyze/uotiara/build/artifacts
 
-NSIS is required to compile uotiara.nsi https://nsis.sourceforge.io/Download
+NSIS is required to compile uotiara.nsi https://nsis.sourceforge.io/Download or you can use "install.bat" then open utiara.nsi and compile or use command-line "%PROGRAMFILES(x86)%\NSIS\makensis.exe" uotiara.nsi
 
 Official Thread:
 http://mabimods.net/index.php?topic=10456.0
@@ -23,7 +23,7 @@ or
 https://paypal.me/thoggsr
 
 
-What is Tiara's Moonshine Mod?
+# What is Tiara's Moonshine Mod?
 >> Tiara's Moonshine Mod is a simple client-side modification package aimed at assisting players who have difficulty or wish to minimize concentration during the game.
 
 

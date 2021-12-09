@@ -333,19 +333,13 @@ set("move")
 			0:hand(both, fist)
 			
 		"uni_natural_stand_widestraight"
-
-			
-
+			0:hand(both,palm)
 			
 		"uni_natural_stand_straight"
+			0:hand(both, fist)
 
-
-				
-		
-
-		
 		"uni_natural_stand_leftahead"
-	
+			0:hand(both,palm)
 			
 		
 		// 전투 스텐딩
@@ -393,16 +387,13 @@ set("move")
 			0:hand(both, fist)
 			
 		"female_natural_stand_widestraight"
-
-			
-
-			
+				0:hand(both,palm)
+						
 		"female_natural_stand_straight"
+				0:hand(both, fist)
 
-
-		
 		"female_natural_stand_leftahead"
-
+				0:hand(both,palm)
 		
 		// 전투 스텐딩
 		"female_natural_stand_offensive"
@@ -3329,6 +3320,63 @@ set("C4_human")
 			197:face(default)
 			219:jump(0,true)			
 	
+		"female_photobooth_sit01"
+			0:lookat(off)
+			0:hand(both, palm)
+			13:effect("flash01_F")
+			16:effect("flash03_F")
+			20:effect("flash02_F")
+			21:effect("flash04_F")
+			69:effect("flash05_F")
+			72:effect("flash03_F")
+			75:effect("flash01_F")
+			80:effect("flash03_F")
+			92:effect("flash06_F")
+			98:effect("flash02_F")
+			120:effect("flash04_F")
+			177:effect("flash03_F")
+			197:effect("flash05_F")
+			200:effect("flash01_F")
+			210:effect("flash03_F")
+			225:effect("flash06_F")
+			239:effect("flash02_F")
+			253:effect("flash01_F")
+			260:effect("flash03_F")
+			270:effect("flash06_F")
+			280:effect("flash02_F")
+			
+			
+		"male_photobooth_sit01"
+			0:lookat(off)
+			0:hand(both, palm)
+			13:effect("flash01")
+			16:effect("flash03")
+			20:effect("flash02")
+			21:effect("flash04")
+			69:effect("flash05")
+			72:effect("flash03")
+			75:effect("flash01")
+			80:effect("flash03")
+			92:effect("flash06")
+			98:effect("flash02")
+			120:effect("flash04")
+			177:effect("flash03")
+			197:effect("flash05")
+			200:effect("flash01")
+			210:effect("flash03")
+			225:effect("flash06")
+			239:effect("flash02")
+			253:effect("flash01")
+			260:effect("flash03")
+			270:effect("flash06")
+			280:effect("flash02")
+			
+	
+		"human_photobooth_sit02"
+			0:lookat(off)
+			0:hand(both, palm)
+			0:generic("custom_equip(weapon:tool_photobooth_ani)")
+			
 		"female_framechair01_sit"
 			0:lookat(off)
 			0:hand(both, palm)
@@ -3401,6 +3449,10 @@ set("C4_human")
 			889:hand(left, palm)
 			896:jump(0,true)	
 
+
+		"human_showstage01_sit"
+			0:lookat(off)
+			
 		"human_demonhunter_workshop01_sit"
 			0:lookat(off)
 			0:hideequip(true)
@@ -8701,8 +8753,156 @@ set("riding_commerce")
 
 
 	folder("char/chapter4/human/anim/riding/riding_commerce")
+	
+"human_commerce_dogsled_run"	
+		0:hideequip(true)
+		0:hand (both, fist)
+		0:lookat(off)
 
+"human_commerce_dogsled_booster"
+		0:hideequip(true)
+		0:hand (both, fist)
+		0:lookat(off)
 
+"human_commerce_dogsled_stand_friendly"
+		0:hideequip(true)
+		0:hand (both, fist)
+		0:lookat(off)
+		580:jump (256)
+		210:generic("custom_equip(weapon:tool_merchant01)")	
+
+"human_commerce_dogsled_walk"
+		0:hideequip(true)
+		0:hand (both, fist)
+		0:lookat(off)
+
+	
+"human_commerce_camel_booster"
+		0:hideequip(true)
+		0:hand (both, fist)
+		0:lookat(off)
+		
+"human_commerce_camel_run"
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:lookat(off)
+		
+"human_commerce_camel_run_slow"
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:lookat(off)
+
+"human_commerce_camel_stand_friendly"
+		0:hideequip(true)
+		0:hand (both, palm)
+		259:hand (right,palm)		
+		0:lookat(off)
+
+"human_commerce_camel_walk"
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:lookat(off)
+		
+"female_commerce_camel_partner_booster"	
+		0:hideequip(true)
+		0:hand (both, fist)
+		0:lookat(off)
+		0:face(confused)
+		
+"female_commerce_camel_partner_run"
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:lookat(off)
+
+"female_commerce_camel_partner_run_slow"
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:lookat(off)
+
+"female_commerce_camel_partner_stand_friendly"
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:lookat(off)
+		
+"female_commerce_camel_partner_walk"
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:lookat(off)
+		
+"male_commerce_camel_partner_booster"
+		0:hideequip(true)
+		0:hand (both, fist)
+		0:lookat(off)
+		0:face(confused)		
+		
+"male_commerce_camel_partner_run"
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:lookat(off)
+		
+"male_commerce_camel_partner_run_slow"	
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:lookat(off)	
+		
+"male_commerce_camel_partner_stand_friendly"
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:lookat(off)
+		
+"male_commerce_camel_partner_walk"
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:lookat(off)
+		
+"female_commerce_dogsled_partner_booster"
+		0:hideequip(true)
+		0:hand (both, fist)
+		0:lookat(off)
+		
+"female_commerce_dogsled_partner_walk"
+		0:hand (both, palm)
+		0:lookat(off)
+
+"female_commerce_dogsled_partner_stand_friendly"
+		0:hand (both, palm)
+		0:lookat(off)
+
+"female_commerce_dogsled_partner_run"		
+		0:hand (both, palm)
+		0:lookat(off)
+
+//부유선		
+"human_commerce_ship_stand"
+		0:hideequip(true)
+		0:hand (both, palm)		
+		0:lookat(off)
+
+"human_commerce_ship_walk"
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:lookat(off)		
+
+"human_commerce_ship_run"
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:lookat(off)	
+
+"human_commerce_ship_partner_stand"
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:lookat(off)		
+	
+"human_commerce_ship_partner_walk"
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:lookat(off)		
+
+"human_commerce_ship_partner_run"
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:lookat(off)	
+		
 // 마차 타기
 "human_commerce_carriage_mount"
 		0:hand (both, palm)
@@ -9765,6 +9965,8 @@ set("riding_HumanPetCrarriage")
 			0:lookat(off)
 
 	endfolder
+
+endset
 
 ////////////////////////////////////////////////////////////////////	
 set("riding_Welshcorgi")
@@ -13185,8 +13387,68 @@ set("C4_giant")
 				0:hand(both, palm)
 				431:jump(0,true)	
 
-
-
+		"giant_photobooth_sit01"
+			0:lookat(off)
+			0:hand(both, palm)
+			13:effect("flash01_G")
+			16:effect("flash03_G")
+			20:effect("flash02_G")
+			21:effect("flash04_G")
+			69:effect("flash05_G")
+			72:effect("flash03_G")
+			75:effect("flash01_G")
+			80:effect("flash03_G")
+			92:effect("flash06_G")
+			98:effect("flash02_G")
+			120:effect("flash04_G")
+			177:effect("flash03_G")
+			197:effect("flash05_G")
+			200:effect("flash01_G")
+			210:effect("flash03_G")
+			225:effect("flash06_G")
+			239:effect("flash02_G")
+			253:effect("flash01_G")
+			260:effect("flash03_G")
+			270:effect("flash06_G")
+			280:effect("flash02_G")
+			
+		"giant_female_photobooth_sit01"
+			0:lookat(off)
+			0:hand(both, palm)
+			13:effect("flash01_GF")
+			16:effect("flash03_GF")
+			20:effect("flash02_GF")
+			21:effect("flash04_GF")
+			69:effect("flash05_GF")
+			72:effect("flash03_GF")
+			75:effect("flash01_GF")
+			80:effect("flash03_GF")
+			92:effect("flash06_GF")
+			98:effect("flash02_GF")
+			120:effect("flash04_GF")
+			177:effect("flash03_GF")
+			197:effect("flash05_GF")
+			200:effect("flash01_GF")
+			210:effect("flash03_GF")
+			225:effect("flash06_GF")
+			239:effect("flash02_GF")
+			253:effect("flash01_GF")
+			260:effect("flash03_GF")
+			270:effect("flash06_GF")
+			280:effect("flash02_GF")
+	
+		"giant_photobooth_sit02"
+			0:lookat(off)
+			0:hand(both, palm)
+			0:generic("custom_equip(weapon:giant_tool_photobooth_ani)")
+			
+						
+		"giant_female_photobooth_sit02"
+			0:lookat(off)
+			0:hand(both, palm)
+			0:generic("custom_equip(weapon:giant_tool_photobooth_ani)")
+						
+			
 		"giant_female_framechair01_sit"
 			0:lookat(off)
 			0:hand(both, palm)
@@ -13276,7 +13538,13 @@ set("C4_giant")
 			841:hand(left, fist)
 			889:hand(left, palm)
 			896:jump(0,true)			
-
+			
+		"giant_female_showstage01_sit"
+				0:lookat(off)
+				
+		"giant_showstage01_sit"
+				0:lookat(off)
+		
 		"giant_female_demonhunter_workshop01_sit"
 			0:lookat(off)
 			0:hideequip(true)
@@ -19747,10 +20015,9 @@ set("riding_crystal rudolf")
 		0:lookat(off)
 
 
-
 	endfolder
     
-
+endset
 
 //////////////////// 자이언트 드라마 2관련모션 /////////////////////
 set("masterchef")
@@ -19795,6 +20062,92 @@ set("riding_commerce")
 	folder("char/chapter4/giant/anim/riding/riding_commerce")
 
 
+"giant_commerce_camel_booster"
+		0:hideequip(true)
+		0:hand (both, fist)
+		0:lookat(off)
+		
+"giant_commerce_camel_run"
+		0:hideequip(true)
+		0:hand (both, fist)
+		0:lookat(off)
+		
+"giant_commerce_camel_run_slow"
+		0:hideequip(true)
+		0:hand (both, fist)
+		0:lookat(off)
+		
+"giant_female_commerce_camel_run_slow"	
+		0:hideequip(true)
+		0:hand (both, fist)
+		0:lookat(off)
+
+"giant_commerce_camel_stand_friendly"
+		0:hideequip(true)
+		0:hand (both, fist)
+		259:hand (right,palm)
+		417:hand (right,fist)
+		0:lookat(off)
+
+"giant_commerce_camel_walk"
+		0:hideequip(true)
+		0:hand (both, fist)
+		0:lookat(off)
+		
+		
+"giant_female_commerce_camel_booster"
+		0:hideequip(true)
+		0:hand (both, fist)
+		0:lookat(off)
+		
+"giant_female_commerce_camel_run"
+		0:hideequip(true)
+		0:hand (both, fist)
+		0:lookat(off)
+
+"giant_female_commerce_camel_stand_friendly"
+		0:hideequip(true)
+		0:hand (both, fist)
+		259:hand (right,palm)
+		417:hand (right,fist)
+		0:lookat(off)
+
+"giant_female_commerce_camel_walk"
+		0:hideequip(true)
+		0:hand (both, fist)
+		0:lookat(off)		
+
+		
+//부유선		
+"giant_commerce_ship_stand"
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:lookat(off)
+
+"giant_commerce_ship_walk"
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:lookat(off)
+
+"giant_commerce_ship_run"
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:lookat(off)	
+
+"giant_female_commerce_ship_stand"
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:lookat(off)
+
+"giant_female_commerce_ship_walk"
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:lookat(off)
+
+"giant_female_commerce_ship_run"
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:lookat(off)			
 
 //마차 타기
 "giant_commerce_carriage_mount"
@@ -25427,7 +25780,56 @@ set("social motion")
 			0:hand(both, palm)
 			0:lookat(off)				
 			
-	
+		"female_idol"
+			0:lookat(off)
+			0:hand(both, palm)
+			13:effect("flash01_F")
+			16:effect("flash03_F")
+			20:effect("flash02_F")
+			21:effect("flash04_F")
+			69:effect("flash05_F")
+			72:effect("flash03_F")
+			75:effect("flash01_F")
+			80:effect("flash03_F")
+			92:effect("flash06_F")
+			98:effect("flash02_F")
+			120:effect("flash04_F")
+			177:effect("flash03_F")
+			197:effect("flash05_F")
+			200:effect("flash01_F")
+			210:effect("flash03_F")
+			225:effect("flash06_F")
+			239:effect("flash02_F")
+			253:effect("flash01_F")
+			260:effect("flash03_F")
+			270:effect("flash06_F")
+			280:effect("flash02_F")
+			
+			
+		"male_idol"
+			0:lookat(off)
+			0:hand(both, palm)
+			13:effect("flash01")
+			16:effect("flash03")
+			20:effect("flash02")
+			21:effect("flash04")
+			69:effect("flash05")
+			72:effect("flash03")
+			75:effect("flash01")
+			80:effect("flash03")
+			92:effect("flash06")
+			98:effect("flash02")
+			120:effect("flash04")
+			177:effect("flash03")
+			197:effect("flash05")
+			200:effect("flash01")
+			210:effect("flash03")
+			225:effect("flash06")
+			239:effect("flash02")
+			253:effect("flash01")
+			260:effect("flash03")
+			270:effect("flash06")
+			280:effect("flash02")
 		"male_2021halloween"
 			0:hand(both, palm)
 			0:lookat(off)
@@ -27791,8 +28193,39 @@ set("social motion")
 		610:hand(left, palm)
 		710:generic ("custom_equip(weapon)")
 	
+	"female_2021christmas"
+		0:lookat(off)	
+		0:hand(both, palm)
+		140:effect("crystal_appear",0,1)	
+		150:generic("custom_mesh(0:tool_2021winter)")
+		134:effect("butterfly_wing01",0,1)
+		134:effect("butterfly_wing02",0,1)
+		134:effect("butterfly_wing03",0,1)
+		134:effect("butterfly_wing04",0,1)
+		134:effect("butterfly_wing05",0,1)
+		134:effect("butterfly_wing06",0,1)
+		134:effect("butterfly_wing07",0,1)
+		134:effect("butterfly_wing08",0,1)
+		245:effectoff("crystal_appear")
+		920:jump(563, true)
 	
-		
+
+	"male_2021christmas"
+		0:lookat(off)	
+		0:hand(both, palm)
+		140:effect("crystal_appear",0,1)	
+		150:generic("custom_mesh(0:tool_2021winter)")
+		134:effect("butterfly_wing01",0,1)
+		134:effect("butterfly_wing02",0,1)
+		134:effect("butterfly_wing03",0,1)
+		134:effect("butterfly_wing04",0,1)
+		134:effect("butterfly_wing05",0,1)
+		134:effect("butterfly_wing06",0,1)
+		134:effect("butterfly_wing07",0,1)
+		134:effect("butterfly_wing08",0,1)
+		245:effectoff("crystal_appear")
+		920:jump(563, true)
+			
 	"female_winter2017"	
 		0:lookat(off)	
 		0:hand(both, palm)
@@ -27801,7 +28234,7 @@ set("social motion")
 		500:effect("snow_cry04",0,1)	
 		500:effect("snow_cry09",0,1)			
 		120:effect("crystal_appear",0,1)	
-		245:effectoff("crystal_appear")			
+		245:effectoff("crystal_appear")
 		134:effect("butterfly_wing01",0,1)
 		134:effect("butterfly_wing02",0,1)
 		134:effect("butterfly_wing03",0,1)
@@ -29925,7 +30358,27 @@ set("social motion")
 		0:hand(both, palm)
 		0:hideequip(false)
 		125:generic("custom_equip(weapon:tool_telephone)")		
-		770:jump(221)			
+		770:jump(221)	
+
+	"female_element"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		39:effect("element01",0,1)
+		41:effect("element02",0,1)
+		41:effect("element04",0,1)
+		43:effect("element03",0,1)
+		520:jump(39)
+
+	"male_element"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		39:effect("element01",0,1)
+		41:effect("element02",0,1)
+		41:effect("element04",0,1)
+		43:effect("element03",0,1)
+		520:jump(39)		
 		
 	///세일러 수영복의상
 	
@@ -47448,6 +47901,46 @@ endset
 set("commerce")
 
 	folder("char\chapter4\pet\anim\commerce")
+	
+	
+"commerce_camel_booster"
+	0:lookat(off)
+	12:sound("data\sound\horse_dagadac2.wav")
+	17:sound("data\sound\horse_dagadac4.wav")
+	19:sound("data\sound\horse_dagadac3.wav")
+	23:sound("data\sound\horse_dagadac1.wav")			
+	12:effect("pet_camel_dust_Fast_RB")
+	17:effect("pet_camel_dust_Fast_LB")	
+	19:effect("pet_camel_dust_Fast_RF")
+	23:effect("pet_camel_dust_Fast_LF")	
+	
+"commerce_camel_run"
+	0:lookat(off)
+	15:sound("data\sound\horse_dagadac2.wav")
+	20:sound("data\sound\horse_dagadac4.wav")
+	22:sound("data\sound\horse_dagadac3.wav")
+	26:sound("data\sound\horse_dagadac1.wav")			
+	15:effect("pet_camel_dust_Fast_RB")
+	20:effect("pet_camel_dust_Fast_LB")	
+	22:effect("pet_camel_dust_Fast_RF")
+	26:effect("pet_camel_dust_Fast_LF")
+	
+"commerce_camel_stand"
+	0:lookat(off)
+	
+"commerce_camel_walk"
+	0:lookat(off)
+	2:sound("data\sound\horse_dagadac3.wav")
+	2:effect("pet_camel_dust_Slow_RB")
+	9:sound("data\sound\horse_dagadac3.wav")
+	9:effect("pet_camel_dust_Slow_RF")
+	20:sound("data\sound\horse_dagadac3.wav")
+	20:effect("pet_camel_dust_Slow_LB")	
+	24:sound("data\sound\horse_dagadac3.wav")
+	24:effect("pet_camel_dust_Slow_LF")
+			
+			
+			
 
 		"commerce_human_handcart_run"
 			//1:effect("tail_L_run")
@@ -52551,10 +53044,15 @@ set("Nao")
 			0:lookat(off)
 
 		"Nao_ani_standing_02"
-		  0:lookat(off)
+			0:lookat(off)
 
+	endfolder
+
+endset
 ////////////////////////////// 나오_koreanwear ///////////////////////////////////////
 set("Nao_koreanwear")
+
+	folder("char\human\Nao\ani")
 
 		"nao_koreanwear_ani_healing"
 				0:lookat(off)
@@ -52587,10 +53085,13 @@ set("Nao_koreanwear")
 		"nao_koreanwear_ani_standing_01"
 		  0:lookat(off)
 
+	endfolder
 
-
+endset
 ////////////////////////////// 나오_summer ///////////////////////////////////////
 set("Nao_summer")
+
+	folder("char\human\Nao\ani")
 
 		"Nao_ani_healing_summer"
 				0:lookat(off)
@@ -54551,6 +55052,21 @@ folder("::scene_prop_streamingdesk01")
 
 	endfolder
 	
+		folder("::farm_prop_spidetree01")
+		
+			"farm_prop_spidetree01_normal"
+					171:jump(1)
+					
+			"farm_prop_spidetree01_empty"
+					171:jump(1)
+					
+			"farm_prop_spidetree01_collecting"
+					171:jump(1)
+
+	endfolder	
+		
+	
+	
 	
 	folder("::scene_prop_rocket01")
 
@@ -54558,13 +55074,13 @@ folder("::scene_prop_streamingdesk01")
 			0:sound("data\sound\kartrider/2020_kartrider_missile_attack.wav")
 			
 
-	endfolder	
+	endfolder
 	
 	
 	folder("::scene_prop_grim_reaper_throne01")
 		"scene_prop_grim_reaper_throne01_sit"
 			300:jump(1)				
-	endfolder		
+	endfolder
 	
 	
 	folder("::scene_prop_grim_reaper_throne02")
@@ -63716,8 +64232,8 @@ set("magician")
 			9:effect("gunner_faraway_jump_1")
 			15:effectoff("gunner_faraway_jump_1")					
 			30:effectoff("gunner_faraway_drag_1")
-			45:effect("gunner_faraway_landing_1")			
-			96:effectoff("gunner_faraway_landing_1")
+			40:effect("gunner_faraway_landing_1")			
+			45:effectoff("gunner_faraway_landing_1")
 			
 		"human_dualgun_crossbuster"
 			0:lookat(off)
@@ -67535,6 +68051,8 @@ set("magician")
 	
 	endfolder
 	
+endset
+
 ///////////////////////////////// 실로폰 리라 - 엘프 ///////////////////////////////////
 set("elf_Bhand_M10")
 
@@ -68044,8 +68562,8 @@ set("elf_Bhand_M10")
 			9:effect("gunner_faraway_jump_1")
 			15:effectoff("gunner_faraway_jump_1")					
 			30:effectoff("gunner_faraway_drag_1")
-			45:effect("gunner_faraway_landing_1")			
-			96:effectoff("gunner_faraway_landing_1")
+			40:effect("gunner_faraway_landing_1")			
+			45:effectoff("gunner_faraway_landing_1")
 			
 		"giant_dualgun_crossbuster"
 			0:lookat(off)
@@ -71535,13 +72053,16 @@ set("giant")
 			
 		"giant_natural_stand_02"
 		//1:generic("immediately|custom_equipmentmesh(1, _new, true)")
-
+			0:hand(both, palm)
+			
 		"giant_natural_stand_03"
 		//1:generic("immediately|custom_equipmentmesh(1, _new, true)")
-
+			0:hand(both, palm)
+			
 		"giant_natural_stand_04"
 		//1:generic("immediately|custom_equipmentmesh(1, _new, true)")		
-
+			0:hand(both, fist)
+			
 		"giant_sit_eat"
 			0:lookat(off)
 			0:hand (right, fist)
@@ -79041,7 +79562,7 @@ set("alchemy")
 	"giant_brionacsword"
     	 	0:lookat(off)
 		0:hand(both,fist)
-		154:jump(80)
+		106:jump(64)
 
 	"giant_brionacsword_ending"
     	 	0:lookat(off)
@@ -79714,6 +80235,7 @@ set("tiger_riding")
 
 	endfolder
 
+endset
 
 /////////////////////////////////////  호랑이 탑승용 여자자이언트 모션  //////////////////////////////////////////
 
@@ -80156,7 +80678,7 @@ set("tool Lhand_B")
 
 	endfolder
 		
-
+endset
 ////////////////////////////////////// 방패 B01 //////////////////////////////////////////
 
 set("tool_Lhand_B")
@@ -80767,14 +81289,14 @@ set("female_giant")
 			0:hand(both, fist)
 
 		"giant_female_natural_stand_02"
-			0:hand(both, fist)
+			0:hand(both, palm)
 
 		"giant_female_natural_stand_03"
-			0:hand(both, fist)
+			0:hand(both, palm)
 
 		"giant_female_natural_stand_04"
-			0:hand(both, fist)			
-			
+			0:hand(both, fist)
+				
 		// 일반 걷기
 		"giant_female_walk_12"
 			0:face(default)
@@ -81950,6 +82472,59 @@ set("social motion")
 	
 	folder("char\chapter4\giant\anim\social_motion")
 	
+	
+	
+		"giant_idol"
+			0:hand(both, palm)
+			0:lookat(off)
+			13:effect("flash01_G")
+			16:effect("flash03_G")
+			20:effect("flash02_G")
+			21:effect("flash04_G")
+			69:effect("flash05_G")
+			72:effect("flash03_G")
+			75:effect("flash01_G")
+			80:effect("flash03_G")
+			92:effect("flash06_G")
+			98:effect("flash02_G")
+			120:effect("flash04_G")
+			177:effect("flash03_G")
+			197:effect("flash05_G")
+			200:effect("flash01_G")
+			210:effect("flash03_G")
+			225:effect("flash06_G")
+			239:effect("flash02_G")
+			253:effect("flash01_G")
+			260:effect("flash03_G")
+			270:effect("flash06_G")
+			280:effect("flash02_G")
+			
+			
+		"giant_female_idol"
+			0:hand(both, palm)
+			0:lookat(off)
+			13:effect("flash01_GF")
+			16:effect("flash03_GF")
+			20:effect("flash02_GF")
+			21:effect("flash04_GF")
+			69:effect("flash05_GF")
+			72:effect("flash03_GF")
+			75:effect("flash01_GF")
+			80:effect("flash03_GF")
+			92:effect("flash06_GF")
+			98:effect("flash02_GF")
+			120:effect("flash04_GF")
+			177:effect("flash03_GF")
+			197:effect("flash05_GF")
+			200:effect("flash01_GF")
+			210:effect("flash03_GF")
+			225:effect("flash06_GF")
+			239:effect("flash02_GF")
+			253:effect("flash01_GF")
+			260:effect("flash03_GF")
+			270:effect("flash06_GF")
+			280:effect("flash02_GF")
+			
 		"giant_dervla"
 			0:hand(both, palm)
 			0:lookat(off)
@@ -84819,6 +85394,40 @@ set("social motion")
 	
 	
 	
+	"giant_female_2021christmas"
+		0:lookat(off)	
+		0:hand(both, palm)
+		140:effect("crystal_appear",0,1)	
+		150:generic("custom_mesh(0:giant_tool_2021winter)")
+		134:effect("butterfly_wing01",0,1)
+		134:effect("butterfly_wing02",0,1)
+		134:effect("butterfly_wing03",0,1)
+		134:effect("butterfly_wing04",0,1)
+		134:effect("butterfly_wing05",0,1)
+		134:effect("butterfly_wing06",0,1)
+		134:effect("butterfly_wing07",0,1)
+		134:effect("butterfly_wing08",0,1)
+		245:effectoff("crystal_appear")
+		920:jump(563, true)
+
+	
+	"giant_2021christmas"
+		0:lookat(off)	
+		0:hand(both, palm)
+		140:effect("crystal_appear",0,1)	
+		150:generic("custom_mesh(0:giant_tool_2021winter)")
+		134:effect("butterfly_wing01",0,1)
+		134:effect("butterfly_wing02",0,1)
+		134:effect("butterfly_wing03",0,1)
+		134:effect("butterfly_wing04",0,1)
+		134:effect("butterfly_wing05",0,1)
+		134:effect("butterfly_wing06",0,1)
+		134:effect("butterfly_wing07",0,1)
+		134:effect("butterfly_wing08",0,1)
+		245:effectoff("crystal_appear")
+		920:jump(563, true)
+
+
 	
 	"giant_female_winter2017"	
 		0:lookat(off)	
@@ -87366,6 +87975,26 @@ set("social motion")
 			0:hideequip(false)
 			125:generic("custom_equip(weapon:tool_telephone)")		
 			770:jump(221)
+			
+		"giant_female_element"
+			0:lookat(off)
+			0:hand(both, palm)
+			0:hideequip(false)	
+			39:effect("element01",0,1)
+			41:effect("element02",0,1)
+			41:effect("element04",0,1)
+			43:effect("element03",0,1)
+			520:jump(39)
+
+		"giant_element"
+			0:lookat(off)
+			0:hand(both, palm)
+			0:hideequip(false)	
+			39:effect("element01",0,1)
+			41:effect("element02",0,1)
+			41:effect("element04",0,1)
+			43:effect("element03",0,1)
+			520:jump(39)	
 			
 	"giant_troubadour"
 		0:lookat(off)
@@ -94113,8 +94742,6 @@ set("clanfox_vine")
 		
 	endfolder
 
-endset
-
 /////////////////////////////// 여우 use item모션 //////////////////////////////////
 	folder("char\monster\anim\clan_fox\anim\natural")
 
@@ -94471,6 +95098,7 @@ set("tool_middle_magic_wand")
 			
 	endfolder
 
+endset
 ////////////////////////////////////// 말에 귀속된 사람의 모션 : 여우 기수  //////////////////////////////////////////
 
 set("riding_horse")
@@ -102698,7 +103326,7 @@ set("C4_monster")
 	
 	endfolder
 
-
+endset
 ////////////////////////////////////// 로그인 화면모션  //////////////////////////////////////////
 
 set("newcharacter_motion")
