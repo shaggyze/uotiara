@@ -5,11 +5,12 @@ Thanks to this months donator/s and special thanks to Amaretto, Penguin Eater, D
 *Intended solely for Mabinogi (North America)
 
 **Download Location: (Click Releases on the right of Github)**
+
 https://github.com/shaggyze/uotiara/releases 
 or
 https://ci.appveyor.com/project/shaggyze/uotiara/build/artifacts
 
-NSIS is required to compile uotiara.nsi https://nsis.sourceforge.io/Download or you can use "install.bat" then open utiara.nsi and compile or use command-line "%PROGRAMFILES(x86)%\NSIS\makensis.exe" uotiara.nsi
+NSIS is required to compile uotiara.nsi https://nsis.sourceforge.io/Download or you can use "install.bat" then open uotiara.nsi and compile or use command-line "%PROGRAMFILES(x86)%\NSIS\makensis.exe" uotiara.nsi
 
 Official Thread:
 http://mabimods.net/index.php?topic=10456.0
