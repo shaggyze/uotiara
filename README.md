@@ -10,7 +10,7 @@ https://github.com/shaggyze/uotiara/releases
 or
 https://ci.appveyor.com/project/shaggyze/uotiara/build/artifacts
 
-NSIS is required to compile uotiara.nsi https://nsis.sourceforge.io/Download or you can use "install.bat" then open uotiara.nsi and compile or use command-line "%PROGRAMFILES(x86)%\NSIS\makensis.exe" uotiara.nsi
+NSIS is required to compile uotiara.nsi https://sourceforge.net/projects/nsis/files/NSIS%203/3.04/nsis-3.04-setup.exe/download or you can use "install.bat" then open uotiara.nsi and compile or use command-line "%PROGRAMFILES(x86)%\NSIS\makensis.exe" uotiara.nsi
 
 Official Thread:
 http://mabimods.net/index.php?topic=10456.0
