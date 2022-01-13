@@ -806,10 +806,10 @@
 957	Increases Attack Delay
 958	Increases Max Damage
 959	Increases Magic ATT
-960	A condition of the Festia ranking reward wings. Can be stacked with other conditions.
-961	A condition of the Festia ranking reward wings. Can be stacked with other conditions.
-962	A condition of the Festia ranking reward wings. Can be stacked with other conditions.
-963	A condition of the Festia ranking reward wings. Can be stacked with other conditions.
+960	Increases Movement Speed.
+961	Reduces Time Between Attacks.
+962	Increases Max Damage.
+963	Increases Magic Attack.
 964	No Summon, No Skill
 965	A condition where you are unable to use skills or summon pets.
 966	Immune to DoT Damage
@@ -1073,8 +1073,8 @@
 1239	Applies a variety of enhancements to Battle Alchemy Talent skills.
 1240	Applies a variety of enhancements to Transmutation Talent skills. 
 1241	Applies a variety of enhancements to Hero Alchemy Talent skills.
-1242	Marionette stun resistance rate increased.
-1243	Marionette critical damage increased.
+1242	Increases Marionette's Stun Resistance Rate by 75%.
+1243	Increases Marionette's Critical Damage by 40%.
 1244	Puppetry skill cooldown decreased.
 1245	Master Plan Special Effect
 1246	Increases Defense, Protection, Magic Defense, Magic Protection, HP, MP, and Stamina. This status effect will disappear when the Master Plan event ends.
@@ -1489,18 +1489,61 @@
 1715	Level {0}. Protection +{1}
 1716	Level {0}. HP +{1}
 1717	Level {0}. MP +{1}
+1718	Windmill Enhancement
+1719	Final Hit Enhancement
+1720	Final Strike Enhancement
+1721	Horseback Lance Charge Enhancement
+1722	Crash Shot Enhancement
+1723	Shooting Rush Enhancement
+1724	Fusion Bolt Enhancement
+1725	Combo: Drop Kick Enhancement
+1726	Act 2: Threshold Cutter Enhancement
+1727	Giant Full Swing Enhancement
+1728	Hail Storm Enhancement
+1729	Spinning Slasher Enhancement
+1730	Chain Impale Enhancement
+1731	Kunai Storm Enhancement
+1732	Increases the final damage of Windmill by 15%.
+1733	Increases the final damage of Final Hit by 15%.
+1734	Increases the Rage gained from Final Strike by 15%.
+1735	Increases the final damage of Horseback Lance Charge by 15%.
+1736	Increases the final damage of Crash Shot by 15%.
+1737	Increases the final damage of Shooting Rush by 15%.
+1738	Increases the final damage of Fusion Bolt by 15%.
+1739	Increases the final damage of Combo: Drop Kick by +15%
+1740	Increases the final damage of Act 2: Threshold Cutter by +15%
+1741	Increases the final damage of Giant Full Swing by +15%
+1742	Increases the final damage of Hail Storm by 15%.
+1743	Increases the final damage of Spinning Slasher by 15%.
+1744	Increases the final damage of Chain Impale by 15%.
+1745	Increases the final damage of Kunai Storm by 15%.
+1746	Erg Amplification
+1747	Increases damage dealt by all attacks.
 1748	Potion Indigestion
 1749	Unable to digest potions very well.
 1750	Production Skill Production Success Rate +20%
 1751	Production Skill Production Success Rate +20%
+1752	Way of the Gun Enhancement
+1753	Final Shot Enhancement
+1754	Increases the final damage of Dual Gun normal attacks by 20% while Way of the Gun is active.
+1755	Increases the final damage of Archery skills by 10% while Final Shot is active.
 1756	Foxyquin's Mark
 1757	Foxyquin's Mark
 1758	Foxyquin's Luck
 1759	Foxyquin's Luck
 1760	Foxyquin's Special Gift
 1761	Foxyquin's Special Gift
+1762	Sakura Abyss Enhancement
+1763	Intermediate Magic Enhancement
+1764	Increases the final damage of Sakura Abyss by 15%.
+1765	Increases the final damage of Intermediate Magic by 15%.
+1766	Increases Critical damage by 7%.
+1767	Increases Bash damage by 10%.
+1768	Reduces Durability Loss by 30%.
 1769	Monster Damage Amplification
 1770	Increases damage dealt by all attacks.
+1839	Marionette Critical Damage
+1841	Marionette's Critical Damage increases by 40%.
 1850	속성 마스터리 대미지 증가
 1851	마나 실드 강화
 1852	파이어,아이스,라이트닝 마스터리 대미지가 15% 증가한다.

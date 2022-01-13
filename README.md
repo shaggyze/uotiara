@@ -163,7 +163,7 @@ Note: Some mods of this are not included in Official Tiara, but I think they des
 82. Plonecakes' (concept)/Draconis Fomor Scroll Info
 83. Thunderscar's Iria NW Tunnel Map Edit
 84. Draconis's Quest Interface Simplifier
-85. Chocobubba's Rain Casting Range and Duration Indicator
+85. Chocobubba's Rain Casting Range and Duration Indicator (removed)
 86. Rydian's Bitmap font improvements
 87. y3tii's Blacksmith/Tailor Manual Tooltip
 88. Aahz's Simplified Baltane Squire Area
@@ -171,6 +171,7 @@ Note: Some mods of this are not included in Official Tiara, but I think they des
 90. Fl0rn's Tech Duinn Fog Removal
 91. Japari Bus Sound Removal
 92. Xeme's Music Buff Status List
+93. poidoe's Phantasmal Sight Color
 
 >>To restore things, find the corresponding files in the data folder (or whatever directory you use) and delete/remove/replace to modify them to fit your preferences, delete uotiara.pack in the package folder or use the installer/uninstaller.
 

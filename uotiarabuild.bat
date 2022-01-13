@@ -24,6 +24,6 @@ copy /Y "C:\Nexon\Library\mabinogi\appdata\package\UOTiara.pack" "C:\Users\%user
 copy /Y "C:\Nexon\Library\mabinogi\appdata\package\language.pack" "C:\Users\%username%\Google Drive\Tiara\unofficialtiara\language.pack"
 copy /Y "C:\Nexon\Library\mabinogi\appdata\package\UOTiara.pack" ".\UOTiara.pack"
 copy /Y "C:\Nexon\Library\mabinogi\appdata\package\language.pack" ".\language.pack"
-"%PROGRAMFILES(x86)%\NSIS\makensis.exe" uotiara.nsi
+"%PROGRAMFILES(x86)%\NSIS\makensis.exe" "C:\Users\%username%\Documents\GitHub\uotiara\uotiara.nsi"
 for %%I in ("%~dp0*.exe") do start "Running %%~nI" /wait "%%I"
 attrib +r "C:\Nexon\Library\mabinogi\appdata\package\UOTiara.pack"
