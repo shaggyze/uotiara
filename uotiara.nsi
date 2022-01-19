@@ -1,5 +1,5 @@
 !define UOSHORTVERSION        "381"
-!define UOLONGVERSION         "0.14.32"
+!define UOLONGVERSION         "0.14.33"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -2694,6 +2694,31 @@ SectionGroupEnd
 SectionGroupEnd
 SectionGroupEnd
 SectionGroup "gfx"
+Section "Phantasmal Sight Color" MOD458
+SetOutPath "$INSTDIR\data\gfx\fx\effect"
+  Delete "$INSTDIR\data\gfx\fx\effect\c3_g10_s1_cloud.xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\g23_specialization.xml"
+SetOutPath "$INSTDIR\data\material\fx\effect"
+File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\Blue.dds"
+File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\Metallurgy.dds"
+File "${srcdir}\Tiara's Moonshine Mod\\data\material\fx\effect\Yellow.dds"
+SetOutPath "$INSTDIR\data\material\_define\material\effect"
+File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\Blue.xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\Metallurgy.xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\Yellow.xml"
+SectionIn 1 2 3
+SectionEnd
+!macro Remove_${MOD458}
+  DetailPrint "*** Removing MOD137..."
+  Delete "$INSTDIR\data\gfx\fx\effect\c3_g10_s1_cloud.xml"
+  Delete "$INSTDIR\data\gfx\fx\effect\g23_specialization.xml"
+  Delete "$INSTDIR\data\material\fx\effect\Blue.dds"
+  Delete "$INSTDIR\data\material\fx\effect\Metallurgy.dds"
+  Delete "$INSTDIR\data\material\fx\effect\Yellow.dds"
+  Delete "$INSTDIR\data\material\_define\material\effect\Blue.xml"
+  Delete "$INSTDIR\data\material\_define\material\effect\Metallurgy.xml"
+  Delete "$INSTDIR\data\material\_define\material\effect\Yellow.xml"
+!macroend
 SectionGroup "Tech Duinn Fog Removal" MOD396
 Section "Tech Duinn Fog Removal ?1" MOD396?1
 SetOutPath "$INSTDIR\data\gfx\scene\dungeon\gd1\prop\"
@@ -3679,30 +3704,14 @@ SectionEnd
   DetailPrint "*** Removing MOD136..."
   Delete "$INSTDIR\data\gfx\fx\effect\c3_g9_s2_fireflame.xml"
 !macroend
-Section "Phantasmal Sight Color" MOD137
+Section "Rain Casting Range and Duration Indicator" MOD137
 SetOutPath "$INSTDIR\data\gfx\fx\effect"
-  Delete "$INSTDIR\data\gfx\fx\effect\c3_g10_s1_cloud.xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\g23_specialization.xml"
-SetOutPath "$INSTDIR\data\material\fx\effect"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\Blue.dds"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\Metallurgy.dds"
-File "${srcdir}\Tiara's Moonshine Mod\\data\material\fx\effect\Yellow.dds"
-SetOutPath "$INSTDIR\data\material\_define\material\effect"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\Blue.xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\Metallurgy.xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\Yellow.xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\c3_g10_s1_cloud.xml"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD137}
   DetailPrint "*** Removing MOD137..."
   Delete "$INSTDIR\data\gfx\fx\effect\c3_g10_s1_cloud.xml"
-  Delete "$INSTDIR\data\gfx\fx\effect\g23_specialization.xml"
-  Delete "$INSTDIR\data\material\fx\effect\Blue.dds"
-  Delete "$INSTDIR\data\material\fx\effect\Metallurgy.dds"
-  Delete "$INSTDIR\data\material\fx\effect\Yellow.dds"
-  Delete "$INSTDIR\data\material\_define\material\effect\Blue.xml"
-  Delete "$INSTDIR\data\material\_define\material\effect\Metallurgy.xml"
-  Delete "$INSTDIR\data\material\_define\material\effect\Yellow.xml"
 !macroend
 Section "Alchemist Shock Removal" MOD138
 SetOutPath "$INSTDIR\data\gfx\fx\effect"
@@ -7400,6 +7409,7 @@ SectionGroupEnd
 !insertmacro "${MacroName}" "MOD398?3"
 !insertmacro "${MacroName}" "MOD399"
 !insertmacro "${MacroName}" "MOD457"
+!insertmacro "${MacroName}" "MOD458"
 !macroend
 
 
@@ -7413,7 +7423,7 @@ Function ModInfo
   WriteRegStr HKLM "${REG_UNINSTALL}" "DisplayVersion" "${UOVERSION}"
   WriteRegStr HKLM "${REG_UNINSTALL}" "Publisher" "ShaggyZE"
   WriteRegStr HKLM "${REG_UNINSTALL}" "InstallSource" "$EXEDIR\"
-  WriteRegStr HKLM "${REG_UNINSTALL}" "MODS" "457"
+  WriteRegStr HKLM "${REG_UNINSTALL}" "MODS" "458"
 
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD1" "" "Artifact Discovery Cutscene Removal"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD1" "FILE1" "\data\db\cutscene\c2\iria_finding.xml"
@@ -8478,17 +8488,22 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD136" "FILE1" "\data\gfx\fx\effe
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD136" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD136" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD136" "DESCRIPTION" ""
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "" "Phantasmal Sight Color"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "FILE1" "\data\gfx\fx\effect\g23_specialization.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "FILE2" "\data\material\fx\effect\Blue.dds"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "FILE3" "\data\material\fx\effect\Metallurgy.dds"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "FILE4" "\data\material\fx\effect\Yellow.dds"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "FILE5" "\data\material\_define\material\effect\Blue.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "FILE6" "\data\material\_define\material\effect\Metallurgy.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "FILE7" "\data\material\_define\material\effect\Yellow.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "FILES" "7"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "CREATOR" "Tekashi & Chocobubba"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "DESCRIPTION" "Phantasmal Sight color change."
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "" "Rain Casting Range and Duration Indicator"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "FILE1" "\data\gfx\fx\effect\c3_g10_s1_cloud.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "FILES" "1"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "CREATOR" "PoiDoe, Tekashi & Chocobubba"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "DESCRIPTION" "removes clouds/rain/snow effect and draws a large circle on the ground."
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "" "Phantasmal Sight Color"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "FILE1" "\data\gfx\fx\effect\g23_specialization.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "FILE2" "\data\material\fx\effect\Blue.dds"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "FILE3" "\data\material\fx\effect\Metallurgy.dds"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "FILE4" "\data\material\fx\effect\Yellow.dds"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "FILE5" "\data\material\_define\material\effect\Blue.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "FILE6" "\data\material\_define\material\effect\Metallurgy.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "FILE7" "\data\material\_define\material\effect\Yellow.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "FILES" "7"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "CREATOR" "PoiDoe"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "DESCRIPTION" "Phantasmal Sight color change."
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD138" "" "Alchemist Shock Removal"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD138" "FILE1" "\data\gfx\fx\effect\c3_g11_s1_others.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD138" "FILES" "1"
@@ -11627,10 +11642,10 @@ HyddwnDisableUpdateDone:
 FunctionEnd
 
 Function UpdateHyddwn
+SetOutPath "$INSTDIR\Hyddwn Launcher"
 ${If} ${HyddwnUpdateEnable} == "True"
-NSISdl::download  "http://launcher.hyddwnproject.com/version" "$TEMP\version"
-;inetc::get /NOCANCEL /SILENT "http://launcher.hyddwnproject.com/version" "$TEMP\version" /end
-FileOpen $0 "$TEMP\version" r
+inetc::get /NOCANCEL /SILENT "http://launcher.hyddwnproject.com/version" "$INSTDIR\Hyddwn Launcher\version.txt" /end
+FileOpen $0 "$INSTDIR\Hyddwn Launcher\version.txt" r
 StrCpy $3 ""
 ${Do}
 FileRead $0 $1 
@@ -11646,9 +11661,9 @@ ${Loop}
 linkdone:
 FileClose $0
 ${StrStr} $4 $3 "http"
-Delete "$TEMP\version"
-SetOutPath "$INSTDIR\Hyddwn Launcher"
+Delete "$INSTDIR\Hyddwn Launcher\version.txt"
 DetailPrint "Downloading Hyddwn Launcher..."
+;MessageBox MB_OK "$4"
 inetc::get /SILENT "$4" "$INSTDIR\Hyddwn Launcher\HL.zip" /end
 inetc::get /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/unzip.exe" "unzip.exe" /end
 DetailPrint "Extracting HL.zip..."
