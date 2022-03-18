@@ -1,5 +1,5 @@
 !define UOSHORTVERSION        "383"
-!define UOLONGVERSION         "0.16.33"
+!define UOLONGVERSION         "0.16.34"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -11630,7 +11630,7 @@ StrCpy $R7 "cd $INSTDIR"
 Call UOTiaraPack
 StrCpy $R7 "attrib -r $INSTDIR\package\data_99999.it"
 Call UOTiaraPack
-StrCpy $R7 "xcopy "$INSTDIR\data\" "$INSTDIR\UOTiara\data\" /q /s /y /c /e"
+StrCpy $R7 'xcopy "$INSTDIR\data\" "$INSTDIR\UOTiara\data\" /q /s /y /c /e'
 Call UOTiaraPack
 StrCpy $R7 "del $INSTDIR\package\data_99999.it"
 Call UOTiaraPack
