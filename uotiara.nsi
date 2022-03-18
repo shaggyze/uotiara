@@ -1,5 +1,5 @@
 !define UOSHORTVERSION        "383"
-!define UOLONGVERSION         "0.16.35"
+!define UOLONGVERSION         "0.16.36"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -1073,7 +1073,7 @@ SectionGroup /e "Default Mods"
 SectionGroup "code"
 Section "Remove Window, Name, and Party Messages" MOD288
 SetOutPath "$INSTDIR\data\local\code"
-File "${srcdir}\Tiara's Moonshine Mod\data\local\code\interface.english.txt"
+;File "${srcdir}\Tiara's Moonshine Mod\data\local\code\interface.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD288}
@@ -1082,7 +1082,7 @@ SectionEnd
 !macroend
 Section "Remove Window, Name, and Party Messages 2" MOD289
 SetOutPath "$INSTDIR\data\code"
-File "${srcdir}\Tiara's Moonshine Mod\data\code\interface.english.txt"
+;File "${srcdir}\Tiara's Moonshine Mod\data\code\interface.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD289}
@@ -1091,7 +1091,7 @@ SectionEnd
 !macroend
 Section "Desc text for Cp Changersa" MOD290
 SetOutPath "$INSTDIR\data\local\code"
-File "${srcdir}\Tiara's Moonshine Mod\data\local\code\standard.english.txt"
+;File "${srcdir}\Tiara's Moonshine Mod\data\local\code\standard.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD290}
@@ -1100,7 +1100,7 @@ SectionEnd
 !macroend
 Section "Desc text for Cp Changersb" MOD291
 SetOutPath "$INSTDIR\data\code"
-File "${srcdir}\Tiara's Moonshine Mod\data\code\standard.english.txt"
+;File "${srcdir}\Tiara's Moonshine Mod\data\code\standard.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD291}
@@ -1259,9 +1259,9 @@ Section "Music Buff Status List" MOD73
 SetOutPath "$INSTDIR\data\db"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\charactercondition.xml"
 SetOutPath "$INSTDIR\data\local\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\charactercondition.english.txt"
+
 SetOutPath "$INSTDIR\data\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\xml\charactercondition.english.txt"
+
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD73}
@@ -6539,35 +6539,19 @@ Delete "$INSTDIR\data\sound\stove_wetness.wav"
 !macroend
 SectionGroupEnd
 SectionGroup "xml"
-SectionGroup "Blacksmith Tailor Manual Tooltip" MOD433
-Section "Blacksmith Tailor Manual Tooltip ?1" MOD433?1
+Section "Blacksmith Tailor Manual Tooltip" MOD433
 SetOutPath "$INSTDIR\data\local\xml"
   DetailPrint "Installing local\xml\manualform.english.txt..."
   File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\manualform.english.txt"
 SectionIn 1 2 3
 SectionEnd
-!macro Remove_${MOD433?1}
-  DetailPrint "*** Removing MOD433?1..."
-  Delete "$INSTDIR\data\local\xml\manualform.english.txt"
-!macroend
-Section "Blacksmith Tailor Manual Tooltip ?2" MOD433?2
-SetOutPath "$INSTDIR\data\xml"
-  DetailPrint "Installing xml\manualform.english.txt..."
-  File "${srcdir}\Tiara's Moonshine Mod\data\xml\manualform.english.txt"
-SectionIn 1 2 3
-SectionEnd
-!macro Remove_${MOD433?2}
-  DetailPrint "*** Removing MOD433?2..."
-  Delete "$INSTDIR\data\local\xml\manualform.english.txt"
-!macroend
-SectionGroupEnd
 !macro Remove_${MOD433}
   DetailPrint "*** Removing MOD433..."
   Delete "$INSTDIR\data\local\xml\manualform.english.txt"
 !macroend
 Section "Quest Interface Abbreviated 1" MOD455
 SetOutPath "$INSTDIR\data\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\xml\questcategory.english.txt"
+File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\questcategory.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD455}
@@ -6594,12 +6578,12 @@ SectionEnd
 !macroend
 Section "Show Talent Level by Number 2" MOD293
 SetOutPath "$INSTDIR\data\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\xml\talenttitle.english.txt"
+File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\talenttitle.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD293}
   DetailPrint "*** Removing MOD293..."
-  Delete "$INSTDIR\data\xml\talenttitle.english.txt"
+  Delete "$INSTDIR\data\local\xml\talenttitle.english.txt"
 !macroend
 Section "Show Prop Names 2" MOD294
 SetOutPath "$INSTDIR\data\local\xml"
@@ -6612,21 +6596,21 @@ SectionEnd
 !macroend
 Section "Show Prop Names 3" MOD295
 SetOutPath "$INSTDIR\data\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\xml\propdb.english.txt"
+File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\propdb.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD295}
   DetailPrint "*** Removing MOD295..."
-  Delete "$INSTDIR\data\xml\propdb.english.txt"
+  Delete "$INSTDIR\data\local\xml\propdb.english.txt"
 !macroend
 Section "Skeleton Squad Name Mod" MOD296
 SetOutPath "$INSTDIR\data\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\xml\race.english.txt"
+File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\race.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD296}
   DetailPrint "*** Removing MOD296..."
-  Delete "$INSTDIR\data\xml\race.english.txt"
+  Delete "$INSTDIR\data\local\xml\race.english.txt"
 !macroend
 Section "Skeleton Squad Name Mod 2" MOD297
 SetOutPath "$INSTDIR\data\local\xml"
@@ -6639,7 +6623,7 @@ SectionEnd
 !macroend
 Section "Trade Imp Removal 2" MOD298
 SetOutPath "$INSTDIR\data\local\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\commercecommon.english.txt"
+
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD298}
@@ -6648,16 +6632,16 @@ SectionEnd
 !macroend
 Section "Trade Imp Removal 3" MOD299
 SetOutPath "$INSTDIR\data\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\xml\commercecommon.english.txt"
+
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD299}
   DetailPrint "*** Removing MOD299..."
-  Delete "$INSTDIR\data\xml\commercecommon.english.txt"
+  Delete "$INSTDIR\data\local\xml\commercecommon.english.txt"
 !macroend
 Section "True Fossil Names" MOD300
 SetOutPath "$INSTDIR\data\local\xml"
-  DetailPrint "Installing local\xml\itemdb.english.txt..."
+  DetailPrint "Installing True Fossil Names..."
   File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\itemdb.english.txt"
   SetDetailsPrint both
 SectionIn 1 2 3
@@ -6668,14 +6652,14 @@ SectionEnd
 !macroend
 Section "True Fossil Names 2" MOD301
 SetOutPath "$INSTDIR\data\xml"
-  DetailPrint "Installing xml\itemdb.english.txt..."
-  File "${srcdir}\Tiara's Moonshine Mod\data\xml\itemdb.english.txt"
+  DetailPrint "Installing True Fossil Names 2..."
+  File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\itemdb.english.txt"
   SetDetailsPrint both
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD301}
   DetailPrint "*** Removing MOD301..."
-  Delete "$INSTDIR\data\xml\itemdb.english.txt"
+  Delete "$INSTDIR\data\local\xml\itemdb.english.txt"
 !macroend
 Section "Huge Ancient Names 1" MOD393
 SetOutPath "$INSTDIR\data\local\xml"
@@ -6688,12 +6672,12 @@ SectionEnd
 !macroend
 Section "Huge Ancient Names 2" MOD390
 SetOutPath "$INSTDIR\data\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\xml\title.english.txt"
+File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\title.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD390}
   DetailPrint "*** Removing MOD390..."
-  Delete "$INSTDIR\data\xml\title.english.txt"
+  Delete "$INSTDIR\data\local\xml\title.english.txt"
 !macroend
 SectionGroupEnd
 SectionGroupEnd
@@ -6760,23 +6744,23 @@ SectionIn 1
 SectionEnd
 !macro Remove_${MOD398?2}
   DetailPrint "*** Removing Show Hidden Skill Flown Hot-Air Balloon ?2..."
-  Delete "$INSTDIR\data\xml\skillinfo.english.txt"
+  Delete "$INSTDIR\data\local\xml\skillinfo.english.txt"
 !macroend
 Section "Show Hidden Skill Flown Hot-Air Balloon ?3" MOD398?3
 SetOutPath "$INSTDIR\data\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\xml\skillinfo.english.txt"
+File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\skillinfo.english.txt"
 SectionIn 1
 SectionEnd
 !macro Remove_${MOD398?3}
   DetailPrint "*** Removing Show Hidden Skill Flown Hot-Air Balloon ?3..."
-  Delete "$INSTDIR\data\xml\skillinfo.english.txt"
+  Delete "$INSTDIR\data\local\xml\skillinfo.english.txt"
 !macroend
 SectionGroupEnd
 !macro Remove_${MOD398}
   DetailPrint "*** Removing Show Hidden Skill Flown Hot-Air Balloon..."
   Delete "$INSTDIR\data\db\skill\skillinfo.xml"
   Delete "$INSTDIR\data\local\xml\skillinfo.english.txt"
-  Delete "$INSTDIR\data\xml\skillinfo.english.txt"
+  Delete "$INSTDIR\data\local\xml\skillinfo.english.txt"
 !macroend
 Section "Doll Bag AI Enhancements" MOD399
 SetOutPath "$INSTDIR\data\db\ai\local"
@@ -6810,7 +6794,7 @@ SectionEnd
 Section "Remove Hidden Skill Flown Hot-Air Balloon"
   DetailPrint "*** Removing Show Hidden Skill Flown Hot-Air Balloon..."
 Delete "$INSTDIR\data\db\skill\skillinfo.xml"
-Delete "$INSTDIR\data\xml\skillinfo.english.txt"
+Delete "$INSTDIR\data\local\xml\skillinfo.english.txt"
 Delete "$INSTDIR\data\local\xml\skillinfo.english.txt"
 SectionIn 3
 SectionEnd
@@ -6829,8 +6813,6 @@ SectionGroupEnd
 ;"Unofficial Tiara's Moonshine Mods"
 !insertmacro "${MacroName}" "MOD432"
 !insertmacro "${MacroName}" "MOD433"
-!insertmacro "${MacroName}" "MOD433?1"
-!insertmacro "${MacroName}" "MOD433?2"
 !insertmacro "${MacroName}" "MOD434"
 !insertmacro "${MacroName}" "MOD435"
 !insertmacro "${MacroName}" "MOD436"
@@ -8054,7 +8036,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD72?3" "DESCRIPTION" "Mute data\
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "" "Music Buff Status List"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILE1" "\data\db\charactercondition.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILE2" "\data\local\xml\charactercondition.english.txt"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILE3" "\data\xml\charactercondition.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILE3" "\data\local\xml\charactercondition.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILES" "3"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "CREATOR" "Xeme"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "DESCRIPTION" "Show Music Buff Status List"
@@ -9359,7 +9341,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD292" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD292" "CREATOR" "step29"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD292" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD293" "" "Show Talent Level by Number 2"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD293" "FILE1" "\data\xml\talenttitle.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD293" "FILE1" "\data\local\xml\talenttitle.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD293" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD293" "CREATOR" "step29"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD293" "DESCRIPTION" ""
@@ -9369,12 +9351,12 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD294" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD294" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD294" "DESCRIPTION" "Show Crop, Metallurgy, and Sulfur Names; Remove Statue Names"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD295" "" "Show Prop Names 3"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD295" "FILE1" "\data\xml\propdb.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD295" "FILE1" "\data\local\xml\propdb.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD295" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD295" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD295" "DESCRIPTION" "Show Crop, Metallurgy, and Sulfur Names; Remove Statue Names"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD296" "" "Skeleton Squad Name Mod"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD296" "FILE1" "\data\xml\race.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD296" "FILE1" "\data\local\xml\race.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD296" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD296" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD296" "DESCRIPTION" ""
@@ -9389,7 +9371,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "CREATOR" "Shou"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "" "Trade Imp Removal 3"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE1" "\data\xml\commercecommon.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE1" "\data\local\xml\commercecommon.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "CREATOR" "Shou"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "DESCRIPTION" ""
@@ -9399,7 +9381,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD300" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD300" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD300" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD301" "" "True Fossil Names 2"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD301" "FILE1" "\data\xml\itemdb.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD301" "FILE1" "\data\local\xml\itemdb.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD301" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD301" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD301" "DESCRIPTION" ""
@@ -9934,7 +9916,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD389" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD389" "CREATOR" "CoalChris"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD389" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD390" "" "Huge Ancient Names 2"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD390" "FILE1" "\data\xml\title.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD390" "FILE1" "\data\local\xml\title.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD390" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD390" "CREATOR" "Oversight"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD390" "DESCRIPTION" ""
@@ -10004,7 +9986,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD397" "DESCRIPTION" "Enables Mul
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "" "Show Hidden Skill Flown Hot-Air Balloon"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "FILE1" "\data\db\skill\skillinfo.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "FILE2" "\data\local\xml\skillinfo.english.txt"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "FILE3" "\data\xml\skillinfo.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "FILE3" "\data\local\xml\skillinfo.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "FILES" "3"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "DESCRIPTION" "Enables Hidden Skill Flown Hot-Air Balloon in Hidden Skills Tab"
@@ -10019,7 +10001,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?2" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?2" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?2" "DESCRIPTION" "Changes Text of Hidden Skill Flown Hot-Air Balloon in Hidden Skills Tab"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?3" "" "Show Hidden Skill Flown Hot-Air Balloon ?3"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?3" "FILE1" "\data\xml\skillinfo.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?3" "FILE1" "\data\local\xml\skillinfo.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?3" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?3" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?3" "DESCRIPTION" "Changes Text of Hidden Skill Flown Hot-Air Balloon in Hidden Skills Tab"
@@ -10118,20 +10100,9 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD432" "CREATOR" "Blade3575"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD432" "DESCRIPTION" "Memory Patcher for enabling data folder, combat power, zoom and many more"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433" "" "Blacksmith Tailor Manual Tooltip"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433" "FILE1" "data\local\xml\manualform.english.txt"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433" "FILE2" "data\xml\manualform.english.txt"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433" "FILES" "2"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433" "CREATOR" "y3tii"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433" "DESCRIPTION" "Adds the materials required per attempt, average completion percentage and finishing materials, to the popup tooltip given when you mouseover a blacksmithing or tailor scroll."
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433?1" "" "Blacksmith Tailor Manual Tooltip ?1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433?1" "FILE1" "data\local\xml\manualform.english.txt"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433?1" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433?1" "CREATOR" "y3tii"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433?1" "DESCRIPTION" "Adds the materials required per attempt, average completion percentage and finishing materials, to the popup tooltip given when you mouseover a blacksmithing or tailor scroll."
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433?2" "" "Blacksmith Tailor Manual Tooltip ?2"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433?2" "FILE1" "data\xml\manualform.english.txt"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433?2" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433?2" "CREATOR" "y3tii"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433?2" "DESCRIPTION" "Adds the materials required per attempt, average completion percentage and finishing materials, to the popup tooltip given when you mouseover a blacksmithing or tailor scroll."
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "" "mabi-pack2"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "FILE1" "mabi-pack2\mabi-pack2.exe"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "FILES" "1"
@@ -10323,7 +10294,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD454" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD454" "CREATOR" "Dehol"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD454" "DESCRIPTION" "MabiCooker2 Ruler and Cooking Information"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD455" "" "Quest Interface Abbreviated 1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD455" "FILE1" "\data\xml\questcategory.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD455" "FILE1" "\data\local\xml\questcategory.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD455" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD455" "CREATOR" "Draconis"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD455" "DESCRIPTION" "Simplifies Quest Interface"
