@@ -1,4 +1,4 @@
-version: 382.0.15.33
+version: 383.0.16.33
 clone_depth: 5
 skip_tags: true
 image: Visual Studio 2017
@@ -9,9 +9,9 @@ build_script:
 artifacts:
 - path: '*.exe'
   name: uotiara
-- path: 'UOTiara.pack'
+- path: 'UOTiara.it'
   name: uotiara
-- path: 'language.pack'
+- path: 'language.it'
   name: uotiara
 
 deploy:

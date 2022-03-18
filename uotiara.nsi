@@ -1,5 +1,5 @@
-!define UOSHORTVERSION        "382"
-!define UOLONGVERSION         "0.15.33"
+!define UOSHORTVERSION        "383"
+!define UOLONGVERSION         "0.16.33"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -308,7 +308,7 @@ FunctionEnd
 Function fin_pre
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Settings" "NumFields" "6"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Type" "CheckBox"
-WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Text" "&Run UOTiaraPack.bat (Make UOTiara.pack)"
+WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Text" "&Run UOTiaraPack.bat (Make UOTiara.it)"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Left" "120"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Right" "315"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Top" "130"
@@ -329,13 +329,13 @@ Function fin_leave
 ReadINIStr $0 "$PLUGINSDIR\iospecial.ini" "Field 6" "State"
 StrCmp $0 "0" end
 SetOutPath "$INSTDIR"
-IfFileExists $INSTDIR\UOTiaraPack.bat MabiPackerFound1 MabiPackerNotFound1
-MabiPackerFound1:
+IfFileExists $INSTDIR\UOTiaraPack.bat mabi-pack2Found1 mabi-pack2NotFound1
+mabi-pack2Found1:
 	StrCpy $R7 ".oninstsuccess Execute 1 $INSTDIR\UOTiaraPack.bat"
 	SetOutPath "$INSTDIR"
 	Call DumpLog1
 	ExecShell "" "$INSTDIR\UOTiaraPack.bat"
-MabiPackerNotFound1:
+mabi-pack2NotFound1:
 end:
 FunctionEnd
 
@@ -731,119 +731,22 @@ RMDir "$INSTDIR\Hyddwn Launcher"
 no4:
 !macroend
 
-Section "MabiPacker" MOD434
-SetOutPath "$INSTDIR\MabiPacker"
-IfFileExists $INSTDIR\MabiPacker\MabinogiResource.dll MabiPackerFound2 MabiPackerNotFound2
-MabiPackerNotFound2:
-File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\MabiPacker.exe.config"
-File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\Be.Windows.Forms.HexBox.dll"
-File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\DevIL.dll"
-File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\MabinogiResource.dll"
-File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\MabinogiResource.net.dll"
-File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\Microsoft.WindowsAPICodePack.dll"
-File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\Microsoft.WindowsAPICodePack.Shell.dll"
-File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\Tao.DevIl.dll"
-File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\MabiPacker.exe"
-File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\MabiPacker.pdb"
-
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\MabiPacker.exe.config"
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\ControlzEx.dll"
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\ICSharpCode.AvalonEdit.dll"
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\MabinogiResource.net.dll"
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\MahApps.Metro.dll"
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\MahApps.Metro.IconPacks.dll"
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\Ookii.Dialogs.Wpf.dll"
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\Pfim.dll"
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\System.Diagnostics.DiagnosticSource.dll"
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\System.Windows.Interactivity.dll"
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\WPFHexaEditor.dll"
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\WPFLocalizeExtension.dll"
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\XAMLMarkupExtensions.dll"
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\MabiPacker.exe"
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\ControlzEx.pdb"
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\MabiPacker.pdb"
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\MahApps.Metro.IconPacks.pdb"
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\MahApps.Metro.pdb"
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\Ookii.Dialogs.Wpf.pdb"
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\WPFLocalizeExtension.pdb"
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\XAMLMarkupExtensions.pdb"
-
-SetOutPath "$INSTDIR\ja"
-File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\ja\MabiPacker.resources.dll"
-
-;File "${srcdir}\Tiara's Moonshine Mod\MabiPacker\Tools\MabiPacker-2.0alpha\ja\MabiPacker.resources.dll"
-SetOutPath "$INSTDIR\ko"
-File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\ko\MabiPacker.resources.dll"
-
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\ko\MabiPacker.resources.dll"
-SetOutPath "$INSTDIR\zh"
-File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\zh-CN\MabiPacker.resources.dll"
-File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker\zh-TW\MabiPacker.resources.dll"
-
-;File "${srcdir}\Tiara's Moonshine Mod\Tools\MabiPacker-2.0alpha\zh\MabiPacker.resources.dll"
-MabiPackerFound2:
+Section "mabi-pack2" MOD434
+SetOutPath "$INSTDIR\mabi-pack2"
+File "${srcdir}\Tiara's Moonshine Mod\Tools\mabi-pack2\mabi-pack2.exe"
 SetOutPath "$INSTDIR\"
 Call UOTiaraPackBuild
-WriteRegStr HKCR ".pack" "" "MP.pack"
-WriteRegStr HKCR "MP.pack" "" "PACK File"
-WriteRegStr HKCR "MP.pack\shell" "" "Open"
-WriteRegStr HKCR "MP.pack\shell\Open\command" "" '"$INSTDIR\MabiPacker\MabiPacker.exe" "%1"'
-WriteRegStr HKCR "MP.pack\DefaultIcon" "" "$INSTDIR\MabiPacker\MabiPacker.exe"
+WriteRegStr HKCR ".it "" "IT.it"
+WriteRegStr HKCR "IT.it" "" "IT File"
+WriteRegStr HKCR "IT.it\shell" "" "Open"
+WriteRegStr HKCR "IT.it\shell\Open\command" "" '"$INSTDIR\mabi-pack2\mabi-pack2.exe" "%1"'
+WriteRegStr HKCR "IT.it\DefaultIcon" "" "$INSTDIR\mabi-pack2\mabi-pack2.exe"
 SectionIn 1
 SectionEnd
 !macro Remove_${MOD434}
-  DetailPrint "*** Removing logue's MabiPacker..."
-Delete "$INSTDIR\MabiPacker.pdb"
-Delete "$INSTDIR\MabiPacker.exe"
-;Delete "$INSTDIR\Tao.DevIl.dll"
-Delete "$INSTDIR\Microsoft.WindowsAPICodePack.Shell.dll"
-Delete "$INSTDIR\Microsoft.WindowsAPICodePack.dll"
-;Delete "$INSTDIR\MabinogiResource.dll"
-;Delete "$INSTDIR\MabinogiResource.net.dll"
-Delete "$INSTDIR\Mabinogi.resources.dll"
-;Delete "$INSTDIR\DevIL.dll"
-Delete "$INSTDIR\Be.Windows.Forms.HexBox.dll"
-Delete "$INSTDIR\MabiPacker.exe.config"
-Delete "$INSTDIR\MabiPacker.application"
-Delete "$INSTDIR\ko\MabiPacker.resources.dll"
-Delete "$INSTDIR\ja\MabiPacker.resources.dll"
-
-RMDir "$INSTDIR\ko"
-RMDir "$INSTDIR\ja"
-RMDir /r "$INSTDIR\zh-TW"
-RMDir /r "$INSTDIR\zh-CN"
-
-Delete "$INSTDIR\MabiPacker\MabiPacker.exe.config"
-Delete "$INSTDIR\MabiPacker\ControlzEx.dll"
-Delete "$INSTDIR\MabiPacker\ICSharpCode.AvalonEdit.dll"
-Delete "$INSTDIR\MabiPacker\MabinogiResource.net.dll"
-Delete "$INSTDIR\MabiPacker\MahApps.Metro.dll"
-Delete "$INSTDIR\MabiPacker\MahApps.Metro.IconPacks.dll"
-Delete "$INSTDIR\MabiPacker\Ookii.Dialogs.Wpf.dll"
-Delete "$INSTDIR\MabiPacker\Pfim.dll"
-Delete "$INSTDIR\MabiPacker\System.Diagnostics.DiagnosticSource.dll"
-Delete "$INSTDIR\MabiPacker\System.Windows.Interactivity.dll"
-Delete "$INSTDIR\MabiPacker\WPFHexaEditor.dll"
-Delete "$INSTDIR\MabiPacker\WPFLocalizeExtension.dll"
-Delete "$INSTDIR\MabiPacker\XAMLMarkupExtensions.dll"
-Delete "$INSTDIR\MabiPacker\MabiPacker.exe"
-Delete "$INSTDIR\MabiPacker\ControlzEx.pdb"
-Delete "$INSTDIR\MabiPacker\MabiPacker.pdb"
-Delete "$INSTDIR\MabiPacker\MahApps.Metro.IconPacks.pdb"
-Delete "$INSTDIR\MabiPacker\MahApps.Metro.pdb"
-Delete "$INSTDIR\MabiPacker\Ookii.Dialogs.Wpf.pdb"
-Delete "$INSTDIR\MabiPacker\WPFLocalizeExtension.pdb"
-Delete "$INSTDIR\MabiPacker\XAMLMarkupExtensions.pdb"
-
-Delete "$INSTDIR\MabiPacker\ja\MabiPacker.resources.dll"
-Delete "$INSTDIR\MabiPacker\ko\MabiPacker.resources.dll"
-Delete "$INSTDIR\MabiPacker\zh\MabiPacker.resources.dll"
-Delete "$INSTDIR\MabiPacker\zh\WPFHexaEditor.resources.dll"
-
-RMDir "$INSTDIR\MabiPacker\ko"
-RMDir "$INSTDIR\MabiPacker\ja"
-RMDir /r "$INSTDIR\zh"
-RMDir /r "$INSTDIR\MabiPacker"
+  DetailPrint "*** Removing mabi-pack2..."
+Delete "$INSTDIR\mabi-pack2\mabi-pack2.exe"
+RMDir "$INSTDIR\mabi-pack2"
 !macroend
 
 Section "Kanan" MOD435
@@ -10229,11 +10132,11 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433?2" "FILE1" "data\xml\manual
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433?2" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433?2" "CREATOR" "y3tii"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433?2" "DESCRIPTION" "Adds the materials required per attempt, average completion percentage and finishing materials, to the popup tooltip given when you mouseover a blacksmithing or tailor scroll."
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "" "MabiPacker"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "FILE1" "MabiPacker\Mabipacker.exe"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "" "mabi-pack2"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "FILE1" "mabi-pack2\mabi-pack2.exe"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "CREATOR" "Logue"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "DESCRIPTION" "Read and Write Data Folder to and from .pack files"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "CREATOR" "regomne"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "DESCRIPTION" "Read and Write Data Folder to and from .it files"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD435" "" "Kanan"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD435" "FILE1" "Kanan\Loader.exe"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD435" "FILE2" "Kanan\Loader.txt"
@@ -10604,7 +10507,7 @@ Delete "$DESKTOP\Unofficial Tiara.lnk"
 Delete "$DESKTOP\Mabinogi.lnk"
 Delete "$SMPROGRAMS\Unofficial Tiara\Unofficial Tiara.lnk"
 Delete "$INSTDIR\Solaris.exe"
-Delete "$INSTDIR\Package\UOTiara.pack"
+Delete "$INSTDIR\Package\UOTiara.it"
 Delete "$DESKTOP\Hyddwn Launcher.exe.lnk"
 Delete "$SMPROGRAMS\Unofficial Tiara\Hyddwn Launcher.exe.lnk"
 Delete "$SMPROGRAMS\Unofficial Tiara\Launcher.exe.lnk"
@@ -10638,7 +10541,7 @@ RMDir /r "$INSTDIR\Hyddwn Launcher\ja-JP"
 RMDir /r "$INSTDIR\ja-JP"
 Delete "C:\UOTiara_installlog.txt"
 
-SetFileAttributes $INSTDIR\Package\language.pack NORMAL
+SetFileAttributes $INSTDIR\Package\language.it NORMAL
 ;First removes all optional components
 ;!insertmacro SectionList "RemoveSection"
 
@@ -10871,7 +10774,7 @@ Push $5
         SectionGetFlags ${MOD435} $7
         ;Hyddwn Launcher
         SectionGetFlags ${MOD395} $8
-        ;MabiPacker
+        ;mabi-pack2
         SectionGetFlags ${MOD434} $9
 
   		${If} $7 == 1
@@ -11182,7 +11085,7 @@ Call .onSelChange
 ;SectionGetFlags ${MOD433} $7
 ;IntOp $7 $7 | ${SECTION_OFF}
 ;SectionSetFlags ${MOD433} $7
-;Disable MabiPacker Selection
+;Disable mabi-pack2 Selection
 ;SectionGetFlags ${MOD434} $7
 ;IntOp $7 $7 | ${SECTION_OFF}
 ;SectionSetFlags ${MOD434} $7
@@ -11270,7 +11173,7 @@ closeclient:
    KillProc::KillProcesses
    Push $0
    
-   StrCpy $0 "MabiPacker.exe"
+   StrCpy $0 "mabi-pack2.exe"
    KillProc::KillProcesses
    Push $0
    
@@ -11408,10 +11311,10 @@ Call DumpLog1
 
 DeleteRegKey HKLM "${REG_UNINSTALL}\Sections"
 WriteINIStr $OUTDIR\AutoBot\config.ini Settings packed 1
-SetFileAttributes "$INSTDIR\Package\UOTiara.pack" NORMAL
-Delete "$INSTDIR\Package\UOTiara.pack"
-SetFileAttributes $INSTDIR\Package\language.pack NORMAL
-StrCpy $R7 ".oninstsuccess Set .packs at normal"
+SetFileAttributes "$INSTDIR\Package\UOTiara.it" NORMAL
+Delete "$INSTDIR\Package\UOTiara.it"
+SetFileAttributes $INSTDIR\Package\language.it NORMAL
+StrCpy $R7 ".oninstsuccess Set .its at normal"
 Call DumpLog1
 
 WriteRegStr HKCU Software\Nexon\Mabinogi "" "$INSTDIR"
@@ -11725,31 +11628,17 @@ Function UOTiaraPackBuild
 Delete "$INSTDIR\UOTiaraPack.bat"
 StrCpy $R7 "cd $INSTDIR"
 Call UOTiaraPack
-StrCpy $R7 "attrib -r $INSTDIR\package\language.pack"
+StrCpy $R7 "attrib -r $INSTDIR\package\data_99999.it"
 Call UOTiaraPack
-StrCpy $R7 "attrib -r $INSTDIR\package\UOTiara.pack"
+StrCpy $R7 "xcopy "$INSTDIR\data\" "$INSTDIR\UOTiara\data\" /q /s /y /c /e"
 Call UOTiaraPack
-StrCpy $R7 "$INSTDIR\MabiPacker\MabiPacker.exe /input $INSTDIR\package\language.pack /output . /version 999 /level 1"
+StrCpy $R7 "del $INSTDIR\package\data_99999.it"
 Call UOTiaraPack
-StrCpy $R7 "copy $INSTDIR\data\local\code $INSTDIR\data\code"
+StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara -o $INSTDIR\package\data_99999.it"
 Call UOTiaraPack
-StrCpy $R7 "copy $INSTDIR\data\local\xml $INSTDIR\data\xml"
+StrCpy $R7 "rmdir /q /s  $INSTDIR\UOTiara"
 Call UOTiaraPack
-StrCpy $R7 "copy $INSTDIR\data\code $INSTDIR\data\local\code"
-Call UOTiaraPack
-StrCpy $R7 "copy $INSTDIR\data\xml $INSTDIR\data\local\xml"
-Call UOTiaraPack
-StrCpy $R7 "copy $INSTDIR\data\world.english.txt $INSTDIR\data\local\world.english.txt"
-Call UOTiaraPack
-StrCpy $R7 "del $INSTDIR\package\language.pack"
-Call UOTiaraPack
-StrCpy $R7 "del $INSTDIR\package\UOTiara.pack"
-Call UOTiaraPack
-StrCpy $R7 "$INSTDIR\MabiPacker\MabiPacker.exe /input $INSTDIR\data /output $INSTDIR\package\UOTiara.pack /version 999 /level 1"
-Call UOTiaraPack
-StrCpy $R7 "$INSTDIR\MabiPacker\MabiPacker.exe /input $INSTDIR\data\local /output $INSTDIR\package\language.pack /version 999 /level 1"
-Call UOTiaraPack
-StrCpy $R7 "attrib +r $INSTDIR\package\UOTiara.pack"
+StrCpy $R7 "attrib +r $INSTDIR\package\data_99999.it"
 Call UOTiaraPack
 FunctionEnd
 
