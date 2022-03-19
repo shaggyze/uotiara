@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
 !define UOSHORTVERSION        "383"
-!define UOLONGVERSION         "0.16.37"
+!define UOLONGVERSION         "0.16.38"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -438,6 +438,8 @@ WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "ScouterBoss" "<mini>Boss</mini>"
 WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "ExtraThreads" "0"
 WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "Debug" "1"
 WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "ZoomMax" "6000"
+WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "ChMoveDescCut" "0"
+WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "ShowUnknownTitles" "0"
 
 CreateShortCut "$SMPROGRAMS\Unofficial Tiara\Abyss.lnk" "$INSTDIR\Abyss.ini" "" "$INSTDIR\Abyss.ini" "0" "SW_SHOWNORMAL" "ALT|CONTROL|F9" "Abyss.ini"
 CreateShortCut "$DESKTOP\Abyss.lnk" "$INSTDIR\Abyss.ini" "" "$INSTDIR\Abyss.ini" "0" "SW_SHOWNORMAL" "ALT|CONTROL|F9" "Abyss.ini"
@@ -629,7 +631,7 @@ CreateShortCut "$SMPROGRAMS\Unofficial Tiara\Hyddwn Launcher.exe.lnk" "$INSTDIR\
 SetRegView 64
 WriteRegStr HKLM "Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers\" "$INSTDIR\Hyddwn Launcher\Hyddwn Launcher.exe" "RUNASADMIN"
 SetRegView 32
-SectionIn 1 3
+SectionIn 1
 ${Else}
   DetailPrint "*** Removing Hyddwn Launcher..."
   
@@ -771,7 +773,7 @@ WriteRegStr HKCR "IT.it" "" "IT File"
 WriteRegStr HKCR "IT.it\shell" "" "Open"
 WriteRegStr HKCR "IT.it\shell\Open\command" "" '"$INSTDIR\mabi-pack2\mabi-pack2.exe" "%1"'
 WriteRegStr HKCR "IT.it\DefaultIcon" "" "$INSTDIR\mabi-pack2\mabi-pack2.exe"
-SectionIn RO
+SectionIn 1 2 3 4
 SectionEnd
 !macro Remove_${MOD434}
   DetailPrint "*** Removing mabi-pack2..."
@@ -10092,6 +10094,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "FILE1" "mabi-pack2\mabi-p
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "CREATOR" "regomne"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "DESCRIPTION" "Read and Write Data Folder to and from .it files"
+WriteRegDWORD HKLM "${REG_UNINSTALL}\Components\MOD434" "Installed" 1
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD435" "" "Kanan"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD435" "FILE1" "Kanan\Loader.exe"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD435" "FILE2" "Kanan\Loader.txt"
@@ -10713,6 +10716,9 @@ FunctionEnd
 
 Function .onSelChange
 startsel:
+
+SectionSetFlags ${MOD434} ${SF_SELECTED}
+
 Push $5
   !insertmacro SaveSections $R1
   ; save original number for comparison
@@ -11076,6 +11082,13 @@ SectionEnd
 
 
 Function myonguiinit
+UserInfo::GetAccountType
+pop $0
+${If} $0 != "admin" ;Require admin rights on NT4+
+    MessageBox mb_iconstop "Administrator rights required!"
+    SetErrorLevel 740 ;ERROR_ELEVATION_REQUIRED
+    Quit
+${EndIf}
 SetOutPath $TEMP
 StrCpy $5 "UOTiara_installlog.txt"
 Push $5
@@ -11201,6 +11214,7 @@ AbyssNotFound2:
 
 StrCpy $FontBMP "ydygo550.bmp"
 ${FontBMPCreate} $FontBMP
+
   ;Reads components status for registry
   !insertmacro SectionList "InitSection"
 StrCpy $R7 "End myonguiinit"
