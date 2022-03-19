@@ -1,4 +1,4 @@
-version: 383.0.16.36
+version: 383.0.16.37
 clone_depth: 5
 skip_tags: true
 image: Visual Studio 2017
@@ -8,6 +8,14 @@ build_script:
 
 artifacts:
 - path: '*.exe'
+  name: uotiara
+- path: 'data_99991.it'
+  name: uotiara
+- path: 'data_99993.it'
+  name: uotiara
+- path: 'data_99995.it'
+  name: uotiara
+- path: 'data_99997.it'
   name: uotiara
 - path: 'data_99999.it'
   name: uotiara

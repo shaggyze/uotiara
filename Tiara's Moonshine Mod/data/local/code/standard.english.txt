@@ -1,0 +1,973 @@
+﻿autobotdescmgr.1	Combat EXP Bonus +{0}%
+autobotdescmgr.2	Movement Speed +{0}%
+autobotdescmgr.3	{0}
+autobotdescmgr.4	Critical Damage +{0}%
+autobotdescmgr.5	Pet Combat EXP Bonus +{0}%
+autobotdescmgr.6	음악 버프 스킬 지속시간 {0}
+autobotdescmgr.7	공격 속도 {0}%
+autobotdescmgr.8	Gathering Speed +{0}%
+booleanfunctionhandler.1	When you are an Elf or supporting an Elf
+booleanfunctionhandler.2	When you are a Giant or supporting a Giant
+booleanfunctionhandler.3	Summoning Golem
+booleanfunctionhandler.4	Installing Barrier Spikes
+booleanfunctionhandler.5	While pet summoned
+campfirespiritmgr.1	[패널티 초기화] 동일 모닥불 반복 소각 패널티
+campfirespiritmgr.2	[패널티 초기화] 일일 반복 소각 패널티
+campfirespiritmgr.3	[패널티 정보] 패널티 총합: {0}%\n -> 동일 모닥불 반복 소각 패널티: {1}%, 소각횟수: {2}, 프랍ID: {3}\n -> 일일 반복 소각 패널티: {4}%
+camputil.1	No Camping Kit in the inventory.
+camputil.2	The Camping Kit was added to the Personal Shop.
+chainskilldesc.1	You can use this skill after using stage {0} Combo.
+commercedescmgr.1	.
+compareskilllevelhandler.1	If the rank of {0} is dan {1}
+compareskilllevelhandler.2	If the rank of {0} is dan {1} or higher
+compareskilllevelhandler.3	If the rank of {0} is dan {1} or lower
+compareskilllevelhandler.4	While in Commerce with {0} Rank {1} or higher
+compareskilllevelhandler.5	While in Commerce with {0} Rank {1} or higher
+compareskilllevelhandler.6	when the {0} Technique is Lv. {1} or higher
+continentmgr.1	Uladh
+continentmgr.2	Iria
+continentmgr.3	Belvast Island
+continentmgr.4	Moye Ocean
+divineknightdescmgr.1	Warding
+divineknightdescmgr.2	Binding
+divineknightdescmgr.3	Smiting
+dungeon.downstairs	<mini>TO</mini>  Downstairs
+erinnlandachievementdescmgr.1	Basic
+erinnlandachievementdescmgr.2	Limited
+erinnlandachievementdescmgr.3	Mini-game
+erinnlandachievementdescmgr.4	Attraction
+etc.combat_power.strong1	+100 CP
+etc.combat_power.strong2	+500 CP
+etc.combat_power.strong3	+1000 CP
+etc.combat_power.strong4	+1500 CP
+etc.combat_power.weak1	-100 CP
+etc.combat_power.weak2	-500 CP
+etc.combat_power.weak3	-1000 CP
+etc.combat_power.weak4	-1500 CP
+etc.daysafter	{0} day(s)
+etc.explo_level	Exploration Level
+etc.exploquest_result_desc_reward_exp	Exploration EXP {0}
+etc.gamemonth_albaneiler	Alban Eiler
+etc.gamemonth_albaneiler_desc	INCREASE IN SUCCESS RATE FOR PRODUCTION SKILLS.\tINCREASE IN RANK-UP BONUS FOR LIFE SKILLS.
+etc.gamemonth_albaneiler_desc_2	INCREASE IN SUCCESS RATE FOR PRODUCTION SKILLS.\nINCREASE IN RANK-UP BONUS FOR LIFE SKILLS.
+etc.gamemonth_albanelved	Alban Elved
+etc.gamemonth_albanelved_desc	DISCOUNT PRICES FOR GOODS SOLD AT SHOPS.\tDECREASE IN BANK FEES.
+etc.gamemonth_albanelved_desc_2	DISCOUNT PRICES FOR GOODS SOLD AT SHOPS.\nDECREASE IN BANK FEES.
+etc.gamemonth_albanheruin	Alban Heruin
+etc.gamemonth_albanheruin_desc	DECREASE IN PENALTIES WHEN KNOCKED UNCONSCIOUS.\tINCREASE IN RANK-UP BONUS FOR MAGIC SKILLS.\tALL POTIONS BECOME MORE POTENT.
+etc.gamemonth_albanheruin_desc_2	DECREASE IN PENALTIES WHEN KNOCKED UNCONSCIOUS.\nINCREASE IN RANK-UP BONUS FOR MAGIC SKILLS.\nALL POTIONS BECOME MORE POTENT.
+etc.gamemonth_baltane	Baltane
+etc.gamemonth_baltane_desc	INCREASE IN REWARDS FOR PART-TIME JOBS.\tDUNGEON MAPS CHANGE EVEN IF THE SAME ITEM IS DROPPED.\tINCREASE IN DUNGEON ITEM DROP RATE.
+etc.gamemonth_baltane_desc_2	INCREASE IN REWARDS FOR PART-TIME JOBS.\nDUNGEON MAPS CHANGE EVEN IF THE SAME ITEM IS DROPPED.\nINCREASE IN DUNGEON ITEM DROP RATE.
+etc.gamemonth_friday	Friday
+etc.gamemonth_imbolic	Imbolic
+etc.gamemonth_imbolic_desc	INCREASE IN CRITICAL HIT RATE.\tINCREASE IN LUCKY FINISH RATE.\tINCREASE IN RANK-UP BONUS FOR COMBAT SKILLS.\tINCREASE IN RANK-UP BONUS FOR MUSIC SKILLS.
+etc.gamemonth_imbolic_desc_2	INCREASE IN CRITICAL HIT RATE.\nINCREASE IN LUCKY FINISH RATE.\nINCREASE IN RANK-UP BONUS FOR COMBAT SKILLS.\nINCREASE IN RANK-UP BONUS FOR MUSIC SKILLS.
+etc.gamemonth_lughnasadh	Lughnasadh
+etc.gamemonth_lughnasadh_desc	INCREASE IN SUCCESS RATE FOR ENCHANTS.\tINCREASE IN ITEM DROP RATE FROM ANIMALS AND NATURE.\tDECREASE IN STAMINA SPENT ON READING BOOKS.\tINCREASE IN SUCCESS RATE FOR LEARNING SKILLS FROM SEAL BOOKS.
+etc.gamemonth_lughnasadh_desc_2	INCREASE IN SUCCESS RATE FOR ENCHANTS.\nINCREASE IN ITEM DROP RATE FROM ANIMALS AND NATURE.\nDECREASE IN STAMINA SPENT ON READING BOOKS.\nINCREASE IN SUCCESS RATE FOR LEARNING SKILLS FROM SEAL BOOKS.
+etc.gamemonth_monday	Monday
+etc.gamemonth_notice	Today is {0} in Erinn.\tHere are Today's Bonuses:\t{1}
+etc.gamemonth_samhain	Samhain
+etc.gamemonth_samhain_desc	CHARACTER AGES ONE YEAR.\tINCREASE IN FOOD EFFECTS.\tINCREASE IN PERFECT SKILL-TRAINING BONUS.
+etc.gamemonth_samhain_desc_2	CHARACTER AGES ONE YEAR.\nINCREASE IN FOOD EFFECTS.\nINCREASE IN PERFECT SKILL-TRAINING BONUS.
+etc.gamemonth_saturday	Saturday
+etc.gamemonth_sunday	Sunday
+etc.gamemonth_thursday	Thursday
+etc.gamemonth_tuesday	Tuesday
+etc.gamemonth_wednesday	Wednesday
+etc.gameword.accessory	Accessory
+etc.gameword.ceann_harbor	Port Ceann
+etc.gameword_elemental_fire	Fire
+etc.gameword_elemental_ice	Ice
+etc.gameword_elemental_lightning	Lightning
+etc.gameword_etc_exp	Experience Point
+etc.gameword_item.attack_max	Max Attack Power
+etc.gameword_item.attack_min	Min Attack Power
+etc.gameword_item.attack_speed	Attack Speed
+etc.gameword_item.balance	Balance
+etc.gameword_item.critical	Critical
+etc.gameword_item.defense	Defense Power
+etc.gameword_item.down_hit_count	Combo Hits
+etc.gameword_item.durability	Durability
+etc.gameword_item.durability_max	Max Durability
+etc.gameword_item.protect	Protection
+etc.gameword_item.range	Effective Range
+etc.gameword_item.wound_max	Max Injury Rate
+etc.gameword_item.wound_min	Min Injury Rate
+etc.gameword_param_age	Age
+etc.gameword_param_attackmax	Max Damage
+etc.gameword_param_attackmin	Min Damage
+etc.gameword_param_ciritcal	Critical
+etc.gameword_param_defense	Defense
+etc.gameword_param_dexterity	Dexterity
+etc.gameword_param_food	Hunger
+etc.gameword_param_intelligence	Intelligence
+etc.gameword_param_level	Level
+etc.gameword_param_life	HP
+etc.gameword_param_lifemax	MaxHP
+etc.gameword_param_luck	Luck
+etc.gameword_param_mana	MP
+etc.gameword_param_manamax	MaxMP
+etc.gameword_param_protect	Protection
+etc.gameword_param_rate	Damage Balance
+etc.gameword_param_stamina	Stamina
+etc.gameword_param_staminamax	Max Stamina
+etc.gameword_param_strength	STR
+etc.gameword_param_wattackmax	Max Injury Rate
+etc.gameword_param_wattackmin	Min Injury Rate
+etc.gameword_param_will	Will
+etc.gameword_param_wound	Wound
+etc.house_estate.bidding_due	{0}/{1},  {2}:{3} 
+etc.house_form.site_address_num	Shop No. 
+etc.house_form.site_address_street	Street
+etc.interface_houseestate.0	{0}/{1},  {2}:{3} 
+etc.invalid_material	One of the ingredients is incomplete.
+etc.invalid_skill_trainingcondition	\nInvalid skill data.\nFull trained skill EXP is lower than 100.\nSkill Name: {0}, Skill Level: {1}
+etc.journaltime	{2}:00, {0}/{1}
+etc.option.in_arbeit	If part-time job {0} is completed more than {1} times
+etc.option.in_broken	When broken
+etc.option.in_condition	When in a state of {0}
+etc.option.in_month	While being {0}
+etc.option.in_title	While holding {0} title
+etc.option.not_in_broken	When not broken
+etc.quest_of_who	{0}'s {1}
+etc.quest_result_desc_item_quantity	{1} {0}
+etc.quest_result_desc_reward_ap	{0}
+etc.quest_result_desc_reward_exp	{1:exp_value} {0:GW_EXP}
+etc.quest_result_desc_reward_gold	{0}
+etc.quest_result_desc_reward_questscroll	Quest Scroll
+etc.quest_result_desc_reward_unit_of_ap	Ability Point
+etc.quest_result_desc_reward_writechronicle	Record in Exploration Chronicle
+etc.ruin_discoverer	 {1}, which was just discovered by {0}
+etc.skill_training_string	Novice
+interface_buffer.1	{0} Recovery Speed {1}%
+interface_buffer.2	{0} Recovery: {2} points every {1} sec.
+interface_buffer.3	{0:param} +{1:value}
+interface_buffer.4	{0:param} -{1:value}
+interface_character.1	You cannot Continent Warp yet.
+interface_character.2	Port Cobh
+interface_character.3	Visit Belvast first by taking a ship from Port Cobh.
+interface_character.4	Cannot continent warp.
+interface_character.5	You cannot Continent Warp yet.
+interface_character.6	You cannot teleport to a different continent while participating in a Capture the Flag event.
+interface_character.7	You cannot teleport to a different continent while participating in a Jousting Tournament.
+interface_character.8	You cannot teleport to a different continent at this time.
+interface_character.9	You cannot teleport to a different continent from a Homestead.
+interface_character.10	You cannot move to another continent from the Dressing Room.
+interface_character.11	Ears
+interface_character.12	Eyes
+interface_character.13	Mouth
+interface_character.14	 -type items cannot be equipped together.
+interface_character.15	 that makes you completely unique! 
+interface_character.16	Probably not a good idea to dress like this.
+interface_character.17	You cannot move to another continent from this location.
+interface_character.18	You cannot do that right now.\nContinent Warp is available after the quest [Fomor Threat].
+interface_characteretc.1	You can't save this location.
+interface_characteretc.2	You cannot save during PvP.
+interface_characteretc.3	You cannot save while mounted.
+interface_characteretc.4	You cannot save while jousting.
+interface_characteretc.5	You cannot save during a fashion contest.
+interface_characteretc.6	You cannot teleport while mounted.
+interface_characteretc.7	You cannot teleport while in combat.
+interface_characteretc.8	You cannot teleport while riding a Raft/Hot-Air Balloon/Boat.
+interface_characteretc.9	You cannot teleport while jousting.
+interface_characteretc.10	You cannot teleport at this time.
+interface_characteretc.11	You can't save this location.
+interface_characteretc.12	You cannot watch an episode with this character.
+interface_characteretc.13	You cannot watch an episode from this location.
+interface_characteretc.14	You cannot watch an episode while unconscious.
+interface_characteretc.15	You cannot watch an episode while riding.
+interface_characteretc.16	You cannot watch an episode during a Jousting Tournament.
+interface_characteretc.17	You cannot watch an episode during a fashion contest.
+interface_characteretc.18	You cannot watch an episode while trading.
+interface_characteretc.19	You cannot watch an episode while riding a Raft/Hot-Air Balloon/Boat.
+interface_characteretc.20	You cannot watch an episode during PVP.
+interface_characteretc.21	You can't move to that area.
+interface_characteretc.22	You can't register in this region.
+interface_characteretc.23	You can't warp while engaged in commerce.
+interface_condition.1	You cannot do anything while your hands are full.\nPlease change equipment and try again.
+interface_dungeonguide.1	Attempt failed.
+interface_dungeonguide.2	Attempt failed.\nPlease double-check the requirements to enter.
+interface_dungeonguide.3	Characters that are still doing the tutorial are not eligible.
+interface_echostone.1	Strength
+interface_echostone.2	Intelligence
+interface_echostone.3	Dexterity
+interface_echostone.4	Will
+interface_echostone.5	HP, Mana, Stamina
+interface_echostone.6	Strange Item
+interface_echostone.7	Can only be used when difficulty is {0} or higher.
+interface_event.1	You cannot use this item because you do not possess the required Technique.
+interface_event.2	The paper flip event is not in progress.
+interface_event.3	A match is already in progress.
+interface_event.4	You can't have a match in this region.
+interface_event.5	You can't do this while incapacitated from battle.
+interface_event.6	You can't do this while in PvP.
+interface_event.7	You can't do this while in pet PvP.
+interface_event.8	You can't do this while mounted.
+interface_event.9	You can't do this on skis.
+interface_event.10	You can't do this during a fashion show.
+interface_event.11	You can't do this during a water balloon fight.
+interface_event.12	You can't do this in an event hall.
+interface_event.13	A Rock Paper Scissors match is already in progress.
+interface_event.14	You can't do this during battle.
+interface_event.15	You can't do this while in PvP.
+interface_event.16	You can't do this while using a skill.
+interface_event.17	You can't do this during a Jousting Tournament.
+interface_event.18	You can't do this while sitting in a chair.
+interface_focuslisten.1	You can block up to 50 people.
+interface_fynnpetcomponent.1	You can't use this skill while you're unconscious.
+interface_fynnpetcomponent.2	Cannot be used on a Homestead.
+interface_houseform.1	Street {0} Shop No. {1}
+interface_inventory.1	A portion of the Mana connected to the wand has disappeared.
+interface_inventory.2	Although the durability of the wand reached 0,\n{0} prevented the Mana on the wand from evaporating.
+interface_inventory.3	Although the durability of the wand reached 0,\n{0} partially prevented the Mana on the wand from evaporating.
+interface_inventory.4	As the durability of the wand reached 0,\na portion of Mana on the wand has evaporated!!
+interface_inventory.5	As the durability of the wand reached 0,\nall of the Mana on the wand have evaporated!!
+interface_inventory.6	{0} prevented Mana from evaporating.
+interface_inventory.7	{0} partially prevented Mana from evaporating.
+interface_inventory.8	A scented candle is already being burned at this campfire, so you can't burn another one.
+interface_inventory.9	Campfire Skill Rank too low. (Current Rank: {0})
+interface_inventory.10	You can't burn that scented candle because your Campfire Skill Rank isn't high enough.
+interface_item.1	Holy
+interface_item.2	Empty Music Scores cannot be included.
+interface_item.3	Music Scores with no uses left cannot be included.
+interface_item.4	 (Not Activated)
+interface_personalrankingmgr.1	Girgashiy
+interface_personalshopcustomer.1	Armor
+interface_personalshopcustomer.2	Weapons
+interface_personalshopcustomer.3	Accessories
+interface_personalshopcustomer.4	Enchants
+interface_personalshopcustomer.5	Potions/Food
+interface_personalshopcustomer.6	Books
+interface_personalshopcustomer.7	Misc
+interface_personalshopcustomer.8	All
+interface_personalshopcustomer.9	None
+interface_personalshopcustomer.10	Human
+interface_personalshopcustomer.11	Human (M)
+interface_personalshopcustomer.12	Human (F)
+interface_personalshopcustomer.13	Elf
+interface_personalshopcustomer.14	Elf (M)
+interface_personalshopcustomer.15	Elf (F)
+interface_personalshopcustomer.16	Giant
+interface_personalshopcustomer.17	Giant (M)
+interface_personalshopcustomer.18	Giant (F)
+interface_personalshopcustomer.19	All
+interface_personalshopcustomer.20	None
+interface_petmgr.1	You won't have any swallowing restrictions if you have the Dev Cat title.
+interface_petmgr.2	You can't swallow this monster.
+interface_petmgr.3	I don't think you can swallow this monster.
+interface_petmgr.4	You can't swallow this monster because it still has a lot of HP.
+interface_petmgr.5	You can't swallow this monster because it is too strong.
+interface_prop.1	 {1}, dispatched by {0}
+interface_prop.2	 {1}, opened by {0}
+interface_prop.3	{1}, opened by {0}
+interface_prop.4	 {1}, built by {0}
+interface_prop.5	Current Party Members : {0}
+interface_prop.6	Red Team Party Members : {0}
+interface_prop.7	Blue Team Party Members : {0}
+interface_quest.1	(Today's mission)
+interface_quest.2	(Today's mission)
+interface_quest.3	 (PC방 오늘의 미션)
+interface_quest.4	 (PC방 오늘의 미션)
+interface_quest.5	(Today's VIP Mission)
+interface_quest.6	(Today's VIP Mission)
+interface_quest.7	Fledgling
+interface_quest.8	Naive
+interface_quest.9	Senior
+interface_quest.10	Expert
+interface_quest.11	Wise
+interface_quest.12	Master
+interface_quest.13	Fledgling
+interface_quest.14	Easy
+interface_quest.15	Normal
+interface_quest.16	Hard
+interface_quest.17	Very Hard
+interface_quest.18	Master
+interface_quest.19	 (Renown Bonus)
+interface_quest.20	 (Premium Daily Shadow Mission)
+interface_quest.21	 (Premium Daily Shadow Mission)
+interface_quest.22	 (Special Daily Shadow Mission)
+interface_quest.23	 (Special Daily Shadow Mission)
+interface_quest.24	(Sky Blue Prism Bonus)
+interface_quest.25	(Sky Blue Prism Bonus)
+interface_quest.26	(Growth Support Charm Bonus)
+interface_quest.27	(Growth Support Charm Bonus)
+interface_rockpaperscissors.1	You can't play Rock Paper Scissors without any Match Tickets.
+interface_rockpaperscissors.2	The opponent does not have any Match Tickets.
+interface_rockpaperscissors.3	You moved to a different place in the middle of a Rock Paper Scissors match. Match cancelled.
+interface_rockpaperscissors.4	Your opponent moved to a different place in the middle of a Rock Paper Scissors match. Match cancelled.
+interface_rockpaperscissors.5	You have become incapacitated. The Rock Paper Scissors Match has been canceled.
+interface_rockpaperscissors.6	Your opponent has become incapacitated. The Rock Paper Scissors Match has been canceled.
+interface_rockpaperscissors.7	You can't play Rock Paper Scissors at this time.
+interface_rockpaperscissors.8	Your opponent can't play Rock Paper Scissors at this time.
+interface_servicemgr.1	Inventory Plus Kit
+interface_servicemgr.2	Mabinogi Premium Service
+interface_servicemgr.3	Mabinogi VIP Service
+interface_servicemgr.4	VIP 
+interface_shapeshift.1	You must be equipped with a Dream Catcher in order to transform.
+interface_shapeshift.2	You cannot transform now. Try again in {0} seconds.
+interface_shapeshift.3	You must cancel your current transformation in order to transform into a monster.
+interface_shapeshift.4	You cannot transform while you are on a mount.
+interface_shapeshift.5	This cannot be done while transformed.
+interface_shapeshift.6	You cannot transform while using an umbrella.
+interface_shapeshift.7	You cannot transform while using a fishing chair.
+interface_shapeshift.8	You cannot transform while placing a turret.
+interface_shapeshift.9	You cannot transform while using Control Marionette.
+interface_shapeshift.10	You cannot transform in this region.
+interface_shapeshift.11	You cannot transform during a fashion contest.
+interface_shapeshift.12	Your Transformation Mastery rank is too low.
+interface_shapeshift.13	You cannot transform with wings equipped.
+interface_shapeshift.14	You cannot transform while using a Sunbed.
+interface_shapeshift.15	You cannot transform during an outfit action.
+interface_shapeshift.16	Equip an outfit with the corresponding Outfit Action 2 skill to use this.
+interface_shapeshift.17	You cannot transform into two things.
+interface_shapeshift.18	You are currently unable to transform.
+interface_shapeshift.19	You cannot transform at this time.
+interface_shapeshift.20	You cannot transform while you are walking a pet.
+interface_shapeshift.21	You cannot transform while in a forced transformation.
+interface_skilldescmgr.1	Skill [{0}] Level[{1}] - invalid promotion count
+interface_skilldescmgr.2	Skill [{0}] Level[{1}] - invalid promotion exp
+interface_skilldescmgr.3	\nThe skill data has an error.\nYou need the 'necessary_crystal' information.\nSkill Name: {0}, Skill Level: {1}
+interface_skilldescmgr.4	\nThe skill data has an error.\nYou need the 'alchemy_elemental_ratio' information.\nSkill Name: {0}, Skill Level: {1}
+interface_skilldescmgr.5	\nThe skill data has an error.\nYou need the 'alchemy_elemental_point' information.\nSkill Name: {0}, Skill Level: {1}
+interface_skilldescmgr.6	HP {0}
+interface_skilldescmgr.7	MP {0}
+interface_skilldescmgr.8	Stamina {0}
+interface_skilldescmgr.9	STR {0}
+interface_skilldescmgr.10	INT {0}
+interface_skilldescmgr.11	DEX {0}
+interface_skilldescmgr.12	Will {0}
+interface_skilldescmgr.13	Luck {0}
+interface_skillhandler.1	You cannot use stage 3 Combo skills while wearing heavy armor.
+interface_skillhandler.2	Your magic or alchemy reacted to leftover energy from Respite!\nHP, MP, and Stamina have been reduced.
+interface_skillhandler.3	You cannot use this skill right now. Try again in {0} seconds.
+interface_skillhandler.4	You need a {1} to use {0}.
+interface_skillhandler.5	You need a {1} to use {0}.
+interface_skillhandler.6	You can't use {0} with a 0 durability weapon.
+interface_skillhandler.7	무기의 사용기간이 지나서 {0}{을} 사용할 수 없는 것 같다.
+interface_skillhandler.8	You can't use this here.
+interface_skillhandler.9	지금은 스킬을 사용할 수 없습니다.\n게임에 접속 중인 상태로, {0} 후에 다시 시도하세요.
+interface_skillhandler.10	You can't use that Technique now. Please try again in {0} sec.
+interface_skillhandlerparam.1	You don't have enough Dorcha!
+interface_skillmgr.1	All the attributes are charged.
+interface_skillmgruse.1	You are too far away to control the puppet.\nControl Marionette disabled.
+interface_skillmgruse.2	You can't use {0} with a 0 durability weapon.
+interface_soulmate.1	You can only send the request on Doki Doki Island.
+interface_soulmate.2	You're already someone else's soulmate!
+interface_soulmate.3	Your love interest is already someone else's soulmate.
+interface_specialization.1	Requirements not met.
+interface_specialization.2	This Technique has not been activated.
+interface_standardapi.1	일반
+interface_standardapi.2	브론즈
+interface_standardapi.3	실버
+interface_standardapi.4	골드
+interface_standardapi.5	플래티넘
+interface_standardapi_gamemonth.1	INCREASE IN CRITICAL HIT RATE.\tINCREASE IN LUCKY FINISH RATE.\tINCREASE IN SUCCESS RATE FOR INSTRUMENT PLAYING.\tINCREASE IN SUCCESS RATE FOR MAGIC MUSIC.\tINCREASE IN TAMING RATE USING MAGIC MUSIC.
+interface_standardapi_gamemonth.2	INCREASE IN SUCCESS RATE FOR PRODUCTION SKILLS.\tINCREASE IN RANK-UP BONUS FOR LIFE SKILLS.\tINCREASE IN QUALITY OF OUTPUT FOR PRODUCTIONS.
+interface_standardapi_gamemonth.3	DUNGEON MAPS CHANGE EVEN IF THE SAME ITEM IS DROPPED.\tINCREASE IN DUNGEON ITEM DROP RATE.\tINCREASE IN RANK-UP BONUS FOR COMBAT SKILLS.
+interface_standardapi_gamemonth.4	INCREASE IN ITEM DROP RATE FROM ANIMALS AND NATURE.\tDECREASE IN PRICES FOR ITEMS IN SHOPS.\tDECREASE IN BANK TRANSACTION FEES.\tINCREASE IN EXP EARNED FOR COMPLETE MASTERY OF THE SKILL.
+interface_standardapi_gamemonth.5	INCREASE IN SUCCESS RATE FOR ENCHANTS.\tINCREASE IN RANK-UP BONUS FOR MAGIC SKILLS.\tINCREASE IN PROFICIENCY FOR EQUIPMENTS.
+interface_standardapi_gamemonth.6	DECREASE IN PENALTIES WHEN KNOCKED UNCONSCIOUS.\tALL POTIONS BECOME MORE POTENT.\tINCREASE IN REWARDS FOR COMPLETING PART-TIME JOBS.
+interface_standardapi_gamemonth.7	As you age and grow, you will obtain AP.\tThe food's basic effects will increase over time.\tThe L-Rod's effects will increase over time.\tYou will be able to even sketch monsters that move slightly.
+interface_standardapi_gamemonth.8	INCREASE IN CRITICAL HIT RATE.\nINCREASE IN LUCKY FINISH RATE.\nINCREASE IN SUCCESS RATE FOR INSTRUMENT PLAYING.\nINCREASE IN SUCCESS RATE FOR MAGIC MUSIC.\nINCREASE IN TAMING RATE USING MAGIC MUSIC.
+interface_standardapi_gamemonth.9	INCREASE IN SUCCESS RATE FOR PRODUCTION SKILLS.\nINCREASE IN RANK-UP BONUS FOR LIFE SKILLS.\nINCREASE IN QUALITY OF OUTPUT FOR PRODUCTIONS.
+interface_standardapi_gamemonth.10	DUNGEON MAPS CHANGE EVEN IF THE SAME ITEM IS DROPPED.\nINCREASE IN DUNGEON ITEM DROP RATE.\nINCREASE IN RANK-UP BONUS FOR COMBAT SKILLS.
+interface_standardapi_gamemonth.11	INCREASE IN ITEM DROP RATE FROM ANIMALS AND NATURE.\nDECREASE IN PRICES FOR ITEMS IN SHOPS.\nDECREASE IN BANK TRANSACTION FEES.\nINCREASE IN EXP EARNED FOR COMPLETE MASTERY OF THE SKILL.
+interface_standardapi_gamemonth.12	INCREASE IN SUCCESS RATE FOR ENCHANTS.\nINCREASE IN RANK-UP BONUS FOR MAGIC SKILLS.\nINCREASE IN PROFICIENCY FOR EQUIPMENTS.
+interface_standardapi_gamemonth.13	DECREASE IN PENALTIES WHEN KNOCKED UNCONSCIOUS.\nALL POTIONS BECOME MORE POTENT.\nINCREASE IN REWARDS FOR COMPLETING PART-TIME JOBS.
+interface_standardapi_gamemonth.14	As you age and grow, you will obtain AP.\tThe food's basic effects will increase over time.\tThe L-Rod's effects will increase over time.\tYou will be able to even sketch monsters that move slightly.
+interface_standardapi_gamemonth.15	CHARACTER AGES ONE YEAR.\tINCREASE IN FOOD EFFECTS.
+interface_standardapi_gamemonth.16	CHARACTER AGES ONE YEAR.\nINCREASE IN FOOD EFFECTS.
+interface_standardapi_gamemonth.17	in {0} day(s), {1} hr, {2} min, and {3} sec
+interface_standardapi_gamemonth.18	in {0} day(s), {1} hr, and {2} sec
+interface_standardapi_gamemonth.19	in {0} day(s), {1} min, and {2} sec
+interface_standardapi_gamemonth.20	in {0} day(s) and {1} sec
+interface_standardapi_gamemonth.21	in {0} hr, {1} min, and {2} sec
+interface_standardapi_gamemonth.22	in {0} hr and {1} sec
+interface_standardapi_gamemonth.23	{0} min, {1} sec 
+interface_standardapi_gamemonth.24	in {0} sec
+interface_standardapi_gamemonth.25	{0} Day(s) 
+interface_standardapi_gamemonth.26	{0} Hour(s) 
+interface_standardapi_gamemonth.27	{0} min 
+interface_standardapi_gamemonth.28	{0} sec
+interface_standardapi_gamemonth.29	Less than 1 Minute
+interface_standardapi_util.1	You cannot use this right now.
+interface_standardapi_util.2	Characters cannot do that while in the tutorial.\n(Available after first Rebirth)
+interface_standardapi_util.3	You cannot use this when your character is below Lv. 20.
+interface_standardapi_util.4	You cannot use this while mounted.
+interface_standardapi_util.5	You cannot use this while in combat.
+interface_standardapi_util.6	You cannot use this while dead.
+interface_standardapi_util.7	You cannot use this while trading.
+interface_standardapi_util.8	You cannot use this while in PvP.
+interface_standardapi_util.9	You cannot use this while using a skill.
+interface_standardapi_util.10	You cannot use this while flying.
+interface_standardapi_util.11	You cannot use this while jousting.
+interface_standardapi_util.12	You cannot use this while in a Fashion Show
+interface_standardapi_util.13	You cannot use this while transformed.
+interface_standardapi_util.14	You cannot use this while you are a demigod.
+interface_standardapi_util.15	You cannot use this while a pet or partner is summoned.
+interface_standardapi_util.16	You cannot use this here.
+interface_standardapi_util.17	Pet names must be 3-12 characters long.
+interface_standardapi_util.18	One-handed Sword
+interface_standardapi_util.19	One-handed Blunt Weapon
+interface_standardapi_util.20	Hatchet
+interface_standardapi_util.21	Two-handed Sword
+interface_standardapi_util.22	Two-handed Blunt Weapon
+interface_standardapi_util.23	Two-handed Axe
+interface_standardapi_util.24	Lance
+interface_standardapi_util.25	Atlatl
+interface_standardapi_util.26	Bow
+interface_standardapi_util.27	Crossbow
+interface_standardapi_util.28	Wand
+interface_standardapi_util.29	Staff
+interface_standardapi_util.30	Cylinder
+interface_standardapi_util.31	Knuckle
+interface_standardapi_util.32	Control Bar
+interface_standardapi_util.33	Shuriken
+interface_standardapi_util.34	Dual Gun
+interface_standardapi_util.35	Chain Blade
+interface_standardapi_util.36	Tower Cylinder
+interface_standardapi_util.37	\n<color=2><outlinecolor=3>(거래 및 경매장 이용이 가능해 질 때 까지 {0} 남았습니다.)</outlinecolor></color>
+interface_standardapi_util.39	{0} cannot use all forms of trade-related systems as per the law in their country.
+itemenhancedescmgr.1	Upgrading to {0}, type {1} level {2}.\n
+itemenhancedescmgr.2	Converting {0}, type {1} level {2} to type {3} level {4}.\n
+itemenhancedescmgr.3	Upgrading to {0} level {1}.\n
+itemoptiondeschelper.1	-250 CP
+itemoptiondeschelper.2	Magic Attack
+itemoptiondeschelper.3	Frozen Blast Duration
+itemoptiondeschelper.4	Frozen Blast Range
+itemoptiondeschelper.5	Barrier Spikes Durability
+itemoptiondeschelper.6	Stamina Usage
+itemoptiondeschelper.7	Piercing Level
+itemoptiondeschelper.8	Scale Ratio
+itemoptiondeschelper.9	Music Buff Effect
+itemoptiondeschelper.10	Music Buff Duration
+itemoptiondeschelper.11	Min Damage
+itemoptiondeschelper.12	Max Damage
+itemoptiondeschelper.13	Exploration EXP
+itemoptiondeschelper.14	Commerce Inventory
+itemoptiondeschelper.15	Commerce Weight
+itemoptiondeschelper.16	Party Combat EXP
+itemoptiondeschelper.17	Pet Combat EXP
+itemoptiondeschelper.18	The effect duration for all characters who partake of the Catering Dish laid down by the player. 
+itemoptiondeschelper.19	Max stat cap for item crafted through Smithing
+itemoptiondeschelper.20	Max stat cap for item crafted through Carpentry
+itemoptiondeschelper.21	Purchase Discount Rate
+itemoptiondeschelper.22	Merchant Rating Increase Rate
+itemoptiondeschelper.23	Shop Price
+itemoptiondeschelper.24	Time Warp Cooldown Ignore Count
+itemoptiondeschelper.25	Defense upon Shock Dampening activation
+itemoptiondeschelper.26	Magic Defense upon Shock Dampening activation
+itemoptiondeschelper.27	Combo cooldown reset upon landing a critical hit
+itemoptiondeschelper.28	Combo Damage
+itemoptiondeschelper.29	Marionette Magic Protection
+itemoptiondeschelper.30	Fynn Sync Great Success Rate
+itemoptiondeschelper.31	Number of objects that can be used in Glyph Design
+itemoptiondeschelper.32	Use count of Glyph Imprint
+itemoptiondeschelper.33	Tri-Element Mastery Damage
+itemoptiondeschelper.34	Adjusts Aim Rate
+itemoptionset.1	Spirit 
+itemqualitymgr.1	Talent Bonus: 
+itemqualitymgr.2	Grandmaster craft bonus : 
+itemupgradedesc.1	(Not Found)
+mabiauctionmgr.1	Listed
+mabiauctionmgr.2	Sold
+mabiauctionmgr.3	Not sold
+mabiauctionmgr.4	Being Bid On
+mabiauctionmgr.5	Re-Bid Required
+mabiauctionmgr.6	Purchase Failed
+mabiauctionmgr.7	Purchase Succeeded
+mabinogi_commerce.1	Failed to trade Mercantile Goods. (0)
+mabinogi_commerce.2	Your Merchant Rating is not high enough at this Trading Post.
+mabinogi_commerce.3	Insufficient Ducats.
+mabinogi_commerce.4	The sale price has changed.
+mabinogi_commerce.5	Failed to trade Trade Goods. (1)
+mabinogi_commerce.6	This Trade Good cannot be purchased at this Trading Post.
+mabinogi_commerce.7	You don't have enough Trade Goods.
+mabinogi_commerce.8	Insufficient Trade Goods.
+mabinogi_commerce.9	Price info has been refreshed. Please check again before continuing.
+mabinogi_commerce.10	That cannot be sold at this Trading Post.
+mabinogi_commerce.11	Trade cannot be made.
+mabinogi_commerce.12	Insufficient weight capacity.
+mabinogi_commerce.13	You don't have a transport method.
+mabinogi_commerce.14	Failed to trade Trade Goods. (2)
+mabinogi_commerce.15	The Trade Goods are too far away from the Trading Post.
+mabinogi_commerce.16	Failed to trade Trade Goods. (11)
+mabinogi_commerce.17	Insufficient Slots.
+mabinogi_commerce.18	Unable to read transport method info.
+mabinogi_commerce.19	You can use the Transport Mount after\npaying the Transport Helper in Ducats.
+mabinogi_commerce.20	The current transport method cannot handle\nthe weight of the current Trade Goods.
+mabinogi_commerce.21	The current transport method does not have\nenough slots to hold the Trade Goods.
+mabinogi_commerce.22	Failed to trade Trade Goods. (12)
+mabinogi_commerce.23	Commerce functions cannot be used for now.
+mabinogi_commerce.24	Failed to trade Trade Goods. (99)
+mabinogi_commerce.25	You don't have enough trade goods.
+mabinogi_commerce.26	This Trade Good cannot be exchanged.
+mabinogi_commerce.27	This Transport Mount can only be used while the Commerce Partner is summoned.\nPlease choose a different Transport Mount.
+mabinogi_commerce.28	This Transport Mount can only be used while the Alpaca is summoned.\nPlease choose a different Transport Mount.
+mabinogi_commerce.29	This partner cannot use the Transport Mount.\nPlease choose a different Transport Mount.
+mabinogi_commerce.30	This Transport Mount can only be used during the event.\nPlease choose a different Transport Mount.
+mabinogi_etcconstants.1	Beginner
+mabinogi_etcconstants.2	Intermediate
+mabinogi_etcconstants.3	Advanced
+mabinogi_fieldquest.1	This is a Quest Zone that you already entered.
+mabinogi_fieldquest.2	Character cannot be found. Please try again.
+mabinogi_fieldquest.3	Incorrect location.
+mabinogi_fieldquest.4	Unable to find Quest Zone.
+mabinogi_fieldquest.5	Failed to enter Quest Zone.
+mabinogi_fieldquest.6	Unable to select.
+mabinogi_gameword.1	Poison - Immunity - Set Effect Value
+mabinogi_gameword.2	Petrification - Immunity - Set Effect Value
+mabinogi_gameword.3	Lessen Mana Usage
+mabinogi_gameword.4	Lessen Stamina Usage
+mabinogi_gameword.5	Explosion Defense
+mabinogi_gameword.6	Stomp - Resistance - Set Effect Value
+mabinogi_gameword.7	Fire Alchemic Damage
+mabinogi_gameword.8	Earth Alchemic Damage
+mabinogi_gameword.9	Wind Alchemic Damage
+mabinogi_gameword.10	Water Alchemic Damage
+mabinogi_gameword.11	Synthesis Success Rate
+mabinogi_gameword.12	Fragmentation Success Rate
+mabinogi_gameword.13	Crystal Making Success Rate
+mabinogi_gameword.14	Magic Defense
+mabinogi_gameword.15	Magic Attack
+mabinogi_gameword.16	Attack Speed Increase - Set Effect Value
+mabinogi_gameword.17	Cumulative Level
+mabinogi_gameword.18	Auto Melee Defense
+mabinogi_gameword.19	Auto Magic Defense
+mabinogi_gameword.20	Auto Ranged Defense
+mabinogi_gameword.21	Gathering Speed
+mabinogi_gameword.22	Collection Probability
+mabinogi_gameword.23	Collection Quantity
+mabinogi_gameword.24	Casting Speed
+mabinogi_gameword.25	Movement Speed
+mabinogi_gameword.26	Transport Speed
+mabinogi_gameword.27	Act 2: Threshold Cutter Damage Boost
+mabinogi_gameword.28	Marionette Min Damage
+mabinogi_gameword.29	Marionette - Max Damage
+mabinogi_gameword.30	Marionette Max HP
+mabinogi_gameword.31	Marionette Defense
+mabinogi_gameword.32	Marionette Protection
+mabinogi_gameword.33	Marionette Magic Defense
+mabinogi_gameword.34	Control Marionette Min Damage
+mabinogi_gameword.35	Control Marionette - Max Damage Increase
+mabinogi_gameword.36	Control Marionette Critical Rate
+mabinogi_gameword.37	Control Marionette Balance
+mabinogi_gameword.38	Inciting Incident Stun Time
+mabinogi_gameword.39	Rising Action Damage
+mabinogi_gameword.40	Crisis Range
+mabinogi_gameword.41	Climactic Crash Damage
+mabinogi_gameword.42	Act 2: Threshold Cutter 3 Hit Damage
+mabinogi_gameword.43	Quality
+mabinogi_gameword.44	Alchemy success rate increased
+mabinogi_gameword.45	Dual Gun Min Damage
+mabinogi_gameword.46	Dual Gun - Max Damage
+mabinogi_gameword.47	Max Ammo Reserve Increase
+mabinogi_gameword.48	Magic Protection
+mabinogi_gameword.49	Magic Defense
+mabinogi_gameword.50	Magic Protection
+mabinogi_gameword.51	Shuriken Min Damage
+mabinogi_gameword.52	Shuriken - Max Damage
+mabinogi_gameword.53	Chain Blade Min Damage
+mabinogi_gameword.54	Chain Blade - Max Damage
+mabinogi_gameword.55	Music Buff Duration
+mabinogi_gameword.56	Knuckle Min Damage
+mabinogi_gameword.57	Knuckle - Max Damage
+mabinogi_gameword.58	Total Alchemic Element Damage
+mabinogi_item.1	I'm a super n00b and proud of it!
+mabinogi_itemforjob.1	Change to {0}
+mabinogi_itemforjob.2	{0} Increase
+mabinogi_itemforjob.3	{0} Decrease
+mabinogi_itemforjob.4	{0}% Increase
+mabinogi_itemforjob.5	{0}% Decrease
+mabinogi_job.1	Adventurer
+mabinogi_job.2	Warrior
+mabinogi_job.3	Mage
+mabinogi_job.4	Ranger
+mabinogi_job.5	Merchant
+mabinogi_job.6	Alchemist
+mabinogi_job.7	Fighter
+mabinogi_job.8	Bard
+mabinogi_job.9	Puppeteer
+mabinogi_job.10	Gunslinger
+mabinogi_minigame.1	Mafia
+mabinogi_minigame.2	Citizen
+mabinogi_minigame.3	Cop
+mabinogi_minigame.4	Prankster
+mabinogi_minigame.5	Psychic
+mabinogi_minigame.6	Doctor
+mabinogi_minigame.7	Spectator
+mabinogi_minigame.8	Normal
+mabinogi_minigame.9	Offline
+mabinogi_minigame.10	Dead
+mabinogi_minigame.11	Ready
+mabinogi_minigame.12	Vote Complete
+mabinogi_party.1	Mafia
+mabinogi_party.2	Other
+mabinogi_pfhousing.1	- Gold: {0} Gold\n
+mabinogi_pfhousing.2	- {0}: x{1}\n
+mabinogi_privatefarmdesc.1	{0} {1}
+mabinogi_privatefarmdesc.2	{0} Homestead Stone(s)
+mabinogi_privatefarmdesc.3	{0} Pon Coin(s)
+mabinogi_privatefarmdesc.4	, {0} Homestead Stone Fragment(s)
+mabinogi_privatefarmdesc.5	Strength
+mabinogi_privatefarmdesc.6	Dexterity
+mabinogi_privatefarmdesc.7	Intelligence
+mabinogi_privatefarmdesc.8	Will
+mabinogi_privatefarmdesc.9	Luck
+mabinogi_privatefarmdesc.10	HP
+mabinogi_privatefarmdesc.11	MP
+mabinogi_privatefarmdesc.12	Stamina
+mabinogi_privatefarmdesc.13	Max Damage
+mabinogi_privatefarmdesc.14	Critical Damage
+mabinogi_privatefarmdesc.15	Music Buff Effect
+mabinogi_privatefarmdesc.16	Magic Attack
+mabinogi_privatefarmdesc.17	Bonus Damage
+mabinogi_privatefarmdesc.23	Movement Speed
+mabinogi_propentity.1	프랍 ClassID를 바꾸려 합니다. objectID: %d 이전 ClassID: %d 바뀌는 ClassID: %d
+mabinogi_shadowmissiondesc.1	Basic
+mabinogi_shadowmissiondesc.2	Int.
+mabinogi_shadowmissiondesc.3	Adv.
+mabinogi_shadowmissiondesc.4	Hard
+mabinogi_shadowmissiondesc.5	{0} Person(s)
+mabinogi_shadowmissiondesc.6	{0}+
+mabinogi_shadowmissiondesc.7	{0) Hour(s) {1) Minute(s) {2} Second(s)
+mabinogi_shadowmissiondesc.8	{0} Hour(s) {1} Minute(s)
+mabinogi_shadowmissiondesc.9	{0} Hour(s) {1} Second(s)
+mabinogi_shadowmissiondesc.10	{0} Minute(s) {1} Second(s)
+mabinogi_shadowmissiondesc.11	{0} Hour(s)
+mabinogi_shadowmissiondesc.12	{0} Minute(s)
+mabinogi_shadowmissiondesc.13	{0} Second(s)
+mabinogi_shadowmissiondesc.14	None
+mabinogi_shadowmissiondesc.15	Mission Completion Reward
+mabinogi_shadowmissiondesc.16	Party Count:
+mabinogi_shadowmissiondesc.17	Required Level:
+mabinogi_shadowmissiondesc.18	Time Limit:
+mabinogi_shadowmissiondesc.19	Any#
+mabinogi_shadowmissiondesc.20	{0}
+mabinogi_shadowmissiondesc.21	{0} - {1:Unrestricted}
+mabinogi_shadowmissiondesc.22	{0} - {1}
+mabinogi_shadowmissiondesc.23	Elite
+mabinogi_shadowmissiondesc.24	Lord
+mabinogi_shadowmissiondesc.25	Talent Level:
+mabinogi_talent.1	Adventure
+mabinogi_talent.2	Close Combat
+mabinogi_talent.3	Magic
+mabinogi_talent.4	Archery
+mabinogi_talent.5	Mercantile
+mabinogi_talent.6	Battle Alchemy
+mabinogi_talent.7	Martial Arts
+mabinogi_talent.8	Music
+mabinogi_talent.9	Puppetry
+mabinogi_talent.10	Lance Combat
+mabinogi_talent.11	Holy Arts
+mabinogi_talent.12	Transmutation
+mabinogi_talent.13	Cooking
+mabinogi_talent.14	Smithing
+mabinogi_talent.15	Tailoring
+mabinogi_talent.16	Medicine
+mabinogi_talent.17	Carpentry
+mabinogi_talent.18	Gunslinger
+mabinogi_talent.19	Ninja
+mabinogi_talent.20	Merlin
+mabinogi_talent.21	Starlet
+mabinogi_talent.22	Professor J
+mabinogi_talent.23	Culinary Artist
+mabinogi_talent.24	Treasure Hunter
+mabinogi_talent.25	Novice
+mabinogi_talent.26	Chain Slash
+mabinogi_talent.27	Pet Training
+mabinogi_talent.28	Glyphwright
+mabinovelmgr.1	Mysterious Detective
+mastersordereventdescmgr.1	The event is not currently in progress.
+mastersordereventdescmgr.2	You do not have the required item.
+mastersordereventdescmgr.3	You already received the reward.
+mastersordereventdescmgr.4	The data for the pertinent Talent does not exist.
+mastersordereventdescmgr.5	Your Talent level is too low.
+mastersordereventdescmgr.6	Failed to claim the reward for the previous level of the Talent.
+mastersordereventdescmgr.7	The data for the pertinent Talent level does not exist.
+mastersordereventdescmgr.8	The event is not currently in progress.
+mastersordereventdescmgr.9	You do not have the required item.
+msg.afternoon_string	afternoon
+msg.camp.already_have	A camp already exists. Only one camp can be set up at a time.
+msg.camp.collide_with_char	There is a character within the camp range.
+msg.camp.collide_with_guildstone	There is a Guild Stone within the camp range.
+msg.camp.collide_with_item	There is an item within the camp range.
+msg.camp.insufficient_campfire_skill	The campfire skill must be higher than the practice rank.
+msg.camp.invalid_position	The location is not suitable for camp.
+msg.camp.invalid_position_msg	The location is not suitable for camp.\nA camp can be set up outside the town or somewhere off the road.
+msg.camp.near_other_camp	Too close to another camp.\nPlease set up the camp a little bit farther from here.
+msg.camp.not_have_campfire_skill	Cannot be used without the Campfire skill.
+msg.camp.not_in_inner	A camp cannot be set up indoors, inside a dungeon or an arena.
+msg.camp.outter	<mini> </mini> Out
+msg.camp.pet_cannot_use	Pets cannot use a Camping Kit.
+msg.camp.too_narrow	This place is too small for a camp.
+msg.camp.unable_in_using_skill	Unable to use a camp while using a skill.
+msg.cannot_explore_now	Please try again a little later.
+msg.dawn_string	The Dawn
+msg.dayntime	{0:day} {1:time}
+msg.dungeon_exit_notice_msg	Are you sure you want to leave the dungeon?
+msg.dungeon_exit_notice_title	Warning
+msg.equal	When {0} is {1}
+msg.forenoon_string	morning
+msg.greater_or_equal	When {0} is over {1}
+msg.greaterthan	When {0} is bigger than {1}
+msg.insufficient_mana_to_useskill	Unable to use the skill. Insufficient MP.
+msg.insufficient_stamina_to_useskill	Unable to use the skill. Insufficient Stamina.
+msg.less	When {0} is smaller than {1}
+msg.less_or_equal	When {0} is below {1}
+msg.night_string	night
+msg.ps_shop.too_close_another	Too close to a Personal Shop.
+msg.ruin_dungeon_exit_notice_msg	Would you like to return to the dungeon waiting room?
+msg.ruin_dungeon_exit_notice_title	Warning
+msg.skill_rank_bonus	Skill Rank Bonus: 
+msg.skilllevel_equal	When the rank of {0} is {1}
+msg.skilllevel_greather_or_equal	When the rank of {0} is over {1}
+msg.skilllevel_less_or_equal	When the rank of {0} is below {1}
+msg.thedayaftertomorrow_string	the day after tomorrow
+msg.time_after_1	{0} day(s) {1} hour(s) {2} min
+msg.time_after_2	{0} day(s) {1} hour(s)
+msg.time_after_3	{0} day(s) {1} min
+msg.time_after_4	{0} day(s)
+msg.time_after_5	{0} hour(s) {1} min
+msg.time_after_6	{0} hour(s)
+msg.time_after_7	{0} min
+msg.today_string	Today
+msg.tomorrow_string	Tomorrow
+msg.untrain_notice	The {0} skill has been untrained.\n
+msg.untrain_result_decrase	\n{0} - {1}
+msg.untrain_result_increase	\n{0} + {1}
+msg.untrain_result_notice	The effects of untraining are as follows.\n
+msg.untrain_reward_ap	\nAbility Point +{0}
+msg.useitemresurrection_remote_failed	You have either entered an incorrect name, or the character is not knocked unconscious.
+msg.wand_mana_dried_out	The Mana connected to the Wand has disappeared!!
+myknightsdescmgr.1	DIV
+myknightsdescmgr.2	STR
+myknightsdescmgr.3	INT
+myknightsdescmgr.4	DEX
+myknightsdescmgr.5	WILL
+myknightsdescmgr.6	LUCK
+myknightsdescmgr.7	Apostle
+myknightsdescmgr.8	Regular Monster
+myknightsdescmgr.9	History
+myknightsdescmgr.10	Object
+myknightsdescmgr.11	Prophet
+myknightsdescmgr.12	Char.
+myknightsdescmgr.13	Complete
+myknightsdescmgr.14	{0}D 
+myknightsdescmgr.15	{0}H 
+myknightsdescmgr.16	 needed
+myknightsdescmgr.17	 ({0} real)
+myknightsdescmgr.18	This squire does not exist.
+myknightsdescmgr.19	The squire cannot attempt the mission at this time.
+myknightsdescmgr.20	The squire refused the mission because their stress level is too high.
+myknightsdescmgr.21	This mission is invalid.
+myknightsdescmgr.22	Your Command Level is too low for this mission.
+myknightsdescmgr.23	Mission quest already exists.
+myknightsdescmgr.24	Mission cannot be created.
+myknightsdescmgr.25	Mission cannot be added.
+myknightsdescmgr.26	This mission cannot be repeated.
+myknightsdescmgr.27	Your Command Level is too low for this mission.
+myknightsdescmgr.28	You do not have the keyword for the mission.
+myknightsdescmgr.29	This squire cannot attempt this mission.
+myknightsdescmgr.30	There is no member required for you to recruit.
+myknightsdescmgr.31	Likeability is too low for the mission.
+myknightsdescmgr.32	Success Rate is too low for the mission.
+object.bank_defaultname	Bank
+object.character_dump_server	Harp
+object.item_blessed	Blessed
+object.item_incompleted	(Incomplete)
+object.item_option_addcondition_onattack	Add {1} to attacks with {0}% chance
+object.item_option_decrease	{0} {1} Decrease
+object.item_option_decrease_percent	{0} {1}% Decrease
+object.item_option_increase	{0} {1} Increase
+object.item_option_increase_percent	{0} {1}% Increase
+object.item_option_set_permil	Change {0} to the current {1}%
+object.item_option_set_to	Fix {0} at {1}
+object.manual_level	\n\nDifficulty: {0}
+object.manual_level_training	\n\nDifficulty: Practice
+object.moongate_desc	{1} Moon Gate\nthat leads to {0}
+object.moongate_name	{0} Moon Gate
+object.moongate_name_2	{0} Moon Gate
+object.pet_name	{0}'s {1}
+object.sealbreaker_and_sealname	{1} broken by {0}
+object.sealstone_bangor	Seal Stone of Bangor
+object.sealstone_ciar	Seal Stone of Ciar Dungeon
+object.sealstone_dugald	Seal Stone of Dugald Aisle
+object.sealstone_fiodh	Seal Stone of Fiodh
+object.sealstone_math	Seal Stone of Math Dungeon
+object.sealstone_rabbie	Seal Stone of Rabbie Dungeon
+partyboarddescmgr.1	Mini-game
+partyboardmgr.1	Practice Rank
+partyboardmgr.2	Unrestricted
+partyboardmgr.3	Min. Cumulative Level {0}
+partyboardmgr.4	 Minimum {0} {1}
+partyboardmgr.5	Private
+partyboardmgr.6	Public
+partyboardmgr.7	General
+partyboardmgr.8	Dungeon
+partyboardmgr.9	Arena
+partyboardmgr.10	Ensemble
+partyboardmgr.11	View All
+partyboardmgr.12	Unrestricted
+partyboardmgr.13	Unrestricted
+partyboardmgr.14	Unrestricted
+partyboardmgr.15	Unrestricted
+partyboardmgr.16	Unrestricted
+partyboardmgr.17	Unrestricted
+partyboardmgr.18	Rank {0}
+partyboardmgr.19	Rank {0}
+partyboardmgr.20	Squad Party
+pccarddescmgr.1	HP
+pccarddescmgr.2	MP
+pccarddescmgr.3	Stamina
+pccarddescmgr.4	Strength
+pccarddescmgr.5	Intelligence
+pccarddescmgr.6	Dexterity
+pccarddescmgr.7	Will
+pccarddescmgr.8	Luck
+pccarddescmgr.9	{0:Stat} -{1:Amount}
+pccarddescmgr.10	{0:Stat} +{1:Amount}
+pccarddescmgr.11	{0:Stat} x1/{1:Amount}
+pccarddescmgr.12	{0:Stat} x{1:Amount}
+pccarddescmgr.13	{0:Character Card Name} Bonus\n\n{1:Bonus Amount List}
+privatefarmdescmgr.1	<color={0}>{1} Set Effect\n
+privatefarmdescmgr.2	<color=3>Decoration Set</color>\n
+privatefarmdescmgr.3	Increase\n
+questresult.1	Royal Alchemist Activity Points {0}
+questresult.2	Ducats {0}
+questresult.3	Crusader EXP {0}
+questresult.4	Command EXP {0}
+questresult.5	Training Points {0}
+questresult.6	Mission Points {0}
+recommendflagtable.1	EXP +{0}
+recommendflagtable.2	{0} - A recommender will receive {1} Recommendation EXP.
+setitemmgr.1	Increase
+setitemmgr.2	Decrease
+setitemmgr.3	Increase
+setitemmgr.4	Decrease
+setitemmgr.5	The item was not used since the set effect cannot be upgraded.
+setitemmgr.6	The item was not used since the set effect is already {0}.
+setparameter.1	{0} Degree
+setparameter.2	{0} Second(s)
+setparameter.3	{0} {1} Reforge
+setparameter.4	Reforging can be used without shields for a charging human or elf.
+setparameter.5	Specific Skill {0} Reforge
+setparameter.6	EXP
+setparameter.7	{0} {1} Level
+setparameter.8	Allows a human or elf to use Charge without a shield.
+setparameter.9	Specific Skill {0} Level
+setparameter.10	{0} Level {1} \n({2} {3})
+setparameter.11	Cooldown
+setparameter.12	{0}\n(Level {1}/{2})
+setparameter.13	{0}\n(Level {1}/{2}: {3} {4})
+setparameter.14	{0}\n(Level {1}/{2})
+setparameter.15	{0}\n(Level {1}/{2}: {3} {4})
+setparameter.16	{0}(Level {1})
+setparameter.17	{0}(Level {1}:{2} {3})
+setparameter.18	{0} Level {1}
+shapeshiftdescmgr.1	No Bonus
+shapeshiftdescmgr.2	HP
+shapeshiftdescmgr.3	MP
+shapeshiftdescmgr.4	Stamina
+shapeshiftdescmgr.5	STR
+shapeshiftdescmgr.6	INT
+shapeshiftdescmgr.7	DEX
+shapeshiftdescmgr.8	Will
+shapeshiftdescmgr.9	Luck
+shapeshiftdescmgr.10	Min Attack Power
+shapeshiftdescmgr.11	Max Attack Power
+shapeshiftdescmgr.12	Defense
+shapeshiftdescmgr.13	Protection
+shapeshiftdescmgr.14	<color=4>{0:Bonus Type}</color>  <color=5>+{1:Bonus Value}</color>
+shapeshiftdescmgr.15	<color=4>{0:Bonus Type}</color>  <color=5>+{1:Bonus Value}%</color>
+shapeshiftdescmgr.16	Magic Defense
+shapeshiftdescmgr.17	Magic Protection
+skillpromotiondescmgr.1	You don't have the participation fee.
+skillpromotiondescmgr.2	You can't take the test anymore for today.
+skillpromotiondescmgr.3	This skill cannot be advanced.
+skillpromotiondescmgr.4	It cannot be advanced at this level.
+specializationdescmgr.1	Briogh of Achievement
+specializationdescmgr.2	Briogh of Challenge
+specializationdescmgr.3	Briogh of Discipline
+specializationrequirement.1	HP
+specializationrequirement.2	MP
+specializationrequirement.3	Stamina
+specializationrequirement.4	Strength
+specializationrequirement.5	Intelligence
+specializationrequirement.6	Dexterity
+specializationrequirement.7	Will
+specializationrequirement.8	Luck
+specializationrequirement.9	Max Damage
+specializationrequirement.10	Min Damage
+specializationrequirement.11	Magic Attack
+specializationrequirement.12	Defense
+specializationrequirement.13	Protection
+specializationrequirement.14	Magic Defense
+specializationrequirement.15	Magic Protection
+specializationrequirement.16	Defense Penetration
+specializationrequirement.17	Heavy Armor
+specializationrequirement.18	Light Armor
+specializationrequirement.19	{0} or {1}
+specializationrequirement.20	{0} or {1}
+specializationrequirement.21	{0} or {1}
+synthesismgr.1	(dev) %s Random Prior [ %f ]
+synthesismgr.2	Random After [ %f ]
+synthesismgr.3	(dev) {0} Random Prior [ {1} ]
+synthesismgr.4	Random After [ {0} ]
+talentdescmgr.1	Fledgling
+talentdescmgr.2	Novice
+talentdescmgr.3	Amateur
+talentdescmgr.4	Green
+talentdescmgr.5	Naive
+talentdescmgr.6	Apprentice
+talentdescmgr.7	Senior
+talentdescmgr.8	Advanced
+talentdescmgr.9	Seasoned
+talentdescmgr.10	Skilled
+talentdescmgr.11	Expert
+talentdescmgr.12	Great
+talentdescmgr.13	Champion
+talentdescmgr.14	Wise
+talentdescmgr.15	Master
+talentdescmgr.16	Grandmaster
+usercreatedtotemdescmgr.1	STR
+usercreatedtotemdescmgr.2	DEF
+usercreatedtotemdescmgr.3	HP
+usercreatedtotemdescmgr.4	Will
+usercreatedtotemdescmgr.5	Stamina
+usercreatedtotemdescmgr.6	Luck
+usercreatedtotemdescmgr.7	Max Damage
+usercreatedtotemdescmgr.8	Critical Damage
+usercreatedtotemdescmgr.9	Balance
+usercreatedtotemdescmgr.10	INT
+usercreatedtotemdescmgr.11	DEX
+usercreatedtotemdescmgr.12	Critical
+usercreatedtotemdescmgr.13	MP
+usercreatedtotemdescmgr.14	Magic Defense
+usercreatedtotemdescmgr.15	Magic Attack
+usercreatedtotemdescmgr.16	Rune of Body
+usercreatedtotemdescmgr.17	Rune of Mind
+usercreatedtotemdescmgr.18	Rune of Sharpness
+usercreatedtotemdescmgr.19	Rune of Ingenuity
+usercreatedtotemdescmgr.20	Rune of Mana
+usercreatedtotemdescmgr.21	Max HP
+usercreatedtotemdescmgr.22	Max Stamina
+usercreatedtotemdescmgr.23	Max MP
+usercreatedtotemdescmgr.24	Max Damage
+usercreatedtotemdescmgr.25	Min Damage
+usercreatedtotemdescmgr.26	Max Injury Rate
+usercreatedtotemdescmgr.27	Min Injury Rate
+usercreatedtotemdescmgr.28	Phantasmal Sight Damage
+usercreatedtotemdescmgr.29	Fateweaver Duration
+usercreatedtotemdescmgr.30	Tenacious Taunt Duration
+usercreatedtotemdescmgr.31	Zone of Renewal Effect Range
+usercreatedtotemdescmgr.32	Unified Might Damage Accumulation
+usercreatedtotemdescmgr.33	Phantasmal Sight Rune
+usercreatedtotemdescmgr.34	Fateweaver Rune
+usercreatedtotemdescmgr.35	Tenacious Taunt Rune
+usercreatedtotemdescmgr.36	Zone of Renewal Rune
+usercreatedtotemdescmgr.37	Unified Might Rune
+usercreatedtotemdescmgr.38	sec
+usercreatedtotemelement.1	Lv. {0}: {1} + {2}

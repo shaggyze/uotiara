@@ -1,5 +1,6 @@
+RequestExecutionLevel admin
 !define UOSHORTVERSION        "383"
-!define UOLONGVERSION         "0.16.36"
+!define UOLONGVERSION         "0.16.37"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -18,7 +19,7 @@
 Name "${UOSHORTNAME} ${UOVERSION}"
 AllowRootDirInstall true
 OutFile "${InstFile}"
-RequestExecutionLevel admin
+
 XPStyle on
 SetCompressor /SOLID /FINAL lzma
 ;ChangeUI all ".\bin\modern.exe"
@@ -140,6 +141,7 @@ Var STR_RETURN_VAR
 !include nsProcess.nsh
 !include LogicLib.nsh
 !include "FileFunc.nsh"
+!include WinMessages.nsh
 !insertmacro GetTime
 
 SetDatablockOptimize on
@@ -211,6 +213,32 @@ Icon "${icon}"
   ${Next}
 !macroend
 
+!macro ShellExecWait verb app param workdir show exitoutvar ;only app and show must be != "", every thing else is optional
+#define SEE_MASK_NOCLOSEPROCESS 0x40
+System::Store S
+!if "${NSIS_PTR_SIZE}" > 4
+!define /ReDef /math SYSSIZEOF_SHELLEXECUTEINFO 14 * ${NSIS_PTR_SIZE}
+!else ifndef SYSSIZEOF_SHELLEXECUTEINFO
+!define SYSSIZEOF_SHELLEXECUTEINFO 60
+!endif
+System::Call '*(&i${SYSSIZEOF_SHELLEXECUTEINFO})i.r0'
+System::Call '*$0(i ${SYSSIZEOF_SHELLEXECUTEINFO},i 0x40,p $hwndparent,t "${verb}",t $\'${app}$\',t $\'${param}$\',t "${workdir}",i ${show})p.r0'
+System::Call 'shell32::ShellExecuteEx(t)(pr0)i.r1 ?e' ; (t) to trigger A/W selection
+${If} $1 <> 0
+	System::Call '*$0(is,i,p,p,p,p,p,p,p,p,p,p,p,p,p.r1)' ;stack value not really used, just a fancy pop ;)
+	System::Call 'kernel32::WaitForSingleObject(pr1,i-1)'
+	System::Call 'kernel32::GetExitCodeProcess(pr1,*i.s)'
+	System::Call 'kernel32::CloseHandle(pr1)'
+${EndIf}
+System::Free $0
+!if "${exitoutvar}" == ""
+	pop $0
+!endif
+System::Store L
+!if "${exitoutvar}" != ""
+	pop ${exitoutvar}
+!endif
+!macroend
 
 
   !ifndef NOINSTTYPES # allow user to switch the usage of InstTypes
@@ -308,7 +336,7 @@ FunctionEnd
 Function fin_pre
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Settings" "NumFields" "6"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Type" "CheckBox"
-WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Text" "&Run UOTiaraPack.bat (Make UOTiara.it)"
+WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Text" "&Run UOTiaraPack.bat (Make .it files)"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Left" "120"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Right" "315"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Top" "130"
@@ -319,7 +347,7 @@ AbyssFound14:
 IfFileExists $INSTDIR\Kanan\Kanan.dll KananFound14 KananNotFound14
 KananFound14:
 StrCpy $AbyssLoadKanan "0"
-MessageBox MB_YESNO "Would you like Abyss to run Kanan via LoadDLL=Kanan\Kanan.dll in Abyss.ini?$\r$\n(clicking yes can sometimes result in crashing after secondary password)" IDNO AbyssNotFound14
+MessageBox MB_YESNO "Would you like Abyss to run Kanan via LoadDLL=Kanan\Kanan.dll in Abyss.ini?$\r$\n(clicking yes can sometimes result in crashing before character select)" IDNO AbyssNotFound14
 StrCpy $AbyssLoadKanan "1"
 AbyssNotFound14:
 KananNotFound14:
@@ -334,9 +362,10 @@ mabi-pack2Found1:
 	StrCpy $R7 ".oninstsuccess Execute 1 $INSTDIR\UOTiaraPack.bat"
 	SetOutPath "$INSTDIR"
 	Call DumpLog1
-	ExecShell "" "$INSTDIR\UOTiaraPack.bat"
+!insertmacro ShellExecWait "" '"$INSTDIR\UOTiaraPack.bat"' '""' "" ${SW_SHOW} $1
 mabi-pack2NotFound1:
 end:
+!insertmacro ShellExecWait "" '"$INSTDIR\UOTiaraLocalPack.bat"' '""' "" ${SW_SHOW} $1
 FunctionEnd
 
 
@@ -736,12 +765,13 @@ SetOutPath "$INSTDIR\mabi-pack2"
 File "${srcdir}\Tiara's Moonshine Mod\Tools\mabi-pack2\mabi-pack2.exe"
 SetOutPath "$INSTDIR\"
 Call UOTiaraPackBuild
+Call UOTiaraLocalPackBuild
 WriteRegStr HKCR ".it "" "IT.it"
 WriteRegStr HKCR "IT.it" "" "IT File"
 WriteRegStr HKCR "IT.it\shell" "" "Open"
 WriteRegStr HKCR "IT.it\shell\Open\command" "" '"$INSTDIR\mabi-pack2\mabi-pack2.exe" "%1"'
 WriteRegStr HKCR "IT.it\DefaultIcon" "" "$INSTDIR\mabi-pack2\mabi-pack2.exe"
-SectionIn 1
+SectionIn RO
 SectionEnd
 !macro Remove_${MOD434}
   DetailPrint "*** Removing mabi-pack2..."
@@ -1073,7 +1103,7 @@ SectionGroup /e "Default Mods"
 SectionGroup "code"
 Section "Remove Window, Name, and Party Messages" MOD288
 SetOutPath "$INSTDIR\data\local\code"
-;File "${srcdir}\Tiara's Moonshine Mod\data\local\code\interface.english.txt"
+File "${srcdir}\Tiara's Moonshine Mod\data\local\code\interface.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD288}
@@ -1081,17 +1111,17 @@ SectionEnd
   Delete "$INSTDIR\data\local\code\interface.english.txt"
 !macroend
 Section "Remove Window, Name, and Party Messages 2" MOD289
-SetOutPath "$INSTDIR\data\code"
-;File "${srcdir}\Tiara's Moonshine Mod\data\code\interface.english.txt"
+SetOutPath "$INSTDIR\data\local\code"
+File "${srcdir}\Tiara's Moonshine Mod\data\local\code\interface.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD289}
   DetailPrint "*** Removing MOD289..."
-  Delete "$INSTDIR\data\code\interface.english.txt"
+  Delete "$INSTDIR\data\local\code\interface.english.txt"
 !macroend
 Section "Desc text for Cp Changersa" MOD290
 SetOutPath "$INSTDIR\data\local\code"
-;File "${srcdir}\Tiara's Moonshine Mod\data\local\code\standard.english.txt"
+File "${srcdir}\Tiara's Moonshine Mod\data\local\code\standard.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD290}
@@ -1099,13 +1129,13 @@ SectionEnd
   Delete "$INSTDIR\data\local\code\standard.english.txt"
 !macroend
 Section "Desc text for Cp Changersb" MOD291
-SetOutPath "$INSTDIR\data\code"
-;File "${srcdir}\Tiara's Moonshine Mod\data\code\standard.english.txt"
+SetOutPath "$INSTDIR\data\local\code"
+File "${srcdir}\Tiara's Moonshine Mod\data\local\code\standard.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD291}
   DetailPrint "*** Removing MOD291..."
-  Delete "$INSTDIR\data\code\standard.english.txt"
+  Delete "$INSTDIR\data\local\code\standard.english.txt"
 !macroend
 SectionGroupEnd
 SectionGroup "db"
@@ -1259,16 +1289,13 @@ Section "Music Buff Status List" MOD73
 SetOutPath "$INSTDIR\data\db"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\charactercondition.xml"
 SetOutPath "$INSTDIR\data\local\xml"
-
-SetOutPath "$INSTDIR\data\xml"
-
+;File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\charactercondition.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD73}
   DetailPrint "*** Removing MOD73..."
   Delete "$INSTDIR\data\db\charactercondition.xml"
   Delete "$INSTDIR\data\local\xml\charactercondition.english.txt"
-  Delete "$INSTDIR\data\xml\charactercondition.english.txt"
 !macroend
 SectionGroup "cutscene"
 Section "Paladin Cutscene Removal" MOD60
@@ -2599,28 +2626,17 @@ SectionGroupEnd
 SectionGroup "gfx"
 Section "Phantasmal Sight Color" MOD402
 SetOutPath "$INSTDIR\data\gfx\fx\effect"
-  Delete "$INSTDIR\data\gfx\fx\effect\c3_g10_s1_cloud.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\g23_specialization.xml"
-SetOutPath "$INSTDIR\data\material\fx\effect"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\Blue.dds"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\Metallurgy.dds"
-File "${srcdir}\Tiara's Moonshine Mod\\data\material\fx\effect\Yellow.dds"
-SetOutPath "$INSTDIR\data\material\_define\material\effect"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\Blue.xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\Metallurgy.xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\Yellow.xml"
+  Delete "$INSTDIR\data\material\_define\material\effect\Blue.xml"
+  Delete "$INSTDIR\data\material\_define\material\effect\Metallurgy.xml"
+  Delete "$INSTDIR\data\material\_define\material\effect\Yellow.xml"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD402}
   DetailPrint "*** Removing MOD402..."
-  Delete "$INSTDIR\data\gfx\fx\effect\c3_g10_s1_cloud.xml"
+
   Delete "$INSTDIR\data\gfx\fx\effect\g23_specialization.xml"
-  Delete "$INSTDIR\data\material\fx\effect\Blue.dds"
-  Delete "$INSTDIR\data\material\fx\effect\Metallurgy.dds"
-  Delete "$INSTDIR\data\material\fx\effect\Yellow.dds"
-  Delete "$INSTDIR\data\material\_define\material\effect\Blue.xml"
-  Delete "$INSTDIR\data\material\_define\material\effect\Metallurgy.xml"
-  Delete "$INSTDIR\data\material\_define\material\effect\Yellow.xml"
+
 !macroend
 SectionGroup "Tech Duinn Fog Removal" MOD396
 Section "Tech Duinn Fog Removal ?1" MOD396?1
@@ -3216,13 +3232,13 @@ Delete "$INSTDIR\data\gfx\scene\productionprop\10th_themapark\prop\scene_prop_10
 Delete "$INSTDIR\data\gfx\scene\productionprop\10th_themapark\prop\scene_prop_10thanniversary_outdoorstage01.xml"
 !macroend
 Section "Show Strange Book" MOD392
-SetOutPath "$INSTDIR\data\gfx\char\chapter3\monster\mesh\picturebooks"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\chapter3\monster\mesh\picturebooks\c3_picturebooks_mesh.pmg"
+SetOutPath "$INSTDIR\data\gfx\chapter3\monster\mesh\picturebooks"
+File "${srcdir}\Tiara's Moonshine Mod\data\gfx\chapter3\monster\mesh\picturebooks\c3_picturebooks_mesh.pmg"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD392}
   DetailPrint "*** Removing MOD392..."
-  Delete "$INSTDIR\data\gfx\char\chapter3\monster\mesh\picturebooks\c3_picturebooks_mesh.pmg"
+  Delete "$INSTDIR\data\gfx\chapter3\monster\mesh\picturebooks\c3_picturebooks_mesh.pmg"
 !macroend
 Section "Simplify Crystal Deer" MOD99
 SetOutPath "$INSTDIR\data\gfx\char\chapter4\pet\anim\crystal_rudolf"
@@ -6550,13 +6566,13 @@ SectionEnd
   Delete "$INSTDIR\data\local\xml\manualform.english.txt"
 !macroend
 Section "Quest Interface Abbreviated 1" MOD455
-SetOutPath "$INSTDIR\data\xml"
+SetOutPath "$INSTDIR\data\local\xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\questcategory.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD455}
   DetailPrint "*** Removing MOD455..."
-  Delete "$INSTDIR\data\xml\questcategory.english.txt"
+  Delete "$INSTDIR\data\local\xml\questcategory.english.txt"
 !macroend
 Section "Quest Interface Abbreviated 2" MOD456
 SetOutPath "$INSTDIR\data\local\xml"
@@ -6577,7 +6593,7 @@ SectionEnd
   Delete "$INSTDIR\data\local\xml\talenttitle.english.txt"
 !macroend
 Section "Show Talent Level by Number 2" MOD293
-SetOutPath "$INSTDIR\data\xml"
+SetOutPath "$INSTDIR\data\local\xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\talenttitle.english.txt"
 SectionIn 1 2 3
 SectionEnd
@@ -6595,7 +6611,7 @@ SectionEnd
   Delete "$INSTDIR\data\local\xml\propdb.english.txt"
 !macroend
 Section "Show Prop Names 3" MOD295
-SetOutPath "$INSTDIR\data\xml"
+SetOutPath "$INSTDIR\data\local\xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\propdb.english.txt"
 SectionIn 1 2 3
 SectionEnd
@@ -6604,7 +6620,7 @@ SectionEnd
   Delete "$INSTDIR\data\local\xml\propdb.english.txt"
 !macroend
 Section "Skeleton Squad Name Mod" MOD296
-SetOutPath "$INSTDIR\data\xml"
+SetOutPath "$INSTDIR\data\local\xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\race.english.txt"
 SectionIn 1 2 3
 SectionEnd
@@ -6621,24 +6637,7 @@ SectionEnd
   DetailPrint "*** Removing MOD297..."
   Delete "$INSTDIR\data\local\xml\race.english.txt"
 !macroend
-Section "Trade Imp Removal 2" MOD298
-SetOutPath "$INSTDIR\data\local\xml"
 
-SectionIn 1 2 3
-SectionEnd
-!macro Remove_${MOD298}
-  DetailPrint "*** Removing MOD298..."
-  Delete "$INSTDIR\data\local\xml\commercecommon.english.txt"
-!macroend
-Section "Trade Imp Removal 3" MOD299
-SetOutPath "$INSTDIR\data\xml"
-
-SectionIn 1 2 3
-SectionEnd
-!macro Remove_${MOD299}
-  DetailPrint "*** Removing MOD299..."
-  Delete "$INSTDIR\data\local\xml\commercecommon.english.txt"
-!macroend
 Section "True Fossil Names" MOD300
 SetOutPath "$INSTDIR\data\local\xml"
   DetailPrint "Installing True Fossil Names..."
@@ -6651,7 +6650,7 @@ SectionEnd
   Delete "$INSTDIR\data\local\xml\itemdb.english.txt"
 !macroend
 Section "True Fossil Names 2" MOD301
-SetOutPath "$INSTDIR\data\xml"
+SetOutPath "$INSTDIR\data\local\xml"
   DetailPrint "Installing True Fossil Names 2..."
   File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\itemdb.english.txt"
   SetDetailsPrint both
@@ -6671,7 +6670,7 @@ SectionEnd
   Delete "$INSTDIR\data\local\xml\title.english.txt"
 !macroend
 Section "Huge Ancient Names 2" MOD390
-SetOutPath "$INSTDIR\data\xml"
+SetOutPath "$INSTDIR\data\local\xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\title.english.txt"
 SectionIn 1 2 3
 SectionEnd
@@ -6684,13 +6683,14 @@ SectionGroupEnd
 
 SectionGroup "Optional Mods"
 Section "Unofficial Tiaras Moonshine Mod Readme" MOD205
-SetOutPath "$INSTDIR\data"
+SetOutPath "$INSTDIR"
 File "${srcdir}\README.md"
+Delete "$INSTDIR\data\README.md"
 SectionIn 1
 SectionEnd
 !macro Remove_${MOD205}
   DetailPrint "*** Removing MOD205..."
-  Delete "$INSTDIR\data\README.md"
+  Delete "$INSTDIR\README.md"
 !macroend
 Section "Realistic Rain" MOD394
 SetOutPath "$INSTDIR\data\sound"
@@ -6747,7 +6747,7 @@ SectionEnd
   Delete "$INSTDIR\data\local\xml\skillinfo.english.txt"
 !macroend
 Section "Show Hidden Skill Flown Hot-Air Balloon ?3" MOD398?3
-SetOutPath "$INSTDIR\data\xml"
+SetOutPath "$INSTDIR\data\local\xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\skillinfo.english.txt"
 SectionIn 1
 SectionEnd
@@ -7183,8 +7183,8 @@ SectionGroupEnd
 !insertmacro "${MacroName}" "MOD295"
 !insertmacro "${MacroName}" "MOD296"
 !insertmacro "${MacroName}" "MOD297"
-!insertmacro "${MacroName}" "MOD298"
-!insertmacro "${MacroName}" "MOD299"
+;!insertmacro "${MacroName}" "MOD298"
+;!insertmacro "${MacroName}" "MOD299"
 !insertmacro "${MacroName}" "MOD300"
 !insertmacro "${MacroName}" "MOD301"
 !insertmacro "${MacroName}" "MOD393"
@@ -8860,7 +8860,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD443" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD443" "CREATOR" "Draconis"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD443" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD205" "" "Unofficial Tiaras Moonshine Mod Readme"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD205" "FILE1" "\data\README.md"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD205" "FILE1" "\README.md"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD205" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD205" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD205" "DESCRIPTION" "Unofficial Tiaras Moonshine Mod Readme"
@@ -9321,7 +9321,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD288" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD288" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD288" "DESCRIPTION" "Hide Window, Name, and Party Messages in Top Right Screen+See who is requesting Duel-Trade"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD289" "" "Remove Window, Name, and Party Messages 2"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD289" "FILE1" "\data\code\interface.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD289" "FILE1" "\data\local\code\interface.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD289" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD289" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD289" "DESCRIPTION" "Hide Window, Name, and Party Messages in Top Right Screen+See who is requesting Duel-Trade"
@@ -9331,7 +9331,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD290" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD290" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD290" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD291" "" "Desc text for Cp Changersb"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD291" "FILE1" "\data\code\standard.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD291" "FILE1" "\data\local\code\standard.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD291" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD291" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD291" "DESCRIPTION" ""
@@ -9365,16 +9365,6 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD297" "FILE1" "\data\local\xml\r
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD297" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD297" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD297" "DESCRIPTION" ""
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "" "Trade Imp Removal 2"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "FILE1" "\data\local\xml\commercecommon.english.txt"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "CREATOR" "Shou"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "DESCRIPTION" ""
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "" "Trade Imp Removal 3"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE1" "\data\local\xml\commercecommon.english.txt"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "CREATOR" "Shou"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD300" "" "True Fossil Names"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD300" "FILE1" "\data\local\xml\itemdb.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD300" "FILES" "1"
@@ -10064,13 +10054,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD401?8" "CREATOR" "Dcohmyjess (c
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD401?8" "DESCRIPTION" "Allows You To See Dye Colors At A Glance"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "" "Phantasmal Sight Color"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE1" "\data\gfx\fx\effect\g23_specialization.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE2" "\data\material\fx\effect\Blue.dds"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE3" "\data\material\fx\effect\Metallurgy.dds"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE4" "\data\material\fx\effect\Yellow.dds"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE5" "\data\material\_define\material\effect\Blue.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE6" "\data\material\_define\material\effect\Metallurgy.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE7" "\data\material\_define\material\effect\Yellow.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILES" "7"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "CREATOR" "PoiDoe"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "DESCRIPTION" "Phantasmal Sight color change."
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD403" "" "Easy View Book Pages"
@@ -10504,6 +10488,7 @@ Delete "$INSTDIR\MabinogiResource.net.dll"
 Delete "$INSTDIR\DevIL.dll"
 Delete "$INSTDIR\Tao.DevIl.dll"
 Delete "$INSTDIR\UOTiaraPack.bat"
+Delete "$INSTDIR\UOTiaraLocalPack.bat"
 RMDir /r "$INSTDIR\Extentions\Addins\UOTiara"
 RMDir /r "$INSTDIR\Extentions\Addins"
 RMDir /r "$INSTDIR\Extentions"
@@ -10976,8 +10961,9 @@ Function .onInit
 UserInfo::GetAccountType
 pop $0
 ${If} $0 != "admin" ;Require admin rights on NT4+
-        MessageBox mb_iconstop "Administrator rights required!"
-        SetErrorLevel 740 ;ERROR_ELEVATION_REQUIRED
+    MessageBox mb_iconstop "Administrator rights required!"
+    SetErrorLevel 740 ;ERROR_ELEVATION_REQUIRED
+    Quit
 ${EndIf}
 SetOutPath $TEMP
 StrCpy $5 "\UOTiara_installlog.txt"
@@ -11597,17 +11583,115 @@ FunctionEnd
 
 Function UOTiaraPackBuild
 Delete "$INSTDIR\UOTiaraPack.bat"
-StrCpy $R7 "cd $INSTDIR"
+StrCpy $R7 "attrib -r $INSTDIR\package\data_99993.it"
+Call UOTiaraPack
+StrCpy $R7 "attrib -r $INSTDIR\package\data_99995.it"
+Call UOTiaraPack
+StrCpy $R7 "attrib -r $INSTDIR\package\data_99997.it"
 Call UOTiaraPack
 StrCpy $R7 "attrib -r $INSTDIR\package\data_99999.it"
 Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\" "$INSTDIR\UOTiara\data\" /q /s /y /c /e'
+StrCpy $R7 "del $INSTDIR\package\data_99993.it"
+Call UOTiaraPack
+StrCpy $R7 "del $INSTDIR\package\data_99995.it"
+Call UOTiaraPack
+StrCpy $R7 "del $INSTDIR\package\data_99997.it"
 Call UOTiaraPack
 StrCpy $R7 "del $INSTDIR\package\data_99999.it"
 Call UOTiaraPack
-StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara -o $INSTDIR\package\data_99999.it"
+StrCpy $R7 "cd $INSTDIR"
+Call UOTiaraPack
+StrCpy $R7 'xcopy "$INSTDIR\data\db\" "$INSTDIR\UOTiara\part3\data\db\" /q /s /y /c /e'
+Call UOTiaraPack
+StrCpy $R7 "mkdir $INSTDIR\UOTiara\part0\data\gfx\gui\map_jpg"
+Call UOTiaraPack
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg" "$INSTDIR\UOTiara\part0\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg" /y'
+Call UOTiaraPack
+StrCpy $R7 "mkdir $INSTDIR\UOTiara\part1\data\gfx\gui\map_jpg"
+Call UOTiaraPack
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg" "$INSTDIR\UOTiara\part1\data\gfx\gui\map_jpg\minimap_iria_courcle_mgfree_eng.jpg" /y'
+Call UOTiaraPack
+StrCpy $R7 "mkdir $INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg"
+Call UOTiaraPack
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_rano_new_mgfree_eng.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_iria_rano_new_mgfree_eng.jpg" /y'
+Call UOTiaraPack
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_physis_mgfree_eng.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_iria_physis_mgfree_eng.jpg" /y'
+Call UOTiaraPack
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_taillteann_eng_rep.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_taillteann_eng_rep.jpg" /y'
+Call UOTiaraPack
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_tara_eng_rep.jpg" "$INSTDIR\UOTiara\part1\data\gfx\gui\map_jpg\minimap_tara_eng_rep.jpg" /y'
+Call UOTiaraPack
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_rano_qilla_mgfree_eng.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_iria_rano_qilla_mgfree_eng.jpg" /y'
+Call UOTiaraPack
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_connous_underworld.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_iria_connous_underworld.jpg" /y'
+Call UOTiaraPack
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_taillteann_abb_neagh_mgfree_eng.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_taillteann_abb_neagh_mgfree_eng.jpg" /y'
+Call UOTiaraPack
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_n_eng.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_n_eng.jpg" /y'
+Call UOTiaraPack
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_s_eng.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_s_eng.jpg" /y'
+Call UOTiaraPack
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_taillteann_sliab_cuilin_eng_rep.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_taillteann_sliab_cuilin_eng_rep.jpg" /y'
+Call UOTiaraPack
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_senmag_mgfree_eng.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_senmag_mgfree_eng.jpg" /y'
+Call UOTiaraPack
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_senmag_eng.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_senmag_eng.jpg" /y'
+Call UOTiaraPack
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_tara_n_field_eng_rep.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_tara_n_field_eng_rep.jpg" /y'
+Call UOTiaraPack
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_tara_castle_1f_eng_rep.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_tara_castle_1f_eng_rep.jpg" /y'
+Call UOTiaraPack
+StrCpy $R7 'xcopy "$INSTDIR\data\gfx\gui\login_screen\" "$INSTDIR\UOTiara\part2\data\gfx\gui\login-Screen\" /q /s /y /c /e'
+Call UOTiaraPack
+StrCpy $R7 'xcopy "$INSTDIR\data\gfx\gui\trading_ui\" "$INSTDIR\UOTiara\part2\data\gfx\gui\trading_ui\" /q /s /y /c /e'
+Call UOTiaraPack
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\blacksmith.dds" "$INSTDIR\UOTiara\part2\data\gfx\gui\blacksmith.dds" /y'
+Call UOTiaraPack
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\font_eng.dds" "$INSTDIR\UOTiara\part2\data\gfx\gui\font_eng.dds" /y'
+Call UOTiaraPack
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\font_outline_eng.dds" "$INSTDIR\UOTiara\part2\data\gfx\gui\font_outline_eng.dds" /y'
+Call UOTiaraPack
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\tailoring.dds" "$INSTDIR\UOTiara\part2\data\gfx\gui\tailoring.dds" /y'
+Call UOTiaraPack
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\tailoring_2.dds" "$INSTDIR\UOTiara\part2\data\gfx\gui\tailoring_2.dds" /y'
+Call UOTiaraPack
+StrCpy $R7 'xcopy "$INSTDIR\data\gfx\chapter3\" "$INSTDIR\UOTiara\part3\data\gfx\chapter3\" /q /s /y /c /e'
+Call UOTiaraPack
+StrCpy $R7 'xcopy "$INSTDIR\data\gfx\char\" "$INSTDIR\UOTiara\part1\data\gfx\char\" /q /s /y /c /e'
+Call UOTiaraPack
+StrCpy $R7 'xcopy "$INSTDIR\data\gfx\font\" "$INSTDIR\UOTiara\part3\data\gfx\font\" /q /s /y /c /e'
+Call UOTiaraPack
+StrCpy $R7 'xcopy "$INSTDIR\data\gfx\fx\" "$INSTDIR\UOTiara\part3\data\gfx\fx\" /q /s /y /c /e'
+Call UOTiaraPack
+StrCpy $R7 'xcopy "$INSTDIR\data\gfx\image\" "$INSTDIR\UOTiara\part1\data\gfx\image\" /q /s /y /c /e'
+Call UOTiaraPack
+StrCpy $R7 'xcopy "$INSTDIR\data\gfx\image2\" "$INSTDIR\UOTiara\part1\data\gfx\image2\" /q /s /y /c /e'
+Call UOTiaraPack
+StrCpy $R7 'xcopy "$INSTDIR\data\gfx\scene\" "$INSTDIR\UOTiara\part3\data\gfx\scene\" /q /s /y /c /e'
+Call UOTiaraPack
+StrCpy $R7 'xcopy "$INSTDIR\data\gfx\style\" "$INSTDIR\UOTiara\part1\data\gfx\style\" /q /s /y /c /e'
+Call UOTiaraPack
+StrCpy $R7 'xcopy "$INSTDIR\data\locale\" "$INSTDIR\UOTiara\part1\data\locale\" /q /s /y /c /e'
+Call UOTiaraPack
+StrCpy $R7 'xcopy "$INSTDIR\data\material\" "$INSTDIR\UOTiara\part1\data\material\" /q /s /y /c /e'
+Call UOTiaraPack
+StrCpy $R7 'xcopy "$INSTDIR\data\sound\" "$INSTDIR\UOTiara\part1\data\sound\" /q /s /y /c /e'
+Call UOTiaraPack
+StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part0\ -o $INSTDIR\package\data_99993.it"
+Call UOTiaraPack
+StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part1\ -o $INSTDIR\package\data_99995.it"
+Call UOTiaraPack
+StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part2\ -o $INSTDIR\package\data_99997.it"
+Call UOTiaraPack
+StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part3\ -o $INSTDIR\package\data_99999.it"
 Call UOTiaraPack
 StrCpy $R7 "rmdir /q /s  $INSTDIR\UOTiara"
+Call UOTiaraPack
+StrCpy $R7 "attrib +r $INSTDIR\package\data_99993.it"
+Call UOTiaraPack
+StrCpy $R7 "attrib +r $INSTDIR\package\data_99995.it"
+Call UOTiaraPack
+StrCpy $R7 "attrib +r $INSTDIR\package\data_99997.it"
 Call UOTiaraPack
 StrCpy $R7 "attrib +r $INSTDIR\package\data_99999.it"
 Call UOTiaraPack
@@ -11617,6 +11701,39 @@ Function UOTiaraPack
 Push $R7
   ${GetTime} "" "L" $R0 $R1 $R2 $R3 $R4 $R5 $R6
   StrCpy $5 "UOTiaraPack.bat"
+  Push $5
+  FileOpen $5 $5 "a"
+  FileSeek $5 0 END
+  FileWrite $5 "$R7$\r$\n"
+  FileClose $5
+  Pop $R7
+  Pop $5
+FunctionEnd
+
+Function UOTiaraLocalPackBuild
+Delete "$INSTDIR\UOTiaraLocalPack.bat"
+StrCpy $R7 "cd $INSTDIR"
+Call UOTiaraLocalPack
+StrCpy $R7 "attrib -r $INSTDIR\package\data_99991.it"
+Call UOTiaraLocalPack
+StrCpy $R7 'xcopy "$INSTDIR\data\local\" "$INSTDIR\UOTiara\data\local\" /q /s /y /c /e'
+Call UOTiaraLocalPack
+StrCpy $R7 "del $INSTDIR\package\data_99991.it"
+Call UOTiaraLocalPack
+StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara -o $INSTDIR\package\data_99991.it"
+Call UOTiaraLocalPack
+StrCpy $R7 "rmdir /q /s  $INSTDIR\data\local"
+Call UOTiaraLocalPack
+StrCpy $R7 "rmdir /q /s  $INSTDIR\UOTiara"
+Call UOTiaraLocalPack
+StrCpy $R7 "attrib +r $INSTDIR\package\data_99991.it"
+Call UOTiaraLocalPack
+FunctionEnd
+
+Function UOTiaraLocalPack
+Push $R7
+  ${GetTime} "" "L" $R0 $R1 $R2 $R3 $R4 $R5 $R6
+  StrCpy $5 "UOTiaraLocalPack.bat"
   Push $5
   FileOpen $5 $5 "a"
   FileSeek $5 0 END

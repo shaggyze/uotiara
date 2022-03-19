@@ -1,20 +1,122 @@
-for %%A in ("C:\Nexon\Library\mabinogi\appdata\package\data\features.xml.compiled") do for %%B in (".\features.xml.compiled") do Copy %%~sA %%~sB
-".\Tiara's Moonshine Mod\Tools\MabiFeatureTool\MabiFeatureTool.exe" ".\features.xml.compiled"
-for %%A in (".\UpdateFeatures.ps1") do PowerShell -ExecutionPolicy RemoteSigned -File %%~sA
-".\Tiara's Moonshine Mod\Tools\MabiFeatureTool\MabiFeatureTool.exe" ".\features.xml"
-for %%A in (".\features.xml.compiled") do for %%B in (".\Tiara's Moonshine Mod\data\features.xml.compiled") do Copy %%~sA %%~sB
-copy /Y ".\Tiara's Moonshine Mod\data\local\code" ".\Tiara's Moonshine Mod\data\code"
-copy /Y ".\Tiara's Moonshine Mod\data\local\xml" ".\Tiara's Moonshine Mod\data\xml"
-xcopy ".\Tiara's Moonshine Mod\data\" "C:\Nexon\Library\mabinogi\appdata\data\" /q /s /y /c /e
-cd C:\Nexon\Library\mabinogi\appdata
-attrib -r "C:\Nexon\Library\mabinogi\appdata\package\data_99999.it"
-xcopy "C:\Nexon\Library\mabinogi\appdata\data\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\" /q /s /y /c /e
+attrib -r C:\Nexon\Library\mabinogi\appdata\package\data_99991.it
+attrib -r C:\Nexon\Library\mabinogi\appdata\package\data_99993.it
+attrib -r C:\Nexon\Library\mabinogi\appdata\package\data_99995.it
+attrib -r C:\Nexon\Library\mabinogi\appdata\package\data_99997.it
+attrib -r C:\Nexon\Library\mabinogi\appdata\package\data_99999.it
+del C:\Nexon\Library\mabinogi\appdata\package\data_99991.it
+del C:\Nexon\Library\mabinogi\appdata\package\data_99993.it
+del C:\Nexon\Library\mabinogi\appdata\package\data_99995.it
+del C:\Nexon\Library\mabinogi\appdata\package\data_99997.it
 del C:\Nexon\Library\mabinogi\appdata\package\data_99999.it
-C:\Nexon\Library\mabinogi\appdata\mabi-pack2\mabi-pack2.exe pack -i C:\Nexon\Library\mabinogi\appdata\UOTiara -o C:\Nexon\Library\mabinogi\appdata\package\data_99999.it
+@ECHO OFF
+set /p "yesno=Compile features.xml.compiled y/n?:"
+IF "%yesno%"=="y" (
+@ECHO ON
+for %%f in (C:\Nexon\Library\mabinogi\appdata\package\*.it) do (
+  C:\Nexon\Library\mabinogi\appdata\mabi-pack2\mabi-pack2.exe extract -i %%f -o . --filter "\.compiled"
+)
+".\Tiara's Moonshine Mod\Tools\MabiFeatureTool\MabiFeatureTool.exe" ".\data\features.xml.compiled"
+for %%A in (".\UpdateFeatures.ps1") do PowerShell -ExecutionPolicy RemoteSigned -File %%~sA
+".\Tiara's Moonshine Mod\Tools\MabiFeatureTool\MabiFeatureTool.exe" ".\data\features.xml"
+for %%A in (".\data\features.xml.compiled") do for %%B in (".\Tiara's Moonshine Mod\data\features.xml.compiled") do Copy %%~sA %%~sB
+) ELSE IF "%yesno%"=="n" (
+ECHO Skipping Compile
+) ELSE (
+ECHO Invalid Option: y or n
+PAUSE
+)
+@ECHO OFF
+set /p "yesno1=Copy data folder to mabinogi y/n?:"
+IF "%yesno1%"=="y" (
+xcopy ".\Tiara's Moonshine Mod\data\" "C:\Nexon\Library\mabinogi\appdata\data\" /q /s /y /c /e
+rmdir /q /s C:\Nexon\Library\mabinogi\appdata\data\gfx\font\fudd
+rmdir /q /s C:\Nexon\Library\mabinogi\appdata\data\gfx\font\interstate
+rmdir /q /s C:\Nexon\Library\mabinogi\appdata\data\gfx\font\pixelade
+rmdir /q /s C:\Nexon\Library\mabinogi\appdata\data\gfx\font\powerred
+rmdir /q /s C:\Nexon\Library\mabinogi\appdata\data\gfx\font\sun-exta
+rmdir /q /s C:\Nexon\Library\mabinogi\appdata\data\gfx\font\tiara
+rmdir /q /s C:\Nexon\Library\mabinogi\appdata\data\gfx\font\uotiara
+rmdir /q /s C:\Nexon\Library\mabinogi\appdata\data\gfx\font\whiterabbit
+rmdir /q /s C:\Nexon\Library\mabinogi\appdata\data\gfx\font\ydygo550
+) ELSE IF "%yesno1%"=="n" (
+ECHO Skipping Copy
+) ELSE (
+ECHO Invalid Option: y or n
+PAUSE
+)
+@ECHO ON
+cd C:\Nexon\Library\mabinogi\appdata
+xcopy "C:\Nexon\Library\mabinogi\appdata\data\local\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\local\" /q /s /y /c /e
+C:\Nexon\Library\mabinogi\appdata\mabi-pack2\mabi-pack2.exe pack -i C:\Nexon\Library\mabinogi\appdata\UOTiara -o C:\Nexon\Library\mabinogi\appdata\package\data_99991.it
+rmdir /q /s  C:\Nexon\Library\mabinogi\appdata\data\local
 rmdir /q /s  C:\Nexon\Library\mabinogi\appdata\UOTiara
-copy /Y ".\README.md" "C:\Users\%username%\Google Drive\Tiara\unofficialtiara\README.md"
-copy /Y "C:\Nexon\Library\mabinogi\appdata\package\data_99999.it" "C:\Users\%username%\Google Drive\Tiara\unofficialtiara\data_99999.it"
-copy /Y "C:\Nexon\Library\mabinogi\appdata\package\data_99999.it" "C:\Users\%username%\Documents\GitHub\uotiara\data_99999.it"
+cd C:\Nexon\Library\mabinogi\appdata
+xcopy "C:\Nexon\Library\mabinogi\appdata\data\db\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part3\data\db\" /q /s /y /c /e
+
+mkdir C:\Nexon\Library\mabinogi\appdata\UOTiara\part0\data\gfx\gui\map_jpg
+copy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part0\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg" /y
+mkdir C:\Nexon\Library\mabinogi\appdata\UOTiara\part1\data\gfx\gui\map_jpg
+copy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part1\data\gfx\gui\map_jpg\minimap_iria_courcle_mgfree_eng.jpg" /y
+mkdir C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\data\gfx\gui\map_jpg
+copy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\map_jpg\minimap_iria_rano_new_mgfree_eng.jpg" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\data\gfx\gui\map_jpg\minimap_iria_rano_new_mgfree_eng.jpg" /y
+copy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\map_jpg\minimap_iria_physis_mgfree_eng.jpg" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\data\gfx\gui\map_jpg\minimap_iria_physis_mgfree_eng.jpg" /y
+copy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\map_jpg\minimap_taillteann_eng_rep.jpg" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\data\gfx\gui\map_jpg\minimap_taillteann_eng_rep.jpg" /y
+copy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\map_jpg\minimap_tara_eng_rep.jpg" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part1\data\gfx\gui\map_jpg\minimap_tara_eng_rep.jpg" /y
+copy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\map_jpg\minimap_iria_rano_qilla_mgfree_eng.jpg" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\data\gfx\gui\map_jpg\minimap_iria_rano_qilla_mgfree_eng.jpg" /y
+copy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\map_jpg\minimap_iria_connous_underworld.jpg" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\data\gfx\gui\map_jpg\minimap_iria_connous_underworld.jpg" /y
+copy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\map_jpg\minimap_taillteann_abb_neagh_mgfree_eng.jpg" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\data\gfx\gui\map_jpg\minimap_taillteann_abb_neagh_mgfree_eng.jpg" /y
+copy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_n_eng.jpg" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_n_eng.jpg" /y
+copy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_s_eng.jpg" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_s_eng.jpg" /y
+copy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\map_jpg\minimap_taillteann_sliab_cuilin_eng_rep.jpg" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\data\gfx\gui\map_jpg\minimap_taillteann_sliab_cuilin_eng_rep.jpg" /y
+copy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\map_jpg\minimap_senmag_mgfree_eng.jpg" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\data\gfx\gui\map_jpg\minimap_senmag_mgfree_eng.jpg" /y
+copy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\map_jpg\minimap_senmag_eng.jpg" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\data\gfx\gui\map_jpg\minimap_senmag_eng.jpg" /y
+copy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\map_jpg\minimap_tara_n_field_eng_rep.jpg" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\data\gfx\gui\map_jpg\minimap_tara_n_field_eng_rep.jpg" /y
+copy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\map_jpg\minimap_tara_castle_1f_eng_rep.jpg" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\data\gfx\gui\map_jpg\minimap_tara_castle_1f_eng_rep.jpg" /y
+xcopy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\login_screen\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\data\gfx\gui\login-Screen\" /q /s /y /c /e
+xcopy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\trading_ui\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\data\gfx\gui\trading_ui\" /q /s /y /c /e
+copy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\blacksmith.dds" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\data\gfx\gui\blacksmith.dds" /y
+copy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\font_eng.dds" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\data\gfx\gui\font_eng.dds" /y
+copy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\font_outline_eng.dds" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\data\gfx\gui\font_outline_eng.dds" /y
+copy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\tailoring.dds" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\data\gfx\gui\tailoring.dds" /y
+copy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\tailoring_2.dds" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\data\gfx\gui\tailoring_2.dds" /y
+xcopy "C:\Nexon\Library\mabinogi\appdata\data\gfx\chapter3\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part3\data\gfx\chapter3\" /q /s /y /c /e
+xcopy "C:\Nexon\Library\mabinogi\appdata\data\gfx\char\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part1\data\gfx\char\" /q /s /y /c /e
+xcopy "C:\Nexon\Library\mabinogi\appdata\data\gfx\font\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part3\data\gfx\font\" /q /s /y /c /e
+xcopy "C:\Nexon\Library\mabinogi\appdata\data\gfx\fx\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part3\data\gfx\fx\" /q /s /y /c /e
+xcopy "C:\Nexon\Library\mabinogi\appdata\data\gfx\image\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part1\data\gfx\image\" /q /s /y /c /e
+xcopy "C:\Nexon\Library\mabinogi\appdata\data\gfx\image2\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part1\data\gfx\image2\" /q /s /y /c /e
+xcopy "C:\Nexon\Library\mabinogi\appdata\data\gfx\scene\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part3\data\gfx\scene\" /q /s /y /c /e
+xcopy "C:\Nexon\Library\mabinogi\appdata\data\gfx\style\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part1\data\gfx\style\" /q /s /y /c /e
+xcopy "C:\Nexon\Library\mabinogi\appdata\data\locale\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part1\data\locale\" /q /s /y /c /e
+xcopy "C:\Nexon\Library\mabinogi\appdata\data\material\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part1\data\material\" /q /s /y /c /e
+xcopy "C:\Nexon\Library\mabinogi\appdata\data\sound\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part1\data\sound\" /q /s /y /c /e
+C:\Nexon\Library\mabinogi\appdata\mabi-pack2\mabi-pack2.exe pack -i C:\Nexon\Library\mabinogi\appdata\UOTiara\part0\ -o C:\Nexon\Library\mabinogi\appdata\package\data_99993.it
+C:\Nexon\Library\mabinogi\appdata\mabi-pack2\mabi-pack2.exe pack -i C:\Nexon\Library\mabinogi\appdata\UOTiara\part1\ -o C:\Nexon\Library\mabinogi\appdata\package\data_99995.it
+C:\Nexon\Library\mabinogi\appdata\mabi-pack2\mabi-pack2.exe pack -i C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\ -o C:\Nexon\Library\mabinogi\appdata\package\data_99997.it
+C:\Nexon\Library\mabinogi\appdata\mabi-pack2\mabi-pack2.exe pack -i C:\Nexon\Library\mabinogi\appdata\UOTiara\part3\ -o C:\Nexon\Library\mabinogi\appdata\package\data_99999.it
+rmdir /q /s  C:\Nexon\Library\mabinogi\appdata\UOTiara
+copy ".\README.md" "C:\Users\%username%\Google Drive\Tiara\unofficialtiara\README.md"
+@ECHO OFF
+set /p "yesno2=Compile Installer y/n?:"
+IF "%yesno2%"=="y" (
 "%PROGRAMFILES(x86)%\NSIS\makensis.exe" "C:\Users\%username%\Documents\GitHub\uotiara\uotiara.nsi"
+) ELSE IF "%yesno2%"=="n" (
+ECHO Skipping Compile
+) ELSE (
+ECHO Invalid Option: y or n
+PAUSE
+)
+set /p "yesno3=Run Installer y/n?:"
+IF "%yesno3%"=="y" (
 for %%I in ("%~dp0*.exe") do start "Running %%~nI" /wait "%%I"
-attrib +r "C:\Nexon\Library\mabinogi\appdata\package\data_99999.it"
+) ELSE IF "%yesno3%"=="n" (
+ECHO Skipping Run
+) ELSE (
+ECHO Invalid Option: y or n
+PAUSE
+)
+attrib +r C:\Nexon\Library\mabinogi\appdata\package\data_99991.it
+attrib +r C:\Nexon\Library\mabinogi\appdata\package\data_99993.it
+attrib +r C:\Nexon\Library\mabinogi\appdata\package\data_99995.it
+attrib +r C:\Nexon\Library\mabinogi\appdata\package\data_99997.it
+attrib +r C:\Nexon\Library\mabinogi\appdata\package\data_99999.it
