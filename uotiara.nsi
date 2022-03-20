@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
 !define UOSHORTVERSION        "383"
-!define UOLONGVERSION         "0.16.39"
+!define UOLONGVERSION         "0.16.40"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -1115,7 +1115,7 @@ SectionEnd
   Delete "$INSTDIR\data\code\interface.english.txt"
 !macroend
 Section "Remove Window, Name, and Party Messages 2" MOD289
-SetOutPath "$INSTDIR\data\local\code"
+SetOutPath "$INSTDIR\data\code"
 File "${srcdir}\Tiara's Moonshine Mod\data\code\interface.english.txt"
 SectionIn 1 2 3
 SectionEnd
@@ -1124,7 +1124,7 @@ SectionEnd
   Delete "$INSTDIR\data\code\interface.english.txt"
 !macroend
 Section "Desc text for Cp Changersa" MOD290
-SetOutPath "$INSTDIR\data\local\code"
+SetOutPath "$INSTDIR\data\code"
 File "${srcdir}\Tiara's Moonshine Mod\data\code\standard.english.txt"
 SectionIn 1 2 3
 SectionEnd
@@ -1133,7 +1133,7 @@ SectionEnd
   Delete "$INSTDIR\data\code\standard.english.txt"
 !macroend
 Section "Desc text for Cp Changersb" MOD291
-SetOutPath "$INSTDIR\data\local\code"
+SetOutPath "$INSTDIR\data\code"
 File "${srcdir}\Tiara's Moonshine Mod\data\code\standard.english.txt"
 SectionIn 1 2 3
 SectionEnd
