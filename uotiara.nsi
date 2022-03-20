@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
 !define UOSHORTVERSION        "383"
-!define UOLONGVERSION         "0.16.38"
+!define UOLONGVERSION         "0.16.39"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -321,11 +321,11 @@ WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "LoadDLL" "Kanan\Kanan.dll"
 ${EndIf}
 KananNotFound4:
 Exec '"notepad.exe" "$INSTDIR\Abyss.ini"'
-goto end_fin_leave
 AbyssNotFound4:
 IfFileExists $INSTDIR\Kanan\config.txt 0 +2
 Exec '"notepad.exe" "$INSTDIR\Kanan\config.txt"'
-end_fin_leave:
+IfFileExists $INSTDIR\UOTiaraPack.bat 0 +2
+Exec '"notepad.exe" "$INSTDIR\UOTiaraPack.bat"'
 FunctionEnd
 
 Function fin_show
@@ -341,7 +341,6 @@ WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Left" "120"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Right" "315"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Top" "130"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Bottom" "140"
-WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "State" "0"
 IfFileExists $INSTDIR\Abyss.ini AbyssFound14 AbyssNotFound14
 AbyssFound14:
 IfFileExists $INSTDIR\Kanan\Kanan.dll KananFound14 KananNotFound14
@@ -359,13 +358,16 @@ StrCmp $0 "0" end
 SetOutPath "$INSTDIR"
 IfFileExists $INSTDIR\UOTiaraPack.bat mabi-pack2Found1 mabi-pack2NotFound1
 mabi-pack2Found1:
+IfFileExists $INSTDIR\mabi-pack2\mabi-pack2.exe mabi-pack2Found2 mabi-pack2NotFound1
+mabi-pack2Found2:
 	StrCpy $R7 ".oninstsuccess Execute 1 $INSTDIR\UOTiaraPack.bat"
 	SetOutPath "$INSTDIR"
 	Call DumpLog1
 !insertmacro ShellExecWait "" '"$INSTDIR\UOTiaraPack.bat"' '""' "" ${SW_SHOW} $1
+goto end
 mabi-pack2NotFound1:
+MessageBox MB_OK "Please reinstall and select mabi-pack2 to use this option."
 end:
-!insertmacro ShellExecWait "" '"$INSTDIR\UOTiaraLocalPack.bat"' '""' "" ${SW_SHOW} $1
 FunctionEnd
 
 
@@ -764,16 +766,16 @@ no4:
 
 Section "mabi-pack2" MOD434
 SetOutPath "$INSTDIR\mabi-pack2"
+WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "State" "1"
 File "${srcdir}\Tiara's Moonshine Mod\Tools\mabi-pack2\mabi-pack2.exe"
 SetOutPath "$INSTDIR\"
 Call UOTiaraPackBuild
-Call UOTiaraLocalPackBuild
 WriteRegStr HKCR ".it "" "IT.it"
 WriteRegStr HKCR "IT.it" "" "IT File"
 WriteRegStr HKCR "IT.it\shell" "" "Open"
 WriteRegStr HKCR "IT.it\shell\Open\command" "" '"$INSTDIR\mabi-pack2\mabi-pack2.exe" "%1"'
 WriteRegStr HKCR "IT.it\DefaultIcon" "" "$INSTDIR\mabi-pack2\mabi-pack2.exe"
-SectionIn 1 2 3 4
+SectionIn 1 3
 SectionEnd
 !macro Remove_${MOD434}
   DetailPrint "*** Removing mabi-pack2..."
@@ -1101,50 +1103,50 @@ SectionEnd
   RMDir /r "$INSTDIR\MabiCooker2"
 !macroend
 SectionGroupEnd
-SectionGroup /e "Default Mods"
+SectionGroup /e "Data Mods"
 SectionGroup "code"
 Section "Remove Window, Name, and Party Messages" MOD288
-SetOutPath "$INSTDIR\data\local\code"
-File "${srcdir}\Tiara's Moonshine Mod\data\local\code\interface.english.txt"
+SetOutPath "$INSTDIR\data\code"
+File "${srcdir}\Tiara's Moonshine Mod\data\code\interface.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD288}
   DetailPrint "*** Removing MOD288..."
-  Delete "$INSTDIR\data\local\code\interface.english.txt"
+  Delete "$INSTDIR\data\code\interface.english.txt"
 !macroend
 Section "Remove Window, Name, and Party Messages 2" MOD289
 SetOutPath "$INSTDIR\data\local\code"
-File "${srcdir}\Tiara's Moonshine Mod\data\local\code\interface.english.txt"
+File "${srcdir}\Tiara's Moonshine Mod\data\code\interface.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD289}
   DetailPrint "*** Removing MOD289..."
-  Delete "$INSTDIR\data\local\code\interface.english.txt"
+  Delete "$INSTDIR\data\code\interface.english.txt"
 !macroend
 Section "Desc text for Cp Changersa" MOD290
 SetOutPath "$INSTDIR\data\local\code"
-File "${srcdir}\Tiara's Moonshine Mod\data\local\code\standard.english.txt"
+File "${srcdir}\Tiara's Moonshine Mod\data\code\standard.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD290}
   DetailPrint "*** Removing MOD290..."
-  Delete "$INSTDIR\data\local\code\standard.english.txt"
+  Delete "$INSTDIR\data\code\standard.english.txt"
 !macroend
 Section "Desc text for Cp Changersb" MOD291
 SetOutPath "$INSTDIR\data\local\code"
-File "${srcdir}\Tiara's Moonshine Mod\data\local\code\standard.english.txt"
+File "${srcdir}\Tiara's Moonshine Mod\data\code\standard.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD291}
   DetailPrint "*** Removing MOD291..."
-  Delete "$INSTDIR\data\local\code\standard.english.txt"
+  Delete "$INSTDIR\data\code\standard.english.txt"
 !macroend
 SectionGroupEnd
 SectionGroup "db"
 Section "Always noon sky 1" MOD85
 SetOutPath "$INSTDIR\data\db"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\renderer_resource.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD85}
   DetailPrint "*** Removing MOD85..."
@@ -1153,7 +1155,7 @@ SectionEnd
 Section "Autoproduction Uncaps" MOD86
 SetOutPath "$INSTDIR\data\db"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\production.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD86}
   DetailPrint "*** Removing MOD86..."
@@ -1162,7 +1164,7 @@ SectionEnd
 Section "Bandit Spotter 1" MOD87
 SetOutPath "$INSTDIR\data\db"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\commercecommon.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD87}
   DetailPrint "*** Removing MOD87..."
@@ -1171,7 +1173,7 @@ SectionEnd
 Section "Bandit Spotter 2" MOD88
 SetOutPath "$INSTDIR\data\db"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\npcclientappearance.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD88}
   DetailPrint "*** Removing MOD88..."
@@ -1180,7 +1182,7 @@ SectionEnd
 Section "Dark Knight Sound" MOD89
 SetOutPath "$INSTDIR\data\db"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\animationevent.anievent"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD89}
   DetailPrint "*** Removing MOD89..."
@@ -1189,7 +1191,7 @@ SectionEnd
 Section "Dungeon Fog Removal 1" MOD90
 SetOutPath "$INSTDIR\data\db"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\dungeon_ruin.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD90}
   DetailPrint "*** Removing MOD90..."
@@ -1198,7 +1200,7 @@ SectionEnd
 Section "Dungeon Fog Removal 2" MOD91
 SetOutPath "$INSTDIR\data\db"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\dungeondb.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD91}
   DetailPrint "*** Removing MOD91..."
@@ -1209,7 +1211,7 @@ SetOutPath "$INSTDIR\data\db"
   DetailPrint "Installing dungeondb2.xml..."
   File "${srcdir}\Tiara's Moonshine Mod\data\db\dungeondb2.xml"
   SetDetailsPrint both
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD92}
   DetailPrint "*** Removing MOD92..."
@@ -1218,7 +1220,7 @@ SectionEnd
 Section "Fragmentation Autoproduction Uncap" MOD93
 SetOutPath "$INSTDIR\data\db"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\dissolution.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD93}
   DetailPrint "*** Removing MOD93..."
@@ -1227,7 +1229,7 @@ SectionEnd
 Section "Iria Dungeon/Underground Tunnel Fog Removal" MOD94
 SetOutPath "$INSTDIR\data\db"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\minimapinfo.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD94}
   DetailPrint "*** Removing MOD94..."
@@ -1236,7 +1238,7 @@ SectionEnd
 Section "Iria Underground Tunnel Field of View" MOD95
 SetOutPath "$INSTDIR\data\db"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\undergroundmaze.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD95}
   DetailPrint "*** Removing MOD95..."
@@ -1247,7 +1249,7 @@ SetOutPath "$INSTDIR\data\db"
   DetailPrint "Installing propdb.xml..."
   File "${srcdir}\Tiara's Moonshine Mod\data\db\propdb.xml"
   SetDetailsPrint both
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD96}
   DetailPrint "*** Removing MOD96..."
@@ -1256,7 +1258,7 @@ SectionEnd
 Section "Vertical Flight Speed" MOD97
 SetOutPath "$INSTDIR\data\db"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\aircraftdesc.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD97}
   DetailPrint "*** Removing MOD97..."
@@ -1266,7 +1268,7 @@ SectionGroup "View Deadly as Red Glow-Mana Shield as Blue Glow-etc" MOD98
 Section "View Deadly as Red Glow-Mana Shield as Blue Glow-etc ?1" MOD98?1
 SetOutPath "$INSTDIR\data\db"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\charactercondition.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD98?1}
   DetailPrint "*** Removing MOD98?1..."
@@ -1275,7 +1277,7 @@ SectionEnd
 Section "View Deadly as Red Glow-Mana Shield as Blue Glow-etc ?2" MOD98?2
 SetOutPath "$INSTDIR\data\gfx\image"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\gui_condition_custom.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD98?2}
   DetailPrint "*** Removing MOD98?1..."
@@ -1290,20 +1292,20 @@ SectionGroupEnd
 Section "Music Buff Status List" MOD73
 SetOutPath "$INSTDIR\data\db"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\charactercondition.xml"
-SetOutPath "$INSTDIR\data\local\xml"
-;File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\charactercondition.english.txt"
-SectionIn 1 2 3
+SetOutPath "$INSTDIR\data\xml"
+;File "${srcdir}\Tiara's Moonshine Mod\data\xml\charactercondition.english.txt"
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD73}
   DetailPrint "*** Removing MOD73..."
   Delete "$INSTDIR\data\db\charactercondition.xml"
-  Delete "$INSTDIR\data\local\xml\charactercondition.english.txt"
+  Delete "$INSTDIR\data\xml\charactercondition.english.txt"
 !macroend
 SectionGroup "cutscene"
 Section "Paladin Cutscene Removal" MOD60
 SetOutPath "$INSTDIR\data\db\cutscene"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\cutscene_paladin_change.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD60}
   DetailPrint "*** Removing MOD60..."
@@ -1312,7 +1314,7 @@ SectionEnd
 Section "Dark Knight Cutscene Removal" MOD61
 SetOutPath "$INSTDIR\data\db\cutscene"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\cutscene_darknight_change.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD61}
   DetailPrint "*** Removing MOD61..."
@@ -1321,7 +1323,7 @@ SectionEnd
 Section "Waterfall Drop Cutscene Removal" MOD62
 SetOutPath "$INSTDIR\data\db\cutscene"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\cutscene_waterfall.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD62}
   DetailPrint "*** Removing MOD62..."
@@ -1330,7 +1332,7 @@ SectionEnd
 Section "Boss Cutscene Removals Group 1" MOD63
 SetOutPath "$INSTDIR\data\db\cutscene"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\cutscene_bossroom_event.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD63}
   DetailPrint "*** Removing MOD63..."
@@ -1339,7 +1341,7 @@ SectionEnd
 Section "Boss Cutscene Removals Group 2" MOD64
 SetOutPath "$INSTDIR\data\db\cutscene"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\cutscene_bossroom_event2.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD64}
   DetailPrint "*** Removing MOD64..."
@@ -1348,7 +1350,7 @@ SectionEnd
 Section "Boss Cutscene Removals Group 3" MOD65
 SetOutPath "$INSTDIR\data\db\cutscene"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\cutscene_bossroom_event3.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD65}
   DetailPrint "*** Removing MOD65..."
@@ -1357,7 +1359,7 @@ SectionEnd
 Section "Boss Cutscene Removals Group 4" MOD66
 SetOutPath "$INSTDIR\data\db\cutscene"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\cutscene_bossroom_event4.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD66}
   DetailPrint "*** Removing MOD66..."
@@ -1366,7 +1368,7 @@ SectionEnd
 Section "Boss Cutscene Removals Group 5" MOD67
 SetOutPath "$INSTDIR\data\db\cutscene"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\cutscene_bossroom_event5.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD67}
   DetailPrint "*** Removing MOD67..."
@@ -1375,7 +1377,7 @@ SectionEnd
 Section "Elven Fire Magic Missile Cutscene Removal" MOD68
 SetOutPath "$INSTDIR\data\db\cutscene"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\cutscene_elvenmissile_fire.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD68}
   DetailPrint "*** Removing MOD68..."
@@ -1384,7 +1386,7 @@ SectionEnd
 Section "Elven Ice Magic Missile Cutscene Removal" MOD69
 SetOutPath "$INSTDIR\data\db\cutscene"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\cutscene_elvenmissile_ice.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD69}
   DetailPrint "*** Removing MOD69..."
@@ -1393,7 +1395,7 @@ SectionEnd
 Section "Elven Lightning Magic Missile Cutscene Removal" MOD70
 SetOutPath "$INSTDIR\data\db\cutscene"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\cutscene_elvenmissile_light.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD70}
   DetailPrint "*** Removing MOD70..."
@@ -1402,7 +1404,7 @@ SectionEnd
 Section "Giant Full Swing Cutscene Removal" MOD71
 SetOutPath "$INSTDIR\data\db\cutscene"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\cutscene_giant_fullswing.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD71}
   DetailPrint "*** Removing MOD71..."
@@ -1411,7 +1413,7 @@ SectionEnd
 Section "Peaca Dungeon Master Lich Cutscene Removal" MOD444
 SetOutPath "$INSTDIR\data\db\cutscene\"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\bossroom_peaca_masterlich.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD444}
   DetailPrint "*** Removing MOD444..."
@@ -1420,7 +1422,7 @@ SectionEnd
 Section "Peaca-Coil Abyss and G19 Boss Room Cutscene Removal" MOD445
 SetOutPath "$INSTDIR\data\db\cutscene\"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\cutscene_bossroom_event6.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD445}
   DetailPrint "*** Removing MOD445..."
@@ -1429,7 +1431,7 @@ SectionEnd
 Section "G19 Renovation Cutscene Removal" MOD446
 SetOutPath "$INSTDIR\data\db\cutscene\"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\cutscene_g19_renovation.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD446}
   DetailPrint "*** Removing MOD446..."
@@ -1439,7 +1441,7 @@ SectionGroup "c2"
 Section "Artifact Discovery Cutscene Removal" MOD1
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_finding.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD1}
   DetailPrint "*** Removing MOD1..."
@@ -1448,7 +1450,7 @@ SectionEnd
 Section "Elf Transformation Cutscene Removal" MOD405
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\cutscene_elf_transform.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD405}
   DetailPrint "*** Removing MOD405..."
@@ -1457,7 +1459,7 @@ SectionEnd
 Section "Giant Transformation Cutscene Removal" MOD406
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\cutscene_giant_transform.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD406}
   DetailPrint "*** Removing MOD406..."
@@ -1466,7 +1468,7 @@ SectionEnd
 Section "Alby Arachne Cutscene Removal" MOD2
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\bossroom_albi_arachne.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD2}
   DetailPrint "*** Removing MOD2..."
@@ -1475,7 +1477,7 @@ SectionEnd
 Section "Alby Hard Mode Arachne Cutscene Removal" MOD447
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\bossroom_hardmode_albi_arachne.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD447}
   DetailPrint "*** Removing MOD447..."
@@ -1484,7 +1486,7 @@ SectionEnd
 Section "Golden Spider Cutscene Removal" MOD3
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\bossroom_albi_golden_spider.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD3}
   DetailPrint "*** Removing MOD3..."
@@ -1493,7 +1495,7 @@ SectionEnd
 Section "Ghost Army Cutscene Removal" MOD4
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\bossroom_ghostarmy.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD4}
   DetailPrint "*** Removing MOD4..."
@@ -1502,7 +1504,7 @@ SectionEnd
 Section "Giant Ice Sprite Cutscene Removal" MOD5
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\bossroom_giant_ice_sprite.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD5}
   DetailPrint "*** Removing MOD5..."
@@ -1511,7 +1513,7 @@ SectionEnd
 Section "Generic Incubus Cutscene Removal" MOD6
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\bossroom_incubus.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD6}
   DetailPrint "*** Removing MOD6..."
@@ -1520,7 +1522,7 @@ SectionEnd
 Section "Dugald Incubus Cutscene Removal" MOD7
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\bossroom_incubus_dugald.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD7}
   DetailPrint "*** Removing MOD7..."
@@ -1529,7 +1531,7 @@ SectionEnd
 Section "Dugald Incubus Transformation Cutscene Removal" MOD8
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\bossroom_incubus_dugald_transform.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD8}
   DetailPrint "*** Removing MOD8..."
@@ -1538,7 +1540,7 @@ SectionEnd
 Section "Sen Mag Incubus Cutscene Removal" MOD9
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\bossroom_incubus_senmag.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD9}
   DetailPrint "*** Removing MOD9..."
@@ -1547,7 +1549,7 @@ SectionEnd
 Section "Sen Mag Incubus Transformation Cutscene Removal" MOD10
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\bossroom_incubus_senmag_transform.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD10}
   DetailPrint "*** Removing MOD10..."
@@ -1556,7 +1558,7 @@ SectionEnd
 Section "Generic Incubus Transformation Cutscene Removal" MOD11
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\bossroom_incubus_transform.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD11}
   DetailPrint "*** Removing MOD11..."
@@ -1565,7 +1567,7 @@ SectionEnd
 Section "Bandersnatch Cutscene Removal" MOD12
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_bandersnatch.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD12}
   DetailPrint "*** Removing MOD12..."
@@ -1574,7 +1576,7 @@ SectionEnd
 Section "Desert Ruins Boss Cutscene Removal" MOD13
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_dersert_ruins.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD13}
   DetailPrint "*** Removing MOD13..."
@@ -1583,7 +1585,7 @@ SectionEnd
 Section "Mirror Witch Cutscene Removal" MOD14
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_mirrorwitch.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD14}
   DetailPrint "*** Removing MOD14..."
@@ -1592,7 +1594,7 @@ SectionEnd
 Section "Angry Mirror Witch Cutscene Removal" MOD15
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_mirrorwitch_angry.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD15}
   DetailPrint "*** Removing MOD15..."
@@ -1601,7 +1603,7 @@ SectionEnd
 Section "Mirror Witch Introduction Cutscene Removal" MOD16
 SetOutPath "$INSTDIR\data\db\cutscene\c2\"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_mirrorwitch_intro.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD16}
   DetailPrint "*** Removing MOD16..."
@@ -1610,7 +1612,7 @@ SectionEnd
 Section "Pot Spider Cutscene Removal" MOD17
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_potspider.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD17}
   DetailPrint "*** Removing MOD17..."
@@ -1619,7 +1621,7 @@ SectionEnd
 Section "Pot Spider Pincer Cutscene Removal" MOD18
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_potspider_claw.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD18}
   DetailPrint "*** Removing MOD18..."
@@ -1628,7 +1630,7 @@ SectionEnd
 Section "Pot Spider Leg Cutscene Removal" MOD19
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_potspider_leg.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD19}
   DetailPrint "*** Removing MOD19..."
@@ -1637,7 +1639,7 @@ SectionEnd
 Section "Pot Spider Molar Cutscene Removal" MOD20
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_potspider_molar.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD20}
   DetailPrint "*** Removing MOD20..."
@@ -1646,7 +1648,7 @@ SectionEnd
 Section "Pot Spider Venom Sac" MOD21
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_potspider_poisongland.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD21}
   DetailPrint "*** Removing MOD21..."
@@ -1655,7 +1657,7 @@ SectionEnd
 Section "Pot Spider Pot Belly Cutscene Removal" MOD22
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_potspider_pot.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD22}
   DetailPrint "*** Removing MOD22..."
@@ -1664,7 +1666,7 @@ SectionEnd
 Section "Shining Gargoyle Cutscene Removal" MOD23
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_shining_stonegargoyle.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD23}
   DetailPrint "*** Removing MOD23..."
@@ -1673,7 +1675,7 @@ SectionEnd
 Section "Stone Bison Cutscene Removal" MOD24
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonebison.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD24}
   DetailPrint "*** Removing MOD24..."
@@ -1682,7 +1684,7 @@ SectionEnd
 Section "Stone Bison Hoof Cutscene Removal" MOD25
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonebison_hoof.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD25}
   DetailPrint "*** Removing MOD25..."
@@ -1691,7 +1693,7 @@ SectionEnd
 Section "Stone Bison Horn Cutscene Removal" MOD26
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonebison_horn.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD26}
   DetailPrint "*** Removing MOD26..."
@@ -1700,7 +1702,7 @@ SectionEnd
 Section "Stone Bison Tail Cutscene Removal" MOD27
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonebison_tail.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD27}
   DetailPrint "*** Removing MOD27..."
@@ -1709,7 +1711,7 @@ SectionEnd
 Section "Stone Bison Teeth Cutscene Removal" MOD28
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonebison_teeth.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD28}
   DetailPrint "*** Removing MOD28..."
@@ -1718,7 +1720,7 @@ SectionEnd
 Section "Stone Gargoyle Cutscene Removal" MOD29
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonegargoyle.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD29}
   DetailPrint "*** Removing MOD29..."
@@ -1727,7 +1729,7 @@ SectionEnd
 Section "Stone Gargoyle Boots Cutscene Removal" MOD30
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonegargoyle_boots.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD30}
   DetailPrint "*** Removing MOD30..."
@@ -1736,7 +1738,7 @@ SectionEnd
 Section "Stone Gargoyle Glove Cutscene Removal" MOD31
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonegargoyle_glove.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD31}
   DetailPrint "*** Removing MOD31..."
@@ -1745,7 +1747,7 @@ SectionEnd
 Section "Stone Gargoyle Shoulder Cutscene Removal" MOD32
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonegargoyle_shoulder.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD32}
   DetailPrint "*** Removing MOD32..."
@@ -1754,7 +1756,7 @@ SectionEnd
 Section "Stone Horse Cutscene Removal" MOD33
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonehorse.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD33}
   DetailPrint "*** Removing MOD33..."
@@ -1763,7 +1765,7 @@ SectionEnd
 Section "Stone Hound Cutscene Removal" MOD34
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonehound.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD34}
   DetailPrint "*** Removing MOD34..."
@@ -1772,7 +1774,7 @@ SectionEnd
 Section "Stone Hound Anklet Cutscene Removal" MOD35
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonehound_anklet.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD35}
   DetailPrint "*** Removing MOD35..."
@@ -1781,7 +1783,7 @@ SectionEnd
 Section "Stone Hound Paw Cutscene Removal" MOD36
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonehound_claw.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD36}
   DetailPrint "*** Removing MOD36..."
@@ -1790,7 +1792,7 @@ SectionEnd
 Section "Stone Hound Ear Cutscene Removal" MOD37
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonehound_ear.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD37}
   DetailPrint "*** Removing MOD37..."
@@ -1799,7 +1801,7 @@ SectionEnd
 Section "Stone Hound Tail Cutscene Removal" MOD38
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonehound_tail.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD38}
   DetailPrint "*** Removing MOD38..."
@@ -1808,7 +1810,7 @@ SectionEnd
 Section "Stone Hound Teeth Cutscene Removal" MOD39
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonehound_teeth.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD39}
   DetailPrint "*** Removing MOD39..."
@@ -1817,7 +1819,7 @@ SectionEnd
 Section "Stone Imp Cutscene Removal" MOD40
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stoneimp.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD40}
   DetailPrint "*** Removing MOD40..."
@@ -1826,7 +1828,7 @@ SectionEnd
 Section "Stone Imp Hat Cutscene Removal" MOD41
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stoneimp_cap.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD41}
   DetailPrint "*** Removing MOD41..."
@@ -1835,7 +1837,7 @@ SectionEnd
 Section "Stone Imp Accessory Cutscene Removal" MOD42
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stoneimp_capaccessory.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD42}
   DetailPrint "*** Removing MOD42..."
@@ -1844,7 +1846,7 @@ SectionEnd
 Section "Stone Imp Ear Cutscene Removal" MOD43
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stoneimp_ear.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD43}
   DetailPrint "*** Removing MOD43..."
@@ -1853,7 +1855,7 @@ SectionEnd
 Section "Stone Imp Jewel Cutscene Removal" MOD44
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stoneimp_jewel.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD44}
   DetailPrint "*** Removing MOD44..."
@@ -1862,7 +1864,7 @@ SectionEnd
 Section "Stone Imp Nose Cutscene Removal" MOD45
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stoneimp_nose.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD45}
   DetailPrint "*** Removing MOD45..."
@@ -1871,7 +1873,7 @@ SectionEnd
 Section "Stone Imp Sandal Cutscene Removal" MOD46
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stoneimp_sandal.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD46}
   DetailPrint "*** Removing MOD46..."
@@ -1880,7 +1882,7 @@ SectionEnd
 Section "Stone Pot Spider Cutscene Removal" MOD47
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonepotspider.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD47}
   DetailPrint "*** Removing MOD47..."
@@ -1889,7 +1891,7 @@ SectionEnd
 Section "Stone Zombie Cutscene Removal" MOD48
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonezombie.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD48}
   DetailPrint "*** Removing MOD48..."
@@ -1898,7 +1900,7 @@ SectionEnd
 Section "Stone Zombie Belt Cutscene Removal" MOD49
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonezombie_belt.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD49}
   DetailPrint "*** Removing MOD49..."
@@ -1907,7 +1909,7 @@ SectionEnd
 Section "Stone Zombie Circlet Cutscene Removal" MOD50
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonezombie_circlet.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD50}
   DetailPrint "*** Removing MOD50..."
@@ -1916,7 +1918,7 @@ SectionEnd
 Section "Stone Zombie Eye Cutscene Removal" MOD51
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonezombie_eye.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD51}
   DetailPrint "*** Removing MOD51..."
@@ -1925,7 +1927,7 @@ SectionEnd
 Section "Stone Zombie Hair Cutscene Removal" MOD52
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonezombie_hair.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD52}
   DetailPrint "*** Removing MOD52..."
@@ -1934,7 +1936,7 @@ SectionEnd
 Section "Stone Zombie Shoulder Cutscene Removal" MOD53
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonezombie_shoulder.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD53}
   DetailPrint "*** Removing MOD53..."
@@ -1943,7 +1945,7 @@ SectionEnd
 Section "Stone Zombie Wristlet Cutscene Removal" MOD54
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_stonezombie_wristlet.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD54}
   DetailPrint "*** Removing MOD54..."
@@ -1952,7 +1954,7 @@ SectionEnd
 Section "Wendigo Cutscene Removal" MOD55
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_bossroom_wendigo.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD55}
   DetailPrint "*** Removing MOD55..."
@@ -1961,7 +1963,7 @@ SectionEnd
 Section "Mark Discovery Cutscene Removal" MOD56
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_finding_mark.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD56}
   DetailPrint "*** Removing MOD56..."
@@ -1970,7 +1972,7 @@ SectionEnd
 Section "Landmark Discovery Cutscene Removal" MOD57
 SetOutPath "$INSTDIR\data\db\cutscene\c2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c2\iria_finding_landmark.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD57}
   DetailPrint "*** Removing MOD57..."
@@ -1981,7 +1983,7 @@ SectionGroup "c3"
 Section "Awakening of Light Cutscene Removal" MOD58
 SetOutPath "$INSTDIR\data\db\cutscene\c3"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c3\cutscene_c3g10_halfgod_transform.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD58}
   DetailPrint "*** Removing MOD58..."
@@ -1990,7 +1992,7 @@ SectionEnd
 Section "Abb Neagh Incubus Cutscene Removal" MOD407
 SetOutPath "$INSTDIR\data\db\cutscene\c3"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c3\bossroom_incubus_abb.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD407}
   DetailPrint "*** Removing MOD407..."
@@ -1999,7 +2001,7 @@ SectionEnd
 Section "Abb Neagh Incubus Transformation Cutscene Removal" MOD408
 SetOutPath "$INSTDIR\data\db\cutscene\c3"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c3\bossroom_incubus_abb_transform.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD408}
   DetailPrint "*** Removing MOD408..."
@@ -2008,7 +2010,7 @@ SectionEnd
 Section "Cuilin Incubus Cutscene Removal" MOD409
 SetOutPath "$INSTDIR\data\db\cutscene\c3"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c3\bossroom_incubus_cuilin.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD409}
   DetailPrint "*** Removing MOD409..."
@@ -2017,7 +2019,7 @@ SectionEnd
 Section "Cuilin Incubus Transformation Cutscene Removal" MOD410
 SetOutPath "$INSTDIR\data\db\cutscene\c3"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c3\bossroom_incubus_cuilin_transform.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD410}
   DetailPrint "*** Removing MOD410..."
@@ -2028,7 +2030,7 @@ SectionGroup "c4"
 Section "Martial Arts-NPC Battle Cutscene Removal" MOD59
 SetOutPath "$INSTDIR\data\db\cutscene\c4"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c4\cutscene_c4g15_npc_mission.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD59}
   DetailPrint "*** Removing MOD59..."
@@ -2037,7 +2039,7 @@ SectionEnd
 Section "Paris Proposal Cutscene Removal" MOD411
 SetOutPath "$INSTDIR\data\db\cutscene\c4"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c4\cutscene_c4g14_1_2_propose_from_paris.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD411}
   DetailPrint "*** Removing MOD411..."
@@ -2046,7 +2048,7 @@ SectionEnd
 Section "SoulStream Purification Cutscene Removal" MOD412
 SetOutPath "$INSTDIR\data\db\cutscene\c4"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c4\cutscene_c4g16_16_soulstream_purify.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD412}
   DetailPrint "*** Removing MOD412..."
@@ -2055,7 +2057,7 @@ SectionEnd
 Section "Bandit Hideout Entry Cutscene Removal" MOD413
 SetOutPath "$INSTDIR\data\db\cutscene\c4"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c4\cutscene_crminalfarm_enter.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD413}
   DetailPrint "*** Removing MOD413..."
@@ -2064,7 +2066,7 @@ SectionEnd
 Section "Bandit Hideout Exit Cutscene Removal" MOD414
 SetOutPath "$INSTDIR\data\db\cutscene\c4"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c4\cutscene_crminalfarm_exit.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD414}
   DetailPrint "*** Removing MOD414..."
@@ -2073,7 +2075,7 @@ SectionEnd
 Section "Grim Reaper Boss Cutscene Removal" MOD448
 SetOutPath "$INSTDIR\data\db\cutscene\c4"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c4\cutscene_c4g13s2_bossroom_grimreaper.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD448}
   DetailPrint "*** Removing MOD448..."
@@ -2082,7 +2084,7 @@ SectionEnd
 Section "Snow Troll Intro Cutscene Removal" MOD449
 SetOutPath "$INSTDIR\data\db\cutscene\c4"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c4\cutscene_c4g13s2_ex_snowtroll.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD449}
   DetailPrint "*** Removing MOD449..."
@@ -2091,7 +2093,7 @@ SectionEnd
 Section "Sailing Ship Cutscene Removals" MOD450
 SetOutPath "$INSTDIR\data\db\cutscene\c4"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c4\cutscene_c4g15_ship.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD450}
   DetailPrint "*** Removing MOD450..."
@@ -2100,7 +2102,7 @@ SectionEnd
 Section "Belvast Intro Cutscene Removal1" MOD451
 SetOutPath "$INSTDIR\data\db\cutscene\c4"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\c4\cutscene_into_the_belfast.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD451}
   DetailPrint "*** Removing MOD451..."
@@ -2112,7 +2114,7 @@ SectionGroup "Saga 1 Ep 1 Cutscene Removals" MOD415
 Section "Saga 1 Ep 1 Cutscene Removal ?1" MOD415?1
 SetOutPath "$INSTDIR\data\db\cutscene\drama"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep1_01.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD415?1}
   DetailPrint "*** Removing MOD415?1..."
@@ -2121,7 +2123,7 @@ SectionEnd
 Section "Saga 1 Ep 1 Cutscene Removal ?2" MOD415?2
 SetOutPath "$INSTDIR\data\db\cutscene\drama"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep1_02.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD415?2}
   DetailPrint "*** Removing MOD415?2..."
@@ -2130,7 +2132,7 @@ SectionEnd
 Section "Saga 1 Ep 1 Cutscene Removal ?3" MOD415?3
 SetOutPath "$INSTDIR\data\db\cutscene\drama"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep1_03.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD415?3}
   DetailPrint "*** Removing MOD415?3..."
@@ -2139,7 +2141,7 @@ SectionEnd
 Section "Saga 1 Ep 1 Cutscene Removal ?4" MOD415?4
 SetOutPath "$INSTDIR\data\db\cutscene\drama"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep1_04.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD415?4}
   DetailPrint "*** Removing MOD415?4..."
@@ -2148,7 +2150,7 @@ SectionEnd
 Section "Saga 1 Ep 1 Cutscene Removal ?5" MOD415?5
 SetOutPath "$INSTDIR\data\db\cutscene\drama"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep1_05.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD415?5}
   DetailPrint "*** Removing MOD415?5..."
@@ -2157,7 +2159,7 @@ SectionEnd
 Section "Saga 1 Ep 1 Cutscene Removal ?6" MOD415?6
 SetOutPath "$INSTDIR\data\db\cutscene\drama"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep1_06.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD415?6}
   DetailPrint "*** Removing MOD415?6..."
@@ -2166,7 +2168,7 @@ SectionEnd
 Section "Saga 1 Ep 1 Cutscene Removal ?7" MOD415?7
 SetOutPath "$INSTDIR\data\db\cutscene\drama"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep1_06_1.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD415?7}
   DetailPrint "*** Removing MOD415?7..."
@@ -2175,7 +2177,7 @@ SectionEnd
 Section "Saga 1 Ep 1 Cutscene Removal ?8" MOD415?8
 SetOutPath "$INSTDIR\data\db\cutscene\drama"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep1_07.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD415?8}
   DetailPrint "*** Removing MOD415?8..."
@@ -2184,7 +2186,7 @@ SectionEnd
 Section "Saga 1 Ep 1 Cutscene Removal ?9" MOD415?9
 SetOutPath "$INSTDIR\data\db\cutscene\drama"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep1_ex_into_region.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD415?9}
   DetailPrint "*** Removing MOD415?9..."
@@ -2193,7 +2195,7 @@ SectionEnd
 Section "Saga 1 Ep 1 Cutscene Removal ?10" MOD415?10
 SetOutPath "$INSTDIR\data\db\cutscene\drama"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep1_ex01.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD415?10}
   DetailPrint "*** Removing MOD415?10..."
@@ -2202,7 +2204,7 @@ SectionEnd
 Section "Saga 1 Ep 1 Cutscene Removal ?11" MOD415?11
 SetOutPath "$INSTDIR\data\db\cutscene\drama"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep1_ex02.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD415?11}
   DetailPrint "*** Removing MOD415?11..."
@@ -2233,7 +2235,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep2_06.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep2_07.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep2_ex01.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD416}
   DetailPrint "*** Removing MOD416..."
@@ -2255,7 +2257,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep3_04.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep3_05.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep3_06.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD417}
   DetailPrint "*** Removing MOD417..."
@@ -2275,7 +2277,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep4_04.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep4_05.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep4_06.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD418}
   DetailPrint "*** Removing MOD418..."
@@ -2295,7 +2297,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep5_05.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep5_sub_01.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep5_sub_02.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD419}
   DetailPrint "*** Removing MOD419..."
@@ -2316,7 +2318,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep6_03.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep6_04.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep6_05.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD420}
   DetailPrint "*** Removing MOD420..."
@@ -2337,7 +2339,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep7_05.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep7_06.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep7_ex_commentary.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD421}
   DetailPrint "*** Removing MOD421..."
@@ -2360,7 +2362,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep8_06.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep8_07.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep8_08.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD422}
   DetailPrint "*** Removing MOD422..."
@@ -2383,7 +2385,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep9_04.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep9_05.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep9_06.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD423}
   DetailPrint "*** Removing MOD423..."
@@ -2404,7 +2406,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep10_04.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep10_05.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep10_06.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD424}
   DetailPrint "*** Removing MOD424..."
@@ -2454,7 +2456,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama2\cutscene_dramairia
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama2\cutscene_dramairia2_ep1_31.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama2\cutscene_dramairia2_ep1_start01.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama2\cutscene_dramairia2_ep1_start02.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD425}
   DetailPrint "*** Removing MOD425..."
@@ -2496,7 +2498,7 @@ SectionEnd
 Section "Saga 2 Ep 2 Cutscene Removals" MOD426
 SetOutPath "$INSTDIR\data\db\cutscene\drama2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama2\cutscene_dramairia2_ep2_start.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD426}
   DetailPrint "*** Removing MOD426..."
@@ -2517,7 +2519,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama2\cutscene_dramairia
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama2\cutscene_dramairia2_ep3_11.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama2\cutscene_dramairia2_ep3_12.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama2\cutscene_dramairia2_ep3_start.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD427}
   DetailPrint "*** Removing MOD427..."
@@ -2546,7 +2548,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama2\cutscene_dramairia
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama2\cutscene_dramairia2_ep4_07.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama2\cutscene_dramairia2_ep4_08.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama2\cutscene_dramairia2_ep4_start.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD428}
   DetailPrint "*** Removing MOD428..."
@@ -2574,7 +2576,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama2\cutscene_dramairia
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama2\cutscene_dramairia2_ep5_10.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama2\cutscene_dramairia2_ep5_11.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama2\cutscene_dramairia2_ep5_start.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD429}
   DetailPrint "*** Removing MOD429..."
@@ -2605,7 +2607,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama2\cutscene_dramairia
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama2\cutscene_dramairia2_ep6_10.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama2\cutscene_dramairia2_ep6_start.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama2\cutscene_dramairia2_ep6_start_2.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD430}
   DetailPrint "*** Removing MOD430..."
@@ -2632,7 +2634,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\g23_specialization.xml"
   Delete "$INSTDIR\data\material\_define\material\effect\Blue.xml"
   Delete "$INSTDIR\data\material\_define\material\effect\Metallurgy.xml"
   Delete "$INSTDIR\data\material\_define\material\effect\Yellow.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD402}
   DetailPrint "*** Removing MOD402..."
@@ -2646,7 +2648,7 @@ SetOutPath "$INSTDIR\data\gfx\scene\dungeon\gd1\prop\"
   DetailPrint "Installing Tech Duinn Fog Removal ?1..."
   File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\dungeon\gd1\prop\dg_gd1_senmag_fog_01.xml"
 SetDetailsPrint both
-SectionIn 1
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD396?1}
   DetailPrint "*** Removing Tech Duinn Fog Removal ?1..."
@@ -2657,7 +2659,7 @@ SetOutPath "$INSTDIR\data\gfx\scene\dungeon\gd1\room\"
   DetailPrint "Installing Tech Duinn Fog Removal ?2..."
   File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\dungeon\gd1\room\dg_gd1_balor_temple_lobby01_fog01.xml"
 SetDetailsPrint both
-SectionIn 1
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD396?2}
   DetailPrint "*** Removing Tech Duinn Fog Removal ?2..."
@@ -2800,7 +2802,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\dgc\tb\tb_dgc_waterfa
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\dgc\tb\tb_dgc_cliff_01.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\dgc\tb\tb_dgc_cliff_02.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\dgc\tb\tb_dgc_waterfall_01.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD453}
   DetailPrint "*** Removing Simplified Baltane Squire Area..."
@@ -3082,7 +3084,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\productionprop\10th_themapa
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\productionprop\10th_themapark\prop\scene_prop_10thanniversary_dungeongate_01.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\productionprop\10th_themapark\prop\scene_prop_10thanniversary_icecreamstore_01.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\productionprop\10th_themapark\prop\scene_prop_10thanniversary_outdoorstage01.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD457}
   DetailPrint "*** Removing Simplified Festia..."
@@ -3236,7 +3238,7 @@ Delete "$INSTDIR\data\gfx\scene\productionprop\10th_themapark\prop\scene_prop_10
 Section "Show Strange Book" MOD392
 SetOutPath "$INSTDIR\data\gfx\chapter3\monster\mesh\picturebooks"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\chapter3\monster\mesh\picturebooks\c3_picturebooks_mesh.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD392}
   DetailPrint "*** Removing MOD392..."
@@ -3245,7 +3247,7 @@ SectionEnd
 Section "Simplify Crystal Deer" MOD99
 SetOutPath "$INSTDIR\data\gfx\char\chapter4\pet\anim\crystal_rudolf"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\chapter4\pet\anim\crystal_rudolf\pet_crystal_rudolf_ice_storm.ani"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD99}
   DetailPrint "*** Removing MOD99..."
@@ -3254,7 +3256,7 @@ SectionEnd
 Section "Simplify Fire Dragon" MOD100
 SetOutPath "$INSTDIR\data\gfx\char\chapter4\pet\anim\dragon"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\chapter4\pet\anim\dragon\pet_firedragon_summon.ani"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD100}
   DetailPrint "*** Removing MOD100..."
@@ -3263,7 +3265,7 @@ SectionEnd
 Section "Simplify Ice Dragon 1" MOD101
 SetOutPath "$INSTDIR\data\gfx\char\chapter4\pet\anim\dragon"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\chapter4\pet\anim\dragon\pet_icedragon_summon.ani"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD101}
   DetailPrint "*** Removing MOD101..."
@@ -3272,7 +3274,7 @@ SectionEnd
 Section "Simplify Thunder Dragon" MOD102
 SetOutPath "$INSTDIR\data\gfx\char\chapter4\pet\anim\dragon"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\chapter4\pet\anim\dragon\pet_thunderdragon_summon.ani"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD102}
   DetailPrint "*** Removing MOD102..."
@@ -3281,7 +3283,7 @@ SectionEnd
 Section "Simplify Thunder Dragon (two seater)" MOD103
 SetOutPath "$INSTDIR\data\gfx\char\chapter4\pet\anim\dragon"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\chapter4\pet\anim\dragon\pet_thunderdragon_two_summon.ani"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD103}
   DetailPrint "*** Removing MOD103..."
@@ -3290,7 +3292,7 @@ SectionEnd
 Section "Simplify Flamemare" MOD104
 SetOutPath "$INSTDIR\data\gfx\char\chapter4\pet\anim\flamemare"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\chapter4\pet\anim\flamemare\pet_flamemare_firestorm.ani"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD104}
   DetailPrint "*** Removing MOD104..."
@@ -3299,7 +3301,7 @@ SectionEnd
 Section "Simplify Ice Dragon 2 (framework)" MOD105
 SetOutPath "$INSTDIR\data\gfx\char\chapter4\pet\mesh\dragon"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\chapter4\pet\mesh\dragon\pet_c4_icedragon_framework.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD105}
   DetailPrint "*** Removing MOD105..."
@@ -3308,7 +3310,7 @@ SectionEnd
 Section "Invisible Female Giant Minimization Fix 1" MOD106
 SetOutPath "$INSTDIR\data\gfx\char\giant\female\mentle"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\giant\female\mentle\giant_female_dummy_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD106}
   DetailPrint "*** Removing MOD106..."
@@ -3317,7 +3319,7 @@ SectionEnd
 Section "Invisible Female Giant Minimization Fix 2" MOD107
 SetOutPath "$INSTDIR\data\gfx\char\giant\male\mentle"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\giant\male\mentle\giant_male_dummy_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD107}
   DetailPrint "*** Removing MOD107..."
@@ -3326,7 +3328,7 @@ SectionEnd
 Section "Alternate Success Animation" MOD108
 SetOutPath "$INSTDIR\data\gfx\char\human\anim\emotion"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\anim\emotion\uni_natural_emotion_skill_success.ani"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD108}
   DetailPrint "*** Removing MOD108..."
@@ -3335,7 +3337,7 @@ SectionEnd
 Section "Alternate Fail Animation" MOD109
 SetOutPath "$INSTDIR\data\gfx\char\human\anim\emotion"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\anim\emotion\uni_natural_emotion_skill_Fail_short.ani"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD109}
   DetailPrint "*** Removing MOD109..."
@@ -3344,7 +3346,7 @@ SectionEnd
 Section "Alternate Success Animation File" MOD110
 SetOutPath "$INSTDIR\data\gfx\char\human\anim\emotion"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\anim\emotion\uni_natural_emotion_skill_success.mov"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD110}
   DetailPrint "*** Removing MOD110..."
@@ -3353,7 +3355,7 @@ SectionEnd
 Section "Alternate Fail Animation File" MOD111
 SetOutPath "$INSTDIR\data\gfx\char\human\anim\emotion"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\anim\emotion\uni_natural_emotion_skill_Fail_short.mov"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD111}
   DetailPrint "*** Removing MOD111..."
@@ -3362,7 +3364,7 @@ SectionEnd
 Section "Herb Gathering Animation Replacement" MOD112
 SetOutPath "$INSTDIR\data\gfx\char\human\anim"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\anim\uni_natural_gathering_eggs.ani"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD112}
   DetailPrint "*** Removing MOD112..."
@@ -3371,7 +3373,7 @@ SectionEnd
 Section "Invisible Female Human Minimization Fix" MOD113
 SetOutPath "$INSTDIR\data\gfx\char\human\female\mantle"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\female\mantle\female_dummy_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD113}
   DetailPrint "*** Removing MOD113..."
@@ -3380,7 +3382,7 @@ SectionEnd
 Section "Invisible Male Human Minimization Fix" MOD114
 SetOutPath "$INSTDIR\data\gfx\char\human\male\mantle"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\male\mantle\male_dummy_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD114}
   DetailPrint "*** Removing MOD114..."
@@ -3389,7 +3391,7 @@ SectionEnd
 Section "L-rod Glow Enhancement 1" MOD115
 SetOutPath "$INSTDIR\data\gfx\char\human\tool"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\tool\tool_lroad_01.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD115}
   DetailPrint "*** Removing MOD115..."
@@ -3398,7 +3400,7 @@ SectionEnd
 Section "L-rod Glow Enhancement 2" MOD116
 SetOutPath "$INSTDIR\data\gfx\char\human\tool"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\tool\tool_lroad_02.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD116}
   DetailPrint "*** Removing MOD116..."
@@ -3407,7 +3409,7 @@ SectionEnd
 Section "L-rod Glow Enhancement 3" MOD117
 SetOutPath "$INSTDIR\data\gfx\char\human\tool"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\tool\tool_lroad_03.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD117}
   DetailPrint "*** Removing MOD117..."
@@ -3416,7 +3418,7 @@ SectionEnd
 Section "Guns Glow FX Enhancement" MOD400
 SetOutPath "$INSTDIR\data\gfx\char\chapter4\human\tool"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\chapter4\human\tool\weapon_c4_dualgun05.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD400}
   DetailPrint "*** Removing MOD400..."
@@ -3425,7 +3427,7 @@ SectionEnd
 Section "Item Drop Animation Removal 1" MOD118
 SetOutPath "$INSTDIR\data\gfx\char\item\anim"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\item\anim\item_appear.ani"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD118}
   DetailPrint "*** Removing MOD118..."
@@ -3434,7 +3436,7 @@ SectionEnd
 Section "Item Drop Animation Removal 2" MOD119
 SetOutPath "$INSTDIR\data\gfx\char\item\anim"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\item\anim\item_appear02.ani"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD119}
   DetailPrint "*** Removing MOD119..."
@@ -3443,7 +3445,7 @@ SectionEnd
 Section "Item Drop Animation Removal 3" MOD120
 SetOutPath "$INSTDIR\data\gfx\char\item\anim"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\item\anim\item_appear_From_prop.ani"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD120}
   DetailPrint "*** Removing MOD120..."
@@ -3452,7 +3454,7 @@ SectionEnd
 Section "Item Drop Animation Removal 4" MOD121
 SetOutPath "$INSTDIR\data\gfx\char\item\anim"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\item\anim\item_appear02_From_prop.ani"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD121}
   DetailPrint "*** Removing MOD121..."
@@ -3461,7 +3463,7 @@ SectionEnd
 Section "Huge Boss Keys 1" MOD122
 SetOutPath "$INSTDIR\data\gfx\char\item\mesh"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\item\mesh\item_bosskey_001.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD122}
   DetailPrint "*** Removing MOD122..."
@@ -3470,7 +3472,7 @@ SectionEnd
 Section "Huge Boss Keys 2" MOD123
 SetOutPath "$INSTDIR\data\gfx\char\item\mesh"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\item\mesh\item_bosskey_002.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD123}
   DetailPrint "*** Removing MOD123..."
@@ -3479,7 +3481,7 @@ SectionEnd
 Section "Huge Treasure Keys 1" MOD124
 SetOutPath "$INSTDIR\data\gfx\char\item\mesh"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\item\mesh\item_boxkey_001.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD124}
   DetailPrint "*** Removing MOD124..."
@@ -3488,7 +3490,7 @@ SectionEnd
 Section "Huge Room Keys 2" MOD125
 SetOutPath "$INSTDIR\data\gfx\char\item\mesh"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\item\mesh\item_roomkey_001.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD125}
   DetailPrint "*** Removing MOD125..."
@@ -3497,7 +3499,7 @@ SectionEnd
 Section "Huge Mushrooms" MOD126
 SetOutPath "$INSTDIR\data\gfx\char\item\mesh"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\item\mesh\prop_mushroom01_i.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD126}
   DetailPrint "*** Removing MOD126..."
@@ -3506,7 +3508,7 @@ SectionEnd
 Section "Huge Gold Mushrooms" MOD127
 SetOutPath "$INSTDIR\data\gfx\char\item\mesh"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\item\mesh\prop_mushroom02_i.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD127}
   DetailPrint "*** Removing MOD127..."
@@ -3515,7 +3517,7 @@ SectionEnd
 Section "Huge Poison Mushrooms" MOD128
 SetOutPath "$INSTDIR\data\gfx\char\item\mesh"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\item\mesh\prop_mushroom03_i.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD128}
   DetailPrint "*** Removing MOD128..."
@@ -3524,7 +3526,7 @@ SectionEnd
 Section "Mimic Differentiation 1" MOD129
 SetOutPath "$INSTDIR\data\gfx\char\monster\mesh\mimic"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\monster\mesh\mimic\mimic01_mesh.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD129}
   DetailPrint "*** Removing MOD129..."
@@ -3533,7 +3535,7 @@ SectionEnd
 Section "Mimic Differentiation 2" MOD130
 SetOutPath "$INSTDIR\data\gfx\char\monster\mesh\mimic"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\monster\mesh\mimic\mimic02_mesh.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD130}
   DetailPrint "*** Removing MOD130..."
@@ -3542,7 +3544,7 @@ SectionEnd
 Section "Mimic Differentiation 3" MOD131
 SetOutPath "$INSTDIR\data\gfx\char\monster\mesh\mimic"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\monster\mesh\mimic\mimic03_mesh.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD131}
   DetailPrint "*** Removing MOD131..."
@@ -3551,7 +3553,7 @@ SectionEnd
 Section "Mimic Differentiation 4" MOD132
 SetOutPath "$INSTDIR\data\gfx\char\monster\mesh\mimic"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\monster\mesh\mimic\mimic04_mesh.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD132}
   DetailPrint "*** Removing MOD132..."
@@ -3560,7 +3562,7 @@ SectionEnd
 Section "Mimic Differentiation 5" MOD133
 SetOutPath "$INSTDIR\data\gfx\char\monster\mesh\mimic"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\monster\mesh\mimic\mimic05_mesh.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD133}
   DetailPrint "*** Removing MOD133..."
@@ -3569,7 +3571,7 @@ SectionEnd
 Section "Mimic Differentiation 6" MOD134
 SetOutPath "$INSTDIR\data\gfx\char\monster\mesh\mimic"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\monster\mesh\mimic\mimic06_mesh.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD134}
   DetailPrint "*** Removing MOD134..."
@@ -3594,7 +3596,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\atmosphere\timetable_physis_ra
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\atmosphere\timetable_rainy.raw"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\atmosphere\timetable_rainy_taillteann.raw"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\atmosphere\timetable_skatha.raw"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD135}
   DetailPrint "*** Removing MOD135..."
@@ -3619,7 +3621,7 @@ SectionEnd
 Section "Alchemist FlameBurst Simplify" MOD136
 SetOutPath "$INSTDIR\data\gfx\fx\effect"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\c3_g9_s2_fireflame.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD136}
   DetailPrint "*** Removing MOD136..."
@@ -3628,7 +3630,7 @@ SectionEnd
 Section "Rain Casting Range and Duration Indicator" MOD137
 SetOutPath "$INSTDIR\data\gfx\fx\effect"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\c3_g10_s1_cloud.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD137}
   DetailPrint "*** Removing MOD137..."
@@ -3637,7 +3639,7 @@ SectionEnd
 Section "Alchemist Shock Removal" MOD138
 SetOutPath "$INSTDIR\data\gfx\fx\effect"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\c3_g11_s1_others.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD138}
   DetailPrint "*** Removing MOD138..."
@@ -3649,7 +3651,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\c2_g6_s1_snowfield.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\effect_weather_rain.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\effect_weather_snow.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\fx_g5_fieldeffect.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD139}
   DetailPrint "*** Removing MOD139..."
@@ -3661,7 +3663,7 @@ SectionEnd
 Section "Enables L-rod Light Effect" MOD140
 SetOutPath "$INSTDIR\data\gfx\fx\effect"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\fx_c2_ruins.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD140}
   DetailPrint "*** Removing MOD140..."
@@ -3677,7 +3679,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\c4_g14_s3_fire_horse_wh
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\c4_g16_pet_ice_dragon.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\pet_dragon_fire.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\pet_dragon_thunder.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD141}
   DetailPrint "*** Removing MOD141..."
@@ -3694,7 +3696,7 @@ Section "Nimbus Effects Removal" MOD391
 SetOutPath "$INSTDIR\data\gfx\fx\effect"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\pet_c4_cloud.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\c5_pet_cloud.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD391}
   DetailPrint "*** Removing MOD391..."
@@ -3704,7 +3706,7 @@ SectionEnd
 Section "Sulfur Spider Dust Removal" MOD142
 SetOutPath "$INSTDIR\data\gfx\fx\effect"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\c3_g9_s2_monster_spider12.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD142}
   DetailPrint "*** Removing MOD142..."
@@ -3713,7 +3715,7 @@ SectionEnd
 Section "Disable Fireball Shaking/Boost Ego Glow" MOD143
 SetOutPath "$INSTDIR\data\gfx\fx\posteffect"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\posteffect\blur.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD143}
   DetailPrint "*** Removing MOD143..."
@@ -3722,7 +3724,7 @@ SectionEnd
 Section "Nexon Logo Change 1" MOD144
 SetOutPath "$INSTDIR\data\gfx\gui\login_screen"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\login_screen\intro_nexon_logo_256x256.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD144}
   DetailPrint "*** Removing MOD144..."
@@ -3733,7 +3735,7 @@ SetOutPath "$INSTDIR\data\gfx\gui\login_screen\"
   DetailPrint "Installing Login Screens..."
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\login_screen\login_Logo_US.dds"
 ;  WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "LoginScreen" "0"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD145}
   DetailPrint "*** Removing MOD145..."
@@ -3744,7 +3746,7 @@ SetOutPath "$INSTDIR\data\gfx\gui\login_screen\"
   DetailPrint "Installing Login Screens..."
   File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\login_screen\login_copyright03_kr_w.dds"
 ;  WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "LoginScreen" "0"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD146}
   DetailPrint "*** Removing MOD145..."
@@ -3754,7 +3756,7 @@ Section "Modded Rano Map" MOD147
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
 DetailPrint "Installing Modded Rano Map..."
   File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_iria_rano_new_mgfree_eng.jpg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD147}
   DetailPrint "*** Removing MOD147..."
@@ -3763,7 +3765,7 @@ SectionEnd
 Section "Modded Solea North Map" MOD148
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_n_eng.jpg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD148}
   DetailPrint "*** Removing MOD148..."
@@ -3772,7 +3774,7 @@ SectionEnd
 Section "Modded Solea South Map" MOD149
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_s_eng.jpg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD149}
   DetailPrint "*** Removing MOD149..."
@@ -3782,7 +3784,7 @@ Section "Modded Connous Map" MOD150
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
 DetailPrint "Installing Modded Connous Map..."
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD150}
   DetailPrint "*** Removing MOD150..."
@@ -3791,7 +3793,7 @@ SectionEnd
 Section "Modded Ant Hell Map" MOD151
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_iria_connous_underworld.jpg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD151}
   DetailPrint "*** Removing MOD151..."
@@ -3801,7 +3803,7 @@ Section "Modded Courcle Map" MOD152
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
 DetailPrint "Installing Modded Courcle Map..."
   File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_iria_courcle_mgfree_eng.jpg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD152}
   DetailPrint "*** Removing MOD152..."
@@ -3811,7 +3813,7 @@ Section "Modded Physis Map" MOD153
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
 DetailPrint "Installing Modded Physis Map..."
   File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_iria_physis_mgfree_eng.jpg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD153}
   DetailPrint "*** Removing MOD153..."
@@ -3820,7 +3822,7 @@ SectionEnd
 Section "Modded Shadow Realm Abb Neagh Map" MOD154
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_taillteann_abb_neagh_mgfree_eng.jpg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD154}
   DetailPrint "*** Removing MOD154..."
@@ -3830,7 +3832,7 @@ Section "Modded Shadow Realm Taillteann Map" MOD155
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
 DetailPrint "Installing Modded Shadow Realm Taillteann Map..."
   File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_taillteann_eng_rep.jpg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD155}
   DetailPrint "*** Removing MOD155..."
@@ -3839,7 +3841,7 @@ SectionEnd
 Section "Modded Shadow Realm Sliab Cuilin Map" MOD156
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_taillteann_sliab_cuilin_eng_rep.jpg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD156}
   DetailPrint "*** Removing MOD156..."
@@ -3848,7 +3850,7 @@ SectionEnd
 Section "Modded Shadow Realm Corrib Glenn Map" MOD157
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_tara_n_field_eng_rep.jpg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD157}
   DetailPrint "*** Removing MOD157..."
@@ -3858,7 +3860,7 @@ Section "Modded Shadow Realm Tara Map" MOD158
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
 DetailPrint "Installing Modded Shadow Realm Tara Map..."
   File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_tara_eng_rep.jpg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD158}
   DetailPrint "*** Removing MOD158..."
@@ -3867,7 +3869,7 @@ SectionEnd
 Section "Modded Rath Castle 1F Map" MOD159
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_tara_castle_1f_eng_rep.jpg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD159}
   DetailPrint "*** Removing MOD159..."
@@ -3876,7 +3878,7 @@ SectionEnd
 Section "Modded Qilla Beach Map" MOD160
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_iria_rano_qilla_mgfree_eng.jpg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD160}
   DetailPrint "*** Removing MOD160..."
@@ -3885,7 +3887,7 @@ SectionEnd
 Section "Modded Sen Mag Map" MOD161
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_senmag_mgfree_eng.jpg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD161}
   DetailPrint "*** Removing MOD161..."
@@ -3894,7 +3896,7 @@ SectionEnd
 Section "Modded Sen Mag Map 2" MOD162
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_senmag_eng.jpg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD162}
   DetailPrint "*** Removing MOD162..."
@@ -3903,7 +3905,7 @@ SectionEnd
 Section "Blacksmith Minigame Simplification" MOD163
 SetOutPath "$INSTDIR\data\gfx\gui"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\blacksmith.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD163}
   DetailPrint "*** Removing MOD163..."
@@ -3912,7 +3914,7 @@ SectionEnd
 Section "Tailoring Minigame Simplification 1" MOD164
 SetOutPath "$INSTDIR\data\gfx\gui"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\tailoring.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD164}
   DetailPrint "*** Removing MOD164..."
@@ -3921,7 +3923,7 @@ SectionEnd
 Section "Tailoring Minigame Simplification 2" MOD165
 SetOutPath "$INSTDIR\data\gfx\gui"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\tailoring_2.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD165}
   DetailPrint "*** Removing MOD165..."
@@ -3931,7 +3933,7 @@ Section "Bitmap Font Outline Fix" MOD166
 SetOutPath "$INSTDIR\data\gfx\gui"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\font_eng.dds"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\font_outline_eng.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD166}
   DetailPrint "*** Removing MOD166..."
@@ -3941,7 +3943,7 @@ SectionEnd
 Section "Trade Imp Removal 4" MOD167
 SetOutPath "$INSTDIR\data\gfx\gui\trading_ui"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\trading_ui\gui_trading_state.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD167}
   DetailPrint "*** Removing MOD167..."
@@ -3950,7 +3952,7 @@ SectionEnd
 Section "Bounty Hunting Interface Buttons Fix" MOD442
 SetOutPath "$INSTDIR\data\gfx\gui\trading_ui"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\trading_ui\gui_trading_state2.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD442}
   DetailPrint "*** Removing MOD442..."
@@ -3959,7 +3961,7 @@ SectionEnd
 Section "Screenshot Watermark Removal" MOD168
 SetOutPath "$INSTDIR\data\gfx\image"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\copyright_usa.raw"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD168}
   DetailPrint "*** Removing MOD168..."
@@ -3968,7 +3970,7 @@ SectionEnd
 Section "Turquoise Mythril Ingots" MOD169
 SetOutPath "$INSTDIR\data\gfx\image"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_mythril_ingot.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD169}
   DetailPrint "*** Removing MOD169..."
@@ -3977,7 +3979,7 @@ SectionEnd
 Section "Turquoise Mythril Plates" MOD170
 SetOutPath "$INSTDIR\data\gfx\image"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_mythril_metalplate.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD170}
   DetailPrint "*** Removing MOD170..."
@@ -3986,7 +3988,7 @@ SectionEnd
 Section "Turquoise Mythril Bars" MOD171
 SetOutPath "$INSTDIR\data\gfx\image"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_mythril_metalsolder.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD171}
   DetailPrint "*** Removing MOD171..."
@@ -3995,7 +3997,7 @@ SectionEnd
 Section "Turquoise Mythril Ore Fragments" MOD172
 SetOutPath "$INSTDIR\data\gfx\image"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_mythril_mineral_Fragment.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD172}
   DetailPrint "*** Removing MOD172..."
@@ -4004,7 +4006,7 @@ SectionEnd
 Section "Turquoise Mythril Ore" MOD173
 SetOutPath "$INSTDIR\data\gfx\image"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_mythril_mineral_small.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD173}
   DetailPrint "*** Removing MOD173..."
@@ -4013,7 +4015,7 @@ SectionEnd
 Section "Purple Unknown Ore Fragments" MOD174
 SetOutPath "$INSTDIR\data\gfx\image"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_unknown_mineral_small.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD174}
   DetailPrint "*** Removing MOD174..."
@@ -4023,7 +4025,7 @@ SectionGroup "Easy View Dye Ampuoles" MOD401
 Section "Easy View Dye Ampuoles ?1" MOD401?1
 SetOutPath "$INSTDIR\data\gfx\image"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_ampul.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD401?1}
   DetailPrint "*** Removing Easy View Dye Ampuoles ?1..."
@@ -4032,7 +4034,7 @@ SectionEnd
 Section "Easy View Dye Ampuoles ?2" MOD401?2
 SetOutPath "$INSTDIR\data\gfx\image"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_potionsteeldye.DDS"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD401?2}
   DetailPrint "*** Removing Easy View Dye Ampuoles ?2..."
@@ -4041,7 +4043,7 @@ SectionEnd
 Section "Easy View Dye Ampuoles ?3" MOD401?3
 SetOutPath "$INSTDIR\data\gfx\image"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_potionsteeldye_egoweapon.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD401?3}
   DetailPrint "*** Removing Easy View Dye Ampuoles ?3..."
@@ -4050,7 +4052,7 @@ SectionEnd
 Section "Easy View Dye Ampuoles ?4" MOD401?4
 SetOutPath "$INSTDIR\data\gfx\image"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_potionsteeldye_wand.DDS"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD401?4}
   DetailPrint "*** Removing Easy View Dye Ampuoles ?4..."
@@ -4059,7 +4061,7 @@ SectionEnd
 Section "Easy View Dye Ampuoles ?5" MOD401?5
 SetOutPath "$INSTDIR\data\gfx\image"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_potioncolor_instr.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD401?5}
   DetailPrint "*** Removing Easy View Dye Ampuoles ?5..."
@@ -4068,7 +4070,7 @@ SectionEnd
 Section "Easy View Dye Ampuoles ?6" MOD401?6
 SetOutPath "$INSTDIR\data\gfx\image2\inven\item"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image2\inven\item\item_ampul_hair.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD401?6}
   DetailPrint "*** Removing Easy View Dye Ampuoles ?6..."
@@ -4077,7 +4079,7 @@ SectionEnd
 Section "Easy View Dye Ampuoles ?7" MOD401?7
 SetOutPath "$INSTDIR\data\gfx\image2\inven\item"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image2\inven\item\item_ampul_instrument.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD401?7}
   DetailPrint "*** Removing Easy View Dye Ampuoles ?7..."
@@ -4086,7 +4088,7 @@ SectionEnd
 Section "Easy View Dye Ampuoles ?8" MOD401?8
 SetOutPath "$INSTDIR\data\gfx\image2\inven\item"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image2\inven\item\item_ampul_pet.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD401?8}
   DetailPrint "*** Removing Easy View Dye Ampuoles ?8..."
@@ -4108,7 +4110,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_book_p6.dds"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_book_p7.dds"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_book_p8.dds"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_book_p9.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD403}
   DetailPrint "*** Removing Easy View Book Pages..."
@@ -4122,7 +4124,7 @@ SectionEnd
 Section "Theater Dungeon Fog Removal" MOD175
 SetOutPath "$INSTDIR\data\gfx\scene\avon\dungeon"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\avon\dungeon\dg_avon_stage_fog_01.xml"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD175}
   DetailPrint "*** Removing MOD175..."
@@ -4140,7 +4142,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\building\scene_buil
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\building\scene_building_belfast_lawcourt_08.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\building\scene_building_belfast_lawcourt_09.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\building\scene_building_belfast_wall01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD176}
   DetailPrint "*** Removing MOD176..."
@@ -4273,7 +4275,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_bel
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_tradingpost_01.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_wrecked_obj.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_wrecked_obj01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD177}
   DetailPrint "*** Removing MOD177..."
@@ -4397,7 +4399,7 @@ SectionEnd
 Section "Huge Mushroom 1" MOD178
 SetOutPath "$INSTDIR\data\gfx\scene\productionprop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\productionprop\scene_prop_mushroom_01_after.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD178}
   DetailPrint "*** Removing MOD178..."
@@ -4406,7 +4408,7 @@ SectionEnd
 Section "Huge Mushroom 2" MOD179
 SetOutPath "$INSTDIR\data\gfx\scene\productionprop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\productionprop\scene_prop_mushroom_01_before.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD179}
   DetailPrint "*** Removing MOD179..."
@@ -4415,7 +4417,7 @@ SectionEnd
 Section "Huge Gold Mushroom 1" MOD180
 SetOutPath "$INSTDIR\data\gfx\scene\productionprop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\productionprop\scene_prop_mushroom_02_after.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD180}
   DetailPrint "*** Removing MOD180..."
@@ -4424,7 +4426,7 @@ SectionEnd
 Section "Huge Gold Mushroom 2" MOD181
 SetOutPath "$INSTDIR\data\gfx\scene\productionprop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\productionprop\scene_prop_mushroom_02_before.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD181}
   DetailPrint "*** Removing MOD181..."
@@ -4433,7 +4435,7 @@ SectionEnd
 Section "Huge Poison Mushroom 1" MOD182
 SetOutPath "$INSTDIR\data\gfx\scene\productionprop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\productionprop\scene_prop_mushroom_03_after.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD182}
   DetailPrint "*** Removing MOD182..."
@@ -4442,7 +4444,7 @@ SectionEnd
 Section "Huge Poison Mushroom 2" MOD183
 SetOutPath "$INSTDIR\data\gfx\scene\productionprop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\productionprop\scene_prop_mushroom_03_before.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD183}
   DetailPrint "*** Removing MOD183..."
@@ -4451,7 +4453,7 @@ SectionEnd
 Section "Barri Hallway Wall Removal 1" MOD184
 SetOutPath "$INSTDIR\data\gfx\scene\bangor\dungeon"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\bangor\dungeon\dg_bangor_alley1_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD184}
   DetailPrint "*** Removing MOD184..."
@@ -4460,7 +4462,7 @@ SectionEnd
 Section "Barri Hallway Wall Removal 2" MOD185
 SetOutPath "$INSTDIR\data\gfx\scene\bangor\dungeon"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\bangor\dungeon\dg_bangor_alley2_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD185}
   DetailPrint "*** Removing MOD185..."
@@ -4469,7 +4471,7 @@ SectionEnd
 Section "Barri Hallway Wall Removal 3" MOD186
 SetOutPath "$INSTDIR\data\gfx\scene\bangor\dungeon"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\bangor\dungeon\dg_bangor_alley2_02.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD186}
   DetailPrint "*** Removing MOD186..."
@@ -4478,7 +4480,7 @@ SectionEnd
 Section "Barri Hallway Wall Removal 4" MOD187
 SetOutPath "$INSTDIR\data\gfx\scene\bangor\dungeon"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\bangor\dungeon\dg_bangor_alley3_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD187}
   DetailPrint "*** Removing MOD187..."
@@ -4487,7 +4489,7 @@ SectionEnd
 Section "Barri Hallway Wall Removal 5" MOD188
 SetOutPath "$INSTDIR\data\gfx\scene\bangor\dungeon"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\bangor\dungeon\dg_bangor_alley4_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD188}
   DetailPrint "*** Removing MOD188..."
@@ -4496,7 +4498,7 @@ SectionEnd
 Section "Barri Room Wall Removal 1" MOD189
 SetOutPath "$INSTDIR\data\gfx\scene\bangor\dungeon"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\bangor\dungeon\dg_bangor_room1_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD189}
   DetailPrint "*** Removing MOD189..."
@@ -4505,7 +4507,7 @@ SectionEnd
 Section "Barri Room Wall Removal 2" MOD190
 SetOutPath "$INSTDIR\data\gfx\scene\bangor\dungeon"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\bangor\dungeon\dg_bangor_room2_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD190}
   DetailPrint "*** Removing MOD190..."
@@ -4514,7 +4516,7 @@ SectionEnd
 Section "Barri Room Wall Removal 3" MOD191
 SetOutPath "$INSTDIR\data\gfx\scene\bangor\dungeon"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\bangor\dungeon\dg_bangor_room2_02.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD191}
   DetailPrint "*** Removing MOD191..."
@@ -4523,7 +4525,7 @@ SectionEnd
 Section "Barri Room Wall Removal 4" MOD192
 SetOutPath "$INSTDIR\data\gfx\scene\bangor\dungeon"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\bangor\dungeon\dg_bangor_room3_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD192}
   DetailPrint "*** Removing MOD192..."
@@ -4532,7 +4534,7 @@ SectionEnd
 Section "Barri Room Wall Removal 5" MOD193
 SetOutPath "$INSTDIR\data\gfx\scene\bangor\dungeon"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\bangor\dungeon\dg_bangor_room4_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD193}
   DetailPrint "*** Removing MOD193..."
@@ -4541,7 +4543,7 @@ SectionEnd
 Section "Barri Boss Room Wall Removal" MOD194
 SetOutPath "$INSTDIR\data\gfx\scene\bangor\dungeon"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\bangor\dungeon\dg_bangor_room_boss.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD194}
   DetailPrint "*** Removing MOD194..."
@@ -4550,7 +4552,7 @@ SectionEnd
 Section "Fiodh-Coil Hallway Wall Removal 1" MOD195
 SetOutPath "$INSTDIR\data\gfx\scene\dungeon\woodsruins"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\dungeon\woodsruins\dg_woodsruins_alley1_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD195}
   DetailPrint "*** Removing MOD195..."
@@ -4559,7 +4561,7 @@ SectionEnd
 Section "Fiodh-Coil Hallway Wall Removal 2" MOD196
 SetOutPath "$INSTDIR\data\gfx\scene\dungeon\woodsruins"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\dungeon\woodsruins\dg_woodsruins_alley2_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD196}
   DetailPrint "*** Removing MOD196..."
@@ -4568,7 +4570,7 @@ SectionEnd
 Section "Fiodh-Coil Hallway Wall Removal 3" MOD197
 SetOutPath "$INSTDIR\data\gfx\scene\dungeon\woodsruins"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\dungeon\woodsruins\dg_woodsruins_alley2_02.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD197}
   DetailPrint "*** Removing MOD197..."
@@ -4577,7 +4579,7 @@ SectionEnd
 Section "Fiodh-Coil Hallway Wall Removal 4" MOD198
 SetOutPath "$INSTDIR\data\gfx\scene\dungeon\woodsruins"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\dungeon\woodsruins\dg_woodsruins_alley3_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD198}
   DetailPrint "*** Removing MOD198..."
@@ -4586,7 +4588,7 @@ SectionEnd
 Section "Fiodh-Coil Hallway Wall Removal 5" MOD199
 SetOutPath "$INSTDIR\data\gfx\scene\dungeon\woodsruins"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\dungeon\woodsruins\dg_woodsruins_alley4_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD199}
   DetailPrint "*** Removing MOD199..."
@@ -4595,7 +4597,7 @@ SectionEnd
 Section "Fiodh-Coil Room Wall Removal 1" MOD200
 SetOutPath "$INSTDIR\data\gfx\scene\dungeon\woodsruins"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\dungeon\woodsruins\dg_woodsruins_room1_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD200}
   DetailPrint "*** Removing MOD200..."
@@ -4604,7 +4606,7 @@ SectionEnd
 Section "Fiodh-Coil Room Wall Removal 2" MOD201
 SetOutPath "$INSTDIR\data\gfx\scene\dungeon\woodsruins"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\dungeon\woodsruins\dg_woodsruins_room2_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD201}
   DetailPrint "*** Removing MOD201..."
@@ -4613,7 +4615,7 @@ SectionEnd
 Section "Fiodh-Coil Room Wall Removal 3" MOD202
 SetOutPath "$INSTDIR\data\gfx\scene\dungeon\woodsruins"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\dungeon\woodsruins\dg_woodsruins_room2_02.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD202}
   DetailPrint "*** Removing MOD202..."
@@ -4622,7 +4624,7 @@ SectionEnd
 Section "Fiodh-Coil Room Wall Removal 4" MOD203
 SetOutPath "$INSTDIR\data\gfx\scene\dungeon\woodsruins"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\dungeon\woodsruins\dg_woodsruins_room3_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD203}
   DetailPrint "*** Removing MOD203..."
@@ -4631,7 +4633,7 @@ SectionEnd
 Section "Fiodh-Coil Room Wall Removal 5" MOD204
 SetOutPath "$INSTDIR\data\gfx\scene\dungeon\woodsruins"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\dungeon\woodsruins\dg_woodsruins_room3_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD204}
   DetailPrint "*** Removing MOD204..."
@@ -4640,7 +4642,7 @@ SectionEnd
 Section "Fiodh-Coil Room Wall Removal 6" MOD443
 SetOutPath "$INSTDIR\data\gfx\scene\dungeon\woodsruins"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\dungeon\woodsruins\dg_woodsruins_room4_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD443}
   DetailPrint "*** Removing MOD443..."
@@ -4649,7 +4651,7 @@ SectionEnd
 Section "Runda Hallway Wall Removal 1" MOD206
 SetOutPath "$INSTDIR\data\gfx\scene\emainmacha\dungeon\alley"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\emainmacha\dungeon\alley\dg_runda_alley1_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD206}
   DetailPrint "*** Removing MOD206..."
@@ -4658,7 +4660,7 @@ SectionEnd
 Section "Runda Hallway Wall Removal 2" MOD207
 SetOutPath "$INSTDIR\data\gfx\scene\emainmacha\dungeon\alley"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\emainmacha\dungeon\alley\dg_runda_alley2_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD207}
   DetailPrint "*** Removing MOD207..."
@@ -4667,7 +4669,7 @@ SectionEnd
 Section "Runda Hallway Wall Removal 3" MOD208
 SetOutPath "$INSTDIR\data\gfx\scene\emainmacha\dungeon\alley"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\emainmacha\dungeon\alley\dg_runda_alley2_02.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD208}
   DetailPrint "*** Removing MOD208..."
@@ -4676,7 +4678,7 @@ SectionEnd
 Section "Runda Hallway Wall Removal 4" MOD209
 SetOutPath "$INSTDIR\data\gfx\scene\emainmacha\dungeon\alley"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\emainmacha\dungeon\alley\dg_runda_alley3_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD209}
   DetailPrint "*** Removing MOD209..."
@@ -4685,7 +4687,7 @@ SectionEnd
 Section "Runda Hallway Wall Removal 5" MOD210
 SetOutPath "$INSTDIR\data\gfx\scene\emainmacha\dungeon\alley"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\emainmacha\dungeon\alley\dg_runda_alley4_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD210}
   DetailPrint "*** Removing MOD210..."
@@ -4694,7 +4696,7 @@ SectionEnd
 Section "Runda Water Surface Removal" MOD211
 SetOutPath "$INSTDIR\data\gfx\scene\emainmacha\dungeon\room"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\emainmacha\dungeon\room\dg_runda_watersurface.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD211}
   DetailPrint "*** Removing MOD211..."
@@ -4703,7 +4705,7 @@ SectionEnd
 Section "Runda Room Wall Removal 1" MOD212
 SetOutPath "$INSTDIR\data\gfx\scene\emainmacha\dungeon\room"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\emainmacha\dungeon\room\dg_runda_room1_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD212}
   DetailPrint "*** Removing MOD212..."
@@ -4712,7 +4714,7 @@ SectionEnd
 Section "Runda Room Wall Removal 2" MOD213
 SetOutPath "$INSTDIR\data\gfx\scene\emainmacha\dungeon\room"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\emainmacha\dungeon\room\dg_runda_room2_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD213}
   DetailPrint "*** Removing MOD213..."
@@ -4721,7 +4723,7 @@ SectionEnd
 Section "Runda Room Wall Removal 3" MOD214
 SetOutPath "$INSTDIR\data\gfx\scene\emainmacha\dungeon\room"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\emainmacha\dungeon\room\dg_runda_room2_02.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD214}
   DetailPrint "*** Removing MOD214..."
@@ -4730,7 +4732,7 @@ SectionEnd
 Section "Runda Room Wall Removal 4" MOD215
 SetOutPath "$INSTDIR\data\gfx\scene\emainmacha\dungeon\room"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\emainmacha\dungeon\room\dg_runda_room3_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD215}
   DetailPrint "*** Removing MOD215..."
@@ -4739,7 +4741,7 @@ SectionEnd
 Section "Runda Room Wall Removal 5" MOD216
 SetOutPath "$INSTDIR\data\gfx\scene\emainmacha\dungeon\room"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\emainmacha\dungeon\room\dg_runda_room4_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD216}
   DetailPrint "*** Removing MOD216..."
@@ -4748,7 +4750,7 @@ SectionEnd
 Section "Runda Boss Room Wall Removal" MOD217
 SetOutPath "$INSTDIR\data\gfx\scene\emainmacha\dungeon\room"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\emainmacha\dungeon\room\dg_runda_room_boss.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD217}
   DetailPrint "*** Removing MOD217..."
@@ -4757,7 +4759,7 @@ SectionEnd
 Section "Runda Siren Boss Room Wall Removal" MOD218
 SetOutPath "$INSTDIR\data\gfx\scene\emainmacha\dungeon\room"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\emainmacha\dungeon\room\dg_runda_room_boss_siren.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD218}
   DetailPrint "*** Removing MOD218..."
@@ -4766,7 +4768,7 @@ SectionEnd
 Section "Rano Plains Tree Removal 1" MOD219
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_billboard_tree_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD219}
   DetailPrint "*** Removing MOD219..."
@@ -4775,7 +4777,7 @@ SectionEnd
 Section "Rano Plains Tree Removal 2" MOD220
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_billboard_tree_02.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD220}
   DetailPrint "*** Removing MOD220..."
@@ -4784,7 +4786,7 @@ SectionEnd
 Section "Rano Plains Tree Removal 3" MOD221
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_billboard_tree_03.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD221}
   DetailPrint "*** Removing MOD221..."
@@ -4793,7 +4795,7 @@ SectionEnd
 Section "Rano Plains Tree Removal 4" MOD222
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_billboard_tree_04.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD222}
   DetailPrint "*** Removing MOD222..."
@@ -4802,7 +4804,7 @@ SectionEnd
 Section "Rano Forest Tree Removal 1" MOD223
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_forest_tree_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD223}
   DetailPrint "*** Removing MOD223..."
@@ -4811,7 +4813,7 @@ SectionEnd
 Section "Rano Forest Tree Removal 2" MOD224
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_forest_tree_02.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD224}
   DetailPrint "*** Removing MOD224..."
@@ -4820,7 +4822,7 @@ SectionEnd
 Section "Rano Forest Tree Removal 3" MOD225
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_forest_tree_03.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD225}
   DetailPrint "*** Removing MOD225..."
@@ -4829,7 +4831,7 @@ SectionEnd
 Section "Rano Cactus Removal 1" MOD226
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_cactus_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD226}
   DetailPrint "*** Removing MOD226..."
@@ -4838,7 +4840,7 @@ SectionEnd
 Section "Rano Cactus Removal 2" MOD227
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_cactus_02.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD227}
   DetailPrint "*** Removing MOD227..."
@@ -4847,7 +4849,7 @@ SectionEnd
 Section "Rano Fence Removal" MOD228
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_fence_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD228}
   DetailPrint "*** Removing MOD228..."
@@ -4856,7 +4858,7 @@ SectionEnd
 Section "Rano Gateway Removal" MOD229
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_gateway_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD229}
   DetailPrint "*** Removing MOD229..."
@@ -4865,7 +4867,7 @@ SectionEnd
 Section "Rano Grass Removal 1" MOD230
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_grass_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD230}
   DetailPrint "*** Removing MOD230..."
@@ -4874,7 +4876,7 @@ SectionEnd
 Section "Rano Grass Removal 2" MOD231
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_grass_02.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD231}
   DetailPrint "*** Removing MOD231..."
@@ -4883,7 +4885,7 @@ SectionEnd
 Section "Rano Grass Removal 3" MOD232
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_grass_03.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD232}
   DetailPrint "*** Removing MOD232..."
@@ -4892,7 +4894,7 @@ SectionEnd
 Section "Rano Grass Removal 4" MOD233
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_grass_04.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD233}
   DetailPrint "*** Removing MOD233..."
@@ -4901,7 +4903,7 @@ SectionEnd
 Section "Rano Grass Removal 5" MOD234
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_grass_05.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD234}
   DetailPrint "*** Removing MOD234..."
@@ -4910,7 +4912,7 @@ SectionEnd
 Section "Rano Grass Removal 6" MOD235
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_grass_06.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD235}
   DetailPrint "*** Removing MOD235..."
@@ -4919,7 +4921,7 @@ SectionEnd
 Section "Rano Grass Removal 7" MOD236
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_grass_07.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD236}
   DetailPrint "*** Removing MOD236..."
@@ -4928,7 +4930,7 @@ SectionEnd
 Section "Rano Grass Removal 8" MOD237
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_grass_08.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD237}
   DetailPrint "*** Removing MOD237..."
@@ -4937,7 +4939,7 @@ SectionEnd
 Section "Rano Grass Removal 9" MOD238
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_grass_09.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD238}
   DetailPrint "*** Removing MOD238..."
@@ -4946,7 +4948,7 @@ SectionEnd
 Section "Rano Grass Removal 10" MOD239
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_grass_10.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD239}
   DetailPrint "*** Removing MOD239..."
@@ -4955,7 +4957,7 @@ SectionEnd
 Section "Rano Grass Removal 11" MOD240
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_grass_11.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD240}
   DetailPrint "*** Removing MOD240..."
@@ -4964,7 +4966,7 @@ SectionEnd
 Section "Rano Miscellaneous Removal 1" MOD241
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_intentgoods_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD241}
   DetailPrint "*** Removing MOD241..."
@@ -4973,7 +4975,7 @@ SectionEnd
 Section "Rano Miscellaneous Removal 2" MOD242
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_intentgoods_02.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD242}
   DetailPrint "*** Removing MOD242..."
@@ -4982,7 +4984,7 @@ SectionEnd
 Section "Rano Rock Removal" MOD243
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_rock_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD243}
   DetailPrint "*** Removing MOD243..."
@@ -4991,7 +4993,7 @@ SectionEnd
 Section "Rano Shrub Removal" MOD244
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_shrub_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD244}
   DetailPrint "*** Removing MOD244..."
@@ -5000,7 +5002,7 @@ SectionEnd
 Section "Rano Stump Removal 1" MOD245
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_stump_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD245}
   DetailPrint "*** Removing MOD245..."
@@ -5009,7 +5011,7 @@ SectionEnd
 Section "Rano Stump Removal 2" MOD246
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_stump_02.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD246}
   DetailPrint "*** Removing MOD246..."
@@ -5018,7 +5020,7 @@ SectionEnd
 Section "Rano Tree Removal 1" MOD247
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_tree_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD247}
   DetailPrint "*** Removing MOD247..."
@@ -5027,7 +5029,7 @@ SectionEnd
 Section "Rano Tree Removal 2" MOD248
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_tree_02.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD248}
   DetailPrint "*** Removing MOD248..."
@@ -5036,7 +5038,7 @@ SectionEnd
 Section "Rano Tree Removal 3" MOD249
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_tree_03.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD249}
   DetailPrint "*** Removing MOD249..."
@@ -5045,7 +5047,7 @@ SectionEnd
 Section "Rano Tree Removal 4" MOD250
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_tree_04.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD250}
   DetailPrint "*** Removing MOD250..."
@@ -5054,7 +5056,7 @@ SectionEnd
 Section "Rano Tree Removal 5" MOD251
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_tree_05.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD251}
   DetailPrint "*** Removing MOD251..."
@@ -5063,7 +5065,7 @@ SectionEnd
 Section "Rano Tree Removal 6" MOD252
 SetOutPath "$INSTDIR\data\gfx\scene\iria\iria_sw\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\iria\iria_sw\prop\scene_prop_iria_sw_tree_06.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD252}
   DetailPrint "*** Removing MOD252..."
@@ -5072,7 +5074,7 @@ SectionEnd
 Section "Flower Taillteann Tree 1a" MOD253
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_tree_01_a.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD253}
   DetailPrint "*** Removing MOD253..."
@@ -5081,7 +5083,7 @@ SectionEnd
 Section "Flower Taillteann Tree 1a2" MOD254
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_tree_01_a_rep.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD254}
   DetailPrint "*** Removing MOD254..."
@@ -5090,7 +5092,7 @@ SectionEnd
 Section "Flower Taillteann Tree 1b" MOD255
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_tree_01_b.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD255}
   DetailPrint "*** Removing MOD255..."
@@ -5099,7 +5101,7 @@ SectionEnd
 Section "Flower Taillteann Tree 2a" MOD256
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_tree_02_a.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD256}
   DetailPrint "*** Removing MOD256..."
@@ -5108,7 +5110,7 @@ SectionEnd
 Section "Flower Taillteann Tree 2b" MOD257
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_tree_02_b.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD257}
   DetailPrint "*** Removing MOD257..."
@@ -5117,7 +5119,7 @@ SectionEnd
 Section "Flower Taillteann Tree 2c" MOD258
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_tree_02_c.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD258}
   DetailPrint "*** Removing MOD258..."
@@ -5126,7 +5128,7 @@ SectionEnd
 Section "Flower Taillteann Tree 3a" MOD259
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_tree_03_a.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD259}
   DetailPrint "*** Removing MOD259..."
@@ -5135,7 +5137,7 @@ SectionEnd
 Section "Flower Taillteann Tree 3b" MOD260
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_tree_03_b.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD260}
   DetailPrint "*** Removing MOD260..."
@@ -5144,7 +5146,7 @@ SectionEnd
 Section "Flower Taillteann Tree 4a" MOD261
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_bgmash_tree_02_a.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD261}
   DetailPrint "*** Removing MOD261..."
@@ -5153,7 +5155,7 @@ SectionEnd
 Section "Flower Taillteann Tree 4b" MOD262
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_bgmash_tree_02_b.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD262}
   DetailPrint "*** Removing MOD262..."
@@ -5162,7 +5164,7 @@ SectionEnd
 Section "Flower Taillteann Tree 5a" MOD263
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_bgmash_tree_03_a.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD263}
   DetailPrint "*** Removing MOD263..."
@@ -5171,7 +5173,7 @@ SectionEnd
 Section "Flower Taillteann Tree 5b" MOD264
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_bgmash_tree_03_b.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD264}
   DetailPrint "*** Removing MOD264..."
@@ -5180,7 +5182,7 @@ SectionEnd
 Section "Flower Taillteann Tree 1a Framework" MOD265
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_tree_01_a.set"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD265}
   DetailPrint "*** Removing MOD265..."
@@ -5189,7 +5191,7 @@ SectionEnd
 Section "Flower Taillteann Tree 1a2 Framework" MOD266
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_tree_01_a_rep.set"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD266}
   DetailPrint "*** Removing MOD266..."
@@ -5198,7 +5200,7 @@ SectionEnd
 Section "Flower Taillteann Tree 1b Framework" MOD267
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_tree_01_b.set"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD267}
   DetailPrint "*** Removing MOD267..."
@@ -5207,7 +5209,7 @@ SectionEnd
 Section "Flower Taillteann Tree 2a Framework" MOD268
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_tree_02_a.set"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD268}
   DetailPrint "*** Removing MOD268..."
@@ -5216,7 +5218,7 @@ SectionEnd
 Section "Flower Taillteann Tree 2b Framework" MOD269
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_tree_02_b.set"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD269}
   DetailPrint "*** Removing MOD269..."
@@ -5225,7 +5227,7 @@ SectionEnd
 Section "Flower Taillteann Tree 2c Framework" MOD270
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_tree_02_c.set"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD270}
   DetailPrint "*** Removing MOD270..."
@@ -5234,7 +5236,7 @@ SectionEnd
 Section "Flower Taillteann Tree 3a Framework" MOD271
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_tree_03_a.set"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD271}
   DetailPrint "*** Removing MOD271..."
@@ -5243,7 +5245,7 @@ SectionEnd
 Section "Flower Taillteann Tree 3b Framework" MOD272
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_tree_03_b.set"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD272}
   DetailPrint "*** Removing MOD272..."
@@ -5252,7 +5254,7 @@ SectionEnd
 Section "Flower Taillteann Tree 4b Framework" MOD273
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_bgmash_tree_02_b.set"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD273}
   DetailPrint "*** Removing MOD273..."
@@ -5261,7 +5263,7 @@ SectionEnd
 Section "Flower Taillteann Tree 5a Framework" MOD274
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_bgmash_tree_03_a.set"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD274}
   DetailPrint "*** Removing MOD274..."
@@ -5270,7 +5272,7 @@ SectionEnd
 Section "Flower Taillteann Tree 5b Framework" MOD275
 SetOutPath "$INSTDIR\data\gfx\scene\field\taillteann"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\field\taillteann\field_prop_taill_bgmash_tree_03_b.set"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD275}
   DetailPrint "*** Removing MOD275..."
@@ -5279,7 +5281,7 @@ SectionEnd
 Section "Flower Taillteann Tree 6a" MOD277
 SetOutPath "$INSTDIR\data\gfx\scene\taillteann\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\taillteann\prop\scene_prop_taill_tree_01_a.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD277}
   DetailPrint "*** Removing MOD277..."
@@ -5288,7 +5290,7 @@ SectionEnd
 Section "Flower Taillteann Tree 6a Framework" MOD278
 SetOutPath "$INSTDIR\data\gfx\scene\taillteann\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\taillteann\prop\scene_prop_taill_tree_01_a.set"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD278}
   DetailPrint "*** Removing MOD278..."
@@ -5297,7 +5299,7 @@ SectionEnd
 Section "Flower Taillteann Tree 7a" MOD279
 SetOutPath "$INSTDIR\data\gfx\scene\taillteann\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\taillteann\prop\scene_prop_taill_bgmesh_tree_01_a.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD279}
   DetailPrint "*** Removing MOD279..."
@@ -5306,7 +5308,7 @@ SectionEnd
 Section "Flower Taillteann Tree 7b" MOD280
 SetOutPath "$INSTDIR\data\gfx\scene\taillteann\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\taillteann\prop\scene_prop_taill_bgmesh_tree_01_b.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD280}
   DetailPrint "*** Removing MOD280..."
@@ -5326,7 +5328,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\taillteann\prop\scene_build
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\taillteann\prop\scene_building_taill_default_b_02.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\taillteann\prop\scene_building_taill_goods-store_01.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\taillteann\prop\scene_prop_taill_tree_01_b.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD276}
   DetailPrint "*** Removing MOD276..."
@@ -5367,7 +5369,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\tara\building\scene_buildin
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\tara\building\scene_building_tara_default_b_02_rev.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\tara\building\scene_building_tara_default_b_03.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\tara\building\scene_building_tara_default_b_04.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD281}
   DetailPrint "*** Removing MOD281..."
@@ -5406,7 +5408,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\tara\prop\scene_building_ta
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\tara\prop\scene_building_tara_department_functional_02.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\tara\prop\scene_building_tara_department_functional_03.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\tara\prop\scene_prop_tara_sub_largegate_03.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD282}
   DetailPrint "*** Removing MOD282..."
@@ -5424,7 +5426,7 @@ SectionEnd
 Section "Tara Tree Removal 1" MOD283
 SetOutPath "$INSTDIR\data\gfx\scene\tara\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\tara\prop\scene_prop_tara_streettree_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD283}
   DetailPrint "*** Removing MOD283..."
@@ -5433,7 +5435,7 @@ SectionEnd
 Section "Tara Tree Removal 2" MOD284
 SetOutPath "$INSTDIR\data\gfx\scene\tara\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\tara\prop\scene_prop_tara_bgmash_tree_01.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD284}
   DetailPrint "*** Removing MOD284..."
@@ -5442,7 +5444,7 @@ SectionEnd
 Section "Tara Tree Removal 3" MOD285
 SetOutPath "$INSTDIR\data\gfx\scene\tara\prop"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\tara\prop\scene_prop_tara_bgmash_tree_02.pmg"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD285}
   DetailPrint "*** Removing MOD285..."
@@ -5455,7 +5457,7 @@ IfFileExists "$INSTDIR\Abyss.ini" AbyssFound12 AbyssNotFound12
 AbyssFound12:
 WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "ShowPing" "0"
 AbyssNotFound12:
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD286}
   DetailPrint "*** Removing MOD286..."
@@ -5545,6 +5547,7 @@ SectionEnd
 !macroend
 SectionGroupEnd
 SectionGroupEnd
+
 SectionGroup "material"
 Section "Tara Castle Wall Removal" MOD360
 SetOutPath "$INSTDIR\data\material\interior\tara\town\"
@@ -5556,7 +5559,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\material\interior\tara\town\scene_int
 File "${srcdir}\Tiara's Moonshine Mod\data\material\interior\tara\town\scene_int_tara_castle_gatehall_02_rep.dds"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\interior\tara\town\scene_prop_tara_castle_int_stuff_01.dds"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\interior\tara\town\scene_prop_tara_castle_int_stuff_01_rep.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD360}
   DetailPrint "*** Removing MOD360..."
@@ -5573,7 +5576,7 @@ Section "Remove Rain, Sand and Snow 2" MOD361
 SetOutPath "$INSTDIR\data\material\fx\effect"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\effect_add_dust_01.dds"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\effect_add_dust_02.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD361}
   DetailPrint "*** Removing MOD361..."
@@ -5584,7 +5587,7 @@ Section "Remove Rain, Sand and Snow 3" MOD362
 SetOutPath "$INSTDIR\data\material\fx\screenmask"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\screenmask\mask_sandstorm_alphablend_00.dds"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\screenmask\mask_sandstorm_multiply_00.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD362}
   DetailPrint "*** Removing MOD362..."
@@ -5601,7 +5604,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\skydome\skygradation_tail
 File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\skydome\skygradation_cc.dds"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\skydome\skygradation_falias.dds"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\skydome\skygradation_tirnanog.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD363}
   DetailPrint "*** Removing MOD363..."
@@ -5617,7 +5620,7 @@ SectionEnd
 Section "Transparent Jungle Riverbed" MOD364
 SetOutPath "$INSTDIR\data\material\fx\water"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\water\water_bottomcolor_jungleriver.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD364}
   DetailPrint "*** Removing MOD364..."
@@ -5626,7 +5629,7 @@ SectionEnd
 Section "Tara Castle Wall Removal 2" MOD365
 SetOutPath "$INSTDIR\data\material\obj\emainmacha\flat"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\emainmacha\flat\scene_build_emain_window_01.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD365}
   DetailPrint "*** Removing MOD365..."
@@ -5635,7 +5638,7 @@ SectionEnd
 Section "Transparent Shadow Mission Wall 1" MOD366
 SetOutPath "$INSTDIR\data\material\obj\taillteann\flat"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\taillteann\flat\dungeon_prop_taill_wall_01.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD366}
   DetailPrint "*** Removing MOD366..."
@@ -5644,7 +5647,7 @@ SectionEnd
 Section "Transparent Shadow Mission Wall 2" MOD367
 SetOutPath "$INSTDIR\data\material\obj\taillteann\flat"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\taillteann\flat\dungeon_prop_taill_wall_02_a.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD367}
   DetailPrint "*** Removing MOD367..."
@@ -5653,7 +5656,7 @@ SectionEnd
 Section "Transparent Shadow Mission Wall 3" MOD368
 SetOutPath "$INSTDIR\data\material\obj\taillteann\flat"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\taillteann\flat\dungeon_prop_taill_wall_02_b.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD368}
   DetailPrint "*** Removing MOD368..."
@@ -5662,7 +5665,7 @@ SectionEnd
 Section "Transparent Shadow Mission Wall 4" MOD369
 SetOutPath "$INSTDIR\data\material\obj\taillteann\highgloss"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\taillteann\highgloss\dungeon_prop_taill_pattern_01.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD369}
   DetailPrint "*** Removing MOD369..."
@@ -5700,7 +5703,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\tara\flat\scene_terrain_
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\tara\flat\scene_terrain_tara_floor_04_rep.DDS"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\tara\flat\scene_terrain_tara_floor_05.DDS"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\tara\flat\scene_terrain_tara_floor_05_rep.DDS"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD370}
   DetailPrint "*** Removing MOD370..."
@@ -5747,7 +5750,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\tara\gloss\scene_prop_ta
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\tara\gloss\scene_prop_tara_glass_01_rep.DDS"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\tara\gloss\scene_prop_tara_glass_02.DDS"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\tara\gloss\scene_prop_tara_glass_02_rep.DDS"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD371}
   DetailPrint "*** Removing MOD371..."
@@ -5765,7 +5768,7 @@ SectionEnd
 Section "Falias Delagger Texture 1" MOD372
 SetOutPath "$INSTDIR\data\material\obj\falias"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\falias\scene_prop_falias_01.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD372}
   DetailPrint "*** Removing MOD372..."
@@ -5774,7 +5777,7 @@ SectionEnd
 Section "Falias Delagger Texture 2" MOD373
 SetOutPath "$INSTDIR\data\material\obj\falias"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\falias\scene_prop_falias_01_01.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD373}
   DetailPrint "*** Removing MOD373..."
@@ -5783,7 +5786,7 @@ SectionEnd
 Section "Falias Delagger Texture 3" MOD374
 SetOutPath "$INSTDIR\data\material\obj\falias"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\falias\scene_prop_falias_02.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD374}
   DetailPrint "*** Removing MOD374..."
@@ -5792,7 +5795,7 @@ SectionEnd
 Section "Falias Delagger Texture 4" MOD375
 SetOutPath "$INSTDIR\data\material\obj\falias"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\falias\scene_prop_falias_02_01.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD375}
   DetailPrint "*** Removing MOD375..."
@@ -5801,7 +5804,7 @@ SectionEnd
 Section "Falias Delagger Texture 5" MOD376
 SetOutPath "$INSTDIR\data\material\obj\falias"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\falias\scene_prop_falias_03.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD376}
   DetailPrint "*** Removing MOD376..."
@@ -5810,7 +5813,7 @@ SectionEnd
 Section "Falias Delagger Texture 6" MOD377
 SetOutPath "$INSTDIR\data\material\obj\falias"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\falias\scene_prop_falias_04.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD377}
   DetailPrint "*** Removing MOD377..."
@@ -5819,7 +5822,7 @@ SectionEnd
 Section "Falias Delagger Texture 7" MOD378
 SetOutPath "$INSTDIR\data\material\obj\falias"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\falias\scene_prop_falias_04_01.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD378}
   DetailPrint "*** Removing MOD378..."
@@ -5828,7 +5831,7 @@ SectionEnd
 Section "Falias Delagger Texture 8" MOD379
 SetOutPath "$INSTDIR\data\material\obj\falias"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\falias\scene_prop_falias_05.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD379}
   DetailPrint "*** Removing MOD379..."
@@ -5837,7 +5840,7 @@ SectionEnd
 Section "Falias Delagger Texture 9" MOD380
 SetOutPath "$INSTDIR\data\material\obj\falias"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\falias\scene_prop_falias_06.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD380}
   DetailPrint "*** Removing MOD380..."
@@ -5846,7 +5849,7 @@ SectionEnd
 Section "Falias Delagger Texture 10" MOD381
 SetOutPath "$INSTDIR\data\material\obj\falias"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\falias\scene_prop_falias_07.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD381}
   DetailPrint "*** Removing MOD381..."
@@ -5855,7 +5858,7 @@ SectionEnd
 Section "Falias Delagger Texture 11" MOD382
 SetOutPath "$INSTDIR\data\material\obj\falias"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\falias\scene_prop_falias_08.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD382}
   DetailPrint "*** Removing MOD382..."
@@ -5864,7 +5867,7 @@ SectionEnd
 Section "Falias Delagger Texture 12" MOD383
 SetOutPath "$INSTDIR\data\material\obj\falias"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\falias\scene_prop_falias_bossstage_01.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD383}
   DetailPrint "*** Removing MOD383..."
@@ -5873,7 +5876,7 @@ SectionEnd
 Section "Belfast Delagger 3" MOD384
 SetOutPath "$INSTDIR\data\material\terrain\belfast02_belfastgrass01"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\terrain\belfast02_belfastgrass01\belfastgrass01_belfastsoil01.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD384}
   DetailPrint "*** Removing MOD384..."
@@ -5882,7 +5885,7 @@ SectionEnd
 Section "Belfast Delagger 4" MOD385
 SetOutPath "$INSTDIR\data\material\terrain\belfastgrass01_belfastsoil01"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\terrain\belfastgrass01_belfastsoil01\belfastgrass01_only.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD385}
   DetailPrint "*** Removing MOD385..."
@@ -5891,7 +5894,7 @@ SectionEnd
 Section "Belfast Delagger 5" MOD386
 SetOutPath "$INSTDIR\data\material\terrain\belfastgrass01_only"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\terrain\belfastgrass01_only\belfastgrass02_belfastgrass01.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD386}
   DetailPrint "*** Removing MOD386..."
@@ -5900,7 +5903,7 @@ SectionEnd
 Section "Belfast Delagger 6" MOD387
 SetOutPath "$INSTDIR\data\material\terrain\belfastgrass02_only"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\terrain\belfastgrass02_only\belfastgrass02_only.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD387}
   DetailPrint "*** Removing MOD387..."
@@ -5909,7 +5912,7 @@ SectionEnd
 Section "Belfast Delagger 7" MOD388
 SetOutPath "$INSTDIR\data\material\terrain\belfastsoil01_belfastgrass02"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\terrain\belfastsoil01_belfastgrass02\belfastsoil01_belfastgrass02.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD388}
   DetailPrint "*** Removing MOD388..."
@@ -5918,19 +5921,20 @@ SectionEnd
 Section "Belfast Delagger 8" MOD389
 SetOutPath "$INSTDIR\data\material\terrain\belfastsoil01_only"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\terrain\belfastsoil01_only\belfastsoil01_only.dds"
-SectionIn 1 2 3
+SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD389}
   DetailPrint "*** Removing MOD389..."
   Delete "$INSTDIR\data\material\terrain\belfastsoil01_only\belfastsoil01_only.dds"
 !macroend
 SectionGroupEnd
+
 SectionGroup "sound"
 SectionGroup "Japari Bus Sound Removal" MOD72
 Section "Japari Bus Sound Removal ?1" MOD72?1
 SetOutPath "$INSTDIR\data\sound\kmn"
 File "${srcdir}\Tiara's Moonshine Mod\data\sound\kmn\2020_kmn_boost.wav"
-SectionIn 1
+SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD72?1}
   DetailPrint "*** Removing Japari Bus Sound Removal ?1..."
@@ -5939,7 +5943,7 @@ SectionEnd
 Section "Japari Bus Sound Removal ?2" MOD72?2
 SetOutPath "$INSTDIR\data\sound\kmn"
 File "${srcdir}\Tiara's Moonshine Mod\data\sound\kmn\2020_kmn_run.wav"
-SectionIn 1
+SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD72?2}
   DetailPrint "*** Removing Japari Bus Sound Removal ?2..."
@@ -5948,7 +5952,7 @@ SectionEnd
 Section "Japari Bus Sound Removal ?3" MOD72?3
 SetOutPath "$INSTDIR\data\sound\kmn"
 File "${srcdir}\Tiara's Moonshine Mod\data\sound\kmn\2020_kmn_summon.wav"
-SectionIn 1
+SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD72?3}
   DetailPrint "*** Removing Japari Bus Sound Removal ?3..."
@@ -6556,129 +6560,130 @@ Delete "$INSTDIR\data\sound\stove_dry.wav"
 Delete "$INSTDIR\data\sound\stove_wetness.wav"
 !macroend
 SectionGroupEnd
+
 SectionGroup "xml"
 Section "Blacksmith Tailor Manual Tooltip" MOD433
-SetOutPath "$INSTDIR\data\local\xml"
+SetOutPath "$INSTDIR\data\xml"
   DetailPrint "Installing local\xml\manualform.english.txt..."
-  File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\manualform.english.txt"
+  File "${srcdir}\Tiara's Moonshine Mod\data\xml\manualform.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD433}
   DetailPrint "*** Removing MOD433..."
-  Delete "$INSTDIR\data\local\xml\manualform.english.txt"
+  Delete "$INSTDIR\data\xml\manualform.english.txt"
 !macroend
 Section "Quest Interface Abbreviated 1" MOD455
-SetOutPath "$INSTDIR\data\local\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\questcategory.english.txt"
+SetOutPath "$INSTDIR\data\xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\xml\questcategory.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD455}
   DetailPrint "*** Removing MOD455..."
-  Delete "$INSTDIR\data\local\xml\questcategory.english.txt"
+  Delete "$INSTDIR\data\xml\questcategory.english.txt"
 !macroend
 Section "Quest Interface Abbreviated 2" MOD456
-SetOutPath "$INSTDIR\data\local\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\questcategory.english.txt"
+SetOutPath "$INSTDIR\data\xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\xml\questcategory.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD456}
   DetailPrint "*** Removing MOD456..."
-  Delete "$INSTDIR\data\local\xml\questcategory.english.txt"
+  Delete "$INSTDIR\data\xml\questcategory.english.txt"
 !macroend
 Section "Show Talent Level by Number" MOD292
-SetOutPath "$INSTDIR\data\local\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\talenttitle.english.txt"
+SetOutPath "$INSTDIR\data\xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\xml\talenttitle.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD292}
   DetailPrint "*** Removing MOD292..."
-  Delete "$INSTDIR\data\local\xml\talenttitle.english.txt"
+  Delete "$INSTDIR\data\xml\talenttitle.english.txt"
 !macroend
 Section "Show Talent Level by Number 2" MOD293
-SetOutPath "$INSTDIR\data\local\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\talenttitle.english.txt"
+SetOutPath "$INSTDIR\data\xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\xml\talenttitle.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD293}
   DetailPrint "*** Removing MOD293..."
-  Delete "$INSTDIR\data\local\xml\talenttitle.english.txt"
+  Delete "$INSTDIR\data\xml\talenttitle.english.txt"
 !macroend
 Section "Show Prop Names 2" MOD294
-SetOutPath "$INSTDIR\data\local\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\propdb.english.txt"
+SetOutPath "$INSTDIR\data\xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\xml\propdb.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD294}
   DetailPrint "*** Removing MOD294..."
-  Delete "$INSTDIR\data\local\xml\propdb.english.txt"
+  Delete "$INSTDIR\data\xml\propdb.english.txt"
 !macroend
 Section "Show Prop Names 3" MOD295
-SetOutPath "$INSTDIR\data\local\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\propdb.english.txt"
+SetOutPath "$INSTDIR\data\xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\xml\propdb.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD295}
   DetailPrint "*** Removing MOD295..."
-  Delete "$INSTDIR\data\local\xml\propdb.english.txt"
+  Delete "$INSTDIR\data\xml\propdb.english.txt"
 !macroend
 Section "Skeleton Squad Name Mod" MOD296
-SetOutPath "$INSTDIR\data\local\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\race.english.txt"
+SetOutPath "$INSTDIR\data\xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\xml\race.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD296}
   DetailPrint "*** Removing MOD296..."
-  Delete "$INSTDIR\data\local\xml\race.english.txt"
+  Delete "$INSTDIR\data\xml\race.english.txt"
 !macroend
 Section "Skeleton Squad Name Mod 2" MOD297
-SetOutPath "$INSTDIR\data\local\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\race.english.txt"
+SetOutPath "$INSTDIR\data\xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\xml\race.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD297}
   DetailPrint "*** Removing MOD297..."
-  Delete "$INSTDIR\data\local\xml\race.english.txt"
+  Delete "$INSTDIR\data\xml\race.english.txt"
 !macroend
 
 Section "True Fossil Names" MOD300
-SetOutPath "$INSTDIR\data\local\xml"
+SetOutPath "$INSTDIR\data\xml"
   DetailPrint "Installing True Fossil Names..."
-  File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\itemdb.english.txt"
+  File "${srcdir}\Tiara's Moonshine Mod\data\xml\itemdb.english.txt"
   SetDetailsPrint both
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD300}
   DetailPrint "*** Removing MOD300..."
-  Delete "$INSTDIR\data\local\xml\itemdb.english.txt"
+  Delete "$INSTDIR\data\xml\itemdb.english.txt"
 !macroend
 Section "True Fossil Names 2" MOD301
-SetOutPath "$INSTDIR\data\local\xml"
+SetOutPath "$INSTDIR\data\xml"
   DetailPrint "Installing True Fossil Names 2..."
-  File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\itemdb.english.txt"
+  File "${srcdir}\Tiara's Moonshine Mod\data\xml\itemdb.english.txt"
   SetDetailsPrint both
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD301}
   DetailPrint "*** Removing MOD301..."
-  Delete "$INSTDIR\data\local\xml\itemdb.english.txt"
+  Delete "$INSTDIR\data\xml\itemdb.english.txt"
 !macroend
 Section "Huge Ancient Names 1" MOD393
-SetOutPath "$INSTDIR\data\local\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\title.english.txt"
+SetOutPath "$INSTDIR\data\xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\xml\title.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD393}
   DetailPrint "*** Removing MOD393..."
-  Delete "$INSTDIR\data\local\xml\title.english.txt"
+  Delete "$INSTDIR\data\xml\title.english.txt"
 !macroend
 Section "Huge Ancient Names 2" MOD390
-SetOutPath "$INSTDIR\data\local\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\title.english.txt"
+SetOutPath "$INSTDIR\data\xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\xml\title.english.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD390}
   DetailPrint "*** Removing MOD390..."
-  Delete "$INSTDIR\data\local\xml\title.english.txt"
+  Delete "$INSTDIR\data\xml\title.english.txt"
 !macroend
 SectionGroupEnd
 SectionGroupEnd
@@ -6740,29 +6745,29 @@ SectionEnd
   Delete "$INSTDIR\data\db\skill\skillinfo.xml"
 !macroend
 Section "Show Hidden Skill Flown Hot-Air Balloon ?2" MOD398?2
-SetOutPath "$INSTDIR\data\local\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\skillinfo.english.txt"
+SetOutPath "$INSTDIR\data\xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\xml\skillinfo.english.txt"
 SectionIn 1
 SectionEnd
 !macro Remove_${MOD398?2}
   DetailPrint "*** Removing Show Hidden Skill Flown Hot-Air Balloon ?2..."
-  Delete "$INSTDIR\data\local\xml\skillinfo.english.txt"
+  Delete "$INSTDIR\data\xml\skillinfo.english.txt"
 !macroend
 Section "Show Hidden Skill Flown Hot-Air Balloon ?3" MOD398?3
-SetOutPath "$INSTDIR\data\local\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\local\xml\skillinfo.english.txt"
+SetOutPath "$INSTDIR\data\xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\xml\skillinfo.english.txt"
 SectionIn 1
 SectionEnd
 !macro Remove_${MOD398?3}
   DetailPrint "*** Removing Show Hidden Skill Flown Hot-Air Balloon ?3..."
-  Delete "$INSTDIR\data\local\xml\skillinfo.english.txt"
+  Delete "$INSTDIR\data\xml\skillinfo.english.txt"
 !macroend
 SectionGroupEnd
 !macro Remove_${MOD398}
   DetailPrint "*** Removing Show Hidden Skill Flown Hot-Air Balloon..."
   Delete "$INSTDIR\data\db\skill\skillinfo.xml"
-  Delete "$INSTDIR\data\local\xml\skillinfo.english.txt"
-  Delete "$INSTDIR\data\local\xml\skillinfo.english.txt"
+  Delete "$INSTDIR\data\xml\skillinfo.english.txt"
+  Delete "$INSTDIR\data\xml\skillinfo.english.txt"
 !macroend
 Section "Doll Bag AI Enhancements" MOD399
 SetOutPath "$INSTDIR\data\db\ai\local"
@@ -6796,8 +6801,8 @@ SectionEnd
 Section "Remove Hidden Skill Flown Hot-Air Balloon"
   DetailPrint "*** Removing Show Hidden Skill Flown Hot-Air Balloon..."
 Delete "$INSTDIR\data\db\skill\skillinfo.xml"
-Delete "$INSTDIR\data\local\xml\skillinfo.english.txt"
-Delete "$INSTDIR\data\local\xml\skillinfo.english.txt"
+Delete "$INSTDIR\data\xml\skillinfo.english.txt"
+Delete "$INSTDIR\data\xml\skillinfo.english.txt"
 SectionIn 3
 SectionEnd
 SectionGroupEnd
@@ -6828,7 +6833,7 @@ SectionGroupEnd
 !insertmacro "${MacroName}" "MOD453"
 ;"Tools
 !insertmacro "${MacroName}" "MOD454"
-;"Default Mods" 
+;"Data Mods"
 !insertmacro "${MacroName}" "MOD1"
 !insertmacro "${MacroName}" "MOD405"
 !insertmacro "${MacroName}" "MOD406"
@@ -8037,8 +8042,8 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD72?3" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD72?3" "DESCRIPTION" "Mute data\sound\kmn\2020_kmn_summon.wav"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "" "Music Buff Status List"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILE1" "\data\db\charactercondition.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILE2" "\data\local\xml\charactercondition.english.txt"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILE3" "\data\local\xml\charactercondition.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILE2" "\data\xml\charactercondition.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILE3" "\data\xml\charactercondition.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILES" "3"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "CREATOR" "Xeme"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "DESCRIPTION" "Show Music Buff Status List"
@@ -9318,62 +9323,62 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD287" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD287" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD287" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD288" "" "Remove Window, Name, and Party Messages"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD288" "FILE1" "\data\local\code\interface.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD288" "FILE1" "\data\code\interface.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD288" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD288" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD288" "DESCRIPTION" "Hide Window, Name, and Party Messages in Top Right Screen+See who is requesting Duel-Trade"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD289" "" "Remove Window, Name, and Party Messages 2"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD289" "FILE1" "\data\local\code\interface.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD289" "FILE1" "\data\code\interface.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD289" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD289" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD289" "DESCRIPTION" "Hide Window, Name, and Party Messages in Top Right Screen+See who is requesting Duel-Trade"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD290" "" "Desc text for Cp Changersa"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD290" "FILE1" "\data\local\code\standard.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD290" "FILE1" "\data\code\standard.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD290" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD290" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD290" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD291" "" "Desc text for Cp Changersb"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD291" "FILE1" "\data\local\code\standard.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD291" "FILE1" "\data\code\standard.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD291" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD291" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD291" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD292" "" "Show Talent Level by Number"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD292" "FILE1" "\data\local\xml\talenttitle.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD292" "FILE1" "\data\xml\talenttitle.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD292" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD292" "CREATOR" "step29"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD292" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD293" "" "Show Talent Level by Number 2"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD293" "FILE1" "\data\local\xml\talenttitle.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD293" "FILE1" "\data\xml\talenttitle.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD293" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD293" "CREATOR" "step29"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD293" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD294" "" "Show Prop Names 2"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD294" "FILE1" "\data\local\xml\propdb.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD294" "FILE1" "\data\xml\propdb.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD294" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD294" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD294" "DESCRIPTION" "Show Crop, Metallurgy, and Sulfur Names; Remove Statue Names"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD295" "" "Show Prop Names 3"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD295" "FILE1" "\data\local\xml\propdb.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD295" "FILE1" "\data\xml\propdb.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD295" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD295" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD295" "DESCRIPTION" "Show Crop, Metallurgy, and Sulfur Names; Remove Statue Names"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD296" "" "Skeleton Squad Name Mod"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD296" "FILE1" "\data\local\xml\race.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD296" "FILE1" "\data\xml\race.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD296" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD296" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD296" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD297" "" "Skeleton Squad Name Mod 2"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD297" "FILE1" "\data\local\xml\race.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD297" "FILE1" "\data\xml\race.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD297" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD297" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD297" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD300" "" "True Fossil Names"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD300" "FILE1" "\data\local\xml\itemdb.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD300" "FILE1" "\data\xml\itemdb.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD300" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD300" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD300" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD301" "" "True Fossil Names 2"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD301" "FILE1" "\data\local\xml\itemdb.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD301" "FILE1" "\data\xml\itemdb.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD301" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD301" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD301" "DESCRIPTION" ""
@@ -9908,7 +9913,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD389" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD389" "CREATOR" "CoalChris"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD389" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD390" "" "Huge Ancient Names 2"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD390" "FILE1" "\data\local\xml\title.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD390" "FILE1" "\data\xml\title.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD390" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD390" "CREATOR" "Oversight"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD390" "DESCRIPTION" ""
@@ -9924,7 +9929,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD392" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD392" "CREATOR" "Jragon0"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD392" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD393" "" "Huge Ancient Names 1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD393" "FILE1" "\data\local\xml\title.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD393" "FILE1" "\data\xml\title.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD393" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD393" "CREATOR" "Oversight"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD393" "DESCRIPTION" ""
@@ -9977,8 +9982,8 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD397" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD397" "DESCRIPTION" "Enables Multiclient"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "" "Show Hidden Skill Flown Hot-Air Balloon"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "FILE1" "\data\db\skill\skillinfo.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "FILE2" "\data\local\xml\skillinfo.english.txt"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "FILE3" "\data\local\xml\skillinfo.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "FILE2" "\data\xml\skillinfo.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "FILE3" "\data\xml\skillinfo.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "FILES" "3"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "DESCRIPTION" "Enables Hidden Skill Flown Hot-Air Balloon in Hidden Skills Tab"
@@ -9988,12 +9993,12 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?1" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?1" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?1" "DESCRIPTION" "Enables Hidden Skill Flown Hot-Air Balloon in Hidden Skills Tab"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?2" "" "Show Hidden Skill Flown Hot-Air Balloon ?2"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?2" "FILE1" "\data\local\xml\skillinfo.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?2" "FILE1" "\data\xml\skillinfo.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?2" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?2" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?2" "DESCRIPTION" "Changes Text of Hidden Skill Flown Hot-Air Balloon in Hidden Skills Tab"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?3" "" "Show Hidden Skill Flown Hot-Air Balloon ?3"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?3" "FILE1" "\data\local\xml\skillinfo.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?3" "FILE1" "\data\xml\skillinfo.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?3" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?3" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398?3" "DESCRIPTION" "Changes Text of Hidden Skill Flown Hot-Air Balloon in Hidden Skills Tab"
@@ -10085,7 +10090,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD432" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD432" "CREATOR" "Blade3575"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD432" "DESCRIPTION" "Memory Patcher for enabling data folder, combat power, zoom and many more"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433" "" "Blacksmith Tailor Manual Tooltip"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433" "FILE1" "data\local\xml\manualform.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433" "FILE1" "data\xml\manualform.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433" "CREATOR" "y3tii"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433" "DESCRIPTION" "Adds the materials required per attempt, average completion percentage and finishing materials, to the popup tooltip given when you mouseover a blacksmithing or tailor scroll."
@@ -10094,7 +10099,6 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "FILE1" "mabi-pack2\mabi-p
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "CREATOR" "regomne"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "DESCRIPTION" "Read and Write Data Folder to and from .it files"
-WriteRegDWORD HKLM "${REG_UNINSTALL}\Components\MOD434" "Installed" 1
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD435" "" "Kanan"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD435" "FILE1" "Kanan\Loader.exe"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD435" "FILE2" "Kanan\Loader.txt"
@@ -10281,12 +10285,12 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD454" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD454" "CREATOR" "Dehol"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD454" "DESCRIPTION" "MabiCooker2 Ruler and Cooking Information"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD455" "" "Quest Interface Abbreviated 1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD455" "FILE1" "\data\local\xml\questcategory.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD455" "FILE1" "\data\xml\questcategory.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD455" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD455" "CREATOR" "Draconis"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD455" "DESCRIPTION" "Simplifies Quest Interface"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD456" "" "Quest Interface Abbreviated 2"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD456" "FILE1" "\data\local\xml\questcategory.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD456" "FILE1" "\data\xml\questcategory.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD456" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD456" "CREATOR" "Draconis"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD456" "DESCRIPTION" "Simplifies Quest Interface"
@@ -10716,9 +10720,6 @@ FunctionEnd
 
 Function .onSelChange
 startsel:
-
-SectionSetFlags ${MOD434} ${SF_SELECTED}
-
 Push $5
   !insertmacro SaveSections $R1
   ; save original number for comparison
@@ -11482,38 +11483,38 @@ HyddwnFound3:
 AbyssNotFound13:
 FunctionEnd
 
-Function HyddwnDisableForceUpdates
-IfFileExists "$LocalAppData\Hyddwn Launcher\PatcherSettings.json" HyddwnFound2 HyddwnNotFound2
-HyddwnNotFound2:
-FileOpen $9 "$LocalAppData\Hyddwn Launcher\PatcherSettings.json" "w"
-FileWrite $9 "{$\r$\n"
-FileWrite $9 '  "IgnorePackageFolder": false,$\r$\n'
-FileWrite $9 '  "ForceUpdateCheck": false,$\r$\n'
-FileWrite $9 '  "PromptBeforePatching": false$\r$\n'
-FileWrite $9 "}$\r$\n"
-FileClose $9
-HyddwnFound2:
-ClearErrors
-FileOpen $0 "$LocalAppData\Hyddwn Launcher\PatcherSettings.json" "r"
-GetTempFileName $R0
-FileOpen $1 $R0 "w"
-HyddwnDisableUpdateLoop:
-   FileRead $0 $2
-   IfErrors HyddwnDisableUpdateDone
-   StrCmp $2 '  "ForceUpdateCheck": true,$\r$\n' 0 +2
-      StrCpy $2 '  "ForceUpdateCheck": false,$\r$\n'
-   StrCmp $2 '  "ForceUpdateCheck": true,' 0 +2
-      StrCpy $2 '  "ForceUpdateCheck": false,'
-   FileWrite $1 $2
-   Goto HyddwnDisableUpdateLoop
- 
-HyddwnDisableUpdateDone:
-   FileClose $0
-   FileClose $1
-   Delete "$LocalAppData\Hyddwn Launcher\PatcherSettings.json"
-   CopyFiles /SILENT $R0 "$LocalAppData\Hyddwn Launcher\PatcherSettings.json"
-   Delete $R0
-FunctionEnd
+;Function HyddwnDisableForceUpdates
+;IfFileExists "$LocalAppData\Hyddwn Launcher\PatcherSettings.json" HyddwnFound2 HyddwnNotFound2
+;HyddwnNotFound2:
+;FileOpen $9 "$LocalAppData\Hyddwn Launcher\PatcherSettings.json" "w"
+;FileWrite $9 "{$\r$\n"
+;FileWrite $9 '  "IgnorePackageFolder": false,$\r$\n'
+;FileWrite $9 '  "ForceUpdateCheck": false,$\r$\n'
+;FileWrite $9 '  "PromptBeforePatching": false$\r$\n'
+;FileWrite $9 "}$\r$\n"
+;FileClose $9
+;HyddwnFound2:
+;ClearErrors
+;FileOpen $0 "$LocalAppData\Hyddwn Launcher\PatcherSettings.json" "r"
+;GetTempFileName $R0
+;FileOpen $1 $R0 "w"
+;HyddwnDisableUpdateLoop:
+;   FileRead $0 $2
+;   IfErrors HyddwnDisableUpdateDone
+;   StrCmp $2 '  "ForceUpdateCheck": true,$\r$\n' 0 +2
+;      StrCpy $2 '  "ForceUpdateCheck": false,$\r$\n'
+;   StrCmp $2 '  "ForceUpdateCheck": true,' 0 +2
+;      StrCpy $2 '  "ForceUpdateCheck": false,'
+;   FileWrite $1 $2
+;   Goto HyddwnDisableUpdateLoop
+;
+;HyddwnDisableUpdateDone:
+;   FileClose $0
+;   FileClose $1
+;   Delete "$LocalAppData\Hyddwn Launcher\PatcherSettings.json"
+;   CopyFiles /SILENT $R0 "$LocalAppData\Hyddwn Launcher\PatcherSettings.json"
+;   Delete $R0
+;FunctionEnd
 
 Function UpdateHyddwn
 SetOutPath "$INSTDIR\Hyddwn Launcher"
@@ -11597,6 +11598,10 @@ FunctionEnd
 
 Function UOTiaraPackBuild
 Delete "$INSTDIR\UOTiaraPack.bat"
+StrCpy $R7 "cd $INSTDIR"
+Call UOTiaraPack
+StrCpy $R7 "attrib -r $INSTDIR\package\data_99991.it"
+Call UOTiaraPack
 StrCpy $R7 "attrib -r $INSTDIR\package\data_99993.it"
 Call UOTiaraPack
 StrCpy $R7 "attrib -r $INSTDIR\package\data_99995.it"
@@ -11604,6 +11609,8 @@ Call UOTiaraPack
 StrCpy $R7 "attrib -r $INSTDIR\package\data_99997.it"
 Call UOTiaraPack
 StrCpy $R7 "attrib -r $INSTDIR\package\data_99999.it"
+Call UOTiaraPack
+StrCpy $R7 "del $INSTDIR\package\data_99991.it"
 Call UOTiaraPack
 StrCpy $R7 "del $INSTDIR\package\data_99993.it"
 Call UOTiaraPack
@@ -11613,7 +11620,9 @@ StrCpy $R7 "del $INSTDIR\package\data_99997.it"
 Call UOTiaraPack
 StrCpy $R7 "del $INSTDIR\package\data_99999.it"
 Call UOTiaraPack
-StrCpy $R7 "cd $INSTDIR"
+StrCpy $R7 'xcopy "C:\Nexon\Library\mabinogi\appdata\data\code\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part\data\local\code\" /q /s /y /c /e'
+Call UOTiaraPack
+StrCpy $R7 'xcopy "C:\Nexon\Library\mabinogi\appdata\data\xml\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part\data\local\xml\" /q /s /y /c /e'
 Call UOTiaraPack
 StrCpy $R7 'xcopy "$INSTDIR\data\db\" "$INSTDIR\UOTiara\part3\data\db\" /q /s /y /c /e'
 Call UOTiaraPack
@@ -11691,6 +11700,8 @@ StrCpy $R7 'xcopy "$INSTDIR\data\material\" "$INSTDIR\UOTiara\part1\data\materia
 Call UOTiaraPack
 StrCpy $R7 'xcopy "$INSTDIR\data\sound\" "$INSTDIR\UOTiara\part1\data\sound\" /q /s /y /c /e'
 Call UOTiaraPack
+StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part\ -o $INSTDIR\package\data_99991.it"
+Call UOTiaraPack
 StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part0\ -o $INSTDIR\package\data_99993.it"
 Call UOTiaraPack
 StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part1\ -o $INSTDIR\package\data_99995.it"
@@ -11700,6 +11711,8 @@ Call UOTiaraPack
 StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part3\ -o $INSTDIR\package\data_99999.it"
 Call UOTiaraPack
 StrCpy $R7 "rmdir /q /s  $INSTDIR\UOTiara"
+Call UOTiaraPack
+StrCpy $R7 "attrib +r $INSTDIR\package\data_99991.it"
 Call UOTiaraPack
 StrCpy $R7 "attrib +r $INSTDIR\package\data_99993.it"
 Call UOTiaraPack
@@ -11715,39 +11728,6 @@ Function UOTiaraPack
 Push $R7
   ${GetTime} "" "L" $R0 $R1 $R2 $R3 $R4 $R5 $R6
   StrCpy $5 "UOTiaraPack.bat"
-  Push $5
-  FileOpen $5 $5 "a"
-  FileSeek $5 0 END
-  FileWrite $5 "$R7$\r$\n"
-  FileClose $5
-  Pop $R7
-  Pop $5
-FunctionEnd
-
-Function UOTiaraLocalPackBuild
-Delete "$INSTDIR\UOTiaraLocalPack.bat"
-StrCpy $R7 "cd $INSTDIR"
-Call UOTiaraLocalPack
-StrCpy $R7 "attrib -r $INSTDIR\package\data_99991.it"
-Call UOTiaraLocalPack
-StrCpy $R7 'xcopy "$INSTDIR\data\local\" "$INSTDIR\UOTiara\data\local\" /q /s /y /c /e'
-Call UOTiaraLocalPack
-StrCpy $R7 "del $INSTDIR\package\data_99991.it"
-Call UOTiaraLocalPack
-StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara -o $INSTDIR\package\data_99991.it"
-Call UOTiaraLocalPack
-StrCpy $R7 "rmdir /q /s  $INSTDIR\data\local"
-Call UOTiaraLocalPack
-StrCpy $R7 "rmdir /q /s  $INSTDIR\UOTiara"
-Call UOTiaraLocalPack
-StrCpy $R7 "attrib +r $INSTDIR\package\data_99991.it"
-Call UOTiaraLocalPack
-FunctionEnd
-
-Function UOTiaraLocalPack
-Push $R7
-  ${GetTime} "" "L" $R0 $R1 $R2 $R3 $R4 $R5 $R6
-  StrCpy $5 "UOTiaraLocalPack.bat"
   Push $5
   FileOpen $5 $5 "a"
   FileSeek $5 0 END

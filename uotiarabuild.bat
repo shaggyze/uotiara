@@ -46,13 +46,9 @@ PAUSE
 )
 @ECHO ON
 cd C:\Nexon\Library\mabinogi\appdata
-xcopy "C:\Nexon\Library\mabinogi\appdata\data\local\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\local\" /q /s /y /c /e
-C:\Nexon\Library\mabinogi\appdata\mabi-pack2\mabi-pack2.exe pack -i C:\Nexon\Library\mabinogi\appdata\UOTiara -o C:\Nexon\Library\mabinogi\appdata\package\data_99991.it
-rmdir /q /s  C:\Nexon\Library\mabinogi\appdata\data\local
-rmdir /q /s  C:\Nexon\Library\mabinogi\appdata\UOTiara
-cd C:\Nexon\Library\mabinogi\appdata
+xcopy "C:\Nexon\Library\mabinogi\appdata\data\code\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part\data\local\code\" /q /s /y /c /e
+xcopy "C:\Nexon\Library\mabinogi\appdata\data\xml\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part\data\local\xml\" /q /s /y /c /e
 xcopy "C:\Nexon\Library\mabinogi\appdata\data\db\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part3\data\db\" /q /s /y /c /e
-
 mkdir C:\Nexon\Library\mabinogi\appdata\UOTiara\part0\data\gfx\gui\map_jpg
 copy "C:\Nexon\Library\mabinogi\appdata\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part0\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg" /y
 mkdir C:\Nexon\Library\mabinogi\appdata\UOTiara\part1\data\gfx\gui\map_jpg
@@ -90,6 +86,7 @@ xcopy "C:\Nexon\Library\mabinogi\appdata\data\gfx\style\" "C:\Nexon\Library\mabi
 xcopy "C:\Nexon\Library\mabinogi\appdata\data\locale\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part1\data\locale\" /q /s /y /c /e
 xcopy "C:\Nexon\Library\mabinogi\appdata\data\material\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part1\data\material\" /q /s /y /c /e
 xcopy "C:\Nexon\Library\mabinogi\appdata\data\sound\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part1\data\sound\" /q /s /y /c /e
+C:\Nexon\Library\mabinogi\appdata\mabi-pack2\mabi-pack2.exe pack -i C:\Nexon\Library\mabinogi\appdata\UOTiara\part\ -o C:\Nexon\Library\mabinogi\appdata\package\data_99991.it
 C:\Nexon\Library\mabinogi\appdata\mabi-pack2\mabi-pack2.exe pack -i C:\Nexon\Library\mabinogi\appdata\UOTiara\part0\ -o C:\Nexon\Library\mabinogi\appdata\package\data_99993.it
 C:\Nexon\Library\mabinogi\appdata\mabi-pack2\mabi-pack2.exe pack -i C:\Nexon\Library\mabinogi\appdata\UOTiara\part1\ -o C:\Nexon\Library\mabinogi\appdata\package\data_99995.it
 C:\Nexon\Library\mabinogi\appdata\mabi-pack2\mabi-pack2.exe pack -i C:\Nexon\Library\mabinogi\appdata\UOTiara\part2\ -o C:\Nexon\Library\mabinogi\appdata\package\data_99997.it
