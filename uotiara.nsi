@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
 !define UOSHORTVERSION        "383"
-!define UOLONGVERSION         "0.16.40"
+!define UOLONGVERSION         "0.16.41"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -19,7 +19,6 @@ RequestExecutionLevel admin
 Name "${UOSHORTNAME} ${UOVERSION}"
 AllowRootDirInstall true
 OutFile "${InstFile}"
-
 XPStyle on
 SetCompressor /SOLID /FINAL lzma
 ;ChangeUI all ".\bin\modern.exe"
@@ -167,14 +166,13 @@ Icon "${icon}"
 !ifdef screenimage
 
 !macro FontBMPCreate File
-
   StrCpy $R7 "Begin FontBMPCreate"
-
   Call DumpLog1
+  
   Push "${File}"
   Call FontBMPCreate
+  
   StrCpy $R7 "End FontBMPCreate"
-
   Call DumpLog1
 !macroend
 
@@ -360,9 +358,8 @@ IfFileExists $INSTDIR\UOTiaraPack.bat mabi-pack2Found1 mabi-pack2NotFound1
 mabi-pack2Found1:
 IfFileExists $INSTDIR\mabi-pack2\mabi-pack2.exe mabi-pack2Found2 mabi-pack2NotFound1
 mabi-pack2Found2:
-	StrCpy $R7 ".oninstsuccess Execute 1 $INSTDIR\UOTiaraPack.bat"
-	SetOutPath "$INSTDIR"
-	Call DumpLog1
+StrCpy $R7 ".oninstsuccess Execute 1 $INSTDIR\UOTiaraPack.bat"
+Call DumpLog1
 !insertmacro ShellExecWait "" '"$INSTDIR\UOTiaraPack.bat"' '""' "" ${SW_SHOW} $1
 goto end
 mabi-pack2NotFound1:
@@ -372,7 +369,6 @@ FunctionEnd
 
 
 SectionGroup /e "Unofficial Tiara's Moonshine Mods" SECTION1
-
 Section "Abyss Patcher" MOD432
 ${If} ${AbyssEnable} == "True"
 SetOutPath "$INSTDIR"
@@ -895,7 +891,7 @@ SkipKSRemove:
 Section "Reduced Lag Font 1 (ydygo550)" MOD436
 SetOutPath "$INSTDIR\data\gfx\font"
   DetailPrint "Installing ydygo550 font..."
-  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\font\ydygo550\nanumgothicbold.ttf"
+  File "${srcdir}\Tiara's Moonshine Mod\optional data\ydygo550\NanumGothicBold.ttf"
   SetDetailsPrint both
 IfFileExists "$INSTDIR\Abyss.ini" AbyssFound5 AbyssNotFound5
 AbyssFound5:
@@ -910,7 +906,7 @@ SectionEnd
 Section "Reduced Lag Font 2 (whiterabbit)" MOD437
 SetOutPath "$INSTDIR\data\gfx\font"
   DetailPrint "Installing whiterabbit font..."
-  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\font\whiterabbit\nanumgothicbold.ttf"
+  File "${srcdir}\Tiara's Moonshine Mod\optional data\whiterabbit\NanumGothicBold.ttf"
   SetDetailsPrint both
 IfFileExists "$INSTDIR\Abyss.ini" AbyssFound6 AbyssNotFound6
 AbyssFound6:
@@ -925,7 +921,7 @@ SectionEnd
 Section "Reduced Lag Font 3 (interstate)" MOD438
 SetOutPath "$INSTDIR\data\gfx\font"
   DetailPrint "Installing interstate font..."
-  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\font\interstate\nanumgothicbold.ttf"
+  File "${srcdir}\Tiara's Moonshine Mod\optional data\interstate\NanumGothicBold.ttf"
   SetDetailsPrint both
 IfFileExists "$INSTDIR\Abyss.ini" AbyssFound7 AbyssNotFound7
 AbyssFound7:
@@ -939,7 +935,7 @@ SectionEnd
 Section "Reduced Lag Font 4 (tiara)" MOD439
 SetOutPath "$INSTDIR\data\gfx\font"
   DetailPrint "Installing tiara font..."
-  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\font\tiara\nanumgothicbold.ttf"
+  File "${srcdir}\Tiara's Moonshine Mod\optional data\tiara\NanumGothicBold.ttf"
   SetDetailsPrint both
 IfFileExists "$INSTDIR\Abyss.ini" AbyssFound8 AbyssNotFound8
 AbyssFound8:
@@ -953,7 +949,7 @@ SectionEnd
 Section "Reduced Lag Font 5 (uotiara)" MOD440
 SetOutPath "$INSTDIR\data\gfx\font"
   DetailPrint "Installing uotiara font..."
-  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\font\uotiara\nanumgothicbold.ttf"
+  File "${srcdir}\Tiara's Moonshine Mod\optional data\uotiara\NanumGothicBold.ttf"
   SetDetailsPrint both
 IfFileExists "$INSTDIR\Abyss.ini" AbyssFound9 AbyssNotFound9
 AbyssFound9:
@@ -967,7 +963,7 @@ SectionEnd
 Section "Reduced Lag Font 6 (fudd)" MOD441
 SetOutPath "$INSTDIR\data\gfx\font"
   DetailPrint "Installing fudd font..."
-  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\font\fudd\nanumgothicbold.ttf"
+  File "${srcdir}\Tiara's Moonshine Mod\optional data\fudd\NanumGothicBold.ttf"
   SetDetailsPrint both
 IfFileExists "$INSTDIR\Abyss.ini" AbyssFound10 AbyssNotFound10
 AbyssFound10:
@@ -981,7 +977,7 @@ SectionEnd
 Section "Reduced Lag Font 7 (powerred)" MOD452
 SetOutPath "$INSTDIR\data\gfx\font"
   DetailPrint "Installing powerred font..."
-  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\font\powerred\nanumgothicbold.ttf"
+  File "${srcdir}\Tiara's Moonshine Mod\optional data\powerred\NanumGothicBold.ttf"
   SetDetailsPrint both
 IfFileExists "$INSTDIR\Abyss.ini" AbyssFound11 AbyssNotFound11
 AbyssFound11:
@@ -6784,7 +6780,7 @@ SectionGroupEnd
 SectionGroup "Risky Mods (remove)"
 Section "Remove Font Changes"
 DetailPrint "*** Removing Font Changes..."
-Delete "$INSTDIR\data\gfx\font\nanumgothicbold.ttf"
+Delete "$INSTDIR\data\gfx\font\NanumGothicBold.ttf"
 Delete "$INSTDIR\data\gfx\gui\font_outline_eng.dds"
 Delete "$INSTDIR\data\gfx\gui\font_eng.dds"
 ; edit for "if exists"
@@ -10110,37 +10106,37 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD435" "FILES" "6"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD435" "CREATOR" "Cursey"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD435" "DESCRIPTION" "A reimagining of Kanan for Mabinogi written in C++ with many improvements. (memory patcher)"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD436" "" "Reduced Lag Font 1 (ydygo550)"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD436" "FILE1" "\data\gfx\font\nanumgothicbold.ttf"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD436" "FILE1" "\data\gfx\font\NanumGothicBold.ttf"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD436" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD436" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD436" "DESCRIPTION" "ydygo550"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD437" "" "Reduced Lag Font 2 (whiterabbit)"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD437" "FILE1" "\data\gfx\font\nanumgothicbold.ttf"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD437" "FILE1" "\data\gfx\font\NanumGothicBold.ttf"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD437" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD437" "CREATOR" "Matthew Welch"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD437" "DESCRIPTION" "A reminiscent of the characters displayed on old text based terminal screens. Smoothed out and cleaned up for a new millenium, this is the font to use for all your computing applications."
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD438" "" "Reduced Lag Font 3 (interstate)"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD438" "FILE1" "\data\gfx\font\nanumgothicbold.ttf"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD438" "FILE1" "\data\gfx\font\NanumGothicBold.ttf"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD438" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD438" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD438" "DESCRIPTION" "interstate"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD439" "" "Reduced Lag Font 4 (tiara)"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD439" "FILE1" "\data\gfx\font\nanumgothicbold.ttf"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD439" "FILE1" "\data\gfx\font\NanumGothicBold.ttf"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD439" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD439" "CREATOR" "Amaretto"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD439" "DESCRIPTION" "tiara"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD440" "" "Reduced Lag Font 5 (uotiara)"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD440" "FILE1" "\data\gfx\font\nanumgothicbold.ttf"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD440" "FILE1" "\data\gfx\font\NanumGothicBold.ttf"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD440" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD440" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD440" "DESCRIPTION" "uotiara"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD441" "" "Reduced Lag Font 6 (fudd)"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD441" "FILE1" "\data\gfx\font\nanumgothicbold.ttf"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD441" "FILE1" "\data\gfx\font\NanumGothicBold.ttf"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD441" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD441" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD441" "DESCRIPTION" "fudd"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD452" "" "Reduced Lag Font 7 (powerred)"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD452" "FILE1" "\data\gfx\font\nanumgothicbold.ttf"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD452" "FILE1" "\data\gfx\font\NanumGothicBold.ttf"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD452" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD452" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD452" "DESCRIPTION" "powerred"
@@ -10978,7 +10974,6 @@ Push $5
 FileOpen $5 $5 "w"
 FileClose $5
 StrCpy $R7 "Begin .onInit"
-
 Call DumpLog1
   ;Reads components status for registry
  ;!insertmacro SectionList "InitSection"
@@ -10999,18 +10994,15 @@ FileClose $4
 Push $1
 Call Trim
 Pop $1
-;MessageBox MB_OK "$1"
 StrCpy $NEWUOVERSION $1 "" 9
-;MessageBox MB_OK "$NEWUOVERSION >= ${UOVERSION}"
-StrCpy $R7 ".onInit Downloading Version"
+StrCpy $R7 ".onInit Downloaded UO Tiara Version"
 Call DumpLog1
 Push $NEWUOVERSION
 Push ${UOVERSION}
-StrCpy $R7 ".onInit $0 / $1"
+StrCpy $R7 ".onInit  ${UOVERSION} / $NEWUOVERSION"
 Call DumpLog1
 xtInfoPlugin::CompareVersion
 Pop $1
-;MessageBox MB_OK "$1 : $NEWUOVERSION >= ${UOVERSION}"
 Delete $TEMP\${UOVERSION}appveyor.yml
 ${If} $1 > "-1"
       Goto EndNewVersion
@@ -11026,7 +11018,7 @@ StrLen $1 $0
 ${If} $1 = 0
 StrCpy $0 "0.0.0.0"
 ${EndIf}
-MessageBox MB_YESNOCANCEL|MB_ICONQUESTION "New UO Tiara detected V$NEWUOVERSION$\r$\nV$0 currently installed$\r$\nYou are running V${UOVERSION}$\r$\n$\r$\nWould you like to download the latest version?$\r$\n$\r$\nClick Yes to download automatically$\r$\nNo to continue installing$\r$\nCancel to download latest version from site." IDNO EndNewVersion IDCANCEL SetupSite
+MessageBox MB_YESNOCANCEL|MB_ICONQUESTION "New UO Tiara detected V$NEWUOVERSION$\r$\nV$0 currently installed$\r$\nYou are running V${UOVERSION}$\r$\n$\r$\nWould you like to download the latest version?$\r$\n$\r$\nClick Yes to download automatically$\r$\nNo to continue installing$\r$\nCancel to go to site." IDNO EndNewVersion IDCANCEL SetupSite
 inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/releases/latest/download/UO.Tiaras.Moonshine.Mod.V$NEWUOVERSION.exe" "$INSTDIR\Archived\UOTiara\UOSetup1.exe" /end
 IfFileExists "$INSTDIR\Archived\UOTiara\UOSetup1.exe" SetupFound SetupNotFound
 SetupFound:
@@ -11037,9 +11029,41 @@ SetupNotFound:
   ExecShell "open" "https://github.com/shaggyze/uotiara/releases/latest"
 Quit
 SetupSite:
-ExecShell "open" "https://github.com/shaggyze/uotiara/releases/latest"
+ExecShell "open" "https://github.com/shaggyze/uotiara/releases"
 Quit
 EndNewVersion:
+
+inetc::post "Action=CV&buildtime=-1" "http://theproffessorslaboratory.net/api.php" "$TEMP\MABIVERSION.txt" /END
+FileOpen $4 "$TEMP\MABIVERSION.txt" r
+FileRead $4 $1
+FileClose $4
+Push $1
+;Call Trim
+Pop $1
+StrCpy $NEWUOVERSION $1 "" 0
+StrCpy $R7 ".onInit Downloaded Mabinogi Version"
+Call DumpLog1
+Push $NEWUOVERSION
+Push ${UOSHORTVERSION}
+StrCpy $R7 ".onInit  ${UOSHORTVERSION} / $NEWUOVERSION"
+Call DumpLog1
+xtInfoPlugin::CompareVersion
+Pop $1
+${If} $1 > "-1"
+      Goto EndNewVersion2
+${EndIf}
+ReadRegStr $0 HKLM "${REG_UNINSTALL}" "DisplayVersion"
+StrLen $1 $0
+${If} $1 = 0
+StrCpy $0 "0.0.0.0"
+${EndIf}
+IntOp $1 $NEWUOVERSION - 382
+MessageBox MB_YESNOCANCEL|MB_ICONQUESTION "A newer Mabinogi version is detected V$NEWUOVERSION($1)$\r$\nPlease wait until UO Tiara has been updated$\r$\nV$0 currently installed$\r$\nYou are running V${UOVERSION}$\r$\n$\r$\nWould you like to close the installer?$\r$\n$\r$\nClick Yes to close$\r$\nNo to continue installing$\r$\nCancel to go to site." IDNO EndNewVersion2 IDCANCEL SetupSite2
+Quit
+SetupSite2:
+ExecShell "open" "https://github.com/shaggyze/uotiara/releases"
+Quit
+EndNewVersion2:
 
 !insertmacro SetSectionInInstType "${SECTION1}" "${INSTTYPE_1}"
 Push $5
@@ -11067,7 +11091,6 @@ Delete $TEMP\spltmp.wav
 StrCpy $6 ${MOD436}
 Pop $5
 StrCpy $R7 "End .onInit"
-
 Call DumpLog1
 FunctionEnd
 
@@ -11096,7 +11119,7 @@ Push $5
 FileOpen $5 $5 "a"
 FileSeek $5 0 END
 FileClose $5
-StrCpy $R7 "Begin myonguiinit"
+StrCpy $R7 "Begin myonguiinit $0"
 Call DumpLog1
 Call .onSelChange
 Call ModInfo
@@ -11232,12 +11255,13 @@ ClientFound2:
 FunctionEnd
 
 Function .onGUIEnd
-	StrCpy $R7 "Begin .onGUIEnd"
-	Call DumpLog1
+StrCpy $R7 "Begin .onGUIEnd"
+Call DumpLog1
 
-	BgImage::Destroy
-	StrCpy $R7 "End .onGUIEnd"
-	Call DumpLog1
+BgImage::Destroy
+	
+StrCpy $R7 "End .onGUIEnd"
+Call DumpLog1
 FunctionEnd
 
 Function .oninstsuccess
@@ -11283,11 +11307,6 @@ Call DumpLog1
 
 DeleteRegKey HKLM "${REG_UNINSTALL}\Sections"
 WriteINIStr $OUTDIR\AutoBot\config.ini Settings packed 1
-SetFileAttributes "$INSTDIR\Package\UOTiara.it" NORMAL
-Delete "$INSTDIR\Package\UOTiara.it"
-SetFileAttributes $INSTDIR\Package\language.it NORMAL
-StrCpy $R7 ".oninstsuccess Set .its at normal"
-Call DumpLog1
 
 WriteRegStr HKCU Software\Nexon\Mabinogi "" "$INSTDIR"
 
@@ -11361,13 +11380,12 @@ goto EndExec
 ;CreateShortCut "$DESKTOP\Mabinogi.exe.lnk" "$INSTDIR\Mabinogi.exe" "" "$INSTDIR\Mabinogi.exe" "0" "SW_SHOWNORMAL" "ALT|CONTROL|F5" "Mabinogi.exe"
 ;CreateShortCut "$SMPROGRAMS\Unofficial Tiara\Mabinogi.exe.lnk" "$INSTDIR\Mabinogi.exe" "" "$INSTDIR\Mabinogi.exe" "0" "SW_SHOWNORMAL" "ALT|CONTROL|F5" "Mabinogi.exe"
 EndExec:
-	Delete "$INSTDIR\AllowFirewall.bat"
+Delete "$INSTDIR\AllowFirewall.bat"
 ExecShell "" "$INSTDIR\DisableFirewall.bat" "" SW_HIDE
 Sleep 5000
-	Delete "$INSTDIR\DisableFirewall.bat"
-	Delete "$INSTDIR\Kanan\DisableFirewall.bat"
-	Delete "$INSTDIR\AllowPowerShell.exe"
-	
+Delete "$INSTDIR\DisableFirewall.bat"
+Delete "$INSTDIR\Kanan\DisableFirewall.bat"
+Delete "$INSTDIR\AllowPowerShell.exe"
 Delete "C:\UOTiara_installlog.txt"
 SetAutoClose true
 StrCpy $R7 "End .oninstsuccess"
@@ -11375,6 +11393,7 @@ Call DumpLog1
 FunctionEnd
 
 Function DumpLog
+SetOutPath $TEMP
  StrCpy $0 "UOTiara_installlog.txt"
  Push $0
  Exch $5
@@ -11420,6 +11439,7 @@ exit:
 FunctionEnd
 
 Function DumpLog1
+SetOutPath $INSTDIR
 Push $R7
   ${GetTime} "" "L" $R0 $R1 $R2 $R3 $R4 $R5 $R6
   StrCpy $5 "UOTiara_installlog.txt"
@@ -11620,95 +11640,95 @@ StrCpy $R7 "del $INSTDIR\package\data_99997.it"
 Call UOTiaraPack
 StrCpy $R7 "del $INSTDIR\package\data_99999.it"
 Call UOTiaraPack
-StrCpy $R7 'xcopy "C:\Nexon\Library\mabinogi\appdata\data\code\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part\data\local\code\" /q /s /y /c /e'
+StrCpy $R7 'xcopy "C:\Nexon\Library\mabinogi\appdata\data\code\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part1\data\local\code\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 'xcopy "C:\Nexon\Library\mabinogi\appdata\data\xml\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part\data\local\xml\" /q /s /y /c /e'
+StrCpy $R7 'xcopy "C:\Nexon\Library\mabinogi\appdata\data\xml\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part1\data\local\xml\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\db\" "$INSTDIR\UOTiara\part3\data\db\" /q /s /y /c /e'
+StrCpy $R7 'xcopy "$INSTDIR\data\db\" "$INSTDIR\UOTiara\part5\data\db\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 "mkdir $INSTDIR\UOTiara\part0\data\gfx\gui\map_jpg"
+StrCpy $R7 "mkdir $INSTDIR\UOTiara\part5\data\gfx\gui\map_jpg"
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg" "$INSTDIR\UOTiara\part0\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg" /y'
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg" "$INSTDIR\UOTiara\part5\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg" /y'
 Call UOTiaraPack
-StrCpy $R7 "mkdir $INSTDIR\UOTiara\part1\data\gfx\gui\map_jpg"
+StrCpy $R7 "mkdir $INSTDIR\UOTiara\part3\data\gfx\gui\map_jpg"
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg" "$INSTDIR\UOTiara\part1\data\gfx\gui\map_jpg\minimap_iria_courcle_mgfree_eng.jpg" /y'
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg" "$INSTDIR\UOTiara\part3\data\gfx\gui\map_jpg\minimap_iria_courcle_mgfree_eng.jpg" /y'
 Call UOTiaraPack
-StrCpy $R7 "mkdir $INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg"
+StrCpy $R7 "mkdir $INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg"
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_rano_new_mgfree_eng.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_iria_rano_new_mgfree_eng.jpg" /y'
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_rano_new_mgfree_eng.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_iria_rano_new_mgfree_eng.jpg" /y'
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_physis_mgfree_eng.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_iria_physis_mgfree_eng.jpg" /y'
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_physis_mgfree_eng.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_iria_physis_mgfree_eng.jpg" /y'
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_taillteann_eng_rep.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_taillteann_eng_rep.jpg" /y'
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_taillteann_eng_rep.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_taillteann_eng_rep.jpg" /y'
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_tara_eng_rep.jpg" "$INSTDIR\UOTiara\part1\data\gfx\gui\map_jpg\minimap_tara_eng_rep.jpg" /y'
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_tara_eng_rep.jpg" "$INSTDIR\UOTiara\part3\data\gfx\gui\map_jpg\minimap_tara_eng_rep.jpg" /y'
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_rano_qilla_mgfree_eng.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_iria_rano_qilla_mgfree_eng.jpg" /y'
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_rano_qilla_mgfree_eng.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_iria_rano_qilla_mgfree_eng.jpg" /y'
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_connous_underworld.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_iria_connous_underworld.jpg" /y'
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_connous_underworld.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_iria_connous_underworld.jpg" /y'
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_taillteann_abb_neagh_mgfree_eng.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_taillteann_abb_neagh_mgfree_eng.jpg" /y'
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_taillteann_abb_neagh_mgfree_eng.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_taillteann_abb_neagh_mgfree_eng.jpg" /y'
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_n_eng.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_n_eng.jpg" /y'
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_n_eng.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_n_eng.jpg" /y'
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_s_eng.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_s_eng.jpg" /y'
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_s_eng.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_s_eng.jpg" /y'
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_taillteann_sliab_cuilin_eng_rep.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_taillteann_sliab_cuilin_eng_rep.jpg" /y'
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_taillteann_sliab_cuilin_eng_rep.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_taillteann_sliab_cuilin_eng_rep.jpg" /y'
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_senmag_mgfree_eng.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_senmag_mgfree_eng.jpg" /y'
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_senmag_mgfree_eng.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_senmag_mgfree_eng.jpg" /y'
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_senmag_eng.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_senmag_eng.jpg" /y'
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_senmag_eng.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_senmag_eng.jpg" /y'
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_tara_n_field_eng_rep.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_tara_n_field_eng_rep.jpg" /y'
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_tara_n_field_eng_rep.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_tara_n_field_eng_rep.jpg" /y'
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_tara_castle_1f_eng_rep.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_tara_castle_1f_eng_rep.jpg" /y'
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_tara_castle_1f_eng_rep.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_tara_castle_1f_eng_rep.jpg" /y'
 Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\gfx\gui\login_screen\" "$INSTDIR\UOTiara\part2\data\gfx\gui\login-Screen\" /q /s /y /c /e'
+StrCpy $R7 'xcopy "$INSTDIR\data\gfx\gui\login_screen\" "$INSTDIR\UOTiara\part4\data\gfx\gui\login-Screen\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\gfx\gui\trading_ui\" "$INSTDIR\UOTiara\part2\data\gfx\gui\trading_ui\" /q /s /y /c /e'
+StrCpy $R7 'xcopy "$INSTDIR\data\gfx\gui\trading_ui\" "$INSTDIR\UOTiara\part4\data\gfx\gui\trading_ui\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\blacksmith.dds" "$INSTDIR\UOTiara\part2\data\gfx\gui\blacksmith.dds" /y'
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\blacksmith.dds" "$INSTDIR\UOTiara\part4\data\gfx\gui\blacksmith.dds" /y'
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\font_eng.dds" "$INSTDIR\UOTiara\part2\data\gfx\gui\font_eng.dds" /y'
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\font_eng.dds" "$INSTDIR\UOTiara\part4\data\gfx\gui\font_eng.dds" /y'
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\font_outline_eng.dds" "$INSTDIR\UOTiara\part2\data\gfx\gui\font_outline_eng.dds" /y'
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\font_outline_eng.dds" "$INSTDIR\UOTiara\part4\data\gfx\gui\font_outline_eng.dds" /y'
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\tailoring.dds" "$INSTDIR\UOTiara\part2\data\gfx\gui\tailoring.dds" /y'
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\tailoring.dds" "$INSTDIR\UOTiara\part4\data\gfx\gui\tailoring.dds" /y'
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\tailoring_2.dds" "$INSTDIR\UOTiara\part2\data\gfx\gui\tailoring_2.dds" /y'
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\tailoring_2.dds" "$INSTDIR\UOTiara\part4\data\gfx\gui\tailoring_2.dds" /y'
 Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\gfx\chapter3\" "$INSTDIR\UOTiara\part3\data\gfx\chapter3\" /q /s /y /c /e'
+StrCpy $R7 'xcopy "$INSTDIR\data\gfx\chapter3\" "$INSTDIR\UOTiara\part5\data\gfx\chapter3\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\gfx\char\" "$INSTDIR\UOTiara\part1\data\gfx\char\" /q /s /y /c /e'
+StrCpy $R7 'xcopy "$INSTDIR\data\gfx\char\" "$INSTDIR\UOTiara\part3\data\gfx\char\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\gfx\font\" "$INSTDIR\UOTiara\part3\data\gfx\font\" /q /s /y /c /e'
+StrCpy $R7 'xcopy "$INSTDIR\data\gfx\font\" "$INSTDIR\UOTiara\part5\data\gfx\font\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\gfx\fx\" "$INSTDIR\UOTiara\part3\data\gfx\fx\" /q /s /y /c /e'
+StrCpy $R7 'xcopy "$INSTDIR\data\gfx\fx\" "$INSTDIR\UOTiara\part5\data\gfx\fx\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\gfx\image\" "$INSTDIR\UOTiara\part1\data\gfx\image\" /q /s /y /c /e'
+StrCpy $R7 'xcopy "$INSTDIR\data\gfx\image\" "$INSTDIR\UOTiara\part3\data\gfx\image\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\gfx\image2\" "$INSTDIR\UOTiara\part1\data\gfx\image2\" /q /s /y /c /e'
+StrCpy $R7 'xcopy "$INSTDIR\data\gfx\image2\" "$INSTDIR\UOTiara\part3\data\gfx\image2\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\gfx\scene\" "$INSTDIR\UOTiara\part3\data\gfx\scene\" /q /s /y /c /e'
+StrCpy $R7 'xcopy "$INSTDIR\data\gfx\scene\" "$INSTDIR\UOTiara\part5\data\gfx\scene\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\gfx\style\" "$INSTDIR\UOTiara\part1\data\gfx\style\" /q /s /y /c /e'
+StrCpy $R7 'xcopy "$INSTDIR\data\gfx\style\" "$INSTDIR\UOTiara\part3\data\gfx\style\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\locale\" "$INSTDIR\UOTiara\part1\data\locale\" /q /s /y /c /e'
+StrCpy $R7 'xcopy "$INSTDIR\data\locale\" "$INSTDIR\UOTiara\part3\data\locale\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\material\" "$INSTDIR\UOTiara\part1\data\material\" /q /s /y /c /e'
+StrCpy $R7 'xcopy "$INSTDIR\data\material\" "$INSTDIR\UOTiara\part3\data\material\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\sound\" "$INSTDIR\UOTiara\part1\data\sound\" /q /s /y /c /e'
+StrCpy $R7 'xcopy "$INSTDIR\data\sound\" "$INSTDIR\UOTiara\part3\data\sound\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part\ -o $INSTDIR\package\data_99991.it"
+StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part1\ -o $INSTDIR\package\data_99991.it"
 Call UOTiaraPack
-StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part0\ -o $INSTDIR\package\data_99993.it"
+StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part2\ -o $INSTDIR\package\data_99993.it"
 Call UOTiaraPack
-StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part1\ -o $INSTDIR\package\data_99995.it"
+StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part3\ -o $INSTDIR\package\data_99995.it"
 Call UOTiaraPack
-StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part2\ -o $INSTDIR\package\data_99997.it"
+StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part4\ -o $INSTDIR\package\data_99997.it"
 Call UOTiaraPack
-StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part3\ -o $INSTDIR\package\data_99999.it"
+StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part5\ -o $INSTDIR\package\data_99999.it"
 Call UOTiaraPack
 StrCpy $R7 "rmdir /q /s  $INSTDIR\UOTiara"
 Call UOTiaraPack
