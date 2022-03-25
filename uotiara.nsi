@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
-!define UOSHORTVERSION        "383"
-!define UOLONGVERSION         "0.16.41"
+!define UOSHORTVERSION        "384"
+!define UOLONGVERSION         "0.17.42"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -159,6 +159,7 @@ Var FontBMP
 ;Var Kanan
 ;Var AutoBot
 Var NEWUOVERSION
+Var NEWMABIVERSION
 
 !ifdef icon
 Icon "${icon}"
@@ -1233,12 +1234,12 @@ SectionEnd
 !macroend
 Section "Iria Underground Tunnel Field of View" MOD95
 SetOutPath "$INSTDIR\data\db"
-File "${srcdir}\Tiara's Moonshine Mod\data\db\undergroundmaze.xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\db\UndergroundMaze.xml"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD95}
   DetailPrint "*** Removing MOD95..."
-  Delete "$INSTDIR\data\db\undergroundmaze.xml"
+  Delete "$INSTDIR\data\db\UndergroundMaze.xml"
 !macroend
 Section "Show Prop Names 1" MOD96
 SetOutPath "$INSTDIR\data\db"
@@ -5464,19 +5465,19 @@ SectionGroupEnd
 SectionGroup "locale"
 Section "Unfiltered Chat" MOD287
 SetOutPath "$INSTDIR\data\locale\usa\filter"
-File "${srcdir}\Tiara's Moonshine Mod\data\locale\usa\filter\blockchat.txt"
+File "${srcdir}\Tiara's Moonshine Mod\data\locale\usa\filter\BlockChat.txt"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD287}
   DetailPrint "*** Removing MOD287..."
-  Delete "$INSTDIR\data\locale\usa\filter\blockchat.txt"
+  Delete "$INSTDIR\data\locale\usa\filter\BlockChat.txt"
 !macroend
 SectionGroupEnd
 
 SectionGroup "layout2"
 Section "Show Ping in the Menu 1" MOD84
 SetOutPath "$INSTDIR\data\db\layout2"
-File "${srcdir}\Tiara's Moonshine Mod\data\db\layout2\systemmenu.xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\db\layout2\SystemMenu.xml"
 IfFileExists "$INSTDIR\Abyss.ini" AbyssFound11 AbyssNotFound11
 AbyssFound11:
 WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "ShowPing" "0"
@@ -5485,61 +5486,61 @@ SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD84}
   DetailPrint "*** Removing MOD84..."
-  Delete "$INSTDIR\data\db\layout2\systemmenu.xml"
+  Delete "$INSTDIR\data\db\layout2\SystemMenu.xml"
 !macroend
 SectionGroup "commerce"
 Section "Trade Imp Removal 1" MOD80
 SetOutPath "$INSTDIR\data\db\layout2\commerce"
-File "${srcdir}\Tiara's Moonshine Mod\data\db\layout2\commerce\impview.xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\db\layout2\commerce\ImpView.xml"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD80}
   DetailPrint "*** Removing MOD80..."
-  Delete "$INSTDIR\data\db\layout2\commerce\impview.xml"
+  Delete "$INSTDIR\data\db\layout2\commerce\ImpView.xml"
 !macroend
 SectionGroupEnd
 SectionGroup "gameclock"
 Section "Clock/Weather Minimize" MOD81
 SetOutPath "$INSTDIR\data\db\layout2\gameclock"
-File "${srcdir}\Tiara's Moonshine Mod\data\db\layout2\gameclock\gameclockview.xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\db\layout2\gameclock\gameclockview_weather.xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\db\layout2\gameclock\GameClockView.xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\db\layout2\gameclock\GameClockView_Weather.xml"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD81}
   DetailPrint "*** Removing MOD81..."
-  Delete "$INSTDIR\data\db\layout2\gameclock\gameclockview.xml"
-  Delete "$INSTDIR\data\db\layout2\gameclock\gameclockview_weather.xml"
+  Delete "$INSTDIR\data\db\layout2\gameclock\GameClockView.xml"
+  Delete "$INSTDIR\data\db\layout2\gameclock\GameClockView_Weather.xml"
 !macroend
 SectionGroupEnd
 SectionGroup "petinfo"
 Section "Partner Skillbar Icon" MOD404
 SetOutPath "$INSTDIR\data\db\layout2\petinfo"
-File "${srcdir}\Tiara's Moonshine Mod\data\db\layout2\petinfo\partnertab.xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\db\layout2\petinfo\PartnerTab.xml"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD404}
   DetailPrint "*** Removing MOD404..."
-  Delete "$INSTDIR\data\db\layout2\petinfo\partnertab.xml"
+  Delete "$INSTDIR\data\db\layout2\petinfo\PartnerTab.xml"
 !macroend
 SectionGroupEnd
 SectionGroup "skill"
 Section "Doppel collection removal" MOD82
 SetOutPath "$INSTDIR\data\db\layout2\skill"
-File "${srcdir}\Tiara's Moonshine Mod\data\db\layout2\skill\skillreadyview.xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\db\layout2\skill\SkillReadyView.xml"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD82}
   DetailPrint "*** Removing MOD82..."
-  Delete "$INSTDIR\data\db\layout2\skill\skillreadyview.xml"
+  Delete "$INSTDIR\data\db\layout2\skill\SkillReadyView.xml"
 !macroend
 Section "Skill Sidebar Minimize" MOD83
 SetOutPath "$INSTDIR\data\db\layout2\skill"
-File "${srcdir}\Tiara's Moonshine Mod\data\db\layout2\skill\skillsidebar.xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\db\layout2\skill\SkillSideBar.xml"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD83}
   DetailPrint "*** Removing MOD83..."
-  Delete "$INSTDIR\data\db\layout2\skill\skillsidebar.xml"
+  Delete "$INSTDIR\data\db\layout2\skill\SkillSideBar.xml"
 !macroend
 SectionGroupEnd
 SectionGroupEnd
@@ -8064,28 +8065,28 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD447" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD447" "CREATOR" "Draconis"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD447" "DESCRIPTION" "Removes Alby Hard Mode Arachne Cutscene Removal"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD80" "" "Trade Imp Removal 1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD80" "FILE1" "\data\db\layout2\commerce\impview.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD80" "FILE1" "\data\db\layout2\commerce\ImpView.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD80" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD80" "CREATOR" "Trivaloso"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD80" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD81" "" "Clock-Weather Minimize"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD81" "FILE1" "\data\db\layout2\gameclock\gameclockview.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD81" "FILE2" "\data\db\layout2\gameclock\gameclockview_weather.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD81" "FILE1" "\data\db\layout2\gameclock\GameClockView.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD81" "FILE2" "\data\db\layout2\gameclock\GameClockView_Weather.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD81" "FILES" "2"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD81" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD81" "DESCRIPTION" "Shows Clock and Weather Minimize Buttons"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD82" "" "Doppel collection removal"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD82" "FILE1" "\data\db\layout2\skill\skillreadyview.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD82" "FILE1" "\data\db\layout2\skill\SkillReadyView.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD82" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD82" "CREATOR" "hiesavel"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD82" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD83" "" "Skill Sidebar Minimize"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD83" "FILE1" "\data\db\layout2\skill\skillsidebar.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD83" "FILE1" "\data\db\layout2\skill\SkillSideBar.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD83" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD83" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD83" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD84" "" "Show Ping in the Menu 1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD84" "FILE1" "\data\db\layout2\systemmenu.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD84" "FILE1" "\data\db\layout2\SystemMenu.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD84" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD84" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD84" "DESCRIPTION" "Shows Ping in Menu Green, Yellow, Red Box"
@@ -8140,7 +8141,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD94" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD94" "CREATOR" "Amaretto"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD94" "DESCRIPTION" "Removes Iria Dungeon/Underground Tunnel fog from minimap"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD95" "" "Iria Underground Tunnel Field of View"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD95" "FILE1" "\data\db\undergroundmaze.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD95" "FILE1" "\data\db\UndergroundMaze.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD95" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD95" "CREATOR" "Amaretto"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD95" "DESCRIPTION" "Increases Iria Underground Tunnel Field of View"
@@ -9314,7 +9315,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD286" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD286" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD286" "DESCRIPTION" "Shows Ping in Menu Green, Yellow, Red Box"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD287" "" "Unfiltered Chat"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD287" "FILE1" "\data\locale\usa\filter\blockchat.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD287" "FILE1" "\data\locale\usa\filter\BlockChat.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD287" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD287" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD287" "DESCRIPTION" ""
@@ -10071,7 +10072,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD403" "FILES" "6"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD403" "CREATOR" "Step29 (concept)/Draconis"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD403" "DESCRIPTION" "Allows You To See Book Pages At A Glance"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD404" "" "Partner Skillbar Icon"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD404" "FILE1" "\data\db\layout2\petinfo\partnertab.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD404" "FILE1" "\data\db\layout2\petinfo\PartnerTab.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD404" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD404" "CREATOR" "Rydian"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD404" "DESCRIPTION" "Enables Hotkeying Partner to Skillbar by dragging Partner Icon to skillbar"
@@ -11040,12 +11041,12 @@ FileClose $4
 Push $1
 ;Call Trim
 Pop $1
-StrCpy $NEWUOVERSION $1 "" 0
+StrCpy $NEWMABIVERSION $1 "" 0
 StrCpy $R7 ".onInit Downloaded Mabinogi Version"
 Call DumpLog1
-Push $NEWUOVERSION
+Push $NEWMABIVERSION
 Push ${UOSHORTVERSION}
-StrCpy $R7 ".onInit  ${UOSHORTVERSION} / $NEWUOVERSION"
+StrCpy $R7 ".onInit  ${UOSHORTVERSION} / $NEWMABIVERSION"
 Call DumpLog1
 xtInfoPlugin::CompareVersion
 Pop $1
@@ -11057,8 +11058,8 @@ StrLen $1 $0
 ${If} $1 = 0
 StrCpy $0 "0.0.0.0"
 ${EndIf}
-IntOp $1 $NEWUOVERSION - 382
-MessageBox MB_YESNOCANCEL|MB_ICONQUESTION "A newer Mabinogi version is detected V$NEWUOVERSION($1)$\r$\nPlease wait until UO Tiara has been updated$\r$\nV$0 currently installed$\r$\nYou are running V${UOVERSION}$\r$\n$\r$\nWould you like to close the installer?$\r$\n$\r$\nClick Yes to close$\r$\nNo to continue installing$\r$\nCancel to go to site." IDNO EndNewVersion2 IDCANCEL SetupSite2
+IntOp $1 $NEWMABIVERSION - 382
+MessageBox MB_YESNOCANCEL|MB_ICONEXCLAMATION "A newer Mabinogi version is detected V$NEWMABIVERSION($1)$\r$\nPlease wait until UO Tiara has been updated$\r$\nV$0 currently installed$\r$\nYou are running V${UOVERSION}$\r$\n$\r$\nWould you like to close the installer?$\r$\n$\r$\nClick Yes to close$\r$\nNo to continue installing$\r$\nCancel to go to site." IDNO EndNewVersion2 IDCANCEL SetupSite2
 Quit
 SetupSite2:
 ExecShell "open" "https://github.com/shaggyze/uotiara/releases"
@@ -11646,9 +11647,9 @@ StrCpy $R7 'xcopy "C:\Nexon\Library\mabinogi\appdata\data\xml\" "C:\Nexon\Librar
 Call UOTiaraPack
 StrCpy $R7 'xcopy "$INSTDIR\data\db\" "$INSTDIR\UOTiara\part5\data\db\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 "mkdir $INSTDIR\UOTiara\part5\data\gfx\gui\map_jpg"
+StrCpy $R7 "mkdir $INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg"
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg" "$INSTDIR\UOTiara\part5\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg" /y'
+StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg" /y'
 Call UOTiaraPack
 StrCpy $R7 "mkdir $INSTDIR\UOTiara\part3\data\gfx\gui\map_jpg"
 Call UOTiaraPack
