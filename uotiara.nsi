@@ -1,12 +1,12 @@
 RequestExecutionLevel admin
-!define UOSHORTVERSION        "384"
-!define UOLONGVERSION         "0.17.42"
+!define UOSHORTVERSION        "385"
+!define UOLONGVERSION         "0.18.43"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
 !define REG_UNINSTALL "Software\Microsoft\Windows\CurrentVersion\Uninstall\${UOSHORTNAME}"
 !define InstFile "${UOLONGNAME}.exe"
-!define AbyssEnable "True"
+!define AbyssEnable "False"
 !define KananEnable "True"
 !define KananUpdateEnable "True"
 !define HyddwnEnable "True"
@@ -269,7 +269,7 @@ page components "" FontBMPChange
   !define MUI_FINISHPAGE_SHOWREADME "$TEMP\README.md"
   !define MUI_FINISHPAGE_RUN
   !define MUI_FINISHPAGE_RUN_FUNCTION Show_Config
-  !define MUI_FINISHPAGE_RUN_TEXT "Show Config"
+  !define MUI_FINISHPAGE_RUN_TEXT "Show Config/s"
   !insertmacro MUI_PAGE_FINISH
 
   !insertmacro MUI_UNPAGE_WELCOME
@@ -335,7 +335,7 @@ FunctionEnd
 Function fin_pre
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Settings" "NumFields" "6"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Type" "CheckBox"
-WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Text" "&Run UOTiaraPack.bat (Make .it files)"
+WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Text" "&Run UOTiaraPack.bat (Make uotiara_00001.it)"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Left" "120"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Right" "315"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Top" "130"
@@ -2628,16 +2628,21 @@ SectionGroup "gfx"
 Section "Phantasmal Sight Color" MOD402
 SetOutPath "$INSTDIR\data\gfx\fx\effect"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\g23_specialization.xml"
-  Delete "$INSTDIR\data\material\_define\material\effect\Blue.xml"
-  Delete "$INSTDIR\data\material\_define\material\effect\Metallurgy.xml"
-  Delete "$INSTDIR\data\material\_define\material\effect\Yellow.xml"
-SectionIn 1 2
+SetOutPath "$INSTDIR\data\material\fx\effect"
+File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\Blue.dds"
+File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\Yellow.dds"
+SetOutPath "$INSTDIR\data\material\_define\material\effect"
+File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\Blue.xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\Yellow.xml"
+SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD402}
   DetailPrint "*** Removing MOD402..."
-
   Delete "$INSTDIR\data\gfx\fx\effect\g23_specialization.xml"
-
+  Delete "$INSTDIR\data\material\fx\effect\Blue.dds"
+  Delete "$INSTDIR\data\material\fx\effect\Yellow.dds"
+  Delete "$INSTDIR\data\material\_define\material\effect\Blue.xml"
+  Delete "$INSTDIR\data\material\_define\material\effect\Yellow.xml"
 !macroend
 SectionGroup "Tech Duinn Fog Removal" MOD396
 Section "Tech Duinn Fog Removal ?1" MOD396?1
@@ -10058,7 +10063,11 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD401?8" "CREATOR" "Dcohmyjess (c
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD401?8" "DESCRIPTION" "Allows You To See Dye Colors At A Glance"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "" "Phantasmal Sight Color"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE1" "\data\gfx\fx\effect\g23_specialization.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILES" "1"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE2" "\data\material\fx\effect\Blue.dds"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE3" "\data\material\fx\effect\Yellow.dds"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE3" "\data\material\_define\material\effect\Blue.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE5" "\data\material\_define\material\effect\Yellow.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILES" "5"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "CREATOR" "PoiDoe"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "DESCRIPTION" "Phantasmal Sight color change."
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD403" "" "Easy View Book Pages"
@@ -11631,6 +11640,8 @@ StrCpy $R7 "attrib -r $INSTDIR\package\data_99997.it"
 Call UOTiaraPack
 StrCpy $R7 "attrib -r $INSTDIR\package\data_99999.it"
 Call UOTiaraPack
+StrCpy $R7 "attrib -r $INSTDIR\package\uotiara_00001.it"
+Call UOTiaraPack
 StrCpy $R7 "del $INSTDIR\package\data_99991.it"
 Call UOTiaraPack
 StrCpy $R7 "del $INSTDIR\package\data_99993.it"
@@ -11641,97 +11652,25 @@ StrCpy $R7 "del $INSTDIR\package\data_99997.it"
 Call UOTiaraPack
 StrCpy $R7 "del $INSTDIR\package\data_99999.it"
 Call UOTiaraPack
-StrCpy $R7 'xcopy "C:\Nexon\Library\mabinogi\appdata\data\code\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part1\data\local\code\" /q /s /y /c /e'
+StrCpy $R7 "del $INSTDIR\package\uotiara_00001.it"
 Call UOTiaraPack
-StrCpy $R7 'xcopy "C:\Nexon\Library\mabinogi\appdata\data\xml\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\part1\data\local\xml\" /q /s /y /c /e'
+StrCpy $R7 'xcopy "C:\Nexon\Library\mabinogi\appdata\data\code\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\local\code\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\db\" "$INSTDIR\UOTiara\part5\data\db\" /q /s /y /c /e'
+StrCpy $R7 'xcopy "C:\Nexon\Library\mabinogi\appdata\data\xml\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\local\xml\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 "mkdir $INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg"
+StrCpy $R7 'xcopy "$INSTDIR\data\db\" "$INSTDIR\UOTiara\data\db\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg" "$INSTDIR\UOTiara\part2\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg" /y'
+StrCpy $R7 'xcopy "$INSTDIR\data\gfx\" "$INSTDIR\UOTiara\data\gfx\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 "mkdir $INSTDIR\UOTiara\part3\data\gfx\gui\map_jpg"
+StrCpy $R7 'xcopy "$INSTDIR\data\locale\" "$INSTDIR\UOTiara\data\locale\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg" "$INSTDIR\UOTiara\part3\data\gfx\gui\map_jpg\minimap_iria_courcle_mgfree_eng.jpg" /y'
+StrCpy $R7 'xcopy "$INSTDIR\data\material\" "$INSTDIR\UOTiara\data\material\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 "mkdir $INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg"
+StrCpy $R7 'xcopy "$INSTDIR\data\sound\" "$INSTDIR\UOTiara\data\sound\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_rano_new_mgfree_eng.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_iria_rano_new_mgfree_eng.jpg" /y'
+StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\ -o $INSTDIR\package\uotiara_00001.it"
 Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_physis_mgfree_eng.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_iria_physis_mgfree_eng.jpg" /y'
-Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_taillteann_eng_rep.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_taillteann_eng_rep.jpg" /y'
-Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_tara_eng_rep.jpg" "$INSTDIR\UOTiara\part3\data\gfx\gui\map_jpg\minimap_tara_eng_rep.jpg" /y'
-Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_rano_qilla_mgfree_eng.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_iria_rano_qilla_mgfree_eng.jpg" /y'
-Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_connous_underworld.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_iria_connous_underworld.jpg" /y'
-Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_taillteann_abb_neagh_mgfree_eng.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_taillteann_abb_neagh_mgfree_eng.jpg" /y'
-Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_n_eng.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_n_eng.jpg" /y'
-Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_s_eng.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_s_eng.jpg" /y'
-Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_taillteann_sliab_cuilin_eng_rep.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_taillteann_sliab_cuilin_eng_rep.jpg" /y'
-Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_senmag_mgfree_eng.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_senmag_mgfree_eng.jpg" /y'
-Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_senmag_eng.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_senmag_eng.jpg" /y'
-Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_tara_n_field_eng_rep.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_tara_n_field_eng_rep.jpg" /y'
-Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\map_jpg\minimap_tara_castle_1f_eng_rep.jpg" "$INSTDIR\UOTiara\part4\data\gfx\gui\map_jpg\minimap_tara_castle_1f_eng_rep.jpg" /y'
-Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\gfx\gui\login_screen\" "$INSTDIR\UOTiara\part4\data\gfx\gui\login-Screen\" /q /s /y /c /e'
-Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\gfx\gui\trading_ui\" "$INSTDIR\UOTiara\part4\data\gfx\gui\trading_ui\" /q /s /y /c /e'
-Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\blacksmith.dds" "$INSTDIR\UOTiara\part4\data\gfx\gui\blacksmith.dds" /y'
-Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\font_eng.dds" "$INSTDIR\UOTiara\part4\data\gfx\gui\font_eng.dds" /y'
-Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\font_outline_eng.dds" "$INSTDIR\UOTiara\part4\data\gfx\gui\font_outline_eng.dds" /y'
-Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\tailoring.dds" "$INSTDIR\UOTiara\part4\data\gfx\gui\tailoring.dds" /y'
-Call UOTiaraPack
-StrCpy $R7 'copy "$INSTDIR\data\gfx\gui\tailoring_2.dds" "$INSTDIR\UOTiara\part4\data\gfx\gui\tailoring_2.dds" /y'
-Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\gfx\chapter3\" "$INSTDIR\UOTiara\part5\data\gfx\chapter3\" /q /s /y /c /e'
-Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\gfx\char\" "$INSTDIR\UOTiara\part3\data\gfx\char\" /q /s /y /c /e'
-Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\gfx\font\" "$INSTDIR\UOTiara\part5\data\gfx\font\" /q /s /y /c /e'
-Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\gfx\fx\" "$INSTDIR\UOTiara\part5\data\gfx\fx\" /q /s /y /c /e'
-Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\gfx\image\" "$INSTDIR\UOTiara\part3\data\gfx\image\" /q /s /y /c /e'
-Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\gfx\image2\" "$INSTDIR\UOTiara\part3\data\gfx\image2\" /q /s /y /c /e'
-Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\gfx\scene\" "$INSTDIR\UOTiara\part5\data\gfx\scene\" /q /s /y /c /e'
-Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\gfx\style\" "$INSTDIR\UOTiara\part3\data\gfx\style\" /q /s /y /c /e'
-Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\locale\" "$INSTDIR\UOTiara\part3\data\locale\" /q /s /y /c /e'
-Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\material\" "$INSTDIR\UOTiara\part3\data\material\" /q /s /y /c /e'
-Call UOTiaraPack
-StrCpy $R7 'xcopy "$INSTDIR\data\sound\" "$INSTDIR\UOTiara\part3\data\sound\" /q /s /y /c /e'
-Call UOTiaraPack
-StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part1\ -o $INSTDIR\package\data_99991.it"
-Call UOTiaraPack
-StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part2\ -o $INSTDIR\package\data_99993.it"
-Call UOTiaraPack
-StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part3\ -o $INSTDIR\package\data_99995.it"
-Call UOTiaraPack
-StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part4\ -o $INSTDIR\package\data_99997.it"
-Call UOTiaraPack
-StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\part5\ -o $INSTDIR\package\data_99999.it"
-Call UOTiaraPack
-StrCpy $R7 "rmdir /q /s  $INSTDIR\UOTiara"
+StrCpy $R7 "rmdir /q /s  $INSTDIR\UOTiara\data\material\_define\"
 Call UOTiaraPack
 StrCpy $R7 "attrib +r $INSTDIR\package\data_99991.it"
 Call UOTiaraPack
@@ -11742,6 +11681,8 @@ Call UOTiaraPack
 StrCpy $R7 "attrib +r $INSTDIR\package\data_99997.it"
 Call UOTiaraPack
 StrCpy $R7 "attrib +r $INSTDIR\package\data_99999.it"
+Call UOTiaraPack
+StrCpy $R7 "attrib +r $INSTDIR\package\uotiara_00001.it"
 Call UOTiaraPack
 FunctionEnd
 
