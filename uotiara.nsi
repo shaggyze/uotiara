@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
 !define UOSHORTVERSION        "385"
-!define UOLONGVERSION         "0.18.44"
+!define UOLONGVERSION         "0.18.45"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -763,7 +763,7 @@ no4:
 
 Section "mabi-pack2" MOD434
 SetOutPath "$INSTDIR\mabi-pack2"
-WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "State" "1"
+;WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "State" "1"
 File "${srcdir}\Tiara's Moonshine Mod\Tools\mabi-pack2\mabi-pack2.exe"
 SetOutPath "$INSTDIR\"
 Call UOTiaraPackBuild
@@ -11654,9 +11654,9 @@ StrCpy $R7 "del $INSTDIR\package\data_99999.it"
 Call UOTiaraPack
 StrCpy $R7 "del $INSTDIR\package\uotiara_00001.it"
 Call UOTiaraPack
-StrCpy $R7 'xcopy "C:\Nexon\Library\mabinogi\appdata\data\code\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\local\code\" /q /s /y /c /e'
+StrCpy $R7 'xcopy "$INSTDIR\data\code\" "$INSTDIR\UOTiara\data\local\code\" /q /s /y /c /e'
 Call UOTiaraPack
-StrCpy $R7 'xcopy "C:\Nexon\Library\mabinogi\appdata\data\xml\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\local\xml\" /q /s /y /c /e'
+StrCpy $R7 'xcopy "$INSTDIR\data\xml\" "$INSTDIR\UOTiara\data\local\xml\" /q /s /y /c /e'
 Call UOTiaraPack
 StrCpy $R7 'xcopy "$INSTDIR\data\db\" "$INSTDIR\UOTiara\data\db\" /q /s /y /c /e'
 Call UOTiaraPack
@@ -11668,9 +11668,11 @@ StrCpy $R7 'xcopy "$INSTDIR\data\material\" "$INSTDIR\UOTiara\data\material\" /q
 Call UOTiaraPack
 StrCpy $R7 'xcopy "$INSTDIR\data\sound\" "$INSTDIR\UOTiara\data\sound\" /q /s /y /c /e'
 Call UOTiaraPack
+StrCpy $R7 'copy /y "$INSTDIR\data\features.xml.compiled" "$INSTDIR\UOTiara\data\features.xml.compiled"'
+Call UOTiaraPack
 StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\ -o $INSTDIR\package\uotiara_00001.it"
 Call UOTiaraPack
-StrCpy $R7 "rmdir /q /s  $INSTDIR\UOTiara\data\material\_define\"
+StrCpy $R7 "rmdir /q /s  $INSTDIR\data\material\_define\"
 Call UOTiaraPack
 StrCpy $R7 "attrib +r $INSTDIR\package\data_99991.it"
 Call UOTiaraPack
