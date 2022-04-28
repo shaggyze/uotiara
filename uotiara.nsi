@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
-!define UOSHORTVERSION        "385"
-!define UOLONGVERSION         "0.18.45"
+!define UOSHORTVERSION        "386"
+!define UOLONGVERSION         "0.19.46"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -5496,7 +5496,7 @@ SectionEnd
 SectionGroup "commerce"
 Section "Trade Imp Removal 1" MOD80
 SetOutPath "$INSTDIR\data\db\layout2\commerce"
-File "${srcdir}\Tiara's Moonshine Mod\data\db\layout2\commerce\ImpView.xml"
+  Delete "$INSTDIR\data\db\layout2\commerce\ImpView.xml"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD80}

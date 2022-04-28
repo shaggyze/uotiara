@@ -8728,10 +8728,10 @@
 10931	Shadow Golem
 10932	Shadow Golem
 10933	Shadow Golem
-10934	수국 대형 바구니
-10935	수국 중형 바구니
-10936	수국 꽃다발
-10937	수국 자전거
+10934	Large Hydrangea Basket
+10935	Medium Hydrangea Basket
+10936	Hydrangea Bouquet
+10937	Hydrangea Bicycle
 10938	Irusan
 10939	별무리고래
 10940	크리스탈고래
@@ -8886,9 +8886,10 @@
 11393	보송 알파카
 11410	Giga Glas Ghaibhleann
 11411	Giga Glas Ghaibhleann
-4431	바드 고블린 헌터
-4442	엘프
-4916	거대 악어
-4917	사막 드래곤
-4918	평원 드래곤
-4919	레드 드래곤
+11455	Barista Fallen Fairy
+11456	Barista Flora
+11476	Mokkurkalfi
+11477	Giant Worm
+11478	기사 아일린
+11479	요리사 아일린
+11480	연회장 직원 아일린

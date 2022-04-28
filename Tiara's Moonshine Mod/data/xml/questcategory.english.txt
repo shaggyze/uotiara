@@ -65,6 +65,7 @@
 64	[Spirit]
 65	[Challenge]
 66	[Pet Training]
+68	Season Pass
 71	[Glyphwrighting]
 72	Society Sponsorship
 73	[Brave Boost]

@@ -4,12 +4,14 @@ attrib -r C:\Nexon\Library\mabinogi\appdata\package\data_99995.it
 attrib -r C:\Nexon\Library\mabinogi\appdata\package\data_99997.it
 attrib -r C:\Nexon\Library\mabinogi\appdata\package\data_99999.it
 attrib -r C:\Nexon\Library\mabinogi\appdata\package\uotiara_00001.it
+attrib -r .\uotiara_00001.it
 del C:\Nexon\Library\mabinogi\appdata\package\data_99991.it
 del C:\Nexon\Library\mabinogi\appdata\package\data_99993.it
 del C:\Nexon\Library\mabinogi\appdata\package\data_99995.it
 del C:\Nexon\Library\mabinogi\appdata\package\data_99997.it
 del C:\Nexon\Library\mabinogi\appdata\package\data_99999.it
 del C:\Nexon\Library\mabinogi\appdata\package\uotiara_00001.it
+del .\uotiara_00001.it
 @ECHO OFF
 set /p "yesno=Compile features.xml.compiled y/n?:"
 IF "%yesno%"=="y" (
@@ -46,10 +48,11 @@ xcopy "C:\Nexon\Library\mabinogi\appdata\data\gfx\" "C:\Nexon\Library\mabinogi\a
 xcopy "C:\Nexon\Library\mabinogi\appdata\data\locale\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\locale\" /q /s /y /c /e
 xcopy "C:\Nexon\Library\mabinogi\appdata\data\material\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\material\" /q /s /y /c /e
 xcopy "C:\Nexon\Library\mabinogi\appdata\data\sound\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\sound\" /q /s /y /c /e
-xcopy "C:\Nexon\Library\mabinogi\appdata\data\features.xml.compiled" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\features.xml.compiled"
+xcopy "C:\Nexon\Library\mabinogi\appdata\data\features.xml.compiled" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\features.xml.compiled" /q /s /y /c /e
 C:\Nexon\Library\mabinogi\appdata\mabi-pack2\mabi-pack2.exe pack -i C:\Nexon\Library\mabinogi\appdata\UOTiara\ -o C:\Nexon\Library\mabinogi\appdata\package\uotiara_00001.it -f .jpg
+
 rmdir /q /s  C:\Nexon\Library\mabinogi\appdata\data\material\_define\
-copy /y "C:\Nexon\Library\mabinogi\appdata\package\uotiara_00001.it" ".\uotiara_00001.it"
+copy /y "C:\Nexon\Library\mabinogi\appdata\package\uotiara_00001.it" "C:\Users\%username%\Documents\GitHub\uotiara\uotiara_00001.it"
 set /p "yesno2=Compile Installer y/n?:"
 IF "%yesno2%"=="y" (
 "%PROGRAMFILES(x86)%\NSIS\makensis.exe" "C:\Users\%username%\Documents\GitHub\uotiara\uotiara.nsi"

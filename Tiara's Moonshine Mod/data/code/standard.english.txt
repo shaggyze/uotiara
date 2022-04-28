@@ -351,6 +351,8 @@ interface_skillhandler.9	지금은 스킬을 사용할 수 없습니다.\n게임
 interface_skillhandler.10	You can't use that Technique now. Please try again in {0} sec.
 interface_skillhandlerparam.1	You don't have enough Dorcha!
 interface_skillmgr.1	All the attributes are charged.
+interface_skillmgretc.1	Empty both of your hands in order to craft.
+interface_skillmgretc.2	The following item must be equipped in your hands in order to craft.\n- {0}
 interface_skillmgruse.1	You are too far away to control the puppet.\nControl Marionette disabled.
 interface_skillmgruse.2	You can't use {0} with a 0 durability weapon.
 interface_soulmate.1	You can only send the request on Doki Doki Island.
@@ -841,6 +843,7 @@ questresult.3	Crusader EXP {0}
 questresult.4	Command EXP {0}
 questresult.5	Training Points {0}
 questresult.6	Mission Points {0}
+questresult.8	(Growth Support Potion Bonus)
 recommendflagtable.1	EXP +{0}
 recommendflagtable.2	{0} - A recommender will receive {1} Recommendation EXP.
 setitemmgr.1	Increase

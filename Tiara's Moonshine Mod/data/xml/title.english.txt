@@ -10360,13 +10360,13 @@
 11788	Max Damage +15\nStrength +20\nCritical +8%\nMovement Speed +1%
 11789	Magic Attack +30\nIntelligence +20\nCritical +8%\nMovement Speed +1%
 11790	Aura of Vitality
-11791	Clock of Memories
+11791	Erinn Walker
 11792	Aura of Vitality
-11793	Clock of Memories
+11793	Erinn Walker
 11794	Aura of Vitality
-11795	Clock of Memories
+11795	Erinn Walker
 11796	Aura of Vitality
-11797	Clock of Memories
+11797	Erinn Walker
 11798	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 11799	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 11800	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
@@ -10835,18 +10835,18 @@
 12298	Max Damage + 8\nCritical + 3%\nMax HP + 30\nSTR + 15
 12299	Max Damage + 10\nCritical + 4%\nMax HP + 30\nSTR + 15
 12300	Max Damage + 13\nCritical + 5%\nMax HP + 30\nSTR + 15
-12301	Snowy Winter Rose
-12302	Somber Winter Rose
-12303	Romantic Winter Rose
-12304	Snowy Winter Rose
-12305	Somber Winter Rose
-12306	Romantic Winter Rose
-12307	Snowy Winter Rose
-12308	Somber Winter Rose
-12309	Romantic Winter Rose
-12310	Snowy Winter Rose
-12311	Somber Winter Rose
-12312	Romantic Winter Rose
+12301	Mild Blue Hydrangea
+12302	Gloomy Blue Hydrangea
+12303	Romantic Blue Hydrangea
+12304	Mild Blue Hydrangea
+12305	Gloomy Blue Hydrangea
+12306	Romantic Blue Hydrangea
+12307	Mild Blue Hydrangea
+12308	Gloomy Blue Hydrangea
+12309	Romantic Blue Hydrangea
+12310	Mild Blue Hydrangea
+12311	Gloomy Blue Hydrangea
+12312	Romantic Blue Hydrangea
 12313	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 12314	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 12315	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
@@ -11164,6 +11164,20 @@
 12655	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 12656	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 12657	Luck +30
+12658	Adventure Journal Season 1 Runner
+12659	Adventure Journal Season 1 Conqueror
+12660	Adventure Journal Season 1 Runner
+12661	Adventure Journal Season 1 Conqueror
+12662	Adventure Journal Season 1 Runner
+12663	Adventure Journal Season 1 Conqueror
+12664	Adventure Journal Season 1 Runner
+12665	Adventure Journal Season 1 Conqueror
+12666	A title given to Milletians who participated in Season 1 of the Erinn Adventure Journal.
+12667	A title given to Milletians who completed all parts of Season 1 of the Erinn Adventure Journal.
+12668	A title given to Milletians who participated in Season 1 of the Erinn Adventure Journal.
+12669	A title given to Milletians who completed all parts of Season 1 of the Erinn Adventure Journal.
+12670	All Skill Training 2x EXP\nCombat 2x EXP\nGathering Success Rate +5%\nGathering Speed +5\nMovement Speed +1%\nIncreased Automatic Fishing Success Rate\nBonus Ducats +5%\n Production Success Rate +5%
+12671	Max Damage +21\nMagic Attack +35\nCritical +8%\nMusic Buff Skill Effect +5\nDefense +10\nProtection +8\nMagic Defense +10\nMagic Protection +8
 12672	Regular VIP
 12673	Bronze VIP
 12674	Silver VIP
@@ -11346,27 +11360,27 @@
 12851	Gathering Success Rate +5%\nGathering Speed +5%\nAutomatic Fishing Success Rate increased\nLikelihood of catching bigger fish increased\nTaming Success Rate +25%\nMonster Transformation Collection Rate +10%
 12852	Max Damage +15\nDual Gun Max Damage +20\nMovement Speed +1%
 12853	Defense +12\nProtection +10\nMagic Defense +14\nMagic Protection +8\nMovement Speed +3%
-12854	스페셜 마일드 하이드레인저 블루
-12855	스페셜 글루미 하이드레인저 블루
-12856	스페셜 로맨틱 하이드레인저 블루
-12857	스페셜 마일드 하이드레인저 블루
-12858	스페셜 글루미 하이드레인저 블루
-12859	스페셜 로맨틱 하이드레인저 블루
-12860	스페셜 마일드 하이드레인저 블루
-12861	스페셜 글루미 하이드레인저 블루
-12862	스페셜 로맨틱 하이드레인저 블루
-12863	스페셜 마일드 하이드레인저 블루
-12864	스페셜 글루미 하이드레인저 블루
-12865	스페셜 로맨틱 하이드레인저 블루
-12866	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-12867	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-12868	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-12869	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-12870	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-12871	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-12872	최대 대미지 23 증가\n보너스 대미지 1% 증가\n행운 20 증가\n이동 속도 3% 증가
-12873	마법 공격력 43 증가\n볼트 마법 대미지 5% 증가\n크리티컬 대미지 3% 증가
-12874	최대 대미지 14 증가\n음악 버프 스킬 효과 9 증가\n이동 속도 2% 증가
+12854	Special Mild Blue Hydrangea
+12855	Special Gloomy Blue Hydrangea
+12856	Special Romantic Blue Hydrangea
+12857	Special Mild Blue Hydrangea
+12858	Special Gloomy Blue Hydrangea
+12859	Special Romantic Blue Hydrangea
+12860	Special Mild Blue Hydrangea
+12861	Special Gloomy Blue Hydrangea
+12862	Special Romantic Blue Hydrangea
+12863	Special Mild Blue Hydrangea
+12864	Special Gloomy Blue Hydrangea
+12865	Special Romantic Blue Hydrangea
+12866	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+12867	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+12868	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+12869	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+12870	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+12871	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+12872	Max Damage +23\nBonus Damage +1%\nLuck +20\nMovement Speed +3%
+12873	Magic Attack +43\nBolt Magic Damage +5%\nCritical Damage +3%
+12874	Max Damage +14\nMusic Buff Effect +9\nMovement Speed +2%
 12875	따뜻한 대가족
 12876	따뜻한 대가족
 12877	따뜻한 대가족
@@ -11717,6 +11731,20 @@
 13222	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 13223	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 13224	Luck +30
+13225	Adventure Journal Season 3 Runner
+13226	Adventure Journal Season 3 Conqueror
+13227	Adventure Journal Season 3 Runner
+13228	Adventure Journal Season 3 Conqueror
+13229	Adventure Journal Season 3 Runner
+13230	Adventure Journal Season 3 Conqueror
+13231	Adventure Journal Season 3 Runner
+13232	Adventure Journal Season 3 Conqueror
+13233	A title given to Milletians who participated in Season 3 of the Erinn Adventure Journal.
+13234	A title given to Milletians who completed all parts of Season 3 of the Erinn Adventure Journal.
+13235	A title given to Milletians who participated in Season 3 of the Erinn Adventure Journal.
+13236	A title given to Milletians who completed all parts of Season 3 of the Erinn Adventure Journal.
+13237	All Skill Training 2x EXP\nCombat 2x EXP\nGathering Success Rate +5%\nGathering Speed +5\nMovement Speed +1%\nIncreased Automatic Fishing Success Rate\nBonus Ducats +5%\n Production Success Rate +5%
+13238	Max Damage +21\nMagic Attack +35\nCritical +8%\nMusic Buff Skill Effect +5\nDefense +10\nProtection +8\nMagic Defense +10\nMagic Protection +8
 13239	Bebhinn
 13240	Bebhinn
 13241	Bebhinn
@@ -11822,6 +11850,13 @@
 13446	이동 속도 3% 증가
 13447	이동 속도 3% 증가
 13448	크리티컬 대미지 5% 증가\n벨테인 미션 전투 경험치 150% 증가\n전투 경험치 10% 증가
+13449	Special Support
+13450	Special Support
+13451	Special Support
+13452	Special Support
+13453	A title that grants Special Support.
+13454	A title that grants Special Support.
+13455	Max Damage +20\nStrength +10\nIntelligence +10\nDexterity +10\nWill +10\nLuck +10\nMovement Speed +2%\nSkill 2x EXP\nWhen defeating monsters as a party in a Shadow Mission, Drama Mission, or Dungeon, the title bearer will receive 2x EXP, while other party members will receive 1.5x EXP.
 13456	Unveiled Abyss
 13457	Crom Bas
 13458	Unveiled Abyss
@@ -11864,13 +11899,13 @@
 13495	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 13496	Luck +30
 13497	Luck +30
-13526	가장 밝게 빛나는 그대
-13527	가장 밝게 빛나는 그대
-13528	가장 밝게 빛나는 그대
-13529	가장 밝게 빛나는 그대
-13530	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13531	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13532	행운 30 증가
+13526	You Shine Bright
+13527	You Shine Bright
+13528	You Shine Bright
+13529	You Shine Bright
+13530	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13531	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13532	Luck +30
 13533	달콤한 밀레시안
 13534	달콤한 밀레시안
 13535	달콤한 밀레시안
@@ -11892,12 +11927,26 @@
 13551	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 13552	행운 30 증가
 13553	행운 30 증가
+13554	the Sincere Barista
+13555	the Sincere Barista
+13556	the Sincere Barista
+13557	the Sincere Barista
+13558	A title given to Milletians who checked in for 14 days or more during the Sweet Coffee Event.
+13559	A title given to Milletians who checked in for 14 days or more during the Sweet Coffee Event.
+13560	Luck +25
+13624	Blooming Roses
 13625	로즈 블루밍
+13626	Blooming Roses
 13627	로즈 블루밍
+13628	Blooming Roses
 13629	로즈 블루밍
+13630	Blooming Roses
 13631	로즈 블루밍
+13632	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 13633	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+13634	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 13635	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+13636	Magic Attack +8\nIntelligence +15\nMax MP +30\nMax Stamina +10
 13637	행운 30 증가
 13638	who Read the Erinn Gazette
 13639	who Read the Erinn Gazette
@@ -11906,6 +11955,80 @@
 13642	The most discerning and erudite of Milletians subscribe to this official publication.
 13643	The most discerning and erudite of Milletians subscribe to this official publication.
 13644	
-3890	
-3891	
-3892	
+13652	Adventure Journal Season 1 Runner
+13653	Adventure Journal Season 1 Runner
+13654	Adventure Journal Season 1 Runner
+13655	Adventure Journal Season 1 Runner
+13656	A title given to Milletians who participated in Season 1 of the Erinn Adventure Journal.
+13657	A title given to Milletians who participated in Season 1 of the Erinn Adventure Journal.
+13658	All Skill Training 2x EXP\nCombat 2x EXP\nGathering Success Rate +5%\nGathering Speed +5\nMovement Speed +1%\nIncreased Automatic Fishing Success Rate\nBonus Ducats +5%\n Production Success Rate +5%
+13659	안식의 아이콘
+13660	광란의 아이콘
+13661	깨달음의 아이콘
+13662	안식의 아이콘
+13663	광란의 아이콘
+13664	깨달음의 아이콘
+13665	안식의 아이콘
+13666	광란의 아이콘
+13667	깨달음의 아이콘
+13668	안식의 아이콘
+13669	광란의 아이콘
+13670	깨달음의 아이콘
+13671	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+13672	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+13673	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+13674	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+13675	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+13676	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+13677	음악 버프 스킬 효과 10 증가\n음악버프 지속시간 13 증가\n이동 속도 3% 증가
+13678	최대 대미지 26 증가\n크리티컬 대미지 3% 증가\n이동 속도 1% 증가
+13679	마법 공격력 45 증가\n마법 시전속도 5% 증가\n이동 속도 3% 증가
+13680	두카트를 버는 가장 쉬운 방법
+13681	상상도 못한 정체
+13682	두카트를 버는 가장 쉬운 방법
+13683	상상도 못한 정체
+13684	두카트를 버는 가장 쉬운 방법
+13685	상상도 못한 정체
+13686	두카트를 버는 가장 쉬운 방법
+13687	상상도 못한 정체
+13688	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+13689	그것이 궁금하다, 코끼리 착취 실태 조사에서 진상을 알게 된 자에게 주어지는 타이틀.
+13690	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+13691	그것이 궁금하다, 코끼리 착취 실태 조사에서 진상을 알게 된 자에게 주어지는 타이틀.
+13692	행운 30 증가
+13693	행운 30 증가
+13694	에린의 긍지
+13695	에린의 영원한 긍지
+13696	에린의 긍지
+13697	에린의 영원한 긍지
+13698	에린의 긍지
+13699	에린의 영원한 긍지
+13700	에린의 긍지
+13701	에린의 영원한 긍지
+13702	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+13703	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+13704	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+13705	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+13706	최대 대미지 16 증가\n마법 공격력 15 증가\n크리티컬 5% 증가\n이동 속도 2% 증가
+13707	최대 대미지 16 증가\n마법 공격력 15 증가\n크리티컬 5% 증가\n이동 속도 2% 증가
+13708	a Pioneer of Alexina
+13709	a Pioneer of Nao
+13710	a Pioneer of Alexina
+13711	a Pioneer of Nao
+13712	a Pioneer of Alexina
+13713	a Pioneer of Nao
+13714	a Pioneer of Alexina
+13715	a Pioneer of Nao
+13716	A title granted in celebration of the 2022 North American Server Merge event.
+13717	A title granted in celebration of the 2022 North American Server Merge event.
+13718	A title granted in celebration of the 2022 North American Server Merge event.
+13719	A title granted in celebration of the 2022 North American Server Merge event.
+13720	
+13721	
+13736	17년 전에 곰을 잡다
+13737	17년 전에 곰을 잡다
+13738	17년 전에 곰을 잡다
+13739	17년 전에 곰을 잡다
+13740	17주년 기념 타이틀이다.
+13741	17주년 기념 타이틀이다.
+13742	최대생명력 22 증가\n최대마나 22 증가\n체력 22 증가\n솜씨 22 증가\n지력 22 증가\n의지 22 증가\n행운 22 증가

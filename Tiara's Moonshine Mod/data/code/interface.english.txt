@@ -1183,6 +1183,12 @@ pli_cookingview.0	This is not usable at this time.\nPlease inquire with the tena
 pli_cookingview.1	You must pay a usage fee of {0} Gold.\nWould you still like to use this?
 pli_cookingview.2	Recipe
 pli_cookingview.3	Enter {0}
+pli_cookingview2.1	{0} - Required Materials
+pli_cookingview2.2	Tools needed for crafting
+pli_cookingview2.3	Tools needed for crafting (Ready)
+pli_cookingview2.4	Unable to auto-equip or register material. Please equip/register proper equipment or materials
+pli_cookingview2.5	The proper tools will be automatically equipped if your hands are empty.
+pli_cookingview2.6	Insufficient tools or materials needed for crafting.
 pli_coupledanceview.1	{0} Point(s)
 pli_createautobotview.1	Summon
 pli_createautobotview.2	OK
@@ -1572,7 +1578,7 @@ pli_ergenhancemainview.18	Fill
 pli_ergenhancemainview.19	Failed to place item in slot.
 pli_ergenhancemainview.20	Failed to infuse Erg.
 pli_ergenhancemainview.21	Failed to increase Max Erg Level.
-pli_ergenhancemainview.22	성공률 : <color=2>{0}</color>({1}) %
+pli_ergenhancemainview.22	Success Rate: <color=2>{0}</color>({1}) %
 pli_ergenhancetransferview.1	Select weapon for Erg extraction
 pli_ergenhancetransferview.2	Select weapon to receive Erg
 pli_ergenhancetransferview.3	Transfer
@@ -3022,6 +3028,12 @@ pli_magigraphmaterializationview.9	Confirm
 pli_magigraphmaterializationview.10	You confirm that the selected Glyph image is not inappropriate.\nThe creation of inappropriate Glyph Imprints may result in punitive actions against your account.
 pli_magigraphmaterializationview.11	Quality: 
 pli_mailboxlistboxitem.1	(No item)
+pli_makeampulview.1	Normal
+pli_makeampulview.2	Metal
+pli_makeampulview.3	Instrument
+pli_makeampulview.4	Hair
+pli_makeampulview.5	Stardust
+pli_makeampulview.6	Pet
 pli_makepotteryview.1	Only materials for pots can be added.
 pli_makepotteryview.2	Ends after completing the current pot
 pli_makepotteryview.3	Auto-craftable Quantity: {0}
@@ -3034,6 +3046,26 @@ pli_maketwinkleampulview.3	Large
 pli_maketwinkleampulview.4	Frequency
 pli_maketwinkleampulview.5	Color 2
 pli_maketwinkleampulview.6	Color 1
+pli_manualformview.1	Sewing Pattern List
+pli_manualformview.2	Display Only Patterns You Have
+pli_manualformview.3	Shows only the Sewing Patterns in your inventory.
+pli_manualformview.4	Tailoring Kit
+pli_manualformview.5	Pattern
+pli_manualformview.6	Blacksmith Manual List
+pli_manualformview.7	Display Only Manuals You Have
+pli_manualformview.8	Shows only the Blacksmith Manuals in your inventory.
+pli_manualformview.9	Blacksmith Hammer
+pli_manualformview.10	Manual
+pli_manualformview.11	Anvil
+pli_manualformview.12	\nCan be completed up to {0}% upon crafting
+pli_manualformview.13	\nCan be completed up to <color=2>{0}</color><mini>{1}</mini>% upon crafting <color=2>(Party bonus applied)</color>
+pli_manualformview.14	\nCrafting completes up to the final stage
+pli_manualformview.15	Tools needed for crafting
+pli_manualformview.16	Tools needed for crafting (Ready)
+pli_manualformview.17	Unable to auto-equip or register material. Please equip/register proper equipment or materials
+pli_manualformview.18	Either have the appropriate crafting tool in your right hand with a Sewing Pattern/Blacksmith Manual in your left hand, or empty your hands.
+pli_manualformview.19	Requires a talent suited for Sewing Pattern/Blacksmith Manual crafting.
+pli_manualformview.20	Insufficient tools or materials needed for crafting.
 pli_mastersordereventmainview.1	You obtained the reward.
 pli_mastersordereventmainview.2	You obtained the reward.
 pli_memolistboxitem.1	Read
@@ -3110,6 +3142,7 @@ pli_naturaldyecreateview.2	Start
 pli_naturaldyecreateview.3	You successfully crafted a natural dye.\nWill you take the natural dye ampoule?
 pli_naturaldyecreateview.4	염색 앰플 제작
 pli_naturaldyecreateview.5	금일 염색 앰플을 이미 받으셨습니다.
+pli_naturaldyecreateview.6	미니 게임 창 우측 하단에서 받으실 염색 앰플의 종류를 선택해주세요.
 pli_newattendance2017dayframe.1	Day {0}
 pli_newattendance2017dayframe.2	Points: {0}P\nCumulative Reward Bonus: x{1}
 pli_newattendance2017itemframe.1	Not enough points.
@@ -3597,9 +3630,21 @@ pli_privatefarmstatusview.7	Displays the stat bonuses applied to the Homestead.\
 pli_privatefarmstatusview.12	 Decoration Effect
 pli_privatezoneaskexitview.1	{0:itemname} x ({1:itemcount})
 pli_privatezoneaskexitview.2	Please wait.
+pli_productionbookview.1	Enter a search term
+pli_productionbookview.2	Enter a search term
+pli_productionbookview.3	{0}\nInitial Crafting Time - {1}\n
+pli_productionbookview.4	{0}\nNot produced
 pli_productionview4.1	Not enough materials.
 pli_productionview4.2	Materials must be combined to be added.
 pli_productionview4.3	Nothing can be made from this material.
+pli_productionview6.1	Spinning Wheel
+pli_productionview6.2	Loom
+pli_productionview6.3	Tools needed for crafting
+pli_productionview6.4	Tools needed for crafting (Ready)
+pli_productionview6.5	Unable to auto-equip or register material. Please equip/register proper equipment or materials
+pli_productionview6.6	The proper tools will be automatically equipped if your hands are empty.
+pli_productionview6.7	Insufficient tools or materials needed for crafting.
+pli_productionview6.8	MP Cost
 pli_promotionapplyview.1	Combat
 pli_promotionapplyview.2	Magic
 pli_promotionapplyview.3	Life
@@ -3804,6 +3849,7 @@ pli_scrapbooknotifyview.1	{0:fishName} was successfully caught!
 pli_scrapbooknotifyview.2	{0:fishLength}cm
 pli_scrapbooknotifyview.3	Collected {0:foodName}!
 pli_scrapbooknotifyview.4	Collected {0:monsterName}!
+pli_scrapbooknotifyview.5	Collected {0:productName}!
 pli_screenshotreportview.1	Report User Abuse
 pli_screenshotreportview.2	Fake reports or poor behavior may get you banned.
 pli_screenshotreportview.3	Take Screenshot
@@ -3845,6 +3891,25 @@ pli_searchitemview.btn.close	Close
 pli_searchitemview.btn.find	Search
 pli_searchitemview.msg.1	Enter the name of the item you want to find.
 pli_searchitemview.title	Search Personal Shop
+pli_seasonpassgradeuppopupview.1	GRADE UP
+pli_seasonpassgradeuppopupview.2	Check the GRADE UP {0} -> {1} reward.
+pli_seasonpassmainview.1	Daily
+pli_seasonpassmainview.2	Weekly
+pli_seasonpassmainview.3	Challenge
+pli_seasonpassmainview.4	Reward
+pli_seasonpassmainview.5	Mission
+pli_seasonpassmainview.6	Reach Maximum GRADE
+pli_seasonpassmainview.7	Season {0} Maximum Reward
+pli_seasonpassmainview.8	You can claim it once you reach GRADE {0}.
+pli_seasonpassmainview.9	{0} Days left until end of event : {1} days
+pli_seasonpassmainview.10	Activate
+pli_seasonpassmainview.11	Special Reward Activation
+pli_seasonpassmainview.12	This has already been activated.
+pli_seasonpassmainview.13	You need {0} Pon for Special Reward Activation.\nWould you like to activate the Special Reward?
+pli_seasonpassmainview.14	You can receive a Special Reward.
+pli_seasonpassmainview.15	You don't have enough Pon.
+pli_seasonpassrewarddescframe.1	Claim Reward
+pli_seasonpassrewarddescframe.2	Claimed
 pli_selectcolorview.1	Select Color
 pli_selectidview.1	{0}개의 마비노기 ID가 존재합니다.\n로그인할 ID를 선택해주세요.
 pli_selectidview.2	{0}개의 마비노기 ID가 존재합니다.\n로그인할 ID를 선택해주세요.
@@ -4685,6 +4750,9 @@ pli_windowbank.13	Immediate Transfer
 pli_windowbank.14	Deliver
 pli_windowbank.15	This item is in [{0}].\nIt will take {1} second(s) to transfer here.\nThe transfer fee is {2} Gold. You may transfer the item immediately for a fee of {3} Gold. \nWould you like to transfer to this bank?
 pli_windowbank.16	You already claimed today's advanced item
+pli_windowbank.17	Fee
+pli_windowbank.18	Limit
+pli_windowbank.19	Current: {0} / Max: {1}
 pli_windowbattlegroundframe.1	\nGuild Members : {0} Members
 pli_windowbattlegroundframe.2	\nGuild Points : {0} Points
 pli_windowbattlegroundframe.3	\nMy Score : {0} Points
@@ -8738,4 +8806,3 @@ window.web.guild.title	Mabinogi : Guild
 window.world_loading.title	Loading... Please wait.
 window.world_map.choose_location	Choose your teleport location
 window.world_map.confirm_move	Would you like to teleport to {0}?
-pli_petframe.6	구매하기
