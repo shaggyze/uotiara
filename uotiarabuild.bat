@@ -13,6 +13,19 @@ del C:\Nexon\Library\mabinogi\appdata\package\data_99999.it
 del C:\Nexon\Library\mabinogi\appdata\package\uotiara_00001.it
 del .\uotiara_00001.it
 @ECHO OFF
+set /p "yesno=Update Kanan y/n?:"
+IF "%yesno%"=="y" (
+@ECHO ON
+powershell.exe -command "Invoke-WebRequest -OutFile ./kanan.zip https://github.com/cursey/kanan-new/releases/latest/download/kanan.zip"
+powershell.exe -command "Invoke-WebRequest -OutFile ./unzip.exe https://shaggyze.website/files/unzip.exe"
+unzip.exe -o kanan.zip -d .\Tiara'~1\Tools\Kanan
+del unzip.exe
+del kanan.zip
+ECHO Skipping Update
+) ELSE (
+ECHO Invalid Option: y or n
+PAUSE
+)
 set /p "yesno=Compile features.xml.compiled y/n?:"
 IF "%yesno%"=="y" (
 @ECHO ON

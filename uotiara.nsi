@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
-!define UOSHORTVERSION        "386"
-!define UOLONGVERSION         "0.19.47"
+!define UOSHORTVERSION        "387"
+!define UOLONGVERSION         "0.20.47"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -11067,12 +11067,44 @@ ${If} $1 = 0
 StrCpy $0 "0.0.0.0"
 ${EndIf}
 IntOp $1 $NEWMABIVERSION - 382
-MessageBox MB_YESNOCANCEL|MB_ICONEXCLAMATION "A newer Mabinogi version is detected V$NEWMABIVERSION($1)$\r$\nPlease wait until UO Tiara has been updated$\r$\nV$0 currently installed$\r$\nYou are running V${UOVERSION}$\r$\n$\r$\nWould you like to close the installer?$\r$\n$\r$\nClick Yes to close$\r$\nNo to continue installing$\r$\nCancel to go to site." IDNO EndNewVersion2 IDCANCEL SetupSite2
+MessageBox MB_YESNOCANCEL|MB_ICONEXCLAMATION "A newer Mabinogi version is detected V$NEWMABIVERSION($1)$\r$\nPlease wait until UO Tiara has been updated$\r$\nV$0 currently installed$\r$\nYou are running V${UOVERSION}$\r$\n$\r$\nWould you like to close the installer?$\r$\n$\r$\nClick Yes to close$\r$\nNo to continue installing$\r$\nCancel to go to site." IDNO EndNewVersion3 IDCANCEL SetupSite2
 Quit
 SetupSite2:
 ExecShell "open" "https://github.com/shaggyze/uotiara/releases"
 Quit
 EndNewVersion2:
+
+inetc::get /NOCANCEL /SILENT "https://shaggyze.website/MABIVERSION.txt" "$TEMP\MABIVERSION.txt" /END
+FileOpen $4 "$TEMP\MABIVERSION.txt" r
+FileRead $4 $1
+FileClose $4
+Push $1
+;Call Trim
+Pop $1
+StrCpy $NEWMABIVERSION $1 "" 0
+StrCpy $R7 ".onInit Downloaded Mabinogi Version"
+Call DumpLog1
+Push $NEWMABIVERSION
+Push ${UOSHORTVERSION}
+StrCpy $R7 ".onInit  ${UOSHORTVERSION} / $NEWMABIVERSION"
+Call DumpLog1
+xtInfoPlugin::CompareVersion
+Pop $1
+${If} $1 > "-1"
+      Goto EndNewVersion3
+${EndIf}
+ReadRegStr $0 HKLM "${REG_UNINSTALL}" "DisplayVersion"
+StrLen $1 $0
+${If} $1 = 0
+StrCpy $0 "0.0.0.0"
+${EndIf}
+IntOp $1 $NEWMABIVERSION - 382
+MessageBox MB_YESNOCANCEL|MB_ICONEXCLAMATION "A newer Mabinogi version is detected V$NEWMABIVERSION($1)$\r$\nPlease wait until UO Tiara has been updated$\r$\nV$0 currently installed$\r$\nYou are running V${UOVERSION}$\r$\n$\r$\nWould you like to close the installer?$\r$\n$\r$\nClick Yes to close$\r$\nNo to continue installing$\r$\nCancel to go to site." IDNO EndNewVersion3 IDCANCEL SetupSite3
+Quit
+SetupSite3:
+ExecShell "open" "https://github.com/shaggyze/uotiara/releases"
+Quit
+EndNewVersion3:
 
 !insertmacro SetSectionInInstType "${SECTION1}" "${INSTTYPE_1}"
 Push $5

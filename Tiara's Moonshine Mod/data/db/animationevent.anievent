@@ -6011,7 +6011,13 @@ set("C4_human")
 
 	folder("char\chapter4\human\anim\tool")
 	
-
+		"acc_forestfairy01_stand"
+			0:lookat(off)	
+			680:jump(30)
+			
+		"acc_forestfairy02_stand"	
+			0:lookat(off)	
+			680:jump(30)
 	
 		"human_huganimal_run"
 			0:hand(both, palm)
@@ -6703,6 +6709,30 @@ set("C4_human")
 ///////////////////////양손 모션//////////////////////
 
 	folder("char\chapter4\human\anim\tool\Bhand_E")	
+	
+		"female_tool_bhand_e04_stand_friendly"
+			0:lookat(off)
+			0:hand(left, palm)	
+			0:hand(right, fist)	
+			0:generic ("custom_equip(weapon:weapon_c4_twohanded_flower01_ani)")
+		
+			
+		"female_tool_bhand_e04_stand_offensive"		
+			0:hand(both, fist)			
+			0:lookat(off)
+			0:generic ("custom_equip(weapon:weapon_c4_twohanded_flower01_ani)")		
+			
+		"male_tool_bhand_e04_stand_friendly"
+			0:lookat(off)
+			0:hand(left, palm)	
+			0:hand(right, fist)	
+			0:generic ("custom_equip(weapon:weapon_c4_twohanded_flower01_ani)")
+	
+			
+		"male_tool_bhand_e04_stand_offensive"
+			0:hand(both, fist)			
+			0:lookat(off)
+			0:generic ("custom_equip(weapon:weapon_c4_twohanded_flower01_ani)")		
 		
 		"human_tool_bhand_e01_bash01"
 			0:lookat(off)
@@ -18158,6 +18188,32 @@ set("C4_giant")
 ////////////////////////// 의자에 앉아서 낚시 하는 모션///////////////////////////////
 
 	folder("char\chapter4\giant\anim\tool\hand_E01")
+	
+		"giant_female_tool_bhand_e04_stand_friendly"
+			0:lookat(off)
+			0:hand(left, palm)	
+			0:hand(right, palm)	
+			0:generic ("custom_equip(weapon:giant_weapon_c4_twohanded_flower01_ani)")
+			
+		"giant_female_tool_bhand_e04_stand_offensive"		
+			0:hand(right, fist)			
+			0:hand(left, palm)
+			0:lookat(off)
+			0:generic ("custom_equip(weapon:giant_weapon_c4_twohanded_flower01_ani)")	
+			
+			
+		"giant_tool_bhand_e04_stand_friendly"
+			0:lookat(off)
+			0:hand(left, palm)	
+			0:hand(right, palm)	
+			0:generic ("custom_equip(weapon:giant_weapon_c4_twohanded_flower01_ani)")	
+			
+		"giant_tool_bhand_e04_stand_offensive"
+			0:hand(right, fist)			
+			0:hand(left, palm)	
+			0:lookat(off)
+			0:generic ("custom_equip(weapon:giant_weapon_c4_twohanded_flower01_ani)")						
+					
 
 		"giant_female_tool_bhand_e01_fishing_catching_failure_sit"
 			0:lookat(off)
@@ -26504,6 +26560,33 @@ set("social motion")
 	
 	folder("char\chapter4\human\anim\social_motion")
 	
+	"female_raven"
+	0:lookat(off)
+	0:hand(both, palm)
+    374:effect("raven01",0,1)
+	470:effectoff("raven01")
+	467:effect("raven02",0,1)
+	600:effectoff("raven02")
+	740:effect("raven02",0,1)
+	900:effectoff("raven02")
+    469:linkframework(1, "race:240101", "HandtoolL", "data\gfx\char\pet\anim\bird\raven_crown")
+	766:linkframework(1)
+	
+	
+	
+	"male_raven"
+	0:lookat(off)
+	0:hand(both, palm)
+    374:effect("raven01",0,1)
+	470:effectoff("raven01")
+	467:effect("raven02",0,1)
+	600:effectoff("raven02")
+	740:effect("raven02",0,1)
+	900:effectoff("raven02")
+    469:linkframework(1, "race:240101", "HandtoolL", "data\gfx\char\pet\anim\bird\raven_crown")
+	766:linkframework(1)
+	
+	
 	"male_cobrawear01"
 			0:hand(both, palm)	
 			0:linkframework(1, "race:990143", "HandtoolR", "data/gfx/char/monster/anim/Snake/snake_friendly_h")
@@ -26558,8 +26641,9 @@ set("social motion")
 			296:face(default)
 			333:face(upset)			
 			391:face(default)	
-			436:jump(190)
-
+			436:jump(190,true)	
+			130:effect("hologram001",0,1)
+			130:effect("hologram002",0,1)
 	
 	"female_natural_gesture_s13_02"
 			0:hideequip(false)
@@ -26575,7 +26659,24 @@ set("social motion")
 			296:face(default)
 			333:face(upset)			
 			391:face(default)	
-			436:jump(190)	
+			436:jump(190,true)	
+			130:effect("hologram001",0,1)
+			130:effect("hologram002",0,1)
+			
+	"human_natural_gesture_s14_01"
+			0:hideequip(false)		
+			1:effect("bonfire_c01",0,1)
+			0:lookat(off)
+			0:hand(both, palm)	
+			0:face(upset)
+			//167:face(confused)
+			//219:face(love)
+			300:effectoff("bonfire_c01")
+			301:effect("hero_wind01")
+			215:generic("custom_equip(weapon:tool_bottleWater01_ani)")
+			302:face(smile)
+			428:generic("custom_equip(weapon)")
+			428:face(default)			
 	
 		"female_gardener"
 			0:lookat(off)
@@ -26637,13 +26738,13 @@ set("social motion")
 	
 	
 		"female_morrighan"
-			0:hideequip(true)
+			0:hideequip(false)
 			0:lookat(off)
 			0:hand(both, palm)							
 			1:generic("custom_equipmentmesh(1, female_c4_morrighan_bsl_ani)")			
 	
 		"male_morrighan"
-			0:hideequip(true)
+			0:hideequip(false)
 			0:lookat(off)
 			0:hand(both, palm)					
 			1:generic("custom_equipmentmesh(1, male_c4_morrighan_bsl_ani)")
@@ -28590,6 +28691,8 @@ set("social motion")
 		22:generic("custom_equip(weapon:tool_trunk_ani)")
 		1100:jump(65,true)		
 
+	
+		
 	"male_newattendance"
 		0:lookat(off)
 		0:hand(left, fist)
@@ -29465,7 +29568,34 @@ set("social motion")
 			944:hand (right, palm)
 			1035:jump(370, true)	
 		
-			
+	
+	"female_forestfairy01"
+		0:lookat(off)
+		0:hand (both, palm)
+		120:linkframework(1, "race:990333, c1:A3998E c2:080808 c3:080808 c4:080808 c5:080808", "handtoolR", "data\gfx\char\chapter4\human\anim\tool\acc_forestfairy01_stand")
+		800:jump(150,true)
+		
+	"male_forestfairy01"
+		0:lookat(off)
+		0:hand (both, palm)
+		120:linkframework(1, "race:990333, c1:A3998E c2:080808 c3:080808 c4:080808 c5:080808", "handtoolR", "data\gfx\char\chapter4\human\anim\tool\acc_forestfairy01_stand")
+		800:jump(150,true)
+	
+		
+	"female_forestfairy02"
+		0:lookat(off)
+		0:hand (both, palm)
+		120:linkframework(1, "race:990334, c1:CE9D6A c2:DAC9B8 c3:080808 c4:080808 c5:080808", "handtoolR", "data\gfx\char\chapter4\human\anim\tool\acc_forestfairy02_stand")
+		800:jump(150,true)
+		
+	"male_forestfairy02"
+		0:lookat(off)
+		0:hand (both, palm)
+		120:linkframework(1, "race:990334, c1:CE9D6A c2:DAC9B8 c3:080808 c4:080808 c5:080808", "handtoolR", "data\gfx\char\chapter4\human\anim\tool\acc_forestfairy02_stand")
+		800:jump(150,true)
+		
+
+		
 			
 	"female_2020school"
 		0:lookat(off)
@@ -31476,6 +31606,42 @@ set("social motion")
 		0:hideequip(false)	
 		126:generic("custom_equip(weapon:tool_glasscrafts)")					
 		1325:jump(523)	
+		
+	"female_devilangel"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)		
+		393:eyechange(223, 0)
+		500:effect("devilangel_F02",0,1)					
+		640:effect("devilangel_F01",0,1)					
+		686:effect("devilangel_F03",0,1)
+		688:effect("devilangel_F04",0,1)
+		690:effect("devilangel_F05",0,1)
+		850:effectoff("devilangel_F01")	
+		850:effectoff("devilangel_F02")	
+		812:eyechange(default)				
+		950:effect("devilangel_F06",0,1)	
+		1116:effectoff("devilangel_F06")			
+		1130:effectoff("devilangel_F03")			
+		1140:effectoff("devilangel_F04")			
+		1150:effectoff("devilangel_F05")			
+		1180:jump(0)		
+
+
+	"male_devilangel"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		180:effect("guardian02",0,1)			
+		448:hand(right, fist)
+		529:effectoff("guardian02")	
+		529:effect("devilangel_M01",0,1)
+		529:effect("devilangel_M02",0,1)		
+		637:hand(right, palm)
+		637:effectoff("devilangel_M01")	
+		733:effectoff("devilangel_M02")	
+		1100:jump(0)			
+		
 
 		
 	///세일러 수영복의상
@@ -62744,7 +62910,7 @@ set("Knight")
 	229:hand(left, fist)
 	360:eyechange(223,0)
     441:eyechange(default)
-	0:effect("glassbouquet01_g",0,1)
+	1:effect("glassbouquet01_g",0,1)
 	197:effectoff("glassbouquet01_g")
 	197:effect("glassbouquet02_g",0,1)
 	795:jump (546, true)
@@ -62757,7 +62923,7 @@ set("Knight")
 	229:hand(left, fist)
 	360:eyechange(223,0)
     441:eyechange(default)
-	0:effect("glassbouquet01_g",0,1)
+	1:effect("glassbouquet01_g",0,1)
 	197:effectoff("glassbouquet01_g")
 	197:effect("glassbouquet02_g",0,1)
 	795:jump (546, true)
@@ -64254,7 +64420,7 @@ set("magician")
 	229:hand(left, fist)
 	360:eyechange(223,0)
     441:eyechange(default)
-	0:effect("glassbouquet01",0,1)
+	1:effect("glassbouquet01",0,1)
 	197:effectoff("glassbouquet01")
 	197:effect("glassbouquet02",0,1)
 	795:jump (546, true)
@@ -64267,7 +64433,7 @@ set("magician")
 	229:hand(left, fist)
 	360:eyechange(223,0)
     441:eyechange(default)
-	0:effect("glassbouquet01",0,1)
+	1:effect("glassbouquet01",0,1)
 	197:effectoff("glassbouquet01")
 	197:effect("glassbouquet02",0,1)
 	795:jump (546, true)
@@ -84222,6 +84388,32 @@ set("social motion")
 	
 	folder("char\chapter4\giant\anim\social_motion")
 	
+	"giant_raven"
+	0:lookat(off)
+	0:hand(both, palm)
+    374:effect("raven01",0,1)
+	470:effectoff("raven01")
+	467:effect("raven02",0,1)
+	600:effectoff("raven02")
+	740:effect("raven02",0,1)
+	900:effectoff("raven02")
+    469:linkframework(1, "race:240101", "HandtoolL", "data\gfx\char\pet\anim\bird\raven_crown")
+	766:linkframework(1)
+	
+	"giant_female_raven"
+	0:lookat(off)
+	0:hand(both, palm)
+    374:effect("raven01",0,1)
+	470:effectoff("raven01")
+	467:effect("raven02",0,1)
+	600:effectoff("raven02")
+	740:effect("raven02",0,1)
+	900:effectoff("raven02")
+    469:linkframework(1, "race:240101", "HandtoolL", "data\gfx\char\pet\anim\bird\raven_crown")
+	766:linkframework(1)
+	
+
+	
 		"giant_cobrawear01"
 				0:hand(both, palm)	
 				0:linkframework(1, "race:990144", "HandtoolR", "data/gfx/char/monster/anim/Snake/snake_friendly_g")
@@ -84280,7 +84472,8 @@ set("social motion")
 			333:face(upset)			
 			391:face(default)	
 			436:jump(190)
-
+			130:effect("hologram001",0,1)
+			130:effect("hologram002",0,1)
 	
 		"giant_female_natural_gesture_s13_02"
 			0:hideequip(false)
@@ -84297,6 +84490,42 @@ set("social motion")
 			333:face(upset)			
 			391:face(default)	
 			436:jump(190)
+			130:effect("hologram001",0,1)
+			130:effect("hologram002",0,1)	
+	
+		"giant_natural_gesture_s14_01"
+			0:hideequip(false)		
+			1:effect("bonfire_c01_G",0,1)			
+			0:lookat(off)
+			0:hand(both, palm)	
+			0:face(upset)			
+			//167:face(confused)
+			//219:face(love)
+			//215:hand(right,fist)	
+			300:effectoff("bonfire_c01_G")
+			301:effect("hero_wind01_G")			
+			215:generic("custom_equip(weapon:giant_tool_bottleWater01_ani)")
+			302:face(smile)
+			428:generic("custom_equip(weapon)")
+			428:hand(right,palm)
+			428:face(default)			
+
+		"giant_female_natural_gesture_s14_01"
+			0:hideequip(false)		
+			1:effect("bonfire_c01_G",0,1)			
+			0:lookat(off)
+			0:hand(both, palm)	
+			0:face(upset)			
+			//167:face(confused)
+			//219:face(love)
+			//215:hand(right,fist)	
+			300:effectoff("bonfire_c01_G")
+			301:effect("hero_wind01_G")			
+			215:generic("custom_equip(weapon:giant_tool_bottleWater01_ani)")
+			302:face(smile)
+			428:generic("custom_equip(weapon)")
+			428:hand(right,palm)
+			428:face(default)				
 	
 		"giant_female_gardener"
 			0:lookat(off)
@@ -84361,13 +84590,13 @@ set("social motion")
 	
 		"giant_morrighan"
 			0:lookat(off)
-			0:hideequip(true)
+			0:hideequip(false)
 			0:hand(both, palm)							
 			1:generic("custom_equipmentmesh(1, giant_male_c4_morrighan_bsl_ani)")			
 	
 		"giant_female_morrighan"
 			0:lookat(off)
-			0:hideequip(true)
+			0:hideequip(false)
 			0:hand(both, palm)						
 			1:generic("custom_equipmentmesh(1, giant_female_c4_morrighan_bsl_ani)")		
 	
@@ -85462,11 +85691,13 @@ set("social motion")
 
 		"giant_natural_gesture_s12_02"
 				0:lookat(off)	
+				0:hideequip(false)	
 				0:hand(both,palm)
 				291:jump(64)	
 
 		"giant_natural_gesture_s12_03"
 				0:lookat(off)	
+				0:hideequip(false)	
 				0:hand(both,palm)
 				150:jump(90)		
 				
@@ -85499,11 +85730,13 @@ set("social motion")
 			
 		"giant_female_natural_gesture_s12_02"
 				0:lookat(off)	
+				0:hideequip(false)	
 				0:hand(both,palm)
 				291:jump(64)	
 
 		"giant_female_natural_gesture_s12_03"
 				0:lookat(off)	
+				0:hideequip(false)
 				0:hand(both,palm)
 				150:jump(90)				 
 	
@@ -87746,7 +87979,32 @@ set("social motion")
 			940:eyechange(default)
 			944:hand (right, palm)
 			1035:jump(370, true)	
-			
+	
+	"giant_female_forestfairy01"
+		0:lookat(off)
+		0:hand (both, palm)
+		120:linkframework(1, "race:990335, c1:A3998E c2:080808 c3:080808 c4:080808 c5:080808", "handtoolR", "data\gfx\char\chapter4\human\anim\tool\acc_forestfairy01_stand")
+		800:jump(150,true)
+		
+	"giant_forestfairy01"
+		0:lookat(off)
+		0:hand (both, palm)
+		120:linkframework(1, "race:990335, c1:A3998E c2:080808 c3:080808 c4:080808 c5:080808", "handtoolR", "data\gfx\char\chapter4\human\anim\tool\acc_forestfairy01_stand")
+		800:jump(150,true)
+	
+		
+	"giant_female_forestfairy02"
+		0:lookat(off)
+		0:hand (both, palm)
+		120:linkframework(1, "race:990336, c1:CE9D6A c2:DAC9B8 c3:080808 c4:080808 c5:080808", "handtoolR", "data\gfx\char\chapter4\human\anim\tool\acc_forestfairy02_stand")
+		800:jump(150,true)
+		
+	"giant_forestfairy02"
+		0:lookat(off)
+		0:hand (both, palm)
+		120:linkframework(1, "race:990336, c1:CE9D6A c2:DAC9B8 c3:080808 c4:080808 c5:080808", "handtoolR", "data\gfx\char\chapter4\human\anim\tool\acc_forestfairy02_stand")
+		800:jump(150,true)
+		
 			
 	"giant_female_2020school"
 		0:lookat(off)
@@ -90102,6 +90360,41 @@ set("social motion")
 		0:hideequip(false)	
 		126:generic("custom_equip(weapon:giant_tool_glasscrafts)")					
 		1325:jump(523)	
+
+	"giant_female_devilangel"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)		
+		393:eyechange(223, 0)
+		500:effect("devilangel_F02",0,1)					
+		640:effect("devilangel_F01",0,1)					
+		686:effect("devilangel_F03",0,1)
+		688:effect("devilangel_F04",0,1)
+		690:effect("devilangel_F05",0,1)
+		850:effectoff("devilangel_F01")	
+		850:effectoff("devilangel_F02")	
+		812:eyechange(default)				
+		950:effect("devilangel_F06",0,1)	
+		1116:effectoff("devilangel_F06")			
+		1130:effectoff("devilangel_F03")			
+		1140:effectoff("devilangel_F04")			
+		1150:effectoff("devilangel_F05")			
+		1180:jump(0)			
+
+
+	"giant_devilangel"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		180:effect("guardian02",0,1)			
+		448:hand(right, fist)
+		529:effectoff("guardian02")	
+		529:effect("devilangel_M01",0,1)
+		529:effect("devilangel_M02",0,1)		
+		637:hand(right, palm)
+		637:effectoff("devilangel_M01")	
+		733:effectoff("devilangel_M02")	
+		1100:jump(0)	
 
 		
 	"giant_troubadour"
@@ -98340,6 +98633,39 @@ set("cutscene")
 
 	folder("char\chapter4\human\anim\cutscene")
 	
+		"human_cutscene18th"				
+			0:effect("spaceship")		
+			60:generic ("custom_equip(weapon:tool_spaceship_ani)")		
+			130:generic ("custom_mesh(1:tool_spaceship_ani01)")
+			130:effect("spaceship_land")		
+			
+		"human_cutscene18th_01"			
+			0:effect("spaceship_light")			
+			1:generic ("custom_equip(weapon:tool_spaceship_ani)")				
+
+						
+		"human_cutscene18th_02"
+			0:hand(both, palm)
+			0:face(sad)
+			145:face(confused)
+			
+		"human_cutscene18th_03"				
+			1:effect("spaceship_ex")		
+		    0:lookat(off)
+			0:generic ("custom_equip(weapon:tool_spaceship_ani)")				
+		
+		"human_cutscene18th_04"				
+			1:effect("spaceship_light02")
+			0:generic ("custom_equip(weapon:tool_spaceship_ani)")				
+	
+			
+		"human_cutscene18th_leftside"
+			0:hand(both, palm)
+
+		
+		"human_cutscene18th_rightside"
+			0:hand(both, palm)	
+	
 	"human_cutscene_sword_up"
 		0:lookat(off)
 		0:hand(both, fist)
@@ -102081,6 +102407,9 @@ set("C4_monster")
 
 	"irusan_sweetmeteor_prepare"
 		0:lookat(off)		
+	    9:effect("iru_candy_r01")		
+	    23:effect("iru_candy_l01")		
+	    52:effect("iru_candy01",0,1)				
 		
     endfolder
 
