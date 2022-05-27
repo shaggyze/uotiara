@@ -1,18 +1,8 @@
-attrib -r C:\Nexon\Library\mabinogi\appdata\package\data_99991.it
-attrib -r C:\Nexon\Library\mabinogi\appdata\package\data_99993.it
-attrib -r C:\Nexon\Library\mabinogi\appdata\package\data_99995.it
-attrib -r C:\Nexon\Library\mabinogi\appdata\package\data_99997.it
-attrib -r C:\Nexon\Library\mabinogi\appdata\package\data_99999.it
-attrib -r C:\Nexon\Library\mabinogi\appdata\package\uotiara_00001.it
-attrib -r .\uotiara_00001.it
-del C:\Nexon\Library\mabinogi\appdata\package\data_99991.it
-del C:\Nexon\Library\mabinogi\appdata\package\data_99993.it
-del C:\Nexon\Library\mabinogi\appdata\package\data_99995.it
-del C:\Nexon\Library\mabinogi\appdata\package\data_99997.it
-del C:\Nexon\Library\mabinogi\appdata\package\data_99999.it
-del C:\Nexon\Library\mabinogi\appdata\package\uotiara_00001.it
-del .\uotiara_00001.it
 @ECHO OFF
+attrib -r C:\Nexon\Library\mabinogi\appdata\package\uotiara_00001.it
+attrib -r C:\Users\%username%\Documents\GitHub\uotiara\uotiara_00001.it
+del C:\Nexon\Library\mabinogi\appdata\package\uotiara_00001.it
+del C:\Users\%username%\Documents\GitHub\uotiara\uotiara_00001.it
 set /p "yesno=Update Kanan y/n?:"
 IF "%yesno%"=="y" (
 @ECHO ON
@@ -21,6 +11,7 @@ powershell.exe -command "Invoke-WebRequest -OutFile ./unzip.exe https://shaggyze
 unzip.exe -o kanan.zip -d .\Tiara'~1\Tools\Kanan
 del unzip.exe
 del kanan.zip
+) ELSE IF "%yesno%"=="n" (
 ECHO Skipping Update
 ) ELSE (
 ECHO Invalid Option: y or n
@@ -43,17 +34,18 @@ ECHO Invalid Option: y or n
 PAUSE
 )
 @ECHO OFF
-set /p "yesno1=Copy data folder to mabinogi y/n?:"
-IF "%yesno1%"=="y" (
+set /p "yesno=Copy data folder to mabinogi y/n?:"
+IF "%yesno%"=="y" (
+@ECHO ON
 xcopy ".\Tiara's Moonshine Mod\data\" "C:\Nexon\Library\mabinogi\appdata\data\" /q /s /y /c /e
-) ELSE IF "%yesno1%"=="n" (
+) ELSE IF "%yesno%"=="n" (
 ECHO Skipping Copy
 ) ELSE (
 ECHO Invalid Option: y or n
 PAUSE
 )
-@ECHO ON
-cd C:\Nexon\Library\mabinogi\appdata
+ECHO Building uotiara_00001.it
+@ECHO OFF
 xcopy "C:\Nexon\Library\mabinogi\appdata\data\code\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\local\code\" /q /s /y /c /e
 xcopy "C:\Nexon\Library\mabinogi\appdata\data\xml\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\local\xml\" /q /s /y /c /e
 xcopy "C:\Nexon\Library\mabinogi\appdata\data\db\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\db\" /q /s /y /c /e
@@ -63,30 +55,30 @@ xcopy "C:\Nexon\Library\mabinogi\appdata\data\material\" "C:\Nexon\Library\mabin
 xcopy "C:\Nexon\Library\mabinogi\appdata\data\sound\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\sound\" /q /s /y /c /e
 xcopy "C:\Nexon\Library\mabinogi\appdata\data\features.xml.compiled" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\features.xml.compiled" /q /s /y /c /e
 C:\Nexon\Library\mabinogi\appdata\mabi-pack2\mabi-pack2.exe pack -i C:\Nexon\Library\mabinogi\appdata\UOTiara\ -o C:\Nexon\Library\mabinogi\appdata\package\uotiara_00001.it -f .jpg
-
 rmdir /q /s  C:\Nexon\Library\mabinogi\appdata\data\material\_define\
 copy /y "C:\Nexon\Library\mabinogi\appdata\package\uotiara_00001.it" "C:\Users\%username%\Documents\GitHub\uotiara\uotiara_00001.it"
-set /p "yesno2=Compile Installer y/n?:"
-IF "%yesno2%"=="y" (
+@ECHO OFF
+set /p "yesno=Compile Installer y/n?:"
+IF "%yesno%"=="y" (
+@ECHO ON
 "%PROGRAMFILES(x86)%\NSIS\makensis.exe" "C:\Users\%username%\Documents\GitHub\uotiara\uotiara.nsi"
-) ELSE IF "%yesno2%"=="n" (
+) ELSE IF "%yesno%"=="n" (
 ECHO Skipping Compile
 ) ELSE (
 ECHO Invalid Option: y or n
 PAUSE
 )
-set /p "yesno3=Run Installer y/n?:"
-IF "%yesno3%"=="y" (
+@ECHO OFF
+set /p "yesno=Run Installer y/n?:"
+IF "%yesno%"=="y" (
+@ECHO ON
 for %%I in ("%~dp0*.exe") do start "Running %%~nI" /wait "%%I"
-) ELSE IF "%yesno3%"=="n" (
+) ELSE IF "%yesno%"=="n" (
 ECHO Skipping Run
 ) ELSE (
 ECHO Invalid Option: y or n
 PAUSE
 )
-attrib +r C:\Nexon\Library\mabinogi\appdata\package\data_99991.it
-attrib +r C:\Nexon\Library\mabinogi\appdata\package\data_99993.it
-attrib +r C:\Nexon\Library\mabinogi\appdata\package\data_99995.it
-attrib +r C:\Nexon\Library\mabinogi\appdata\package\data_99997.it
-attrib +r C:\Nexon\Library\mabinogi\appdata\package\data_99999.it
+@ECHO OFF
 attrib +r C:\Nexon\Library\mabinogi\appdata\package\uotiara_00001.it
+PAUSE

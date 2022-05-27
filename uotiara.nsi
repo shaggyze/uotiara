@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
 !define UOSHORTVERSION        "387"
-!define UOLONGVERSION         "0.20.48"
+!define UOLONGVERSION         "0.20.49"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -2629,9 +2629,11 @@ SetOutPath "$INSTDIR\data\gfx\fx\effect"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\g23_specialization.xml"
 SetOutPath "$INSTDIR\data\material\fx\effect"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\Blue.dds"
+File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\Metallurgy.dds"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\Yellow.dds"
 SetOutPath "$INSTDIR\data\material\_define\material\effect"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\Blue.xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\Metallurgy.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\Yellow.xml"
 SectionIn 1 2 3
 SectionEnd
@@ -2639,8 +2641,10 @@ SectionEnd
   DetailPrint "*** Removing MOD402..."
   Delete "$INSTDIR\data\gfx\fx\effect\g23_specialization.xml"
   Delete "$INSTDIR\data\material\fx\effect\Blue.dds"
+  Delete "$INSTDIR\data\material\fx\effect\Metallurgy.dds"
   Delete "$INSTDIR\data\material\fx\effect\Yellow.dds"
   Delete "$INSTDIR\data\material\_define\material\effect\Blue.xml"
+  Delete "$INSTDIR\data\material\_define\material\effect\Metallurgy.xml"
   Delete "$INSTDIR\data\material\_define\material\effect\Yellow.xml"
 !macroend
 SectionGroup "Tech Duinn Fog Removal" MOD396
@@ -10063,10 +10067,12 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD401?8" "DESCRIPTION" "Allows Yo
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "" "Phantasmal Sight Color"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE1" "\data\gfx\fx\effect\g23_specialization.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE2" "\data\material\fx\effect\Blue.dds"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE3" "\data\material\fx\effect\Metallurgy.dds"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE3" "\data\material\fx\effect\Yellow.dds"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE3" "\data\material\_define\material\effect\Blue.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE3" "\data\material\_define\material\effect\Metallurgy.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE5" "\data\material\_define\material\effect\Yellow.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILES" "5"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILES" "7"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "CREATOR" "PoiDoe"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "DESCRIPTION" "Phantasmal Sight color change."
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD403" "" "Easy View Book Pages"
@@ -11129,6 +11135,7 @@ advsplash::show 4500 4500 400 -1 $TEMP\spltmp
 Pop $0
 Delete $TEMP\spltmp.bmp
 Delete $TEMP\spltmp.wav
+
 StrCpy $6 ${MOD436}
 Pop $5
 StrCpy $R7 "End .onInit"
@@ -11279,6 +11286,8 @@ AbyssNotFound2:
 
 StrCpy $FontBMP "ydygo550.bmp"
 ${FontBMPCreate} $FontBMP
+
+Delete "$INSTDIR\package\uotiara_00001.it"
 
   ;Reads components status for registry
   !insertmacro SectionList "InitSection"
@@ -11661,27 +11670,7 @@ Function UOTiaraPackBuild
 Delete "$INSTDIR\UOTiaraPack.bat"
 StrCpy $R7 "cd $INSTDIR"
 Call UOTiaraPack
-StrCpy $R7 "attrib -r $INSTDIR\package\data_99991.it"
-Call UOTiaraPack
-StrCpy $R7 "attrib -r $INSTDIR\package\data_99993.it"
-Call UOTiaraPack
-StrCpy $R7 "attrib -r $INSTDIR\package\data_99995.it"
-Call UOTiaraPack
-StrCpy $R7 "attrib -r $INSTDIR\package\data_99997.it"
-Call UOTiaraPack
-StrCpy $R7 "attrib -r $INSTDIR\package\data_99999.it"
-Call UOTiaraPack
 StrCpy $R7 "attrib -r $INSTDIR\package\uotiara_00001.it"
-Call UOTiaraPack
-StrCpy $R7 "del $INSTDIR\package\data_99991.it"
-Call UOTiaraPack
-StrCpy $R7 "del $INSTDIR\package\data_99993.it"
-Call UOTiaraPack
-StrCpy $R7 "del $INSTDIR\package\data_99995.it"
-Call UOTiaraPack
-StrCpy $R7 "del $INSTDIR\package\data_99997.it"
-Call UOTiaraPack
-StrCpy $R7 "del $INSTDIR\package\data_99999.it"
 Call UOTiaraPack
 StrCpy $R7 "del $INSTDIR\package\uotiara_00001.it"
 Call UOTiaraPack
@@ -11704,16 +11693,6 @@ Call UOTiaraPack
 StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\ -o $INSTDIR\package\uotiara_00001.it"
 Call UOTiaraPack
 StrCpy $R7 "rmdir /q /s  $INSTDIR\data\material\_define\"
-Call UOTiaraPack
-StrCpy $R7 "attrib +r $INSTDIR\package\data_99991.it"
-Call UOTiaraPack
-StrCpy $R7 "attrib +r $INSTDIR\package\data_99993.it"
-Call UOTiaraPack
-StrCpy $R7 "attrib +r $INSTDIR\package\data_99995.it"
-Call UOTiaraPack
-StrCpy $R7 "attrib +r $INSTDIR\package\data_99997.it"
-Call UOTiaraPack
-StrCpy $R7 "attrib +r $INSTDIR\package\data_99999.it"
 Call UOTiaraPack
 StrCpy $R7 "attrib +r $INSTDIR\package\uotiara_00001.it"
 Call UOTiaraPack
