@@ -2822,7 +2822,7 @@
 4337	Critical
 4338	Balance
 4339	Down Hit Count
-4340	Defense Penetration
+4340	Armor Pierce
 4341	Melee Stun Resistance Chance
 4342	Long Range Stun Resistance Chance
 4343	Magic Stun Resistance Chance
@@ -4161,7 +4161,70 @@
 6224	A combat skill that can knock down all surrounding enemies while charging forward rapidly. This skill is quite destructive, but it can land you in hot water if you're not careful!\nConsumes [8] Mana Bullets
 6225	Equip Dual Guns when you are Level 25 or above. You can purchase Dual Guns from an Engineer.
 6226	Equip Dual Guns when you are Level 25 or above. You can purchase Dual Guns from an Engineer.
-6227	Damage Per Shot
-6228	Damage Per Shot
+6227	Damage per Shot
+6228	Damage per Shot
 6229	Attack Spread
 6230	Attack Range
+6231	Shuriken Charge
+6232	This technique is based on gathering your internal energies and channeling them into the shuriken. Also damages enemies near the target.
+6233	This technique is based on gathering your internal energies and channeling them into the shuriken. Also damages enemies near the target.
+6234	Complete quest: First Encounter
+6235	Skill Range
+6236	Single Damage
+6237	Splash Damage
+6238	Splash Radius
+6239	Full Charge Time
+6240	Explosive Kunai
+6241	This old ninja trick involves attaching a small proximity explosive to a kunai and planting it for an unsuspecting enemy. The explosion will trigger when they get close, briefly stunning them and decreasing their movement speed for a short time.
+6242	This old ninja trick involves attaching a small proximity explosive to a kunai and planting it for an unsuspecting enemy. The explosion will trigger when they get close, briefly stunning them and decreasing their movement speed for a short time.
+6243	Complete quest: Explosive Surprise
+6244	Explosive Damage
+6245	Enemy Movement Speed Reduction
+6246	Enemy Movement Speed Debuff Duration
+6247	Duration
+6248	Number of Explosives
+6249	Range
+6250	Shadow Cloak
+6251	This technique allows you to disappear by harnessing your own shadow. Your movement speed will increase while in hiding, and leaving stealth will produce a huge gust of wind that can damage a targeted enemy. If no enemy is targeted, the gust will damage the nearest enemy. Ninja skills will deal bonus damage while you are hidden, and using a skill or Tornado while stealthed will reveal you.
+6252	This technique allows you to disappear by harnessing your own shadow. Your movement speed will increase while in hiding, and leaving stealth will produce a huge gust of wind that can damage a targeted enemy. If no enemy is targeted, the gust will damage the nearest enemy. Ninja skills will deal bonus damage while you are hidden, and using a skill or Tornado while stealthed will reveal you.
+6253	Complete quest: Into the Shadows
+6254	Increases Movement Speed
+6255	Tornado Damage
+6256	Duration
+6257	Smokescreen
+6258	This capsule is full of a foul powder that decreases enemy Defense, Magic Defense, Protection, and Magic Protection, thus increasing the damage of your next attack!
+6259	This capsule is full of a foul powder that decreases enemy Defense, Magic Defense, Protection, and Magic Protection, thus increasing the damage of your next attack!
+6260	Complete quest: The Crisis
+6261	Skill Range
+6262	Smokescreen Radius
+6263	Defense and Magic Defense Reduction
+6264	Flash Launcher
+6265	Grapple Shot
+6266	Bullet Storm
+6267	This skill explodes the full force of a Mana Bullet into the target. The shockwave does considerable damage.\nConsumes [4] Mana Bullets
+6268	This skill charges one of your Mana Bullets with an attractive force to quickly move you to a selected location. Attacks by swinging the barrel if the enemy is at the target location.\nConsumes [2] Mana Bullets
+6269	This skill quickly shoots Mana Bullets at multiple enemies. Both the target's defense and protection are applied to the Mana Bullets. Although it looks like just one shot, the characteristics of Pragarah can quickly reduce Magic Defense and Protection per actual hit.
+6270	When at or above level 25, begin the Intro Gun Training quest. You can start Intro Gun Training by equipping Dual Guns.
+6271	Equip Dual Guns when you are Level 25 or above. You can purchase Dual Guns from an Engineer.
+6272	Equip Dual Guns when you are Level 25 or above. You can purchase Dual Guns from an Engineer.
+6273	Bullet Use
+6274	Damage
+6275	Damage
+6276	Damage Per Shot
+6277	Damage increase with Master title
+6278	Max Attack Targets
+6279	Attack Spread
+6280	Attack Range
+6281	Max Damage Limit Increase
+6282	Kunai Storm
+6283	Sakura Abyss
+6284	This skill was designed for large groups of enemies. When surrounded, leap into the air and rain down a flurry of hidden kunai to puncture anything in range.
+6285	This technique channels a great deal of chi to damage nearby enemies. With enough time, the damage and reach can be extremely high.
+6286	This skill was designed for large groups of enemies. When surrounded, leap into the air and rain down a flurry of hidden kunai to puncture anything in range.
+6287	This technique channels a great deal of chi to damage nearby enemies. With enough time, the damage and reach can be extremely high.
+6288	Complete quest: Anju's Heart
+6289	Complete quest: The Last Training
+6290	Skill Range
+6291	Attack Radius
+6292	Damage
+6293	Attack Radius Per Charge

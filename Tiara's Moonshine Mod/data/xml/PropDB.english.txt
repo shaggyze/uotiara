@@ -7807,7 +7807,7 @@
 9294	Campfire Spirit
 9306	Campfire Spirit
 9356	Campfire Spirit
-9583	*화룡의 가방
+9583	*Fire Dragon Bag
 9631	<mini>TOOL</mini> Hillwen Engineer's Tool Rack
 9653	*NTD_일반룸01(무기고,복도)
 9654	*NTD_일반룸02_02(휴식공간,창고)

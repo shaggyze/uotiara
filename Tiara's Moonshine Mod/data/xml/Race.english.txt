@@ -7987,7 +7987,7 @@
 10165	Wedding Carpet
 10166	Tractor Cellien
 10167	Tractor Cellien
-10168	Red Flame Fire Dragon
+10168	Marshal Fire Dragon
 10169	Cellien Quest Board
 10170	Cellien Crystal Ball
 10171	Cellien Viewscope
@@ -8454,13 +8454,13 @@
 10645	Red Prison Zombie
 10646	Green Prison Zombie
 10647	Blue Prison Zombie
-10648	장군화룡
+10648	Marshal Fire Dragon
 10649	Rental Scooter Imp
 10650	Shadow Mission Invisible Monster 1
 10651	Doki Doki Magic Carpet
 10652	Doki Doki Magic Carpet
 10653	Rich Sheep
-10654	장군화룡
+10654	Marshal Fire Dragon
 10655	Palanquin Bearer
 10657	Shadow Mission Invisible Monster 2
 10658	Zombie
@@ -8855,10 +8855,153 @@
 11061	Yellow Disciple - vulnerable to pets
 11064	피어스 코브라
 11065	피어스 코브라
+11066	Goblin
+11067	Poison Goblin
+11068	Goblin Archer
+11069	Gold Goblin
+11070	Red Goblin Archer
+11071	Red Goblin
+11072	Goblin Hunter
+11073	Goblin Hunter Archer
+11074	Hobgoblin Warrior
+11075	Hobgoblin Bowman
+11076	Hobgoblin Exorcist
+11077	Hobgoblin Exorcist
+11078	Hobgoblin Exorcist
+11079	Head Hobgoblin
+11080	Golem
+11081	Dragonfly
+11082	Giant Dragonfly
+11083	Brown Snake
+11084	Blue Snake
+11085	White Snake
+11086	Black Snake
+11087	Green Snake
+11088	Black Poisonous Snake
+11089	Black Poisonous Snake
+11090	Red Poisonous Snake
+11091	Giant White Snake
+11092	Giant Black Snake
+11093	Alligator
+11094	Poison Alligator
+11095	Basilisk
+11096	Giant Alligator
+11097	Gray Gremlin
+11098	Green Gremlin
+11099	Brown Gremlin
+11100	Heavy Gargoyle
+11101	Light Gargoyle
+11102	Brown Ruins Gargoyle
+11103	Black Ruins Gargoyle
+11104	White Ruins Gargoyle
+11105	Gargoyle Idol
+11106	Gargoyle Idol Plinth
+11107	Stone Gargoyle
+11108	Balrog
+11109	Red Dragon
+11110	Armored Skeleton
+11111	Armored Skeleton
+11112	Red Skeleton
+11113	Red Skeleton
+11114	Metal Skeleton
+11115	Metal Skeleton
+11116	Skeleton Squad
+11117	Skeleton Hellhound
+11118	Black Armored Skeleton
+11119	Python Soldier
+11120	Python Shaman
+11121	Python Knight
+11122	Uroborus
+11123	Uroborus
+11124	Uroborus
+11125	Uroborus
+11126	Zombie
+11127	Zombie
+11128	Ghoul
+11129	Ghoul
+11130	Gray Prison Zombie
+11131	Grim Prison Zombie
+11132	White Prison Zombie
+11133	Wight
+11134	Hollow Knight
+11135	Hollow Knight
+11136	Ghast
+11137	Blue Ghast
+11138	Red Ghast
+11139	Master Lich
+11140	Master Lich
+11141	Skelemancer
+11142	Fire Succubus
+11143	Lightning Succubus
+11144	Ice Succubus
+11145	Poison Succubus
+11146	Succubus Fiend
+11147	Wraith
+11148	Ghost
+11149	Blue Ghost
+11150	Red Ghost
+11151	Blue Ghost King
+11152	Red Ghost King
+11153	Ghost King
+11154	Skeleton Ghost
+11155	Green Skeleton Ghost
+11156	Blue Skeleton Ghost
+11157	Red Skeleton Ghost
+11158	Shadow Ghost
+11159	Banshee
+11160	Succubus Queen
+11161	Fahmes Ruin
+11168	Revived Master Lich
+11169	Sahagin Soldier
+11170	Sahagin Fighter
+11171	Sahagin Ranger
+11172	Sahagin Warrior
+11173	Lost Sahagin
+11174	River Sahagin Ranger
+11175	River Sahagin Fighter
+11176	Cave Sahagin Mage
+11177	Cave Sahagin Warrior
+11178	Wisp
+11179	Siren
+11180	Merrow
+11181	Volcano Lizard
+11182	Volcano Lizard
+11183	Volcano Horned Wild Boar
+11184	Hellhound
+11185	Salamander
+11186	Ifrit
+11187	Bone Lancer
+11188	Archer Skeleton
+11189	Bone Fighter
+11190	Skeleton Laghodessa
+11191	Skeleton Armor Ogre
+11192	Heavy Skeleton Armor Ogre
+11193	Claimh Solas
+11194	Dullahan
+11195	Hell Steed
+11196	Specter Fighter
+11197	Specter Warrior
+11198	Specter Archer
+11199	Demi Lich
+11200	Cloaker
+11201	Ghost Cloaker
+11202	Nightmare Humanoid
+11203	Black Prison Ghost
+11204	Ghost Armor
 11205	Folamh Doll
 11206	Irusan Doll
 11207	Crom Bas Brielle Doll
 11208	Crom Bas Gillach Doll
+11265	Cessair's Heart
+11267	Cessair's Heart
+11269	Llywelyn
+11271	Llywelyn's Spirit
+11273	Succubus Fiend
+11275	Succubus Fiend
+11277	Succubus Fiend
+11279	Succubus Fiend
+11281	Cessair's Heart
+11287	Cessair's Heart
 11290	Cessair's Heart
 11291	Cessair's Heart
 11292	Llywelyn
@@ -8867,13 +9010,46 @@
 11295	Succubus Fiend
 11297	베이비 서큐버스
 11298	퀘사르의 심장
+11300	Disciple
+11302	Dark Disciple
 11303	Cessair's Heart
 11304	베이비 서큐버스
 11305	Disciple
 11306	Dark Disciple
 11307	Melci Diafol
+11308	Melci Diafol
 11316	아르헨
 11317	모르트
+11322	Rookie Bandit Human
+11323	Rookie Bandit Giant
+11324	Rookie Bandit Boss
+11325	Trained Bandit Human
+11326	Trained Bandit Giant
+11327	Trained Bandit Boss
+11328	Hardened Bandit Human
+11329	Hardened Bandit Giant
+11330	Hardened Bandit Boss
+11331	Veteran Bandit Human
+11332	Veteran Bandit Giant
+11333	Veteran Bandit Boss
+11334	Master Bandit Human
+11335	Master Bandit Giant
+11336	Master Bandit Boss
+11337	Rookie Bandit Human
+11338	Rookie Bandit Giant
+11339	Rookie Bandit Boss
+11340	Trained Bandit Human
+11341	Trained Bandit Giant
+11342	Trained Bandit Boss
+11343	Hardened Bandit Human
+11344	Hardened Bandit Giant
+11345	Hardened Bandit Boss
+11346	Veteran Bandit Human
+11347	Veteran Bandit Giant
+11348	Veteran Bandit Boss
+11349	Master Bandit Human
+11350	Master Bandit Giant
+11351	Master Bandit Boss
 11353	다루의 스쿠터 (이벤트)
 11354	Slime Wyneb Mini-Gem
 11362	케라우노스(프리시즌용)
@@ -8893,3 +9069,4 @@
 11478	기사 아일린
 11479	요리사 아일린
 11480	연회장 직원 아일린
+11566	다루의 스쿠터(90일)

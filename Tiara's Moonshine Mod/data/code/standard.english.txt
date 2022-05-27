@@ -229,6 +229,9 @@ interface_inventory.7	{0} partially prevented Mana from evaporating.
 interface_inventory.8	A scented candle is already being burned at this campfire, so you can't burn another one.
 interface_inventory.9	Campfire Skill Rank too low. (Current Rank: {0})
 interface_inventory.10	You can't burn that scented candle because your Campfire Skill Rank isn't high enough.
+interface_inventory.11	You don't have the Gold to pick up.
+interface_inventory.12	You cannot pick up Gold right now as you are already holding an item.
+interface_inventory.13	You don't have the Gold to pick up.
 interface_item.1	Holy
 interface_item.2	Empty Music Scores cannot be included.
 interface_item.3	Music Scores with no uses left cannot be included.
@@ -909,7 +912,7 @@ specializationrequirement.12	Defense
 specializationrequirement.13	Protection
 specializationrequirement.14	Magic Defense
 specializationrequirement.15	Magic Protection
-specializationrequirement.16	Defense Penetration
+specializationrequirement.16	Armor Pierce
 specializationrequirement.17	Heavy Armor
 specializationrequirement.18	Light Armor
 specializationrequirement.19	{0} or {1}

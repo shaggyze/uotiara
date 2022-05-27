@@ -287,6 +287,13 @@ pli_2021extendedattendances5rewardframe.1	Only the main character can receive th
 pli_2021extendedattendances5view.1	Attendance Complete
 pli_2021extendedattendances5view.2	BONUS
 pli_2021extendedattendances5view.3	From {0} to {1}
+pli_2021winterpreeventmainview.1	Commerce Count [Today's Objective]: {0}  /  {1}
+pli_2021winterpreeventmainview.2	Setting Up the Iria Trading Posts [Today's Objective]: {0}  /  {1}
+pli_2021winterpreeventmainview.3	Uladh Trading Post Merchant Rating Total: {0}  /  {1} 
+pli_2021winterpreeventmainview.4	Perform Commerce 3 Times: {0}  /  {1} 
+pli_2021winterpreeventmainview.5	Clear Setting Up the Iria Trading Posts: {0}  /  {1} 
+pli_2021winterpreeventmainview.6	Commerce Activity Score: {0}
+pli_2021winterpreeventmainview.7	Commerce Count: {0}
 pli_additionalequipmentpocketview.1	You can use this with a Hotkey! Register it to a Hotkey slot.
 pli_additionalequipmentpocketview.2	The item settings have been applied.
 pli_additionalequipsystemview.1	You need to purchase an Extra Equipment Slot Coupon.
@@ -1872,6 +1879,7 @@ pli_fynnsynchselectframe.5	Level: {0}
 pli_fynnsynchselectframe.6	Available Summon Time: {0} min
 pli_fynnsynchselectview.1	Selected Pets: {0} / {1}
 pli_fynnsynchselectview.2	You can select up to 10.
+pli_fynnsynchselectview.7	핀 싱크를 진행하면\n서브 펫으로 선택하신 <color=5>{0}({1})가 삭제됩니다.</color>\n정말 서브 펫 선택을 진행하시겠습니까?
 pli_fynnsynchview.1	First 
 pli_fynnsynchview.2	Second
 pli_fynnsynchview.3	Third
@@ -1909,6 +1917,7 @@ pli_fynnsynchview.34	New Perk Acquisition Rate {0}%
 pli_fynnsynchview.35	Are you sure you want to proceed with Fynn Sync?\n<color=5><bold>(All pets registered to sub-slots</bold></color>\n<color=5><bold>for Fynn Syncing will permanently disappear.)</bold></color>
 pli_fynnsynchview.36	Fynn Sync Precautions
 pli_fynnsynchview.37	{0} bag(s) added
+pli_fynnsynchview.39	Pets with Gold in their bag cannot be used for Fynn Sync.
 pli_fynnybloomingview.1	Blossoming Time: {0}
 pli_fynnybloomingview.2	Complete
 pli_fynnybloomingview.3	Place Fynni Gems.
@@ -1957,6 +1966,14 @@ pli_giveheartstickerview.2	Who would you like to send the Heart Sticker to?\n(He
 pli_giveheartstickerview.3	Send
 pli_giveheartstickerview.4	Cancel
 pli_givehelppointview.1	The message will be deleted after {0} second(s).
+pli_goldtransview.1	Pick Up Gold
+pli_goldtransview.2	Pass On Gold
+pli_goldtransview.3	Quantity
+pli_goldtransview.4	Confirm
+pli_goldtransview.5	Cancel
+pli_goldtransview.6	Please enter a correct amount.
+pli_goldtransview.7	Give Gold
+pli_goldtransview.8	Receive Gold
 pli_guestbookframes.0	Private
 pli_guestbookframes.1	Change the settings so that only you and the shop owner can see this comment.
 pli_guestbookframes.2	{0} comment(s)
@@ -3341,6 +3358,8 @@ pli_pethousenotiview.3	{0} has finished resting.
 pli_pethousenotiview.4	Rest finished.
 pli_pethousenotiview.5	EXP +{0}\nReached Lv. {1}!\nAll your Fatigue is gone!
 pli_pethousenotiview.6	EXP +{0}\nAll your Fatigue is gone!
+pli_petpvpprepareview.1	Gold {0} Gold
+pli_petpvpprepareview.2	Check {0} Gold
 pli_petquestmainview.1	{0} ({1} in real time)
 pli_petquestmainview.2	EXP {0}
 pli_petquestmainview.3	Exploration EXP {0}
@@ -5169,6 +5188,14 @@ pli_windowhinventory.50	Group same items with different expiration dates.
 pli_windowhinventory.51	Set the order in which your bags will be filled with items you acquire.
 pli_windowhinventory.52	You cannot change the bag order if you have items in your temporary inventory.\nPlease make some space first.
 pli_windowhinventory.53	Motion will be applied when the Motion button is clicked on an outfit with motion in the Dressing Room.
+pli_windowhinventory.57	{0} / {1}\n\nThe total amount of Gold you are currently holding.\n\n- You cannot obtain more Gold when carrying the max amount.\n- Max Gold will increase by 1 Million when you reach cumulative level 10,000.\n- You can increase the max Gold limit up to 100 Million by using various Gold Box items.
+pli_windowhinventory.58	{0} / {1}
+pli_windowhinventory.59	Give
+pli_windowhinventory.60	Claim
+pli_windowhinventory.61	You don't have the Gold to hand to your pet.
+pli_windowhinventory.62	Your pet cannot hold more Gold.
+pli_windowhinventory.63	You cannot hold more Gold.
+pli_windowhinventory.64	Your pet doesn't have any Gold.
 pli_windowhousebiddinglistboard.1	Address
 pli_windowhousebiddinglistboard.2	Shop Type
 pli_windowhousebiddinglistboard.3	Mark the location of the selected shop on the Mini-map.
@@ -6913,6 +6940,8 @@ pli_windowtrade.6	Expand Inventory
 pli_windowtrade.7	's Trade Window will expand.
 pli_windowtrade.8	Already expanded.
 pli_windowtrade.9	Expands your Trade Window.\nOnly one character can expand per trade. \n<color=2>{0}</color> Gold will be removed your bank account.\n
+pli_windowtrade.10	{0} in Gold
+pli_windowtrade.11	{0} in Checks
 pli_windowtreasureofgodpocket.1	Unlocked after you clear the Return of Hero storyline.
 pli_windowtreasureofgodpocket.2	Unlocked after you use a Falias Dew after clearing the Return of Hero storyline.
 pli_windowtreasureofgodpocket.3	Unlocked after you use a Falias Rain Drop after clearing the Return of Hero storyline.

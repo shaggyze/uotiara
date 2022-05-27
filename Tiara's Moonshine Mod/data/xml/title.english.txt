@@ -4059,9 +4059,9 @@
 5007	the Master of Crisis
 5008	the Master of Climactic Crash
 5009	the Master of Invigorating Encore
-5011	DEX +15\nMarionette Balance +5\nAct 4: Rising Action Damage +10%
-5012	DEX +15\nMarionette Max Damage +5\nAct 7: Climactic Crash Damage +10%
-5013	DEX +15\nMarionette Critical +2%\nAct 2: Threshold Cutter Third Hit Damage +15%
+5011	Dexterity +15\nMarionette Balance +5\nAct 4: Rising Action Damage +30%
+5012	Dexterity +15\nMarionette Max Damage +5\nAct 7: Climactic Crash Damage +55%
+5013	Dexterity +15\nMarionette Critical +2%\nAct 2: Threshold Cutter Third Hit Damage +45%
 5014	You can get this title by reaching Rank 9 in Pierrot Marionette during the event. Can be used with other titles.
 5015	You can get this title by reaching Rank 9 in Colossus Marionette during the event. Can be used with other titles.
 5020	Marionette Max Damage +5\nMarionette Critical +5\nDexterity +7
@@ -4710,7 +4710,7 @@
 5810	Meet all the training requirements to reach Way of the Gun Rank 1 and you will receive the title to prove it.
 5811	Dual Gun Max Damage +8\nDual Gun Min Damage +4\nMax HP +15
 5812	Dual Gun Max Damage +6\nDual Gun Min Damage +3\nMax HP +30
-5818	Frenzy Duration +5 seconds\nDual Gun Max Damage +3\nDual Gun Min Damage +2
+5818	Way of the Gun Duration +5 seconds\nDual Gun Max Damage +3\nDual Gun Min Damage +2
 5819	the Aspiring Marksman
 5820	the Aspiring Marksman
 5821	the Aspiring Marksman
@@ -4754,10 +4754,10 @@
 5859	고상한 한복 의상 캐릭터 카드로 생성 또는 환생한 캐릭터에게 주어지는 타이틀이다.
 5860	최대 대미지 8 증가\n크리티컬 2% 증가\n보호 1증가\n행운 10 증가
 5861	Flash Launcher Damage +20%
-5862	Grapple Shot Damage +15%\nDEF +10
+5862	Grapple Shot Damage +15%\nDefense +10
 5863	Bullet Slide Damage +15%\nMovement Speed +1%
 5864	Shooting Rush Damage +12%\nMax MP +10\nMax Stamina +10
-5865	Bullet Storm Max Damage +15%\nMax MP +20\nMax Stamina +20
+5865	Bullet Storm Max Damage Limit +15%\nMax MP +20\nMax Stamina +20
 5866	the Master of Heavy Armor
 5867	the Master of Light Armor
 5868	the Master of Heavy Armor
@@ -5957,13 +5957,13 @@
 7177	Complete your training and become a master of Sakura Abyss.
 7178	Shuriken Max Damage + 15\nShuriken Min Damage +8\nMax HP +10
 7179	Shuriken Max Damage +8\nShuriken Min Damage +4\nMax HP +15
-7180	STR +10\nWILL +10\nShuriken Charge Damage +20%
-7181	STR +10\nWILL +10\nKunai Storm Damage + 15%
+7180	Strength +10\nWill +10\nShuriken Charge Damage +20%
+7181	Strength +10\nWill +10\nKunai Storm Damage +15%
 7182	STR + 10\nWIL + 10\nShadow Bind Duration + 5 sec
 7183	Strength +10\nWill +10\nShadow Cloak Duration +3 sec\nMovement Speed + 1%
-7184	STR +10\nWIL +10\nExplosive Kunai Damage + 15%\nExplosive Tag Count + 1
+7184	Strength +10\nWill +10\nExplosive Kunai Tag Damage +15%\nTag Count +1
 7185	STR + 10\nWIL + 10\nDEF + 10
-7186	STR +10\nWIL +10\nSakura Abyss Damage + 15%
+7186	Strength +10\nWill +10\nSakura Abyss Damage per Charge +15%
 7187	a 1st Anniversary Milletian
 7188	a 2nd Anniversary Milletian
 7189	a 3rd Anniversary Milletian
@@ -9296,14 +9296,14 @@
 10630	Magic Attack +36\nCritical +5%\nMusic Buff Skill Effect +3\nMagic Defense +10\nMovement Speed +1%
 10631	Luck +30
 10632	Luck +30
-10633	레디 플레이어
-10634	레디 플레이어
-10635	레디 플레이어
-10636	레디 플레이어
-10637	영상 공모전에서 우승하면 획득할 수 있는 2차 타이틀이다. 기간이 만료되면 옵션 효과는 사라지지만 지속적으로 장착 및 소장이 가능하다. (기간 연장 불가능)
-10638	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-10639	최대 대미지 30 증가\n체력 20 증가\n솜씨 20 증가\n의지 20 증가\n지력 20 증가\n이동 속도 2% 증가
-10640	최대 대미지 30 증가\n체력 20 증가\n솜씨 20 증가\n의지 20 증가\n지력 20 증가\n행운 20 증가\n이동 속도 2% 증가
+10633	At the Ready
+10634	At the Ready
+10635	At the Ready
+10636	At the Ready
+10637	A 2nd Title you can receive by winning a video contest.
+10638	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+10639	Luck +20
+10640	Luck +20
 10641	Clear 3 or more Tech Duinn Missions on [Elite].
 10642	the Aromatic Man/the Aromatic Woman
 10643	the Aromatic Man
@@ -10377,8 +10377,8 @@
 11805	the Dragon Master
 11806	the Dragon Master
 11807	the Dragon Master
-11808	A title given to a true dragon master, who has overcome the hardship of crafting a Red Flame Fire Dragon's Horn Bugle.
-11809	A title given to a true dragon master, who has overcome the hardship of crafting a Red Flame Fire Dragon's Horn Bugle.
+11808	A title given to a true dragon master, who has overcome the hardship of crafting a Marshal Fire Dragon's Horn.
+11809	A title given to a true dragon master, who has overcome the hardship of crafting a Marshal Fire Dragon's Horn.
 11810	Luck +25
 11811	Pals from Pixel World
 11812	Pixel World Victor
@@ -11101,20 +11101,20 @@
 12592	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 12593	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 12594	Magic Attack +7\nMagic Defense +3\nMagic Protection +3\nGathering Speed +5%, Gathering Chance +10% while Doki Doki Island event is in progress.
-12595	화룡의 기운
-12596	용맹한 화룡의 기운
-12597	화룡의 기운
-12598	용맹한 화룡의 기운
-12599	화룡의 기운
-12600	용맹한 화룡의 기운
-12601	화룡의 기운
-12602	용맹한 화룡의 기운
-12603	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-12604	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-12605	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-12606	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-12607	행운 30 증가
-12608	행운 30 증가
+12595	Fire Dragon's Aura
+12596	Valiant Fire Dragon's Aura
+12597	Fire Dragon's Aura
+12598	Valiant Fire Dragon's Aura
+12599	Fire Dragon's Aura
+12600	Valiant Fire Dragon's Aura
+12601	Fire Dragon's Aura
+12602	Valiant Fire Dragon's Aura
+12603	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+12604	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+12605	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+12606	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+12607	LUCK +30
+12608	LUCK +30
 12609	넷이즈의 노래 듣기
 12610	넷이즈의 노래 듣기
 12611	넷이즈의 노래 듣기
@@ -11780,6 +11780,111 @@
 13271	2021년 할로윈 이벤트 기간에만 얻을 수 있는 특별한 2차 타이틀이다. 기간이 만료되면 옵션 효과는 사라지지만 지속적으로 장착 및 소장이 가능하다. (기간 연장 불가능)
 13272	2021년 할로윈 이벤트 기간에만 얻을 수 있는 특별한 2차 타이틀이다. 기간이 만료되면 옵션 효과는 사라지지만 지속적으로 장착 및 소장이 가능하다. (기간 연장 불가능)
 13273	최대 대미지 15 증가\n마법 공격력 20증가\n크리티컬 10% 증가\n방어 10 증가\n보호 10 증가\n마법 방어 10 증가\n마법 보호 10 증가\n음악 버프 스킬 효과 4증가\n이동 속도 2% 증가
+13274	Fahmes 1st Place
+13275	Fahmes 2nd Place
+13276	Fahmes 3rd Place
+13277	Fahmes 4th Place
+13278	Fahmes 5th Place
+13279	Fahmes 6th Place
+13280	Fahmes 7th Place
+13281	Fahmes 8th Place
+13282	Fahmes 9th Place
+13283	Fahmes 10th Place
+13284	Fahmes TOP 50
+13285	Fahmes TOP 100
+13286	who Overcame Adversity
+13287	who Stood at the End of the Illusion
+13288	who Transcended
+13289	Fahmes 1st Place
+13290	Fahmes 2nd Place
+13291	Fahmes 3rd Place
+13292	Fahmes 4th Place
+13293	Fahmes 5th Place
+13294	Fahmes 6th Place
+13295	Fahmes 7th Place
+13296	Fahmes 8th Place
+13297	Fahmes 9th Place
+13298	Fahmes 10th Place
+13299	Fahmes TOP 50
+13300	Fahmes TOP 100
+13301	who Overcame Adversity
+13302	who Stood at the End of the Illusion
+13303	who Transcended
+13304	Fahmes 1st Place
+13305	Fahmes 2nd Place
+13306	Fahmes 3rd Place
+13307	Fahmes 4th Place
+13308	Fahmes 5th Place
+13309	Fahmes 6th Place
+13310	Fahmes 7th Place
+13311	Fahmes 8th Place
+13312	Fahmes 9th Place
+13313	Fahmes 10th Place
+13314	Fahmes TOP 50
+13315	Fahmes TOP 100
+13316	who Overcame Adversity
+13317	who Stood at the End of the Illusion
+13318	who Transcended
+13319	Fahmes 1st Place
+13320	Fahmes 2nd Place
+13321	Fahmes 3rd Place
+13322	Fahmes 4th Place
+13323	Fahmes 5th Place
+13324	Fahmes 6th Place
+13325	Fahmes 7th Place
+13326	Fahmes 8th Place
+13327	Fahmes 9th Place
+13328	Fahmes 10th Place
+13329	Fahmes TOP 50
+13330	Fahmes TOP 100
+13331	who Overcame Adversity
+13332	who Stood at the End of the Illusion
+13333	who Transcended
+13334	An honorable 2nd Title given to the one who has ranked 1st in Fahmes Ruin. You can use it for 30 days after acquisition, and you cannot equip it while in Fahmes Ruin.
+13335	An honorable 2nd Title given to the one who has ranked 2nd in Fahmes Ruin. You can use it for 30 days after acquisition, and you cannot equip it while in Fahmes Ruin.
+13336	An honorable 2nd Title given to the one who has ranked 3rd in Fahmes Ruin. You can use it for 30 days after acquisition, and you cannot equip it while in Fahmes Ruin.
+13337	An honorable 2nd Title given to the one who has ranked 4th in Fahmes Ruin. You can use it for 30 days after acquisition, and you cannot equip it while in Fahmes Ruin.
+13338	An honorable 2nd Title given to the one who has ranked 5th in Fahmes Ruin. You can use it for 30 days after acquisition, and you cannot equip it while in Fahmes Ruin.
+13339	An honorable 2nd Title given to the one who has ranked 6th in Fahmes Ruin. You can use it for 30 days after acquisition, and you cannot equip it while in Fahmes Ruin.
+13340	An honorable 2nd Title given to the one who has ranked 7th in Fahmes Ruin. You can use it for 30 days after acquisition, and you cannot equip it while in Fahmes Ruin.
+13341	An honorable 2nd Title given to the one who has ranked 8th in Fahmes Ruin. You can use it for 30 days after acquisition, and you cannot equip it while in Fahmes Ruin.
+13342	An honorable 2nd Title given to the one who has ranked 9th in Fahmes Ruin. You can use it for 30 days after acquisition, and you cannot equip it while in Fahmes Ruin.
+13343	An honorable 2nd Title given to the one who has ranked 10th in Fahmes Ruin. You can use it for 30 days after acquisition, and you cannot equip it while in Fahmes Ruin.
+13344	An honorable 2nd Title given to the one who has ranked within the TOP 50 for Fahmes Ruin. You can use it for 30 days after acquisition, and you cannot equip it while in Fahmes Ruin.
+13345	An honorable 2nd Title given to the one who has ranked within the TOP 100 for Fahmes Ruin. You can use it for 30 days after acquisition, and you cannot equip it while in Fahmes Ruin.
+13346	An honorable title given to who has cleared the 20th Floor of Fahmes Ruin.
+13347	An honorable title given to who has cleared the 30th Floor of Fahmes Ruin.
+13348	An honorable title given to the one who has ranked 1st in Fahmes Ruin. You can use it for 30 days after acquisition, and you cannot equip it while in Fahmes Ruin.
+13349	An honorable 2nd Title given to one who has ranked 1st in Fahmes Ruin.
+13350	An honorable 2nd Title given to one who has ranked 2nd in Fahmes Ruin.
+13351	An honorable 2nd Title given to one who has ranked 3rd in Fahmes Ruin.
+13352	An honorable 2nd Title given to one who has ranked 4th in Fahmes Ruin.
+13353	An honorable 2nd Title given to one who has ranked 5th in Fahmes Ruin.
+13354	An honorable 2nd Title given to one who has ranked 6th in Fahmes Ruin.
+13355	An honorable 2nd Title given to one who has ranked 7th in Fahmes Ruin.
+13356	An honorable 2nd Title given to one who has ranked 8th in Fahmes Ruin.
+13357	An honorable 2nd Title given to one who has ranked 9th in Fahmes Ruin.
+13358	An honorable 2nd Title given to one who has ranked 10th in Fahmes Ruin.
+13359	An honorable 2nd Title given to one who has ranked within the TOP 50 for Fahmes Ruin.
+13360	An honorable 2nd Title given to one who has ranked within the TOP 100 for Fahmes Ruin.
+13361	An honorable title given to who has cleared the 20th Floor of Fahmes Ruin.
+13362	An honorable title given to who has cleared the 30th Floor of Fahmes Ruin.
+13363	An honorable title given to the one who has ranked 1st in Fahmes Ruin.
+13364	Max Damage +35\nMagic Attack +50\nCritical +15%\nCritical Damage +20%\nBonus Damage +1%\nWater/Fire/Wind/Earth\nAlchemic Damage +25\nStrength +50\nIntelligence +50\nDexterity +50\nWill +50\nLuck +50\nDefense +150\nProtection +30\nMagic Defense +120\nMagic Protection +50
+13365	Max Damage +35\nMagic Attack +50\nCritical +10%\nCritical Damage +10%\nWater/Fire/Wind/Earth\nAlchemic Damage +20\nStrength +50\nIntelligence +50\nDexterity +50\nWill +50\nLuck +50\nDefense +150\nProtection +30\nMagic Defense +120\nMagic Protection +50
+13366	Max Damage +35\nMagic Attack +50\nCritical +8%\nCritical Damage +5%\nWater/Fire/Wind/Earth\nAlchemic Damage +20\nStrength +50\nIntelligence +50\nDexterity +50\nWill +50\nLuck +50
+13367	Max Damage +30\nMagic Attack +40\nCritical +5%\nWater/Fire/Wind/Earth\nAlchemic Damage +20\nStrength +50\nIntelligence +50\nDexterity +50\nWill +50\nLuck +50
+13368	Max Damage +30\nMagic Attack +40\nCritical +5%\nWater/Fire/Wind/Earth\nAlchemic Damage +20\nStrength +45\nIntelligence +45\nDexterity +45\nWill +45\nLuck +45
+13369	Max Damage +28\nMagic Attack +35\nCritical +5%\nWater/Fire/Wind/Earth\nAlchemic Damage +18\nStrength +40\nIntelligence +40\nDexterity +40\nWill +40\nLuck +40
+13370	Max Damage +26\nMagic Attack +30\nCritical +5%\nWater/Fire/Wind/Earth\nAlchemic Damage +18\nStrength +40\nIntelligence +40\nDexterity +40\nWill +40\nLuck +40
+13371	Max Damage +24\nMagic Attack +25\nCritical +5%\nWater/Fire/Wind/Earth\nAlchemic Damage +18\nStrength +40\nIntelligence +40\nDexterity +40\nWill +40\nLuck +40
+13372	Max Damage +24\nMagic Attack +25\nCritical +5%\nWater/Fire/Wind/Earth\nAlchemic Damage +16\nStrength +35\nIntelligence +35\nDexterity +35\nWill +35\nLuck +35
+13373	Max Damage +22\nMagic Attack +23\nCritical +5%\nWater/Fire/Wind/Earth\nAlchemic Damage +14\nStrength +35\nIntelligence +35\nDexterity +35\nWill +35\nLuck +35
+13374	Max Damage +22\nMagic Attack +23\nCritical +5%\nWater/Fire/Wind/Earth\nAlchemic Damage +12\nStrength +30\nIntelligence +30\nDexterity +30\nWill +30\nLuck +30
+13375	Max Damage +20\nMagic Attack +20\nCritical +5%\nWater/Fire/Wind/Earth\nAlchemic Damage +12\nStrength +25\nIntelligence +25\nDexterity +25\nWill +25\nLuck +25
+13376	Max Damage +15\nMagic Attack +20\nCritical +8%
+13377	Max Damage +22\nMagic Attack +22\nCritical +15%
+13378	Max Damage +22\nMagic Attack +22\nCritical +20%\nBonus Damage +1%\nPiercing Level +1
 13379	Holy Decoration
 13380	Holy Ornament
 13381	Holy Winter Star
@@ -11935,15 +12040,10 @@
 13559	A title given to Milletians who checked in for 14 days or more during the Sweet Coffee Event.
 13560	Luck +25
 13624	Blooming Roses
-13625	로즈 블루밍
 13626	Blooming Roses
-13627	로즈 블루밍
 13628	Blooming Roses
-13629	로즈 블루밍
 13630	Blooming Roses
-13631	로즈 블루밍
 13632	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
-13633	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 13634	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 13635	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 13636	Magic Attack +8\nIntelligence +15\nMax MP +30\nMax Stamina +10
@@ -12025,6 +12125,20 @@
 13719	A title granted in celebration of the 2022 North American Server Merge event.
 13720	
 13721	
+13722	요정의 기억
+13723	요정의 추억
+13724	요정의 기억
+13725	요정의 추억
+13726	요정의 기억
+13727	요정의 추억
+13728	요정의 기억
+13729	요정의 추억
+13730	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+13731	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+13732	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+13733	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+13734	행운 30 증가
+13735	행운 30 증가
 13736	17년 전에 곰을 잡다
 13737	17년 전에 곰을 잡다
 13738	17년 전에 곰을 잡다
@@ -12032,3 +12146,10 @@
 13740	17주년 기념 타이틀이다.
 13741	17주년 기념 타이틀이다.
 13742	최대생명력 22 증가\n최대마나 22 증가\n체력 22 증가\n솜씨 22 증가\n지력 22 증가\n의지 22 증가\n행운 22 증가
+13764	At the Ready
+13765	At the Ready
+13766	At the Ready
+13767	At the Ready
+13768	A 2nd Title obtained from the Battle Revamp Celebration Hotday Event.
+13769	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13770	Luck +20
