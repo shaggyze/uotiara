@@ -1,4 +1,4 @@
-# Unofficial Tiara's Moonshine Mod by ShaggyZE. ![Build status](https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva?svg=true)(https://ci.appveyor.com/project/shaggyze/uotiara)
+# Unofficial Tiara's Moonshine Mod by ShaggyZE. ![Build status](https://ci.appveyor.com/api/projects/status/github/shaggyze/uotiara?branch=master&svg=true)
 
 Thanks to this months donator/s biscuit, Unfettered and special thanks to Amaretto, Penguin Eater, Draconis, Blade3575 and Step29 (along with Plonecakes, kotarou3, thatguysteve and Halfslashed) for Abyss, regomne for mabi-pack2, Sven/Darnell for Hyddwn Launcher and Cursey for Kanan.
 -------------------------------------------------------------------------
