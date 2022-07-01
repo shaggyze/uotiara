@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
-!define UOSHORTVERSION        "387"
-!define UOLONGVERSION         "0.20.49"
+!define UOSHORTVERSION        "388"
+!define UOLONGVERSION         "0.21.49"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -11690,7 +11690,7 @@ StrCpy $R7 'xcopy "$INSTDIR\data\sound\" "$INSTDIR\UOTiara\data\sound\" /q /s /y
 Call UOTiaraPack
 StrCpy $R7 'copy /y "$INSTDIR\data\features.xml.compiled" "$INSTDIR\UOTiara\data\features.xml.compiled"'
 Call UOTiaraPack
-StrCpy $R7 "$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\ -o $INSTDIR\package\uotiara_00001.it"
+StrCpy $R7 '$INSTDIR\mabi-pack2\mabi-pack2.exe pack -i $INSTDIR\UOTiara\ -o $INSTDIR\package\uotiara_00001.it -k "@6QeTuOaDgJlZcBm#9"'
 Call UOTiaraPack
 StrCpy $R7 "rmdir /q /s  $INSTDIR\data\material\_define\"
 Call UOTiaraPack

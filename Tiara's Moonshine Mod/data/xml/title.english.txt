@@ -10377,8 +10377,8 @@
 11805	the Dragon Master
 11806	the Dragon Master
 11807	the Dragon Master
-11808	A title given to a true dragon master, who has overcome the hardship of crafting a Marshal Fire Dragon's Horn.
-11809	A title given to a true dragon master, who has overcome the hardship of crafting a Marshal Fire Dragon's Horn.
+11808	A title given to a true dragon master, who has overcome the hardship of crafting a Red Flame Fire Dragon Horn.
+11809	A title given to a true dragon master, who has overcome the hardship of crafting a Red Flame Fire Dragon Horn.
 11810	Luck +25
 11811	Pals from Pixel World
 11812	Pixel World Victor
@@ -11927,34 +11927,34 @@
 13418	Music Buff Effect +10\nMusic Buff Duration +15\nMovement Speed +4%
 13419	Magic Attack +42\nDefense +12\nProtection +12\nMagic Defense +12\nMagic Protection +9
 13420	Max Damage +24\nDefense +12 \nProtection +12\nMagic Defense +12\nMagic Protection +9\nMovement Speed +3%
-13421	임볼릭 1시즌 챌린저
-13422	임볼릭 2시즌 챌린저
-13423	임볼릭 3시즌 챌린저
-13424	교역왕
-13425	임볼릭 1시즌 챌린저
-13426	임볼릭 2시즌 챌린저
-13427	임볼릭 3시즌 챌린저
-13428	교역왕
-13429	임볼릭 1시즌 챌린저
-13430	임볼릭 2시즌 챌린저
-13431	임볼릭 3시즌 챌린저
-13432	교역왕
-13433	임볼릭 1시즌 챌린저
-13434	임볼릭 2시즌 챌린저
-13435	임볼릭 3시즌 챌린저
-13436	교역왕
-13437	교역 임볼릭 1시즌 챌린저 등급을 달성한 유저에게 주어지는 영광스러운 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13438	교역 임볼릭 2시즌 챌린저 등급을 달성한 유저에게 주어지는 영광스러운 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13439	교역 임볼릭 3시즌 챌린저 등급을 달성한 유저에게 주어지는 영광스러운 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13440	교역 시즌 랭킹 TOP 100 에게 주어지는 영광스러운 1차 타이틀이다. 획득 이후 100일간 사용할 수 있다.
-13441	교역 임볼릭 1시즌 챌린저 등급을 달성한 유저에게 주어지는 영광스러운 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13442	교역 임볼릭 2시즌 챌린저 등급을 달성한 유저에게 주어지는 영광스러운 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13443	교역 임볼릭 3시즌 챌린저 등급을 달성한 유저에게 주어지는 영광스러운 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13444	교역 시즌 랭킹 TOP 100위에게 주어지는 영광스러운 1차 타이틀이다.
-13445	이동 속도 3% 증가
-13446	이동 속도 3% 증가
-13447	이동 속도 3% 증가
-13448	크리티컬 대미지 5% 증가\n벨테인 미션 전투 경험치 150% 증가\n전투 경험치 10% 증가
+13421	Imbolic Season 1 Challenger
+13422	Imbolic Season 2 Challenger
+13423	Imbolic Season 3 Challenger
+13424	a Commerce Champion
+13425	Imbolic Season 1 Challenger
+13426	Imbolic Season 2 Challenger
+13427	Imbolic Season 3 Challenger
+13428	a Commerce Champion
+13429	Imbolic Season 1 Challenger
+13430	Imbolic Season 2 Challenger
+13431	Imbolic Season 3 Challenger
+13432	a Commerce Champion
+13433	Imbolic Season 1 Challenger
+13434	Imbolic Season 2 Challenger
+13435	Imbolic Season 3 Challenger
+13436	a Commerce Champion
+13437	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Imbolic Season 1. Can be used with regular titles.
+13438	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Imbolic Season 2. Can be used with regular titles.
+13439	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Imbolic Season 3. Can be used with regular titles.
+13440	A glorious Title given to those who ranked within the top 100 during a Commerce Season. Usable for 100 days, starting from when the title was acquired.
+13441	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Imbolic Season 1. Can be used with regular titles.
+13442	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Imbolic Season 2. Can be used with regular titles.
+13443	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Imbolic Season 3. Can be used with regular titles.
+13444	A glorious Title given to those who ranked within the top 100 during a Commerce Season.
+13445	Movement Speed +3%
+13446	Movement Speed +3%
+13447	Movement Speed +3%
+13448	Critical Damage +5%\nBaltane Mission Combat EXP +150%\nCombat EXP +10%
 13449	Special Support
 13450	Special Support
 13451	Special Support
@@ -12004,6 +12004,20 @@
 13495	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 13496	Luck +30
 13497	Luck +30
+13498	a Commerce Champion in Training
+13499	the Guardian of the Secret Notes
+13502	a Commerce Champion in Training
+13503	the Guardian of the Secret Notes
+13506	a Commerce Champion in Training
+13507	the Guardian of the Secret Notes
+13510	a Commerce Champion in Training
+13511	the Guardian of the Secret Notes
+13514	You've cleared Episode 1 of the Secrets of the Commerce Champion event.
+13515	You've cleared Episode 2 of the Secrets of the Commerce Champion event.
+13518	A title for clearing Episode 1 of the Secrets of the Commerce Champion event.
+13519	A title for clearing Episode 2 of the Secrets of the Commerce Champion event.
+13522	Luck +30\nWill +25
+13523	Luck +25\nWill +30
 13526	You Shine Bright
 13527	You Shine Bright
 13528	You Shine Bright
@@ -12125,20 +12139,20 @@
 13719	A title granted in celebration of the 2022 North American Server Merge event.
 13720	
 13721	
-13722	요정의 기억
-13723	요정의 추억
-13724	요정의 기억
-13725	요정의 추억
-13726	요정의 기억
-13727	요정의 추억
-13728	요정의 기억
-13729	요정의 추억
-13730	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13731	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13732	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13733	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13734	행운 30 증가
-13735	행운 30 증가
+13722	Memory of the Fairies
+13723	Remembrance of the Fairies
+13724	Memory of the Fairies
+13725	Remembrance of the Fairies
+13726	Memory of the Fairies
+13727	Remembrance of the Fairies
+13728	Memory of the Fairies
+13729	Remembrance of the Fairies
+13730	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13731	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13732	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13733	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13734	Luck +30
+13735	Luck +30
 13736	17년 전에 곰을 잡다
 13737	17년 전에 곰을 잡다
 13738	17년 전에 곰을 잡다
@@ -12153,3 +12167,59 @@
 13768	A 2nd Title obtained from the Battle Revamp Celebration Hotday Event.
 13769	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 13770	Luck +20
+13806	판타스틱 데이
+13807	판타스틱 데이
+13808	판타스틱 데이
+13809	판타스틱 데이
+13810	2022 판타스틱 데이에 함께해준 밀레시안에게 지급되는 타이틀.
+13811	2022 판타스틱 데이에 함께해준 밀레시안에게 지급되는 타이틀.
+13812	최대 대미지 20 증가\n마법 공격력 20 증가\n물 / 불 / 바람 / 흙 속성\n연금술 대미지 10 증가
+13813	Symbol of the Regal Retreat
+13814	Call of the Fragrant Flowers
+13815	Dream of the Dense Forest
+13816	Special Symbol of the Regal Retreat
+13817	Special Call of the Fragrant Flowers
+13818	Special Dream of the Dense Forest
+13819	Symbol of the Regal Retreat
+13820	Call of the Fragrant Flowers
+13821	Dream of the Dense Forest
+13822	Special Symbol of the Regal Retreat
+13823	Special Call of the Fragrant Flowers
+13824	Special Dream of the Dense Forest
+13825	Symbol of the Regal Retreat
+13826	Call of the Fragrant Flowers
+13827	Dream of the Dense Forest
+13828	Special Symbol of the Regal Retreat
+13829	Special Call of the Fragrant Flowers
+13830	Special Dream of the Dense Forest
+13831	Symbol of the Regal Retreat
+13832	Call of the Fragrant Flowers
+13833	Dream of the Dense Forest
+13834	Special Symbol of the Regal Retreat
+13835	Special Call of the Fragrant Flowers
+13836	Special Dream of the Dense Forest
+13837	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13838	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13839	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13840	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13841	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13842	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13843	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13844	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13845	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13846	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13847	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13848	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13849	Luck +30
+13850	Luck +30
+13851	Luck +30
+13852	Max Damage +20\nCritical Damage +1%\nBonus Damage +1%\nMovement Speed +2%
+13853	Refining Success Rate +4%\nBlacksmithing Success Rate +5%\nBlacksmithing Completeness +4\nProduction Success Rate +2%
+13854	When used with the Magic Artisan title, Magic Craft Completeness Quality increased\nProduction Success Rate +3%
+15283	You Shine Bright
+15284	You Shine Bright
+15285	You Shine Bright
+15286	You Shine Bright
+15287	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15288	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15289	Gathering Success Rate +5%\nGathering Speed +5%\nAutomatic Fishing Success Rate Increased\nBonus Ducats +5%\nMovement Speed +5%

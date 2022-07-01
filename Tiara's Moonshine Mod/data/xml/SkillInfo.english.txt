@@ -4196,7 +4196,7 @@
 6259	This capsule is full of a foul powder that decreases enemy Defense, Magic Defense, Protection, and Magic Protection, thus increasing the damage of your next attack!
 6260	Complete quest: The Crisis
 6261	Skill Range
-6262	Smokescreen Radius
+6262	Smoke Radius
 6263	Defense and Magic Defense Reduction
 6264	Flash Launcher
 6265	Grapple Shot

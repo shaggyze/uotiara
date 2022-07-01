@@ -18,6 +18,7 @@ camputil.1	No Camping Kit in the inventory.
 camputil.2	The Camping Kit was added to the Personal Shop.
 chainskilldesc.1	You can use this skill after using stage {0} Combo.
 commercedescmgr.1	.
+commercedescmgr.2	Plays special background music full of holiday cheer.
 compareskilllevelhandler.1	If the rank of {0} is dan {1}
 compareskilllevelhandler.2	If the rank of {0} is dan {1} or higher
 compareskilllevelhandler.3	If the rank of {0} is dan {1} or lower
@@ -186,6 +187,7 @@ interface_characteretc.20	You cannot watch an episode during PVP.
 interface_characteretc.21	You can't move to that area.
 interface_characteretc.22	You can't register in this region.
 interface_characteretc.23	You can't warp while engaged in commerce.
+interface_characteretc.24	You cannot watch while engaged in a pursuit.
 interface_condition.1	You cannot do anything while your hands are full.\nPlease change equipment and try again.
 interface_dungeonguide.1	Attempt failed.
 interface_dungeonguide.2	Attempt failed.\nPlease double-check the requirements to enter.
@@ -501,7 +503,7 @@ mabinogi_commerce.15	The Trade Goods are too far away from the Trading Post.
 mabinogi_commerce.16	Failed to trade Trade Goods. (11)
 mabinogi_commerce.17	Insufficient Slots.
 mabinogi_commerce.18	Unable to read transport method info.
-mabinogi_commerce.19	You can use the Transport Mount after\npaying the Transport Helper in Ducats.
+mabinogi_commerce.19	You can use this transport mount after\npaying a fee in Ducats. See the\nTransport Helper to learn more.
 mabinogi_commerce.20	The current transport method cannot handle\nthe weight of the current Trade Goods.
 mabinogi_commerce.21	The current transport method does not have\nenough slots to hold the Trade Goods.
 mabinogi_commerce.22	Failed to trade Trade Goods. (12)
@@ -513,6 +515,11 @@ mabinogi_commerce.27	This Transport Mount can only be used while the Commerce Pa
 mabinogi_commerce.28	This Transport Mount can only be used while the Alpaca is summoned.\nPlease choose a different Transport Mount.
 mabinogi_commerce.29	This partner cannot use the Transport Mount.\nPlease choose a different Transport Mount.
 mabinogi_commerce.30	This Transport Mount can only be used during the event.\nPlease choose a different Transport Mount.
+mabinogi_commerce.31	You don't have enough Seasonal Ducats.
+mabinogi_commerce.32	You can use this transport mount after\npaying a fee in Seasonal Ducats. See the\nTransport Helper to learn more.
+mabinogi_commerce.33	{0} {1}
+mabinogi_commerce.34	AM
+mabinogi_commerce.35	PM
 mabinogi_etcconstants.1	Beginner
 mabinogi_etcconstants.2	Intermediate
 mabinogi_etcconstants.3	Advanced
@@ -846,6 +853,7 @@ questresult.3	Crusader EXP {0}
 questresult.4	Command EXP {0}
 questresult.5	Training Points {0}
 questresult.6	Mission Points {0}
+questresult.7	Seasonal Ducats {0}
 questresult.8	(Growth Support Potion Bonus)
 recommendflagtable.1	EXP +{0}
 recommendflagtable.2	{0} - A recommender will receive {1} Recommendation EXP.

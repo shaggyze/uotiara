@@ -2900,14 +2900,14 @@
 3876	Master Bandit Imp
 3877	Master Bandit Human
 3878	Master Bandit Giant
-3879	[P]Backpack
-3880	[P]Handcart
-3881	[P]Wagon
-3882	[P]Pack Elephant
-3883	[P]Backpack
-3884	[P]Handcart
-3885	[P]Wagon
-3886	[P]Pack Elephant
+3879	[Partner] Backpack
+3880	[Partner] Handcart
+3881	[Partner] Wagon
+3882	[Partner] Pack Elephant
+3883	[Partner] Backpack
+3884	[Partner] Handcart
+3885	[Partner] Wagon
+3886	[Partner] Pack Elephant
 3894	블랙 플레임메어
 3895	"One-Eye" Klugger
 3896	"No-Face" Nelson
@@ -7987,7 +7987,7 @@
 10165	Wedding Carpet
 10166	Tractor Cellien
 10167	Tractor Cellien
-10168	Marshal Fire Dragon
+10168	Red Flame Fire Dragon
 10169	Cellien Quest Board
 10170	Cellien Crystal Ball
 10171	Cellien Viewscope
@@ -8800,7 +8800,7 @@
 11005	Summer Vacation Wizard Corgi
 11006	Summer Vacation Wizard Corgi
 11007	Giant Leprechaun
-11008	다루의 스쿠터(프리시즌용)
+11008	Scooter Imp (Master Plan)
 11009	Folamh
 11010	Frozen Cari
 11011	Un Llygadog
@@ -8951,6 +8951,12 @@
 11159	Banshee
 11160	Succubus Queen
 11161	Fahmes Ruin
+11162	Dog Sled
+11163	Pack Camel
+11164	Trader's Skiff
+11165	Baby Dragon
+11166	Blue Crab
+11167	Black Snowfield Bear
 11168	Revived Master Lich
 11169	Sahagin Soldier
 11170	Sahagin Fighter
@@ -8992,6 +8998,61 @@
 11206	Irusan Doll
 11207	Crom Bas Brielle Doll
 11208	Crom Bas Gillach Doll
+11209	Disguised Bandit Elf
+11210	Disguised Bandit Human
+11211	Disguised Bandit Giant
+11212	Disguised Bandit Boss
+11213	Novice Bandit Human
+11214	Rookie Bandit Elf
+11215	Rookie Bandit Elf
+11216	Rookie Bandit Human
+11217	Rookie Bandit Giant
+11218	Rookie Bandit Boss
+11219	Rookie Bandit Boss
+11220	Rookie Bandit Boss
+11221	Trained Bandit Elf
+11222	Trained Bandit Elf
+11223	Trained Bandit Human
+11224	Trained Bandit Giant
+11225	Trained Bandit Boss
+11226	Trained Bandit Boss
+11227	Trained Bandit Boss
+11228	Hardened Bandit Elf
+11229	Hardened Bandit Elf
+11230	Hardened Bandit Human
+11231	Hardened Bandit Giant
+11232	Hardened Bandit Boss
+11233	Hardened Bandit Boss
+11234	Hardened Bandit Boss
+11235	Veteran Bandit Elf
+11236	Veteran Bandit Elf
+11237	Veteran Bandit Human
+11238	Veteran Bandit Giant
+11239	Veteran Bandit Boss
+11240	Veteran Bandit Boss
+11241	Veteran Bandit Boss
+11242	Master Bandit Elf
+11243	Master Bandit Elf
+11244	Master Bandit Human
+11245	Master Bandit Giant
+11246	Master Bandit Boss
+11247	Master Bandit Boss
+11248	Master Bandit Boss
+11249	Veteran Bandit Elf
+11250	Veteran Bandit Elf
+11251	Veteran Bandit Human
+11252	Veteran Bandit Giant
+11253	Master Bandit Elf
+11254	Master Bandit Elf
+11255	Master Bandit Human
+11256	Master Bandit Giant
+11257	"The Loner" Fintan
+11258	"Penny-Pincher" Padriga
+11259	"Dreammaker" Dovheil
+11260	"Charmer" Kristol
+11261	"Upstanding Outlaw" Mor
+11262	"Oddfellow" Owain
+11263	"The Rabbit"
 11265	Cessair's Heart
 11267	Cessair's Heart
 11269	Llywelyn
@@ -9018,8 +9079,19 @@
 11306	Dark Disciple
 11307	Melci Diafol
 11308	Melci Diafol
+11309	"The Loner" Fintan
+11310	"Penny-Pincher" Padriga
+11311	"Dreammaker" Dovheil
+11312	"Charmer" Kristol
+11313	"Upstanding Outlaw" Mor
+11314	"Oddfellow" Owain
+11315	"The Rabbit"
 11316	아르헨
 11317	모르트
+11318	Dog Sled
+11319	[Partner] Dog Sled
+11320	[Partner] Pack Camel
+11321	[Partner] Trader's Skiff
 11322	Rookie Bandit Human
 11323	Rookie Bandit Giant
 11324	Rookie Bandit Boss
@@ -9052,21 +9124,73 @@
 11351	Master Bandit Boss
 11353	다루의 스쿠터 (이벤트)
 11354	Slime Wyneb Mini-Gem
+11355	[Partner] Dog Sled
+11356	Dog Sled
+11357	Fine Pack Camel
+11358	Fine Trader's Skiff
+11359	Fine Dog Sled
+11360	[Partner] Fine Dog Sled
+11361	[Partner] Fine Pack Camel
 11362	케라우노스(프리시즌용)
+11363	[Partner] Fine Trader's Skiff
+11364	[Partner] Fine Dog Sled
 11366	Black Tiger
 11367	Black Tiger Cub
 11368	Black Tiger
 11369	Black Tiger Cub
 11370	Black Tiger
+11371	Bandit Boss
+11372	Bandits
+11373	Bandits
+11374	Bandits
+11375	Bandits
+11376	Rhys
+11377	Bandits
+11378	Bandits
+11379	Bandits
+11380	Bandits
+11381	Marl
+11382	Giant Worker
+11383	Giant Worker
+11384	Giant Worker
+11385	Bandit Boss
+11386	Bandits
+11387	Bandits
+11388	Bandits
+11389	Bandits
+11390	Bandits
+11391	Bandits
 11392	크리스마스 알파카
 11393	보송 알파카
+11394	Bandit Boss
+11395	Bandits
+11396	Bandits
+11397	Rhys
 11410	Giga Glas Ghaibhleann
 11411	Giga Glas Ghaibhleann
 11455	Barista Fallen Fairy
 11456	Barista Flora
+11457	Adept Novice Wyvern Mercenary
+11458	Adept Weak Wyvern Mercenary
+11459	Adept Wyvern Mercenary
+11460	Adept Amateur Wyvern Mercenary
+11461	Adept Foreign Wyvern Mercenary
+11462	Adept Full-Time Wyvern Mercenary
+11463	Adept Rookie Wyvern Mercenary
+11464	Adept Lonely Wyvern Mercenary
+11465	Adept Sturdy Wyvern Mercenary
+11466	Cunning Novice Wyvern Mercenary
+11467	Cunning Weak Wyvern Mercenary
+11468	Cunning Wyvern Mercenary
+11469	Cunning Amateur Wyvern Mercenary
+11470	Cunning Foreign Wyvern Mercenary
+11471	Cunning Full-Time Wyvern Mercenary
+11472	Cunning Rookie Wyvern Mercenary
+11473	Cunning Lonely Wyvern Mercenary
+11474	Cunning Sturdy Wyvern Mercenary
 11476	Mokkurkalfi
 11477	Giant Worm
 11478	기사 아일린
 11479	요리사 아일린
 11480	연회장 직원 아일린
-11566	다루의 스쿠터(90일)
+11566	Scooter Imp (90 Days)

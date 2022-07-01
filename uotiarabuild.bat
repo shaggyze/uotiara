@@ -21,7 +21,7 @@ set /p "yesno=Compile features.xml.compiled y/n?:"
 IF "%yesno%"=="y" (
 @ECHO ON
 for %%f in (C:\Nexon\Library\mabinogi\appdata\package\*.it) do (
-  C:\Nexon\Library\mabinogi\appdata\mabi-pack2\mabi-pack2.exe extract -i %%f -o . --filter "\.compiled"
+  C:\Nexon\Library\mabinogi\appdata\mabi-pack2\mabi-pack2.exe extract -i %%f -o . --filter "\.compiled" -k "@6QeTuOaDgJlZcBm#9"
 )
 ".\Tiara's Moonshine Mod\Tools\MabiFeatureTool\MabiFeatureTool.exe" ".\data\features.xml.compiled"
 for %%A in (".\UpdateFeatures.ps1") do PowerShell -ExecutionPolicy RemoteSigned -File %%~sA
@@ -44,8 +44,8 @@ ECHO Skipping Copy
 ECHO Invalid Option: y or n
 PAUSE
 )
-ECHO Building uotiara_00001.it
 @ECHO OFF
+ECHO Building uotiara_00001.it
 xcopy "C:\Nexon\Library\mabinogi\appdata\data\code\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\local\code\" /q /s /y /c /e
 xcopy "C:\Nexon\Library\mabinogi\appdata\data\xml\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\local\xml\" /q /s /y /c /e
 xcopy "C:\Nexon\Library\mabinogi\appdata\data\db\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\db\" /q /s /y /c /e
@@ -54,7 +54,7 @@ xcopy "C:\Nexon\Library\mabinogi\appdata\data\locale\" "C:\Nexon\Library\mabinog
 xcopy "C:\Nexon\Library\mabinogi\appdata\data\material\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\material\" /q /s /y /c /e
 xcopy "C:\Nexon\Library\mabinogi\appdata\data\sound\" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\sound\" /q /s /y /c /e
 xcopy "C:\Nexon\Library\mabinogi\appdata\data\features.xml.compiled" "C:\Nexon\Library\mabinogi\appdata\UOTiara\data\features.xml.compiled" /q /s /y /c /e
-C:\Nexon\Library\mabinogi\appdata\mabi-pack2\mabi-pack2.exe pack -i C:\Nexon\Library\mabinogi\appdata\UOTiara\ -o C:\Nexon\Library\mabinogi\appdata\package\uotiara_00001.it -f .jpg
+C:\Nexon\Library\mabinogi\appdata\mabi-pack2\mabi-pack2.exe pack -i C:\Nexon\Library\mabinogi\appdata\UOTiara\ -o C:\Nexon\Library\mabinogi\appdata\package\uotiara_00001.it -f .jpg -k "@6QeTuOaDgJlZcBm#9"
 rmdir /q /s  C:\Nexon\Library\mabinogi\appdata\data\material\_define\
 copy /y "C:\Nexon\Library\mabinogi\appdata\package\uotiara_00001.it" "C:\Users\%username%\Documents\GitHub\uotiara\uotiara_00001.it"
 @ECHO OFF

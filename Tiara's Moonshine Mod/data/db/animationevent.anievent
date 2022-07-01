@@ -2693,6 +2693,18 @@ set("C4_human")
 		0:lookat(off)		
 		0:hand(both, palm)
 	
+	
+	"female_fairydragon_sit"
+		0:hideequip(false)
+		0:lookat(off)
+		0:eyechange(223,0)
+		
+	"male_fairydragon_sit"
+		0:hideequip(false)
+		0:lookat(off)		
+		0:eyechange(223,0)
+	
+	
 	"human_judgebagsit"
 			0:hideequip(false)
 			0:lookat(off)		
@@ -10634,6 +10646,113 @@ set("whale_riding")
 	endfolder	
 
 endset	
+
+////////////////////////////////////////////////////////////////////	
+set("riding_fairydragon")
+
+	folder("char\chapter4\human\anim\riding\riding_fairydragon")	
+	
+		"uni_fairydragon_riding_stand"
+			0:lookat(off)
+			0:hand(both, palm)
+			0:hideequip(false)
+			
+		"uni_fairydragon_riding_offensive"
+			0:lookat(off)
+			0:hideequip(false)			
+			0:hand(both, palm)
+			
+		"uni_fairydragon_riding_walk"
+			0:lookat(off)
+			0:hideequip(false)				
+			0:hand(both, palm)
+					
+				
+		"uni_fairydragon_riding_run"
+			0:lookat(off)
+			0:hideequip(false)					
+			0:hand(both, palm)
+					
+		"uni_fairydragon_riding_booster"
+			0:lookat(off)
+			0:hideequip(false)					
+			0:hand(both, palm)					
+					
+		"uni_fairydragon_riding_attack"
+			0:lookat(off)
+			0:hideequip(false)					
+			0:hand(both, palm)
+			
+		"uni_fairydragon_riding_HitA"
+			0:lookat(off)
+			0:hideequip(false)
+			0:face(down)
+			0:hand(both, palm)
+			
+		"uni_fairydragon_riding_HitB"
+			0:hideequip(false)		
+			0:lookat(off)
+			0:face(down)	
+			0:hand(both, palm)
+			
+		"uni_fairydragon_riding_aimingpower"
+			0:lookat(off)			
+			154:jump(134)	
+			
+		"uni_fairydragon_riding_aimingRange"
+			0:lookat(off)		
+			92:jump(72)				
+		
+		"uni_fairydragon_riding_aimingsplinter"
+			0:lookat(off)
+			120:jump(75)
+
+		"uni_fairydragon_riding_dash_run"
+			0:lookat(off)
+			0:sound("data\sound\Glasgavelen_attack1_1.wav")	
+			0:hand(both, fist)
+			
+		"uni_fairydragon_riding_dashattack"
+			0:lookat(off)
+			0:hit(down,normal)	
+			0:hand(left, fist)
+			0:hand(right, fist)
+			0:sound("data\sound\skill_assault_hit.wav")
+			0:effect("human_dash1_hit01")	
+			
+		"uni_fairydragon_riding_shootingpower"
+				0:lookat(off)
+					
+		"uni_fairydragon_riding_shootingrange"
+				0:lookat(off)
+					
+		"uni_fairydragon_riding_shootingsplinter"
+				0:lookat(off)
+
+		"uni_fairydragon_riding_g02_shootingpower"
+				0:lookat(off)
+					
+		"uni_fairydragon_riding_g02_shootingrange"
+				0:lookat(off)
+					
+		"uni_fairydragon_riding_g02_shootingsplinter"
+				0:lookat(off)
+	
+		"uni_fairydragon_riding_g02_aimingpower"
+				0:lookat(off)	
+				98:jump(58)
+			
+		"uni_fairydragon_riding_g02_aimingRange"
+				0:lookat(off)
+				63:jump(33)	
+		
+		"uni_fairydragon_riding_g02_aimingsplinter"
+				0:lookat(off)
+				120:jump(65)
+				
+	endfolder	
+
+endset
 	
 ///////////////////////////////////////////////////////////////////////////////
 
@@ -13086,7 +13205,17 @@ set("C4_giant")
 		0:hideequip(false)
 		0:lookat(off)		
 		0:hand(both, palm)
-	
+		
+	"giant_female_fairydragon_sit"
+		0:hideequip(false)
+		0:lookat(off)
+		0:eyechange(223,0)
+		
+	"giant_fairydragon_sit"
+		0:hideequip(false)
+		0:lookat(off)		
+		0:eyechange(223,0)	
+		
 	"giant_judgebagsit"
 			0:hideequip(false)
 			0:lookat(off)		
@@ -20465,6 +20594,128 @@ set("whale_riding")
 
 endset	
 
+/////////////////////////////////////////////////////////////
+
+set("riding_fairydragon")
+
+	folder("char\chapter4\giant\anim\riding\riding_fairydragon")
+
+		
+		"giant_fairydragon_riding_stand"
+				0:lookat(off)
+				0:hideequip(false)		
+				0:hand(both, palm)			
+	
+			
+		"giant_fairydragon_riding_offensive"
+				0:lookat(off)
+				0:hideequip(false)		
+				0:hand(both, palm)					
+			
+		"giant_fairydragon_riding_run"
+				0:lookat(off)
+				0:hideequip(false)		
+				0:hand(both, palm)
+
+		"giant_fairydragon_riding_booster"
+				0:lookat(off)
+				0:hideequip(false)		
+				0:hand(both, palm)				
+				
+		"giant_fairydragon_riding_walk"
+				0:lookat(off)
+				0:hideequip(false)		
+				0:hand(both, palm)			
+			
+		"giant_fairydragon_riding_attack"
+				0:lookat(off)
+				0:hideequip(false)		
+				0:hand(both, palm)			
+				
+		"giant_fairydragon_riding_HitA"
+			0:lookat(off)
+			0:hideequip(false)
+			0:face(down)
+			0:hand(both, palm)
+			
+		"giant_fairydragon_riding_HitB"
+			0:hideequip(false)		
+			0:lookat(off)
+			0:face(down)	
+			0:hand(both, palm)
+		
+		"giant_fairydragon_riding_dash_run"
+			0:lookat(off)
+			0:sound("data\sound\Glasgavelen_attack1_1.wav")	
+			0:hand(both, fist)
+			
+		"giant_fairydragon_riding_dashattack"
+			0:lookat(off)
+			0:hit(down,normal)	
+			0:hand(left, fist)
+			0:hand(right, fist)
+			0:sound("data\sound\skill_assault_hit.wav")
+			0:effect("human_dash1_hit01")	
+	
+		"giant_female_fairydragon_riding_stand"
+				0:lookat(off)
+				0:hideequip(false)		
+				0:hand(both, palm)			
+	
+			
+		"giant_female_fairydragon_riding_offensive"
+				0:lookat(off)
+				0:hideequip(false)		
+				0:hand(both, palm)				
+			
+		"giant_female_fairydragon_riding_run"
+				0:lookat(off)
+				0:hideequip(false)		
+				0:hand(both, palm)
+
+		"giant_female_fairydragon_riding_booster"
+				0:lookat(off)
+				0:hideequip(false)		
+				0:hand(both, palm)				
+				
+		"giant_female_fairydragon_riding_walk"
+				0:lookat(off)
+				0:hideequip(false)		
+				0:hand(both, palm)			
+			
+		"giant_female_fairydragon_riding_attack"
+				0:lookat(off)
+				0:hideequip(false)		
+				0:hand(both, palm)			
+				
+		"giant_female_fairydragon_riding_HitA"
+			0:lookat(off)
+			0:hideequip(false)
+			0:face(down)
+			0:hand(both, palm)
+			
+		"giant_female_fairydragon_riding_HitB"
+			0:hideequip(false)		
+			0:lookat(off)
+			0:face(down)	
+			0:hand(both, palm)
+		
+		"giant_female_fairydragon_riding_dash_run"
+			0:lookat(off)
+			0:sound("data\sound\Glasgavelen_attack1_1.wav")	
+			0:hand(both, fist)
+			
+		"giant_female_fairydragon_riding_dashattack"
+			0:lookat(off)
+			0:hit(down,normal)	
+			0:hand(left, fist)
+			0:hand(right, fist)
+			0:sound("data\sound\skill_assault_hit.wav")
+			0:effect("human_dash1_hit01")	
+		
+	endfolder
+
+endset
 ////////////////////////////////////////////////////////////////////////
 
 set("riding_Raiden")
@@ -26560,6 +26811,57 @@ set("social motion")
 	
 	folder("char\chapter4\human\anim\social_motion")
 	
+	"female_secretresort"
+	0:lookat(off)
+	0:hand(both, palm)
+	46:generic("custom_mesh(0:tool_bottle_ani)")
+	46:generic("custom_equip(weapon:tool_cup_ani)")
+	1005:jump (464, true)
+
+
+	
+	"male_secretresort"
+    0:lookat(off)
+	0:hand(both, palm)
+	46:generic("custom_mesh(0:tool_bottle_ani)")
+	46:generic("custom_equip(weapon:tool_cup_ani)")
+	1005:jump (464, true)
+	
+	
+	
+	
+	
+	
+	"human_natural_gesture_s13_03"
+		0:lookat(off)		
+		0:hand(both, palm)	
+		0:hideequip(false)	
+	
+	
+	"female_18thspace"
+	0:lookat(off)
+	0:hand(both, palm)
+	247:generic("custom_equip(shield:tool_c4_walkietalkie)")
+	1116:jump (537, true)
+	338:effect("18thspace01",0,1)
+	339:effect("18thspace02",0,1)
+	556:face(love)
+	975:face(default)
+	
+	
+	
+	
+	"male_18thspace"
+	0:lookat(off)
+	0:hand(both, palm)
+	247:generic("custom_equip(shield:tool_c4_walkietalkie)")
+	1116:jump (537, true)
+	338:effect("18thspace01",0,1)
+	339:effect("18thspace02",0,1)
+	556:face(love)
+	975:face(default)
+	
+	
 	"female_raven"
 	0:lookat(off)
 	0:hand(both, palm)
@@ -28350,7 +28652,7 @@ set("social motion")
 		270:effect("water07",0,1)
 		270:effect("water08",0,1)
 		270:effect("water09",0,1)		
-		978:jump(402,true)
+		992:jump(416,true)
 		
 	"female_wavewear"
 		0:lookat(off)
@@ -29572,26 +29874,26 @@ set("social motion")
 	"female_forestfairy01"
 		0:lookat(off)
 		0:hand (both, palm)
-		120:linkframework(1, "race:990333, c1:A3998E c2:080808 c3:080808 c4:080808 c5:080808", "handtoolR", "data\gfx\char\chapter4\human\anim\tool\acc_forestfairy01_stand")
+		120:linkframework(1, "race:990333, c1:FFFFFF c2:FFFFFF c3:080808 c4:080808 c5:080808", "handtoolR", "data\gfx\char\chapter4\human\anim\tool\acc_forestfairy01_stand")
 		800:jump(150,true)
 		
 	"male_forestfairy01"
 		0:lookat(off)
 		0:hand (both, palm)
-		120:linkframework(1, "race:990333, c1:A3998E c2:080808 c3:080808 c4:080808 c5:080808", "handtoolR", "data\gfx\char\chapter4\human\anim\tool\acc_forestfairy01_stand")
+		120:linkframework(1, "race:990333, c1:FFFFFF c2:FFFFFF c3:080808 c4:080808 c5:080808", "handtoolR", "data\gfx\char\chapter4\human\anim\tool\acc_forestfairy01_stand")
 		800:jump(150,true)
 	
 		
 	"female_forestfairy02"
 		0:lookat(off)
 		0:hand (both, palm)
-		120:linkframework(1, "race:990334, c1:CE9D6A c2:DAC9B8 c3:080808 c4:080808 c5:080808", "handtoolR", "data\gfx\char\chapter4\human\anim\tool\acc_forestfairy02_stand")
+		120:linkframework(1, "race:990334, c1:FFFFFF c2:FFFFFF c3:080808 c4:080808 c5:080808", "handtoolR", "data\gfx\char\chapter4\human\anim\tool\acc_forestfairy02_stand")
 		800:jump(150,true)
 		
 	"male_forestfairy02"
 		0:lookat(off)
 		0:hand (both, palm)
-		120:linkframework(1, "race:990334, c1:CE9D6A c2:DAC9B8 c3:080808 c4:080808 c5:080808", "handtoolR", "data\gfx\char\chapter4\human\anim\tool\acc_forestfairy02_stand")
+		120:linkframework(1, "race:990334, c1:FFFFFF c2:FFFFFF c3:080808 c4:080808 c5:080808", "handtoolR", "data\gfx\char\chapter4\human\anim\tool\acc_forestfairy02_stand")
 		800:jump(150,true)
 		
 
@@ -48107,6 +48409,122 @@ set("phoenix")
 			0:effectoff("pet_heart_whale")
 			
     endfolder	
+
+///////////////////////////////// 페어리 드래곤  ////////////////////////////////////
+
+	   folder("char\chapter4\pet\anim\dragon")
+
+        "pet_fairydragon_soundbreath"
+			0:lookat(off)
+            17:effect("fdragon_beam001",0,1)				
+            0:effect("fdragon_beam002",0,1)		
+		   20:effect("fdragon_beam_bomb001",0,1)	
+		   
+        "pet_fairydragon_songsentimental"
+			0:lookat(off)
+            0:effect("song_sen001",0,1)				
+            0:effect("song_sen002",0,1)		
+            0:effect("song_sen003",0,1)			
+
+	
+        "pet_fairydragon_stand"
+			0:lookat(off)
+			
+        "pet_fairydragon_offensive"
+			0:lookat(off)   		
+			
+		"pet_fairydragon_run"
+			0:lookat(off)
+
+	"pet_fairydragon_mini_run"
+			0:lookat(off)
+		
+			
+        "pet_fairydragon_walk"
+			0:lookat(off)   
+			
+        "pet_fairydragon_booster"
+			0:lookat(off)   
+			
+        "pet_fairydragon_attack"
+			0:lookat(off)		
+			12:hit(down,normal)		
+			
+        "pet_fairydragon_smash"
+			0:lookat(off)
+			30:hit(down,spin)			
+            30:effect("red_fire_swing001",0,1)	
+			
+		"pet_fairydragon_counter"
+			0:lookat(off)		
+			15:hit(down,normal)
+ 
+		"pet_fairydragon_defence"
+			0:lookat(off)	
+ 
+		"pet_fairydragon_down"
+			0:lookat(off)
+			
+		"pet_fairydragon_down_to_stand"
+			0:lookat(off)
+			
+		"pet_fairydragon_groggy"
+			0:lookat(off)		
+			
+		"pet_fairydragon_HitA"
+			0:lookat(off)
+			
+		"pet_fairydragon_HitB"
+			0:lookat(off)
+			
+		"pet_fairydragon_HitBlowAwayBackward"
+			0:lookat(off)
+
+		"pet_fairydragon_HitBlowAwayForward"
+			0:lookat(off)
+			
+		"pet_fairydragon_HitBlowAwayBound"
+			0:lookat(off)
+			
+		"pet_fairydragon_HitBlowAwaySpin"
+			0:lookat(off)
+			
+		"pet_fairydragon_HitEndurance"
+			0:lookat(off)
+			
+        "pet_fairydragon_summon"
+            0:lookat(off)
+            0:effect("fdragon_summon0001",0,1)		
+            35:effectoff("fdragon_summon0001")	
+	        18:effect("fdragon_summon0002")				
+            40:effect("fdragon_summon_bomb001")	
+            34:effect("fdragon_summon_bomb002")
+			
+		"pet_fairydragon_stand_to_sit"
+		    0:lookat(off)		
+			
+		"pet_fairydragon_sit"
+		    0:lookat(off)
+					
+		"pet_fairydragon_sit_to_stand"
+		    0:lookat(off)		
+			
+		"pet_fairydragon_lovely_start"
+		    0:lookat(off)
+			
+		"pet_fairydragon_lovely"
+		    0:lookat(off)
+
+		"pet_fairydragon_lovely_end"
+		    0:lookat(off)			
+			
+		"pet_fairydragon_riding_dashattack"
+			0:lookat(off)
+			
+		"pet_fairydragon_riding_dashrun"
+			0:lookat(off)
+			
+    endfolder	
 	
 ///////////////////////////////// C4_pet_여우펫  ////////////////////////////////////
 	
@@ -55958,7 +56376,41 @@ set("prop concerned - temporary")
 	endfolder	
 
 	
+		
+	folder("::scene_prop_fairydragon01")	
+	"scene_prop_fairydragon01"
+		0:linkframework(1, "race:990337,  c1:B05C5D ,c2:BF8F75 ,c3:D682D3", "bone01", "data/gfx/char/chapter4/pet/anim/dragon/pet_fairydragon_sit_lovely")
 	
+	endfolder
+	
+	folder("::scene_prop_fairydragon02")	
+	"scene_prop_fairydragon02"
+		0:linkframework(1, "race:990339, c1:80A97A ,c2:D1AC87 ,c3:E09557", "bone01", "data/gfx/char/chapter4/pet/anim/dragon/pet_fairydragon_sit_lovely")
+
+	endfolder
+	
+	folder("::scene_prop_fairydragon03")	
+	"scene_prop_fairydragon03"
+		0:linkframework(1, "race:990341, c1:7ABCD6 ,c2:C0C3C6 ,c3:ACF1B9", "bone01", "data/gfx/char/chapter4/pet/anim/dragon/pet_fairydragon_sit_lovely")
+	endfolder
+	
+	folder("::scene_prop_fairydragon04")	
+	"scene_prop_fairydragon04"
+		0:linkframework(1, "race:990338,  c1:B05C5D ,c2:BF8F75 ,c3:D682D3", "bone01", "data/gfx/char/chapter4/pet/anim/dragon/pet_fairydragon_sit_lovely")
+	
+	endfolder
+	
+	folder("::scene_prop_fairydragon05")	
+	"scene_prop_fairydragon05"
+		0:linkframework(1, "race:990340, c1:80A97A ,c2:D1AC87 ,c3:E09557", "bone01", "data/gfx/char/chapter4/pet/anim/dragon/pet_fairydragon_sit_lovely")
+	endfolder	
+		
+	folder("::scene_prop_fairydragon06")	
+	"scene_prop_fairydragon06"
+		0:linkframework(1, "race:990342, c1:7ABCD6 ,c2:C0C3C6 ,c3:ACF1B9", "bone01", "data/gfx/char/chapter4/pet/anim/dragon/pet_fairydragon_sit_lovely")
+		
+	endfolder		
+
 
 	folder("::farm_prop_witchhouse01")	
 		"farm_prop_witchhouse01"
@@ -56218,16 +56670,17 @@ folder("::scene_prop_streamingdesk01")
 		
 	endfolder		
 	
-	folder("::farm_prop_18thAnniversary_spaceship01")
-		"farm_prop_18thAnniversary_spaceship01_sit"	
-		360:jump(60)
-		
-	endfolder	
+	folder("::farm_prop_jellyfish_tree01")
+		"farm_prop_jellyfish_tree01"	
+		560:jump(1)
 	 
-	folder("::farm_prop_18thAnniversary_spaceship03")
-		"farm_prop_18thAnniversary_spaceship03"	
-		360:jump(60)
-	 	
+		
+	endfolder		
+	
+	folder("::scene_prop_jellyfish_tree01")
+		"scene_prop_jellyfish_tree01"	
+		560:jump(1)	 
+		
 	endfolder		
 	
 	folder("::scene_prop_18thAnniversary_spaceship01")
@@ -60127,11 +60580,68 @@ endset
 //////////////////////////////////////// 기사 ////////////////////////////////////////////
 set("Knight")
 
-
-///////////////////////////////////일도 양단 - 인간-//////////////////////////////////////
-
 	folder("char\chapter4\human\anim\tool\rhand_A")
 	
+	"uni_tool_Rhand_A01_Lighting_Smash"
+		0:lookat(off)
+		0:hand(right, fist)
+		0:hand(left, palm)
+		2:hand(left, fist)
+
+	"uni_tool_rhand_a01_advanced_defense_process"
+		0:lookat(off)
+		0:hand(both, fist)		
+
+	"uni_tool_rhand_a01_advanced_defense_wait"
+		0:lookat(off)
+		0:hand(both, fist)	
+		64:jump(40)
+
+	"uni_tool_rhand_a01_elemental_injection_prepare"
+		0:lookat(off)
+		0:hand(both, fist)	
+		96:jump(66)
+
+	"uni_tool_rhand_a01_elemental_injection_process"
+		0:lookat(off)
+		0:hand(both, fist)		
+
+	"uni_tool_rhand_a01_fire_leap_attack_process01"
+		0:lookat(off)
+		0:hand(both, fist)		
+		137:jump(107)
+
+	"uni_tool_rhand_a01_fire_leap_attack_process02"
+		0:lookat(off)
+		0:hand(both, fist)		
+		123:jump(93) 
+		
+		
+		
+	"uni_tool_rhand_a03_attack_prepare"
+		0:lookat(off)
+		0:hand(both, fist)	
+		210:jump(140)
+
+	"uni_tool_rhand_a03_attack_process"
+		0:lookat(off)
+		0:hand(both, fist)		
+
+	"uni_tool_rhand_a03_blessing_of_diatonic"
+		0:lookat(off)
+		0:hand(both, fist)			
+
+	"uni_tool_rhand_a03_blessing_of_pentatonic"
+		0:lookat(off)
+		0:hand(both, fist)		
+
+	"uni_tool_rhand_a03_song_of_chromatic"
+		0:lookat(off)
+		0:hand(both, fist)	
+
+	"uni_tool_rhand_a03_song_of_locrian"
+		0:lookat(off)
+		0:hand(both, fist)			
 
 	"female_tool_inquisitor03_stand"
 	0:lookat(off)
@@ -61643,7 +62153,7 @@ set("Knight")
 
 ///////////////////////////////////일도 양단 -자이언트-//////////////////////////////////////
 
-	folder("char\chapter4\giant\anim\tool\Hand_A01")
+	folder("char\chapter4\giant\anim\tool\Hand_A01")	
 	
 		"giant_movingdoll01_stand"
 			0:lookat(off)
@@ -64393,6 +64903,18 @@ set("magician")
 ///////////////////////////////////볼트 조합 마법 - 인간-//////////////////////////////////////
 
 	folder("char\chapter4\human\anim\tool\rhand_A")
+	
+	"male_newspaper_stand"
+		0:lookat(off)
+		0:hand(both, fist)
+		0:generic("custom_equip(weapon:tool_newspaper_ani)")
+		
+	"female_newspaper_stand"
+		0:lookat(off)
+		0:hand(both, fist)
+		0:generic("custom_equip(weapon:tool_newspaper_ani)")		
+		
+		
 
 	"human_hoverboard_walk"
 		0:lookat(off)
@@ -64497,6 +65019,108 @@ set("magician")
 
 
 	folder("char\chapter4\giant\anim\tool\hand_a01")
+	
+		"giant_newspaper_stand"
+			0:lookat(off)
+			0:hand(both, fist)
+			0:generic("custom_equip(weapon:giant_tool_newspaper_ani)")
+			
+		"giant_female_newspaper_stand"
+			0:lookat(off)
+			0:hand(both, fist)
+			0:generic("custom_equip(weapon:giant_tool_newspaper_ani)")		
+	
+		"giant_female_tool_rhand_a01_advanced_defense_process"
+			0:lookat(off)
+			0:hand(both,fist)
+
+		"giant_female_tool_rhand_a01_advanced_defense_wait"
+			0:lookat(off)
+			0:hand(both,fist)
+			59:jump(35)
+
+		"giant_female_tool_rhand_a01_lighting_smash"
+			0:lookat(off)
+			0:hand(both,fist)
+
+		"giant_female_tool_rhand_a03_attack_prepare"
+			0:lookat(off)
+			0:hand(both,fist)
+			210:jump(140)
+
+		"giant_female_tool_rhand_a03_attack_process"
+			0:lookat(off)
+			0:hand(both,fist)
+
+		"giant_female_tool_rhand_a03_blessing_of_diatonic"
+			0:lookat(off)
+			0:hand(both,fist)
+
+		"giant_female_tool_rhand_a03_blessing_of_pentatonic"
+			0:lookat(off)
+			0:hand(both,fist)
+
+		"giant_female_tool_rhand_a03_song_of_locrian"
+			0:lookat(off)
+			0:hand(both,fist)
+
+		"giant_tool_bhand_a01_elemental_injection_prepare"
+			0:lookat(off)
+			0:hand(both,fist)
+			95:jump(65)
+
+		"giant_tool_bhand_a01_elemental_injection_process"
+			0:lookat(off)
+			0:hand(both,fist)
+
+		"giant_tool_rhand_a01_advanced_defense_process"
+			0:lookat(off)
+			0:hand(both,fist)
+
+		"giant_tool_rhand_a01_advanced_defense_wait"
+			0:lookat(off)
+			0:hand(both,fist)
+			59:jump(35)
+
+		"giant_tool_rhand_a01_fire_leap_attack_process01"
+			0:lookat(off)
+			0:hand(both,fist)
+			97:jump(67)
+
+		"giant_tool_rhand_a01_fire_leap_attack_process02"
+			0:lookat(off)
+			0:hand(both,fist)
+			98:jump(68)
+
+		"giant_tool_rhand_a01_lighting_smash"
+			0:lookat(off)
+			0:hand(both,fist)
+
+		"giant_tool_rhand_a03_attack_prepare"
+			0:lookat(off)
+			0:hand(both,fist)
+			210:jump(140)
+
+		"giant_tool_rhand_a03_attack_process"
+			0:lookat(off)
+			0:hand(both,fist)
+
+		"giant_tool_rhand_a03_blessing_of_diatonic"
+			0:lookat(off)
+			0:hand(both,fist)
+
+		"giant_tool_rhand_a03_blessing_of_pentatonic"
+			0:lookat(off)
+			0:hand(both,fist)
+
+		"giant_tool_rhand_a03_song_of_chromatic"
+			0:lookat(off)
+			0:hand(both,fist)
+
+		"giant_tool_rhand_a03_song_of_locrian"
+			0:lookat(off)
+			0:hand(both,fist)
+			
 	
 		"giant_hoverboard_walk"
 			0:lookat(off)
@@ -68235,7 +68859,40 @@ set("magician")
 ///////////////////////////////////////// 스태프 - 인간 ////////////////////////////////////////////
 
 	folder("char\chapter4\human\anim\tool\staff")
-	
+
+	"uni_tool_bhand_st_attack_prepare"
+		0:lookat(off)
+		0:hand(both, fist)	
+		220:jump(150)
+
+	"uni_tool_bhand_st_attack_process"
+		0:lookat(off)
+		0:hand(both, fist)	
+		
+	"uni_tool_bhand_st_blessing_of_diatonic"
+		0:lookat(off)
+		0:hand(both, fist)		
+		10:hand(both, palm)		
+		36:hand(right,fist)
+		45:hand(left, fist)
+
+	"uni_tool_bhand_st_blessing_of_pentatonic"
+		0:lookat(off)
+		0:hand(both, fist)	
+		1:hand(left, palm)
+		27:hand(left, fist)
+
+	"uni_tool_bhand_st_song_of_chromatic"
+		0:lookat(off)
+		0:hand(both, fist)	
+		8:hand(left, palm)
+		27:hand(left, fist)	
+
+	"uni_tool_bhand_st_song_of_locrian"
+		0:lookat(off)
+		0:hand(both, fist)	
+		3:hand(left, palm)
+		56:hand(left, fist)		
 	
 	"uni_tool_bhand_st_stand_offensive02"
 		0:lookat(off)
@@ -71655,6 +72312,85 @@ set("elf_Bhand_M10")
 	
 //////////////////////////////스태프 - 자이언트 //////////////////////////////////////////////
 	folder("char\chapter4\giant\anim\tool\staff")
+	
+	"giant_tool_bhand_st_attack_prepare"
+		0:hand(both, fist)
+     	0:lookat(off)
+		220:jump(150)
+
+	"giant_tool_bhand_st_attack_process"
+		0:hand(both, fist)
+     	0:lookat(off)
+
+	"giant_tool_bhand_st_blessing_of_diatonic"
+		0:hand(both, fist)
+     	0:lookat(off)
+		12:hand(both, palm)
+		36:hand(right,fist)
+		40:hand(left,fist)
+
+	"giant_tool_bhand_st_blessing_of_pentatonic"
+		0:hand(both, fist)
+   	  	0:lookat(off)
+		1:hand(left,palm)
+		42:hand(left,fist)
+
+	"giant_tool_bhand_st_song_of_chromatic"
+		0:hand(both, fist)
+     	0:lookat(off)
+
+	"giant_tool_bhand_st_song_of_locrian"
+		0:hand(both, fist)
+		0:hand(left, palm)
+     	0:lookat(off)
+		60:hand(left, fist)
+		
+		
+		
+		
+	"giant_female_tool_bhand_st_attack_prepare"
+		0:hand(right, fist)
+		0:hand(left, palm)
+     	0:lookat(off)
+		24:hand(left, fist)
+		220:jump(150)
+
+	"giant_female_tool_bhand_st_attack_process"
+		0:hand(right, fist)
+		0:hand(left, palm)
+     	0:lookat(off)
+
+	"giant_female_tool_bhand_st_blessing_of_diatonic"
+		0:hand(right, fist)
+		0:hand(left, palm)
+     	0:lookat(off)
+		8:hand(left, fist)
+		12:hand(both, palm)
+		36:hand(right,fist)
+		
+
+	"giant_female_tool_bhand_st_blessing_of_pentatonic"
+		0:hand(right, fist)
+		0:hand(left, palm)
+   	  	0:lookat(off)
+
+
+
+	"giant_female_tool_bhand_st_song_of_chromatic"
+		0:lookat(off)
+		0:hand(right, fist)
+		0:hand(left, palm)
+		5:hand(left, fist)
+		8:hand(left, palm)
+     	
+
+	"giant_female_tool_bhand_st_song_of_locrian"
+		0:hand(both, fist)
+		0:hand(left, palm)
+     	0:lookat(off)
+		
+		
+	
 	
 	"giant_tool_bhand_st_stand_offensive02"
 		0:hand(right,fist)
@@ -84387,6 +85123,54 @@ set("social motion")
 
 	
 	folder("char\chapter4\giant\anim\social_motion")
+	
+	"giant_female_secretresort"
+	0:lookat(off)
+	0:hand(both, palm)
+	46:generic("custom_equip(shield:tool_bottle_ani)")
+	46:generic("custom_equip(weapon:tool_cup_ani)")
+	1005:jump (464, true)
+
+
+	
+	
+	"giant_secretresort"
+	0:lookat(off)
+	0:hand(both, palm)
+	46:generic("custom_equip(shield:tool_bottle_ani)")
+	46:generic("custom_equip(weapon:tool_cup_ani)")
+	1005:jump (464, true)
+
+
+	
+	
+	
+	
+	
+	
+	
+	"giant_female_18thspace"
+	0:lookat(off)
+	0:hand(both, palm)
+	247:generic("custom_equip(shield:giant_female_tool_c4_walkietalkie)")
+	1116:jump (537, true)
+	338:effect("18thspace01",0,1)
+	339:effect("18thspace02",0,1)
+	556:face(love)
+	975:face(default)
+
+	
+	
+	"giant_18thspace"
+	0:lookat(off)
+	0:hand(both, palm)
+	247:generic("custom_equip(shield:giant_male_tool_c4_walkietalkie)")
+	1116:jump (537, true)
+	338:effect("18thspace01",0,1)
+	339:effect("18thspace02",0,1)
+	556:face(love)
+	975:face(default)
+	
 	
 	"giant_raven"
 	0:lookat(off)
@@ -102406,13 +103190,15 @@ set("C4_monster")
 		0:lookat(off)
 
 	"irusan_sweetmeteor_prepare"
-		0:lookat(off)		
-	    9:effect("iru_candy_r01")		
+		0:lookat(off)	
+		0:widesound("data\sound\irusan_sm_prepare01.wav")			
+		19:widesound("data\sound\irusan_sm_prepare02.wav")			
+	    9:effect("iru_candy_r01")			
 	    23:effect("iru_candy_l01")		
-	    52:effect("iru_candy01",0,1)				
+	    52:effect("iru_candy01",0,1)			
+	
 		
     endfolder
-
 		
 	folder("char/chapter4/monster/anim/Cromcruach")	
 	

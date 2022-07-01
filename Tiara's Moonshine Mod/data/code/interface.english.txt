@@ -287,6 +287,38 @@ pli_2021extendedattendances5rewardframe.1	Only the main character can receive th
 pli_2021extendedattendances5view.1	Attendance Complete
 pli_2021extendedattendances5view.2	BONUS
 pli_2021extendedattendances5view.3	From {0} to {1}
+pli_2021wintermaineventmainview.1	In progress
+pli_2021wintermaineventmainview.2	Expired
+pli_2021wintermaineventmainview.3	Complete
+pli_2021wintermaineventmainview.4	07/14/2022
+pli_2021wintermaineventmainview.5	Previous Summary
+pli_2021wintermaineventmainview.6	Current Story
+pli_2021wintermaineventmainview.7	View Preview
+pli_2021wintermaineventmainview.8	EPISODE {0} Objective
+pli_2021wintermaineventmainview.9	EPISODE {0} Reward
+pli_2021wintermaineventmainview.10	Engage in Commerce\nEarn 500 Seasonal Commerce Points
+pli_2021wintermaineventmainview.11	Engage in commerce between the continents of Uladh and Iria
+pli_2021wintermaineventmainview.12	Triumph against bandits in battle
+pli_2021wintermaineventmainview.13	{0} Point(s) ({1})
+pli_2021wintermaineventmainview.14	Complete
+pli_2021wintermaineventmainview.15	Commerce Champion Points ({0}P)
+pli_2021wintermaineventmainview.16	Receive Commerce Champion's Treasure Chest Coupon upon reaching 300 Reputation\nReceive Transport Mount Expansion Tab Key upon reaching 900 Reputation
+pli_2021wintermaineventmainview.17	Receive Commerce Champion's Treasure Chest Coupon upon reaching 300 Reputation\nReceive Transport Mount Cargo Weight Reduction Coupon upon reaching 900 Reputation
+pli_2021wintermaineventmainview.18	Gavin entrusts the Secrets of the Commerce Champion, along with his lifelong dream, to the Milletian.\nBut when he hears that his old friend Rhys has taken up with bandits, he begins to despair.
+pli_2021wintermaineventmainview.19	This episode is currently in progress.
+pli_2021wintermaineventmainview.20	The whereabouts of Gavin's friend Rhys and those scheming to obtain the Secrets of the Commerce Champion.
+pli_2021wintermaineventnoteview.1	Applied
+pli_2021wintermaineventnoteview.2	Claim
+pli_2021wintermaineventnoteview.3	Increases Transport Speed by 5% for 10 minutes.\nCannot be used together with a Transport Speed Increase Potion.\n(This effect will disappear upon using a Transport Speed Increase Potion.)
+pli_2021wintermaineventnoteview.4	Allows the purchase of trade goods at a 1% discount from the current market price for 10 minutes.\nStacks with enchant effects.
+pli_2021wintermaineventnoteview.5	Allows the sale of trade goods for a 10% greater profit for 10 minutes.\nStacks with a Letter of Guarantee's effect.
+pli_2021wintermaineventnoteview.6	Increases the Merchant Rating earned when trading by 2% for 10 minutes.\nStacks with enchant effects.
+pli_2021wintermaineventnoteview.7	Grants Combat EXP x2 for 30 minutes.
+pli_2021wintermaineventnoteview.8	Grants 2x Skill Training EXP in the Life tab for 30 minutes.
+pli_2021wintermaineventnoteview.9	Grants 2x Skill Training EXP in the Combat tab for 30 minutes.
+pli_2021wintermaineventnoteview.10	Increases your EXP by 30% of your current level every 36 minutes that you spend using the Rest skill.\nThis effect lasts for 1 day and will be removed upon Rebirth.\nThe expiration time continues to count down even while you are logged off.\nIts effect cannot be used together with a Meditation Potion; using one will cause this effect to disappear.
+pli_2021wintermaineventnoteview.11	Would you like to receive the {0} effect?
+pli_2021wintermaineventnoteview.12	Would you like to receive the Meditation effect?
 pli_2021winterpreeventmainview.1	Commerce Count [Today's Objective]: {0}  /  {1}
 pli_2021winterpreeventmainview.2	Setting Up the Iria Trading Posts [Today's Objective]: {0}  /  {1}
 pli_2021winterpreeventmainview.3	Uladh Trading Post Merchant Rating Total: {0}  /  {1} 
@@ -922,6 +954,7 @@ pli_characteradditionalframe.29	You must wait 7 days your character was created 
 pli_characteradditionalframe.30	You can Rebirth one day after your character was created or your most recent Rebirth.
 pli_characteradditionalframe.31	You cannot rebirth while using the Dressing Room.
 pli_characteradditionalframe.32	환생
+pli_characteradditionalframe.33	You cannot rebirth while engaged in a pursuit.
 pli_charactercombocardframe.1	The selected {0} Combo Card(s) will be permanently removed.\nWould you like to proceed?
 pli_charactercombocardframe.2	Warning
 pli_charactercombocardframe.3	Would you like to use this item to extend the Gold Combo Card duration?
@@ -949,6 +982,8 @@ pli_charactercombocardframe.24	Selected {0} Combo Cards include <color=2>activat
 pli_charactercommerceframe.1	Current Merchant Rating: {0}
 pli_charactercommerceframe.2	Current Merchant Rating {0}\nTo Next Level {1}
 pli_charactercommerceframe.3	lv{0} exp {1}%
+pli_charactercommerceframe.4	{0} Commerce Rank: {1}
+pli_charactercommerceframe.5	{0}.{1}.{2} - {3}.{4}.{5} (Resets on {6}.{7} 0:00)
 pli_characterconditionremaintimeview.1	No effects active.
 pli_characterentryview.1	Character Info: {0}
 pli_characterentryview.2	Talent: {0}
@@ -1093,6 +1128,7 @@ pli_commercecontrolview.1	Stop Trading
 pli_commercecontrolview.2	Are you sure you want to stop trading?\nYou will lose 25% of your investment.
 pli_commercecontrolview.3	Stop pursuing
 pli_commercecontrolview.4	Would you like to stop pursuing?
+pli_commercecontrolview.5	Would you like to stop trading?\nIf you stop now, you'll only be able to recover 75% of your Seasonal Ducats.
 pli_commerceinventoryframe.1	<color=4>Slot</color> <color=5><outlinecolor=6>{0}</outlinecolor></color> <color=4>Slot / Weight</color> <color=5><outlinecolor=6>{1}</outlinecolor></color>
 pli_commercenotifyview.1	Safe Area
 pli_commercenotifyview.2	Dangerous Area
@@ -1115,6 +1151,11 @@ pli_commercepostview.12	{0:materials} / {1:weight} Weight
 pli_commercepostview.13	Exchange
 pli_commercepostview.14	Raw materials
 pli_commercepostview.15	Ducats
+pli_commercepostview.16	<color=4><outlinecolor=5>{0}</outlinecolor></color> <color=6>Seasonal Ducats</color>
+pli_commercepostview.17	Seasonal Ducats
+pli_commercepostview.18	{0} Seasonal Ducats / Weight {1}
+pli_commercepostview.19	<color=4><outlinecolor=5>{0}</outlinecolor></color> <color=6>Seasonal Ducats</color>
+pli_commercepostview.20	Seasonal Ducats
 pli_commerceproductframe.1	<color=4>Merchant Rating Level</color>
 pli_commerceproductframe.2	<color=4>Insufficient Stock</color>
 pli_commerceproductframe.3	<color=4>Insufficient Slots</color>
@@ -1144,9 +1185,26 @@ pli_commerceproductframe.26	Error retrieving material list.
 pli_commerceproductframe.27	\n {1:count} {0:haveMarterialName}
 pli_commerceproductframe.28	<color=2>\n {1:count} {0:doNotHaveMarterialName} </color>
 pli_commerceproductframe.29	Material needed for exchange: {0:marterials}
-pli_commerceselectview.1	You can use the Transport Mount after\npaying the Transport Helper in Ducats.
+pli_commerceproductframe.30	<color=4>Current Seasonal Ducats</color>
+pli_commerceproductframe.31	<color=4><outlinecolor=5>{0:price}</outlinecolor></color> <color=6>Seasonal Ducats</color>
+pli_commerceproductframe.32	<color=4>Original Price: {0} Seasonal Ducats</color>
+pli_commerceproductframe.33	Current Price: <color=5>{0} Seasonal Ducats</color>
+pli_commerceproductframe.34	Current Price: <color=3>{0} Seasonal Ducats</color> ({1}% Discount)
+pli_commerceproductframe.35	<color=5>Resets at {0} o'clock (Earth time)</color>
+pli_commerceproductframe.36	<color=5>Resets at {0} {1} (Earth time)</color>
+pli_commerceproductframe.37	<color=5>\nNumber of purchases available: {0}\n- {1}</color>
+pli_commerceproductframe.38	<color=5>Resets at {0} o'clock (Earth time)</color>
+pli_commerceproductframe.39	<color=5>Resets at {0} {1} (Earth time)</color>
+pli_commerceproductframe.40	<color=5>\nNumber of exchanges available: {0}\n- {1}</color>
+pli_commerceproductframe.41	Exchange limit has been reached.
+pli_commerceproductframe.42	Purchase limit has been reached.
+pli_commerceseasonrewardview.1	You've already received the reward.
+pli_commerceselectview.1	You can use this transport mount after\npaying a fee in Ducats. See the\nTransport Helper to learn more.
 pli_commerceselectview.2	Slot: {0:slot}</color>
 pli_commerceselectview.3	Weight: {0:weight}</color>
+pli_commerceselectview.4	You can use this transport mount after\npaying a fee in Seasonal Ducats. See the\nTransport Helper to learn more.
+pli_commerceselectview.5	No Specialized Environment
+pli_commerceselectview.6	Slots {0}\nWeight {1}\n{2}
 pli_commercesmugglerpostview.1	Smuggler
 pli_commercesmugglerpostview.2	<color=4><outlinecolor=5>{0}</outlinecolor></color> <color=6>Ducats</color>1
 pli_commercesmugglerpostview.3	Would you like to submit your Letter of Guarantee?\nOnce submitted, the Bonus Effect you receive from item sales will end.
@@ -1155,10 +1213,17 @@ pli_commercesmugglerpostview.5	<color=4>Inventory</color> <color=5><outlinecolor
 pli_commercesmugglerpostview.6	Sell
 pli_commercesmugglerpostview.7	Smuggler
 pli_commercesmugglerpostview.8	<color=4><outlinecolor=5>{0}</outlinecolor></color> <color=6>Ducats</color>
+pli_commercesmugglerpostview.9	<color=4><outlinecolor=5>{0}</outlinecolor></color> <color=6>Seasonal Ducats</color>
+pli_commercesmugglerpostview.10	{0} Seasonal Ducats / Weight {1}
+pli_commercesmugglerpostview.11	<color=4><outlinecolor=5>{0}</outlinecolor></color> <color=6>Seasonal Ducats</color>
 pli_commercetraceview.1	{0}
+pli_commercetraceview.2	{0} SD
+pli_commercetraceview.3	{0} D
 pli_commercewantedview.1	and {0} other person(s)' items were stolen.
 pli_commercewantedview.2	's items were stolen
 pli_commercewantedview.3	{0} person(s)
+pli_commercewantedview.4	{0} SD
+pli_commercewantedview.5	{0} D
 pli_commonrouletteview.1	You don't have enough Prize Roulette Coins.
 pli_composeview2016.1	Delete the content entered so far?
 pli_composeview2016.2	You cannot play this with the currently selected instrument
@@ -2826,6 +2891,7 @@ pli_iuinputnumbox.4	Enter Amount of Ducats
 pli_iuinputnumbox.5	Spirit Level Above
 pli_iuinputnumbox.6	Enter Level
 pli_iuinputnumbox.7	Spirit Level Below
+pli_iuinputnumbox.8	Amount of Seasonal Ducats
 pli_iuinputpetspecialtalent.1	Select Perk
 pli_iuinputregionlist.1	Select Region
 pli_iuinputskill.1	Select Skill Category
@@ -3263,6 +3329,8 @@ pli_personalrankingdefaultview.3	Period {0}/{1}/{2} - {3}/{4}/{5}
 pli_personalrankingdefaultview.4	{0} / {1}
 pli_personalrankingdefaultview.5	Page not found.
 pli_personalrankingdefaultview.6	{0} / {1}
+pli_personalrankingdefaultview.7	Period - {0}.{1}.{2} (Resets on {3}.{4} 0:00)
+pli_personalrankingdefaultview.8	Last Season
 pli_personalshopsetpriceview.1	Price Selection
 pli_personalshopsetpriceview.2	Stop Sale
 pli_personalshopsetpriceview.3	Set Price\nFor All
@@ -3395,6 +3463,7 @@ pli_petquestresultview.9	<color=2>{0}</color> Gold
 pli_petquestresultview.10	Hooray! A Huge Lucky Bonus was activated!\nThe pets on this expedition really did a great job! Make sure to give them lots of love.
 pli_petquestresultview.11	The pets on this expedition really did a great job! Make sure to give them lots of love.
 pli_petquestresultview.12	Failed to obtain
+pli_petquestresultview.13	Seasonal Ducats: {0}\n
 pli_petquestslotframe.1	You have a pet type that is disadvantageous for this expedition.
 pli_petquestslotframe.2	You have {0} pet type(s) that are advantageous for this expedition.
 pli_petqueststartview.1	Your pet will be dispatched\n
@@ -3949,6 +4018,7 @@ pli_selectrewardview.10	This item requires the following materials.
 pli_selectrewardview.11	{0} Cat's Paw(s)
 pli_selectrewardview.12	Coin x{0}
 pli_selectrewardview.13	Star Piece x{0}
+pli_selectrewardview.14	Seasonal Ducats: {0} SD
 pli_sendmemoview2.1	Please enter the note you want to send.
 pli_sendmemoview2.2	Send
 pli_sendmemoview2.3	Reply
@@ -4772,6 +4842,7 @@ pli_windowbank.16	You already claimed today's advanced item
 pli_windowbank.17	Fee
 pli_windowbank.18	Limit
 pli_windowbank.19	Current: {0} / Max: {1}
+pli_windowbank.20	+{0} Bank Limit Expansion Coupon Effect\n<color=5>- Time Remaining: {1} </color>
 pli_windowbattlegroundframe.1	\nGuild Members : {0} Members
 pli_windowbattlegroundframe.2	\nGuild Points : {0} Points
 pli_windowbattlegroundframe.3	\nMy Score : {0} Points
@@ -4824,6 +4895,9 @@ pli_windowbuy.21	You don't have enough stars.
 pli_windowbuy.22	You don't have enough Pon Coins.
 pli_windowbuy.23	You don't have enough of the following: {0}.
 pli_windowbuy.24	You don't have enough gold in your shop.
+pli_windowbuy.25	You don't have enough Seasonal Ducats.
+pli_windowbuy.26	Seasonal Ducat Price: {0}
+pli_windowbuy.27	Your Seasonal Ducats: {0}
 pli_windowcampballoon.1	{0} ({1} to hide)
 pli_windowcampsharing.0	House Sharing
 pli_windowcardselect.0	You need the Basic Elf card.
@@ -4901,6 +4975,7 @@ pli_windowcharacter.59	You must wait 7 days between Rebirths.
 pli_windowcharacter.60	You must wait 2 days your character was created or your most recent rebirth to Rebirth again.
 pli_windowcharacter.61	You must wait 4 days your character was created or your most recent rebirth to Rebirth again.
 pli_windowcharacter.62	You must wait 7 days your character was created or your most recent rebirth to Rebirth again.
+pli_windowcharacter.63	You cannot rebirth while engaged in a pursuit.
 pli_windowcharacter2.1	{0} (Real Time: {1})
 pli_windowcharacter2.2	{0}day(s) {1}hour(s)
 pli_windowcharacter2.3	When you turn 20, you can rebirth without a character card.
@@ -4932,6 +5007,9 @@ pli_windowconditionballoon.1	(Defense: -{0}, Protection: -{1})
 pli_windowconditionballoon.2	 Level {0}
 pli_windowconditionballoon.3	Diligent Milletian
 pli_windowconditionballoon.4	(Magic Defense: -{0}, Magic Protection: -{1})
+pli_windowconditionballoon.5	
+pli_windowconditionballoon.6	Encounter Chance Increased
+pli_windowconditionballoon.7	Encounter Chance Decreased
 pli_windowcontestframe.1	{0}\nSubmission complete
 pli_windowcontestframe.2	\nCurrently in stage {1}.
 pli_windowcontestframe.3	The deadline is near.
@@ -5179,7 +5257,7 @@ pli_windowhinventory.40	To unlock, complete the 'Refrain of Sorrow and Serenity'
 pli_windowhinventory.41	You can easily switch out your equipment by using the extra equipment slot.
 pli_windowhinventory.42	There is no expiration.\nMabinogi VIP Service subscribers have unlimited use.
 pli_windowhinventory.43	This bag contains items obtained through bingo and through the use of point items.
-pli_windowhinventory.44	This bag contains items obtained through bingo and through the use of point items.
+pli_windowhinventory.44	This bag contains items obtained from various events that you have not claimed and the items you obtained through the use of paid products.
 pli_windowhinventory.46	All expired items will be destroyed, and items expiring soon will be checked.
 pli_windowhinventory.47	All expired items will be destroyed, and items expiring soon will be checked.
 pli_windowhinventory.48	This bag can be used like a normal bag during the Master Plan. Once the Master Plan ends, you can only take out items similar to the VIP inventory for the Mabinogi VIP Service.
@@ -5188,6 +5266,9 @@ pli_windowhinventory.50	Group same items with different expiration dates.
 pli_windowhinventory.51	Set the order in which your bags will be filled with items you acquire.
 pli_windowhinventory.52	You cannot change the bag order if you have items in your temporary inventory.\nPlease make some space first.
 pli_windowhinventory.53	Motion will be applied when the Motion button is clicked on an outfit with motion in the Dressing Room.
+pli_windowhinventory.54	Seasonal Ducats
+pli_windowhinventory.55	The total amount of Seasonal Ducats you possess.
+pli_windowhinventory.56	Search the item's name in your inventory to highlight it.
 pli_windowhinventory.57	{0} / {1}\n\nThe total amount of Gold you are currently holding.\n\n- You cannot obtain more Gold when carrying the max amount.\n- Max Gold will increase by 1 Million when you reach cumulative level 10,000.\n- You can increase the max Gold limit up to 100 Million by using various Gold Box items.
 pli_windowhinventory.58	{0} / {1}
 pli_windowhinventory.59	Give
@@ -6092,6 +6173,15 @@ pli_windowpocketitem.10	Inventory Size
 pli_windowpocketitem.11	Width: {0} slots, Height: {1} slots
 pli_windowpocketitem.12	Remaining: {0}
 pli_windowpocketitem.13	Remaining: {0}
+pli_windowpocketitem.14	Seasonal Ducat Price: {0}
+pli_windowpocketitem.15	Daily
+pli_windowpocketitem.16	Weekly {0}
+pli_windowpocketitem.17	{0} {1}:00
+pli_windowpocketitem.18	AM
+pli_windowpocketitem.19	PM
+pli_windowpocketitem.20	%d:00
+pli_windowpocketitem.21	- Resets at {0} {1} (Earth time)
+pli_windowpocketitem.22	<color=5>- Resets next season</color>
 pli_windowpocketitemaction.1	You may not equip an item that has already been expired.
 pli_windowpocketitemaction.2	Only characters with {0} at dan {1} are eligible to be equipped with this item.
 pli_windowpocketitemaction.3	The guild robe can be outfitted only after it is registered with the corresponding guild.
@@ -6283,8 +6373,8 @@ pli_windowproduction.1	<outlinecolor=2>Production EXP: {0} exp</outlinecolor>
 pli_windowproduction.2	{0} Only
 pli_windowproduction2.1	This product is {0}-exclusive.
 pli_windowproduction2.2	{0} Only
-pli_windowproduction3.0	Fabric
-pli_windowproduction3.1	Silk
+pli_windowproduction3.0	Fabric (Cheap)
+pli_windowproduction3.1	Silk (Cheap)
 pli_windowproduction3.2	That product can't be produced here.
 pli_windowproduction3.3	Auto Production
 pli_windowproduction3.4	{0}
