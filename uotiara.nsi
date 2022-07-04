@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
 !define UOSHORTVERSION        "388"
-!define UOLONGVERSION         "0.21.50"
+!define UOLONGVERSION         "0.21.51"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -3760,12 +3760,12 @@ SectionEnd
 Section "Modded Rano Map" MOD147
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
 DetailPrint "Installing Modded Rano Map..."
-  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_iria_rano_new_mgfree_eng.jpg"
+  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_Iria_Rano_new_mgFree_2021_kor.jpg"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD147}
   DetailPrint "*** Removing MOD147..."
-  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_rano_new_mgfree_eng.jpg"
+  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_Iria_Rano_new_mgFree_2021_kor.jpg"
 !macroend
 Section "Modded Solea North Map" MOD148
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
@@ -3788,12 +3788,12 @@ SectionEnd
 Section "Modded Connous Map" MOD150
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
 DetailPrint "Installing Modded Connous Map..."
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg"
+File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_Iria_connous_mgFree_2021_kor.jpg"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD150}
   DetailPrint "*** Removing MOD150..."
-  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg"
+  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_Iria_connous_mgFree_2021_kor.jpg"
 !macroend
 Section "Modded Ant Hell Map" MOD151
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
@@ -3807,22 +3807,22 @@ SectionEnd
 Section "Modded Courcle Map" MOD152
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
 DetailPrint "Installing Modded Courcle Map..."
-  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_iria_courcle_mgfree_eng.jpg"
+  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_Iria_courcle_mgFree_2021_kor.jpg"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD152}
   DetailPrint "*** Removing MOD152..."
-  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_courcle_mgfree_eng.jpg"
+  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_Iria_courcle_mgFree_2021_kor.jpg"
 !macroend
 Section "Modded Physis Map" MOD153
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
 DetailPrint "Installing Modded Physis Map..."
-  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_iria_physis_mgfree_eng.jpg"
+  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_Iria_Physis_mgFree_2021_kor.jpg"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD153}
   DetailPrint "*** Removing MOD153..."
-  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_iria_physis_mgfree_eng.jpg"
+  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_Iria_Physis_mgFree_2021_kor.jpg"
 !macroend
 Section "Modded Shadow Realm Abb Neagh Map" MOD154
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
@@ -8111,12 +8111,12 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD86" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD87" "" "Bandit Spotter 1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD87" "FILE1" "\data\db\commercecommon.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD87" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD87" "CREATOR" "Fl0rn"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD87" "CREATOR" "Fl0rn, ShaggyZE, Anonymous"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD87" "DESCRIPTION" "Increases volume of Bandit Detection"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "" "Bandit Spotter 2"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "FILE1" "\data\db\npcclientappearance.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "CREATOR" "Fl0rn"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "CREATOR" "Fl0rn, ShaggyZE, Anonymous"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "DESCRIPTION" "Makes Bandits appear Bigger and on the minimap"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD89" "" "Dark Knight Sound"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD89" "FILE1" "\data\db\animationevent.anievent"
@@ -8388,7 +8388,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD136" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "" "Rain Casting Range and Duration Indicator"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "FILE1" "\data\gfx\fx\effect\c3_g10_s1_cloud.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "CREATOR" "PoiDoe, Tekashi and Chocobubba"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "CREATOR" "Anonymous, Tekashi and Chocobubba"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "DESCRIPTION" "removes clouds/rain/snow effect and draws a large circle on the ground."
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD138" "" "Alchemist Shock Removal"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD138" "FILE1" "\data\gfx\fx\effect\c3_g11_s1_others.xml"
@@ -8447,7 +8447,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD146" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD146" "CREATOR" "Amaretto"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD146" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD147" "" "Modded Rano Map"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD147" "FILE1" "\data\gfx\gui\map_jpg\minimap_iria_rano_new_mgfree_eng.jpg"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD147" "FILE1" "\data\gfx\gui\map_jpg\minimap_Iria_Rano_new_mgFree_2021_kor.jpg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD147" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD147" "CREATOR" "Arcane and kirbysama"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD147" "DESCRIPTION" ""
@@ -8462,7 +8462,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD149" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD149" "CREATOR" "Tera"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD149" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD150" "" "Modded Connous Map"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD150" "FILE1" "\data\gfx\gui\map_jpg\minimap_iria_connous_mgfree_eng.jpg"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD150" "FILE1" "\data\gfx\gui\map_jpg\minimap_Iria_connous_mgFree_2021_kor.jpg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD150" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD150" "CREATOR" "Arcane and kirbysama"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD150" "DESCRIPTION" ""
@@ -8472,12 +8472,12 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD151" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD151" "CREATOR" "Arcane and kirbysama"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD151" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD152" "" "Modded Courcle Map"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD152" "FILE1" "\data\gfx\gui\map_jpg\minimap_iria_courcle_mgfree_eng.jpg"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD152" "FILE1" "\data\gfx\gui\map_jpg\minimap_Iria_courcle_mgFree_2021_kor.jpg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD152" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD152" "CREATOR" "Arcane and kirbysama"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD152" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD153" "" "Modded Physis Map"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD153" "FILE1" "\data\gfx\gui\map_jpg\minimap_iria_physis_mgfree_eng.jpg"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD153" "FILE1" "\data\gfx\gui\map_jpg\minimap_Iria_Physis_mgFree_2021_kor.jpg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD153" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD153" "CREATOR" "Arcane and kirbysama"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD153" "DESCRIPTION" ""
@@ -10073,7 +10073,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE3" "\data\material\_d
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE3" "\data\material\_define\material\effect\Metallurgy.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE5" "\data\material\_define\material\effect\Yellow.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILES" "7"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "CREATOR" "PoiDoe"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "CREATOR" "Anonymous"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "DESCRIPTION" "Phantasmal Sight color change."
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD403" "" "Easy View Book Pages"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD403" "FILE1" "\data\gfx\image\item_book_p2.dds"
