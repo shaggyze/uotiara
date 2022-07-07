@@ -34,7 +34,7 @@ ECHO Invalid Option: y or n
 PAUSE
 )
 @ECHO OFF
-set /p "yesno=Copy data folder to mabinogi y/n?:"
+set /p "yesno=Copy data folder to mabinogi and build uotiara_00001.it y/n?:"
 IF "%yesno%"=="y" (
 @ECHO ON
 xcopy ".\Tiara's Moonshine Mod\data\" "C:\Nexon\Library\mabinogi\appdata\data\" /q /s /y /c /e

@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
 !define UOSHORTVERSION        "388"
-!define UOLONGVERSION         "0.21.52"
+!define UOLONGVERSION         "0.21.53"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -6724,8 +6724,6 @@ DetailPrint "Installing features.xml.compiled..."
 IfFileExists $INSTDIR\Abyss.ini 0 +3
 WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "DataFolder" "1"
 WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "EnableMultiClient" "0"
-
-
   File "${srcdir}\Tiara's Moonshine Mod\data\features.xml.compiled"
 SetDetailsPrint both
 SectionIn 1
@@ -6736,9 +6734,22 @@ SectionEnd
   IfFileExists $INSTDIR\Abyss.ini 0 +3
   WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "DataFolder" "1"
   WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "EnableMultiClient" "1"
-  
-  
 !macroend
+Section "Show Visual Chat" MOD298
+SetOutPath "$INSTDIR\data"
+DetailPrint "Installing features.xml.compiled..."
+  File "${srcdir}\Tiara's Moonshine Mod\data\features.xml.compiled"
+SetOutPath "$INSTDIR\data\db"
+DetailPrint "Installing urls.xml..."
+File "${srcdir}\Tiara's Moonshine Mod\data\db\urls.xml"
+SetDetailsPrint both
+SectionIn 1
+SectionEnd
+!macro Remove_${MOD298}
+  DetailPrint "*** Removing Show Visual Chat..."
+  Delete "$INSTDIR\data\db\urls.xml"
+!macroend
+
 SectionGroup "Show Hidden Skill Flown Hot-Air Balloon" MOD398
 Section "Show Hidden Skill Flown Hot-Air Balloon ?1" MOD398?1
 SetOutPath "$INSTDIR\data\db\skill"
@@ -6768,6 +6779,7 @@ SectionEnd
   Delete "$INSTDIR\data\xml\skillinfo.english.txt"
 !macroend
 SectionGroupEnd
+
 !macro Remove_${MOD398}
   DetailPrint "*** Removing Show Hidden Skill Flown Hot-Air Balloon..."
   Delete "$INSTDIR\data\db\skill\skillinfo.xml"
@@ -7195,7 +7207,7 @@ SectionGroupEnd
 !insertmacro "${MacroName}" "MOD295"
 !insertmacro "${MacroName}" "MOD296"
 !insertmacro "${MacroName}" "MOD297"
-;!insertmacro "${MacroName}" "MOD298"
+!insertmacro "${MacroName}" "MOD298"
 ;!insertmacro "${MacroName}" "MOD299"
 !insertmacro "${MacroName}" "MOD300"
 !insertmacro "${MacroName}" "MOD301"
@@ -9985,6 +9997,12 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD397" "FILE1" "\data\features.xm
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD397" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD397" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD397" "DESCRIPTION" "Enables Multiclient"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "" "Show Visual Chat"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "FILE1" "\data\features.xml.compiled"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "FILE2" "\data\db\urls.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "FILES" "2"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "CREATOR" "ShaggyZE"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "DESCRIPTION" "Shows Visual Chat Bubbles"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "" "Show Hidden Skill Flown Hot-Air Balloon"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "FILE1" "\data\db\skill\skillinfo.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "FILE2" "\data\xml\skillinfo.english.txt"
