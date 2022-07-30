@@ -1129,6 +1129,8 @@ pli_commercecontrolview.2	Are you sure you want to stop trading?\nYou will lose 
 pli_commercecontrolview.3	Stop pursuing
 pli_commercecontrolview.4	Would you like to stop pursuing?
 pli_commercecontrolview.5	Would you like to stop trading?\nIf you stop now, you'll only be able to recover 75% of your Seasonal Ducats.
+pli_commercecontrolview.6	Would you like to stop trading?\nIf you stop now, you'll only be able to recover {0}% of your Seasonal Ducats.
+pli_commercecontrolview.7	Would you like to stop trading?\nIf you stop now, your Merchant Rating will go down, and you'll only be able to recover {0}% of your Seasonal Ducats.
 pli_commerceinventoryframe.1	<color=4>Slot</color> <color=5><outlinecolor=6>{0}</outlinecolor></color> <color=4>Slot / Weight</color> <color=5><outlinecolor=6>{1}</outlinecolor></color>
 pli_commercenotifyview.1	Safe Area
 pli_commercenotifyview.2	Dangerous Area
@@ -1136,6 +1138,31 @@ pli_commercenotifyview.3	Caution: Bandits
 pli_commercenotifyview.4	Bandit Ambush
 pli_commercenotifyview.5	Begin Trading
 pli_commercenotifyview.6	Start pursuing
+pli_commercenotifyview.7	Ancient Stela Discovery
+pli_commercenotifyview.8	Hidden Box Discovery
+pli_commercenotifyview.9	Gust of Wind
+pli_commercenotifyview.10	Wind Essence Discovery
+pli_commercepartyaircombatview.1	Total Enhancement Stone Increase: {0}%
+pli_commercepartyaircombatview.2	Remaining Wyverns: {0} / {1} \nLose if Durability decreases by 900 or more
+pli_commercepartyaircombatview.3	Someone either hasn't boarded yet, or hasn't finalized a Barter Goods purchase.
+pli_commercepartyaircombatview.4	x{0}
+pli_commercepartyaircombatview.5	Remaining Hits: {0} / {1}
+pli_commercepartyaircombatview.6	Time Remaining: {0} sec
+pli_commercepartyinventoryview.1	{0}'s Commerce Inventory
+pli_commercepartymainview.1	View Details of Purchased Trade Goods
+pli_commercepartymainview.2	None
+pli_commercepartymainview.3	Opened
+pli_commercepartymainview.4	Closed
+pli_commercepartymainview.5	 - Leader
+pli_commercepartymainview.6	{0}
+pli_commercepartymainview.7	Not Purchased
+pli_commercepartymainview.8	Recruiting OFF
+pli_commercepartymainview.9	Recruiting ON
+pli_commercepartymainview.10	Name: {0}
+pli_commercepartymainview.11	Party Size: {0}/{1}
+pli_commercepartymainview.12	Group Status: {0}
+pli_commercepartymainview.13	Merchant Group Member Menu
+pli_commercepartymakeview.1	None
 pli_commercepostview.1	<color=4><outlinecolor=5>{0}</outlinecolor></color> <color=6>Ducats</color>
 pli_commercepostview.2	{0} Ducats / Weight {1}
 pli_commercepostview.3	<color=4>Inventory</color> <color=5><outlinecolor=4>{0:stockCount}</color></outlinecolor><color=4></color>
@@ -1156,6 +1183,8 @@ pli_commercepostview.17	Seasonal Ducats
 pli_commercepostview.18	{0} Seasonal Ducats / Weight {1}
 pli_commercepostview.19	<color=4><outlinecolor=5>{0}</outlinecolor></color> <color=6>Seasonal Ducats</color>
 pli_commercepostview.20	Seasonal Ducats
+pli_commercepostview.21	Once merchant group trading has begun,\nyou cannot purchase trade goods until it has ended.\nWould you like to start trading?
+pli_commercepostview.22	Merchant Group Exclusive Trading Post
 pli_commerceproductframe.1	<color=4>Merchant Rating Level</color>
 pli_commerceproductframe.2	<color=4>Insufficient Stock</color>
 pli_commerceproductframe.3	<color=4>Insufficient Slots</color>
@@ -1942,8 +1971,16 @@ pli_fynnsynchselectframe.3	Pets that have never been summoned cannot be used for
 pli_fynnsynchselectframe.4	Pets that are on an expedition or resting cannot be used as sub-pets.
 pli_fynnsynchselectframe.5	Level: {0}
 pli_fynnsynchselectframe.6	Available Summon Time: {0} min
+pli_fynnsynchselectframe.7	Bag
+pli_fynnsynchselectframe.8	Summon Time
+pli_fynnsynchselectframe.9	Pet Point
+pli_fynnsynchselectframe.10	Cumulative Level
 pli_fynnsynchselectview.1	Selected Pets: {0} / {1}
 pli_fynnsynchselectview.2	You can select up to 10.
+pli_fynnsynchselectview.3	Inventory Window: {0} x {1}\n
+pli_fynnsynchselectview.4	Total Available Summon Time: {0} min\n
+pli_fynnsynchselectview.5	Pet Points: {0}\n
+pli_fynnsynchselectview.6	Cumulative Level : {0}\n
 pli_fynnsynchselectview.7	핀 싱크를 진행하면\n서브 펫으로 선택하신 <color=5>{0}({1})가 삭제됩니다.</color>\n정말 서브 펫 선택을 진행하시겠습니까?
 pli_fynnsynchview.1	First 
 pli_fynnsynchview.2	Second
@@ -1982,6 +2019,7 @@ pli_fynnsynchview.34	New Perk Acquisition Rate {0}%
 pli_fynnsynchview.35	Are you sure you want to proceed with Fynn Sync?\n<color=5><bold>(All pets registered to sub-slots</bold></color>\n<color=5><bold>for Fynn Syncing will permanently disappear.)</bold></color>
 pli_fynnsynchview.36	Fynn Sync Precautions
 pli_fynnsynchview.37	{0} bag(s) added
+pli_fynnsynchview.38	Unable to proceed with Fynn Sync, as no Pet Growth Card's Inventory Window has been selected.
 pli_fynnsynchview.39	Pets with Gold in their bag cannot be used for Fynn Sync.
 pli_fynnybloomingview.1	Blossoming Time: {0}
 pli_fynnybloomingview.2	Complete
@@ -2221,8 +2259,8 @@ pli_helperapi.34	Interaction
 pli_helperapi.35	해당 내용의 검색을 허용하지 않습니다.
 pli_helperapi.36	{0} skill {1}
 pli_helperapi.37	An orb imbued with the power of Fynn that can be equipped to enable the use of special powers.
-pli_helperapi.38	전투
-pli_helperapi.39	뿔피리
+pli_helperapi.38	Combat
+pli_helperapi.39	Horn
 pli_helperapiskill.1	Currently aware of the skill.\nBecomes available once the Classic Spirit Weapon's social level reaches 21.
 pli_helperapiskill.2	Beast
 pli_helperapiskill.3	The First Dan
@@ -3445,7 +3483,7 @@ pli_petquestmainview.14	Do you want to complete the venture?
 pli_petquestmainview.15	<color=2><symbol>\x24<alphanumeric> Current Pet Level Required: Lv. {0}</color>
 pli_petquestmainview.16	<color=4>Cannot be displayed</color>
 pli_petquestmainview.17	<color={0}>{1}</color>\n(<color={2}>{3}</color> in real time)
-pli_petquestmainview.18	조사를 모두 완수하시겠습니까?
+pli_petquestmainview.18	Would you like to complete all Expeditions?
 pli_petquestprogresslistbox.1	{0}\n({1} in real time)
 pli_petquestprogresslistbox.2	{0}%
 pli_petquestprogresslistbox.3	Complete
@@ -4262,7 +4300,7 @@ pli_taskquestboardview.1	<Special Unit Training Board>\n\n\t* This bulletin boar
 pli_taskquestboardview.2	Mission
 pli_taskquestboardview.3	Confirm Mission
 pli_taskquestboardview.4	How to use the Mission Board
-pli_taskquestboardview.5	임무를 모두 완수 하시겠습니까?
+pli_taskquestboardview.5	Would you like to complete all Missions?
 pli_tpsmodemanualview.1	Control Manual
 pli_tpsmodemanualview.2	When a Tower Cylinder is installed, change the targeting mode by pressing the TAB key.\n\nIn Aiming mode, use the mouse to control where you aim.\nYou will attack the enemy located in the middle of your screen.\n\nIn Cursor mode, drag your cursor to control where you aim. \nYou will attack the enemy that your cursor is pointing to.\nAuto-targeting using the CTRL key can be used in either mode.
 pli_tpsmodemanualview.3	Do not show this message again.
@@ -4786,15 +4824,15 @@ pli_windowachieveview.3	특별한 색으로 염색되었다.
 pli_windowachieveview.4	특별한 색으로 {0}의 염색에 성공했다!
 pli_windowachieveview.5	평범한 색으로 염색되었다.
 pli_windowachieveview.6	평범한 색으로 {0}의 염색에 성공했다!
-pli_windowacquaintancemessageview.1	메시지 상대 입력
-pli_windowacquaintancemessageview.2	캐릭터 이름
-pli_windowacquaintancemessageview.3	서버 이름
-pli_windowacquaintancemessageview.4	메시지를 받을 대상이 로그인 상태가 아닙니다.\n상대가 로그인 상태일 때만 메시지를 보낼 수 있습니다.
-pli_windowacquaintancemessageview.5	친구의 메시지만 받기 옵션이 활성화 되어있습니다.\n해당 옵션이 활성화 되어 있는 경우 친구에게만 메시지를 보낼 수 있습니다.
-pli_windowacquaintancemessageview.6	오프라인으로 설정된 상태에서는 메세지를 보낼 수 없습니다.
-pli_windowacquaintancemessageview.7	본인에게는 메시지를 보낼 수 없습니다.
-pli_windowacquaintancemessageview.8	블랙리스트에 등록한 상대에게는 메시지를 보낼 수 없습니다.
-pli_windowacquaintancemessageview.9	미니게임 중에는 메시지를 보낼 수 없습니다.
+pli_windowacquaintancemessageview.1	Enter Recipient
+pli_windowacquaintancemessageview.2	Character Name
+pli_windowacquaintancemessageview.3	Server
+pli_windowacquaintancemessageview.4	The recipient is not online.\nYou can only send messages to someone who is online.
+pli_windowacquaintancemessageview.5	You have 'Receive Messages from Friends Only' enabled.\nYou can only send messages to friends while this setting is enabled.
+pli_windowacquaintancemessageview.6	You cannot send messages while appearing as offline.
+pli_windowacquaintancemessageview.7	You cannot send messages to yourself.
+pli_windowacquaintancemessageview.8	You cannot send messages to characters on your Blacklist.
+pli_windowacquaintancemessageview.9	You cannot send messages while playing a Mini-game.
 pli_windowaddnewfriend.1	Add Friend
 pli_windowaddnewfriend.2	Character
 pli_windowaddnewfriend.3	Server
@@ -5068,6 +5106,7 @@ pli_windowegoweapon.3	Use Skill Cam
 pli_windowegoweapon.4	Rank {0}
 pli_windowegoweapon.5	Practice
 pli_windowegoweapon.6	<color=3>Using Awakening Energy</color>\nGain awakening energy by attacking enemies with your Classic Spirit Weapon. Each time you hit enemies enough times to reach 100/100 on your energy bar, you'll get one skill charge on your spirit weapon. Use the skill once to prep it which will cause the energy bar to begin depleting, then again before the energy bar reaches zero to activate it. This skill can only be utilized when your weapon has at least one charge. \n\n<color=3>Energy Bar Cooldown</color>\nUsing the awakening skill will cause the energy bar to deactivate for a while. You won't be able to use the awakening skill again until the energy bar reactivates.
+pli_windowepilogue.1	게임 이용이 차단됩니다.
 pli_windowexplorationquestboard.1	Refresh
 pli_windowexplorationquestboard.2	Search
 pli_windowexplorationquestboard.3	Search
@@ -5100,10 +5139,10 @@ pli_windowfriendlistpopup.10	Guild Member Menu
 pli_windowfriendlistpopup.11	Remove from Blacklist
 pli_windowfriendlistpopup.12	Enter Homestead
 pli_windowfriendlistpopup.13	Allow Homestead Visitation
-pli_windowfriendlistpopup.14	그룹 일괄 펼치기
-pli_windowfriendlistpopup.15	친구목록의 모든 그룹을 일괄로 펼칩니다.\nCtrl을 누르고 그룹명을 더블 클릭해도 그룹을 일괄로 펼칠 수 있습니다.
-pli_windowfriendlistpopup.16	그룹 일괄 닫기
-pli_windowfriendlistpopup.17	친구목록의 모든 그룹을 일괄로 닫습니다.\nCtrl을 누르고 그룹명을 더블 클릭해도 그룹을 일괄로 닫을 수 있습니다.
+pli_windowfriendlistpopup.14	Expand All
+pli_windowfriendlistpopup.15	Expand all friend groups.\nYou can also hold Ctrl and double-click a group name to expand all groups.
+pli_windowfriendlistpopup.16	Collapse All
+pli_windowfriendlistpopup.17	Collapse all friend groups.\nYou can also hold Ctrl and double-click a group name to collapse all groups.
 pli_windowfriendtreeview.1	Offline
 pli_windowgameclockweather.1	{0} {1}:{2}
 pli_windowgmcontroltabs.1	Destroy all items in my Inventory.
@@ -5600,7 +5639,7 @@ pli_windowmessengeroption.3	Notify me when a friend logs in
 pli_windowmessengeroption.4	Guild Member Login Notifications
 pli_windowmessengeroption.5	Use Offline Group
 pli_windowmessengeroption.6	Unread Note Notifications
-pli_windowmessengeroption.7	친구의 메시지만 받기
+pli_windowmessengeroption.7	Receive Messages from Friends Only
 pli_windowmetalextraction.1	Metal Extraction
 pli_windowmetalextraction.2	Stop
 pli_windowmetalextraction.3	Stop the moving ball and match it to each point.
@@ -6862,6 +6901,7 @@ pli_windowsystemmenu2.2	You can't use Continent Warp while changing your Partner
 pli_windowsystemmenu2.3	Characters cannot do that while in the tutorial.\n(Available after first Rebirth)
 pli_windowsystemmenu3.1	Please wait for the event to end first.
 pli_windowsystemmenu3.2	게임 가이드
+pli_windowsystemmenu3.3	지식왕
 pli_windowtalenttitleballoon.1	Talent Title
 pli_windowtaskbar.2	Click here or press 'B' to use the Escape Bomb.
 pli_windowtaskbar.3	This bomb has already been used.\nIt'll be available again at 7 AM PST tomorrow (real time).
@@ -7166,6 +7206,10 @@ pli_wineinfoview.37	Purity will decrease by {0}.
 pli_wineinfoview.38	Purity will not change.
 pli_wineinfoview.39	If you replace the Oak Barrel as in the practice,\n\n{0}\n{1}\nfreshness will be maintained for 24 hours.
 pli_wineinfoview.40	Oak Barrel Replacement Practice Result
+pli_wintermainevent2ndview.1	COMPLETE
+pli_wintermainevent2ndview.2	All Completion Rewards Obtained
+pli_wintermainevent2ndview.3	Obtain All Completion Rewards
+pli_wintermainevent2ndview.4	Not All Completion Rewards Obtained
 startbidview.bidbutton	Start bid
 startbidview.closebutton	Close
 treasurerestoration.contents.1	Restore

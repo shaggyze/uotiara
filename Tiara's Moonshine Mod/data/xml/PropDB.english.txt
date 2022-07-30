@@ -6131,8 +6131,11 @@
 6427	*이리아_트레져던젼_보스방_입구
 6428	Open Treasure Chest
 6429	Would you like to open this Treasure Chest?
+6821	*10th_Unfolded_Lorna Personal Shop Set
+6822	*10th_Unfolded_Pan Personal Shop Set
 6915	*Unfolded_Heart Personal Shop Set
 6916	*Unfolded_Broken Heart Personal Shop Set
+6997	*10th_themepark_10thcampfirekit
 7059	Saber's Personal Shop
 7060	Archer's Personal Shop
 7061	Rin's Personal Shop
@@ -8065,7 +8068,7 @@
 9906	*발레스 교역소
 9907	*셀라항구_바닥01
 9908	*콘누스항구_바닥01
-9909	상단 교역 게시판
+9909	Merchant Group Commerce Bulletin Board
 9910	*셀라항구_등대01
 9911	*셀라항구_중앙기둥01
 9912	*셀라항구_큰 중앙건물01

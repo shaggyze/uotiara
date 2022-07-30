@@ -4228,3 +4228,23 @@
 6291	Attack Radius
 6292	Damage
 6293	Attack Radius Per Charge
+6294	Commerce Dragon Thunder
+6348	Fairy Light
+6349	Sonic Breath
+6350	Sonic Wave
+6351	Musical\nAccompaniment
+6352	Harmony of\nValor
+6353	Harmony of\nAbundance
+6354	Harmony of\nSwiftness
+6355	The Fairy Dragon inhales deeply and belts out a Breath attack in the form of a powerful sound wave. The enemies hit by this attack focus their ire on the Fairy Dragon, but find their movement speed reduced as a lingering effect of the ear-splitting cry. However, some special monsters (including boss monsters) are immune to the movement speed-reducing effect.
+6356	When its owner performs or sings, the Fairy Dragon can't help but join in, increasing the effect of the performance or song.
+6357	A Fairy Dragon that appears drawn to the sound of singing voices and performances featuring musical instruments of all sorts. It has a habit of humming along with melodies it has heard before.
+6358	The Fairy Dragon remembers a performance given long ago by a bard for a company soon to depart for the battlefield. Recalling a melody that steels one's courage, it empowers the effect of a Battlefield Overture performed by its owner.
+6359	The Fairy Dragon remembers a performance given long ago by a bard for a diverse group of workers. Recalling a melody that celebrates abundance, it empowers the effect of a Harvest Song performed by its owner.
+6360	The Fairy Dragon remembers a performance given long ago by a bard at the behest of a society of mages. Recalling a lively melody that flowed from one sound to the next, it empowers the effect of a Vivace performed by its owner.
+6361	The Fairy Dragon inhales deeply and belts out a Breath attack in the form of a powerful sound wave. The enemies hit by this attack focus their ire on the Fairy Dragon, but find their movement speed reduced as a lingering effect of the ear-splitting cry. However, some special monsters (including boss monsters) are immune to the movement speed-reducing effect.
+6362	When its owner performs or sings, the Fairy Dragon can't help but join in, increasing the effect of the performance or song.
+6363	A Fairy Dragon that appears drawn to the sound of singing voices and performances featuring musical instruments of all sorts. It has a habit of humming along with melodies it has heard before.
+6364	The Fairy Dragon remembers a performance given long ago by a bard for a company soon to depart for the battlefield. Recalling a melody that steels one's courage, it empowers the effect of a Battlefield Overture performed by its owner.
+6365	The Fairy Dragon remembers a performance given long ago by a bard for a diverse group of workers. Recalling a melody that celebrates abundance, it empowers the effect of a Harvest Song performed by its owner.
+6366	The Fairy Dragon remembers a performance given long ago by a bard at the behest of a society of mages. Recalling a lively melody that flowed from one sound to the next, it empowers the effect of a Vivace performed by its owner.

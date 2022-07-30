@@ -1,6 +1,6 @@
 # Unofficial Tiara's Moonshine Mod by ShaggyZE. ![Build status](https://ci.appveyor.com/api/projects/status/github/shaggyze/uotiara?branch=master&svg=true)
 
-Thanks to this months donator/s biscuit, Unfettered and special thanks to Amaretto, Penguin Eater, Draconis, Blade3575 and Step29 (along with Plonecakes, kotarou3, thatguysteve and Halfslashed) for Abyss, regomne for mabi-pack2, Sven/Darnell for Hyddwn Launcher and Cursey for Kanan.
+Thanks to this months donator/s Unfettered and special thanks to Amaretto, Penguin Eater, Draconis, Blade3575 and Step29 (along with Plonecakes, kotarou3, thatguysteve and Halfslashed) for Abyss, regomne for mabi-pack2, Sven/Darnell for Hyddwn Launcher and Cursey for Kanan.
 -------------------------------------------------------------------------
 *Intended solely for Mabinogi (North America)
 
@@ -115,7 +115,7 @@ Note: Some mods of this are not included in Official Tiara, but I think they des
 34. Blade3575's Abyss Patcher.
 35. logue's MabiPacker.
 36. Tera's Solea Map Updated With Ores.
-37. Visual Chat Mod. thanks to Yiting, exec and the Aura community that helped me indirectly. (removed)
+37. Visual Chat Mod. thanks to Yiting, exec and the Aura community that helped me indirectly.
 38. hiesavel's Doppel collection removal.
 39. Silent Edern.
 40. Realistic Rain by [Bloodhound]
@@ -173,7 +173,7 @@ Note: Some mods of this are not included in Official Tiara, but I think they des
 92. Xeme's Music Buff Status List
 93. poidoe's Phantasmal Sight Color
 
->>To restore things, find the corresponding files in the data folder (or whatever directory you use) and delete/remove/replace to modify them to fit your preferences, delete uotiara.pack in the package folder or use the installer/uninstaller.
+>>To restore things, find the corresponding files in the data folder (or whatever directory you use) and delete/remove/replace to modify them to fit your preferences, delete uotiara_00001.it in the package folder or use the installer/uninstaller.
 
 
 >>To change the font, go to the data folder, open the gfx folder, open the font folder, then replace the nanumgothicbold file with a truetype font file(.ttf) of your choosing.
@@ -183,11 +183,10 @@ Note: The new font file must be renamed "nanumgothicbold.ttf" to function. If th
 
 
 >>Frequently asked questions<<
-If you get PACK malformated or a 'delete etc language.Package'(http://puu.sh/5iDlT.jpg) error then delete language.pack from the package folder then run mabinogi.exe to download a new language.pack and it should let you apply mods again.
-
+If Characters being invisible isn't to your liking, check disable character render in kanan and in tiara uncheck invisble robes or numpad / character minimization in mabi settings.
 
 To Remove Graphic Always Noon Sky:
-Find these 3 mods in the installer and uncheck. If you use abyss/kanan you can delete the files manually and if you use mabipacker/UOTiaraPack.bat delete UOTiara.pack in package folder.
+Find these 3 mods in the installer and uncheck. If you use abyss/kanan you can delete the files manually and if you use mabi-pack2/UOTiaraPack.bat delete uotiara_00001.it in package folder.
 
 
 Section Always noon sky 1
@@ -235,20 +234,6 @@ Find this setting in Abyss (c:nexonmabinogiAbyss.ini) and change to 0 then save.
 ControlDayTime=0
 
 
-
-To Remove Talent Level Number:
-Find these 2 mods in the installer and uncheck. If you use abyss/kanan you can delete the files manually and if you use mabipacker/UOTiaraPack.bat delete UOTiara.pack in package folder.
-
-
-Section "Show Talent Level by Number"
-data/local/xml/talenttitle.english.txt
-
-
-Section "Show Talent Level by Number 2"
-data/xml/talenttitle.english.txt
-
-
-
 ---Mods included in the compilation.---
 
 https://raw.githubusercontent.com/shaggyze/uotiara/master/uotiaralist.ini
@@ -258,4 +243,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 This permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, BANNING OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Show Visual Chat Mod uploads to my host http://shaggyze.website images are subject to archive or deletion at my discretion.

@@ -3081,7 +3081,7 @@
 3722	Charge Damage +15%\nDefense +3
 3723	INT +10\nWill +10\nMax MP +10
 3724	INT +20\nMax MP +10
-3725	INT 10\nWill 20
+3725	Intelligence +10\nWill +20
 3726	Will +10\nMax MP +20
 3727	Handicraft Success +2%\nDEX +8
 3728	Taming Success Increased\nDEX +10\nSTR +12
@@ -3752,7 +3752,7 @@
 4596	INT +20\nMax Stamina +15
 4597	Max Stamina +25
 4598	Will +25\nDEX +20
-4599	Will 30\nLuck 15
+4599	Will +30\nLuck +15
 4604	the Wine God
 4605	Intelligence +15\n[Dexterity -7]\n[Defense -4]\nProtection +2
 4606	Intelligence +17\n[Dexterity -9]\n[Defense -6]\nProtection +3
@@ -5619,7 +5619,7 @@
 6839	This fancy 2nd title can be used with regular titles.
 6840	M. ATT +28\nWater/Fire/Wind/Earth Alchemy\nAlchemic Damage +12\nMax MP +35
 6841	Max ATT +15\nMax HP +35\nCritical +10%
-6842	Max ATT 12\nWill 20\nDexterity 12\nLuck 12
+6842	Max ATT +12\nWill +20\nDexterity +12\nLuck +12
 6843	Max ATT +10\nMax Stamina +35\nMax Dual Gun Damage +9
 6844	개근상
 6845	개근상
@@ -6994,7 +6994,7 @@
 8265	the Willful Beginner
 8266	A title for people who reached level 100 without a Rebirth. Are you really a beginner?
 8267	A title for people who reached level 100 without a Rebirth. Are you really a beginner?
-8268	WILL 30\nSTR 15\nMax Stamina +10
+8268	Will 30\nStrength +15\nMax Stamina +10
 8269	현실의 속박
 8270	현실의 속박
 8271	현실의 속박
@@ -9367,7 +9367,7 @@
 10701	Uncontrollable Giggle
 10702	This fancy 2nd title can be obtained from a title coupon. Can be used with regular titles.
 10703	This fancy 2nd title can be obtained from a title coupon. Can be used with regular titles.
-10704	Luck 15
+10704	Luck +15
 10705	장난꾸러기 우체부
 10706	장난꾸러기 우체부
 10707	장난꾸러기 우체부
@@ -12006,18 +12006,32 @@
 13497	Luck +30
 13498	a Commerce Champion in Training
 13499	the Guardian of the Secret Notes
+13500	the Way of Commerce Champion
+13501	the Way of Commerce Master
 13502	a Commerce Champion in Training
 13503	the Guardian of the Secret Notes
+13504	the Way of Commerce Champion
+13505	the Way of Commerce Master
 13506	a Commerce Champion in Training
 13507	the Guardian of the Secret Notes
+13508	the Way of Commerce Champion
+13509	the Way of Commerce Master
 13510	a Commerce Champion in Training
 13511	the Guardian of the Secret Notes
+13512	the Way of Commerce Champion
+13513	the Way of Commerce Master
 13514	You've cleared Episode 1 of the Secrets of the Commerce Champion event.
 13515	You've cleared Episode 2 of the Secrets of the Commerce Champion event.
+13516	You cleared all week 1 actions of the Let's Fly Together Now! event.
+13517	You cleared all week 2 actions of the Let's Fly Together Now! event.
 13518	A title for clearing Episode 1 of the Secrets of the Commerce Champion event.
 13519	A title for clearing Episode 2 of the Secrets of the Commerce Champion event.
+13520	A title given to those who cleared all week 1 actions of the Let's Fly Together Now! event.
+13521	A title given to those who cleared all week 2 actions of the Let's Fly Together Now! event.
 13522	Luck +30\nWill +25
 13523	Luck +25\nWill +30
+13524	Luck +30\nWill +30
+13525	Bonus Ducats +3%\n(The effect only activates when Commerce Mastery is rank F or above.)
 13526	You Shine Bright
 13527	You Shine Bright
 13528	You Shine Bright
@@ -12032,20 +12046,20 @@
 13537	이루샤가 특별하게 만든 타이틀. 분홍 발자국 마법이 걸려있어, 다양한 효과를 얻을 수 있으며 정해진 기간이 지나면 마법 효과가 사라진다.
 13538	이루샤가 특별하게 만든 타이틀. 분홍 발자국 마법이 걸려있어, 다양한 효과를 얻을 수 있으며 정해진 기간이 지나면 마법 효과가 사라진다.
 13539	최대 대미지 10 증가\n체력 5 증가\n지력 5 증가\n솜씨 5 증가\n의지 5 증가\n행운 5 증가\n이동속도 1% 증가\n모든 스킬 수련치 2배\n파티로 그림자 미션, 연극 미션, 던전 플레이 시 자신은 경험치 2배, 파티원은 경험치 1.5배\n(다시 만난 밀레시안, 돌아온 밀레시안, 로나의 특별 지원, 특별 지원 타이틀과 중복 불가)
-13540	신성한 검은 깃털
-13541	신성한 흰색 깃털
-13542	신성한 검은 깃털
-13543	신성한 흰색 깃털
-13544	신성한 검은 깃털
-13545	신성한 흰색 깃털
-13546	신성한 검은 깃털
-13547	신성한 흰색 깃털
-13548	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13549	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13550	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13551	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13552	행운 30 증가
-13553	행운 30 증가
+13540	Divine Black Feather
+13541	Divine White Feather
+13542	Divine Black Feather
+13543	Divine White Feather
+13544	Divine Black Feather
+13545	Divine White Feather
+13546	Divine Black Feather
+13547	Divine White Feather
+13548	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13549	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13550	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13551	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13552	Luck +30
+13553	Luck +30
 13554	the Sincere Barista
 13555	the Sincere Barista
 13556	the Sincere Barista
@@ -12214,7 +12228,7 @@
 13850	Luck +30
 13851	Luck +30
 13852	Max Damage +20\nCritical Damage +1%\nBonus Damage +1%\nMovement Speed +2%
-13853	Refining Success Rate +4%\nBlacksmithing Success Rate +5%\nBlacksmithing Completeness +4\nProduction Success Rate +2%
+13853	Refining Success Rate +4%\nBlacksmithing Success Rate +4%\nBlacksmithing Completeness +4\nProduction Success Rate +2%
 13854	When used with the Magic Artisan title, Magic Craft Completeness Quality increased\nProduction Success Rate +3%
 15283	You Shine Bright
 15284	You Shine Bright
@@ -12223,3 +12237,66 @@
 15287	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 15288	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 15289	Gathering Success Rate +5%\nGathering Speed +5%\nAutomatic Fishing Success Rate Increased\nBonus Ducats +5%\nMovement Speed +5%
+15297	Ascension
+15298	Ascension
+15299	Ascension
+15300	Ascension
+15301	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15302	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15303	Max ATT +20\nMagic Attack +16\nWill +20\nLuck +20\nMovement Speed +3%
+15304	앱솔루트 마이트
+15305	앱솔루트 도미네이션
+15306	앱솔루트 세이지
+15307	스페셜 앱솔루트 마이트
+15308	스페셜 앱솔루트 도미네이션
+15309	스페셜 앱솔루트 세이지
+15310	앱솔루트 마이트
+15311	앱솔루트 도미네이션
+15312	앱솔루트 세이지
+15313	스페셜 앱솔루트 마이트
+15314	스페셜 앱솔루트 도미네이션
+15315	스페셜 앱솔루트 세이지
+15316	앱솔루트 마이트
+15317	앱솔루트 도미네이션
+15318	앱솔루트 세이지
+15319	스페셜 앱솔루트 마이트
+15320	스페셜 앱솔루트 도미네이션
+15321	스페셜 앱솔루트 세이지
+15322	앱솔루트 마이트
+15323	앱솔루트 도미네이션
+15324	앱솔루트 세이지
+15325	스페셜 앱솔루트 마이트
+15326	스페셜 앱솔루트 도미네이션
+15327	스페셜 앱솔루트 세이지
+15328	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15329	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15330	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15331	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15332	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15333	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15334	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15335	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15336	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15337	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15338	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15339	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15340	행운 30 증가
+15341	행운 30 증가
+15342	행운 30 증가
+15343	최대 대미지 15 증가\n체인 블레이드 최대 대미지 10 증가\n도르카 스내치 사용 시\n도르카 획득량 8% 증가
+15344	최대 대미지 22 증가\n마리오네트의 최대 대미지 8 증가\n6막: 유혹의 올가미 범위 0.3m 증가
+15345	마법 공격력 46 증가\n최대 마나 80 증가\n이동 속도 3% 증가
+15346	체리파티
+15347	체리파티
+15348	체리파티
+15349	체리파티
+15350	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15351	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15352	행운 30 증가
+15353	체리파티
+15354	체리파티
+15355	체리파티
+15356	체리파티
+15357	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15358	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15359	행운 30 증가\n이동 속도 1% 증가

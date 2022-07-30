@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
-!define UOSHORTVERSION        "388"
-!define UOLONGVERSION         "0.21.53"
+!define UOSHORTVERSION        "390"
+!define UOLONGVERSION         "0.22.53"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -5507,19 +5507,6 @@ SectionEnd
   Delete "$INSTDIR\data\db\layout2\commerce\ImpView.xml"
 !macroend
 SectionGroupEnd
-SectionGroup "gameclock"
-Section "Clock/Weather Minimize" MOD81
-SetOutPath "$INSTDIR\data\db\layout2\gameclock"
-File "${srcdir}\Tiara's Moonshine Mod\data\db\layout2\gameclock\GameClockView.xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\db\layout2\gameclock\GameClockView_Weather.xml"
-SectionIn 1 2 3
-SectionEnd
-!macro Remove_${MOD81}
-  DetailPrint "*** Removing MOD81..."
-  Delete "$INSTDIR\data\db\layout2\gameclock\GameClockView.xml"
-  Delete "$INSTDIR\data\db\layout2\gameclock\GameClockView_Weather.xml"
-!macroend
-SectionGroupEnd
 SectionGroup "petinfo"
 Section "Partner Skillbar Icon" MOD404
 SetOutPath "$INSTDIR\data\db\layout2\petinfo"
@@ -6973,7 +6960,7 @@ SectionGroupEnd
 !insertmacro "${MacroName}" "MOD445"
 !insertmacro "${MacroName}" "MOD446"
 !insertmacro "${MacroName}" "MOD80"
-!insertmacro "${MacroName}" "MOD81"
+;!insertmacro "${MacroName}" "MOD81"
 !insertmacro "${MacroName}" "MOD404"
 !insertmacro "${MacroName}" "MOD82"
 !insertmacro "${MacroName}" "MOD83"
@@ -8089,12 +8076,6 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD80" "FILE1" "\data\db\layout2\c
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD80" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD80" "CREATOR" "Trivaloso"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD80" "DESCRIPTION" ""
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD81" "" "Clock-Weather Minimize"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD81" "FILE1" "\data\db\layout2\gameclock\GameClockView.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD81" "FILE2" "\data\db\layout2\gameclock\GameClockView_Weather.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD81" "FILES" "2"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD81" "CREATOR" "ShaggyZE"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD81" "DESCRIPTION" "Shows Clock and Weather Minimize Buttons"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD82" "" "Doppel collection removal"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD82" "FILE1" "\data\db\layout2\skill\SkillReadyView.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD82" "FILES" "1"
@@ -8230,7 +8211,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD106" "" "Invisible Female Giant
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD106" "FILE1" "\data\gfx\char\giant\female\mentle\giant_female_dummy_01.pmg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD106" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD106" "CREATOR" ""
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD106" "DESCRIPTION" ""
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD107" "DESCRIPTION" "Turn Robes Transparent when Character Minimization is On"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD107" "" "Invisible Female Giant Minimization Fix 2"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD107" "FILE1" "\data\gfx\char\giant\male\mentle\giant_male_dummy_01.pmg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD107" "FILES" "1"
@@ -8265,7 +8246,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD113" "" "Invisible Female Human
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD113" "FILE1" "\data\gfx\char\human\female\mantle\female_dummy_01.pmg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD113" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD113" "CREATOR" ""
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD113" "DESCRIPTION" ""
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD114" "DESCRIPTION" "Turn Robes Transparent when Character Minimization is On"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD114" "" "Invisible Male Human Minimization Fix"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD114" "FILE1" "\data\gfx\char\human\male\mantle\male_dummy_01.pmg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD114" "FILES" "1"
@@ -11306,7 +11287,8 @@ StrCpy $FontBMP "ydygo550.bmp"
 ${FontBMPCreate} $FontBMP
 
 Delete "$INSTDIR\package\uotiara_00001.it"
-
+Delete "$INSTDIR\data\db\layout2\gameclock\GameClockView.xml"
+Delete "$INSTDIR\data\db\layout2\gameclock\GameClockView_Weather.xml"
   ;Reads components status for registry
   !insertmacro SectionList "InitSection"
 StrCpy $R7 "End myonguiinit"

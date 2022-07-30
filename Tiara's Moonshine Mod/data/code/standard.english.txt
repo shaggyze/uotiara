@@ -3,8 +3,8 @@ autobotdescmgr.2	Movement Speed +{0}%
 autobotdescmgr.3	{0}
 autobotdescmgr.4	Critical Damage +{0}%
 autobotdescmgr.5	Pet Combat EXP Bonus +{0}%
-autobotdescmgr.6	음악 버프 스킬 지속시간 {0}
-autobotdescmgr.7	공격 속도 {0}%
+autobotdescmgr.6	Music Buff Duration {0}
+autobotdescmgr.7	Attack Speed {0}%
 autobotdescmgr.8	Gathering Speed +{0}%
 booleanfunctionhandler.1	When you are an Elf or supporting an Elf
 booleanfunctionhandler.2	When you are a Giant or supporting a Giant
@@ -520,6 +520,12 @@ mabinogi_commerce.32	You can use this transport mount after\npaying a fee in Sea
 mabinogi_commerce.33	{0} {1}
 mabinogi_commerce.34	AM
 mabinogi_commerce.35	PM
+mabinogi_commerce.36	You cannot purchase items because your merchant group is currently trading.
+mabinogi_commerce.37	Smuggling could not be completed because your Town Merchant Rating is too low.
+mabinogi_commerce.38	Cannot summon an airship to a place where it couldn't land.
+mabinogi_commerce.39	Cannot purchase Merchant Group Barter Goods with only 1 party member.
+mabinogi_commerce.40	Cannot purchase personal Barter Goods when you're in a Merchant Group Party.
+mabinogi_commerce.41	Cannot purchase because you're not in a merchant group party.
 mabinogi_etcconstants.1	Beginner
 mabinogi_etcconstants.2	Intermediate
 mabinogi_etcconstants.3	Advanced

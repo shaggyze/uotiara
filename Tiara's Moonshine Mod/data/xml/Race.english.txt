@@ -5088,6 +5088,7 @@
 6489	Bullies
 6490	Bullies
 6491	Bullies
+6492	White Phoenix
 6493	Recall Mage Imp
 6494	Crystal Chime Deer
 6495	Albino Tiger
@@ -8795,10 +8796,10 @@
 11000	Disciple
 11001	Ronaun
 11002	Crom Bas Invisible Monster
-11003	Summer Vacation Warrior Corgi
-11004	Summer Vacation Warrior Corgi
-11005	Summer Vacation Wizard Corgi
-11006	Summer Vacation Wizard Corgi
+11003	Summer Warrior Corgi
+11004	Summer Warrior Corgi
+11005	Summer Wizard Corgi
+11006	Summer Wizard Corgi
 11007	Giant Leprechaun
 11008	Scooter Imp (Master Plan)
 11009	Folamh
@@ -9166,8 +9167,61 @@
 11395	Bandits
 11396	Bandits
 11397	Rhys
+11398	Novice Wyvern Mercenary
+11399	Weak Wyvern Mercenary
+11400	Wyvern Mercenary
+11401	Amateur Wyvern Mercenary
+11402	Foreign Wyvern Mercenary
+11403	Full-Time Wyvern Mercenary
+11404	Rookie Wyvern Mercenary
+11405	Lonely Wyvern Mercenary
+11406	Sturdy Wyvern Mercenary
+11407	Fire Wyvern
+11408	Fire Wyvern
+11409	Fire Wyvern
 11410	Giga Glas Ghaibhleann
 11411	Giga Glas Ghaibhleann
+11412	Silly Red Dragon
+11413	Novice Merchants' Guild Bandit Human
+11414	Rookie Merchants' Guild Bandit Elf
+11415	Rookie Merchants' Guild Bandit Elf
+11416	Rookie Merchants' Guild Bandit Human
+11417	Rookie Merchants' Guild Bandit Giant
+11418	Rookie Merchants' Guild Bandit Boss
+11419	Rookie Merchants' Guild Bandit Boss
+11420	Rookie Merchants' Guild Bandit Boss
+11421	Trained Merchants' Guild Bandit Elf
+11422	Trained Merchants' Guild Bandit Elf
+11423	Trained Merchants' Guild Bandit Human
+11424	Trained Merchants' Guild Bandit Giant
+11425	Trained Merchants' Guild Bandit Boss
+11426	Trained Merchants' Guild Bandit Boss
+11427	Trained Merchants' Guild Bandit Boss
+11428	Hardened Merchants' Guild Bandit Elf
+11429	Hardened Merchants' Guild Bandit Elf
+11430	Hardened Merchants' Guild Bandit Human
+11431	Hardened Merchants' Guild Bandit Giant
+11432	Hardened Merchants' Guild Bandit Boss
+11433	Hardened Merchants' Guild Bandit Boss
+11434	Hardened Merchants' Guild Bandit Boss
+11435	Veteran Merchants' Guild Bandit Elf
+11436	Veteran Merchants' Guild Bandit Elf
+11437	Veteran Merchants' Guild Bandit Human
+11438	Veteran Merchants' Guild Bandit Giant
+11439	Veteran Merchants' Guild Bandit Boss
+11440	Veteran Merchants' Guild Bandit Boss
+11441	Veteran Merchants' Guild Bandit Boss
+11442	Seasoned Merchants' Guild Bandit Elf
+11443	Seasoned Merchants' Guild Bandit Elf
+11444	Master Merchants' Guild Bandit Human
+11445	Master Merchants' Guild Bandit Giant
+11446	Master Merchants' Guild Bandit Boss
+11447	Master Merchants' Guild Bandit Boss
+11448	Master Merchants' Guild Bandit Boss
+11449	[Event] Caravan Joe's Caravan
+11452	[Event] Commerce Joe's Caravan
+11453	[Event] Escaped Joe's Caravan
+11454	슈팅 스타
 11455	Barista Fallen Fairy
 11456	Barista Flora
 11457	Adept Novice Wyvern Mercenary
@@ -9193,4 +9247,21 @@
 11478	기사 아일린
 11479	요리사 아일린
 11480	연회장 직원 아일린
+11531	Splish-Splash Cat Doll
+11532	Bug Catcher Pup Doll
+11537	Red Fairy Dragon
+11538	Green Fairy Dragon
+11539	Blue Fairy Dragon
+11555	Linden Doll
+11556	Sayiv Doll
+11557	Igerna Doll
+11558	Caoimhin Doll
+11560	Fairy Dragon
+11561	Fairy Dragon
+11562	Fairy Dragon
+11563	Fairy Dragon
+11564	Fairy Dragon
+11565	Fairy Dragon
 11566	Scooter Imp (90 Days)
+11613	Fairy Dragon
+11622	Succubus Fiend
