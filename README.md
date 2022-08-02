@@ -23,6 +23,7 @@ https://www.patreon.com/shaggyze
 or
 https://paypal.me/thoggsr
 
+(If the installer or ijl11.dll is Missing, being Detected, Deleted or Blocked due to Kanan or Abyss's packing/encryption method, Disable your Anti-Virus programs temporarily and add the Mabinogi or Download folders to your White/Exclusion list or right click ijl11.dll and set it to allow)
 
 # What is Tiara's Moonshine Mod?
 >> Tiara's Moonshine Mod is a simple client-side modification package aimed at assisting players who have difficulty or wish to minimize concentration during the game.
