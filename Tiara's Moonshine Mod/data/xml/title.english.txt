@@ -12174,6 +12174,27 @@
 13740	17주년 기념 타이틀이다.
 13741	17주년 기념 타이틀이다.
 13742	최대생명력 22 증가\n최대마나 22 증가\n체력 22 증가\n솜씨 22 증가\n지력 22 증가\n의지 22 증가\n행운 22 증가
+13743	who was Foiled by a Cat
+13744	who was SO CLOSE
+13745	the Quiz Pro
+13746	who was Foiled by a Cat
+13747	who was SO CLOSE
+13748	the Quiz Pro
+13749	who was Foiled by a Cat
+13750	who was SO CLOSE
+13751	the Quiz Pro
+13752	who was Foiled by a Cat
+13753	who was SO CLOSE
+13754	the Quiz Pro
+13755	A title given to those who were eliminated on the very first question of an OX Quiz session. There's no excuse for that...unless your cat jumped up on your keyboard. Surely that must have been it, right?
+13756	A title given to those unfortunate enough to get all the way to the very last question...and then get it wrong. Let the world know how unfair life is. Cheer up--there's always next time!
+13757	A title given to the masters of trivia who managed to get every answer correct during an OX Quiz. Revel in your glory, for it takes a true know-it-all to avoid even a single wrong answer.
+13758	A title given to those who were eliminated on the very first question of an OX Quiz session. There's no excuse for that...unless your cat jumped up on your keyboard. Surely that must have been it, right?
+13759	A title given to those unfortunate enough to get all the way to the very last question...and then get it wrong. Let the world know how unfair life is. Cheer up--there's always next time!
+13760	A title given to the masters of trivia who managed to get every answer correct during an OX Quiz. Revel in your glory, for it takes a true know-it-all to avoid even a single wrong answer.
+13761	Luck +30
+13762	Luck +30
+13763	Luck +30
 13764	At the Ready
 13765	At the Ready
 13766	At the Ready
@@ -12300,3 +12321,24 @@
 15357	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 15358	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 15359	행운 30 증가\n이동 속도 1% 증가
+15402	즐거운 다람쥐
+15403	귀여운 다람쥐
+15404	영리한 다람쥐
+15405	즐거운 다람쥐
+15406	귀여운 다람쥐
+15407	영리한 다람쥐
+15408	즐거운 다람쥐
+15409	귀여운 다람쥐
+15410	영리한 다람쥐
+15411	즐거운 다람쥐
+15412	귀여운 다람쥐
+15413	영리한 다람쥐
+15414	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15415	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15416	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15417	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15418	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15419	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15420	행운 30 증가
+15421	행운 30 증가
+15422	행운 30 증가

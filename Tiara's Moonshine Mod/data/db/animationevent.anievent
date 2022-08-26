@@ -11426,6 +11426,29 @@ folder("char\chapter4\human\anim\riding\riding_magiccat")
 
 	endfolder
 	
+////////////////////////////////////////////////////////////////////////
+	folder("char\chapter4\human\anim\riding\riding_sfbike")
+
+		"human_sfbike_stand"
+			0:hideequip(false)	
+			0:lookat(off)
+			0:hand(both, fist)
+
+		"human_sfbike_run"
+			0:hideequip(false)	
+			0:hand(both, fist)
+			0:sound("data\sound\kartrider2020_kartrider_boost_1st.wav")
+			528:jump(264)
+
+		"human_sfbike_walk"
+			0:hideequip(false)	
+			0:hand(both, fist)
+		
+
+	endfolder	
+	
+	
+	
 //////////////////// 
 
 	folder("char\chapter4\human\anim\riding\riding_kart")
@@ -12159,7 +12182,47 @@ set("movingweapon")
 
 
 	folder("char/chapter4/human/anim/tool_ani")
-
+	
+	"human_sfbow_friendly"
+		0:hand(both,fist)
+		
+	"human_sfbow_offensive"
+		0:hand(both,fist)
+		92:jump(60)	
+	
+	"human_sfdualgun_friendly"
+	0:lookat (off)
+		0:hand(both, fist)
+		
+	
+	"human_sfdualgun_offensive"
+		0:lookat (off)
+		0:hand(both, fist)
+		143:jump(114)
+		
+		
+	"human_sfdualgun_offensive_run"
+		0:lookat (off)
+		0:hand(both, fist)
+		
+	
+	"human_sfdualgun_run"
+	0:lookat (off)
+		0:hand(both, fist)
+		
+			
+	"elf_sfdualgun_offensive_run"
+		0:lookat (off)
+		0:hand(both, fist)
+	
+	
+	"elf_sfdualgun_run"
+	0:lookat (off)
+		0:hand(both, fist)
+		
+		
+		
+		
 
 	"human_sfsword_friendly"
 		0:lookat (off)
@@ -12168,7 +12231,7 @@ set("movingweapon")
 	"human_sfsword_offensive"
 		0:lookat (off)
 		0:hand(both, fist)
-		60:jump(24)
+	    120:jump(80)
 			
 	"human_sfsword_run"
 		0:lookat (off)
@@ -12178,10 +12241,58 @@ set("movingweapon")
 		0:lookat (off)
 		0:hand(both, fist)
 
+
+
+	"human_sfknuckle_friendly"
+		0:lookat (off)
+		0:hand(both, palm)
+		
+	"human_sfknuckle_offensive"
+		0:lookat (off)
+		157:jump(117)
+
+
 	endfolder
 
     
 endset
+
+set("movingweapon_giant")
+
+
+	folder("char/chapter4/giant/anim/tool_ani")
+	
+	
+	"giant_sfdualgun_friendly"
+	0:hand(both,fist)
+	
+	"giant_sfdualgun_offensive"
+		0:hand(both,fist)
+		143:jump(85)
+		
+		
+	"giant_female_sfdualgun_friendly"
+	0:hand(both,fist)
+	
+	
+	"giant_female_sfdualgun_offensive"
+		0:hand(both,fist)
+		143:jump(85)
+	
+	
+	
+	
+	"giant_sfsword_offensive"
+		0:hand(both,fist)
+		120:jump(80)
+		
+	"giant_sfsword_friendly"
+		0:hand(both,fist)
+	
+	endfolder
+
+    
+endset	
 
 ////////////////////////////////////// 마상 랜스 차지 모션 - 인간  //////////////////////////////////////////
 
@@ -14736,6 +14847,76 @@ set("C4_giant")
 			0:lookat(off)		
 			0:hand(both, palm)	
 			0:hideequip(true)
+			
+			
+			
+		"giant_club01_sit"
+			 0:lookat(off)
+			 0:hand(both,palm)
+		 		 
+		 
+		"giant_club02_sit"
+			 0:lookat(off)
+			 0:hand(both,palm)
+
+
+		"giant_club03_sit"
+			 0:lookat(off)
+			 0:hand(both,palm)
+
+		"giant_club04_sit"
+			 0:lookat(off)
+			 0:hand(both,palm)
+
+		"giant_club05_sit"
+			 0:hand(left,palm)
+			 0:hand(right,fist)
+			 0:generic("custom_equip(weapon:giant_tool_clubbottle_ani)")
+
+		"giant_club06_sit"
+			 0:lookat(off)
+			 0:hand(left,palm)
+			 0:hand(right,fist)
+			 0:generic("custom_equip(weapon:giant_tool_clubbottle_ani)")	
+			 
+			 
+			 
+			 
+		"giant_female_club01_sit"
+			 0:lookat(off)
+			 0:hand(both,palm)
+		 		 
+		 
+		"giant_female_club02_sit"
+			 0:lookat(off)
+			 0:hand(both,palm)
+
+
+		"giant_female_club03_sit"
+			 0:lookat(off)
+			 0:hand(both,palm)
+
+		"giant_female_club04_sit"
+			 0:lookat(off)
+			 0:hand(both,palm)
+
+		"giant_female_club05_sit"
+			 0:hand(left,palm)
+			 0:hand(right,fist)
+			 0:generic("custom_equip(weapon:giant_tool_clubbottle_ani)")
+
+		"giant_female_club06_sit"
+			 0:lookat(off)
+			 0:hand(left,palm)
+			 0:hand(right,fist)
+			 0:generic("custom_equip(weapon:giant_tool_clubbottle_ani)")	
+
+			 
+
+			 
+
+
+			 
 						
 		"giant_female_club01_sit02"
 			0:lookat(off)		
@@ -19810,6 +19991,43 @@ set("riding_bike")
 
 	endfolder
 
+
+////////////////////////////////////////////////////////////////////////
+	folder("char\chapter4\giant\anim\riding\riding_sfbike")
+
+		"giant_sfbike_stand"
+			0:hideequip(false)	
+			0:lookat(off)
+			0:hand(both, fist)
+
+		"giant_sfbike_run"
+			0:hideequip(false)	
+			0:hand(both, fist)
+			0:sound("data\sound\kartrider2020_kartrider_boost_1st.wav")
+			528:jump(264)
+
+		"giant_sfbike_walk"
+			0:hideequip(false)	
+			0:hand(both, fist)
+
+		
+		"giant_female_sfbike_stand"
+			0:hideequip(false)	
+			0:lookat(off)
+			0:hand(both, fist)
+
+		"giant_female_sfbike_run"
+			0:hideequip(false)	
+			0:hand(both, fist)
+			0:sound("data\sound\kartrider2020_kartrider_boost_1st.wav")
+			528:jump(264)			
+
+		"giant_female_sfbike_walk"
+			0:hideequip(false)	
+			0:hand(both, fist)			
+
+	endfolder
+
 ////////////////////////////////////////////////////////////////////////
 	folder("char\chapter4\giant\anim\riding\riding_magiccat")	
 	
@@ -23250,6 +23468,36 @@ set("C4_human")
 
         folder("char\chapter4\human\anim")
 		
+		"human_club01_sit"
+			 0:lookat(off)
+			 0:hand(both,palm)
+			 0:generic("custom_mesh(0:tool_clubbox_ani)")
+		 		 
+		 
+		"human_club02_sit"
+			 0:lookat(off)
+			 0:hand(both,palm)
+			 0:generic("custom_mesh(0:tool_clubbox_ani)")
+
+		"human_club03_sit"
+			 0:lookat(off)
+			 0:hand(both,palm)
+
+		"human_club04_sit"
+			 0:lookat(off)
+			 0:hand(both,palm)
+
+		"human_club05_sit"
+			 0:hand(left,palm)
+			 0:hand(right,fist)
+			 0:generic("custom_equip(weapon:tool_clubbottle_ani)")
+
+		"human_club06_sit"
+			 0:lookat(off)
+			 0:hand(left,palm)
+			 0:hand(right,fist)
+			 0:generic("custom_equip(weapon:tool_clubbottle_ani)")				
+		
 		"male_mannequin"
 			0:hand(both,fist)
 			0:generic("custom_mesh(0:tool_tape_measure)")
@@ -26146,13 +26394,42 @@ set("weapon_human_ani")
 
     folder("char\chapter4\human\tool_ani")
 	
+	"human_weapon_sfbow_offensive"	
+		31:generic("custom_mesh(0:human_weapon_sfbow_mesh02_close)")
+		31:generic("custom_mesh(1:human_weapon_sfbow_mesh03_close)")
+		150:jump(90)		
+	
+	
+	
+	"human_weapon_sfdualgun_friendly"
+	20:jump(0)
+	
+	"human_weapon_sfdualgun_offensive"
+	100:jump(80)
+	
+	
+	
+	"human_weapon_sfknuckle_handl_friendly"	
+	
+	"human_weapon_sfknuckle_handl_offensive"
+		25:generic("custom_mesh(1:human_weapon_sfknuckle_handl_mesh02_close)")
+		26:generic("custom_mesh(2:human_weapon_sfknuckle_handl_mesh03_close)")
+		157:jump(117)	
+		
+	"human_weapon_sfknuckle_handr_friendly"
+		
+	"human_weapon_sfknuckle_handr_offensive"
+		24:generic("custom_mesh(1:human_weapon_sfknuckle_handR_mesh03_close)")
+		25:generic("custom_mesh(2:human_weapon_sfknuckle_handR_mesh03_close)")	
+		157:jump(117)			
+		
 	
 	"human_weapon_sfsword_friendly"
 			
 		
 		
 	"human_weapon_sfsword_offensive"
-		60:jump(24)	
+		100:jump(60)	
 		
 	
 	"weapon_twohanded_etainstaff_friendly"
@@ -26221,11 +26498,59 @@ endset
 set("weapon_giant_ani")
         folder("char\chapter4\giant\tool_ani")
 		
+		"giant_weapon_sfdualgun_friendly"
+		100:jump(0)
+		
+		
+		"giant_weapon_sfdualgun_offensive"
+		100:jump(80)
+		
+		
+		"giant_female_weapon_sfdualgun_friendly"
+		100:jump(0)
+		
+		
+		"giant_female_weapon_sfdualgun_offensive"
+		100:jump(80)
 		
 		
 		
 		
 		
+		
+		"giant_weapon_sfsword_offensive"
+			100:jump(60)		
+		
+	"giant_weapon_sfknuckle_handL_friendly"	
+		
+	"giant_weapon_sfknuckle_handl_offensive"
+		25:generic("custom_mesh(1:giant_weapon_sfknuckle_handl_mesh02_close)")
+		26:generic("custom_mesh(2:giant_weapon_sfknuckle_handl_mesh03_close)")
+		157:jump(117)	
+		
+	"giant_weapon_sfknuckle_handr_friendly"
+			
+		
+	"giant_weapon_sfknuckle_handr_offensive"
+		25:generic("custom_mesh(1:giant_weapon_sfknuckle_handR_mesh03_close)")
+		26:generic("custom_mesh(2:giant_weapon_sfknuckle_handR_mesh03_close)")	
+		157:jump(117)		
+		
+
+	"giant_female_weapon_sfknuckle_handL_friendly"	
+		
+	"giant_female_weapon_sfknuckle_handl_offensive"
+		25:generic("custom_mesh(1:giant_weapon_sfknuckle_handl_mesh02_close)")
+		26:generic("custom_mesh(2:giant_weapon_sfknuckle_handl_mesh03_close)")
+		157:jump(117)	
+		
+	"giant_female_weapon_sfknuckle_handr_friendly"
+			
+		
+	"giant_female_weapon_sfknuckle_handr_offensive"
+		25:generic("custom_mesh(1:giant_weapon_sfknuckle_handR_mesh03_close)")
+		26:generic("custom_mesh(2:giant_weapon_sfknuckle_handR_mesh03_close)")	
+		157:jump(117)	
 		
 		
 	"giant_weapon_twohanded_etainstaff_friendly"
@@ -27018,6 +27343,56 @@ set("social motion")
 	
 	folder("char\chapter4\human\anim\social_motion")
 	
+		"female_maidbutler"
+			0:lookat(off)
+			0:hand(both,palm)
+			1:generic("custom_equipmentmesh(1, female_c4_maidbutler_bls_ani)")			
+
+			
+		"male_maidbutler"
+			0:lookat(off)
+			0:hand(left,palm)
+			0:hand(right,fist)		
+			
+			
+		"male_weird_maidbutler"
+			0:lookat(off)
+			0:hand(both,palm)
+			1:generic("custom_equipmentmesh(1, male_c4_maidbutler_change_bls_ani)")			
+
+			
+		"female_weird_maidbutler"
+			0:lookat(off)
+			0:hand(left,palm)
+			0:hand(right,fist)				
+		
+		
+		"female_scuniform"
+			0:lookat(off)
+			0:hand(left,palm)
+			861:jump (458, true)
+			193:generic("custom_equip(weapon:tool_rabbit_ani)")
+			
+		
+		
+		"male_scuniform"
+			0:lookat(off)
+			0:hand(left,palm)
+			861:jump (458, true)
+			193:generic("custom_equip(weapon:tool_rabbit_ani)")
+		
+		
+
+		
+		"female_folamh"
+			0:lookat(off)
+			0:hand(left,palm)
+
+		"male_folamh"
+			0:lookat(off)
+			0:hand(left,palm)
+		
+		
 	
 		"female_jellyfish"
         0:lookat(off)
@@ -85720,6 +86095,65 @@ set("social motion")
 	
 	folder("char\chapter4\giant\anim\social_motion")
 	
+	"giant_female_maidbutler"
+		0:lookat(off)
+		0:hand(both,palm)
+		1:generic("custom_equipmentmesh(1, giant_female_c4_maidbutler_bls_ani)")			
+
+			
+	"giant_maidbutler"
+		0:lookat(off)
+		0:hand(left,palm)
+		0:hand(right,fist)			
+		
+		
+	"giant_maidbutler"
+		0:lookat(off)
+		0:hand(both,palm)
+		1:generic("custom_equipmentmesh(1, giant_male_c4_maidbutler_change_bls_ani)")			
+
+			
+	"giant_female_maidbutler"
+		0:lookat(off)
+		0:hand(left,palm)
+		0:hand(right,fist)				
+	
+	
+	
+
+	"giant_female_scuniform"
+		0:lookat(off)
+		0:hand(left,palm)
+		861:jump (458, true)
+		193:generic("custom_equip(weapon:giant_tool_rabbit_ani)")
+		
+
+	
+	"giant_scuniform"
+		0:lookat(off)
+		0:hand(left,palm)
+		861:jump (458, true)
+		193:generic("custom_equip(weapon:giant_tool_rabbit_ani)")
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	"giant_female_folamh"
+	0:lookat(off)
+	0:hand(left,palm)
+	
+	
+	"giant_folamh"
+	0:lookat(off)
+	0:hand(left,palm)
+	
+	
+	
 	
 	"giant_female_jellyfish"
 
@@ -93680,6 +94114,39 @@ set("tool_Lhand_B")
 	endfolder
 
 endset
+
+
+///////////////////movingweapon캐릭터모션//////////////////////////////
+
+set("movingweapon")
+
+
+	folder("char/chapter4/giant/anim/tool_ani")
+
+
+	"giant_sfknuckle_friendly"
+		0:lookat (off)
+		0:hand(both, palm)
+		
+	"giant_sfknuckle_offensive"
+		0:lookat (off)
+		0:hand(both, palm)
+		157:jump(117)
+
+	"giant_female_sfknuckle_friendly"
+		0:lookat (off)
+		0:hand(both, palm)
+		
+	"giant_female_sfknuckle_offensive"
+		0:lookat (off)
+		0:hand(both, palm)
+		157:jump(117)
+
+	endfolder
+
+    
+endset
+
 
 
 ////////////////////////////////////// tool_C01(한손검+짧은 방패) //////////////////////////////////////////

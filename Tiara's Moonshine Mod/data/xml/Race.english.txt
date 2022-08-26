@@ -9264,4 +9264,5 @@
 11565	Fairy Dragon
 11566	Scooter Imp (90 Days)
 11613	Fairy Dragon
+11620	도움이 필요한 고냥이
 11622	Succubus Fiend

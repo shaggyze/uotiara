@@ -910,6 +910,7 @@ pli_changehumanpetpurchaselistview.11	Required Coupon
 pli_changehumanpetpurchaselistview.12	Available Coupon: {0}
 pli_changehumanpetpurchaselistview.13	Eye Color (Right)
 pli_changehumanpetpurchaselistview.14	Eye Color (Left)
+pli_changehumanpetpurchaselistview.15	외형 변경에 사용할 쿠폰을 선택하세요.
 pli_channelmoveview.1	Moving to another channel will incur the same penalties as re-logging in.\n\n- Cancels current Part-time job.         \n- Teleports you from within a dungeon to the dungeon lobby.     \n- Expels you from your party.                    \n- Applies logout penalty.             \n- Costs you some of your Trade Goods if in the middle of an Ambush.\n\nYou may be returned to the log-in screen if you try to move to a channel that cannot be entered.
 pli_channelmoveview.2	Normal
 pli_channelmoveview.3	Busy
@@ -953,7 +954,7 @@ pli_characteradditionalframe.28	You must wait 4 days your character was created 
 pli_characteradditionalframe.29	You must wait 7 days your character was created or your most recent rebirth to Rebirth again.
 pli_characteradditionalframe.30	You can Rebirth one day after your character was created or your most recent Rebirth.
 pli_characteradditionalframe.31	You cannot rebirth while using the Dressing Room.
-pli_characteradditionalframe.32	환생
+pli_characteradditionalframe.32	Rebirth
 pli_characteradditionalframe.33	You cannot rebirth while engaged in a pursuit.
 pli_charactercombocardframe.1	The selected {0} Combo Card(s) will be permanently removed.\nWould you like to proceed?
 pli_charactercombocardframe.2	Warning
@@ -1981,7 +1982,7 @@ pli_fynnsynchselectview.3	Inventory Window: {0} x {1}\n
 pli_fynnsynchselectview.4	Total Available Summon Time: {0} min\n
 pli_fynnsynchselectview.5	Pet Points: {0}\n
 pli_fynnsynchselectview.6	Cumulative Level : {0}\n
-pli_fynnsynchselectview.7	핀 싱크를 진행하면\n서브 펫으로 선택하신 <color=5>{0}({1})가 삭제됩니다.</color>\n정말 서브 펫 선택을 진행하시겠습니까?
+pli_fynnsynchselectview.7	After this Fynn Sync,\nThe selected sub-pet <color=5>{0}({1}) will disappear.</color>\nDo you really wish to select it as a sub-pet?
 pli_fynnsynchview.1	First 
 pli_fynnsynchview.2	Second
 pli_fynnsynchview.3	Third
@@ -2766,7 +2767,7 @@ pli_interfacemgraction.14	You cannot change channels from this location.
 pli_interfacemgraction.15	You cannot change channels while using the Auction House.
 pli_interfacemgraction.16	You cannot move here.
 pli_interfacemgraction.17	If you move to another channel now, you'll lose {0} EXP and {1} Gold.\nTo avoid this loss, wait for {2} before switching channels.
-pli_interfacemgraction.18	지금 환생 시도를 하시면 {0}exp와 {1}골드를 잃어버립니다.\n{2} 이후에는 안전하게 환생을 이용할 수 있습니다.
+pli_interfacemgraction.18	If you Rebirth now, you'll lose {0} EXP and {1} Gold.\nTo avoid this loss, wait for {2} before proceeding with Rebirth.
 pli_interfacemgrcreate.1	Set {0}
 pli_interfaceskillmgr.0	Switching the current skill hotkey group set to Set #2.
 pli_interfaceskillmgr.1	Switching the current skill hotkey group set to Set #1.
@@ -3361,6 +3362,7 @@ pli_pawnpurchaselistview.2	{0} Pon
 pli_pawnpurchaselistview.3	Available Coupon: {0}
 pli_pawnpurchaselistview.4	Required Coupon
 pli_pawnpurchaselistview.5	Data already exists in this slot.
+pli_pawnpurchaselistview.6	외형 변경에 사용할 쿠폰을 선택하세요.
 pli_personalrankingdefaultview.1	{0} min {1} sec {2}
 pli_personalrankingdefaultview.2	Character not found.
 pli_personalrankingdefaultview.3	Period {0}/{1}/{2} - {3}/{4}/{5}
@@ -5640,6 +5642,7 @@ pli_windowmessengeroption.4	Guild Member Login Notifications
 pli_windowmessengeroption.5	Use Offline Group
 pli_windowmessengeroption.6	Unread Note Notifications
 pli_windowmessengeroption.7	Receive Messages from Friends Only
+pli_windowmessengeroption.8	Disable ESC from Closing Chat Window
 pli_windowmetalextraction.1	Metal Extraction
 pli_windowmetalextraction.2	Stop
 pli_windowmetalextraction.3	Stop the moving ball and match it to each point.

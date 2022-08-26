@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
-!define UOSHORTVERSION        "391"
-!define UOLONGVERSION         "0.23.53"
+!define UOSHORTVERSION        "393"
+!define UOLONGVERSION         "0.24.53"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -11047,7 +11047,7 @@ ExecShell "open" "https://github.com/shaggyze/uotiara/releases"
 Quit
 EndNewVersion:
 
-inetc::post "Action=CV&buildtime=-1" "http://theproffessorslaboratory.net/api.php" "$TEMP\MABIVERSION.txt" /END
+inetc::get /NOCANCEL /SILENT "https://shaggyze.website/MABIVERSION.txt" "$TEMP\MABIVERSION.txt" /END
 FileOpen $4 "$TEMP\MABIVERSION.txt" r
 FileRead $4 $1
 FileClose $4
@@ -11079,7 +11079,7 @@ ExecShell "open" "https://github.com/shaggyze/uotiara/releases"
 Quit
 EndNewVersion2:
 
-inetc::get /NOCANCEL /SILENT "https://shaggyze.website/MABIVERSION.txt" "$TEMP\MABIVERSION.txt" /END
+inetc::post "Action=CV&buildtime=-1" "http://theproffessorslaboratory.net/api.php" "$TEMP\MABIVERSION.txt" /END
 FileOpen $4 "$TEMP\MABIVERSION.txt" r
 FileRead $4 $1
 FileClose $4
