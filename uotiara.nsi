@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
 !define UOSHORTVERSION        "393"
-!define UOLONGVERSION         "0.24.53"
+!define UOLONGVERSION         "0.24.54"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -11256,11 +11256,12 @@ Call DumpLog1
 
 IfFileExists "$INSTDIR\Data" DataFound DataNotFound
 DataFound:
-MessageBox MB_YESNO "Would you like to remove your \Data\ folder, Kanan config.txt or Abyss to ensure your updated?" IDNO nodel
+MessageBox MB_YESNO "Would you like to remove your \Data\ folder to ensure your updated?" IDNO nodel
 ${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
 CopyFiles "$INSTDIR\Data" "$INSTDIR\Archived\UOTiara\backup($2$1$0$4$5$6)"
 RMDir /r "$INSTDIR\Data"
 DataNotFound:
+nodel:
 IfFileExists $INSTDIR\Kanan\config.txt KananFound KananNotFound
 KananFound:
 MessageBox MB_YESNO "Would you like to Remove Kanan's config.txt?" IDNO no41
@@ -11279,7 +11280,6 @@ IfFileExists $INSTDIR\ijl11.dat 0 +2
 Delete "$INSTDIR\ijl11.dll"
 Rename "$INSTDIR\ijl11.dat" "$INSTDIR\ijl11.dll"
 Delete "$INSTDIR\README_Abyss.txt"
-nodel:
 no42:
 AbyssNotFound2:
 

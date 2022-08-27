@@ -18,22 +18,6 @@ ECHO Skipping Update
 ECHO Invalid Option: y or n
 PAUSE
 )
-set /p "yesno=Compile features.xml.compiled y/n?:"
-IF "%yesno%"=="y" (
-@ECHO ON
-for %%f in (C:\Nexon\Library\mabinogi\appdata\package\*.it) do (
-  C:\Nexon\Library\mabinogi\appdata\mabi-pack2\mabi-pack2.exe extract -i %%f -o . --filter "\.compiled" -k "@6QeTuOaDgJlZcBm#9"
-)
-".\Tiara's Moonshine Mod\Tools\MabiFeatureTool\MabiFeatureTool.exe" ".\data\features.xml.compiled"
-for %%A in (".\UpdateFeatures.ps1") do PowerShell -ExecutionPolicy RemoteSigned -File %%~sA
-".\Tiara's Moonshine Mod\Tools\MabiFeatureTool\MabiFeatureTool.exe" ".\data\features.xml"
-for %%A in (".\data\features.xml.compiled") do for %%B in (".\Tiara's Moonshine Mod\data\features.xml.compiled") do Copy %%~sA %%~sB
-) ELSE IF "%yesno%"=="n" (
-ECHO Skipping Compile
-) ELSE (
-ECHO Invalid Option: y or n
-PAUSE
-)
 @ECHO OFF
 set /p "yesno=Copy data folder to mabinogi and build uotiara_00001.it y/n?:"
 IF "%yesno%"=="y" (
