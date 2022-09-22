@@ -980,6 +980,10 @@ pli_charactercombocardframe.21	You are using a Premium Package. Unable to revive
 pli_charactercombocardframe.22	무료 이벤트 중에는 기한제거를 할 수 없습니다.
 pli_charactercombocardframe.23	You are using a Premium Package. Unable to remove the duration.
 pli_charactercombocardframe.24	Selected {0} Combo Cards include <color=2>activated Combo Cards</color>.\nAre you sure you want to remove them?
+pli_charactercombocardframe.25	No Combo Card to delete.
+pli_charactercombocardframe.26	Among <color=5><outlinecolor=3>{0}</outlinecolor></color> unlocked Combo Cards,\n<color=2>an active Combo Card</color> has been selected.\nRemove all unlocked cards?\n<color=5><outlinecolor=3>(You can't restore the removed items.)</outlinecolor></color>\n<color=2>You can set the lock function by right-clicking with the mouse.</color>
+pli_charactercombocardframe.27	<color=5><outlinecolor=3>{0}</outlinecolor></color> unlocked Combo Cards\nwill be permanently removed.\nAre you sure you want to remove?\n<color=5><outlinecolor=3>(You can't restore the removed items.)</outlinecolor></color>\n<color=2>You can set the lock function by right-clicking with the mouse.</color>
+pli_charactercombocardframe.28	Can set again in {0} second(s).
 pli_charactercommerceframe.1	Current Merchant Rating: {0}
 pli_charactercommerceframe.2	Current Merchant Rating {0}\nTo Next Level {1}
 pli_charactercommerceframe.3	lv{0} exp {1}%
@@ -1125,6 +1129,7 @@ pli_combocardcustomizeconfirmview.1	{0} Advancement Badge(s)
 pli_combocardcustomizeview.1	Customize Combo Card
 pli_combocardcustomizeview.2	[You can change a Combo Card slot by using the advancement badge of a Dan 3 skill.\nChoose a Combo Card and move a skill icon into the slot you want to change.]
 pli_combocardcustomizeview.3	Move a skill icon into the Combo Card slot.
+pli_combocardviewboxframe.1	Right-click with the mouse to lock or unlock Combo Cards.\nYou can't remove Combo Cards that are locked.
 pli_commercecontrolview.1	Stop Trading
 pli_commercecontrolview.2	Are you sure you want to stop trading?\nYou will lose 25% of your investment.
 pli_commercecontrolview.3	Stop pursuing
@@ -1353,6 +1358,8 @@ pli_crystalizeview.47	Magic Charges: <color={0}>{1}/{2}</color>
 pli_crystalizeview.48	Magic Charges: <color={0}>{1}/{2}</color>
 pli_crystalizeview.49	Auto Production
 pli_crystalizeview.50	{0}
+pli_crystalizeview.51	Cannot register materials. Please equip materials.
+pli_crystalizeview.52	Auto Register Tools and Materials
 pli_crystalmanagementview.1	Please select a crystal to store.\nClicking the stored crystal will remove it from the slot.
 pli_crystalmanagementview.2	{0}
 pli_crystalmanagementview.3	{0}
@@ -1491,6 +1498,7 @@ pli_echostoneconvertview.3	This is a high-grade Echostone. Do you want to contin
 pli_echostoneconvertview.4	Alert
 pli_echostoneconvertview.5	Grade {0}
 pli_echostoneconvertview.6	{0} x{1}
+pli_echostoneprobeachlevelview.1	Level {0}
 pli_echostoneupgraderesultview.1	{0} {1} + {2} Increase
 pli_echostoneupgraderesultview.2	{0} {1} Increase
 pli_echostoneupgraderesultview.3	Grade {0}
@@ -2262,6 +2270,7 @@ pli_helperapi.36	{0} skill {1}
 pli_helperapi.37	An orb imbued with the power of Fynn that can be equipped to enable the use of special powers.
 pli_helperapi.38	Combat
 pli_helperapi.39	Horn
+pli_helperapi.40	Field Raid
 pli_helperapiskill.1	Currently aware of the skill.\nBecomes available once the Classic Spirit Weapon's social level reaches 21.
 pli_helperapiskill.2	Beast
 pli_helperapiskill.3	The First Dan
@@ -3323,8 +3332,8 @@ pli_newrebirtheventview.1	Time:
 pli_newrecordbookmainview.1	There doesn't seem to be much here yet.\nComplete the Third Memoir first.
 pli_newrecordbookmainview.2	* Bookmark\n
 pli_newyearfortune2015japan.1	To reveal your fortune, you need 3 Fortune's Fees.
-pli_npcenchantentrustview.1	If the Enchant fails while your skill is Rank 6 or above, the item may be destroyed.
-pli_npcenchantentrustview.2	The item being enchanted will disappear if the enchant fails at rank 6 or higher.\nThe Spirit inhabiting the weapon will disappear as well.
+pli_npcenchantentrustview.1	If an enchant attempt of rank 6 or higher fails,\nno further enchants can be applied to the item.
+pli_npcenchantentrustview.2	If an enchant attempt of rank 6 or higher fails,\nno further enchants can be applied to the item.
 pli_npcenchantentrustview.3	소각할 수 없는 아이템입니다
 pli_onlineconcertview.1	%02d:%02d:%02d
 pli_onlineconcertview.2	콘서트까지 {0}시간 {1}분 {2}초 남았습니다.
@@ -3896,6 +3905,14 @@ pli_raidpartymaketabframe.13	Do you want to proceed with the current squad setti
 pli_raidpartymaketabframe.14	Regular party quests and missions are restricted when you convert your party to a squad. \n Do you want to keep the current settings and proceed?
 pli_raidpartymaketabframe.15	Create Squad
 pli_raidpartymaketabframe.16	Do you want to create a squad?
+pli_randomtablemainview.1	Expires in 
+pli_randomtablemainview.2	{0} day(s)
+pli_randomtablemainview.3	{0} hr
+pli_randomtablemainview.4	{0} min
+pli_randomtablemainview.5	Available at Grade {0} and above
+pli_randomtablemainview.6	Items
+pli_randomtablemainview.7	Shiny
+pli_randomtablemainview.8	View Synthesis Probability
 pli_rebirthrankupbonusview.1	Click the [Level Up!] button to rebirth your character!\nNot only that, but your character will automatically level up to <color=6>Level {0}</color>!
 pli_recordbookmainview.1	Stickers Acquired: {0}
 pli_recordbookmainview.2	There doesn't seem to be much here yet. Complete the First Memoir first.
@@ -4364,6 +4381,9 @@ pli_tradeauctionitemframebase.14	Bid Price:
 pli_tradeauctionitemframebase.15	Buyout Price: 
 pli_tradeauctionitemframebase.16	No Buyout Price
 pli_tradeauctionitemframebase.17	No Buyout Price
+pli_tradeauctionitemframebase.18	<color=2>(Enchant, Special Upgrade unavailable)</color> 
+pli_tradeauctionitemframebase.19	<color=2>(Unable to enchant)</color> 
+pli_tradeauctionitemframebase.20	<color=2>(Special Upgrade unavailable)</color> 
 pli_tradeauctionlowpriceframe.1	The selected price will be set as the Sale Price.
 pli_tradeauctionlowpriceframe.2	The selected price will be set as the Buyout Price.
 pli_tradeauctionlowpriceframe.3	 pcs
@@ -4401,6 +4421,8 @@ pli_tradeauctionoptionsearchsubframe.5	{0}{1}
 pli_tradeauctionoptionsearchsubframe.6	None
 pli_tradeauctionoptionsearchsubframe.7	Upgrade Level {0}
 pli_tradeauctionoptionsearchsubframe.8	Grade {0}
+pli_tradeauctionoptionsearchsubframe.9	Available
+pli_tradeauctionoptionsearchsubframe.10	Unavailable
 pli_tradeauctionoptionsearchview.1	That Blacksmith Manual cannot be found.\nPlease make sure the name is correct.
 pli_tradeauctionoptionsearchview.2	That Sewing Pattern cannot be found.\nPlease make sure the name is correct.
 pli_tradeauctionoptionsearchview.3	That item cannot be found.\nPlease make sure the name is correct.
@@ -4465,6 +4487,18 @@ pli_tradeauctionstateviewbase.19	The item you are trying to purchase expires in 
 pli_tradeauctionstateviewbase.20	{0} The item listed is\n<color=5><outlinecolor=3>{1}%</outlinecolor></color> more expensive than its most recent average sale price.\n\nYour purchase was restricted due to your purchase restriction settings.\nYou can purchase after you <color=5><outlinecolor=3>Confirm Purchase</outlinecolor></color>.\n\nSale Price: <color=5><outlinecolor=3>{2}</outlinecolor></color> Gold\n
 pli_tradeauctionstateviewbase.21	Confirm Purchase
 pli_tradeauctionstateviewbase.22	You cannot purchase that item. The item you are trying to purchase has expired.
+pli_transmute2022view.1	Required Tools\n
+pli_transmute2022view.2	Barehanded
+pli_transmute2022view.3	Dry Oven
+pli_transmute2022view.4	Cannot register materials. Please equip materials.
+pli_transmute2022view.5	Favorites {0}/{1}
+pli_transmute2022view.6	Synthesize Manually
+pli_transmute2022view.7	{0}. {1}
+pli_transmute2022view.8	Find synthesis recipes and register as favorites.
+pli_transmute2022view.9	Auto Register Tools and Materials
+pli_transmute2022view.10	Auto Register Tools and Materials
+pli_transmute2022view.11	Add Favorites
+pli_transmute2022view.12	Delete Favorites
 pli_transmuteview.1	{0} Synthesis
 pli_transmuteview.2	{0} Fragmentation
 pli_transmuteview.3	This item cannot be used as an ingredient for synthesis.
@@ -4600,6 +4634,8 @@ pli_transmuteview.132	Conversion
 pli_transmuteview.133	Auto Production
 pli_transmuteview.134	{0}
 pli_transmuteview.135	이 아이템은 합성의 재료로 1개면 충분합니다
+pli_transmuteview.136	View Probability
+pli_transmuteview.137	\n<color=2>You can only synthesize 3 of the same item\nor only items matching the recipe.</color>
 pli_treasureboxevent.1	You do not have a Treasure Chest Key.
 pli_treasureboxevent.2	Open
 pli_treasureboxevent.3	Close
@@ -5309,7 +5345,7 @@ pli_windowhinventory.52	You cannot change the bag order if you have items in you
 pli_windowhinventory.53	Motion will be applied when the Motion button is clicked on an outfit with motion in the Dressing Room.
 pli_windowhinventory.54	Seasonal Ducats
 pli_windowhinventory.55	The total amount of Seasonal Ducats you possess.
-pli_windowhinventory.56	Search the item's name in your inventory to highlight it.
+pli_windowhinventory.56	You can easily search items in your inventory by name, sort them, tag them, or set favorites.
 pli_windowhinventory.57	{0} / {1}\n\nThe total amount of Gold you are currently holding.\n\n- You cannot obtain more Gold when carrying the max amount.\n- Max Gold will increase by 1 Million when you reach cumulative level 10,000.\n- You can increase the max Gold limit up to 100 Million by using various Gold Box items.
 pli_windowhinventory.58	{0} / {1}
 pli_windowhinventory.59	Give
@@ -5914,6 +5950,8 @@ pli_windowoptiontabscontrolframe.50	Character Proximity
 pli_windowoptiontabscontrolframe.51	Target the enemy nearest to your character.
 pli_windowoptiontabscontrolframe.52	Use Marionette Camera
 pli_windowoptiontabscontrolframe.53	When using Control Marionette, set the puppet as the focus of the camera.
+pli_windowoptiontabscontrolframe.54	Skip Cutscene with ESC
+pli_windowoptiontabscontrolframe.55	Skips cutscenes without additional dialogues when you press ESC.
 pli_windowoptiontabseffect.1	Not Used
 pli_windowoptiontabseffect.2	My Character
 pli_windowoptiontabseffect.3	My Party Members and I
@@ -5993,6 +6031,10 @@ pli_windowoptiontabsetcframe.63	Share Music Buffs
 pli_windowoptiontabsetcframe.64	Set whether to share the effects of any music buffs you receive with other party members.
 pli_windowoptiontabsetcframe.65	Auto-Decline Guild Invitation
 pli_windowoptiontabsetcframe.66	Automatically turn down any invitations to join guilds.
+pli_windowoptiontabsetcframe.67	View Field Raid Announcements
+pli_windowoptiontabsetcframe.68	Select to show Field Raid announcements on the screen.
+pli_windowoptiontabsetcframe.69	View Field Raid Announcements
+pli_windowoptiontabsetcframe.70	Select to show Field Raid announcements on the screen.
 pli_windowoptiontabsetcframe.autohide_ssb	Lock Extra Skill Slot
 pli_windowoptiontabsetcframe.autohide_ssb_tp	Locks the extra skill slot.\nLocked skills cannot be removed from the window. Prevents window from being moved.
 pli_windowoptiontabsetcframe.l_ssb	Show Extra Skill Slot 1
@@ -6759,6 +6801,8 @@ pli_windowskillbar.1	Change hotkey slot. (Hotkey 'Left Shift + Tab')
 pli_windowskillbar.2	There are no {0} available for use.
 pli_windowskillbar.3	Changes the hotkey slot.\n(Hotkey 'Ctrl + 0' - 'Ctrl + 8')
 pli_windowskillbar.4	Changes the hotkey slot.\n(Hotkey 'Ctrl + 0' - 'Ctrl + 8')
+pli_windowskillbar.5	추가 상단 스킬 슬롯 전환 : {0}
+pli_windowskillbar.6	단축키 슬롯을 변경합니다.\n(환경설정 단축키 설정 - 명령 - 퀵슬롯 1~10번 탭으로 전환을 통해 단축키 변경이 가능합니다.)
 pli_windowskillbarbase.1	Use the Outfit Action 2 skill to transform back to normal.
 pli_windowskillbutton.1	Use {0}
 pli_windowskillbutton.2	 '{0}' Gesture
@@ -7044,6 +7088,7 @@ pli_windowtaskbartrayicon.21	VIP Beauty Shop
 pli_windowtaskbartrayicon.22	VIP Beauty Shop
 pli_windowtaskbartrayicon.23	MabiNovel
 pli_windowtaskbartrayicon.24	Interaction
+pli_windowtaskbartrayicon.26	View Probability
 pli_windowtaskbartutorialrenewal.1	Click the button to skip this stage.
 pli_windowtaskbartutorialrenewal.2	Do you wish to skip the tutorial for this area?\nThis may reduce your reward.
 pli_windowtitle.1	Open the Title Option List.
@@ -7602,7 +7647,7 @@ window.enchant.perform_reward_tab	Item to Receive
 window.enchant.reward_item	Item to give the counterpart in return
 window.enchant.reward_item2	Item the counterpart offered in return
 window.enchant.source_item	Material Item
-window.enchant.source_item_desc	Enchanter's Burn requires 1 Sunlight Herb and 1 Holy Water of Lymilark. The items can be provided by either the requester or the burner.
+window.enchant.source_item_desc	Enchanter's Burn requires 1 Sunlight Herb and 1 Holy Water of Lymilark. The items can be provided by either the requester or the burner.\n\nWhen performing an Enchanter's Burn on an item, there is a chance to obtain one, both, or none of the Enchant Scrolls. In any attempt, the item will be destroyed, unless the item is protected using an Enchant Extraction Protection Potion.
 window.enchant.success_rate	Success % :
 window.enchant.success_rate2	Success %
 window.enchant.wait_button	Waiting

@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
-!define UOSHORTVERSION        "393"
-!define UOLONGVERSION         "0.24.54"
+!define UOSHORTVERSION        "394"
+!define UOLONGVERSION         "0.25.54"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -6773,15 +6773,15 @@ SectionGroupEnd
   Delete "$INSTDIR\data\xml\skillinfo.english.txt"
   Delete "$INSTDIR\data\xml\skillinfo.english.txt"
 !macroend
-Section "Doll Bag AI Enhancements" MOD399
-SetOutPath "$INSTDIR\data\db\ai\local"
-File "${srcdir}\Tiara's Moonshine Mod\data\db\ai\local\aidescdata_autobot_vocaloid.xml"
-SectionIn 1
-SectionEnd
-!macro Remove_${MOD399}
-  DetailPrint "*** Removing Doll Bag AI Enhancements..."
-  Delete "$INSTDIR\data\db\ai\local\aidescdata_autobot_vocaloid.xml"
-!macroend
+;Section "Doll Bag AI Enhancements" MOD399
+;SetOutPath "$INSTDIR\data\db\ai\local"
+;File "${srcdir}\Tiara's Moonshine Mod\data\db\ai\local\aidescdata_autobot_vocaloid.xml"
+;SectionIn 1
+;SectionEnd
+;!macro Remove_${MOD399}
+;  DetailPrint "*** Removing Doll Bag AI Enhancements..."
+;  Delete "$INSTDIR\data\db\ai\local\aidescdata_autobot_vocaloid.xml"
+;!macroend
 SectionGroupEnd
 
 
@@ -7303,7 +7303,7 @@ SectionGroupEnd
 !insertmacro "${MacroName}" "MOD398?1"
 !insertmacro "${MacroName}" "MOD398?2"
 !insertmacro "${MacroName}" "MOD398?3"
-!insertmacro "${MacroName}" "MOD399"
+;!insertmacro "${MacroName}" "MOD399"
 !insertmacro "${MacroName}" "MOD457"
 !insertmacro "${MacroName}" "MOD402"
 !macroend
@@ -10154,11 +10154,11 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD452" "FILE1" "\data\gfx\font\Na
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD452" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD452" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD452" "DESCRIPTION" "powerred"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD399" "" "Doll Bag AI Enhancements"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD399" "FILE1" "\data\db\ai\local\aidescdata_autobot_vocaloid.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD399" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD399" "CREATOR" "Draconis and jvandguthix"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD399" "DESCRIPTION" "Doll Bag AI Enhancements"
+;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD399" "" "Doll Bag AI Enhancements"
+;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD399" "FILE1" "\data\db\ai\local\aidescdata_autobot_vocaloid.xml"
+;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD399" "FILES" "1"
+;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD399" "CREATOR" "Draconis and jvandguthix"
+;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD399" "DESCRIPTION" "Doll Bag AI Enhancements"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD453" "" "Simplified Baltane Squire Area"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD453" "FILE1" "\data\gfx\scene\dgc\prop\scene_prop_dgc_bridge_01.pmg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD453" "FILE2" "\data\gfx\scene\dgc\prop\scene_prop_dgc_characterspace_ladder.pmg"
@@ -11289,6 +11289,7 @@ ${FontBMPCreate} $FontBMP
 Delete "$INSTDIR\package\uotiara_00001.it"
 Delete "$INSTDIR\data\db\layout2\gameclock\GameClockView.xml"
 Delete "$INSTDIR\data\db\layout2\gameclock\GameClockView_Weather.xml"
+Delete "$INSTDIR\data\db\ai\local\aidescdata_autobot_vocaloid.xml"
   ;Reads components status for registry
   !insertmacro SectionList "InitSection"
 StrCpy $R7 "End myonguiinit"

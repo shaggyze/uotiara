@@ -9136,10 +9136,10 @@
 10470	the Blue Beauty
 10471	the Blissful Dreamer
 10472	the Blue Beauty
-10473	A title based on the choices made during the 2019 Halloween Event. The moon and the evening primrose probably lived happily ever after.
-10474	A title based on the choices made during the 2019 Halloween Event. The moon probably regretted ignoring the misgivings of the sun and stars.
-10475	A title based on the choices made during the 2019 Halloween Event.
-10476	A title based on the choices made during the 2019 Halloween Event.
+10473	A title based on the choices made during the Moonlight Dreams Halloween Event. The moon and the evening primrose probably lived happily ever after.
+10474	A title based on the choices made during the Moonlight Dreams Halloween Event. The moon probably regretted ignoring the misgivings of the sun and stars.
+10475	A title based on the choices made during the Moonlight Dreams Halloween Event.
+10476	A title based on the choices made during the Moonlight Dreams Halloween Event.
 10477	Luck +30
 10478	Luck +30
 10479	who is Ferghus's Senpai
@@ -11773,13 +11773,13 @@
 13264	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 13265	최대 대미지 17 증가\n마법 공격력 12 증가\n방어 5 증가\n보호 5 증가\n마법 방어 6 증가\n마법 보호 6 증가\n크리티컬 5% 증가\n음악 버프 스킬 효과 5증가\n이동 속도 2% 증가
 13266	최대 대미지 14 증가\n마법 공격력 8 증가\n방어 3 증가\n보호 3 증가\n마법 방어 4 증가\n마법 보호 4 증가\n크리티컬 2% 증가\n음악 버프 스킬 효과 5증가\n이동 속도 2% 증가
-13267	달맞이꽃을 그리워하는 달
-13268	달맞이꽃을 그리워하는 달
-13269	달맞이꽃을 그리워하는 달
-13270	달맞이꽃을 그리워하는 달
-13271	2021년 할로윈 이벤트 기간에만 얻을 수 있는 특별한 2차 타이틀이다. 기간이 만료되면 옵션 효과는 사라지지만 지속적으로 장착 및 소장이 가능하다. (기간 연장 불가능)
-13272	2021년 할로윈 이벤트 기간에만 얻을 수 있는 특별한 2차 타이틀이다. 기간이 만료되면 옵션 효과는 사라지지만 지속적으로 장착 및 소장이 가능하다. (기간 연장 불가능)
-13273	최대 대미지 15 증가\n마법 공격력 20증가\n크리티컬 10% 증가\n방어 10 증가\n보호 10 증가\n마법 방어 10 증가\n마법 보호 10 증가\n음악 버프 스킬 효과 4증가\n이동 속도 2% 증가
+13267	The Moon and the Sundrop
+13268	The Moon and the Sundrop
+13269	The Moon and the Sundrop
+13270	The Moon and the Sundrop
+13271	A 2nd Title that can be obtained exclusively from the 2022 Halloween Event. Although the stat bonuses it provides are available only for a limited time, you'll keep the title and can use it even after the stats are gone. (Duration cannot be extended)
+13272	A 2nd Title that can be obtained exclusively from the 2022 Halloween Event. Although the stat bonuses it provides are available only for a limited time, you'll keep the title and can use it even after the stats are gone. (Duration cannot be extended)
+13273	Max Damage +15\nMagic Attack +20\nCritical +10%\nDefense +10\nProtection +10\nMagic Defense +10\nMagic Protection +10\nMusic Buff Effect +4\nMovement Speed +2%
 13274	Fahmes 1st Place
 13275	Fahmes 2nd Place
 13276	Fahmes 3rd Place
@@ -12083,6 +12083,13 @@
 13642	The most discerning and erudite of Milletians subscribe to this official publication.
 13643	The most discerning and erudite of Milletians subscribe to this official publication.
 13644	
+13645	Fighting Inflation
+13646	Fighting Inflation
+13647	Fighting Inflation
+13648	Fighting Inflation
+13649	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13650	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13651	Luck +30
 13652	Adventure Journal Season 1 Runner
 13653	Adventure Journal Season 1 Runner
 13654	Adventure Journal Season 1 Runner
@@ -12265,62 +12272,62 @@
 15301	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 15302	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 15303	Max ATT +20\nMagic Attack +16\nWill +20\nLuck +20\nMovement Speed +3%
-15304	앱솔루트 마이트
-15305	앱솔루트 도미네이션
-15306	앱솔루트 세이지
-15307	스페셜 앱솔루트 마이트
-15308	스페셜 앱솔루트 도미네이션
-15309	스페셜 앱솔루트 세이지
-15310	앱솔루트 마이트
-15311	앱솔루트 도미네이션
-15312	앱솔루트 세이지
-15313	스페셜 앱솔루트 마이트
-15314	스페셜 앱솔루트 도미네이션
-15315	스페셜 앱솔루트 세이지
-15316	앱솔루트 마이트
-15317	앱솔루트 도미네이션
-15318	앱솔루트 세이지
-15319	스페셜 앱솔루트 마이트
-15320	스페셜 앱솔루트 도미네이션
-15321	스페셜 앱솔루트 세이지
-15322	앱솔루트 마이트
-15323	앱솔루트 도미네이션
-15324	앱솔루트 세이지
-15325	스페셜 앱솔루트 마이트
-15326	스페셜 앱솔루트 도미네이션
-15327	스페셜 앱솔루트 세이지
-15328	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15329	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15330	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15331	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15332	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15333	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15334	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15335	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15336	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15337	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15338	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15339	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15340	행운 30 증가
-15341	행운 30 증가
-15342	행운 30 증가
-15343	최대 대미지 15 증가\n체인 블레이드 최대 대미지 10 증가\n도르카 스내치 사용 시\n도르카 획득량 8% 증가
-15344	최대 대미지 22 증가\n마리오네트의 최대 대미지 8 증가\n6막: 유혹의 올가미 범위 0.3m 증가
-15345	마법 공격력 46 증가\n최대 마나 80 증가\n이동 속도 3% 증가
-15346	체리파티
-15347	체리파티
-15348	체리파티
-15349	체리파티
+15304	Hunter's Might
+15305	Hunter's Domination
+15306	Hunter's Sagacity
+15307	Cunning Hunter's Might
+15308	Cunning Hunter's Domination
+15309	Cunning Hunter's Sagacity
+15310	Hunter's Might
+15311	Hunter's Domination
+15312	Hunter's Sagacity
+15313	Cunning Hunter's Might
+15314	Cunning Hunter's Domination
+15315	Cunning Hunter's Sagacity
+15316	Hunter's Might
+15317	Hunter's Domination
+15318	Hunter's Sagacity
+15319	Cunning Hunter's Might
+15320	Cunning Hunter's Domination
+15321	Cunning Hunter's Sagacity
+15322	Hunter's Might
+15323	Hunter's Domination
+15324	Hunter's Sagacity
+15325	Cunning Hunter's Might
+15326	Cunning Hunter's Domination
+15327	Cunning Hunter's Sagacity
+15328	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15329	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15330	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15331	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15332	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15333	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15334	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15335	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15336	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15337	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15338	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15339	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15340	Luck +30
+15341	Luck +30
+15342	Luck +30
+15343	Max Damage +15\nChain Blade Max Damage +10\nDorcha Snatch - Dorcha Acquired +8%
+15344	Max Damage +22\nMarionette Max Damage +8\nAct 6: Crisis Radius +0.3m
+15345	Magic Attack +46\nMax MP +80\nMovement Speed 3%
+15346	Cherry Delight
+15347	Cherry Delight
+15348	Cherry Delight
+15349	Cherry Delight
 15350	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 15351	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 15352	행운 30 증가
-15353	체리파티
-15354	체리파티
-15355	체리파티
-15356	체리파티
-15357	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15358	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15359	행운 30 증가\n이동 속도 1% 증가
+15353	Cherry Delight
+15354	Cherry Delight
+15355	Cherry Delight
+15356	Cherry Delight
+15357	This fancy 2nd title can be obtained from a title coupon. Can be used with regular titles.
+15358	This fancy 2nd title can be obtained from a title coupon. Can be used with regular titles.
+15359	Luck +30\nMovement Speed +1%
 15402	즐거운 다람쥐
 15403	귀여운 다람쥐
 15404	영리한 다람쥐

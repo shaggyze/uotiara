@@ -9242,11 +9242,39 @@
 11472	Cunning Rookie Wyvern Mercenary
 11473	Cunning Lonely Wyvern Mercenary
 11474	Cunning Sturdy Wyvern Mercenary
+11475	Transparent Balloon Puppy
 11476	Mokkurkalfi
 11477	Giant Worm
 11478	기사 아일린
 11479	요리사 아일린
 11480	연회장 직원 아일린
+11497	Common Invisible Monsters
+11498	Black Dragon
+11499	Black Dragon
+11500	Giant Lion
+11501	Giant Lion
+11502	Prairie Dragon
+11503	Prairie Dragon
+11504	Mokkurkalfi
+11505	Mokkurkalfi
+11506	White Dragon
+11507	White Dragon
+11508	Giant Alligator
+11509	Giant Alligator
+11510	Desert Dragon
+11511	Desert Dragon
+11512	Red Dragon
+11513	Red Dragon
+11514	Yeti
+11515	Yeti
+11516	Mammoth
+11517	Mammoth
+11518	Ifrit
+11519	Ifrit
+11520	Giant Sandworm
+11521	Giant Sandworm
+11522	Sylvan Dragon
+11523	Sylvan Dragon
 11531	Splish-Splash Cat Doll
 11532	Bug Catcher Pup Doll
 11537	Red Fairy Dragon
@@ -9263,6 +9291,28 @@
 11564	Fairy Dragon
 11565	Fairy Dragon
 11566	Scooter Imp (90 Days)
+11597	똑똑해질꺼양
+11600	아기 토끼 인형
+11601	아기 사막여우 인형
+11602	아기 곰돌이 인형
 11613	Fairy Dragon
 11620	도움이 필요한 고냥이
 11622	Succubus Fiend
+11629	Emerald Hyena
+11630	Emerald Hyena
+11631	Emerald Shrieker
+11632	Emerald Shrieker
+11633	Emerald Bison
+11634	Emerald Bison
+11635	Emerald Golem
+11636	Emerald Golem
+11637	Poisoned Sasquatch
+11638	Poisoned Sasquatch
+11639	Mutant Rabbit
+11640	Mutant Rabbit
+11641	Mutant Carnivorous Plant
+11642	Mutant Carnivorous Plant
+11643	Mutant Man-eating Plant
+11644	Mutant Man-eating Plant
+11655	레트로 조
+11657	다루의 스쿠터 (이벤트)
