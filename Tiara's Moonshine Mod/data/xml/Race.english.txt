@@ -9219,9 +9219,11 @@
 11447	Master Merchants' Guild Bandit Boss
 11448	Master Merchants' Guild Bandit Boss
 11449	[Event] Caravan Joe's Caravan
+11450	임프 푼
+11451	임프 쿤
 11452	[Event] Commerce Joe's Caravan
 11453	[Event] Escaped Joe's Caravan
-11454	슈팅 스타
+11454	Shooting Star
 11455	Barista Fallen Fairy
 11456	Barista Flora
 11457	Adept Novice Wyvern Mercenary
@@ -9248,6 +9250,22 @@
 11478	기사 아일린
 11479	요리사 아일린
 11480	연회장 직원 아일린
+11481	포들라 인형
+11482	데이르블라 인형
+11483	세라 인형
+11484	인큐버스 킹 인형
+11485	에탄 인형
+11486	엔야 인형
+11487	멀린 인형
+11488	디바 인형
+11489	프로페서 J 인형
+11490	마스터 셰프 인형
+11491	트레저 헌터 인형
+11492	에아렌 인형
+11493	수호자 인형
+11494	파괴자 인형
+11495	톨비쉬
+11496	알터
 11497	Common Invisible Monsters
 11498	Black Dragon
 11499	Black Dragon
@@ -9291,6 +9309,7 @@
 11564	Fairy Dragon
 11565	Fairy Dragon
 11566	Scooter Imp (90 Days)
+11596	아로마 베어 (거미)
 11597	똑똑해질꺼양
 11600	아기 토끼 인형
 11601	아기 사막여우 인형

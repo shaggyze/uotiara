@@ -956,6 +956,17 @@ pli_characteradditionalframe.30	You can Rebirth one day after your character was
 pli_characteradditionalframe.31	You cannot rebirth while using the Dressing Room.
 pli_characteradditionalframe.32	Rebirth
 pli_characteradditionalframe.33	You cannot rebirth while engaged in a pursuit.
+pli_characteradditionalframe.34	없음
+pli_characteradditionalframe.35	1단계
+pli_characteradditionalframe.36	2단계
+pli_characteradditionalframe.37	3단계
+pli_characteradditionalframe.38	4단계
+pli_characteradditionalframe.39	블로니의 축복 : 
+pli_characteradditionalframe.40	[블로니의 축복]\n\n블로니의 축복이 적용중이지 않습니다.\n추억담을 진행하면 블로니의 축복을 얻을 수 있습니다.
+pli_characteradditionalframe.41	[블로니의 축복] 1단계\n\n순간이동 책 1단계\n이동속도 2% 증가\n모든 스탯 +1\n환생 시 AP 1 추가 획득\n축복 이펙트 1단계
+pli_characteradditionalframe.42	[블로니의 축복] 2단계\n\n순간이동 책 2단계\n이동속도 4% 증가\n모든 스탯 +2\n환생 시 AP 2 추가 획득\n축복 이펙트 2단계
+pli_characteradditionalframe.43	[블로니의 축복] 3단계\n\n순간이동 책 3단계\n이동속도 6% 증가\n모든 스탯 +3\n환생 시 AP 3 추가 획득\n축복 이펙트 3단계
+pli_characteradditionalframe.44	[블로니의 축복] 4단계\n\n순간이동 책 4단계\n이동속도 8% 증가\n모든 스탯 +4\n환생 시 AP 4 추가 획득\n축복 이펙트 4단계
 pli_charactercombocardframe.1	The selected {0} Combo Card(s) will be permanently removed.\nWould you like to proceed?
 pli_charactercombocardframe.2	Warning
 pli_charactercombocardframe.3	Would you like to use this item to extend the Gold Combo Card duration?
@@ -3004,6 +3015,7 @@ pli_joustvictoryview.1	OK
 pli_joustvictoryview.2	You've won!
 pli_joustvictoryview.3	Against {0}, of {1} turns, you succeeded {2} times.
 pli_joustvictoryview.4	You've obtained\n{0} Jousting Points.
+pli_jukeboxview.1	아직 해금되지 않은 배경 음악입니다.\n리플레이 보상 상자 사용 시 해금할 수 있습니다.
 pli_kioskinventoryview.1	Kiosk Item Storage
 pli_kioskinventoryview.2	The Kiosk cannot be closed because there are items that are still being sold.\nPlease organize your Kiosk.
 pli_kioskinventoryview.3	Do you wish to close the Kiosk?
@@ -3219,6 +3231,7 @@ pli_minigamepartymaketabframe.6	Memory Match
 pli_minigamepartymaketabframe.7	Set the max members for the party up to {0}.
 pli_minigamepartymaketabframe.8	Mini-game
 pli_minigamepartymaketabframe.9	Mafia
+pli_minigamepartymaketabframe.10	알쏭달쏭 상자 열기
 pli_minigamepartysetting.1	Mini-game
 pli_mobileauth.1	Mobile Secret Security
 pli_mobileauth.2	도전코드를 확인하여 결과값을 입력하세요.
@@ -3764,6 +3777,10 @@ pli_privatefarmstatusview.4	You cannot add any more favorites.
 pli_privatefarmstatusview.5	Expansion Lv. {0}
 pli_privatefarmstatusview.6	x%.1f
 pli_privatefarmstatusview.7	Displays the stat bonuses applied to the Homestead.\nHover over each stat to see the item granting each effect.\n\nThe bonuses of Homestead decorations (including Figures), Sequel Figures, and Pet Houses are combined.\nHowever, if there are multiple bonuses in the same stat, only the highest will be applied.
+pli_privatefarmstatusview.8	낭만 농장 주크박스 사용이 불가능합니다.\n낭만 농장에 주크박스를 설치한 후, [낭만 농장 주크박스 이용권] 아이템을 사용하거나, 프리미엄 라이프 멤버십이 적용 중인 상태라면 주크박스 기능을 이용할 수 있습니다.\n\n* [낭만 농장 배경 음악 이용권]은 [메인스트림 리플레이 보상상자]에서 확률적으로 획득할 수 있습니다.
+pli_privatefarmstatusview.9	주크박스 [잔여 기간 <color=2>{0}</color> 일]
+pli_privatefarmstatusview.10	<color=2>주크박스 사용 불가</color>
+pli_privatefarmstatusview.11	<color=2>주크박스 설치 시 사용 가능</color>
 pli_privatefarmstatusview.12	 Decoration Effect
 pli_privatezoneaskexitview.1	{0:itemname} x ({1:itemcount})
 pli_privatezoneaskexitview.2	Please wait.
@@ -3969,6 +3986,48 @@ pli_rentaltimetableview.19	You can finalize the rental after emptying your tempo
 pli_rentaltimetableview.20	The Bank is locked.
 pli_rentaltimetableview.21	Concert Ticket Quantity\n({0}-{1})
 pli_rentaltimetableview.22	You can set the Concert Ticket quantity between {0} and {1}.
+pli_replaymainstreampartview.1	[진행중]
+pli_replaymainstreampartview.2	[완료]
+pli_replaymainstreampartview.3	<color=6>리플레이는 해당 제너레이션을 모두 완료한 후에 진행할 수 있습니다.\n</color>
+pli_replaymainstreampartview.4	아이템 : {0}
+pli_replaymainstreampartview.5	\n골드 : {0}
+pli_replaymainstreampartview.6	\n경험치 : {0}
+pli_replaymainstreampartview.7	\n리플레이 완료한 횟수 : {0}회
+pli_replaymainstreampopupview.1	현재까지 진행한 [메인스트림] 스토리를 확인 할 수 있습니다.\n마비노기에서 {0}님의 이야기를 확인해보세요.
+pli_replaymainstreamview.1	\n({0}% 할인이 적용된 금액입니다.)
+pli_replaymainstreamview.2	리플레이 포기하기
+pli_replaymainstreamview.3	G{0} {1} 진행 중
+pli_replaymainstreamview.4	G{0} {1} 완료
+pli_replaymainstreamview.5	G{0} {1} 시작하기
+pli_replaymainstreamview.6	리플레이 시작하기
+pli_replaymainstreamview.7	G{0} {1} 상세정보
+pli_replaymainstreamview.8	챕터, 제너레이션, 파트를 선택하세요.
+pli_replaymainstreamview.9	메인스트림 리플레이 즉시완료
+pli_replaymainstreamview.10	[{0}]\n\n[보상]\n {1}\n\n* 즉시 완료는 리플레이 완료 횟수에 포함되지 않습니다.\n
+pli_replaymainstreamview.11	즉시 완료 티켓 \n{0}개로 즉시완료
+pli_replaymainstreamview.12	{0} 골드로\n즉시완료
+pli_replaymainstreamview.13	{0} 폰으로\n즉시완료
+pli_replaymainstreamview.14	챕터, 제너레이션, 파트를 선택하세요.
+pli_replaymainstreamview.15	챕터, 제너레이션, 파트를 선택하세요.
+pli_replaymainstreamview.16	[{0}]\n\n{1} 골드가 소모됩니다.\n리플레이를 시작하시겠습니까?
+pli_replaymainstreamview.17	메인스트림 리플레이
+pli_replaymainstreamview.18	리플레이
+pli_replaymainstreamview.19	즉시완료
+pli_replaymainstreamview.20	G{0}. {1}{이} 진행중 입니다.\n\n [보상]\n{2}
+pli_replaymainstreamview.21	메인스트림 진행중
+pli_replaymainstreamview.22	G{0}. {1}{를} 완료 하였습니다.
+pli_replaymainstreamview.23	메인스트림 완료
+pli_replaymainstreamview.24	[{0}]\n\n 포기하시겠습니까?\n포기할 경우 소모된 골드는 환급되지 않습니다.
+pli_replaymainstreamview.25	메인스트림 리플레이
+pli_replaymainstreamview.26	<color=5>Generation {0}</color>\n<color=6>{1}</color>
+pli_replaymainstreamview.27	시청하기
+pli_replaymainstreamview.28	<color=2>챕터 {0}</color>의 모든 제너레이션을 완료해야\n<color=2>제너레이션 [{1}]</color>의 리플레이를 시작할 수 있습니다.
+pli_replaymainstreamview.29	선택한 <color=2>제너레이션 [{0}]</color>는\n처음부터 순서대로만 진행할 수 있습니다.\n이전 파트까지 진행한 다음 리플레이를 시작해 주세요.
+pli_replaymainstreamview.30	리플레이는 하루(07시 기준)에 <color=2>{1}개</color>까지 시작할 수 있습니다.\n\n<color=6>* 오늘 리플레이 진행 횟수 : {0}회 / {1}회</color>
+pli_replaymainstreamview.31	현재 <color=2>챕터 {0} G{1} [{2}] 파트</color>의 리플레이를 진행 중입니다.\n\n지금 선택한 제너레이션을 리플레이 시작할 경우\n기존에 진행 중이던 리플레이 정보는 전부 초기화되며\n다시 처음부터 진행해야 합니다.\n\n현재 진행 중인 리플레이를 취소하시겠습니까?
+pli_replaymainstreamview.32	예
+pli_replaymainstreamview.33	아니오
+pli_replaymainstreamview.34	\n\n<color=2>포기 시 해당 제너레이션에 속한 모든 파트의 리플레이 내역이 초기화됩니다.</color>
 pli_rockpaperscissorsscoreview.1	{0} Win(s)
 pli_rockpaperscissorsscoreview.2	{0} Loss(es)
 pli_roulettebingoview.1	Spin Roulette! Pay {0} coin(s)
@@ -4055,6 +4114,15 @@ pli_seasonpassmainview.14	You can receive a Special Reward.
 pli_seasonpassmainview.15	You don't have enough Pon.
 pli_seasonpassrewarddescframe.1	Claim Reward
 pli_seasonpassrewarddescframe.2	Claimed
+pli_secretnumberview.1	마우스로 버튼을 눌러 세 자리 비밀번호를 맞춰보자!
+pli_secretnumberview.2	다시 비밀번호를 입력해보자!
+pli_secretnumberview.3	얏호! 비밀번호를 풀었습니다.
+pli_secretnumberview.4	아쉽게도 비밀번호를 찾지 못했습니다.
+pli_secretnumberview.5	{0}초 뒤 게임이 시작됩니다.
+pli_secretnumberview.6	이미 세 자리 비밀번호를 입력했습니다.
+pli_secretnumberview.7	새로 입력하려면 리셋 버튼을 눌러주세요.
+pli_secretnumberview.8	{0}초 뒤 다음 턴이 시작됩니다.
+pli_secretnumberview.9	{0}초 뒤 게임이 종료됩니다.
 pli_selectcolorview.1	Select Color
 pli_selectidview.1	{0}개의 마비노기 ID가 존재합니다.\n로그인할 ID를 선택해주세요.
 pli_selectidview.2	{0}개의 마비노기 ID가 존재합니다.\n로그인할 ID를 선택해주세요.
@@ -5747,6 +5815,7 @@ pli_windowmissionsheet.34	Squad Size: {0}\n
 pli_windowmissionsheet.35	Talent Level: {0}\n
 pli_windowmissionsheet.36	Location Check
 pli_windowmissionsheet.37	You can check this quest location.
+pli_windowmissionsheet.38	메인스트림 열기
 pli_windowmissionsheetbingo.1	Bingo Row Reward
 pli_windowmissionsheetbingo.2	Perfect Bingo Reward
 pli_windowmissionsheetcreate.1	Notes
@@ -5866,7 +5935,7 @@ pli_windownewpetingame2.1	Random Look
 pli_windownewpetingame2.2	Summon Time: {0} min (Total {1} days)
 pli_windownpcchat.1	This character has voiceover.\nYou can change voice-related settings under Options - Sound.
 pli_windownpcchatetc.1	<npcportrait name='NONE'/><title name='NONE'/>You've ended your conversation with the Spirit.
-pli_windownpcchatetc.2	처음 대화로 돌아가기
+pli_windownpcchatetc.2	Return to the first dialog
 pli_windownpcshop.0	Refresh
 pli_windownpcshoptabframe.1	Current Jousting Points: {0}
 pli_windownpcshoptabframe.2	Current Stars: {0}
@@ -6103,9 +6172,9 @@ pli_windowoptiontabssound.17	Plays the Korean Symphony Orchestra version of song
 pli_windowoptiontabssound.18	Play Background Sounds
 pli_windowoptiontabssound.19	Sounds will play even when the game screen is not active.
 pli_windowoptiontabssound.20	Voice Volume
-pli_windowoptiontabssound.21	보이스 언어
-pli_windowoptiontabssound.22	한국어
-pli_windowoptiontabssound.23	중국어
+pli_windowoptiontabssound.21	Voice Language
+pli_windowoptiontabssound.22	Korean
+pli_windowoptiontabssound.23	Chinese
 pli_windowoptiontabssystem.1	PERFORMANCE
 pli_windowoptiontabsvideo.1	Use Film Style Post Shader
 pli_windowoptiontabsvideo.2	Visual Field Ratio {0}
@@ -7030,6 +7099,7 @@ pli_windowtaskbar.78	Technique
 pli_windowtaskbar.79	Technique {0}
 pli_windowtaskbar.80	Chapter Info
 pli_windowtaskbar.81	Pet/Spirit
+pli_windowtaskbar.82	메인스트림
 pli_windowtaskbar.83	Info
 pli_windowtaskbaraction.1	현재 테스트 서버에서 엘프는 어드밴스드 아이템을 받을 수 없습니다.
 pli_windowtaskbaraction.2	A pet is already summoned.
@@ -7647,7 +7717,7 @@ window.enchant.perform_reward_tab	Item to Receive
 window.enchant.reward_item	Item to give the counterpart in return
 window.enchant.reward_item2	Item the counterpart offered in return
 window.enchant.source_item	Material Item
-window.enchant.source_item_desc	Enchanter's Burn requires 1 Sunlight Herb and 1 Holy Water of Lymilark. The items can be provided by either the requester or the burner.\n\nWhen performing an Enchanter's Burn on an item, there is a chance to obtain one, both, or none of the Enchant Scrolls. In any attempt, the item will be destroyed, unless the item is protected using an Enchant Extraction Protection Potion.
+window.enchant.source_item_desc	Enchanter's Burn requires 1 Sunlight Herb and\n1 Holy Water of Lymilark. The items can be\nprovided by either the requester or the burner.
 window.enchant.success_rate	Success % :
 window.enchant.success_rate2	Success %
 window.enchant.wait_button	Waiting
