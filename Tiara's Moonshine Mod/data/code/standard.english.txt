@@ -642,11 +642,11 @@ mabinogi_privatefarmdesc.14	Critical Damage
 mabinogi_privatefarmdesc.15	Music Buff Effect
 mabinogi_privatefarmdesc.16	Magic Attack
 mabinogi_privatefarmdesc.17	Bonus Damage
-mabinogi_privatefarmdesc.18	방어
-mabinogi_privatefarmdesc.19	마법 방어
-mabinogi_privatefarmdesc.20	보호
-mabinogi_privatefarmdesc.21	마법 보호
-mabinogi_privatefarmdesc.22	전투 경험치 증가
+mabinogi_privatefarmdesc.18	Defense
+mabinogi_privatefarmdesc.19	Magic Defense
+mabinogi_privatefarmdesc.20	Protection
+mabinogi_privatefarmdesc.21	Magic Protection
+mabinogi_privatefarmdesc.22	Combat EXP Increase
 mabinogi_privatefarmdesc.23	Movement Speed
 mabinogi_propentity.1	프랍 ClassID를 바꾸려 합니다. objectID: %d 이전 ClassID: %d 바뀌는 ClassID: %d
 mabinogi_shadowmissiondesc.1	Basic

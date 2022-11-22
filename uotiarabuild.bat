@@ -1,5 +1,5 @@
-ECHO Creating Unofficial Tiara's Moonshine Mod Installer, you should type 'y' for all questions.
 @ECHO OFF
+ECHO Creating Unofficial Tiara's Moonshine Mod Installer, you should type 'y' for all questions.
 attrib -r C:\Nexon\Library\mabinogi\appdata\package\uotiara_00001.it
 attrib -r C:\Users\%username%\Documents\GitHub\uotiara\uotiara_00001.it
 del C:\Nexon\Library\mabinogi\appdata\package\uotiara_00001.it

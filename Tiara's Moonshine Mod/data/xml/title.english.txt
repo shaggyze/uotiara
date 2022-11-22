@@ -10422,13 +10422,13 @@
 11850	채집 확률 5% 증가\n채집 속도 5% 증가\n자동 낚시 성공률 증가\n더 큰 물고기를 낚을 확률 증가\n조련 성공률 25% 증가
 11851	힐웬 공학 마스터 타이틀과 함께 사용 시, 힐웬 공학 품질 증가\n매직 크래프트 마스터 타이틀과 함께 사용 시, 매직 크래프트 품질 증가\n생산 제작 스킬 성공률 5% 증가
 11852	음악 버프 스킬 효과 9 증가\n음악 버프 스킬 지속시간 15 증가
-11853	메인스트림 정주행의 달인
-11854	메인스트림 정주행의 달인
-11855	메인스트림 정주행의 달인
-11856	메인스트림 정주행의 달인
-11857	메인스트림 리플레이를 100회나 완료했다! 나야 말로 메인스트림 정주행의 달인!
-11858	메인스트림 리플레이 100회 완료 시 얻을 수 있는 타이틀.
-11859	의지 30 증가
+11853	Master Storyline Binger
+11854	Master Storyline Binger
+11855	Master Storyline Binger
+11856	Master Storyline Binger
+11857	You completed a whopping 100 Storyline Replays! You are the Master Storyline Binger!
+11858	A title you can earn by completing Storyline Replay 100 times.
+11859	Will +30
 11860	the Master of Glyph Design
 11861	the Master of Glyph Formulation
 11863	the Master of Glyph Evocation
@@ -10639,13 +10639,13 @@
 12074	Strength +15\nIntelligence +15\nDexterity +15\nWill +15\nLuck +15\nMax HP +31\nMax Stamina +31\nMax MP +31\nMovement Speed +3%
 12075	Strength +16\nIntelligence +16\nDexterity +16\nWill +16\nLuck +16\nMax HP +33\nMax Stamina +33\nMax MP +33\nMovement Speed +3%
 12076	Max Damage +16\nCritical +16%\nMovement Speed +3%
-12077	다시 만난 밀레시안
-12078	다시 만난 밀레시안
-12079	다시 만난 밀레시안
-12080	다시 만난 밀레시안
-12081	결국 다시 만난 밀레시안을 위한 타이틀. 더 많은 추억을 만들어갈 수 있을 것 같다. 다시 만난 밀레시안 이벤트 기간 동안 주어진다.
-12082	결국 다시 만난 밀레시안을 위한 타이틀. 더 많은 추억을 만들어갈 수 있을 것 같다. 다시 만난 밀레시안 이벤트 기간 동안 주어진다.(돌아온 밀레시안과 로나의 특별 지원 타이틀과 중복적용 되지 않는다.)
-12083	최대 대미지 10 증가\n체력 5 증가\n지력 5 증가\n솜씨 5 증가\n의지 5 증가\n행운 5 증가\n이동 속도 1% 증가\n모든 스킬 수련치 2배\n파티로 그림자 미션, 연극 미션, 던전 플레이 시 자신은 경험치 2배, 파티원은 경험치 1.5배\n(돌아온 밀레시안 및 로나의 특별 지원 타이틀과 중복 불가)
+12077	the Reunited Milletian
+12078	the Reunited Milletian
+12079	the Reunited Milletian
+12080	the Reunited Milletian
+12081	A title for Milletians who had parted, but found their way back together. Use it, and make even more precious memories. Available during the Reunited Milletian Event.
+12082	A title for Milletians who had parted, but found their way back together. Use it, and make even more precious memories. Available during the Reunited Milletian Event. (Cannot be stacked with the Returned Milletian and Lorna's Special Support title effects)
+12083	Max Damage +10\nStrength +5\nIntelligence +5\nDexterity +5\nWill +5\nLuck +5\nMovement Speed +1%\nSkill x2 EXP\nWhen defeating monsters as a party in a Shadow Mission, Drama Mission, or Dungeon, the title bearer will receive x2 EXP, while other party members will receive x1.5 EXP.\n(Cannot be stacked with the Returned Milletian and Lorna's Special Support title effects)
 12084	나오 특파원
 12085	나오 특파원
 12086	나오 특파원
@@ -12081,69 +12081,69 @@
 13558	A title given to Milletians who checked in for 14 days or more during the Sweet Coffee Event.
 13559	A title given to Milletians who checked in for 14 days or more during the Sweet Coffee Event.
 13560	Luck +25
-13561	쿤이 신뢰한 친구
-13562	이크! 손이 미끄러질 뻔한
-13563	어쩌면 퍼거스의 후예
-13564	어깨가 우쭐우쭐한
-13565	타고난 금손 그게 바로
-13566	쿤이 신뢰한 친구
-13567	이크! 손이 미끄러질 뻔한
-13568	어쩌면 퍼거스의 후예
-13569	어깨가 우쭐우쭐한
-13570	타고난 금손 그게 바로
-13571	쿤이 신뢰한 친구
-13572	이크! 손이 미끄러질 뻔한
-13573	어쩌면 퍼거스의 후예
-13574	어깨가 우쭐우쭐한
-13575	타고난 금손 그게 바로
-13576	쿤이 신뢰한 친구
-13577	이크! 손이 미끄러질 뻔한
-13578	어쩌면 퍼거스의 후예
-13579	어깨가 우쭐우쭐한
-13580	타고난 금손 그게 바로
-13581	임프 쿤의 의뢰를 훌륭히 완수한 밀레시안에게 주어지는 2차 타이틀. 기간이 만료되면 옵션 효과는 사라지지만 지속적으로 장착 및 소장이 가능하다. (기간 연장 불가능)
-13582	알쏭달쏭 상자 열기에서 아슬아슬하게 마지막 턴에서 클리어한 자에게 주어지는 타이틀.
-13583	여러 명과 알쏭달쏭 상자를 열었지만 슬프게도 꼴찌를 달성한 특별한 자에게 주어지는 타이틀.\n어떤 명언에 의하면 1등도 아름답지만, 끝까지 도전하는 사람이 더 눈부시다고 한다. 어떤 분야에서 최선을 다한 당신이 진정한 승자라고 불릴 자격이 있다.
-13584	알쏭달쏭 상자 열기에서 세 턴 안에 정답을 맞힌 자에게 주어지는 타이틀. 왠지 모르게 어깨가 우쭐우쭐거린다.
-13585	여러 명과 알쏭달쏭 상자를 여는데 도전하고, 무려 1등을 달성한 특별한 자에게 주어지는 타이틀.\n치열한 경쟁 속에서도 찬란히 빛나던 그 시절이 있었음을... 에린이었다.
-13586	임프 쿤의 의뢰를 훌륭히 완수한 밀레시안에게 주어지는 2차 타이틀. 기간이 만료되면 옵션 효과는 사라지지만 지속적으로 장착 및 소장이 가능하다. (기간 연장 불가능)
-13587	알쏭달쏭 상자 열기에서 아슬아슬하게 마지막 턴에서 클리어한 자에게 주어지는 타이틀.
-13588	여러 명과 알쏭달쏭 상자를 열었지만 슬프게도 꼴찌를 달성한 특별한 자에게 주어지는 타이틀.\n어떤 명언에 의하면 1등도 아름답지만, 끝까지 도전하는 사람이 더 눈부시다고 한다. 어떤 분야에서 최선을 다한 당신이 진정한 승자라고 불릴 자격이 있다.
-13589	알쏭달쏭 상자 열기에서 세 턴 안에 정답을 맞힌 자에게 주어지는 타이틀. 왠지 모르게 어깨가 우쭐우쭐거린다.
-13590	여러 명과 알쏭달쏭 상자를 여는데 도전하고, 무려 1등을 달성한 특별한 자에게 주어지는 타이틀.\n치열한 경쟁 속에서도 찬란히 빛나던 그 시절이 있었음을... 에린이었다.
-13591	최대 대미지 28 증가\n마법 공격력 44 증가
-13592	행운 30 증가
-13593	행운 30 증가
-13594	행운 30 증가
-13595	행운 30 증가
-13596	쏟아지는 비트에 몸을 맡긴
-13597	으악! 내가 몸치라니!
-13598	이루샤를 극락으로 인도할
-13599	이번 생에는 요리와 작별한
-13600	쏟아지는 비트에 몸을 맡긴
-13601	으악! 내가 몸치라니!
-13602	이루샤를 극락으로 인도할
-13603	이번 생에는 요리와 작별한
-13604	쏟아지는 비트에 몸을 맡긴
-13605	으악! 내가 몸치라니!
-13606	이루샤를 극락으로 인도할
-13607	이번 생에는 요리와 작별한
-13608	쏟아지는 비트에 몸을 맡긴
-13609	으악! 내가 몸치라니!
-13610	이루샤를 극락으로 인도할
-13611	이번 생에는 요리와 작별한
-13612	신나는 춤을 춰에서 한 번도 틀리지 않고 만점을 받은 자에게 주어지는 타이틀. 에린의 비트는 내가 평정했다고도 말할 수 있을 정도의 실력을 뽐냈다.
-13613	신나는 춤을 춰에서 낮은 점수를 받은 자에게 주어지는 타이틀. 흐르는 비트에 몸을 맡겨보았지만, 한낱 종이처럼 펄럭거렸다고 한다.
-13614	달콤한 케이크 만들기에서 5개 이상의 케이크를 만든 자에게 주어지는 타이틀. 이정도 스피드로, 이정도 퀄리티의 케이크를 만든 당신이라면, 크롬 바스의 악동 이루샤를 골골송의 극락으로 이끌 수 있을지도...
-13615	달콤한 케이크 만들기에서 적은 케이크를 만든 자에게 주어지는 타이틀. 설마 2개도 못 만들겠어? 라고 생각했지만, 그것이 실제로 일어났습니다.
-13616	신나는 춤을 춰에서 한 번도 틀리지 않고 만점을 받은 자에게 주어지는 타이틀. 에린의 비트는 내가 평정했다고도 말할 수 있을 정도의 실력을 뽐냈다.
-13617	신나는 춤을 춰에서 낮은 점수를 받은 자에게 주어지는 타이틀. 흐르는 비트에 몸을 맡겨보았지만, 한낱 종이처럼 펄럭거렸다고 한다.
-13618	달콤한 케이크 만들기에서 5개 이상의 케이크를 만든 자에게 주어지는 타이틀. 이정도 스피드로, 이정도 퀄리티의 케이크를 만든 당신이라면, 크롬 바스의 악동 이루샤를 골골송의 극락으로 이끌 수 있을지도...
-13619	달콤한 케이크 만들기에서 적은 케이크를 만든 자에게 주어지는 타이틀. 설마 2개도 못 만들겠어? 라고 생각했지만, 그것이 실제로 일어났습니다.
-13620	행운 30 증가
-13621	행운 30 증가
-13622	행운 30 증가
-13623	행운 30 증가
+13561	Fizzy's True Friend
+13562	who Almost Slipped, Yikes!
+13563	the Possible Descendant of Ferghus
+13564	the Pompous
+13565	the Born Artisan
+13566	Fizzy's True Friend
+13567	who Almost Slipped, Yikes!
+13568	the Possible Descendant of Ferghus
+13569	the Pompous
+13570	the Born Artisan
+13571	Fizzy's True Friend
+13572	who Almost Slipped, Yikes!
+13573	the Possible Descendant of Ferghus
+13574	the Pompous
+13575	the Born Artisan
+13576	Fizzy's True Friend
+13577	who Almost Slipped, Yikes!
+13578	the Possible Descendant of Ferghus
+13579	the Pompous
+13580	the Born Artisan
+13581	A 2nd Title that can be obtained by Milletians who completed Fizzy's Request in a flawless fashion. Although the stat bonuses it gives are available only for a limited time, you'll keep the title and can use it even after the stats are gone. (Duration cannot be extended)
+13582	A title given to those who endured the suspense and cleared the Crack the Coded Box in the last turn.
+13583	A title given to the unfortunate ones who came in last place in Crack the Coded Box.\nComing in first is nothing compared to continuing to try in the face of adversity.
+13584	A title given to those who guessed the right answer within three turns in the Crack the Coded Box. If your head gets much bigger, you won't be able to fit through the door.
+13585	A title given to those who won first place among everyone who challenged to Crack the Coded Box.\nRevel in the glory you obtained through fierce competition.
+13586	A 2nd Title that can be obtained by Milletians who completed Fizzy's Request in a flawless fashion. Although the stat bonuses it gives are available only for a limited time, you'll keep the title and can use it even after the stats are gone. (Duration cannot be extended)
+13587	A title given to those who endured the suspense and cleared the Crack the Coded Box in the last turn.
+13588	A title given to the unfortunate ones who came in last place in Crack the Coded Box.\nComing in first is nothing compared to continuing to try in the face of adversity.
+13589	A title given to those who guessed the right answer within three turns in the Crack the Coded Box. If your head gets much bigger, you won't be able to fit through the door.
+13590	A title given to those who won first place among everyone who challenged to Crack the Coded Box.\nRevel in the glory you obtained through fierce competition.
+13591	Max Damage +28\nMagic Attack +44
+13592	Luck +30
+13593	Luck +30
+13594	Luck +30
+13595	Luck +30
+13596	the Groovy
+13597	who Has Two Left Feet
+13598	who Makes Baking Look Like A Cakewalk
+13599	who Could Burn Water
+13600	the Groovy
+13601	who Has Two Left Feet
+13602	who Makes Baking Look Like A Cakewalk
+13603	who Could Burn Water
+13604	the Groovy
+13605	who Has Two Left Feet
+13606	who Makes Baking Look Like A Cakewalk
+13607	who Could Burn Water
+13608	the Groovy
+13609	who Has Two Left Feet
+13610	who Makes Baking Look Like A Cakewalk
+13611	who Could Burn Water
+13612	A title given to the dancers of Imp-romptu Dance Party who got every move correct. You'll want your friends and enemies alike to know about this beatdown.
+13613	A title given to the dancers who received terrible scores in Imp-romptu Dance Party. You may want to consider a career in necromancy, since the stomping of your feet could wake the dead.
+13614	A title given to those who successfully stacked 5 or more cakes in Layer the Cake. With the speed and grace you showed, no pastry predicament can get the better of you.
+13615	A title given to those who could not bake at least 2 cakes in Layer the Cake. Your hopes were high, but they toppled like a poorly-balanced cake.
+13616	A title given to the dancers of Imp-romptu Dance Party who got every move correct. You'll want your friends and enemies alike to know about this beatdown.
+13617	A title given to the dancers who received terrible scores in Imp-romptu Dance Party. You may want to consider a career in necromancy, since the stomping of your feet could wake the dead.
+13618	A title given to those who successfully stacked 5 or more cakes in Layer the Cake. With the speed and grace you showed, no pastry predicament can get the better of you.
+13619	A title given to those who could not bake at least 2 cakes in Layer the Cake. Your hopes were high, but they toppled like a poorly-balanced cake.
+13620	Luck +30
+13621	Luck +30
+13622	Luck +30
+13623	Luck +30
 13624	Blooming Roses
 13626	Blooming Roses
 13628	Blooming Roses
@@ -12335,6 +12335,1434 @@
 13852	Max Damage +20\nCritical Damage +1%\nBonus Damage +1%\nMovement Speed +2%
 13853	Refining Success Rate +4%\nBlacksmithing Success Rate +4%\nBlacksmithing Completeness +4\nProduction Success Rate +2%
 13854	When used with the Magic Artisan title, Magic Craft Completeness Quality increased\nProduction Success Rate +3%
+13855	the Master of Defense
+13856	the Master of Smash
+13857	the Master of Counter
+13858	the Master of Windmill
+13859	the Master of Arrow Revolver
+13860	the Master of Lightning Bolt
+13861	the Master of Firebolt
+13862	the Master of Icebolt
+13863	the Master of Healing
+13864	the Master of Fireball
+13865	the Master of Thunder
+13866	the Master of Combat
+13867	the Master of Range
+13868	the Master of Critical Hit
+13869	the Master of Magnum Shot
+13870	the Master of Weaving
+13871	the Master of Refining
+13872	the Master of Herbalism
+13873	the Master of Tailoring
+13874	the Master Blacksmith
+13875	the Master of Potion
+13876	the Master of Fishing
+13877	the Master Instrumentalist
+13878	the Master of Enchantment
+13879	the Master of Ice Spear
+13880	the Master of Final Hit
+13881	the Master of Mirage Missile
+13882	the Master of Production
+13883	the Master of Mana Crystallization
+13884	the Master of Water Cannon
+13885	the Master of Golems
+13886	the Master of Barrier Spikes
+13887	the Master of Rain
+13888	the Master of Frozen Blast
+13889	the Master of Flame Burst
+13890	the Master of Stomp
+13891	the Master of Metallurgy
+13892	the Master of Wind Guard
+13893	the Master of Final Shot
+13894	the Master of Metal Conversion
+13895	the Master of Blaze
+13896	the Master of Shock
+13897	the Master of Alchemy
+13898	the Master of Life Drain
+13899	the Master of Magic
+13900	the Master of Party Healing
+13901	the Master of Carpentry
+13902	the Master of Heat Buster
+13903	the Master of Chain Cylinder
+13904	the Master of Throwing Attack
+13905	the Master of Taunt
+13906	the Master of Support Shot
+13907	the Master of Crash Shot
+13908	the Master of Fire Alchemy
+13909	the Master of Water Alchemy
+13910	the Master of Earth Alchemy
+13911	the Master of Wind Alchemy
+13912	the Master of Transmutation
+13913	the Master of Fire
+13914	the Master of Ice
+13915	the Master of Lightning
+13916	the Master of Bolt Magic
+13917	the Master of Enthralling Performance
+13918	the Master of Swords
+13919	the Master of Axes
+13920	the Master of Blunts
+13921	the Master of Shields
+13922	the Master of Heavy Stander
+13923	the Master of Bows
+13924	the Master of Crossbows
+13925	the Master of Fusion Bolt
+13926	the Master Berserker
+13927	the Master of Assault Slash
+13928	the Master of Hail Storm
+13929	the Master of Doppelganger
+13930	the Master of Lances
+13931	the Master of Lance Counter
+13932	the Master of Lance Charge
+13933	the Master of Charge
+13934	the Master of Ice Shield
+13935	the Master of Fire Shield
+13936	the Master of Lightning Shield
+13937	the Master of Natural Shield
+13938	the Master of Handicraft
+13939	the Master of Animal Taming
+13940	the Master of Sand Burst
+13941	the Master of Wind Blast
+13942	the Master of Synthesis
+13943	the Master of Fragmentation
+13944	the Master of Gold Strike
+13945	the Master of Elemental Wave
+13946	the Master of Golden Time
+13947	the Master of Hydra Transmutation
+13948	the Master of Guard Cylinder
+13949	the Master of Dual Wielding
+13950	the Master of Rage Impact
+13951	the Master of Bash
+13952	the Master of Battlefield Overture
+13953	the Master of Lullaby
+13954	the Master of Enduring Melody
+13955	the Master of Vivace
+13956	the Master of Harvest Song
+13957	the Master of March Song
+13958	the Master of Dischord
+13959	the Master of Encore
+13960	the Master of Song
+13961	the Master of Fantastic Chorus
+13962	the Master of Tasting
+13963	the Master of Ingredient Hunting
+13964	the Master of Catering
+13965	the Master of Exploration
+13966	the Master of Artifact Investigation
+13967	the Master of Crisis Escape
+13968	the Master of Dance of Death
+13969	the Shearer of Sheep
+13970	the Master of Mining
+13971	the Gatherer of Eggs
+13972	the Mushroom Picker
+13973	the Milking Master
+13974	the Harvester
+13975	the Master of Hoeing
+13976	the Master of Commerce
+13977	the Master of Transformation
+13978	the Master of Control Marionette
+13979	the Master of Colossus
+13980	the Master of Pierrot
+13981	the Master of Threshold Cutter
+13982	the Master of Inciting Incident
+13983	the Master of Rising Action
+13984	the Master of Crisis
+13985	the Master of Climactic Crash
+13986	the Master of Invigorating Encore
+13987	the Master of Wire Pull
+13988	the Master of Puppet's Snare
+13989	the Master of Dual Guns
+13990	the Master of Reload
+13991	the Master of Flash Launcher
+13992	the Master of Grapple Shot
+13993	the Master of Bullet Slide
+13994	the Master of Shooting Rush
+13995	the Master of Bullet Storm
+13996	the Master of Way of the Gun
+13997	the Expert Engineer
+13998	the Magic Artisan
+13999	the Mineral Expert
+14000	the Ecologist
+14001	the Master of Heavy Armor
+14002	the Master of Light Armor
+14003	the Master of Shurikens
+14004	the Master of Shuriken Charge
+14005	the Master of Kunai Storm
+14006	the Master of Shadow Bind
+14007	the Master of Shadow Cloak
+14008	the Master of Explosive Kunai
+14009	the Master of Smokescreen
+14010	the Master of Sakura Abyss
+14011	the Master of Knuckles
+14012	the Master of Combo Mastery
+14013	the Master of Tumble
+14014	the Master of Respite
+14015	the Master of Charging Strike
+14016	the Master of Focused Fist
+14017	the Master of Spinning Uppercut
+14018	the Master of Somersault Kick
+14019	the Master of Pummel
+14020	the Master of Drop Kick
+14021	the Master of Shockwave
+14022	the Master of Counter Punch
+14023	the Master of Spider Trap
+14024	the Master Berserker
+14025	the Toxicologist
+14026	the Master of Meteor Strike
+14027	the Master of Spellwalk
+14028	the Master of Snap Cast
+14029	the Master of Magic Weapons
+14030	the Master of Lightning Rod
+14031	the Master of Inspiration
+14032	the Master of Urgent Shot
+14033	the Master of Dorcha
+14034	the Master of Chain Blades
+14035	the Master of Dorcha Snatch
+14036	the Master of Chain Impale
+14037	the Master of Raging Spike
+14038	the Master of Spinning Slasher
+14039	the Master of Chain Crush
+14040	the Master of Chain Sweep
+14041	the Master of Dorcha Conversion
+14042	the Master of Anchor Rush
+14043	the Master of Death Mark
+14044	the Master of Chain Burst
+14045	the Master of Bachram Explosion
+14046	the Master Chef
+14047	the Matser of Final Strike
+14048	the Matser of Stampede
+14049	the Matser of Fynni Catching
+14050	the Matser of Fynni Blossoming
+14051	the Matser of Fynn Crafting
+14052	the Matser of Fynn Bead Burnishing
+14053	the Matser of Fynn Sync
+14054	the Master of Glyph Design
+14055	the Master of Glyph Formulation
+14056	the Master of Glyph Evocation
+14057	the Master of Stationery Crafting
+14058	the Master Sommelier
+14059	the Master of Defense
+14060	the Master of Smash
+14061	the Master of Counter
+14062	the Master of Windmill
+14063	the Master of Arrow Revolver
+14064	the Master of Lightning Bolt
+14065	the Master of Firebolt
+14066	the Master of Icebolt
+14067	the Master of Healing
+14068	the Master of Fireball
+14069	the Master of Thunder
+14070	the Master of Combat
+14071	the Master of Range
+14072	the Master of Critical Hit
+14073	the Master of Magnum Shot
+14074	the Master of Weaving
+14075	the Master of Refining
+14076	the Master of Herbalism
+14077	the Master of Tailoring
+14078	the Master Blacksmith
+14079	the Master of Potion
+14080	the Master of Fishing
+14081	the Master Instrumentalist
+14082	the Master of Enchantment
+14083	the Master of Ice Spear
+14084	the Master of Final Hit
+14085	the Master of Mirage Missile
+14086	the Master of Production
+14087	the Master of Mana Crystallization
+14088	the Master of Water Cannon
+14089	the Master of Golems
+14090	the Master of Barrier Spikes
+14091	the Master of Rain
+14092	the Master of Frozen Blast
+14093	the Master of Flame Burst
+14094	the Master of Stomp
+14095	the Master of Metallurgy
+14096	the Master of Wind Guard
+14097	the Master of Final Shot
+14098	the Master of Metal Conversion
+14099	the Master of Blaze
+14100	the Master of Shock
+14101	the Master of Alchemy
+14102	the Master of Life Drain
+14103	the Master of Magic
+14104	the Master of Party Healing
+14105	the Master of Carpentry
+14106	the Master of Heat Buster
+14107	the Master of Chain Cylinder
+14108	the Master of Throwing Attack
+14109	the Master of Taunt
+14110	the Master of Support Shot
+14111	the Master of Crash Shot
+14112	the Master of Fire Alchemy
+14113	the Master of Water Alchemy
+14114	the Master of Earth Alchemy
+14115	the Master of Wind Alchemy
+14116	the Master of Transmutation
+14117	the Master of Fire
+14118	the Master of Ice
+14119	the Master of Lightning
+14120	the Master of Bolt Magic
+14121	the Master of Enthralling Performance
+14122	the Master of Swords
+14123	the Master of Axes
+14124	the Master of Blunts
+14125	the Master of Shields
+14126	the Master of Heavy Stander
+14127	the Master of Bows
+14128	the Master of Crossbows
+14129	the Master of Fusion Bolt
+14130	the Master Berserker
+14131	the Master of Assault Slash
+14132	the Master of Hail Storm
+14133	the Master of Doppelganger
+14134	the Master of Lances
+14135	the Master of Lance Counter
+14136	the Master of Lance Charge
+14137	the Master of Charge
+14138	the Master of Ice Shield
+14139	the Master of Fire Shield
+14140	the Master of Lightning Shield
+14141	the Master of Natural Shield
+14142	the Master of Handicraft
+14143	the Master of Animal Taming
+14144	the Master of Sand Burst
+14145	the Master of Wind Blast
+14146	the Master of Synthesis
+14147	the Master of Fragmentation
+14148	the Master of Gold Strike
+14149	the Master of Elemental Wave
+14150	the Master of Golden Time
+14151	the Master of Hydra Transmutation
+14152	the Master of Guard Cylinder
+14153	the Master of Dual Wielding
+14154	the Master of Rage Impact
+14155	the Master of Bash
+14156	the Master of Battlefield Overture
+14157	the Master of Lullaby
+14158	the Master of Enduring Melody
+14159	the Master of Vivace
+14160	the Master of Harvest Song
+14161	the Master of March Song
+14162	the Master of Dischord
+14163	the Master of Encore
+14164	the Master of Song
+14165	the Master of Fantastic Chorus
+14166	the Master of Tasting
+14167	the Master of Ingredient Hunting
+14168	the Master of Catering
+14169	the Master of Exploration
+14170	the Master of Artifact Investigation
+14171	the Master of Crisis Escape
+14172	the Master of Dance of Death
+14173	the Shearer of Sheep
+14174	the Master of Mining
+14175	the Gatherer of Eggs
+14176	the Mushroom Picker
+14177	the Milking Master
+14178	the Harvester
+14179	the Master of Hoeing
+14180	the Master of Commerce
+14181	the Master of Transformation
+14182	the Master of Control Marionette
+14183	the Master of Colossus
+14184	the Master of Pierrot
+14185	the Master of Threshold Cutter
+14186	the Master of Inciting Incident
+14187	the Master of Rising Action
+14188	the Master of Crisis
+14189	the Master of Climactic Crash
+14190	the Master of Invigorating Encore
+14191	the Master of Wire Pull
+14192	the Master of Puppet's Snare
+14193	the Master of Dual Guns
+14194	the Master of Reload
+14195	the Master of Flash Launcher
+14196	the Master of Grapple Shot
+14197	the Master of Bullet Slide
+14198	the Master of Shooting Rush
+14199	the Master of Bullet Storm
+14200	the Master of Way of the Gun
+14201	the Expert Engineer
+14202	the Magic Artisan
+14203	the Mineral Expert
+14204	the Ecologist
+14205	the Master of Heavy Armor
+14206	the Master of Light Armor
+14207	the Master of Shurikens
+14208	the Master of Shuriken Charge
+14209	the Master of Kunai Storm
+14210	the Master of Shadow Bind
+14211	the Master of Shadow Cloak
+14212	the Master of Explosive Kunai
+14213	the Master of Smokescreen
+14214	the Master of Sakura Abyss
+14215	the Master of Knuckles
+14216	the Master of Combo Mastery
+14217	the Master of Tumble
+14218	the Master of Respite
+14219	the Master of Charging Strike
+14220	the Master of Focused Fist
+14221	the Master of Spinning Uppercut
+14222	the Master of Somersault Kick
+14223	the Master of Pummel
+14224	the Master of Drop Kick
+14225	the Master of Shockwave
+14226	the Master of Counter Punch
+14227	the Master of Spider Trap
+14228	the Master Berserker
+14229	the Toxicologist
+14230	the Master of Meteor Strike
+14231	the Master of Spellwalk
+14232	the Master of Snap Cast
+14233	the Master of Magic Weapons
+14234	the Master of Lightning Rod
+14235	the Master of Inspiration
+14236	the Master of Urgent Shot
+14237	the Master of Dorcha
+14238	the Master of Chain Blades
+14239	the Master of Dorcha Snatch
+14240	the Master of Chain Impale
+14241	the Master of Raging Spike
+14242	the Master of Spinning Slasher
+14243	the Master of Chain Crush
+14244	the Master of Chain Sweep
+14245	the Master of Dorcha Conversion
+14246	the Master of Anchor Rush
+14247	the Master of Death Mark
+14248	the Master of Chain Burst
+14249	the Master of Bachram Explosion
+14250	the Master Chef
+14251	the Matser of Final Strike
+14252	the Matser of Stampede
+14253	the Matser of Fynni Catching
+14254	the Matser of Fynni Blossoming
+14255	the Matser of Fynn Crafting
+14256	the Matser of Fynn Bead Burnishing
+14257	the Matser of Fynn Sync
+14258	the Master of Glyph Design
+14259	the Master of Glyph Formulation
+14260	the Master of Glyph Evocation
+14261	the Master of Stationery Crafting
+14262	the Master Sommelier
+14263	the Master of Defense
+14264	the Master of Smash
+14265	the Master of Counter
+14266	the Master of Windmill
+14267	the Master of Arrow Revolver
+14268	the Master of Lightning Bolt
+14269	the Master of Firebolt
+14270	the Master of Icebolt
+14271	the Master of Healing
+14272	the Master of Fireball
+14273	the Master of Thunder
+14274	the Master of Combat
+14275	the Master of Range
+14276	the Master of Critical Hit
+14277	the Master of Magnum Shot
+14278	the Master of Weaving
+14279	the Master of Refining
+14280	the Master of Herbalism
+14281	the Master of Tailoring
+14282	the Master Blacksmith
+14283	the Master of Potion
+14284	the Master of Fishing
+14285	the Master Instrumentalist
+14286	the Master of Enchantment
+14287	the Master of Ice Spear
+14288	the Master of Final Hit
+14289	the Master of Mirage Missile
+14290	the Master of Production
+14291	the Master of Mana Crystallization
+14292	the Master of Water Cannon
+14293	the Master of Golems
+14294	the Master of Barrier Spikes
+14295	the Master of Rain
+14296	the Master of Frozen Blast
+14297	the Master of Flame Burst
+14298	the Master of Stomp
+14299	the Master of Metallurgy
+14300	the Master of Wind Guard
+14301	the Master of Final Shot
+14302	the Master of Metal Conversion
+14303	the Master of Blaze
+14304	the Master of Shock
+14305	the Master of Alchemy
+14306	the Master of Life Drain
+14307	the Master of Magic
+14308	the Master of Party Healing
+14309	the Master of Carpentry
+14310	the Master of Heat Buster
+14311	the Master of Chain Cylinder
+14312	the Master of Throwing Attack
+14313	the Master of Taunt
+14314	the Master of Support Shot
+14315	the Master of Crash Shot
+14316	the Master of Fire Alchemy
+14317	the Master of Water Alchemy
+14318	the Master of Earth Alchemy
+14319	the Master of Wind Alchemy
+14320	the Master of Transmutation
+14321	the Master of Fire
+14322	the Master of Ice
+14323	the Master of Lightning
+14324	the Master of Bolt Magic
+14325	the Master of Enthralling Performance
+14326	the Master of Swords
+14327	the Master of Axes
+14328	the Master of Blunts
+14329	the Master of Shields
+14330	the Master of Heavy Stander
+14331	the Master of Bows
+14332	the Master of Crossbows
+14333	the Master of Fusion Bolt
+14334	the Master Berserker
+14335	the Master of Assault Slash
+14336	the Master of Hail Storm
+14337	the Master of Doppelganger
+14338	the Master of Lances
+14339	the Master of Lance Counter
+14340	the Master of Lance Charge
+14341	the Master of Charge
+14342	the Master of Ice Shield
+14343	the Master of Fire Shield
+14344	the Master of Lightning Shield
+14345	the Master of Natural Shield
+14346	the Master of Handicraft
+14347	the Master of Animal Taming
+14348	the Master of Sand Burst
+14349	the Master of Wind Blast
+14350	the Master of Synthesis
+14351	the Master of Fragmentation
+14352	the Master of Gold Strike
+14353	the Master of Elemental Wave
+14354	the Master of Golden Time
+14355	the Master of Hydra Transmutation
+14356	the Master of Guard Cylinder
+14357	the Master of Dual Wielding
+14358	the Master of Rage Impact
+14359	the Master of Bash
+14360	the Master of Battlefield Overture
+14361	the Master of Lullaby
+14362	the Master of Enduring Melody
+14363	the Master of Vivace
+14364	the Master of Harvest Song
+14365	the Master of March Song
+14366	the Master of Dischord
+14367	the Master of Encore
+14368	the Master of Song
+14369	the Master of Fantastic Chorus
+14370	the Master of Tasting
+14371	the Master of Ingredient Hunting
+14372	the Master of Catering
+14373	the Master of Exploration
+14374	the Master of Artifact Investigation
+14375	the Master of Crisis Escape
+14376	the Master of Dance of Death
+14377	the Shearer of Sheep
+14378	the Master of Mining
+14379	the Gatherer of Eggs
+14380	the Mushroom Picker
+14381	the Milking Master
+14382	the Harvester
+14383	the Master of Hoeing
+14384	the Master of Commerce
+14385	the Master of Transformation
+14386	the Master of Control Marionette
+14387	the Master of Colossus
+14388	the Master of Pierrot
+14389	the Master of Threshold Cutter
+14390	the Master of Inciting Incident
+14391	the Master of Rising Action
+14392	the Master of Crisis
+14393	the Master of Climactic Crash
+14394	the Master of Invigorating Encore
+14395	the Master of Wire Pull
+14396	the Master of Puppet's Snare
+14397	the Master of Dual Guns
+14398	the Master of Reload
+14399	the Master of Flash Launcher
+14400	the Master of Grapple Shot
+14401	the Master of Bullet Slide
+14402	the Master of Shooting Rush
+14403	the Master of Bullet Storm
+14404	the Master of Way of the Gun
+14405	the Expert Engineer
+14406	the Magic Artisan
+14407	the Mineral Expert
+14408	the Ecologist
+14409	the Master of Heavy Armor
+14410	the Master of Light Armor
+14411	the Master of Shurikens
+14412	the Master of Shuriken Charge
+14413	the Master of Kunai Storm
+14414	the Master of Shadow Bind
+14415	the Master of Shadow Cloak
+14416	the Master of Explosive Kunai
+14417	the Master of Smokescreen
+14418	the Master of Sakura Abyss
+14419	the Master of Knuckles
+14420	the Master of Combo Mastery
+14421	the Master of Tumble
+14422	the Master of Respite
+14423	the Master of Charging Strike
+14424	the Master of Focused Fist
+14425	the Master of Spinning Uppercut
+14426	the Master of Somersault Kick
+14427	the Master of Pummel
+14428	the Master of Drop Kick
+14429	the Master of Shockwave
+14430	the Master of Counter Punch
+14431	the Master of Spider Trap
+14432	the Master Berserker
+14433	the Toxicologist
+14434	the Master of Meteor Strike
+14435	the Master of Spellwalk
+14436	the Master of Snap Cast
+14437	the Master of Magic Weapons
+14438	the Master of Lightning Rod
+14439	the Master of Inspiration
+14440	the Master of Urgent Shot
+14441	the Master of Dorcha
+14442	the Master of Chain Blades
+14443	the Master of Dorcha Snatch
+14444	the Master of Chain Impale
+14445	the Master of Raging Spike
+14446	the Master of Spinning Slasher
+14447	the Master of Chain Crush
+14448	the Master of Chain Sweep
+14449	the Master of Dorcha Conversion
+14450	the Master of Anchor Rush
+14451	the Master of Death Mark
+14452	the Master of Chain Burst
+14453	the Master of Bachram Explosion
+14454	the Master Chef
+14455	the Matser of Final Strike
+14456	the Matser of Stampede
+14457	the Matser of Fynni Catching
+14458	the Matser of Fynni Blossoming
+14459	the Matser of Fynn Crafting
+14460	the Matser of Fynn Bead Burnishing
+14461	the Matser of Fynn Sync
+14462	the Master of Glyph Design
+14463	the Master of Glyph Formulation
+14464	the Master of Glyph Evocation
+14465	the Master of Stationery Crafting
+14466	the Master Sommelier
+14467	the Master of Defense
+14468	the Master of Smash
+14469	the Master of Counter
+14470	the Master of Windmill
+14471	the Master of Arrow Revolver
+14472	the Master of Lightning Bolt
+14473	the Master of Firebolt
+14474	the Master of Icebolt
+14475	the Master of Healing
+14476	the Master of Fireball
+14477	the Master of Thunder
+14478	the Master of Combat
+14479	the Master of Range
+14480	the Master of Critical Hit
+14481	the Master of Magnum Shot
+14482	the Master of Weaving
+14483	the Master of Refining
+14484	the Master of Herbalism
+14485	the Master of Tailoring
+14486	the Master Blacksmith
+14487	the Master of Potion
+14488	the Master of Fishing
+14489	the Master Instrumentalist
+14490	the Master of Enchantment
+14491	the Master of Ice Spear
+14492	the Master of Final Hit
+14493	the Master of Mirage Missile
+14494	the Master of Production
+14495	the Master of Mana Crystallization
+14496	the Master of Water Cannon
+14497	the Master of Golems
+14498	the Master of Barrier Spikes
+14499	the Master of Rain
+14500	the Master of Frozen Blast
+14501	the Master of Flame Burst
+14502	the Master of Stomp
+14503	the Master of Metallurgy
+14504	the Master of Wind Guard
+14505	the Master of Final Shot
+14506	the Master of Metal Conversion
+14507	the Master of Blaze
+14508	the Master of Shock
+14509	the Master of Alchemy
+14510	the Master of Life Drain
+14511	the Master of Magic
+14512	the Master of Party Healing
+14513	the Master of Carpentry
+14514	the Master of Heat Buster
+14515	the Master of Chain Cylinder
+14516	the Master of Throwing Attack
+14517	the Master of Taunt
+14518	the Master of Support Shot
+14519	the Master of Crash Shot
+14520	the Master of Fire Alchemy
+14521	the Master of Water Alchemy
+14522	the Master of Earth Alchemy
+14523	the Master of Wind Alchemy
+14524	the Master of Transmutation
+14525	the Master of Fire
+14526	the Master of Ice
+14527	the Master of Lightning
+14528	the Master of Bolt Magic
+14529	the Master of Enthralling Performance
+14530	the Master of Swords
+14531	the Master of Axes
+14532	the Master of Blunts
+14533	the Master of Shields
+14534	the Master of Heavy Stander
+14535	the Master of Bows
+14536	the Master of Crossbows
+14537	the Master of Fusion Bolt
+14538	the Master Berserker
+14539	the Master of Assault Slash
+14540	the Master of Hail Storm
+14541	the Master of Doppelganger
+14542	the Master of Lances
+14543	the Master of Lance Counter
+14544	the Master of Lance Charge
+14545	the Master of Charge
+14546	the Master of Ice Shield
+14547	the Master of Fire Shield
+14548	the Master of Lightning Shield
+14549	the Master of Natural Shield
+14550	the Master of Handicraft
+14551	the Master of Animal Taming
+14552	the Master of Sand Burst
+14553	the Master of Wind Blast
+14554	the Master of Synthesis
+14555	the Master of Fragmentation
+14556	the Master of Gold Strike
+14557	the Master of Elemental Wave
+14558	the Master of Golden Time
+14559	the Master of Hydra Transmutation
+14560	the Master of Guard Cylinder
+14561	the Master of Dual Wielding
+14562	the Master of Rage Impact
+14563	the Master of Bash
+14564	the Master of Battlefield Overture
+14565	the Master of Lullaby
+14566	the Master of Enduring Melody
+14567	the Master of Vivace
+14568	the Master of Harvest Song
+14569	the Master of March Song
+14570	the Master of Dischord
+14571	the Master of Encore
+14572	the Master of Song
+14573	the Master of Fantastic Chorus
+14574	the Master of Tasting
+14575	the Master of Ingredient Hunting
+14576	the Master of Catering
+14577	the Master of Exploration
+14578	the Master of Artifact Investigation
+14579	the Master of Crisis Escape
+14580	the Master of Dance of Death
+14581	the Shearer of Sheep
+14582	the Master of Mining
+14583	the Gatherer of Eggs
+14584	the Mushroom Picker
+14585	the Milking Master
+14586	the Harvester
+14587	the Master of Hoeing
+14588	the Master of Commerce
+14589	the Master of Transformation
+14590	the Master of Control Marionette
+14591	the Master of Colossus
+14592	the Master of Pierrot
+14593	the Master of Threshold Cutter
+14594	the Master of Inciting Incident
+14595	the Master of Rising Action
+14596	the Master of Crisis
+14597	the Master of Climactic Crash
+14598	the Master of Invigorating Encore
+14599	the Master of Wire Pull
+14600	the Master of Puppet's Snare
+14601	the Master of Dual Guns
+14602	the Master of Reload
+14603	the Master of Flash Launcher
+14604	the Master of Grapple Shot
+14605	the Master of Bullet Slide
+14606	the Master of Shooting Rush
+14607	the Master of Bullet Storm
+14608	the Master of Way of the Gun
+14609	the Expert Engineer
+14610	the Magic Artisan
+14611	the Mineral Expert
+14612	the Ecologist
+14613	the Master of Heavy Armor
+14614	the Master of Light Armor
+14615	the Master of Shurikens
+14616	the Master of Shuriken Charge
+14617	the Master of Kunai Storm
+14618	the Master of Shadow Bind
+14619	the Master of Shadow Cloak
+14620	the Master of Explosive Kunai
+14621	the Master of Smokescreen
+14622	the Master of Sakura Abyss
+14623	the Master of Knuckles
+14624	the Master of Combo Mastery
+14625	the Master of Tumble
+14626	the Master of Respite
+14627	the Master of Charging Strike
+14628	the Master of Focused Fist
+14629	the Master of Spinning Uppercut
+14630	the Master of Somersault Kick
+14631	the Master of Pummel
+14632	the Master of Drop Kick
+14633	the Master of Shockwave
+14634	the Master of Counter Punch
+14635	the Master of Spider Trap
+14636	the Master Berserker
+14637	the Toxicologist
+14638	the Master of Meteor Strike
+14639	the Master of Spellwalk
+14640	the Master of Snap Cast
+14641	the Master of Magic Weapons
+14642	the Master of Lightning Rod
+14643	the Master of Inspiration
+14644	the Master of Urgent Shot
+14645	the Master of Dorcha
+14646	the Master of Chain Blades
+14647	the Master of Dorcha Snatch
+14648	the Master of Chain Impale
+14649	the Master of Raging Spike
+14650	the Master of Spinning Slasher
+14651	the Master of Chain Crush
+14652	the Master of Chain Sweep
+14653	the Master of Dorcha Conversion
+14654	the Master of Anchor Rush
+14655	the Master of Death Mark
+14656	the Master of Chain Burst
+14657	the Master of Bachram Explosion
+14658	the Master Chef
+14659	the Matser of Final Strike
+14660	the Matser of Stampede
+14661	the Matser of Fynni Catching
+14662	the Matser of Fynni Blossoming
+14663	the Matser of Fynn Crafting
+14664	the Matser of Fynn Bead Burnishing
+14665	the Matser of Fynn Sync
+14666	the Master of Glyph Design
+14667	the Master of Glyph Formulation
+14668	the Master of Glyph Evocation
+14669	the Master of Stationery Crafting
+14670	the Master Sommelier
+14671	An honorable title awarded to someone who has reached the highest level available in Defense.
+14672	An honorable title awarded to someone who has reached the highest level available in Smash.
+14673	An honorable title awarded to someone who has reached the highest level available in Counterattack.
+14674	An honorable title awarded to someone who has reached the highest level available in Windmill.
+14675	An honorable title awarded to someone who has reached the highest level available in Arrow Revolver.
+14676	An honorable title awarded to someone who has reached the highest level available in Lightning Bolt.
+14677	An honorable title awarded to someone who has reached the highest level available in Firebolt.
+14678	An honorable title awarded to someone who has reached the highest level available in Icebolt.
+14679	An honorable title awarded to someone who has reached the highest level available in Healing.
+14680	An honorable title awarded to someone who has reached the highest level available in Fireball.
+14681	An honorable title awarded to someone who has reached the highest level available in Thunder.
+14682	An honorable title awarded to someone who has reached the highest level available in Combat Mastery.
+14683	An honorable title awarded to someone who has reached the highest level available in Ranged Attack.
+14684	An honorable title awarded to someone who has reached the highest level available in Critical Hit.
+14685	An honorable title awarded to someone who has reached the highest level available in Magnum Shot.
+14686	An honorable title awarded to someone who has reached the highest level available in Weaving.
+14687	An honorable title awarded to someone who has reached the highest level available in Refining.
+14688	An honorable title awarded to someone who has reached the highest level available in Herbalism.
+14689	An honorable title awarded to someone who has reached the highest level available in Tailoring.
+14690	An honorable title awarded to someone who has reached the highest level available in Blacksmith.
+14691	An honorable title awarded to someone who has reached the highest level available in Potion Making.
+14692	An honorable title awarded to someone who has reached the highest level available in Fishing.
+14693	An honorable title awarded to someone who has reached the highest level available in Instrument Playing.
+14694	An honorable title awarded to someone who has reached the highest level available in Enchant.
+14695	An honorable title awarded to someone who has reached the highest level available in Ice Spear.
+14696	An honorable title awarded to someone who has reached the highest level available in Final Hit.
+14697	An honorable title awarded to someone who has reached the highest level available in Mirage Missile.
+14698	This honorable title is awarded to craftsmen that have attained the maximum level of Production Mastery.
+14699	A glorious title given to someone who has reached the highest level of Mana Crystallization.
+14700	A glorious title given to someone who has reached the highest level of Water Cannon.
+14701	A glorious title given to someone who has reached the highest level of Summon Golem.
+14702	A glorious title given to someone who has reached the highest level of Barrier Spikes.
+14703	A glorious title given to someone who has reached the highest level of Rain Casting.
+14704	A glorious title given to someone who has reached the highest level of Frozen Blast.
+14705	A glorious title given to someone who has reached the highest level of Flame Burst.
+14706	A glorious title given to someone who has reached the highest level of Stomp.
+14707	A glorious title given to someone who has reached the highest level of Metallurgy.
+14708	A glorious title given to someone who has reached the highest level of Wind Guard.
+14709	An honorable title given to someone who has reached the highest level of Final Shot.
+14710	A glorious title given to someone who has reached the highest level of Metal Conversion.
+14711	A glorious title given to someone who has reached the highest level of Blaze.
+14712	An honorable title awarded to someone who has reached the highest level available in Shock.
+14713	An honorable title awarded to someone who has reached the highest level available in Alchemy Mastery.
+14714	An honorable title awarded to someone who has reached the highest level available in Life Drain.
+14715	An honorable title awarded to someone who has reached the highest level available in Magic Mastery.
+14716	An honorable title awarded to someone who has reached the highest level available in Party Healing.
+14717	An honorable title awarded to someone who has reached the highest level available in Carpentry.
+14718	An honorable title awarded to someone who has reached the highest level available in Heat Buster.
+14719	An honorable title awarded to someone who has reached the highest level available in Chain Cylinder.
+14720	An honorable title awarded to someone who has reached the highest level available in Throwing attack.
+14721	An honorable title awarded to someone who has reached the highest level available in Taunt.
+14722	An honorable title awarded to someone who has reached the highest level available in Support Shot.
+14723	An honorable title awarded to someone who has reached the highest level available in Crash Shot.
+14724	An honorable title awarded to someone who has reached the highest level available in Fire Alchemy Mastery.
+14725	An honorable title awarded to someone who has reached the highest level available in Water Alchemy Mastery.
+14726	An honorable title awarded to someone who has reached the highest level in Earth Alchemy Mastery.
+14727	An honorable title awarded to someone who has reached the highest level available in Wind Alchemy Mastery.
+14728	An honorable title awarded to someone who has reached the highest level available in Transmutation Mastery.
+14729	An honorable title awarded to someone who has reached the highest level available in Fire Mastery.
+14730	An honorable title awarded to someone who has reached the highest level available in Ice Mastery.
+14731	An honorable title awarded to someone who has reached the highest level available in Lightning Mastery.
+14732	An honorable title awarded to someone who has reached the highest level available in Bolt Magic Mastery.
+14733	An honorable title awarded to someone who has reached the highest level available in Enthralling Performance.
+14734	An honorable title awarded to someone who has reached the highest level available in Sword Mastery.
+14735	An honorable title awarded to someone who has reached the highest level available in Axe Mastery.
+14736	An honorable title awarded to someone who has reached the highest level available in Blunt Mastery.
+14737	An honorable title awarded to someone who has reached the highest level available in Shield Mastery.
+14738	An honorable title awarded to someone who has reached the highest level available in Heavy Stander.
+14739	An honorable title awarded to someone who has reached the highest level available in Bow Mastery.
+14740	An honorable title awarded to someone who has reached the highest level available in Crossbow Mastery.
+14741	An honorable title awarded to someone who has reached the highest level available in Bolt Magic Combination.
+14742	An honorable title awarded to someone who has reached the highest level available in Berserker.
+14743	An honorable title awarded to someone who has reached the highest level available in Crashdown.
+14744	An honorable title awarded to someone who has reached the highest level available in Hail Storm.
+14745	A glorious title given to someone who has reached the highest level in Doppleganger.
+14746	An honorable title awarded to someone who has reached the highest level available in Lance Mastery.
+14747	An honorable title awarded to someone who has reached the highest level available in Lance Counter.
+14748	An honorable title awarded to someone who has reached the highest level available in Lance Charge.
+14749	An honorable title awarded to someone who has reached the highest level available in Charge.
+14750	An honorable title awarded to someone who has reached the highest level available in Ice Shield.
+14751	An honorable title awarded to someone who has reached the highest level available in Fire Shield.
+14752	An honorable title awarded to someone who has reached the highest level available in Lightning Shield.
+14753	An honorable title awarded to someone who has reached the highest level available in Natural Shield.
+14754	An honorable title awarded to someone who has reached the highest level available in Handicraft.
+14755	An honorable title awarded to someone who has reached the highest level available in Tame Wild Animal.
+14756	An honorable title awarded to someone who has reached the highest level available in Sand Burst.
+14757	An honorable title awarded to someone who has reached the highest level of Wind Blast.
+14758	An honorable title awarded to someone who has reached the highest level available in Synthesis.
+14759	An honorable title awarded to someone who has reached the highest level available in Fragmentation.
+14760	An honorable title awarded to one who has reached the highest level available in Gold Strike.
+14761	An honorable title awarded to someone who has reached the highest level available in Elemental Wave.
+14762	An honorable title awarded to someone who has reached the highest level available in Golden Time.
+14763	An honorable title awarded to someone who has reached the highest level available in Hydra Transmutation.
+14764	An honorable title awarded to someone who has reached the highest level available in Guard Cylinder Mastery.
+14765	An honorable title awarded to someone who has reached the highest level available in Dual Wield Mastery.
+14766	An honorable title awarded to someone who has reached the highest level available in Rage Impact.
+14767	An honorable title awarded to someone who has reached the highest level available in Bash.
+14768	An honorable title awarded to someone who has reached the highest level available in Battlefield Overture.
+14769	An honorable title awarded to someone who has reached the highest level available in Lullaby.
+14770	An honorable title awarded to someone who has reached the highest level available in Enduring Melody.
+14771	An honorable title awarded to someone who has reached the highest level available in Vivace.
+14772	An honorable title awarded to someone who has reached the highest level available in Harvest Song.
+14773	An honorable title awarded to someone who has reached the highest level available in March Song.
+14774	An honorable title awarded to someone who has reached the highest level available in Dischord.
+14775	An honorable title awarded to someone who has reached the highest level available in Encore.
+14776	An honorable title awarded to someone who has reached the highest level available in Song.
+14777	This honorable title is awarded to someone who has reached the highest level of Fantastic Chorus.
+14778	An honorable title awarded to someone who has reached the highest level available in Tasting.
+14779	An honorable title awarded to someone who has reached the highest level available in Ingredient Hunting.
+14780	An honorable title awarded to someone who has reached the highest level available in Catering.
+14781	An honorable title awarded to someone who has reached the highest level available in Exploration Mastery.
+14782	An honorable title awarded to someone who has reached the highest level available in Artifact Investigation.
+14783	An honorable title awarded to someone who has reached the highest level available in Crisis Escape.
+14784	An honorable title awarded to those who achieve the highest level of the Dance of Death.
+14785	An honorable title awarded to someone who has reached the highest level available in Sheep Shearing.
+14786	An honorable title awarded to someone who has reached the highest level available in Mining.
+14787	An honorable title awarded to someone who has reached the highest level available in Egg Gathering.
+14788	An honorable title awarded to someone who has reached the highest level available in Mushroom Gathering.
+14789	An honorable title awarded to someone who has reached the highest level available in Milking.
+14790	An honorable title awarded to someone who has reached the highest level available in Harvesting.
+14791	An honorable title awarded to someone who has reached the highest level available in Hoeing.
+14792	An honorable title awarded to someone who has reached the highest level available in Commerce Mastery.
+14793	This honorable title is awarded to a person who has attained the maximum level of Transformation Mastery.
+14794	An honorable title awarded to someone who has reached the highest level available in Control Marionette.
+14795	An honorable title awarded to someone who has reached the highest level available in Colossus Marionette.
+14796	An honorable title awarded to someone who has reached the highest level available in Pierrot Marionette.
+14797	An honorable title awarded to someone who has reached the highest level available in Act 2: Threshold Cutter.
+14798	An honorable title awarded to someone who has reached the highest level available in Act 1: Inciting Incident.
+14799	An honorable title awarded to someone who has reached the highest level available in Act 4: Rising Action.
+14800	An honorable title awarded to someone who has reached the highest level available in Act 6: Crisis.
+14801	An honorable title awarded to someone who has reached the highest level available in Act 7: Climactic Crash.
+14802	An honorable title awarded to someone who has reached the highest level available in Act 9: Invigorating Encore.
+14803	An honorable title awarded to someone who has reached the highest level available in Wire Pull.
+14804	An honorable title awarded to someone who has reached the highest level available in Puppet's Snare.
+14805	An honorable title awarded to someone who has reached the highest level available in Dual Gun Mastery.
+14806	An honorable title awarded to someone who has reached the highest level available in Reload.
+14807	An honorable title awarded to someone who has reached the highest level available in Flash Launcher.
+14808	An honorable title awarded to someone who has reached the highest level available in Grapple Shot.
+14809	An honorable title awarded to someone who has reached the highest level available in Bullet Slide.
+14810	An honorable title awarded to someone who has reached the highest level available in Gun Ballet.
+14811	An honorable title awarded to someone who has reached the highest level available in Bullet Storm.
+14812	An honorable title awarded to someone who has reached the highest level available in Way of the Gun.
+14813	An honorable title awarded to someone who has reached the highest level available in Hillwen Engineering.
+14814	An honorable title awarded to someone who has reached the highest level available in Magic Craft.
+14815	This honorable title is awarded to craftsmen that have attained the maximum level of Rare Mineralogy.
+14816	This honorable title is awarded to craftsmen that have attained the maximum level of Shyllien Ecology.
+14817	An honorable title awarded to someone who has reached the highest level available in Heavy Armor Mastery.
+14818	An honorable title awarded to someone who has reached the highest level available in Light Armor Mastery.
+14819	An honorable title awarded to someone who has reached the highest level available in Shuriken Mastery.
+14820	An honorable title awarded to someone who has reached the highest level available in Shuriken Charge.
+14821	An honorable title awarded to someone who has reached the highest level available in Kunai Storm.
+14822	An honorable title awarded to someone who has reached the highest level available in Shadow Bind.
+14823	An honorable title awarded to someone who has reached the highest level available in Shadow Cloak.
+14824	An honorable title awarded to someone who has reached the highest level available in Explosive Kunai.
+14825	An honorable title awarded to someone who has reached the highest level available in Smokescreen.
+14826	An honorable title awarded to someone who has reached the highest level available in Sakura Abyss.
+14827	An honorable title awarded to someone who has reached the highest level available in Knuckle Mastery.
+14828	An honorable title awarded to someone who has reached the highest level available in Combo Mastery.
+14829	An honorable title awarded to someone who has reached the highest level available in Tumble.
+14830	An honorable title awarded to someone who has reached the highest level available in Respite.
+14831	An honorable title awarded to someone who has reached the highest level available in Charging Strike.
+14832	An honorable title awarded to someone who has reached the highest level available in Focused Fist.
+14833	An honorable title awarded to someone who has reached the highest level available in Spinning Uppercut.
+14834	An honorable title awarded to someone who has reached the highest level available in Somersault Kick.
+14835	An honorable title awarded to someone who has reached the highest level available in Pummel.
+14836	An honorable title awarded to someone who has reached the highest level available in Drop Kick.
+14837	A honorable title given to someone who has reached the highest level of Shockwave.
+14838	An honorable title given to someone who has reached the highest level of Combo: Counter Punch.
+14839	An honorable title given to someone who has reached the highest level of Spider Shot.
+14840	An honorable title given to someone who has reached the highest level of Berserk.
+14841	You've become an expert in Potion Poisoning.
+14842	An honorable title awarded to someone who has reached the highest level of the Meteor Strike skill.
+14843	An honorable title awarded to someone who has reached the highest level of the Spellwalk skill.
+14844	An honorable title awarded to someone who has reached the highest level of the Snap Cast skill.
+14845	An honorable title awarded to someone who has reached the highest level available in Magic Weapon Mastery.
+14846	An honorable title awarded to someone who has reached the highest level available in Lightning Rod.
+14847	An honorable title awarded to someone who has reached the highest level available in Inspiration.
+14848	An honorable title awarded to someone who has reached the highest level available in Urgent Shot.
+14849	An honorable title awarded to someone who has reached the highest level available in Dorcha Mastery.
+14850	An honorable title awarded to someone who has reached the highest level available in Chain Blade Mastery.
+14851	An honorable title awarded to someone who has reached the highest level available in Dorcha Snatch.
+14852	An honorable title awarded to someone who has reached the highest level available in Chain Impale.
+14853	An honorable title awarded to someone who has reached the highest level available in Raging Spike.
+14854	An honorable title awarded to someone who has reached the highest level available in Spinning Slasher.
+14855	An honorable title awarded to someone who has reached the highest level available in Chain Crush.
+14856	An honorable title awarded to someone who has reached the highest level available in Chain Sweep.
+14857	An honorable title awarded to someone who has reached the highest level available in Dorcha Conversion.
+14858	An honorable title awarded to someone who has reached the highest level available in Anchor Rush.
+14859	An honorable title awarded to someone who has reached the highest level available in Death Mark.
+14860	An honorable title awarded to someone who has reached the highest level available in Chain Burst.
+14861	An honorable title awarded to someone who has reached the highest level available in Bachram Explosion.
+14862	An honorable title awarded to one who has reached highest level available in Cooking, becoming a champion in the culinary arts.
+14863	An honorable title awarded to one who has reached the highest level available in Final Strike.
+14864	An honorable title awarded to someone who has reached the highest level available in Stampede.
+14865	An honorable title awarded to one who has reached the highest level available in Fynni Catching.
+14866	An honorable title awarded to one who has reached the highest level available in Fynni Blossoming.
+14867	An honorable title awarded to one who has reached the highest level available in Fynn Crafting.
+14868	An honorable title awarded to one who has reached the highest level available in Fynn Bead Burnishing.
+14869	An honorable title awarded to one who has reached the highest level available in Fynn Sync.
+14870	An honorable title awarded to one who has reached the highest level available in Glyph Design.
+14871	An honorable title awarded to one who has reached the highest level available in Glyph Formulation.
+14872	An honorable title awarded to one who has reached the highest level available in Glyph Evocation.
+14873	An honorable title awarded to one who has reached the highest level available in Stationery Crafting.
+14874	You may not be the real god of wine, but nobody else can tell the difference.
+14875	Reach 100 Training EXP for Defense Rank 1 to receive a title that proves your mastery.
+14876	Reach 100 Training EXP for Smash Rank 1 to receive a title that proves your mastery.
+14877	Reach 100 Training EXP for Counterattack Rank 1 to receive a title that proves your mastery.
+14878	Reach 100 Training EXP for Windmill Rank 1 to receive a title that proves your mastery.
+14879	Reach 100 Training EXP for Arrow Revolver Rank 1 to receive a title that proves your mastery.
+14880	Reach 100 Training EXP for Lightning Bolt Rank 1 to receive a title that proves your mastery.
+14881	Reach 100 Training EXP for Firebolt Rank 1 to receive a title that proves your mastery.
+14882	Reach 100 Training EXP for Icebolt Rank 1 to receive a title that proves your mastery.
+14883	Reach 100 Training EXP for Healing Rank 1 to receive a title that proves your mastery.
+14884	Reach 100 Training EXP for Fireball Rank 1 to receive a title that proves your mastery.
+14885	Reach 100 Training EXP for Thunder Rank 1 to receive a title that proves your mastery.
+14886	Reach 100 Training EXP for Combat Mastery Rank 1 to receive a title that proves your mastery.
+14887	Rainy Reach 100 Training EXP for Ranged Attack Rank 1 to receive a title that proves your mastery.
+14888	Reach 100 Training EXP for Critical Hit Rank 1 to receive a title that proves your mastery.
+14889	Reach 100 Training EXP for Magnum Shot Rank 1 to receive a title that proves your mastery.
+14890	Reach 100 Training EXP for Weaving Rank 1 to receive a title that proves your mastery.
+14891	Reach 100 Training EXP for Refining Rank 1 to receive a title that proves your mastery.
+14892	Reach 100 Training EXP for Herbalism Rank 1 to receive a title that proves your mastery.
+14893	Reach 100 Training EXP for Tailoring Rank 1 to receive a title that proves your mastery.
+14894	Reach 100 Training EXP for Blacksmithing Rank 1 to receive a title that proves your mastery.
+14895	Reach 100 Training EXP for Potion Making Rank 1 to receive a title that proves your mastery.
+14896	Reach 100 Training EXP for Fishing Rank 1 to receive a title that proves your mastery.
+14897	Reach 100 Training EXP for Playing Instrument Rank 1 to receive a title that proves your mastery.
+14898	Reach 100 Training EXP for Enchant Rank 1 to receive a title that proves your mastery.
+14899	Reach 100 Training EXP for Ice Spear Rank 1 to receive a title that proves your mastery.
+14900	Reach 100 Training EXP for Final Hit Rank 1 to receive a title that proves your mastery.
+14901	Reach 100 Training EXP for Mirage Missile 1 to receive a title that proves your mastery.
+14902	Reach 100 Training EXP for Production Mastery Rank 1 to receive a title that proves your mastery.
+14903	Reach 100 Training EXP for Mana Crystallization Rank 1 to receive a title that proves your mastery.
+14904	Reach 100 Training EXP for Water Cannon Rank 1 to receive a title that proves your mastery.
+14905	Reach 100 Training EXP for Summon Golem Rank 1 to receive a title that proves your mastery.
+14906	Reach 100 Training EXP for Barrier Spikes Rank 1 to receive a title that proves your mastery.
+14907	Reach 100 Training EXP for Rain Casting Rank 1 to receive a title that proves your mastery.
+14908	Reach 100 Training EXP for Frozen Blast Rank 1 to receive a title that proves your mastery.
+14909	Reach 100 Training EXP for Flame Burst Rank 1 to receive a title that proves your mastery.
+14910	Reach 100 Training EXP for Stomp Rank 1 to receive a title that proves your mastery.
+14911	Reach 100 Training EXP for Metallurgy Rank 1 to receive a title that proves your mastery.
+14912	Reach 100 Training EXP for Wind Guard Rank 1 to receive a title that proves your mastery.
+14913	Reach 100 Training EXP for Final Shot Rank 1 to receive a title that proves your mastery.
+14914	Reach 100 Training EXP for Metal Conversion Rank 1 to receive a title that proves your mastery.
+14915	Reach 100 Training EXP for Blaze Rank 1 to receive a title that proves your mastery.
+14916	Reach 100 Training EXP for Shock Rank 1 to receive a title that proves your mastery.
+14917	Reach 100 Training EXP for Alchemy Mastery Rank 1 to receive a title that proves your mastery.
+14918	Reach 100 Training EXP for Life Drain Rank 1 to receive a title that proves your mastery.
+14919	Reach 100 Training EXP for Magic Master Rank 1 to receive a title that proves your mastery.
+14920	Reach 100 Training EXP for Party Healing Rank 1 to receive a title that proves your mastery.
+14921	Reach 100 Training EXP for Carpentry Rank 1 to receive a title that proves your mastery.
+14922	Reach 100 Training EXP for Heat Buster Rank 1 to receive a title that proves your mastery.
+14923	Reach 100 Training EXP for Chain Cylinder Rank 1 to receive a title that proves your mastery.
+14924	Reach 100 Training EXP for Throwing Attack Rank 1 to receive a title that proves your mastery.
+14925	Reach 100 Training EXP for Taunt Rank 1 to receive a title that proves your mastery.
+14926	Reach 100 Training EXP for Support Shot Rank 1 to receive a title that proves your mastery.
+14927	Reach 100 Training EXP for Crash Shot Rank 1 to receive a title that proves your mastery.
+14928	Reach 100 Training EXP for Fire Alchemy Damage Rank 1 to receive a title that proves your mastery.
+14929	Reach 100 Training EXP for Water Alchemy Damage Rank 1 to receive a title that proves your mastery.
+14930	Reach 100 Training EXP for Earth Alchemy Damage Rank 1 to receive a title that proves your mastery.
+14931	Reach 100 Training EXP for Wind Alchemy Damage Rank 1 to receive a title that proves your mastery.
+14932	Reach 100 Training EXP for Transmutation Mastery Rank 1 to receive a title that proves your mastery.
+14933	Reach 100 Training EXP for Fire Mastery Rank 1 to receive a title that proves your mastery.
+14934	Reach 100 Training EXP for Ice Mastery Rank 1 to receive a title that proves your mastery.
+14935	Reach 100 Training EXP for Lightning Mastery Rank 1 to receive a title that proves your mastery.
+14936	Reach 100 Training EXP for Bolt Magic Mastery Rank 1 to receive a title that proves your mastery.
+14937	Reach 100 Training EXP for Enthralling Performance Rank 1 to receive a title that proves your mastery.
+14938	Reach 100 Training EXP for Sword Mastery Rank 1 to receive a title that proves your mastery.
+14939	Reach 100 Training EXP for Axe Mastery Rank 1 to receive a title that proves your mastery.
+14940	Reach 100 Training EXP for Blunt Mastery Rank 1 to receive a title that proves your mastery.
+14941	Reach 100 Training EXP for Shield Mastery Rank 1 to receive a title that proves your mastery.
+14942	Reach 100 Training EXP for Heavy Stander Rank 1 to receive a title that proves your mastery.
+14943	Reach 100 Training EXP for Bow Mastery Rank 1 to receive a title that proves your mastery.
+14944	Reach 100 Training EXP for Crossbow Mastery Rank 1 to receive a title that proves your mastery.
+14945	Reach 100 Training EXP for Fusion Bolt Rank 1 to receive a title that proves your mastery.
+14946	Reach 100 Training EXP for Berserker Rank 1 to receive a title that proves your mastery.
+14947	Reach 100 Training EXP for Assault Slash Rank 1 to receive a title that proves your mastery.
+14948	Reach 100 Training EXP for Hail Storm Rank 1 to receive a title that proves your mastery.
+14949	Reach 100 Training EXP for Doppelganger Rank 1 to receive a title that proves your mastery.
+14950	Reach 100 Training EXP for Lance Mastery Rank 1 to receive a title that proves your mastery.
+14951	Reach 100 Training EXP for Lance Counter Rank 1 to receive a title that proves your mastery.
+14952	Reach 100 Training EXP for Lance Charge Rank 1 to receive a title that proves your mastery.
+14953	Reach 100 Training EXP for Charge Rank 1 to receive a title that proves your mastery.
+14954	Reach 100 Training EXP for Ice Shield Rank 1 to receive a title that proves your mastery.
+14955	Reach 100 Training EXP for Fire Shield Rank 1 to receive a title that proves your mastery.
+14956	Reach 100 Training EXP for Lightning Shield Rank 1 to receive a title that proves your mastery.
+14957	Reach 100 Training EXP for Natural Shield Rank 1 to receive a title that proves your mastery.
+14958	Reach 100 Training EXP for Handicraft Rank 1 to receive a title that proves your mastery.
+14959	Reach 100 Training EXP for Tame Wild Animal Rank 1 to receive a title that proves your mastery.
+14960	Reach 100 Training EXP for Sand Burst Rank 1 to receive a title that proves your mastery.
+14961	Reach 100 Training EXP for Wind Blast Rank 1 to receive a title that proves your mastery.
+14962	Reach 100 Training EXP for Synthesis Rank 1 to receive a title that proves your mastery.
+14963	Reach 100 Training EXP for Fragmentation Rank 1 to receive a title that proves your mastery.
+14964	Reach 100 Training EXP for Gold Strike Rank 1 to receive a title that proves your mastery.
+14965	Reach 100 Training EXP for Elemental Wave Rank 1 to receive a title that proves your mastery.
+14966	Reach 100 Training EXP for Golden Time Rank 1 to receive a title that proves your mastery.
+14967	Reach 100 Training EXP for Hydra Transmutation Rank 1 to receive a title that proves your mastery.
+14968	Reach 100 Training EXP for Guard Cylinder Mastery Rank 1 to receive a title that proves your mastery.
+14969	Reach 100 Training EXP for Dual Wield Mastery Rank 1 to receive a title that proves your mastery.
+14970	Reach 100 Training EXP for Rage Impact Rank 1 to receive a title that proves your mastery.
+14971	Reach 100 Training EXP for Bash Rank 1 to receive a title that proves your mastery.
+14972	Reach 100 Training EXP for Battlefield Overture Rank 1 to receive a title that proves your mastery.
+14973	Reach 100 Training EXP for Lullaby Rank 1 to receive a title that proves your mastery.
+14974	Reach 100 Training EXP for Enduring Melody Rank 1 to receive a title that proves your mastery.
+14975	Reach 100 Training EXP for Vivace Rank 1 to receive a title that proves your mastery.
+14976	Reach 100 Training EXP for Harvest Song Rank 1 to receive a title that proves your mastery.
+14977	Reach 100 Training EXP for March Song Rank 1 to receive a title that proves your mastery.
+14978	Reach 100 Training EXP for Dischord Rank 1 to receive a title that proves your mastery.
+14979	Reach 100 Training EXP for Encore Rank 1 to receive a title that proves your mastery.
+14980	Reach 100 Training EXP for Song Rank 1 to receive a title that proves your mastery.
+14981	Reach 100 Training EXP for Fantastic Chorus Rank 1 to receive a title that proves your mastery.
+14982	Reach 100 Training EXP for Tasting Rank 1 to receive a title that proves your mastery.
+14983	Reach 100 Training EXP for Ingredient Hunting Rank 1 to receive a title that proves your mastery.
+14984	Reach 100 Training EXP for Catering Rank 1 to receive a title that proves your mastery.
+14985	Reach 100 Training EXP for Exploration Mastery Rank 1 to receive a title that proves your mastery.
+14986	Reach 100 Training EXP for Artifact Investigation Rank 1 to receive a title that proves your mastery.
+14987	Reach 100 Training EXP for Crisis Escape Rank 1 to receive a title that proves your mastery.
+14988	Reach 100 Training EXP for Dance of Death Rank 1 to receive a title that proves your mastery.
+14989	Reach 100 Training EXP for Sheep Shearing Rank 1 to receive a title that proves your mastery.
+14990	Reach 100 Training EXP for Mining Rank 1 to receive a title that proves your mastery.
+14991	Reach 100 Training EXP for Egg Gathering Rank 1 to receive a title that proves your mastery.
+14992	Reach 100 Training EXP for Mushroom Gathering Rank 1 to receive a title that proves your mastery.
+14993	Reach 100 Training EXP for Milking Rank 1 to receive a title that proves your mastery.
+14994	Reach 100 Training EXP for Harvesting Rank 1 to receive a title that proves your mastery.
+14995	Reach 100 Training EXP for Hoeing Rank 1 to receive a title that proves your mastery.
+14996	Reach 100 Training EXP for Commerce Mastery Rank 1 to receive a title that proves your mastery.
+14997	Reach 100 Training EXP for Transformation Mastery Rank 1 to receive a title that proves your mastery.
+14998	Reach 100 Training EXP for Control Marionette Rank 1 to receive a title that proves your mastery.
+14999	Reach 100 Training EXP for Colossus Marionette Rank 1 to receive a title that proves your mastery.
+15000	Reach 100 Training EXP for Pierrot Marionette Rank 1 to receive a title that proves your mastery.
+15001	Reach 100 Training EXP for Act 2: Threshold Cutter Rank 1 to receive a title that proves your mastery.
+15002	Reach 100 Training EXP for Act 1: Inciting Incident Rank 1 to receive a title that proves your mastery.
+15003	Reach 100 Training EXP for Act 4: Rising Action Rank 1 to receive a title that proves your mastery.
+15004	Reach 100 Training EXP for Act 6: Crisis Rank 1 to receive a title that proves your mastery.
+15005	Reach 100 Training EXP for Act 7: Climactic Crash Rank 1 to receive a title that proves your mastery.
+15006	Reach 100 Training EXP for Act 9: Invigorating Encore Rank 1 to receive a title that proves your mastery.
+15007	Reach 100 Training EXP for Wire Pull Rank 1 to receive a title that proves your mastery.
+15008	Reach 100 Training EXP for Puppet's Snare Rank 1 to receive a title that proves your mastery.
+15009	Reach 100 Training EXP for Dual Gun Mastery Rank 1 to receive a title that proves your mastery.
+15010	Reach 100 Training EXP for Reload Rank 1 to receive a title that proves your mastery.
+15011	Reach 100 Training EXP for Flash Launcher Rank 1 to receive a title that proves your mastery.
+15012	Reach 100 Training EXP for Grapple Shot Rank 1 to receive a title that proves your mastery.
+15013	Reach 100 Training EXP for Bullet Slide Rank 1 to receive a title that proves your mastery.
+15014	Reach 100 Training EXP for Shooting Rush Rank 1 to receive a title that proves your mastery.
+15015	Reach 100 Training EXP for Bullet Storm Rank 1 to receive a title that proves your mastery.
+15016	Reach 100 Training EXP for Way of the Gun Rank 1 to receive a title that proves your mastery.
+15017	Reach 100 Training EXP for Hillwen Engineering Rank 1 to receive a title that proves your mastery.
+15018	Reach 100 Training EXP for Magic Craft Rank 1 to receive a title that proves your mastery.
+15019	Reach 100 Training EXP for Rare Mineralogy Rank 1 to receive a title that proves your mastery.
+15020	Reach 100 Training EXP for Shyllien Ecology Rank 1 to receive a title that proves your mastery.
+15021	Reach 100 Training EXP for Heavy Armor Mastery Rank 1 to receive a title that proves your mastery.
+15022	Reach 100 Training EXP for Light Armor Mastery Rank 1 to receive a title that proves your mastery.
+15023	Reach 100 Training EXP for Shuriken Mastery Rank 1 to receive a title that proves your mastery.
+15024	Reach 100 Training EXP for Shuriken Charge Rank 1 to receive a title that proves your mastery.
+15025	Reach 100 Training EXP for Kunai Storm Rank 1 to receive a title that proves your mastery.
+15026	Reach 100 Training EXP for Shadow Bind Rank 1 to receive a title that proves your mastery.
+15027	Reach 100 Training EXP for Shadow Cloak Rank 1 to receive a title that proves your mastery.
+15028	Reach 100 Training EXP for Explosive Kunai Rank 1 to receive a title that proves your mastery.
+15029	Reach 100 Training EXP for Smokescreen Rank 1 to receive a title that proves your mastery.
+15030	Reach 100 Training EXP for Sakura Abyss Rank 1 to receive a title that proves your mastery.
+15031	Reach 100 Training EXP for Knuckle Mastery Rank 1 to receive a title that proves your mastery.
+15032	Reach 100 Training EXP for Combo Mastery Rank 1 to receive a title that proves your mastery.
+15033	Reach 100 Training EXP for Tumble Rank 1 to receive a title that proves your mastery.
+15034	Reach 100 Training EXP for Respite Rank 1 to receive a title that proves your mastery.
+15035	Reach 100 Training EXP for Charging Strike Rank 1 to receive a title that proves your mastery.
+15036	Reach 100 Training EXP for Focused Fist Rank 1 to receive a title that proves your mastery.
+15037	Reach 100 Training EXP for Spinning Uppercut Rank 1 to receive a title that proves your mastery.
+15038	Reach 100 Training EXP for Somersault Kick Rank 1 to receive a title that proves your mastery.
+15039	Reach 100 Training EXP for Pummel Rank 1 to receive a title that proves your mastery.
+15040	Reach 100 Training EXP for Drop Kick Rank 1 to receive a title that proves your mastery.
+15041	Reach 100 Training EXP for Shockwave Rank 1 to receive a title that proves your mastery.
+15042	Reach 100 Training EXP for Counter Punch Rank 1 to receive a title that proves your mastery.
+15043	Reach 100 Training EXP for Spider Shot Rank 1 to receive a title that proves your mastery.
+15044	Reach 100 Training EXP for Berserk Rank 1 to receive a title that proves your mastery.
+15045	Reach 100 Training EXP for Study: Potion Poison Rank 1 to receive a title that proves your mastery.
+15046	Reach 100 Training EXP for Meteor Strike Rank 1 to receive a title that proves your mastery.
+15047	Reach 100 Training EXP for Spellwalk Rank 1 to receive a title that proves your mastery.
+15048	Reach 100 Training EXP for Snap Cast Rank 1 to receive a title that proves your mastery.
+15049	Reach 100 Training EXP for Magic Weapon Mastery Rank 1 to receive a title that proves your mastery.
+15050	Reach 100 Training EXP for Lightning Rod Rank 1 to receive a title that proves your mastery.
+15051	Reach 100 Training EXP for Inspiration Rank 1 to receive a title that proves your mastery.
+15052	Reach 100 Training EXP for Urgent Shot Shot Rank 1 to receive a title that proves your mastery.
+15053	Reach 100 Training EXP for Dorcha Mastery Rank 1 to receive a title that proves your mastery.
+15054	Reach 100 Training EXP for Chain Blade Mastery Rank 1 to receive a title that proves your mastery.
+15055	Reach 100 Training EXP for Dorcha Snatch Rank 1 to receive a title that proves your mastery.
+15056	Reach 100 Training EXP for Chain Impale Rank 1 to receive a title that proves your mastery
+15057	Reach 100 Training EXP for Raging Spike Rank 1 to receive a title that proves your mastery.
+15058	Reach 100 Training EXP for Spinning Slasher Rank 1 to receive a title that proves your mastery.
+15059	Reach 100 Training EXP for Chain Crush Rank 1 to receive a title that proves your mastery
+15060	Reach 100 Training EXP for Chain Sweep Rank 1 to receive a title that proves your mastery
+15061	Reach 100 Training EXP for Dorcha Conversion Rank 1 to receive a title that proves your mastery.
+15062	Reach 100 Training EXP for Anchor Rush Rank 1 to receive a title that proves your mastery.
+15063	Reach 100 Training EXP for Death Mark Rank 1 to receive a title that proves your mastery.
+15064	Reach 100 Training EXP for Chain Burst Rank 1 to receive a title that proves your mastery
+15065	Reach 100 Training EXP for Bachram Explosion Rank 1 to receive a title that proves your mastery.
+15066	Reach 100 Training EXP for Cooking Rank 1 to receive a title that proves your mastery.
+15067	Reach 100 Training EXP for Final Strike Rank 1 to receive a title that proves your mastery.
+15068	Reach 100 Training EXP for Stampede Rank 1 to receive a title that proves your mastery.
+15069	Reach 100 Training EXP for Fynni Catching Rank 1 to receive a title that proves your mastery.
+15070	Reach 100 Training EXP for Fynni Blossoming Rank 1 to receive a title that proves your mastery.
+15071	Reach 100 Training EXP for Fynn Crafting Rank 1 to receive a title that proves your mastery.
+15072	Reach 100 Training EXP for Fynn Bead Burnishing Rank 1 to receive a title that proves your mastery.
+15073	Reach 100 Training EXP for Fynn Sync Rank 1 to receive a title that proves your mastery.
+15074	Reach 100 Training EXP for Glyph Design Rank 1 to receive a title that proves your mastery.
+15075	Reach 100 Training EXP for Glyph Formulation Rank 1 to receive a title that proves your mastery.
+15076	Reach 100 Training EXP for Glyph Evocation Rank 1 to receive a title that proves your mastery.
+15077	Reach 100 Training EXP for Stationery Crafting Rank 1 to receive a title that proves your mastery.
+15078	Reach 100 Training EXP for Wine Making Rank 1 to receive a title that proves your mastery.
+15079	Defense +5\nMax HP +10\nMax Stamina +10\n[INT - 10]\n[LUK - 10]
+15080	Max Stamina +20\nSTR +20\nLUK +20\n[Protection - 10]\n[DEX - 20]
+15081	Max Stamina +30\nINT +20\nDEX +20\n[Max MP - 30]\n[STR - 20]
+15082	Protection +3\nWill +10\nLUK +10\n[Max HP - 20]\n[STR - 10]
+15083	Max HP +20\nDEX +20\nWill +20\n[DEF - 5]\n[STR - 10]\n[LUK - 10]
+15084	Max MP +30\nSTR +10\nINT +10\n[Max HP - 10]\n[LUK - 10]
+15085	Max MP +30\nINT +10\nDEX +10\n[STR - 10]\n[LUK - 10]
+15086	Max MP +20\nINT +15\nDEX +15\n[STR - 20]
+15087	Max MP +30\nSTR +10\nINT +10\n[Max MP - 20]\n[Will - 10]
+15088	Max MP +50\nINT +20\nWill +20\n[Max Stamina - 10]\n[LUK - 30]
+15089	Max MP +40\nINT +30\nDEX +20\n[Max HP - 20]\n[STR - 20]
+15090	Max HP +20\nMax Stamina +20\nSTR +10\n[INT - 10]\n[LUK - 20]
+15091	Max HP +20\nMax Stamina +30\nDEX +20\n[STR - 20]\n[Will - 20]
+15092	Max HP +30\nMax Stamina +20\nWill +20\n[DEF - 5]\n[Protection - 5]
+15093	Max HP +20\nDEX +20\nLUK +20\n[Protection - 10]\n[STR - 10]\n[Will - 10]
+15094	Max Stamina +20\nSTR +10\nDEX +20\n[Will - 20]\n[LUK - 20]
+15095	Max Stamina +30\nSTR +10\nWill +20\n[DEX - 10]\n[LUK - 20]
+15096	Defense +2\nProtection +2\nSTR +20\n[DEX - 10]\n[LUK - 10]
+15097	DEX +30\nWill +20\n[STR - 20]\n[INT - 20]
+15098	DEX +30\nWill +10\nLUK +10\n[Max HP - 30]\n[Max MP - 30]
+15099	Defense +3\nProtection +3\nMax MP +30\n[STR - 10]\n[LUK - 10]
+15100	INT +10\nDEX +20\nLUK +10\n[Max HP - 20]\n[Max Stamina - 20]
+15101	INT +20\nDEX +10\nWill +20\n[Max MP - 20]\n[Max Stamina - 20]
+15102	Max MP +20\nINT +20\nLUK +10\n[STR - 10]\n[Will - 10]
+15103	Max MP +30\nINT +20\nLUK +20\n[Max HP - 20]\n[Max Stamina - 20]
+15104	Max HP +20\n[Max MP - 30]\nMax Stamina +20\nSTR +15\nDEX +5\nWill +15\n[Protection - 5]
+15105	Max MP +20\nINT +15\nDEX +15\n[STR - 10]\n[Will - 10]
+15106	DEX +20\nLUK +20\n[Max HP - 10]\n[Will - 10]
+15107	Max MP +60\n[Max Stamina - 10]\n[Max HP - 10]
+15108	Max Stamina +40\n[Max MP - 10]\n[Max HP - 10]
+15109	Max HP +50\nDefense +10\n[STR - 30]\n[DEX - 30]\n[INT - 30]
+15110	Protection +12\n[LUK - 20]\n[WILL - 40]
+15111	Max Stamina +30\nLUK +20\n[Max HP - 20]
+15112	Max Stamina +20\nWill +20
+15113	Max Stamina +20\nMax HP +15\nINT +20
+15114	Max Stamina +15\nSTR +40\n[LUK - 30]
+15115	LUK +25\n[Max MP - 10]\n[STR - 20]\nDEX +10
+15116	Max HP +10\n[STR - 20]\n[DEX - 20]\nProtection +5\nDEF +7
+15117	[Max HP +15]\n[STR - 10]\nDEX +30\nWILL +15
+15118	STR +10\nDEX +20\n[WILL - 20]
+15119	STR +20\nINT +20
+15120	Max Damage +15
+15121	Crystal Making Success Rate +3%\nWater/Fire/Wind/Earth Alchemy\nAlchemy Damage +10
+15122	Max HP +50\nMax MP +20
+15123	M. ATT +20\nMax MP +20
+15124	Max Mana +40\nHealing Effect Wounds Healed Up To 10%\nHealing Effect +20%\n[STR - 10]\n[Will - 10]
+15125	STR +30\nQuality of Bows Made +5\n[INT - 15]\n[Will - 15]\n[Max Stamina - 10]
+15126	Max Stamina +20\nWill +20\nDEX +20\nHeat Buster +10%\n[Max Mana - 20]
+15127	Max Stamina +40\nChain Cylinder Cooldown - 1 second\n[Max MP - 20]
+15128	Max HP +20\nMax Stamina +20\nSTR +20\nThrowing Attack Effect +10%\n[DEX - 25]
+15129	Max Stamina +30\nTaunt a stronger enemy\n[DEX - 10]\n[INT - 20]
+15130	DEX +20\nAdditional +30% melee attack damage after Support Shot\n[STR - 20]\n[WILL - 10]
+15131	DEX +10\nMax Stamina +20\nMax MP +20\nFragment Damage +10%\n[STR - 25]
+15132	Max MP +5\nMax Stamina +15\nFire Alchemy Efficiency +10%\n[STR - 10]
+15133	Max Stamina +10\nMax MP +15\nWater Alchemy Efficiency +10%\n[DEX - 10]\n[INT - 10]
+15134	Max HP +15\nEarth Alchemy Efficiency +10%\n[DEX - 15]
+15135	DEX +10\nWill +15\nWind Alchemy Efficiency +10%\n[INT - 10]
+15136	Crystal Production Success Rate +3%
+15137	Max Stamina +15\nMax MP +5\nFire Magic Efficiency +10%\n[STR - 10]
+15138	INT +10\nMax Stamina +10\nMax MP +15\nIce Magic Efficiency +10%\n[STR - 15]
+15139	INT +20\nLightning Magic Efficiency +10%\n[DEX - 15]
+15140	Max MP +15\nBolt Magic Skill Damage +15%
+15141	DEX +12\nMax Stamina +8\nYou can enthrall a more powerful enemy.
+15142	Maximum HP +10\nBalance +10 with a sword equipped\n[Intelligence - 15]
+15143	Max HP +10\nCritical +10% with an Axe equipped\n[Max MP - 15]
+15144	Max HP +10\nMax Damage +10 with a blunt weapon equipped\n[Max MP - 15]
+15145	DEF +10\nProtection +10
+15146	Damage received from melee attacks - 5%\nChance to ignore Stun from melee attacks +5%\n[Max MP - 20]
+15147	When equipped with a bow, Max Damage +10\nMax Stamina +10 \n[STR - 15]
+15148	When equipped with a crossbow, Critical +10%\nMax Stamina +10 \n[STR - 15]
+15149	INT +10\nMax MP +5\nCombined Bolt Magic Damage +5%\n[Max HP - 10]
+15150	STR +10\nWill +10\nBerserker duration +10 seconds\n[Max HP - 20]
+15151	STR +10\nCrashdown Damage +50%\n[INT - 15]
+15152	Luck +15\nINT +20\nMax MP +20
+15153	Max Stamina +30\nMax HP +10\n[Will - 20]\nDoppleganger Damage +15%
+15154	When equipped with a lance, Defense +2\nWhen equipped with a lance, Max Damage +10\n[Max MP - 15]\n[INT - 10]
+15155	Lance Counter Damage +15%\nCritical +5%
+15156	During Lance Charge, attacks enemies at a wider range to the left and right.
+15157	Charge Damage +15%\nDefense +3
+15158	INT +10\nWill +10\nMax MP +10
+15159	INT +20\nMax MP +10
+15160	INT +10\nWill +20
+15161	Will +10\nMax MP +20
+15162	Handicraft Success Rate +2%\nDEX +8
+15163	Taming Success Rate Increased\nDEX +10\nSTR +12
+15164	Blindess Duration +2 Seconds\n Max Stamina +10\nMax HP +10
+15165	Enemy Knock-Back Distance +15%\nMax Stamina +15
+15166	Synthesis Success Rate +2%\nMax Stamina +10 \n[STR - 25]
+15167	Fragmentation Success Rate +2%\nMax Stamina +15
+15168	Luck +25\nMax Stamina +10
+15169	Max HP +30\nMax MP +30\nMax Stamina +30\nObtained Attribute Point +20%
+15170	Critical +3%\nWater / Fire / Wind / Earth Alchemic Damage +10\nGolden Time duration +1 min
+15171	Critical +3%\nEarth Alchemic Damage +10\nHydra Transmutation Duration increased by 20 seconds
+15172	STR +10\nDEX +10\nINT +10\nLUK +10\nWILL +10
+15173	With a weapon in both hands:\nMin Damage +10\nMax Damage +10\nCritical +5%
+15174	MaxHP +30\nMax Stamina +20\nLuck +20\n[Max MP - 20]\n[DEX - 20]
+15175	Max Stamina +20\nStrength +22\nWill +22\n[Protection - 10]\n[Intelligence - 20]
+15176	Battlefield Overture Effect +8
+15177	Lullaby Effect +8
+15178	Enduring Melody Effect +10
+15179	Vivace Effect +10
+15180	Harvest Song Effect +10
+15181	March Song Effect +8
+15182	Dischord Effect +7
+15183	Encore Skill's Cooldown - 30 seconds
+15184	Music Buff Effect +3
+15185	Fantastic Skill Duration +5 seconds
+15186	Obtain additional Royal Cuisine Invoices for clearing Kitchen Dungeons.
+15187	Ingredient drop rate +10% \nLeather drop rate +5%
+15188	Creates a shower of fireworks around your character.
+15189	Increases Treasure Dungeon discovery rate\nIncreases Treasure Dungeon success rate
+15190	1% chance for free appraisal or restoration\nArtifact Investigation cooldown -10 sec
+15191	Stamina cost -5
+15192	Music Buff Skill Effect +4\nLuck +20
+15193	DEX +25\nLuck +20
+15194	STR +25\nMax Stamina +25
+15195	DEX +20
+15196	INT +20\nMax Stamina +15
+15197	Max Stamina +25
+15198	Will +25\nDEX +20
+15199	Will +30\nLuck +15
+15200	Defense +5\nProtection +15\n[STR - 30]\n[DEX - 30]\n[INT - 30]
+15201	This title will earn even Shamala's respect.\nGrants the ability to transform into Shamala.
+15202	Max Stamina +10\nMarionette Max Damage +10
+15203	Max HP +10\nProtection +2\nMarionette Protection +2
+15204	Max Stamina +15\nCritical +2%\nMarionette Critical +2%
+15205	DEX +15\nMarionette Critical +2%\nAct 2: Threshold Cutter Third Hit Damage Multiplier +45%
+15206	DEX +15\nMarionette Protection +1\nAct 1: Inciting Incident Stun Time +0.2 sec
+15207	DEX +15\nMarionette Balance +5\nAct 4: Rising Action Damage Multiplier +30%
+15208	DEX +15\nMarionette Defense +3\nAct 6: Crisis Range +0.5m
+15209	DEX +15\nMarionette Max Damage +5\nAct 7: Climactic Crash Damage Multiplier +55%
+15210	Will +15\nMarionette Max HP +50\nMarionette Magic Defense +5
+15211	Max Stamina +10\nSTR +10\nDEX +8
+15212	STR +8\nDEX +13
+15213	Dual Gun Max Damage +8\nDual Gun Min Damage +4\nMax HP +15
+15214	Dual Gun Max Damage +6\nDual Gun Min Damage +3\nMax Stamina +30
+15215	Flash Launcher Damage +20%
+15216	Grapple Shot Damage +15%\nDefense +10
+15217	Bullet Slide Damage +15%\nMovement Speed +1%
+15218	Shooting Rush Damage +12%\nMax MP +10\nMax Stamina +10
+15219	Bullet Storm Max Damage Multiplier Limit +15%\nMax MP +20\nMax Stamina +20
+15220	Way of the Gun Duration +5 seconds\nDual Gun Max Damage +3\nDual Gun Min Damage +2
+15221	Increases the chance to make a very efficient Engineering item.
+15222	Increases the chance to make a very efficient Magic item.
+15223	Mineral Specimen Gathering Success Rate +5%\ Mineral Bonus Gathering Success Rate +3%
+15224	Plant Specimen Gathering Speed +5%\nPlant Specimen Bonus Gathering Chance +3%
+15225	DEF +10\nProtection +5
+15226	DEF +6\nProtection +2
+15227	Shuriken Max Damage +8\nShuriken Min Damage +4\nMax HP +15
+15228	STR +10\nWILL +10\nShuriken Charge Damage Multiplier +20%
+15229	STR +10\nWILL +10\nKunai Storm Damage Multiplier +15%
+15230	STR +10\nWIL +10\nShadow Bind Duration +5 sec
+15231	STR +10\nWill +10\nShadow Cloak Duration +3 sec\nMovement Speed +1%
+15232	STR +10\nWIL +10\nExplosive Kunai Damage Multiplier +15%\nExplosive Tag Count +1
+15233	STR +10\nWIL +10\nDEF +10
+15234	STR +10\nWILL +10\nSakura Abyss Damage Multiplier per Charge +15%
+15235	Max HP +10\nWhen equipped with knuckles, Max Damage +5
+15236	Max Stamina +10\nWill +30
+15237	Max Stamina +15\nMax MP +10\nProtection +2
+15238	Max HP +20\nMax Stamina +20
+15239	STR +15\nWILL +15\nCharging Strike Damage +30%
+15240	STR +15\nWILL +15\nFocused Fist Damage +30%
+15241	STR +15\nWILL +15\nSpinning Uppercut Damage +20%
+15242	STR +15\nWILL +15\nSomersault Kick Damage +20%
+15243	STR +15\nWILL +15\nPummel Damage +10%
+15244	STR +15\nWILL +15\nDrop Kick Damage +10%
+15245	Max HP +20\nMax MP +20\nINT +15\n[STR - 15]\n[DEX - 10]
+15246	Stamina +30\nSTR +20\nWill +20
+15247	DEX +15\nCritical +10%\n[Luck - 10]
+15248	STR +25\nCritical +10%\n[Max HP - 50]\n[Luck - 20]
+15249	Max HP +20\nMax MP +20\nMax Stamina +20
+15250	Magic ATT +50
+15251	When you use magic while the Spellwalk skill is in effect,\nyou won't receive any penalty that increases your MP usage.
+15252	When you cast an attack magic,\nSnap Cast's cooldown is slightly shortened.
+15253	Max Damage +8\nMagic Attack +25\ n[DEX - 30]
+15254	Max MP +80\nINT +30
+15255	Max MP +35\nINT +10\n[Max HP - 10]
+15256	DEX +20\nAiming speed of ranged attacks +30% after an Urgent Shot.\n[STR - 20]\n[Will - 10]
+15257	DEX +5\nLuck +10\nDorcha Skill Damage +1%
+15258	When equipped with a Chain Blade\nMax Damage +10\nMin Damage +10
+15259	DEX +5\nLuck +10\nDorcha Snatch yield +10%
+15260	DEX +5\nLuck +10\nChain Impale Damage +20%
+15261	DEX +5\nLuck +10\nRaging Spike Damage +20%
+15262	DEX +5\nLuck +10\nSpinning Slasher Damage +20%
+15263	DEX +5\nLuck +10\nChain Crush Damage +20%
+15264	DEX +5\nLuck +10\nChain Sweep Damage +20%
+15265	DEX +5\nLuck +10\nDorcha Conversion yield +2
+15266	DEX +5\nLuck +10\nAnchor Rush Max Range +2m
+15267	DEX +5\nLuck +10\nDeath Mark lasts 3 more sec
+15268	DEX +5\nLuck +10\nChain Burst lasts +4 sec
+15269	DEX +10\nLuck +20\nBachram Explosion Damage +20%
+15270	DEX +20\nBonus Cooking Quality +2
+15271	Max HP +30\n[Max MP - 40]\nStrength +20\n[Intelligence - 5]\n[Protection - 5]
+15272	Max Stamina +30\nStampede Damage +15%
+15273	Will +10\nLuck +5
+15274	Will +12\nLuck +7
+15275	Will +12\nLuck +7
+15276	Will +15\nLuck +10
+15277	Will +15\nLuck +10
+15278	INT +15\nDEX +10
+15279	INT +12\nDEX +7
+15280	INT +15\nDEX +10
+15281	INT +10\nDEX +5
+15282	INT +20\nProtection +5
 15283	Shining Bright
 15284	Shining Bright
 15285	Shining Bright
@@ -12342,6 +13770,13 @@
 15287	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 15288	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 15289	Gathering Success Rate +5%\nGathering Speed +5%\nAutomatic Fishing Success Rate Increased\nBonus Ducats +5%\nMovement Speed +5%
+15290	Journey of Growth
+15291	Journey of Growth
+15292	Journey of Growth
+15293	Journey of Growth
+15294	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15295	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15296	
 15297	Ascension
 15298	Ascension
 15299	Ascension
@@ -12426,6 +13861,27 @@
 15420	행운 30 증가
 15421	행운 30 증가
 15422	행운 30 증가
+15423	블루젠 코스메틱 라이트
+15424	블루젠 코스메틱 포레스트
+15425	블루젠 코스메틱 오션
+15426	블루젠 코스메틱 라이트
+15427	블루젠 코스메틱 포레스트
+15428	블루젠 코스메틱 오션
+15429	블루젠 코스메틱 라이트
+15430	블루젠 코스메틱 포레스트
+15431	블루젠 코스메틱 오션
+15432	블루젠 코스메틱 라이트
+15433	블루젠 코스메틱 포레스트
+15434	블루젠 코스메틱 오션
+15435	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15436	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15437	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15438	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15439	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15440	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15441	행운 30 증가
+15442	행운 30 증가
+15443	행운 30 증가
 15472	17주년 마비노기 오프라인 파티
 15473	17주년 마비노기 오프라인 파티
 15474	17주년 마비노기 오프라인 파티
@@ -12440,3 +13896,45 @@
 15483	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 15484	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 15485	행운 30 증가
+15486	the B-Class Adventurer
+15487	the A-Class Adventurer
+15488	the S-Class Adventurer
+15489	the B-Class Adventurer
+15490	the A-Class Adventurer
+15491	the S-Class Adventurer
+15492	the B-Class Adventurer
+15493	the A-Class Adventurer
+15494	the S-Class Adventurer
+15495	the B-Class Adventurer
+15496	the A-Class Adventurer
+15497	the S-Class Adventurer
+15498	A title with the power to prove one's status as an adventurer of Erinn. After a certain amount of time, it loses its power and disappears.
+15499	A title with the power to prove one's status as a seasoned adventurer of Erinn. After a certain amount of time, it loses its power and disappears.
+15500	A title with the power to prove one's status as a veteran adventurer of Erinn. After a certain amount of time, it loses its power and disappears.
+15501	A title with the power to prove one's status as an adventurer of Erinn. After a certain amount of time, it loses its power and disappears.
+15502	A title with the power to prove one's status as a seasoned adventurer of Erinn. After a certain amount of time, it loses its power and disappears.
+15503	A title with the power to prove one's status as a veteran adventurer of Erinn. After a certain amount of time, it loses its power and disappears.
+15504	Max Damage +13\nMagic Attack +18\nCritical +12%\nStrength +10\nIntelligence +10\nDexterity +10\nWill +10\nLuck +10\nMax HP +50\nMax Stamina +50\nMax MP +50\nDefense +10\nProtection +5\nMagic Defense +20\nMagic Protection +8
+15505	Max Damage +17\nMagic Attack +25\nCritical +15%\nCritical Damage +2%\nStrength +15\nIntelligence +15\nDexterity +15\nWill +15\nLuck +15\nMax HP +70\nMax Stamina +70\nMax MP +70\nDefense +15\nProtection +8\nMagic Defense +30\nMagic Protection +12
+15506	Max Damage +23\nMagic Attack +35\nCritical +18%\nCritical Damage +4%\nBonus Damage +1%\nStrength +25\nIntelligence +25\nDexterity +25\nWill +25\nLuck +25\nMax HP +100\nMax Stamina +100\nMax MP +100\nDefense +20\nProtection +12\nMagic Defense +45\nMagic Protection +17
+15521	스위트 데이
+15522	악마의 속삭임
+15523	스위트 데이
+15524	악마의 속삭임
+15525	스위트 데이
+15526	악마의 속삭임
+15527	스위트 데이
+15528	악마의 속삭임
+15529	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15530	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15531	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15532	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15533	행운 30 증가
+15534	행운 30 증가
+15563	내일의 희망
+15564	내일의 희망
+15565	내일의 희망
+15566	내일의 희망
+15567	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15568	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15569	행운 30 증가

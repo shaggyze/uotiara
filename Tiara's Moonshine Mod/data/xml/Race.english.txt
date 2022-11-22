@@ -8568,11 +8568,11 @@
 10759	Banshee
 10760	Balrog
 10761	Spirit of Tuan
-10762	핀키 인형
-10763	카텔 인형
-10764	에탄 인형
-10765	엔야 인형
-10766	멜윈 인형
+10762	Pinkie Doll
+10763	Katell Doll
+10764	Etain Doll
+10765	Enya Doll
+10766	Melwyn Doll
 10768	Ogre Warrior
 10769	Ogre Warrior
 10770	Ogre Warrior
@@ -9219,8 +9219,8 @@
 11447	Master Merchants' Guild Bandit Boss
 11448	Master Merchants' Guild Bandit Boss
 11449	[Event] Caravan Joe's Caravan
-11450	임프 푼
-11451	임프 쿤
+11450	Dizzy the Imp
+11451	Fizzy the Imp
 11452	[Event] Commerce Joe's Caravan
 11453	[Event] Escaped Joe's Caravan
 11454	Shooting Star
@@ -9309,11 +9309,12 @@
 11564	Fairy Dragon
 11565	Fairy Dragon
 11566	Scooter Imp (90 Days)
-11596	아로마 베어 (거미)
-11597	똑똑해질꺼양
-11600	아기 토끼 인형
-11601	아기 사막여우 인형
-11602	아기 곰돌이 인형
+11596	Scented Bear (Spider)
+11597	Brainy Sheep
+11600	Baby Bunny Doll
+11601	Fennec Fox Kit Doll
+11602	Bear Cub Doll
+11611	Ceraunus (Event)
 11613	Fairy Dragon
 11620	도움이 필요한 고냥이
 11622	Succubus Fiend
@@ -9335,3 +9336,19 @@
 11644	Mutant Man-eating Plant
 11655	레트로 조
 11657	다루의 스쿠터 (이벤트)
+11660	Ceraunus (Event)
+11672	Yggdrasil Wisp
+11673	Sylvan Dragon
+11674	Hasidim
+11679	푸르메 스투디
+11680	푸르메 몬디
+11681	푸르메 웬디
+11682	푸르메 위크
+11685	푸르메 재단 방울토마토 온실하우스
+11686	푸르메 재단 표고버섯 온실하우스
+11687	푸르메 재단 관리인
+11688	푸르메 재단 까페 직원
+11689	푸르메 재단 무이숲 까페
+11690	푸르메 재단 방울토마토 온실하우스
+11691	푸르메 재단 표고버섯 온실하우스
+11692	Ceraunus (90 Days)

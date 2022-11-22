@@ -66,8 +66,8 @@
 65	[Challenge]
 66	[Pet Training]
 68	Season Pass
-69	리플레이
-70	[리플레이]
+69	Replay
+70	[Replay]
 71	[Glyphwrighting]
 72	Society Sponsorship
 73	[Brave Boost]

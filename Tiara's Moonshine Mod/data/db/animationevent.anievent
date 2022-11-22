@@ -2666,6 +2666,28 @@ set("C4_human")
 
 
 	folder("char\chapter4\human\anim")
+	"male_happytime_sit"
+		0:lookat(off)		
+		0:hand(both, palm)	
+				
+				
+
+		
+	"female_happytime_sit"
+		0:lookat(off)		
+		0:hand(both, palm)		
+		
+
+	"male_happytime_sit02"
+		0:lookat(off)		
+		0:hand(both, palm)		
+			
+
+	"male_happytime_sit03"
+		0:lookat(off)		
+		0:hand(both, palm)		
+		
+
 	
 	"human_lie_prone_prepare"
 		0:lookat(off)		
@@ -13392,6 +13414,19 @@ set("C4_giant")
 
 	folder("char\chapter4\giant\anim")
 	
+		"giant_happytime_sit"
+			0:lookat(off)		
+			0:hand(both, palm)	
+					
+		
+		
+		
+		"giant_female_happytime_sit"
+			0:lookat(off)		
+			0:hand(both, palm)			
+						
+			
+	
 		"giant_lie_prone_prepare"
 			0:lookat(off)		
 			0:hand(both, palm)		
@@ -14887,29 +14922,35 @@ set("C4_giant")
 			
 			
 		"giant_club01_sit"
+			 0:hideequip(false)		
 			 0:lookat(off)
 			 0:hand(both,palm)
 		 		 
 		 
 		"giant_club02_sit"
+			 0:hideequip(false)		
 			 0:lookat(off)
 			 0:hand(both,palm)
 
 
 		"giant_club03_sit"
+			 0:hideequip(false)		
 			 0:lookat(off)
 			 0:hand(both,palm)
 
 		"giant_club04_sit"
+			 0:hideequip(false)		
 			 0:lookat(off)
 			 0:hand(both,palm)
 
 		"giant_club05_sit"
+			 0:hideequip(false)		
 			 0:hand(left,palm)
 			 0:hand(right,fist)
 			 0:generic("custom_equip(weapon:giant_tool_clubbottle_ani)")
 
 		"giant_club06_sit"
+			 0:hideequip(false)		
 			 0:lookat(off)
 			 0:hand(left,palm)
 			 0:hand(right,fist)
@@ -14919,29 +14960,35 @@ set("C4_giant")
 			 
 			 
 		"giant_female_club01_sit"
+			 0:hideequip(false)		
 			 0:lookat(off)
 			 0:hand(both,palm)
 		 		 
 		 
 		"giant_female_club02_sit"
+			 0:hideequip(false)		
 			 0:lookat(off)
 			 0:hand(both,palm)
 
 
 		"giant_female_club03_sit"
+			 0:hideequip(false)		
 			 0:lookat(off)
 			 0:hand(both,palm)
 
 		"giant_female_club04_sit"
+			 0:hideequip(false)		
 			 0:lookat(off)
 			 0:hand(both,palm)
 
 		"giant_female_club05_sit"
+			 0:hideequip(false)		
 			 0:hand(left,palm)
 			 0:hand(right,fist)
 			 0:generic("custom_equip(weapon:giant_tool_clubbottle_ani)")
 
 		"giant_female_club06_sit"
+			 0:hideequip(false)		
 			 0:lookat(off)
 			 0:hand(left,palm)
 			 0:hand(right,fist)
@@ -22742,6 +22789,11 @@ set("throw")
 
 	folder("char\human\anim")
 	
+	"uni_natural_gathering_water_fromstream_for_cutscene02"
+		0:hand(both, palm)		
+		105:jump(75,true)
+
+	
 	// 줍기
 	"uni_natural_throw_pick"
 		0:lookat(off)
@@ -23505,30 +23557,36 @@ set("C4_human")
         folder("char\chapter4\human\anim")
 		
 		"human_club01_sit"
+			 0:hideequip(false)
 			 0:lookat(off)
 			 0:hand(both,palm)
 			 0:generic("custom_mesh(0:tool_clubbox_ani)")
 		 		 
 		 
 		"human_club02_sit"
+			 0:hideequip(false)		
 			 0:lookat(off)
 			 0:hand(both,palm)
 			 0:generic("custom_mesh(0:tool_clubbox_ani)")
 
 		"human_club03_sit"
+			 0:hideequip(false)		
 			 0:lookat(off)
 			 0:hand(both,palm)
 
 		"human_club04_sit"
+			 0:hideequip(false)		
 			 0:lookat(off)
 			 0:hand(both,palm)
 
 		"human_club05_sit"
+			 0:hideequip(false)		
 			 0:hand(left,palm)
 			 0:hand(right,fist)
 			 0:generic("custom_equip(weapon:tool_clubbottle_ani)")
 
 		"human_club06_sit"
+			 0:hideequip(false)		
 			 0:lookat(off)
 			 0:hand(left,palm)
 			 0:hand(right,fist)
@@ -27419,6 +27477,52 @@ set("social motion")
 	
 	folder("char\chapter4\human\anim\social_motion")
 	
+	"female_tranceformanimal"
+	0:lookat(off)
+    0:hand(both, fist)
+	523:hand(both, palm)
+	696:hand(both, fist)
+	
+	
+	"male_tranceformanimal"
+	0:lookat(off)
+    0:hand(both, fist)
+	523:hand(both, palm)
+	696:hand(both, fist)
+	
+	"male_2022winter"
+	0:lookat(off)
+    0:hand(both, palm)
+	306:hand(both, fist)
+	365:hand(left, palm)
+	367:hand(right, palm)
+	
+	"female_2022winter"
+	0:lookat(off)
+    0:hand(both, palm)
+	306:hand(both, fist)
+	365:hand(left, palm)
+	367:hand(right, palm)
+	
+	
+
+		"female_pls"
+			0:lookat(off)
+			0:hand(both, palm)	
+			
+		"female_slvl"
+			0:lookat(off)
+			0:hand(both, palm)	
+			
+		"male_bsnio"
+			0:lookat(off)
+			0:hand(both, palm)	
+
+		
+		"male_lxst"	
+			0:lookat(off)
+			0:hand(both, palm)		
+	
 		"male_bleuzenn"
 			0:lookat(off)
 			0:hand(both, palm)
@@ -28682,12 +28786,13 @@ set("social motion")
 			0:lookat(off)	
 			0:hideequip(false)	
 			0:hand(both, palm)
-			291:jump(64)		
+			939:jump(647)		
 
 		"human_natural_gesture_s12_03"
 			0:lookat(off)	
 			0:hideequip(false)	
 			0:hand(both, palm)
+			150:jump(90)				
 
 		"male_natural_gesture_s12_04"
 			0:lookat(off)	
@@ -32771,6 +32876,28 @@ set("social motion")
 		111:generic("custom_mesh(weapon:tool_darknessmoon)")
 		768:jump(408)		
 
+	"female_whiteoftheknights"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)
+		59:hand(right, fist)
+		59:generic("custom_equip(weapon:tool_whiteoftheknights)")
+		90:hand(left, fist)
+		137:hand(right, palm)
+		142:hand(left, palm)
+		655:jump(326)	
+		
+	"male_whiteoftheknights"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)
+		59:hand(right, fist)
+		59:generic("custom_equip(weapon:tool_whiteoftheknights)")
+		90:hand(left, fist)
+		137:hand(right, palm)
+		142:hand(left, palm)
+		655:jump(326)	
+		
 	"female_2022halloween"
 		0:hideequip(true)
 		0:lookat(off)
@@ -35454,6 +35581,10 @@ set("monster_wolf01")
 		"wolf01_natural_lovely_sit_01_to_stand"
 			0:lookat(off)
 			
+		"wolf01_natural_BitingOfDeath"
+			0:lookat(off)
+			226:jump(30)
+			
 	endfolder
 
 endset
@@ -37095,10 +37226,8 @@ set("effect")
 	folder("char\effect")
 
 		"owl"
-			1:sound("data\sound\got_a_quest.wav")
 			50:generic("quest_reward")
 		"owl_02"
-			1:sound("data\sound\got_a_quest.wav")
 			50:generic("quest_reward")
 
 	endfolder
@@ -51023,6 +51152,12 @@ endset
 set("beholder")
 
 	folder("char\chapter3\monster\anim\beholder")
+	
+	"snowball01_stand_friendly"
+	72:changealpha(0,10,0)
+
+
+	
 
 		"beholder01_hita"
 			5:vibrate(17)
@@ -57201,6 +57336,16 @@ set("prop concerned - temporary")
 
 	// setting file 안의 animation을 정의할 때는 folder를 "::세팅파일 이름" 으로 지정해야 한다.
 	
+	folder("::scene_prop_happytime_chair01")	
+	
+	"scene_prop_happytime_chair01"				
+		0:linkframework(1, "race:240017", "riding4", "data/gfx/char/pet/anim/bird/pet_owl_natural_overhead_stand_friendly")
+		0:linkframework(2, "race:194002", "riding3", "data/gfx/char/chapter4/human/anim/male_happytime_sit02")
+		0:linkframework(3, "race:194009", "riding2", "data/gfx/char/chapter4/human/anim/male_happytime_sit03")	
+		
+
+	endfolder			
+	
 	folder("::scene_prop_judgebag01")	
 		"scene_prop_judgebag01"			
 		634:jump(253)		
@@ -61460,9 +61605,47 @@ set("Knight")
 
 	folder("char\chapter4\human\anim\tool\rhand_A")
 	
-	"male_rabbitdoll01_stand"
+	"female_catdoll01_stand"
 		0:hand(BOTH,palm)
-
+		0:lookat(off)
+		
+	"female_puppydoll01_stand"
+		0:hand(BOTH,palm)
+		0:lookat(off)
+		
+	"female_rabbitdoll01_stand"
+		0:hand(BOTH,palm)
+		0:lookat(off)
+		
+	"human_catdoll01_run"
+		0:hand(BOTH,palm)
+		
+	"human_catdoll01_walk"
+		0:hand(BOTH,palm)
+		
+	"human_puppydoll01_run"
+		0:hand(BOTH,palm)
+		
+	"human_puppydoll01_walk"
+		0:hand(BOTH,palm)
+		
+	"human_rabbitdoll01_run"
+		0:hand(BOTH,palm)
+		
+	"human_rabbitdoll01_walk"
+		0:hand(BOTH,palm)
+		
+	"male_catdoll01_stand"
+		0:hand(BOTH,palm)	
+		0:lookat(off)
+		
+	"male_puppydoll01_stand"
+		0:hand(BOTH,palm)
+		0:lookat(off)
+		
+	"male_rabbitdoll01_stand"	
+		0:hand(BOTH,palm)
+		0:lookat(off)
 	
 	"male_teapot_stand"
 		0:lookat(off)
@@ -63084,6 +63267,29 @@ set("Knight")
 ///////////////////////////////////일도 양단 -자이언트-//////////////////////////////////////
 
 	folder("char\chapter4\giant\anim\tool\Hand_A01")	
+	
+		"giant_catdoll01_run"
+			0:hand(both, palm)
+			
+		"giant_catdoll01_stand"
+			0:lookat(off)
+			0:hand(both, palm)
+			
+		"giant_catdoll01_walk"
+			0:hand(both, palm)
+			
+		"giant_female_puppydoll01_run"
+			0:hand(both, palm)
+			
+		"giant_puppydoll01_run"
+			0:hand(both, palm)
+			
+		"giant_puppydoll01_stand"
+			0:lookat(off)
+			0:hand(both, palm)
+			
+		"giant_puppydoll01_walk"
+			0:hand(both, palm)
 	
 		"giant_movingdoll01_stand"
 			0:lookat(off)
@@ -67678,12 +67884,12 @@ set("magician")
 			0:lookat(off)
 			0:hand(both, fist)
 			11:effect("gunner_shot_short01_L")
-			6:sound("data\sound\gun\shot_0.wav ")
+			6:sound("data\sound\gun\shot_0.wav")
 
 		"human_dualgun_closer_attacK_move"
 			0:lookat(off)
 			0:hand(both, fist)
-			0:sound("data\sound\wand_swing_10.wav ")
+			0:sound("data\sound\wand_swing_10.wav")
 			19:effect("gunner_faraway_drag_1")
 			99:effectoff("gunner_faraway_drag_1")			
 
@@ -68569,12 +68775,12 @@ set("magician")
 		"male_marionette_b_operation"
 			0:hand(both, palm)
 			0:lookat(off)
-			14:sound("data\sound\connect.wav ")
+			14:sound("data\sound\connect.wav")
 
 		"male_marionette_b_separation"
 			0:hand(both, palm)
 			0:lookat(off)
-			14:sound("data\sound\disconnect.wav ")
+			14:sound("data\sound\disconnect.wav")
 
 
 		"male_marionette_b_hita"
@@ -71213,7 +71419,25 @@ set("magician")
 	
 		
 	folder("char\chapter4\elf\anim\tool\hand_a01")	
+	
+		"elf_catdoll01_run"
+			0:hand(both, palm)		
 
+		"elf_catdoll01_walk"
+			0:hand(both, palm)
+			
+		"elf_puppydoll01_run"
+			0:hand(both, palm)
+			
+		"elf_puppydoll01_walk"
+			0:hand(both, palm)
+			
+		"elf_rabbitdoll01_run"
+			0:hand(both, palm)
+			
+		"elf_rabbitdoll01_walk"
+			0:hand(both, palm)		
+		
 		"elf_hoverboard_walk"
 			0:lookat(off)
 			0:hand(both, palm)
@@ -86401,6 +86625,61 @@ set("social motion")
 	
 	folder("char\chapter4\giant\anim\social_motion")
 	
+	"giant_female_arin"
+	0:lookat(off)
+    0:hand(both, palm)
+	
+	
+	"giant_tranceformanimal"
+	0:lookat(off)
+    0:hand(both, fist)
+	523:hand(both, palm)
+	696:hand(both, fist)
+	
+	
+	"giant_2022winter"
+	0:lookat(off)
+    0:hand(both, palm)
+	300:hand(both, fist)
+	365:hand(left, palm)
+	367:hand(right, palm)
+	
+	
+	"giant_female_2022winter"
+	0:lookat(off)
+    0:hand(both, palm)
+	300:hand(both, fist)
+	365:hand(left, palm)
+	367:hand(right, palm)
+		
+	
+	
+	"giant_female_tranceformanimal"
+	0:lookat(off)
+    0:hand(both, fist)
+	523:hand(both, palm)
+	696:hand(both, fist)
+	
+	
+	
+		"giant_female_pls"
+			0:lookat(off)
+			0:hand(both, palm)	
+			
+		"giant_female_slvl"
+			0:lookat(off)
+			0:hand(both, palm)	
+			
+		"giant_bsnio"
+			0:lookat(off)
+			0:hand(both, palm)	
+
+		
+		"giant_lxst"	
+			0:lookat(off)
+			0:hand(both, palm)		
+	
+	
 		"giant_bleuzenn"
 			0:lookat(off)
 			0:hand(both, palm)
@@ -87952,7 +88231,7 @@ set("social motion")
 				0:lookat(off)	
 				0:hideequip(false)	
 				0:hand(both,palm)
-				291:jump(64)	
+				937:jump(64)	
 
 		"giant_natural_gesture_s12_03"
 				0:lookat(off)	
@@ -87991,7 +88270,7 @@ set("social motion")
 				0:lookat(off)	
 				0:hideequip(false)	
 				0:hand(both,palm)
-				291:jump(64)	
+				937:jump(64)	
 
 		"giant_female_natural_gesture_s12_03"
 				0:lookat(off)	
@@ -92691,6 +92970,27 @@ set("social motion")
 		111:generic("custom_mesh(weapon:giant_tool_darknessmoon)")
 		1128:jump(408)
 
+    "giant_female_whiteoftheknights"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)
+		59:hand(right, fist)
+		59:generic("custom_equip(weapon:giant_tool_whiteoftheknights)")
+		90:hand(left, fist)
+		137:hand(right, palm)
+		142:hand(left, palm)
+		655:jump(326)	
+		
+     "giant_whiteoftheknights"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)
+		59:hand(right, fist)
+		59:generic("custom_equip(weapon:giant_tool_whiteoftheknights)")
+		90:hand(left, fist)
+		137:hand(right, palm)
+		142:hand(left, palm)
+		655:jump(326)
 
 	"giant_female_2022halloween"
 		0:hideequip(true)
@@ -101333,6 +101633,19 @@ set("cutscene")
 	endfolder
 	
 	folder("char\chapter4\human\anim\cutscene7")	
+	
+	"human_cutscene_oldtree_sit"
+		
+		0:hand(both, palm)
+		0:hideequip(false)	
+		564:jump(20)
+		
+	
+	"human_cutscene_oldtree_sit02"
+		
+		0:hand(both, palm)
+		0:hideequip(false)	
+		380:jump(20)		
 
 
 	"cutscene_human_magic_process"
@@ -101428,7 +101741,9 @@ set("cutscene")
 			144:sound("data\sound\shapeshift_dairy_success.wav")			
 			204:sound("data\sound\shapeshift_dairy_success.wav")				
 
-			
+		"human_reach_for_hand1"
+				0:hand(both, palm)
+				0:lookat(off)				
 		
 		"cutscene_human_changesword04"
 			0:lookat(off)
@@ -106458,6 +106773,31 @@ set("C4_monster")
 ////////////////////////////////////// C4 - 오거  //////////////////////////////////////////
 
 	folder("char\chapter4\monster\anim\ogre")
+	
+	
+	"ogre_rabbit_RabbitRoar"
+	0:lookat(off)
+	0:hand(both, palm)
+	6:hand(both, fist)
+	102:hand(both, palm)
+	32:linkframework(1, "race:900006", "HandtoolR", "data/gfx/char/chapter3\monster\anim\beholder/snowball01_stand_friendly").
+	72:linkframework(1)
+	
+	"ogre_rabbit_SnowballThrowing"
+	0:lookat(off)
+    0:hand(both, fist)
+	
+	"ogre_rabbit_RollingAttack"
+	0:lookat(off)
+    0:hand(both, fist)
+	
+	"ogre_rabbit_SleepingRabbit"
+	0:lookat(off)
+    0:hand(both, fist)
+	185:jump (117, true)
+	
+	
+	
 		
 		"ogre_hand_a11_attack_01"
 			0:lookat(off)
@@ -106746,7 +107086,7 @@ set("C4_monster")
 			0:effect("Catastrophe_A_body")
 			0:lookat(off)
 			0:hand(both,fist)
-			0:sound("data\sound\pierrot_catastrophe_rush.wav ")
+			0:sound("data\sound\pierrot_catastrophe_rush.wav")
 
 		"marionette_a_downb"
 			0:lookat(off)
@@ -106856,7 +107196,7 @@ set("C4_monster")
 			0:effect("Catastrophe_A_body")
 			0:lookat(off)
 			0:hand(both,fist)
-			0:sound("data\sound\pierrot_catastrophe_rush.wav ")
+			0:sound("data\sound\pierrot_catastrophe_rush.wav")
 
 		"marionette_a_4step_catastrophe_end"
 			0:effectoff("Catastrophe_A_hand")

@@ -910,7 +910,7 @@ pli_changehumanpetpurchaselistview.11	Required Coupon
 pli_changehumanpetpurchaselistview.12	Available Coupon: {0}
 pli_changehumanpetpurchaselistview.13	Eye Color (Right)
 pli_changehumanpetpurchaselistview.14	Eye Color (Left)
-pli_changehumanpetpurchaselistview.15	외형 변경에 사용할 쿠폰을 선택하세요.
+pli_changehumanpetpurchaselistview.15	Choose a Beauty Coupon to use.
 pli_channelmoveview.1	Moving to another channel will incur the same penalties as re-logging in.\n\n- Cancels current Part-time job.         \n- Teleports you from within a dungeon to the dungeon lobby.     \n- Expels you from your party.                    \n- Applies logout penalty.             \n- Costs you some of your Trade Goods if in the middle of an Ambush.\n\nYou may be returned to the log-in screen if you try to move to a channel that cannot be entered.
 pli_channelmoveview.2	Normal
 pli_channelmoveview.3	Busy
@@ -956,17 +956,17 @@ pli_characteradditionalframe.30	You can Rebirth one day after your character was
 pli_characteradditionalframe.31	You cannot rebirth while using the Dressing Room.
 pli_characteradditionalframe.32	Rebirth
 pli_characteradditionalframe.33	You cannot rebirth while engaged in a pursuit.
-pli_characteradditionalframe.34	없음
-pli_characteradditionalframe.35	1단계
-pli_characteradditionalframe.36	2단계
-pli_characteradditionalframe.37	3단계
-pli_characteradditionalframe.38	4단계
-pli_characteradditionalframe.39	블로니의 축복 : 
-pli_characteradditionalframe.40	[블로니의 축복]\n\n블로니의 축복이 적용중이지 않습니다.\n추억담을 진행하면 블로니의 축복을 얻을 수 있습니다.
-pli_characteradditionalframe.41	[블로니의 축복] 1단계\n\n순간이동 책 1단계\n이동속도 2% 증가\n모든 스탯 +1\n환생 시 AP 1 추가 획득\n축복 이펙트 1단계
-pli_characteradditionalframe.42	[블로니의 축복] 2단계\n\n순간이동 책 2단계\n이동속도 4% 증가\n모든 스탯 +2\n환생 시 AP 2 추가 획득\n축복 이펙트 2단계
-pli_characteradditionalframe.43	[블로니의 축복] 3단계\n\n순간이동 책 3단계\n이동속도 6% 증가\n모든 스탯 +3\n환생 시 AP 3 추가 획득\n축복 이펙트 3단계
-pli_characteradditionalframe.44	[블로니의 축복] 4단계\n\n순간이동 책 4단계\n이동속도 8% 증가\n모든 스탯 +4\n환생 시 AP 4 추가 획득\n축복 이펙트 4단계
+pli_characteradditionalframe.34	None
+pli_characteradditionalframe.35	Stage 1
+pli_characteradditionalframe.36	Stage 2
+pli_characteradditionalframe.37	Stage 3
+pli_characteradditionalframe.38	Stage 4
+pli_characteradditionalframe.39	Blaanid's Blessing: 
+pli_characteradditionalframe.40	Blaanid's Blessing\n\nBlaanid's Blessing is not in effect.\nContinue working on the Memoir to earn Blaanid's Blessing.
+pli_characteradditionalframe.41	Blaanid's Blessing Stage 1\n\nRecall Book Stage 1\n Movement Speed +2%\nAll Stats +1\nAcquire additional 1 AP at rebirth\nBlessing Effect Stage 1
+pli_characteradditionalframe.42	[Blaanid's Blessing] Stage 2\n\nRecall Book Stage 2\nMovement Speed +4%\nAll Stats +2\nAcquire additional 2 AP at rebirth\nBlessing Effect Stage 2
+pli_characteradditionalframe.43	[Blaanid's Blessing] Stage 3\n\nRecall Book Stage 3\nMovement Speed +6%\nAll Stats +3\nAcquire additional 3 AP at rebirth\nBlessing Effect Stage 3
+pli_characteradditionalframe.44	[Blaanid's Blessing] Stage 4\n\nRecall Book Stage 4\nMovement Speed +8%\nAll Stats +4\nAcquire additional 4 AP at rebirth\nBlessing Effect Stage 4
 pli_charactercombocardframe.1	The selected {0} Combo Card(s) will be permanently removed.\nWould you like to proceed?
 pli_charactercombocardframe.2	Warning
 pli_charactercombocardframe.3	Would you like to use this item to extend the Gold Combo Card duration?
@@ -1374,6 +1374,7 @@ pli_crystalizeview.52	Auto Register Tools and Materials
 pli_crystalmanagementview.1	Please select a crystal to store.\nClicking the stored crystal will remove it from the slot.
 pli_crystalmanagementview.2	{0}
 pli_crystalmanagementview.3	{0}
+pli_deactivequestboardview.1	Click the Details button to see more information.
 pli_destroyexpiredconfirmview.1	{0:itemname} x ({1:itemcount})
 pli_dicebattleview.1	It's a tie! Roll again.
 pli_dicebattleview.2	End the battle immediately?\nBattle progress will not be saved
@@ -1724,6 +1725,9 @@ pli_eventingamepopupview.2	<color=2>지원금 받기</color>
 pli_eventpopupbuttonlistview.1	This event is for Milletians only.
 pli_eventpopupbuttonlistview.2	Time does not flow during the Timed Event.
 pli_eventpopupbuttonlistview.3	You can't do that here.
+pli_eventpopupbuttonlistview.4	You haven't joined a guild.
+pli_eventpopupbuttonlistview.5	Please try again after {0} seconds.
+pli_eventpopupbuttonlistview.6	Talk to Roy of the Grand Guild Gathering event.\nYou can meet Roy at the Dunbarton Town Square.
 pli_eventpopupview.1	Notice
 pli_eventpopupview.2	Item Shop
 pli_eventpopupview.3	Hide Window
@@ -1764,6 +1768,7 @@ pli_facilityinfoview.1	Time Remaining :
 pli_facilityinfoview.2	{0} Kon
 pli_facilityinfoview.3	Houses in which pets are resting cannot be upgraded.\nHave the pet finish or pause their rest first.
 pli_facilityinfoview.4	Notice
+pli_facilityinfoview.5	\n\n<color=4>추가 효과 ({0}/{1})</color><color=5>
 pli_facilitylistview.1	Use Pon to place a building.
 pli_facilitylistview.2	<color=2><outlinecolor=3>(Discounted)</outlinecolor></color>
 pli_facilitylistview.3	<color=2><outlinecolor=3>(Reduced)</outlinecolor></color>
@@ -1973,6 +1978,20 @@ pli_focuslistenblockview.6	Only characters can be blocked.
 pli_focuslistenlistview.1	Select the character you wish to block.
 pli_focuslistenlistview.2	Only leaders can use this command.
 pli_focuslistenlistview.3	The character cannot be found.
+pli_freeseasonguidebookhistoryview.1	{0} hour(s)
+pli_freeseasonguidebookhistoryview.2	{0} times
+pli_freeseasonguidebookhistoryview.3	{0}
+pli_freeseasonguidebookhistoryview.4	{0}
+pli_freeseasonguidebookhistoryview.5	{0} points
+pli_freeseasonguidebookhistoryview.6	{0}
+pli_freeseasonguidebookhistoryview.7	{0}
+pli_freeseasonguidebookhistoryview.8	{0} times
+pli_freeseasonguidebookhistoryview.9	{0} times
+pli_freeseasonguidebookhistoryview.10	{0} times
+pli_freeseasonguidebookselectframe.1	{0} ({1})
+pli_freeseasonguidebookview.1	Finale - All Buffs Applied
+pli_freeseasonguidebookview.2	This week's selected Buff: None - Select a Buff by talking to the NPC.
+pli_freeseasonguidebookview.3	This week's selected Buff: {0}
 pli_freestylejamjoinview.1	You cannot enter before the host.
 pli_freestylejamjoinview.2	You are too far away from where the Freestyle Jam is taking place.
 pli_furniturecontextmenuview.1	You can't retrieve a workshop bench while a research task is in progress.\nComplete or stop the research first.
@@ -2118,6 +2137,8 @@ pli_guestbookview.8	Complete
 pli_guestbookview.9	Private
 pli_guestbookview.10	Change the settings so that only you and the shop owner can see this post.
 pli_guestbookview.11	Close
+pli_guildrecruiteventframe.1	Complete
+pli_guildrecruiteventview.1	Please try again after {0} seconds.
 pli_guildrobedesignframes.1	Select {0}.
 pli_guildrobedesignframes.2	Select {0}.
 pli_guildrobedesignview.1	Remove the hood
@@ -2152,7 +2173,7 @@ pli_guildstoneview.4	0
 pli_guildstoneview.5	Would you like to change your guild stone?
 pli_guildtitleeventview.1	Create a Title
 pli_guildtitleeventview.2	Guide
-pli_guildtitleeventview.3	Titles that contain profanity or inappropriate words will be deleted without notice. Once a title has been deleted, it cannot be restored. During the event, titles may be changed as many times as you like. After the event, selected titles will be awarded to guilds that have met the award requirements.
+pli_guildtitleeventview.3	Titles that contain profanity or inappropriate words will be deleted without notice. Once a title has been deleted, it cannot be restored. During the event, titles may be changed as many times as you like. After meeting the requirements, guild members will automatically receive the custom guild title.
 pli_guildtitleeventview.4	Current Title: No title has been created.
 pli_guildtitleeventview.5	Enter a title between 2-10 letters long. (Spaces okay.)
 pli_guildtitleeventview.6	This number may include\nmembers that have left the guild.
@@ -2794,6 +2815,7 @@ pli_interfaceskillmgr.1	Switching the current skill hotkey group set to Set #1.
 pli_interfaceskillmgr.2	Switched to the second set of hotkeys.
 pli_interfaceskillmgr.3	Switched to the first set of hotkeys.
 pli_interfaceskillmgr.4	The {0} skill is now Rank {1}.
+pli_interfaceskillmgr.5	Skills that complete training will be ranked up automatically.\n\nAutomatic rank ups will be disabled if there is insufficient AP.\nPlease manually rank up skills that remain as training complete individually.\n\nUn-check the box on the bottom of the skill window if you want to disable automatic rank ups.
 pli_interfaceskillmgraction.1	Please select the type of firewood you would like to use.
 pli_inviteeventview.1	*{0} hr {1} m
 pli_inviteeventview.2	Referral Code Input Box
@@ -3015,7 +3037,7 @@ pli_joustvictoryview.1	OK
 pli_joustvictoryview.2	You've won!
 pli_joustvictoryview.3	Against {0}, of {1} turns, you succeeded {2} times.
 pli_joustvictoryview.4	You've obtained\n{0} Jousting Points.
-pli_jukeboxview.1	아직 해금되지 않은 배경 음악입니다.\n리플레이 보상 상자 사용 시 해금할 수 있습니다.
+pli_jukeboxview.1	This background music hasn't been unlocked yet.\nUnlock it by using the Replay Reward Box.
 pli_kioskinventoryview.1	Kiosk Item Storage
 pli_kioskinventoryview.2	The Kiosk cannot be closed because there are items that are still being sold.\nPlease organize your Kiosk.
 pli_kioskinventoryview.3	Do you wish to close the Kiosk?
@@ -3231,7 +3253,7 @@ pli_minigamepartymaketabframe.6	Memory Match
 pli_minigamepartymaketabframe.7	Set the max members for the party up to {0}.
 pli_minigamepartymaketabframe.8	Mini-game
 pli_minigamepartymaketabframe.9	Mafia
-pli_minigamepartymaketabframe.10	알쏭달쏭 상자 열기
+pli_minigamepartymaketabframe.10	Crack the Coded Box
 pli_minigamepartysetting.1	Mini-game
 pli_mobileauth.1	Mobile Secret Security
 pli_mobileauth.2	도전코드를 확인하여 결과값을 입력하세요.
@@ -3384,7 +3406,7 @@ pli_pawnpurchaselistview.2	{0} Pon
 pli_pawnpurchaselistview.3	Available Coupon: {0}
 pli_pawnpurchaselistview.4	Required Coupon
 pli_pawnpurchaselistview.5	Data already exists in this slot.
-pli_pawnpurchaselistview.6	외형 변경에 사용할 쿠폰을 선택하세요.
+pli_pawnpurchaselistview.6	Choose a Beauty Coupon to use.
 pli_personalrankingdefaultview.1	{0} min {1} sec {2}
 pli_personalrankingdefaultview.2	Character not found.
 pli_personalrankingdefaultview.3	Period {0}/{1}/{2} - {3}/{4}/{5}
@@ -3777,10 +3799,10 @@ pli_privatefarmstatusview.4	You cannot add any more favorites.
 pli_privatefarmstatusview.5	Expansion Lv. {0}
 pli_privatefarmstatusview.6	x%.1f
 pli_privatefarmstatusview.7	Displays the stat bonuses applied to the Homestead.\nHover over each stat to see the item granting each effect.\n\nThe bonuses of Homestead decorations (including Figures), Sequel Figures, and Pet Houses are combined.\nHowever, if there are multiple bonuses in the same stat, only the highest will be applied.
-pli_privatefarmstatusview.8	낭만 농장 주크박스 사용이 불가능합니다.\n낭만 농장에 주크박스를 설치한 후, [낭만 농장 주크박스 이용권] 아이템을 사용하거나, 프리미엄 라이프 멤버십이 적용 중인 상태라면 주크박스 기능을 이용할 수 있습니다.\n\n* [낭만 농장 배경 음악 이용권]은 [메인스트림 리플레이 보상상자]에서 확률적으로 획득할 수 있습니다.
-pli_privatefarmstatusview.9	주크박스 [잔여 기간 <color=2>{0}</color> 일]
-pli_privatefarmstatusview.10	<color=2>주크박스 사용 불가</color>
-pli_privatefarmstatusview.11	<color=2>주크박스 설치 시 사용 가능</color>
+pli_privatefarmstatusview.8	The Homestead Jukebox cannot be used.\nAfter installing the jukebox in your homestead, you can access its features by using a Homestead Jukebox Coupon.\n\n* You have a chance to obtain Homestead BGM Coupons from the Storyline Replay Reward Box.
+pli_privatefarmstatusview.9	Jukebox [Remaining: <color=2>{0}</color> day(s)]
+pli_privatefarmstatusview.10	<color=2>Jukebox Not Available</color>
+pli_privatefarmstatusview.11	<color=2>Install Jukebox to Use</color>
 pli_privatefarmstatusview.12	 Decoration Effect
 pli_privatezoneaskexitview.1	{0:itemname} x ({1:itemcount})
 pli_privatezoneaskexitview.2	Please wait.
@@ -3822,6 +3844,7 @@ pli_promotionapplyview2.3	You haven't reached a high enough rank.
 pli_promotionapplyview2.4	You haven't done enough training.
 pli_promotionapplyview2.5	Unable to Take the Test
 pli_promotionapplyview2.6	Participation Fee: {0} Gold
+pli_promotionapplyview2.7	Today's Possible Requests: {0}
 pli_promotionmissionview.1	(dev) There is no Shadow Mission.
 pli_promotionmissionview.2	(dev) Wrong advancement data.
 pli_promotionmissionview.3	{0} points
@@ -3986,41 +4009,41 @@ pli_rentaltimetableview.19	You can finalize the rental after emptying your tempo
 pli_rentaltimetableview.20	The Bank is locked.
 pli_rentaltimetableview.21	Concert Ticket Quantity\n({0}-{1})
 pli_rentaltimetableview.22	You can set the Concert Ticket quantity between {0} and {1}.
-pli_replaymainstreampartview.1	[진행중]
-pli_replaymainstreampartview.2	[완료]
-pli_replaymainstreampartview.3	<color=6>리플레이는 해당 제너레이션을 모두 완료한 후에 진행할 수 있습니다.\n</color>
-pli_replaymainstreampartview.4	아이템 : {0}
-pli_replaymainstreampartview.5	\n골드 : {0}
-pli_replaymainstreampartview.6	\n경험치 : {0}
-pli_replaymainstreampartview.7	\n리플레이 완료한 횟수 : {0}회
-pli_replaymainstreampopupview.1	현재까지 진행한 [메인스트림] 스토리를 확인 할 수 있습니다.\n마비노기에서 {0}님의 이야기를 확인해보세요.
+pli_replaymainstreampartview.1	In\nProgress
+pli_replaymainstreampartview.2	Complete
+pli_replaymainstreampartview.3	<color=6>Replay is available once the entire generation has been completed.\n</color>
+pli_replaymainstreampartview.4	Items: {0}
+pli_replaymainstreampartview.5	\nGold: {0}
+pli_replaymainstreampartview.6	\nEXP: {0}
+pli_replaymainstreampartview.7	\nCompleted Replays: {0}
+pli_replaymainstreampopupview.1	You can view the Storyline you've completed so far.\nExplore your story in Mabinogi, {0}.
 pli_replaymainstreamview.1	\n({0}% 할인이 적용된 금액입니다.)
-pli_replaymainstreamview.2	리플레이 포기하기
-pli_replaymainstreamview.3	G{0} {1} 진행 중
-pli_replaymainstreamview.4	G{0} {1} 완료
-pli_replaymainstreamview.5	G{0} {1} 시작하기
-pli_replaymainstreamview.6	리플레이 시작하기
-pli_replaymainstreamview.7	G{0} {1} 상세정보
-pli_replaymainstreamview.8	챕터, 제너레이션, 파트를 선택하세요.
-pli_replaymainstreamview.9	메인스트림 리플레이 즉시완료
-pli_replaymainstreamview.10	[{0}]\n\n[보상]\n {1}\n\n* 즉시 완료는 리플레이 완료 횟수에 포함되지 않습니다.\n
-pli_replaymainstreamview.11	즉시 완료 티켓 \n{0}개로 즉시완료
-pli_replaymainstreamview.12	{0} 골드로\n즉시완료
-pli_replaymainstreamview.13	{0} 폰으로\n즉시완료
-pli_replaymainstreamview.14	챕터, 제너레이션, 파트를 선택하세요.
-pli_replaymainstreamview.15	챕터, 제너레이션, 파트를 선택하세요.
-pli_replaymainstreamview.16	[{0}]\n\n{1} 골드가 소모됩니다.\n리플레이를 시작하시겠습니까?
-pli_replaymainstreamview.17	메인스트림 리플레이
-pli_replaymainstreamview.18	리플레이
-pli_replaymainstreamview.19	즉시완료
-pli_replaymainstreamview.20	G{0}. {1}{이} 진행중 입니다.\n\n [보상]\n{2}
-pli_replaymainstreamview.21	메인스트림 진행중
-pli_replaymainstreamview.22	G{0}. {1}{를} 완료 하였습니다.
-pli_replaymainstreamview.23	메인스트림 완료
-pli_replaymainstreamview.24	[{0}]\n\n 포기하시겠습니까?\n포기할 경우 소모된 골드는 환급되지 않습니다.
-pli_replaymainstreamview.25	메인스트림 리플레이
+pli_replaymainstreamview.2	Forfeit Replay
+pli_replaymainstreamview.3	G{0} {1} In Progress
+pli_replaymainstreamview.4	G{0} {1} Completed
+pli_replaymainstreamview.5	Start G{0} {1}
+pli_replaymainstreamview.6	Start Replay
+pli_replaymainstreamview.7	G{0} {1} Details
+pli_replaymainstreamview.8	Select a chapter, generation, and part.
+pli_replaymainstreamview.9	Instantly Complete Storyline Replay
+pli_replaymainstreamview.10	[{0}]\n\n[Reward]\n {1}\n\n* Instantly completed Replays are not included in the completion count.\n
+pli_replaymainstreamview.11	Complete immediately using\n{0} Instant Complete Ticket(s).
+pli_replaymainstreamview.12	Complete immediately\nusing {0} Gold.
+pli_replaymainstreamview.13	Complete immediately\nusing {0} Pon.
+pli_replaymainstreamview.14	Select a chapter, generation, and part.
+pli_replaymainstreamview.15	Select a chapter, generation, and part.
+pli_replaymainstreamview.16	[{0}]\n\n{1} Gold will be spent.\nDo you want to start the replay?
+pli_replaymainstreamview.17	Storyline Replay
+pli_replaymainstreamview.18	Replay
+pli_replaymainstreamview.19	Instant Complete
+pli_replaymainstreamview.20	G{0}. {1} is in progress.\n\n[Rewards]\n{2}
+pli_replaymainstreamview.21	Storyline in Progress
+pli_replaymainstreamview.22	G{0}. {1} has been completed.
+pli_replaymainstreamview.23	Storyline Complete
+pli_replaymainstreamview.24	[{0}]\n\nDo you want to forfeit?\nIf you forfeit, the spent Gold will not be refunded.
+pli_replaymainstreamview.25	Storyline Replay
 pli_replaymainstreamview.26	<color=5>Generation {0}</color>\n<color=6>{1}</color>
-pli_replaymainstreamview.27	시청하기
+pli_replaymainstreamview.27	Watch
 pli_replaymainstreamview.28	<color=2>챕터 {0}</color>의 모든 제너레이션을 완료해야\n<color=2>제너레이션 [{1}]</color>의 리플레이를 시작할 수 있습니다.
 pli_replaymainstreamview.29	선택한 <color=2>제너레이션 [{0}]</color>는\n처음부터 순서대로만 진행할 수 있습니다.\n이전 파트까지 진행한 다음 리플레이를 시작해 주세요.
 pli_replaymainstreamview.30	리플레이는 하루(07시 기준)에 <color=2>{1}개</color>까지 시작할 수 있습니다.\n\n<color=6>* 오늘 리플레이 진행 횟수 : {0}회 / {1}회</color>
@@ -4114,15 +4137,15 @@ pli_seasonpassmainview.14	You can receive a Special Reward.
 pli_seasonpassmainview.15	You don't have enough Pon.
 pli_seasonpassrewarddescframe.1	Claim Reward
 pli_seasonpassrewarddescframe.2	Claimed
-pli_secretnumberview.1	마우스로 버튼을 눌러 세 자리 비밀번호를 맞춰보자!
-pli_secretnumberview.2	다시 비밀번호를 입력해보자!
-pli_secretnumberview.3	얏호! 비밀번호를 풀었습니다.
-pli_secretnumberview.4	아쉽게도 비밀번호를 찾지 못했습니다.
-pli_secretnumberview.5	{0}초 뒤 게임이 시작됩니다.
-pli_secretnumberview.6	이미 세 자리 비밀번호를 입력했습니다.
-pli_secretnumberview.7	새로 입력하려면 리셋 버튼을 눌러주세요.
-pli_secretnumberview.8	{0}초 뒤 다음 턴이 시작됩니다.
-pli_secretnumberview.9	{0}초 뒤 게임이 종료됩니다.
+pli_secretnumberview.1	Press the buttons with your cursor and figure out the 3-digit passcode!
+pli_secretnumberview.2	Try another passcode!
+pli_secretnumberview.3	Yay! You found the passcode!
+pli_secretnumberview.4	Unfortunately, you didn't find the right passcode.
+pli_secretnumberview.5	Game starting in {0} sec.
+pli_secretnumberview.6	You have already entered a 3-digit passcode.
+pli_secretnumberview.7	If you would like to enter again, press the reset button.
+pli_secretnumberview.8	Next turn starts in {0} sec.
+pli_secretnumberview.9	The game ends in {0} sec.
 pli_selectcolorview.1	Select Color
 pli_selectidview.1	{0}개의 마비노기 ID가 존재합니다.\n로그인할 ID를 선택해주세요.
 pli_selectidview.2	{0}개의 마비노기 ID가 존재합니다.\n로그인할 ID를 선택해주세요.
@@ -5491,6 +5514,7 @@ pli_windowkiosklostpocket.2	Price Info
 pli_windowkioskownerpocket.1	Would you like to remove that item from your Kiosk?
 pli_windowlevelup.1	You became \n<ttfenglish size=22>Dan {0}
 pli_windowlevelupready.1	Characters cannot advance their skills\nwhile in the tutorial.\n(Available after Rebirth)
+pli_windowlevelupready.2	Rank Up Skills upon Completing Training
 pli_windowlobby.1	Please turn off View All for detailed settings.
 pli_windowlobby.2	View All
 pli_windowlobby.3	Race
@@ -5815,7 +5839,9 @@ pli_windowmissionsheet.34	Squad Size: {0}\n
 pli_windowmissionsheet.35	Talent Level: {0}\n
 pli_windowmissionsheet.36	Location Check
 pli_windowmissionsheet.37	You can check this quest location.
-pli_windowmissionsheet.38	메인스트림 열기
+pli_windowmissionsheet.38	Open Storyline
+pli_windowmissionsheet.39	You can now receive and begin the quest.
+pli_windowmissionsheet.40	Receive quest
 pli_windowmissionsheetbingo.1	Bingo Row Reward
 pli_windowmissionsheetbingo.2	Perfect Bingo Reward
 pli_windowmissionsheetcreate.1	Notes
@@ -7099,7 +7125,7 @@ pli_windowtaskbar.78	Technique
 pli_windowtaskbar.79	Technique {0}
 pli_windowtaskbar.80	Chapter Info
 pli_windowtaskbar.81	Pet/Spirit
-pli_windowtaskbar.82	메인스트림
+pli_windowtaskbar.82	Storyline
 pli_windowtaskbar.83	Info
 pli_windowtaskbaraction.1	현재 테스트 서버에서 엘프는 어드밴스드 아이템을 받을 수 없습니다.
 pli_windowtaskbaraction.2	A pet is already summoned.
