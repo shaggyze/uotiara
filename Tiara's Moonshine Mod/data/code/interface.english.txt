@@ -1060,6 +1060,9 @@ pli_charactergeneralframe.50	The effects of the Joyful Japari Park buff will dis
 pli_charactergeneralframe.51	The effects of the Joyful Japari Park buff will dissipate after {0} seconds.
 pli_charactergeneralframe.52	You'll be able to receive the Joyful Japari Park buff after {0} minutes and {1} seconds.
 pli_charactergeneralframe.53	You'll be able to receive the Joyful Japari Park buff after {0} seconds.
+pli_charactergeneralframe.54	{0}단계
+pli_charactergeneralframe.55	미개방
+pli_charactergeneralframe.56	lv{0} exp {1}%
 pli_charactermyknightsframe.1	{0}/{1}
 pli_charactermyknightsframe.2	Current Command EXP: {0}\nNext Command Level: {1}
 pli_charactermyknightsframe.3	You cannot open the Special Unit Training Board while talking.
@@ -1768,7 +1771,7 @@ pli_facilityinfoview.1	Time Remaining :
 pli_facilityinfoview.2	{0} Kon
 pli_facilityinfoview.3	Houses in which pets are resting cannot be upgraded.\nHave the pet finish or pause their rest first.
 pli_facilityinfoview.4	Notice
-pli_facilityinfoview.5	\n\n<color=4>추가 효과 ({0}/{1})</color><color=5>
+pli_facilityinfoview.5	\n\n<color=4>적용 효과 및 강화 횟수 ({0}/{1})</color><color=5>
 pli_facilitylistview.1	Use Pon to place a building.
 pli_facilitylistview.2	<color=2><outlinecolor=3>(Discounted)</outlinecolor></color>
 pli_facilitylistview.3	<color=2><outlinecolor=3>(Reduced)</outlinecolor></color>
@@ -3267,6 +3270,38 @@ pli_movecontinentview.1	Teleports you to {0}.\nDo you wish to teleport now?
 pli_movecontinentview.2	Teleports you to {0}.\nThis function becomes usable again at 12:00 PM and 12:00 AM Erinn time.\nDo you wish to teleport now?
 pli_movecontinentview.3	Teleport to {0}
 pli_msgboxitem2.1	Displays the visual chat with {0} on the screen.
+pli_multiclasschangeframe.1	아르카나 레벨 {0}
+pli_multiclasschangeframe.2	미습득
+pli_multiclasschangeframe.3	EXP {0}%
+pli_multiclasschangeframe.4	현재 아르카나 : <color=2><outlinecolor=5>{0}</outlinecolor></color>\n변경할 아르카나 : <color=2><outlinecolor=5>{1}</outlinecolor></color>\n\n아르카나 변경에 <color=2><outlinecolor=5>{2}AP</outlinecolor></color> 가 소모됩니다.
+pli_multiclasschangeframe.5	아르카나 활성화
+pli_multiclasschangeframe.6	{0} (미습득)
+pli_multiclasschangeframe.7	활성화
+pli_multiclasschangeframe.8	활성화 시 100AP 필요
+pli_multiclassitemframe.1	\n<현재 보유 개수 : {0}개>
+pli_multiclassitemframe.2	필요 금화 : %d Gold
+pli_multiclassitemframe.3	{0} {1}개\n변환 하시겠습니까?\n\n<매듭 변환 재료>\n{2} : {3}\n{4}
+pli_multiclassitemframe.4	매듭 변환
+pli_multiclasslinkframe.1	아르카나 레벨 {0}
+pli_multiclasslinkframe.2	EXP {0}%
+pli_multiclasslinkframe.3	미개방
+pli_multiclasslinkframe.4	<color=4><outlinecolor=5><아르카나 링크 {0}단계></outlinecolor></color>
+pli_multiclasslinkframe.5	{0} 레벨 : {1} 이상
+pli_multiclasslinkframe.6	어빌리티 포인트 : {0} / {1}
+pli_multiclasslinkframe.7	<color=2><outlinecolor=5>{0}</outlinecolor></color>\n아르카나 링크 {1}단계 개방을 하시겠습니까?\n\n<링크 개방 재료>
+pli_multiclasslinkframe.8	어빌리티 포인트 : {0}
+pli_multiclasslinkframe.9	아르카나 링크 개방
+pli_multiclassmainview.1	매듭 변환
+pli_multiclassmainview.2	매듭 변환에 성공하였습니다.
+pli_multiclassmanageview.1	* 더 이상 승급할 수 없다
+pli_multiclassmanageview.2	입수 조건
+pli_multiclassmanageview.3	승급 조건
+pli_multiclassmanageview.4	스킬 설명
+pli_multiclassmanageview.5	스킬입수
+pli_multiclassmanageview.6	승급
+pli_multiclassmanageview.7	{0} {1}
+pli_multiclassmanageview.8	스킬과 관련된 아르카나 재능을 습득하지 않은 상태입니다.
+pli_multiclassmanageview.9	* {0} 습득
 pli_myknightsmemberinfoframe.1	Specialty {0} \n
 pli_myknightsmemberinfoframe.2	Divine Power {0} \n
 pli_myknightsmemberinfoframe.3	Strength {0} \n
@@ -4364,6 +4399,22 @@ pli_talentmainview.26	Grandmaster
 pli_talentmainview.27	Next Talent Level Bonus
 pli_talentmainview.28	Chain Blade
 pli_talentmainview.29	There is a chance that some materials will be left over when successfully using the Hillwen Engineering or Magic Craft skills.
+pli_talentmainview.30	(미습득)
+pli_talentmainview.31	[아르카나 협회실]로 이동하시겠습니까?
+pli_talentmainview.32	현재 보너스 효과 없음
+pli_talentmainview.33	습득 조건
+pli_talentmainview.34	아르카나 레벨 보너스
+pli_talentmainview.35	아르카나 레벨 {0}
+pli_talentmainview.36	미습득
+pli_talentmainview.37	EXP {0}%
+pli_talentmainview.38	<color=5><outlinecolor=6><아르카나 보너스 효과></outlinecolor></color>
+pli_talentmainview.39	<color=5><outlinecolor=6><아르카나 종합 레벨 효과></outlinecolor></color>
+pli_talentmainview.40	현재 아르카나 레벨 효과 없음
+pli_talentmainview.41	현재 보너스 효과 없음
+pli_talentmainview.42	던컨에게 이동하기
+pli_talentmainview.43	던컨에게 이동하시겠습니까?
+pli_talentmainview.44	<color=5><outlinecolor=6>(미개방)</outlinecolor></color>\n
+pli_talentmainview.45	[아르카나에 불꽃을 담아] 퀘스트 완료 후 활성화됩니다.
 pli_taskquestboarddetailview.1	Success Rate: 
 pli_taskquestboarddetailview.2	{0}-only Mission
 pli_taskquestboarddetailview.3	Common Mission
@@ -5850,6 +5901,7 @@ pli_windowmovieshow.1	An unexpected error has occurred.
 pli_windowmovieshow.2	The file cannot be found.
 pli_windowmovieshow.3	The codec for this movie file cannot be found.
 pli_windowmovieshow.4	This is an unknown file extension.
+pli_windowmulticlasslevelup.1	아르카나 링크\n{0} 단계
 pli_windownewcharacter.0	You need the Basic Elf card.
 pli_windownewcharacter.1	You need the Premium Elf card.
 pli_windownewcharacter.2	Select the race that you would like to create your character as.\n\nWhen humans grow, their progress is evenly distributed between stamina, intelligence, and skills.\nThey are very well-versed at melee combat, and can provide immense excitement in battles once the combat skills are mastered.\n\nElves are highly skilled, have high intelligence as well as high MP.\nElves, unlike humans, use bows and a lot of magic which enables them to launch powerful attacks, and faster movement. Elves can make long-range attacks from an early age which gives them an edge when it comes to safety and effectiveness.  
@@ -6478,6 +6530,7 @@ pli_windowpopupcharacter.65	Go for a walk
 pli_windowpopupcharacter.66	Stop walking
 pli_windowpopupcharacter.67	Start a Conversation
 pli_windowpopupcharacter.68	Float High
+pli_windowpopupcharacter.69	캐스팅 중에는 탑승할 수 없습니다
 pli_windowpopupitem.0	Change Direction
 pli_windowpopupitem.1	Set Rental Fee
 pli_windowpopupitem.2	Open Production Window
@@ -6946,6 +6999,8 @@ pli_windowskilltabframe2.1	View All
 pli_windowskilltabframe2.2	Shows all the skills you haven't learned yet.
 pli_windowskilltabframe2.3	Crusader Lv: {0}
 pli_windowskilltabframe2.4	Points: {0}/{1}
+pli_windowskilltabframe2.5	현재 아르카나 재능 : {0}
+pli_windowskilltabframe2.6	아르카나 레벨 : {0}
 pli_windowsmsauth.0	{0} 고객님은 인증 로그인 {1} 타입 서비스를 이용 중입니다.
 pli_windowsmsauth.1	마지막으로 접속한 IP는 {0} 입니다.
 pli_windowsmsauth.2	유효시간 {0} 안에 입력해주세요.

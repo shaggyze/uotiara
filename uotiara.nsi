@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
-!define UOSHORTVERSION        "399"
-!define UOLONGVERSION         "0.28.55"
+!define UOSHORTVERSION        "400"
+!define UOLONGVERSION         "0.29.55"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -6705,23 +6705,6 @@ SectionEnd
 SectionGroupEnd
 
 SectionGroup "Risky Mods (add)"
-Section "Multiclient" MOD397
-SetOutPath "$INSTDIR\data"
-DetailPrint "Installing features.xml.compiled..."
-IfFileExists $INSTDIR\Abyss.ini 0 +3
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "DataFolder" "1"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "EnableMultiClient" "0"
-  File "${srcdir}\Tiara's Moonshine Mod\data\features.xml.compiled"
-SetDetailsPrint both
-SectionIn 1
-SectionEnd
-!macro Remove_${MOD397}
-  DetailPrint "*** Removing Multiclient..."
-  Delete "$INSTDIR\data\features.xml.compiled"
-  IfFileExists $INSTDIR\Abyss.ini 0 +3
-  WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "DataFolder" "1"
-  WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "EnableMultiClient" "1"
-!macroend
 Section "Show Visual Chat" MOD298
 SetOutPath "$INSTDIR\data"
 DetailPrint "Installing features.xml.compiled..."
@@ -6795,11 +6778,6 @@ Delete "$INSTDIR\data\gfx\gui\font_eng.dds"
 DetailPrint "*** Removing Abyss's Bitmap Font..."
 WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "Bitmap" "0"
 WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "BitmapPositionFix" "0"
-SectionIn 3
-SectionEnd
-Section "Remove Multiclient"
-DetailPrint "*** Removing Multiclient..."
-Delete "$INSTDIR\data\features.xml.compiled"
 SectionIn 3
 SectionEnd
 Section "Remove Hidden Skill Flown Hot-Air Balloon"
@@ -7298,7 +7276,7 @@ SectionGroupEnd
 !insertmacro "${MacroName}" "MOD396"
 !insertmacro "${MacroName}" "MOD396?1"
 !insertmacro "${MacroName}" "MOD396?2"
-!insertmacro "${MacroName}" "MOD397"
+;!insertmacro "${MacroName}" "MOD397"
 !insertmacro "${MacroName}" "MOD398"
 !insertmacro "${MacroName}" "MOD398?1"
 !insertmacro "${MacroName}" "MOD398?2"
@@ -9973,11 +9951,11 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD396?2" "FILE1" "\data\gfx\scene
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD396?2" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD396?2" "CREATOR" "Fl0rn"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD396?2" "DESCRIPTION" "Remove Fog in Tech Duinn Lobby"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD397" "" "Multiclient"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD397" "FILE1" "\data\features.xml.compiled"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD397" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD397" "CREATOR" "ShaggyZE"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD397" "DESCRIPTION" "Enables Multiclient"
+;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD397" "" "Multiclient"
+;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD397" "FILE1" "\data\features.xml.compiled"
+;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD397" "FILES" "1"
+;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD397" "CREATOR" "ShaggyZE"
+;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD397" "DESCRIPTION" "Enables Multiclient"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "" "Show Visual Chat"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "FILE1" "\data\features.xml.compiled"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "FILE2" "\data\db\urls.xml"

@@ -13882,6 +13882,13 @@
 15441	행운 30 증가
 15442	행운 30 증가
 15443	행운 30 증가
+15444	Eternal Heart
+15445	Eternal Heart
+15446	Eternal Heart
+15447	Eternal Heart
+15448	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15449	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15450	Max Damage +18\nMagic Attack +25\nMusic Buff Effect +6\nWater/Fire/Wind/Earth Alchemic Damage +12\nCritical +5%\nDefense +10\nProtection +6\nMagic Defense +10\nMagic Protection +6\nMovement Speed +2%
 15472	17주년 마비노기 오프라인 파티
 15473	17주년 마비노기 오프라인 파티
 15474	17주년 마비노기 오프라인 파티
@@ -13938,3 +13945,10 @@
 15567	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 15568	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 15569	행운 30 증가
+15619	눈꽃 나비
+15620	눈꽃 나비
+15621	눈꽃 나비
+15622	눈꽃 나비
+15623	2022 마비노기 판타지 ON박싱에 함께해준 밀레시안에게 지급되는 2차 타이틀.
+15624	2022 마비노기 판타지 ON박싱에 함께해준 밀레시안에게 지급되는 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15625	행운 30 증가

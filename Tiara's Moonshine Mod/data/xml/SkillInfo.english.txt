@@ -764,7 +764,7 @@
 1054	Metal Conversion
 1058	Bug Catching
 1060	Use Party Popper
-1062	All substances contain the 4 Alchemy attributes of Water, Fire, Wind, and Dirt. The reason that substances deteriorate or fade is because these attributes change. If the distinct attributes of a substance can be changed, it is possible to create new substances. Alchemists has long studied the relationship between the flow of time and the changes in substances. As a result, Alchemists have become successful in changing the attributes of metals. Through this skill, you will be able to transform normal and readily available metals into rare and valuable metals. And, if you are lucky, you will also be able to create precious gems such as diamonds or new metals never seen before in Erinn. This skill can only be used at a Dry Oven.
+1062	All materials contain the four basic elements of Alchemy: Water, Fire, Wind, and Earth. Substances rust, crumble, or fade over time because the composition of their elements change. With an intentional change of a material's composition, it is possible to create entirely new substances. Alchemists, through a long study of the effects of time on materials, are able to change the attributes of metals. With this skill, you will be able to transform common metals into rare and valuable ones. And, with luck, you might be able to create precious gems, such as diamonds, or new metals that are entirely new to Erinn. This skill can only be used at a Dry Oven.
 1063	Blaze
 1064	Focuses the power of magic in a wand before launching it on an enemy. Since the condensed magic is launched by physical force, the user of this skill must be physically strong. This skill can cause incredible damage on enemies who have lost their balance due to being hit or stunned. Accordingly, it's most effective against enemies who are about to fall or have already fallen. Press down on a mouse button or hotkey to focus the magic and release the button to explode it. 
 1065	Focuses the power of magic in a wand before launching it on an enemy. Since the condensed magic is launched by physical force, the user of this skill must be physically strong. This skill can cause incredible damage on enemies who have lost their balance due to being hit or stunned. Accordingly, it's most effective against enemies who are about to fall or have already fallen. Press down on a mouse button or hotkey to focus the magic and release the button to explode it. 
@@ -4267,6 +4267,13 @@
 6334	Player Count Range
 6335	First Application Target Range
 6336	Following Application Target Range
+6337	엘레멘탈 인젝션 : 파이어
+6338	엘레멘탈 인젝션 : 아이스
+6339	엘레멘탈 인젝션 : 라이트닝
+6340	어드밴스드 디펜스
+6341	파이어 리프 어택
+6342	아이스 윈드밀
+6343	라이트닝 스매시
 6344	Effect Activation Wait Time
 6345	Life Ender Max Range for Target Setting
 6346	Life Ender Max Quantity for Target Setting
@@ -4293,3 +4300,29 @@
 6375	Memorial Link
 6376	You cannot use this skill right now. Try completing the Memoir first.
 6377	A bonding skill, created by Blaanid, that links souls together. Linked souls can share each other's memories and experiences and can bring any dormant power within them to the very limit. Multiple stats of soul linked pets and casters increase, and the pet earns the same EXP that the caster earns through defeating enemies. Also, pets can distract enemies that have recognized the caster, granting the caster a large boost to their Defense and Protection. However, these effects are affected by the pet's stats, level, and Memorial Link rank. Since it acts with the same principles, it cannot be active at the same time as Divine Links.
+6378	치유의 손길
+6379	구원의 메아리
+6380	활력의 목소리
+6381	송 오브 하모닉 마이너
+6382	정화의 고동
+6383	붕괴의 파동
+6384	수호의 축복
+6385	소생의 찬가
+6386	엘레멘탈 인젝션은 장비하고 있는 근접 재능 무기에 각종 엘레멘탈을 부여하여 해당 속성 한 단계 증가와 대미지 향상 외에도 각종 마법을 동시에 시전할 수 있게 하는 등 여러 특별한 효과를 만들어내는 엘레멘탈 나이트의 아이덴티티와도 같은 기술이다. 그중 파이어 엘레멘탈은 일반 공격으로 넓은 범위의 적을 한 번에 공격하는 효과를 받을 수 있으며 불 속성 마법 사용 시 시전 속도 상승과 함께 최대 대미지의 5% 만큼 마법 공격력이 상승되어 적용된다. 동시 시전한 마법은 Ctrl+우클릭으로 사용할 수 있으며 무기의 피어싱 효과를 받을 수 없다. 또한 시전 시간은 50% 이하로는 줄어들지 않는다. 숙련될수록 엘레멘탈을 부여하는 속도가 빨라진다.
+6387	엘레멘탈 인젝션은 장비하고 있는 근접 재능 무기에 각종 엘레멘탈을 부여하여 해당 속성 한 단계 증가와 대미지 향상 외에도 각종 마법을 동시에 시전할 수 있게 하는 등 여러 특별한 효과를 만들어내는 엘레멘탈 나이트의 아이덴티티와도 같은 기술이다. 그중 아이스 엘레멘탈은 일반 공격으로 공격한 대상의 이동 속도와 공격 속도를 늦추고 얼음 속성 마법 사용 시 시전 속도 상승과 함께 최대 대미지의 5% 만큼 마법 공격력이 상승되어 적용된다. 동시 시전한 마법은 Ctrl+우클릭으로 사용할 수 있으며 무기의 피어싱 효과를 받을 수 없다. 또한 시전 시간은 50% 이하로는 줄어들지 않는다. 숙련될수록 엘레멘탈을 부여하는 속도가 빨라진다.
+6388	엘레멘탈 인젝션은 장비하고 있는 근접 재능 무기에 각종 엘레멘탈을 부여하여 해당 속성 한 단계 증가와 대미지 향상 외에도 각종 마법을 동시에 시전할 수 있게 하는 등 여러 특별한 효과를 만들어내는 엘레멘탈 나이트의 아이덴티티와도 같은 기술이다. 그중 라이트닝 엘레멘탈은 일반 공격 시 상대의 방어와 보호, 그리고 헤비 스탠더 효과를 일정량 무시하게 해주며 전기 속성 마법 사용 시 시전 속도 상승과 함께 최대 대미지의 5% 만큼 마법 공격력이 상승되어 적용된다. 동시 시전한 마법은 Ctrl+우클릭으로 사용할 수 있으며 무기의 피어싱 효과를 받을 수 없다. 또한 시전 시간은 50% 이하로는 줄어들지 않는다. 숙련될수록 엘레멘탈을 부여하는 속도가 빨라진다.
+6389	다수와의 전투 중에는 수비 자세를 계속 유지할 수 있는 능력도 필요하다. 어드밴스드 디펜스는 적의 맹공 속에서도 디펜스 상태를 계속 유지, 그리고 찰나의 빈틈을 노려 주변의 적들에게 피해를 줄 수 있는 기술이다. 방어 성공 효과는 사용자가 수련한 디펜스 스킬의 효과를 따르며, 공격을 막아낸 횟수에 따라 반격 대미지가 달라진다. (최대 3회)
+6390	빠르게 날아올라 적들을 타격하고 빠르게 후퇴하는, 강력함과 기동성을 동시에 갖춘 기술. 다운 어택을 응용한 이 기술을 사용하면 크게 점프하여 대상과 주변을 화염으로 휩싸인 무기로 공격 후 그 폭발을 이용해 다시 원하는 위치로 튕겨나가듯 빠르게 이동할 수 있다. 기술이 발동된 후 폭발이 일어나기 전의 짧은 순간에 퇴각 위치를 선택하는 것이 중요하다. 다운 어택을 응용한 기술인 만큼 사용자의 다운 어택 대미지와 공격 가능 거리의 영향을 받으며, 엘레멘탈 인젝션 : 파이어가 활성화된 상태라면 좀 더 큰 대미지를 줄 수 있다.
+6391	둘러싼 적을 윈드밀로 1차 공격과 함께 얼어붙게 만들어 후속 공격을 이어갈 수 있게 만드는 기술. 공격을 받은 적들은 일정 시간 얼어붙었다가 얼음이 깨질 때 추가 대미지를 입는다. 윈드밀을 응용한 기술인 만큼 사용자의 윈드밀 범위와 대미지의 영향을 받으며, 엘레멘탈 인젝션 : 아이스가 활성화된 상태라면 빙결 유지 시간과 추가 대미지가 증가한다. 넘어지지 않는 적들은 얼지 않으며 이미 아이스 윈드밀로 얼어붙은 적 또한 같은 스킬로 다시 얼릴 수 없다.
+6392	라이트닝 엘레멘탈이 실린 무기로 스매시를 시전해 전방의 적들에게 번개를 내리치는 기술. 스매시를 응용한 기술인 만큼 사용자의 스매시 대미지의 영향을 받으며 이 기술의 숙련 정도에 따른 대미지가 추가된다. 엘레멘탈 인젝션 : 라이트닝이 활성화된 상태라면 대미지가 더욱 증가한다.
+6393	엘레멘탈 나이트의 아르카나 레벨을 8 이상으로 올린다.
+6394	엘레멘탈 나이트의 아르카나 레벨을 7 이상, 엘레멘탈 인젝션 : 파이어 스킬의 랭크를 B 랭크 이상으로 올린다.
+6395	엘레멘탈 나이트의 아르카나 레벨을 7 이상, 엘레멘탈 인젝션 : 아이스 스킬의 랭크를 B 랭크 이상으로 올린다.
+6396	엘레멘탈 나이트의 아르카나 레벨을 7 이상, 엘레멘탈 인젝션 : 라이트닝 스킬의 랭크를 B 랭크 이상으로 올린다.
+6397	치유의 손길은 위급한 상황에서 아군의 생명력을 빠르게 회복시킬 수 있다. 힐링 스킬과 동일한 기반과 원리를 갖지만 아르카나를 활용해 회복력을 대폭 강화했다. 힐링 스킬의 회복력에 큰 영향을 받으며, 해당 스킬의 회복력이 높을 수록 효과가 증폭된다.
+6398	구원의 메아리는 지정 범위 내 파티원들의 생명력을 회복시킬 수 있다. 파티 힐링 스킬과 동일한 기반과 원리를 갖지만 아르카나를 활용해 회복력을 대폭 강화했다. 파티 힐링 스킬의 회복력에 큰 영향을 받으며, 해당 스킬의 회복력이 높을 수록 효과가 증폭된다.
+6399	활력의 목소리는 넓은 범위 내 파티원들의 생명력을 지속적으로 회복시키고 속성에 대한 내성을 증가시킨다. 회복력이 높은 것은 아니지만 지속적인 아르카나의 작용으로 긴 시간 효과가 지속된다. 매직 실드 스킬의 랭크가 높을 수록 속성 내성의 효과가 증폭된다.
+6400	시전자를 중심으로 일정 범위 내 적들에게 강력한 음파를 이용해 공격한다. 스킬을 사용하는 동안 시전자에게는 거대한 음압이 결집되며 스킬 사용이 종료되면 폭발하듯 방출된다. 이때 방출되는 에너지는 스킬의 지속 시간이 길어질 수록 더 강력해진다. 다만, 스킬을 지속하는 동안 시전자는 움직일 수 없으며, 생명력과 마나가 급격히 소모되기 때문에 사용에 주의가 필요하다.
+6401	시전자를 중심으로 일정 범위 내 적들의 전투 지속력을 일시적으로 크게 감소시킨다. 음악 버프 스킬과 같은 기반과 원리를 갖지만 아르카나를 활용해 성능을 대폭 강화했다. 죽음의 무도 스킬과 환상의 코러스 스킬의 영향을 크게 받으며 해당 스킬들의 랭크가 높을 수록 효과가 더 증폭된다.
+6402	시전자를 중심으로 일정 범위 내 파티원들의 생존력을 일시적으로 크게 증가시킨다. 음악 버프 스킬과 같은 기반과 원리를 갖지만 아르카나를 활용해 성능을 대폭 강화했다. 인내의 노래 스킬의 영향을 크게 받으며 해당 스킬의 랭크가 높을 수록 효과가 더 증폭된다.
+6403	피닉스의 깃털이 가지고 있는 부활 효과를 아르카나를 활용해 마법으로 공식화했다. 마나의 흐름을 이용해 효과를 증폭시켜 부활시킬 파티원의 거리가 멀어도 문제가 없으며 회복력도 대폭 증가했다. 응급 치료 스킬의 영향을 크게 받으며 해당 스킬의 랭크가 높을 수록 효과가 더 증폭된다.
