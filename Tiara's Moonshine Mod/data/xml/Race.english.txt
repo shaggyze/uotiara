@@ -9298,9 +9298,9 @@
 11537	Red Fairy Dragon
 11538	Green Fairy Dragon
 11539	Blue Fairy Dragon
-11551	오하드
-11552	오하드
-11553	오하드
+11551	Eochaid
+11552	Eochaid
+11553	Eochaid
 11555	Linden Doll
 11556	Sayiv Doll
 11557	Igerna Doll
@@ -9317,23 +9317,23 @@
 11600	Baby Bunny Doll
 11601	Fennec Fox Kit Doll
 11602	Bear Cub Doll
-11604	레이르
-11605	레이르
-11606	레이르
-11607	카웬나
-11608	카웬나
-11609	카웬나
+11604	Laoire
+11605	Laoire
+11606	Laoire
+11607	Cowenna
+11608	Cowenna
+11609	Cowenna
 11611	Ceraunus (Event)
 11613	Fairy Dragon
-11614	에레원
-11615	고정 더미
+11614	Eirawen
+11615	Fixed Dummy
 11620	도움이 필요한 고냥이
-11621	훈련용 타격 인형
+11621	Training Dummy
 11622	Succubus Fiend
-11625	불량배
-11626	불량배
-11627	불량배
-11628	불량배
+11625	Bully
+11626	Bully
+11627	Bully
+11628	Bully
 11629	Emerald Hyena
 11630	Emerald Hyena
 11631	Emerald Shrieker
@@ -9350,6 +9350,8 @@
 11642	Mutant Carnivorous Plant
 11643	Mutant Man-eating Plant
 11644	Mutant Man-eating Plant
+11647	화염의 카트시
+11648	청명의 카트시
 11655	레트로 조
 11657	다루의 스쿠터 (이벤트)
 11660	Ceraunus (Event)
@@ -9368,3 +9370,15 @@
 11690	푸르메재단 방울토마토 온실하우스
 11691	푸르메재단 표고버섯 온실하우스
 11692	Ceraunus (90 Days)
+11698	눈꽃고래
+11699	은하고래
+11700	아이던 인형 가방
+11701	네일 인형 가방
+11702	엘레노아 인형 가방
+11703	셰나 인형 가방
+11704	토 선생 인형 가방
+11705	고미 학생 인형 가방
+11706	신비한 시간의 마법 빗자루
+11707	신비한 공간의 마법 빗자루
+11720	눈꽃고래 미니돌
+11721	은하고래 미니돌

@@ -2666,6 +2666,18 @@ set("C4_human")
 
 
 	folder("char\chapter4\human\anim")
+	
+	
+	"female_foxball01_sit"
+		0:hideequip(false)
+		0:lookat(off)		
+		0:hand(both, palm)
+		
+	"male_foxball01_sit"	
+		0:hideequip(false)
+		0:lookat(off)		
+		0:hand(both, palm)	
+	
 	"male_happytime_sit"
 		0:lookat(off)		
 		0:hand(both, palm)	
@@ -13413,6 +13425,17 @@ endset
 set("C4_giant")
 
 	folder("char\chapter4\giant\anim")
+	
+	
+		"giant_female_foxball01_sit"
+			0:hideequip(false)
+			0:lookat(off)		
+			0:hand(both, palm)
+			
+		"giant_foxball01_sit"	
+			0:hideequip(false)
+			0:lookat(off)		
+			0:hand(both, palm)	
 	
 		"giant_happytime_sit"
 			0:lookat(off)		
@@ -27477,6 +27500,8 @@ set("social motion")
 	
 	folder("char\chapter4\human\anim\social_motion")
 	
+
+	
 	"female_tranceformanimal"
 	0:lookat(off)
     0:hand(both, fist)
@@ -27536,6 +27561,7 @@ set("social motion")
 	
 	
 		"female_natural_gesture_s16_01"
+			0:hideequip(false)
 			0:lookat(off)
 			0:hand(right,palm)
 			27:hand(right,fist)
@@ -27546,6 +27572,7 @@ set("social motion")
 		
 		
 		"male_natural_gesture_s16_01"
+			0:hideequip(false)
 			0:lookat(off)
 			0:hand(right,palm)
 			27:hand(right,fist)
@@ -32874,7 +32901,25 @@ set("social motion")
 		80:hand(right, fist)
 		110:hand(right, palm)
 		111:generic("custom_mesh(weapon:tool_darknessmoon)")
-		768:jump(408)		
+		768:jump(408)	
+
+	"female_villainrabbit"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)
+		88:hand(right, fist)
+		136:hand(right, palm)
+		136:generic("custom_mesh(weapon:tool_villainrabbit)")
+		1200:jump(438)		
+
+	"male_villainrabbit"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)
+		88:hand(right, fist)
+		136:hand(right, palm)
+		136:generic("custom_mesh(weapon:tool_villainrabbit)")
+		1200:jump(438)
 
 	"female_whiteoftheknights"
 		0:lookat(off)
@@ -32883,6 +32928,7 @@ set("social motion")
 		59:hand(right, fist)
 		59:generic("custom_equip(weapon:tool_whiteoftheknights)")
 		90:hand(left, fist)
+		97:effect("whiteoftheknights",0,1)
 		137:hand(right, palm)
 		142:hand(left, palm)
 		655:jump(326)	
@@ -32894,6 +32940,7 @@ set("social motion")
 		59:hand(right, fist)
 		59:generic("custom_equip(weapon:tool_whiteoftheknights)")
 		90:hand(left, fist)
+		97:effect("whiteoftheknights",0,1)
 		137:hand(right, palm)
 		142:hand(left, palm)
 		655:jump(326)	
@@ -35472,7 +35519,8 @@ set("monster_scarecro")
 
 	endfolder
 endset
-
+ 
+ 
 ////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////// ´Á´ë¸ð¼Ç set ////////////////////////////////////
 
@@ -35583,7 +35631,12 @@ set("monster_wolf01")
 			
 		"wolf01_natural_BitingOfDeath"
 			0:lookat(off)
-			226:jump(30)
+			
+		"wolf01_natural_BitingOfDeathprocess"
+		0:lookat(off)
+		196:jump(0)
+	    10:effect("bloodbite001",0,1)		
+			
 			
 	endfolder
 
@@ -49162,10 +49215,28 @@ set("phoenix")
 			0:lookat(off)
 			0:effectoff("pet_whale_sleep")
 			0:effectoff("pet_heart_whale")	
-		    0:effect("water_jump_001")			
-		    0:effect("water_jump_002")						
+			0:effect("water_jump_001")			
+		    0:effect("water_jump_002")							
 			0:sound("data/sound/Whale_Jump_1.wav")
 			35:sound("data/sound/Whale_Jump_2.wav")
+			
+        "pet_whale_WhaleJump02"
+			0:lookat(off)
+			0:effectoff("pet_whale_sleep")
+			0:effectoff("pet_heart_whale")	
+		    0:effect("whale_snow_jump_01")			
+		    0:effect("whale_snow_jump_02")						
+			0:sound("data/sound/Whale_Jump_1.wav")
+			35:sound("data/sound/Whale_Jump_2.wav")
+
+        "pet_whale_WhaleJump03"
+			0:lookat(off)
+			0:effectoff("pet_whale_sleep")
+			0:effectoff("pet_heart_whale")	
+		    0:effect("whale_Galaxy_jump_01")			
+		    0:effect("whale_Galaxy_jump_02")						
+			0:sound("data/sound/Whale_Jump_1.wav")
+			35:sound("data/sound/Whale_Jump_2.wav")				
 
         "pet_whale_WaterPulse"
 			0:lookat(off)
@@ -53865,6 +53936,10 @@ set("monster_Elemental")
 
 		"ElementalMonster_guard"
 			0:lookat(off)
+			
+        "ElementalMonster_SuicideExplosionPrepare"
+			87:jump(83)
+			
 
 	endfolder
 
@@ -57345,6 +57420,15 @@ set("prop concerned - temporary")
 		
 
 	endfolder			
+	
+	
+	folder("::dg_glennbearna_door01")	
+		"dg_glennbearna_door01_opening"			
+		0:sound("data\sound\golem_summoned.wav")
+		0:quake(15,15,15,2000)
+		
+	endfolder		
+	
 	
 	folder("::scene_prop_judgebag01")	
 		"scene_prop_judgebag01"			
@@ -65334,7 +65418,7 @@ set("G14_npc")
 
 	"male_npc_alun_talk"
 		0:hideequip(true)
-		0:lookat(off)
+		0:lookat(on)
 		0:hand (right, palm)		
 		0:hand (left, fist)		
 		
@@ -65350,7 +65434,7 @@ set("G14_npc")
 		649:hand (right, palm)	
 		
 	"male_npc_laoire_talk"
-		0:lookat(off)
+		0:lookat(on)
 		0:hand (both, fist)
 		
 	
@@ -65365,8 +65449,27 @@ set("G14_npc")
 		0:hand(both, palm)
 		
 	"male_c4_npc_gilach_talk"
-		0:lookat(off)		
+		0:lookat(on)		
 		0:hand(both, palm)	
+		
+	"male_npc_loiscneach_stand"
+		0:lookat(off)
+		0:hand(both, palm)
+		1:generic("custom_equipmentmesh(1, male_c4_NPC_loiscneach_bss_ani)")
+		100:hand(right, fist)		
+		149:hand(right, palm)
+		103:hand(left, fist)		
+		151:hand(left, palm)			
+
+		
+
+	"male_npc_loiscneach_talk"
+		0:lookat(on)
+		0:hand(both, palm)	
+		1:generic("custom_equipmentmesh(1, male_c4_NPC_loiscneach_bss_ani)")		
+		
+
+
 	
 	
 
@@ -65376,7 +65479,7 @@ set("G14_npc")
 	    0:hand(both, palm)
 	
 	"male_c4_npc_bleiddian_talk"	
-		0:lookat(off)	
+		0:lookat(on)	
 		0:hideequip(true)
 	    0:hand(both, palm)
 		
@@ -86692,6 +86795,7 @@ set("social motion")
 	
 	
 		"giant_female_natural_gesture_s16_01"
+			0:hideequip(false)
 			0:lookat(off)
 			0:hand(right,palm)
 			27:hand(right,fist)
@@ -86701,6 +86805,7 @@ set("social motion")
 		
 		
 		"giant_natural_gesture_s16_01"
+			0:hideequip(false)
 			0:lookat(off)
 			0:hand(right,palm)
 			27:hand(right,fist)
@@ -92969,6 +93074,24 @@ set("social motion")
 		109:hand(right, palm)
 		111:generic("custom_mesh(weapon:giant_tool_darknessmoon)")
 		1128:jump(408)
+		
+	"giant_female_villainrabbit"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)
+		88:hand(right, fist)
+		136:hand(right, palm)
+		136:generic("custom_mesh(weapon:giant_female_tool_villainrabbit)")
+		1200:jump(438)		
+
+	"giant_villainrabbit"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)
+		88:hand(right, fist)
+		136:hand(right, palm)
+		136:generic("custom_mesh(weapon:giant_tool_villainrabbit)")
+		1200:jump(438)		
 
     "giant_female_whiteoftheknights"
 		0:lookat(off)
@@ -92977,6 +93100,7 @@ set("social motion")
 		59:hand(right, fist)
 		59:generic("custom_equip(weapon:giant_tool_whiteoftheknights)")
 		90:hand(left, fist)
+	    97:effect("whiteoftheknights",0,1)
 		137:hand(right, palm)
 		142:hand(left, palm)
 		655:jump(326)	
@@ -92988,6 +93112,7 @@ set("social motion")
 		59:hand(right, fist)
 		59:generic("custom_equip(weapon:giant_tool_whiteoftheknights)")
 		90:hand(left, fist)
+		97:effect("whiteoftheknights",0,1)
 		137:hand(right, palm)
 		142:hand(left, palm)
 		655:jump(326)
@@ -105154,7 +105279,71 @@ set("C4_monster")
 	
 		
     endfolder
+
+ ////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////// Ä®¸®¾ÆÈå  ////////////////////////////////////
+	folder("char/chapter4/monster/anim/cailleach")	
+
+//cailleach01
+
+	"mon_cailleach01_stand"
+		0:lookat(off)
+
+	"mon_cailleach01_walk"
+		0:lookat(off)
 		
+	"mon_cailleach01_groggy_start"
+		0:lookat(off)
+		
+	"mon_cailleach01_groggy_loop"
+		0:lookat(off)
+
+	"mon_cailleach01_groggy_end"
+		0:lookat(off)
+
+	"mon_cailleach01_dead"
+		0:lookat(off)
+
+	"mon_cailleach01_coldfire_process"
+		0:lookat(off)
+
+	"mon_cailleach01_frostshock_process01"
+		0:lookat(off)
+		110:jump(80)		
+
+	"mon_cailleach01_frostshock_process02"
+		0:lookat(off)	
+
+	"mon_cailleach01_burningfield_process"
+		0:lookat(off)	
+
+	"mon_cailleach01_adventofdeath_prepare"
+		0:lookat(off)	
+		100:jump(30)
+		
+	"mon_cailleach01_adventofdeath_process"
+		0:lookat(off)	
+	
+	
+//cailleach02
+	
+	"mon_cailleach02_stand"
+		0:lookat(off)	
+	
+	"mon_cailleach02_destructionbeam_process_01"
+		0:lookat(off)
+		103:jump(68, true)
+		
+		
+	"mon_cailleach02_icearrow_process_01"
+		0:lookat(off)		
+		204:jump(163)		
+		
+	 endfolder
+
+
+
+	
 	folder("char/chapter4/monster/anim/Cromcruach")	
 	
 		"mon_balloon_hit"
@@ -106780,16 +106969,20 @@ set("C4_monster")
 	0:hand(both, palm)
 	6:hand(both, fist)
 	102:hand(both, palm)
-	32:linkframework(1, "race:900006", "HandtoolR", "data/gfx/char/chapter3\monster\anim\beholder/snowball01_stand_friendly").
-	72:linkframework(1)
+	
 	
 	"ogre_rabbit_SnowballThrowing"
 	0:lookat(off)
     0:hand(both, fist)
+	32:generic("custom_mesh(0:ogre01_tool_snow)")
+	72:generic("custom_mesh(0)")
+    17:effect("snow_end01")
+    17:effect("snow_end02")	
 	
 	"ogre_rabbit_RollingAttack"
 	0:lookat(off)
     0:hand(both, fist)
+    10:effect("ograbbit_roll_01",0,1)
 	
 	"ogre_rabbit_SleepingRabbit"
 	0:lookat(off)

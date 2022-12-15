@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
-!define UOSHORTVERSION        "400"
-!define UOLONGVERSION         "0.29.55"
+!define UOSHORTVERSION        "401"
+!define UOLONGVERSION         "0.30.55"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -11265,6 +11265,7 @@ StrCpy $FontBMP "ydygo550.bmp"
 ${FontBMPCreate} $FontBMP
 
 Delete "$INSTDIR\package\uotiara_00001.it"
+Delete "$INSTDIR\data\features.xml.compiled"
 Delete "$INSTDIR\data\db\layout2\gameclock\GameClockView.xml"
 Delete "$INSTDIR\data\db\layout2\gameclock\GameClockView_Weather.xml"
 Delete "$INSTDIR\data\db\ai\local\aidescdata_autobot_vocaloid.xml"

@@ -4267,13 +4267,13 @@
 6334	Player Count Range
 6335	First Application Target Range
 6336	Following Application Target Range
-6337	엘레멘탈 인젝션 : 파이어
-6338	엘레멘탈 인젝션 : 아이스
-6339	엘레멘탈 인젝션 : 라이트닝
-6340	어드밴스드 디펜스
-6341	파이어 리프 어택
-6342	아이스 윈드밀
-6343	라이트닝 스매시
+6337	Instill Flame
+6338	Instill Frost
+6339	Instill Thunder
+6340	Dauntless Defense
+6341	Blazing Assault Slash
+6342	Shattering Windmill
+6343	Dynavolt Smash
 6344	Effect Activation Wait Time
 6345	Life Ender Max Range for Target Setting
 6346	Life Ender Max Quantity for Target Setting
@@ -4300,29 +4300,29 @@
 6375	Memorial Link
 6376	You cannot use this skill right now. Try completing the Memoir first.
 6377	A bonding skill, created by Blaanid, that links souls together. Linked souls can share each other's memories and experiences and can bring any dormant power within them to the very limit. Multiple stats of soul linked pets and casters increase, and the pet earns the same EXP that the caster earns through defeating enemies. Also, pets can distract enemies that have recognized the caster, granting the caster a large boost to their Defense and Protection. However, these effects are affected by the pet's stats, level, and Memorial Link rank. Since it acts with the same principles, it cannot be active at the same time as Divine Links.
-6378	치유의 손길
-6379	구원의 메아리
-6380	활력의 목소리
-6381	송 오브 하모닉 마이너
-6382	정화의 고동
-6383	붕괴의 파동
-6384	수호의 축복
-6385	소생의 찬가
-6386	엘레멘탈 인젝션은 장비하고 있는 근접 재능 무기에 각종 엘레멘탈을 부여하여 해당 속성 한 단계 증가와 대미지 향상 외에도 각종 마법을 동시에 시전할 수 있게 하는 등 여러 특별한 효과를 만들어내는 엘레멘탈 나이트의 아이덴티티와도 같은 기술이다. 그중 파이어 엘레멘탈은 일반 공격으로 넓은 범위의 적을 한 번에 공격하는 효과를 받을 수 있으며 불 속성 마법 사용 시 시전 속도 상승과 함께 최대 대미지의 5% 만큼 마법 공격력이 상승되어 적용된다. 동시 시전한 마법은 Ctrl+우클릭으로 사용할 수 있으며 무기의 피어싱 효과를 받을 수 없다. 또한 시전 시간은 50% 이하로는 줄어들지 않는다. 숙련될수록 엘레멘탈을 부여하는 속도가 빨라진다.
-6387	엘레멘탈 인젝션은 장비하고 있는 근접 재능 무기에 각종 엘레멘탈을 부여하여 해당 속성 한 단계 증가와 대미지 향상 외에도 각종 마법을 동시에 시전할 수 있게 하는 등 여러 특별한 효과를 만들어내는 엘레멘탈 나이트의 아이덴티티와도 같은 기술이다. 그중 아이스 엘레멘탈은 일반 공격으로 공격한 대상의 이동 속도와 공격 속도를 늦추고 얼음 속성 마법 사용 시 시전 속도 상승과 함께 최대 대미지의 5% 만큼 마법 공격력이 상승되어 적용된다. 동시 시전한 마법은 Ctrl+우클릭으로 사용할 수 있으며 무기의 피어싱 효과를 받을 수 없다. 또한 시전 시간은 50% 이하로는 줄어들지 않는다. 숙련될수록 엘레멘탈을 부여하는 속도가 빨라진다.
-6388	엘레멘탈 인젝션은 장비하고 있는 근접 재능 무기에 각종 엘레멘탈을 부여하여 해당 속성 한 단계 증가와 대미지 향상 외에도 각종 마법을 동시에 시전할 수 있게 하는 등 여러 특별한 효과를 만들어내는 엘레멘탈 나이트의 아이덴티티와도 같은 기술이다. 그중 라이트닝 엘레멘탈은 일반 공격 시 상대의 방어와 보호, 그리고 헤비 스탠더 효과를 일정량 무시하게 해주며 전기 속성 마법 사용 시 시전 속도 상승과 함께 최대 대미지의 5% 만큼 마법 공격력이 상승되어 적용된다. 동시 시전한 마법은 Ctrl+우클릭으로 사용할 수 있으며 무기의 피어싱 효과를 받을 수 없다. 또한 시전 시간은 50% 이하로는 줄어들지 않는다. 숙련될수록 엘레멘탈을 부여하는 속도가 빨라진다.
-6389	다수와의 전투 중에는 수비 자세를 계속 유지할 수 있는 능력도 필요하다. 어드밴스드 디펜스는 적의 맹공 속에서도 디펜스 상태를 계속 유지, 그리고 찰나의 빈틈을 노려 주변의 적들에게 피해를 줄 수 있는 기술이다. 방어 성공 효과는 사용자가 수련한 디펜스 스킬의 효과를 따르며, 공격을 막아낸 횟수에 따라 반격 대미지가 달라진다. (최대 3회)
-6390	빠르게 날아올라 적들을 타격하고 빠르게 후퇴하는, 강력함과 기동성을 동시에 갖춘 기술. 다운 어택을 응용한 이 기술을 사용하면 크게 점프하여 대상과 주변을 화염으로 휩싸인 무기로 공격 후 그 폭발을 이용해 다시 원하는 위치로 튕겨나가듯 빠르게 이동할 수 있다. 기술이 발동된 후 폭발이 일어나기 전의 짧은 순간에 퇴각 위치를 선택하는 것이 중요하다. 다운 어택을 응용한 기술인 만큼 사용자의 다운 어택 대미지와 공격 가능 거리의 영향을 받으며, 엘레멘탈 인젝션 : 파이어가 활성화된 상태라면 좀 더 큰 대미지를 줄 수 있다.
-6391	둘러싼 적을 윈드밀로 1차 공격과 함께 얼어붙게 만들어 후속 공격을 이어갈 수 있게 만드는 기술. 공격을 받은 적들은 일정 시간 얼어붙었다가 얼음이 깨질 때 추가 대미지를 입는다. 윈드밀을 응용한 기술인 만큼 사용자의 윈드밀 범위와 대미지의 영향을 받으며, 엘레멘탈 인젝션 : 아이스가 활성화된 상태라면 빙결 유지 시간과 추가 대미지가 증가한다. 넘어지지 않는 적들은 얼지 않으며 이미 아이스 윈드밀로 얼어붙은 적 또한 같은 스킬로 다시 얼릴 수 없다.
-6392	라이트닝 엘레멘탈이 실린 무기로 스매시를 시전해 전방의 적들에게 번개를 내리치는 기술. 스매시를 응용한 기술인 만큼 사용자의 스매시 대미지의 영향을 받으며 이 기술의 숙련 정도에 따른 대미지가 추가된다. 엘레멘탈 인젝션 : 라이트닝이 활성화된 상태라면 대미지가 더욱 증가한다.
-6393	엘레멘탈 나이트의 아르카나 레벨을 8 이상으로 올린다.
-6394	엘레멘탈 나이트의 아르카나 레벨을 7 이상, 엘레멘탈 인젝션 : 파이어 스킬의 랭크를 B 랭크 이상으로 올린다.
-6395	엘레멘탈 나이트의 아르카나 레벨을 7 이상, 엘레멘탈 인젝션 : 아이스 스킬의 랭크를 B 랭크 이상으로 올린다.
-6396	엘레멘탈 나이트의 아르카나 레벨을 7 이상, 엘레멘탈 인젝션 : 라이트닝 스킬의 랭크를 B 랭크 이상으로 올린다.
-6397	치유의 손길은 위급한 상황에서 아군의 생명력을 빠르게 회복시킬 수 있다. 힐링 스킬과 동일한 기반과 원리를 갖지만 아르카나를 활용해 회복력을 대폭 강화했다. 힐링 스킬의 회복력에 큰 영향을 받으며, 해당 스킬의 회복력이 높을 수록 효과가 증폭된다.
-6398	구원의 메아리는 지정 범위 내 파티원들의 생명력을 회복시킬 수 있다. 파티 힐링 스킬과 동일한 기반과 원리를 갖지만 아르카나를 활용해 회복력을 대폭 강화했다. 파티 힐링 스킬의 회복력에 큰 영향을 받으며, 해당 스킬의 회복력이 높을 수록 효과가 증폭된다.
-6399	활력의 목소리는 넓은 범위 내 파티원들의 생명력을 지속적으로 회복시키고 속성에 대한 내성을 증가시킨다. 회복력이 높은 것은 아니지만 지속적인 아르카나의 작용으로 긴 시간 효과가 지속된다. 매직 실드 스킬의 랭크가 높을 수록 속성 내성의 효과가 증폭된다.
-6400	시전자를 중심으로 일정 범위 내 적들에게 강력한 음파를 이용해 공격한다. 스킬을 사용하는 동안 시전자에게는 거대한 음압이 결집되며 스킬 사용이 종료되면 폭발하듯 방출된다. 이때 방출되는 에너지는 스킬의 지속 시간이 길어질 수록 더 강력해진다. 다만, 스킬을 지속하는 동안 시전자는 움직일 수 없으며, 생명력과 마나가 급격히 소모되기 때문에 사용에 주의가 필요하다.
-6401	시전자를 중심으로 일정 범위 내 적들의 전투 지속력을 일시적으로 크게 감소시킨다. 음악 버프 스킬과 같은 기반과 원리를 갖지만 아르카나를 활용해 성능을 대폭 강화했다. 죽음의 무도 스킬과 환상의 코러스 스킬의 영향을 크게 받으며 해당 스킬들의 랭크가 높을 수록 효과가 더 증폭된다.
-6402	시전자를 중심으로 일정 범위 내 파티원들의 생존력을 일시적으로 크게 증가시킨다. 음악 버프 스킬과 같은 기반과 원리를 갖지만 아르카나를 활용해 성능을 대폭 강화했다. 인내의 노래 스킬의 영향을 크게 받으며 해당 스킬의 랭크가 높을 수록 효과가 더 증폭된다.
-6403	피닉스의 깃털이 가지고 있는 부활 효과를 아르카나를 활용해 마법으로 공식화했다. 마나의 흐름을 이용해 효과를 증폭시켜 부활시킬 파티원의 거리가 멀어도 문제가 없으며 회복력도 대폭 증가했다. 응급 치료 스킬의 영향을 크게 받으며 해당 스킬의 랭크가 높을 수록 효과가 더 증폭된다.
+6378	Hand of Restoration
+6379	Echoes of Salvation
+6380	Voice of Vitality
+6381	Song of Harmonic Minor
+6382	Pulse of Purification
+6383	Pall of Ruination
+6384	Blessing of Protection
+6385	Hymn of Resurrection
+6386	Elemental Instillment is a practice core to the identity of Elemental Knights. These martial invocations imbue a warrior's weapon with a variety of special effects, including a level of the instilled element, increased damage, and enabling spells to be readied while fighting. Imbuing one's weapon with fire-elemental energies grants normal attacks the ability to hit enemies in a larger area, as well as speeding the casting of fire magic and adding 5% of Max Damage to the caster's Magic Attack. The spell being readied during combat can be cast with Ctrl + Right Click, and is not affected by the Piercing stat of the equipped weapon, though its charge time cannot be reduced below 50%. The more adept one becomes at instilling an element, the faster the process will be, until it can be performed almost instantaneously.
+6387	Elemental Instillment is a practice core to the identity of Elemental Knights. These martial invocations imbue a warrior's weapon with a variety of special effects, including a level of the instilled element, increased damage, and enabling spells to be readied while fighting. Imbuing one's weapon with ice-elemental energies grants normal attacks the ability to decrease the target's movement and attack speed, as well as speeding the casting of ice magic and adding 5% of Max Damage to the caster's Magic Attack. The spell being readied during combat can be cast with Ctrl + Right Click, and is not affected by the Piercing stat of the equipped weapon, though its charge time cannot be reduced below 50%. The more adept one becomes at instilling an element, the faster the process will be, until it can be performed almost instantaneously.
+6388	Elemental Instillment is a practice core to the identity of Elemental Knights. These martial invocations imbue a warrior's weapon with a variety of special effects, including a level of the instilled element, increased damage, and enabling spells to be readied while fighting. Imbuing one's weapon with lightning-elemental energies grants normal attacks the ability to ignore an enemy's Defense and Protection and partially negate the effects of the Heavy Stander effect, as well as speeding the casting of lightning magic and adding 5% of Max Damage to the caster's Magic Attack. The spell being readied during combat can be cast with Ctrl + Right Click, and is not affected by the Piercing stat of the equipped weapon, though its charge time cannot be reduced below 50%. The more adept one becomes at instilling an element, the faster the process will be, until it can be performed almost instantaneously.
+6389	Maintaining a formidable defense is important when facing multiple enemies. Dauntless Defense is a powerful stance that keeps one's guard up even amid a flurry of blows, turning the tables to damage foes by exploiting the gaps in their offensive. The defensive effect relies on a warrior's proficiency with the Defense skill, while the counterattack damage grows with the number of attacks blocked (up to 3 times).
+6390	A technique in which one leaps in to strike enemies with a weapon wreathed in flame, then bounds out of harm's way just as quickly through the use of the force generated by the explosion. Being aware of where one wishes to end up is crucial to the effective use of this skill. Developed as an outgrowth of the Assault Slash skill, it is influenced by the user's Assault Slash damage and range, and deals more damage if Instill Flame is active.
+6391	A technique in which one enhances the spin of their Windmill strike to freeze surrounding enemies, leaving them vulnerable to a follow-up attack. Enemies hit by this attack are left frozen for a time and take additional damage when the ice shatters. Developed as an outgrowth of the Windmill skill, it is influenced by the user's Windmill radius and damage, and freezes enemies longer and deals more damage if Instill Frost is active. Enemies that aren't knocked down and enemies that are have already been frozen by Shattering Windmill cannot be frozen.
+6392	A technique in which one smashes downward, striking all enemies in a line with a shower of electric energy. Developed as an outgrowth of the Smash skill, it is influenced by the user's Smash damage, with more damage added based on one's proficiency with this skill, and deals more damage if Instill Thunder is active.
+6393	Raise the Elemental Knight Arcana to Level 8 or higher.
+6394	Raise the Elemental Knight Arcana to Level 7 or higher and the Instill Flame Skill to Rank B or higher.
+6395	Raise the Elemental Knight Arcana to Level 7 or higher and the Instill Frost Skill to Rank B or higher.
+6396	Raise the Elemental Knight Arcana to Level 7 or higher and the Instill Thunder Skill to Rank B or higher.
+6397	Hand of Restoration can quickly restore the HP of even allies in critical condition. While it shares a basis and fundamentals with the Healing skill, its restorative potency has been substantially increased through the power of Arcana. Its full power is greatly influenced by the caster's Healing skill, with higher ranks of Healing further amplifying Hand of Restoration's potency.
+6398	Echoes of Salvation restores the HP of all party members within range. While it shares a basis and fundamentals with the Party Healing skill, its restorative potency has been substantially increased through the power of Arcana. Its full power is greatly influenced by the Party Healing skill, with higher ranks of Party Healing amplifying Echoes of Salvation's potency.
+6399	Voice of Vitality continuously restores the HP of all party members within range of the caster and increases their Elemental Resistance. The HP restored by each individual pulse may be small, but the power of Arcana lends the effect a considerable duration. Higher ranks of the Shield skills will further increase the Elemental Resistance granted by Voice of Vitality.
+6400	Pulse of Purification blasts enemies within range of the caster with waves of saintly sound. Pressure continues to build while the skill is being channeled and is explosively released when the skill ends, with the final blast growing in power alongside the skill's duration. Using this skill renders the caster immobile and rapidly consumes HP and MP, so one must exercise prudence in its use.
+6401	Pall of Ruination drastically weakens enemies within range of the caster for a short time. While it shares a basis and fundamentals with the Music Buff skills, its effects have been greatly altered through the power of Arcana. Its power is greatly influenced by the Dance of Death and Fantastic Chorus skills, with higher ranks of both amplifying Pall of Ruination's effects.
+6402	Blessing of Protection greatly bolsters the survivability of all party members within range of the caster for a short time. While it shares a basis and fundamentals with the Music Buff skills, its effects have been substantially enhanced through the power of Arcana. Its power is greatly influenced by the Enduring Melody skill, with higher ranks of Enduring Melody amplifying Blessing of Protection's effects.
+6403	Hymn of Resurrection is a potent spell that uses the power of Arcana to simulate the reviving power of a Phoenix Feather. The effect has been magnified through a mastery of mana such that even from a great distance, it can restore an ally to consciousness. Its power is greatly influenced by the First Aid skill, with higher ranks of First Aid amplifying Hymn of Resurrection's potency.

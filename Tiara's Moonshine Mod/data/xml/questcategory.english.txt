@@ -71,6 +71,6 @@
 71	[Glyphwrighting]
 72	Society Sponsorship
 73	[Brave Boost]
-74	아르카나
-75	[엘레멘탈 나이트]
-76	[세인트 바드]
+74	Arcana
+75	[Elemental Knight]
+76	[Harmonic Saint]
