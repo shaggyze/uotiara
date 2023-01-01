@@ -9814,7 +9814,7 @@
 11190	A title given to a member of the Aliech Kingdom Special Expeditionary Force who overcame the three crises of the Moon Stone Strikes, nightmares, and the conflict of peoples to face the Order of the Black Moon.
 11191	The holder of the title displayed steadier leadership through the three crises than anyone else.
 11192	The holder of the title stood fast to their convictions, rising above confusion and disorder during the three crises.
-11193	The holder of the title kept a cool head, using just enough force to get through the chaotic three crises.
+11193	The holder of the title kept a cool head, using just enough force to get through the three chaotic crises.
 11194	A title given to those who faced continuous crises and triumphed as a member of the Aliech Kingdom Expeditionary Force.
 11195	A title given to Milletians who completed all G24 quests. Awarded only if the Milletian took an active role in solving problems.
 11196	A title given to Milletians who completed all G24 quests. Awarded if the Milletian displayed flexibility in solving problems.
@@ -12527,13 +12527,13 @@
 14044	the Master of Chain Burst
 14045	the Master of Bachram Explosion
 14046	the Master Chef
-14047	the Matser of Final Strike
-14048	the Matser of Stampede
-14049	the Matser of Fynni Catching
-14050	the Matser of Fynni Blossoming
-14051	the Matser of Fynn Crafting
-14052	the Matser of Fynn Bead Burnishing
-14053	the Matser of Fynn Sync
+14047	the Master of Final Strike
+14048	the Master of Stampede
+14049	the Master of Fynni Catching
+14050	the Master of Fynni Blossoming
+14051	the Master of Fynn Crafting
+14052	the Master of Fynn Bead Burnishing
+14053	the Master of Fynn Sync
 14054	the Master of Glyph Design
 14055	the Master of Glyph Formulation
 14056	the Master of Glyph Evocation
@@ -12731,13 +12731,13 @@
 14248	the Master of Chain Burst
 14249	the Master of Bachram Explosion
 14250	the Master Chef
-14251	the Matser of Final Strike
-14252	the Matser of Stampede
-14253	the Matser of Fynni Catching
-14254	the Matser of Fynni Blossoming
-14255	the Matser of Fynn Crafting
-14256	the Matser of Fynn Bead Burnishing
-14257	the Matser of Fynn Sync
+14251	the Master of Final Strike
+14252	the Master of Stampede
+14253	the Master of Fynni Catching
+14254	the Master of Fynni Blossoming
+14255	the Master of Fynn Crafting
+14256	the Master of Fynn Bead Burnishing
+14257	the Master of Fynn Sync
 14258	the Master of Glyph Design
 14259	the Master of Glyph Formulation
 14260	the Master of Glyph Evocation
@@ -12935,13 +12935,13 @@
 14452	the Master of Chain Burst
 14453	the Master of Bachram Explosion
 14454	the Master Chef
-14455	the Matser of Final Strike
-14456	the Matser of Stampede
-14457	the Matser of Fynni Catching
-14458	the Matser of Fynni Blossoming
-14459	the Matser of Fynn Crafting
-14460	the Matser of Fynn Bead Burnishing
-14461	the Matser of Fynn Sync
+14455	the Master of Final Strike
+14456	the Master of Stampede
+14457	the Master of Fynni Catching
+14458	the Master of Fynni Blossoming
+14459	the Master of Fynn Crafting
+14460	the Master of Fynn Bead Burnishing
+14461	the Master of Fynn Sync
 14462	the Master of Glyph Design
 14463	the Master of Glyph Formulation
 14464	the Master of Glyph Evocation
@@ -13139,13 +13139,13 @@
 14656	the Master of Chain Burst
 14657	the Master of Bachram Explosion
 14658	the Master Chef
-14659	the Matser of Final Strike
-14660	the Matser of Stampede
-14661	the Matser of Fynni Catching
-14662	the Matser of Fynni Blossoming
-14663	the Matser of Fynn Crafting
-14664	the Matser of Fynn Bead Burnishing
-14665	the Matser of Fynn Sync
+14659	the Master of Final Strike
+14660	the Master of Stampede
+14661	the Master of Fynni Catching
+14662	the Master of Fynni Blossoming
+14663	the Master of Fynn Crafting
+14664	the Master of Fynn Bead Burnishing
+14665	the Master of Fynn Sync
 14666	the Master of Glyph Design
 14667	the Master of Glyph Formulation
 14668	the Master of Glyph Evocation
@@ -13945,6 +13945,34 @@
 15567	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 15568	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 15569	행운 30 증가
+15584	Golden Rabbit
+15585	Rose Rabbit
+15586	Azure Rabbit
+15587	Legendary Jade Rabbit
+15588	Golden Rabbit
+15589	Rose Rabbit
+15590	Azure Rabbit
+15591	Legendary Jade Rabbit
+15592	Golden Rabbit
+15593	Rose Rabbit
+15594	Azure Rabbit
+15595	Legendary Jade Rabbit
+15596	Golden Rabbit
+15597	Rose Rabbit
+15598	Azure Rabbit
+15599	Legendary Jade Rabbit
+15600	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15601	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15602	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15603	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15604	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15605	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15606	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15607	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15608	Luck +30
+15609	Luck +30
+15610	Luck +30
+15611	Luck +30
 15619	눈꽃 나비
 15620	눈꽃 나비
 15621	눈꽃 나비
