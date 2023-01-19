@@ -9250,22 +9250,22 @@
 11478	기사 아일린
 11479	요리사 아일린
 11480	연회장 직원 아일린
-11481	포들라 인형
-11482	데이르블라 인형
-11483	세라 인형
-11484	인큐버스 킹 인형
-11485	에탄 인형
-11486	엔야 인형
-11487	멀린 인형
-11488	디바 인형
-11489	프로페서 J 인형
-11490	마스터 셰프 인형
-11491	트레저 헌터 인형
-11492	에아렌 인형
-11493	수호자 인형
-11494	파괴자 인형
-11495	톨비쉬
-11496	알터
+11481	Fodla Doll
+11482	Deirbhile Doll
+11483	Sera Doll
+11484	Incubus King Doll
+11485	Etain Doll
+11486	Enya Doll
+11487	Merlin Doll
+11488	Starlet Doll
+11489	Professor J Doll
+11490	Culinary Artist Doll
+11491	Treasure Hunter Doll
+11492	Eiren Doll
+11493	Guardian Doll
+11494	Destroyer Doll
+11495	Talvish
+11496	Altam
 11497	Common Invisible Monsters
 11498	Black Dragon
 11499	Black Dragon
@@ -9350,8 +9350,8 @@
 11642	Mutant Carnivorous Plant
 11643	Mutant Man-eating Plant
 11644	Mutant Man-eating Plant
-11647	화염의 카트시
-11648	청명의 카트시
+11647	Blazing Catsidhe
+11648	Dazzling Catsidhe
 11655	레트로 조
 11657	다루의 스쿠터 (이벤트)
 11660	Ceraunus (Event)
@@ -9370,16 +9370,16 @@
 11690	푸르메재단 방울토마토 온실하우스
 11691	푸르메재단 표고버섯 온실하우스
 11692	Ceraunus (90 Days)
-11698	눈꽃고래
-11699	은하고래
+11698	Glacial Whale
+11699	Celestial Whale
 11700	아이던 인형 가방
 11701	네일 인형 가방
 11702	엘레노아 인형 가방
 11703	셰나 인형 가방
 11704	토 선생 인형 가방
 11705	고미 학생 인형 가방
-11706	신비한 시간의 마법 빗자루
-11707	신비한 공간의 마법 빗자루
-11719	연수
-11720	눈꽃고래 미니돌
-11721	은하고래 미니돌
+11706	Mystical Time Broom
+11707	Mystical Space Broom
+11719	Nianshou
+11720	Glacial Whale Mini-Gem
+11721	Celestial Whale Mini-Gem

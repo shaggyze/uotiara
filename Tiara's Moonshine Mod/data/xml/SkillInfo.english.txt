@@ -3633,13 +3633,13 @@
 5493	Circle of Magic
 5494	Gummy Attack
 5495	Piercing Howl
-5496	Blooming Nostalgia
-5497	Draws in nearby energy through the mouth, then lets it out to attack targeted enemies. Catsidhe's attacks reduce defense, protection, and movement speed, and have a chance to inflict Stun on most enemies.
-5499	Draws in nearby energy through the mouth, then lets it out to forcefully attack multiple enemies. Catsidhe's attacks temporarily leave a special mark on enemies, and earn additional EXP when marked enemies are defeated. This mark cannot be left on certain special monsters such as boss monsters. Enemies hit by Sharp Howling may also be affected by Stun.
-5500	Catsidhe recalls memories of their hometown, Fairy Village, and shares them with their owner. If Catsidhe is summoned nearby, the Life Talent selected when Catsidhe was first created receives a Skill Training x2 EXP effect.
-5501	Draws in nearby energy through the mouth, then lets it out to attack targeted enemies. Catsidhe's attacks reduce defense, protection, and movement speed, and have a chance to inflict Stun on most enemies.
-5503	Draws in nearby energy through the mouth, then lets it out to forcefully attack multiple enemies. Catsidhe's attacks temporarily leave a special mark on enemies, and earn additional EXP when marked enemies are defeated. This mark cannot be left on certain special monsters such as boss monsters. Enemies hit by Sharp Howling may also be affected by Stun.
-5504	Catsidhe recalls memories of their hometown, Fairy Village, and shares them with their owner. If Catsidhe is summoned nearby, the Life Talent selected when Catsidhe was first created receives a Skill Training x2 EXP effect.
+5496	Blooming\nNostalgia
+5497	Draws in nearby energy through the mouth, then forcefully expels it to attack targeted enemies. Catsidhe's attacks reduce defense, protection, and movement speed, and have a chance to inflict Stun on most enemies.
+5499	Draws in nearby energy through the mouth, then forcefully expels it to attack multiple enemies. Catsidhe's attacks temporarily leave a special mark on enemies, granting additional EXP when the marked enemies are defeated. This mark cannot be left on certain special monsters, such as boss monsters. Enemies hit by Sharp Howling may also be affected by Stun.
+5500	Catsidhe recalls memories of its hometown, the Fairy Village, and shares them with its owner. If Catsidhe is summoned nearby, the Life or Combat Talent selected when Catsidhe was first created receives a 2x Skill Training EXP effect.
+5501	Draws in nearby energy through the mouth, then forcefully expels it to attack targeted enemies. Catsidhe's attacks reduce defense, protection, and movement speed, and have a chance to inflict Stun on most enemies.
+5503	Draws in nearby energy through the mouth, then forcefully expels it to attack multiple enemies. Catsidhe's attacks temporarily leave a special mark on enemies, granting additional EXP when the marked enemies are defeated. This mark cannot be left on certain special monsters, such as boss monsters. Enemies hit by Sharp Howling may also be affected by Stun.
+5504	Catsidhe recalls memories of its hometown, the Fairy Village, and shares them with its owner. If Catsidhe is summoned nearby, the Life or Combat Talent selected when Catsidhe was first created receives a 2x Skill Training EXP effect.
 5505	Skill Range (cm)
 5506	Skill Range (cm)
 5507	Skill Front Range (cm)

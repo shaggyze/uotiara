@@ -27500,6 +27500,58 @@ set("social motion")
 	
 	folder("char\chapter4\human\anim\social_motion")
 	
+	"male_natural_gesture_s17_01"
+		0:lookat(off)
+		0:hand(both, palm)
+		10:hand(right,fist)
+		10:generic("custom_mesh(0:tool_flowerBunch01_ani)")
+		
+		
+		89:effect("flower_appear",0,1)
+		90:generic("custom_mesh(0)")
+		91:hand(right, palm)
+		91:effect("ring_appear",0,1)
+		
+		169:hand(right,fist)
+		170:generic("custom_mesh(1:tool_ring_ani)")
+		170:effect("ring_round",0,1)
+		170:effect("ring_spread",0,1)
+		
+		293:generic("custom_mesh(1)")
+		293:effectoff("ring_appear")
+		293:effectoff("ring_round")
+		293:effectoff("ring_spread")
+		293:effect("ring_disapper",0,1)
+		293:hand(right, palm)
+		304:effect("flower_spread",0,1)
+		305:effect("flower_spread01",0,1)
+		
+	"female_natural_gesture_s17_01"
+		0:lookat(off)
+		0:hand(both, palm)
+		10:hand(right,fist)
+		10:generic("custom_mesh(0:tool_flowerBunch01_ani)")
+		
+		
+		89:effect("flower_appear",0,1)
+		90:generic("custom_mesh(0)")
+		91:hand(right, palm)
+		91:effect("ring_appear",0,1)
+		
+		169:hand(right,fist)
+		170:generic("custom_mesh(1:tool_ring_ani)")
+		170:effect("ring_round",0,1)
+		170:effect("ring_spread",0,1)
+		
+		293:generic("custom_mesh(1)")
+		293:effectoff("ring_appear")
+		293:effectoff("ring_round")
+		293:effectoff("ring_spread")
+		293:effect("ring_disapper",0,1)
+		293:hand(right, palm)
+		304:effect("flower_spread",0,1)
+		305:effect("flower_spread01",0,1)		
+	
 
 	
 	"female_tranceformanimal"
@@ -57430,6 +57482,27 @@ set("prop concerned - temporary")
 	endfolder		
 	
 	
+	folder("::dg_glennbearna_icesword01")	
+		"dg_glennbearna_icesword01_spawn"			
+		440:jump(200)
+		
+	endfolder		
+	
+	folder("::dg_glennbearna_icesspear01")	
+		"dg_glennbearna_icesspear01_spawn"			
+		440:jump(200)
+		
+	endfolder			
+	
+	
+	folder("::dg_glennbearna_door01")	
+		"dg_glennbearna_door01_opened"			
+		107:jump(1)
+		
+	endfolder		
+	
+	
+	
 	folder("::scene_prop_judgebag01")	
 		"scene_prop_judgebag01"			
 		634:jump(253)		
@@ -62332,6 +62405,23 @@ set("Knight")
          	898:jump (319, true)	
 			
 			
+		"female_ToyHammer_blunt_stand"
+            0:hand(right,fist)
+            0:hand(left,fist)
+            0:lookat(off)
+            177:hand(left, palm)
+            255:hand(left,fist)
+        
+        "male_ToyHammer_blunt_stand"
+            0:hand(right,fist)
+            0:hand(left,fist)
+            0:lookat(off)
+            175:hand(left, palm)
+			178:face(smile)
+			254:face(default)
+            262:hand(left,fist)
+			
+			
 			
 			
 
@@ -64645,6 +64735,23 @@ set("Knight")
 			0:lookat(off)
 			167:generic("custom_equip(shield:giant_tool_c4_bleuzenn_compact_ani)")
             898:jump (319, true)
+			
+			
+	"giant_female_ToyHammer_blunt_stand"
+            0:hand(right,fist)
+            0:hand(left,fist)
+            0:lookat(off)
+            177:hand(left, palm)
+            255:hand(left,fist)
+        
+    "giant_ToyHammer_blunt_stand"
+            0:hand(right,fist)
+            0:hand(left,fist)
+            0:lookat(off)
+            175:hand(left, palm)
+            178:face(smile)
+            254:face(default)
+            262:hand(left,fist)	
 
 
 	
@@ -83503,6 +83610,149 @@ set("alchemy")
 	"giant_tool_rhand_mafia_stand_friendly"
 		0:lookat(off)	
 		0:hand(both, palm)	
+		
+		
+		
+	
+	"giant_tool_rhand_raiper_offensive_run_ri01"
+		0:lookat(off)	
+		0:hand(both, fist)	
+		11:effect("footstep_right_giant")
+		27:effect("footstep_left_giant")		
+		
+	"giant_tool_rhand_rapier_attack01_ri01"
+			14:hit(down,normal)
+			0:face(serious)
+			0:lookat(off)
+		0:hand(both, fist)	
+		
+	
+	"giant_tool_rhand_rapier_attack01_ri03"
+			14:hit(down,normal)
+			0:face(serious)
+			0:lookat(off)
+		0:hand(both, fist)	
+			
+			
+			
+	"giant_tool_rhand_rapier_attack02_ri01"
+			14:hit(down,normal)
+			0:face(serious)
+			0:lookat(off)
+		0:hand(both, fist)	
+		
+	
+	"giant_tool_rhand_rapier_attack02_ri03"
+			14:hit(down,normal)
+			0:face(serious)
+			0:lookat(off)
+		0:hand(both, fist)		
+			
+			
+	"giant_tool_rhand_rapier_attack03_ri01"
+			14:hit(down,normal)
+			0:face(serious)
+			0:lookat(off)
+		0:hand(both, fist)	
+		
+	
+	"giant_tool_rhand_rapier_attack03_ri03"
+			14:hit(down,normal)
+			0:face(serious)
+			0:lookat(off)
+		0:hand(both, fist)	
+
+			
+		
+	"giant_tool_rhand_rapier_counter_ri01"
+			13:hit(down,normal)
+			// 카운터 타격 발동은 18프레임이다.
+			// 맞는쪽 애니메이션에는 0,1,2,3,4 의 5프레임동안의 경직프레임이 포함되어있다.
+			// 그러므로 치는쪽에서 13프레임째에 타격선언을 미리 해줘야...
+			// ...맞는쪽이 13,14,15,16,17 의 5프레임동안 경직되어 있다가 18프레임부터 날아간다.
+			0:face(serious)
+			18:face(happy)
+			0:lookat(off)
+			0:hand(both, fist)		
+		
+	"giant_tool_rhand_rapier_counter_ri03"
+			13:hit(down,normal)
+			// 카운터 타격 발동은 18프레임이다.
+			// 맞는쪽 애니메이션에는 0,1,2,3,4 의 5프레임동안의 경직프레임이 포함되어있다.
+			// 그러므로 치는쪽에서 13프레임째에 타격선언을 미리 해줘야...
+			// ...맞는쪽이 13,14,15,16,17 의 5프레임동안 경직되어 있다가 18프레임부터 날아간다.
+			0:face(serious)
+			18:face(happy)
+			0:lookat(off)
+			0:hand(both, fist)		
+		
+	"giant_tool_rhand_rapier_defence_ri01"
+		0:lookat(off)	
+		0:hand(both, fist)			
+		
+	"giant_tool_rhand_rapier_defence_ri02"
+		0:lookat(off)	
+		0:hand(both, fist)	
+		
+	"giant_tool_rhand_rapier_defence_ri03"
+		0:lookat(off)	
+		0:hand(both, fist)	
+		
+	"giant_tool_rhand_rapier_draw_ri01"
+		0:lookat(off)	
+		0:hand(both, fist)	
+		
+	"giant_tool_rhand_rapier_friendly_walk_ri01"
+		
+		0:hand(both, fist)	
+		12:effect("footstep_right_giant")
+		30:effect("footstep_left_giant")		
+		
+	"giant_tool_rhand_rapier_offensive_walk_ri01"
+			
+			0:hand(both, fist)	
+			12:effect("footstep_right_giant")
+			30:effect("footstep_left_giant")		
+		
+	"giant_tool_rhand_rapier_smash_ri01"
+			0:ForceTargetInRange	// 대소문자 구분 없음
+			0:lookat(off)
+			0:face(upset)
+			30:hit(up,spin)
+			0:hand(both, fist)		
+		
+	"giant_tool_rhand_rapier_smash_ri03"
+			0:ForceTargetInRange	// 대소문자 구분 없음
+			0:lookat(off)
+			0:face(upset)
+			30:hit(up,spin)
+		0:hand(both, fist)	
+		
+	"giant_tool_rhand_rapier_stand_friendly_ri01"
+		0:lookat(off)	
+		0:hand(both, fist)	
+		
+	"giant_tool_rhand_rapier_stand_friendly_ri02"
+		0:lookat(off)	
+		0:hand(both, fist)	
+		
+	"giant_tool_rhand_rapier_stand_offensive_ri01"
+		0:lookat(off)	
+		0:hand(both, fist)	
+		
+	"giant_tool_rhand_rapier_stand_offensive_ri02"
+		0:lookat(off)	
+		0:hand(both, fist)	
+		
+	"giant_tool_rhand_rapier_stand_offensive_ri03"
+		0:lookat(off)	
+		0:hand(both, fist)	
+
+	
+		
+		
+		
+		
 	
 	endfolder
 
@@ -86728,40 +86978,92 @@ set("social motion")
 	
 	folder("char\chapter4\giant\anim\social_motion")
 	
-	"giant_female_arin"
-	0:lookat(off)
-    0:hand(both, palm)
-	
-	
-	"giant_tranceformanimal"
-	0:lookat(off)
-    0:hand(both, fist)
-	523:hand(both, palm)
-	696:hand(both, fist)
-	
-	
-	"giant_2022winter"
-	0:lookat(off)
-    0:hand(both, palm)
-	300:hand(both, fist)
-	365:hand(left, palm)
-	367:hand(right, palm)
-	
-	
-	"giant_female_2022winter"
-	0:lookat(off)
-    0:hand(both, palm)
-	300:hand(both, fist)
-	365:hand(left, palm)
-	367:hand(right, palm)
+		"giant_natural_gesture_s17_01"
+			0:lookat(off)
+			0:hand(both, palm)
+			10:hand(right,fist)
+			10:generic("custom_mesh(0:giant_tool_flowerBunch01_ani)")
+			
+			
+			89:effect("flower_appear_g",0,1)
+			90:generic("custom_mesh(0)")
+			91:hand(right, palm)
+			91:effect("ring_appear_g",0,1)
+			
+			169:hand(right,fist)
+			170:generic("custom_mesh(1:giant_tool_ring_ani)")
+			170:effect("ring_round_g",0,1)
+			170:effect("ring_spread_g",0,1)
+			
+			293:generic("custom_mesh(1)")
+			293:effectoff("ring_appear_g")
+			293:effectoff("ring_round_g")
+			293:effectoff("ring_spread_g")
+			293:effect("ring_disapper_g",0,1)
+			293:hand(right, palm)
+			304:effect("flower_spread_g",0,1)
+			305:effect("flower_spread01_g",0,1)
+			
+		"giant_female_natural_gesture_s17_01"
+			0:lookat(off)
+			0:hand(both, palm)
+			10:hand(right,fist)
+			10:generic("custom_mesh(0:giant_tool_flowerBunch01_ani)")
+			
+			
+			89:effect("flower_appear_g",0,1)
+			90:generic("custom_mesh(0)")
+			91:hand(right, palm)
+			91:effect("ring_appear_g",0,1)
+			
+			169:hand(right,fist)
+			170:generic("custom_mesh(1:giant_tool_ring_ani)")
+			170:effect("ring_round_g",0,1)
+			170:effect("ring_spread_g",0,1)
+			
+			293:generic("custom_mesh(1)")
+			293:effectoff("ring_appear_g")
+			293:effectoff("ring_round_g")
+			293:effectoff("ring_spread_g")
+			293:effect("ring_disapper_g",0,1)
+			293:hand(right, palm)
+			304:effect("flower_spread_g",0,1)
+			305:effect("flower_spread01_g",0,1)			
 		
-	
-	
-	"giant_female_tranceformanimal"
-	0:lookat(off)
-    0:hand(both, fist)
-	523:hand(both, palm)
-	696:hand(both, fist)
+		"giant_female_arin"
+			0:lookat(off)
+			0:hand(both, palm)
+		
+		
+		"giant_tranceformanimal"
+			0:lookat(off)
+			0:hand(both, fist)
+			523:hand(both, palm)
+			696:hand(both, fist)
+		
+		
+		"giant_2022winter"
+			0:lookat(off)
+			0:hand(both, palm)
+			300:hand(both, fist)
+			365:hand(left, palm)
+			367:hand(right, palm)
+		
+		
+		"giant_female_2022winter"
+			0:lookat(off)
+			0:hand(both, palm)
+			300:hand(both, fist)
+			365:hand(left, palm)
+			367:hand(right, palm)
+			
+		
+		
+		"giant_female_tranceformanimal"
+			0:lookat(off)
+			0:hand(both, fist)
+			523:hand(both, palm)
+			696:hand(both, fist)
 	
 	
 	
@@ -105291,7 +105593,12 @@ set("C4_monster")
 
 	"mon_cailleach01_walk"
 		0:lookat(off)
-		
+        1:effect("cailleach_b002")			
+        19:effect("cailleach_b001")
+        53:effect("cailleach_b001")
+		71:effect("cailleach_b001")
+	
+	
 	"mon_cailleach01_groggy_start"
 		0:lookat(off)
 		
@@ -105306,38 +105613,174 @@ set("C4_monster")
 
 	"mon_cailleach01_coldfire_process"
 		0:lookat(off)
-
+        60:effect("coldfire_process001",0,1)
+		
 	"mon_cailleach01_frostshock_process01"
 		0:lookat(off)
-		110:jump(80)		
-
+		140:jump(85)		
+        64:effect("frostshock_process_001",0,1)
+		
 	"mon_cailleach01_frostshock_process02"
 		0:lookat(off)	
-
+        25:effect("frostshock_process_002",0,1)
+		
 	"mon_cailleach01_burningfield_process"
 		0:lookat(off)	
-
+        10:effect("BurningField_casting01",0,1)	
+		
 	"mon_cailleach01_adventofdeath_prepare"
 		0:lookat(off)	
-		100:jump(30)
+		120:jump(40,true)
+        10:effect("AdventofDeath_pre01",0,1)
 		
 	"mon_cailleach01_adventofdeath_process"
 		0:lookat(off)	
+        30:effect("AdventofDeath_pro01",0,1)			
+        0:effect("AdventofDeath_pre02",0,1)		
+		
+	"mon_cailleach01_earthcrack_process01"
+		0:lookat(off)
+		140:jump(85)	
+        64:effect("EarthCrack_cross001",0,1)		
+
+	"mon_cailleach01_earthcrack_process02"
+		0:lookat(off)	
+
+        18:effect("EarthCrack_cross002",0,1)
+		
+	"mon_cailleach01_soulgathering_process01"
+		0:lookat(off)
+		140:jump(85,true)		
+        64:effect("SoulGathering001",0,1)
+	    64:effect("SoulGathering002",0,1)	
+		
+	"mon_cailleach01_soulgathering_process02"
+		0:lookat(off)			
 	
-	
+	"mon_cailleach01_timereturn_prepare"
+		0:lookat(off)	
+		120:jump(40)
+        40:effect("AdventofDeath_pro01",0,1)	
+		
+	"mon_cailleach01_timereturn_process"
+		0:lookat(off)	
+        0:effect("TimeReturn01",0,1)		
+        23:effect("TimeReturn011",0,1)	
+		
+	"mon_cailleach01_soulinjection_process"
+		0:lookat(off)		
+        65:effect("SoulInjection01",0,1)	
+		
+	"mon_cailleach01_dying"
+			24:quake(15,15,10,300)	
+			24:sound("data\sound\golem_stomp.wav")
+			28:sound("data\sound\golem_stomp.wav")
+
+			192:quake(25,25,30,1500)	
+			192:sound("data\sound\golem_stomp.wav")		
+		
 //cailleach02
 	
 	"mon_cailleach02_stand"
 		0:lookat(off)	
-	
-	"mon_cailleach02_destructionbeam_process_01"
+		
+	"mon_cailleach02_walk"
 		0:lookat(off)
-		103:jump(68, true)
+		
+	"mon_cailleach02_groggy_start"
+		0:lookat(off)
+		
+	"mon_cailleach02_groggy_loop"
+		0:lookat(off)
+
+	"mon_cailleach02_groggy_end"
+		0:lookat(off)
+
+	"mon_cailleach02_dead"
+		0:lookat(off)
+		
+	"mon_cailleach02_sleep"
+		0:lookat(off)
+		300:jump(180)
+	
+	"mon_cailleach02_tripleslash_process_01"
+		0:lookat(off)
+		183:jump(140, true)
+		52:generic ("custom_mesh(0:tool_cailleach02_sword)")
+	
+	"mon_cailleach02_tripleslash_process_02"
+		0:lookat(off)
+		91:jump(47, true)
+		0:generic ("custom_mesh(0:tool_cailleach02_sword)")
+		
+		
+	"mon_cailleach02_tripleslash_process_03"
+		0:lookat(off)
+		0:generic ("custom_mesh(0:tool_cailleach02_sword)")
+		87:generic("custom_mesh(0)")
+	
+	"mon_cailleach02_spincutter_process"
+		0:lookat(off)
+		31:generic ("custom_mesh(1:tool_cailleach02_sickle)")
+		194:generic("custom_mesh(1)")
 		
 		
 	"mon_cailleach02_icearrow_process_01"
 		0:lookat(off)		
-		204:jump(163)		
+		101:jump(51)
+		
+	"mon_cailleach02_icearrow_process_02"
+		0:lookat(off)		
+				
+	
+	"mon_cailleach02_destructionbeam_process_01"
+		0:lookat(off)
+		119:jump(72, true)
+		
+		
+	"mon_cailleach02_destructionbeam_process_02"
+		0:lookat(off)
+		
+	
+	"mon_cailleach02_timedivision_process"	
+		0:lookat(off)
+		
+			
+			
+	"mon_cailleach02_chainthrow01_process_01"
+		0:lookat(off)
+		119:jump(72, true)
+		
+		
+	"mon_cailleach02_chainthrow01_process_02"
+		0:lookat(off)		
+			
+			
+	"mon_cailleach02_chainthrow02_process_01"
+		0:lookat(off)		
+		101:jump(51)	
+		
+	"mon_cailleach02_chainthrow02_process_02"
+		0:lookat(off)		
+			
+	
+	"mon_cailleach02_frozentime_process"	
+		0:lookat(off)
+	
+	
+	"mon_cailleach02_doomsentence_process"	
+		0:lookat(off)
+		
+		
+	"mon_cailleach02_dying"
+			19:quake(25,25,30,1500)	
+			19:sound("data\sound\golem_stomp.wav")
+
+			108:quake(25,25,30,1500)	
+			108:sound("data\sound\golem_stomp.wav")		
+		
+		
+		
 		
 	 endfolder
 

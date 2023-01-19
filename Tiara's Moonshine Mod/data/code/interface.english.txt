@@ -3155,6 +3155,9 @@ pli_magiccatpetframe.1	 You can receive a bonus for skill training.
 pli_magiccatpetselecttalentview.1	Select a Life Talent to receive a Skill Training EXP x{0}.{1} bonus.
 pli_magiccatpetselecttalentview.2	Catsidhe provides the owner with beneficial effects by recalling memories of its hometown.\n<color=2>Select 1 Life Talent</color> to be applied with a <color=2>Training EXP x{0}.{1} Bonus Effect</color> while summoned.
 pli_magiccatpetselecttalentview.3	A Life Skill that can receive a Skill Training x2 EXP Bonus when a relevant talent is selected.\n{0}\n\nThe selected Life Talent's Training EXP will be doubled whenever the relevant pet is summoned.\nThis selection cannot be changed until the pet is adopted. Would you like to choose this Life Talent?
+pli_magiccatpetselecttalentview.4	Select a Combat Talent to receive a Skill Training EXP x{0}.{1} bonus.
+pli_magiccatpetselecttalentview.5	When a Catsidhe recalls its home, its warm feelings will strengthen those it cares for.\nSelect <color=2>one Combat Talent</color> to receive a <color=2>Training EXP x{0}.{1} Bonus</color> while summoned.
+pli_magiccatpetselecttalentview.6	A Combat Skill that can receive a Skill Training x2 EXP Bonus when a relevant talent is selected.\n{0}\n\nThe selected Combat Talent's Training EXP will be doubled whenever the relevant pet is summoned.\nThis selection cannot be changed until the pet is adopted. Would you like to choose this Combat Talent?
 pli_magiccircledesigncommon.1	Would you like to apply {0}?\nThis will overwrite the current design.
 pli_magiccircledesigncommon.2	Apply
 pli_magiccircledesignview.1	Exit Glyph Design without saving your progress?\nThe design cannot be recovered later.
@@ -4079,13 +4082,13 @@ pli_replaymainstreamview.24	[{0}]\n\nDo you want to forfeit?\nIf you forfeit, th
 pli_replaymainstreamview.25	Storyline Replay
 pli_replaymainstreamview.26	<color=5>Generation {0}</color>\n<color=6>{1}</color>
 pli_replaymainstreamview.27	Watch
-pli_replaymainstreamview.28	<color=2>챕터 {0}</color>의 모든 제너레이션을 완료해야\n<color=2>제너레이션 [{1}]</color>의 리플레이를 시작할 수 있습니다.
-pli_replaymainstreamview.29	선택한 <color=2>제너레이션 [{0}]</color>는\n처음부터 순서대로만 진행할 수 있습니다.\n이전 파트까지 진행한 다음 리플레이를 시작해 주세요.
-pli_replaymainstreamview.30	리플레이는 하루(07시 기준)에 <color=2>{1}개</color>까지 시작할 수 있습니다.\n\n<color=6>* 오늘 리플레이 진행 횟수 : {0}회 / {1}회</color>
-pli_replaymainstreamview.31	현재 <color=2>챕터 {0} G{1} [{2}] 파트</color>의 리플레이를 진행 중입니다.\n\n지금 선택한 제너레이션을 리플레이 시작할 경우\n기존에 진행 중이던 리플레이 정보는 전부 초기화되며\n다시 처음부터 진행해야 합니다.\n\n현재 진행 중인 리플레이를 취소하시겠습니까?
-pli_replaymainstreamview.32	예
-pli_replaymainstreamview.33	아니오
-pli_replaymainstreamview.34	\n\n<color=2>포기 시 해당 제너레이션에 속한 모든 파트의 리플레이 내역이 초기화됩니다.</color>
+pli_replaymainstreamview.28	You must complete all Generations within <color=2>Chapter {0}</color>\nin order to start replaying <color=2>Generation {1}</color>.
+pli_replaymainstreamview.29	The <color=2>Generation</color> you've selected can only be played in order according to it storyline.\nPlay the previous Generation first to access it.
+pli_replaymainstreamview.30	You may start up to <color=2>{1}</color> replays per day (limit reset at 7:00 AM).\n\n<color=6>* Today's Replays: {0} / {1} time(s)</color>
+pli_replaymainstreamview.31	You are currently replaying <color=2>Chapter {0}, G{1} [{2}]</color>.\n\nIf you replay the selected Generation,\nprevious replay data will be reset\nand you'll have to restart from the beginning.\n\nCancel the current replay in progress?
+pli_replaymainstreamview.32	Yes
+pli_replaymainstreamview.33	No
+pli_replaymainstreamview.34	\n\n<color=2>If you forfeit, the replay history for this Generation will be reset.</color>
 pli_rockpaperscissorsscoreview.1	{0} Win(s)
 pli_rockpaperscissorsscoreview.2	{0} Loss(es)
 pli_roulettebingoview.1	Spin Roulette! Pay {0} coin(s)
@@ -4368,6 +4371,12 @@ pli_summongolemview.5	Smash
 pli_summongolemview.6	Defense
 pli_summongolemview.7	Rest
 pli_summongolemview.8	Taunt
+pli_supportpuppetautopotionsettingtabframe.1	해당 기능이 비활성화 되는 설정입니다.\n이대로 저장하시겠습니까?\n
+pli_supportpuppetautopotionsettingtabframe.2	{0}가 {1}% 이하로 내려갈 시 {2}를 사용합니다.\n다음과 같은 설정으로 저장하시겠습니까?\n
+pli_supportpuppetautopotionsettingtabframe.3	{0} ({1}%)
+pli_supportpuppetautopotionsettingtabframe.4	HP
+pli_supportpuppetautopotionsettingtabframe.5	MP
+pli_supportpuppetautopotionsettingtabframe.6	SP
 pli_surveylogoffview.1	설문에 참여해주셔서 감사합니다.
 pli_tabletalkpanelballoon.1	Subject : <color=1>{0}</color>\nProposer : <color=1>{1}</color>\n\n<color={2}>{3}</color>
 pli_talentmainview.1	Corresponding Skills
@@ -6595,6 +6604,7 @@ pli_windowpopupitem.60	Disable Gold Collection
 pli_windowpopupitem.61	Enable Gold Collection
 pli_windowpopupitem.62	Preview
 pli_windowpopupitem.63	Stardust Info
+pli_windowpopupitem.65	추가 기능 설정
 pli_windowpopupprop.0	Set Rental Fee
 pli_windowpopupprop.1	Change Direction
 pli_windowpopupprop.2	가방 열기

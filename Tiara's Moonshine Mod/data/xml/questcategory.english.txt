@@ -74,3 +74,4 @@
 74	Arcana
 75	[Elemental Knight]
 76	[Harmonic Saint]
+78	[출석체크 미션]
