@@ -232,7 +232,7 @@ msg.notify_close_after_buy_title	<large>Notice</large>
 msg.party.no_party_member	There is no party member available to ask for an Enchantment.
 msg.party.not_has_party	You can only entrust an Enchantment to a member of your party. Please join a party first.
 msg.party.not_party_member	You did not select a party member.
-msg.pet.remain_time	Remaining: {0}
+msg.pet.remain_time	{0} mins left today
 msg.ps_customer.cannotopen_nobag	A bag is required to open a Personal Shop.
 msg.ps_customer.cannotopen_notpayed	Extra Storage is required to open a Personal Shop.
 msg.ps_customer.cannotsell_fordungeon	It is not possible to set a price for dungeon items.
@@ -1078,7 +1078,7 @@ pli_characterpetspecialtalentframe.6	Perk Effects
 pli_characterpetspecialtalentframe.7	<color=2><outlinecolor=3>Additional Effect for Level {0} (Player Perk Level Effects)</outlinecolor></color>\n
 pli_characterpetspecialtalentframe.8	Use Perk
 pli_characterpetspecialtalentframe.9	<color=2><outlinecolor=3>Activating a Perk</outlinecolor></color>\n
-pli_characterpetspecialtalentframe.10	When the Perk Gauge has completely filled, activate the perk by clicking the perk icon on the pet's quickslot.\n\n
+pli_characterpetspecialtalentframe.10	When the Perk Gauge has completely filled, activate the perk by clicking the perk icon on the pet's Quick Slot.\n\n
 pli_characterpetspecialtalentframe.11	<color=2><outlinecolor=3>Charging the Perk Gauge</outlinecolor></color>\n
 pli_characterpetspecialtalentframe.12	\nHowever, the maximum gauge charge rate is {1} points every {0} seconds.
 pli_characterreputationframe.1	(<color=2>%.1f</color>/%d)\n\n
@@ -1114,6 +1114,8 @@ pli_collectionlistframe.11	{0}  {1} / {2}
 pli_collectionlistframe.12	Enter a search term.
 pli_collectionlistframe.13	Tail
 pli_collectionlistframe.14	Face Accessory
+pli_collectionlistframe.15	Chair
+pli_collectionlistframe.16	Accessory
 pli_collectnotifyview.1	Successfully hunted {0}!
 pli_collectnotifyview.2	Finished collecting {0}!
 pli_collectnotifyview.3	Successfully collected {0}!
@@ -3344,9 +3346,9 @@ pli_myknightstrainingview.24	Do you want to move on to the next training?\n(Afte
 pli_naturaldyecreateview.1	End
 pli_naturaldyecreateview.2	Start
 pli_naturaldyecreateview.3	You successfully crafted a natural dye.\nWill you take the natural dye ampoule?
-pli_naturaldyecreateview.4	염색 앰플 제작
-pli_naturaldyecreateview.5	금일 염색 앰플을 이미 받으셨습니다.
-pli_naturaldyecreateview.6	미니 게임 창 우측 하단에서 받으실 염색 앰플의 종류를 선택해주세요.
+pli_naturaldyecreateview.4	Craft Dye Ampoule
+pli_naturaldyecreateview.5	You have already received today's Dye Ampoules.
+pli_naturaldyecreateview.6	Select the type of the Dye Ampoule you'd like to receive at the bottom right side of the mini-game window.
 pli_newattendance2017dayframe.1	Day {0}
 pli_newattendance2017dayframe.2	Points: {0}P\nCumulative Reward Bonus: x{1}
 pli_newattendance2017itemframe.1	Not enough points.
@@ -3377,6 +3379,7 @@ pli_newmetalwareconfirmview.1	Rank {0}
 pli_newmetalwareconfirmview.2	No Rank
 pli_newmetalwareconfirmview.3	When the item has reached Rank 1 with 3 attributes are available,\nattributes gained will be more likely to be high-value.\n\nCurrent Item Status\nRank: {0}\nAttributes available: {1}\n\n
 pli_newmetalwareconfirmview.4	Reforging Tools grant new attributes each time they are used.\nIf a piece of equipment already has an attribute, you'll need\nto weigh the decision carefully.\nDo you want to use the Reforging Tool?
+pli_newmetalwareconfirmview.5	초심자의 세공 도구는 아이템에 부여되는 세공 옵션이\n<outlinecolor=5>각 랭크별 최대 레벨의 75% 수치로 제한</outlinecolor>됩니다.\n\n또한 아이템에 <outlinecolor=5>부여되는 세공 옵션이 1개만 활성화</outlinecolor> 됩니다.\n\n
 pli_newmetalwarecountorrankupview.1	No Rank
 pli_newmetalwarecountorrankupview.2	Rank {0}
 pli_newmetalwarecountorrankupview.3	Upgrade the selected item to Rank 1.
@@ -3401,6 +3404,7 @@ pli_newmetalwareview.6	Attribute Slots can be increased
 pli_newmetalwareview.7	First Attribute can be added
 pli_newmetalwareview.8	Second Attribute can be added
 pli_newmetalwareview.9	Third Attribute can be added
+pli_newmetalwareview.10	\n<color=2>▶ 초심자의 세공 도구 부여 가능 최대 레벨 도달</color>
 pli_newrebirtheventview.1	Time: 
 pli_newrecordbookmainview.1	There doesn't seem to be much here yet.\nComplete the Third Memoir first.
 pli_newrecordbookmainview.2	* Bookmark\n
@@ -3496,6 +3500,11 @@ pli_petbookmarklistview.5	Delete the tab "{0}"?\nDeleting the tab delete the lis
 pli_petbookmarklistview.6	You cannot create any more tabs.
 pli_petcolorchangeview.1	Can be used when a pet is summoned.
 pli_petcolorchangeview.2	Summon the selected pet.
+pli_petdyeingview.1	Search
+pli_petdyeingview.2	Search Next
+pli_petdyeingview.3	There was no color on the palette within the margin of error value of 5.\nPlease enter a different color.
+pli_petdyeingview.4	The entered value was not found on the palette, so colors within the <color=2>margin of error value of 5</color> were searched for.\n\nFound: {0}
+pli_petdyeingview.5	Target color: R ({0}), G ({1}), B ({2}) \n\nFound: {3}
 pli_peteventforoverseasframe.1	Log in every day
 pli_peteventforoverseasframe.2	Play for 30 minutes
 pli_peteventforoverseasframe.3	Clear Daily Shadow Mission
@@ -5285,6 +5294,11 @@ pli_windowdyeing.1	위의 {0}가지 색 또는 특별한 색 중 하나로 염�
 pli_windowdyeing.2	The color will change to one of the {0} colors featured in preview section. \nPlease select a color.
 pli_windowdyeing.3	Will be dyed the color of the preview above.
 pli_windowdyeing.4	Part
+pli_windowdyeing.5	Search
+pli_windowdyeing.6	Search Next
+pli_windowdyeing.7	There was no color on the palette within the margin of error value of 5.\nPlease enter a different color.
+pli_windowdyeing.8	The entered value was not found on the palette, so colors within the <color=2>margin of error value of 5</color> were searched for.\n\nFound: {0}
+pli_windowdyeing.9	Target color: R ({0}), G ({1}), B ({2}) \n\nFound: {3}
 pli_windoweditex.1	<color=2>\'{0}\' cannot be used in a name.
 pli_windoweditmainchat.1	Enter the target's name and then press the space bar.
 pli_windoweditmainchat.2	The name is too short.
@@ -5308,10 +5322,10 @@ pli_windowfossilrestoration.2	You can adjust the size of the chisel.
 pli_windowfossilrestoration.3	Complete
 pli_windowfossilrestoration.4	Restoration is being completed.
 pli_windowfossilrestoration.5	Crystal polishing
-pli_windowfossilrestoration.6	재단
-pli_windowfossilrestoration.7	가위의 크기를 변경할 수 있습니다.
-pli_windowfossilrestoration.8	재단을 완료합니다.
-pli_windowfossilrestoration.9	옷 바깥쪽을 제거하자
+pli_windowfossilrestoration.6	Tailoring
+pli_windowfossilrestoration.7	You can adjust the size of the scissors.
+pli_windowfossilrestoration.8	Completing tailoring.
+pli_windowfossilrestoration.9	Cut the cloth to\nthe shape shown.
 pli_windowfriendinvite.1	Please select a friend to invite.
 pli_windowfriendinvite.2	OK
 pli_windowfriendinvite.3	Cancel
@@ -5550,6 +5564,7 @@ pli_windowitemrepair3.9	The NPC repairs with a basic success rate.\nIf the repai
 pli_windowitemrepair3.10	Go Back
 pli_windowitemrepair3.11	Do you want to repair all items that {0} can repair with a {1}% success rate?
 pli_windowitemselect.1	Free Score
+pli_windowitemselect.2	현재 심볼 효과 레벨 : {0} 레벨\n성공률 : {1}%
 pli_windowkeycustomizeview.1	Hotkey Settings
 pli_windowkeycustomizeview.2	Command
 pli_windowkeycustomizeview.3	Hotkey
@@ -6959,8 +6974,8 @@ pli_windowskillbar.1	Change hotkey slot. (Hotkey 'Left Shift + Tab')
 pli_windowskillbar.2	There are no {0} available for use.
 pli_windowskillbar.3	Changes the hotkey slot.\n(Hotkey 'Ctrl + 0' - 'Ctrl + 8')
 pli_windowskillbar.4	Changes the hotkey slot.\n(Hotkey 'Ctrl + 0' - 'Ctrl + 8')
-pli_windowskillbar.5	추가 상단 스킬 슬롯 전환 : {0}
-pli_windowskillbar.6	단축키 슬롯을 변경합니다.\n(환경설정 단축키 설정 - 명령 - 퀵슬롯 1~10번 탭으로 전환을 통해 단축키 변경이 가능합니다.)
+pli_windowskillbar.5	Switch Hotbar Array: {0}
+pli_windowskillbar.6	Change Skill Hotbars by switching tabs.\n(Go to Options - Game - Control - Hotkey Settings - Quick Slot Tabs 1-10)
 pli_windowskillbarbase.1	Use the Outfit Action 2 skill to transform back to normal.
 pli_windowskillbutton.1	Use {0}
 pli_windowskillbutton.2	 '{0}' Gesture
@@ -7996,9 +8011,9 @@ window.housing.tax_rate	Tax Rate
 window.housing.tax_rate_desc	Taxes are collected at regular intervals. Tax is calculated by multiplying the construction fee by the current tariff rate.\nOnce a shop is occupied, its tax rate is fixed and will not be adjusted for subsequent changes in tariff rate.
 window.housing.view_durability_desc	View durability description
 window.housing.week	{0} Weeks
-window.input_channel_message	This item will allow you to send a message to everyone in your channel.\nPlease enter a message.
+window.input_channel_message	This item allows you to send a message to everyone in your channel. Enter your message here.
 window.input_dungeon_info2	Enter the dungeon name and level.
-window.input_global_message	Send a message to all server channels with this item.\nInput message.
+window.input_global_message	This item allows you to send a message to everyone in all server channels. Enter your message here.
 window.inventory.gold_text	Gold
 window.inventory.pc_title	{0}'s inventory
 window.inventory.pet_title	Pet Inventory

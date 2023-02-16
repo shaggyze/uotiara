@@ -3126,7 +3126,7 @@
 3773	A title given to a Milletian who chose the Destiny of an Alchemist. Cannot be used after exceeding a cumulative level of 100.
 3774	Max HP +10\nSTR +25
 3775	Max HP +10\nDEX +20
-3776	Max MP +20\nBolt Magic Damage increased
+3776	Max MP +20\nBolt Magic Damage +5\nSpirit Awakening Damage +5
 3777	Max Stamina +20\nBeginner Alchemy Damage increased
 3778	the Aspiring Warrior
 3779	the Aspiring Warrior
@@ -3861,7 +3861,7 @@
 4737	A title give to Milletians who choose Tailoring as their active Talent. This title can no longer be used when your cumulative level exceeds 100.
 4740	Max HP +10\nSTR +20\nMax Stamina +10
 4741	Max HP +10\nSTR +25
-4742	Max MP +20\nBolt Magic Damage increased
+4742	Max MP +20\nBolt Magic Damage +5\nSpirit Awakening Damage +5
 4743	Max HP +10\nDEX +20
 4744	Luck +25\nMax Stamina +10
 4745	Max Stamina +20\nBeginner Alchemy Damage increased
@@ -4919,7 +4919,7 @@
 6024	Aer
 6025	This fancy 2nd title can be obtained from a title coupon. Can be used with regular titles.
 6026	This fancy 2nd title can be obtained from a title coupon. Can be used with regular titles.
-6027	M. ATT +24\nBolt Magic Damage +5
+6027	Magic Attack +24\nBolt Magic Damage +5%
 6028	A title for those who choose Adventure as their active Talent. This title can no longer be used when you are no longer a beginner.
 6029	A title for those who choose Close Combat as their active Talent. This title can no longer be used when you are no longer a beginner.
 6030	A title for those who choose Magic as their active Talent. This title can no longer be used when you are no longer a beginner.
@@ -6085,7 +6085,7 @@
 7307	A title given to Milletians who wanted to look like their favorite Sword Art Online character.
 7308	This fancy 2nd title can be used with regular titles.
 7309	Melee Damage Taken -3%\nDefense +10\nProtection +10
-7311	Max Damage +8\nCritical +5\nMovement Speed +3%
+7311	Max Damage +8\nCritical +5%\nMovement Speed +3%
 7313	a Seven-year Wonder
 7314	a Seven-year Wonder
 7315	a Seven-year Wonder
@@ -7706,9 +7706,9 @@
 9027	You can earn this title when you always heed the whispers of the Sluagh.
 9028	You can earn this title by not falling prey to the Sluagh’s temptations.
 9029	You can earn this title by considering the Sluagh’s whispers in certain situations.
-9030	Luck +35\nDEX +20\nCritical +5
-9031	Luck +35\nDEX +20\nCritical +5
-9032	Luck +35\nDEX +20\nCritical +5
+9030	Luck +35\nDEX +20\nCritical +5%
+9031	Luck +35\nDEX +20\nCritical +5%
+9032	Luck +35\nDEX +20\nCritical +5%
 9033	the Aspiring Chain Slasher
 9034	the Aspiring Chain Slasher
 9035	the Aspiring Chain Slasher
@@ -12145,10 +12145,15 @@
 13622	Luck +30
 13623	Luck +30
 13624	Blooming Roses
+13625	로즈 블루밍
 13626	Blooming Roses
+13627	로즈 블루밍
 13628	Blooming Roses
+13629	로즈 블루밍
 13630	Blooming Roses
+13631	로즈 블루밍
 13632	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13633	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 13634	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 13635	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 13636	Magic Attack +8\nIntelligence +15\nMax MP +30\nMax Stamina +10
@@ -12195,20 +12200,20 @@
 13677	음악 버프 스킬 효과 10 증가\n음악 버프 스킬 지속시간 13 증가\n이동 속도 3% 증가
 13678	최대 대미지 26 증가\n크리티컬 대미지 3% 증가\n이동 속도 1% 증가
 13679	마법 공격력 45 증가\n마법 시전속도 5% 증가\n이동 속도 3% 증가
-13680	두카트를 버는 가장 쉬운 방법
-13681	상상도 못한 정체
-13682	두카트를 버는 가장 쉬운 방법
-13683	상상도 못한 정체
-13684	두카트를 버는 가장 쉬운 방법
-13685	상상도 못한 정체
-13686	두카트를 버는 가장 쉬운 방법
-13687	상상도 못한 정체
-13688	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13689	그것이 궁금하다, 코끼리 착취 실태 조사에서 진상을 알게 된 자에게 주어지는 타이틀.
-13690	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13691	그것이 궁금하다, 코끼리 착취 실태 조사에서 진상을 알게 된 자에게 주어지는 타이틀.
-13692	행운 30 증가
-13693	행운 30 증가
+13680	Easiest Way to Earn Ducats
+13681	the Identity No One Imagined of
+13682	Easiest Way to Earn Ducats
+13683	the Identity No One Imagined of
+13684	Easiest Way to Earn Ducats
+13685	the Identity No One Imagined of
+13686	Easiest Way to Earn Ducats
+13687	the Identity No One Imagined of
+13688	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13689	A title given to those who figured out the truth from CSI: Elephant Abuse.
+13690	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13691	A title given to those who figured out the truth from CSI: Elephant Abuse.
+13692	Luck +30
+13693	Luck +30
 13694	에린의 긍지
 13695	에린의 영원한 긍지
 13696	에린의 긍지
@@ -12286,6 +12291,34 @@
 13768	A 2nd Title obtained from the Battle Revamp Celebration Hotday Event.
 13769	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 13770	Luck +20
+13771	시험의 무대를 평정한
+13772	시험의 무대를 평정한
+13773	시험의 무대를 평정한
+13774	시험의 무대를 평정한
+13775	18주년 시험의 무대를 마지막 단계까지 평정한 자에게 주어지는 타이틀. 장착 시 특별한 이펙트가 출력된다.
+13776	18주년 시험의 무대를 마지막 단계까지 평정한 자에게 주어지는 타이틀. 장착 시 특별한 이펙트가 출력된다.
+13777	최대 대미지 18 증가\n마법 공격력 18 증가
+13778	자! 이제 시작이야
+13779	시험의 무대를 뒤집어 놓은
+13780	자! 이제 시작이야
+13781	시험의 무대를 뒤집어 놓은
+13782	자! 이제 시작이야
+13783	시험의 무대를 뒤집어 놓은
+13784	자! 이제 시작이야
+13785	시험의 무대를 뒤집어 놓은
+13786	자! 이제 시작이야. 내 꿈을 위한 여행, 이루샤~\n18주년 시험의 무대를 클리어한 자에게 지급되는 타이틀. 당신의 멋진 도전은 이제 막 시작되었다. 내년엔 더 성장해서, 올해보다 더 높은 단계에 올라간다면 또 다른 멋진 타이틀을 획득할 수 있을지도!
+13787	우.와. 밀레시안께서 시험의 무대를 뒤집어 놓으셨다! 18주년 시험의 무대를 베테랑 모드로 끝까지 클리어한 자에게 지급되는 타이틀. 기간이 만료되면 옵션 효과는 사라지지만 지속적으로 장착 및 소장이 가능하다.
+13788	자! 이제 시작이야. 내 꿈을 위한 여행, 이루샤~\n18주년 시험의 무대를 클리어한 자에게 지급되는 타이틀. 당신의 멋진 도전은 이제 막 시작되었다. 내년엔 더 성장해서, 올해보다 더 높은 단계에 올라간다면 또 다른 멋진 타이틀을 획득할 수 있을지도!
+13789	우.와. 밀레시안께서 시험의 무대를 뒤집어 놓으셨다! 18주년 시험의 무대를 베테랑 모드로 끝까지 클리어한 자에게 지급되는 타이틀. 기간이 만료되면 옵션 효과는 사라지지만 지속적으로 장착 및 소장이 가능하다.
+13790	행운 18 증가
+13791	최대 대미지 20 증가\n마법 공격력 45 증가
+13792	18주년 판타지스타
+13793	18주년 판타지스타
+13794	18주년 판타지스타
+13795	18주년 판타지스타
+13796	18주년을 축하하는 특별한 날을 함께한 사람에게 주어지는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+13797	18주년을 축하하는 특별한 날을 함께한 사람에게 주어지는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+13798	최대 대미지 18 증가\n마법 공격력 18 증가\n물 / 불 / 바람 / 흙 속성\n연금술 대미지 12 증가\n체력 18 증가\n지력 18 증가\n솜씨 18 증가\n의지 18 증가\n행운 18 증가\n이동 속도 1% 증가
 13806	판타스틱 데이
 13807	판타스틱 데이
 13808	판타스틱 데이
@@ -13840,6 +13873,27 @@
 15357	This fancy 2nd title can be obtained from a title coupon. Can be used with regular titles.
 15358	This fancy 2nd title can be obtained from a title coupon. Can be used with regular titles.
 15359	Luck +30\nMovement Speed +1%
+15361	who Placed in the Cooking Contest
+15363	the Aspiring Construct Alchemist
+15365	a Lighthouse Handyman
+15367	who Placed in the Cooking Contest
+15369	the Aspiring Construct Alchemist
+15371	a Lighthouse Handyman
+15373	who Placed in the Cooking Contest
+15375	the Aspiring Construct Alchemist
+15377	a Lighthouse Handyman
+15379	who Placed in the Cooking Contest
+15381	the Aspiring Construct Alchemist
+15383	a Lighthouse Handyman
+15385	A title earned through passing the Chef Exam by having your cooking accepted by Chef Gordon
+15387	A title for those who choose Transmutation as their active Talent. This title can no longer be used when you are no longer a beginner.
+15389	A title given those who take up part-time work at the Lighthouse.
+15391	Put your culinary skills to the test by participating in the Cooking Contest that takes place in Emain Macha's town square.
+15393	A title for those who choose Transmutation as their active Talent. This title can no longer be used when you are no longer a beginner.
+15395	A title given those who take up part-time work at the Lighthouse. You cannot use this title if you're not working.
+15397	Max Stamina +20\nMax HP +20\nDexterity +10\nIntelligence +10\n[Will -20]\n[Luck -10]
+15399	Max Stamina +20\nSynthesis Success Rate +1%\nFragmentation Success Rate +1%
+15401	Dexterity +15\nMax Stamina +5
 15402	즐거운 다람쥐
 15403	귀여운 다람쥐
 15404	영리한 다람쥐
@@ -13980,3 +14034,24 @@
 15623	2022 마비노기 판타지 ON박싱에 함께해준 밀레시안에게 지급되는 2차 타이틀.
 15624	2022 마비노기 판타지 ON박싱에 함께해준 밀레시안에게 지급되는 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 15625	행운 30 증가
+15640	언제나 불꽃
+15641	희망을 실은 불빛
+15642	빛나는 원형 발판
+15643	언제나 불꽃
+15644	희망을 실은 불빛
+15645	빛나는 원형 발판
+15646	언제나 불꽃
+15647	희망을 실은 불빛
+15648	빛나는 원형 발판
+15649	언제나 불꽃
+15650	희망을 실은 불빛
+15651	빛나는 원형 발판
+15652	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15653	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15654	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15655	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15656	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15657	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15658	행운 30 증가
+15659	행운 30 증가
+15660	행운 30 증가

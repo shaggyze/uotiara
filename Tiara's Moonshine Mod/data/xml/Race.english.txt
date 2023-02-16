@@ -9293,18 +9293,40 @@
 11521	Giant Sandworm
 11522	Sylvan Dragon
 11523	Sylvan Dragon
+11524	네오
+11525	루엘
+11526	아리브
+11527	스카
+11528	샤미르
+11529	알비에
+11530	엔비
 11531	Splish-Splash Cat Doll
 11532	Bug Catcher Pup Doll
+11533	Rabbit
+11534	Cat
+11535	Rabbit
+11536	Cat
 11537	Red Fairy Dragon
 11538	Green Fairy Dragon
 11539	Blue Fairy Dragon
+11540	분홍색 별사탕
+11541	노란색 별사탕
+11542	초록색 별사탕
+11543	보라색 별사탕
+11544	위협하는 갈색곰
+11547	달조각을 가진 곰
+11548	위협하는 늑대
+11549	위협하는 멧돼지
+11550	스페이스 플로라
 11551	Eochaid
 11552	Eochaid
 11553	Eochaid
+11554	위협받는 토끼
 11555	Linden Doll
 11556	Sayiv Doll
 11557	Igerna Doll
 11558	Caoimhin Doll
+11559	이루샤
 11560	Fairy Dragon
 11561	Fairy Dragon
 11562	Fairy Dragon
@@ -9312,8 +9334,39 @@
 11564	Fairy Dragon
 11565	Fairy Dragon
 11566	Scooter Imp (90 Days)
+11567	작은 골렘
+11568	거대 구미베어
+11569	거대 진저맨쿠키
+11570	타바르타스
+11571	대왕 검은 배 쥐
+11572	클라우 솔라스
+11573	블랙 서큐버스
+11574	포이즌 서큐버스
+11575	듀크
+11576	그림 리퍼
+11577	비탄의 노래
+11578	마스터 리치
+11579	어둠에 잠식된 캐러반 조
+11580	서큐버스 퀸
+11581	작은 골렘
+11582	거대 구미베어
+11583	거대 진저맨쿠키
+11584	타바르타스
+11585	대왕 검은 배 쥐
+11586	클라우 솔라스
+11587	블랙 서큐버스
+11588	포이즌 서큐버스
+11589	듀크
+11590	그림 리퍼
+11591	비탄의 노래
+11592	마스터 리치
+11593	어둠에 잠식된 캐러반 조
+11594	서큐버스 퀸
+11595	이루샤
 11596	Scented Bear (Spider)
 11597	Brainy Sheep
+11598	큐파킹 와그-자그
+11599	큐파킹 와그-자그
 11600	Baby Bunny Doll
 11601	Fennec Fox Kit Doll
 11602	Bear Cub Doll
@@ -9323,11 +9376,12 @@
 11607	Cowenna
 11608	Cowenna
 11609	Cowenna
+11610	캐러반 조의 다크 원드
 11611	Ceraunus (Event)
 11613	Fairy Dragon
 11614	Eirawen
 11615	Fixed Dummy
-11620	도움이 필요한 고냥이
+11620	A Kitty In Need
 11621	Training Dummy
 11622	Succubus Fiend
 11625	Bully
@@ -9355,6 +9409,14 @@
 11655	레트로 조
 11657	다루의 스쿠터 (이벤트)
 11660	Ceraunus (Event)
+11663	타흘룸
+11664	파이어 슬라임
+11665	아이스 슬라임
+11666	라이트닝 슬라임
+11667	일루전 샐러맨더
+11668	일루전 좀비
+11669	테흐 두인 게아타
+11670	테흐 두인 게아타
 11672	Yggdrasil Wisp
 11673	Sylvan Dragon
 11674	Hasidim
@@ -9383,3 +9445,7 @@
 11719	Nianshou
 11720	Glacial Whale Mini-Gem
 11721	Celestial Whale Mini-Gem
+11802	Biscuit
+11803	Sprinkle
+11810	행복을 실은 커피 마차
+11813	태극기

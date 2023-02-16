@@ -1,14 +1,14 @@
 RequestExecutionLevel admin
-!define UOSHORTVERSION        "403"
-!define UOLONGVERSION         "0.32.55"
+!define UOSHORTVERSION        "404"
+!define UOLONGVERSION         "0.33.55"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
 !define REG_UNINSTALL "Software\Microsoft\Windows\CurrentVersion\Uninstall\${UOSHORTNAME}"
 !define InstFile "${UOLONGNAME}.exe"
-!define AbyssEnable "True"
-!define KananEnable "True"
-!define KananUpdateEnable "True"
+!define AbyssEnable "False"
+!define KananEnable "False"
+!define KananUpdateEnable "False"
 !define HyddwnEnable "True"
 !define HyddwnUpdateEnable "True"
 !define MUI_UI ".\bin\modern.exe"
@@ -458,6 +458,7 @@ Delete "$INSTDIR\Abyss_patchlog.txt"
 IfFileExists $INSTDIR\ijl11.dat 0 +2
 Delete "$INSTDIR\ijl11.dll"
 Rename "$INSTDIR\ijl11.dat" "$INSTDIR\ijl11.dll"
+Delete "$INSTDIR\Hyddwn Launcher\patchignore.json"
 Delete "$INSTDIR\README_Abyss.txt"
 Delete "$SMPROGRAMS\Unofficial Tiara\Abyss.lnk"
 Delete "$DESKTOP\Abyss.lnk"
@@ -477,6 +478,7 @@ Delete "$INSTDIR\Abyss_patchlog.txt"
 IfFileExists $INSTDIR\ijl11.dat 0 +2
 Delete "$INSTDIR\ijl11.dll"
 Rename "$INSTDIR\ijl11.dat" "$INSTDIR\ijl11.dll"
+Delete "$INSTDIR\Hyddwn Launcher\patchignore.json"
 Delete "$INSTDIR\README_Abyss.txt"
 Delete "$SMPROGRAMS\Unofficial Tiara\Abyss.lnk"
 Delete "$DESKTOP\Abyss.lnk"
@@ -6705,7 +6707,7 @@ SectionEnd
 SectionGroupEnd
 
 SectionGroup "Risky Mods (add)"
-Section "Show Visual Chat" MOD298
+Section "Enable MultiClient & Show Visual Chat" MOD298
 SetOutPath "$INSTDIR\data"
 DetailPrint "Installing features.xml.compiled..."
   File "${srcdir}\Tiara's Moonshine Mod\data\features.xml.compiled"
@@ -6716,7 +6718,7 @@ SetDetailsPrint both
 SectionIn 1
 SectionEnd
 !macro Remove_${MOD298}
-  DetailPrint "*** Removing Show Visual Chat..."
+  DetailPrint "*** Removing Enable MultiClient & Show Visual Chat..."
   Delete "$INSTDIR\data\db\urls.xml"
 !macroend
 
@@ -9956,12 +9958,12 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD396?2" "DESCRIPTION" "Remove Fo
 ;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD397" "FILES" "1"
 ;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD397" "CREATOR" "ShaggyZE"
 ;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD397" "DESCRIPTION" "Enables Multiclient"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "" "Show Visual Chat"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "" "Enable MultiClient & Show Visual Chat"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "FILE1" "\data\features.xml.compiled"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "FILE2" "\data\db\urls.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "FILES" "2"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "CREATOR" "ShaggyZE"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "DESCRIPTION" "Shows Visual Chat Bubbles"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD298" "DESCRIPTION" "Enable MultiClient & Shows Visual Chat Bubbles"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "" "Show Hidden Skill Flown Hot-Air Balloon"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "FILE1" "\data\db\skill\skillinfo.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD398" "FILE2" "\data\xml\skillinfo.english.txt"

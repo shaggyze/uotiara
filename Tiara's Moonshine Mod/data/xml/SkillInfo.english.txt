@@ -2964,7 +2964,7 @@
 4497	Soul Rift
 4498	Queen's Meteor
 4499	Necromancy
-4500	Phantom's Roar
+4500	Wraith's Roar
 4501	Solidify
 4502	Sweethearts\nFlight
 4503	A skill received when you formed a bond with your special sweetie. The magic powder, of unknown origin, will make your body as light as air, and let you take to the skies around Erinn. Fly whenever you want!\nYou can also right-click on others and request that they Fly Together with you. Enjoy the skies with a friend or a sweetie!
@@ -4297,6 +4297,8 @@
 6364	The Fairy Dragon remembers a performance given long ago by a bard for a company soon to depart for the battlefield. Recalling a melody that steels one's courage, it empowers the effect of a Battlefield Overture performed by its owner.
 6365	The Fairy Dragon remembers a performance given long ago by a bard for a diverse group of workers. Recalling a melody that celebrates abundance, it empowers the effect of a Harvest Song performed by its owner.
 6366	The Fairy Dragon remembers a performance given long ago by a bard at the behest of a society of mages. Recalling a lively melody that flowed from one sound to the next, it empowers the effect of a Vivace performed by its owner.
+6369	스위트 메테오
+6370	이루샤가 타격할 수 있는 범위를 한정지어, 적들이 자신을 공격할 때 난항을 겪게 만들고 주기 적으로 달콤한 메테오를 떨어트려 적들을 공격한다.
 6375	Memorial Link
 6376	You cannot use this skill right now. Try completing the Memoir first.
 6377	A bonding skill, created by Blaanid, that links souls together. Linked souls can share each other's memories and experiences and can bring any dormant power within them to the very limit. Multiple stats of soul linked pets and casters increase, and the pet earns the same EXP that the caster earns through defeating enemies. Also, pets can distract enemies that have recognized the caster, granting the caster a large boost to their Defense and Protection. However, these effects are affected by the pet's stats, level, and Memorial Link rank. Since it acts with the same principles, it cannot be active at the same time as Divine Links.

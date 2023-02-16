@@ -883,6 +883,8 @@ setitemmgr.3	Increase
 setitemmgr.4	Decrease
 setitemmgr.5	The item was not used since the set effect cannot be upgraded.
 setitemmgr.6	The item was not used since the set effect is already {0}.
+setitemmgr.8	심볼 효과 강화에 성공하여 심볼 효과가 {0}레벨이 되었습니다.
+setitemmgr.9	심볼 효과 강화에 실패하였습니다.
 setparameter.1	{0} Degree
 setparameter.2	{0} Second(s)
 setparameter.3	{0} {1} Reforge
