@@ -1,13 +1,13 @@
 RequestExecutionLevel admin
 !define UOSHORTVERSION        "404"
-!define UOLONGVERSION         "0.33.57"
+!define UOLONGVERSION         "0.33.58"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
 !define REG_UNINSTALL "Software\Microsoft\Windows\CurrentVersion\Uninstall\${UOSHORTNAME}"
 !define InstFile "${UOLONGNAME}.exe"
 !define AbyssEnable "False"
-!define KananEnable "False"
+!define KananEnable "True"
 !define KananUpdateEnable "False"
 !define HyddwnEnable "True"
 !define HyddwnUpdateEnable "True"
@@ -335,7 +335,7 @@ FunctionEnd
 Function fin_pre
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Settings" "NumFields" "6"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Type" "CheckBox"
-WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "State" "1"
+;WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "State" "1"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Text" "&Run UOTiaraPack.bat (Make uotiara_00001.it)"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Left" "120"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Right" "315"
@@ -775,7 +775,7 @@ WriteRegStr HKCR "IT.it" "" "IT File"
 WriteRegStr HKCR "IT.it\shell" "" "Open"
 WriteRegStr HKCR "IT.it\shell\Open\command" "" '"$INSTDIR\mabi-pack2\mabi-pack2.exe" "%1"'
 WriteRegStr HKCR "IT.it\DefaultIcon" "" "$INSTDIR\mabi-pack2\mabi-pack2.exe"
-SectionIn RO
+SectionIn 1 3
 SectionEnd
 !macro Remove_${MOD434}
   DetailPrint "*** Removing mabi-pack2..."
