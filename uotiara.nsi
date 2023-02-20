@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
 !define UOSHORTVERSION        "404"
-!define UOLONGVERSION         "0.33.56"
+!define UOLONGVERSION         "0.33.57"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -335,6 +335,7 @@ FunctionEnd
 Function fin_pre
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Settings" "NumFields" "6"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Type" "CheckBox"
+WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "State" "1"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Text" "&Run UOTiaraPack.bat (Make uotiara_00001.it)"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Left" "120"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Right" "315"
@@ -774,7 +775,7 @@ WriteRegStr HKCR "IT.it" "" "IT File"
 WriteRegStr HKCR "IT.it\shell" "" "Open"
 WriteRegStr HKCR "IT.it\shell\Open\command" "" '"$INSTDIR\mabi-pack2\mabi-pack2.exe" "%1"'
 WriteRegStr HKCR "IT.it\DefaultIcon" "" "$INSTDIR\mabi-pack2\mabi-pack2.exe"
-SectionIn 1 3
+SectionIn RO
 SectionEnd
 !macro Remove_${MOD434}
   DetailPrint "*** Removing mabi-pack2..."
@@ -851,10 +852,10 @@ Delete "$INSTDIR\Update_Kanan.ps1"
 Delete "$INSTDIR\log.txt"
 Delete "$SMPROGRAMS\Unofficial Tiara\Loader.exe.lnk"
 Delete "$DESKTOP\Loader.exe.lnk"
-Delete "$SMPROGRAMS\Unofficial Tiara\Launcher.exe.lnk"
-Delete "$DESKTOP\Launcher.exe.lnk"
 Delete "$SMPROGRAMS\Unofficial Tiara\Update Kanan.lnk"
 Delete "$DESKTOP\Update Kanan.lnk"
+Delete "$INSTDIR\Kanan\kanan.zip"
+Delete "$INSTDIR\Kanan\Loader.txt.bak"
 
 ${EndIf} 
 SectionIn 1 2
@@ -864,6 +865,7 @@ IfFileExists $INSTDIR\Kanan.dll 0 +2
 MessageBox MB_YESNO "Kanan is unchecked, but has been found. Would you like to Remove Kanan?" IDNO no6
 DetailPrint "*** Removing Kanan..."
 Delete "$INSTDIR\AllowPowerShell.exe"
+Delete "$INSTDIR\Kanan\Launcher.exe"
 Delete "$INSTDIR\Kanan\Loader.exe"
 Delete "$INSTDIR\Kanan\Loader.txt"
 Delete "$INSTDIR\Kanan\Kanan.dll"
@@ -873,9 +875,9 @@ Delete "$INSTDIR\Kanan.ico"
 Delete "$INSTDIR\Update_Kanan.ps1"
 Delete "$INSTDIR\log.txt"
 Delete "$SMPROGRAMS\Unofficial Tiara\Loader.exe.lnk"
-Delete "$DESKTOP\Loader.exe.lnk" 
+Delete "$DESKTOP\Loader.exe.lnk"
 Delete "$SMPROGRAMS\Unofficial Tiara\Launcher.exe.lnk"
-Delete "$DESKTOP\Launcher.exe.lnk" 
+Delete "$DESKTOP\Launcher.exe.lnk"
 Delete "$SMPROGRAMS\Unofficial Tiara\Update Kanan.lnk"
 Delete "$DESKTOP\Update Kanan.lnk" 
 Delete "$INSTDIR\Kanan\Kanan.ico"
@@ -887,6 +889,7 @@ no6:
   MessageBox MB_YESNO "Would you like to Remove Kanan's settings?" IDNO SkipKSRemove
   Delete "$INSTDIR\config.txt"
   Delete "$INSTDIR\Kanan\config.txt"
+  Delete "$INSTDIR\Kanan\profiles.dat"
   RMDir /r "$INSTDIR\Kanan"
 SkipKSRemove:
 !macroend
