@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
 !define UOSHORTVERSION        "404"
-!define UOLONGVERSION         "0.33.58"
+!define UOLONGVERSION         "0.33.59"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -11,6 +11,7 @@ RequestExecutionLevel admin
 !define KananUpdateEnable "False"
 !define HyddwnEnable "True"
 !define HyddwnUpdateEnable "True"
+!define Lib-LoaderEnable "True"
 !define MUI_UI ".\bin\modern.exe"
 
 !addincludedir ".\bin"
@@ -49,6 +50,7 @@ VIProductVersion ${UOVERSION}
 !define StrContains '!insertmacro "_StrContainsConstructor"'
 
 Var AbyssLoadKanan
+Var LibLoaderLoadKanan
 
 Var AR_SecFlags
 Var AR_RegFlags
@@ -321,6 +323,18 @@ ${EndIf}
 KananNotFound4:
 Exec '"notepad.exe" "$INSTDIR\Abyss.ini"'
 AbyssNotFound4:
+
+IfFileExists $INSTDIR\Loader.cfg Lib-LoaderFound4 Lib-LoaderNotFound4
+Lib-LoaderFound4:
+IfFileExists $INSTDIR\Kanan\Kanan.dll KananFound41 KananNotFound41
+KananFound41:
+${If} $LibLoaderLoadKanan == "1"
+WriteINIStr "$INSTDIR\Loader.cfg" "Loader" "Files" "Kanan.dll"
+${EndIf}
+KananNotFound41:
+Lib-LoaderNotFound4:
+IfFileExists $INSTDIR\Loader.cfg 0 +2
+Exec '"notepad.exe" "$INSTDIR\Loader.cfg"'
 IfFileExists $INSTDIR\Kanan\config.txt 0 +2
 Exec '"notepad.exe" "$INSTDIR\Kanan\config.txt"'
 IfFileExists $INSTDIR\UOTiaraPack.bat 0 +2
@@ -350,6 +364,15 @@ MessageBox MB_YESNO "Would you like Abyss to run Kanan via LoadDLL=Kanan\Kanan.d
 StrCpy $AbyssLoadKanan "1"
 AbyssNotFound14:
 KananNotFound14:
+IfFileExists $INSTDIR\Loader.cfg Lib-LoaderFound14 Lib-LoaderNotFound14
+Lib-LoaderFound14:
+IfFileExists $INSTDIR\Kanan\Kanan.dll KananFound15 KananNotFound15
+KananFound15:
+StrCpy $LibLoaderLoadKanan "0"
+MessageBox MB_YESNO "Would you like Lib-Loader to run Kanan via Files=Kanan.dll in Loader.cfg?$\r$\n(clicking yes can sometimes result in crashing before character select)" IDNO Lib-LoaderNotFound14
+StrCpy $LibLoaderLoadKanan "1"
+Lib-LoaderNotFound14:
+KananNotFound15:
 FunctionEnd
 
 Function fin_leave
@@ -479,7 +502,6 @@ Delete "$INSTDIR\Abyss_patchlog.txt"
 IfFileExists $INSTDIR\ijl11.dat 0 +2
 Delete "$INSTDIR\ijl11.dll"
 Rename "$INSTDIR\ijl11.dat" "$INSTDIR\ijl11.dll"
-Delete "$INSTDIR\Hyddwn Launcher\patchignore.json"
 Delete "$INSTDIR\README_Abyss.txt"
 Delete "$SMPROGRAMS\Unofficial Tiara\Abyss.lnk"
 Delete "$DESKTOP\Abyss.lnk"
@@ -498,7 +520,8 @@ Delete "$INSTDIR\Hyddwn Launcher\PatcherSettings.json"
 Delete "$INSTDIR\Plugins\HyddwnLauncher.Patcher.dll"
 Delete "$INSTDIR\Plugins\PatcherSettings.json"
 ;Call HyddwnDisableForceUpdates
-Call HyddwnIgnoreijl11
+Call HyddwnIgnoreAbyss
+Call HyddwnIgnoreLib-Loader
 SetOutPath "$INSTDIR\Hyddwn Launcher"
 
 File "${srcdir}\Tiara's Moonshine Mod\Tools\Hyddwn\DevIL.dll"
@@ -1102,6 +1125,72 @@ SectionEnd
   RMDir /r "$INSTDIR\MabiCooker2\en"
   RMDir /r "$INSTDIR\MabiCooker2\ja"
   RMDir /r "$INSTDIR\MabiCooker2"
+!macroend
+Section "Lib-Loader" MOD81
+${If} ${Lib-LoaderEnable} == "True"
+SetOutPath "$INSTDIR"
+CreateDirectory $INSTDIR\Logs\Lib-Loader
+CreateDirectory $INSTDIR\Archived\Lib-Loader
+SetDetailsPrint both
+  DetailPrint "Backing up Loader.cfg..."
+IfFileExists "$INSTDIR\Loader.cfg" Lib-LoadercfgFound1 Lib-LoadercfgNotFound1
+Lib-LoadercfgFound1:
+${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
+CopyFiles /SILENT "$INSTDIR\Loader.cfg" "$INSTDIR\Archived\Lib-Loader\Lib-Loader($2$1$0$4$5$6).cfg"
+Delete "$INSTDIR\Loader.cfg"
+Lib-LoadercfgNotFound1:
+  DetailPrint "Backing up Loader.log"
+IfFileExists "$INSTDIR\Loader.log" Lib-LoaderLogFound1 Lib-LoaderLogNotFound1
+Lib-LoaderLogFound1:
+${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
+CopyFiles /SILENT "$INSTDIR\Loader.log" "$INSTDIR\Logs\Lib-Loader\Loader($2$1$0$4$5$6).log"
+Delete "$INSTDIR\Loader.log"
+Lib-LoaderLogNotFound1:
+DetailPrint "Installing Lib-Loader..."
+File "${srcdir}\Tiara's Moonshine Mod\Tools\Lib-Loader\nps64.dat"
+File "${srcdir}\Tiara's Moonshine Mod\Tools\Lib-Loader\Loader.cfg"
+File "${srcdir}\Tiara's Moonshine Mod\Tools\Lib-Loader\nps64.dll"
+  inetc::get /NOCANCEL /SILENT "https://github.com/riistar/LibLoader/releases/latest/download/nps64.dll" "nps64.dll" /end
+  inetc::get /NOCANCEL /SILENT "https://github.com/riistar/LibLoader/releases/latest/download/Loader.cfg" "Loader.cfg" /end
+WriteINIStr "$INSTDIR\Loader.cfg" "Debug" "Enabled" "1"
+CreateShortCut "$SMPROGRAMS\Unofficial Tiara\Lib-Loader.lnk" "$INSTDIR\Loader.cfg" "" "$INSTDIR\Loader.cfg" "0" "SW_SHOWNORMAL" "ALT|CONTROL|F10" "Loader.cfg"
+CreateShortCut "$DESKTOP\Lib-Loader.lnk" "$INSTDIR\Loader.cfg" "" "$INSTDIR\Loader.cfg" "0" "SW_SHOWNORMAL" "ALT|CONTROL|F10" "Loader.cfg"
+SetOutPath "$INSTDIR"
+${Else}
+IfFileExists $INSTDIR\Loader.cfg 0 +3
+${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
+CopyFiles /SILENT "$INSTDIR\Loader.cfg" "$INSTDIR\Archived\Lib-Loader\Loader$2$1$0$4$5$6).cfg"
+DetailPrint "*** Removing Lib-Loader..."
+Delete "$INSTDIR\Loader.cfg"
+IfFileExists $INSTDIR\Loader.cfg 0 +3
+${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
+CopyFiles /SILENT "$INSTDIR\Loader.log" "$INSTDIR\Logs\Lib-Loader\Loader($2$1$0$4$5$6).log"
+Delete "$INSTDIR\Loader.log"
+IfFileExists $INSTDIR\nps64.dat 0 +2
+Delete "$INSTDIR\nps64.dll"
+Rename "$INSTDIR\nps64.dat" "$INSTDIR\nps64.dll"
+Delete "$SMPROGRAMS\Unofficial Tiara\Lib-Loader.lnk"
+Delete "$DESKTOP\Lib-Loader.lnk"
+${EndIf}
+SectionIn 1 2
+SectionEnd
+!macro Remove_${MOD81}
+${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
+IfFileExists $INSTDIR\Loader.cfg 0 +2
+MessageBox MB_YESNO "Lib-Loader is unchecked or your requesting uninstall, it has been found. Would you like to Remove Lib-Loader?" IDNO no51
+CopyFiles /SILENT "$INSTDIR\Loader.cfg" "$INSTDIR\Archived\Lib-Loader\Loader($2$1$0$4$5$6).cfg"
+DetailPrint "*** Removing Lib-Loader..."
+Delete "$INSTDIR\Loader.cfg"
+${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
+CopyFiles /SILENT "$INSTDIR\Loader.log" "$INSTDIR\Logs\Lib-Loader\Loader($2$1$0$4$5$6).log"
+Delete "$INSTDIR\Loader.log"
+IfFileExists $INSTDIR\nps64.dat 0 +2
+Delete "$INSTDIR\nps64.dll"
+Rename "$INSTDIR\nps64.dat" "$INSTDIR\nps64.dll"
+Delete "$INSTDIR\Hyddwn Launcher\patchignore.json"
+Delete "$SMPROGRAMS\Unofficial Tiara\Lib-Loader.lnk"
+Delete "$DESKTOP\Lib-Loader.lnk"
+no51:
 !macroend
 SectionGroupEnd
 SectionGroup /e "Data Mods"
@@ -6943,7 +7032,7 @@ SectionGroupEnd
 !insertmacro "${MacroName}" "MOD445"
 !insertmacro "${MacroName}" "MOD446"
 !insertmacro "${MacroName}" "MOD80"
-;!insertmacro "${MacroName}" "MOD81"
+!insertmacro "${MacroName}" "MOD81"
 !insertmacro "${MacroName}" "MOD404"
 !insertmacro "${MacroName}" "MOD82"
 !insertmacro "${MacroName}" "MOD83"
@@ -8059,6 +8148,13 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD80" "FILE1" "\data\db\layout2\c
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD80" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD80" "CREATOR" "Trivaloso"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD80" "DESCRIPTION" ""
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD81" "" "Lib-Loader"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD81" "FILE1" "nps64.dll"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD81" "FILE2" "nps64.dat"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD81" "FILE3" "Loader.cfg"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD81" "FILES" "3"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD81" "CREATOR" "Rii"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD81" "DESCRIPTION" "Chain load multiple DLL when starting mabinogi"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD82" "" "Doppel collection removal"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD82" "FILE1" "\data\db\layout2\skill\SkillReadyView.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD82" "FILES" "1"
@@ -11362,8 +11458,6 @@ CreateShortCut "$SMPROGRAMS\Unofficial Tiara\Unofficial Tiara.lnk" "$INSTDIR\Arc
 CreateShortCut "$DESKTOP\Unofficial Tiara.lnk" "$INSTDIR\Archived\UOTiara\UOSetup.exe" "" "$INSTDIR\Archived\UOTiara\UOSetup.exe" "0" "SW_SHOWNORMAL" "ALT|CONTROL|F7" "UOSetup.exe"
 
 
-IfFileExists $INSTDIR\Abyss.ini AbyssFound3 AbyssNotFound3
-AbyssFound3:
 IfFileExists $INSTDIR\Kanan\Kanan.dll KananFound3 KananNotFound3
 KananFound3:
 ${If} $AbyssLoadKanan == "1"
@@ -11372,7 +11466,13 @@ Call DumpLog1
 WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "LoadDLL" "Kanan\Kanan.dll"
 goto AbyssEnd3
 ${EndIf}
-AbyssNotFound3:
+AbyssEnd3:
+${If} $LibLoaderLoadKanan == "1"
+StrCpy $R7 ".oninstsuccess Execute Loader.cfg Loader Files=Kanan.dll"
+Call DumpLog1
+WriteINIStr "$INSTDIR\Loader.cfg" "Loader" "Files" "Kanan.dll"
+goto Lib-LoaderEnd3
+${EndIf}
 IfFileExists $INSTDIR\Kanan\Kanan.dll KananFound5 KananNotFound5
 KananFound5:
 Call KananEnableData
@@ -11381,9 +11481,11 @@ StrCpy $R7 ".oninstsuccess Execute Loader.exe"
 Call DumpLog1
 ExecShell "" "$DESKTOP\Loader.exe.lnk"
 no7:
-AbyssEnd3:
+Lib-LoaderEnd3:
 KananNotFound3:
 KananNotFound5:
+
+
 StrCpy $R7 ".oninstsuccess Execute Launchers"
 Call DumpLog1
 IfFileExists "$INSTDIR\Hyddwn Launcher\Hyddwn Launcher.exe" ExecHyddwn ExecMabinogi
@@ -11521,7 +11623,7 @@ KananEnableDatadone:
    Delete $R0
 FunctionEnd
 
-Function HyddwnIgnoreijl11
+Function HyddwnIgnoreAbyss
 IfFileExists "$INSTDIR\ijl11.dat" AbyssFound13 AbyssNotFound13
 AbyssFound13:
 IfFileExists "$INSTDIR\Hyddwn Launcher\patchignore.json" HyddwnFound3 HyddwnNotFound3
@@ -11532,10 +11634,27 @@ HyddwnFound3:
    ${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
    CreateDirectory "$INSTDIR\Archived\Hyddwn Launcher"
    CopyFiles /SILENT "$INSTDIR\Hyddwn Launcher\patchignore.json" "$INSTDIR\Archived\Hyddwn Launcher\patchignore($2$1$0$4$5$6).json"
-   Delete "$INSTDIR\Hyddwn Launcher\patchignore.json"
+   ;Delete "$INSTDIR\Hyddwn Launcher\patchignore.json"
    SetOutPath "$INSTDIR\Hyddwn Launcher"
    File "${srcdir}\Tiara's Moonshine Mod\Tools\Hyddwn\patchignore.json"
 AbyssNotFound13:
+FunctionEnd
+
+Function HyddwnIgnoreLib-Loader
+IfFileExists "$INSTDIR\nps64.dat" Lib-LoaderFound13 Lib-LoaderNotFound13
+Lib-LoaderFound13:
+IfFileExists "$INSTDIR\Hyddwn Launcher\patchignore.json" HyddwnFound31 HyddwnNotFound31
+HyddwnNotFound31:
+   SetOutPath "$INSTDIR\Hyddwn Launcher"
+   File "${srcdir}\Tiara's Moonshine Mod\Tools\Hyddwn\patchignore.json"
+HyddwnFound31:
+   ${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
+   CreateDirectory "$INSTDIR\Archived\Hyddwn Launcher"
+   CopyFiles /SILENT "$INSTDIR\Hyddwn Launcher\patchignore.json" "$INSTDIR\Archived\Hyddwn Launcher\patchignore($2$1$0$4$5$6).json"
+   ;Delete "$INSTDIR\Hyddwn Launcher\patchignore.json"
+   SetOutPath "$INSTDIR\Hyddwn Launcher"
+   File "${srcdir}\Tiara's Moonshine Mod\Tools\Hyddwn\patchignore.json"
+Lib-LoaderNotFound13:
 FunctionEnd
 
 ;Function HyddwnDisableForceUpdates
