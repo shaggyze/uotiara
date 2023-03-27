@@ -1,3 +1,4 @@
 [
-    "nps64.dll"
+    "nps64.dll",
+	"CrashReporter.dll"
 ]

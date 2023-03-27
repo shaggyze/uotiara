@@ -1,12 +1,12 @@
 RequestExecutionLevel admin
-!define UOSHORTVERSION        "404"
-!define UOLONGVERSION         "0.33.59"
+!define UOSHORTVERSION        "406"
+!define UOLONGVERSION         "0.34.59"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
 !define REG_UNINSTALL "Software\Microsoft\Windows\CurrentVersion\Uninstall\${UOSHORTNAME}"
 !define InstFile "${UOLONGNAME}.exe"
-!define AbyssEnable "False"
+!define AbyssEnable "True"
 !define KananEnable "True"
 !define KananUpdateEnable "False"
 !define HyddwnEnable "True"
@@ -360,8 +360,8 @@ AbyssFound14:
 IfFileExists $INSTDIR\Kanan\Kanan.dll KananFound14 KananNotFound14
 KananFound14:
 StrCpy $AbyssLoadKanan "0"
-MessageBox MB_YESNO "Would you like Abyss to run Kanan via LoadDLL=Kanan\Kanan.dll in Abyss.ini?$\r$\n(clicking yes can sometimes result in crashing before character select)" IDNO AbyssNotFound14
-StrCpy $AbyssLoadKanan "1"
+;MessageBox MB_YESNO "Would you like Abyss to run Kanan via LoadDLL=Kanan\Kanan.dll in Abyss.ini?$\r$\n(clicking yes can sometimes result in crashing before character select)" IDNO AbyssNotFound14
+;StrCpy $AbyssLoadKanan "1"
 AbyssNotFound14:
 KananNotFound14:
 IfFileExists $INSTDIR\Loader.cfg Lib-LoaderFound14 Lib-LoaderNotFound14
@@ -429,19 +429,20 @@ AbyssLogNotFound1:
   Delete "7za.exe"
   Delete "7za.dll"
   Delete "7zxa.dll"
-  IfFileExists "$INSTDIR\ijl11.dat" AbyssFound1 AbyssNotFound1
+  IfFileExists "$INSTDIR\CrashReporter.dat" AbyssFound1 AbyssNotFound1
 AbyssNotFound1:
-File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\ijl11.dat"
+File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\CrashReporter.dat"
 File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\Abyss.ini"
 ; comment out File for mediafire/google drive
-File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\ijl11.dll"
-; inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/Abyss/ijl11.dll" "ijl11.dll" /end
+File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\CrashReporter.dll"
+; inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/Abyss/CrashReporter.dll" "CrashReporter.dll" /end
 File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\README_Abyss.txt"
 AbyssFound1:
-Push "$INSTDIR\ijl11.dll"
+Push "$INSTDIR\CrashReporter.dll"
 Call FileSizeNew
 Pop $0
-${If} $0 < "1000000"
+${If} $0 < "400000"
+${AndIf} $0 > "500000"
 MessageBox MB_OKCANCEL "Abyss failed to download or extract and/or is being blocked by security.$\r$\nTry adding your Mabinogi folder to your Exclusion lists." IDOK AbyssNotFound1 IDCANCEL AbyssInstall
 ${EndIf}
 Delete "Abyss.7z"
@@ -479,9 +480,9 @@ IfFileExists $INSTDIR\Abyss.ini 0 +3
 ${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
 CopyFiles /SILENT "$INSTDIR\Abyss_patchlog.txt" "$INSTDIR\Logs\Abyss\Abyss_patchlog($2$1$0$4$5$6).txt"
 Delete "$INSTDIR\Abyss_patchlog.txt"
-IfFileExists $INSTDIR\ijl11.dat 0 +2
-Delete "$INSTDIR\ijl11.dll"
-Rename "$INSTDIR\ijl11.dat" "$INSTDIR\ijl11.dll"
+IfFileExists $INSTDIR\CrashReporter.dat 0 +2
+Delete "$INSTDIR\CrashReporter.dll"
+Rename "$INSTDIR\CrashReporter.dat" "$INSTDIR\CrashReporter.dll"
 Delete "$INSTDIR\Hyddwn Launcher\patchignore.json"
 Delete "$INSTDIR\README_Abyss.txt"
 Delete "$SMPROGRAMS\Unofficial Tiara\Abyss.lnk"
@@ -499,9 +500,9 @@ Delete "$INSTDIR\Abyss.ini"
 ${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
 CopyFiles /SILENT "$INSTDIR\Abyss_patchlog.txt" "$INSTDIR\Logs\Abyss\Abyss_patchlog($2$1$0$4$5$6).txt"
 Delete "$INSTDIR\Abyss_patchlog.txt"
-IfFileExists $INSTDIR\ijl11.dat 0 +2
-Delete "$INSTDIR\ijl11.dll"
-Rename "$INSTDIR\ijl11.dat" "$INSTDIR\ijl11.dll"
+IfFileExists $INSTDIR\CrashReporter.dat 0 +2
+Delete "$INSTDIR\CrashReporter.dll"
+Rename "$INSTDIR\CrashReporter.dat" "$INSTDIR\CrashReporter.dll"
 Delete "$INSTDIR\README_Abyss.txt"
 Delete "$SMPROGRAMS\Unofficial Tiara\Abyss.lnk"
 Delete "$DESKTOP\Abyss.lnk"
@@ -642,7 +643,6 @@ File "${srcdir}\Tiara's Moonshine Mod\Tools\Hyddwn\HyddwnLauncher.Extensibility.
 File "${srcdir}\Tiara's Moonshine Mod\Tools\Hyddwn\System.Collections.Immutable.xml"
 File "${srcdir}\Tiara's Moonshine Mod\Tools\Hyddwn\Updater.exe"
 
-            
 SetOutPath "$INSTDIR\Hyddwn Launcher\ja-JP"
 File "${srcdir}\Tiara's Moonshine Mod\Tools\Hyddwn\ja-JP\Hyddwn Launcher.resources.dll"
 SetOutPath "$INSTDIR\Hyddwn Launcher\web"
@@ -11355,9 +11355,9 @@ MessageBox MB_YESNO "Would you like to Remove Abyss?" IDNO no42
 CopyFiles /SILENT "$INSTDIR\Abyss_patchlog.txt" "$INSTDIR\Logs\Abyss\Abyss_patchlog($2$1$0$4$5$6).txt"
 Delete "$INSTDIR\Abyss_patchlog.txt"
 Delete "$INSTDIR\Abyss.ini"
-IfFileExists $INSTDIR\ijl11.dat 0 +2
-Delete "$INSTDIR\ijl11.dll"
-Rename "$INSTDIR\ijl11.dat" "$INSTDIR\ijl11.dll"
+IfFileExists $INSTDIR\CrashReporter.dat 0 +2
+Delete "$INSTDIR\CrashReporter.dll"
+Rename "$INSTDIR\CrashReporter.dat" "$INSTDIR\CrashReporter.dll"
 Delete "$INSTDIR\README_Abyss.txt"
 no42:
 AbyssNotFound2:
@@ -11624,7 +11624,7 @@ KananEnableDatadone:
 FunctionEnd
 
 Function HyddwnIgnoreAbyss
-IfFileExists "$INSTDIR\ijl11.dat" AbyssFound13 AbyssNotFound13
+IfFileExists "$INSTDIR\CrashReporter.dat" AbyssFound13 AbyssNotFound13
 AbyssFound13:
 IfFileExists "$INSTDIR\Hyddwn Launcher\patchignore.json" HyddwnFound3 HyddwnNotFound3
 HyddwnNotFound3:
@@ -11727,7 +11727,7 @@ FunctionEnd
 Function CreateAllowFirewall
 StrCpy $R7 'powershell Add-MpPreference -ExclusionPath $INSTDIR'
 Call AllowFirewall
-StrCpy $R7 'netsh advfirewall firewall add rule name="Mabinogi Abyss Patch by Blade3575" dir=in action=allow program="$INSTDIR\ijl11.dll" enable=yes profile=private,public'
+StrCpy $R7 'netsh advfirewall firewall add rule name="Mabinogi Abyss Patch by Blade3575" dir=in action=allow program="$INSTDIR\CrashReporter.dll" enable=yes profile=private,public'
 Call AllowFirewall
 StrCpy $R7 'netsh advfirewall firewall add rule name="${UOSHORTNAME}" dir=in action=allow program="$EXEDIR\$EXEFILE" enable=yes profile=private,public'
 Call AllowFirewall

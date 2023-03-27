@@ -180,7 +180,7 @@ msg.etc.need_essentials_2	All essential items need to be filled in.
 msg.etc.no_channelmove_combat	You cannot switch to another channel during a battle.
 msg.etc.no_channelmove_event	You cannot switch to another channel during an event.
 msg.etc.no_channelmove_npctalk	You cannot switch to another channel while in conversation with an NPC.
-msg.etc.no_connect_timeout	Unable to load character information, please contact Customer Support.
+msg.etc.no_connect_timeout	Unable to load character information, please contact Player Support.
 msg.etc.no_exit_combat	You cannot exit during a battle.
 msg.etc.no_exit_event	You cannot exit during an event.
 msg.etc.no_exit_npctalk	You cannot exit while in conversation with an NPC.
@@ -3708,6 +3708,7 @@ pli_pointshopframe.3	Notification
 pli_portraitattendanceview.1	Obtained
 pli_portraitattendanceview.2	Receive Gift
 pli_portraitattendanceview.3	Time Remaining: {0}
+pli_portraitattendanceview.4	기간 : %04d/%02d/%02d %02d:%02d까지
 pli_privatefarmaskexitview.1	{0:itemname} x ({1:itemcount})
 pli_privatefarmaskexitview.2	Please wait for a moment.
 pli_privatefarmaskexitview.3	Would you like to leave the house?
@@ -4380,8 +4381,8 @@ pli_summongolemview.5	Smash
 pli_summongolemview.6	Defense
 pli_summongolemview.7	Rest
 pli_summongolemview.8	Taunt
-pli_supportpuppetautopotionsettingtabframe.1	해당 기능이 비활성화 되는 설정입니다.\n이대로 저장하시겠습니까?\n
-pli_supportpuppetautopotionsettingtabframe.2	{0}가 {1}% 이하로 내려갈 시 {2}를 사용합니다.\n다음과 같은 설정으로 저장하시겠습니까?\n
+pli_supportpuppetautopotionsettingtabframe.1	The selected function will be disabled.\nDo you want to save?\n
+pli_supportpuppetautopotionsettingtabframe.2	Use {2} when {0} drops to {1}% or below.\nSave current settings?\n
 pli_supportpuppetautopotionsettingtabframe.3	{0} ({1}%)
 pli_supportpuppetautopotionsettingtabframe.4	HP
 pli_supportpuppetautopotionsettingtabframe.5	MP
@@ -6072,8 +6073,8 @@ pli_windowoptiontabscontrolframe.1	Regular characters (users) cannot control and
 pli_windowoptiontabscontrolframe.2	Use skill cam for Classic Spirit Weapon awakening
 pli_windowoptiontabscontrolframe.3	Use Skill Cam
 pli_windowoptiontabscontrolframe.4	Flight Options
-pli_windowoptiontabscontrolframe.5	Pilot with the W, A, S, and D keys and Space Bar.
-pli_windowoptiontabscontrolframe.6	Pilot the bird with the W, A, S, and D keys and Space Bar. Activating this flight option temporarily disables the commands corresponding to these keys.
+pli_windowoptiontabscontrolframe.5	Pilot with the W, A, S, and D keys and Space Bar
+pli_windowoptiontabscontrolframe.6	Control flying mounts with the W, A, S, and D keys and the Space Bar. Activating this flight option temporarily disables the commands corresponding to these keys.
 pli_windowoptiontabscontrolframe.7	Open the Pilot’s Manual Upon Takeoff
 pli_windowoptiontabscontrolframe.8	Open the Pilot's Manual window upon takeoff.
 pli_windowoptiontabscontrolframe.9	Hotkey Settings
@@ -6089,15 +6090,15 @@ pli_windowoptiontabscontrolframe.18	Auto Combat
 pli_windowoptiontabscontrolframe.19	Tower Cylinder Options
 pli_windowoptiontabscontrolframe.20	Aiming Mode
 pli_windowoptiontabscontrolframe.21	When this option is on, the mouse cursor disappears and you attack enemies near the center of the screen.
-pli_windowoptiontabscontrolframe.22	View control manual
+pli_windowoptiontabscontrolframe.22	View Control Manual
 pli_windowoptiontabscontrolframe.23	Manual appears when using the Tower Cylinder
 pli_windowoptiontabscontrolframe.24	Hotkey Settings
-pli_windowoptiontabscontrolframe.25	Display knockdown gauge.
+pli_windowoptiontabscontrolframe.25	Display knockdown gauge
 pli_windowoptiontabscontrolframe.26	Allows you to see how much you must attack before an enemy is knocked down.
 pli_windowoptiontabscontrolframe.27	Display knockdown gauge when targeting.
 pli_windowoptiontabscontrolframe.28	Allows you to see how much you must attack before an enemy is knocked down.
-pli_windowoptiontabscontrolframe.29	Press Esc to cancel skills.
-pli_windowoptiontabscontrolframe.30	Press Esc to close window.
+pli_windowoptiontabscontrolframe.29	Press Esc to cancel skills
+pli_windowoptiontabscontrolframe.30	Press Esc to close window
 pli_windowoptiontabscontrolframe.31	Repeat Playing Instrument
 pli_windowoptiontabscontrolframe.32	Repeats the Playing Instrument skill.
 pli_windowoptiontabscontrolframe.33	Repeat Playing Instrument
@@ -6121,8 +6122,8 @@ pli_windowoptiontabscontrolframe.50	Character Proximity
 pli_windowoptiontabscontrolframe.51	Target the enemy nearest to your character.
 pli_windowoptiontabscontrolframe.52	Use Marionette Camera
 pli_windowoptiontabscontrolframe.53	When using Control Marionette, set the puppet as the focus of the camera.
-pli_windowoptiontabscontrolframe.54	Skip Cutscene with ESC
-pli_windowoptiontabscontrolframe.55	Skips cutscenes without additional dialogues when you press ESC.
+pli_windowoptiontabscontrolframe.54	Skip Cutscene with Esc
+pli_windowoptiontabscontrolframe.55	Skips cutscenes immediately when you press Esc.
 pli_windowoptiontabseffect.1	Not Used
 pli_windowoptiontabseffect.2	My Character
 pli_windowoptiontabseffect.3	My Party Members and I
@@ -6619,7 +6620,7 @@ pli_windowpopupitem.60	Disable Gold Collection
 pli_windowpopupitem.61	Enable Gold Collection
 pli_windowpopupitem.62	Preview
 pli_windowpopupitem.63	Stardust Info
-pli_windowpopupitem.65	추가 기능 설정
+pli_windowpopupitem.65	Additional Function Settings
 pli_windowpopupprop.0	Set Rental Fee
 pli_windowpopupprop.1	Change Direction
 pli_windowpopupprop.2	가방 열기
@@ -7097,7 +7098,7 @@ pli_windowspecialization.26	Save
 pli_windowspecialization.27	Close
 pli_windowspecialization.28	You cannot use any more AP, because you've exceeded the briogh limit.
 pli_windowspecialization.29	Would you like to apply the selected Technique set?\nThe effects of your current Technique set end when you switch sets.
-pli_windowspecialization.30	Can be used after completing Technique quest, \nlike the G22 Quest "Eyes Wide Shut."
+pli_windowspecialization.30	Complete a quest that grants the use of new techniques\n(EX: G22 Quest "Eyes Wide Shut") to access this menu.
 pli_windowspecialization.31	{0}\n\n{1}\n\n\nTechnique Unlock Requirements\n\n{2}
 pli_windowspecialization.32	The raid-exclusive technique is currently in use and cannot be removed.
 pli_windowspecialization.33	Only one raid-exclusive technique can be included per set.
@@ -9055,7 +9056,7 @@ window.spr_readsms.rcv_time	Time Received: {0}-{1}-{2} {3}:{4}
 window.spr_readsms.reply_button	Reply
 window.spr_readsms.send_char	From: {0}
 window.spr_readsms.title	Received Note
-window.spr_readsms.toltip.no_reply	This is a notification-only note.\nPlease submit a ticket to Customer Support.
+window.spr_readsms.toltip.no_reply	This is a notification-only note.\nPlease submit a ticket to Player Support.
 window.spr_sendsms.close_button	Close
 window.spr_sendsms.content	Content
 window.spr_sendsms.rcv_char	To:

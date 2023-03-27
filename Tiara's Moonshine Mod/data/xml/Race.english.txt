@@ -2723,7 +2723,7 @@
 3525	Disguised Bandit Human
 3526	Disguised Bandit Giant
 3527	Disguised Bandit Boss
-3537	마당을 탈출한 거대 수탉
+3537	The Ghost of Katherz
 3538	Raccoon Mercenary
 3539	Red Fox Mercenary
 3540	White Wolf Mercenary
@@ -9293,13 +9293,13 @@
 11521	Giant Sandworm
 11522	Sylvan Dragon
 11523	Sylvan Dragon
-11524	네오
-11525	루엘
-11526	아리브
-11527	스카
-11528	샤미르
-11529	알비에
-11530	엔비
+11524	Neo
+11525	Ruelle
+11526	Heba
+11527	Skath
+11528	Shamir
+11529	Marta
+11530	Niate
 11531	Splish-Splash Cat Doll
 11532	Bug Catcher Pup Doll
 11533	Rabbit
@@ -9309,24 +9309,24 @@
 11537	Red Fairy Dragon
 11538	Green Fairy Dragon
 11539	Blue Fairy Dragon
-11540	분홍색 별사탕
-11541	노란색 별사탕
-11542	초록색 별사탕
-11543	보라색 별사탕
-11544	위협하는 갈색곰
-11547	달조각을 가진 곰
-11548	위협하는 늑대
-11549	위협하는 멧돼지
-11550	스페이스 플로라
+11540	Pink Star Candy
+11541	Yellow Star Candy
+11542	Green Star Candy
+11543	Purple Star Candy
+11544	Bullying Brown Bear
+11547	Moon-Touched Bear
+11548	Bullying Wolf
+11549	Bullying Boar
+11550	Space Cadet Fairy
 11551	Eochaid
 11552	Eochaid
 11553	Eochaid
-11554	위협받는 토끼
+11554	Imperiled Bunny
 11555	Linden Doll
 11556	Sayiv Doll
 11557	Igerna Doll
 11558	Caoimhin Doll
-11559	이루샤
+11559	Irusan
 11560	Fairy Dragon
 11561	Fairy Dragon
 11562	Fairy Dragon
@@ -9334,39 +9334,39 @@
 11564	Fairy Dragon
 11565	Fairy Dragon
 11566	Scooter Imp (90 Days)
-11567	작은 골렘
-11568	거대 구미베어
-11569	거대 진저맨쿠키
-11570	타바르타스
-11571	대왕 검은 배 쥐
-11572	클라우 솔라스
-11573	블랙 서큐버스
-11574	포이즌 서큐버스
-11575	듀크
-11576	그림 리퍼
-11577	비탄의 노래
-11578	마스터 리치
-11579	어둠에 잠식된 캐러반 조
-11580	서큐버스 퀸
-11581	작은 골렘
-11582	거대 구미베어
-11583	거대 진저맨쿠키
-11584	타바르타스
-11585	대왕 검은 배 쥐
-11586	클라우 솔라스
-11587	블랙 서큐버스
-11588	포이즌 서큐버스
-11589	듀크
-11590	그림 리퍼
-11591	비탄의 노래
-11592	마스터 리치
-11593	어둠에 잠식된 캐러반 조
-11594	서큐버스 퀸
-11595	이루샤
+11567	Small Golem
+11568	Giant Gummy Bear
+11569	Giant Gingerman
+11570	Tabhartas
+11571	Hulking Black Ship Rat
+11572	Claimh Solas
+11573	Black Succubus
+11574	Poison Succubus
+11575	Duke
+11576	Grim Reaper
+11577	Song of Grief
+11578	Master Lich
+11579	Edgy Darksoul Caravan Joe
+11580	Succubus Queen
+11581	Small Golem
+11582	Giant Gummy Bear
+11583	Giant Gingerman
+11584	Tabhartas
+11585	Hulking Black Ship Rat
+11586	Claimh Solas
+11587	Black Succubus
+11588	Poison Succubus
+11589	Duke
+11590	Grim Reaper
+11591	Song of Grief
+11592	Master Lich
+11593	Edgy Darksoul Caravan Joe
+11594	Succubus Queen
+11595	Irusan
 11596	Scented Bear (Spider)
 11597	Brainy Sheep
-11598	큐파킹 와그-자그
-11599	큐파킹 와그-자그
+11598	Supakupa Wam-Bam
+11599	Supakupa Wam-Bam
 11600	Baby Bunny Doll
 11601	Fennec Fox Kit Doll
 11602	Bear Cub Doll
@@ -9376,7 +9376,7 @@
 11607	Cowenna
 11608	Cowenna
 11609	Cowenna
-11610	캐러반 조의 다크 원드
+11610	Caravan Joe's World of Lament
 11611	Ceraunus (Event)
 11613	Fairy Dragon
 11614	Eirawen
@@ -9449,3 +9449,5 @@
 11803	Sprinkle
 11810	행복을 실은 커피 마차
 11813	태극기
+11831	길드석
+11847	Hasidim
