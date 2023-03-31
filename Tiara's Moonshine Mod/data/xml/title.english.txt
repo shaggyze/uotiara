@@ -13992,6 +13992,13 @@
 15532	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 15533	행운 30 증가
 15534	행운 30 증가
+15556	맛있는 발걸음
+15557	맛있는 발걸음
+15558	맛있는 발걸음
+15559	맛있는 발걸음
+15560	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15561	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15562	행운 30 증가
 15563	내일의 희망
 15564	내일의 희망
 15565	내일의 희망
@@ -14027,6 +14034,13 @@
 15609	Luck +30
 15610	Luck +30
 15611	Luck +30
+15612	Foxfire
+15613	Foxfire
+15614	Foxfire
+15615	Foxfire
+15616	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15617	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15618	Luck +30
 15619	눈꽃 나비
 15620	눈꽃 나비
 15621	눈꽃 나비
@@ -14034,6 +14048,13 @@
 15623	2022 마비노기 판타지 ON박싱에 함께해준 밀레시안에게 지급되는 2차 타이틀.
 15624	2022 마비노기 판타지 ON박싱에 함께해준 밀레시안에게 지급되는 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 15625	행운 30 증가
+15626	어전트 샷 마스터
+15627	어전트 샷 마스터
+15628	어전트 샷 마스터
+15629	어전트 샷 마스터
+15630	어전트 샷 스킬의 최고레벨에 도달한 사람에게 주어지는 영광스러운 칭호
+15631	어전트 샷 1랭크의 수련 경험치가 100에 도달하면 최고 레벨임을 증명하는 타이틀을 받을 수 있다
+15632	솜씨 20 증가\n어전트 샷 사용 시 소모되는 생명령 및 스태미나 2% 감소\n[체력 20 감소]\n[의지 10 감소]
 15640	언제나 불꽃
 15641	희망을 실은 불빛
 15642	빛나는 원형 발판
@@ -14076,3 +14097,10 @@
 15700	A title received during the 15th Anniversary GM event. Wow, you saw a celebrity!
 15701	A title received during the 15th Anniversary GM event. Wow, you saw a celebrity!
 15702	
+15801	who Reminisced During the 15th Anniversary
+15802	who Reminisced During the 15th Anniversary
+15803	who Reminisced During the 15th Anniversary
+15804	who Reminisced During the 15th Anniversary
+15805	A title bestowed on those who participated in the Mabinogi Community 15th Anniversary Art, Writing, and Screenshot Contest! Thank you for sharing your memories with the community! 
+15806	A title bestowed on those who participated in the Mabinogi Community 15th Anniversary Art, Writing, and Screenshot Contest! Thank you for sharing your memories with the community! 
+15807	Luck +15

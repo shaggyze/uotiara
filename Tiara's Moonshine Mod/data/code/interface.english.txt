@@ -169,7 +169,7 @@ msg.etc.cannot_chat_banned_word	The phrase includes a term that is deemed inappr
 msg.etc.cannot_read_when_sitdown	You cannot read the book in detail while sitting down.
 msg.etc.cutscene_close_confirm	Do you wish to end the cutscene?
 msg.etc.cutscene_close_confirm2	Are you sure you want to skip the movie?
-msg.etc.error_character_data	Your character data is currently instable.\nPlease try again after 5 minutes.\nIf the problem persists, please submit a ticket to Customer Support.
+msg.etc.error_character_data	Your character data is currently instable.\nPlease try again after 5 minutes.\nIf the problem persists, please submit a ticket to Player Support.
 msg.etc.hide_mode_msg	
 msg.etc.hide_party_mode_msg	
 msg.etc.hide_user_name	
@@ -1508,6 +1508,9 @@ pli_echostoneawakeningview.10	When you awaken the Echostone, it will become an e
 pli_echostoneawakeningview.11	Alert
 pli_echostoneawakeningview.12	When you awaken this item, it will become an exclusive item,\nand the temporary trade effect will disappear.\nWould you like to awaken it?
 pli_echostoneawakeningview.13	Awakening the Echostone will consume a large amount of AP.\nRequired AP: <color=5>{0} AP</color>\nDo you still want to awaken the Echostone?
+pli_echostoneawakeningview.14	남은 시도 횟수를 모두 사용했습니다.
+pli_echostoneawakeningview.15	남은 시도 횟수 <color=1>무제한</color>
+pli_echostoneawakeningview.16	남은 시도 횟수 <color={0}>{1}</color>회
 pli_echostonecombineview.1	Hover mouse over the button to view details.
 pli_echostoneconvertview.1	Place the Echostone to fragmentize it.
 pli_echostoneconvertview.2	Place the Echostone.
@@ -1515,6 +1518,7 @@ pli_echostoneconvertview.3	This is a high-grade Echostone. Do you want to contin
 pli_echostoneconvertview.4	Alert
 pli_echostoneconvertview.5	Grade {0}
 pli_echostoneconvertview.6	{0} x{1}
+pli_echostoneconvertview.7	<color=5><outlinecolor=3>매우 높은 등급의 에코스톤</outlinecolor></color>입니다. 계속하시겠습니까?
 pli_echostoneprobeachlevelview.1	Level {0}
 pli_echostoneupgraderesultview.1	{0} {1} + {2} Increase
 pli_echostoneupgraderesultview.2	{0} {1} Increase
@@ -1706,6 +1710,7 @@ pli_ergenhancemainview.19	Failed to place item in slot.
 pli_ergenhancemainview.20	Failed to infuse Erg.
 pli_ergenhancemainview.21	Failed to increase Max Erg Level.
 pli_ergenhancemainview.22	Success Rate: <color=2>{0}</color>({1}) %
+pli_ergenhancemainview.24	%d배 이벤트 진행 중
 pli_ergenhancetransferview.1	Select weapon for Erg extraction
 pli_ergenhancetransferview.2	Select weapon to receive Erg
 pli_ergenhancetransferview.3	Transfer
@@ -3412,6 +3417,11 @@ pli_newyearfortune2015japan.1	To reveal your fortune, you need 3 Fortune's Fees.
 pli_npcenchantentrustview.1	If an enchant attempt of rank 6 or higher fails,\nno further enchants can be applied to the item.
 pli_npcenchantentrustview.2	If an enchant attempt of rank 6 or higher fails,\nno further enchants can be applied to the item.
 pli_npcenchantentrustview.3	소각할 수 없는 아이템입니다
+pli_objectivepointeventview.1	Please click again after {0} sec.
+pli_objectivepointeventview.2	{0} min
+pli_objectivepointeventview.3	From %04d.%02d.%02d to %04d.%02d:%02d
+pli_objectivepointeventview.4	Claim Reward
+pli_objectivepointeventview.5	Week {0}
 pli_onlineconcertview.1	%02d:%02d:%02d
 pli_onlineconcertview.2	콘서트까지 {0}시간 {1}분 {2}초 남았습니다.
 pli_onlineconcertview.3	이미 시청 중입니다.
@@ -4152,6 +4162,9 @@ pli_screenshotreportview.24	There was an error in the transmission.
 pli_screenshotreportview.25	Transmission in progress. Please wait a moment.
 pli_screenshotreportview.26	Please take another screenshot before transmitting.
 pli_screenshotreportview.27	First, click the [{0}] button and take\na screenshot of what you want to report.
+pli_screenshotreportview.31	신고 대상을 찾을 수 없었습니다.\n잠시 뒤에 다시 시도해 주세요. (오류코드: 84)
+pli_screenshotreportview.32	세션 인증에 오류가 있습니다.\n재접속 후 다시 시도해 주세요. (오류코드: 85)
+pli_screenshotreportview.33	세션 인증에 오류가 있습니다.\n재접속 후 다시 시도해 주세요. (오류코드: 86)
 pli_searchitemview.1	Please select the type of search you'll use to find the item.
 pli_searchitemview.2	Regular
 pli_searchitemview.3	If the results yield partial match.

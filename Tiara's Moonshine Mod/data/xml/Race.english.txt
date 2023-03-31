@@ -9442,12 +9442,14 @@
 11705	고미 학생 인형 가방
 11706	Mystical Time Broom
 11707	Mystical Space Broom
+11715	케라우노스(이벤트용)
 11719	Nianshou
 11720	Glacial Whale Mini-Gem
 11721	Celestial Whale Mini-Gem
 11802	Biscuit
 11803	Sprinkle
-11810	행복을 실은 커피 마차
+11810	Happiness-filled Coffee Wagon
 11813	태극기
+11816	케라우노스(이벤트용)
 11831	길드석
 11847	Hasidim

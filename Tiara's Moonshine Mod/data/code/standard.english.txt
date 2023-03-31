@@ -370,6 +370,7 @@ interface_skillmgruse.3	This skill cannot be used with the current Arcana.
 interface_soulmate.1	You can only send the request on Doki Doki Island.
 interface_soulmate.2	You're already someone else's soulmate!
 interface_soulmate.3	Your love interest is already someone else's soulmate.
+interface_soulmate.4	상대방이 이벤트에 참여하고 있지 않아 요청이 불가능합니다.
 interface_specialization.1	Requirements not met.
 interface_specialization.2	This Technique has not been activated.
 interface_standardapi.1	일반
@@ -883,6 +884,7 @@ setitemmgr.3	Increase
 setitemmgr.4	Decrease
 setitemmgr.5	The item was not used since the set effect cannot be upgraded.
 setitemmgr.6	The item was not used since the set effect is already {0}.
+setitemmgr.7	(세트 효과는 수치 10을 완성 시 발동)
 setitemmgr.8	심볼 효과 강화에 성공하여 심볼 효과가 {0}레벨이 되었습니다.
 setitemmgr.9	심볼 효과 강화에 실패하였습니다.
 setitemmgr.10	\n<color=3>{0} 레벨 : {1}</color>\n

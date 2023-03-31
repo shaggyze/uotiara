@@ -3126,7 +3126,7 @@
 4685	If your battle is starting to look a little dicey, call upon the Great Spirit Puck!
 4686	If your battle is starting to look a little dicey, call upon the Great Spirit Puck!
 4698	Taunt
-4699	A skill that allows you to draw the attention of enemies. You can use this skill to distract monsters actively attacking your party members. The drawn enemy becomes Peeved, and it will only attack you with increased movement speed and decreased ATT and Magic Attack. Higher Rank in this skill allows to draw more enemies from further away and with greater intensity. Enemies that are too strong can't be provoked, so be careful.
+4699	A skill that allows you to draw the attention of enemies. You can use this skill to distract monsters actively attacking your party members. The drawn enemy becomes Peeved, and it will only attack you with increased movement speed and decreased ATT and Magic Attack. Higher Rank in this skill allows you to draw more enemies from further away and with greater intensity. Enemies that are too strong can't be provoked, so be careful.
 4700	At [Level 20] or higher, talk to [Taunes] in Vales with the [Skills] keyword, and then go through the [Abstaining from Emotion] quest.
 4701	Duration
 4702	Range
@@ -4328,3 +4328,36 @@
 6401	Pall of Ruination drastically weakens enemies within range of the caster for a short time. While it shares a basis and fundamentals with the Music Buff skills, its effects have been greatly altered through the power of Arcana. Its power is greatly influenced by the Dance of Death and Fantastic Chorus skills, with higher ranks of both amplifying Pall of Ruination's effects.
 6402	Blessing of Protection greatly bolsters the survivability of all party members within range of the caster for a short time. While it shares a basis and fundamentals with the Music Buff skills, its effects have been substantially enhanced through the power of Arcana. Its power is greatly influenced by the Enduring Melody skill, with higher ranks of Enduring Melody amplifying Blessing of Protection's effects.
 6403	Hymn of Resurrection is a potent spell that uses the power of Arcana to simulate the reviving power of a Phoenix Feather. The effect has been magnified through a mastery of mana such that even from a great distance, it can restore an ally to consciousness. Its power is greatly influenced by the First Aid skill, with higher ranks of First Aid amplifying Hymn of Resurrection's potency.
+6449	던지기 공격
+6450	지금은 사용할 수 없다.
+6451	던질 수 있는 다양한 무기를 상대를 향해 던지는 스킬이다. 던지기 위한 도구와 던질 무기를 양손에 착용하면 던지기 공격을 할 수 있다. 활과는 달리 던지기 공격은 스킬이 준비되면 조준 과정 없이 바로 상대를 공격할 수 있다.
+6452	[자벨린]이나 [아틀라틀]을 장비한다.
+6453	대미지
+6454	타운트
+6455	주변에 있는 난폭한 적의 주의를 내게로 끌어오는 기술. 자이언트가 위기에 처한 파티원을 돕는 데 활용할 수 있다. 한 번 끌려온 적은 분노 상태로 변하여 일정 시간 동안 나만을 고정적으로 공격하게 되며, 이동 속도가 증가하는 대신 공격력과 마법 공격력이 감소하게 된다. 또 도발에 성공한 적의 수에 비례해 자신의 방어와 마법방어가 상승한다. 랭크가 높아지면 도발할 수 있는 적의 수와 도발 가능한 거리가 늘어나며, 도발 당한 적이 더 큰 분노에 휩싸이게 된다. 너무 강력한 적은 도발에 걸리지 않으니 주의하자.
+6456	[레벨 20 이상]일 때 피시스 발레스 마을의 [타우네스]에게 [스킬에 대하여]로 대화하여 [정진하는 마음] 퀘스트를 수행한다.
+6457	지속 시간
+6458	범위
+6459	유인한 적 1명 당 자신의 방어/마법방어 증가
+6460	최소 유인 몬스터 수
+6461	최대 유인 몬스터 수
+6462	블레이즈
+6463	마법 무기에 마법의 힘을 집중시켜 적에게 날린다. 이 마력의 응집체를 날리는 힘은 순수한 물리력이기 때문에 육체의 강력함을 함께 요구한다. 특히 타격에 의한 경직으로 균형을 잃은 적에게 돌이킬 수 없는 피해를 입힌다. 따라서 쓰러지기 직전이나 쓰러진 직후의 적에게 가장 효과적이다. 마우스나 단축키를 누르고 있는 동안 마나를 집중시키고, 떼는 순간 마법력이 폭발한다. 마나를 집중하는 동안 대상을 변경할 수 있다.
+6464	마법 무기에 마법의 힘을 집중시켜 적에게 날린다. 이 마력의 응집체를 날리는 힘은 순수한 물리력이기 때문에 육체의 강력함을 함께 요구한다. 특히 타격에 의한 경직으로 균형을 잃은 적에게 돌이킬 수 없는 피해를 입힌다. 따라서 쓰러지기 직전이나 쓰러진 직후의 적에게 가장 효과적이다. 마우스나 단축키를 누르고 있는 동안 마나를 집중시키고, 떼는 순간 마법력이 폭발한다. 마나를 집중하는 동안 대상을 변경할 수 있다.
+6465	[컴뱃 마스터리]와 [매직 마스터리]를 C랭크 이상 올린 뒤 탈틴의 [베이릭시드]에게 [스킬에 대하여]로 대화한 후 [블레이즈 배우기] 퀘스트를 수행한다.
+6466	폭발 대미지
+6467	대미지
+6468	폭발 반경
+6469	쿨타임 감소
+6490	브레스 오브 라데카
+6491	캐릭터 레벨 100을 달성한다. 에린에서 아직 진로를 정하지 못한 초심자라면 좀 더 이 세계에 적응해보자.
+6492	에린의 밤하늘을 비추는 두 개의 달 중 푸른 달인 라데카로부터 받은 축복이 육체에 깃들어, 일정 시간 동안 발걸음이 빨라지며, 쌍검 장비 후 근접 전투 스킬 사용 시 보너스 대미지가 적용된다. 이 세계에 오래 머무를수록 더욱 긴 시간 동안 축복의 기운을 다룰 수 있다고 한다.
+6493	[캐릭터 레벨 100]을 달성한다. 에린에서 아직 진로를 정하지 못한 초심자라면 좀 더 이 세계에 적응해보자.
+6494	어전트 샷
+6495	어전트 샷은 평소보다 정신을 집중시켜 빠르게 화살을 발사할 수 있게 하는 스킬이다. 적의 빈틈을 공략하여 사용 즉시 적을 밀어내고, 집중의 효과로 일정 시간 동안 궁술 계열 스킬의 대미지가 상승하게 된다.
+6496	[서포트 샷]을 B랭크 이상 올린 뒤 얻게 되는 [위기를 기회로 바꾸는 법] 퀘스트를 수행한다.
+6497	대미지
+6498	쿨타임 감소
+6499	다음 조준 속도
+6500	효과 유지 시간
+6501	유인 가능 강화
