@@ -1200,7 +1200,7 @@ pli_commercepostview.12	{0:materials} / {1:weight} Weight
 pli_commercepostview.13	Exchange
 pli_commercepostview.14	Raw materials
 pli_commercepostview.15	Ducats
-pli_commercepostview.16	<color=4><outlinecolor=5>{0}</outlinecolor></color> <color=6>Seasonal Ducats</color>
+pli_commercepostview.16	<color=4><outlinecolor=5>{0}</outlinecolor></color> <color=6>S. Ducats</color>
 pli_commercepostview.17	Seasonal Ducats
 pli_commercepostview.18	{0} Seasonal Ducats / Weight {1}
 pli_commercepostview.19	<color=4><outlinecolor=5>{0}</outlinecolor></color> <color=6>Seasonal Ducats</color>
@@ -3384,7 +3384,7 @@ pli_newmetalwareconfirmview.1	Rank {0}
 pli_newmetalwareconfirmview.2	No Rank
 pli_newmetalwareconfirmview.3	When the item has reached Rank 1 with 3 attributes are available,\nattributes gained will be more likely to be high-value.\n\nCurrent Item Status\nRank: {0}\nAttributes available: {1}\n\n
 pli_newmetalwareconfirmview.4	Reforging Tools grant new attributes each time they are used.\nIf a piece of equipment already has an attribute, you'll need\nto weigh the decision carefully.\nDo you want to use the Reforging Tool?
-pli_newmetalwareconfirmview.5	초심자의 세공 도구는 아이템에 부여되는 세공 옵션이\n<outlinecolor=5>각 랭크별 최대 레벨의 75% 수치로 제한</outlinecolor>됩니다.\n\n또한 아이템에 <outlinecolor=5>부여되는 세공 옵션이 1개만 활성화</outlinecolor> 됩니다.\n\n
+pli_newmetalwareconfirmview.5	The reforging attributes obtainable with the Journeyman's Reforging Tools\nare <outlinecolor=5>limited to 75% of the max value for each rank</outlinecolor>.\n\nIn addition, when using this tool, <outlinecolor=5>only one attribute slot will be enabled</outlinecolor>.\n\n
 pli_newmetalwarecountorrankupview.1	No Rank
 pli_newmetalwarecountorrankupview.2	Rank {0}
 pli_newmetalwarecountorrankupview.3	Upgrade the selected item to Rank 1.
@@ -3409,7 +3409,7 @@ pli_newmetalwareview.6	Attribute Slots can be increased
 pli_newmetalwareview.7	First Attribute can be added
 pli_newmetalwareview.8	Second Attribute can be added
 pli_newmetalwareview.9	Third Attribute can be added
-pli_newmetalwareview.10	\n<color=2>▶ 초심자의 세공 도구 부여 가능 최대 레벨 도달</color>
+pli_newmetalwareview.10	\n<color=2>▶ Maximum Level Possible with Journeyman's Reforging Tools</color>
 pli_newrebirtheventview.1	Time: 
 pli_newrecordbookmainview.1	There doesn't seem to be much here yet.\nComplete the Third Memoir first.
 pli_newrecordbookmainview.2	* Bookmark\n
@@ -3419,7 +3419,7 @@ pli_npcenchantentrustview.2	If an enchant attempt of rank 6 or higher fails,\nno
 pli_npcenchantentrustview.3	소각할 수 없는 아이템입니다
 pli_objectivepointeventview.1	Please click again after {0} sec.
 pli_objectivepointeventview.2	{0} min
-pli_objectivepointeventview.3	From %04d.%02d.%02d to %04d.%02d:%02d
+pli_objectivepointeventview.3	From %04d.%02d.%02d to %04d.%02d.%02d
 pli_objectivepointeventview.4	Claim Reward
 pli_objectivepointeventview.5	Week {0}
 pli_onlineconcertview.1	%02d:%02d:%02d
@@ -5578,7 +5578,7 @@ pli_windowitemrepair3.9	The NPC repairs with a basic success rate.\nIf the repai
 pli_windowitemrepair3.10	Go Back
 pli_windowitemrepair3.11	Do you want to repair all items that {0} can repair with a {1}% success rate?
 pli_windowitemselect.1	Free Score
-pli_windowitemselect.2	현재 심볼 효과 레벨 : {0} 레벨\n성공률 : {1}%
+pli_windowitemselect.2	Current Signet Effect Level: {0}\nSuccess Rate: {1}%
 pli_windowkeycustomizeview.1	Hotkey Settings
 pli_windowkeycustomizeview.2	Command
 pli_windowkeycustomizeview.3	Hotkey
@@ -6614,8 +6614,8 @@ pli_windowpopupitem.41	Turn off trade messages
 pli_windowpopupitem.42	Turn on trade messages
 pli_windowpopupitem.43	Deactivate
 pli_windowpopupitem.44	Activate
-pli_windowpopupitem.45	Function Deactivated
-pli_windowpopupitem.46	Function Activated
+pli_windowpopupitem.45	Deactivate Abilities
+pli_windowpopupitem.46	Activate Abilities
 pli_windowpopupitem.47	Synthesize
 pli_windowpopupitem.48	Choose Music Score
 pli_windowpopupitem.49	Remove Music Score
@@ -6627,8 +6627,8 @@ pli_windowpopupitem.54	Enable Item Collection
 pli_windowpopupitem.55	Recharge
 pli_windowpopupitem.56	Activate
 pli_windowpopupitem.57	Manage Crystals
-pli_windowpopupitem.58	Shield Deactivation
-pli_windowpopupitem.59	Shield Activation
+pli_windowpopupitem.58	Deactivate Shield
+pli_windowpopupitem.59	Activate Shield
 pli_windowpopupitem.60	Disable Gold Collection
 pli_windowpopupitem.61	Enable Gold Collection
 pli_windowpopupitem.62	Preview

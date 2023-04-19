@@ -9409,14 +9409,14 @@
 11655	레트로 조
 11657	다루의 스쿠터 (이벤트)
 11660	Ceraunus (Event)
-11663	타흘룸
-11664	파이어 슬라임
-11665	아이스 슬라임
-11666	라이트닝 슬라임
-11667	일루전 샐러맨더
-11668	일루전 좀비
-11669	테흐 두인 게아타
-11670	테흐 두인 게아타
+11663	Tathlum
+11664	Fire Slime
+11665	Ice Slime
+11666	Lightning Slime
+11667	Illusion Salamander
+11668	Illusion Zombie
+11669	Tech Duinn Geata
+11670	Tech Duinn Geata
 11672	Yggdrasil Wisp
 11673	Sylvan Dragon
 11674	Hasidim
@@ -9448,7 +9448,7 @@
 11721	Celestial Whale Mini-Gem
 11802	Biscuit
 11803	Sprinkle
-11810	Happiness-filled Coffee Wagon
+11810	Cheerfully Caffeinated Coffee Wagon
 11813	태극기
 11816	케라우노스(이벤트용)
 11831	길드석

@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
-!define UOSHORTVERSION        "407"
-!define UOLONGVERSION         "0.35.60"
+!define UOSHORTVERSION        "408"
+!define UOLONGVERSION         "0.36.61"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -28,7 +28,7 @@ VIAddVersionKey "ProductVersion" ${UOVERSION}
 VIAddVersionKey "Comments" "https://shaggyze.github.io/uotiara/"
 VIAddVersionKey "CompanyName" "ShaggyZE"
 VIAddVersionKey "LegalTrademarks" "${UOSHORTNAME} by ShaggyZE"
-VIAddVersionKey "LegalCopyright" "© ShaggyZE"
+VIAddVersionKey "LegalCopyright" "ShaggyZE"
 VIAddVersionKey "FileDescription" "${UOSHORTNAME} ${UOVERSION}"
 VIAddVersionKey "FileVersion" ${UOVERSION}
 VIProductVersion ${UOVERSION}
@@ -71,7 +71,7 @@ Var STR_RETURN_VAR
   Call StrContains
   Pop `${OUT}`
 !macroend
- 
+
 !macro StrStr ResultVar String SubString
   Push `${String}`
   Push `${SubString}`
@@ -153,7 +153,7 @@ AutoCloseWindow true
 SetDateSave on
 ShowInstDetails show
 Var InstMeth
-Var LnchMeth 
+Var LnchMeth
 ;Var MUI_HWND
 Var Image
 Var FontBMP
@@ -171,10 +171,10 @@ Icon "${icon}"
 !macro FontBMPCreate File
   StrCpy $R7 "Begin FontBMPCreate"
   Call DumpLog1
-  
+
   Push "${File}"
   Call FontBMPCreate
-  
+
   StrCpy $R7 "End FontBMPCreate"
   Call DumpLog1
 !macroend
@@ -200,7 +200,7 @@ Icon "${icon}"
   GetDlgItem $R9 ${HWND} ${IDC}
   ShowWindow $R9 ${SW_HIDE}
   ShowWindow $R9 ${SW_SHOW}
-  
+
 !macroend
 
 ;Save selected sections
@@ -659,7 +659,7 @@ SetRegView 32
 SectionIn 1
 ${Else}
   DetailPrint "*** Removing Hyddwn Launcher..."
-  
+
 SetOutPath "$INSTDIR\Plugins"
 Delete "$INSTDIR\Plugins\HyddwnLauncher.Patcher.dll"
 Delete "$INSTDIR\Plugins\PatcherSettings.json"
@@ -880,7 +880,7 @@ Delete "$DESKTOP\Update Kanan.lnk"
 Delete "$INSTDIR\Kanan\kanan.zip"
 Delete "$INSTDIR\Kanan\Loader.txt.bak"
 
-${EndIf} 
+${EndIf}
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD435}
@@ -902,7 +902,7 @@ Delete "$DESKTOP\Loader.exe.lnk"
 Delete "$SMPROGRAMS\Unofficial Tiara\Launcher.exe.lnk"
 Delete "$DESKTOP\Launcher.exe.lnk"
 Delete "$SMPROGRAMS\Unofficial Tiara\Update Kanan.lnk"
-Delete "$DESKTOP\Update Kanan.lnk" 
+Delete "$DESKTOP\Update Kanan.lnk"
 Delete "$INSTDIR\Kanan\Kanan.ico"
 Delete "$INSTDIR\Kanan\kanan.zip"
 Delete "$INSTDIR\Kanan\Launcher.exe"
@@ -1162,7 +1162,7 @@ ${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
 CopyFiles /SILENT "$INSTDIR\Loader.cfg" "$INSTDIR\Archived\Lib-Loader\Loader$2$1$0$4$5$6).cfg"
 DetailPrint "*** Removing Lib-Loader..."
 Delete "$INSTDIR\Loader.cfg"
-IfFileExists $INSTDIR\Loader.cfg 0 +3
+IfFileExists $INSTDIR\Loader.log 0 +3
 ${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
 CopyFiles /SILENT "$INSTDIR\Loader.log" "$INSTDIR\Logs\Lib-Loader\Loader($2$1$0$4$5$6).log"
 Delete "$INSTDIR\Loader.log"
@@ -1187,7 +1187,6 @@ Delete "$INSTDIR\Loader.log"
 IfFileExists $INSTDIR\nps64.dat 0 +2
 Delete "$INSTDIR\nps64.dll"
 Rename "$INSTDIR\nps64.dat" "$INSTDIR\nps64.dll"
-Delete "$INSTDIR\Hyddwn Launcher\patchignore.json"
 Delete "$SMPROGRAMS\Unofficial Tiara\Lib-Loader.lnk"
 Delete "$DESKTOP\Lib-Loader.lnk"
 no51:
@@ -2718,6 +2717,30 @@ SectionGroupEnd
 SectionGroupEnd
 SectionGroupEnd
 SectionGroup "gfx"
+Section "Bandit Spotter 3" MOD299
+SetOutPath "$INSTDIR\data\gfx\char\human\male\helmet"
+File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\male\helmet\male_theater01_paper_h01.xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\male\helmet\male_theater03_paper_h01.xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\male\helmet\male_theater04_paper_h01.xml"
+SetOutPath "$INSTDIR\data\gfx\fx\effect"
+File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\my_effect_52baka.xml"
+SetOutPath "$INSTDIR\data\material\fx\effect"
+File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\common_effect_add_8_52baka.dds"
+File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\common_effect_add_9_52baka.dds"
+SetOutPath "$INSTDIR\data\material\_define\material\effect"
+File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\mat_effect_custom_52baka.xml"
+SectionIn 1 2 3
+SectionEnd
+!macro Remove_${MOD299}
+  DetailPrint "*** Removing MOD299..."
+  Delete "$INSTDIR\data\gfx\char\human\male\helmet\male_theater01_paper_h01.xml"
+  Delete "$INSTDIR\data\gfx\char\human\male\helmet\male_theater03_paper_h01.xml"
+  Delete "$INSTDIR\data\gfx\char\human\male\helmet\male_theater04_paper_h01.xml"
+  Delete "$INSTDIR\data\gfx\fx\effect\my_effect_52baka.xml"
+  Delete "$INSTDIR\data\material\fx\effect\common_effect_add_8_52baka.dds"
+  Delete "$INSTDIR\data\material\fx\effect\common_effect_add_9_52baka.dds"
+  Delete "$INSTDIR\data\material\_define\material\effect\mat_effect_custom_52baka.xml"
+!macroend
 Section "Phantasmal Sight Color" MOD402
 SetOutPath "$INSTDIR\data\gfx\fx\effect"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\g23_specialization.xml"
@@ -6772,6 +6795,20 @@ SectionEnd
   Delete "$INSTDIR\data\xml\title.english.txt"
 !macroend
 SectionGroupEnd
+SectionGroup "world"
+Section "Shadow Mission Boards" MOD74
+SetOutPath "$INSTDIR\data\world\taillteann_main_field"
+File "${srcdir}\Tiara's Moonshine Mod\data\world\taillteann_main_field\_taillteann_main_field_0018.area"
+SetOutPath "$INSTDIR\data\world\Tara_main_field"
+File "${srcdir}\Tiara's Moonshine Mod\data\world\Tara_main_field\_Tara_main_field_0013.area"
+SectionIn 1 2
+SectionEnd
+!macro Remove_${MOD74}
+  DetailPrint "*** Removing MOD74..."
+  Delete "$INSTDIR\data\world\taillteann_main_field\_taillteann_main_field_0018.area"
+  Delete "$INSTDIR\data\world\Tara_main_field\_Tara_main_field_0013.area"
+!macroend
+SectionGroupEnd
 SectionGroupEnd
 
 SectionGroup "Optional Mods"
@@ -6892,7 +6929,7 @@ SectionGroupEnd
 !macro SectionList MacroName
   ;This macro used to perform operation on multiple sections.
   ;List all of your components in following manner here.
-  
+
 ;"Unofficial Tiara's Moonshine Mods"
 !insertmacro "${MacroName}" "MOD432"
 !insertmacro "${MacroName}" "MOD433"
@@ -7028,6 +7065,7 @@ SectionGroupEnd
 !insertmacro "${MacroName}" "MOD72?2"
 !insertmacro "${MacroName}" "MOD72?3"
 !insertmacro "${MacroName}" "MOD73"
+!insertmacro "${MacroName}" "MOD74"
 !insertmacro "${MacroName}" "MOD444"
 !insertmacro "${MacroName}" "MOD445"
 !insertmacro "${MacroName}" "MOD446"
@@ -7267,7 +7305,7 @@ SectionGroupEnd
 !insertmacro "${MacroName}" "MOD296"
 !insertmacro "${MacroName}" "MOD297"
 !insertmacro "${MacroName}" "MOD298"
-;!insertmacro "${MacroName}" "MOD299"
+!insertmacro "${MacroName}" "MOD299"
 !insertmacro "${MacroName}" "MOD300"
 !insertmacro "${MacroName}" "MOD301"
 !insertmacro "${MacroName}" "MOD393"
@@ -8123,6 +8161,12 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILE3" "\data\xml\characte
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILES" "3"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "CREATOR" "Xeme"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "DESCRIPTION" "Show Music Buff Status List"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD74" "" "Shadow Mission Boards"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD74" "FILE1" "\data\world\taillteann_main_field\_taillteann_main_field_0018.area"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD74" "FILE2" "\data\world\Tara_main_field\_Tara_main_field_0013.area"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD74" "FILES" "2"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD74" "CREATOR" "poidoe"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD74" "DESCRIPTION" "Adds boards closer to shadow missions"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD444" "" "Peaca Dungeon Master Lich Cutscene Removal"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD444" "FILE1" "\data\db\cutscene\bossroom_peaca_masterlich.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD444" "FILES" "1"
@@ -8183,13 +8227,24 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD86" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD87" "" "Bandit Spotter 1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD87" "FILE1" "\data\db\commercecommon.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD87" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD87" "CREATOR" "Fl0rn, ShaggyZE, Anonymous"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD87" "CREATOR" "Fl0rn, ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD87" "DESCRIPTION" "Increases volume of Bandit Detection"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "" "Bandit Spotter 2"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "FILE1" "\data\db\npcclientappearance.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "CREATOR" "Fl0rn, ShaggyZE, Anonymous"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "DESCRIPTION" "Makes Bandits appear Bigger and on the minimap"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "CREATOR" "Fl0rn, Draconis, poidoe"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "DESCRIPTION" "Makes Bandits appear on the minimap"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "" "Bandit Spotter 3"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE1" "\data\gfx\char\human\male\helmet\male_theater01_paper_h01.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE2" "\data\gfx\char\human\male\helmet\male_theater03_paper_h01.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE3" "\data\gfx\char\human\male\helmet\male_theater04_paper_h01.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE4" "\data\gfx\fx\effect\my_effect_52baka.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE5" "\data\material\fx\effect\common_effect_add_8_52baka.dds"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE6" "\data\material\fx\effect\common_effect_add_9_52baka.dds"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE7" "\data\material\_define\material\effect\mat_effect_custom_52baka.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILES" "7"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "CREATOR" "hodgepodge, poidoe"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "DESCRIPTION" "Makes Bandits easier to see"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD89" "" "Dark Knight Sound"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD89" "FILE1" "\data\db\animationevent.anievent"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD89" "FILES" "1"
@@ -8460,7 +8515,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD136" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "" "Rain Casting Range and Duration Indicator"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "FILE1" "\data\gfx\fx\effect\c3_g10_s1_cloud.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "CREATOR" "Anonymous, Tekashi and Chocobubba"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "CREATOR" "Tekashi, Chocobubba and poidoe"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD137" "DESCRIPTION" "removes clouds/rain/snow effect and draws a large circle on the ground."
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD138" "" "Alchemist Shock Removal"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD138" "FILE1" "\data\gfx\fx\effect\c3_g11_s1_others.xml"
@@ -10151,7 +10206,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE3" "\data\material\_d
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE3" "\data\material\_define\material\effect\Metallurgy.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE5" "\data\material\_define\material\effect\Yellow.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILES" "7"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "CREATOR" "Anonymous"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "CREATOR" "poidoe"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "DESCRIPTION" "Phantasmal Sight color change."
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD403" "" "Easy View Book Pages"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD403" "FILE1" "\data\gfx\image\item_book_p2.dds"
@@ -10174,7 +10229,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD431" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD431" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD431" "DESCRIPTION" "Various macros to assist in skill training"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD432" "" "Abyss Patcher"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD432" "FILE1" "Abyss.ini"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD432" "FILE1" "CrashReporter.dll"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD432" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD432" "CREATOR" "Blade3575"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD432" "DESCRIPTION" "Memory Patcher for enabling data folder, combat power, zoom and many more"
@@ -10562,7 +10617,7 @@ Delete "$INSTDIR\Package\UOTiara.it"
 Delete "$DESKTOP\Hyddwn Launcher.exe.lnk"
 Delete "$SMPROGRAMS\Unofficial Tiara\Hyddwn Launcher.exe.lnk"
 Delete "$SMPROGRAMS\Unofficial Tiara\Launcher.exe.lnk"
-Delete "$DESKTOP\Launcher.exe.lnk" 
+Delete "$DESKTOP\Launcher.exe.lnk"
 Delete "$DESKTOP\MabiCooker2.exe.lnk"
 Delete "$SMPROGRAMS\Unofficial Tiara\MabiCooker2.exe.lnk"
 Delete "$DESKTOP\MabiDirectLaunch.exe.lnk"
@@ -10688,7 +10743,7 @@ Function FontBMPChange
    System::Free $R6
 
    Call RefreshParentControls
-   
+
   Pop $0
 FunctionEnd
 
@@ -10734,7 +10789,7 @@ StrCpy $1 ""
 ${Select} $0
 ${Case} 0
         StrCpy $1 "${UOLONGNAME} By ShaggyZE"
-${CaseElse} 
+${CaseElse}
 	StrCpy $AR_RegFlags ""
 	StrCpy $AR_RegFlags2 ""
 	SectionGetText $0 $ttext
@@ -10817,7 +10872,7 @@ Push $5
   IntOp $R3 $R2 ^ $R1
 
   ${For} $R0 0 ${SECTIONCOUNT}
-  
+
     ; check if section has changed
   IntOp $R4 $R3 & 1
         ;Abyss
@@ -10848,7 +10903,7 @@ Push $5
 ${If} $R4 == 1
 	IntOp $R5 $R1 & 1
 	SectionGetText $R0 $R6
-	
+
 	;messagebox mb_ok "$R0 + $R6"
 	${If} $R5 == 1
 		${Switch} $R0
@@ -11206,13 +11261,6 @@ Call .onSelChange
 ;SectionGetFlags ${MOD435} $7
 ;IntOp $7 $7 | ${SECTION_OFF}
 ;SectionSetFlags ${MOD435} $7
-File /oname=README.md "README.md"
-File /oname=spltmp.bmp "Etc\Unofficial_Tiara_Image.bmp"
-File /oname=spltmp.wav "Etc\se_2443.wav"
-advsplash::show 4500 4500 400 -1 $TEMP\spltmp
-Pop $0
-Delete $TEMP\spltmp.bmp
-Delete $TEMP\spltmp.wav
 
 StrCpy $6 ${MOD436}
 Pop $5
@@ -11249,7 +11297,7 @@ StrCpy $R7 "Begin myonguiinit $0"
 Call DumpLog1
 Call .onSelChange
 Call ModInfo
-   
+
 FindWindow $R9 "Mabinogi" "Mabinogi"
    ${If} $R9 == 0
    Goto completed
@@ -11280,7 +11328,7 @@ closeclient:
 
    completed:
    Push $0
-   
+
    StrCpy $0 "Loader.exe"
    KillProc::KillProcesses
    Push $0
@@ -11288,17 +11336,17 @@ closeclient:
    StrCpy $0 "Launcher.exe"
    KillProc::KillProcesses
    Push $0
-   
+
    StrCpy $0 "Hyddwn Launcher.exe"
    KillProc::KillProcesses
    Push $0
-   
+
    StrCpy $0 "mabi-pack2.exe"
    KillProc::KillProcesses
    Push $0
-   
+
     SetOutPath $TEMP
-	
+
     File /oname=empty.bmp "Etc\fonts\empty.bmp"
 	File /oname=ydygo550.bmp "Etc\fonts\ydygo550.bmp"
 	File /oname=uotiara.bmp "Etc\fonts\uotiara.bmp"
@@ -11309,6 +11357,13 @@ closeclient:
 	File /oname=whiterabbit.bmp "Etc\fonts\whiterabbit.bmp"
 	InitPluginsDir
 	File /oname=$PLUGINSDIR\1.bmp "${screenimage}"
+File /oname=README.md "README.md"
+File /oname=spltmp.bmp "Etc\Unofficial_Tiara_Image.bmp"
+File /oname=spltmp.wav "Etc\se_2443.wav"
+advsplash::show 4500 4500 400 -1 $TEMP\spltmp
+Pop $0
+Delete $TEMP\spltmp.bmp
+Delete $TEMP\spltmp.wav
 	BgImage::SetBg /NOUNLOAD /FILLSCREEN $PLUGINSDIR\1.bmp
 	BgImage::Redraw /NOUNLOAD
 
@@ -11390,7 +11445,7 @@ StrCpy $R7 "Begin .onGUIEnd"
 Call DumpLog1
 
 BgImage::Destroy
-	
+
 StrCpy $R7 "End .onGUIEnd"
 Call DumpLog1
 FunctionEnd
@@ -11412,7 +11467,7 @@ SetOutPath "$INSTDIR"
    GetDlgItem $R9 $HWNDPARENT 1256
    ShowWindow $R9 ${SW_SHOW}
    ShowWindow $R9 ${SW_HIDE}
-   
+
 Delete "$INSTDIR\interstate.bmp"
 Delete "$INSTDIR\fudd.bmp"
 Delete "$INSTDIR\powerred.bmp"
@@ -11614,7 +11669,7 @@ KananEnableDataloop:
       StrCpy $2 "FasterNetworking.Enabled=false"
    FileWrite $1 $2
    Goto KananEnableDataloop
- 
+
 KananEnableDatadone:
    FileClose $0
    FileClose $1
@@ -11697,7 +11752,7 @@ inetc::get /NOCANCEL /SILENT "http://launcher.hyddwnproject.com/version" "$INSTD
 FileOpen $0 "$INSTDIR\Hyddwn Launcher\version.txt" r
 StrCpy $3 ""
 ${Do}
-FileRead $0 $1 
+FileRead $0 $1
 ${If} ${Errors}
 goto updatehyddwnerror
 ${EndIf}
@@ -11798,6 +11853,8 @@ StrCpy $R7 '"$INSTDIR\mabi-pack2\mabi-pack2.exe" pack -i "$INSTDIR\UOTiara" -o "
 Call UOTiaraPack
 StrCpy $R7 'rmdir /q /s  "$INSTDIR\data\material\_define\"'
 Call UOTiaraPack
+StrCpy $R7 'rmdir /q /s  "$INSTDIR\UOTiara\"'
+Call UOTiaraPack
 StrCpy $R7 'attrib +r "$INSTDIR\package\uotiara_00001.it"'
 Call UOTiaraPack
 FunctionEnd
@@ -11858,7 +11915,7 @@ Function StrStr
   $R3 = StrLen (temp)
   $R4 = StartCharPos (temp)
   $R5 = TempStr (temp)*/
- 
+
   ;Get input from user
   Exch $R0
   Exch
@@ -11867,18 +11924,18 @@ Function StrStr
   Push $R3
   Push $R4
   Push $R5
- 
+
   ;Get "String" and "SubString" length
   StrLen $R2 $R0
   StrLen $R3 $R1
   ;Start "StartCharPos" counter
   StrCpy $R4 0
- 
+
   ;Loop until "SubString" is found or "String" reaches its end
   loop:
     ;Remove everything before and after the searched part ("TempStr")
     StrCpy $R5 $R1 $R2 $R4
- 
+
     ;Compare "TempStr" with "SubString"
     StrCmp $R5 $R0 done
     ;If not "SubString", this could be "String"'s end
@@ -11887,14 +11944,14 @@ Function StrStr
     IntOp $R4 $R4 + 1
     Goto loop
   done:
- 
+
 /*After this point:
   ------------------------------------------
   $R0 = ResultVar (output)*/
- 
+
   ;Remove part before "SubString" on "String" (if there has one)
   StrCpy $R0 $R1 `` $R4
- 
+
   ;Return output to user
   Pop $R5
   Pop $R4
@@ -11925,7 +11982,7 @@ Function StrContains
       Goto done
     done:
    Pop $STR_NEEDLE ;Prevent "invalid opcode" errors and keep the
-   Exch $STR_RETURN_VAR  
+   Exch $STR_RETURN_VAR
 FunctionEnd
 
 Function FileSizeNew

@@ -8533,17 +8533,17 @@
 9860	This fancy 2nd title can be used with regular titles.
 9861	This fancy 2nd title can be used with regular titles.
 9862	Luck +25
-9863	the One Who Met the Mabinogi Team
+9863	who Met the Mabinogi Team
 9864	the Best Cosplayer
-9865	the One Who Met the Mabinogi Team
+9865	who Met the Mabinogi Team
 9866	the Best Cosplayer
-9867	the One Who Met the Mabinogi Team
+9867	who Met the Mabinogi Team
 9868	the Best Cosplayer
-9869	the One Who Met the Mabinogi Team
+9869	who Met the Mabinogi Team
 9870	the Best Cosplayer
-9871	A title reserved for those who visited the Mabinogi Team.
+9871	A title bestowed on those who visited the Mabinogi Team.
 9872	A title reserved for the best cosplayer.
-9873	A title reserved for those who visited the Mabinogi Team.
+9873	A title bestowed on those who visited the Mabinogi Team.
 9874	A title reserved for the best cosplayer.
 9875	
 9876	
@@ -13766,7 +13766,7 @@
 15250	Magic ATT +50
 15251	When you use magic while the Spellwalk skill is in effect,\nyou won't receive any penalty that increases your MP usage.
 15252	When you cast an attack magic,\nSnap Cast's cooldown is slightly shortened.
-15253	Max Damage +8\nMagic Attack +25\ n[DEX - 30]
+15253	Max Damage +8\nMagic Attack +25\n[DEX -30]
 15254	Max MP +80\nINT +30
 15255	Max MP +35\nINT +10\n[Max HP - 10]
 15256	DEX +20\nAiming speed of ranged attacks +30% after an Urgent Shot.\n[STR - 20]\n[Will - 10]
@@ -13978,20 +13978,20 @@
 15504	Max Damage +13\nMagic Attack +18\nCritical +12%\nStrength +10\nIntelligence +10\nDexterity +10\nWill +10\nLuck +10\nMax HP +50\nMax Stamina +50\nMax MP +50\nDefense +10\nProtection +5\nMagic Defense +20\nMagic Protection +8
 15505	Max Damage +17\nMagic Attack +25\nCritical +15%\nCritical Damage +2%\nStrength +15\nIntelligence +15\nDexterity +15\nWill +15\nLuck +15\nMax HP +70\nMax Stamina +70\nMax MP +70\nDefense +15\nProtection +8\nMagic Defense +30\nMagic Protection +12
 15506	Max Damage +23\nMagic Attack +35\nCritical +18%\nCritical Damage +4%\nBonus Damage +1%\nStrength +25\nIntelligence +25\nDexterity +25\nWill +25\nLuck +25\nMax HP +100\nMax Stamina +100\nMax MP +100\nDefense +20\nProtection +12\nMagic Defense +45\nMagic Protection +17
-15521	스위트 데이
-15522	악마의 속삭임
-15523	스위트 데이
-15524	악마의 속삭임
-15525	스위트 데이
-15526	악마의 속삭임
-15527	스위트 데이
-15528	악마의 속삭임
-15529	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15530	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15531	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15532	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15533	행운 30 증가
-15534	행운 30 증가
+15521	Sweet As Sugar
+15522	Devil On Your Shoulder
+15523	Sweet As Sugar
+15524	Devil On Your Shoulder
+15525	Sweet As Sugar
+15526	Devil On Your Shoulder
+15527	Sweet As Sugar
+15528	Devil On Your Shoulder
+15529	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15530	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15531	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15532	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15533	Luck +30
+15534	Luck +30
 15556	맛있는 발걸음
 15557	맛있는 발걸음
 15558	맛있는 발걸음
@@ -14006,6 +14006,13 @@
 15567	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 15568	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 15569	행운 30 증가
+15577	화사한 연꽃
+15578	화사한 연꽃
+15579	화사한 연꽃
+15580	화사한 연꽃
+15581	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15582	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15583	행운 30 증가
 15584	Golden Rabbit
 15585	Rose Rabbit
 15586	Azure Rabbit

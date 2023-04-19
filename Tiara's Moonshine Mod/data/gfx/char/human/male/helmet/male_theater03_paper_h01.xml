@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-16" standalone="yes" ?> 
+<meshdesc version="3" effect_version="7">
+	<EffectGroup play_mode="loop" play_length="0" play="1">
+		<Effect name="my_helmet" parent="Head" slot="1" effect_name="trade_helmet_52baka" offset="0 5 0" rot_axis="0 0 0" rot_angle="0" />
+<Effect name="my_helmet_2" parent="Head" slot="1" effect_name="trade_helmet_52baka" offset="0 5 0" rot_axis="0 0 0" rot_angle="0" />
+	</EffectGroup>
+</meshdesc>

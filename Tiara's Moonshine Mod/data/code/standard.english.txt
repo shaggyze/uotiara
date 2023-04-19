@@ -831,6 +831,7 @@ object.sealstone_dugald	Seal Stone of Dugald Aisle
 object.sealstone_fiodh	Seal Stone of Fiodh
 object.sealstone_math	Seal Stone of Math Dungeon
 object.sealstone_rabbie	Seal Stone of Rabbie Dungeon
+objectivepointeventdescmgr.1	Clear Dungeon/Mission
 partyboarddescmgr.1	Mini-game
 partyboardmgr.1	Practice Rank
 partyboardmgr.2	Unrestricted
@@ -884,10 +885,10 @@ setitemmgr.3	Increase
 setitemmgr.4	Decrease
 setitemmgr.5	The item was not used since the set effect cannot be upgraded.
 setitemmgr.6	The item was not used since the set effect is already {0}.
-setitemmgr.7	(세트 효과는 수치 10을 완성 시 발동)
-setitemmgr.8	심볼 효과 강화에 성공하여 심볼 효과가 {0}레벨이 되었습니다.
-setitemmgr.9	심볼 효과 강화에 실패하였습니다.
-setitemmgr.10	\n<color=3>{0} 레벨 : {1}</color>\n
+setitemmgr.7	(Set effect activates upon reaching +10.)
+setitemmgr.8	Signet Effect Enhancement was successful, raising the Signet Effect's level to {0}.
+setitemmgr.9	Signet Effect Enhancement failed.
+setitemmgr.10	\n<color=3>Lv. {0}: {1}</color>\n
 setparameter.1	{0} Degree
 setparameter.2	{0} Second(s)
 setparameter.3	{0} {1} Reforge

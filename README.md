@@ -1,6 +1,6 @@
 # Unofficial Tiara's Moonshine Mod by ShaggyZE. ![Build status](https://ci.appveyor.com/api/projects/status/github/shaggyze/uotiara?branch=master&svg=true)
 
-Thanks to this months donator/s Unfettered and special thanks to Amaretto, Penguin Eater, Draconis, Blade3575 and Step29 (along with Plonecakes, kotarou3, thatguysteve and Halfslashed) for Abyss, regomne for mabi-pack2, Sven/Darnell for Hyddwn Launcher and Cursey for Kanan.
+Thanks to this months donator/s Unfettered, Seeker1437 and special thanks to Amaretto, Penguin Eater, Draconis, Blade3575 and Step29 (along with Plonecakes, kotarou3, thatguysteve and Halfslashed) for Abyss, regomne for mabi-pack2, Sven/Darnell for Hyddwn Launcher and Cursey for Kanan.
 -------------------------------------------------------------------------
 *Intended solely for Mabinogi (North America)
 
@@ -23,7 +23,7 @@ https://www.patreon.com/shaggyze
 or
 https://paypal.me/thoggsr
 
-(If the installer or ijl11.dll is Missing, being Detected, Deleted or Blocked due to Kanan or Abyss's packing/encryption method, Disable your Anti-Virus programs temporarily and add the Mabinogi or Download folders to your White/Exclusion list or right click ijl11.dll and set it to allow)
+(If the installer or CrashReporter.dll is Missing, being Detected, Deleted or Blocked due to Kanan or Abyss's packing/encryption method, Disable your Anti-Virus programs temporarily and add the Mabinogi or Download folders to your White/Exclusion list or right click CrashReporter.dll and set it to allow)
 
 # What is Tiara's Moonshine Mod?
 >> Tiara's Moonshine Mod is a simple client-side modification package aimed at assisting players who have difficulty or wish to minimize concentration during the game.
@@ -100,7 +100,7 @@ Note: Some mods of this are not included in Official Tiara, but I think they des
 18. Shou & Trivaloso's Imp Assistant Removal.
 19. logue/jackylalala ModifyZoomLimit Mod.
 20. Florn's Bandit Spotter Mod.
-21. Tara & tailltean houses as ropes[mabiassist]
+21. Tara & tailltean houses as ropes [mabiassist]
 22. Aka.'s Tara Lag Helper
 23. CoalChris's Belfast Delagger [work in progress]
 24. Tekashi's Tara Castle Wall Removal.
@@ -114,7 +114,7 @@ Note: Some mods of this are not included in Official Tiara, but I think they des
 32. Alchemist Shock Removal.
 33. More Pet Sound and Quake Removals. (removed)
 34. Blade3575's Abyss Patcher.
-35. logue's MabiPacker.
+35. logue's MabiPacker. (removed)
 36. Tera's Solea Map Updated With Ores.
 37. Visual Chat Mod. thanks to Yiting, exec and the Aura community that helped me indirectly.
 38. hiesavel's Doppel collection removal.
@@ -126,7 +126,7 @@ Note: Some mods of this are not included in Official Tiara, but I think they des
 44. akeno's Trade Imp Removal.
 45. Tekashi's Nimbus Effects Removal.
 46. Jragon0's Strange book Mod.
-47. Changed DATA Packer's PACK malformatted error http://puu.sh/5iDlT.jpg
+47. Changed DATA Packer's PACK malformatted error (removed)
 48. Rydian's Zero/Enlightenment SM Maps.
 49. step29's Reforge Realview Mod. (removed)
 50. kirbysama's V176 Exploration Maps. Remade + Cleaned
@@ -147,7 +147,7 @@ Note: Some mods of this are not included in Official Tiara, but I think they des
 65. Draconis's Saga 2 Episodes 1-6 Cutscene Removals
 66. Draconis's Bounty Hunting Interface Buttons Fix
 67. Draconis's Fiodh-Coil Room Wall Removal 6
-68. Draconis/jvandguthix Doll Bag AI Enhancements
+68. Draconis/jvandguthix Doll Bag AI Enhancements (removed)
 69. Draconis's G19 Renovation Cutscene Removals
 70. Draconis's Peaca-Coil Abyss and G19 Boss Room Cutscene Removals
 71. Draconis's Peaca Dungeon Master Lich Cutscene Removal
@@ -164,15 +164,21 @@ Note: Some mods of this are not included in Official Tiara, but I think they des
 82. Plonecakes' (concept)/Draconis Fomor Scroll Info
 83. Thunderscar's Iria NW Tunnel Map Edit
 84. Draconis's Quest Interface Simplifier
-85. Chocobubba's Rain Casting Range and Duration Indicator (removed)
+85. Chocobubba's Rain Casting Range and Duration Indicator
 86. Rydian's Bitmap font improvements
 87. y3tii's Blacksmith/Tailor Manual Tooltip
-88. Aahz's Simplified Baltane Squire Area
-89. Aahz's Simplified Festia
-90. Fl0rn's Tech Duinn Fog Removal
-91. Japari Bus Sound Removal
-92. Xeme's Music Buff Status List
-93. poidoe's Phantasmal Sight Color
+88. Sven's Hyddwn Launcher
+89. Cursey's Kanan Patcher
+90. Aahz's Simplified Baltane Squire Area
+91. Aahz's Simplified Festia
+92. Fl0rn's Tech Duinn Fog Removal
+93. Japari Bus Sound Removal
+94. Xeme's Music Buff Status List
+95. poidoe's Phantasmal Sight Color
+96. regomne's mabi-pack2
+97. Rii's Lib-Loader
+98. hodgepodge's Bandit Spotter 3
+99. poidoe's Shadow Mission Boards
 
 >>To restore things, find the corresponding files in the data folder (or whatever directory you use) and delete/remove/replace to modify them to fit your preferences, delete uotiara_00001.it in the package folder or use the installer/uninstaller.
 
