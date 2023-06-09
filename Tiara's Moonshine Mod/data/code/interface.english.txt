@@ -670,6 +670,10 @@ pli_beautyslottab.11	Open the Item Shop
 pli_beautyslottab.12	Appearance Change
 pli_beautyslottab.13	The character's appearance will be changed. Proceed?\n\n<color=2><outlinecolor=3>{0}</outlinecolor></color>
 pli_beautyslottab.14	Save {0}
+pli_beautyslottab.15	보유 폰 <color=2><outlinecolor=3>[{0}]</outlinecolor></color>폰 중,
+pli_beautyslottab.16	<color=5>* 확인 버튼을 누르는 시점에 소지한 폰에서 차감됩니다.</color>
+pli_beautyslottab.17	<color=5>* 차감 확인 후 즉시 상품을 제공합니다.</color>
+pli_beautyslottab.18	<color=5>* 구입 완료 후 취소는 불가능합니다.</color>
 pli_beautyslotviewboxframe.1	You cannot use appearance data for that gender.
 pli_bingo2019view.1	{0} Row(s)
 pli_bingo2019view.2	Five Bingo Coins will be consumed.
@@ -963,10 +967,11 @@ pli_characteradditionalframe.37	Stage 3
 pli_characteradditionalframe.38	Stage 4
 pli_characteradditionalframe.39	Blaanid's Blessing: 
 pli_characteradditionalframe.40	Blaanid's Blessing\n\nBlaanid's Blessing is not in effect.\nContinue working on the Memoir to earn Blaanid's Blessing.
-pli_characteradditionalframe.41	Blaanid's Blessing Stage 1\n\nRecall Book Stage 1\n Movement Speed +2%\nAll Stats +1\nAcquire additional 1 AP at rebirth\nBlessing Effect Stage 1
-pli_characteradditionalframe.42	[Blaanid's Blessing] Stage 2\n\nRecall Book Stage 2\nMovement Speed +4%\nAll Stats +2\nAcquire additional 2 AP at rebirth\nBlessing Effect Stage 2
-pli_characteradditionalframe.43	[Blaanid's Blessing] Stage 3\n\nRecall Book Stage 3\nMovement Speed +6%\nAll Stats +3\nAcquire additional 3 AP at rebirth\nBlessing Effect Stage 3
-pli_characteradditionalframe.44	[Blaanid's Blessing] Stage 4\n\nRecall Book Stage 4\nMovement Speed +8%\nAll Stats +4\nAcquire additional 4 AP at rebirth\nBlessing Effect Stage 4
+pli_characteradditionalframe.41	Blaanid's Blessing - Stage 1\n\nRecall Book - 1 Slot\n Movement Speed +2%\nAll Stats +1\nGain 1 additional AP upon rebirth\nBlessing Effect Stage 1
+pli_characteradditionalframe.42	Blaanid's Blessing - Stage 2\n\nRecall Book - 2 Slots\nMovement Speed +4%\nAll Stats +2\nGain 2 additional AP upon rebirth\nBlessing Effect Stage 2
+pli_characteradditionalframe.43	Blaanid's Blessing - Stage 3\n\nRecall Book - 3 Slots\nMovement Speed +6%\nAll Stats +3\nGain 3 additional AP upon rebirth\nBlessing Effect Stage 3
+pli_characteradditionalframe.44	Blaanid's Blessing - Stage 4\n\nRecall Book - 4 Slots\nMovement Speed +8%\nAll Stats +4\nGain 4 additional AP upon rebirth\nBlessing Effect Stage 4
+pli_characteradditionalframe.45	{0}회 / {1}회
 pli_charactercombocardframe.1	The selected {0} Combo Card(s) will be permanently removed.\nWould you like to proceed?
 pli_charactercombocardframe.2	Warning
 pli_charactercombocardframe.3	Would you like to use this item to extend the Gold Combo Card duration?
@@ -1710,6 +1715,7 @@ pli_ergenhancemainview.19	Failed to place item in slot.
 pli_ergenhancemainview.20	Failed to infuse Erg.
 pli_ergenhancemainview.21	Failed to increase Max Erg Level.
 pli_ergenhancemainview.22	Success Rate: <color=2>{0}</color>({1}) %
+pli_ergenhancemainview.23	[에르그 강화 {0} 등급]
 pli_ergenhancemainview.24	%d배 이벤트 진행 중
 pli_ergenhancetransferview.1	Select weapon for Erg extraction
 pli_ergenhancetransferview.2	Select weapon to receive Erg
@@ -1778,7 +1784,8 @@ pli_facilityinfoview.1	Time Remaining :
 pli_facilityinfoview.2	{0} Kon
 pli_facilityinfoview.3	Houses in which pets are resting cannot be upgraded.\nHave the pet finish or pause their rest first.
 pli_facilityinfoview.4	Notice
-pli_facilityinfoview.5	\n\n<color=4>적용 효과 및 강화 횟수 ({0}/{1})</color><color=5>
+pli_facilityinfoview.5	\n\n<color=4>Effect and Enhancement Count ({0}/{1})</color><color=5>
+pli_facilityinfoview.6	</color><color=4>Additional Enhancement Complete</color><color=5>
 pli_facilitylistview.1	Use Pon to place a building.
 pli_facilitylistview.2	<color=2><outlinecolor=3>(Discounted)</outlinecolor></color>
 pli_facilitylistview.3	<color=2><outlinecolor=3>(Reduced)</outlinecolor></color>
@@ -2000,7 +2007,7 @@ pli_freeseasonguidebookhistoryview.9	{0} times
 pli_freeseasonguidebookhistoryview.10	{0} times
 pli_freeseasonguidebookselectframe.1	{0} ({1})
 pli_freeseasonguidebookview.1	Finale - All Buffs Applied
-pli_freeseasonguidebookview.2	This week's selected Buff: None - Select a Buff by talking to the NPC.
+pli_freeseasonguidebookview.2	This week's selected Buff: None (Select a Buff by talking to the NPC)
 pli_freeseasonguidebookview.3	This week's selected Buff: {0}
 pli_freestylejamjoinview.1	You cannot enter before the host.
 pli_freestylejamjoinview.2	You are too far away from where the Freestyle Jam is taking place.
@@ -2149,6 +2156,13 @@ pli_guestbookview.10	Change the settings so that only you and the shop owner can
 pli_guestbookview.11	Close
 pli_guildrecruiteventframe.1	Complete
 pli_guildrecruiteventview.1	Please try again after {0} seconds.
+pli_guildrenewalmainview.1	이동할 수 있는 길드홀이 없습니다.
+pli_guildrenewalmainview.2	정산할 포인트가 없습니다\n잠시 후에 다시 시도하세요.
+pli_guildrenewalmainview.3	길드에 보관되어 있는 골드를 인출하기 위해서는 길드원들의 동의를 얻어야 합니다. 길드 홈페이지에서 투표를 시작하세요.
+pli_guildrenewalmainview.4	길드 금화를 인출할 수 있는 기간이 지났습니다. 투표가 성공한 이후 일주일 이내에 골드를 인출해야 합니다.
+pli_guildrenewalmainview.5	현재 {0}골드 까지를 인출할 수 있습니다.\n수표로 발급받을 경우, 수수료를 지불해야 하므로\n인출할 수 있는 금액이 더 적어집니다.
+pli_guildrenewalmainview.6	현재 {0}골드 까지를 인출할 수 있습니다.\n수표로 발급받을 경우, 수수료를 지불해야 하므로\n인출할 수 있는 금액이 더 적어집니다.
+pli_guildrenewalmissionframe.1	Lv. {0} 개방
 pli_guildrobedesignframes.1	Select {0}.
 pli_guildrobedesignframes.2	Select {0}.
 pli_guildrobedesignview.1	Remove the hood
@@ -3033,6 +3047,13 @@ pli_joustnoticeview.17	View Arenas
 pli_joustnoticeview.18	: Strong Thrust\n: Fast Thrust\n: High Thrust\n: Two-handed Thrust
 pli_joustnoticeview.19	Preliminaries: Matches start every evening at 7pm and 10pm except on Imbolic (Sunday).\nFinals: Matches start at 7pm every Imbolic (Sunday).
 pli_joustnoticeview.20	Applications can be submitted 30 minutes prior to the start of a match. 
+pli_joustnoticeview.21	승률 : {0}%\n{1}
+pli_joustnoticeview.22	응원에 필요한 골드가 부족합니다.
+pli_joustnoticeview.23	{0} 골드를 지불하여 {1}님을 응원하시겠습니까?\n골드는 환불되지 않습니다.
+pli_joustnoticeview.24	선수 응원(예선)
+pli_joustnoticeview.25	선수 응원(본선)
+pli_joustskinview.1	랜스의 외형을 변경하시겠습니까?\n 기존 외형은 복구되지 않습니다.
+pli_joustskinview.2	말의 외형을 변경하시겠습니까?\n 기존 외형은 복구되지 않습니다.
 pli_jouststandbyview.1	Jousting Tournament Application
 pli_jouststandbyview.2	Jousting Tournament Application
 pli_jouststandbyview.3	You are applying for the {0} Round.
@@ -3043,10 +3064,16 @@ pli_jouststandbyview.7	Close
 pli_jouststandbyview.8	Time Left: {0} min
 pli_jouststandbyview.9	Time Left: {0} sec
 pli_jouststandbyview.10	Round {0}\nParticipants Remaining: {1}
+pli_jouststandbyview.11	마창대회에 선발되었습니다.\n경기에 참여하지 않을 경우 패널티를 받아 이후 경기 선발이 안될 수 있습니다.\n지금부터 다른 선수를 응원할 수 있습니다.
+pli_jouststandbyview.12	마창대회에 선발되지 않았습니다.\n다른 선수를 응원할수록 다음 경기에 선발될 확률이 높아집니다.\n지금부터 다른 선수를 응원할 수 있습니다.
+pli_jouststandbyview.13	경기 포기
+pli_jouststandbyview.14	마창대회 경기를 포기하면 <color=2><outlinecolor=3>패널티가 적용</outlinecolor></color>됩니다.\n정말 포기하시겠습니까?
 pli_joustvictoryview.1	OK
 pli_joustvictoryview.2	You've won!
 pli_joustvictoryview.3	Against {0}, of {1} turns, you succeeded {2} times.
 pli_joustvictoryview.4	You've obtained\n{0} Jousting Points.
+pli_joustvictoryview.5	응원 선수가 승리하여\n{0} 점의 마창포인트를 획득했습니다.
+pli_joustvictoryview.6	응원 선수가 본선 경기에서 승리하여\n{0} 점의 마창포인트를 획득했습니다.
 pli_jukeboxview.1	This background music hasn't been unlocked yet.\nUnlock it by using the Replay Reward Box.
 pli_kioskinventoryview.1	Kiosk Item Storage
 pli_kioskinventoryview.2	The Kiosk cannot be closed because there are items that are still being sold.\nPlease organize your Kiosk.
@@ -3400,6 +3427,8 @@ pli_newmetalwareitempanel.1	Currently equipped gear cannot be reforged.
 pli_newmetalwareitempanel.2	Items in the Extra Equipment Slot cannot be reforged.
 pli_newmetalwareitempanel.3	Items in the Style Tab cannot be reforged.
 pli_newmetalwareitempanel.4	You cannot reforge incomplete items.
+pli_newmetalwarepersonalconfirmview.1	{0} 주의 사항
+pli_newmetalwarepersonalconfirmview.2	{0}를 사용한 아이템은\n<color=1>전용화</color>되니 신중하게 선택하세요.\n정말로 세공 도구를 사용 하시겠습니까?
 pli_newmetalwareview.1	<color=2>{1}</color> {0}
 pli_newmetalwareview.2	Check List of Possible Attributes
 pli_newmetalwareview.3	You can place the item you wish to reforge in the item slot.
@@ -3422,6 +3451,7 @@ pli_objectivepointeventview.2	{0} min
 pli_objectivepointeventview.3	From %04d.%02d.%02d to %04d.%02d.%02d
 pli_objectivepointeventview.4	Claim Reward
 pli_objectivepointeventview.5	Week {0}
+pli_objectivepointeventview.6	Your temporary inventory is full.\nPlease make some space first.
 pli_onlineconcertview.1	%02d:%02d:%02d
 pli_onlineconcertview.2	콘서트까지 {0}시간 {1}분 {2}초 남았습니다.
 pli_onlineconcertview.3	이미 시청 중입니다.
@@ -4151,20 +4181,20 @@ pli_screenshotreportview.13	Cancel
 pli_screenshotreportview.14	You are reporting \"{0}\".\nDo you wish to proceed?
 pli_screenshotreportview.15	You have not selected a character to report.
 pli_screenshotreportview.16	You completed the report.
-pli_screenshotreportview.17	There was an error during the transmission. Please try again later.
-pli_screenshotreportview.18	There was a problem with the screenshot.
-pli_screenshotreportview.19	You've exceeded the maximum number of reports that can be made in a day.
-pli_screenshotreportview.20	This has already been reported.
-pli_screenshotreportview.21	A GM cannot make a report.
-pli_screenshotreportview.22	There was an error in the session authentication.
-pli_screenshotreportview.23	There was an error in the transmission.
-pli_screenshotreportview.24	There was an error in the transmission.
+pli_screenshotreportview.17	An error occurred during transmission.\nPlease try again in a bit. (Error Code: 71)
+pli_screenshotreportview.18	There was an error with the attached file.\nPlease try again in a bit. (Error Code: 72)
+pli_screenshotreportview.19	Submission failed. You have filed the max number of reports allowed per day. (Error Code: 81)
+pli_screenshotreportview.20	This player has already been reported. (Error Code: 82)
+pli_screenshotreportview.21	You cannot report this player. (Error Code: 83)
+pli_screenshotreportview.22	An error occurred during session verification.\nPlease try again after relogging. (Error Code: 91)
+pli_screenshotreportview.23	Failed to send. (Error Code: e-1)
+pli_screenshotreportview.24	Failed to send. (Error Code: e-2)
 pli_screenshotreportview.25	Transmission in progress. Please wait a moment.
 pli_screenshotreportview.26	Please take another screenshot before transmitting.
 pli_screenshotreportview.27	First, click the [{0}] button and take\na screenshot of what you want to report.
-pli_screenshotreportview.31	신고 대상을 찾을 수 없었습니다.\n잠시 뒤에 다시 시도해 주세요. (오류코드: 84)
-pli_screenshotreportview.32	세션 인증에 오류가 있습니다.\n재접속 후 다시 시도해 주세요. (오류코드: 85)
-pli_screenshotreportview.33	세션 인증에 오류가 있습니다.\n재접속 후 다시 시도해 주세요. (오류코드: 86)
+pli_screenshotreportview.31	Unable to find the reported player.\nPlease try again in a bit. (Error Code: 84)
+pli_screenshotreportview.32	An error occurred during session verification.\nPlease try again after relogging. (Error Code: 85)
+pli_screenshotreportview.33	An error occurred during session verification.\nPlease try again after relogging. (Error Code: 86)
 pli_searchitemview.1	Please select the type of search you'll use to find the item.
 pli_searchitemview.2	Regular
 pli_searchitemview.3	If the results yield partial match.
@@ -4179,6 +4209,7 @@ pli_searchitemview.btn.close	Close
 pli_searchitemview.btn.find	Search
 pli_searchitemview.msg.1	Enter the name of the item you want to find.
 pli_searchitemview.title	Search Personal Shop
+pli_seasonpassaventureuppopupview.1	모험 일지 {0}단계 달성 !
 pli_seasonpassgradeuppopupview.1	GRADE UP
 pli_seasonpassgradeuppopupview.2	Check the GRADE UP {0} -> {1} reward.
 pli_seasonpassmainview.1	Daily
@@ -4198,6 +4229,9 @@ pli_seasonpassmainview.14	You can receive a Special Reward.
 pli_seasonpassmainview.15	You don't have enough Pon.
 pli_seasonpassrewarddescframe.1	Claim Reward
 pli_seasonpassrewarddescframe.2	Claimed
+pli_seasonpasss4mainview.1	종료까지 남은 기간 : {0}
+pli_seasonpasss4mainview.2	종료까지 남은 기간 : {0}
+pli_seasonpasss4mainview.3	등록된 서버가 아니라 보상을 받을 수 없습니다.\n에반과 대화하여 변경된 서버를 등록해 주시기를 바랍니다.
 pli_secretnumberview.1	Press the buttons with your cursor and figure out the 3-digit passcode!
 pli_secretnumberview.2	Try another passcode!
 pli_secretnumberview.3	Yay! You found the passcode!
@@ -4597,6 +4631,7 @@ pli_tradeauctionoptionsearchsubframe.7	Upgrade Level {0}
 pli_tradeauctionoptionsearchsubframe.8	Grade {0}
 pli_tradeauctionoptionsearchsubframe.9	Available
 pli_tradeauctionoptionsearchsubframe.10	Unavailable
+pli_tradeauctionoptionsearchsubframe.11	{0} 등급
 pli_tradeauctionoptionsearchview.1	That Blacksmith Manual cannot be found.\nPlease make sure the name is correct.
 pli_tradeauctionoptionsearchview.2	That Sewing Pattern cannot be found.\nPlease make sure the name is correct.
 pli_tradeauctionoptionsearchview.3	That item cannot be found.\nPlease make sure the name is correct.
@@ -5144,7 +5179,7 @@ pli_windowbuy.20	You don't have enough Ducats.
 pli_windowbuy.21	You don't have enough stars.
 pli_windowbuy.22	You don't have enough Pon Coins.
 pli_windowbuy.23	You don't have enough of the following: {0}.
-pli_windowbuy.24	You don't have enough gold in your shop.
+pli_windowbuy.24	You don't have enough Gold.
 pli_windowbuy.25	You don't have enough Seasonal Ducats.
 pli_windowbuy.26	Seasonal Ducat Price: {0}
 pli_windowbuy.27	Your Seasonal Ducats: {0}
@@ -5407,6 +5442,8 @@ pli_windowgrouplistview.3	Cancel
 pli_windowgroupnameinput.1	Add Group
 pli_windowgroupnameinput.2	Change Group Name
 pli_windowgroupnameinput.3	Please insert the group name.
+pli_windowguildjoin.1	이미 가입 신청한 길드 입니다.
+pli_windowguildjoin.2	펫은 길드에 가입할 수 없습니다.
 pli_windowguildlistboard.1	Guild List
 pli_windowguildlistboard.2	Search Name:
 pli_windowguildlistboard.3	Search 
@@ -5516,7 +5553,7 @@ pli_windowhinventory.43	This bag contains items obtained through bingo and throu
 pli_windowhinventory.44	This bag contains items obtained from various events that you have not claimed and the items you obtained through the use of paid products.
 pli_windowhinventory.46	All expired items will be destroyed, and items expiring soon will be checked.
 pli_windowhinventory.47	All expired items will be destroyed, and items expiring soon will be checked.
-pli_windowhinventory.48	This bag can be used like a normal bag during the Master Plan. Once the Master Plan ends, you can only take out items similar to the VIP inventory for the Mabinogi VIP Service.
+pli_windowhinventory.48	This bag can be used like a normal bag during Master Plan events. Once the event ends, you can only withdraw items from it, similar to the Mabinogi VIP inventory.
 pli_windowhinventory.49	You can equip Stardust.
 pli_windowhinventory.50	Group same items with different expiration dates.
 pli_windowhinventory.51	Set the order in which your bags will be filled with items you acquire.
@@ -6500,6 +6537,7 @@ pli_windowpocketitemaction.46	Can only be used on amulets with {0} available enh
 pli_windowpocketitemaction.47	Cannot be used at regular enhancement level.
 pli_windowpocketitemaction.48	Are you sure you want to spend Additional Stat Stones to grant the amulet mysterious powers?\nIf the enhancement succeeds with these powers, the stat effects will be further increased by {0}.\nIf regular enhancement fails, the Additional Stat Stone effect on the amulet will be lost.
 pli_windowpocketitemaction.49	Only runes of the same type as the emblem can be used.
+pli_windowpocketitemaction.51	해당 길드의 길드 마스터만 사용할 수 있습니다.
 pli_windowpopupcharacter.0	Failed to view equipment.
 pli_windowpopupcharacter.1	View Equipment
 pli_windowpopupcharacter.2	Mount on My Pet
@@ -6551,6 +6589,7 @@ pli_windowpopupcharacter.47	Request Soulmate
 pli_windowpopupcharacter.48	Request Fly Together
 pli_windowpopupcharacter.49	Cancel Fly Together
 pli_windowpopupcharacter.50	Open Shop
+pli_windowpopupcharacter.51	Report
 pli_windowpopupcharacter.52	You can't bow now.
 pli_windowpopupcharacter.53	You can't greet now.
 pli_windowpopupcharacter.54	Greet
@@ -6763,6 +6802,7 @@ pli_windowroulettegame.3	Cancel
 pli_windowroulettegame.4	Chance!\nYou get to select an even better color.
 pli_windowroulettegame.5	Chat Color Change Potion
 pli_windowroulettegame.6	Name/Chat Color Change
+pli_windowroulettegame.7	길드 이름 색상 변경
 pli_windowschool.1	There's no deadline.
 pli_windowscorescroll.1	Song
 pli_windowscorescroll.2	You must enter a melody line or lyrics.
@@ -6825,6 +6865,10 @@ pli_windowselectrespawn.44	Ask Hatsune Miku for revival.\n\n- HP Recovery 100%\n
 pli_windowselectrespawn.45	Revive here.\n\n- {0} HP Recovery\n- {1} EXP Loss\n
 pli_windowselectrespawn.46	(Disable this option if you don't wish to engage in PvP.)
 pli_windowselectrespawn.47	Allow PvP
+pli_windowselectrespawn.52	영혼의 부름
+pli_windowselectrespawn.53	세인트 바드는 자신의 힘이 다하여도\n영혼의 인도를 통해 한 번 더 소생할 수 있습니다. \n\n- 생명력 {0}% 회복
+pli_windowselectrespawn.54	(남은 시간 {0}분)
+pli_windowselectrespawn.55	부활할 경우 1시간 동안 영혼의 부름을 다시 사용할 수 없습니다. 부활하시겠습니까?
 pli_windowsell.1	EXP {0} Exp\n
 pli_windowsell.2	EXP {0}%\n
 pli_windowsell.3	Exploration EXP {0} Exp\n

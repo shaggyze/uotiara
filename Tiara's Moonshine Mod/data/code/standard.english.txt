@@ -142,6 +142,12 @@ etc.quest_result_desc_reward_unit_of_ap	Ability Point
 etc.quest_result_desc_reward_writechronicle	Record in Exploration Chronicle
 etc.ruin_discoverer	 {1}, which was just discovered by {0}
 etc.skill_training_string	Novice
+guilddata.1	길드 마스터
+guilddata.2	부길드 마스터
+guilddata.3	선임 길드원
+guilddata.4	길드원
+guilddata.5	가입신청
+guilddata.6	탈퇴
 interface_buffer.1	{0} Recovery Speed {1}%
 interface_buffer.2	{0} Recovery: {2} points every {1} sec.
 interface_buffer.3	{0:param} +{1:value}
@@ -238,6 +244,7 @@ interface_item.1	Holy
 interface_item.2	Empty Music Scores cannot be included.
 interface_item.3	Music Scores with no uses left cannot be included.
 interface_item.4	 (Not Activated)
+interface_item.5	{0}단
 interface_multiclass.1	Requires a close combat weapon to use.
 interface_multiclass.2	{0} cannot be used with a 0 durability weapon.
 interface_personalrankingmgr.1	Girgashiy
@@ -482,6 +489,13 @@ itemoptiondeschelper.31	Number of objects that can be used in Glyph Design
 itemoptiondeschelper.32	Use count of Glyph Imprint
 itemoptiondeschelper.33	Tri-Element Mastery Damage
 itemoptiondeschelper.34	Adjusts Aim Rate
+itemoptiondeschelper.35	파이어 속성 마법 대미지
+itemoptiondeschelper.36	아이스 속성 마법 대미지
+itemoptiondeschelper.37	라이트닝 속성 마법 대미지
+itemoptiondeschelper.38	힐링 효과
+itemoptiondeschelper.39	힐링 효과만큼 부상 치료
+itemoptiondeschelper.40	이동 속도
+itemoptiondeschelper.41	마법 시전속도
 itemoptionset.1	Spirit 
 itemqualitymgr.1	Talent Bonus: 
 itemqualitymgr.2	Grandmaster craft bonus : 

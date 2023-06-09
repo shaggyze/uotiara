@@ -1281,7 +1281,7 @@
 1312	the Master of Herbalism
 1313	the Master of Tailoring
 1314	the Master Blacksmith
-1315	the Master of Potion
+1315	the Master of Potions
 1316	the Master of Fishing
 1317	the Master Instrumentalist
 1318	who is Always Diligent
@@ -1290,7 +1290,7 @@
 1321	the Master of Herbalism
 1322	the Master of Tailoring
 1323	the Master Blacksmith
-1324	the Master of Potion
+1324	the Master of Potions
 1325	the Master of Fishing
 1326	the Master Instrumentalist
 1327	who is Always Diligent
@@ -1299,7 +1299,7 @@
 1330	the Master of Herbalism
 1331	the Master of Tailoring
 1332	the Master Blacksmith
-1333	the Master of Potion
+1333	the Master of Potions
 1334	the Master of Fishing
 1335	the Master Instrumentalist
 1336	the Master of Weaving
@@ -1307,7 +1307,7 @@
 1338	the Master of Herbalism
 1339	the Master of Tailoring
 1340	the Master Blacksmith
-1341	the Master of Potion
+1341	the Master of Potions
 1342	the Master of Fishing
 1343	the Master Instrumentalist
 1368	An honorable title awarded to someone who has reached the highest level available in Weaving.
@@ -7668,7 +7668,7 @@
 8989	This honorable title will amplify the effects of a Combat skill's master title, as long as the Combat skill's rank is Dan 1 or higher.
 8990	This honorable title will amplify the effects of a Magic skill's master title, as long as the Magic skill's rank is Dan 1 or higher.
 8991	This honorable title will amplify the effects of an Alchemy skill's master title, as long as the Alchemy skill's rank is Dan 1 or higher.
-8992	This honorable title will amplify the effects of a Martial Arts skill's master title, as long as the Life skill's rank is Dan 1 or higher.
+8992	This honorable title will amplify the effects of a Martial Art skill's master title, as long as the Martial Art skill's rank is Dan 1 or higher.
 8993	This honorable title will amplify the effects of a Puppetry skill's master title, as long as the Puppetry skill's rank is Dan 1 or higher.
 8994	This honorable title will amplify the effects of a Dual Gun skill's master title, as long as the Dual Gun skill's rank is Dan 1 or higher.
 8995	This honorable title will amplify the effects of a Ninja skill's master title, as long as the Ninja skill's rank is Dan 1 or higher.
@@ -10489,8 +10489,8 @@
 11924	the Talented Artist
 11925	the Talented Artist
 11926	the Talented Artist
-11927	A title bestowed upon talented Mabinogi artists
-11928	A title bestowed upon talented Mabinogi artists
+11927	A title bestowed upon talented Mabinogi artists.
+11928	A title bestowed upon talented Mabinogi artists.
 11929	
 11930	16th Anniversary Fantasista
 11931	16th Anniversary Fantasista
@@ -11960,7 +11960,7 @@
 13437	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Imbolic Season 1. Can be used with regular titles.
 13438	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Imbolic Season 2. Can be used with regular titles.
 13439	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Imbolic Season 3. Can be used with regular titles.
-13440	A glorious Title given to those who ranked within the top 100 during a Commerce Season. Usable for 100 days, starting from when the title was acquired.
+13440	A glorious 2nd Title awarded to those who ranked within the top 100 during a Commerce Season. Although its stat bonuses will disappear after the expiration date, you will retain the title afterward and can still use it.
 13441	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Imbolic Season 1. Can be used with regular titles.
 13442	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Imbolic Season 2. Can be used with regular titles.
 13443	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Imbolic Season 3. Can be used with regular titles.
@@ -12179,27 +12179,27 @@
 13656	A title given to Milletians who participated in Season 1 of the Erinn Adventure Journal.
 13657	A title given to Milletians who participated in Season 1 of the Erinn Adventure Journal.
 13658	All Skill Training 2x EXP\nCombat 2x EXP\nGathering Success Rate +5%\nGathering Speed +5\nMovement Speed +1%\nIncreased Automatic Fishing Success Rate\nBonus Ducats +5%\n Production Success Rate +5%
-13659	안식의 아이콘
-13660	광란의 아이콘
-13661	깨달음의 아이콘
-13662	안식의 아이콘
-13663	광란의 아이콘
-13664	깨달음의 아이콘
-13665	안식의 아이콘
-13666	광란의 아이콘
-13667	깨달음의 아이콘
-13668	안식의 아이콘
-13669	광란의 아이콘
-13670	깨달음의 아이콘
-13671	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13672	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13673	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13674	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13675	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13676	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-13677	음악 버프 스킬 효과 10 증가\n음악 버프 스킬 지속시간 13 증가\n이동 속도 3% 증가
-13678	최대 대미지 26 증가\n크리티컬 대미지 3% 증가\n이동 속도 1% 증가
-13679	마법 공격력 45 증가\n마법 시전속도 5% 증가\n이동 속도 3% 증가
+13659	Whimsical Serenity
+13660	Whimsical Fury
+13661	Whimsical Wisdom
+13662	Whimsical Serenity
+13663	Whimsical Fury
+13664	Whimsical Wisdom
+13665	Whimsical Serenity
+13666	Whimsical Fury
+13667	Whimsical Wisdom
+13668	Whimsical Serenity
+13669	Whimsical Fury
+13670	Whimsical Wisdom
+13671	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13672	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13673	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13674	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13675	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13676	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+13677	Music Buff Effect +10\nMusic Buff Skill Buff Duration +13\nMovement Speed +3%
+13678	Max Damage +26\nCritical Damage +3%\nMovement Speed +1%
+13679	Magic Attack +45\nMagic Casting Speed +5%\nMovement Speed +3%
 13680	The Easiest Way to Earn Ducats
 13681	whose Identity No One Suspects
 13682	The Easiest Way to Earn Ducats
@@ -12388,7 +12388,7 @@
 13872	the Master of Herbalism
 13873	the Master of Tailoring
 13874	the Master Blacksmith
-13875	the Master of Potion
+13875	the Master of Potions
 13876	the Master of Fishing
 13877	the Master Instrumentalist
 13878	the Master of Enchantment
@@ -12592,7 +12592,7 @@
 14076	the Master of Herbalism
 14077	the Master of Tailoring
 14078	the Master Blacksmith
-14079	the Master of Potion
+14079	the Master of Potions
 14080	the Master of Fishing
 14081	the Master Instrumentalist
 14082	the Master of Enchantment
@@ -12796,7 +12796,7 @@
 14280	the Master of Herbalism
 14281	the Master of Tailoring
 14282	the Master Blacksmith
-14283	the Master of Potion
+14283	the Master of Potions
 14284	the Master of Fishing
 14285	the Master Instrumentalist
 14286	the Master of Enchantment
@@ -13000,7 +13000,7 @@
 14484	the Master of Herbalism
 14485	the Master of Tailoring
 14486	the Master Blacksmith
-14487	the Master of Potion
+14487	the Master of Potions
 14488	the Master of Fishing
 14489	the Master Instrumentalist
 14490	the Master of Enchantment
@@ -13992,13 +13992,34 @@
 15532	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 15533	Luck +30
 15534	Luck +30
-15556	맛있는 발걸음
-15557	맛있는 발걸음
-15558	맛있는 발걸음
-15559	맛있는 발걸음
-15560	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15561	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15562	행운 30 증가
+15535	Alban Eiler Season 1 Challenger
+15536	Alban Eiler Season 2 Challenger
+15537	Alban Eiler Season 3 Challenger
+15538	Alban Eiler Season 1 Challenger
+15539	Alban Eiler Season 2 Challenger
+15540	Alban Eiler Season 3 Challenger
+15541	Alban Eiler Season 1 Challenger
+15542	Alban Eiler Season 2 Challenger
+15543	Alban Eiler Season 3 Challenger
+15544	Alban Eiler Season 1 Challenger
+15545	Alban Eiler Season 2 Challenger
+15546	Alban Eiler Season 3 Challenger
+15547	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Alban Eiler Season 1. Can be used with regular titles.
+15548	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Alban Eiler Season 2. Can be used with regular titles.
+15549	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Alban Eiler Season 3. Can be used with regular titles.
+15550	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Alban Eiler Season 1. Can be used with regular titles.
+15551	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Alban Eiler Season 2. Can be used with regular titles.
+15552	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Alban Eiler Season 3. Can be used with regular titles.
+15553	Movement Speed +3%
+15554	Movement Speed +3%
+15555	Movement Speed +3%
+15556	Snacktivist
+15557	Snacktivist
+15558	Snacktivist
+15559	Snacktivist
+15560	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15561	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15562	Luck +30
 15563	내일의 희망
 15564	내일의 희망
 15565	내일의 희망
@@ -14055,13 +14076,13 @@
 15623	2022 마비노기 판타지 ON박싱에 함께해준 밀레시안에게 지급되는 2차 타이틀.
 15624	2022 마비노기 판타지 ON박싱에 함께해준 밀레시안에게 지급되는 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 15625	행운 30 증가
-15626	어전트 샷 마스터
-15627	어전트 샷 마스터
-15628	어전트 샷 마스터
-15629	어전트 샷 마스터
-15630	어전트 샷 스킬의 최고레벨에 도달한 사람에게 주어지는 영광스러운 칭호
-15631	어전트 샷 1랭크의 수련 경험치가 100에 도달하면 최고 레벨임을 증명하는 타이틀을 받을 수 있다
-15632	솜씨 20 증가\n어전트 샷 사용 시 소모되는 생명령 및 스태미나 2% 감소\n[체력 20 감소]\n[의지 10 감소]
+15626	the Master of Urgent Shot
+15627	the Master of Urgent Shot
+15628	the Master of Urgent Shot
+15629	the Master of Urgent Shot
+15630	An honorable title awarded to someone who has reached the highest level available in Urgent Shot.
+15631	Reach 100 Training EXP for Urgent Shot Shot Rank 1 to receive a title that proves your mastery.
+15632	DEX +20\nUrgent Shot HP and Stamina Cost -2%\nSTR -20\nWILL -10
 15640	언제나 불꽃
 15641	희망을 실은 불빛
 15642	빛나는 원형 발판
@@ -14083,6 +14104,27 @@
 15658	행운 30 증가
 15659	행운 30 증가
 15660	행운 30 증가
+15661	혹한의 몽상을 태운 불꽃
+15662	검푸른 겨울의 숨을 거둔
+15663	봄의 장작을 피워낸
+15664	혹한의 몽상을 태운 불꽃
+15665	검푸른 겨울의 숨을 거둔
+15666	봄의 장작을 피워낸
+15667	혹한의 몽상을 태운 불꽃
+15668	검푸른 겨울의 숨을 거둔
+15669	봄의 장작을 피워낸
+15670	혹한의 몽상을 태운 불꽃
+15671	검푸른 겨울의 숨을 거둔
+15672	봄의 장작을 피워낸
+15673	가장 깊은 겨울이 도래한 글렌 베르나에서 칼리아흐가 이어가는 겨울을 끊어낸 자에게 지급되는 특별한 타이틀이다.
+15674	에린 곳곳에서 벌어진 검푸른 사슴 사건을 조사하고 처음 겪는 낯선 겨울의 정체를 밝혀낸 자에게 주어지는 타이틀이다.
+15675	겨울을 이어가는 장작을 되찾아 봄을 인도하는 자에게 주어지는 타이틀이다.
+15676	가장 깊은 겨울이 도래한 글렌 베르나에서 칼리아흐가 이어가는 겨울을 끊어내보자.
+15677	에린 곳곳에서 벌어진 검푸른 사슴 사건을 조사하고 처음 겪는 낯선 겨울의 정체를 밝혀낸 자에게 주어지는 타이틀이다.
+15678	겨울을 이어가는 장작을 되찾아 봄을 인도하는 자에게 주어지는 타이틀이다.
+15679	최대 대미지 25 증가\n마법 공격력 45 증가\n체력, 솜씨, 의지, 지력, 행운 15 증가\n보호, 마법 보호 15 증가
+15680	체력 20 증가\n지력 20 증가\n행운 35 증가\n크리티컬 5% 증가
+15681	최대 대미지 5 증가\n마법 공격력 5 증가\n크리티컬 1% 증가\n이동 속도 1% 증가
 15682	석양
 15683	황야
 15684	석양
@@ -14104,6 +14146,27 @@
 15700	A title received during the 15th Anniversary GM event. Wow, you saw a celebrity!
 15701	A title received during the 15th Anniversary GM event. Wow, you saw a celebrity!
 15702	
+15780	에린 패스 러너
+15781	에린 패스 정복자
+15782	에린 패스 러너
+15783	에린 패스 정복자
+15784	에린 패스 러너
+15785	에린 패스 정복자
+15786	에린 패스 러너
+15787	에린 패스 정복자
+15788	에린 패스를 시작한 러너들에게 주어지는 타이틀.
+15789	에린 패스의 모든 단계를 달성한 밀레시안에게 주어지는 타이틀.
+15790	에린 패스를 시작한 러너들에게 주어지는 타이틀.
+15791	에린 패스의 모든 단계를 달성한 밀레시안에게 주어지는 타이틀.
+15792	모든 스킬 수련치 2배\n전투 경험치 2배\n채집 확률 5% 증가\n채집 속도 5% 증가\n이동 속도 1% 증가\n자동 낚시 성공률 증가\n교역 추가 이득 5%\n생산 제작 스킬 성공률 5% 증가
+15793	최대 대미지 21 증가\n마법 공격력 35 증가\n크리티컬 8% 증가\n음악 버프 스킬 효과 5 증가\n방어 10 증가\n보호 8 증가\n마법 방어 10 증가\n마법 보호 8 증가
+15794	모험 기억의 걸음
+15795	모험 기억의 걸음
+15796	모험 기억의 걸음
+15797	모험 기억의 걸음
+15798	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15799	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15800	행운 30 증가
 15801	who Reminisced During the 15th Anniversary
 15802	who Reminisced During the 15th Anniversary
 15803	who Reminisced During the 15th Anniversary
@@ -14111,3 +14174,73 @@
 15805	A title bestowed on those who participated in the Mabinogi Community 15th Anniversary Art, Writing, and Screenshot Contest! Thank you for sharing your memories with the community! 
 15806	A title bestowed on those who participated in the Mabinogi Community 15th Anniversary Art, Writing, and Screenshot Contest! Thank you for sharing your memories with the community! 
 15807	Luck +15
+15808	시간의 톱니바퀴
+15809	시간의 궤도
+15810	시간의 흐름
+15811	시간의 톱니바퀴
+15812	시간의 궤도
+15813	시간의 흐름
+15814	시간의 톱니바퀴
+15815	시간의 궤도
+15816	시간의 흐름
+15817	시간의 톱니바퀴
+15818	시간의 궤도
+15819	시간의 흐름
+15820	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15821	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15822	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15823	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15824	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15825	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15826	행운 30 증가
+15827	행운 30 증가
+15828	행운 30 증가
+15829	그랜드마스터 마창기사
+15830	그랜드마스터 마창기사
+15831	그랜드마스터 마창기사
+15832	그랜드마스터 마창기사
+15833	왕립 마창대회에서 우승하여 자질을 입증하거나, 그에 준하는 노력을 들인 자만이 획득할 수 있는 영광스러운 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15834	왕립 마창대회에서 우승하여 자질을 입증하거나, 그에 준하는 노력을 들인 자만이 획득할 수 있는 영광스러운 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15835	행운 30 증가\n의지 30 증가
+15836	열정의 아이콘
+15837	균형의 아이콘
+15838	조화의 아이콘
+15839	열정의 아이콘
+15840	균형의 아이콘
+15841	조화의 아이콘
+15842	열정의 아이콘
+15843	균형의 아이콘
+15844	조화의 아이콘
+15845	열정의 아이콘
+15846	균형의 아이콘
+15847	조화의 아이콘
+15848	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15849	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15850	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15851	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15852	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15853	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+15854	최대 대미지 15 증가\n음악 버프 스킬 효과 9 증가\n음악 버프 스킬 지속시간 10 증가
+15855	최대 대미지 24 증가\n보너스 대미지 1% 증가\n보호 13 증가\n마법 보호 10 증가
+15856	마법 공격력 32 증가\n물 / 불 / 바람 / 흙 속성\n연금술 대미지 23 증가
+15885	Faithful Guardian
+15886	Animal Lover
+15887	Faithful Guardian
+15888	Animal Lover
+15889	Faithful Guardian
+15890	Animal Lover
+15891	Faithful Guardian
+15892	Animal Lover
+15893	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15894	The 1st Title awarded to the Milletians who join a walk every weekend during the Daily Walk Together event.
+15895	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15896	The 1st Title awarded to the Milletians who join a walk every weekend during the Daily Walk Together event.
+15897	Luck +30
+15898	Will +20
+15934	썸머 팡파르
+15935	썸머 팡파르
+15936	썸머 팡파르
+15937	썸머 팡파르
+15938	2023 판타지 파티 쇼케이스 보상으로 지급되는 특별한 2차 타이틀. 장착 시, 캐릭터 주변으로 폭죽이 펑펑 터지는 이펙트가 출력된다.
+15939	2023 판타지 파티 쇼케이스 보상으로 지급되는 특별한 2차 타이틀. 장착 시, 캐릭터 주변으로 폭죽이 펑펑 터지는 이펙트가 출력된다.
+15940	체력 19 증가\n지력 19 증가\n솜씨 19 증가\n의지 19 증가\n행운 19 증가\n최대 생명력 486 증가\n최대 마나 486 증가\n최대 스태미나 486 증가
