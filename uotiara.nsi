@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
-!define UOSHORTVERSION        "413"
-!define UOLONGVERSION         "0.37.61"
+!define UOSHORTVERSION        "414"
+!define UOLONGVERSION         "0.38.61"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -5575,6 +5575,7 @@ SectionGroup "layout2"
 Section "Show Ping in the Menu 1" MOD84
 SetOutPath "$INSTDIR\data\db\layout2"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\layout2\SystemMenu.xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\db\layout2\SystemMenu2.xml"
 IfFileExists "$INSTDIR\Abyss.ini" AbyssFound11 AbyssNotFound11
 AbyssFound11:
 WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "ShowPing" "0"
@@ -5584,6 +5585,7 @@ SectionEnd
 !macro Remove_${MOD84}
   DetailPrint "*** Removing MOD84..."
   Delete "$INSTDIR\data\db\layout2\SystemMenu.xml"
+  Delete "$INSTDIR\data\db\layout2\SystemMenu2.xml"
 !macroend
 SectionGroup "commerce"
 Section "Trade Imp Removal 1" MOD80

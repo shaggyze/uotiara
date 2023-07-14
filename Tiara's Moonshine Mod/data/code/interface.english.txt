@@ -1255,6 +1255,7 @@ pli_commerceproductframe.40	<color=5>\nNumber of exchanges available: {0}\n- {1}
 pli_commerceproductframe.41	Exchange limit has been reached.
 pli_commerceproductframe.42	Purchase limit has been reached.
 pli_commerceseasonrewardview.1	You've already received the reward.
+pli_commerceseasonrewardview.2	이전 시즌의 데이터를 집계 중입니다.\n(남은 시간: {0}분)
 pli_commerceselectview.1	You can use this transport mount after\npaying a fee in Ducats. See the\nTransport Helper to learn more.
 pli_commerceselectview.2	Slot: {0:slot}</color>
 pli_commerceselectview.3	Weight: {0:weight}</color>
@@ -1513,9 +1514,9 @@ pli_echostoneawakeningview.10	When you awaken the Echostone, it will become an e
 pli_echostoneawakeningview.11	Alert
 pli_echostoneawakeningview.12	When you awaken this item, it will become an exclusive item,\nand the temporary trade effect will disappear.\nWould you like to awaken it?
 pli_echostoneawakeningview.13	Awakening the Echostone will consume a large amount of AP.\nRequired AP: <color=5>{0} AP</color>\nDo you still want to awaken the Echostone?
-pli_echostoneawakeningview.14	남은 시도 횟수를 모두 사용했습니다.
-pli_echostoneawakeningview.15	남은 시도 횟수 <color=1>무제한</color>
-pli_echostoneawakeningview.16	남은 시도 횟수 <color={0}>{1}</color>회
+pli_echostoneawakeningview.14	You have used up all remaining attempts.
+pli_echostoneawakeningview.15	Remaining Attempts: <color=1>Unlimited</color>
+pli_echostoneawakeningview.16	Remaining Attempts: <color={0}>{1}</color>
 pli_echostonecombineview.1	Hover mouse over the button to view details.
 pli_echostoneconvertview.1	Place the Echostone to fragmentize it.
 pli_echostoneconvertview.2	Place the Echostone.
@@ -1523,7 +1524,7 @@ pli_echostoneconvertview.3	This is a high-grade Echostone. Do you want to contin
 pli_echostoneconvertview.4	Alert
 pli_echostoneconvertview.5	Grade {0}
 pli_echostoneconvertview.6	{0} x{1}
-pli_echostoneconvertview.7	<color=5><outlinecolor=3>매우 높은 등급의 에코스톤</outlinecolor></color>입니다. 계속하시겠습니까?
+pli_echostoneconvertview.7	This is <color=5><outlinecolor=3>a very high-grade Echostone</outlinecolor></color>. Continue?
 pli_echostoneprobeachlevelview.1	Level {0}
 pli_echostoneupgraderesultview.1	{0} {1} + {2} Increase
 pli_echostoneupgraderesultview.2	{0} {1} Increase
@@ -1715,7 +1716,7 @@ pli_ergenhancemainview.19	Failed to place item in slot.
 pli_ergenhancemainview.20	Failed to infuse Erg.
 pli_ergenhancemainview.21	Failed to increase Max Erg Level.
 pli_ergenhancemainview.22	Success Rate: <color=2>{0}</color>({1}) %
-pli_ergenhancemainview.23	[에르그 강화 {0} 등급]
+pli_ergenhancemainview.23	[Rank {0} Erg Enhancement]
 pli_ergenhancemainview.24	%d배 이벤트 진행 중
 pli_ergenhancetransferview.1	Select weapon for Erg extraction
 pli_ergenhancetransferview.2	Select weapon to receive Erg
@@ -2156,13 +2157,13 @@ pli_guestbookview.10	Change the settings so that only you and the shop owner can
 pli_guestbookview.11	Close
 pli_guildrecruiteventframe.1	Complete
 pli_guildrecruiteventview.1	Please try again after {0} seconds.
-pli_guildrenewalmainview.1	이동할 수 있는 길드홀이 없습니다.
-pli_guildrenewalmainview.2	정산할 포인트가 없습니다\n잠시 후에 다시 시도하세요.
-pli_guildrenewalmainview.3	길드에 보관되어 있는 골드를 인출하기 위해서는 길드원들의 동의를 얻어야 합니다. 길드 홈페이지에서 투표를 시작하세요.
-pli_guildrenewalmainview.4	길드 금화를 인출할 수 있는 기간이 지났습니다. 투표가 성공한 이후 일주일 이내에 골드를 인출해야 합니다.
-pli_guildrenewalmainview.5	현재 {0}골드 까지를 인출할 수 있습니다.\n수표로 발급받을 경우, 수수료를 지불해야 하므로\n인출할 수 있는 금액이 더 적어집니다.
-pli_guildrenewalmainview.6	현재 {0}골드 까지를 인출할 수 있습니다.\n수표로 발급받을 경우, 수수료를 지불해야 하므로\n인출할 수 있는 금액이 더 적어집니다.
-pli_guildrenewalmissionframe.1	Lv. {0} 개방
+pli_guildrenewalmainview.1	There is no Guild Hall available to move to.
+pli_guildrenewalmainview.2	You have no points to contribute.\nPlease try again later.
+pli_guildrenewalmainview.3	You need the guild members' approval to withdraw Gold deposited in the guild. Start the vote in the guild website.
+pli_guildrenewalmainview.4	The period during which you can withdraw Guild Gold has expired. You must withdraw within a week from it was voted approved.
+pli_guildrenewalmainview.5	You can currently withdraw up to {0} Gold.\nIf you issue a check, the amount is lower\nas the processing fee is deducted from it.
+pli_guildrenewalmainview.6	You can currently withdraw up to {0} Gold.\nIf you issue a check, the amount is lower\nas the processing fee is deducted from it.
+pli_guildrenewalmissionframe.1	Unlock Lv. {0}
 pli_guildrobedesignframes.1	Select {0}.
 pli_guildrobedesignframes.2	Select {0}.
 pli_guildrobedesignview.1	Remove the hood
@@ -2357,6 +2358,8 @@ pli_helperapiskill.27	Divinity
 pli_helperapiskill.28	Level {0}
 pli_helperapiskill.29	Level {0}
 pli_helperapiskill.30	Fynn Bead
+pli_helperapiskill.31	점프하여 내려찍은 위치에 마법진이 설치되며 {0}초간 유지된다. 주인이 마법진 위에 있을 때 특별한 가호의 힘을 받아 최소 대미지와 최대 대미지가 {1} 증가한다.
+pli_helperapiskill.32	점프하여 내려찍은 위치에 마법진이 설치되며 {0}초간 유지된다. 주인이 마법진 위에 있을 때 특별한 가호의 힘을 받아 마법공격력이 {1}, 모든 속성의 연금술 대미지가 {2} 증가 한다.
 pli_helprequestview.1	You can select a quest to request help with.
 pli_helprequestview.2	Would you like to request help with your current quest?
 pli_helprequestview.3	Select a quest to request help for.
@@ -4631,7 +4634,7 @@ pli_tradeauctionoptionsearchsubframe.7	Upgrade Level {0}
 pli_tradeauctionoptionsearchsubframe.8	Grade {0}
 pli_tradeauctionoptionsearchsubframe.9	Available
 pli_tradeauctionoptionsearchsubframe.10	Unavailable
-pli_tradeauctionoptionsearchsubframe.11	{0} 등급
+pli_tradeauctionoptionsearchsubframe.11	Rank {0}
 pli_tradeauctionoptionsearchview.1	That Blacksmith Manual cannot be found.\nPlease make sure the name is correct.
 pli_tradeauctionoptionsearchview.2	That Sewing Pattern cannot be found.\nPlease make sure the name is correct.
 pli_tradeauctionoptionsearchview.3	That item cannot be found.\nPlease make sure the name is correct.
@@ -5442,7 +5445,7 @@ pli_windowgrouplistview.3	Cancel
 pli_windowgroupnameinput.1	Add Group
 pli_windowgroupnameinput.2	Change Group Name
 pli_windowgroupnameinput.3	Please insert the group name.
-pli_windowguildjoin.1	이미 가입 신청한 길드 입니다.
+pli_windowguildjoin.1	You've already requested to join this guild.
 pli_windowguildjoin.2	펫은 길드에 가입할 수 없습니다.
 pli_windowguildlistboard.1	Guild List
 pli_windowguildlistboard.2	Search Name:
@@ -6537,7 +6540,7 @@ pli_windowpocketitemaction.46	Can only be used on amulets with {0} available enh
 pli_windowpocketitemaction.47	Cannot be used at regular enhancement level.
 pli_windowpocketitemaction.48	Are you sure you want to spend Additional Stat Stones to grant the amulet mysterious powers?\nIf the enhancement succeeds with these powers, the stat effects will be further increased by {0}.\nIf regular enhancement fails, the Additional Stat Stone effect on the amulet will be lost.
 pli_windowpocketitemaction.49	Only runes of the same type as the emblem can be used.
-pli_windowpocketitemaction.51	해당 길드의 길드 마스터만 사용할 수 있습니다.
+pli_windowpocketitemaction.51	It is only available for the guild master of this guild.
 pli_windowpopupcharacter.0	Failed to view equipment.
 pli_windowpopupcharacter.1	View Equipment
 pli_windowpopupcharacter.2	Mount on My Pet
@@ -6802,7 +6805,7 @@ pli_windowroulettegame.3	Cancel
 pli_windowroulettegame.4	Chance!\nYou get to select an even better color.
 pli_windowroulettegame.5	Chat Color Change Potion
 pli_windowroulettegame.6	Name/Chat Color Change
-pli_windowroulettegame.7	길드 이름 색상 변경
+pli_windowroulettegame.7	Change Guild Name Color
 pli_windowschool.1	There's no deadline.
 pli_windowscorescroll.1	Song
 pli_windowscorescroll.2	You must enter a melody line or lyrics.
@@ -6865,10 +6868,10 @@ pli_windowselectrespawn.44	Ask Hatsune Miku for revival.\n\n- HP Recovery 100%\n
 pli_windowselectrespawn.45	Revive here.\n\n- {0} HP Recovery\n- {1} EXP Loss\n
 pli_windowselectrespawn.46	(Disable this option if you don't wish to engage in PvP.)
 pli_windowselectrespawn.47	Allow PvP
-pli_windowselectrespawn.52	영혼의 부름
-pli_windowselectrespawn.53	세인트 바드는 자신의 힘이 다하여도\n영혼의 인도를 통해 한 번 더 소생할 수 있습니다. \n\n- 생명력 {0}% 회복
-pli_windowselectrespawn.54	(남은 시간 {0}분)
-pli_windowselectrespawn.55	부활할 경우 1시간 동안 영혼의 부름을 다시 사용할 수 없습니다. 부활하시겠습니까?
+pli_windowselectrespawn.52	Steadfast Soul 
+pli_windowselectrespawn.53	Harmonic Saints can call upon their resolute spirits to revive when knocked unconscious. \n\n- Recovers {0}% of HP
+pli_windowselectrespawn.54	({0} min Remaining)
+pli_windowselectrespawn.55	Once you revive through Steadfast Soul, you cannot do so again for 1 hour. Revive?
 pli_windowsell.1	EXP {0} Exp\n
 pli_windowsell.2	EXP {0}%\n
 pli_windowsell.3	Exploration EXP {0} Exp\n
@@ -7141,19 +7144,19 @@ pli_windowspecialization.12	You don't have enough crystals to advance.
 pli_windowspecialization.13	This Technique has already reached max level.
 pli_windowspecialization.14	Please try again later.
 pli_windowspecialization.15	You can have a max of {0}.\n\n
-pli_windowspecialization.16	briogh accumulates from your persistence to achieve.\n
-pli_windowspecialization.17	Each time your character levels up,  
-pli_windowspecialization.18	briogh accumulates for overcoming challenges.\n
-pli_windowspecialization.19	Every time you complete a dungeon or mission,  
-pli_windowspecialization.20	broigh accumulates through your focused discipline.\n
-pli_windowspecialization.21	Every time you completed a repeatable quest,  
-pli_windowspecialization.22	{1} Briogh Obtained\n\nTotal This Week: {2} / {3}
+pli_windowspecialization.16	Briogh accumulated through steadfast growth and accomplishment.\n
+pli_windowspecialization.17	Each time your character levels up, 
+pli_windowspecialization.18	Briogh accumulated through overcoming trials and challenges.\n
+pli_windowspecialization.19	Each time you complete a dungeon or mission, 
+pli_windowspecialization.20	Briogh accumulated through methodical practice and iteration.\n
+pli_windowspecialization.21	Each time you complete a repeatable quest, 
+pli_windowspecialization.22	you will receive {1} Briogh.\n\nTotal This Week: {2} / {3}
 pli_windowspecialization.23	You don't have all the materials required to advance.
-pli_windowspecialization.24	Transfer AP\nto {0}.\nYou can earn {1} briogh per AP.\n\nCurrent Amount: {2} AP\nMax Transferable: {3} AP
+pli_windowspecialization.24	Transfer AP to {0}.\nYou can earn {1} Briogh per AP.\n\nCurrent Amount: {2} AP\nMax Transferable: {3} AP
 pli_windowspecialization.25	Your Technique set has not been saved.\nWould you like to save it?
 pli_windowspecialization.26	Save
 pli_windowspecialization.27	Close
-pli_windowspecialization.28	You cannot use any more AP, because you've exceeded the briogh limit.
+pli_windowspecialization.28	You cannot use any more AP, because you've exceeded the Briogh limit.
 pli_windowspecialization.29	Would you like to apply the selected Technique set?\nThe effects of your current Technique set end when you switch sets.
 pli_windowspecialization.30	Complete a quest that grants the use of new techniques\n(EX: G22 Quest "Eyes Wide Shut") to access this menu.
 pli_windowspecialization.31	{0}\n\n{1}\n\n\nTechnique Unlock Requirements\n\n{2}

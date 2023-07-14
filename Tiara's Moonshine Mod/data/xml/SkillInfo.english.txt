@@ -4328,42 +4328,42 @@
 6401	Pall of Ruination drastically weakens enemies within range of the caster for a short time. While it shares a basis and fundamentals with the Music Buff skills, its effects have been greatly altered through the power of Arcana. Its power is greatly influenced by the Dance of Death and Fantastic Chorus skills, with higher ranks of both amplifying Pall of Ruination's effects.
 6402	Blessing of Protection greatly bolsters the survivability of all party members within range of the caster for a short time. While it shares a basis and fundamentals with the Music Buff skills, its effects have been substantially enhanced through the power of Arcana. Its power is greatly influenced by the Enduring Melody skill, with higher ranks of Enduring Melody amplifying Blessing of Protection's effects.
 6403	Hymn of Resurrection is a potent spell that uses the power of Arcana to simulate the reviving power of a Phoenix Feather. The effect has been magnified through a mastery of mana such that even from a great distance, it can restore an ally to consciousness. Its power is greatly influenced by the First Aid skill, with higher ranks of First Aid amplifying Hymn of Resurrection's potency.
-6413	칼리아흐 냉기 불꽃
-6414	칼리아흐 서리 충격
-6415	칼리아흐 균열
-6416	칼리아흐 불타는 대지
-6417	칼리아흐 죽음의 도래
-6418	칼리아흐 영혼 수집
-6419	칼리아흐 영혼 주입
-6420	칼리아흐 시간 역전
-6421	칼리아흐 시간 회귀
-6422	임시
-6423	임시
-6424	임시
-6425	임시
-6426	임시
-6427	임시
-6428	임시
-6429	임시
-6430	임시
-6431	칼리아흐 삼연격
-6432	칼리아흐 회전 가르기
-6433	칼리아흐 얼음 화살
-6434	칼리아흐 파괴 광선
-6435	칼리아흐 시간 분열
-6436	칼리아흐 연계 투척
-6437	칼리아흐 종말 선고
-6438	칼리아흐 혹한의 시간
-6439	임시
-6440	임시
-6441	임시
-6442	임시
-6443	임시
-6444	임시
-6445	임시
-6446	임시
-6447	크로크 얼음 강타
-6448	임시
+6413	Cailleach Frostfire
+6414	Cailleach Frozen Impact
+6415	Cailleach Fissure
+6416	Cailleach Scorched Earth
+6417	Cailleach Doombringer
+6418	Cailleach Soul Harvest
+6419	Cailleach Soul Infusion
+6420	Cailleach Temporal Inversion
+6421	Cailleach Temporal Reversion
+6422	Temp
+6423	Temp
+6424	Temp
+6425	Temp
+6426	Temp
+6427	Temp
+6428	Temp
+6429	Temp
+6430	Temp
+6431	Cailleach Triple Strike
+6432	Cailleach Spinning Slash
+6433	Cailleach Ice Arrow
+6434	Cailleach Hyper Beam
+6435	Cailleach Temporal Dilation
+6436	Cailleach Chain Throw
+6437	Cailleach Final Judgment
+6438	Cailleach Reign of Eternal Winter
+6439	Temp
+6440	Temp
+6441	Temp
+6442	Temp
+6443	Temp
+6444	Temp
+6445	Temp
+6446	Temp
+6447	Cnoc Oighir Icy Smite
+6448	Temp
 6449	Throwing Attack
 6450	You can't do that right now.
 6451	Enables the use of throwing weapons. If you have a throwing tool and throwing weapon in your hands, you can use the Throwing attack. Unlike arrows, throwing weapons do not require time to aim.
@@ -4385,26 +4385,26 @@
 6467	Damage
 6468	Explosion Radius
 6469	Cooldown Reduced
-6470	피아나 기흐레 돌진
-6471	자폭
-6472	아이시클 개틀링
-6473	롤링 어택
-6474	포효
-6475	동면
-6476	분노의 포효
-6477	눈던지기
-6478	물어뜯기
-6479	임시
-6480	임시
-6481	임시
-6482	임시
-6483	임시
-6484	임시
-6485	임시
-6486	임시
-6487	임시
-6488	무영 공격 스킬
-6489	노 모션, 노 이펙트의 공격 스킬. 트랩 등에서 사용한다.
+6470	Fianna Geimhridh Charge
+6471	Self-Destruct
+6472	Icicle Gatling
+6473	Rolling Attack
+6474	Roar
+6475	Hibernate
+6476	Furious Roar
+6477	Throw Snow
+6478	Gnaw
+6479	Temp
+6480	Temp
+6481	Temp
+6482	Temp
+6483	Temp
+6484	Temp
+6485	Temp
+6486	Temp
+6487	Temp
+6488	Invisible Attack Skill
+6489	No animation, no effect attack skill. Used in traps, etc.
 6490	Breath of Ladeca
 6491	Achieve character level 100. If you are a novice without an active talent, try spending a little more time getting adjusted to the world.
 6492	You are blessed by Ladeca, the blue moon that shines in the night sky of Erinn. Your speed increases, and you will do bonus damage for a set time when using close combat skills with twin swords. The longer you stay in this world, the more adept you become at controlling the blessing.
@@ -4417,12 +4417,31 @@
 6499	Next Aiming Speed
 6500	Effect Duration
 6501	Enhanced Taunt
-6507	길드 깃발 액션1
-6508	길드 깃발 액션2
-6509	길드 깃발 설치
-6510	길드 깃발을 멋지게 돌릴 수 있는 액션이다.
-6511	길드 깃발을 멋지게 하늘 위로 치켜들 수 있는 액션이다.
-6512	길드 깃발을 바닥에 설치할 수 있는 액션이다.
-6513	길드 깃발로 멋진 모습을 보여주고 싶을 때 사용해보자.
-6514	길드 깃발로 멋진 모습을 보여주고 싶을 때 사용해보자.
-6515	길드원을 모집하거나, 길드의 위상을 드높일 때 사용해보자.
+6507	Guild Flag Action 1
+6508	Guild Flag Action 2
+6509	Install Guild Flag
+6510	An action that lets you spin the Guild Flag.
+6511	An action that lets you hold the Guild Flag up high.
+6512	An action that lets you install the Guild Flag.
+6513	Use it when you would like to show off your cool move with the Guild Flag.
+6514	Use it when you would like to show off your cool move with the Guild Flag.
+6515	Use it when you would like to recruit members or cheer for your guild.
+6516	폭풍 질주
+6517	폭풍 질주
+6518	가호의 진
+6519	가호의 진
+6520	럭키 타임
+6521	폼 체인지
+6522	주인의 부름을 듣고 나타나며 폭풍 같은 질주로 주변의 적을 공격한다. 질주에 휘말린 적은 일정 시간 경직상태에 빠지고 방어와 보호가 감소한다.
+6523	주인의 부름을 듣고 나타나며 폭풍 같은 질주로 주변의 적을 공격한다. 질주에 휘말린 적은 일정 시간 경직상태에 빠지고 마법 방어와 마법 보호가 감소한다.
+6524	펫이 능숙한 마력 컨트롤을 통해 특별한 마법진을 소환한다. 마법진은 주인의 능력치를 올려주며 펫의 누적된 성장에 따라 증가하는 수치가 높아진다.
+6525	펫이 능숙한 마력 컨트롤을 통해 특별한 마법진을 소환한다. 마법진은 주인의 능력치를 올려주며 펫의 누적된 성장에 따라 증가하는 수치가 높아진다.
+6526	주인에게 행운을 불어넣어 준다. 행운의 기운을 받으면 특별한 금전운이 붙는다.
+6527	마법을 통해 스스로의 크기를 바꿀 수 있는 스킬이다. 펫이 대형일 때만 탑승과 탑승 비행이 가능하다.
+6528	주인의 부름을 듣고 나타나며 폭풍 같은 질주로 주변의 적을 공격한다. 질주에 휘말린 적은 일정 시간 경직상태에 빠지고 방어와 보호가 감소한다.
+6529	주인의 부름을 듣고 나타나며 폭풍 같은 질주로 주변의 적을 공격한다. 질주에 휘말린 적은 일정 시간 경직상태에 빠지고 마법 방어와 마법 보호가 감소한다.
+6530	펫이 능숙한 마력 컨트롤을 통해 특별한 마법진을 소환한다. 마법진은 주인의 능력치를 올려주며 펫의 누적된 성장에 따라 증가하는 수치가 높아진다.
+6531	펫이 능숙한 마력 컨트롤을 통해 특별한 마법진을 소환한다. 마법진은 주인의 능력치를 올려주며 펫의 누적된 성장에 따라 증가하는 수치가 높아진다.
+6532	주인에게 행운을 불어넣어 준다. 행운의 기운을 받으면 특별한 금전운이 붙는다.
+6533	마법을 통해 스스로의 크기를 바꿀 수 있는 스킬이다. 펫이 대형일 때만 탑승과 탑승 비행이 가능하다.
+6534	산책 무시

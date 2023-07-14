@@ -9432,8 +9432,8 @@
 11690	푸르메재단 방울토마토 온실하우스
 11691	푸르메재단 표고버섯 온실하우스
 11692	Ceraunus (90 Days)
-11693	로시네
-11694	로시네
+11693	Loiscneach
+11694	Loiscneach
 11698	Glacial Whale
 11699	Celestial Whale
 11700	Aodhan Doll Bag
@@ -9444,115 +9444,123 @@
 11705	Schoolcub Teddy Doll Bag
 11706	Mystical Time Broom
 11707	Mystical Space Broom
-11708	피아나 기흐레
-11709	시저 래빗
-11710	균형의 시저 래빗
-11711	칼리아흐
-11712	칼리아흐
-11713	불완전한 공상
-11714	피아나 기흐레
+11708	Fianna Geimhridh
+11709	Abominable Rabbit
+11710	Abominable Rabbit of Equilibrium
+11711	Cailleach
+11712	Cailleach
+11713	Unfinished Reverie
+11714	Fianna Geimhridh
 11715	Ceraunus (Event)
-11717	칼리아흐
-11718	칼리아흐
+11717	Cailleach
+11718	Cailleach
 11719	Nianshou
 11720	Glacial Whale Mini-Gem
 11721	Celestial Whale Mini-Gem
-11722	스넷타
-11723	스넷타
-11724	스넷타
-11725	구일리온
-11726	구일리온(안씀)
-11727	구일리온(안씀)
-11728	눈 덮인 식인식물
-11729	눈 덮인 식충식물
-11730	아이소머 팬텀
-11731	엠버스 스프라이트
-11732	아이시클 스프라이트
-11733	스노우 슬링
-11734	폴라하 카트
-11735	구이쉬기
-11736	크로크 아이드
-11737	그림자 미션 투명 몬스터
-11738	폴라하 카트
-11739	칼리아흐의 결계 1단계
-11740	칼리아흐의 결계 2단계
-11741	칼리아흐의 결계 최종 단계
-11742	칼리아흐의 결계 최종 단계
-11743	영혼을 태우는 화로
-11744	피아나 기흐레
-11745	스넷타
-11746	스넷타
-11747	스넷타
-11748	구일리온
-11749	구일리온(안씀)
-11750	구일리온(안씀)
-11751	눈 덮인 식인식물
-11752	눈 덮인 식충식물
-11753	아이소머 팬텀
-11754	엠버스 스프라이트
-11755	아이시클 스프라이트
-11756	시저 래빗
-11757	균형의 시저 래빗
-11758	스노우 슬링
-11759	폴라하 카트
-11760	구이쉬기
-11761	폴라하 카트
-11762	칼리아흐의 결계 1단계
-11763	칼리아흐의 결계 2단계
-11764	칼리아흐의 결계 최종 단계
-11765	칼리아흐의 결계 최종 단계
-11766	영혼을 태우는 화로
-11767	얼음 파편
-11768	얼음 골렘
-11769	순백의 영혼
-11770	불완전한 공상
-11771	피아나 기흐레
-11772	엠버스 스프라이트
-11773	아이소머 팬텀
-11774	아이시클 스프라이트
-11775	스노우 슬링
-11776	스넷타
-11777	스넷타
-11778	스넷타
-11779	얼음 골렘
-11780	순백의 영혼
-11781	피아나 기흐레
-11782	엠버스 스프라이트
-11783	아이소머 팬텀
-11784	아이시클 스프라이트
-11785	스노우 슬링
-11786	스넷타
-11787	스넷타
-11788	스넷타
-11789	칼리아흐
-11790	크로크 아이드
-11791	불완전한 공상
-11801	피아나 기흐레
+11722	Snuggly Sneachta
+11723	Snuggly Sneachta
+11724	Snuggly Sneachta
+11725	Gwyllion
+11726	Gwyllion (Unused)
+11727	Gwyllion (Unused)
+11728	Man-eating Snowtrap
+11729	Carnivorous Snowtrap
+11730	Enkindled Wraith
+11731	Ember Sprite
+11732	Icicle Sprite
+11733	Frostwork Soul
+11734	Folach Catt
+11735	Gwyllgi
+11736	Cnoc Oighir
+11737	Shadow Mission Invisible Monster
+11738	Folach Catt
+11739	Cailleach's Barrier (Level 1)
+11740	Cailleach's Barrier (Level 2)
+11741	Cailleach's Barrier (Full Power)
+11742	Cailleach's Barrier (Full Power)
+11743	Soulfire Brazier
+11744	Fianna Geimhridh
+11745	Snuggly Sneachta
+11746	Snuggly Sneachta
+11747	Snuggly Sneachta
+11748	Gwyllion
+11749	Gwyllion (Unused)
+11750	Gwyllion (Unused)
+11751	Man-eating Snowtrap
+11752	Carnivorous Snowtrap
+11753	Enkindled Wraith
+11754	Ember Sprite
+11755	Icicle Sprite
+11756	Abominable Rabbit
+11757	Abominable Rabbit of Equilibrium
+11758	Frostwork Soul
+11759	Folach Catt
+11760	Gwyllgi
+11761	Folach Catt
+11762	Cailleach's Barrier (Level 1)
+11763	Cailleach's Barrier (Level 2)
+11764	Cailleach's Barrier (Full Power)
+11765	Cailleach's Barrier (Full Power)
+11766	Soulfire Brazier
+11767	Ice Shard
+11768	Ice Golem
+11769	Pallid Soul
+11770	Unfinished Reverie
+11771	Fianna Geimhridh
+11772	Ember Sprite
+11773	Enkindled Wraith
+11774	Icicle Sprite
+11775	Frostwork Soul
+11776	Snuggly Sneachta
+11777	Snuggly Sneachta
+11778	Snuggly Sneachta
+11779	Ice Golem
+11780	Pallid Soul
+11781	Fianna Geimhridh
+11782	Ember Sprite
+11783	Enkindled Wraith
+11784	Icicle Sprite
+11785	Frostwork Soul
+11786	Snuggly Sneachta
+11787	Snuggly Sneachta
+11788	Snuggly Sneachta
+11789	Cailleach
+11790	Cnoc Oighir
+11791	Unfinished Reverie
+11801	Fianna Geimhridh
 11802	Biscuit
 11803	Sprinkle
 11810	Cheerfully Caffeinated Coffee Wagon
 11813	태극기
 11816	Ceraunus (Event)
-11817	아이시클 스프라이트
-11824	거대 사자
-11825	거대 암사자
-11826	사막 드래곤
-11827	모쿠르칼피
-11828	실반 드래곤
-11829	자이언트 웜
-11830	세계수 위습
+11817	Icicle Sprite
+11824	Giant Lion
+11825	Giant Lioness
+11826	Desert Dragon
+11827	Mokkurkalfi
+11828	Sylvan Dragon
+11829	Giant Worm
+11830	Yggdrasil Wisp
 11831	길드석
 11847	Hasidim
-11858	양
+11858	Sheep
+11860	용감한 야옹
+11861	용감한 야옹
+11862	똑똑한 야옹
+11863	똑똑한 야옹
+11864	모험가 용감한 야옹
+11865	모험가 용감한 야옹
+11866	모험가 똑똑한 야옹
+11867	모험가 똑똑한 야옹
 11868	장식된 라이딩 크롭
-11869	[길드]개썰매
-11870	[길드]낙타
-11871	[길드]부유선
-11872	[길드]개썰매
-11873	[길드][파트너]개썰매
-11874	[길드][파트너]낙타
-11875	[길드][파트너]부유선
-11876	[길드][파트너]개썰매
+11869	[Guild] Dog Sled
+11870	[Guild] Camel
+11871	[Guild] Trader's Skiff
+11872	[Guild] Dog Sled
+11873	[Guild][Partner] Dog Sled
+11874	[Guild][Partner] Camel
+11875	[Guild][Partner] Trader's Skiff
+11876	[Guild][Partner] Dog Sled
 11880	White Poodle Mini-Gem
 11881	Siamese Cat Mini-Gem
 11882	Spotted Deer Mini-Gem
@@ -9597,3 +9605,16 @@
 11946	마창대회용 말
 11947	마창대회용 말
 11948	마창대회용 말
+11949	용감한 야옹
+11950	똑똑한 야옹
+11951	서리꽃 미르
+11952	서리꽃 어린 케라우노스
+11995	고정 불1 더미
+11996	고정 불5 더미
+11997	고정 불9 더미
+11998	고정 얼음1 더미
+11999	고정 얼음5 더미
+12000	고정 얼음9 더미
+12001	고정 전기1 더미
+12002	고정 전기5 더미
+12003	고정 전기9 더미

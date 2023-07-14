@@ -14104,27 +14104,27 @@
 15658	행운 30 증가
 15659	행운 30 증가
 15660	행운 30 증가
-15661	혹한의 몽상을 태운 불꽃
-15662	검푸른 겨울의 숨을 거둔
-15663	봄의 장작을 피워낸
-15664	혹한의 몽상을 태운 불꽃
-15665	검푸른 겨울의 숨을 거둔
-15666	봄의 장작을 피워낸
-15667	혹한의 몽상을 태운 불꽃
-15668	검푸른 겨울의 숨을 거둔
-15669	봄의 장작을 피워낸
-15670	혹한의 몽상을 태운 불꽃
-15671	검푸른 겨울의 숨을 거둔
-15672	봄의 장작을 피워낸
-15673	가장 깊은 겨울이 도래한 글렌 베르나에서 칼리아흐가 이어가는 겨울을 끊어낸 자에게 지급되는 특별한 타이틀이다.
-15674	에린 곳곳에서 벌어진 검푸른 사슴 사건을 조사하고 처음 겪는 낯선 겨울의 정체를 밝혀낸 자에게 주어지는 타이틀이다.
-15675	겨울을 이어가는 장작을 되찾아 봄을 인도하는 자에게 주어지는 타이틀이다.
-15676	가장 깊은 겨울이 도래한 글렌 베르나에서 칼리아흐가 이어가는 겨울을 끊어내보자.
-15677	에린 곳곳에서 벌어진 검푸른 사슴 사건을 조사하고 처음 겪는 낯선 겨울의 정체를 밝혀낸 자에게 주어지는 타이틀이다.
-15678	겨울을 이어가는 장작을 되찾아 봄을 인도하는 자에게 주어지는 타이틀이다.
-15679	최대 대미지 25 증가\n마법 공격력 45 증가\n체력, 솜씨, 의지, 지력, 행운 15 증가\n보호, 마법 보호 15 증가
-15680	체력 20 증가\n지력 20 증가\n행운 35 증가\n크리티컬 5% 증가
-15681	최대 대미지 5 증가\n마법 공격력 5 증가\n크리티컬 1% 증가\n이동 속도 1% 증가
+15661	the Flame of the Icebound Reverie
+15662	who Witnessed Winter's End
+15663	the Herald of Spring
+15664	the Flame of the Icebound Reverie
+15665	who Witnessed Winter's End
+15666	the Herald of Spring
+15667	the Flame of the Icebound Reverie
+15668	who Witnessed Winter's End
+15669	the Herald of Spring
+15670	the Flame of the Icebound Reverie
+15671	who Witnessed Winter's End
+15672	the Herald of Spring
+15673	A special title given to those who ventured deep into Glenn Bearna, facing the full ferocity of Cailleach's wintry realm.
+15674	A special title given to those who pursued the mystery of the monstrous deer to its source, uncovering a strange and supernatural winter unlike any other.
+15675	A special title given to those faithful in retrieving firewood so that spring might come again.
+15676	Venture deep into Glenn Bearna and face the full ferocity of Cailleach's wintry realm.
+15677	A special title given to those who pursued the mystery of the monstrous deer to its source, uncovering a strange and supernatural winter unlike any other.
+15678	A special title given to those faithful in retrieving firewood so that spring might come again.
+15679	Max Damage +25\nMagic Attack +45\nStrength, Dexterity, Will, Intelligence, Luck +15\nProtection, Magic Protection +15
+15680	Strength +20\nIntelligence +20\nLuck +35\nCritical +5%
+15681	Max Damage +5\nMagic Attack +5\nCritical +1%\nMovement Speed +1%
 15682	석양
 15683	황야
 15684	석양
@@ -14224,17 +14224,17 @@
 15855	최대 대미지 24 증가\n보너스 대미지 1% 증가\n보호 13 증가\n마법 보호 10 증가
 15856	마법 공격력 32 증가\n물 / 불 / 바람 / 흙 속성\n연금술 대미지 23 증가
 15885	Faithful Guardian
-15886	Animal Lover
+15886	the Animal Lover
 15887	Faithful Guardian
-15888	Animal Lover
+15888	the Animal Lover
 15889	Faithful Guardian
-15890	Animal Lover
+15890	the Animal Lover
 15891	Faithful Guardian
-15892	Animal Lover
+15892	the Animal Lover
 15893	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
-15894	The 1st Title awarded to the Milletians who join a walk every weekend during the Daily Walk Together event.
+15894	A Title awarded to Milletians who went for a walk every weekend during the Step by Step event.
 15895	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
-15896	The 1st Title awarded to the Milletians who join a walk every weekend during the Daily Walk Together event.
+15896	A Title awarded to Milletians who went for a walk every weekend during the Step by Step event.
 15897	Luck +30
 15898	Will +20
 15934	썸머 팡파르
@@ -14243,4 +14243,53 @@
 15937	썸머 팡파르
 15938	2023 판타지 파티 쇼케이스 보상으로 지급되는 특별한 2차 타이틀. 장착 시, 캐릭터 주변으로 폭죽이 펑펑 터지는 이펙트가 출력된다.
 15939	2023 판타지 파티 쇼케이스 보상으로 지급되는 특별한 2차 타이틀. 장착 시, 캐릭터 주변으로 폭죽이 펑펑 터지는 이펙트가 출력된다.
-15940	체력 19 증가\n지력 19 증가\n솜씨 19 증가\n의지 19 증가\n행운 19 증가\n최대 생명력 486 증가\n최대 마나 486 증가\n최대 스태미나 486 증가
+15940	체력 19 증가\n지력 19 증가\n솜씨 19 증가\n의지 19 증가\n행운 19 증가\n최대 생명력 40 증가\n최대 마나 80 증가\n최대 스태미나 60 증가
+15969	Seraphic Grace
+15970	Seraphic Song
+15971	Seraphic Whisper
+15972	Seraphic Grace
+15973	Seraphic Song
+15974	Seraphic Whisper
+15975	Seraphic Grace
+15976	Seraphic Song
+15977	Seraphic Whisper
+15978	Seraphic Grace
+15979	Seraphic Song
+15980	Seraphic Whisper
+15981	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15982	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15983	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15984	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15985	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15986	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15987	Luck +30
+15988	Luck +30
+15989	Luck +30
+15990	19주년 판타지 파티 아티스트
+15991	19주년 판타지 파티 아티스트
+15992	19주년 판타지 파티 아티스트
+15993	19주년 판타지 파티 아티스트
+15994	마비노기 19주년 판타지 파티에 참여하여, 멋진 콘텐츠를 선보여 주신 아티스트에게 지급되는 특별한 타이틀.
+15995	마비노기 19주년 판타지 파티에 참여하여, 멋진 콘텐츠를 선보여 주신 아티스트에게 지급되는 특별한 타이틀.
+15996	행운 30 증가
+16032	혹한의 경계의 이방인
+16033	소소리바람 자른 자
+16034	혹한 중의 한숨
+16035	혹한의 경계의 이방인
+16036	소소리바람 자른 자
+16037	혹한 중의 한숨
+16038	혹한의 경계의 이방인
+16039	소소리바람 자른 자
+16040	혹한 중의 한숨
+16041	혹한의 경계의 이방인
+16042	소소리바람 자른 자
+16043	혹한 중의 한숨
+16044	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16045	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16046	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16047	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16048	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16049	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16050	행운 30 증가
+16051	최대 대미지 21 증가\n마법 공격력 7 증가\n방어 5 증가 / 보호 5 증가
+16052	마법 공격력 30 증가\n최대 마나 12 증가\n방어 5 증가 / 보호 5 증가

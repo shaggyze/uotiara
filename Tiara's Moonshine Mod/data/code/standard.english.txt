@@ -3,9 +3,10 @@ autobotdescmgr.2	Movement Speed +{0}%
 autobotdescmgr.3	{0}
 autobotdescmgr.4	Critical Damage +{0}%
 autobotdescmgr.5	Pet Combat EXP Bonus +{0}%
-autobotdescmgr.6	Music Buff Duration {0}
+autobotdescmgr.6	Music Buff Duration +{0}
 autobotdescmgr.7	Attack Speed {0}%
 autobotdescmgr.8	Gathering Speed +{0}%
+autobotdescmgr.9	음악 버프 스킬 효과 {0}
 booleanfunctionhandler.1	When you are an Elf or supporting an Elf
 booleanfunctionhandler.2	When you are a Giant or supporting a Giant
 booleanfunctionhandler.3	Summoning Golem
@@ -142,12 +143,12 @@ etc.quest_result_desc_reward_unit_of_ap	Ability Point
 etc.quest_result_desc_reward_writechronicle	Record in Exploration Chronicle
 etc.ruin_discoverer	 {1}, which was just discovered by {0}
 etc.skill_training_string	Novice
-guilddata.1	길드 마스터
-guilddata.2	부길드 마스터
-guilddata.3	선임 길드원
-guilddata.4	길드원
-guilddata.5	가입신청
-guilddata.6	탈퇴
+guilddata.1	Guild Master
+guilddata.2	Guild Officer
+guilddata.3	Senior Member
+guilddata.4	Guild Member
+guilddata.5	Request to Join
+guilddata.6	Leave
 interface_buffer.1	{0} Recovery Speed {1}%
 interface_buffer.2	{0} Recovery: {2} points every {1} sec.
 interface_buffer.3	{0:param} +{1:value}
@@ -244,7 +245,7 @@ interface_item.1	Holy
 interface_item.2	Empty Music Scores cannot be included.
 interface_item.3	Music Scores with no uses left cannot be included.
 interface_item.4	 (Not Activated)
-interface_item.5	{0}단
+interface_item.5	Dan {0}
 interface_multiclass.1	Requires a close combat weapon to use.
 interface_multiclass.2	{0} cannot be used with a 0 durability weapon.
 interface_personalrankingmgr.1	Girgashiy
