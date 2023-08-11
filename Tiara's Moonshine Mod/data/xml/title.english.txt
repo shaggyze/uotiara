@@ -14195,13 +14195,13 @@
 15826	행운 30 증가
 15827	행운 30 증가
 15828	행운 30 증가
-15829	그랜드마스터 마창기사
-15830	그랜드마스터 마창기사
-15831	그랜드마스터 마창기사
-15832	그랜드마스터 마창기사
-15833	왕립 마창대회에서 우승하여 자질을 입증하거나, 그에 준하는 노력을 들인 자만이 획득할 수 있는 영광스러운 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15834	왕립 마창대회에서 우승하여 자질을 입증하거나, 그에 준하는 노력을 들인 자만이 획득할 수 있는 영광스러운 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15835	행운 30 증가\n의지 30 증가
+15829	Grandmaster Jousting Knight
+15830	Grandmaster Jousting Knight
+15831	Grandmaster Jousting Knight
+15832	Grandmaster Jousting Knight
+15833	A glorious 2nd Title awarded to those who have proved themselves worthy by winning the Royal Jousting Tournament, or who have put in an equivalent valiant effort. Can be used with regular titles.
+15834	A glorious 2nd Title awarded to those who have proved themselves worthy by winning the Royal Jousting Tournament, or who have put in an equivalent valiant effort. Can be used with regular titles.
+15835	Luck +30\nWill +30
 15836	열정의 아이콘
 15837	균형의 아이콘
 15838	조화의 아이콘
@@ -14272,6 +14272,13 @@
 15994	마비노기 19주년 판타지 파티에 참여하여, 멋진 콘텐츠를 선보여 주신 아티스트에게 지급되는 특별한 타이틀.
 15995	마비노기 19주년 판타지 파티에 참여하여, 멋진 콘텐츠를 선보여 주신 아티스트에게 지급되는 특별한 타이틀.
 15996	행운 30 증가
+15997	에린마블 여행자
+15998	에린마블 여행자
+15999	에린마블 여행자
+16000	에린마블 여행자
+16001	에린마블 여행자\n타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16002	에린마블 여행자\n타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16003	탐험 경험치 5% 증가
 16032	혹한의 경계의 이방인
 16033	소소리바람 자른 자
 16034	혹한 중의 한숨

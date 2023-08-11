@@ -9543,15 +9543,18 @@
 11830	Yggdrasil Wisp
 11831	길드석
 11847	Hasidim
+11848	크리스탈
+11849	크리스탈
+11850	크리스탈
 11858	Sheep
-11860	용감한 야옹
-11861	용감한 야옹
-11862	똑똑한 야옹
-11863	똑똑한 야옹
-11864	모험가 용감한 야옹
-11865	모험가 용감한 야옹
-11866	모험가 똑똑한 야옹
-11867	모험가 똑똑한 야옹
+11860	Tabby Purrling
+11861	Tabby Purrling
+11862	Siamese Purrling
+11863	Siamese Purrling
+11864	Persevering Tabby Purrling
+11865	Persevering Tabby Purrling
+11866	Perspicacious Siamese Purrling
+11867	Perspicacious Siamese Purrling
 11868	장식된 라이딩 크롭
 11869	[Guild] Dog Sled
 11870	[Guild] Camel
@@ -9587,9 +9590,9 @@
 11921	베개를 든 베어울프
 11922	베개를 든 좀비
 11923	베개를 든 좀비
-11929	마창대회용 말
-11930	마창대회용 말
-11931	마창대회용 말
+11929	Horse for Jousting
+11930	Horse for Jousting
+11931	Horse for Jousting
 11932	Mini White Poodle
 11933	Mini Siamese Cat
 11934	Mini Spotted Deer
@@ -9598,17 +9601,17 @@
 11939	Mini Siamese Cat Mini-Gem
 11940	Mini Spotted Deer Mini-Gem
 11941	Mini Brown Fox Mini-Gem
-11942	마창대회용 말
-11943	마창대회용 말
-11944	마창대회용 말
-11945	마창대회용 말
-11946	마창대회용 말
-11947	마창대회용 말
-11948	마창대회용 말
-11949	용감한 야옹
-11950	똑똑한 야옹
-11951	서리꽃 미르
-11952	서리꽃 어린 케라우노스
+11942	Horse for Jousting
+11943	Horse for Jousting
+11944	Horse for Jousting
+11945	Horse for Jousting
+11946	Horse for Jousting
+11947	Horse for Jousting
+11948	Horse for Jousting
+11949	Tabby Purrling
+11950	Siamese Purrling
+11951	Frostblossom Mir Dragon
+11952	Frostblossom Young Ceraunus
 11995	고정 불1 더미
 11996	고정 불5 더미
 11997	고정 불9 더미

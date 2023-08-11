@@ -9,7 +9,7 @@
 8	Alch
 9	Iria
 10	Gdds
-11	Squire
+11	Squi
 12	Field
 13	[Adventure]
 14	[Close Combat]
@@ -52,26 +52,26 @@
 51	[Tutorial]
 52	[Part-Time Job]
 53	[Return Incentive]
-54	Midsummer Mission
+54	Mid
 55	[Daily]
 56	[Weekly]
 57	[Monthly]
 58	[Renown]
-59	Stamp Sprint
+59	Stamp
 60	[Chain Slash]
-61	Apocalypse
-62	Technique
+61	Apoc
+62	Tech
 63	[Technique]
 64	[Spirit]
 65	[Challenge]
 66	[Pet Training]
-68	Season Pass
-69	Replay
+68	BP
+69	Rpy
 70	[Replay]
 71	[Glyphwrighting]
-72	Society Sponsorship
+72	Star
 73	[Brave Boost]
-74	Arcana
+74	Arcn
 75	[Elemental Knight]
 76	[Harmonic Saint]
 78	[출석체크 미션]

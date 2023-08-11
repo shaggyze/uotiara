@@ -372,6 +372,8 @@ interface_skillmgr.4	Other skills disabled while readying Wind Guard.
 interface_skillmgr.5	You can only use the Close Combat talent or Giant Full Swing when Wind Guard is active.
 interface_skillmgretc.1	Empty both of your hands in order to craft.
 interface_skillmgretc.2	The following item must be equipped in your hands in order to craft.\n- {0}
+interface_skillmgretc.3	달성할 조건이 없어 아이템을 사용할 수 없습니다.
+interface_skillmgretc.4	확인된 승단 조건이 없습니다.
 interface_skillmgruse.1	You are too far away to control the puppet.\nControl Marionette disabled.
 interface_skillmgruse.2	You can't use {0} with a 0 durability weapon.
 interface_skillmgruse.3	This skill cannot be used with the current Arcana.
@@ -507,7 +509,8 @@ mabiauctionmgr.3	Not sold
 mabiauctionmgr.4	Being Bid On
 mabiauctionmgr.5	Re-Bid Required
 mabiauctionmgr.6	Purchase Failed
-mabiauctionmgr.7	Purchase Succeeded
+mabiauctionmgr.7	Purchase\nSucceeded
+mabiauctionmgr.8	Ended
 mabinogi_commerce.1	Failed to trade Mercantile Goods. (0)
 mabinogi_commerce.2	Your Merchant Rating is not high enough at this Trading Post.
 mabinogi_commerce.3	Insufficient Ducats.

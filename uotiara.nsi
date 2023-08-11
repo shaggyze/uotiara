@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
-!define UOSHORTVERSION        "414"
-!define UOLONGVERSION         "0.38.61"
+!define UOSHORTVERSION        "417"
+!define UOLONGVERSION         "0.39.62"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -8,7 +8,7 @@ RequestExecutionLevel admin
 !define InstFile "${UOLONGNAME}.exe"
 !define AbyssEnable "True"
 !define KananEnable "True"
-!define KananUpdateEnable "True"
+!define KananUpdateEnable "False"
 !define HyddwnEnable "True"
 !define HyddwnUpdateEnable "True"
 !define Lib-LoaderEnable "True"
@@ -136,7 +136,7 @@ Var STR_RETURN_VAR
 ;!include Sections.nsh
 !include nsDialogs.nsh
 !include WinMessages.nsh
-!include Image.nsh
+;!include Image.nsh
 ;!include MUI2.nsh
   !include "MUI.nsh"
 !include nsProcess.nsh
@@ -855,6 +855,7 @@ KananNotFound1:
   nsExec::Exec 'powershell -ExecutionPolicy ByPass -File $INSTDIR\Update_Kanan.ps1'
 KananDone:
 ${EndIf}
+Call KananEnableData
 SetOutPath "$INSTDIR\Kanan"
 CreateShortCut "$SMPROGRAMS\Unofficial Tiara\Loader.exe.lnk" "$INSTDIR\Kanan\Loader.exe" "" "$INSTDIR\Kanan\Kanan.ico" "0" "SW_SHOWNORMAL" "ALT|CONTROL|F11" "Loader.exe"
 SetOutPath "$INSTDIR\Kanan"
@@ -910,6 +911,8 @@ Delete "$INSTDIR\Kanan\Loader.txt.bak"
 Delete "$INSTDIR\Kanan\log.txt"
 no6:
   MessageBox MB_YESNO "Would you like to Remove Kanan's settings?" IDNO SkipKSRemove
+  ${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
+  CopyFiles /SILENT "$INSTDIR\Kanan\config.txt" "$INSTDIR\Archived\Kanan\config($2$1$0$4$5$6).txt"
   Delete "$INSTDIR\config.txt"
   Delete "$INSTDIR\Kanan\config.txt"
   Delete "$INSTDIR\Kanan\profiles.dat"
@@ -3482,7 +3485,7 @@ SectionEnd
   DetailPrint "*** Removing MOD114..."
   Delete "$INSTDIR\data\gfx\char\human\male\mantle\male_dummy_01.pmg"
 !macroend
-Section "L-rod Glow Enhancement 1" MOD115
+Section "3 Glow Enhancement 1" MOD115
 SetOutPath "$INSTDIR\data\gfx\char\human\tool"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\tool\tool_lroad_01.xml"
 SectionIn 1 2
@@ -6665,13 +6668,13 @@ SectionEnd
   Delete "$INSTDIR\data\xml\questcategory.english.txt"
 !macroend
 Section "Quest Interface Abbreviated 2" MOD456
-SetOutPath "$INSTDIR\data\xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\xml\questcategory.english.txt"
+SetOutPath "$INSTDIR\data\db"
+File "${srcdir}\Tiara's Moonshine Mod\data\db\questcategory.xml"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD456}
   DetailPrint "*** Removing MOD456..."
-  Delete "$INSTDIR\data\xml\questcategory.english.txt"
+  Delete "$INSTDIR\data\db\questcategory.xml"
 !macroend
 Section "Show Talent Level by Number" MOD292
 SetOutPath "$INSTDIR\data\xml"
@@ -6740,15 +6743,15 @@ SectionEnd
   Delete "$INSTDIR\data\xml\itemdb.english.txt"
 !macroend
 Section "True Fossil Names 2" MOD301
-SetOutPath "$INSTDIR\data\xml"
+SetOutPath "$INSTDIR\data\db"
   DetailPrint "Installing True Fossil Names 2..."
-  File "${srcdir}\Tiara's Moonshine Mod\data\xml\itemdb.english.txt"
+  File "${srcdir}\Tiara's Moonshine Mod\data\db\itemdb.xml"
   SetDetailsPrint both
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD301}
   DetailPrint "*** Removing MOD301..."
-  Delete "$INSTDIR\data\xml\itemdb.english.txt"
+  Delete "$INSTDIR\data\db\itemdb.xml"
 !macroend
 Section "Huge Ancient Names 1" MOD393
 SetOutPath "$INSTDIR\data\xml"
@@ -9483,7 +9486,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD300" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD300" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD300" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD301" "" "True Fossil Names 2"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD301" "FILE1" "\data\xml\itemdb.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD301" "FILE1" "\data\db\itemdb.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD301" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD301" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD301" "DESCRIPTION" ""
@@ -10210,7 +10213,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433" "" "Blacksmith Tailor Manu
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433" "FILE1" "data\xml\manualform.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433" "CREATOR" "y3tii"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433" "DESCRIPTION" "Adds the materials required per attempt, average completion percentage and finishing materials, to the popup tooltip given when you mouseover a blacksmithing or tailor scroll."
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433" "DESCRIPTION" "Adds the materials required per attempt, average completion percentage and finishing materials."
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "" "mabi-pack2"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "FILE1" "mabi-pack2\mabi-pack2.exe"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "FILES" "1"
@@ -10235,7 +10238,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD437" "" "Reduced Lag Font 2 (wh
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD437" "FILE1" "\data\gfx\font\NanumGothicBold.ttf"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD437" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD437" "CREATOR" "Matthew Welch"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD437" "DESCRIPTION" "A reminiscent of the characters displayed on old text based terminal screens. Smoothed out and cleaned up for a new millenium, this is the font to use for all your computing applications."
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD437" "DESCRIPTION" "A reminiscent of the characters displayed on old text based terminal screens."
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD438" "" "Reduced Lag Font 3 (interstate)"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD438" "FILE1" "\data\gfx\font\NanumGothicBold.ttf"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD438" "FILES" "1"
@@ -10407,7 +10410,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD455" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD455" "CREATOR" "Draconis"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD455" "DESCRIPTION" "Simplifies Quest Interface"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD456" "" "Quest Interface Abbreviated 2"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD456" "FILE1" "\data\xml\questcategory.english.txt"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD456" "FILE1" "\data\db\questcategory.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD456" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD456" "CREATOR" "Draconis"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD456" "DESCRIPTION" "Simplifies Quest Interface"
@@ -11056,7 +11059,7 @@ ${If} $R4 == 1
 		RMDir /r "$INSTDIR\data\gfx\font"
 		${Break}
 		${Case} 10
-        RMDir /r "$INSTDIR\data\gfx\font"
+                RMDir /r "$INSTDIR\data\gfx\font"
 		${Break}
 		${Case} 11
 		RMDir /r "$INSTDIR\data\gfx\font"
@@ -11503,7 +11506,6 @@ goto Lib-LoaderEnd3
 ${EndIf}
 IfFileExists $INSTDIR\Kanan\Kanan.dll KananFound5 KananNotFound5
 KananFound5:
-Call KananEnableData
 MessageBox MB_YESNO "Would you like to Run Loader.exe?" IDNO no7
 StrCpy $R7 ".oninstsuccess Execute Loader.exe"
 Call DumpLog1

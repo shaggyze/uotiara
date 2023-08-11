@@ -953,9 +953,9 @@ pli_characteradditionalframe.22	{0} hr
 pli_characteradditionalframe.24	You can Rebirth two days after your character was created or your most recent Rebirth.
 pli_characteradditionalframe.25	You can Rebirth four days after your character was created or your most recent Rebirth.
 pli_characteradditionalframe.26	You can Rebirth one week after your character was created or your most recent Rebirth.
-pli_characteradditionalframe.27	You must wait 2 days your character was created or your most recent rebirth to Rebirth again.
-pli_characteradditionalframe.28	You must wait 4 days your character was created or your most recent rebirth to Rebirth again.
-pli_characteradditionalframe.29	You must wait 7 days your character was created or your most recent rebirth to Rebirth again.
+pli_characteradditionalframe.27	You must wait 2 days after your character was created or your most recent rebirth to Rebirth again.
+pli_characteradditionalframe.28	You must wait 4 days after your character was created or your most recent rebirth to Rebirth again.
+pli_characteradditionalframe.29	You must wait 7 days after your character was created or your most recent rebirth to Rebirth again.
 pli_characteradditionalframe.30	You can Rebirth one day after your character was created or your most recent Rebirth.
 pli_characteradditionalframe.31	You cannot rebirth while using the Dressing Room.
 pli_characteradditionalframe.32	Rebirth
@@ -1595,7 +1595,7 @@ pli_egoweaponfeedframe.12	(Something strange happened.)
 pli_egoweaponfeedframe.13	Alert
 pli_egoweaponfeedframe.14	You can view your gems by sorting them by type and size.
 pli_egoweaponfeedframe.15	You can view your items by sorting them by type and size.
-pli_egoweaponfeedframe.16	Current Spirit Bond Bonus: {0}\n<color=5>Maximum Spirit Bond Bonus: {1}</color>
+pli_egoweaponfeedframe.16	Current Spirit Bond Bonus: {0}\n<color=2>Maximum Spirit Bond Bonus: {1}</color>
 pli_egoweaponfeedframe.17	<color=5>(No EXP to get.)</color>
 pli_egoweaponfeedframe.18	Fav. Gem
 pli_egoweaponfeedframe.19	Unseal the selected items. \nThe unsealed items will be shown in the Misc tab.
@@ -1737,6 +1737,9 @@ pli_erinnlandwaitingtable.6	You cannot begin {0}.\nYou will be added to the wait
 pli_erinnlandwaitingtableframe.1	 
 pli_erinnlandwaitingtableframe.2	On the Waiting List
 pli_erinnlandwaitingtableframe.3	sec
+pli_erinnmarbleview.1	{0}칸 이동하며 주사위 포인트 {1}점이 차감됩니다.
+pli_erinnmarbleview.2	한 바퀴 일주해서 피곤하네요.\n내일 다시 여행해요.
+pli_erinnmarbleview.3	주사위 포인트가 부족한걸요.
 pli_eventingamepopupview.1	Close
 pli_eventingamepopupview.2	<color=2>지원금 받기</color>
 pli_eventpopupbuttonlistview.1	This event is for Milletians only.
@@ -2159,10 +2162,10 @@ pli_guildrecruiteventframe.1	Complete
 pli_guildrecruiteventview.1	Please try again after {0} seconds.
 pli_guildrenewalmainview.1	There is no Guild Hall available to move to.
 pli_guildrenewalmainview.2	You have no points to contribute.\nPlease try again later.
-pli_guildrenewalmainview.3	You need the guild members' approval to withdraw Gold deposited in the guild. Start the vote in the guild website.
-pli_guildrenewalmainview.4	The period during which you can withdraw Guild Gold has expired. You must withdraw within a week from it was voted approved.
-pli_guildrenewalmainview.5	You can currently withdraw up to {0} Gold.\nIf you issue a check, the amount is lower\nas the processing fee is deducted from it.
-pli_guildrenewalmainview.6	You can currently withdraw up to {0} Gold.\nIf you issue a check, the amount is lower\nas the processing fee is deducted from it.
+pli_guildrenewalmainview.3	You need guild members' approval to withdraw Gold deposited in the guild treasury. You can make a motion to vote on the guild website.
+pli_guildrenewalmainview.4	The period during which Guild Gold can be withdrawn from the treasury has expired.<br/>Gold must be withdrawn within one week after the request has been approved.
+pli_guildrenewalmainview.5	You are approved to withdraw up to {0} Gold.\nIf you issue a check, the issuing fee\nwill be deducted from the final amount.
+pli_guildrenewalmainview.6	You are approved to withdraw up to {0} Gold.\nIf you issue a check, the issuing fee\nwill be deducted from the final amount.
 pli_guildrenewalmissionframe.1	Unlock Lv. {0}
 pli_guildrobedesignframes.1	Select {0}.
 pli_guildrobedesignframes.2	Select {0}.
@@ -2358,8 +2361,8 @@ pli_helperapiskill.27	Divinity
 pli_helperapiskill.28	Level {0}
 pli_helperapiskill.29	Level {0}
 pli_helperapiskill.30	Fynn Bead
-pli_helperapiskill.31	점프하여 내려찍은 위치에 마법진이 설치되며 {0}초간 유지된다. 주인이 마법진 위에 있을 때 특별한 가호의 힘을 받아 최소 대미지와 최대 대미지가 {1} 증가한다.
-pli_helperapiskill.32	점프하여 내려찍은 위치에 마법진이 설치되며 {0}초간 유지된다. 주인이 마법진 위에 있을 때 특별한 가호의 힘을 받아 마법공격력이 {1}, 모든 속성의 연금술 대미지가 {2} 증가 한다.
+pli_helperapiskill.31	Pounces and play-attacks the ground, placing a pentacle at that location for {0} sec. If the Purrling's owner stands within the pentacle it grants them a special blessing that increases Min Damage and Max Damage by {1}.
+pli_helperapiskill.32	Pounces and play-attacks the ground, placing a pentacle at that location for {0} sec. If the Purrling's owner stands within the pentacle it grants them a special blessing that increases Magic Attack by {1} and Fire/Wind/Earth/Water Alchemic Damage by {2}.
 pli_helprequestview.1	You can select a quest to request help with.
 pli_helprequestview.2	Would you like to request help with your current quest?
 pli_helprequestview.3	Select a quest to request help for.
@@ -3041,24 +3044,24 @@ pli_joustnoticeview.8	Application
 pli_joustnoticeview.9	Applications will be accepted starting 10 minutes prior to a match.
 pli_joustnoticeview.10	Points 
 pli_joustnoticeview.11	Preliminaries
-pli_joustnoticeview.12	Win: 3 Points     Lose: 1 Point
+pli_joustnoticeview.12	Win: 50 Points      Loss: 25 Points
 pli_joustnoticeview.13	Finals
-pli_joustnoticeview.14	1st Place: 96 Points    2nd Place: 42 Points    Win: 9 Points    Lose: 3 Points
+pli_joustnoticeview.14	First Place: 3000 Points    Second Place: 1500 Points    Win: 300 Points    Loss: 150 Points
 pli_joustnoticeview.15	Attack Chart
 pli_joustnoticeview.16	Tournament Info
 pli_joustnoticeview.17	View Arenas
 pli_joustnoticeview.18	: Strong Thrust\n: Fast Thrust\n: High Thrust\n: Two-handed Thrust
 pli_joustnoticeview.19	Preliminaries: Matches start every evening at 7pm and 10pm except on Imbolic (Sunday).\nFinals: Matches start at 7pm every Imbolic (Sunday).
-pli_joustnoticeview.20	Applications can be submitted 30 minutes prior to the start of a match. 
-pli_joustnoticeview.21	승률 : {0}%\n{1}
-pli_joustnoticeview.22	응원에 필요한 골드가 부족합니다.
-pli_joustnoticeview.23	{0} 골드를 지불하여 {1}님을 응원하시겠습니까?\n골드는 환불되지 않습니다.
-pli_joustnoticeview.24	선수 응원(예선)
-pli_joustnoticeview.25	선수 응원(본선)
-pli_joustskinview.1	랜스의 외형을 변경하시겠습니까?\n 기존 외형은 복구되지 않습니다.
-pli_joustskinview.2	말의 외형을 변경하시겠습니까?\n 기존 외형은 복구되지 않습니다.
-pli_jouststandbyview.1	Jousting Tournament Application
-pli_jouststandbyview.2	Jousting Tournament Application
+pli_joustnoticeview.20	Registrations can be submitted 15 minutes before the start of a match.
+pli_joustnoticeview.21	Win Rate: {0}%\n{1}
+pli_joustnoticeview.22	You don't have enough Gold to favor a player.
+pli_joustnoticeview.23	Pay {0} Gold and favor {1} to win?\nThe gold will not be refunded.
+pli_joustnoticeview.24	Favor a player (Preliminary Round)
+pli_joustnoticeview.25	Favor a player (Final Round)
+pli_joustskinview.1	Change your lance's appearance?\nYour previous appearance will not be saved.
+pli_joustskinview.2	Change your horse's appearance?\nYour previous appearance will not be saved.
+pli_jouststandbyview.1	Jousting Tournament Status
+pli_jouststandbyview.2	Jousting Tournament Status
 pli_jouststandbyview.3	You are applying for the {0} Round.
 pli_jouststandbyview.4	Cancel
 pli_jouststandbyview.5	Close
@@ -3066,17 +3069,17 @@ pli_jouststandbyview.6	{0} is in progress.
 pli_jouststandbyview.7	Close
 pli_jouststandbyview.8	Time Left: {0} min
 pli_jouststandbyview.9	Time Left: {0} sec
-pli_jouststandbyview.10	Round {0}\nParticipants Remaining: {1}
-pli_jouststandbyview.11	마창대회에 선발되었습니다.\n경기에 참여하지 않을 경우 패널티를 받아 이후 경기 선발이 안될 수 있습니다.\n지금부터 다른 선수를 응원할 수 있습니다.
-pli_jouststandbyview.12	마창대회에 선발되지 않았습니다.\n다른 선수를 응원할수록 다음 경기에 선발될 확률이 높아집니다.\n지금부터 다른 선수를 응원할 수 있습니다.
-pli_jouststandbyview.13	경기 포기
-pli_jouststandbyview.14	마창대회 경기를 포기하면 <color=2><outlinecolor=3>패널티가 적용</outlinecolor></color>됩니다.\n정말 포기하시겠습니까?
+pli_jouststandbyview.10	Round {0}\nParticipants: {1}
+pli_jouststandbyview.11	You have been selected as a player for this Jousting Tournament.\nIf you don't participate, you may face a penalty that decreases your chance of being selected in future tournaments.\nYou can now favor a player to win.
+pli_jouststandbyview.12	You have not been selected as a player for this Jousting Tournament.\nThe more often you favor other players to win, the more likely you will be to be selected in the future.\nYou can now favor a player to win.
+pli_jouststandbyview.13	Forfeit Match
+pli_jouststandbyview.14	You will be <color=2><outlinecolor=3>penalized</outlinecolor></color> if you forfeit the Jousting Tournament match.\nForfeit?
 pli_joustvictoryview.1	OK
 pli_joustvictoryview.2	You've won!
 pli_joustvictoryview.3	Against {0}, of {1} turns, you succeeded {2} times.
 pli_joustvictoryview.4	You've obtained\n{0} Jousting Points.
-pli_joustvictoryview.5	응원 선수가 승리하여\n{0} 점의 마창포인트를 획득했습니다.
-pli_joustvictoryview.6	응원 선수가 본선 경기에서 승리하여\n{0} 점의 마창포인트를 획득했습니다.
+pli_joustvictoryview.5	The player you favored has won.\nObtained {0} Jousting Points.
+pli_joustvictoryview.6	The player you favored has lost.\nObtained {0} Jousting Points.
 pli_jukeboxview.1	This background music hasn't been unlocked yet.\nUnlock it by using the Replay Reward Box.
 pli_kioskinventoryview.1	Kiosk Item Storage
 pli_kioskinventoryview.2	The Kiosk cannot be closed because there are items that are still being sold.\nPlease organize your Kiosk.
@@ -3095,9 +3098,9 @@ pli_lassarmagicsquareview.1	You obtained {0}.
 pli_limitededitioneventview.1	Your coins: {0}
 pli_limitededitioneventviewboxframe.1	Do you wish to purchase this item?
 pli_limitededitioneventviewboxframe.2	 {0} left
-pli_linkapcharacteritem.1	Would you like to support {1} on the {0} server?\nOnce you commit to support, it cannot be changed in this lifetime.
+pli_linkapcharacteritem.1	Would you like to support {1} on the {0} server? Once you\nbestow your support, it cannot be changed until your next rebirth.
 pli_linkapcharacteritem.2	Support
-pli_linkapcharacterselectview.1	Would you like to give up supporting the target?\nIf you give up, you cannot provide Hero Support again in this lifetime.
+pli_linkapcharacterselectview.1	Do you want to withdraw your support of the target character?\nIf you withdraw your Ace Hero Talent Support, you cannot\nbestow this benefit again until your next rebirth.
 pli_linkapcharacterselectview.2	Do not Support
 pli_lobbylistboxitem.1	Unknown
 pli_lobbylistboxitem.2	Last Location: {0}
@@ -3321,7 +3324,7 @@ pli_multiclasschangeframe.8	100 AP Required for Activation
 pli_multiclassitemframe.1	\n<Currently Held: {0}>
 pli_multiclassitemframe.2	Cost: %d Gold
 pli_multiclassitemframe.3	Would you like to make\n{1} {0}?\n\n<Base Material>\n{2} x{3}\n{4}
-pli_multiclassitemframe.4	Crest Forging
+pli_multiclassitemframe.4	Forge Crests
 pli_multiclasslinkframe.1	Arcana Level {0}
 pli_multiclasslinkframe.2	EXP {0}%
 pli_multiclasslinkframe.3	Locked
@@ -3331,7 +3334,7 @@ pli_multiclasslinkframe.6	Ability Points: {0} / {1}
 pli_multiclasslinkframe.7	<color=2><outlinecolor=5>{0}</outlinecolor></color>\nUnlock Arcana Link Stage {1}?\n\n<Link Unlock Material>
 pli_multiclasslinkframe.8	Ability Points: {0}
 pli_multiclasslinkframe.9	Unlock Arcana Link
-pli_multiclassmainview.1	Crest Forging
+pli_multiclassmainview.1	Forge Crests
 pli_multiclassmainview.2	Crest Forging Successful.
 pli_multiclassmanageview.1	* Cannot advance further
 pli_multiclassmanageview.2	How to Acquire
@@ -3836,7 +3839,7 @@ pli_privatefarmentryview.57	You can't get there while you're flying.
 pli_privatefarmentryview.58	You cannot move while playing a Festia mini-game or attraction.
 pli_privatefarmentryview.59	You can't use a Homestead from the Guild Battle channel.
 pli_privatefarmentryview.60	You cannot enter while mounted.
-pli_privatefarmentryview.61	You cannot enter Homesteads during battles.\nTime Remaining to End of Battle: {0}
+pli_privatefarmentryview.61	You cannot enter Homesteads during battles.\nTime Remaining until End of Battle: {0}
 pli_privatefarmfacilitypaintingview.1	That has expired and cannot be used.
 pli_privatefarmfacilitypaintingview.2	Selected {0}.
 pli_privatefarmfacilitypaintingview.3	Starting painting on part {0}.
@@ -4574,7 +4577,17 @@ pli_tradeauctionbiddingstateview.23	{0}\n{2} Gold will be deducted to <color=2><
 pli_tradeauctionbiddingstateview.24	{0} This item's deviation \nfrom the average price is greater than <color=5><outlinecolor=3>90%</outlinecolor></color>.\n\nTotal Bid Price: <color=5><outlinecolor=3>{1}</outlinecolor></color> Gold\n\n
 pli_tradeauctionbiddingstateview.25	Do you want to bid at the listed price?
 pli_tradeauctionbiddingstateview.26	Do you want to bid on this book?
+pli_tradeauctionbookmarkregisterview.1	You cannot create any more tabs.
+pli_tradeauctionbookmarkview.1	Delete {0} from favorites?
+pli_tradeauctionbuybundleview.1	You selected <color=2><outlinecolor=3>Individual Purchase</outlinecolor></color>.\nTotal items purchased: <color=2><outlinecolor=3>{0} items</outlinecolor></color>\nTotal price: {1}\n\nConfirm purchase?
+pli_tradeauctionbuybundleview.2	Price per item: {0} Gold
+pli_tradeauctionbuybundleview.3	Total: {0} Gold
+pli_tradeauctionbuybundleview.4	The listed price for the {0} item is more than <color=5><outlinecolor=3>{1}%</outlinecolor></color> different from the latest average price.\n\nThe item was not purchased due to your purchase restriction settings.\nIf you want to purchase the item anyway, choose <color=5><outlinecolor=3>Confirm Purchase</outlinecolor></color>.\n\nPrice per item: <color=5><outlinecolor=3>{2}</outlinecolor></color> Gold\nTotal price: <color=5><outlinecolor=3>{3}</outlinecolor></color> Gold\n
+pli_tradeauctionbuybundleview.5	The listed price for the {0} item is more than <color=5><outlinecolor=3>90%</outlinecolor></color> different from the latest average price.\n\nPrice per item: <color=5><outlinecolor=3>{1}</outlinecolor></color> Gold\nTotal price: <color=5><outlinecolor=3>{2}</outlinecolor></color> Gold\n\n
 pli_tradeauctionbuyoptionview.1	None
+pli_tradeauctionbuyoptionview.2	Always receive notifications
+pli_tradeauctionbuyoptionview.3	Always mute notifications
+pli_tradeauctionbuyoptionview.4	Receive only first notification
 pli_tradeauctionitemframebase.1	Ended
 pli_tradeauctionitemframebase.2	Ended
 pli_tradeauctionitemframebase.3	{0} hr
@@ -4595,6 +4608,7 @@ pli_tradeauctionitemframebase.17	No Buyout Price
 pli_tradeauctionitemframebase.18	<color=2>(Enchant, Special Upgrade unavailable)</color> 
 pli_tradeauctionitemframebase.19	<color=2>(Unable to enchant)</color> 
 pli_tradeauctionitemframebase.20	<color=2>(Special Upgrade unavailable)</color> 
+pli_tradeauctionitemframebase.21	(Shop Purchase)
 pli_tradeauctionlowpriceframe.1	The selected price will be set as the Sale Price.
 pli_tradeauctionlowpriceframe.2	The selected price will be set as the Buyout Price.
 pli_tradeauctionlowpriceframe.3	 pcs
@@ -4611,9 +4625,12 @@ pli_tradeauctionmarkettab.5	Please check the item name before you search.
 pli_tradeauctionmarkettab.6	There are no items that meet that criteria.
 pli_tradeauctionmarkettab.7	Total
 pli_tradeauctionmarkettab.8	Would you like to view the item details?
+pli_tradeauctionmarkettab.9	Please search after selecting a detailed category.
 pli_tradeauctionmarkettabbase.1	Regular items will have priority when sorting. \nYou can select and view the Sale Type through the search filter.
 pli_tradeauctionmyitemframe.1	Get Paid
 pli_tradeauctionmyitemframe.2	<color=2><outlinecolor=3>On Waiting List\n{0}:{1}</color></outlinecolor>
+pli_tradeauctionmyitemframe.3	\n(Partially Sold)
+pli_tradeauctionmyitemframe.4	If you collect the balance now, the remaining items on sale will be unlisted\nand you will receive those items along with the current balance.\nCollect balance?\n\nItems Sold: {0} items\nBalance: {1} Gold
 pli_tradeauctionmymarkettab.1	View All
 pli_tradeauctionmymarkettab.2	Transaction Status
 pli_tradeauctionmymarkettab.3	Your auction slots are full.\nPlease clear a slot in My Auctions and try again.
@@ -4635,6 +4652,19 @@ pli_tradeauctionoptionsearchsubframe.8	Grade {0}
 pli_tradeauctionoptionsearchsubframe.9	Available
 pli_tradeauctionoptionsearchsubframe.10	Unavailable
 pli_tradeauctionoptionsearchsubframe.11	Rank {0}
+pli_tradeauctionoptionsearchsubframe.12	None
+pli_tradeauctionoptionsearchsubframe.13	Present
+pli_tradeauctionoptionsearchsubframe.14	Difficulty
+pli_tradeauctionoptionsearchsubframe.15	Party Member
+pli_tradeauctionoptionsearchsubframe.16	Monster
+pli_tradeauctionoptionsearchsubframe.17	Trainees
+pli_tradeauctionoptionsearchsubframe.18	Hidden Floor
+pli_tradeauctionoptionsearchsubframe.19	{0}-Star
+pli_tradeauctionoptionsearchsubframe.20	Homestead
+pli_tradeauctionoptionsearchsubframe.21	Homestead House
+pli_tradeauctionoptionsearchsubframe.22	{0} Enhancement
+pli_tradeauctionoptionsearchsubframe.23	{0}
+pli_tradeauctionoptionsearchsubframe.24	All
 pli_tradeauctionoptionsearchview.1	That Blacksmith Manual cannot be found.\nPlease make sure the name is correct.
 pli_tradeauctionoptionsearchview.2	That Sewing Pattern cannot be found.\nPlease make sure the name is correct.
 pli_tradeauctionoptionsearchview.3	That item cannot be found.\nPlease make sure the name is correct.
@@ -4650,7 +4680,7 @@ pli_tradeauctionregisterview.8	This item can be listed.
 pli_tradeauctionregisterview.9	Auction Bid
 pli_tradeauctionregisterview.10	Regular Sale
 pli_tradeauctionregisterview.11	This item cannot be listed.
-pli_tradeauctionregisterview.12	Place the item you want to list here.
+pli_tradeauctionregisterview.12	Place the item you want to list here.\nYou can also Alt + Left-Click an item to place it.
 pli_tradeauctionregisterview.13	You must set the price first.
 pli_tradeauctionregisterview.14	You must set the minimum bid first.
 pli_tradeauctionregisterview.15	The buyout price must be higher than the minimum bid price.
@@ -4672,6 +4702,7 @@ pli_tradeauctionregisterview.30	Would you really like to sell this book?
 pli_tradeauctionregisterview.31	{0} This item's deviation \nfrom the average price is greater than <color=5><outlinecolor=3>90%</outlinecolor></color>.\n\nStarting Bid: <color=5><outlinecolor=3>{1}</outlinecolor></color> Gold\nBuyout: <color=5><outlinecolor=3>{2}</outlinecolor></color> Gold\n\n
 pli_tradeauctionregisterview.32	You cannot list items\nthat expire before the waiting time for listing.
 pli_tradeauctionregisterview.33	\n\nYou cannot list an item for longer than its time limit.\nThe listing time will be automatically adjusted to match its duration.
+pli_tradeauctionregisterview.34	The listed price for the {0} item is more than <color=5><outlinecolor=3>90%</outlinecolor></color> different the latest average price.\n\nPrice per item: <color=5><outlinecolor=3>{1}</outlinecolor></color> Gold\nTotal price: <color=5><outlinecolor=3>{2}</outlinecolor></color> Gold\n\n
 pli_tradeauctionsalestateview.1	Retrieve
 pli_tradeauctionsalestateview.2	Receive
 pli_tradeauctionsalestateview.3	Collect
@@ -4699,6 +4730,10 @@ pli_tradeauctionstateviewbase.19	The item you are trying to purchase expires in 
 pli_tradeauctionstateviewbase.20	{0} The item listed is\n<color=5><outlinecolor=3>{1}%</outlinecolor></color> more expensive than its most recent average sale price.\n\nYour purchase was restricted due to your purchase restriction settings.\nYou can purchase after you <color=5><outlinecolor=3>Confirm Purchase</outlinecolor></color>.\n\nSale Price: <color=5><outlinecolor=3>{2}</outlinecolor></color> Gold\n
 pli_tradeauctionstateviewbase.21	Confirm Purchase
 pli_tradeauctionstateviewbase.22	You cannot purchase that item. The item you are trying to purchase has expired.
+pli_tradeauctionstateviewbase.23	If you collect the balance now, the remaining items on sale will be unlisted\nand you will receive those items along with the current balance.\nCollect balance?\n\nItems Sold: {0} items\nBalance: {1} Gold
+pli_tradeauctionstateviewbase.24	The listed price for the {0} item is more than <color=5><outlinecolor=3>{1}%</outlinecolor></color> different from the latest average price.\n\nThe item was not purchased due to your purchase restriction settings.\nIf you want to purchase the item anyway, choose <color=5><outlinecolor=3>Confirm Purchase</outlinecolor></color>.\n\nPrice per item: <color=5><outlinecolor=3>{2}</outlinecolor></color> Gold\nTotal price: <color=5><outlinecolor=3>{3}</outlinecolor></color> Gold\n
+pli_tradeauctionstateviewbase.25	The listed price for the {0} item is more than <color=5><outlinecolor=3>90%</outlinecolor></color> different from the latest average price.\n\nPrice per item: <color=5><outlinecolor=3>{1}</outlinecolor></color> Gold\nTotal price: <color=5><outlinecolor=3>{2}</outlinecolor></color> Gold\n\n
+pli_tradeauctionstateviewbase.26	You selected <color=2><outlinecolor=3>Purchase All</outlinecolor></color>.\nPurchasing a total of <color=2><outlinecolor=3>{0} items</outlinecolor></color>.\nConfirm purchase?\n\nTotal price: {1}
 pli_transmute2022view.1	Required Tools\n
 pli_transmute2022view.2	Barehanded
 pli_transmute2022view.3	Dry Oven
@@ -4848,6 +4883,10 @@ pli_transmuteview.134	{0}
 pli_transmuteview.135	이 아이템은 합성의 재료로 1개면 충분합니다
 pli_transmuteview.136	View Probability
 pli_transmuteview.137	\n<color=2>You can only synthesize 3 of the same item\nor only items matching the recipe.</color>
+pli_trashcanview.1	파기가 불가능한 아이템입니다.
+pli_trashcanview.2	파기가 불가능한 아이템이 있습니다.
+pli_trashcanview.3	모든 아이템이 <color=5><outlinecolor=3>삭제</outlinecolor></color>되어 복구할 수 없습니다.\n<color=5><outlinecolor=3>삭제</outlinecolor></color>하시겠습니까?
+pli_trashcanview.4	더 이상 넣을 수 없습니다.
 pli_treasureboxevent.1	You do not have a Treasure Chest Key.
 pli_treasureboxevent.2	Open
 pli_treasureboxevent.3	Close
@@ -5445,7 +5484,7 @@ pli_windowgrouplistview.3	Cancel
 pli_windowgroupnameinput.1	Add Group
 pli_windowgroupnameinput.2	Change Group Name
 pli_windowgroupnameinput.3	Please insert the group name.
-pli_windowguildjoin.1	You've already requested to join this guild.
+pli_windowguildjoin.1	You have already applied to join this guild.
 pli_windowguildjoin.2	펫은 길드에 가입할 수 없습니다.
 pli_windowguildlistboard.1	Guild List
 pli_windowguildlistboard.2	Search Name:
@@ -5573,6 +5612,9 @@ pli_windowhinventory.61	You don't have the Gold to hand to your pet.
 pli_windowhinventory.62	Your pet cannot hold more Gold.
 pli_windowhinventory.63	You cannot hold more Gold.
 pli_windowhinventory.64	Your pet doesn't have any Gold.
+pli_windowhinventory.69	소지품의 아이템을 다중 선택하여 한번에 파기할 수 있습니다.
+pli_windowhinventory.70	숨김 버튼을 축소합니다.
+pli_windowhinventory.71	숨김 버튼을 확장합니다.
 pli_windowhousebiddinglistboard.1	Address
 pli_windowhousebiddinglistboard.2	Shop Type
 pli_windowhousebiddinglistboard.3	Mark the location of the selected shop on the Mini-map.
@@ -5600,6 +5642,7 @@ pli_windowhousebiddinglistboard.24	Locate
 pli_windowhouseshoppocket.0	Sale Price: {0} Gold
 pli_windowhouseshoppocket.1	Not-for-Sale Items
 pli_windowhouseshoppocket.2	Price Info
+pli_windowitempreview.1	Refresh
 pli_windowitemrepair.1	프리미엄PC방에서는 무료로 수리할 수 있습니다.
 pli_windowitemrepair2.1	\n(Fee: 
 pli_windowitemrepair2.2	Direct Bank Transaction is avaliable from {0} Gold.
@@ -5824,7 +5867,7 @@ pli_windowmailsendview.9	Send mail
 pli_windowmailsendview.10	Cancel
 pli_windowmailsendview.11	Pending Outgoing Message ({0}/{1}) :
 pli_windowmailsendview.12	This item cannot be sent by mail.
-pli_windowmailsendview.13	You cannot mail equipped items.
+pli_windowmailsendview.13	You cannot select equipped items.
 pli_windowmailsendview.14	You cannot send mail without any content.
 pli_windowmailsendview.15	You have exceeded the maximum price of 10 million Gold per item.
 pli_windowmailsendview.16	Send mail
@@ -6540,7 +6583,7 @@ pli_windowpocketitemaction.46	Can only be used on amulets with {0} available enh
 pli_windowpocketitemaction.47	Cannot be used at regular enhancement level.
 pli_windowpocketitemaction.48	Are you sure you want to spend Additional Stat Stones to grant the amulet mysterious powers?\nIf the enhancement succeeds with these powers, the stat effects will be further increased by {0}.\nIf regular enhancement fails, the Additional Stat Stone effect on the amulet will be lost.
 pli_windowpocketitemaction.49	Only runes of the same type as the emblem can be used.
-pli_windowpocketitemaction.51	It is only available for the guild master of this guild.
+pli_windowpocketitemaction.51	This function can only be used by the Guild Master.
 pli_windowpopupcharacter.0	Failed to view equipment.
 pli_windowpopupcharacter.1	View Equipment
 pli_windowpopupcharacter.2	Mount on My Pet
@@ -6675,7 +6718,9 @@ pli_windowpopupitem.60	Disable Gold Collection
 pli_windowpopupitem.61	Enable Gold Collection
 pli_windowpopupitem.62	Preview
 pli_windowpopupitem.63	Stardust Info
+pli_windowpopupitem.64	초기화
 pli_windowpopupitem.65	Additional Function Settings
+pli_windowpopupitem.66	휴지통에 모든 아이템 넣기
 pli_windowpopupprop.0	Set Rental Fee
 pli_windowpopupprop.1	Change Direction
 pli_windowpopupprop.2	가방 열기
@@ -7211,7 +7256,7 @@ pli_windowtaskbar.23	Time Left {0}
 pli_windowtaskbar.24	Press this button to return to the real world.
 pli_windowtaskbar.25	Waiting to lease a field.
 pli_windowtaskbar.26	The video record function has been turned off.
-pli_windowtaskbar.27	You are waiting to participate in a Jousting match.
+pli_windowtaskbar.27	Jousting Tournament Status
 pli_windowtaskbar.28	The Jousting Tournament is in progress.
 pli_windowtaskbar.29	Record video
 pli_windowtaskbar.30	Record video
@@ -7497,6 +7542,19 @@ pli_wintermainevent2ndview.3	Obtain All Completion Rewards
 pli_wintermainevent2ndview.4	Not All Completion Rewards Obtained
 startbidview.bidbutton	Start bid
 startbidview.closebutton	Close
+tradeauctionviewutility.1	Search Term
+tradeauctionviewutility.2	All
+tradeauctionviewutility.3	Category
+tradeauctionviewutility.4	Exact Match
+tradeauctionviewutility.5	Not Selected
+tradeauctionviewutility.6	Search Filters
+tradeauctionviewutility.7	Advanced
+tradeauctionviewutility.8	or higher
+tradeauctionviewutility.9	or lower
+tradeauctionviewutility.10	R Range:
+tradeauctionviewutility.11	G Range:
+tradeauctionviewutility.12	B Range:
+tradeauctionviewutility.13	You cannot use this while using Nascent Divinity.
 treasurerestoration.contents.1	Restore
 treasurerestoration.contents.2	Please place the treasure you wish to restore.
 treasurerestoration.contents.3	Treasure

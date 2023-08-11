@@ -1,5 +1,5 @@
 @ECHO OFF
-ECHO Are you sure you meant to download the source?
+ECHO Are you sure you meant to download the source? click releases on the right of github to download the compiled installer.
 ECHO Creating Unofficial Tiara's Moonshine Mod Installer, you should type 'y' for all questions.
 FOR /F "skip=2 tokens=2,*" %%A IN ('reg.exe query "HKCU\SOFTWARE\Nexon\Mabinogi" /v ""') DO set "MabiPath=%%B"
 if exist %MabiPath%\package\uotiara_00001.it attrib -r %MabiPath%\package\uotiara_00001.it

@@ -1722,7 +1722,7 @@
 2699	Counterattack allows you to turn your opponent's strength against them. This skill will greatly increase your abilities in close-range combat, as you'll be able to reflect almost any attack. The stronger your enemy's attack, the stronger your counterattack becomes. Counterattacking with knuckles will increase the stamina cost, but greatly reduce the prep time.
 2700	Even the strongest hand-to-hand fighter has to step back and observe the enemy from time to time. In such situations, roll away from the enemy and judge whether they will attack or counterattack. Doing this too often may cause dizziness.
 2702	Counterattack allows you to turn your opponent's strength against them. This skill will greatly increase your abilities in close-range combat, as you'll be able to reflect almost any attack. The stronger your enemy's attack, the stronger your counterattack becomes. Counterattacking with knuckles will increase the stamina cost, but greatly reduce the prep time.
-2703	Merrow Smash
+2703	Merrow's Smash
 2739	After learning Knuckle Mastery, complete the Learn Charging Strike quest.
 2740	After learning Combo Mastery, complete the Learn Focused Fist quest.
 2741	After learning Charging Strike, complete the Learn Spinning Uppercut quest.
@@ -1736,8 +1736,8 @@
 2749	Stage 3 Combo skill. Pins the enemy and delivers a flurry of blows. Usable after a stage 2 Combo skill. Cannot be used while wearing heavy armor. Rapidly tap the hotkey before pinning the enemy to deal additional blows. It may not seem like a fair tactic, but the enemy will be helpless once pinned.
 2751	Stage 3 Combo skill. Puts all of your weight into a powerful kick, blowing the enemy away. Usable after a stage 2 Combo skill. Cannot be used while wearing heavy armor. Enemies hit by your target also take damage. Aim your kick to take out as many foes as possible!
 2752	Stage 3 Combo skill. Pins the enemy and delivers a flurry of blows. Usable after a stage 2 Combo skill. Cannot be used while wearing heavy armor. Rapidly tap the hotkey before pinning the enemy to deal additional blows. It may not seem like a fair tactic, but the enemy will be helpless once pinned.
-2754	Merrow Tidal Wave
-2757	Merrow Rising Dragon
+2754	Merrow's Tidal Wave
+2757	Merrow's Waterspout
 2758	Uses your inner willpower to restore health and stamina. However, this disrupts the balance of mana in your body. Using magic or alchemy too soon after using this skill will result in a penalty. Higher ranks of this skill dispel poisons.
 2759	Uses your inner willpower to restore health and stamina. However, this disrupts the balance of mana in your body. Using magic or alchemy too soon after using this skill will result in a penalty. Higher ranks of this skill dispel poisons.
 2760	Minimum Damage
@@ -4417,31 +4417,31 @@
 6499	Next Aiming Speed
 6500	Effect Duration
 6501	Enhanced Taunt
-6507	Guild Flag Action 1
-6508	Guild Flag Action 2
-6509	Install Guild Flag
-6510	An action that lets you spin the Guild Flag.
-6511	An action that lets you hold the Guild Flag up high.
-6512	An action that lets you install the Guild Flag.
-6513	Use it when you would like to show off your cool move with the Guild Flag.
-6514	Use it when you would like to show off your cool move with the Guild Flag.
-6515	Use it when you would like to recruit members or cheer for your guild.
-6516	폭풍 질주
-6517	폭풍 질주
-6518	가호의 진
-6519	가호의 진
-6520	럭키 타임
-6521	폼 체인지
-6522	주인의 부름을 듣고 나타나며 폭풍 같은 질주로 주변의 적을 공격한다. 질주에 휘말린 적은 일정 시간 경직상태에 빠지고 방어와 보호가 감소한다.
-6523	주인의 부름을 듣고 나타나며 폭풍 같은 질주로 주변의 적을 공격한다. 질주에 휘말린 적은 일정 시간 경직상태에 빠지고 마법 방어와 마법 보호가 감소한다.
-6524	펫이 능숙한 마력 컨트롤을 통해 특별한 마법진을 소환한다. 마법진은 주인의 능력치를 올려주며 펫의 누적된 성장에 따라 증가하는 수치가 높아진다.
-6525	펫이 능숙한 마력 컨트롤을 통해 특별한 마법진을 소환한다. 마법진은 주인의 능력치를 올려주며 펫의 누적된 성장에 따라 증가하는 수치가 높아진다.
-6526	주인에게 행운을 불어넣어 준다. 행운의 기운을 받으면 특별한 금전운이 붙는다.
-6527	마법을 통해 스스로의 크기를 바꿀 수 있는 스킬이다. 펫이 대형일 때만 탑승과 탑승 비행이 가능하다.
-6528	주인의 부름을 듣고 나타나며 폭풍 같은 질주로 주변의 적을 공격한다. 질주에 휘말린 적은 일정 시간 경직상태에 빠지고 방어와 보호가 감소한다.
-6529	주인의 부름을 듣고 나타나며 폭풍 같은 질주로 주변의 적을 공격한다. 질주에 휘말린 적은 일정 시간 경직상태에 빠지고 마법 방어와 마법 보호가 감소한다.
-6530	펫이 능숙한 마력 컨트롤을 통해 특별한 마법진을 소환한다. 마법진은 주인의 능력치를 올려주며 펫의 누적된 성장에 따라 증가하는 수치가 높아진다.
-6531	펫이 능숙한 마력 컨트롤을 통해 특별한 마법진을 소환한다. 마법진은 주인의 능력치를 올려주며 펫의 누적된 성장에 따라 증가하는 수치가 높아진다.
-6532	주인에게 행운을 불어넣어 준다. 행운의 기운을 받으면 특별한 금전운이 붙는다.
-6533	마법을 통해 스스로의 크기를 바꿀 수 있는 스킬이다. 펫이 대형일 때만 탑승과 탑승 비행이 가능하다.
-6534	산책 무시
+6507	Guild Banner Action 1
+6508	Guild Banner Action 2
+6509	Place Guild Banner
+6510	Spin your guild's banner.
+6511	Raise your guild's banner high.
+6512	Set up your guild's banner.
+6513	Use this action to flourish a banner with your guild's emblem. Show your guild pride!
+6514	Use this action to flourish a banner with your guild's emblem. Show your guild pride!
+6515	Use this action to place your guild's banner to recruit new members or cheer your guildmates on.
+6516	Furious Charge
+6517	Furious Charge
+6518	Pentacle of Blessing
+6519	Pentacle of Blessing
+6520	Lucky Time
+6521	Form Change
+6522	Attacks all enemies in the area by rushing in, fur flying.The unfortunate enemies caught in the furious charge are stunned for a set duration, and their Defense and Protection are reduced.
+6523	Attacks all enemies in the area by rushing in, fur flying.The unfortunate enemies caught in the furious charge are stunned for a set duration, and their Magic Defense and Magic Protection are reduced.
+6524	Summons a special pentacle using their instinctive control of mana. The pentacle boosts their owner's stats by an amount that increases as the pet grows.
+6525	Summons a special pentacle using their instinctive control of mana. The pentacle boosts their owner's stats by an amount that increases as the pet grows.
+6526	Imbues their owner with good luck. This lucky energy improves the owner's financial fortunes and allows them to buy their loyal pet more treats. 
+6527	Changes size using magic. The pet can only fly or be used as a mount in their larger form.
+6528	Attacks all enemies in the area by rushing in, fur flying.The unfortunate enemies caught in the furious charge are stunned for a set duration, and their Defense and Protection are reduced.
+6529	Attacks all enemies in the area by rushing in, fur flying.The unfortunate enemies caught in the furious charge are stunned for a set duration, and their Magic Defense and Magic Protection are reduced.
+6530	Summons a special pentacle using their instinctive control of mana. The pentacle boosts their owner's stats by an amount that increases as the pet grows.
+6531	Summons a special pentacle using their instinctive control of mana. The pentacle boosts their owner's stats by an amount that increases as the pet grows.
+6532	Imbues their owner with good luck. This lucky energy improves the owner's financial fortunes and allows them to buy their loyal pet more treats.
+6533	Changes size using magic. The pet can only fly or be used as a mount in their larger form.
+6534	Ignore Walk
