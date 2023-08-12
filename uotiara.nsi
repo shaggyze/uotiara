@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
 !define UOSHORTVERSION        "417"
-!define UOLONGVERSION         "0.39.62"
+!define UOLONGVERSION         "0.39.63"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -8,7 +8,7 @@ RequestExecutionLevel admin
 !define InstFile "${UOLONGNAME}.exe"
 !define AbyssEnable "True"
 !define KananEnable "True"
-!define KananUpdateEnable "False"
+!define KananUpdateEnable "True"
 !define HyddwnEnable "True"
 !define HyddwnUpdateEnable "True"
 !define Lib-LoaderEnable "True"
