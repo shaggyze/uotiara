@@ -3407,7 +3407,7 @@
 4638	[Wise Mage] White Succubus
 4639	[Master of Sewing] Arachne
 4640	[Master Druid] Tarlach
-4641	[Master Dog Figher] Fleta
+4641	[Master Dogfighter] Fleta
 4642	[Master of Water] Merrow
 4643	[Amateur Princess] Banshee
 4644	[Master Mage] Master Lich
@@ -9543,9 +9543,9 @@
 11830	Yggdrasil Wisp
 11831	길드석
 11847	Hasidim
-11848	크리스탈
-11849	크리스탈
-11850	크리스탈
+11848	Crystal
+11849	Crystal
+11850	Crystal
 11858	Sheep
 11860	Tabby Purrling
 11861	Tabby Purrling
@@ -9572,24 +9572,6 @@
 11885	Mini Siamese Cat Mini-Gem
 11886	Mini Spotted Deer Mini-Gem
 11887	Mini Brown Fox Mini-Gem
-11906	베개를 든 블랙 위자드
-11907	베개를 든 블랙 워리어
-11908	베개를 든 블랙 서큐버스
-11909	베개를 든 레드 서큐버스
-11910	베개를 든 세이렌
-11911	베개를 든 와이트
-11912	베개를 든 구울
-11913	베개를 든 인큐버스
-11914	베개를 든 인큐버스
-11915	베개를 든 캣시 기사단
-11916	베개를 든 캣시 기사단
-11917	베개를 든 새도우 위자드
-11918	베개를 든 새도우 위자드
-11919	베개를 든 새도우 연금술사
-11920	베개를 든 거울마녀
-11921	베개를 든 베어울프
-11922	베개를 든 좀비
-11923	베개를 든 좀비
 11929	Horse for Jousting
 11930	Horse for Jousting
 11931	Horse for Jousting

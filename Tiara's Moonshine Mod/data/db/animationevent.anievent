@@ -2674,13 +2674,28 @@ set("C4_human")
 	folder("char\chapter4\human\anim")
 	
 	"human_bandclub_playingdrum"
-		0:linkframework(2, "prop:46768", "stance", "play")
+		0:lookat(off)
+		0:hand(both,fist)
+		0:generic("custom_mesh(1:tool_drum_stick)")				
+		1:linkframework(2, "prop:48694", "I0111", "play")
 	
 	"human_bandclub_playingguitar"
+		0:lookat(off)
+		0:hand(both,palm)
 		0:generic("custom_mesh(1:tool_elecguitar_ani)")
 	
 	"male_bandclub_playingstandmic"
-		0:generic("custom_equip(weapon:female_c4_contest2012_usa01_s10)")
+		0:lookat(off)
+		0:hand(right, fist)
+		173:hand(right, palm)
+		0:hand(left, palm)	
+		0:generic("custom_mesh(1:tool_diva_standmic_02_ani)")
+		
+	"female_bandclub_playingstandmic"
+		0:lookat(off)
+		0:hand(both,palm)
+
+		0:generic("custom_mesh(1:tool_diva_standmic_02_ani)")	
 		
 	"female_facetoface_sit01"
 		0:hideequip(false)
@@ -6292,7 +6307,13 @@ set("C4_human")
 			0:lookat(off)
 			0:hideequip(false)
 			0:hand(both,fist)	
-			1:generic("custom_mesh(1:tool_drum_stick)")			
+			1:generic("custom_mesh(1:tool_drum_stick)")	
+
+/////////피아노 모션
+		"human_tool_Bhand_M16_stand_piano"
+			0:lookat(off)
+			0:hideequip(false)
+			0:hand(both,palm)			
 
 /////////컷씬용 킥킥 웃는 모션
 		"laugh_kikiki"
@@ -7584,6 +7605,10 @@ set("tool_Bhand_G")
 
 	folder("char\chapter4\human\anim\tool\Bhand_G")
 	
+		"human_sniper_friendly02"
+			0:hand(both,palm)
+			0:lookat(off)		
+	
 		// 아르카나_궁수스킬_G01
 		
 		"human_tool_bhand_g01_flameburst"
@@ -7615,11 +7640,10 @@ set("tool_Bhand_G")
 			0:hand(right, fist)
 			0:hand(left, fist)
 			0:lookat(off)
-			43:hand(right, palm)
-			79:hand(right, fist)						
-            25:effect("LineForce_Cast_01")	
-            45:effect("LineForce_Attack_02")			
-            5:effect("LineForce_Cast_02")	
+			21:hand(right, palm)
+			56:hand(right, fist)						
+            15:effect("LineForce_Attack_03")	
+            15:effect("LineForce_Attack_02")				
 			
 		"human_tool_bhand_g01_dustshot"
 			0:hand(right, fist)
@@ -7635,20 +7659,18 @@ set("tool_Bhand_G")
 			0:hand(right, fist)
 			0:hand(left, fist)
 			0:lookat(off)
-			15:hand(right, palm)
-			35:hand(right, fist)		
-            5:effect("TriAssaultline_01")	
-            15:effect("TriAssaultline_04")	
+			2:hand(right, palm)
+			20:hand(right, fist)			
 			
 		"human_tool_bhand_g01_triassault02"
 			0:hand(right, fist)
 			0:hand(left, fist)
 			0:lookat(off)
-			30:hand(right, palm)
-			84:hand(right, fist)
-            10:effect("TriAssaultline_02")		
-            30:effect("TriAssaultline_03")		
-            30:effect("TriAssaultline_04")				
+			15:hand(right, palm)
+			58:hand(right, fist)
+            5:effect("TriAssaultline_02")		
+            15:effect("TriAssaultline_03")		
+            15:effect("TriAssaultline_04")				
 			
 		// 아르카나_궁수스킬_G02	
 	
@@ -7681,11 +7703,10 @@ set("tool_Bhand_G")
 			0:hand(right, palm)
 			0:hand(left, fist)
 			0:lookat(off)
-			77:hand(right, fist)
-			105:hand(right, palm)						
-            25:effect("LineForce_Cast_01")	
-            45:effect("LineForce_Attack_02")			
-            5:effect("LineForce_Cast_02")	
+			55:hand(right, fist)
+			84:hand(right, palm)						
+            15:effect("LineForce_Attack_03")	
+            15:effect("LineForce_Attack_02")				
 			
 		"human_tool_bhand_g02_dustshot"
 			0:hand(right, palm)
@@ -7701,20 +7722,18 @@ set("tool_Bhand_G")
 			0:hand(right, palm)
 			0:hand(left, fist)
 			0:lookat(off)
-			37:hand(right, fist)
-			67:hand(right, palm)		
-            5:effect("TriAssaultline_01")	
-            15:effect("TriAssaultline_04")	
+			24:hand(right, fist)
+			54:hand(right, palm)		
 			
 		"human_tool_bhand_g02_triassault02"
 			0:hand(right, palm)
 			0:hand(left, fist)
 			0:lookat(off)
-			70:hand(right, fist)
-			100:hand(right, palm)	
-            10:effect("TriAssaultline_02")		
-            30:effect("TriAssaultline_03")		
-            30:effect("TriAssaultline_04")				
+			54:hand(right, fist)
+			84:hand(right, palm)	
+            5:effect("TriAssaultline_02")		
+            15:effect("TriAssaultline_03")		
+            15:effect("TriAssaultline_04")			
 	
 	
 
@@ -7804,6 +7823,12 @@ set("tool_Bhand_G")
              48:effect("fta_a_wind002",0,1) 
              48:effect("fta_a_point01",0,1) 
              48:effect("fta_a_thunder01",0,1) 
+			 
+		"uni_tool_bhand_g01_fta_aiming02"			
+			0:lookat(off)
+			0:hand(both, fist)		
+			145:jump(95,true)
+		 
 
 			
 		"uni_tool_bhand_g01_fta_shoot"
@@ -12965,6 +12990,7 @@ set("movingweapon")
 		
 	"human_sfknuckle_offensive"
 		0:lookat (off)
+		0:hand(both, fist)
 		157:jump(117)
 
 
@@ -13012,6 +13038,8 @@ set("movingweapon_giant")
 		
 	"giant_female_sfsword_friendly"
 		0:hand(both,fist)
+		
+
 			
 	
 	endfolder
@@ -14082,17 +14110,114 @@ set("C4_elf")
 			34:effect("footstep_right")
 			47:effect("footstep_left")
 			
+	"elf_natural_gesture_s20_02"
+        0:lookat(off)
+		0:hand(both, fist)
+		0:hideequip(false)
+		11:effect("footstep_left")	
+		25:effect("footstep_right")	
+		40:effect("footstep_left")	
+		55:effect("footstep_right")
+		70:effect("footstep_left")	
+		85:effect("footstep_right")	
+		100:effect("footstep_left")	
+		115:effect("footstep_right")
+		130:effect("footstep_left")	
+		145:effect("footstep_right")
+		160:effect("footstep_left")	
+		175:effect("footstep_right")	
+		190:effect("footstep_left")	
+		205:effect("footstep_right")			
+		217:hand(both, palm)
+		220:effect("footstep_left")	
+		235:effect("footstep_right")
+		250:effect("footstep_left")	
+		265:effect("footstep_right")	
+		280:effect("footstep_left")	
+		295:effect("footstep_right")				
+		310:hand(both, fist)
+		310:effect("footstep_left")	
+		325:effect("footstep_right")
+		340:effect("footstep_left")	
+		355:effect("footstep_right")
+		370:effect("footstep_left")	
+		385:effect("footstep_right")	
+		400:effect("footstep_left")	
+		415:effect("footstep_right")			
+		
+	"elf_natural_gesture_s20_03"
+        0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		19:effect("footstep_left")	
+		22:effect("footstep_right")			
+		41:effect("footstep_right")
+		45:effect("footstep_left")			
+			
 	"elf_natural_gesture_s20_05"
         0:lookat(off)
 		0:hand(right,fist)
 		0:hand(left,palm) 
+		0:hideequip(false)
+		0:generic("custom_mesh(0:tool_c4_sailor_guitarcase)")	
+		8:effect("footstep_left")	
+		21:effect("footstep_right")	
+		34:effect("footstep_left")			
+		47:effect("footstep_right")	
+		60:effect("footstep_left")			
+		73:effect("footstep_right")	
+		86:effect("footstep_left")			
+		99:effect("footstep_right")	
+		112:effect("footstep_left")			
+		125:effect("footstep_right")	
+		138:effect("footstep_left")			
+		151:effect("footstep_right")	
+		164:effect("footstep_left")			
+		177:effect("footstep_right")	
+		190:effect("footstep_left")			
+		203:effect("footstep_right")	
+		216:effect("footstep_left")			
+		229:effect("footstep_right")
+		242:effect("footstep_left")	
+		255:effect("footstep_right")	
+
 
 	"elf_natural_gesture_s20_06"
         0:lookat(off)
 		0:hand(right,fist)
-		0:hand(left,palm) 				
+		0:hand(left,palm) 	
+		0:hideequip(false)
+		0:generic("custom_mesh(0:tool_c4_sailor_guitarcase)")	
+		5:effect("footstep_left")	
+		14:effect("footstep_right")
+		23:effect("footstep_left")	
+		32:effect("footstep_right")			
+		41:effect("footstep_left")
+		50:effect("footstep_right")	
+		59:effect("footstep_left")	
+		68:effect("footstep_right")	
+		77:effect("footstep_left")		
+		86:effect("footstep_right")	
+		95:effect("footstep_left")		
+		104:effect("footstep_right")	
+		113:effect("footstep_left")
+		122:effect("footstep_right")	
+		131:effect("footstep_left")
+		140:effect("footstep_right")	
+		149:effect("footstep_left")		
+		156:effect("footstep_right")	
+		167:effect("footstep_left")		
+		176:effect("footstep_right")	
+		185:effect("footstep_left")			
+		194:effect("footstep_right")	
+		203:effect("footstep_left")		
+		212:effect("footstep_right")	
+		221:effect("footstep_left")		
+		230:effect("footstep_right")	
+		239:effect("footstep_left")	
+		248:effect("footstep_right")	
 		
-		
+				
 			endfolder
 
     
@@ -14109,19 +14234,34 @@ set("C4_giant")
 	folder("char\chapter4\giant\anim")
 	
 	"giant_bandclub_playingdrum"
-		0:linkframework(2, "prop:46768", "stance", "play")
+		0:lookat(off)
+		0:hand(both,fist)
+		0:generic("custom_mesh(1:giant_tool_drum_stick)")				
+		0:linkframework(2, "prop:48695", "i0111", "play")
 		
 	"giant_female_bandclub_playingdrum"
-		0:linkframework(2, "prop:46768", "stance", "play")		
+		0:lookat(off)
+		0:hand(both,fist)
+		0:generic("custom_mesh(1:giant_tool_drum_stick)")	
+		0:linkframework(2, "prop:48695", "i0111", "play")	
 	
 	"giant_bandclub_playingguitar"
-		0:generic("custom_mesh(0:tool_c4_elecguitar)")
+		0:lookat(off)
+		0:hand(both,palm)
+		0:generic("custom_mesh(0:giant_tool_elecguitar_ani)")
 	
 	"giant_bandclub_playingstandmic"	
-		0:generic("custom_mesh(0:female_c4_contest2012_usa01_s10)")
+		0:lookat(off)
+		0:hand(right, fist)
+		173:hand(right, palm)
+		0:hand(left, palm)
+		0:generic("custom_mesh(0:giant_tool_diva_standmic_02_ani)")
 	
 	"giant_female_bandclub_playingstandmic"	
-		0:generic("custom_mesh(0:female_c4_contest2012_usa01_s10)")
+		0:lookat(off)
+		0:hand(right, palm)		
+		0:hand(left, palm)	
+		0:generic("custom_mesh(0:giant_tool_diva_standmic_02_ani)")
 	
 	"giant_facetoface_sit01"
 		0:lookat(off)
@@ -27918,13 +28058,10 @@ set("weapon_human_ani")
 
 	
 	"human_weapon_sfbow_offensive"	
-		31:generic("custom_mesh(0:human_weapon_sfbow_mesh02_close)")
-		31:generic("custom_mesh(1:human_weapon_sfbow_mesh03_close)")
 		150:jump(90)		
 	
 	"human_weapon_sfbow_offensive_walkrun"
-		1:generic("custom_mesh(0:human_weapon_sfbow_mesh02_close)")
-		1:generic("custom_mesh(1:human_weapon_sfbow_mesh03_close)")	
+
 	
 	
 	"human_weapon_sfdualgun_friendly"
@@ -27939,29 +28076,27 @@ set("weapon_human_ani")
 		0:generic("custom_mesh(1:human_weapon_sfknuckle_handl_mesh)")	
 		
 	"human_weapon_sfknuckle_handl_offensive"
-		26:generic("custom_mesh(1:human_weapon_sfknuckle_handl_mesh02_close)")
-		27:generic("custom_mesh(2:human_weapon_sfknuckle_handl_mesh03_close)")
+		26:generic("custom_mesh(1:human_weapon_sfknuckle_handl_mesh)")
 		157:jump(117)	
 		
 	"human_weapon_sfknuckle_handr_friendly"
 		0:generic("custom_mesh(1:human_weapon_sfknuckle_handr_mesh)")	
 		
 	"human_weapon_sfknuckle_handr_offensive"
-		27:generic("custom_mesh(1:human_weapon_sfknuckle_handR_mesh02_close)")
-		28:generic("custom_mesh(2:human_weapon_sfknuckle_handR_mesh03_close)")	
+		27:generic("custom_mesh(1:human_weapon_sfknuckle_handr_mesh)")
 		157:jump(117)			
 
 	"human_weapon_sfknuckle_handr_walkrun"
-		0:generic("custom_mesh(1:human_weapon_sfknuckle_handR_mesh02_close)")
+		0:generic("custom_mesh(1:human_weapon_sfknuckle_handr_mesh)")
 
 	"human_weapon_sfknuckle_handr_offensive_walkrun"
-		0:generic("custom_mesh(1:human_weapon_sfknuckle_handR_mesh03_close)")
+		0:generic("custom_mesh(1:human_weapon_sfknuckle_handr_mesh)")
 		
 	"human_weapon_sfknuckle_handl_walkrun"
-		0:generic("custom_mesh(1:human_weapon_sfknuckle_handl_mesh02_close)")	
+		0:generic("custom_mesh(1:human_weapon_sfknuckle_handr_mesh)")	
 
 	"human_weapon_sfknuckle_handl_offensive_walkrun"
-		0:generic("custom_mesh(1:human_weapon_sfknuckle_handl_mesh03_close)")			
+		0:generic("custom_mesh(1:human_weapon_sfknuckle_handr_mesh)")			
 	
 	"human_weapon_sfsword_friendly"
 			
@@ -28068,40 +28203,37 @@ set("weapon_giant_ani")
 			0:generic("custom_mesh(1:giant_weapon_sfknuckle_handl_mesh)")		
 		
 		"giant_weapon_sfknuckle_handl_offensive"
-			27:generic("custom_mesh(1:giant_weapon_sfknuckle_handl_mesh02_close)")
-			28:generic("custom_mesh(2:giant_weapon_sfknuckle_handl_mesh03_close)")
+			27:generic("custom_mesh(1:giant_weapon_sfknuckle_handl_mesh)")
 			157:jump(117)	
 			
 		"giant_weapon_sfknuckle_handr_friendly"
 			0:generic("custom_mesh(1:giant_weapon_sfknuckle_handr_mesh)")				
 			
 		"giant_weapon_sfknuckle_handr_offensive"
-			26:generic("custom_mesh(1:giant_weapon_sfknuckle_handR_mesh02_close)")
-			27:generic("custom_mesh(2:giant_weapon_sfknuckle_handR_mesh03_close)")	
+			26:generic("custom_mesh(1:giant_weapon_sfknuckle_handr_mesh)")
 			157:jump(117)
 
 		"giant_weapon_sfknuckle_handr_walkrun"
-			0:generic("custom_mesh(1:giant_weapon_sfknuckle_handR_mesh02_close)")
+			0:generic("custom_mesh(1:giant_weapon_sfknuckle_handr_mesh)")
 			
 
 		"giant_weapon_sfknuckle_handr_offensive_walkrun"
-			0:generic("custom_mesh(1:giant_weapon_sfknuckle_handR_mesh03_close)")
+			0:generic("custom_mesh(1:giant_weapon_sfknuckle_handr_mesh)")
 			
 			
 		"giant_weapon_sfknuckle_handl_walkrun"
-			0:generic("custom_mesh(1:giant_weapon_sfknuckle_handl_mesh02_close)")	
+			0:generic("custom_mesh(1:giant_weapon_sfknuckle_handl_mesh)")	
 			
 
 		"giant_weapon_sfknuckle_handl_offensive_walkrun"
-			0:generic("custom_mesh(1:giant_weapon_sfknuckle_handl_mesh03_close)")			
+			0:generic("custom_mesh(1:giant_weapon_sfknuckle_handl_mesh)")			
 			
 
 		"giant_female_weapon_sfknuckle_handL_friendly"	
 			0:generic("custom_mesh(1:giant_weapon_sfknuckle_handl_mesh)")		
 			
 		"giant_female_weapon_sfknuckle_handl_offensive"
-			27:generic("custom_mesh(1:giant_female_weapon_sfknuckle_handl_mesh02_close)")
-			28:generic("custom_mesh(2:giant_female_weapon_sfknuckle_handl_mesh03_close)")
+			27:generic("custom_mesh(1:giant_weapon_sfknuckle_handl_mesh)")
 			157:jump(117)	
 			
 			
@@ -28109,24 +28241,23 @@ set("weapon_giant_ani")
 			0:generic("custom_mesh(1:giant_weapon_sfknuckle_handr_mesh)")					
 			
 		"giant_female_weapon_sfknuckle_handr_offensive"
-			26:generic("custom_mesh(1:giant_female_weapon_sfknuckle_handR_mesh02_close)")
-			27:generic("custom_mesh(2:giant_female_weapon_sfknuckle_handR_mesh03_close)")	
+			26:generic("custom_mesh(1:giant_weapon_sfknuckle_handr_mesh)")
 			157:jump(117)	
 			
 		"giant_female_weapon_sfknuckle_handr_walkrun"
-			0:generic("custom_mesh(1:giant_female_weapon_sfknuckle_handR_mesh02_close)")
+			0:generic("custom_mesh(1:giant_weapon_sfknuckle_handr_mesh)")
 			
 
 		"giant_female_weapon_sfknuckle_handr_offensive_walkrun"
-			0:generic("custom_mesh(1:giant_female_weapon_sfknuckle_handR_mesh03_close)")
+			0:generic("custom_mesh(1:giant_weapon_sfknuckle_handr_mesh)")
 			
 			
 		"giant_female_weapon_sfknuckle_handl_walkrun"
-			0:generic("custom_mesh(1:giant_female_weapon_sfknuckle_handl_mesh02_close)")	
+			0:generic("custom_mesh(1:giant_weapon_sfknuckle_handr_mesh)")	
 			
 
 		"giant_female_weapon_sfknuckle_handl_offensive_walkrun"
-			0:generic("custom_mesh(1:giant_female_weapon_sfknuckle_handl_mesh03_close)")		
+			0:generic("custom_mesh(1:giant_weapon_sfknuckle_handr_mesh)")		
 			
      	"giant_weapon_MagicPearl01_standfriendly"
 		 600:jump(300)
@@ -28919,6 +29050,49 @@ set("social motion")
 	
 	folder("char\chapter4\human\anim\social_motion")
 	
+	
+	"female_vtuber"
+		0:lookat(off)
+		0:hand(both, palm)
+		48:effect("vtuber_board_01",0,1)
+		48:effect("vtuber_board_02",0,1)		
+		48:effect("vtuber_board_03",0,1)
+		455:effect("vtuber02",0,1) 
+		500:effect("vtuber03",0,1)
+		942:jump(161)
+
+		
+		
+	"male_vtuber"
+		0:lookat(off)
+		0:hand(both, palm)
+		48:effect("vtuber_board_01",0,1)
+		48:effect("vtuber_board_02",0,1)		
+		48:effect("vtuber_board_03",0,1)
+		455:effect("vtuber02",0,1) 
+		500:effect("vtuber03",0,1)
+		942:jump(161)
+
+	"male_sailor01"
+		0:lookat(off)
+		0:hand(both, palm)	
+		
+	"female_sailor01"
+		0:lookat(off)
+		0:hand(both, palm)		
+	
+	"male_hym"
+		0:lookat(off)
+		0:hand(both, palm)
+		1:generic("custom_equipmentmesh(1,male_c4_hymerak_bsl_ani)")	
+		331:jump(233)
+		
+	"female_hym"
+		0:lookat(off)
+		0:hand(both, palm)
+		1:generic("custom_equipmentmesh(1,female_c4_hymerak_bsl_ani)")	
+		331:jump(233)		
+	
 	"male_dailylook01"
 		0:lookat(off)
 		0:hand(both, palm)		
@@ -28958,9 +29132,71 @@ set("social motion")
 
 	"human_natural_gesture_s19_06"
         0:lookat(off)		
-
+	
+	"female_natural_gesture_s20_01"
+        0:lookat(off)
+		0:hand(right,fist)
+		0:hand(left,palm)
+		0:hideequip(false)
+		290:hand(right,palm)
+		417:hand(both,fist)
+		552:hand(both,palm)
+		613:jump(333)
+        				
+	"male_natural_gesture_s20_01"
+        0:lookat(off)
+		0:hand(both,palm)
+		0:hideequip(false)
+		298:hand(left,fist)
+		405:hand(left,palm)
+		430:hand(left,fist)
+		597:hand(left,palm)
+		608:hand(left,fist)
+		672:jump(313)
+      
+	"human_natural_gesture_s20_02"
+        0:lookat(off)
+		0:hand(both, fist)
+		0:hideequip(false)
+		11:effect("footstep_left")	
+		25:effect("footstep_right")	
+		40:effect("footstep_left")	
+		55:effect("footstep_right")
+		70:effect("footstep_left")	
+		85:effect("footstep_right")	
+		100:effect("footstep_left")	
+		115:effect("footstep_right")
+		130:effect("footstep_left")	
+		145:effect("footstep_right")
+		160:effect("footstep_left")	
+		175:effect("footstep_right")	
+		190:effect("footstep_left")	
+		205:effect("footstep_right")			
+		217:hand(both, palm)
+		220:effect("footstep_left")	
+		235:effect("footstep_right")
+		250:effect("footstep_left")	
+		265:effect("footstep_right")	
+		280:effect("footstep_left")	
+		295:effect("footstep_right")				
+		310:hand(both, fist)
+		310:effect("footstep_left")	
+		325:effect("footstep_right")
+		340:effect("footstep_left")	
+		355:effect("footstep_right")
+		370:effect("footstep_left")	
+		385:effect("footstep_right")	
+		400:effect("footstep_left")	
+		415:effect("footstep_right")
 		
-		
+	"human_natural_gesture_s20_03"
+        0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)
+		19:effect("footstep_left")	
+		22:effect("footstep_right")			
+		41:effect("footstep_right")
+		45:effect("footstep_left")			
 		
 	"human_natural_gesture_s20_04"
         0:lookat(off)
@@ -28975,16 +29211,73 @@ set("social motion")
 		0:hand(left,palm) 
 		0:hideequip(false)
 		0:generic("custom_mesh(0:tool_c4_sailor_guitarcase)")	
-
+		10:effect("footstep_left")	
+		25:effect("footstep_right")	
+		40:effect("footstep_left")			
+		55:effect("footstep_right")	
+		70:effect("footstep_left")			
+		85:effect("footstep_right")	
+		100:effect("footstep_left")			
+		115:effect("footstep_right")	
+		130:effect("footstep_left")			
+		145:effect("footstep_right")	
+		160:effect("footstep_left")			
+		175:effect("footstep_right")	
+		190:effect("footstep_left")			
+		205:effect("footstep_right")	
+		220:effect("footstep_left")			
+		235:effect("footstep_right")	
+		250:effect("footstep_left")			
+		265:effect("footstep_right")	
+		280:effect("footstep_left")			
+		295:effect("footstep_right")	
+		
 	"human_natural_gesture_s20_06"
         0:lookat(off)
 		0:hand(right,fist)
 		0:hand(left,palm) 	
 		0:hideequip(false)
 		0:generic("custom_mesh(0:tool_c4_sailor_guitarcase)")	
-
-
-
+		6:effect("footstep_left")	
+		18:effect("footstep_right")		
+		30:effect("footstep_left")			
+		42:effect("footstep_right")	
+		54:effect("footstep_left")			
+		66:effect("footstep_right")	
+		78:effect("footstep_left")			
+		90:effect("footstep_right")	
+		102:effect("footstep_left")			
+		114:effect("footstep_right")	
+		126:effect("footstep_left")			
+		138:effect("footstep_right")	
+		150:effect("footstep_left")			
+		162:effect("footstep_right")	
+		174:effect("footstep_left")			
+		186:effect("footstep_right")	
+		198:effect("footstep_left")			
+		210:effect("footstep_right")	
+		222:effect("footstep_left")			
+		234:effect("footstep_right")	
+		246:effect("footstep_left")			
+		258:effect("footstep_right")	
+		270:effect("footstep_left")			
+		282:effect("footstep_right")	
+		294:effect("footstep_left")			
+		306:effect("footstep_right")	
+		318:effect("footstep_left")			
+		330:effect("footstep_right")	
+		342:effect("footstep_left")	
+	
+	"human_natural_gesture_s21_01"
+        0:lookat(off)
+		0:hand(both,palm)
+		0:hideequip(false)
+		8:hand(both,fist)
+		55:hand(both,palm)
+		68:hand(both,fist)
+		91:hand(both,palm)
+		
+	
 	"male_heartchair01_sit"
 		0:lookat(off)
 		0:hand(both, palm)
@@ -58425,9 +58718,24 @@ endset
 set("nuadha")
 
 	folder("char\chapter3\human\nuadha\ani")
+	
+	
+		"nuadha_attack01"
+			0:lookat(off)
+			0:hand(both, fist)
+			30:hit(up,normal)
+			
+		"nuadha_attack02"
+			0:lookat(off)
+			0:hand(both, fist)
+			27:hit(up,normal)			
+		
+		"nuadha_hurt_stand"
+			0:lookat(off)
+			0:hand(left, palm)		
+			
 
 		"nuadha_smash"
-
 			0:lookat(off)
 			0:hand(right, fist)
 			0:effect("Nuadha_Smash_hand_01")
@@ -64294,7 +64602,8 @@ set("Knight")
 	0:hand(right,fist)
 	753:jump (208, true)
 	0:lookat(off)
-	
+	100:effect("Taegeuk01_01",0,1)	
+	100:effect("Taegeuk01_02",0,1)	
 	
 	
 	
@@ -67457,7 +67766,8 @@ set("Knight")
 	 0:lookat(off)
 	 0:hand(right, fist)
 	 0:hand(left, palm)
-	
+	 0:effect("Mc_ManaBlockade_action",0,1)
+	 
 	"giant_tool_rhand_a03_manapierce"
 	 0:lookat(off)
 	 0:hand(right, fist)
@@ -67654,7 +67964,8 @@ set("Knight")
 		0:hand(right,fist)
 		753:jump (208, true)
 		0:lookat(off)		
-	
+	    100:effect("Taegeuk01_01",0,1)	
+	    100:effect("Taegeuk01_02",0,1)		
 	
 	"giant_female_psychopomplight_friendly"
 		0:generic("custom_equip(weapon:giant_tool_psychopomplight_ani)")
@@ -67698,7 +68009,8 @@ set("Knight")
 		0:hand(right,fist)
 		753:jump (208, true)
 		0:lookat(off)		
-	
+		100:effect("Taegeuk01_01",0,1)	
+	    100:effect("Taegeuk01_02",0,1)	
 	
 	"giant_psychopomplight_friendly"
 		0:generic("custom_equip(weapon:giant_tool_psychopomplight_ani)")
@@ -69018,6 +69330,17 @@ set("G14_npc")
 
 	folder("char\chapter4\human\female\anim")
 
+		"female_c4_npc_rowan"
+			0:lookat(off)
+			0:hand (both, palm)			
+			0:face(default)
+			160:eyechange(628,0)
+			230:eyechange (default)
+			
+			
+		"female_c4_npc_rowan_talk"			
+			0:hand (both, palm)		
+			
 		"female_npc_syan_talk"
 			0:hideequip(true)
 			0:lookat(off)
@@ -69564,6 +69887,7 @@ set("magician")
 	0:lookat(off)
 	0:hand(right, fist)
 	0:hand(left, palm)
+	0:effect("Mc_ManaBlockade_action",0,1)
 	
 	"human_tool_rhand_a03_manapierce"
 	0:lookat(off)
@@ -73609,7 +73933,8 @@ set("magician")
 	 0:lookat(off)
 	 0:hand(right, fist)
 	 0:hand(left, palm)
-	
+	 0:effect("Mc_ManaBlockade_action",0,1)
+	 
 	"human_tool_bhand_st_manapierce"
 	 0:lookat(off)
 	 0:hand(right, fist)
@@ -77433,7 +77758,8 @@ set("elf_Bhand_M10")
 	 0:lookat(off)
 	 0:hand(right, fist)
 	 0:hand(left, palm)
-	
+	 0:effect("Mc_ManaBlockade_action",0,1)
+	 
 	"giant_tool_bhand_st_manapierce"
 	 0:lookat(off)
 	 0:hand(right, fist)
@@ -78776,6 +79102,30 @@ set("bard")
 		"uni_tool_Bhand_M16_piano_sit"
 			0:hand (both, palm)
 		0:hideequip(true)
+		
+		
+		"human_tool_bhand_m16_playing_stand_piano"	
+			0:lookat(off)
+			0:hand (both, palm)
+			0:hideequip(true)
+		
+		"human_tool_bhand_m16_hardplaying_stand_piano"	
+			0:lookat(off)
+			0:hand (both, palm)
+			0:face(upset)
+			0:hideequip(true)
+		
+		"human_tool_bhand_m16_stand_piano_success"	
+			0:lookat(off)
+			0:hand (both, palm)
+			0:face(love)
+			0:hideequip(true)
+		
+		"human_tool_bhand_m16_stand_piano_fail"	
+			0:lookat(off)
+			0:hand (both, palm)
+			0:face(confused)
+			0:hideequip(true)
 
 			
 
@@ -78925,6 +79275,9 @@ set("bard")
 			0:hand(both,fist)	
 			1:generic("custom_mesh(1:tool_drum_stick)")			
 			0:face(upset)
+			
+		
+		
 
 			
 			
@@ -79719,6 +80072,53 @@ set("giant Bhand_M")
 		"giant_female_tool_bhand_m16_piano_sit"
 			0:hand (both, palm)
 			0:hideequip(true)
+			
+		
+		"giant_tool_bhand_m16_playing_stand_piano"	
+			0:lookat(off)
+			0:hand (both, palm)
+			0:hideequip(true)
+		
+		"giant_tool_bhand_m16_hardplaying_stand_piano"	
+			0:lookat(off)
+			0:hand (both, palm)
+			0:face(upset)
+			0:hideequip(true)
+		
+		"giant_tool_bhand_m16_stand_piano_success"	
+			0:lookat(off)
+			0:hand (both, palm)
+			0:face(love)
+			0:hideequip(true)
+		
+		"giant_tool_bhand_m16_stand_piano_fail"	
+			0:lookat(off)
+			0:hand (both, palm)
+			0:face(confused)
+			0:hideequip(true)
+
+		"giant_female_tool_bhand_m16_playing_stand_piano"	
+			0:lookat(off)
+			0:hand (both, palm)
+			0:hideequip(true)
+		
+		"giant_female_tool_bhand_m16_hardplaying_stand_piano"	
+			0:lookat(off)
+			0:hand (both, palm)
+			0:face(upset)
+			0:hideequip(true)
+		
+		"giant_female_tool_bhand_m16_stand_piano_success"	
+			0:lookat(off)
+			0:hand (both, palm)
+			0:face(love)
+			0:hideequip(true)
+		
+		"giant_female_tool_bhand_m16_stand_piano_fail"	
+			0:lookat(off)
+			0:hand (both, palm)
+			0:face(confused)
+			0:hideequip(true)	
 		
 		
 		/////// 대중화 모션 ///////////////////////
@@ -80447,7 +80847,17 @@ set("giant")
 			0:lookat(off)
 			0:hideequip(false)
 			0:hand(both,fist)	
-			1:generic("custom_mesh(1:giant_tool_drum_stick)")				
+			1:generic("custom_mesh(1:giant_tool_drum_stick)")
+
+/////////피아노 모션
+		"giant_tool_Bhand_M16_stand_piano"
+			0:lookat(off)
+			0:hideequip(false)
+			0:hand(both,palm)	
+		"giant_female_tool_Bhand_M16_stand_piano"
+			0:lookat(off)
+			0:hideequip(false)
+			0:hand(both,palm)			
 	
 	"giant_SolidarityOfPower_prepare"
 		0:hand(both, palm)
@@ -90603,9 +91013,49 @@ set("social motion")
 
 	endfolder
 
-
 	
 	folder("char\chapter4\giant\anim\social_motion")
+	
+	"giant_female_vtuber"
+		0:lookat(off)
+		0:hand(both, palm)
+		48:effect("vtuber_board_01",0,1)
+		48:effect("vtuber_board_02",0,1)		
+		48:effect("vtuber_board_03",0,1)
+		455:effect("vtuber02",0,1) 
+		500:effect("vtuber03",0,1)
+		942:jump(161)
+	
+		
+	"giant_vtuber"
+		0:lookat(off)
+		0:hand(both, palm)
+		48:effect("vtuber_board_01",0,1)
+		48:effect("vtuber_board_02",0,1)		
+		48:effect("vtuber_board_03",0,1)
+		455:effect("vtuber02",0,1) 
+		500:effect("vtuber03",0,1)
+		942:jump(161)
+
+	"giant_female_sailor01"
+		0:lookat(off)
+		0:hand(both, palm)	
+		
+	"giant_sailor01"
+		0:lookat(off)
+		0:hand(both, palm)
+	
+	"giant_hym"
+		0:lookat(off)
+		0:hand(both, palm)
+		1:generic("custom_equipmentmesh(1,giant_male_c4_hymerak_bsl_ani)")	
+		331:jump(233)
+		
+	"giant_female_hym"
+		0:lookat(off)
+		0:hand(both, palm)
+		1:generic("custom_equipmentmesh(1,giant_female_c4_hymerak_bsl_ani)")	
+		331:jump(233)		
 	
 	"giant_dailylook01"
 		0:lookat(off)
@@ -90656,8 +91106,69 @@ set("social motion")
 	"giant_female_natural_gesture_s19_06"
 		0:lookat(off)				
 
+	"giant_female_natural_gesture_s20_01"
+        0:lookat(off)
+		0:hand(right,fist)
+		0:hand(left,palm)
+		0:hideequip(false)
+		290:hand(right,palm)
+		417:hand(both,fist)
+		552:hand(both,palm)
+		613:jump(333)
+				
+	"giant_natural_gesture_s20_01"
+        0:lookat(off)
+		0:hand(both,palm)
+		0:hideequip(false)
+		298:hand(left,fist)
+		405:hand(left,palm)
+		430:hand(left,fist)
+		597:hand(left,palm)
+		608:hand(left,fist)
+		672:jump(313)
 		
+	"giant_female_natural_gesture_s20_02"
+        0:lookat(off)
+		0:hand(both, fist)
+		0:hideequip(false)
+		10:effect("footstep_left")	
+		30:effect("footstep_right")	
+		48:effect("footstep_left")	
+		65:effect("footstep_right")	
+		82:effect("footstep_left")	
+		101:effect("footstep_right")	
+		82:effect("footstep_left")	
+		101:effect("footstep_right")
+		119:effect("footstep_left")	
+		137:effect("footstep_right")
+		155:effect("footstep_left")	
+		172:effect("footstep_right")	
+		191:effect("footstep_left")	
+		209:effect("footstep_right")
+		226:effect("footstep_left")	
+		244:effect("footstep_right")	
+		263:effect("footstep_left")				
+		258:hand(both, palm)
+		280:effect("footstep_right")	
+		298:effect("footstep_right")	
+		316:effect("footstep_left")		
+		335:effect("footstep_right")	
+		352:effect("footstep_left")	
+		370:effect("footstep_right")	
+		389:effect("footstep_left")
+		390:hand(both, fist)		
+		406:effect("footstep_right")	
+		425:effect("footstep_left")			
+
 		
+	"giant_female_natural_gesture_s20_03"
+        0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)
+		19:effect("footstep_left")	
+		22:effect("footstep_right")			
+		41:effect("footstep_right")
+		45:effect("footstep_left")		
 		
 	"giant_female_natural_gesture_s20_04"
         0:lookat(off)
@@ -90673,13 +91184,103 @@ set("social motion")
 		0:hand(left,palm) 
 		0:hideequip(false)
 		0:generic("custom_mesh(0:giant_tool_c4_sailor_guitarcase)")	
+		10:effect("footstep_right")
+		28:effect("footstep_left")		
+		46:effect("footstep_right")		
+		64:effect("footstep_left")
+		82:effect("footstep_right")			
+		100:effect("footstep_left")	
+		118:effect("footstep_right")	
+		136:effect("footstep_left")
+		154:effect("footstep_right")			
+		172:effect("footstep_left")	
+		190:effect("footstep_right")			
+		208:effect("footstep_left")	
+		226:effect("footstep_right")			
+		244:effect("footstep_left")	
+		262:effect("footstep_right")		
+		280:effect("footstep_left")	
+		298:effect("footstep_right")			
+		316:effect("footstep_left")	
+		334:effect("footstep_right")			
+		352:effect("footstep_left")	
 
 	"giant_female_natural_gesture_s20_06"
         0:lookat(off)
 		0:hand(right,fist)
 		0:hand(left,palm) 
 		0:hideequip(false)
-		0:generic("custom_mesh(0:giant_tool_c4_sailor_guitarcase)")			
+		0:generic("custom_mesh(0:giant_tool_c4_sailor_guitarcase)")		
+		11:effect("footstep_right")
+		27:effect("footstep_left")	
+		43:effect("footstep_right")
+		59:effect("footstep_left")			
+		75:effect("footstep_right")	
+		91:effect("footstep_left")			
+		107:effect("footstep_right")	
+		123:effect("footstep_left")			
+		139:effect("footstep_right")	
+		155:effect("footstep_left")			
+		171:effect("footstep_right")	
+		187:effect("footstep_left")			
+		203:effect("footstep_right")	
+		219:effect("footstep_left")			
+		235:effect("footstep_right")
+		251:effect("footstep_left")			
+		267:effect("footstep_right")	
+		283:effect("footstep_left")			
+		299:effect("footstep_right")	
+		315:effect("footstep_left")			
+		331:effect("footstep_right")	
+		347:effect("footstep_left")			
+		363:effect("footstep_right")	
+		379:effect("footstep_left")	
+		395:effect("footstep_right")	
+		411:effect("footstep_left")		
+		427:effect("footstep_right")		
+		443:effect("footstep_left")				
+
+	"giant_natural_gesture_s20_02"
+        0:lookat(off)
+		0:hand(both, fist)
+		0:hideequip(false)
+		10:effect("footstep_left")	
+		30:effect("footstep_right")	
+		48:effect("footstep_left")	
+		65:effect("footstep_right")	
+		82:effect("footstep_left")	
+		101:effect("footstep_right")	
+		82:effect("footstep_left")	
+		101:effect("footstep_right")
+		119:effect("footstep_left")	
+		137:effect("footstep_right")
+		155:effect("footstep_left")	
+		172:effect("footstep_right")	
+		191:effect("footstep_left")	
+		209:effect("footstep_right")
+		226:effect("footstep_left")	
+		244:effect("footstep_right")	
+		263:effect("footstep_left")				
+		258:hand(both, palm)
+		280:effect("footstep_right")	
+		298:effect("footstep_right")	
+		316:effect("footstep_left")		
+		335:effect("footstep_right")	
+		352:effect("footstep_left")	
+		370:effect("footstep_right")	
+		389:effect("footstep_left")
+		390:hand(both, fist)		
+		406:effect("footstep_right")	
+		425:effect("footstep_left")	
+		
+	"giant_natural_gesture_s20_03"
+        0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)
+		19:effect("footstep_left")	
+		22:effect("footstep_right")			
+		41:effect("footstep_right")
+		45:effect("footstep_left")		
 		
 	"giant_natural_gesture_s20_04"
         0:lookat(off)
@@ -90694,7 +91295,28 @@ set("social motion")
 		0:hand(right,fist)
 		0:hand(left,palm) 
 		0:hideequip(false)
-		0:generic("custom_mesh(0:giant_tool_c4_sailor_guitarcase)")			
+		0:generic("custom_mesh(0:giant_tool_c4_sailor_guitarcase)")		
+		10:effect("footstep_right")
+		28:effect("footstep_left")		
+		46:effect("footstep_right")		
+		64:effect("footstep_left")
+		82:effect("footstep_right")			
+		100:effect("footstep_left")	
+		118:effect("footstep_right")	
+		136:effect("footstep_left")
+		154:effect("footstep_right")			
+		172:effect("footstep_left")	
+		190:effect("footstep_right")			
+		208:effect("footstep_left")	
+		226:effect("footstep_right")			
+		244:effect("footstep_left")	
+		262:effect("footstep_right")		
+		280:effect("footstep_left")	
+		298:effect("footstep_right")			
+		316:effect("footstep_left")	
+		334:effect("footstep_right")			
+		352:effect("footstep_left")	
+		
 
 	"giant_natural_gesture_s20_06"
         0:lookat(off)
@@ -90702,6 +91324,34 @@ set("social motion")
 		0:hand(left,palm) 			
 		0:hideequip(false)
 		0:generic("custom_mesh(0:giant_tool_c4_sailor_guitarcase)")			
+		11:effect("footstep_right")
+		27:effect("footstep_left")	
+		43:effect("footstep_right")
+		59:effect("footstep_left")			
+		75:effect("footstep_right")	
+		91:effect("footstep_left")			
+		107:effect("footstep_right")	
+		123:effect("footstep_left")			
+		139:effect("footstep_right")	
+		155:effect("footstep_left")			
+		171:effect("footstep_right")	
+		187:effect("footstep_left")			
+		203:effect("footstep_right")	
+		219:effect("footstep_left")			
+		235:effect("footstep_right")
+		251:effect("footstep_left")			
+		267:effect("footstep_right")	
+		283:effect("footstep_left")			
+		299:effect("footstep_right")	
+		315:effect("footstep_left")			
+		331:effect("footstep_right")	
+		347:effect("footstep_left")			
+		363:effect("footstep_right")	
+		379:effect("footstep_left")	
+		395:effect("footstep_right")	
+		411:effect("footstep_left")		
+		427:effect("footstep_right")		
+		443:effect("footstep_left")				
 	
 	"giant_female_k_2023summer"
 		0:lookat(off)
@@ -99517,7 +100167,8 @@ set("movingweapon")
 	"giant_sfsword_offensive_run"
 		0:lookat(off)
 		0:hand(right,fist)
-		0:hand(left,palm)		
+		0:hand(left,palm)	
+		
 		
 	"giant_female_sfsword_run"
 		0:lookat(off)
@@ -99528,6 +100179,18 @@ set("movingweapon")
 		0:lookat(off)
 		0:hand(right,fist)
 		0:hand(left,palm)		
+		
+	"giant_female_sfsword_offensive_walk"		
+		0:lookat(off)
+		0:hand(both,fist)	
+		12:effect("footstep_right_giant")
+		30:effect("footstep_left_giant")		
+		
+	"giant_sfsword_offensive_walk"		
+		0:lookat(off)
+		0:hand(both,fist)	
+		12:effect("footstep_right_giant")
+		30:effect("footstep_left_giant")			
 
 
 	"giant_sfknuckle_friendly"
@@ -99536,30 +100199,30 @@ set("movingweapon")
 		
 	"giant_sfknuckle_offensive"
 		0:lookat (off)
-		0:hand(both, palm)
+		0:hand(both, fist)
 		157:jump(117)
 		
 	"giant_sfknuckle_walk"
 		0:lookat (off)
-		0:hand(both, palm)	
+		0:hand(both, fist)	
 		12:effect("footstep_right_giant")
 		30:effect("footstep_left_giant")		
 
 	"giant_sfknuckle_run"
 		0:lookat (off)
-		0:hand(both, palm)	
+		0:hand(both, fist)	
 		11:effect("footstep_right_giant")
 		27:effect("footstep_left_giant")
 
 	"giant_sfknuckle_offensive_walk"
 		0:lookat (off)
-		0:hand(both, palm)	
+		0:hand(both, fist)	
 		11:effect("footstep_right_giant")
 		27:effect("footstep_left_giant")
 
 	"giant_sfknuckle_offensive_run"
 		0:lookat (off)
-		0:hand(both, palm)		
+		0:hand(both, fist)		
 		11:effect("footstep_right_giant")
 		27:effect("footstep_left_giant")
 
@@ -99569,31 +100232,31 @@ set("movingweapon")
 		
 	"giant_female_sfknuckle_offensive"
 		0:lookat (off)
-		0:hand(both, palm)
+		0:hand(both, fist)
 		157:jump(117)
 		
 	"giant_female_sfknuckle_walk"
 		0:lookat (off)
-		0:hand(both, palm)	
+		0:hand(both, fist)	
 		12:effect("footstep_right_giant")
 		30:effect("footstep_left_giant")
 		
 
 	"giant_female_sfknuckle_run"
 		0:lookat (off)
-		0:hand(both, palm)	
+		0:hand(both, fist)	
 		11:effect("footstep_right_giant")
 		27:effect("footstep_left_giant")
 
 	"giant_female_sfknuckle_offensive_walk"
 		0:lookat (off)
-		0:hand(both, palm)	
+		0:hand(both, fist)	
 		11:effect("footstep_right_giant")
 		27:effect("footstep_left_giant")		
 
 	"giant_female_sfknuckle_offensive_run"
 		0:lookat (off)
-		0:hand(both, palm)
+		0:hand(both, fist)
 		11:effect("footstep_right_giant")
 		27:effect("footstep_left_giant")		
 
@@ -106673,7 +107336,10 @@ set("cutscene")
 		0:lookat(off)
 		0:hideequip(false)	
 		0:hand(both, palm)	
-		570:jump(305)			
+		570:jump(305)
+
+		"uni_natural_stand_widestraight_cutscene"
+		0:effect("Mc_ManaPierce_4_on_01",0,1)		
 	
 	endfolder	
 

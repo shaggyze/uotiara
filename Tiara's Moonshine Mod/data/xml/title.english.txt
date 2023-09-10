@@ -13915,27 +13915,27 @@
 15420	행운 30 증가
 15421	행운 30 증가
 15422	행운 30 증가
-15423	블루젠 코스메틱 라이트
-15424	블루젠 코스메틱 포레스트
-15425	블루젠 코스메틱 오션
-15426	블루젠 코스메틱 라이트
-15427	블루젠 코스메틱 포레스트
-15428	블루젠 코스메틱 오션
-15429	블루젠 코스메틱 라이트
-15430	블루젠 코스메틱 포레스트
-15431	블루젠 코스메틱 오션
-15432	블루젠 코스메틱 라이트
-15433	블루젠 코스메틱 포레스트
-15434	블루젠 코스메틱 오션
-15435	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15436	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15437	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15438	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15439	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15440	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15441	행운 30 증가
-15442	행운 30 증가
-15443	행운 30 증가
+15423	Light by Bleugenne Cosmetics
+15424	Forest by Bleugenne Cosmetics
+15425	Ocean by Bleugenne Cosmetics
+15426	Light by Bleugenne Cosmetics
+15427	Forest by Bleugenne Cosmetics
+15428	Ocean by Bleugenne Cosmetics
+15429	Light by Bleugenne Cosmetics
+15430	Forest by Bleugenne Cosmetics
+15431	Ocean by Bleugenne Cosmetics
+15432	Light by Bleugenne Cosmetics
+15433	Forest by Bleugenne Cosmetics
+15434	Ocean by Bleugenne Cosmetics
+15435	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15436	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15437	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15438	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15439	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15440	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15441	Luck +30
+15442	Luck +30
+15443	Luck +30
 15444	Eternal Heart
 15445	Eternal Heart
 15446	Eternal Heart
@@ -14199,8 +14199,8 @@
 15830	Grandmaster Jousting Knight
 15831	Grandmaster Jousting Knight
 15832	Grandmaster Jousting Knight
-15833	A glorious 2nd Title awarded to those who have proved themselves worthy by winning the Royal Jousting Tournament, or who have put in an equivalent valiant effort. Can be used with regular titles.
-15834	A glorious 2nd Title awarded to those who have proved themselves worthy by winning the Royal Jousting Tournament, or who have put in an equivalent valiant effort. Can be used with regular titles.
+15833	A glorious 2nd Title awarded to those who have proven themselves worthy by winning the Royal Jousting Tournament, or put in an equally valiant effort. Can be used with regular titles.
+15834	A glorious 2nd Title awarded to those who have proven themselves worthy by winning the Royal Jousting Tournament, or put in an equally valiant effort. Can be used with regular titles.
 15835	Luck +30\nWill +30
 15836	열정의 아이콘
 15837	균형의 아이콘

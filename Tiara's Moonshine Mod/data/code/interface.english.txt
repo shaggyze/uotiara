@@ -255,7 +255,7 @@ msg.tutorial_movie.unexpected_error	An unexpected error occurred during the play
 msg.tutorial_movie.unknown_file_type	The movie file is corrupt.
 msg.upgrade_item_personaluse_1	Modify to make it {0}-only
 msg.upgrade_item_personaluse_2	Modify to make it exclusive
-msg.vehicle.kick	Are you sure you want to kick him out?
+msg.vehicle.kick	Remove rider?
 msg.warning_collection_book_insert	Do you want to put {0} on "{1}"?\n{0} will disappear and cannot be recovered later.
 msg.web.browser_main_title	Mabinogi
 msg.web.notify_close_after_buy	To continue playing the game, \nplease close the website after the purchase.
@@ -971,7 +971,7 @@ pli_characteradditionalframe.41	Blaanid's Blessing - Stage 1\n\nRecall Book - 1 
 pli_characteradditionalframe.42	Blaanid's Blessing - Stage 2\n\nRecall Book - 2 Slots\nMovement Speed +4%\nAll Stats +2\nGain 2 additional AP upon rebirth\nBlessing Effect Stage 2
 pli_characteradditionalframe.43	Blaanid's Blessing - Stage 3\n\nRecall Book - 3 Slots\nMovement Speed +6%\nAll Stats +3\nGain 3 additional AP upon rebirth\nBlessing Effect Stage 3
 pli_characteradditionalframe.44	Blaanid's Blessing - Stage 4\n\nRecall Book - 4 Slots\nMovement Speed +8%\nAll Stats +4\nGain 4 additional AP upon rebirth\nBlessing Effect Stage 4
-pli_characteradditionalframe.45	{0}회 / {1}회
+pli_characteradditionalframe.45	{0} / {1}
 pli_charactercombocardframe.1	The selected {0} Combo Card(s) will be permanently removed.\nWould you like to proceed?
 pli_charactercombocardframe.2	Warning
 pli_charactercombocardframe.3	Would you like to use this item to extend the Gold Combo Card duration?
@@ -1723,7 +1723,7 @@ pli_ergenhancetransferview.2	Select weapon to receive Erg
 pli_ergenhancetransferview.3	Transfer
 pli_ergenhancetransferview.4	You don't have enough material to transfer Erg.
 pli_ergenhancetransferview.5	Use {0} to transfer Erg from\n<color=2><outlinecolor=3>{1}</outlinecolor></color> to\n<color=2><outlinecolor=3>{2}</outlinecolor></color>.
-pli_ergenhancetransferview.6	Erg from {0} has been transfered to {1}.
+pli_ergenhancetransferview.6	Erg from {0} has been transferred to {1}.
 pli_ergenhancetransferview.7	Failed to transfer Erg. Please try again.
 pli_erinnlandprizeroulette.1	You don't have enough Prize Roulette Coins.
 pli_erinnlandshootinggame.1	Results
@@ -1987,6 +1987,9 @@ pli_feedowlview.3	It's time to feed\nthe Baby Owl.
 pli_feedtigerview.1	Feed Tiger Cub
 pli_feedtigerview.2	It's time to feed\nthe Tiger Cub.
 pli_fishing2016view.1	List will refresh in {0} min
+pli_fishingboxview.1	Destroy the selected items?
+pli_fishingboxview.2	Move the selected items to your inventory?
+pli_fishingboxview.3	There is not enough space in your inventory.
 pli_fixedcolordyeingview.1	Preview
 pli_flipcardmatchresultview.1	Time Remaining: {0}{1} sec
 pli_flipcardmatchresultview.2	{0} Cards
@@ -3030,7 +3033,7 @@ pli_joustcameracontrolview.2	Ending the camera perspective.
 pli_joustcommandresultview.1	Command Result
 pli_joustcommandview.1	Controller
 pli_joustcommandview.2	{0}'s Controller
-pli_joustcommandview.3	Please enter a command.
+pli_joustcommandview.3	Choose your attack.
 pli_joustlifeview.1	HP Gauge
 pli_joustlifeview.2	{0}'s HP
 pli_joustnoticeview.1	View from perspectives of each player.
@@ -3051,13 +3054,13 @@ pli_joustnoticeview.15	Attack Chart
 pli_joustnoticeview.16	Tournament Info
 pli_joustnoticeview.17	View Arenas
 pli_joustnoticeview.18	: Strong Thrust\n: Fast Thrust\n: High Thrust\n: Two-handed Thrust
-pli_joustnoticeview.19	Preliminaries: Matches start every evening at 7pm and 10pm except on Imbolic (Sunday).\nFinals: Matches start at 7pm every Imbolic (Sunday).
+pli_joustnoticeview.19	Preliminaries: Matches start every day at 10 AM and 7 PM, except on Imbolic (Sunday).\nFinals: Matches start at 1 PM every Imbolic (Sunday).
 pli_joustnoticeview.20	Registrations can be submitted 15 minutes before the start of a match.
 pli_joustnoticeview.21	Win Rate: {0}%\n{1}
 pli_joustnoticeview.22	You don't have enough Gold to favor a player.
 pli_joustnoticeview.23	Pay {0} Gold and favor {1} to win?\nThe gold will not be refunded.
-pli_joustnoticeview.24	Favor a player (Preliminary Round)
-pli_joustnoticeview.25	Favor a player (Final Round)
+pli_joustnoticeview.24	Favor a Player (Prelims)
+pli_joustnoticeview.25	Favor a Player (Finals)
 pli_joustskinview.1	Change your lance's appearance?\nYour previous appearance will not be saved.
 pli_joustskinview.2	Change your horse's appearance?\nYour previous appearance will not be saved.
 pli_jouststandbyview.1	Jousting Tournament Status
@@ -3067,16 +3070,16 @@ pli_jouststandbyview.4	Cancel
 pli_jouststandbyview.5	Close
 pli_jouststandbyview.6	{0} is in progress.
 pli_jouststandbyview.7	Close
-pli_jouststandbyview.8	Time Left: {0} min
-pli_jouststandbyview.9	Time Left: {0} sec
+pli_jouststandbyview.8	Time Left: {0} min.
+pli_jouststandbyview.9	Time Left: {0} sec.
 pli_jouststandbyview.10	Round {0}\nParticipants: {1}
-pli_jouststandbyview.11	You have been selected as a player for this Jousting Tournament.\nIf you don't participate, you may face a penalty that decreases your chance of being selected in future tournaments.\nYou can now favor a player to win.
-pli_jouststandbyview.12	You have not been selected as a player for this Jousting Tournament.\nThe more often you favor other players to win, the more likely you will be to be selected in the future.\nYou can now favor a player to win.
+pli_jouststandbyview.11	You have been selected as a challenger for this Jousting Tournament.\nIf you decline to participate, you may face a penalty that decreases\nyour chance of being selected in future tournaments. You may now favor a player to win.
+pli_jouststandbyview.12	You have not been selected as a challenger for this Jousting Tournament.\nThe more often you favor other players to win, the more likely you are\nto be selected in the future. You may now favor a player to win.
 pli_jouststandbyview.13	Forfeit Match
 pli_jouststandbyview.14	You will be <color=2><outlinecolor=3>penalized</outlinecolor></color> if you forfeit the Jousting Tournament match.\nForfeit?
 pli_joustvictoryview.1	OK
-pli_joustvictoryview.2	You've won!
-pli_joustvictoryview.3	Against {0}, of {1} turns, you succeeded {2} times.
+pli_joustvictoryview.2	You are victorious!
+pli_joustvictoryview.3	In {1} passes against {0}, your attacks succeeded {2} times.
 pli_joustvictoryview.4	You've obtained\n{0} Jousting Points.
 pli_joustvictoryview.5	The player you favored has won.\nObtained {0} Jousting Points.
 pli_joustvictoryview.6	The player you favored has lost.\nObtained {0} Jousting Points.
@@ -4626,6 +4629,7 @@ pli_tradeauctionmarkettab.6	There are no items that meet that criteria.
 pli_tradeauctionmarkettab.7	Total
 pli_tradeauctionmarkettab.8	Would you like to view the item details?
 pli_tradeauctionmarkettab.9	Please search after selecting a detailed category.
+pli_tradeauctionmarkettab.10	최소 한 글자 이상 입력 후 검색해 주세요.
 pli_tradeauctionmarkettabbase.1	Regular items will have priority when sorting. \nYou can select and view the Sale Type through the search filter.
 pli_tradeauctionmyitemframe.1	Get Paid
 pli_tradeauctionmyitemframe.2	<color=2><outlinecolor=3>On Waiting List\n{0}:{1}</color></outlinecolor>
@@ -4883,10 +4887,10 @@ pli_transmuteview.134	{0}
 pli_transmuteview.135	이 아이템은 합성의 재료로 1개면 충분합니다
 pli_transmuteview.136	View Probability
 pli_transmuteview.137	\n<color=2>You can only synthesize 3 of the same item\nor only items matching the recipe.</color>
-pli_trashcanview.1	파기가 불가능한 아이템입니다.
-pli_trashcanview.2	파기가 불가능한 아이템이 있습니다.
-pli_trashcanview.3	모든 아이템이 <color=5><outlinecolor=3>삭제</outlinecolor></color>되어 복구할 수 없습니다.\n<color=5><outlinecolor=3>삭제</outlinecolor></color>하시겠습니까?
-pli_trashcanview.4	더 이상 넣을 수 없습니다.
+pli_trashcanview.1	This item cannot be destroyed.
+pli_trashcanview.2	One or more of the selected items cannot be destroyed.
+pli_trashcanview.3	All items will be <color=5><outlinecolor=3>deleted</outlinecolor></color> and cannot be recovered.\nDo you want to <color=5><outlinecolor=3>delete</outlinecolor></color> the selected items?
+pli_trashcanview.4	You cannot select any more items.
 pli_treasureboxevent.1	You do not have a Treasure Chest Key.
 pli_treasureboxevent.2	Open
 pli_treasureboxevent.3	Close
@@ -5149,6 +5153,7 @@ pli_windowbag.13	The sort function will be available in {0} sec.
 pli_windowbag.14	This bag cannot be sorted, or else there's something in your Temporary Inventory.
 pli_windowbag.15	There's an activated totem in this bag. Cannot sort.
 pli_windowbag.16	Storage Chest
+pli_windowbag.17	Set Note
 pli_windowballoon.1	{0}'s\n
 pli_windowbank.1	Please wait a moment.
 pli_windowbank.2	Human
@@ -5612,9 +5617,9 @@ pli_windowhinventory.61	You don't have the Gold to hand to your pet.
 pli_windowhinventory.62	Your pet cannot hold more Gold.
 pli_windowhinventory.63	You cannot hold more Gold.
 pli_windowhinventory.64	Your pet doesn't have any Gold.
-pli_windowhinventory.69	소지품의 아이템을 다중 선택하여 한번에 파기할 수 있습니다.
-pli_windowhinventory.70	숨김 버튼을 축소합니다.
-pli_windowhinventory.71	숨김 버튼을 확장합니다.
+pli_windowhinventory.69	Allows for the selection and destruction of multiple items in your inventory.
+pli_windowhinventory.70	Shrinks the Hide button.
+pli_windowhinventory.71	Enlarges the Hide button.
 pli_windowhousebiddinglistboard.1	Address
 pli_windowhousebiddinglistboard.2	Shop Type
 pli_windowhousebiddinglistboard.3	Mark the location of the selected shop on the Mini-map.
@@ -6718,9 +6723,9 @@ pli_windowpopupitem.60	Disable Gold Collection
 pli_windowpopupitem.61	Enable Gold Collection
 pli_windowpopupitem.62	Preview
 pli_windowpopupitem.63	Stardust Info
-pli_windowpopupitem.64	초기화
+pli_windowpopupitem.64	Reset
 pli_windowpopupitem.65	Additional Function Settings
-pli_windowpopupitem.66	휴지통에 모든 아이템 넣기
+pli_windowpopupitem.66	Move all items to trash
 pli_windowpopupprop.0	Set Rental Fee
 pli_windowpopupprop.1	Change Direction
 pli_windowpopupprop.2	가방 열기
