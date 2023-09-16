@@ -320,6 +320,9 @@ interface_servicemgr.1	Inventory Plus Kit
 interface_servicemgr.2	Mabinogi Premium Service
 interface_servicemgr.3	Mabinogi VIP Service
 interface_servicemgr.4	VIP 
+interface_servicemgr.7	프리미엄 베이직 멤버십
+interface_servicemgr.8	프리미엄 배틀 멤버십
+interface_servicemgr.9	프리미엄 라이프 멤버십
 interface_shapeshift.1	You must be equipped with a Dream Catcher in order to transform.
 interface_shapeshift.2	You cannot transform now. Try again in {0} seconds.
 interface_shapeshift.3	You must cancel your current transformation in order to transform into a monster.

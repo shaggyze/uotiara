@@ -330,6 +330,13 @@ pli_additionalequipmentpocketview.1	You can use this with a Hotkey! Register it 
 pli_additionalequipmentpocketview.2	The item settings have been applied.
 pli_additionalequipsystemview.1	You need to purchase an Extra Equipment Slot Coupon.
 pli_additionalequipsystemview.2	{0}
+pli_additionalequipsystemview.3	프리미엄 멤버십 적용중\n
+pli_advanceditemview.1	0개는 수령할 수 없습니다.
+pli_advanceditemview.2	보상수령
+pli_advanceditemview.3	어드밴스드 아이템을 {0}개 수령합니다.\n정말 수령하시겠습니까?
+pli_advanceditemview.5	오늘은 <color=3><outlinecolor=4>{0}</outlinecolor></color>입니다.\n<color=3><outlinecolor=4>{1}</outlinecolor></color>{을} 받을 수 있습니다.
+pli_advanceditemview.6	{0} 캐릭터로 어드밴스드 아이템을 수령 하시겠습니까?
+pli_advanceditemview.7	수령가능 : {0}개 / 남은개수 : <color={2}>{1}</color>개
 pli_advertisebrochureview.0	Move to seller's shop
 pli_advertisebrochureview.1	Close
 pli_advertisebrochureview.2	{0} Gold
@@ -1694,8 +1701,20 @@ pli_entryview.2	Pet {0}
 pli_entryview.3	You don't have any Spirit Weapons.\nBerched can help you form a contract with the Spirit.
 pli_entryview.4	Smart Contents {0}
 pli_entryview.5	Dungeon Guide
+pli_entryview.6	프리미엄 서비스/PC방 혜택 {0}
+pli_entryview.7	화폐 {0}
 pli_equipmentcollectiontab.1	Loading...
 pli_equipmentcollectiontab.2	The Dressing Room is being loaded.
+pli_equipskinslottab.1	외형을 저장할 수 있는 장비가 없습니다.
+pli_equipskinslottab.2	외형을 저장할 아이템을 고르세요.
+pli_equipskinslottab.3	<color=2><outlinecolor=3>[{0}]</outlinecolor></color> 외형을 슬롯에서 영구히 삭제 합니다.\n<color=5>한번 삭제된 외형은 되돌릴 수 없습니다.</color>\n정말 진행 하시겠습니까?
+pli_equipskinslottab.4	슬롯 최대 갯수에 도달하여\n확장이 불가능합니다.
+pli_equipskinslottab.5	장비 외형 슬롯 확장
+pli_equipskinslottab.6	<color=2><outlinecolor=3>{0}</outlinecolor></color>폰을 사용하여 장비 외형 슬롯을 1칸 늘리시겠습니까?
+pli_equipskinslottab.7	외형을 변경할 아이템을 고르세요.
+pli_equipskinslottab.8	외형을 저장할 슬롯이 부족합니다.
+pli_equipskinslottab.9	외형 적용이 가능한 아이템이 없습니다.
+pli_equipskinslottab.10	장착할 수 없는 장비는 미리보기가 불가능 합니다.
 pli_ergenhancemainview.1	By infusing a weapon with Erg, you can gain Erg EXP\nor expand the weapon's Erg Max Level.\nSimply place a weapon in the slot to begin the infusion process.
 pli_ergenhancemainview.2	[Infusing Erg]
 pli_ergenhancemainview.3	You can infuse a weapon with Erg extracted from weapons of the same type.\nAdd a weapon of the same type as the target to the Required Materials slot.\nAdd weapons or special items as Additional Materials to gain other supplementary effects.
@@ -1986,6 +2005,14 @@ pli_feedowlview.2	Feed Owl
 pli_feedowlview.3	It's time to feed\nthe Baby Owl.
 pli_feedtigerview.1	Feed Tiger Cub
 pli_feedtigerview.2	It's time to feed\nthe Tiger Cub.
+pli_findcardminigameview.1	이 카드를 찾아보자!
+pli_findcardminigameview.2	정답 카드를 골라 주세요.
+pli_findcardminigameview.3	다시 한번 정답 카드를 찾아보자!
+pli_findcardminigameview.4	얏호 정답 카드를 찾았다!
+pli_findcardminigameview.5	이런... 아쉽게도 오답 카드를 골랐다.
+pli_findcardminigameview.6	긴장한 나머지, 카드를 고르지 못했다!
+pli_findcardminigameview.7	{0}초 뒤 다음 턴이 시작됩니다.
+pli_findcardminigameview.8	{0}초 뒤 게임이 종료됩니다.
 pli_fishing2016view.1	List will refresh in {0} min
 pli_fishingboxview.1	Destroy the selected items?
 pli_fishingboxview.2	Move the selected items to your inventory?
@@ -2122,6 +2149,17 @@ pli_gachaponrewardinventoryview.2	The item you selected does not exist.
 pli_gachaponrewardinventoryview.3	Would you like to move this item to your Inventory?
 pli_gachaponrewardinventoryview.4	The item you selected does not exist.
 pli_gachaponrewardinventoryview.5	You cannot receive or restore items once you delete them.
+pli_gameendframe.1	진행중
+pli_gameendframe.2	미수령
+pli_gameendframe.3	이벤트
+pli_gameendframe.4	{0} {1}개
+pli_gameendmainview.1	현재 인벤토리에 없는 아이템입니다.
+pli_gameendmainview.2	이미 완료 혹은 삭제된 퀘스트 입니다.
+pli_gameendmainview.3	에린 패스 보상
+pli_gameendmainview.4	모험 일지 보상
+pli_gameendmainview.5	이루샤의 출석 체크샤 보상
+pli_gameendmainview.6	NPC 샤이에게 보상을 수령하실 수 있습니다.
+pli_gameendmainview.7	이미 모든 보상을 습득 하였습니다.
 pli_gametipview.1	Daily Tip
 pli_gametipview.2	Turn Off Daily Tips
 pli_gametipview.3	Close this Tip
@@ -2253,6 +2291,8 @@ pli_hairrestoreview.3	The stored hairstyle will be applied immediately, and this
 pli_hairrestoreview.4	Using this coupon will change your current hairdo and hair color to the ones stored on the coupon.\n\nWould you like to apply the coupon's hairdo and color?
 pli_heightselectchangeview.1	{0} Years Old Appearance
 pli_heightselectchangeview.2	Change your appearance to {0} years old.
+pli_helpalarmsettingview.1	비활성화
+pli_helpalarmsettingview.2	활성화
 pli_helpboardrankview.1	Rank {0}
 pli_helpboardrankview.2	{0} Point(s)
 pli_helpboardrankview.3	My Altruism Points: {0}
@@ -3506,6 +3546,7 @@ pli_personalrankingdefaultview.5	Page not found.
 pli_personalrankingdefaultview.6	{0} / {1}
 pli_personalrankingdefaultview.7	Period - {0}.{1}.{2} (Resets on {3}.{4} 0:00)
 pli_personalrankingdefaultview.8	Last Season
+pli_personalrankingdefaultview.9	퀘스트 도우미 이전 시즌
 pli_personalshopsetpriceview.1	Price Selection
 pli_personalshopsetpriceview.2	Stop Sale
 pli_personalshopsetpriceview.3	Set Price\nFor All
@@ -3631,6 +3672,7 @@ pli_petquestprogresslistbox.2	{0}%
 pli_petquestprogresslistbox.3	Complete
 pli_petquestquestlistbox.1	Today's Expedition\nThere's a high chance of getting a Huge Lucky Bonus for this venture.
 pli_petquestquestlistbox.2	Special Expedition\nYou can get even better rewards for this venture.
+pli_petquestquestlistbox.3	프리미엄 오늘의 조사\n휴즈 럭키 보너스가 발생할 확률이 높은 조사입니다.
 pli_petquestresultview.1	{0} {1}
 pli_petquestresultview.2	{0}: x{1}\n
 pli_petquestresultview.3	Title: {0}\n
@@ -3758,6 +3800,108 @@ pli_portraitattendanceview.1	Obtained
 pli_portraitattendanceview.2	Receive Gift
 pli_portraitattendanceview.3	Time Remaining: {0}
 pli_portraitattendanceview.4	기간 : %04d/%02d/%02d %02d:%02d까지
+pli_premiumservicetabframe.1	프리미엄 멤버십
+pli_premiumservicetabframe.2	(구)프리미엄 플러스 팩
+pli_premiumservicetabframe.3	(구)프리미엄 팩
+pli_premiumservicetabframe.4	프리미엄 PC방
+pli_premiumservicetabframe.5	미적용
+pli_premiumservicetabframe.6	적용
+pli_premiumservicetabframe.7	길드 마스터 권한
+pli_premiumservicetabframe.9	나오의 생일선물
+pli_premiumservicetabframe.10	어드밴스드 아이템 제공
+pli_premiumservicetabframe.11	소셜 모션
+pli_premiumservicetabframe.12	캠핑 패널티 제거
+pli_premiumservicetabframe.13	경험치 손실 없이 마을 부활
+pli_premiumservicetabframe.15	전투 경험치 추가 획득
+pli_premiumservicetabframe.17	아이템 드랍 확률 보너스
+pli_premiumservicetabframe.18	나오 폭탄
+pli_premiumservicetabframe.19	나오의 영혼석
+pli_premiumservicetabframe.20	FLC 가방
+pli_premiumservicetabframe.21	VIP펫
+pli_premiumservicetabframe.24	PLUS 인벤토리 사용 가능
+pli_premiumservicetabframe.25	퀘스트 완료 경험치 보너스
+pli_premiumservicetabframe.26	재능 타이틀 변경 무제한
+pli_premiumservicetabframe.27	수표 발급 수수료 무료
+pli_premiumservicetabframe.28	프리미엄 VIP 가방
+pli_premiumservicetabframe.29	콤보 카드 무제한 사용
+pli_premiumservicetabframe.30	환생 시 9~19살의 키가 되는 포션 선택 상자 제공
+pli_premiumservicetabframe.31	벨바스트 가판대 아이템 가격 무제한?
+pli_premiumservicetabframe.32	길드 수표 발급 수수료 무료
+pli_premiumservicetabframe.33	경매장 추가 등록 기간 제공(60시간)
+pli_premiumservicetabframe.34	경매장 이용 수수료 할인
+pli_premiumservicetabframe.36	에코스톤 슬롯 무제한 사용
+pli_premiumservicetabframe.38	아이템 수리비 감면
+pli_premiumservicetabframe.39	프리미엄 오늘의 미션 제공
+pli_premiumservicetabframe.40	VIP 오늘의 미션
+pli_premiumservicetabframe.41	경매장 슬롯 추가 제공
+pli_premiumservicetabframe.42	수표 출금 한도 상향
+pli_premiumservicetabframe.43	타이틀 교체 무한
+pli_premiumservicetabframe.45	낭만 농장 하우징 계약 연장 무료
+pli_premiumservicetabframe.47	PC방 스킬 수련치 2배
+pli_premiumservicetabframe.48	스마트 콘텐츠 워프 무료
+pli_premiumservicetabframe.50	프리미엄 새도우 크리스탈 제공
+pli_premiumservicetabframe.51	탈틴 농장 대여
+pli_premiumservicetabframe.52	환생 주기 감소
+pli_premiumservicetabframe.53	수리비 할인
+pli_premiumservicetabframe.54	뷰티 슬롯 제공
+pli_premiumservicetabframe.55	추가 장비 슬롯 무제한 이용
+pli_premiumservicetabframe.56	전투 재능에 도움되는 버프
+pli_premiumservicetabframe.57	회복류 포션 효과 효율 증가 
+pli_premiumservicetabframe.58	생활 재능에 도움되는 버프
+pli_premiumservicetabframe.59	낭만 농장 주크박스 무제한 이용
+pli_premiumservicetabframe.60	캠프 파이어 소각 경험치 증가
+pli_premiumservicetabframe.62	프리미엄 펫 탐험대 퀘스트 제공
+pli_premiumservicetabframe.64	원격 상점 이용 가능
+pli_premiumservicetabframe.65	프리미엄 펫 사용
+pli_premiumservicetabframe.66	길드 마스터 권한
+pli_premiumservicetabframe.68	나오의 생일 선물
+pli_premiumservicetabframe.70	소셜 모션
+pli_premiumservicetabframe.72	행동불능이 되었을 때 마을에서 부활하기를 선택하면 경험치 손실 없이 부활할 수 있습니다.
+pli_premiumservicetabframe.74	몬스터 처치 시, 전투 경험치를 20%만큼 추가로 획득합니다.
+pli_premiumservicetabframe.76	아이템 드랍 확률 보너스
+pli_premiumservicetabframe.77	나오 폭탄
+pli_premiumservicetabframe.78	나오의 영혼석
+pli_premiumservicetabframe.79	FLC 가방
+pli_premiumservicetabframe.80	VIP 펫
+pli_premiumservicetabframe.83	기본 인벤토리에 더해, PLUS 인벤토리를 추가로 이용할 수 있게 됩니다.\nPLUS 인벤토리에는 가방을 배치할 수 없습니다.
+pli_premiumservicetabframe.84	퀘스트 완료 경험치를 50%만큼 추가로 획득합니다.
+pli_premiumservicetabframe.85	재능 타이틀 변경 무제한
+pli_premiumservicetabframe.86	은행에서 수표 발급 시, 발급 수수료가 무료로 적용됩니다.
+pli_premiumservicetabframe.87	프리미엄 VIP 가방
+pli_premiumservicetabframe.88	콤보 카드 기능을 무제한으로 이용할 수 있습니다.
+pli_premiumservicetabframe.89	일주일에 1회, 환생 시 9~19살의 키가 되는 포션 선택 상자가 제공됩니다.\n프리미엄 베이직 멤버십이 적용 중인 계정 내 모든 캐릭터에게 지급됩니다.
+pli_premiumservicetabframe.90	벨바스트 가판대 아이템 가격 무제한
+pli_premiumservicetabframe.91	길드석을 통해 수표 발급 시, 수수료가 발생하지 않게 됩니다.
+pli_premiumservicetabframe.92	경매장에 아이템을 최대 60시간까지 등록할 수 있게 됩니다.
+pli_premiumservicetabframe.93	경매장 이용 수수료가 4%로 할인 적용됩니다.
+pli_premiumservicetabframe.97	아이템 수리비 감면
+pli_premiumservicetabframe.98	보상 경험치와 골드를 추가로 획득할 수 있는 프리미엄 오늘의 미션이 1일 1개씩 제공됩니다.
+pli_premiumservicetabframe.99	VIP 오늘의 미션
+pli_premiumservicetabframe.100	내 경매 슬롯이 10칸만큼 추가로 늘어납니다.
+pli_premiumservicetabframe.101	은행에서 출금할 수 있는 수표 출금 한도가 기본 1000만 골드에서 5000만 골드가 추가로 증가해, 6000만 골드까지 수표 출금할 수 있게 됩니다.
+pli_premiumservicetabframe.102	타이틀 교체 무한
+pli_premiumservicetabframe.104	낭만 농장 하우징 계약을 별도 골드 지불 없이 무료로 연장할 수 있습니다.
+pli_premiumservicetabframe.107	스마트 콘텐츠를 이용하여 문게이트, 마나터널을 무료로 이용할 수 있습니다.
+pli_premiumservicetabframe.109	매일 접속 시, 프리미엄 새도우 크리스탈이 제공됩니다.\n프리미엄 배틀 멤버십이 적용 중인 계정 내 한 개의 캐릭터에게만 지급됩니다.
+pli_premiumservicetabframe.110	탈틴 농장 사용 가능
+pli_premiumservicetabframe.112	프리미엄 베이직 멤버십이 적용 중인 상태에서는 수리비 할인이 50%로 상시 적용됩니다.
+pli_premiumservicetabframe.113	드레스 룸의 뷰티 슬롯이 추가 제공됩니다. 헤어, 눈, 얼굴, 입 뷰티 슬롯이 각각 3칸씩 추가 제공됩니다.
+pli_premiumservicetabframe.114	추가 장비 슬롯을 무제한으로 이용할 수 있습니다.
+pli_premiumservicetabframe.116	회복류 포션 효과 효율 증가 
+pli_premiumservicetabframe.118	프리미엄 라이프 멤버십이 적용 중인 상태에서는 낭만 농장에 설치된 주크박스를 무제한으로 이용하실 수 있습니다.
+pli_premiumservicetabframe.119	캠프 파이어에 아이템 소각 시, 획득하는 경험치를 2배로 획득할 수 있습니다.
+pli_premiumservicetabframe.121	기본 성공률이 높은 프리미엄 펫 탐험대 퀘스트를 추가로 수주받을 수 있습니다.
+pli_premiumservicetabframe.124	프리미엄 베이직 멤버십 이용 중이라면, 서버 내 최초 접속한 캐릭터에게 프리미엄 펫을 소환할 수 있는 호루라기가 지급됩니다.\n호루라기를 사용해 생성한 펫은 프리미엄 베이직 멤버십이 적용 중인 상태에서 소환할 수 있으며 함께 에린을 모험할 수 있습니다.\n서버 당 1개씩 지급되며, 서버 이전이 불가능합니다.
+pli_premiumservicetabframe.125	프리미엄 플러스 팩
+pli_premiumservicetabframe.126	프리미엄 팩
+pli_premiumservicetabframe.127	베이직 멤버십
+pli_premiumservicetabframe.128	배틀 멤버십
+pli_premiumservicetabframe.129	라이프 멤버십
+pli_premiumservicetabframe.130	PC방
+pli_premiumservicetabframe.131	개인 상점 한도 상향
+pli_premiumservicetabframe.132	프리미엄 개인 상점 허가증으로 최대한도가 5000만 골드인 개인 상점을 이용할 수 있습니다.
+pli_premiumserviceview.1	프리미엄 멤버십
+pli_premiumserviceview.2	프리미엄 PC방
 pli_privatefarmaskexitview.1	{0:itemname} x ({1:itemcount})
 pli_privatefarmaskexitview.2	Please wait for a moment.
 pli_privatefarmaskexitview.3	Would you like to leave the house?
@@ -5355,6 +5499,7 @@ pli_windowcookdungeoncomplete.3	Detail
 pli_windowcountdownframe.1	{0} hour(s) {1} min {2} sec
 pli_windowcountdownframe.2	{0} min {1} sec
 pli_windowcountdownframe.3	{0} sec
+pli_windowcurrency.1	전체
 pli_windowdagdaundryview.1	아이템 추출 실패
 pli_windowdagdaundryview.2	사용 가능 횟수 : {0}
 pli_windowdagdaundryview.3	{0}의 항아리
@@ -5406,6 +5551,8 @@ pli_windowegoweapon.4	Rank {0}
 pli_windowegoweapon.5	Practice
 pli_windowegoweapon.6	<color=3>Using Awakening Energy</color>\nGain awakening energy by attacking enemies with your Classic Spirit Weapon. Each time you hit enemies enough times to reach 100/100 on your energy bar, you'll get one skill charge on your spirit weapon. Use the skill once to prep it which will cause the energy bar to begin depleting, then again before the energy bar reaches zero to activate it. This skill can only be utilized when your weapon has at least one charge. \n\n<color=3>Energy Bar Cooldown</color>\nUsing the awakening skill will cause the energy bar to deactivate for a while. You won't be able to use the awakening skill again until the energy bar reactivates.
 pli_windowepilogue.1	게임 이용이 차단됩니다.
+pli_windowequipmentcollectionsystem.1	선택한 아이템에 <color=2><outlinecolor=3>[{0}]</outlinecolor></color> 외형을 적용합니다.\n<color=5>이미 외형이 적용된 아이템의 경우, 변경을 진행하면\n기존의 외형은 영구히 삭제됩니다.</color>\n정말 진행 하시겠습니까?
+pli_windowequipmentcollectionsystem.2	선택한 아이템에 <color=2><outlinecolor=3>[{0}]</outlinecolor></color> 외형을 적용합니다.\n<color=5>외형이 적용된 아이템은 거래가 불가능해집니다.</color>\n정말 진행 하시겠습니까?
 pli_windowexplorationquestboard.1	Refresh
 pli_windowexplorationquestboard.2	Search
 pli_windowexplorationquestboard.3	Search
@@ -5746,6 +5893,7 @@ pli_windowlobby.52	Cannot delete; currently on an expedition or resting at {0}'s
 pli_windowlobby.53	You cannot log in with a Fynni Pet.
 pli_windowlobby.54	Character {0} cannot be deleted.
 pli_windowlobby.55	Cannot delete; currently placed on the Homestead of character [{0}].
+pli_windowlobby.56	프리미엄 베이직 멤버십을 이용해야 펫을 사용할 수 있습니다.
 pli_windowlogin.0	메시지
 pli_windowlogin.1	인증번호 입력 유효시간이 경과되었습니다.
 pli_windowlogin.2	Start Mabinogi
@@ -6019,6 +6167,7 @@ pli_windowmissionsheet.37	You can check this quest location.
 pli_windowmissionsheet.38	Open Storyline
 pli_windowmissionsheet.39	You can now receive and begin the quest.
 pli_windowmissionsheet.40	Receive quest
+pli_windowmissionsheet.41	도움 요청
 pli_windowmissionsheetbingo.1	Bingo Row Reward
 pli_windowmissionsheetbingo.2	Perfect Bingo Reward
 pli_windowmissionsheetcreate.1	Notes
@@ -6356,6 +6505,8 @@ pli_windowoptiontabsperformance.37	Mini Effects
 pli_windowoptiontabsperformance.38	Using this option will minimize most effects. Various special effects will be turned off but performance will be increased. It is recommended to reconnect after turning this option on.
 pli_windowoptiontabsperformance.39	Disable Screen Shake
 pli_windowoptiontabsperformance.40	Turn on to remove screen shake effect from skills and monster movement. Does not disable screen shake in cutscenes.
+pli_windowoptiontabsperformance.41	내 대미지 스킨만 보기
+pli_windowoptiontabsperformance.42	이 옵션을 사용하면 상대방의 대미지 스킨은 보이지 않고 내가 활성화 시킨 대미지 스킨만 보이게 됩니다.
 pli_windowoptiontabssound.1	Use Sound FX for Footsteps
 pli_windowoptiontabssound.2	Disabling sound FX for footsteps may slightly increase the speed of the game.
 pli_windowoptiontabssound.3	Performance Options
@@ -6794,6 +6945,7 @@ pli_windowquest.12	Open
 pli_windowquest.13	DivKn
 pli_windowquest.14	Filtering
 pli_windowquest.15	You can request help with your current quest,\or help out with someone else's request.
+pli_windowquest.16	퀘스트 도움
 pli_windowquestevilscrollboard.1	Mission Reward: {0}
 pli_windowquestframes.1	This is a storyline quest.
 pli_windowquestframes.2	Shadow Mission
@@ -6949,6 +7101,9 @@ pli_windowserviceinfo.15	VIP Membership:
 pli_windowserviceinfo.16	In Use
 pli_windowserviceinfo.18	초보자 혜택
 pli_windowserviceinfo.19	PC방 혜택 보기
+pli_windowserviceinfo.20	프리미엄 베이직 멤버십 :
+pli_windowserviceinfo.21	프리미엄 배틀 멤버십 :
+pli_windowserviceinfo.22	프리미엄 라이프 멤버십 :
 pli_windowshadowmissionboard.1	Cannot be used with an Animal Character.
 pli_windowshadowmissionboard.2	Shadow Mission Bulletin
 pli_windowshadowmissionboard.3	Receive Mission
@@ -7346,6 +7501,9 @@ pli_windowtaskbaraction.25	Shows the skills of summoned pets.
 pli_windowtaskbaraction.26	You must complete the tutorial first in order to proceed with Blaanid's Brave Boost.
 pli_windowtaskbaraction.27	Complete the "Brave Boost: A Blue Fragrance on the Wind" quest first.
 pli_windowtaskbaraction.28	You cannot use the Auction House from the country where you're currently logged in.
+pli_windowtaskbaraction.31	이용하기
+pli_windowtaskbaraction.32	프리미엄 원격 {0}\n오늘 남은 이용 횟수 : {1}회
+pli_windowtaskbaraction.33	수리
 pli_windowtaskbarshadowmission.1	Press this button to leave the theatre.
 pli_windowtaskbarshadowmission.2	Press this button to view the script.
 pli_windowtaskbarshadowmission.3	Do you wish to leave the theatre?

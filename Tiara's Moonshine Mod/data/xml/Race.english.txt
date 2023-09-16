@@ -5391,7 +5391,7 @@
 7470	Argus
 7471	Argus
 7472	Giant Wood Jackal
-7473	Blue Poison Snake
+7473	Blue Poisonous Snake
 7474	Giant Brown Bear
 7475	Giant Bear Wolf
 7476	Cave Rat
@@ -9123,6 +9123,7 @@
 11349	Master Bandit Human
 11350	Master Bandit Giant
 11351	Master Bandit Boss
+11352	무등고래(프리미엄 멤버십)
 11353	다루의 스쿠터 (이벤트)
 11354	Slime Wyneb Mini-Gem
 11355	[Partner] Dog Sled
@@ -9384,6 +9385,8 @@
 11620	A Kitty In Need
 11621	Training Dummy
 11622	Succubus Fiend
+11623	아이완
+11624	비밀의 음유시인
 11625	Bully
 11626	Bully
 11627	Bully
@@ -9404,11 +9407,22 @@
 11642	Mutant Carnivorous Plant
 11643	Mutant Man-eating Plant
 11644	Mutant Man-eating Plant
+11645	아이완
+11646	알룬
 11647	Blazing Catsidhe
 11648	Dazzling Catsidhe
+11651	알룬
+11652	기억의 종
+11653	샨
+11654	블랙맨
 11655	레트로 조
+11656	내면의 거울
 11657	다루의 스쿠터 (이벤트)
+11658	알룬
+11659	내면의 거울
 11660	Ceraunus (Event)
+11661	흰올빼미
+11662	부엉이
 11663	Tathlum
 11664	Fire Slime
 11665	Ice Slime
@@ -9417,13 +9431,19 @@
 11668	Illusion Zombie
 11669	Tech Duinn Geata
 11670	Tech Duinn Geata
+11671	호박
 11672	Yggdrasil Wisp
 11673	Sylvan Dragon
 11674	Hasidim
+11675	알룬
+11676	알룬
+11678	기억의 종
 11679	푸르메 스투디
 11680	푸르메 몬디
 11681	푸르메 웬디
 11682	푸르메 위크
+11683	빛을 잃은 기억의 종
+11684	알룬 인형
 11685	푸르메재단 방울토마토 온실하우스
 11686	푸르메재단 표고버섯 온실하우스
 11687	푸르메재단 관리인

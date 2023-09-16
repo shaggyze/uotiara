@@ -8653,10 +8653,10 @@
 9980	Ray of Sunshine
 9981	the Dazzling Dude/Brilliant Babe
 9982	Ray of Sunshine
-9983	A title given to Milletians rad enough to enjoy 15 days of quality beach partying during the Connous Beach Vacation Event.
-9984	This fancy 2nd title can be used with regular titles.
-9985	A title given to Milletians rad enough to enjoy 15 days of quality beach partying during the Connous Beach Vacation Event.
-9986	This fancy 2nd title can be used with regular titles.
+9983	A title given to Milletians rad enough to enjoy 15 days of quality beach partying during the Connous Beach Vacation event.
+9984	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+9985	A title given to Milletians rad enough to enjoy 15 days of quality beach partying during the Connous Beach Vacation event.
+9986	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 9987	Luck +25
 9988	Luck +30
 9989	Grave of the Butterflies
@@ -13943,6 +13943,27 @@
 15448	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 15449	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 15450	Max Damage +18\nMagic Attack +25\nMusic Buff Effect +6\nWater/Fire/Wind/Earth Alchemic Damage +12\nCritical +5%\nDefense +10\nProtection +6\nMagic Defense +10\nMagic Protection +6\nMovement Speed +2%
+15451	삼하인 밤보다 짙은 자
+15452	소중한 시간을 피워낸
+15453	허상의 시간을 기억할
+15454	삼하인 밤보다 짙은 자
+15455	소중한 시간을 피워낸
+15456	허상의 시간을 기억할
+15457	삼하인 밤보다 짙은 자
+15458	소중한 시간을 피워낸
+15459	허상의 시간을 기억할
+15460	삼하인 밤보다 짙은 자
+15461	소중한 시간을 피워낸
+15462	허상의 시간을 기억할
+15463	짙은 삼하인 밤, 스크린샷 이벤트에 참여한 밀레시안에게 주어지는 특별한 2차 타이틀.
+15464	2022 삼하인을 행복한 기억으로 남긴 밀레시안에게 주어지는 타이틀. 올해 알룬, 샨, 아이완, 비밀의 음유시인과 만든 추억은 잊지 못할 것 같다.
+15465	2022 삼하인을 쓸쓸한 기억으로 남긴 밀레시안에게 주어지는 타이틀. 올해 만든 추억도 소중하지만, 앞으로도 꾸준히 쭉 나아갈 것이다.
+15466	짙은 삼하인 밤, 스크린샷 이벤트에 참여한 밀레시안에게 주어지는 특별한 2차 타이틀.
+15467	2022 삼하인을 행복한 기억으로 남긴 밀레시안에게 주어지는 타이틀. 올해 알룬, 샨, 아이완, 비밀의 음유시인과 만든 추억은 잊지 못할 것 같다.
+15468	2022 삼하인을 쓸쓸한 기억으로 남긴 밀레시안에게 주어지는 타이틀. 올해 만든 추억도 소중하지만, 앞으로도 꾸준히 쭉 나아갈 것이다.
+15469	행운 30 증가
+15470	행운 30 증가
+15471	행운 30 증가
 15472	17주년 마비노기 오프라인 파티
 15473	17주년 마비노기 오프라인 파티
 15474	17주년 마비노기 오프라인 파티
@@ -13978,6 +13999,20 @@
 15504	Max Damage +13\nMagic Attack +18\nCritical +12%\nStrength +10\nIntelligence +10\nDexterity +10\nWill +10\nLuck +10\nMax HP +50\nMax Stamina +50\nMax MP +50\nDefense +10\nProtection +5\nMagic Defense +20\nMagic Protection +8
 15505	Max Damage +17\nMagic Attack +25\nCritical +15%\nCritical Damage +2%\nStrength +15\nIntelligence +15\nDexterity +15\nWill +15\nLuck +15\nMax HP +70\nMax Stamina +70\nMax MP +70\nDefense +15\nProtection +8\nMagic Defense +30\nMagic Protection +12
 15506	Max Damage +23\nMagic Attack +35\nCritical +18%\nCritical Damage +4%\nBonus Damage +1%\nStrength +25\nIntelligence +25\nDexterity +25\nWill +25\nLuck +25\nMax HP +100\nMax Stamina +100\nMax MP +100\nDefense +20\nProtection +12\nMagic Defense +45\nMagic Protection +17
+15507	이 판을 지배한
+15508	세상에나 마상에나
+15509	이 판을 지배한
+15510	세상에나 마상에나
+15511	이 판을 지배한
+15512	세상에나 마상에나
+15513	이 판을 지배한
+15514	세상에나 마상에나
+15515	카드찾기 미니게임에서 모든 정답 카드를 찾아낸 자에게 주어지는 타이틀. 이 테이블 위의 카드들은 내가 모두 지배했다고 할 수 있을 것 같다.
+15516	카드찾기 미니게임에서 모든 카드를 찾지 못한 자에게 주어지는 타이틀. 세상에나 마상에나! 이럴 리가 없는데! 분명 정답 카드를 골랐는데!
+15517	카드찾기 미니게임에서 모든 정답 카드를 찾아낸 자에게 주어지는 타이틀. 이 테이블 위의 카드들은 내가 모두 지배했다고 할 수 있을 것 같다.
+15518	카드찾기 미니게임에서 모든 카드를 찾지 못한 자에게 주어지는 타이틀. 세상에나 마상에나! 이럴 리가 없는데! 분명 정답 카드를 골랐는데!
+15519	행운 30 증가
+15520	행운 30 증가
 15521	Sweet As Sugar
 15522	Devil On Your Shoulder
 15523	Sweet As Sugar
@@ -14237,6 +14272,24 @@
 15896	A Title awarded to Milletians who went for a walk every weekend during the Step by Step event.
 15897	Luck +30
 15898	Will +20
+15899	베테랑 도우미
+15900	마스터 도우미
+15901	에린 최고의 도우미
+15902	베테랑 도우미
+15903	마스터 도우미
+15904	에린 최고의 도우미
+15905	베테랑 도우미
+15906	마스터 도우미
+15907	에린 최고의 도우미
+15908	베테랑 도우미
+15909	마스터 도우미
+15910	에린 최고의 도우미
+15911	퀘스트 도움 요청자를 100번 이상 도와준 밀레시안에게 주어지는 타이틀이다.
+15912	퀘스트 도움 요청자를 200번 이상 도와준 밀레시안에게 주어지는 타이틀이다.
+15913	퀘스트 도움 요청자를 300번 이상 도와준 밀레시안에게 주어지는 타이틀이다.
+15914	퀘스트 도움 요청자를 100번 이상 도와준 밀레시안에게 주어지는 타이틀이다.
+15915	퀘스트 도움 요청자를 200번 이상 도와준 밀레시안에게 주어지는 타이틀이다.
+15916	퀘스트 도움 요청자를 300번 이상 도와준 밀레시안에게 주어지는 타이틀이다.
 15934	썸머 팡파르
 15935	썸머 팡파르
 15936	썸머 팡파르

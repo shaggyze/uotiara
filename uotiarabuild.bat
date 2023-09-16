@@ -35,7 +35,7 @@ xcopy "%MabiPath%\data\locale\" "%MabiPath%\UOTiara\data\locale\" /q /s /y /c /e
 xcopy "%MabiPath%\data\material\" "%MabiPath%\UOTiara\data\material\" /q /s /y /c /e
 xcopy "%MabiPath%\data\sound\" "%MabiPath%\UOTiara\data\sound\" /q /s /y /c /e
 xcopy "%MabiPath%\data\features.xml.compiled" "%MabiPath%\UOTiara\data\features.xml.compiled" /q /s /y /c /e
-"%MabiPath%\mabi-pack2\mabi-pack2.exe" pack -i %MabiPath%\UOTiara\ -o %MabiPath%\package\uotiara_00001.it -f .jpg -k "@6QeTuOaDgJlZcBm#9"
+"%MabiPath%\mabi-pack2\mabi-pack2.exe" pack -i %MabiPath%\UOTiara\ -o %MabiPath%\package\uotiara_00001.it -f .jpg -k "})wWb4?-sVGHNoPKpc"
 rmdir /q /s  "%MabiPath%\data\material\_define\"
 copy /y "%MabiPath%\package\uotiara_00001.it" "C:\Users\%username%\Documents\GitHub\uotiara\uotiara_00001.it"
 ) ELSE IF "%yesno%"=="n" (
