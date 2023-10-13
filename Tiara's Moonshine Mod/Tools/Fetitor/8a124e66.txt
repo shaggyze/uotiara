@@ -1,1 +1,1 @@
-    <Feature _Name="8a124e66" _RealName="gfVisualChat" Default="" Enable="G10S2" Disable="" />
+Enable="G10S2"

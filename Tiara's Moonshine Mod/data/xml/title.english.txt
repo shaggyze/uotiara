@@ -2493,8 +2493,8 @@
 2974	the Courteous
 2975	the Courteous
 2976	the Courteous
-2980	An honorable title awarded to someone who has been recognized by a beginner Milletian for being kind.
-2981	Can be used only after collecting a large number of Heart Stickers. Can be used with other titles.
+2980	An honorable title awarded to one who has been recognized by a beginner Milletian for their kindness.
+2981	A title granted to Milletians who came to the aid of someone in need at least 50 times. Can be used with other titles.
 2995	Max Stamina +30\nLuck +20\n[MaxHP -20]
 2996	Max Stamina +20\nWILL +20
 2997	the Master of Flame Burst
@@ -2694,7 +2694,7 @@
 3229	the Master of Magic
 3230	the Master of Magic
 3231	An honorable title awarded to someone who has reached the highest level available in Magic Mastery.
-3232	Meet all the training requirements of Magic Master Rank 1 and you will receive a title to prove it.
+3232	Meet all the training requirements of Magic Mastery Rank 1 and you will receive a title to prove it.
 3233	Magic Damage +20\nMax MP +20
 3234	You created high quality wine from Eluned's Vineyard.
 3235	You created high quality wine from Lezarro's Vineyard.
@@ -4782,7 +4782,7 @@
 5887	the Enlightened
 5888	the Enlightened
 5889	An honorable title awarded to someone who has reached the highest level available in Magic Mastery.
-5890	Meet all the training requirements of Magic Master Rank 1 and you will receive a title to prove it.
+5890	Meet all the training requirements of Magic Mastery Rank 1 and you will receive a title to prove it.
 5891	Given to Milletians who were reborn using an Anohana Character Card.
 5892	Given to Milletians who were reborn using an Anohana Character Card.
 5893	Magic ATT +20\nMax MP +20
@@ -10306,7 +10306,7 @@
 11734	A title given to Milletians who completed all G25 quests. Awarded only if the Milletian actively and selflessly helped others.
 11735	A title given to Milletians who completed all G25 quests. Awarded only if the Milletian encouraged and inspired others with kind words.
 11736	A title given to Milletians who completed all G25 quests. Awarded if the Milletian took good care of themselves and effectively fulfilled their duties.
-11737	Max Damage + 20\nIncreases Magic ATT by 20\nDefense + 10\nProtection + 10\nIncreases Magic Defense by 10\nMagic Protection + 10
+11737	Max Damage +20\nMagic Attack +20\nDefense +10\nProtection +10\nMagic Defense +10\nMagic Protection +10
 11738	
 11739	
 11740	
@@ -13432,7 +13432,7 @@
 14916	Reach 100 Training EXP for Shock Rank 1 to receive a title that proves your mastery.
 14917	Reach 100 Training EXP for Alchemy Mastery Rank 1 to receive a title that proves your mastery.
 14918	Reach 100 Training EXP for Life Drain Rank 1 to receive a title that proves your mastery.
-14919	Reach 100 Training EXP for Magic Master Rank 1 to receive a title that proves your mastery.
+14919	Reach 100 Training EXP for Magic Mastery Rank 1 to receive a title that proves your mastery.
 14920	Reach 100 Training EXP for Party Healing Rank 1 to receive a title that proves your mastery.
 14921	Reach 100 Training EXP for Carpentry Rank 1 to receive a title that proves your mastery.
 14922	Reach 100 Training EXP for Heat Buster Rank 1 to receive a title that proves your mastery.
@@ -13943,27 +13943,27 @@
 15448	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 15449	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 15450	Max Damage +18\nMagic Attack +25\nMusic Buff Effect +6\nWater/Fire/Wind/Earth Alchemic Damage +12\nCritical +5%\nDefense +10\nProtection +6\nMagic Defense +10\nMagic Protection +6\nMovement Speed +2%
-15451	삼하인 밤보다 짙은 자
-15452	소중한 시간을 피워낸
-15453	허상의 시간을 기억할
-15454	삼하인 밤보다 짙은 자
-15455	소중한 시간을 피워낸
-15456	허상의 시간을 기억할
-15457	삼하인 밤보다 짙은 자
-15458	소중한 시간을 피워낸
-15459	허상의 시간을 기억할
-15460	삼하인 밤보다 짙은 자
-15461	소중한 시간을 피워낸
-15462	허상의 시간을 기억할
-15463	짙은 삼하인 밤, 스크린샷 이벤트에 참여한 밀레시안에게 주어지는 특별한 2차 타이틀.
-15464	2022 삼하인을 행복한 기억으로 남긴 밀레시안에게 주어지는 타이틀. 올해 알룬, 샨, 아이완, 비밀의 음유시인과 만든 추억은 잊지 못할 것 같다.
-15465	2022 삼하인을 쓸쓸한 기억으로 남긴 밀레시안에게 주어지는 타이틀. 올해 만든 추억도 소중하지만, 앞으로도 꾸준히 쭉 나아갈 것이다.
-15466	짙은 삼하인 밤, 스크린샷 이벤트에 참여한 밀레시안에게 주어지는 특별한 2차 타이틀.
-15467	2022 삼하인을 행복한 기억으로 남긴 밀레시안에게 주어지는 타이틀. 올해 알룬, 샨, 아이완, 비밀의 음유시인과 만든 추억은 잊지 못할 것 같다.
-15468	2022 삼하인을 쓸쓸한 기억으로 남긴 밀레시안에게 주어지는 타이틀. 올해 만든 추억도 소중하지만, 앞으로도 꾸준히 쭉 나아갈 것이다.
-15469	행운 30 증가
-15470	행운 30 증가
-15471	행운 30 증가
+15451	Darker than Samhain Eve
+15452	the Keeper of Precious Memories
+15453	the Embracer of Evanescence
+15454	Darker than Samhain Eve
+15455	the Keeper of Precious Memories
+15456	the Embracer of Evanescence
+15457	Darker than Samhain Eve
+15458	the Keeper of Precious Memories
+15459	the Embracer of Evanescence
+15460	Darker than Samhain Eve
+15461	the Keeper of Precious Memories
+15462	the Embracer of Evanescence
+15463	A special 2nd Title given to Milletians who participated in the Screenshot Event during the Samhain season.
+15464	A title given to Milletians who made happy memories during the 2023 Samhain season. The time you spent with Aleyn, Sian, Iwan, and the Singer of Secrets will always live on in your heart.
+15465	A title given to Milletians who made melancholy memories during the 2023 Samhain season. What you experienced is precious, but you know in your heart you need to keep moving on--time waits for no one.
+15466	A special 2nd Title given to Milletians who participated in the Screenshot Event during the Samhain season.
+15467	A title given to Milletians who made happy memories during the 2023 Samhain season. The time you spent with Aleyn, Sian, Iwan, and the Singer of Secrets will always live on in your heart.
+15468	A title given to Milletians who made melancholy memories during the 2023 Samhain season. What you experienced is precious, but you know in your heart you need to keep moving on--time waits for no one.
+15469	Luck +30
+15470	Luck +30
+15471	Luck +30
 15472	17주년 마비노기 오프라인 파티
 15473	17주년 마비노기 오프라인 파티
 15474	17주년 마비노기 오프라인 파티
@@ -13999,20 +13999,20 @@
 15504	Max Damage +13\nMagic Attack +18\nCritical +12%\nStrength +10\nIntelligence +10\nDexterity +10\nWill +10\nLuck +10\nMax HP +50\nMax Stamina +50\nMax MP +50\nDefense +10\nProtection +5\nMagic Defense +20\nMagic Protection +8
 15505	Max Damage +17\nMagic Attack +25\nCritical +15%\nCritical Damage +2%\nStrength +15\nIntelligence +15\nDexterity +15\nWill +15\nLuck +15\nMax HP +70\nMax Stamina +70\nMax MP +70\nDefense +15\nProtection +8\nMagic Defense +30\nMagic Protection +12
 15506	Max Damage +23\nMagic Attack +35\nCritical +18%\nCritical Damage +4%\nBonus Damage +1%\nStrength +25\nIntelligence +25\nDexterity +25\nWill +25\nLuck +25\nMax HP +100\nMax Stamina +100\nMax MP +100\nDefense +20\nProtection +12\nMagic Defense +45\nMagic Protection +17
-15507	이 판을 지배한
-15508	세상에나 마상에나
-15509	이 판을 지배한
-15510	세상에나 마상에나
-15511	이 판을 지배한
-15512	세상에나 마상에나
-15513	이 판을 지배한
-15514	세상에나 마상에나
-15515	카드찾기 미니게임에서 모든 정답 카드를 찾아낸 자에게 주어지는 타이틀. 이 테이블 위의 카드들은 내가 모두 지배했다고 할 수 있을 것 같다.
-15516	카드찾기 미니게임에서 모든 카드를 찾지 못한 자에게 주어지는 타이틀. 세상에나 마상에나! 이럴 리가 없는데! 분명 정답 카드를 골랐는데!
-15517	카드찾기 미니게임에서 모든 정답 카드를 찾아낸 자에게 주어지는 타이틀. 이 테이블 위의 카드들은 내가 모두 지배했다고 할 수 있을 것 같다.
-15518	카드찾기 미니게임에서 모든 카드를 찾지 못한 자에게 주어지는 타이틀. 세상에나 마상에나! 이럴 리가 없는데! 분명 정답 카드를 골랐는데!
-15519	행운 30 증가
-15520	행운 30 증가
+15507	the Card Shark
+15508	the Dubiously Indebted
+15509	the Card Shark
+15510	the Dubiously Indebted
+15511	the Card Shark
+15512	the Dubiously Indebted
+15513	the Card Shark
+15514	the Dubiously Indebted
+15515	A title given to those who found all the correct cards in the Card Seeker mini-game. There's no fooling your sharp eyes, especially at the card table!
+15516	A title given to those who couldn't find all the correct cards in the Card Seeker mini-game. C'mooon, that was TOTALLY the right card! ...How about best three out of five?
+15517	A title given to those who found all the correct cards in the Card Seeker mini-game. There's no fooling your sharp eyes, especially at the card table!
+15518	A title given to those who couldn't find all the correct cards in the Card Seeker mini-game. C'mooon, that was TOTALLY the right card! ...How about best three out of five?
+15519	Luck +30
+15520	Luck +30
 15521	Sweet As Sugar
 15522	Devil On Your Shoulder
 15523	Sweet As Sugar
@@ -14272,24 +14272,27 @@
 15896	A Title awarded to Milletians who went for a walk every weekend during the Step by Step event.
 15897	Luck +30
 15898	Will +20
-15899	베테랑 도우미
-15900	마스터 도우미
-15901	에린 최고의 도우미
-15902	베테랑 도우미
-15903	마스터 도우미
-15904	에린 최고의 도우미
-15905	베테랑 도우미
-15906	마스터 도우미
-15907	에린 최고의 도우미
-15908	베테랑 도우미
-15909	마스터 도우미
-15910	에린 최고의 도우미
-15911	퀘스트 도움 요청자를 100번 이상 도와준 밀레시안에게 주어지는 타이틀이다.
-15912	퀘스트 도움 요청자를 200번 이상 도와준 밀레시안에게 주어지는 타이틀이다.
-15913	퀘스트 도움 요청자를 300번 이상 도와준 밀레시안에게 주어지는 타이틀이다.
-15914	퀘스트 도움 요청자를 100번 이상 도와준 밀레시안에게 주어지는 타이틀이다.
-15915	퀘스트 도움 요청자를 200번 이상 도와준 밀레시안에게 주어지는 타이틀이다.
-15916	퀘스트 도움 요청자를 300번 이상 도와준 밀레시안에게 주어지는 타이틀이다.
+15899	the Attentive Altruist
+15900	the Master Altruist
+15901	Erinn's Most Benevolent Altruist
+15902	the Attentive Altruist
+15903	the Master Altruist
+15904	Erinn's Most Benevolent Altruist
+15905	the Attentive Altruist
+15906	the Master Altruist
+15907	Erinn's Most Benevolent Altruist
+15908	the Attentive Altruist
+15909	the Master Altruist
+15910	Erinn's Most Benevolent Altruist
+15911	A title granted to Milletians who came to the aid of someone in need at least 100 times.
+15912	A title granted to Milletians who came to the aid of someone in need at least 200 times.
+15913	A title granted to Milletians who came to the aid of someone in need at least 300 times.
+15914	A title granted to Milletians who came to the aid of someone in need at least 100 times.
+15915	A title granted to Milletians who came to the aid of someone in need at least 200 times.
+15916	A title granted to Milletians who came to the aid of someone in need at least 300 times.
+15917	
+15918	
+15919	
 15934	썸머 팡파르
 15935	썸머 팡파르
 15936	썸머 팡파르
@@ -14353,3 +14356,17 @@
 16050	행운 30 증가
 16051	최대 대미지 21 증가\n마법 공격력 7 증가\n방어 5 증가 / 보호 5 증가
 16052	마법 공격력 30 증가\n최대 마나 12 증가\n방어 5 증가 / 보호 5 증가
+16095	a Winner at Losing
+16096	a Winner at Losing
+16097	a Winner at Losing
+16098	a Winner at Losing
+16099	A title granted to the bottom 1% of participants. Having luck this bad truly defies the odds, making you strangely lucky, in a weird way. Hopefully that's SOME consolation.
+16100	A title granted to the bottom 1% of participants. Having luck this bad truly defies the odds, making you strangely lucky, in a weird way. Hopefully that's SOME consolation.
+16101	Luck +30
+16137	홍콩 오프라인 기념용
+16138	홍콩 오프라인 기념용
+16139	홍콩 오프라인 기념용
+16140	홍콩 오프라인 기념용
+16141	홍콩 오프라인 이벤트에 참여할 시 획득할 수 있는 특별한 2차 타이틀.
+16142	홍콩 오프라인 이벤트에 참여할 시 획득할 수 있는 특별한 2차 타이틀.
+16143	행운 30 증가

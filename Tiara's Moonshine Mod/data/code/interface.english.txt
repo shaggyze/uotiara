@@ -173,8 +173,8 @@ msg.etc.error_character_data	Your character data is currently instable.\nPlease 
 msg.etc.hide_mode_msg	
 msg.etc.hide_party_mode_msg	
 msg.etc.hide_user_name	
-msg.etc.logout_penalty_exit	If you exit now, you will lose {0} EXP and {1} Gold.\nSafe exit will be possible after {2}.
-msg.etc.logout_penalty_logout	If you log off now, you will lose {0} EXP and {1} Gold.\nSafe log off will be possible after {2}.
+msg.etc.logout_penalty_exit	You will lose {0} EXP and {1} Gold.\nSafe exit will be possible after {2}.
+msg.etc.logout_penalty_logout	You will lose {0} EXP and {1} Gold.\nSafe log off will be possible after {2}.
 msg.etc.need_essentials	All essential items need to be filled in.
 msg.etc.need_essentials_2	All essential items need to be filled in.
 msg.etc.no_channelmove_combat	You cannot switch to another channel during a battle.
@@ -677,15 +677,15 @@ pli_beautyslottab.11	Open the Item Shop
 pli_beautyslottab.12	Appearance Change
 pli_beautyslottab.13	The character's appearance will be changed. Proceed?\n\n<color=2><outlinecolor=3>{0}</outlinecolor></color>
 pli_beautyslottab.14	Save {0}
-pli_beautyslottab.15	보유 폰 <color=2><outlinecolor=3>[{0}]</outlinecolor></color>폰 중,
-pli_beautyslottab.16	<color=5>* 확인 버튼을 누르는 시점에 소지한 폰에서 차감됩니다.</color>
-pli_beautyslottab.17	<color=5>* 차감 확인 후 즉시 상품을 제공합니다.</color>
-pli_beautyslottab.18	<color=5>* 구입 완료 후 취소는 불가능합니다.</color>
+pli_beautyslottab.15	You currently have <color=2><outlinecolor=3>{0}</outlinecolor></color> Pon.
+pli_beautyslottab.16	<color=5>* Pon will be deducted from your current total when you click 'OK'.</color>
+pli_beautyslottab.17	<color=5>* An additional slot will be unlocked immediately once the Pon has been spent.</color>
+pli_beautyslottab.18	<color=5>* The transaction cannot be canceled once the purchase has been completed.</color>
 pli_beautyslotviewboxframe.1	You cannot use appearance data for that gender.
 pli_bingo2019view.1	{0} Row(s)
-pli_bingo2019view.2	Five Bingo Coins will be consumed.
+pli_bingo2019view.2	Each play requires three Bingo Coins.
 pli_bingo2019view.3	Not enough Bingo Coins.
-pli_bingo2019view.4	You do not have a Tryouts Bingo Board.
+pli_bingo2019view.4	You do not have a Bingo Board.
 pli_bingo2019view.5	You got bingo!
 pli_bingo2019view.6	Failed to get bingo space reward.
 pli_bingo2019view.7	An unknown error has occurred.
@@ -695,6 +695,8 @@ pli_bingo2019view.10	Not enough Bingo Coins.
 pli_bingo2019view.11	Your temporary inventory is full.\nPlease make some space first.
 pli_bingo2019view.12	There is no event in progress.
 pli_bingo2019view.13	You got bingo!
+pli_bingo2019view.14	Failed to receive duplicate bingo space reward.
+pli_bingo2019view.15	You need {0} Bingo coin(s) to press\nthe Play Bingo button.
 pli_bingogachaponview.1	Click on the item to use it.
 pli_bingogachaponview.2	Shuffles your entire board, except numbers you've already obtained.
 pli_bingogachaponview.3	You will be moved to the Item Shop.\nGo now?
@@ -1702,19 +1704,19 @@ pli_entryview.3	You don't have any Spirit Weapons.\nBerched can help you form a 
 pli_entryview.4	Smart Contents {0}
 pli_entryview.5	Dungeon Guide
 pli_entryview.6	프리미엄 서비스/PC방 혜택 {0}
-pli_entryview.7	화폐 {0}
+pli_entryview.7	Currency {0}
 pli_equipmentcollectiontab.1	Loading...
 pli_equipmentcollectiontab.2	The Dressing Room is being loaded.
-pli_equipskinslottab.1	외형을 저장할 수 있는 장비가 없습니다.
-pli_equipskinslottab.2	외형을 저장할 아이템을 고르세요.
-pli_equipskinslottab.3	<color=2><outlinecolor=3>[{0}]</outlinecolor></color> 외형을 슬롯에서 영구히 삭제 합니다.\n<color=5>한번 삭제된 외형은 되돌릴 수 없습니다.</color>\n정말 진행 하시겠습니까?
-pli_equipskinslottab.4	슬롯 최대 갯수에 도달하여\n확장이 불가능합니다.
-pli_equipskinslottab.5	장비 외형 슬롯 확장
-pli_equipskinslottab.6	<color=2><outlinecolor=3>{0}</outlinecolor></color>폰을 사용하여 장비 외형 슬롯을 1칸 늘리시겠습니까?
-pli_equipskinslottab.7	외형을 변경할 아이템을 고르세요.
-pli_equipskinslottab.8	외형을 저장할 슬롯이 부족합니다.
-pli_equipskinslottab.9	외형 적용이 가능한 아이템이 없습니다.
-pli_equipskinslottab.10	장착할 수 없는 장비는 미리보기가 불가능 합니다.
+pli_equipskinslottab.1	You don't have any equipment whose appearance you can save.
+pli_equipskinslottab.2	Select the item whose appearance you'd like to save.
+pli_equipskinslottab.3	You are about to delete the <color=2><outlinecolor=3>{0}</outlinecolor></color>'s appearance from the slot.\n<color=5>Once deleted, it cannot be restored.</color>\nProceed?
+pli_equipskinslottab.4	You've reached the maximum number of slots\nallowed and cannot expand further.
+pli_equipskinslottab.5	Expand Equipment Appearance Slots
+pli_equipskinslottab.6	Would you like to spend <color=2><outlinecolor=3>{0}</outlinecolor></color> Pon to add a new Equipment Appearance Slot?
+pli_equipskinslottab.7	Select the item whose appearance you'd like to change.
+pli_equipskinslottab.8	No empty slots are available to save the appearance.
+pli_equipskinslottab.9	There are no items to which this appearance can be applied.
+pli_equipskinslottab.10	Items you cannot equip cannot be previewed.
 pli_ergenhancemainview.1	By infusing a weapon with Erg, you can gain Erg EXP\nor expand the weapon's Erg Max Level.\nSimply place a weapon in the slot to begin the infusion process.
 pli_ergenhancemainview.2	[Infusing Erg]
 pli_ergenhancemainview.3	You can infuse a weapon with Erg extracted from weapons of the same type.\nAdd a weapon of the same type as the target to the Required Materials slot.\nAdd weapons or special items as Additional Materials to gain other supplementary effects.
@@ -1790,6 +1792,9 @@ pli_expiretimeextendview.12	확인
 pli_expiretimeextendview.13	Cancel
 pli_expiretimeextendview.14	{0}일 {1}폰
 pli_expiretimeextendview.15	기간 연장
+pli_extrabagorderframe.1	Expanded Inventory
+pli_extrabagorderframe.2	PLUS Inventory
+pli_extrabagorderframe.3	Mabinogi VIP Service Inventory
 pli_extrabagorderview.1	Please try again in {0} seconds.
 pli_eyeblinkview.1	Apply changes to blink settings?
 pli_eyerestoreview.1	Using this coupon will change your current\neye colors and eye style to the ones stored on the coupon.\nWould you like to apply the coupon's eye colors and eye style?
@@ -1965,9 +1970,9 @@ pli_fashionnoticeview.2	Preliminaries: Starts every evening at 8pm except on Imb
 pli_fashionnoticeview.3	Application
 pli_fashionnoticeview.4	Preliminaries: Register between 7:50pm and 9pm on days of prelims.\nFinals: Register between 7:30pm and 8pm on the day of Final.
 pli_fashionnoticeview.5	Theme
-pli_fashionnoticeview.6	The theme of this contest is [Good Friends].
-pli_fashionnoticeview.7	The theme of this contest is [Confidence].
-pli_fashionnoticeview.8	The theme of this contest is [Puppy Love].
+pli_fashionnoticeview.6	The theme of this contest is Good Friends.
+pli_fashionnoticeview.7	The theme of this contest is Confidence.
+pli_fashionnoticeview.8	The theme of this contest is New Love.
 pli_fashionnoticeview.9	The theme of today's contest has not been decided yet.
 pli_fashionnoticeview.10	Game Method and Points
 pli_fashionnoticeview.11	You must enter the W A S D keys quickly and accurately according to the arrows indicated above the stage.
@@ -2005,14 +2010,14 @@ pli_feedowlview.2	Feed Owl
 pli_feedowlview.3	It's time to feed\nthe Baby Owl.
 pli_feedtigerview.1	Feed Tiger Cub
 pli_feedtigerview.2	It's time to feed\nthe Tiger Cub.
-pli_findcardminigameview.1	이 카드를 찾아보자!
-pli_findcardminigameview.2	정답 카드를 골라 주세요.
-pli_findcardminigameview.3	다시 한번 정답 카드를 찾아보자!
-pli_findcardminigameview.4	얏호 정답 카드를 찾았다!
-pli_findcardminigameview.5	이런... 아쉽게도 오답 카드를 골랐다.
-pli_findcardminigameview.6	긴장한 나머지, 카드를 고르지 못했다!
-pli_findcardminigameview.7	{0}초 뒤 다음 턴이 시작됩니다.
-pli_findcardminigameview.8	{0}초 뒤 게임이 종료됩니다.
+pli_findcardminigameview.1	Find this card!
+pli_findcardminigameview.2	Choose the correct card.
+pli_findcardminigameview.3	Try to find the correct card!
+pli_findcardminigameview.4	Hooray! You found the correct card!
+pli_findcardminigameview.5	Unfortunately, your choice was incorrect.
+pli_findcardminigameview.6	You spent so much time thinking, you didn't pick a card!
+pli_findcardminigameview.7	Next round starts in {0} sec.
+pli_findcardminigameview.8	The game ends in {0} sec.
 pli_fishing2016view.1	List will refresh in {0} min
 pli_fishingboxview.1	Destroy the selected items?
 pli_fishingboxview.2	Move the selected items to your inventory?
@@ -2149,17 +2154,17 @@ pli_gachaponrewardinventoryview.2	The item you selected does not exist.
 pli_gachaponrewardinventoryview.3	Would you like to move this item to your Inventory?
 pli_gachaponrewardinventoryview.4	The item you selected does not exist.
 pli_gachaponrewardinventoryview.5	You cannot receive or restore items once you delete them.
-pli_gameendframe.1	진행중
-pli_gameendframe.2	미수령
-pli_gameendframe.3	이벤트
-pli_gameendframe.4	{0} {1}개
-pli_gameendmainview.1	현재 인벤토리에 없는 아이템입니다.
-pli_gameendmainview.2	이미 완료 혹은 삭제된 퀘스트 입니다.
-pli_gameendmainview.3	에린 패스 보상
-pli_gameendmainview.4	모험 일지 보상
-pli_gameendmainview.5	이루샤의 출석 체크샤 보상
-pli_gameendmainview.6	NPC 샤이에게 보상을 수령하실 수 있습니다.
-pli_gameendmainview.7	이미 모든 보상을 습득 하였습니다.
+pli_gameendframe.1	In progress
+pli_gameendframe.2	Unclaimed
+pli_gameendframe.3	Event
+pli_gameendframe.4	{0} x{1}
+pli_gameendmainview.1	This item is not in your inventory.
+pli_gameendmainview.2	This quest has already been completed or removed.
+pli_gameendmainview.3	Erinn Pass Reward
+pli_gameendmainview.4	Adventure Journal Reward
+pli_gameendmainview.5	Irusan's Attendance Check-in Reward
+pli_gameendmainview.6	You can claim the reward from Lorna.
+pli_gameendmainview.7	You've already received all your rewards.
 pli_gametipview.1	Daily Tip
 pli_gametipview.2	Turn Off Daily Tips
 pli_gametipview.3	Close this Tip
@@ -2291,10 +2296,10 @@ pli_hairrestoreview.3	The stored hairstyle will be applied immediately, and this
 pli_hairrestoreview.4	Using this coupon will change your current hairdo and hair color to the ones stored on the coupon.\n\nWould you like to apply the coupon's hairdo and color?
 pli_heightselectchangeview.1	{0} Years Old Appearance
 pli_heightselectchangeview.2	Change your appearance to {0} years old.
-pli_helpalarmsettingview.1	비활성화
-pli_helpalarmsettingview.2	활성화
+pli_helpalarmsettingview.1	Deactivate
+pli_helpalarmsettingview.2	Activate
 pli_helpboardrankview.1	Rank {0}
-pli_helpboardrankview.2	{0} Point(s)
+pli_helpboardrankview.2	{0}
 pli_helpboardrankview.3	My Altruism Points: {0}
 pli_helpboardrankview.4	My Altruism Score: {0}
 pli_helpboardrankview.5	Last Update: {0}-{1}-{2}
@@ -3114,7 +3119,7 @@ pli_jouststandbyview.8	Time Left: {0} min.
 pli_jouststandbyview.9	Time Left: {0} sec.
 pli_jouststandbyview.10	Round {0}\nParticipants: {1}
 pli_jouststandbyview.11	You have been selected as a challenger for this Jousting Tournament.\nIf you decline to participate, you may face a penalty that decreases\nyour chance of being selected in future tournaments. You may now favor a player to win.
-pli_jouststandbyview.12	You have not been selected as a challenger for this Jousting Tournament.\nThe more often you favor other players to win, the more likely you are\nto be selected in the future. You may now favor a player to win.
+pli_jouststandbyview.12	You have not been selected to compete in this round.\nCheering for other players increases your chances of\nbeing chosen in future rounds. You may register to\ncheer for another player at the Tournament Board.
 pli_jouststandbyview.13	Forfeit Match
 pli_jouststandbyview.14	You will be <color=2><outlinecolor=3>penalized</outlinecolor></color> if you forfeit the Jousting Tournament match.\nForfeit?
 pli_joustvictoryview.1	OK
@@ -3546,7 +3551,7 @@ pli_personalrankingdefaultview.5	Page not found.
 pli_personalrankingdefaultview.6	{0} / {1}
 pli_personalrankingdefaultview.7	Period - {0}.{1}.{2} (Resets on {3}.{4} 0:00)
 pli_personalrankingdefaultview.8	Last Season
-pli_personalrankingdefaultview.9	퀘스트 도우미 이전 시즌
+pli_personalrankingdefaultview.9	Previous Altruism Season
 pli_personalshopsetpriceview.1	Price Selection
 pli_personalshopsetpriceview.2	Stop Sale
 pli_personalshopsetpriceview.3	Set Price\nFor All
@@ -4471,10 +4476,10 @@ pli_smartcontentboardview.1	Part-Time Job
 pli_smartcontentboardview.2	, or
 pli_smartcontentboardview.3	{0} will appear in {1}.
 pli_smartcontentboardview.4	and
-pli_smartcontentboardview.5	You can participate in {0} today!
-pli_smartcontentboardview.6	Location:
-pli_smartcontentboardview.7	{1} is starting in {0}!
-pli_smartcontentboardview.8	Location:
+pli_smartcontentboardview.5	You can participate in the {0} today!
+pli_smartcontentboardview.6	Location: 
+pli_smartcontentboardview.7	The {1} starts at {0}!
+pli_smartcontentboardview.8	Location: 
 pli_smartcontentlistrow.1	Teleport to <{0}>?\n<Can be used by characters with a cumulative level under 300.>
 pli_smartcontentlistrow.2	Traveler's Guide
 pli_smartcontentlistrow.3	To use that, you must have a cumulative level below 300.
@@ -5499,7 +5504,7 @@ pli_windowcookdungeoncomplete.3	Detail
 pli_windowcountdownframe.1	{0} hour(s) {1} min {2} sec
 pli_windowcountdownframe.2	{0} min {1} sec
 pli_windowcountdownframe.3	{0} sec
-pli_windowcurrency.1	전체
+pli_windowcurrency.1	All
 pli_windowdagdaundryview.1	아이템 추출 실패
 pli_windowdagdaundryview.2	사용 가능 횟수 : {0}
 pli_windowdagdaundryview.3	{0}의 항아리
@@ -5551,8 +5556,8 @@ pli_windowegoweapon.4	Rank {0}
 pli_windowegoweapon.5	Practice
 pli_windowegoweapon.6	<color=3>Using Awakening Energy</color>\nGain awakening energy by attacking enemies with your Classic Spirit Weapon. Each time you hit enemies enough times to reach 100/100 on your energy bar, you'll get one skill charge on your spirit weapon. Use the skill once to prep it which will cause the energy bar to begin depleting, then again before the energy bar reaches zero to activate it. This skill can only be utilized when your weapon has at least one charge. \n\n<color=3>Energy Bar Cooldown</color>\nUsing the awakening skill will cause the energy bar to deactivate for a while. You won't be able to use the awakening skill again until the energy bar reactivates.
 pli_windowepilogue.1	게임 이용이 차단됩니다.
-pli_windowequipmentcollectionsystem.1	선택한 아이템에 <color=2><outlinecolor=3>[{0}]</outlinecolor></color> 외형을 적용합니다.\n<color=5>이미 외형이 적용된 아이템의 경우, 변경을 진행하면\n기존의 외형은 영구히 삭제됩니다.</color>\n정말 진행 하시겠습니까?
-pli_windowequipmentcollectionsystem.2	선택한 아이템에 <color=2><outlinecolor=3>[{0}]</outlinecolor></color> 외형을 적용합니다.\n<color=5>외형이 적용된 아이템은 거래가 불가능해집니다.</color>\n정말 진행 하시겠습니까?
+pli_windowequipmentcollectionsystem.1	The <color=2><outlinecolor=3>{0}</outlinecolor></color>'s form will be applied to the selected item.\n<color=5>If a different appearance has already been applied, the existing\n appearance will be overwritten by the new one.</color>\nProceed?
+pli_windowequipmentcollectionsystem.2	You are about to apply the <color=2><outlinecolor=3>{0}</outlinecolor></color>'s form to the selected item.\n<color=5>Items whose appearance has been changed cannot be traded.</color>\nProceed?
 pli_windowexplorationquestboard.1	Refresh
 pli_windowexplorationquestboard.2	Search
 pli_windowexplorationquestboard.3	Search
@@ -6148,7 +6153,7 @@ pli_windowmissionsheet.18	{0} - {1:Unlimited}
 pli_windowmissionsheet.19	{0} - {1}
 pli_windowmissionsheet.20	{0} or more
 pli_windowmissionsheet.21	Party Size: {0}\n
-pli_windowmissionsheet.22	Help from Royal Alchemists Available
+pli_windowmissionsheet.22	Royal Alchemists and those who ranked in the Top 100 during the previous Altruism Season can apply
 pli_windowmissionsheet.23	Stage Difficulty: {0}\n
 pli_windowmissionsheet.24	Synopsis
 pli_windowmissionsheet.25	Performance Information
@@ -6167,7 +6172,7 @@ pli_windowmissionsheet.37	You can check this quest location.
 pli_windowmissionsheet.38	Open Storyline
 pli_windowmissionsheet.39	You can now receive and begin the quest.
 pli_windowmissionsheet.40	Receive quest
-pli_windowmissionsheet.41	도움 요청
+pli_windowmissionsheet.41	Request Help
 pli_windowmissionsheetbingo.1	Bingo Row Reward
 pli_windowmissionsheetbingo.2	Perfect Bingo Reward
 pli_windowmissionsheetcreate.1	Notes
@@ -6501,12 +6506,12 @@ pli_windowoptiontabsperformance.33	Will load the world slower. Less influence on
 pli_windowoptiontabsperformance.34	High
 pli_windowoptiontabsperformance.35	Will load the world faster. The game frame may drop significantly. 
 pli_windowoptiontabsperformance.36	Adjust the speed of instant loading. 
-pli_windowoptiontabsperformance.37	Mini Effects
+pli_windowoptiontabsperformance.37	Minimize VFX
 pli_windowoptiontabsperformance.38	Using this option will minimize most effects. Various special effects will be turned off but performance will be increased. It is recommended to reconnect after turning this option on.
 pli_windowoptiontabsperformance.39	Disable Screen Shake
 pli_windowoptiontabsperformance.40	Turn on to remove screen shake effect from skills and monster movement. Does not disable screen shake in cutscenes.
-pli_windowoptiontabsperformance.41	내 대미지 스킨만 보기
-pli_windowoptiontabsperformance.42	이 옵션을 사용하면 상대방의 대미지 스킨은 보이지 않고 내가 활성화 시킨 대미지 스킨만 보이게 됩니다.
+pli_windowoptiontabsperformance.41	Hide Others' Damage Skins
+pli_windowoptiontabsperformance.42	Enable this setting to see only your active damage skin, hiding any used by other players.
 pli_windowoptiontabssound.1	Use Sound FX for Footsteps
 pli_windowoptiontabssound.2	Disabling sound FX for footsteps may slightly increase the speed of the game.
 pli_windowoptiontabssound.3	Performance Options
@@ -6559,6 +6564,10 @@ pli_windowoptiontabsvideo.26	Full Screen
 pli_windowoptiontabsvideo.27	Borderless Full Screen Mode
 pli_windowoptiontabsvideo.28	Screen Mode
 pli_windowoptiontabsvideo.29	Screen Mode Settings
+pli_windowoptiontabsvideo.30	디스플레이 배율 적용(클라이언트 재시작시 적용)
+pli_windowoptiontabsvideo.31	고해상도에서 사용자 인터페이스의 배율이 조절됩니다.\n(Windows 10 버전 이상에서만 작동합니다.)
+pli_windowoptiontabsvideo.32	전체 화면 모드 에서는 디스플레이 배율 적용을 사용할 수 없습니다.
+pli_windowoptiontabsvideo.33	전체 화면 모드 에서는 GDI 활성화 기능을 사용할 수 없습니다.
 pli_windowotpauth.1	Login Authentication\nOTP 인증 로그인
 pli_windowotpauth.2	{0}고객님은 OTP 인증 로그인 서비스를 이용 중입니다.
 pli_windowotpauth.3	마지막으로 접속한 IP는 {0} 입니다.
@@ -6945,7 +6954,7 @@ pli_windowquest.12	Open
 pli_windowquest.13	DivKn
 pli_windowquest.14	Filtering
 pli_windowquest.15	You can request help with your current quest,\or help out with someone else's request.
-pli_windowquest.16	퀘스트 도움
+pli_windowquest.16	Quest Help
 pli_windowquestevilscrollboard.1	Mission Reward: {0}
 pli_windowquestframes.1	This is a storyline quest.
 pli_windowquestframes.2	Shadow Mission

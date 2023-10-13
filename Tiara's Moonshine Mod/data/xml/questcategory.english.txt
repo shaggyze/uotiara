@@ -74,4 +74,5 @@
 74	Arcn
 75	[Elemental Knight]
 76	[Harmonic Saint]
+77	[Goal Achieved]
 78	[Attendance Check Mission]
