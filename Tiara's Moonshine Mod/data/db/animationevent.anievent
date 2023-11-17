@@ -77,7 +77,7 @@
 // 	* face
 //		[프레임수]:face(
 //					{default|smile|upset|serious|laugh|cute|confused|down|close|
-//					 love|sad|what|happy|blink})
+//					 love|sad|what|happy|blink|surprise})
 //
 //		: 캐릭터의 표정을 바꾼다
 //
@@ -2672,6 +2672,51 @@ set("C4_human")
 
 
 	folder("char\chapter4\human\anim")
+	
+	"human_Halloween2023Desk_Sit"
+		
+		0:lookat(off)
+		0:hand(both,palm)		
+		0:hideequip(true)	
+		39:hand(both,fist)	
+		39:generic("custom_mesh(1:tool_2023Halloweendesk02_ani)")		
+		//그림자	
+		//90:generic("custom_mesh(2:tool_2023Halloweendesk05_ani)")			
+		88:hand(both,palm)	
+		160:hand(left,fist)	
+		186:hand(both,fist)	
+		220:effect("halloweendesk01",0,1)		
+		220:effect("halloweendesk02",0,1)		
+		220:generic("custom_mesh(1:tool_2023Halloweendesk_ani)")	
+		250:hand(left,palm)
+		362:hand(left,fist)
+		
+		324:hand(left,palm)
+		336:hand(left,fist)
+		376:effect("halloweendesk01",0,1)		
+		376:effect("halloweendesk02",0,1)	
+		376:generic("custom_mesh(1:tool_2023Halloweendesk03_ani)")	
+		
+		425:hand(left,palm)
+		432:hand(left,fist)
+		473:effect("halloweendesk01",0,1)		
+		473:effect("halloweendesk02",0,1)	
+		473:generic("custom_mesh(1:tool_2023Halloweendesk04_ani)")			
+		
+		550:hand(left,palm)
+		560:hand(left,fist)
+		593:effect("halloweendesk01",0,1)		
+		593:effect("halloweendesk02",0,1)	
+		593:generic("custom_mesh(1:tool_2023Halloweendesk02_ani)")	
+		
+
+		//그림자		
+		//653:generic("custom_mesh(2)")
+		645:hand(both,palm)	
+		//767:generic("custom_mesh(2:tool_2023Halloweendesk05_ani)")	
+
+
+		794:jump(104,true)		
 	
 	"human_outdoorstage_sit"
 		0:lookat(off)
@@ -7462,7 +7507,23 @@ set("C4_human")
 			0:lookat(off)
 			0:hand(both, fist)		
 			24:hit(down, normal)			
-
+        
+		"human_paintbrush_stand"
+			0:lookat(off)
+			0:hand(right,fist)
+			0:hand(left,palm)
+			53:hand(left,fist)
+			53:generic("custom_equip(shield:tool_paintbrush01_ani)")
+			84:hand(left,palm)
+			112:hand(left,fist)
+			323:hand(left,palm)
+			848:hand(left,fist)
+			1048:hand(left,palm)
+			1213:hand(right,palm)
+			1224:hand(right,fist)
+			1312:jump (515, true)
+			
+			
 		"BN_down"
 			0:lookat(off)
 			0:hand(both, fist)	
@@ -14402,6 +14463,96 @@ set("C4_giant")
 
 	folder("char\chapter4\giant\anim")
 	
+	"giant_Halloween2023Desk_Sit"
+		
+		0:lookat(off)
+		0:hand(both,palm)		
+		0:hideequip(true)	
+		
+		39:generic("custom_mesh(1:giant_tool_2023Halloweendesk02_ani)")		
+		//그림자	
+		//90:generic("custom_mesh(2:giant_tool_2023Halloweendesk05_ani)")			
+		88:hand(both,palm)	
+		160:hand(left,fist)	
+		186:hand(both,fist)	
+		220:effect("halloweendesk01_G",0,1)		
+		220:effect("halloweendesk02_G",0,1)		
+		220:generic("custom_mesh(1:giant_tool_2023Halloweendesk_ani)")	
+		250:hand(left,palm)
+		362:hand(left,fist)
+		
+		324:hand(left,palm)
+		336:hand(left,fist)
+		376:effect("halloweendesk01_G",0,1)		
+		376:effect("halloweendesk02_G",0,1)	
+		376:generic("custom_mesh(1:giant_tool_2023Halloweendesk03_ani)")	
+		
+		425:hand(left,palm)
+		432:hand(left,fist)
+		473:effect("halloweendesk01_G",0,1)		
+		473:effect("halloweendesk02_G",0,1)	
+		473:generic("custom_mesh(1:giant_tool_2023Halloweendesk04_ani)")			
+		
+		550:hand(left,palm)
+		560:hand(left,fist)
+		593:effect("halloweendesk01_G",0,1)		
+		593:effect("halloweendesk02_G",0,1)	
+		593:generic("custom_mesh(1:giant_tool_2023Halloweendesk02_ani)")	
+		
+
+		//그림자		
+		//653:generic("custom_mesh(2)")
+		645:hand(both,palm)	
+		//767:generic("custom_mesh(2:giant_tool_2023Halloweendesk05_ani)")	
+
+		794:jump(104,true)		
+		
+		
+	"giant_female_Halloween2023Desk_Sit"
+		
+		0:lookat(off)
+		0:hand(both,palm)		
+		0:hideequip(true)	
+		
+		39:generic("custom_mesh(1:giant_tool_2023Halloweendesk02_ani)")		
+		//그림자	
+		//90:generic("custom_mesh(2:giant_tool_2023Halloweendesk05_ani)")			
+		88:hand(both,palm)	
+		160:hand(left,fist)	
+		186:hand(both,fist)	
+		220:effect("halloweendesk01_G",0,1)		
+		220:effect("halloweendesk02_G",0,1)		
+		220:generic("custom_mesh(1:giant_tool_2023Halloweendesk_ani)")	
+		250:hand(left,palm)
+		362:hand(left,fist)
+		
+		324:hand(left,palm)
+		336:hand(left,fist)
+		376:effect("halloweendesk01_G",0,1)		
+		376:effect("halloweendesk02_G",0,1)	
+		376:generic("custom_mesh(1:giant_tool_2023Halloweendesk03_ani)")	
+		
+		425:hand(left,palm)
+		432:hand(left,fist)
+		473:effect("halloweendesk01_G",0,1)		
+		473:effect("halloweendesk02_G",0,1)	
+		473:generic("custom_mesh(1:giant_tool_2023Halloweendesk04_ani)")			
+		
+		550:hand(left,palm)
+		560:hand(left,fist)
+		593:effect("halloweendesk01_G",0,1)		
+		593:effect("halloweendesk02_G",0,1)	
+		593:generic("custom_mesh(1:giant_tool_2023Halloweendesk02_ani)")	
+		
+
+		//그림자		
+		//653:generic("custom_mesh(2)")
+		645:hand(both,palm)	
+		//767:generic("custom_mesh(2:giant_tool_2023Halloweendesk05_ani)")	
+
+		794:jump(104,true)						
+		
+	
 	"giant_outdoorstage_sit"
 		0:lookat(off)
 		0:hand(both,palm)		
@@ -20716,8 +20867,35 @@ set("C4_giant")
 			0:hand (left, palm)
 			0:lookat(off)		
 
-
+        "giant_paintbrush_stand"
+			0:lookat(off)
+			0:hand(right,fist)
+			0:hand(left,palm)
+			53:hand(left,fist)
+			53:generic("custom_equip(shield:giant_tool_paintbrush01_ani)")
+			84:hand(left,palm)
+			112:hand(left,fist)
+			323:hand(left,palm)
+			848:hand(left,fist)
+			1048:hand(left,palm)
+			1213:hand(right,palm)
+			1224:hand(right,fist)
+			1312:jump (515, true)
 			
+		"giant_female_paintbrush_stand"
+			0:lookat(off)
+			0:hand(right,fist)
+			0:hand(left,palm)
+			53:hand(left,fist)
+			53:generic("custom_equip(shield:giant_tool_paintbrush01_ani)")
+			84:hand(left,palm)
+			112:hand(left,fist)
+			323:hand(left,palm)
+			848:hand(left,fist)
+			1048:hand(left,palm)
+			1213:hand(right,palm)
+			1224:hand(right,fist)
+			1312:jump (515, true)
 
 
 	endfolder
@@ -24793,7 +24971,8 @@ endset
 set("slash")
 
         folder("char\chapter3\human\anim\tool\rhand_a")
-
+			
+		
 		"human_tool_rhand_a03_slash_casting"
 		0:hand(right, fist)
 		0:hand(left, palm)
@@ -29423,6 +29602,38 @@ set("social motion")
 	
 	folder("char\chapter4\human\anim\social_motion")
 	
+	"female_snowmountain"
+		0:lookat(off)
+		0:hand(both, palm)
+		1:generic("custom_equipmentmesh(1, female_c4_snowmountain_bls_ani)")
+		150:effect("snowmountain",0,1)
+		185:effect("snowmountain01",0,1)
+		210:effect("snowmountain02",0,1)		
+		1300:jump(581,true)		
+		
+		
+	"male_snowmountain"
+		0:lookat(off)
+		0:hand(both, palm)
+		1:generic("custom_equipmentmesh(1, male_c4_SnowMountain_bllh_ani)")
+		150:effect("snowmountain",0,1)
+		185:effect("snowmountain01",0,1)
+		210:effect("snowmountain02",0,1)		
+		1300:jump(581,true)			
+	
+	
+	"male_circus"
+		0:lookat(off)
+		0:hand(both, palm)
+		960:jump(257)	
+		192:generic("custom_mesh(0:tool_c4_circuscard01_ani)")
+	
+	
+	"female_circus"
+		0:lookat(off)
+		0:hand(both, palm)
+		960:jump(257)	
+		192:generic("custom_mesh(0:tool_c4_circuscard01_ani)")
 	
 	"female_vtuber"
 		0:lookat(off)
@@ -29454,6 +29665,15 @@ set("social motion")
 		0:lookat(off)
 		0:hand(both, palm)		
 
+
+	"female_2023halloween"
+		0:lookat(off)
+		0:hand(both, palm)
+		
+	"male_2023halloween"
+		0:lookat(off)
+		0:hand(both, palm)
+	
 	"male_2023koreawear01"
 		0:lookat(off)
 		0:hand(both, palm)
@@ -29708,8 +29928,40 @@ set("social motion")
 		0:hand(both, palm)	
 		0:hideequip(false)
 		75:eyechange(223, 0)
-		1572:jump(266)	
+		1572:jump(266,true)	
+		75:effect("gesture_wintersleep_ball01_01",0,1)	
 
+
+	"human_23gesture_01"
+		0:lookat(off)
+		0:hand(both, fist)
+		0:hideequip(false)
+		10:generic ("custom_equip(weapon:weapon_c4_beimnech_sword, tb1b:171426, tb4b:808080)")		
+		10:effect("BN_Rswing_trail001",0,1)
+		10:effect("Bn_stomp_small001",0,1)
+		15:sound("data\sound\giant_fullswing_swing.wav")
+		22:effect("BN_Lswing_trail001",0,1)
+		22:effect("Bn_stomp_small001",0,1)		
+		22:sound("data\sound\giant_fullswing_swing.wav")
+		40:effect("BN_upswing_trail001",0,1)
+		40:effect("Bn_stomp001",0,1)
+		38:sound("data\sound\giant_fullswing_swing.wav")
+		60:effect("balor_bottom002",0,1)	
+		63:sound("data\sound\golem_stomp.wav")		
+		110:generic ("custom_equip(weapon)")		
+	
+	
+	"human_23gesture_02"
+		0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		355:jump(15)
+		
+	"human_23gesture_03"
+		0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		330:jump(10)
 		
 	"male_heartchair01_sit"
 		0:lookat(off)
@@ -61209,7 +61461,28 @@ folder("::scene_prop_streamingdesk01")
 			0:linkframework(1, "race:990139, c1:006600 ,c2:2D2121 ,c3:C19000 ,c4:808080, c5:DBB581", "Riding1", "data/gfx/char/chapter4/monster/anim/imp/imp_treasure_house01")	
 	
 	endfolder	
+
+	folder("::farm_prop_munchkincat_miniature")
+		"farm_prop_munchkincat_miniature"
+			0:linkframework(1, "race:990384, c1:CBAA88 c2:36251A c3:D49843", "bone01", "data/gfx/char/chapter4/pet/anim/munchkincat/pet_munchkincat_sit02")		
+	endfolder
+
+	folder("::farm_prop_paladog_miniature")
+		"farm_prop_paladog_miniature"
+			0:linkframework(1, "race:990385", "bone01", "data/gfx/char/pet/anim/dog/pet_dog_02_natural_sit_02")		
+	endfolder
+
+
+	folder("::farm_prop_elephant_miniature")
+		"farm_prop_elephant_miniature"
+			0:linkframework(1, "race:990386, c1:808080 c2:D86B6B c3:8D755B c4:true", "bone01", "data/gfx/char/chapter3/pet/anim/elephant/pet_elephant_stand_friendly")		
+	endfolder	
 	
+	folder("::farm_prop_camel_miniature")
+		"farm_prop_camel_miniature"
+			0:linkframework(1, "race:990387, c1:90806C c2:808080 c3:91D8FF c4:true", "bone01", "data/gfx/char/chapter4/pet/anim/commerce/commerce_camel_stand")		
+	endfolder			
+
 	
 	folder("::farm_prop_treasure_storage01")		
 		"farm_prop_treasure_storage01"
@@ -65287,6 +65560,46 @@ endset
 set("Knight")
 
 	folder("char\chapter4\human\anim\tool\rhand_A")
+	
+	
+		"human_rhand_A01_bash03_run"
+			0:lookat(off)
+			0:hand(both, fist)
+			2:effect("footstep_right")
+			9:effect("footstep_left")		
+			9:effect("footstep_right")		
+		
+		"human_rhand_A01_bash03_hit"		
+			0:lookat(off)
+			0:hand(both, fist)
+			3:hit(down, normal)
+			
+	
+	"human_scroll_stand"
+		0:lookat(off)		
+		0:hand(both, fist)
+		313:hand(left, palm)
+		524:hand(left, fist)
+		
+	"human_horn_stand"
+		0:lookat(off)		
+		0:hand(both, palm)
+	
+
+	"male_snowmountainumbrella_stand"
+		0:lookat(off)		
+		0:hand(left, palm)		
+		0:hand(right, fist)
+		11:generic("custom_equip(weapon:tool_c4_SnowMountain_umbrella )")	
+		2670:jump(60)	
+		
+	"female_snowmountainumbrella_stand"
+		0:lookat(off)		
+		0:hand(left, palm)		
+		0:hand(right, fist)		
+		11:generic("custom_equip(weapon:tool_c4_SnowMountain_umbrella )")	
+		2690:jump(60)	
+		
 
 	
 	"human_sorcerer_candle_stand"
@@ -66081,6 +66394,13 @@ set("Knight")
 			0:hand (both,fist)
 			18:vibrate(17)
 			18:sound("data\sound\skill_assaultslash_hit.wav")
+			
+			
+		"uni_tooLRhand_A01_assault_slash_processing02"			
+			0:lookat(off)
+			0:hand (both,fist)
+			18:vibrate(17)
+			
 
 
 
@@ -66552,10 +66872,10 @@ set("Knight")
 		"human_compass_stand"
 			0:hand(both,palm)
 			0:lookat(off)
-			0:generic("custom_equip(shield:tool_compass_ani)")
-         	903:jump (217, true)
-					
-
+			0:generic("custom_equip(weapon:tool_compass_ani)")
+			1605:jump (217, true)
+		
+		
 		"male_fynnscraftcasting"
 			0:lookat(off)
 			0:hand(right,fist)					
@@ -67186,6 +67506,21 @@ set("Knight")
 
 	folder("char\chapter4\human\anim\tool\Bhand_E")
 
+		
+		"human_tool_bhand_e01_bash03_run"
+			0:lookat(off)
+			0:hand(both, fist)
+			2:effect("footstep_right")
+			9:effect("footstep_left")		
+			9:effect("footstep_right")
+		
+		
+		"human_tool_bhand_e01_bash03_hit"
+			0:lookat(off)
+			0:hand(both, fist)
+			6:hit(down, normal)
+			
+	
 		//기사 전용 기본자세
 		"uni_tool_Bhand_knight_sword_stand_friendly"
 			0:hand (both, fist)
@@ -67234,6 +67569,44 @@ set("Knight")
 ///////////////////////////////////일도 양단 -자이언트-//////////////////////////////////////
 
 	folder("char\chapter4\giant\anim\tool\Hand_A01")	
+	
+	
+		"giant_tool_hand_a01_bash03_run"
+			0:lookat(off)
+			0:hand(both, fist)
+			2:effect("footstep_right")
+			9:effect("footstep_left")		
+			9:effect("footstep_right")		
+	
+		"giant_tool_hand_a01_bash03_hit"	
+			0:lookat(off)
+			0:hand(both, fist)
+			3:hit(down, normal)	
+		
+		"giant_tool_hand_e01_bash03_run"
+			0:lookat(off)
+			0:hand(both, fist)
+			2:effect("footstep_right")
+			9:effect("footstep_left")		
+			9:effect("footstep_right")
+		
+		"giant_tool_hand_e01_bash03_hit"
+			0:lookat(off)
+			0:hand(both, fist)
+			6:hit(down, normal)	
+	
+		"giant_scroll_stand"
+			0:lookat(off)		
+			0:hand(both, fist)
+			313:hand(left, palm)
+			524:hand(left, fist)
+
+		"giant_female_scroll_stand"
+			0:lookat(off)		
+			0:hand(both, fist)
+			313:hand(left, palm)
+			524:hand(left, fist)	
+			
 	
 		"giant_rhand_A05_sparkle"	
 			0:lookat(off)
@@ -67615,6 +67988,13 @@ set("Knight")
 			0:hand (both,fist)
 			18:vibrate(17)
 			18:sound("data\sound\skill_assault_hit.wav")
+			
+			
+		"giant_tool_Rhand_A01_assault_slash_processing02"			
+			0:lookat(off)
+			0:hand (both,fist)
+			18:vibrate(17)
+			
 
 
 
@@ -69209,17 +69589,38 @@ set("Knight")
 	    "giant_compass_stand"
 			0:hand(both,palm)
 			0:lookat(off)
-			0:generic("custom_equip(shield:tool_compass_ani)")
-         	903:jump (217, true)
+			0:generic("custom_equip(weapon:giant_tool_compass_ani)")
+         	1605:jump (217, true)
 		
 	    "giant_female_compass_stand"
 			0:hand(both,palm)
 			0:lookat(off)
-			0:generic("custom_equip(shield:tool_compass_ani)")
-         	903:jump (217, true)
-	
-	
-	
+			0:generic("custom_equip(weapon:giant_tool_compass_ani)")
+         	1605:jump (217, true)
+
+		"giant_horn_stand"
+			0:lookat(off)		
+			0:hand(both, palm)
+			
+		
+		"giant_female_horn_stand"
+			0:lookat(off)		
+			0:hand(both, palm)
+
+		"giant_snowmountainumbrella_stand"
+			0:lookat(off)		
+			0:hand(left, palm)		
+			0:hand(right, fist)		
+			11:generic("custom_equip(weapon:giant_tool_c4_SnowMountain_umbrella )")	
+			2670:jump(60)	
+		
+		"giant_female_snowmountainumbrella_stand"
+			0:lookat(off)		
+			0:hand(left, palm)		
+			0:hand(right, fist)		
+			11:generic("custom_equip(weapon:giant_tool_c4_SnowMountain_umbrella )")	
+			2690:jump(60)				
+	    	
 		"giant_female_fynnscraftcasting"
 			0:lookat(off)
 			0:hand(right,fist)					
@@ -69802,7 +70203,17 @@ set("G14_npc")
 	"male_c4_npc_gilach_talk"
 		0:lookat(on)		
 		0:hand(both, palm)	
-		
+	
+
+	"male_npc_reamoon"
+		0:lookat(on)		
+		0:hand(both, palm)	
+	
+	"male_npc_reamoon_talk"
+		0:lookat(on)		
+		0:hand(both, palm)	
+	
+	
 	"male_npc_loiscneach_stand"
 		0:lookat(off)
 		0:hand(both, palm)
@@ -70242,7 +70653,27 @@ set("G14_npc")
 
 
 	folder("char\chapter4\human\female\anim")
+	
+	
+		"female_npc_delga_stand"
+			0:lookat(off)
+			0:hand (both, palm)			
+			0:generic("custom_mesh(0:tool_c4_delga_stone01)")
+			
+		"female_npc_delga_warpmotion"
+			0:lookat(off)
+			0:hand (both, palm)	
+			0:generic("custom_mesh(0:tool_c4_delga_stone01)")
 
+		"female_npc_betha"
+			0:lookat(off)
+			0:hand (both, palm)		
+
+		"female_npc_betha_talk"
+			0:lookat(off)
+			0:hand (both, palm)		
+						
+			
 		"female_c4_npc_rowan"
 			0:lookat(off)
 			0:hand (both, palm)			
@@ -71771,8 +72202,24 @@ set("magician")
 			0:effect("human_dash1_run02")
 			0:effect("human_dash1_run03")
 			0:effect("human_dash1_run04")	
+			
+	/// 랜스 재능 스킬  ////	
 
-
+	"human_tool_lance_lancestep"
+			0:lookat(off)
+			0:hand (both,fist)
+            23:effect("Fx_lancestep01")
+			
+	"human_tool_lance_lanceblow_process01"
+			0:lookat(off)
+			0:hand (both,fist)
+			23:effect("Fx_lanceblow_process01")
+			
+	"human_tool_lance_lanceblow_process02"
+			0:lookat(off)
+			0:hand (both,fist)		
+            23:effect("Fx_lanceblow_process01")
+			23:effect("HydroPierce_Cast_Dust_01")	
 
 	endfolder
 	
@@ -73950,6 +74397,13 @@ set("magician")
 
 	folder("char\chapter4\human\anim\tool\scythe")
 	
+	"human_snowmountainscythe_stand"
+	0:hand(both,fist)
+	0:lookat(off)	
+	5:hand(both,palm)
+	27:effect("snowmountainscythe")
+	87:effectoff("snowmountainscythe")
+    939:jump(389)	
 	
 	"human_psychopomp_twohandedblunt_walk"
 	0:hand(both,fist)
@@ -85266,6 +85720,37 @@ set("tool_Two hand sword 01")
 "giant_tool_lance_cloud_dash_run"
 	0:lookat(off)
 	0:hand(both,fist)
+	
+	
+	/// 랜스 재능 스킬  ////	
+
+	"giant_tool_lance_lancestep"
+			0:lookat(off)
+			0:hand (both,fist)
+            23:effect("Fx_lancestep01")
+			
+	"giant_tool_lance_lanceblow_process01"
+			0:lookat(off)
+			0:hand (both,fist)
+			23:effect("Fx_lanceblow_process01")	
+			
+	"giant_tool_lance_lanceblow_process02"
+			0:lookat(off)
+			0:hand (both,fist)	
+				
+	"giant_female_tool_lance_lancestep"
+			0:lookat(off)
+			0:hand (both,fist)
+            23:effect("Fx_lanceblow_process01")
+			23:effect("HydroPierce_Cast_Dust_01")
+			
+	"giant_female_tool_lance_lanceblow_process01"
+			0:lookat(off)
+			0:hand (both,fist)
+			
+	"giant_female_tool_lance_lanceblow_process02"
+			0:lookat(off)
+			0:hand (both,fist)	
 
 
 
@@ -87605,9 +88090,25 @@ set("alchemy")
 	endfolder
 
 
-///////////////////////////////////////// 거대 낫 - 인간 ////////////////////////////////////////////
+///////////////////////////////////////// 거대 낫 - 자이 ////////////////////////////////////////////
 
 	folder("char\chapter4\giant\anim\tool\scythe")
+	
+	"giant_snowmountainscythe_stand"
+	0:hand(both,fist)
+	0:lookat(off)	
+	5:hand(both,palm)
+	27:effect("snowmountainscythe")
+	87:effectoff("snowmountainscythe")
+    939:jump(389)	
+
+	"giant_female_snowmountainscythe_stand"
+	0:hand(both,fist)
+	0:lookat(off)	
+	5:hand(both,palm)
+	27:effect("snowmountainscythe")
+	87:effectoff("snowmountainscythe")
+    939:jump(389)	
 	
 	
 	"giant_female_psychopomp_twohandedblunt_friendly"
@@ -91938,6 +92439,39 @@ set("social motion")
 
 	
 	folder("char\chapter4\giant\anim\social_motion")
+
+	"giant_female_snowmountain"
+		0:lookat(off)
+		0:hand(both, palm)
+		1:generic("custom_equipmentmesh(1, giant_female_c4_snowmountain_bls_ani)")
+		150:effect("snowmountain_G",0,1)
+		185:effect("snowmountain_G01",0,1)
+		210:effect("snowmountain_G02",0,1)		
+		1300:jump(581,true)		
+		
+		
+	"giant_snowmountain"
+		0:lookat(off)
+		0:hand(both, palm)
+		1:generic("custom_equipmentmesh(1, giant_male_c4_SnowMountain_bllh_ani)")
+		150:effect("snowmountain_G",0,1)
+		185:effect("snowmountain_G01",0,1)
+		210:effect("snowmountain_G02",0,1)		
+		1300:jump(581,true)				
+
+	"giant_circus"
+		0:lookat(off)
+		0:hand(both, palm)
+		960:jump(257)	
+		192:generic("custom_mesh(0:giant_tool_c4_circuscard01_ani)")
+
+		
+	"giant_female_circus"
+		0:lookat(off)
+		0:hand(both, palm)
+		960:jump(257)	
+		192:generic("custom_mesh(0:giant_tool_c4_circuscard01_ani)")
+	
 	
 	"giant_female_vtuber"
 		0:lookat(off)
@@ -91967,31 +92501,41 @@ set("social motion")
 	"giant_sailor01"
 		0:lookat(off)
 		0:hand(both, palm)
+		
+		
+	"giant_2023halloween"
+		0:lookat(off)
+		0:hand(both, palm)
+
+	
+	"giant_female_2023halloween"
+		0:lookat(off)
+		0:hand(both, palm)
+	
 
 	"giant_2023koreawear01"
 		0:lookat(off)
-		0:hand(both, palm)
+		0:hand(both, palm)		
 		504:generic("custom_equipmentmesh(1, giant_2023koreawear01_ani)")
-		666:generic("custom_equipmentmesh(1)")
+		646:generic("custom_equipmentmesh(1)")		
 
 	"giant_2023koreawear02"
 		0:lookat(off)
 		0:hand(both, palm)
 		504:generic("custom_equipmentmesh(1, giant_2023koreawear02_ani)")
-		666:generic("custom_equipmentmesh(1)")			
+		646:generic("custom_equipmentmesh(1)")			
 
 	"giant_female_2023koreawear01"
 		0:lookat(off)
 		0:hand(both, palm)
-		506:generic("custom_equipmentmesh(1, giant_female_2023koreawear01_ani)")
-		606:generic("custom_equipmentmesh(1)")		
-					
+		504:generic("custom_equipmentmesh(1, giant_female_2023koreawear01_ani)")
+		616:generic("custom_equipmentmesh(1)")						
 			
 	"giant_female_2023koreawear02"
 		0:lookat(off)
 		0:hand(both, palm)
 		506:generic("custom_equipmentmesh(1, giant_female_2023koreawear02_ani)")
-		644:generic("custom_equipmentmesh(1)")	
+		616:generic("custom_equipmentmesh(1)")	
 		
 	"giant_female_FMwitch"
 		0:lookat(off)
@@ -92343,14 +92887,50 @@ set("social motion")
 		0:hand(both, palm)	
 		0:hideequip(false)
 		75:eyechange(223, 0)
-		1572:jump(266)	
+		1572:jump(266,true)	
+		75:effect("gesture_wintersleep_ball01_01",0,1)	
 		
 	"giant_female_natural_gesture_s22_01"
 		0:lookat(off)
 		0:hand(both, palm)	
 		0:hideequip(false)
 		75:eyechange(223, 0)
-		1572:jump(266)			
+		1572:jump(266,true)	
+		75:effect("gesture_wintersleep_ball01_01",0,1)			
+	
+
+	"giant_23gesture_01"
+		0:lookat(off)
+		0:hand(both, fist)
+		0:hideequip(false)
+		12:generic ("custom_equip(weapon:giant_weapon_c4_beimnech_sword, tb1b:171426, tb4b:808080)")	
+		20:effect("BN_Rswing_trail001",0,1)
+		20:effect("Bn_stomp_small001",0,1)
+		25:sound("data\sound\giant_fullswing_swing.wav")
+		32:effect("BN_Lswing_trail001",0,1)
+		32:effect("Bn_stomp_small001",0,1)		
+		32:sound("data\sound\giant_fullswing_swing.wav")
+		50:effect("BN_upswing_trail001",0,1)
+		50:effect("Bn_stomp001",0,1)
+		48:sound("data\sound\giant_fullswing_swing.wav")
+		73:effect("balor_bottom002",0,1)	
+		73:sound("data\sound\golem_stomp.wav")		
+		110:generic ("custom_equip(weapon)")		
+		120:generic ("custom_equip(weapon)")		
+	
+	"giant_23gesture_02"
+		0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		355:jump(15)
+		
+	"giant_23gesture_03"
+		0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		330:jump(10)
+		
+
 		
 	"giant_female_k_2023summer"
 		0:lookat(off)
@@ -107184,6 +107764,10 @@ set("cutscene")
 	
 	folder("char\chapter4\giant\anim\cutscene5")
 	
+	
+		"giant_lookat_pendant_idle"
+				90:jump(0)
+				
 		"giant_around"
 			0:hand (both, fist)
 	
@@ -108412,6 +108996,20 @@ set("specialmotion")
 	folder("char\chapter4\human\anim\specialmotion")
 	
 	
+		"human_23motioncard_bow_stand"
+			0:lookat(off)
+			0:hand(left, fist)
+			0:hand(right, fist)
+		
+		"human_23motioncard_bow_offensive"
+			0:lookat(off)
+			0:hand(left, fist)
+			0:hand(right, fist)
+			127:jump(87)	
+			
+			
+			
+		
 		"male_unique_dualgun_stand"
 			0:lookat(off)
 			0:hand (both, fist)

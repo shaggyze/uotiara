@@ -9592,6 +9592,8 @@
 11885	Mini Siamese Cat Mini-Gem
 11886	Mini Spotted Deer Mini-Gem
 11887	Mini Brown Fox Mini-Gem
+11924	Eiry
+11925	Eiry
 11929	Horse for Jousting
 11930	Horse for Jousting
 11931	Horse for Jousting
@@ -9614,6 +9616,10 @@
 11950	Siamese Purrling
 11951	Frostblossom Mir Dragon
 11952	Frostblossom Young Ceraunus
+11966	Leprechaun
+11984	Cromm Cruaich
+11985	Ceraunus (Event)
+11986	Crumena
 11995	고정 불1 더미
 11996	고정 불5 더미
 11997	고정 불9 더미
@@ -9623,3 +9629,5 @@
 12001	고정 전기1 더미
 12002	고정 전기5 더미
 12003	고정 전기9 더미
+12004	Daol
+12005	Shakespeare

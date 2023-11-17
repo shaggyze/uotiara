@@ -650,6 +650,7 @@ mabinogi_minigame.9	Offline
 mabinogi_minigame.10	Dead
 mabinogi_minigame.11	Ready
 mabinogi_minigame.12	Vote Complete
+mabinogi_newegoweapon.1	Eiry
 mabinogi_party.1	Mafia
 mabinogi_party.2	Other
 mabinogi_pfhousing.1	- Gold: {0} Gold\n
@@ -898,6 +899,18 @@ questresult.5	Training Points {0}
 questresult.6	Mission Points {0}
 questresult.7	Seasonal Ducats {0}
 questresult.8	(Growth Support Potion Bonus)
+questresult.11	<color=2>{1}</color> {0}
+questresult.12	Reward: <color=2>{0}</color>
+questresult.13	Seasonal Ducats: <color=2>{0}</color>
+questresult.14	Exploration EXP: <color=2>{0}</color>
+questresult.15	AP: <color=2>{0}</color>
+questresult.16	Royal Alchemist Activity Points: <color=2>{0}</color>
+questresult.17	Crusader EXP: <color=2>{0}</color>
+questresult.18	Command EXP: <color=2>{0}</color>
+questresult.19	Training Points: <color=2>{0}</color>
+questresult.20	Mission Points: <color=2>{0}</color>
+questresult.21	Cumulative Level: <color=2>{0}</color>
+questresult.22	{0} PT
 recommendflagtable.1	EXP +{0}
 recommendflagtable.2	{0} - A recommender will receive {1} Recommendation EXP.
 setitemmgr.1	Increase

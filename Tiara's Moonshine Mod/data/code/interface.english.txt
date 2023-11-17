@@ -507,6 +507,31 @@ pli_apskilltrainview.1	Unknown Training Method
 pli_apskilltrainview.2	You cannot train anymore.
 pli_apskilltrainview.3	Please select a skill to train.
 pli_apskilltrainview.4	You cannot use this while talking to an NPC.
+pli_arbeitboardview.1	{0} Part-Time Job Bulletin Board
+pli_arbeitboardview.2	Starting the {0} part-time job.
+pli_arbeitboardview.3	Please try again later.
+pli_arbeitboardview.4	Accept
+pli_arbeitboardview.5	Forfeit
+pli_arbeitboardview.6	Daily Job Openings: {0} Left
+pli_arbeitboardview.7	Time: %s %02u:00 - %s %02u:00
+pli_arbeitboardview.8	Perfect Completion Reward: {0}
+pli_arbeitboardview.9	Daily Job Openings: Unlimited
+pli_arbeitboardview.10	Total Successes: {0}
+pli_arbeitboardview.11	Accept this part-time job?
+pli_arbeitboardview.12	Give up on this part-time job?\nAfter giving up, you won't be able to re-start this job for 24 hours in Erinn time.
+pli_arbeitrankingview.1	Completed
+pli_arbeitrankingview.2	Effect Time Remaining: {0}
+pli_arbeitreportview2.1	Not enough points.
+pli_arbeitreportview2.2	{0} PT
+pli_arbeitreportview2.3	{0} EXP
+pli_arbeitreportview2.4	{0} PT
+pli_arbeitreportview2.5	The report window has ended and you won't be able to receive the rewards.
+pli_arbeitreportview2.6	Receive all points as EXP?
+pli_arbeitreportview2.7	Point information has been updated.
+pli_arbeitrewardframe.1	Remaining: {0}
+pli_arbeitview2.1	Daily Job Openings: {0} Left
+pli_arbeitview2.2	Time: %s %02u:00 - %s %02u:00
+pli_arbeitview2.3	Total Successes: {0}
 pli_auctioninventoryview.1	Auction Item
 pli_auctioninventoryview.2	Accept
 pli_auctioninventoryview.3	Cancel
@@ -533,6 +558,12 @@ pli_auctionview.19	Do you want to bid {0} Gold?
 pli_auctionview.20	Please enter the correct amount.
 pli_auctionview.21	You have insufficient funds in your bank account.
 pli_auctionview.22	You must bid a higher price than the current bid.
+pli_autobotcollecteditview.1	You can't use this slot.\nThis slot is only active for Compact Doll Bags.
+pli_autobotcollecteditview.2	You can't use this slot.\nThis slot is only active for Doll Bags which can summon {0} or more Dolls.
+pli_autobotcollecteditview.3	{0} Collection Category Add-on Slot
+pli_autobotcollecteditview.4	Premium
+pli_autobotcollecteditview.5	#%d
+pli_autobotcollecteditview.6	No categories have been registered to this slot, so there is nothing to remove.
 pli_autoproductionview.1	That is not the right material.
 pli_autoproductionview.2	Ends after completing the current craft.
 pli_autoproductionview.3	Amount Auto-Craftable: {0}
@@ -981,6 +1012,9 @@ pli_characteradditionalframe.42	Blaanid's Blessing - Stage 2\n\nRecall Book - 2 
 pli_characteradditionalframe.43	Blaanid's Blessing - Stage 3\n\nRecall Book - 3 Slots\nMovement Speed +6%\nAll Stats +3\nGain 3 additional AP upon rebirth\nBlessing Effect Stage 3
 pli_characteradditionalframe.44	Blaanid's Blessing - Stage 4\n\nRecall Book - 4 Slots\nMovement Speed +8%\nAll Stats +4\nGain 4 additional AP upon rebirth\nBlessing Effect Stage 4
 pli_characteradditionalframe.45	{0} / {1}
+pli_characterarbeitcategoryframe.1	{0} time(s)
+pli_characterarbeitframe.1	Completed
+pli_characterarbeitlevelinfoview.1	{0} or more time(s)
 pli_charactercombocardframe.1	The selected {0} Combo Card(s) will be permanently removed.\nWould you like to proceed?
 pli_charactercombocardframe.2	Warning
 pli_charactercombocardframe.3	Would you like to use this item to extend the Gold Combo Card duration?
@@ -1573,12 +1607,23 @@ pli_egoweaponabilitypanel.6	Points Required {0}
 pli_egoweaponabilitypanel.7	Activate {0}/{1}\n
 pli_egoweaponactionbarview.1	Classic Spirit Weapon Awakening
 pli_egoweaponactionbarview.2	<color=3>Using Awakening Energy</color>\nGain awakening energy by attacking enemies with your Classic Spirit Weapon. Each time you hit enemies enough times to reach 100/100 on your energy bar, you'll get one skill charge on your spirit weapon. Use the skill once to prep it which will cause the energy bar to begin depleting, then again before the energy bar reaches zero to activate it. This skill can only be utilized when your weapon has at least one charge. \n\n<color=3>Energy Bar Cooldown</color>\nUsing the awakening skill will cause the energy bar to deactivate for a while. You won't be able to use the awakening skill again until the energy bar reactivates.
+pli_egoweaponbutton.1	You can form <color=2><outlinecolor=3>{0}</outlinecolor></color> more Spirit Weapon contracts.\n\nTalk to Berched to create more Spirit Weapons.
+pli_egoweaponbutton.2	Using a <color=2><outlinecolor=3>Spirit Weapon Additional Contract Coupon</outlinecolor></color>\nenables you to acquire more than the standard\nnumber of Spirit Weapons.\n\nYou can still use <color=2><outlinecolor=3>{0}</outlinecolor></color> more Spirit Weapon Additional Contract Coupons.\n\nThese coupons can also be purchased from the web Item Shop. 
+pli_egoweaponbutton.3	Open the Item Shop
+pli_egoweaponbutton.4	Invalid Spirit information.\nPlease open the window again.
 pli_egoweaponcontractitemframe.1	Forming a contract with a new Spirit.\nPlace the materials in the correct slots.
 pli_egoweaponcontractitemframe.2	Classic Spirit Weapon Conversion\nPlace the materials in the correct slots.
 pli_egoweaponcontractitemframe.3	Transferring the Spirit into a new weapon.\nPlace the materials in the correct slots.
 pli_egoweaponcontractitemframe.4	Destroying the contract with the Spirit.\nPlace the materials in the correct slots.
 pli_egoweaponcontractitemframe.5	Character Conversion
 pli_egoweaponcontractitemframe.6	Changing the appearance of the Spirit Weapon.\nPlace the materials in the correct slots.
+pli_egoweaponcontractitemframe.7	Forming a contract with Eiry the Spirit.\nPlace the materials in the correct slots.
+pli_egoweaponcontractitemframe.8	<color=4><outlinecolor=5>- Weapon Slot:</outlinecolor></color> Weapon the Spirit will inhabit\n<color=4><outlinecolor=5>- Material Slot:</outlinecolor></color> Elemental Remover x5,\n					Magical Spirit Stone x1
+pli_egoweaponcontractitemframe.9	<color=4><outlinecolor=5>- Weapon Slot:</outlinecolor></color> Classic Spirit Weapon\n<color=4><outlinecolor=5>- Material Slot:</outlinecolor></color> Elemental Remover x5,\n					Magical Spirit Stone x1\n					Spirit Liqueur x1
+pli_egoweaponcontractitemframe.10	<color=4><outlinecolor=5>- Weapon Slot:</outlinecolor></color> Current Spirit Weapon, New Spirit Weapon\n<color=4><outlinecolor=5>- Material Slot:</outlinecolor></color> Elemental Remover x5,\n					Spirit Liqueur x1
+pli_egoweaponcontractitemframe.11	<color=4><outlinecolor=5>- Weapon Slot:</outlinecolor></color> Current Spirit Weapon\n<color=4><outlinecolor=5>- Material Slot:</outlinecolor></color> Elemental Remover x5,\n					Memory Spirit Liqueur x1,\n					Empty Spirit Stone x1
+pli_egoweaponcontractitemframe.12	<color=4><outlinecolor=5>- Weapon Slot:</outlinecolor></color> Current Spirit Weapon\n<color=4><outlinecolor=5>- Material Slot:</outlinecolor></color> Spirit Transformation Liqueur x1
+pli_egoweaponcontractitemframe.13	<color=4><outlinecolor=5>- Weapon Slot:</outlinecolor></color> Weapon the Spirit will inhabit\n<color=4><outlinecolor=5>- Material Slot:</outlinecolor></color> Elemental Remover x5,\n					Ancient Magical Spirit Stone x1
 pli_egoweaponcontractview.1	Unknown error
 pli_egoweaponcontractview.2	This weapon has the same appearance.
 pli_egoweapondescframe.1	<bold>{0} [Awakening {1}]</bold>
@@ -1617,6 +1662,16 @@ pli_egoweaponfeedframe.25	Would you like to seal {0} items?
 pli_egoweaponfeedframe.26	Would you like to unseal {0} items?
 pli_egoweaponfeedframe.27	Up to {0} items\n can be sealed.
 pli_egoweaponfeedframe.28	(EXP %dx)
+pli_egoweaponfeedframe.29	\n<color=1>* Eiry will receive an EXP bonus for every type of gem.</color>
+pli_egoweaponfeedframe.30	No more items can be given, as the Spirit has reached\nthe maximum EXP required to advance to the next level.
+pli_egoweaponfeedframe.31	No more items can be given.\nThe Spirit has reached the maximum level.
+pli_egoweaponfeedframe.32	No more items can be given, as the Spirit\nhas reached its weekly EXP limit.
+pli_egoweaponfeedframe.33	<color=5>Bonus Ego Points: {0}</color>
+pli_egoweaponfoodfilterview.1	Enhanced Equipment
+pli_egoweaponfoodfilterview.2	Regular Equipment
+pli_egoweaponfoodfilterview.3	Misc.
+pli_egoweaponfoodfilterview.4	High Value Items
+pli_egoweaponfoodfilterview.5	Low Value Items
 pli_egoweaponfoodframe.1	Alert
 pli_egoweaponfoodframe.2	You can select up to {0} items.
 pli_egoweaponfoodframe.3	Alert
@@ -1630,6 +1685,8 @@ pli_egoweaponinfoframe.5	Get additional {1} point(s) for reaching level {0}
 pli_egoweaponinfoframe.6	Lv. {0}
 pli_egoweaponinfoframe.7	{0}/{1}
 pli_egoweaponinfoframe.8	{0}/100
+pli_egoweaponinfoframe.9	Can be earned when your Spirit's level increases, or when you complete\na quest given by your Spirit. Beginning at level 55, you can obtain bonus\nEgo Points by reaching maximum Spirit Bond at certain levels.
+pli_egoweaponinfoframe.10	\n<color=1>* Eiry will always receive all available bonus Ego Points when she levels up, regardless of her current Spirit Bond.</color>
 pli_egoweaponmainmaterialpanel.1	Place the Spirit Weapon.
 pli_egoweaponmainmaterialpanel.2	Place the Weapon to form a contract with the Spirit.
 pli_egoweaponmainmaterialpanel.3	Place the Weapon for the Spirit to transfer.
@@ -1644,12 +1701,13 @@ pli_egoweaponmainmaterialpanel.11	This weapon's appearance cannot be changed.
 pli_egoweaponmainmaterialpanel.12	You already have a Classic Spirit Weapon of the same kind.
 pli_egoweaponmainview.1	Alert
 pli_egoweaponmainview.2	You don't have any Spirit Weapons.\nBerched can help you form a contract with the Spirit.
+pli_egoweaponmainview.3	Spirits Contracted ({0}/{1})
 pli_egoweaponmanageframe.1	Forming a contract with a new Spirit.\nPlace the materials needed to form the contract in the correct slots.\n\n- Weapon Slot: Weapon to form a contract with the Spirit\n- Material Slot: Elemental Remover x5, Magical Spirit Stone x1
 pli_egoweaponmanageframe.2	Transferring the Spirit into a new weapon.\nPlace the materials needed for transfer in the correct slots.\n\nClassic Spirit Weapon Conversion\n- Weapon Slot: Classic Spirit Weapon\n- Material Slot: Elemental Remover x5, Magical Spirit Stone x1, Spirit Liqueur x1\n\nSpirit Weapon Transfer\n- Weapon Slot: Spirit Weapon in use, Weapon to be transferred into\n- Material Slot : Elemental Remover x5, Spirit Liqueur x1
 pli_egoweaponmanageframe.3	Destroying the contract with the Spirit.\nPlace the materials needed to destroy the contract in the correct slots.\n\n- Weapon Slot: Spirit Weapon in use\n- Material Slot: Elemental Remover x5, Memory Spirit Liqueur x1, Empty Spirit Stone x1
 pli_egoweaponmanageframe.4	Character Change
 pli_egoweaponmanageframe.5	Changing the Spirit Weapon effect.\nPlace the materials needed for the effect change in the correct slots.\n\n- Weapon Slot: Spirit Weapon in use\n- Material Slot: Spirit Transformation Liqueur x1
-pli_egoweaponmanageframe.6	- Able to form contract with a new Spirit.\n\n- You can have up to 3 Spirit Weapons.\n\n- You can't form more than 2 contracts with weapons of the same type.\n\n- The Spirit Weapon completed with forming the contract will get bound to the contractor.\n\n- A bound Spirit Weapon can't be traded.\n\n- The weapon will become unbound if the contract is destroyed.
+pli_egoweaponmanageframe.6	- You can form a contract with a new Spirit.\n\n- You can have 3 Spirit Weapons by default, and can increase this amount using a Spirit Contract Coupon.\n\n- You can't form more than 2 contracts with weapons of the same type.\n\n- Forming a contract with a Spirit will bind the weapon to the contractor.\n\n- A weapon currently inhabited by a Spirit cannot be traded.\n\n- A Spirit Weapon will become unbound if the contract is destroyed.
 pli_egoweaponmanageframe.7	- Able to transfer the Spirit into a different weapon.\n\n- The weapon, as well as the Spirit's growth status, will not be affected by the transfer.\n\n- You can select the new weapon to transfer the Spirit into, regardless of the current Spirit Weapon.\n\n- You can't transfer if effects for more than 1 Ego Points have been applied.\n\n- You must reset the applied effects to transfer the Spirit.\n\n- The Classic Spirit Weapons must be converted into Spirit Weapons to transfer the Spirit.
 pli_egoweaponmanageframe.8	- You can destroy the contract with the Spirit without harming the weapon.\n\n- You can receive a Remembering Spirit Stone upon destroying the contract.\n\n- The Remembering Spirit Stone is used when a different Spirit is inheriting the memory.\n\n- The Spirit's growth status determines the amount of EXP stored in the Remembering Spirit Stone.
 pli_egoweaponmanageframe.9	Character Change Details
@@ -1705,6 +1763,7 @@ pli_entryview.4	Smart Contents {0}
 pli_entryview.5	Dungeon Guide
 pli_entryview.6	프리미엄 서비스/PC방 혜택 {0}
 pli_entryview.7	Currency {0}
+pli_entryview.8	Growth Guide {0}
 pli_equipmentcollectiontab.1	Loading...
 pli_equipmentcollectiontab.2	The Dressing Room is being loaded.
 pli_equipskinslottab.1	You don't have any equipment whose appearance you can save.
@@ -2044,6 +2103,7 @@ pli_freeseasonguidebookhistoryview.7	{0}
 pli_freeseasonguidebookhistoryview.8	{0} times
 pli_freeseasonguidebookhistoryview.9	{0} times
 pli_freeseasonguidebookhistoryview.10	{0} times
+pli_freeseasonguidebookhistoryview.11	{0} times
 pli_freeseasonguidebookselectframe.1	{0} ({1})
 pli_freeseasonguidebookview.1	Finale - All Buffs Applied
 pli_freeseasonguidebookview.2	This week's selected Buff: None (Select a Buff by talking to the NPC)
@@ -3118,8 +3178,8 @@ pli_jouststandbyview.7	Close
 pli_jouststandbyview.8	Time Left: {0} min.
 pli_jouststandbyview.9	Time Left: {0} sec.
 pli_jouststandbyview.10	Round {0}\nParticipants: {1}
-pli_jouststandbyview.11	You have been selected as a challenger for this Jousting Tournament.\nIf you decline to participate, you may face a penalty that decreases\nyour chance of being selected in future tournaments. You may now favor a player to win.
-pli_jouststandbyview.12	You have not been selected to compete in this round.\nCheering for other players increases your chances of\nbeing chosen in future rounds. You may register to\ncheer for another player at the Tournament Board.
+pli_jouststandbyview.11	You have been selected as a challenger for this round\nof the Jousting Tournament Preliminaries. If you\ndecline to participate, you may face a penalty that\ndecreases your chance of being selected in future\ntournaments. You may now favor another player.
+pli_jouststandbyview.12	You have not been selected to compete in this round\nof the Jousting Tournament Preliminaries. Cheering for\nother players increases your chances of being chosen\nin future rounds. You may now register to favor\nanother player at the Tournament Board.
 pli_jouststandbyview.13	Forfeit Match
 pli_jouststandbyview.14	You will be <color=2><outlinecolor=3>penalized</outlinecolor></color> if you forfeit the Jousting Tournament match.\nForfeit?
 pli_joustvictoryview.1	OK
@@ -3477,6 +3537,9 @@ pli_newmetalwarecountorrankupview.8	Guaranteed Reforging Attribute Slot Upgrade
 pli_newmetalwarecountorrankupview.9	{0}\n{1} Attributes
 pli_newmetalwarecountorrankupview.10	Do you want to upgrade the selected item to Rank 1?
 pli_newmetalwarecountorrankupview.11	Do you want to upgrade the number of attribute slots\non the selected item to 3?
+pli_newmetalwarecountorrankupview.12	Upgrade the selected item to Rank 2.
+pli_newmetalwarecountorrankupview.13	Select an item with a Rank lower than 2 to begin\na guaranteed upgrade to Rank 2.\nCurrently equipped items will not be displayed on the list.
+pli_newmetalwarecountorrankupview.14	Do you want to upgrade the selected item to Rank 2?
 pli_newmetalwareitempanel.1	Currently equipped gear cannot be reforged.
 pli_newmetalwareitempanel.2	Items in the Extra Equipment Slot cannot be reforged.
 pli_newmetalwareitempanel.3	Items in the Style Tab cannot be reforged.
@@ -3530,6 +3593,7 @@ pli_optionweaponmainview.14	Support Effect Damage x%g
 pli_optionweaponmainview.15	Increase Rank
 pli_optionweaponmainview.16	Increase Level
 pli_optionweaponmainview.17	Success Rate: {0}%
+pli_optionweaponmainview.18	Success Rate: <color=3>{0}% (Event: +{1}%)</color>
 pli_optionweaponshapeview.1	Would you like to change the Stardust's appearance to {0}?
 pli_optionweaponshapeview.2	Confirm
 pli_oxquizquestionview.1	\n\n{0}sec
@@ -5282,6 +5346,11 @@ pli_windowaddnewfriend.4	You cannot add yourself as a friend.
 pli_windowai.1	Please enter a search word.
 pli_windowai.2	Enable\nFile Change Notifier
 pli_windowai.3	Disable\nFile Change Notifier
+pli_windowarbeitframe.1	<ttflocal size=24>Can Report Back
+pli_windowarbeitframe.2	<ttflocal size=16>Report back in <ttflocal size=24>{0} hour(s) and {1} min.
+pli_windowarbeitframe.3	<ttflocal size=16>Report back in <ttflocal size=24>{0} hour(s).
+pli_windowarbeitframe.4	<ttflocal size=16>Report back in <ttflocal size=24>{0} min.
+pli_windowarbeitframe.5	<ttflocal size=16>Progress: <ttflocal size=24>{0}%
 pli_windowarenaframe.1	If you join a party, you will be moved to the arena after {0:time_string}. 
 pli_windowarenaframe.2	The skill that you are currently exhibiting will be canceled upon the start of the battle.\nBattle will begin in {0:time_string}.
 pli_windowarenaframe.3	Will start in {0:time_string}
@@ -5641,6 +5710,9 @@ pli_windowgrouplistview.3	Cancel
 pli_windowgroupnameinput.1	Add Group
 pli_windowgroupnameinput.2	Change Group Name
 pli_windowgroupnameinput.3	Please insert the group name.
+pli_windowgrowthguideview.1	Can be used after completing the About the Growth Guide quest,\nreceived after clearing Blaanid's Brave Boost Volume 3.
+pli_windowgrowthguideview.2	Cumulative Points ({0} / {1})
+pli_windowgrowthguideview.3	No completion rewards are available.
 pli_windowguildjoin.1	You have already applied to join this guild.
 pli_windowguildjoin.2	펫은 길드에 가입할 수 없습니다.
 pli_windowguildlistboard.1	Guild List
@@ -5819,6 +5891,7 @@ pli_windowitemrepair3.10	Go Back
 pli_windowitemrepair3.11	Do you want to repair all items that {0} can repair with a {1}% success rate?
 pli_windowitemselect.1	Free Score
 pli_windowitemselect.2	Current Signet Effect Level: {0}\nSuccess Rate: {1}%
+pli_windowitemselect.3	Current Signet Effect Level: {0}\nSuccess Rate: <color=3>{1}% (Event Bonus +{2}%)</color>
 pli_windowkeycustomizeview.1	Hotkey Settings
 pli_windowkeycustomizeview.2	Command
 pli_windowkeycustomizeview.3	Hotkey
@@ -5948,7 +6021,7 @@ pli_windowlogin.45	유저 아이디와 패스워드가 일치하지 않습니다
 pli_windowlogin.46	Captcha 입력 정보가 일치하지 않습니다.
 pli_windowlogin.47	Matrix 입력 정보가 일치하지 않습니다.
 pli_windowlogin.48	서버와 통신에 실패하였습니다({0}).
-pli_windowlogin.49	다른 접속이 확인되어 연결을 종료합니다.
+pli_windowlogin.49	Another Login was detected. Terminating connection.
 pli_windowlogin.50	Your connection will be terminated as NGS has detected a security threat.
 pli_windowlogin.51	마비노기ID는 영문/숫자만 입력할 수 있습니다.
 pli_windowlogin.54	일일 이용 가능한 게임 시간대를 초과했습니다. 휴식과 공부에 주의하시길 바랍니다.
@@ -6564,10 +6637,10 @@ pli_windowoptiontabsvideo.26	Full Screen
 pli_windowoptiontabsvideo.27	Borderless Full Screen Mode
 pli_windowoptiontabsvideo.28	Screen Mode
 pli_windowoptiontabsvideo.29	Screen Mode Settings
-pli_windowoptiontabsvideo.30	디스플레이 배율 적용(클라이언트 재시작시 적용)
-pli_windowoptiontabsvideo.31	고해상도에서 사용자 인터페이스의 배율이 조절됩니다.\n(Windows 10 버전 이상에서만 작동합니다.)
-pli_windowoptiontabsvideo.32	전체 화면 모드 에서는 디스플레이 배율 적용을 사용할 수 없습니다.
-pli_windowoptiontabsvideo.33	전체 화면 모드 에서는 GDI 활성화 기능을 사용할 수 없습니다.
+pli_windowoptiontabsvideo.30	Use Interface Display Scaling (Applied after Restarting Client)
+pli_windowoptiontabsvideo.31	Scales the size of the game's UI elements in proportion to higher resolutions.\n(For use with operating systems from Windows 10 onward.)
+pli_windowoptiontabsvideo.32	Display scaling can't be applied while in Full Screen mode.
+pli_windowoptiontabsvideo.33	You cannot activate the interface display scaling feature while in Full Screen mode.
 pli_windowotpauth.1	Login Authentication\nOTP 인증 로그인
 pli_windowotpauth.2	{0}고객님은 OTP 인증 로그인 서비스를 이용 중입니다.
 pli_windowotpauth.3	마지막으로 접속한 IP는 {0} 입니다.
@@ -6886,6 +6959,7 @@ pli_windowpopupitem.63	Stardust Info
 pli_windowpopupitem.64	Reset
 pli_windowpopupitem.65	Additional Function Settings
 pli_windowpopupitem.66	Move all items to trash
+pli_windowpopupitem.67	Register Add-on Collection Category
 pli_windowpopupprop.0	Set Rental Fee
 pli_windowpopupprop.1	Change Direction
 pli_windowpopupprop.2	가방 열기
@@ -7009,6 +7083,9 @@ pli_windowrewardlimitframe.3	Rewards Limited Status\n{0} {1} {2} necessary
 pli_windowrewardview.1	Journal Achievement Score: {0} Point(s)
 pli_windowrewardview.2	You've achieved '{0}'
 pli_windowrewardview.3	Close All
+pli_windowrewardview.4	Growth Guide Points +{0}
+pli_windowrewardview.5	Points that will be added to the Cumulative Growth Guide Points. Rewards become available each time the Cumulative Points reach a set amount. When you claim point rewards, your total Cumulative Points will not be reduced.
+pli_windowrewardview.6	You received [{2}] points as the Stage {1} reward for the [{0}] quest.
 pli_windowrockpaperscissorsballoon.1	You can't join a match while advertising.
 pli_windowroulettegame.1	Name Color Change
 pli_windowroulettegame.2	Spin the wheel with your mouse and let go.
@@ -7545,18 +7622,18 @@ pli_windowtaskbartrayicon.24	Interaction
 pli_windowtaskbartrayicon.26	View Probability
 pli_windowtaskbartutorialrenewal.1	Click the button to skip this stage.
 pli_windowtaskbartutorialrenewal.2	Do you wish to skip the tutorial for this area?\nThis may reduce your reward.
-pli_windowtitle.1	Open the Title Option List.
-pli_windowtitle.2	Available Title Option List
+pli_windowtitle.1	Show/Hide Secondary Titles
+pli_windowtitle.2	List of Secondary Titles
 pli_windowtitle.3	Remove options from a title.
-pli_windowtitle.4	Open the Title Option List.
-pli_windowtitle.5	Close the Title Option List.
+pli_windowtitle.4	Open the Secondary Title List
+pli_windowtitle.5	Close the Secondary Title List
 pli_windowtitle.6	(Not Used)
 pli_windowtitle.7	{0} day(s) 
 pli_windowtitle.8	{0} hr 
 pli_windowtitle.9	{0} min 
 pli_windowtitle.10	Remaining
 pli_windowtitle.11	Approaching usage deadline
-pli_windowtitle.12	Titles
+pli_windowtitle.12	Secondary Titles
 pli_windowtitle.13	Enter a search term.
 pli_windowtitle.14	Enter a search term.
 pli_windowtitle.15	PC방 타이틀 항상 착용
@@ -8456,7 +8533,7 @@ window.mission_sheet.close_button	Close
 window.mission_sheet.exploquest_msg_wanna_quit	Give up on this quest?
 window.mission_sheet.msg_wanna_quit	Do you want to give up this quest?\n\nThe Quest Scroll will be completely destroyed.
 window.mission_sheet.quit_button	Give Up
-window.mission_sheet.reward_text	Reward
+window.mission_sheet.reward_text	Mission Reward
 window.mission_sheet.title_arbeit	<large>Part-Time Job Info</large>
 window.mission_sheet.title_empty	<large>Empty Quest</large>
 window.mission_sheet.title_game_quest	<large>Quest Info</large>
@@ -9431,15 +9508,15 @@ window.taskbar.tooltip.quest_button	Toggle Quest Window (Press 'Q')
 window.taskbar.tooltip.skil_button	Toggle Skill Window (Press 'S')
 window.taskbar.tooltip.system_button	Toggle System Menu \n(Press 'Window Key' or 'Ctrl + ESC')
 window.title.cancel_button	Cancel
-window.title.desc_text	Desc.
+window.title.desc_text	Description
 window.title.desc_text_dont_know	???\n\nA mysterious title with effects and methods still unknown.\nClues will be available in the course of playing the game.
-window.title.list_text	List of Available Titles
-window.title.ok_button	Use This Title
-window.title.remove_button	Remove Title
+window.title.list_text	List of Titles
+window.title.ok_button	Set Titles
+window.title.remove_button	Remove Titles
 window.title.start_tailoring	Start Tailoring
 window.title.tailoring_quality	Tailoring
 window.title.title	<large>Title</large>
-window.title.usage_text	A title can only be changed once per day in game time.
+window.title.usage_text	Titles can only be changed once per in-game day.
 window.trade.complete_button	Complete
 window.trade.give_gold	Gold
 window.trade.give_item	Give

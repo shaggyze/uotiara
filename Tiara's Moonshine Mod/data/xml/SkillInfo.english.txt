@@ -4448,3 +4448,6 @@
 6532	Imbues their owner with good luck. This lucky energy improves the owner's financial fortunes and allows them to buy their loyal pet more treats.
 6533	Changes size using magic. The pet can only fly or be used as a mount in their larger form.
 6534	Ignore Walk
+6535	Sketch
+6536	Sketch animals or ruins on a piece of Sketch Paper, available for purchase in many General Shops
+6537	Sketch animals or ruins on a piece of Sketch Paper, available for purchase in many General Shops

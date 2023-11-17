@@ -1,4 +1,4 @@
-version: 424.0.44.63
+version: 426.0.45.63
 clone_depth: 5
 skip_tags: true
 image: Visual Studio 2017
