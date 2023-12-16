@@ -439,6 +439,8 @@ pli_airulewizardview.12	You may not use the following for the name.\n\\ / : * ? 
 pli_airulewizardview.13	A rule with the same name already exists.
 pli_airulewizardview.14	Failed to add the new rule.
 pli_airulewizardview.15	This rule does not have a name.
+pli_alchemicsynergyview.1	You don't have enough Crystals.
+pli_alchemicsynergyview.2	The required elements have not been fully charged.
 pli_alltalentselectview.1	You must rebirth once before you can make this your active talent.
 pli_alltalentselectview.2	You must complete the G1 storyline before you can make this your active talent.
 pli_alltalentselectview.3	Beginner Level
@@ -512,11 +514,11 @@ pli_arbeitboardview.2	Starting the {0} part-time job.
 pli_arbeitboardview.3	Please try again later.
 pli_arbeitboardview.4	Accept
 pli_arbeitboardview.5	Forfeit
-pli_arbeitboardview.6	Daily Job Openings: {0} Left
+pli_arbeitboardview.6	Openings Available: {0}
 pli_arbeitboardview.7	Time: %s %02u:00 - %s %02u:00
 pli_arbeitboardview.8	Perfect Completion Reward: {0}
-pli_arbeitboardview.9	Daily Job Openings: Unlimited
-pli_arbeitboardview.10	Total Successes: {0}
+pli_arbeitboardview.9	Openings Available: Unlimited
+pli_arbeitboardview.10	Times Completed: {0}
 pli_arbeitboardview.11	Accept this part-time job?
 pli_arbeitboardview.12	Give up on this part-time job?\nAfter giving up, you won't be able to re-start this job for 24 hours in Erinn time.
 pli_arbeitrankingview.1	Completed
@@ -529,9 +531,9 @@ pli_arbeitreportview2.5	The report window has ended and you won't be able to rec
 pli_arbeitreportview2.6	Receive all points as EXP?
 pli_arbeitreportview2.7	Point information has been updated.
 pli_arbeitrewardframe.1	Remaining: {0}
-pli_arbeitview2.1	Daily Job Openings: {0} Left
+pli_arbeitview2.1	Openings Available: {0}
 pli_arbeitview2.2	Time: %s %02u:00 - %s %02u:00
-pli_arbeitview2.3	Total Successes: {0}
+pli_arbeitview2.3	Times Completed: {0}
 pli_auctioninventoryview.1	Auction Item
 pli_auctioninventoryview.2	Accept
 pli_auctioninventoryview.3	Cancel
@@ -1049,6 +1051,7 @@ pli_charactercommerceframe.3	lv{0} exp {1}%
 pli_charactercommerceframe.4	{0} Commerce Rank: {1}
 pli_charactercommerceframe.5	{0}.{1}.{2} - {3}.{4}.{5} (Resets on {6}.{7} 0:00)
 pli_characterconditionremaintimeview.1	No effects active.
+pli_characterconditionremaintimeview.2	 (Cannot be used)
 pli_characterentryview.1	Character Info: {0}
 pli_characterentryview.2	Talent: {0}
 pli_characterentryview.3	Blaanid's Brave Boost {0}
@@ -1817,9 +1820,9 @@ pli_erinnlandwaitingtable.6	You cannot begin {0}.\nYou will be added to the wait
 pli_erinnlandwaitingtableframe.1	 
 pli_erinnlandwaitingtableframe.2	On the Waiting List
 pli_erinnlandwaitingtableframe.3	sec
-pli_erinnmarbleview.1	{0}칸 이동하며 주사위 포인트 {1}점이 차감됩니다.
-pli_erinnmarbleview.2	한 바퀴 일주해서 피곤하네요.\n내일 다시 여행해요.
-pli_erinnmarbleview.3	주사위 포인트가 부족한걸요.
+pli_erinnmarbleview.1	You used {1} Dice Points to move {0} spaces.
+pli_erinnmarbleview.2	All that travel wore me out.\nLet's take it easy until tomorrow.
+pli_erinnmarbleview.3	Aww, you don't have enough Dice Points to do that.
 pli_eventingamepopupview.1	Close
 pli_eventingamepopupview.2	<color=2>지원금 받기</color>
 pli_eventpopupbuttonlistview.1	This event is for Milletians only.
@@ -3178,9 +3181,9 @@ pli_jouststandbyview.7	Close
 pli_jouststandbyview.8	Time Left: {0} min.
 pli_jouststandbyview.9	Time Left: {0} sec.
 pli_jouststandbyview.10	Round {0}\nParticipants: {1}
-pli_jouststandbyview.11	You have been selected as a challenger for this round\nof the Jousting Tournament Preliminaries. If you\ndecline to participate, you may face a penalty that\ndecreases your chance of being selected in future\ntournaments. You may now favor another player.
+pli_jouststandbyview.11	You have been selected as a challenger for this round\nof the tournament. You may forfeit your participation,\nbut doing so will incur a penalty, reducing your chance\nof being selected to compete in future tournaments.\nYou may now choose to favor another player.
 pli_jouststandbyview.12	You have not been selected to compete in this round\nof the Jousting Tournament Preliminaries. Cheering for\nother players increases your chances of being chosen\nin future rounds. You may now register to favor\nanother player at the Tournament Board.
-pli_jouststandbyview.13	Forfeit Match
+pli_jouststandbyview.13	Forfeit
 pli_jouststandbyview.14	You will be <color=2><outlinecolor=3>penalized</outlinecolor></color> if you forfeit the Jousting Tournament match.\nForfeit?
 pli_joustvictoryview.1	OK
 pli_joustvictoryview.2	You are victorious!
@@ -4703,6 +4706,7 @@ pli_talentmainview.42	Go to Duncan
 pli_talentmainview.43	Would you like to go to Duncan?
 pli_talentmainview.44	<color=5><outlinecolor=6>(Locked)</outlinecolor></color>\n
 pli_talentmainview.45	Unlocked after clearing the 'Lighting the Arcana's Flame' quest.
+pli_talentmainview.46	The total level for all Arcana Talents.\nA character's stat limits are raised based on the total level.\n\n<color=5><Current Maximum Effective Arcana Level: {0}></color>
 pli_taskquestboarddetailview.1	Success Rate: 
 pli_taskquestboarddetailview.2	{0}-only Mission
 pli_taskquestboarddetailview.3	Common Mission
@@ -5421,8 +5425,8 @@ pli_windowbossraiddungeoncomplete.14	{0} m {1} s
 pli_windowbossraiddungeoncomplete.15	{0} Times
 pli_windowbossraiddungeoncomplete.16	{0} Times
 pli_windowbossraiddungeoncomplete.17	{0}
-pli_windowbuy.1	Jousting Point Price: {0} Points
-pli_windowbuy.2	Your current Jousting Points: {0} Points
+pli_windowbuy.1	Price: {0} Jousting Points
+pli_windowbuy.2	Current Jousting Points: {0}
 pli_windowbuy.3	{0} : {1} 
 pli_windowbuy.4	'After trading this item, the number of allowable trades will decrease by 1.\nOnce the number of allowable trades reaches 0, you will no longer be able to trade this.\nDo you still wish to trade?
 pli_windowbuy.5	Notice
@@ -5624,6 +5628,28 @@ pli_windowegoweapon.3	Use Skill Cam
 pli_windowegoweapon.4	Rank {0}
 pli_windowegoweapon.5	Practice
 pli_windowegoweapon.6	<color=3>Using Awakening Energy</color>\nGain awakening energy by attacking enemies with your Classic Spirit Weapon. Each time you hit enemies enough times to reach 100/100 on your energy bar, you'll get one skill charge on your spirit weapon. Use the skill once to prep it which will cause the energy bar to begin depleting, then again before the energy bar reaches zero to activate it. This skill can only be utilized when your weapon has at least one charge. \n\n<color=3>Energy Bar Cooldown</color>\nUsing the awakening skill will cause the energy bar to deactivate for a while. You won't be able to use the awakening skill again until the energy bar reactivates.
+pli_windowenchant.1	Request Enchant
+pli_windowenchant.2	Enchant
+pli_windowenchant.3	You cannot select items that are unenchantable.
+pli_windowenchant.4	Only one Magic Powder will be consumed per attempt.
+pli_windowenchant.5	You cannot select Enchant Scrolls that cannot be applied to the chosen equipment.
+pli_windowenchant.6	The final success rate of your enchant attempt is derived from the base success rate plus any additional bonuses. The base success rate {1} is determined by your Enchant skill rank and the Enchant Scroll's rank {0}. Additional bonuses include your Intelligence and the type of Magic Powder used to perform the Enchant.
+pli_windowenchant.7	The effect of the Enchant Protection Potion on the item has been depleted.\nThe item has been returned to your inventory without the effect.
+pli_windowenchantcommon.1	Rank {0}
+pli_windowenchantcommon.2	Dan {0}
+pli_windowenchantcommon.3	[Prefix]
+pli_windowenchantcommon.4	[Suffix]
+pli_windowenchantcommon.5	<color=4>No Enchant has been applied.</color>
+pli_windowenchantcommon.6	The Enchant Scroll will be destroyed if the Enchant fails.
+pli_windowenchantcommon.7	The equipment's maximum durability will be reduced if the Enchant fails.
+pli_windowenchantcommon.8	The equipment will become unenchantable if the Enchant fails.
+pli_windowenchantentrust.1	You cannot select items that are unenchantable.
+pli_windowenchantentrust.2	Only one Magic Powder will be consumed per attempt.
+pli_windowenchantentrust.3	You cannot select Enchant Scrolls that cannot be applied to the chosen equipment.
+pli_windowenchantentrust.4	Request Enchant
+pli_windowenchantentrust.5	Begin Enchant
+pli_windowenchantentrust.6	Requesting...
+pli_windowenchantentrust.7	The final success rate of your enchant attempt is derived from the base success rate plus any additional bonuses. The base success rate {1} is determined by your Enchant skill rank and the Enchant Scroll's rank {0}. Additional bonuses include your Intelligence and the type of Magic Powder used to perform the Enchant.
 pli_windowepilogue.1	게임 이용이 차단됩니다.
 pli_windowequipmentcollectionsystem.1	The <color=2><outlinecolor=3>{0}</outlinecolor></color>'s form will be applied to the selected item.\n<color=5>If a different appearance has already been applied, the existing\n appearance will be overwritten by the new one.</color>\nProceed?
 pli_windowequipmentcollectionsystem.2	You are about to apply the <color=2><outlinecolor=3>{0}</outlinecolor></color>'s form to the selected item.\n<color=5>Items whose appearance has been changed cannot be traded.</color>\nProceed?
@@ -6021,7 +6047,7 @@ pli_windowlogin.45	유저 아이디와 패스워드가 일치하지 않습니다
 pli_windowlogin.46	Captcha 입력 정보가 일치하지 않습니다.
 pli_windowlogin.47	Matrix 입력 정보가 일치하지 않습니다.
 pli_windowlogin.48	서버와 통신에 실패하였습니다({0}).
-pli_windowlogin.49	Another Login was detected. Terminating connection.
+pli_windowlogin.49	Another Login has been detected. Terminating connection.
 pli_windowlogin.50	Your connection will be terminated as NGS has detected a security threat.
 pli_windowlogin.51	마비노기ID는 영문/숫자만 입력할 수 있습니다.
 pli_windowlogin.54	일일 이용 가능한 게임 시간대를 초과했습니다. 휴식과 공부에 주의하시길 바랍니다.
@@ -6983,7 +7009,7 @@ pli_windowpvpcancelview.2	Respond to battle cancellation request?
 pli_windowpvpcancelview.3	OK
 pli_windowpvpcancelview.4	Cancel
 pli_windowpvpjoinview.1	Accept PvP
-pli_windowpvpjoinview.2	Accept the PvP against {0}?
+pli_windowpvpjoinview.2	{0} Would Like to PvP
 pli_windowpvpjoinview.3	OK
 pli_windowpvpjoinview.4	Cancel
 pli_windowpvpjoinview.5	You've received the party match invitation from other party.\nWill you accept it?
@@ -7078,7 +7104,7 @@ pli_windowrecommendinputview.5	You can add a recommender by pressing the <Add Re
 pli_windowrecommendinputview.6	You can add the person who referred you by clicking the <Add Referee>\nbutton in the Character Selection Screen if your account has no characters {0} or above.
 pli_windowrelationballoon.1	Click for more details.
 pli_windowrewardlimitframe.1	Reward Available
-pli_windowrewardlimitframe.2	Reward Restriction Status\n{0} {1} {2} required\n<color=5>(cleared time : {3} {2}) \n dungeon or mission has been cleared while the earning of rewards is restricted.</color>
+pli_windowrewardlimitframe.2	Reward Restriction Status\n{0}: {1} {2} required\n<color=5>(Clear Time: {3} {2}) \nDungeon/Mission cleared with reward restrictions in effect.</color>
 pli_windowrewardlimitframe.3	Rewards Limited Status\n{0} {1} {2} necessary
 pli_windowrewardview.1	Journal Achievement Score: {0} Point(s)
 pli_windowrewardview.2	You've achieved '{0}'
@@ -7540,7 +7566,6 @@ pli_windowtaskbar.61	Enlarges Status information.
 pli_windowtaskbar.62	View Board
 pli_windowtaskbar.63	Saga
 pli_windowtaskbar.64	Saga
-pli_windowtaskbar.65	캐시샵버튼
 pli_windowtaskbar.66	Go to Cash Shop
 pli_windowtaskbar.67	Traveler's Guide
 pli_windowtaskbar.68	Character
@@ -7845,9 +7870,9 @@ window.adv_item.get_rand_select_msg	Select one of the small boxes below.\nConten
 window.adv_item.get_rand_title	Confirm
 window.adv_item.get_random	Choose a random item
 window.adv_item.notice_arrived_title	Advanced Play Service Notice
-window.adv_item.notice_arrvied_later_btn	Receive Later
+window.adv_item.notice_arrvied_later_btn	Cancel
 window.adv_item.notice_arrvied_msg	Advanced Play special item has arrived.\nReceive it now?
-window.adv_item.notice_arrvied_ok_btn	Receive Now
+window.adv_item.notice_arrvied_ok_btn	Receive
 window.adv_read.cancel_button	Not Now
 window.adv_read.msg_text	{0:seal_name} on the book is emitting a mysterious force.\nWith a detailed reading, I may gain\nsome helpful information from this book.
 window.adv_read.ok_button	Read in Detail
@@ -8188,8 +8213,8 @@ window.enchant.meterial_item_tooltip	Only one will decrease even if there are mo
 window.enchant.my_source_item	Provided by me
 window.enchant.others_source_item	Provided by the enchanter
 window.enchant.perform_reward_tab	Item to Receive
-window.enchant.reward_item	Item to give the counterpart in return
-window.enchant.reward_item2	Item the counterpart offered in return
+window.enchant.reward_item	Gratuity Gift Offered
+window.enchant.reward_item2	Gratuity Gift Offered
 window.enchant.source_item	Material Item
 window.enchant.source_item_desc	Enchanter's Burn requires 1 Sunlight Herb and\n1 Holy Water of Lymilark. The items can be\nprovided by either the requester or the burner.
 window.enchant.success_rate	Success % :
@@ -8907,7 +8932,7 @@ window.petsummon.title	Summon Pet
 window.pocket.tooltip.personal_sell_price	Sales Amount: {0} Gold
 window.pocket.tooltip.purchase_price	Price: {0} Gold
 window.pocket.tooltip.recovery_price	Recovery Charge: {0} Gold
-window.pocket.tooltip.trade_pur_price	Shop Purchase Price: {0} Gold\n
+window.pocket.tooltip.trade_pur_price	Shop Purchase Price: {0} Gold
 window.pocket.tooltip.trade_sell_price	NPC Shop Sales Price: {0} Gold
 window.popup.close_button	Close
 window.popup.title	Pop Up Menu
@@ -9511,8 +9536,8 @@ window.title.cancel_button	Cancel
 window.title.desc_text	Description
 window.title.desc_text_dont_know	???\n\nA mysterious title with effects and methods still unknown.\nClues will be available in the course of playing the game.
 window.title.list_text	List of Titles
-window.title.ok_button	Set Titles
-window.title.remove_button	Remove Titles
+window.title.ok_button	Set Title
+window.title.remove_button	Remove Title
 window.title.start_tailoring	Start Tailoring
 window.title.tailoring_quality	Tailoring
 window.title.title	<large>Title</large>

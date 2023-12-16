@@ -9617,6 +9617,12 @@
 11951	Frostblossom Mir Dragon
 11952	Frostblossom Young Ceraunus
 11966	Leprechaun
+11978	Rowan
+11979	Rowan
+11980	Rowan
+11981	Loiscneach
+11982	Loiscneach
+11983	Loiscneach
 11984	Cromm Cruaich
 11985	Ceraunus (Event)
 11986	Crumena
@@ -9631,3 +9637,6 @@
 12003	고정 전기9 더미
 12004	Daol
 12005	Shakespeare
+12027	Materialized Dorcha
+12028	Remnants of a Frostwork Soul
+12046	Moon Bunny Flora

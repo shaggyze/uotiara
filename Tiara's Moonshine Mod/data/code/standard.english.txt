@@ -168,7 +168,7 @@ interface_character.12	Eyes
 interface_character.13	Mouth
 interface_character.14	 -type items cannot be equipped together.
 interface_character.15	 that makes you completely unique! 
-interface_character.16	Probably not a good idea to dress like this.
+interface_character.16	Face Accessory-Exclusive items and Wigs cannot be equipped together if one of their elements would overlap.
 interface_character.17	You cannot move to another continent from this location.
 interface_character.18	You cannot do that right now.\nContinent Warp is available after the quest [Fomor Threat].
 interface_characteretc.1	You can't save this location.
@@ -367,7 +367,7 @@ interface_skillhandler.7	무기의 사용기간이 지나서 {0}{을} 사용할 
 interface_skillhandler.8	You can't use this here.
 interface_skillhandler.9	지금은 스킬을 사용할 수 없습니다.\n게임에 접속 중인 상태로, {0} 후에 다시 시도하세요.
 interface_skillhandler.10	You can't use that Technique now. Please try again in {0} sec.
-interface_skillhandlerparam.1	You don't have enough Dorcha!
+interface_skillhandlerparam.1	You don't have enough Dorcha.
 interface_skillmgr.1	All the attributes are charged.
 interface_skillmgr.2	Requires a close combat weapon to use.
 interface_skillmgr.3	{0} cannot be used with a 0 durability weapon.
@@ -458,6 +458,10 @@ interface_standardapi_util.35	Chain Blade
 interface_standardapi_util.36	Tower Cylinder
 interface_standardapi_util.37	\n<color=2><outlinecolor=3>(거래 및 경매장 이용이 가능해 질 때 까지 {0} 남았습니다.)</outlinecolor></color>
 interface_standardapi_util.39	{0} cannot use all forms of trade-related systems as per the law in their country.
+interface_standardapi_util.40	Requires a bow or a crossbow.
+interface_standardapi_util.41	You can't use this weapon anymore.
+interface_standardapi_util.42	You need more arrows or bolts.
+interface_standardapi_util.43	This skill cannot be used with this weapon.
 itemenhancedescmgr.1	Upgrading to {0}, type {1} level {2}.\n
 itemenhancedescmgr.2	Converting {0}, type {1} level {2} to type {3} level {4}.\n
 itemenhancedescmgr.3	Upgrading to {0} level {1}.\n

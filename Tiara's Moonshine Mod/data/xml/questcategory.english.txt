@@ -76,3 +76,6 @@
 76	[Harmonic Saint]
 77	[Goal Achieved]
 78	[Attendance Check Mission]
+83	[Dark Diviner]
+84	[Alchemic Sharpshooter]
+86	[Arcn]

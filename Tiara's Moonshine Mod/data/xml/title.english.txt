@@ -13256,7 +13256,7 @@
 14740	An honorable title awarded to someone who has reached the highest level available in Crossbow Mastery.
 14741	An honorable title awarded to someone who has reached the highest level available in Bolt Magic Combination.
 14742	An honorable title awarded to someone who has reached the highest level available in Berserker.
-14743	An honorable title awarded to someone who has reached the highest level available in Crashdown.
+14743	An honorable title awarded to someone who has reached the highest level available in Assault Slash.
 14744	An honorable title awarded to someone who has reached the highest level available in Hail Storm.
 14745	A glorious title given to someone who has reached the highest level in Doppleganger.
 14746	An honorable title awarded to someone who has reached the highest level available in Lance Mastery.
@@ -13643,7 +13643,7 @@
 15127	Max Stamina +40\nChain Cylinder Cooldown - 1 second\n[Max MP - 20]
 15128	Max HP +20\nMax Stamina +20\nSTR +20\nThrowing Attack Effect +10%\n[DEX - 25]
 15129	Max Stamina +30\nTaunt a stronger enemy\n[DEX - 10]\n[INT - 20]
-15130	DEX +20\nAdditional +30% melee attack damage after Support Shot\n[STR - 20]\n[WILL - 10]
+15130	DEX +20\nIncreases melee attack damage an additional 5% after Support Shot\n[STR -20]\n[WILL -10]
 15131	DEX +10\nMax Stamina +20\nMax MP +20\nFragment Damage +10%\n[STR - 25]
 15132	Max MP +5\nMax Stamina +15\nFire Alchemy Efficiency +10%\n[STR - 10]
 15133	Max Stamina +10\nMax MP +15\nWater Alchemy Efficiency +10%\n[DEX - 10]\n[INT - 10]
@@ -13664,7 +13664,7 @@
 15148	When equipped with a crossbow, Critical +10%\nMax Stamina +10 \n[STR - 15]
 15149	INT +10\nMax MP +5\nCombined Bolt Magic Damage +5%\n[Max HP - 10]
 15150	STR +10\nWill +10\nBerserker duration +10 seconds\n[Max HP - 20]
-15151	STR +10\nCrashdown Damage +50%\n[INT - 15]
+15151	STR +10\nAssault Slash Damage +50%\n[INT - 15]
 15152	Luck +15\nINT +20\nMax MP +20
 15153	Max Stamina +30\nMax HP +10\n[Will - 20]\nDoppleganger Damage +15%
 15154	When equipped with a lance, Defense +2\nWhen equipped with a lance, Max Damage +10\n[Max MP - 15]\n[INT - 10]
@@ -14328,13 +14328,13 @@
 15994	마비노기 19주년 판타지 파티에 참여하여, 멋진 콘텐츠를 선보여 주신 아티스트에게 지급되는 특별한 타이틀.
 15995	마비노기 19주년 판타지 파티에 참여하여, 멋진 콘텐츠를 선보여 주신 아티스트에게 지급되는 특별한 타이틀.
 15996	행운 30 증가
-15997	에린마블 여행자
-15998	에린마블 여행자
-15999	에린마블 여행자
-16000	에린마블 여행자
-16001	에린마블 여행자\n타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16002	에린마블 여행자\n타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16003	탐험 경험치 5% 증가
+15997	Erinn-go-Round Explorer
+15998	Erinn-go-Round Explorer
+15999	Erinn-go-Round Explorer
+16000	Erinn-go-Round Explorer
+16001	Erinn-go-Round Explorer\nYou can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16002	Erinn-go-Round Explorer\nYou can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16003	Exploration EXP +5%
 16004	Special Bookstore Part-Timer
 16005	Special Bookstore Part-Timer
 16006	Special Bookstore Part-Timer
@@ -14370,6 +14370,13 @@
 16050	행운 30 증가
 16051	최대 대미지 21 증가\n마법 공격력 7 증가\n방어 5 증가 / 보호 5 증가
 16052	마법 공격력 30 증가\n최대 마나 12 증가\n방어 5 증가 / 보호 5 증가
+16074	Sky Lantern
+16075	Sky Lantern
+16076	Sky Lantern
+16077	Sky Lantern
+16078	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16079	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16080	Luck +30
 16095	a Winner at Losing
 16096	a Winner at Losing
 16097	a Winner at Losing
@@ -14384,6 +14391,27 @@
 16141	홍콩 오프라인 이벤트에 참여할 시 획득할 수 있는 특별한 2차 타이틀.
 16142	홍콩 오프라인 이벤트에 참여할 시 획득할 수 있는 특별한 2차 타이틀.
 16143	행운 30 증가
+16151	Permafrost
+16152	Timberfrost
+16153	Fractalfrost
+16154	Permafrost
+16155	Timberfrost
+16156	Fractalfrost
+16157	Permafrost
+16158	Timberfrost
+16159	Fractalfrost
+16160	Permafrost
+16161	Timberfrost
+16162	Fractalfrost
+16163	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16164	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16165	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16166	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16167	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16168	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16169	Luck +30
+16170	Luck +30
+16171	Luck +30
 16186	일본 18주년 마비노기 파티
 16187	일본 18주년 마비노기 파티
 16188	일본 18주년 마비노기 파티
@@ -14426,3 +14454,24 @@
 16330	최대 데미지 30 증가\n마법 공격력 30 증가\n크리티컬 10 증가\n방어 10 증가\n보호 10 증가\n마법 방어 10 증가\n 마법 보호 10 증가
 16331	최대 데미지 25 증가\n마법 공격력 20 증가\n방어 10 증가\n보호 10 증가\n마법 방어 10 증가\n 마법 보호 10 증가
 16332	이동 속도 3% 증가\n크리티컬 10 증가\n체력 10 증가\n솜씨 20 증가\n행운 20 증가
+16340	청룡이 남긴 물의 마음
+16341	청룡이 남긴 나무의 마음
+16342	청룡이 남긴 봄의 마음
+16343	청룡이 남긴 물의 마음
+16344	청룡이 남긴 나무의 마음
+16345	청룡이 남긴 봄의 마음
+16346	청룡이 남긴 물의 마음
+16347	청룡이 남긴 나무의 마음
+16348	청룡이 남긴 봄의 마음
+16349	청룡이 남긴 물의 마음
+16350	청룡이 남긴 나무의 마음
+16351	청룡이 남긴 봄의 마음
+16352	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16353	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16354	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16355	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16356	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16357	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16358	행운 30 증가
+16359	행운 30 증가
+16360	행운 30 증가

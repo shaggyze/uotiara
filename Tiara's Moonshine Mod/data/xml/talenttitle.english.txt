@@ -1827,3 +1827,7 @@
 2692	Grandmaster Choirmaster
 2709	This hidden talent is a result of proficiency in Close Combat and Magic.
 2710	This hidden talent is a result of proficiency in Music and the Holy Arts. Soothe people's spirits by singing a sacred song.
+2711	Grandmaster Bombardier
+2712	Grandmaster Black Magician
+2713	Those who appreciate the merits of assailing foes from afar with bows and cylinders alike can unlock this hidden talent.
+2714	This hidden talent is made known to those who achieve proficiency in both Magic and Chain Slash. Whether binding enemies with a chain blade or keeping them spellbound with arcane energies, you are a force to be reckoned with.
