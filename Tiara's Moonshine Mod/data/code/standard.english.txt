@@ -168,7 +168,7 @@ interface_character.12	Eyes
 interface_character.13	Mouth
 interface_character.14	 -type items cannot be equipped together.
 interface_character.15	 that makes you completely unique! 
-interface_character.16	Face Accessory-Exclusive items and Wigs cannot be equipped together if one of their elements would overlap.
+interface_character.16	Face Accessory-Exclusive items and Headwear cannot be equipped together if any of their features would overlap.
 interface_character.17	You cannot move to another continent from this location.
 interface_character.18	You cannot do that right now.\nContinent Warp is available after the quest [Fomor Threat].
 interface_characteretc.1	You can't save this location.
@@ -499,13 +499,13 @@ itemoptiondeschelper.31	Number of objects that can be used in Glyph Design
 itemoptiondeschelper.32	Use count of Glyph Imprint
 itemoptiondeschelper.33	Tri-Element Mastery Damage
 itemoptiondeschelper.34	Adjusts Aim Rate
-itemoptiondeschelper.35	파이어 속성 마법 대미지
-itemoptiondeschelper.36	아이스 속성 마법 대미지
-itemoptiondeschelper.37	라이트닝 속성 마법 대미지
-itemoptiondeschelper.38	힐링 효과
-itemoptiondeschelper.39	힐링 효과만큼 부상 치료
-itemoptiondeschelper.40	이동 속도
-itemoptiondeschelper.41	마법 시전속도
+itemoptiondeschelper.35	Fire Magic Damage
+itemoptiondeschelper.36	Ice Magic Damage
+itemoptiondeschelper.37	Lightning Magic Damage
+itemoptiondeschelper.38	Healing Effect
+itemoptiondeschelper.39	Recovers Wounds Equal to Healing Effect
+itemoptiondeschelper.40	Movement Speed
+itemoptiondeschelper.41	Magic Casting Speed
 itemoptionset.1	Spirit 
 itemqualitymgr.1	Talent Bonus: 
 itemqualitymgr.2	Grandmaster craft bonus : 

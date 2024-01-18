@@ -647,7 +647,7 @@
 647	You have at least 200 INT!
 648	You have at least 200 Strength!
 649	You have at least 200 DEX!
-650	A title given to an experienced warrior who has cleared the Rabbie Dungeon alone without missing an attack.
+650	A title given to an experienced warrior who has cleared the Rabbie Dungeon alone without being knocked down.
 651	none
 652	This title has been given to you for taking the enemy's attacks to protect your party members.
 653	You are a luxury guru in your expensive clothing. Aren't you afraid of thieves?
@@ -795,7 +795,7 @@
 795	High INT is supposed to bring wisdom.
 796	Train extensively to gain Strength.
 797	People with high DEX are skillful at their work.
-798	A title given to an experienced warrior who has cleared the Rabbie Dungeon alone without missing an attack.
+798	A title given to an experienced warrior who has cleared the Rabbie Dungeon alone without being knocked down.
 799	none
 800	In a party, a mage or archer needs someone to tank the enemies while casting a skill or shooting an arrow. Are you willing to sacrifice yourself for the sake of others?
 801	If you think you have expensive equipment on you, see if you can claim this title.
@@ -9304,7 +9304,7 @@
 10638	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 10639	Luck +20
 10640	Luck +20
-10641	Clear 3 or more Tech Duinn Missions on [Elite].
+10641	Clear 3 or more Tech Duinn Missions on Hard Difficulty.
 10642	the Aromatic Man/the Aromatic Woman
 10643	the Aromatic Man
 10644	the Aromatic Woman
@@ -14209,27 +14209,27 @@
 15805	A title bestowed on those who participated in the Mabinogi Community 15th Anniversary Art, Writing, and Screenshot Contest! Thank you for sharing your memories with the community! 
 15806	A title bestowed on those who participated in the Mabinogi Community 15th Anniversary Art, Writing, and Screenshot Contest! Thank you for sharing your memories with the community! 
 15807	Luck +15
-15808	시간의 톱니바퀴
-15809	시간의 궤도
-15810	시간의 흐름
-15811	시간의 톱니바퀴
-15812	시간의 궤도
-15813	시간의 흐름
-15814	시간의 톱니바퀴
-15815	시간의 궤도
-15816	시간의 흐름
-15817	시간의 톱니바퀴
-15818	시간의 궤도
-15819	시간의 흐름
-15820	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15821	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15822	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15823	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15824	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15825	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15826	행운 30 증가
-15827	행운 30 증가
-15828	행운 30 증가
+15808	Gears of Time
+15809	Circuits of Time
+15810	Echoes of Time
+15811	Gears of Time
+15812	Circuits of Time
+15813	Echoes of Time
+15814	Gears of Time
+15815	Circuits of Time
+15816	Echoes of Time
+15817	Gears of Time
+15818	Circuits of Time
+15819	Echoes of Time
+15820	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15821	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15822	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15823	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15824	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15825	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15826	Luck +30
+15827	Luck +30
+15828	Luck +30
 15829	Grandmaster Jousting Knight
 15830	Grandmaster Jousting Knight
 15831	Grandmaster Jousting Knight
@@ -14454,24 +14454,3 @@
 16330	최대 데미지 30 증가\n마법 공격력 30 증가\n크리티컬 10 증가\n방어 10 증가\n보호 10 증가\n마법 방어 10 증가\n 마법 보호 10 증가
 16331	최대 데미지 25 증가\n마법 공격력 20 증가\n방어 10 증가\n보호 10 증가\n마법 방어 10 증가\n 마법 보호 10 증가
 16332	이동 속도 3% 증가\n크리티컬 10 증가\n체력 10 증가\n솜씨 20 증가\n행운 20 증가
-16340	청룡이 남긴 물의 마음
-16341	청룡이 남긴 나무의 마음
-16342	청룡이 남긴 봄의 마음
-16343	청룡이 남긴 물의 마음
-16344	청룡이 남긴 나무의 마음
-16345	청룡이 남긴 봄의 마음
-16346	청룡이 남긴 물의 마음
-16347	청룡이 남긴 나무의 마음
-16348	청룡이 남긴 봄의 마음
-16349	청룡이 남긴 물의 마음
-16350	청룡이 남긴 나무의 마음
-16351	청룡이 남긴 봄의 마음
-16352	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16353	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16354	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16355	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16356	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16357	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16358	행운 30 증가
-16359	행운 30 증가
-16360	행운 30 증가

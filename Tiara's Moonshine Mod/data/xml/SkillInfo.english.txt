@@ -4476,7 +4476,7 @@
 6562	By attaching Wind Crystals to an arrow, creates a powerful current that pulls enemies along the path of the arrow. Though it does not last long, the wind currents are so powerful they are visible to the naked eye. To use, you will need Wind Crystals and crystals of one other element. (Crystals Needed: 5 Wind Crystals, 5 Crystals of a selected element)
 6563	Affixes Earth Crystals to an arrow and fires. When the arrow hits an enemy, it sends shockwaves through the ground which periodically deals damage to nearby enemies as well. Since it has been strengthened by alchemy, the earth that is flung up by the shockwave has a hardness similar to steel. To use, you will need Earth Crystals and crystals of one other element. (Crystals Needed: 5 Earth Crystals, 5 Crystals of a selected element)
 6564	Fires 3 arrows in succession, which pierce through all enemies in a straight line. As in many alchemy skills, any combination of elements can be used. At least 2 types of elemental energies must be completely filled to use this skill, and 2 types of Crystals are required. (Crystal Materials: 5 for each selected element)
-6565	The first step to any Alchemic Sharpshooter skill is attaching alchemical Crystals to an arrow, causing elemental effects when the arrow is shot. Depending on the elements combined, six different effects can be created. Proficiency in this skill is affected by both Alchemic Sharpshooter proficiency and the Alchemy Mastery of each element used.
+6565	The foundation of all Alchemic Sharpshooter skills is the ability to infuse arrows with pure elemental energy drawn from alchemical crystals. The primary element determines the nature of the skill itself, while the secondary element adds an additional effect. Depending on the combination of elements chosen, one of six different reactions will be catalyzed. Proficiency in this skill is influenced by both Alchemic Sharpshooter proficiency and the Alchemy Mastery of each element used. Secondary elements can be added after selecting a skill by pressing the key corresponding to that element (1, 2, 3, or 4). 
 6566	Raise the Dark Diviner Arcana to Level 1 or higher.
 6567	Raise the Dark Diviner Arcana to Level 1 or higher.
 6568	Raise the Dark Diviner Arcana to Level 1 or higher.
@@ -4489,6 +4489,14 @@
 6575	Raise the Alchemic Sharpshooter Arcana to Level 6 or higher and the Hermetic Harmony skill to Rank F or higher.
 6576	Raise the Alchemic Sharpshooter Arcana to Level 3 or higher and the Hermetic Harmony skill to Rank F or higher.
 6577	Raise the Alchemic Sharpshooter Arcana to Level 7 or higher and the Hermetic Harmony skill to Rank F or higher.
+6579	Lightning Strike
+6580	Ambush
+6581	Counterattack
+6582	Collapse
+6583	Temp
+6584	Temp
+6585	Temp
+6586	Temp
 6587	Enchant
 6588	Cannot be used in the current state.
 6589	Enchanting is the art of imbuing an object with magical effects. However, the scrolls that contain these enchantments can be fragile, and if used alone, may crumble to dust if the attempt fails. However, by learning the Enchant skill, you'll be able to use Magic Powder as a medium to transfer the effect from scroll to equipment, making such tragic outcomes far less commonplace. You can use the Enchant skill alone to attempt an Enchant, but seasoned enchanters recommend using the skill while holding a bottle of Magic Powder in your right hand and an Enchant Scroll in your left. If you choose to protect the Enchant Scroll, only the piece of equipment you're trying to enchant will be damaged in the event of a failed enchant attempt. On the other hand, if you choose to protect the equipment, the Enchant Scroll will absorb the brunt of a failed enchant attempt, destroying it.

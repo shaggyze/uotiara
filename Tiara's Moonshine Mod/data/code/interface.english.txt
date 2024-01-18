@@ -1142,6 +1142,17 @@ pli_characterreputationframe.7	You have a chance to gain a bonus {1} if you reac
 pli_chathelper.1	You cannot enter multiple messages so quickly. Please wait a moment and try again.
 pli_choicetalentview.1	{0} Talent Training 2x EXP
 pli_choicetalentview.2	Select the {0} Talent?
+pli_chronicleweaponinventoryview.1	Expand your Chronicle Weapon Storage slots?\nExpansion will require {0} Gold.\n({1} Gold if paid directly from the bank)
+pli_chronicleweaponinventoryview.2	Current Storage Capacity: {0}
+pli_chronicleweaponinventoryview.3	Max Storage Capacity: {0}
+pli_chronicleweaponinventoryview.4	Retrieve the {0} from your Storage?
+pli_chronicleweaponinventoryview.5	Expand
+pli_chronicleweaponinventoryview.6	Direct Bank\nTransaction
+pli_chronicleweaponstoreview.1	Cost: {0} Gold
+pli_chronicleweaponstoreview.2	You cannot hold more than one weapon of that type.\nTrade it out with your {0}?
+pli_chronicleweaponstoreview.3	Deposit the {0} in your Storage?
+pli_chronicleweaponstoreview.4	Exchange
+pli_chronicleweaponstoreview.5	Exchange Weapon
 pli_collecthuntview.1	Hunt ({0}/{1})
 pli_collectionframe.1	Popularity
 pli_collectionframe.2	Collect
@@ -1644,7 +1655,7 @@ pli_egoweaponfeedframe.4	Lv. %d exp %.2f%% (+%.2f%%)
 pli_egoweaponfeedframe.5	Lv. %d exp %.2f%%
 pli_egoweaponfeedframe.6	(of the {0} selected items)
 pli_egoweaponfeedframe.7	Give {1} item(s) to {0}?
-pli_egoweaponfeedframe.8	<color=5>(This will only applies enough EXP to level up.)</color>
+pli_egoweaponfeedframe.8	<color=5>(This will only apply enough EXP to level up.)</color>
 pli_egoweaponfeedframe.9	<color=5>(Giving this item will exceed weekly EXP.)</color>
 pli_egoweaponfeedframe.10	<color=5>(Maximum level reached, no EXP will be given.)</color>
 pli_egoweaponfeedframe.11	<color=5>(Weekly EXP limit reached, no EXP will be given.)</color>
@@ -1855,7 +1866,7 @@ pli_expiretimeextendview.13	Cancel
 pli_expiretimeextendview.14	{0}일 {1}폰
 pli_expiretimeextendview.15	기간 연장
 pli_extrabagorderframe.1	Expanded Inventory
-pli_extrabagorderframe.2	PLUS Inventory
+pli_extrabagorderframe.2	VIP Inventory
 pli_extrabagorderframe.3	Mabinogi VIP Service Inventory
 pli_extrabagorderview.1	Please try again in {0} seconds.
 pli_eyeblinkview.1	Apply changes to blink settings?
@@ -3565,7 +3576,7 @@ pli_newrecordbookmainview.2	* Bookmark\n
 pli_newyearfortune2015japan.1	To reveal your fortune, you need 3 Fortune's Fees.
 pli_npcenchantentrustview.1	If an enchant attempt of rank 6 or higher fails,\nno further enchants can be applied to the item.
 pli_npcenchantentrustview.2	If an enchant attempt of rank 6 or higher fails,\nno further enchants can be applied to the item.
-pli_npcenchantentrustview.3	소각할 수 없는 아이템입니다
+pli_npcenchantentrustview.3	This item cannot be burned.
 pli_objectivepointeventview.1	Please click again after {0} sec.
 pli_objectivepointeventview.2	{0} min
 pli_objectivepointeventview.3	From %04d.%02d.%02d to %04d.%02d.%02d
@@ -3597,6 +3608,12 @@ pli_optionweaponmainview.15	Increase Rank
 pli_optionweaponmainview.16	Increase Level
 pli_optionweaponmainview.17	Success Rate: {0}%
 pli_optionweaponmainview.18	Success Rate: <color=3>{0}% (Event: +{1}%)</color>
+pli_optionweaponmainview.19	스타더스트 위치 조정
+pli_optionweaponmainview.20	{0}번째
+pli_optionweaponmainview.21	* 캐릭터의 왼쪽이 기준입니다
+pli_optionweaponmainview.22	초기화
+pli_optionweaponmainview.23	저장
+pli_optionweaponmainview.24	닫기
 pli_optionweaponshapeview.1	Would you like to change the Stardust's appearance to {0}?
 pli_optionweaponshapeview.2	Confirm
 pli_oxquizquestionview.1	\n\n{0}sec
@@ -3920,7 +3937,7 @@ pli_premiumservicetabframe.55	추가 장비 슬롯 무제한 이용
 pli_premiumservicetabframe.56	전투 재능에 도움되는 버프
 pli_premiumservicetabframe.57	회복류 포션 효과 효율 증가 
 pli_premiumservicetabframe.58	생활 재능에 도움되는 버프
-pli_premiumservicetabframe.59	낭만 농장 주크박스 무제한 이용
+pli_premiumservicetabframe.59	낭만 농장 / 달빛 섬 주크박스 무제한 이용
 pli_premiumservicetabframe.60	캠프 파이어 소각 경험치 증가
 pli_premiumservicetabframe.62	프리미엄 펫 탐험대 퀘스트 제공
 pli_premiumservicetabframe.64	원격 상점 이용 가능
@@ -3950,7 +3967,7 @@ pli_premiumservicetabframe.97	아이템 수리비 감면
 pli_premiumservicetabframe.98	보상 경험치와 골드를 추가로 획득할 수 있는 프리미엄 오늘의 미션이 1일 1개씩 제공됩니다.
 pli_premiumservicetabframe.99	VIP 오늘의 미션
 pli_premiumservicetabframe.100	내 경매 슬롯이 10칸만큼 추가로 늘어납니다.
-pli_premiumservicetabframe.101	은행에서 출금할 수 있는 수표 출금 한도가 기본 1000만 골드에서 5000만 골드가 추가로 증가해, 6000만 골드까지 수표 출금할 수 있게 됩니다.
+pli_premiumservicetabframe.101	은행에서 1억 골드 수표를 출금할 수 있게 됩니다.
 pli_premiumservicetabframe.102	타이틀 교체 무한
 pli_premiumservicetabframe.104	낭만 농장 하우징 계약을 별도 골드 지불 없이 무료로 연장할 수 있습니다.
 pli_premiumservicetabframe.107	스마트 콘텐츠를 이용하여 문게이트, 마나터널을 무료로 이용할 수 있습니다.
@@ -3960,7 +3977,7 @@ pli_premiumservicetabframe.112	프리미엄 베이직 멤버십이 적용 중인
 pli_premiumservicetabframe.113	드레스 룸의 뷰티 슬롯이 추가 제공됩니다. 헤어, 눈, 얼굴, 입 뷰티 슬롯이 각각 3칸씩 추가 제공됩니다.
 pli_premiumservicetabframe.114	추가 장비 슬롯을 무제한으로 이용할 수 있습니다.
 pli_premiumservicetabframe.116	회복류 포션 효과 효율 증가 
-pli_premiumservicetabframe.118	프리미엄 라이프 멤버십이 적용 중인 상태에서는 낭만 농장에 설치된 주크박스를 무제한으로 이용하실 수 있습니다.
+pli_premiumservicetabframe.118	프리미엄 라이프 멤버십이 적용 중인 상태에서는 낭만 농장 또는 달빛 섬에 설치된 주크박스를 무제한으로 이용하실 수 있습니다.
 pli_premiumservicetabframe.119	캠프 파이어에 아이템 소각 시, 획득하는 경험치를 2배로 획득할 수 있습니다.
 pli_premiumservicetabframe.121	기본 성공률이 높은 프리미엄 펫 탐험대 퀘스트를 추가로 수주받을 수 있습니다.
 pli_premiumservicetabframe.124	프리미엄 베이직 멤버십 이용 중이라면, 서버 내 최초 접속한 캐릭터에게 프리미엄 펫을 소환할 수 있는 호루라기가 지급됩니다.\n호루라기를 사용해 생성한 펫은 프리미엄 베이직 멤버십이 적용 중인 상태에서 소환할 수 있으며 함께 에린을 모험할 수 있습니다.\n서버 당 1개씩 지급되며, 서버 이전이 불가능합니다.
@@ -4368,9 +4385,9 @@ pli_rockpaperscissorsscoreview.1	{0} Win(s)
 pli_rockpaperscissorsscoreview.2	{0} Loss(es)
 pli_roulettebingoview.1	Spin Roulette! Pay {0} coin(s)
 pli_roulettebingoview.2	Next Coin In:
-pli_scrapbookbestcookview.1	<color=4><outlinecolor=5>{0:Server name} The best\n{1:Name of dish}</outlinecolor></color>
+pli_scrapbookbestcookview.1	<color=4><outlinecolor=5>{0:Server name}'s Best\n{1:Name of dish}</outlinecolor></color>
 pli_scrapbookbestcookview.2	A word from Master Chef {0}
-pli_scrapbookbestcookview.3	You have completed the best {0:food name}.\nLet other people know about it!
+pli_scrapbookbestcookview.3	You've made the best {0:food name}.\nLet everyone know about it!
 pli_scrapbookbestcookview.4	Enter a comment.
 pli_scrapbookbestcookview.5	The phrase includes a term that is deemed inappropriate.
 pli_scrapbookdetailview.1	{0:year}-{1:month}-{2:day} {3:hour}:{4:minute}:{5:second} 
@@ -6191,7 +6208,7 @@ pli_windowmessengermain.9	There are no registered guilds.
 pli_windowmessengermain.10	Guild List
 pli_windowmessengermain.11	You are not in a Guild. Request to join one\nby pressing the Guild List button below.
 pli_windowmessengermain.12	Referral Info
-pli_windowmessengermain.15	. Your friend is too busy to chat with you right now.
+pli_windowmessengermain.15	. You cannot message your friend if their status is set to 'Offline'.
 pli_windowmessengeroption.1	Nickname
 pli_windowmessengeroption.2	My Status
 pli_windowmessengeroption.3	Notify me when a friend logs in
@@ -6986,6 +7003,7 @@ pli_windowpopupitem.64	Reset
 pli_windowpopupitem.65	Additional Function Settings
 pli_windowpopupitem.66	Move all items to trash
 pli_windowpopupitem.67	Register Add-on Collection Category
+pli_windowpopupitem.68	스타더스트 위치 조정
 pli_windowpopupprop.0	Set Rental Fee
 pli_windowpopupprop.1	Change Direction
 pli_windowpopupprop.2	가방 열기
@@ -7104,7 +7122,7 @@ pli_windowrecommendinputview.5	You can add a recommender by pressing the <Add Re
 pli_windowrecommendinputview.6	You can add the person who referred you by clicking the <Add Referee>\nbutton in the Character Selection Screen if your account has no characters {0} or above.
 pli_windowrelationballoon.1	Click for more details.
 pli_windowrewardlimitframe.1	Reward Available
-pli_windowrewardlimitframe.2	Reward Restriction Status\n{0}: {1} {2} required\n<color=5>(Clear Time: {3} {2}) \nDungeon/Mission cleared with reward restrictions in effect.</color>
+pli_windowrewardlimitframe.2	Reward Restriction Status\n{0}: {1} {2} required\n<color=5>(Clear Time: {3} {2}) \n Dungeon/Mission cleared with reward restrictions in effect.</color>
 pli_windowrewardlimitframe.3	Rewards Limited Status\n{0} {1} {2} necessary
 pli_windowrewardview.1	Journal Achievement Score: {0} Point(s)
 pli_windowrewardview.2	You've achieved '{0}'

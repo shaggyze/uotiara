@@ -9554,6 +9554,9 @@
 11813	태극기
 11816	Ceraunus (Event)
 11817	Icicle Sprite
+11818	Nuadha
+11819	Cromm Cruaich
+11822	Sreng
 11824	Giant Lion
 11825	Giant Lioness
 11826	Desert Dragon
@@ -9562,11 +9565,28 @@
 11829	Giant Worm
 11830	Yggdrasil Wisp
 11831	길드석
+11834	Shadow Mission Invisible Ally Monster Invincibility
+11835	Shadow Mission Invisible Ally Monster
+11836	Shadow Mission Invisible Enemy Monster Invincibility
+11837	Shadow Mission Invisible Enemy Monster
+11838	Fir Bolg Mage
+11839	Fir Bolg Archer
+11840	Fir Bolg Infantry
+11841	Fir Bolg Archer
+11842	Fir Bolg Infantry
+11843	Fir Bolg Archer
+11844	Fir Bolg Mage
+11845	Suspicious Monolith
+11846	Suspicious Monolith
 11847	Hasidim
 11848	Crystal
 11849	Crystal
 11850	Crystal
+11851	Lancer
+11852	Fighter
+11853	Infantry
 11858	Sheep
+11859	Danann Infantry
 11860	Tabby Purrling
 11861	Tabby Purrling
 11862	Siamese Purrling
@@ -9575,7 +9595,7 @@
 11865	Persevering Tabby Purrling
 11866	Perspicacious Siamese Purrling
 11867	Perspicacious Siamese Purrling
-11868	장식된 라이딩 크롭
+11868	Elegant Riding Crop
 11869	[Guild] Dog Sled
 11870	[Guild] Camel
 11871	[Guild] Trader's Skiff
@@ -9584,6 +9604,7 @@
 11874	[Guild][Partner] Camel
 11875	[Guild][Partner] Trader's Skiff
 11876	[Guild][Partner] Dog Sled
+11877	Location of Suspicious Monolith Discovery
 11880	White Poodle Mini-Gem
 11881	Siamese Cat Mini-Gem
 11882	Spotted Deer Mini-Gem
@@ -9626,6 +9647,13 @@
 11984	Cromm Cruaich
 11985	Ceraunus (Event)
 11986	Crumena
+11987	Suspicious Monolith
+11988	Supply Wagon
+11989	Fomor Warrior
+11990	Supply Wagon
+11991	Sreng
+11992	Shadow Stone
+11993	Fir Bolg Bard
 11995	고정 불1 더미
 11996	고정 불5 더미
 11997	고정 불9 더미
@@ -9637,6 +9665,46 @@
 12003	고정 전기9 더미
 12004	Daol
 12005	Shakespeare
+12007	Scouting Unit Captain
+12008	Scarred Scout
+12009	Mustachioed Scout
+12010	Tall Scout
+12011	Scruffy Scout
+12012	Grizzled General
+12013	Dark-Bearded General
+12014	Apprehensive General
+12015	Silver-Haired General
+12016	Danann Army Infantry
+12017	Danann Army Archer
+12018	Fir Bolg Infantry
+12019	Fir Bolg Archer
+12020	Morrighan
+12021	Cichol
+12022	Fir Bolg Infantry
+12023	Fir Bolg Archer
+12024	Scouting Unit Captain
 12027	Materialized Dorcha
 12028	Remnants of a Frostwork Soul
+12042	Nuadha
+12044	Nuadha
+12045	Scouting Unit's Rendezvous Point
 12046	Moon Bunny Flora
+12047	Sreng
+12048	Barrier Monolith
+12049	Barrier Monolith
+12050	Suspicious Monolith
+12051	Lazy Purrling Figure
+12052	Sled Team Husky Figure
+12053	Scouting Unit Captain
+12054	Scouting Unit Captain
+12055	Scouting Unit Captain
+12056	Scouting Unit Captain
+12061	Nuadha
+12065	Adventurous Elephant Figure
+12066	Marathon Camel Figure
+12067	Wooden Man as Weak as a Raccoon
+12068	Wooden Man as Sturdy as a Tech Duinn Geata
+12069	Wooden Man as Sturdy as the Succubus Queen
+12070	Wooden Man as Sturdy as Irusan
+12071	Wooden Man as Sturdy as Cailleach
+12330	케라우노스(이벤트용)

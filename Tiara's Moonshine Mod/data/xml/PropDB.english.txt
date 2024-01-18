@@ -3968,7 +3968,7 @@
 4264	Confessional
 4265	Entering the Confessional.
 4266	Falias Portal
-4267	Use Falias Portal.
+4267	Enter the Falias Portal?
 4268	Leaving the Confessional.
 4269	*이벤트용_풍선부활_풍선_01
 4270	*아본 바닷물 01
