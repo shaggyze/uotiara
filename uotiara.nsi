@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
 !define UOSHORTVERSION        "432"
-!define UOLONGVERSION         "0.48.65"
+!define UOLONGVERSION         "0.48.66"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -390,6 +390,8 @@ goto end
 mabi-pack2NotFound1:
 MessageBox MB_OK "Please reinstall and select mabi-pack2 to use this option."
 end:
+;remove when patchers are working
+!insertmacro ShellExecWait "" '"$INSTDIR\UOTiaraPack.bat"' '""' "" ${SW_SHOW} $1
 FunctionEnd
 
 
@@ -787,7 +789,7 @@ RMDir "$INSTDIR\Hyddwn Launcher"
 no4:
 !macroend
 
-Section "mabi-pack2" MOD434
+Section "mabi-pack2" MOD434 RO
 SetOutPath "$INSTDIR\mabi-pack2"
 ;WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "State" "1"
 File "${srcdir}\Tiara's Moonshine Mod\Tools\mabi-pack2\mabi-pack2.exe"
