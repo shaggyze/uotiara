@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
 !define UOSHORTVERSION        "432"
-!define UOLONGVERSION         "0.48.66"
+!define UOLONGVERSION         "0.48.67"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -789,7 +789,7 @@ RMDir "$INSTDIR\Hyddwn Launcher"
 no4:
 !macroend
 
-Section "mabi-pack2" MOD434 RO
+Section "mabi-pack2" MOD434
 SetOutPath "$INSTDIR\mabi-pack2"
 ;WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "State" "1"
 File "${srcdir}\Tiara's Moonshine Mod\Tools\mabi-pack2\mabi-pack2.exe"
@@ -800,7 +800,7 @@ WriteRegStr HKCR "IT.it" "" "IT File"
 WriteRegStr HKCR "IT.it\shell" "" "Open"
 WriteRegStr HKCR "IT.it\shell\Open\command" "" '"$INSTDIR\mabi-pack2\mabi-pack2.exe" "%1"'
 WriteRegStr HKCR "IT.it\DefaultIcon" "" "$INSTDIR\mabi-pack2\mabi-pack2.exe"
-SectionIn 1 3
+SectionIn RO
 SectionEnd
 !macro Remove_${MOD434}
   DetailPrint "*** Removing mabi-pack2..."
