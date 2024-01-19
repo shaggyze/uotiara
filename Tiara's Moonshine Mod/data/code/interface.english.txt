@@ -1317,7 +1317,7 @@ pli_commerceselectview.1	You can use this transport mount after\npaying a fee in
 pli_commerceselectview.2	Slot: {0:slot}</color>
 pli_commerceselectview.3	Weight: {0:weight}</color>
 pli_commerceselectview.4	You can use this transport mount after\npaying a fee in Seasonal Ducats. See the\nTransport Helper to learn more.
-pli_commerceselectview.5	No Specialized Environment
+pli_commerceselectview.5	No Environmental Specialization
 pli_commerceselectview.6	Slots {0}\nWeight {1}\n{2}
 pli_commercesmugglerpostview.1	Smuggler
 pli_commercesmugglerpostview.2	<color=4><outlinecolor=5>{0}</outlinecolor></color> <color=6>Ducats</color>1
@@ -4863,7 +4863,7 @@ pli_tradeauctionmarkettab.6	There are no items that meet that criteria.
 pli_tradeauctionmarkettab.7	Total
 pli_tradeauctionmarkettab.8	Would you like to view the item details?
 pli_tradeauctionmarkettab.9	Please search after selecting a detailed category.
-pli_tradeauctionmarkettab.10	최소 한 글자 이상 입력 후 검색해 주세요.
+pli_tradeauctionmarkettab.10	You must enter at least one letter or number to search.
 pli_tradeauctionmarkettabbase.1	Regular items will have priority when sorting. \nYou can select and view the Sale Type through the search filter.
 pli_tradeauctionmyitemframe.1	Get Paid
 pli_tradeauctionmyitemframe.2	<color=2><outlinecolor=3>On Waiting List\n{0}:{1}</color></outlinecolor>

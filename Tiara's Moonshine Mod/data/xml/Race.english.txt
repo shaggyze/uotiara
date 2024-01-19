@@ -9638,6 +9638,14 @@
 11951	Frostblossom Mir Dragon
 11952	Frostblossom Young Ceraunus
 11966	Leprechaun
+11967	개썰매
+11968	운송용 낙타
+11969	운송용 부유선
+11970	개썰매
+11971	[파트너] 개썰매
+11972	[파트너] 운송용 낙타
+11973	[파트너] 운송용 부유선
+11974	[파트너] 개썰매
 11978	Rowan
 11979	Rowan
 11980	Rowan

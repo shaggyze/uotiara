@@ -1783,7 +1783,7 @@
 2648	Master Natural Philosopher
 2649	Great Woodsfolk
 2650	Champion Woodsfolk
-2651	Great Woodsfolk
+2651	Wise Woodsfolk
 2652	Master Woodsfolk
 2653	You are just as comfortable weaving glyphs as you are weaving silk. Your knowledge of glyph design gives your outfits a magic touch, while your fashion sense make your glyphs all the more artistic.
 2654	You are just as comfortable weaving glyphs as you are weaving silk. Your knowledge of glyph design gives your outfits a magic touch, while your fashion sense make your glyphs all the more artistic.
