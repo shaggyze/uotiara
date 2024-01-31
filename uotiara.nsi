@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
 !define UOSHORTVERSION        "433"
-!define UOLONGVERSION         "0.49.69"
+!define UOLONGVERSION         "0.49.70"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -2694,6 +2694,15 @@ SectionGroupEnd
 SectionGroupEnd
 SectionGroupEnd
 SectionGroup "gfx"
+Section "Feth Indicator" MOD73
+SetOutPath "$INSTDIR\data\gfx\fx\effect"
+File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\5_doll_effect.xml"
+SectionIn 1 2 3
+SectionEnd
+!macro Remove_${MOD73}
+  DetailPrint "*** Removing MOD73..."
+  Delete "$INSTDIR\data\gfx\fx\effect\5_doll_effect.xml"
+!macroend
 Section "Bandit Spotter 3" MOD299
 SetOutPath "$INSTDIR\data\gfx\char\human\male\helmet"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\male\helmet\male_theater01_paper_h01.xml"
@@ -7043,7 +7052,7 @@ SectionGroupEnd
 !insertmacro "${MacroName}" "MOD72?1"
 !insertmacro "${MacroName}" "MOD72?2"
 !insertmacro "${MacroName}" "MOD72?3"
-;!insertmacro "${MacroName}" "MOD73"
+!insertmacro "${MacroName}" "MOD73"
 !insertmacro "${MacroName}" "MOD74"
 !insertmacro "${MacroName}" "MOD444"
 !insertmacro "${MacroName}" "MOD445"
@@ -8133,13 +8142,11 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD72?3" "FILE1" "\data\sound\kmn\
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD72?3" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD72?3" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD72?3" "DESCRIPTION" "Mute data\sound\kmn\2020_kmn_summon.wav"
-;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "" "Music Buff Status List"
-;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILE1" "\data\db\charactercondition.xml"
-;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILE2" "\data\xml\charactercondition.english.txt"
-;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILE3" "\data\xml\charactercondition.english.txt"
-;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILES" "3"
-;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "CREATOR" "Xeme"
-;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "DESCRIPTION" "Show Music Buff Status List"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "" "Feth Indicator"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILE1" "\data\gfx\fx\effect\C5_doll_effect.xml"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "FILES" "1"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "CREATOR" "Pot and tony"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD73" "DESCRIPTION" "Changes the color of the indicator to bright yellow and raises y-axis"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD74" "" "Shadow Mission Boards"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD74" "FILE1" "\data\world\taillteann_main_field\_taillteann_main_field_0018.area"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD74" "FILE2" "\data\world\Tara_main_field\_Tara_main_field_0013.area"
