@@ -10,6 +10,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 > - Tweet about it
 > - Refer this project in your project's readme
 > - Mention the project at local meetups and tell your friends/colleagues
+> - Donate/Sponsor the project with [Patreon](https://www.patreon.com/shaggyze) or [PayPal](https://paypal.me/thoggsr)
 
 <!-- omit in toc -->
 ## Table of Contents
@@ -20,16 +21,13 @@ All types of contributions are encouraged and valued. See the [Table of Contents
   - [Reporting Bugs](#reporting-bugs)
   - [Suggesting Enhancements](#suggesting-enhancements)
   - [Your First Code Contribution](#your-first-code-contribution)
-  - [Improving The Documentation](#improving-the-documentation)
-- [Styleguides](#styleguides)
-  - [Commit Messages](#commit-messages)
 - [Join The Project Team](#join-the-project-team)
 
 
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the
-[Unofficial Tiara's Moonshine Mod Code of Conduct](https://github.com/shaggyze/uotiarablob/master/CODE_OF_CONDUCT.md).
+[Unofficial Tiara's Moonshine Mod Code of Conduct](https://github.com/shaggyze/uotiara/blob/master/CODE_OF_CONDUCT.md).
 By participating, you are expected to uphold this code. Please report unacceptable behavior
 to <shaggyze@gmail.com>.
 
@@ -42,9 +40,9 @@ Before you ask a question, it is best to search for existing [Issues](https://gi
 
 If you then still feel the need to ask a question and need clarification, we recommend the following:
 
-- Open an [Issue](https://github.com/shaggyze/uotiara/issues/new).
+- Open an [Issue](https://github.com/shaggyze/uotiara/issues/new?assignees=&labels=question&projects=&template=question.md&title=A+concise+description+of+the+topic).
 - Provide as much context as you can about what you're running into.
-- Provide project and platform versions (nodejs, npm, etc), depending on what seems relevant.
+- Provide project and platform versions (installer, windows, etc), depending on what seems relevant.
 
 We will then take care of the issue as soon as possible.
 
@@ -77,7 +75,7 @@ A good bug report shouldn't leave others needing to chase you up for more inform
 
 - Make sure that you are using the latest version.
 - Determine if your bug is really a bug and not an error on your side e.g. using incompatible environment components/versions (Make sure that you have read the [documentation](https://shaggyze.github.io/uotiara/). If you are looking for support, you might want to check [this section](#i-have-a-question)).
-- To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is not already a bug report existing for your bug or error in the [bug tracker](https://github.com/shaggyze/uotiaraissues?q=label%3Abug).
+- To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is not already a bug report existing for your bug or error in the [bug tracker](https://github.com/shaggyze/uotiara/issues?q=label%3Abug).
 - Also make sure to search the internet (including Stack Overflow) to see if users outside of the GitHub community have discussed the issue.
 - Collect information about the bug:
   - Stack trace (Traceback)
@@ -94,7 +92,7 @@ A good bug report shouldn't leave others needing to chase you up for more inform
 
 We use GitHub issues to track bugs and errors. If you run into an issue with the project:
 
-- Open an [Issue](https://github.com/shaggyze/uotiara/issues/new). (Since we can't be sure at this point whether it is a bug or not, we ask you not to talk about a bug yet and not to label the issue.)
+- Open an [Issue](https://github.com/shaggyze/uotiara/issues/new?assignees=&labels=bug&projects=&template=bug_report.md&title=%5BBUG%5D+). (Since we can't be sure at this point whether it is a bug or not, we ask you not to talk about a bug yet and not to label the issue.)
 - Explain the behavior you would expect and the actual behavior.
 - Please provide as much context as possible and describe the *reproduction steps* that someone else can follow to recreate the issue on their own. This usually includes your code. For good bug reports you should isolate the problem and create a reduced test case.
 - Provide the information you collected in the previous section.
@@ -123,7 +121,7 @@ This section guides you through submitting an enhancement suggestion for Unoffic
 <!-- omit in toc -->
 #### How Do I Submit a Good Enhancement Suggestion?
 
-Enhancement suggestions are tracked as [GitHub issues](https://github.com/shaggyze/uotiara/issues).
+Enhancement suggestions are tracked as [GitHub issues](https://github.com/shaggyze/uotiara/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=).
 
 - Use a **clear and descriptive title** for the issue to identify the suggestion.
 - Provide a **step-by-step description of the suggested enhancement** in as many details as possible.
@@ -134,36 +132,27 @@ Enhancement suggestions are tracked as [GitHub issues](https://github.com/shaggy
 <!-- You might want to create an issue template for enhancement suggestions that can be used as a guide and that defines the structure of the information to be included. If you do so, reference it here in the description. -->
 
 ### Your First Code Contribution
+
+[First Contributions](https://github.com/firstcontributions/first-contributions)
+[GitHub Desktop Tutorial]https://github.com/firstcontributions/first-contributions/blob/main/gui-tool-tutorials/github-desktop-tutorial.md)
+
 ## Pull Request Process
 
-1. Ensure any install or build dependencies are removed before the end of the layer when doing a 
-   build.
-2. Update the README.md with details of changes to the interface, this includes new environment 
-   variables, useful file locations and container parameters.
+1. Ensure any install or build dependencies are installed and repo is up to date.
+2. Update the README.md with details of changes to the installer, primarily new mods with creators name.
 3. Increase the version numbers in appveyor.yml and uotiara.nsi to the new version that this
    Pull Request would represent. The versioning scheme we use is 0.0.0.0
-   - 1: NA Mabinogi revision (launching an old UO Tiara Installer will prompt this number).
+   - 1: NA Mabinogi revision (launching an old UO Tiara Installer or Hyddwn Launcher will prompt this number)
    - 2: Major revision (new UI, lots of new features, conceptual change, etc.)
    - 3: Minor revision (collection of bug fixes, +1 each mabinogi patch/maintenance, 1 feature added)
-   - 4: Bug fix release
-4. Run uotiarabuild.bat to ensure everything compiles correctly.
-
--->
-
-### Improving The Documentation
-<!-- TODO
-Updating, improving and correcting the documentation
-
--->
-
-## Styleguides
-### Commit Messages
-<!-- TODO
-
--->
+   - 4: Small Bug fix release
+4. Run install (double click me idiot).bat or uotiarabuild.bat to ensure everything compiles correctly.
 
 ## Join The Project Team
-<!-- TODO -->
+
+[Official Thread](http://mabimods.net/index.php?topic=10456.0)
+
+[Discord](https://discord.gg/mCNBwZT)
 
 <!-- omit in toc -->
 ## Attribution

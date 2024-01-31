@@ -90,7 +90,7 @@ Note: Some mods of this are not included in Official Tiara, but I think they des
 8. Synesthesia's Avon Dungeon Threater Fog .xml
 9. Dark Knight Transformation Sounds
 10. Animefreak97's Elf/Giant Last Location
-11. Marck's Red Glow for everything in Deadly Status.
+11. Marck's Red Glow for everything in Deadly Status. (Character Condition FX/Enhancements)
 12. Tara Bell Silencer
 13. Chacha's Shorter Inventory Tab Names
 14. Removed Dragon/Horse Sounds and Quake Effect.
@@ -173,12 +173,14 @@ Note: Some mods of this are not included in Official Tiara, but I think they des
 91. Aahz's Simplified Festia
 92. Fl0rn's Tech Duinn Fog Removal
 93. Japari Bus Sound Removal
-94. Xeme's Music Buff Status List
-95. poidoe's Phantasmal Sight Color
+94. Xeme's Music Buff Status List (removed)
+95. Xiao Ai, RandKao & poidoe's Phantasmal Sight Color
 96. regomne's mabi-pack2
 97. Rii's Lib-Loader
 98. hodgepodge's Bandit Spotter 3
 99. poidoe's Shadow Mission Boards
+100. Pot and extraterrestrial's Feth Indicator
+101. Phy's Character Condition FX/Enhancements
 
 >>To restore things, find the corresponding files in the data folder (or whatever directory you use) and delete/remove/replace to modify them to fit your preferences, delete uotiara_00001.it in the package folder or use the installer/uninstaller.
 
