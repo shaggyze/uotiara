@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
 !define UOSHORTVERSION        "433"
-!define UOLONGVERSION         "0.49.70"
+!define UOLONGVERSION         "0.49.71"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -2696,12 +2696,12 @@ SectionGroupEnd
 SectionGroup "gfx"
 Section "Feth Indicator" MOD73
 SetOutPath "$INSTDIR\data\gfx\fx\effect"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\5_doll_effect.xml"
+File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\C5_doll_effect.xml"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD73}
   DetailPrint "*** Removing MOD73..."
-  Delete "$INSTDIR\data\gfx\fx\effect\5_doll_effect.xml"
+  Delete "$INSTDIR\data\gfx\fx\effect\C5_doll_effect.xml"
 !macroend
 Section "Bandit Spotter 3" MOD299
 SetOutPath "$INSTDIR\data\gfx\char\human\male\helmet"
