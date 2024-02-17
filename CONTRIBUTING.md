@@ -134,7 +134,7 @@ Enhancement suggestions are tracked as [GitHub issues](https://github.com/shaggy
 ### Your First Code Contribution
 
 [First Contributions](https://github.com/firstcontributions/first-contributions)
-[GitHub Desktop Tutorial]https://github.com/firstcontributions/first-contributions/blob/main/gui-tool-tutorials/github-desktop-tutorial.md)
+[GitHub Desktop Tutorial](https://github.com/firstcontributions/first-contributions/blob/main/gui-tool-tutorials/github-desktop-tutorial.md)
 
 ## Pull Request Process
 

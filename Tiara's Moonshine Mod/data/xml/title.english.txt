@@ -14181,6 +14181,69 @@
 15700	A title received during the 15th Anniversary GM event. Wow, you saw a celebrity!
 15701	A title received during the 15th Anniversary GM event. Wow, you saw a celebrity!
 15702	
+15703	Sweet Spring Moments
+15704	Sweet Spring Moments
+15705	Sweet Spring Moments
+15706	Sweet Spring Moments
+15707	A special 2nd title bestowed upon those who opened their hearts to the 2024 Doki Doki Island event. Can be used with regular titles.
+15708	A special 2nd title bestowed upon those who opened their hearts to the 2024 Doki Doki Island event. Can be used with regular titles.
+15709	Max Damage +28\nMagic Attack +44
+15710	who Let That Milletian Cook
+15711	who Should Be Banned from the Kitchen
+15712	a God among Restaurateurs
+15713	who is Prepared for Anything
+15714	the Master of Making a Mess
+15715	the Macha-lin Starred Chef
+15716	who Let That Milletian Cook
+15717	who Should Be Banned from the Kitchen
+15718	a God among Restaurateurs
+15719	who is Prepared for Anything
+15720	the Master of Making a Mess
+15721	the Macha-lin Starred Chef
+15722	who Let That Milletian Cook
+15723	who Should Be Banned from the Kitchen
+15724	a God among Restaurateurs
+15725	who is Prepared for Anything
+15726	the Master of Making a Mess
+15727	the Macha-lin Starred Chef
+15728	who Let That Milletian Cook
+15729	who Should Be Banned from the Kitchen
+15730	a God among Restaurateurs
+15731	who is Prepared for Anything
+15732	the Master of Making a Mess
+15733	the Macha-lin Starred Chef
+15734	A special title awarded to those who recognize greatness when they see it. In this case, greatness involves having the grace and skill to finish one's first restaurant shift.
+15735	A special title given to those with a restaurant score so low, one has to wonder if they can be trusted to assemble a sandwich without causing unintentional trauma to themselves or others.
+15736	A special title given to those who receive a restaurant score of 100 or higher. Bestowed upon those with the know-how to keep their restaurant running smoothly, no matter what strange circumstances may arise.
+15737	A special title given to those who successfully prepare ingredients 10 times. You can rise to any occasion...given enough time to prepare, of course.
+15738	To you who has never once cleared a table or wiped down the countertop, whose toaster overfloweth with bread crumbs, whose tower of unwashed pots in the sink rises unstably like an altar to chaos, we bestow this title affirming that you are indeed a mess.
+15739	A special title given to those who attain a restaurant score of 150 or higher. According to Glewyas, a Michelin Three Star restaurant is a hallowed establishment worthy of crossing land and sea to dine at. But...what is a Macha-lin Three Star restaurant? Is the goddess of destruction reviewing food these days?
+15740	A special title awarded to those who recognize greatness when they see it. In this case, greatness involves having the grace and skill to finish one's first restaurant shift.
+15741	A special title given to those with a restaurant score so low, one has to wonder if they can be trusted to assemble a sandwich without causing unintentional trauma to themselves or others.
+15742	A special title given to those who receive a restaurant score of 100 or higher. Bestowed upon those with the know-how to keep their restaurant running smoothly, no matter what strange circumstances may arise.
+15743	A special title given to those who successfully prepare ingredients 10 times. You can rise to any occasion...given enough time to prepare, of course.
+15744	To you who has never once cleared a table or wiped down the countertop, whose toaster overfloweth with bread crumbs, whose tower of unwashed pots in the sink rises unstably like an altar to chaos, we bestow this title affirming that you are indeed a mess.
+15745	A special title given to those who attain a restaurant score of 150 or higher. According to Glewyas, a Michelin Three Star restaurant is a hallowed establishment worthy of crossing land and sea to dine at. But...what is a Macha-lin Three Star restaurant? Is the goddess of destruction reviewing food these days?
+15746	Luck +30
+15747	Luck +30
+15748	Luck +30
+15749	Luck +30
+15750	Luck +30
+15751	Luck +30
+15766	A Romantic Day
+15767	A Romantic Day
+15768	A Romantic Day
+15769	A Romantic Day
+15770	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15771	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15772	Magic Attack +7\nMagic Defense +3\nMagic Protection +3\nGathering Success Rate +10%\nGathering Speed +5% during a Doki Doki Island event.
+15773	Falling Cherry Blossom
+15774	Falling Cherry Blossom
+15775	Falling Cherry Blossom
+15776	Falling Cherry Blossom
+15777	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15778	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15779	Max Damage +7\nDefense +3\nProtection +3\nGathering Success Rate +10%\nGathering Speed +5% during a Doki Doki Island event.
 15780	에린 패스 러너
 15781	에린 패스 정복자
 15782	에린 패스 러너
@@ -14454,24 +14517,31 @@
 16330	최대 데미지 30 증가\n마법 공격력 30 증가\n크리티컬 10 증가\n방어 10 증가\n보호 10 증가\n마법 방어 10 증가\n 마법 보호 10 증가
 16331	최대 데미지 25 증가\n마법 공격력 20 증가\n방어 10 증가\n보호 10 증가\n마법 방어 10 증가\n 마법 보호 10 증가
 16332	이동 속도 3% 증가\n크리티컬 10 증가\n체력 10 증가\n솜씨 20 증가\n행운 20 증가
-16340	청룡이 남긴 물의 마음
-16341	청룡이 남긴 나무의 마음
-16342	청룡이 남긴 봄의 마음
-16343	청룡이 남긴 물의 마음
-16344	청룡이 남긴 나무의 마음
-16345	청룡이 남긴 봄의 마음
-16346	청룡이 남긴 물의 마음
-16347	청룡이 남긴 나무의 마음
-16348	청룡이 남긴 봄의 마음
-16349	청룡이 남긴 물의 마음
-16350	청룡이 남긴 나무의 마음
-16351	청룡이 남긴 봄의 마음
-16352	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16353	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16354	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16355	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16356	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16357	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16358	행운 30 증가
-16359	행운 30 증가
-16360	행운 30 증가
+16340	Blue Dragon's Still Waters
+16341	Blue Dragon's Forest Whispers
+16342	Blue Dragon's Spring Blossoms
+16343	Blue Dragon's Still Waters
+16344	Blue Dragon's Forest Whispers
+16345	Blue Dragon's Spring Blossoms
+16346	Blue Dragon's Still Waters
+16347	Blue Dragon's Forest Whispers
+16348	Blue Dragon's Spring Blossoms
+16349	Blue Dragon's Still Waters
+16350	Blue Dragon's Forest Whispers
+16351	Blue Dragon's Spring Blossoms
+16352	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16353	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16354	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16355	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16356	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16357	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16358	Luck +30
+16359	Luck +30
+16360	Luck +30
+16389	안전한 에린 지킴이
+16390	안전한 에린 지킴이
+16391	안전한 에린 지킴이
+16392	안전한 에린 지킴이
+16393	넥슨 OTP에 가입하고 그린 PC를 설정한 밀레시안에게 지급되는 특별한 타이틀. 안전한 에린 생활의 지킴이는 바로 나야 나!
+16394	넥슨 OTP에 가입하고 그린 PC를 설정한 밀레시안에게 지급되는 특별한 타이틀. 안전한 에린 생활의 지킴이는 바로 나야 나!
+16395	행운 30 증가

@@ -4381,6 +4381,13 @@ pli_replaymainstreamview.31	You are currently replaying <color=2>Chapter {0}, G{
 pli_replaymainstreamview.32	Yes
 pli_replaymainstreamview.33	No
 pli_replaymainstreamview.34	\n\n<color=2>If you forfeit, the replay history for this Generation will be reset.</color>
+pli_resoulmateview.1	Move to the Soulmate NPC on Doki Doki Island?
+pli_resoulmateview.2	Exit
+pli_resoulmateview.3	Enter Island
+pli_resoulmateview.4	[Inactive]
+pli_resoulmateview.5	If you break your Soulmate bond, you will not be able to create a new one for 24 hours. Proceed?
+pli_resoulmateview.6	Acquisition Method
+pli_resoulmateview.7	No effect
 pli_rockpaperscissorsscoreview.1	{0} Win(s)
 pli_rockpaperscissorsscoreview.2	{0} Loss(es)
 pli_roulettebingoview.1	Spin Roulette! Pay {0} coin(s)

@@ -9547,16 +9547,26 @@
 11789	Cailleach
 11790	Cnoc Oighir
 11791	Unfinished Reverie
+11794	Elder Karenza
+11797	Doki Doki Chef Maisie
+11800	Romantic Torchlight
 11801	Fianna Geimhridh
 11802	Biscuit
 11803	Sprinkle
 11810	Cheerfully Caffeinated Coffee Wagon
+11811	Ewan
+11812	Nari
 11813	태극기
+11814	Ewan
+11815	Nari
 11816	Ceraunus (Event)
 11817	Icicle Sprite
 11818	Nuadha
 11819	Cromm Cruaich
+11820	Fruits and Veggies
+11821	Meat and Fish
 11822	Sreng
+11823	Transparent
 11824	Giant Lion
 11825	Giant Lioness
 11826	Desert Dragon
@@ -9565,6 +9575,8 @@
 11829	Giant Worm
 11830	Yggdrasil Wisp
 11831	길드석
+11832	Lovers' Nimbus
+11833	Doki Doki Wagon
 11834	Shadow Mission Invisible Ally Monster Invincibility
 11835	Shadow Mission Invisible Ally Monster
 11836	Shadow Mission Invisible Enemy Monster Invincibility
@@ -9638,14 +9650,14 @@
 11951	Frostblossom Mir Dragon
 11952	Frostblossom Young Ceraunus
 11966	Leprechaun
-11967	개썰매
-11968	운송용 낙타
-11969	운송용 부유선
-11970	개썰매
-11971	[파트너] 개썰매
-11972	[파트너] 운송용 낙타
-11973	[파트너] 운송용 부유선
-11974	[파트너] 개썰매
+11967	Dog Sled
+11968	Pack Camel
+11969	Trader's Skiff
+11970	Dog Sled
+11971	[Partner] Dog Sled
+11972	[Partner] Pack Camel
+11973	[Partner] Trader's Skiff
+11974	[Partner] Dog Sled
 11978	Rowan
 11979	Rowan
 11980	Rowan
@@ -9716,3 +9728,5 @@
 12070	Wooden Man as Sturdy as Irusan
 12071	Wooden Man as Sturdy as Cailleach
 12330	케라우노스(이벤트용)
+12331	빛나는 별 투안
+12349	모험가 코끼리

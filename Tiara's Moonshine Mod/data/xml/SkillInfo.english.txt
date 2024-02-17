@@ -2499,8 +2499,8 @@
 3928	Applied Range
 3929	Projectile Speed
 3930	Throws a Toy Hammer that will stun the enemy for a short time.
-3931	1st Couples Flight
-3932	2nd Couples Flight
+3931	1st Couple's Flight
+3932	2nd Couple's Flight
 3933	A skill received when you formed a bond with your special someone. The magic powder, of unknown origin, will make your body as light as air, and let you take to the skies around Doki Doki Island. Fly whenever you want!\nYou can right-click on others and request that they Fly Together with you. This will be a romantic flight, where the two of you hold hands. 
 3934	A skill received when you formed a bond with your special someone. The magic powder, of unknown origin, will make your body as light as air, and let you take to the skies around Doki Doki Island. Fly whenever you want!\nYou can right-click on others and request that they Fly Together with you. \nCan only be used on Doki Doki Island.
 3936	Hot-Air Balloon Crossbow Shot (mini game)
@@ -2508,7 +2508,7 @@
 3938	It's not the most graceful maneuver, but the impact of a truck dropping from the sky will send a shockwave that temporarily stuns enemies.
 3939	It's not the most graceful maneuver, but the impact of a truck dropping from the sky will send a shockwave that temporarily stuns enemies.
 3940	Wyvern Ice Breath (mini game)
-3941	Couples Flight
+3941	Couple's Flight
 3942	Flight
 3943	A skill received when you formed a bond with your special someone. The magic powder, of unknown origin, will make your body as light as air, and let you take to the skies around Erinn. Fly whenever you want!\nYou can also right-click on others and request that they Fly Together with you. This will be a romantic flight, where the two of you hold hands.
 3944	A skill received when you formed a bond with your special someone. The magic powder, of unknown origin, will make your body as light as air, and let you take to the skies around Doki Doki Island. Fly whenever you want!\nYou can also right-click on others and request that they Fly Together with you. \nCan only be used on Doki Doki Island.
@@ -3957,7 +3957,7 @@
 5882	Condensed Force
 5883	Noxious Chunk
 5884	Cursed Swarm
-5885	Midnight\nCouples Flight
+5885	Midnight\nCouple's Flight
 5886	A skill received when you formed a bond with your special sweetie. The magic powder, of unknown origin, will make your body as light as air and let you take to the skies around Erinn. Fly whenever you want!\nYou can also right-click on others and request that they Fly Together with you. Dance through the skies with a like-minded friend or sweetie.
 5887	Attack Range Increase Per Second While Charging
 5888	Maximum Amount Gathered Per Use
@@ -4420,6 +4420,11 @@
 6499	Next Aiming Speed
 6500	Effect Duration
 6501	Enhanced Taunt
+6502	Flowery\nSweethearts Flight
+6503	A skill born from the heartfelt bond shared with your special someone. A light dusting of magical matchmaking powder is enough to make your body light as air, letting you take to the skies of Erinn and soar wherever your heart desires.\n\nYou can also right-click on others to request that they Fly Together with you. Enjoy the thrill of flight with your sweetheart, or share the benefit with a friend!
+6504	Custom Action
+6505	A custom skill that displays an icon and time gauge bar.
+6506	A custom skill that displays an icon and time gauge bar.
 6507	Guild Banner Action 1
 6508	Guild Banner Action 2
 6509	Place Guild Banner
