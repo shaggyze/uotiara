@@ -10492,10 +10492,10 @@
 11927	A title bestowed upon talented Mabinogi artists.
 11928	A title bestowed upon talented Mabinogi artists.
 11929	
-11930	16th Anniversary Fantasista
-11931	16th Anniversary Fantasista
-11932	16th Anniversary Fantasista
-11933	16th Anniversary Fantasista
+11930	16th Anniversary Fantasy Star
+11931	16th Anniversary Fantasy Star
+11932	16th Anniversary Fantasy Star
+11933	16th Anniversary Fantasy Star
 11934	A fancy 2nd title given to people who celebrated Mabinogi's 16th Anniversary. Can be used with regular titles.
 11935	A fancy 2nd title given to people who celebrated Mabinogi's 16th Anniversary. Can be used with regular titles.
 11936	Max Damage +16\nMagic Attack +16\nWater/Fire/Wind/Earth\nAlchemic Damage +10\nStrength +16\nIntelligence +16\nDexterity +16\nWill +16\nLuck +16\nMovement Speed +1%
@@ -14300,27 +14300,48 @@
 15833	A glorious 2nd Title awarded to those who have proven themselves worthy by winning the Royal Jousting Tournament, or put in an equally valiant effort. Can be used with regular titles.
 15834	A glorious 2nd Title awarded to those who have proven themselves worthy by winning the Royal Jousting Tournament, or put in an equally valiant effort. Can be used with regular titles.
 15835	Luck +30\nWill +30
-15836	열정의 아이콘
-15837	균형의 아이콘
-15838	조화의 아이콘
-15839	열정의 아이콘
-15840	균형의 아이콘
-15841	조화의 아이콘
-15842	열정의 아이콘
-15843	균형의 아이콘
-15844	조화의 아이콘
-15845	열정의 아이콘
-15846	균형의 아이콘
-15847	조화의 아이콘
-15848	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15849	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15850	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15851	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15852	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15853	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15854	최대 대미지 15 증가\n음악 버프 스킬 효과 9 증가\n음악 버프 스킬 지속시간 10 증가
-15855	최대 대미지 24 증가\n보너스 대미지 1% 증가\n보호 13 증가\n마법 보호 10 증가
-15856	마법 공격력 32 증가\n물 / 불 / 바람 / 흙 속성\n연금술 대미지 23 증가
+15836	Avatar of Passion
+15837	Avatar of Balance
+15838	Avatar of Harmony
+15839	Avatar of Passion
+15840	Avatar of Balance
+15841	Avatar of Harmony
+15842	Avatar of Passion
+15843	Avatar of Balance
+15844	Avatar of Harmony
+15845	Avatar of Passion
+15846	Avatar of Balance
+15847	Avatar of Harmony
+15848	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15849	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15850	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15851	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15852	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15853	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15854	Max Damage +15\nMusic Buff Effect +9\nMusic Buff Duration +10 sec.
+15855	Max Damage +24\nBonus Damage +1%\nProtection +13\nMagic Protection +10
+15856	Magic Attack +32\nFire/Wind/Earth/Water Alchemic Damage +23
+15857	who Destroyed the Stage of Trials
+15858	who Took the First Step to the Stage
+15859	who Surmounted the Stage of Trials
+15860	who Destroyed the Stage of Trials
+15861	who Took the First Step to the Stage
+15862	who Surmounted the Stage of Trials
+15863	who Destroyed the Stage of Trials
+15864	who Took the First Step to the Stage
+15865	who Surmounted the Stage of Trials
+15866	who Destroyed the Stage of Trials
+15867	who Took the First Step to the Stage
+15868	who Surmounted the Stage of Trials
+15869	Crushed it! A title awarded to those who cleared the last round of the 16th Anniversary Stage of Trials. When set as your title, enables a special effect.
+15870	This year in the wings, next year in the spotlight! A title awarded to those who cleared the 16th Anniversary's Stage of Trials. You're well on your way to stardom!
+15871	The Stage of Trials was no match for your power! A title awarded to those who cleared the final round of the 16th Anniversary's Stage of Trials on Veteran Mode. The effects will disappear after the expiration date, but the title itself will remain available for use.
+15872	Crushed it! A title awarded to those who cleared the last round of the 16th Anniversary Stage of Trials. When set as your title, enables a special effect.
+15873	This year in the wings, next year in the spotlight! A title awarded to those who cleared the 16th Anniversary's Stage of Trials. You're well on your way to stardom!
+15874	The Stage of Trials was no match for your power! A title awarded to those who cleared the final round of the 16th Anniversary's Stage of Trials on Veteran Mode. The effects will disappear after the expiration date, but the title itself will remain available for use.
+15875	Max Damage +19\nMagic Attack +19
+15876	Luck +19
+15877	Max Damage +20\nMagic Attack +45
 15885	Faithful Guardian
 15886	the Animal Lover
 15887	Faithful Guardian
@@ -14356,6 +14377,20 @@
 15917	
 15918	
 15919	
+15920	is On A Roll
+15921	Cannot Be Stopped
+15922	is On A Roll
+15923	Cannot Be Stopped
+15924	is On A Roll
+15925	Cannot Be Stopped
+15926	is On A Roll
+15927	Cannot Be Stopped
+15928	A title to recognize those who successfully went on a roll once in Gesture Showdown mini-game.
+15929	A title to recognize those who successfully went on a roll 5 times in Gesture Showdown mini-game.
+15930	A title to recognize those who successfully went on a roll once in Gesture Showdown mini-game.
+15931	A title to recognize those who successfully went on a roll 5 times in Gesture Showdown mini-game.
+15932	
+15933	Luck +30
 15934	썸머 팡파르
 15935	썸머 팡파르
 15936	썸머 팡파르
@@ -14363,6 +14398,20 @@
 15938	2023 판타지 파티 쇼케이스 보상으로 지급되는 특별한 2차 타이틀. 장착 시, 캐릭터 주변으로 폭죽이 펑펑 터지는 이펙트가 출력된다.
 15939	2023 판타지 파티 쇼케이스 보상으로 지급되는 특별한 2차 타이틀. 장착 시, 캐릭터 주변으로 폭죽이 펑펑 터지는 이펙트가 출력된다.
 15940	체력 19 증가\n지력 19 증가\n솜씨 19 증가\n의지 19 증가\n행운 19 증가\n최대 생명력 40 증가\n최대 마나 80 증가\n최대 스태미나 60 증가
+15941	for whom Ball is Life
+15942	for whom Ball is Life
+15943	for whom Ball is Life
+15944	for whom Ball is Life
+15945	A title to recognize those who achieved a high score in Festia's basketball mini-game.
+15946	A title to recognize those who achieved a high score in Festia's basketball mini-game.
+15947	Luck +30
+15948	16th Anniversary Fantasy Star
+15949	16th Anniversary Fantasy Star
+15950	16th Anniversary Fantasy Star
+15951	16th Anniversary Fantasy Star
+15952	A fancy 2nd title given to those who celebrated the 16th Anniversary of Mabinogi. Can be used with regular titles.
+15953	A fancy 2nd title given to those who celebrated the 16th Anniversary of Mabinogi. Can be used with regular titles.
+15954	Max Damage +19\nMagic Attack +19\nWater/Fire/Wind/Earth\nAlchemic Damage +13\nStrength +19\nIntelligence +19\nDexterity +19\nWill +19\nLuck +19\nMovement Speed +1%
 15969	Seraphic Grace
 15970	Seraphic Song
 15971	Seraphic Whisper
@@ -14545,3 +14594,38 @@
 16393	넥슨 OTP에 가입하고 그린 PC를 설정한 밀레시안에게 지급되는 특별한 타이틀. 안전한 에린 생활의 지킴이는 바로 나야 나!
 16394	넥슨 OTP에 가입하고 그린 PC를 설정한 밀레시안에게 지급되는 특별한 타이틀. 안전한 에린 생활의 지킴이는 바로 나야 나!
 16395	행운 30 증가
+16424	the King/Queen of the Arena
+16425	the Arena Finalist
+16426	who is Just Happy to Be Here
+16427	of the Quality Association
+16428	the King of the Arena
+16429	the Arena Finalist
+16430	who is Just Happy to Be Here
+16431	of the Quality Association
+16432	the Queen of the Arena
+16433	the Arena Finalist
+16434	who is Just Happy to Be Here
+16435	of the Quality Association
+16436	the King/Queen of the Arena
+16437	the Arena Finalist
+16438	who is Just Happy to Be Here
+16439	of the Quality Association
+16440	This title is awarded only to one who has bested the competition, emerging triumphant in a PvP Tournament officiated by a Mabinogi GM. To come this far bespeaks a level of skill that all must acknowledge; luck has nothing to do with it.
+16441	This title is awarded only to one who placed second in a PvP Tournament officiated by a Mabinogi GM. Let it serve as both a mark of your skill and an encouragement to claim victory next time.
+16442	This title is awarded to those serendipitous spirits who are glad just to have experienced the fun and excitement of a grand event. It wouldn't be a party without you!
+16443	This recognition of merit doth hereby acknowledge the bearer's contributions to the right and proper chronicling of Erinn's past and present. May every word be true, every system be working as intended, and this land be forever blessed to call thee a friend of the realm.
+16444	This title is awarded only to one who has bested the competition, emerging triumphant in a PvP Tournament officiated by a Mabinogi GM.
+16445	This title is awarded only to one who placed second in a PvP Tournament officiated by a Mabinogi GM.
+16446	This title is awarded to those serendipitous spirits who are glad just to have experienced the fun and excitement of a grand event.
+16447	A title bestowed upon those who, through their tireless contributions to the right and proper chronicling of Erinn's past and present, have gained admittance into the Royal Association of Qualitative Enrichment--known more commonly as the Quality Association.
+16448	Maximum Damage +15\nMagic Attack +15\nDefense +10\nProtection +5\nWill +30\n[Luck -50]
+16449	Maximum Damage +7\nMagic Attack +7\nDefense +5\nProtection +2\nWill +15\n[Luck -25]
+16450	Luck +30
+16451	Luck +30
+16480	who Stargazed with the GMs
+16481	who Stargazed with the GMs
+16482	who Stargazed with the GMs
+16483	who met the GMs during the 15th Anniversary
+16484	A title received by those who joined in the fun of the 16th Anniversary GM event. You've really seen some stars!
+16485	A title received by those who joined in the fun of the 16th Anniversary GM event. You've really seen some stars!
+16486	

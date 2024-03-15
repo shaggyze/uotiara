@@ -2734,7 +2734,101 @@ set("C4_human")
 		581:eyechange(223,0)
 		620:eyechange(default)	
 		627:jump(90)		
+		
+	"male_godofhellchair_sit"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		75:hand(left, fist)
+		100:effect("godofhellchair",0,1)
+		100:hand(left, palm)
+		415:effect("godofhellchair02",0,1)		
+		420:effectoff("godofhellchair")		
+		//470:effectoff("godofhellchair02")	
 	
+	"female_godofhellchair_sit"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		75:hand(left, fist)
+		100:effect("godofhellchair",0,1)
+		100:hand(left, palm)
+		415:effect("godofhellchair02",0,1)		
+		420:effectoff("godofhellchair")		
+		//440:effectoff("godofhellchair02")		
+
+
+//////자판기 음료수 마시는 모션 6종 ////////		
+
+///기본표정/////
+	"human_sodamachine_sit01"		
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		20:generic ("custom_equip(weapon:tool_c4_dal_iceamericano)")		
+		205:generic ("custom_equip(weapon)")
+
+///달콤함/////
+	"human_sodamachine_sit02"		
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		20:generic ("custom_equip(weapon:tool_c4_dal_iceamericano)")	
+		115:face(cute) 
+		116:hand(left, fist)
+		125:effect("sodamachine02",0,1)
+		175:face(default)
+		180:hand(left, palm)		
+		190:generic ("custom_equip(weapon)")
+
+///상큼함////
+	"human_sodamachine_sit03"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		20:generic ("custom_equip(weapon:tool_c4_dal_iceamericano)")
+		115:face(happy) 
+		116:hand(left, fist)
+		125:effect("sodamachine03",0,1)
+		175:face(default)
+		180:hand(left, palm)
+		190:generic ("custom_equip(weapon)")
+
+////우웩////
+	"human_sodamachine_sit04"		
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		20:generic ("custom_equip(weapon:tool_c4_dal_iceamericano)")
+		105:face(confused) 
+		195:face(default)		
+		220:generic ("custom_equip(weapon)")
+
+////나쁘지않아///
+	"human_sodamachine_sit05"		
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		20:generic ("custom_equip(weapon:tool_c4_dal_iceamericano)")	
+		115:face(love) 
+		195:face(default)			
+		205:generic ("custom_equip(weapon)")
+
+///황홀함///
+	"human_sodamachine_sit06"		
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		20:generic ("custom_equip(weapon:tool_c4_dal_iceamericano)")	
+		115:face(smile) 
+		116:hand(left, fist)
+		125:effect("sodamachine06",0,1)
+		175:face(default)	
+		180:hand(left, palm)		
+		190:generic ("custom_equip(weapon)")		
+		
+////////////////////////////////////////////////////////
+
 	"human_bluedragon_home01_sit"
 		0:lookat(off)
 		0:hideequip(true)
@@ -2960,7 +3054,19 @@ set("C4_human")
 			0:lookat(off)
 			0:hideequip(true)
 			0:hand (both, palm)   
-			800:jump(0,true)		
+			800:jump(0,true)
+
+	"female_plamodel_chair_sit"
+			0:lookat(off)
+			0:hideequip(true)
+			0:hand (both, palm) 
+			//220:jump(0,true)
+			
+	"male_plamodel_chair_sit"
+			0:lookat(off)
+			0:hideequip(true)
+			0:hand (both, palm) 
+			//220:jump(0,true)			
 	
     "female_fullmoonwitch_balcony_sit01"
 		0:lookat(off)
@@ -14772,7 +14878,163 @@ set("C4_giant")
 		454:eyechange(default)
 		581:eyechange(223,0)
 		620:eyechange(default)	
-		627:jump(90)		
+		627:jump(90)	
+
+	"giant_godofhellchair_sit"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		75:hand(left, fist)
+		100:effect("godofhellchair",0,1)
+		100:hand(left, palm)
+		415:effect("godofhellchair02",0,1)		
+		420:effectoff("godofhellchair")		
+		//440:effectoff("godofhellchair02")		
+
+	"giant_female_godofhellchair_sit"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		75:hand(left, fist)
+		100:effect("godofhellchair",0,1)
+		100:hand(left, palm)
+		415:effect("godofhellchair02",0,1)		
+		420:effectoff("godofhellchair")		
+		//440:effectoff("godofhellchair02")				
+
+
+//////자판기 음료수 마시는 모션 6종 ////////		
+
+///기본표정/////
+	"giant_sodamachine_sit01"		
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		20:generic ("custom_equip(weapon:giant_tool_c4_dal_iceamericano)")		
+		205:generic ("custom_equip(weapon)")
+
+	"giant_female_sodamachine_sit01"		
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		20:generic ("custom_equip(weapon:giant_tool_c4_dal_iceamericano)")		
+		205:generic ("custom_equip(weapon)")
+
+///달콤함/////
+	"giant_sodamachine_sit02"		
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		20:generic ("custom_equip(weapon:giant_tool_c4_dal_iceamericano)")	
+		115:face(love) 
+		116:hand(left, fist)
+		125:effect("sodamachine02",0,1)
+		175:face(default)	
+		180:hand(left, palm)		
+		190:generic ("custom_equip(weapon)")
+		
+	"giant_female_sodamachine_sit02"		
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		20:generic ("custom_equip(weapon:giant_tool_c4_dal_iceamericano)")	
+		115:face(cute) 
+		116:hand(left, fist)
+		125:effect("sodamachine02",0,1)
+		175:face(default)	
+		180:hand(left, palm)		
+		190:generic ("custom_equip(weapon)")		
+
+///상큼함////
+	"giant_sodamachine_sit03"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		20:generic ("custom_equip(weapon:giant_tool_c4_dal_iceamericano)")
+		115:face(cute) 
+		116:hand(left, fist)
+		125:effect("sodamachine03",0,1)
+		175:face(default)
+		180:hand(left, palm)
+		190:generic ("custom_equip(weapon)")
+
+	"giant_female_sodamachine_sit03"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		20:generic ("custom_equip(weapon:giant_tool_c4_dal_iceamericano)")
+		115:face(love) 
+		116:hand(left, fist)
+		125:effect("sodamachine03",0,1)
+		175:face(default)
+		180:hand(left, palm)
+		190:generic ("custom_equip(weapon)")
+
+////우웩////
+	"giant_sodamachine_sit04"		
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		20:generic ("custom_equip(weapon:giant_tool_c4_dal_iceamericano)")
+		105:face(confused) 
+		195:face(default)		
+		220:generic ("custom_equip(weapon)")
+		
+	"giant_female_sodamachine_sit04"		
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		20:generic ("custom_equip(weapon:giant_tool_c4_dal_iceamericano)")
+		105:face(confused) 
+		195:face(default)		
+		220:generic ("custom_equip(weapon)")		
+
+////나쁘지않아///
+	"giant_sodamachine_sit05"		
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		20:generic ("custom_equip(weapon:giant_tool_c4_dal_iceamericano)")	
+		115:face(love) 
+		195:face(default)			
+		205:generic ("custom_equip(weapon)")
+		
+	"giant_female_sodamachine_sit05"		
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		20:generic ("custom_equip(weapon:giant_tool_c4_dal_iceamericano)")	
+		115:face(cute) 
+		195:face(default)			
+		205:generic ("custom_equip(weapon)")		
+
+///황홀함///
+	"giant_sodamachine_sit06"		
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		20:generic ("custom_equip(weapon:giant_tool_c4_dal_iceamericano)")	
+		115:face(happy) 
+		116:hand(left, fist)
+		125:effect("sodamachine06",0,1)
+		175:face(default)
+		180:hand(left, palm)		
+		190:generic ("custom_equip(weapon)")	
+
+	"giant_female_sodamachine_sit06"		
+		0:lookat(off)
+		0:hand(both, palm)
+		0:hideequip(false)	
+		20:generic ("custom_equip(weapon:giant_tool_c4_dal_iceamericano)")	
+		115:face(happy) 
+		116:hand(left, fist)
+		125:effect("sodamachine06",0,1)
+		175:face(default)
+		180:hand(left, palm)
+		190:generic ("custom_equip(weapon)")			
+		
+////////////////////////////////////////////////////////
+
 	
 	"giant_bluedragon_home01_sit"
 	    0:lookat(off)
@@ -14925,6 +15187,19 @@ set("C4_giant")
 		0:hideequip(true)
 		0:hand (both, palm)
 		800:jump(0,true)
+		
+		
+	"giant_female_plamodel_chair_sit"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, palm) 
+		//220:jump(0,true)
+			
+	"giant_plamodel_chair_sit"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, palm) 
+		//220:jump(0,true)	
 		
 	"giant_female_fullmoonwitch_balcony_sit01"
 		0:lookat(off)
@@ -20821,11 +21096,11 @@ set("C4_giant")
 		
 		"giant_female_noble_bothhandsword_stand"
 			0:hand(both, fist)
-			605:jump(140)
+			1070:jump(140)
 		
 		"giant_noble_bothhandsword_stand"
 			0:hand(both, fist)
-			605:jump(140)
+			1070:jump(140)
 
 			
 	
@@ -29861,6 +30136,18 @@ set("social motion")
 	
 	folder("char\chapter4\human\anim\social_motion")
 	
+	"human_dartagnan"
+	    0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		111:hand(right,fist)
+		111:generic("custom_equip(weapon:weapon_c4_dartagnan_rapier, tr1b:E9ECF6 tr2b:2A2A2A tr3b:D5BBAC tr5b:D5BBAC)")
+		127:hand(left,fist)
+		208:hand(left,palm)
+		370:hand(right,palm)
+		370:generic("custom_equip(weapon)")
+        370:hideequip(false)		
+		1038:jump(463)
 	
 	
 	"female_dailys"
@@ -36561,7 +36848,24 @@ set("social motion")
 		836:effectoff("nerdhacker07")
 		837:effect("nerdhacker06_1",0,1)
 		895:effectoff("nerdhacker06_1")		
-		944:jump(211,true)					
+		944:jump(211,true)
+
+
+	"female_firehell"
+		0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		137:hand(both, fist)
+		175:hand(both, palm)
+		657:jump(210)		
+
+	"male_firehell"
+		0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		137:hand(both, fist)
+		175:hand(both, palm)
+		657:jump(210)		
 		
 	///세일러 수영복의상
 	
@@ -53140,6 +53444,22 @@ set("phoenix")
 			20:sound("data\sound\fran_offensive_swing.wav")
 			61:sound("data\sound\fran_offensive_swing.wav")
 
+
+		"pet_c4_phoenix_natural_fly_stand_friendly_L"
+			0:effect("phoenix_L_wing_01_light")
+			0:effect("phoenix_R_wing_01_light")
+
+			0:effectoff("phoenix_L_wing_01")
+			0:effectoff("phoenix_R_wing_01")
+
+			0:effectoff("phoenix_L_wing_01_B")
+			0:effectoff("phoenix_R_wing_01_B")
+			
+			0:effectoff("phoenix_L_wing_01_W")
+			0:effectoff("phoenix_R_wing_01_W")
+
+			20:sound("data\sound\fran_offensive_swing.wav")
+			61:sound("data\sound\fran_offensive_swing.wav")
 	
 		"pet_c4_phoenix_natural_fly_run"
 			0:effect("phoenix_L_wing_01")
@@ -53195,6 +53515,26 @@ set("phoenix")
 			377:sound("data\sound\wind_blast_shoot.wav")
 			235:widesound("data\sound\wind_wind.wav")	
 
+		"pet_c4_phoenix_natural_fly_run_L"
+			0:effect("phoenix_L_wing_01_light")
+			0:effect("phoenix_R_wing_01_light")
+
+			0:effectoff("phoenix_L_wing_01")
+			0:effectoff("phoenix_R_wing_01")
+
+			0:effectoff("phoenix_L_wing_01_B")
+			0:effectoff("phoenix_R_wing_01_B")
+			
+			0:effectoff("phoenix_L_wing_01_W")
+			0:effectoff("phoenix_R_wing_01_W")			
+
+			27:sound("data\sound\fran_offensive_swing.wav")
+			75:sound("data\sound\fran_offensive_swing.wav")
+			121:sound("data\sound\fran_offensive_swing.wav")
+			159:sound("data\sound\fran_offensive_swing.wav")
+			469:sound("data\sound\fran_offensive_swing.wav")
+			377:sound("data\sound\wind_blast_shoot.wav")
+			235:widesound("data\sound\wind_wind.wav")
 
 		"pet_c4_phoenix_natural_fly_takeoff"
 			5:effect("phoenix_L_wing_01")
@@ -53213,6 +53553,13 @@ set("phoenix")
 		"pet_c4_phoenix_natural_fly_takeoff_W"
 			5:effect("phoenix_L_wing_01_W")
 			5:effect("phoenix_R_wing_01_W")
+
+			16:sound("data\sound\fran_offensive_swing.wav")
+			47:sound("data\sound\fran_offensive_swing.wav")
+
+		"pet_c4_phoenix_natural_fly_takeoff_L"
+			5:effect("phoenix_L_wing_01_light")
+			5:effect("phoenix_R_wing_01_light")
 
 			16:sound("data\sound\fran_offensive_swing.wav")
 			47:sound("data\sound\fran_offensive_swing.wav")
@@ -61732,6 +62079,15 @@ set("prop concerned - temporary")
 
 	// setting file 안의 animation을 정의할 때는 folder를 "::세팅파일 이름" 으로 지정해야 한다.
 	
+	
+	folder("::scene_prop_erintrip_expedition01")
+		"scene_prop_erintrip_expedition01"
+			0:linkframework(1, "race:1121, c1:808080 c2:917C65 c3:393939 ", "riding2", "data/gfx\char\chapter4\human\anim\lorna_erintrip_expedition_sit")
+			0:linkframework(2, "race:1122, c1:808080 c2:917C65 c3:393939 ", "riding3", "data/gfx\char\monster\anim\sheep\sheep_pan_erintrip_expedition_sit")
+			0:linkframework(3, "race:1123, c1:917C65 c2:393939", "riding4", "data/gfx\char\chapter4\monster\anim\ragdoll\ragdoll_erintrip_expedition_sit")
+    endfolder  
+	
+
 	folder("::scene_prop_bordercollie_chair01")        
         "scene_prop_bordercollie_chair01"                
             0:linkframework(1, "race:200301, c1:808080 c2:808080 c3:808080", "Bone03", "data\gfx\char\chapter4\human\anim\tool\acc_bordercollie_chair_stand")    
@@ -66187,17 +66543,31 @@ endset
 set("Knight")
 
 	folder("char\chapter4\human\anim\tool\rhand_A")
+
+        "human_polaroid_stand"
+		    0:hand(left, palm)
+		    0:hand(right, fist)
+		    0:lookat(off)
+			102:hand(right, palm)
+			508:hand(right, fist)
+	        680:jump(80)
 	
 	    "human_umbrella_dartagnan_stand"
 		    0:hand(left, palm)
 		    0:hand(right, fist)
 		    0:lookat(off)
             0:generic("custom_equip(weapon:tool_c4_umbrella_dartagnan_close)")
-		    153:generic("custom_equip(weapon)")
-		    154:generic("custom_equip(weapon:tool_c4_umbrella_dartagnan)")
-		    241:generic("custom_equip(weapon)")
-		    242:generic("custom_equip(weapon:tool_c4_umbrella_dartagnan_close)")	
-		    520:jump(286)
+		    11:hand(right, palm)
+		    20:hand(right, fist)
+		    153:hand(right, palm)
+		    159:hand(right, fist)
+		    157:generic("custom_equip(weapon)")
+		    158:generic("custom_equip(weapon:tool_c4_umbrella_dartagnan)")
+			247:generic("custom_equip(weapon)")
+		    248:generic("custom_equip(weapon:tool_c4_umbrella_dartagnan_close)")
+            263:hand(right, palm)
+		    270:hand(right, fist)			
+		    880:jump(320)
 	 	
 	
 		"human_dalkommKettle_stand"
@@ -69782,8 +70152,59 @@ set("Knight")
 		
 	endfolder
 
-	folder("char\chapter4\giant\anim\tool\Rhand_A")
+	folder("char\chapter4\giant\anim\tool\Rhand_A")   
 	
+	    "giant_polaroid_stand"
+		    0:hand(left, palm)
+		    0:hand(right, fist)
+		    0:lookat(off)
+			102:hand(right, palm)
+			508:hand(right, fist)
+	        680:jump(80)
+	
+	    "giant_female_polaroid_stand"
+		    0:hand(left, palm)
+		    0:hand(right, fist)
+		    0:lookat(off)
+			102:hand(right, palm)
+			508:hand(right, fist)
+	        680:jump(80)
+	
+		
+	    "giant_umbrella_dartagnan_stand"
+		    0:hand(left, palm)
+		    0:hand(right, fist)
+		    0:lookat(off)
+            0:generic("custom_equip(weapon:giant_tool_c4_umbrella_dartagnan_close)")
+		    11:hand(right, palm)
+		    20:hand(right, fist)
+		    153:hand(right, palm)
+		    159:hand(right, fist)
+		    157:generic("custom_equip(weapon)")
+		    158:generic("custom_equip(weapon:giant_tool_c4_umbrella_dartagnan)")
+			247:generic("custom_equip(weapon)")
+		    248:generic("custom_equip(weapon:giant_tool_c4_umbrella_dartagnan_close)")
+            263:hand(right, palm)
+		    270:hand(right, fist)			
+		    880:jump(320)
+	
+	    "giant_female_umbrella_dartagnan_stand"
+		    0:hand(left, palm)
+		    0:hand(right, fist)
+		    0:lookat(off)
+            0:generic("custom_equip(weapon:giant_tool_c4_umbrella_dartagnan_close)")
+		    11:hand(right, palm)
+		    20:hand(right, fist)
+		    153:hand(right, palm)
+		    159:hand(right, fist)
+		    157:generic("custom_equip(weapon)")
+		    158:generic("custom_equip(weapon:giant_tool_c4_umbrella_dartagnan)")
+			247:generic("custom_equip(weapon)")
+		    248:generic("custom_equip(weapon:giant_tool_c4_umbrella_dartagnan_close)")
+            263:hand(right, palm)
+		    270:hand(right, fist)			
+		    880:jump(320)
+			
 		"giant_dalkommKettle_stand"
 			0:lookat(off)
 			0:hand(right, fist)
@@ -83222,6 +83643,18 @@ set("giant")
 
 	folder("char\chapter4\giant\anim")
 	
+	
+	
+		"giant_erintrip_expedition_sit"
+			0:lookat(off)
+			0:hand(both,palm)		
+
+	
+		"giant_female_erintrip_expedition_sit"
+			0:lookat(off)
+			0:hand(both,palm)		
+		
+	
 		"giant_calligraphychair01_sit"
 			0:lookat(off)
 			0:hideequip(false)
@@ -93601,6 +94034,33 @@ set("social motion")
 
 	
 	folder("char\chapter4\giant\anim\social_motion")
+	
+
+	"giant_dartagnan"
+	    0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		111:hand(right,fist)
+		111:generic("custom_equip(weapon:giant_weapon_c4_dartagnan_rapier, tr1b:E9ECF6 tr2b:2A2A2A tr3b:D5BBAC tr5b:D5BBAC)")
+		127:hand(left,fist)
+		208:hand(left,palm)
+		370:hand(right,palm)
+		370:generic("custom_equip(weapon)")
+        370:hideequip(false)		
+		1038:jump(463)
+	
+	"giant_female_dartagnan"
+	    0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		111:hand(right,fist)
+		111:generic("custom_equip(weapon:giant_weapon_c4_dartagnan_rapier, tr1b:E9ECF6 tr2b:2A2A2A tr3b:D5BBAC tr5b:D5BBAC)")
+		127:hand(left,fist)
+		208:hand(left,palm)
+		370:hand(right,palm)
+		370:generic("custom_equip(weapon)")
+        370:hideequip(false)		
+		1038:jump(463)
 	
 	
 	
@@ -110272,6 +110732,18 @@ set("cutscene")
 	
 	folder("char\chapter4\human\anim\cutscene7")
 
+	"cutscene_20th_07"
+		0:lookat(off)
+		0:hand (both, fist)		
+		7:hand (right, palm)		
+		47:hand (right, fist)
+		
+	"cutscene_20th_17"
+		0:lookat(off)
+		0:hand (both, fist)		
+		40:hand (left, palm)		
+
+
 	"cutscene_human_blowaway"
 		0:lookat(off)
 		0:hand (both, palm)	
@@ -116755,6 +117227,13 @@ set("C4_monster")
 
 	folder("char\chapter4\monster\anim\imp")
 	
+		"cutscene_20th_08"
+			0:lookat(off)
+			0:hand (both, fist)		
+			90:hand (left, palm)		
+			150:hand (left, fist)		
+	
+	
 		"imp_treasure_sale"
 			0:lookat(off)
 			0:hand(both,palm)
@@ -117769,6 +118248,19 @@ set("newcharacter_motion")
 	endfolder
 
 	folder("char\chapter4\human\anim")
+	
+	
+	
+	"lorna_erintrip_expedition_sit"
+		0:lookat(off)
+		0:hand(both,palm)		
+
+	
+	
+	"human_erintrip_expedition_sit"
+		0:lookat(off)
+		0:hand(both,palm)	
+	
 	
 	"human_demonhunter_sit"	
 		0:lookat(off)	

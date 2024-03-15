@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
-!define UOSHORTVERSION        "435"
-!define UOLONGVERSION         "0.50.75"
+!define UOSHORTVERSION        "436"
+!define UOLONGVERSION         "0.51.75"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -44,7 +44,7 @@ VIProductVersion ${UOVERSION}
 !define SECTIONCOUNT           11
 ;!define LVM_GETITEMCOUNT 0x1004
 ;!define LVM_GETITEMTEXT 0x102D
-!define screenimage            "Etc\background.bmp"
+!define screenimage            "misc\background.bmp"
 !define srcdir                 "."
 !define StrStr "!insertmacro StrStr"
 !define StrContains '!insertmacro "_StrContainsConstructor"'
@@ -250,8 +250,8 @@ System::Store L
   !endif
 
 !define MUI_ABORTWARNING
-!define MUI_ICON "Etc\Tiaras Moonshine Icon.ico"
-!define MUI_UNICON "Etc\Tiaras Moonshine Icon.ico"
+!define MUI_ICON "misc\Tiaras Moonshine Icon.ico"
+!define MUI_UNICON "misc\Tiaras Moonshine Icon.ico"
 !define MUI_CUSTOMFUNCTION_GUIINIT myonguiinit
 ;!define MUI_LICENSEPAGE_TEXT_TOP "Information"
 !insertmacro MUI_PAGE_LICENSE "README.md"
@@ -11191,6 +11191,7 @@ ${If} $1 = 0
 StrCpy $0 "0.0.0.0"
 ${EndIf}
 IntOp $1 $NEWMABIVERSION - 382
+Delete "$INSTDIR\package\uotiara_00001.it"
 MessageBox MB_YESNOCANCEL|MB_ICONEXCLAMATION "A newer Mabinogi version is detected V$NEWMABIVERSION($1)$\r$\nPlease wait until UO Tiara has been updated$\r$\nV$0 currently installed$\r$\nYou are running V${UOVERSION}$\r$\n$\r$\nWould you like to close the installer?$\r$\n$\r$\nClick Yes to close$\r$\nNo to continue installing$\r$\nCancel to go to site." IDNO EndNewVersion3 IDCANCEL SetupSite2
 Quit
 SetupSite2:
@@ -11223,6 +11224,7 @@ ${If} $1 = 0
 StrCpy $0 "0.0.0.0"
 ${EndIf}
 IntOp $1 $NEWMABIVERSION - 382
+Delete "$INSTDIR\package\uotiara_00001.it"
 MessageBox MB_YESNOCANCEL|MB_ICONEXCLAMATION "A newer Mabinogi version is detected V$NEWMABIVERSION($1)$\r$\nPlease wait until UO Tiara has been updated$\r$\nV$0 currently installed$\r$\nYou are running V${UOVERSION}$\r$\n$\r$\nWould you like to close the installer?$\r$\n$\r$\nClick Yes to close$\r$\nNo to continue installing$\r$\nCancel to go to site." IDNO EndNewVersion3 IDCANCEL SetupSite3
 Quit
 SetupSite3:
@@ -11332,19 +11334,19 @@ closeclient:
 
     SetOutPath $TEMP
 
-    File /oname=empty.bmp "Etc\fonts\empty.bmp"
-	File /oname=ydygo550.bmp "Etc\fonts\ydygo550.bmp"
-	File /oname=uotiara.bmp "Etc\fonts\uotiara.bmp"
-	File /oname=tiara.bmp "Etc\fonts\tiara.bmp"
-	File /oname=powerred.bmp "Etc\fonts\powerred.bmp"
-	File /oname=fudd.bmp "Etc\fonts\fudd.bmp"
-	File /oname=interstate.bmp "Etc\fonts\interstate.bmp"
-	File /oname=whiterabbit.bmp "Etc\fonts\whiterabbit.bmp"
+    File /oname=empty.bmp "misc\fonts\empty.bmp"
+	File /oname=ydygo550.bmp "misc\fonts\ydygo550.bmp"
+	File /oname=uotiara.bmp "misc\fonts\uotiara.bmp"
+	File /oname=tiara.bmp "misc\fonts\tiara.bmp"
+	File /oname=powerred.bmp "misc\fonts\powerred.bmp"
+	File /oname=fudd.bmp "misc\fonts\fudd.bmp"
+	File /oname=interstate.bmp "misc\fonts\interstate.bmp"
+	File /oname=whiterabbit.bmp "misc\fonts\whiterabbit.bmp"
 	InitPluginsDir
 	File /oname=$PLUGINSDIR\1.bmp "${screenimage}"
 File /oname=README.md "README.md"
-File /oname=spltmp.bmp "Etc\Unofficial_Tiara_Image.bmp"
-File /oname=spltmp.wav "Etc\se_2443.wav"
+File /oname=spltmp.bmp "misc\Unofficial_Tiara_Image.bmp"
+File /oname=spltmp.wav "misc\se_2443.wav"
 advsplash::show 4500 4500 400 -1 $TEMP\spltmp
 Pop $0
 Delete $TEMP\spltmp.bmp

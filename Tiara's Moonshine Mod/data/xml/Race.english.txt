@@ -9123,7 +9123,7 @@
 11349	Master Bandit Human
 11350	Master Bandit Giant
 11351	Master Bandit Boss
-11352	무등고래(프리미엄 멤버십)
+11352	Bareback Whale (VIP Membership)
 11353	다루의 스쿠터 (이벤트)
 11354	Slime Wyneb Mini-Gem
 11355	[Partner] Dog Sled
@@ -9574,7 +9574,7 @@
 11828	Sylvan Dragon
 11829	Giant Worm
 11830	Yggdrasil Wisp
-11831	길드석
+11831	Guild Stone
 11832	Lovers' Nimbus
 11833	Doki Doki Wagon
 11834	Shadow Mission Invisible Ally Monster Invincibility
@@ -9634,6 +9634,8 @@
 11933	Mini Siamese Cat
 11934	Mini Spotted Deer
 11935	Mini Brown Fox
+11936	Abominable Rabbit
+11937	Abominable Rabbit
 11938	Mini White Poodle Mini-Gem
 11939	Mini Siamese Cat Mini-Gem
 11940	Mini Spotted Deer Mini-Gem
@@ -9649,6 +9651,8 @@
 11950	Siamese Purrling
 11951	Frostblossom Mir Dragon
 11952	Frostblossom Young Ceraunus
+11953	Star Sheep
+11954	Shooting Stars
 11966	Leprechaun
 11967	Dog Sled
 11968	Pack Camel
@@ -9729,4 +9733,14 @@
 12071	Wooden Man as Sturdy as Cailleach
 12330	케라우노스(이벤트용)
 12331	빛나는 별 투안
-12349	모험가 코끼리
+12332	Archelon
+12333	Tagar
+12334	Creag
+12335	Creag
+12336	Archelon
+12337	Tagar
+12338	Creag
+12339	Creag
+12349	미니 모험가 코끼리
+12352	Tagar
+12353	Tagar

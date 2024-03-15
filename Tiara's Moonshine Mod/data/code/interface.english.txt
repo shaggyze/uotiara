@@ -287,6 +287,7 @@ pli_2021extendedattendances5rewardframe.1	Only the main character can receive th
 pli_2021extendedattendances5view.1	Attendance Complete
 pli_2021extendedattendances5view.2	BONUS
 pli_2021extendedattendances5view.3	From {0} to {1}
+pli_2021extendedattendances5view.4	Stamp Date\n{0}
 pli_2021wintermaineventmainview.1	In progress
 pli_2021wintermaineventmainview.2	Expired
 pli_2021wintermaineventmainview.3	Complete
@@ -330,13 +331,16 @@ pli_additionalequipmentpocketview.1	You can use this with a Hotkey! Register it 
 pli_additionalequipmentpocketview.2	The item settings have been applied.
 pli_additionalequipsystemview.1	You need to purchase an Extra Equipment Slot Coupon.
 pli_additionalequipsystemview.2	{0}
-pli_additionalequipsystemview.3	프리미엄 멤버십 적용중\n
-pli_advanceditemview.1	0개는 수령할 수 없습니다.
-pli_advanceditemview.2	보상수령
-pli_advanceditemview.3	어드밴스드 아이템을 {0}개 수령합니다.\n정말 수령하시겠습니까?
-pli_advanceditemview.5	오늘은 <color=3><outlinecolor=4>{0}</outlinecolor></color>입니다.\n<color=3><outlinecolor=4>{1}</outlinecolor></color>{을} 받을 수 있습니다.
-pli_advanceditemview.6	{0} 캐릭터로 어드밴스드 아이템을 수령 하시겠습니까?
-pli_advanceditemview.7	수령가능 : {0}개 / 남은개수 : <color={2}>{1}</color>개
+pli_additionalequipsystemview.3	VIP Membership In Effect\n
+pli_additionalequipsystemview.4	Expired\nEnabled through use of an Extra Equipment Slot Coupon, or granted automatically with a Combat VIP Membership
+pli_additionalequipsystemview.5	No Time Limit (Combat VIP Membership)
+pli_advanceditemview.1	You can't claim 0.
+pli_advanceditemview.2	Claim Reward
+pli_advanceditemview.3	Do you wish to claim {0} Advanced Play Items?
+pli_advanceditemview.4	You can choose to receive {0} Mystery Advanced Play Boxes containing Advanced Play Items from a random day.\nWould you like to receive them?
+pli_advanceditemview.5	Today is <color=3><outlinecolor=4>{0}</outlinecolor></color>.\nYou can receive a <color=3><outlinecolor=4>{1}</outlinecolor></color>.
+pli_advanceditemview.6	Claim the Advanced Play Items on {0}?
+pli_advanceditemview.7	Claimable: {0} / Remaining: <color={2}>{1}</color>
 pli_advertisebrochureview.0	Move to seller's shop
 pli_advertisebrochureview.1	Close
 pli_advertisebrochureview.2	{0} Gold
@@ -1035,7 +1039,7 @@ pli_charactercombocardframe.15	This combo card doesn't have a duration.
 pli_charactercombocardframe.16	Remove time limits from this Combo Card?
 pli_charactercombocardframe.17	You don't have a Permanent Combo Card Coupon.
 pli_charactercombocardframe.18	무료 이벤트 중에는 연장할 수 없습니다.
-pli_charactercombocardframe.19	You can't extend the duration while using the Mabinogi Premium Service.
+pli_charactercombocardframe.19	You can't extend the duration while you have an active Mabinogi Combat VIP Membership.
 pli_charactercombocardframe.20	무료 이벤트 중에는 부활할 수 없습니다.
 pli_charactercombocardframe.21	You are using a Premium Package. Unable to revive.
 pli_charactercombocardframe.22	무료 이벤트 중에는 기한제거를 할 수 없습니다.
@@ -1775,7 +1779,7 @@ pli_entryview.2	Pet {0}
 pli_entryview.3	You don't have any Spirit Weapons.\nBerched can help you form a contract with the Spirit.
 pli_entryview.4	Smart Contents {0}
 pli_entryview.5	Dungeon Guide
-pli_entryview.6	프리미엄 서비스/PC방 혜택 {0}
+pli_entryview.6	VIP Membership Benefits {0}
 pli_entryview.7	Currency {0}
 pli_entryview.8	Growth Guide {0}
 pli_equipmentcollectiontab.1	Loading...
@@ -1823,7 +1827,7 @@ pli_erinnlandprizeroulette.1	You don't have enough Prize Roulette Coins.
 pli_erinnlandshootinggame.1	Results
 pli_erinnlandshootinggame.2	<Targets Hit>\nBasic Targets: {0}\nHigh-score Targets: {1}
 pli_erinnlandwaitingtable.1	Time's up!
-pli_erinnlandwaitingtable.2	You canceled the {0} waiting list.\nYou have been removed from the waiting list.
+pli_erinnlandwaitingtable.2	You canceled your registration for {0}.\nYou have been removed from the waiting list.
 pli_erinnlandwaitingtable.3	{0} is about to begin!\nClick the Start button!
 pli_erinnlandwaitingtable.4	You've canceled starting {0}.\nYou will be removed from the waiting list.\nPlease note that you may not be able to join the waiting list until some time passes.
 pli_erinnlandwaitingtable.5	Time's up for {0}!\nYou will be removed from the waiting list.
@@ -1891,7 +1895,7 @@ pli_facilitylistview.1	Use Pon to place a building.
 pli_facilitylistview.2	<color=2><outlinecolor=3>(Discounted)</outlinecolor></color>
 pli_facilitylistview.3	<color=2><outlinecolor=3>(Reduced)</outlinecolor></color>
 pli_facilitylistview.4	Leased for {0}
-pli_facilitylistview.5	Lease Expiry
+pli_facilitylistview.5	Lease Expired
 pli_facilitylistview.6	You'll need to expand your house to use Camps or Igloos.
 pli_facilitylistview.7	\t\t\t\t\tWould you like to lease?\t\t\t\t\t\nIt will cost you {0} Gold.
 pli_facilitylistview.8	Direct Bank Transaction
@@ -2880,8 +2884,8 @@ pli_instantgiftview.3	{0} hr {1} min
 pli_instantgiftview.4	You don't have enough gold to enter the sweepstakes.
 pli_instantgiftview.5	You've hit the limit for gold entries for today.
 pli_instantgiftview.6	You don't have enough tickets to enter the sweepstakes.
-pli_instantgiftview.7	* The prize list is updated {0} at {1}.
-pli_instantgiftview.8	* Gold entry limits are reset daily at {0}.
+pli_instantgiftview.7	* The prize list is updated {0} at {1}:00 AM (Server Time).
+pli_instantgiftview.8	* Gold entry limits are reset daily at {0}:00 PM (Server Time).
 pli_instantgiftview.9	Instant Prize
 pli_intensiveprovocationballoon.1	Tenacious Taunt Time Left\n{0}{1}
 pli_interactioneditorview.1	Your search yielded results.
@@ -3228,7 +3232,7 @@ pli_lobbylistboxitem.1	Unknown
 pli_lobbylistboxitem.2	Last Location: {0}
 pli_lobbylistboxitem.3	Expired
 pli_lobbylistboxitem.4	Valid until {3}:00, {1}/{2}/{0}
-pli_lobbylistboxitem.5	사용 불가능
+pli_lobbylistboxitem.5	Unavailable
 pli_lobbylistboxitem.6	{0} 서버 전용
 pli_lobbylistboxitem.7	Next:
 pli_lobbylistboxitem.8	{0} day(s)
@@ -3761,7 +3765,7 @@ pli_petquestprogresslistbox.2	{0}%
 pli_petquestprogresslistbox.3	Complete
 pli_petquestquestlistbox.1	Today's Expedition\nThere's a high chance of getting a Huge Lucky Bonus for this venture.
 pli_petquestquestlistbox.2	Special Expedition\nYou can get even better rewards for this venture.
-pli_petquestquestlistbox.3	프리미엄 오늘의 조사\n휴즈 럭키 보너스가 발생할 확률이 높은 조사입니다.
+pli_petquestquestlistbox.3	VIP Daily Expedition\nHigh chance of receiving a Huge Lucky Bonus when undertaking this venture.
 pli_petquestresultview.1	{0} {1}
 pli_petquestresultview.2	{0}: x{1}\n
 pli_petquestresultview.3	Title: {0}\n
@@ -3889,108 +3893,140 @@ pli_portraitattendanceview.1	Obtained
 pli_portraitattendanceview.2	Receive Gift
 pli_portraitattendanceview.3	Time Remaining: {0}
 pli_portraitattendanceview.4	기간 : %04d/%02d/%02d %02d:%02d까지
-pli_premiumservicetabframe.1	프리미엄 멤버십
-pli_premiumservicetabframe.2	(구)프리미엄 플러스 팩
-pli_premiumservicetabframe.3	(구)프리미엄 팩
-pli_premiumservicetabframe.4	프리미엄 PC방
-pli_premiumservicetabframe.5	미적용
-pli_premiumservicetabframe.6	적용
-pli_premiumservicetabframe.7	길드 마스터 권한
-pli_premiumservicetabframe.9	나오의 생일선물
-pli_premiumservicetabframe.10	어드밴스드 아이템 제공
-pli_premiumservicetabframe.11	소셜 모션
-pli_premiumservicetabframe.12	캠핑 패널티 제거
-pli_premiumservicetabframe.13	경험치 손실 없이 마을 부활
-pli_premiumservicetabframe.15	전투 경험치 추가 획득
-pli_premiumservicetabframe.17	아이템 드랍 확률 보너스
-pli_premiumservicetabframe.18	나오 폭탄
-pli_premiumservicetabframe.19	나오의 영혼석
-pli_premiumservicetabframe.20	FLC 가방
-pli_premiumservicetabframe.21	VIP펫
-pli_premiumservicetabframe.24	PLUS 인벤토리 사용 가능
-pli_premiumservicetabframe.25	퀘스트 완료 경험치 보너스
-pli_premiumservicetabframe.26	재능 타이틀 변경 무제한
-pli_premiumservicetabframe.27	수표 발급 수수료 무료
-pli_premiumservicetabframe.28	프리미엄 VIP 가방
-pli_premiumservicetabframe.29	콤보 카드 무제한 사용
-pli_premiumservicetabframe.30	환생 시 9~19살의 키가 되는 포션 선택 상자 제공
-pli_premiumservicetabframe.31	벨바스트 가판대 아이템 가격 무제한?
-pli_premiumservicetabframe.32	길드 수표 발급 수수료 무료
-pli_premiumservicetabframe.33	경매장 추가 등록 기간 제공(60시간)
-pli_premiumservicetabframe.34	경매장 이용 수수료 할인
-pli_premiumservicetabframe.36	에코스톤 슬롯 무제한 사용
-pli_premiumservicetabframe.38	아이템 수리비 감면
-pli_premiumservicetabframe.39	프리미엄 오늘의 미션 제공
-pli_premiumservicetabframe.40	VIP 오늘의 미션
-pli_premiumservicetabframe.41	경매장 슬롯 추가 제공
-pli_premiumservicetabframe.42	수표 출금 한도 상향
-pli_premiumservicetabframe.43	타이틀 교체 무한
-pli_premiumservicetabframe.45	낭만 농장 하우징 계약 연장 무료
-pli_premiumservicetabframe.47	PC방 스킬 수련치 2배
-pli_premiumservicetabframe.48	스마트 콘텐츠 워프 무료
-pli_premiumservicetabframe.50	프리미엄 새도우 크리스탈 제공
-pli_premiumservicetabframe.51	탈틴 농장 대여
-pli_premiumservicetabframe.52	환생 주기 감소
-pli_premiumservicetabframe.53	수리비 할인
-pli_premiumservicetabframe.54	뷰티 슬롯 제공
-pli_premiumservicetabframe.55	추가 장비 슬롯 무제한 이용
-pli_premiumservicetabframe.56	전투 재능에 도움되는 버프
-pli_premiumservicetabframe.57	회복류 포션 효과 효율 증가 
-pli_premiumservicetabframe.58	생활 재능에 도움되는 버프
-pli_premiumservicetabframe.59	낭만 농장 / 달빛 섬 주크박스 무제한 이용
-pli_premiumservicetabframe.60	캠프 파이어 소각 경험치 증가
-pli_premiumservicetabframe.62	프리미엄 펫 탐험대 퀘스트 제공
-pli_premiumservicetabframe.64	원격 상점 이용 가능
-pli_premiumservicetabframe.65	프리미엄 펫 사용
-pli_premiumservicetabframe.66	길드 마스터 권한
-pli_premiumservicetabframe.68	나오의 생일 선물
-pli_premiumservicetabframe.70	소셜 모션
-pli_premiumservicetabframe.72	행동불능이 되었을 때 마을에서 부활하기를 선택하면 경험치 손실 없이 부활할 수 있습니다.
-pli_premiumservicetabframe.74	몬스터 처치 시, 전투 경험치를 20%만큼 추가로 획득합니다.
-pli_premiumservicetabframe.76	아이템 드랍 확률 보너스
-pli_premiumservicetabframe.77	나오 폭탄
-pli_premiumservicetabframe.78	나오의 영혼석
-pli_premiumservicetabframe.79	FLC 가방
-pli_premiumservicetabframe.80	VIP 펫
-pli_premiumservicetabframe.83	기본 인벤토리에 더해, PLUS 인벤토리를 추가로 이용할 수 있게 됩니다.\nPLUS 인벤토리에는 가방을 배치할 수 없습니다.
-pli_premiumservicetabframe.84	퀘스트 완료 경험치를 50%만큼 추가로 획득합니다.
-pli_premiumservicetabframe.85	재능 타이틀 변경 무제한
-pli_premiumservicetabframe.86	은행에서 수표 발급 시, 발급 수수료가 무료로 적용됩니다.
-pli_premiumservicetabframe.87	프리미엄 VIP 가방
-pli_premiumservicetabframe.88	콤보 카드 기능을 무제한으로 이용할 수 있습니다.
-pli_premiumservicetabframe.89	일주일에 1회, 환생 시 9~19살의 키가 되는 포션 선택 상자가 제공됩니다.\n프리미엄 베이직 멤버십이 적용 중인 계정 내 모든 캐릭터에게 지급됩니다.
-pli_premiumservicetabframe.90	벨바스트 가판대 아이템 가격 무제한
-pli_premiumservicetabframe.91	길드석을 통해 수표 발급 시, 수수료가 발생하지 않게 됩니다.
-pli_premiumservicetabframe.92	경매장에 아이템을 최대 60시간까지 등록할 수 있게 됩니다.
-pli_premiumservicetabframe.93	경매장 이용 수수료가 4%로 할인 적용됩니다.
-pli_premiumservicetabframe.97	아이템 수리비 감면
-pli_premiumservicetabframe.98	보상 경험치와 골드를 추가로 획득할 수 있는 프리미엄 오늘의 미션이 1일 1개씩 제공됩니다.
-pli_premiumservicetabframe.99	VIP 오늘의 미션
-pli_premiumservicetabframe.100	내 경매 슬롯이 10칸만큼 추가로 늘어납니다.
-pli_premiumservicetabframe.101	은행에서 1억 골드 수표를 출금할 수 있게 됩니다.
-pli_premiumservicetabframe.102	타이틀 교체 무한
-pli_premiumservicetabframe.104	낭만 농장 하우징 계약을 별도 골드 지불 없이 무료로 연장할 수 있습니다.
-pli_premiumservicetabframe.107	스마트 콘텐츠를 이용하여 문게이트, 마나터널을 무료로 이용할 수 있습니다.
-pli_premiumservicetabframe.109	매일 접속 시, 프리미엄 새도우 크리스탈이 제공됩니다.\n프리미엄 배틀 멤버십이 적용 중인 계정 내 한 개의 캐릭터에게만 지급됩니다.
-pli_premiumservicetabframe.110	탈틴 농장 사용 가능
-pli_premiumservicetabframe.112	프리미엄 베이직 멤버십이 적용 중인 상태에서는 수리비 할인이 50%로 상시 적용됩니다.
-pli_premiumservicetabframe.113	드레스 룸의 뷰티 슬롯이 추가 제공됩니다. 헤어, 눈, 얼굴, 입 뷰티 슬롯이 각각 3칸씩 추가 제공됩니다.
-pli_premiumservicetabframe.114	추가 장비 슬롯을 무제한으로 이용할 수 있습니다.
-pli_premiumservicetabframe.116	회복류 포션 효과 효율 증가 
-pli_premiumservicetabframe.118	프리미엄 라이프 멤버십이 적용 중인 상태에서는 낭만 농장 또는 달빛 섬에 설치된 주크박스를 무제한으로 이용하실 수 있습니다.
-pli_premiumservicetabframe.119	캠프 파이어에 아이템 소각 시, 획득하는 경험치를 2배로 획득할 수 있습니다.
-pli_premiumservicetabframe.121	기본 성공률이 높은 프리미엄 펫 탐험대 퀘스트를 추가로 수주받을 수 있습니다.
-pli_premiumservicetabframe.124	프리미엄 베이직 멤버십 이용 중이라면, 서버 내 최초 접속한 캐릭터에게 프리미엄 펫을 소환할 수 있는 호루라기가 지급됩니다.\n호루라기를 사용해 생성한 펫은 프리미엄 베이직 멤버십이 적용 중인 상태에서 소환할 수 있으며 함께 에린을 모험할 수 있습니다.\n서버 당 1개씩 지급되며, 서버 이전이 불가능합니다.
-pli_premiumservicetabframe.125	프리미엄 플러스 팩
-pli_premiumservicetabframe.126	프리미엄 팩
-pli_premiumservicetabframe.127	베이직 멤버십
-pli_premiumservicetabframe.128	배틀 멤버십
-pli_premiumservicetabframe.129	라이프 멤버십
-pli_premiumservicetabframe.130	PC방
-pli_premiumservicetabframe.131	개인 상점 한도 상향
-pli_premiumservicetabframe.132	프리미엄 개인 상점 허가증으로 최대한도가 5000만 골드인 개인 상점을 이용할 수 있습니다.
-pli_premiumserviceview.1	프리미엄 멤버십
-pli_premiumserviceview.2	프리미엄 PC방
+pli_premiumservicetabframe.1	VIP Benefits
+pli_premiumservicetabframe.2	(Old) Mabinogi VIP Service
+pli_premiumservicetabframe.3	(Old) Mabinogi Premium Service
+pli_premiumservicetabframe.4	Premium PC Cafe
+pli_premiumservicetabframe.5	Inactive
+pli_premiumservicetabframe.6	Active
+pli_premiumservicetabframe.7	Guild Leader Permissions
+pli_premiumservicetabframe.8	Marketplace Available (Shop Bidding)
+pli_premiumservicetabframe.9	Birthday Gift from Nao
+pli_premiumservicetabframe.10	Advanced Play Items Available
+pli_premiumservicetabframe.11	Premium Gestures
+pli_premiumservicetabframe.12	No Camping Penalty
+pli_premiumservicetabframe.13	Revival without EXP Loss in Towns
+pli_premiumservicetabframe.14	PC Cafe Discounted Bank, Mail Fee
+pli_premiumservicetabframe.15	Combat EXP Bonus
+pli_premiumservicetabframe.16	Unlimited Continent Warp
+pli_premiumservicetabframe.17	Item Drop Rate Bonus
+pli_premiumservicetabframe.18	Nao Bomb
+pli_premiumservicetabframe.19	Nao Soul Stone
+pli_premiumservicetabframe.20	FLC Bag
+pli_premiumservicetabframe.21	VIP Pet
+pli_premiumservicetabframe.22	Equipment Proficiency Bonus
+pli_premiumservicetabframe.23	VIP Inventory Access
+pli_premiumservicetabframe.24	VIP Inventory Access
+pli_premiumservicetabframe.25	Quest Completion EXP Bonus
+pli_premiumservicetabframe.26	Unlimited Talent Title Changes
+pli_premiumservicetabframe.27	Check Processing Fee Waived
+pli_premiumservicetabframe.28	Premium VIP Bag
+pli_premiumservicetabframe.29	No Expiration on Combo Cards
+pli_premiumservicetabframe.30	Age Potion - Age 9-19 Selection Box Provided Upon Rebirth
+pli_premiumservicetabframe.31	Increased Belvast Personal Shop Item Price (?)
+pli_premiumservicetabframe.32	Guild Check Processing Fee Waived
+pli_premiumservicetabframe.33	60-Hour Auction House Sale Duration Available
+pli_premiumservicetabframe.34	Auction House Tax Discount
+pli_premiumservicetabframe.35	No Log-off Penalty during Commerce
+pli_premiumservicetabframe.36	Echostone Tab Always Accessible
+pli_premiumservicetabframe.37	PC Cafe Slower Durability Decrease
+pli_premiumservicetabframe.38	Discounted Item Repair Fee
+pli_premiumservicetabframe.39	Daily VIP Shadow Mission Available
+pli_premiumservicetabframe.40	VIP Daily Shadow Mission Available
+pli_premiumservicetabframe.41	Additional Auction House Slots Available
+pli_premiumservicetabframe.42	Check Withdrawal Limit Increased
+pli_premiumservicetabframe.43	Unlimited Title Changes
+pli_premiumservicetabframe.44	Additional Auction House Slots with Homestead Housing
+pli_premiumservicetabframe.45	Free Homestead Housing Contract Extension
+pli_premiumservicetabframe.46	PC Cafe Free Repair
+pli_premiumservicetabframe.47	PC Cafe Skill EXP 2x
+pli_premiumservicetabframe.48	Free Warping with the Traveler's Guide
+pli_premiumservicetabframe.49	Marketplace Safe Available
+pli_premiumservicetabframe.50	Premium Shadow Crystals Provided
+pli_premiumservicetabframe.51	Taillteann Homestead Rental
+pli_premiumservicetabframe.52	Reduced time between Rebirths
+pli_premiumservicetabframe.53	Discounted Repair Fee
+pli_premiumservicetabframe.54	Beauty Slot Available
+pli_premiumservicetabframe.55	Extra Equipment Slots Always Accessible
+pli_premiumservicetabframe.56	Helpful Buff for Combat Talents
+pli_premiumservicetabframe.57	Increased Effectiveness of Recovery Potions 
+pli_premiumservicetabframe.58	Helpful Buff for Life Talents
+pli_premiumservicetabframe.59	Unlimited Use of Homestead Jukebox
+pli_premiumservicetabframe.60	Increased Campfire Burn EXP
+pli_premiumservicetabframe.61	Bank Limit Increase
+pli_premiumservicetabframe.62	VIP Pet Expedition Quests Available
+pli_premiumservicetabframe.63	No Level Limit on EXP from Elite Baltane Missions (1x/day)
+pli_premiumservicetabframe.64	Remote Shop Available
+pli_premiumservicetabframe.65	VIP Pet Available
+pli_premiumservicetabframe.66	Guild Leader Permissions
+pli_premiumservicetabframe.67	You can bid on and own a shop in the Marketplace District, and access safe and bidding services via Marketplace shops.
+pli_premiumservicetabframe.68	Birthday Gift from Nao
+pli_premiumservicetabframe.69	Each day of the week, you can claim a box of free Advanced Play Items that will help you get the most out of your adventures. You can claim these items by clicking the 'Receive Items' button in the VIP window, and are eligible to receive as many boxes as you have characters on your account.
+pli_premiumservicetabframe.70	Premium Gestures
+pli_premiumservicetabframe.71	No penalty to EXP or item drop rates will be incurred for staying in the same area killing monsters.
+pli_premiumservicetabframe.72	If you are knocked out and select 'Revive in Town', you will revive without losing any EXP.
+pli_premiumservicetabframe.73	Mail and Bank fees are discounted by 20%.
+pli_premiumservicetabframe.74	Earn 20% more Combat EXP from defeating monsters.
+pli_premiumservicetabframe.75	The Continent Warp skill in the Action Skill Window will have no cooldown when used.
+pli_premiumservicetabframe.76	Item Drop Rate Bonus
+pli_premiumservicetabframe.77	Nao Bomb
+pli_premiumservicetabframe.78	Three Nao Revivals are available for your character, ready to get you back in the fight when knocked out. Once depleted, your stock of revivals will be replenished at 6:00 AM each day (Erinn Time).
+pli_premiumservicetabframe.79	FLC Bag
+pli_premiumservicetabframe.80	VIP Pet
+pli_premiumservicetabframe.81	Weapons and equipment gain proficiency at 2.5x the normal rate.
+pli_premiumservicetabframe.82	In addition to your basic inventory, you'll also have access to the VIP inventory tab.\nBags cannot be placed in the VIP inventory.
+pli_premiumservicetabframe.83	In addition to your basic inventory, you'll also have access to the VIP inventory tab.\nBags cannot be placed in the VIP inventory.
+pli_premiumservicetabframe.84	Earn 50% more EXP from completing quests.
+pli_premiumservicetabframe.85	Unlimited Talent Title Changes
+pli_premiumservicetabframe.86	Checks can be issued without incurring a fee from the bank.
+pli_premiumservicetabframe.87	Premium VIP Bag
+pli_premiumservicetabframe.88	Combo Cards will not expire as long as your VIP Membership is active.
+pli_premiumservicetabframe.89	An Age Potion - Age 9-19 Selection Box will be given upon rebirth once each week.\nAvailable to all characters on accounts with a Basic VIP Membership.
+pli_premiumservicetabframe.90	Unlimited Belvast Personal Shop Item Price
+pli_premiumservicetabframe.91	The fee for checks issued via Guild Stones will be waived.
+pli_premiumservicetabframe.92	Items posted for sale on the Auction House will be able to remain listed for up to 60 hours.
+pli_premiumservicetabframe.93	The fee for sales made through the Auction House will be reduced to 4% of the selling price.
+pli_premiumservicetabframe.94	No penalty will be incurred for logging off during commerce.
+pli_premiumservicetabframe.95	The Echostone Tab will be accessible as long as your VIP Membership is active.
+pli_premiumservicetabframe.96	The rate at which equipment loses durability is reduced by half.
+pli_premiumservicetabframe.97	Discounted Item Repair Fee
+pli_premiumservicetabframe.98	Access to a daily Shadow Mission that awards additional EXP and Gold to those with a Combat VIP Membership once per day.
+pli_premiumservicetabframe.99	You have access to a Daily Shadow Mission that grants additional benefits to those with an active Combat VIP Membership. Successful completion of this mission will grant increased EXP and Gold once per day.
+pli_premiumservicetabframe.100	Allows the listing of 10 additional items in the Auction House's "My Auctions" tab.
+pli_premiumservicetabframe.101	The check withdrawal limit from the bank will be increased from 10 million Gold to 50 million Gold, allowing you to withdraw up to 60 million Gold.
+pli_premiumservicetabframe.102	Unlimited Title Changes
+pli_premiumservicetabframe.103	One additional Auction House slot is provided if you own Homestead Housing or a Marketplace District shop.
+pli_premiumservicetabframe.104	Your Homestead Housing contract can be extended without paying additional Gold.
+pli_premiumservicetabframe.105	Equipment repair is free while playing in a Nexon PC Cafe.
+pli_premiumservicetabframe.106	2x Talent Training EXP while playing in a Nexon PC Cafe.
+pli_premiumservicetabframe.107	Warping to any Moon Gate or Mana Tunnel via the Traveler's Guide can be done without cost.
+pli_premiumservicetabframe.108	Access granted to a personal safe in the Marketplace District shop that can store up to 50 million Gold.
+pli_premiumservicetabframe.109	A Premium Shadow Crystal is provided each day upon logging in.\nThis crystal can only be claimed by one character per day on an account with a Combat VIP Membership.
+pli_premiumservicetabframe.110	Taillteann Farming Available
+pli_premiumservicetabframe.111	If your Cumulative Level is 5,000 or higher, the time to your next Rebirth is reduced by 1 day.\nRebirthing with an active Basic VIP Membership reduces the time to your next Rebirth by 1 day.
+pli_premiumservicetabframe.112	All repair fees will be discounted by 50% while a Basic VIP Membership is active.
+pli_premiumservicetabframe.113	Additional Beauty Slots for Hair, Eyes, Faces, and Mouths are available in the Dressing Room.
+pli_premiumservicetabframe.114	Extra Equipment Slots will not expire as long as your VIP Membership is active.
+pli_premiumservicetabframe.115	The "Battler's Boon" is granted to those with an active Combat VIP Membership.\nBattler's Boon doubles Skill Training EXP for Combat Talents, including Close Combat, Archery, Magic, Alchemy, and Crusader, and grants a 1% Bonus Damage boost.
+pli_premiumservicetabframe.116	Increased Effectiveness of Recovery Potions 
+pli_premiumservicetabframe.117	The "Bountiful Boon" is granted to those with an active Life VIP Membership.\nBountiful Boon doubles Skill Training EXP for Life Talents, including Pet Trainer, Glyphwrighting, and Carpentry, and grants a 3% boost to Gathering Speed and a 1% boost to Crafting Success Rate.
+pli_premiumservicetabframe.118	You can use the Jukebox on your Homestead for as long as your VIP Membership is active.
+pli_premiumservicetabframe.119	Burning items in a Campfire grants 2x the normal EXP.
+pli_premiumservicetabframe.120	Increases the amount of Gold you can store in your bank by 600 million.
+pli_premiumservicetabframe.121	Access to a daily VIP Pet Expedition Quest with a high base success rate.
+pli_premiumservicetabframe.122	Removes the level limit at which you can receive EXP from Elite Baltane Missions. This benefit is granted once per day to all characters on an account with an active Combat VIP Membership. If you possess a Baltane Mission Captain Pass, it will be consumed first, leaving this benefit available.
+pli_premiumservicetabframe.123	Allows you to click on the Repair, Shop, and Bank icons to the right of your character taskbar to access shops no matter where you are. Remote shop access is available once per day (Erinn time), and resets at 6:00 AM.
+pli_premiumservicetabframe.124	The first character to log in on your account after the purchase of a Basic VIP Membership will receive a whistle used to summon a VIP Pet.\nThe pet called forth from this whistle will remain your companion for as long as your VIP Membership is active.\n\nOne whistle is provided per account. VIP Pets can't be stored in a Pet Adoption Medal or sacrificed to perform a Fynn Sync, and cannot use Pet Inventory.
+pli_premiumservicetabframe.125	Mabinogi VIP Service
+pli_premiumservicetabframe.126	Mabinogi Premium Service
+pli_premiumservicetabframe.127	Basic VIP
+pli_premiumservicetabframe.128	Combat VIP
+pli_premiumservicetabframe.129	Life VIP
+pli_premiumservicetabframe.130	PC Cafe
+pli_premiumservicetabframe.131	Personal Shop Limit Increase
+pli_premiumservicetabframe.132	When holding a Premium Personal Shop License, your Personal Shop will have a maximum capacity of 50,000,000 Gold.
+pli_premiumserviceview.1	VIP Membership
+pli_premiumserviceview.2	Premium PC Cafe
 pli_privatefarmaskexitview.1	{0:itemname} x ({1:itemcount})
 pli_privatefarmaskexitview.2	Please wait for a moment.
 pli_privatefarmaskexitview.3	Would you like to leave the house?
@@ -4134,6 +4170,8 @@ pli_privatefarmstatusview.9	Jukebox [Remaining: <color=2>{0}</color> day(s)]
 pli_privatefarmstatusview.10	<color=2>Jukebox Not Available</color>
 pli_privatefarmstatusview.11	<color=2>Install Jukebox to Use</color>
 pli_privatefarmstatusview.12	 Decoration Effect
+pli_privatefarmstatusview.13	Jukebox [No Time Limit (VIP)]
+pli_privatefarmstatusview.14	<color=2>Expired. Enabled via a Jukebox Coupon, or with an active Life VIP Membership</color>
 pli_privatezoneaskexitview.1	{0:itemname} x ({1:itemcount})
 pli_privatezoneaskexitview.2	Please wait.
 pli_productionbookview.1	Enter a search term
@@ -4458,7 +4496,6 @@ pli_searchitemview.btn.close	Close
 pli_searchitemview.btn.find	Search
 pli_searchitemview.msg.1	Enter the name of the item you want to find.
 pli_searchitemview.title	Search Personal Shop
-pli_seasonpassaventureuppopupview.1	모험 일지 {0}단계 달성 !
 pli_seasonpassgradeuppopupview.1	GRADE UP
 pli_seasonpassgradeuppopupview.2	Check the GRADE UP {0} -> {1} reward.
 pli_seasonpassmainview.1	Daily
@@ -4576,7 +4613,7 @@ pli_smartcontentlistrow.2	Traveler's Guide
 pli_smartcontentlistrow.3	To use that, you must have a cumulative level below 300.
 pli_smartcontentlistrow.4	<{0}> 지역으로 이동 하시겠습니까?\n<누적레벨 {1} 미만 까지 이용할 수 있습니다.>
 pli_smartcontentlistrow.5	누적레벨 {0} 이상은 이용하실 수 없습니다.
-pli_smartcontentlistrow.6	<{0}> 지역으로 이동 하시겠습니까?\n<누적레벨 {1} 미만 까지 이용할 수 있습니다.\n프리미엄 베이직 멤버십을 이용하시면 제한 없이 이용 가능합니다.>
+pli_smartcontentlistrow.6	Teleport to {0}?\nCan be used by characters with a cumulative level below {1}.\nFree to use for those with a Mabinogi Basic VIP Membership.
 pli_smartcontentlistrow.7	You're on your way.
 pli_smartcontentmainview.1	Teleport to <{0}>?\n<Can be used by characters with a cumulative level under 300.>
 pli_smartcontentmainview.2	Traveler's Guide
@@ -4584,12 +4621,12 @@ pli_smartcontentmainview.3	To use that, you must have a cumulative level below 3
 pli_smartcontentmainview.4	Favorites  >
 pli_smartcontentmainview.5	<{0}> 지역으로 이동 하시겠습니까?\n<누적레벨 {1} 미만 까지 이용할 수 있습니다.>
 pli_smartcontentmainview.6	누적레벨 {0} 이상은 이용하실 수 없습니다.
-pli_smartcontentmainview.7	Teleport to {0}?\n<Can be used by characters with a cumulative level under {1}.\nPlayers with the Mabinogi Premium Service can use this feature freely.
+pli_smartcontentmainview.7	Teleport to {0}?\nCan be used by characters with a cumulative level below {1}.\nFree to use for those with a Mabinogi Basic VIP Membership.
 pli_smartcontentmainview.8	You're on your way.
-pli_smartcontentmainview.9	Teleport to <{0}>?\nYou can use the Moonlight Traveler Book without restrictions\nif your cumulative level is under {1}, or if you have an active Mabinogi Premium Service.
-pli_smartcontentmainview.10	Teleport to <{0}>?\nIt will cost you <color=2> <outlinecolor=3>{1} Gold</outlinecolor></color>.\nThere is no fee for using the Moonlight Traveler Book\nif you have an active Mabinogi Premium Service.
-pli_smartcontentmainview.11	Teleport to <{0}>?\nYou can use the Traveler's Guide without restrictions\nif your cumulative level is under {1}, or if you have an active Mabinogi VIP Service.
-pli_smartcontentmainview.12	Teleport to <{0}>?\nIt will cost you <color=2> <outlinecolor=3>{1} Gold</outlinecolor></color>.\nThere is no fee for using the Traveler's Guide\nif you have an active Mabinogi VIP Service.
+pli_smartcontentmainview.9	Teleport to {0}?\nUse of the Traveler's Guide is free if your cumulative level is below {1},\nor at any time with an active Mabinogi Basic VIP Membership.
+pli_smartcontentmainview.10	Teleport to {0}?\nPassage will cost <color=2> <outlinecolor=3>{1} Gold</outlinecolor></color>.\nUse of the Traveler's Guide is free for those with an active Mabinogi Basic VIP Membership.
+pli_smartcontentmainview.11	Teleport to {0}?\nUse of the Traveler's Guide is free if your cumulative level is below {1},\nor at any time with an active Mabinogi Basic VIP Membership.
+pli_smartcontentmainview.12	Teleport to {0}?\nPassage will cost <color=2> <outlinecolor=3>{1} Gold</outlinecolor></color>.\nUse of the Traveler's Guide is free for those with an active Mabinogi Basic VIP Membership.
 pli_smartcontentmainview.13	Enter a search term.
 pli_smartgameinfoview.1	<color=4>[Tara] </color>
 pli_smartgameinfoview.2	<color=4>[Taillteann] </color>
@@ -4948,6 +4985,7 @@ pli_tradeauctionregisterview.31	{0} This item's deviation \nfrom the average pri
 pli_tradeauctionregisterview.32	You cannot list items\nthat expire before the waiting time for listing.
 pli_tradeauctionregisterview.33	\n\nYou cannot list an item for longer than its time limit.\nThe listing time will be automatically adjusted to match its duration.
 pli_tradeauctionregisterview.34	The listed price for the {0} item is more than <color=5><outlinecolor=3>90%</outlinecolor></color> different the latest average price.\n\nPrice per item: <color=5><outlinecolor=3>{1}</outlinecolor></color> Gold\nTotal price: <color=5><outlinecolor=3>{2}</outlinecolor></color> Gold\n\n
+pli_tradeauctionregisterview.35	아이템 정보를 가져오는데에 실패했습니다.\n잠시 후 다시 시도해주세요.
 pli_tradeauctionsalestateview.1	Retrieve
 pli_tradeauctionsalestateview.2	Receive
 pli_tradeauctionsalestateview.3	Collect
@@ -5580,7 +5618,9 @@ pli_windowcombocardview.1	Expires
 pli_windowcombocardview.2	Expired
 pli_windowcombocardview.3	No Duration
 pli_windowcombocardview.4	No Time Limit (Event)
-pli_windowcombocardview.5	No Time Limit (Mabinogi Premium Service)
+pli_windowcombocardview.5	No Expiration (Mabinogi Combat VIP Membership)
+pli_windowcombocardview.6	No Time Limit (Combat VIP Membership)
+pli_windowcombocardview.7	Expired
 pli_windowconditionballoon.1	(Defense: -{0}, Protection: -{1})
 pli_windowconditionballoon.2	 Level {0}
 pli_windowconditionballoon.3	Diligent Milletian
@@ -5753,7 +5793,7 @@ pli_windowgmcontroltabs.35	Glyphwrighting View
 pli_windowgmcontroltabs.36	View
 pli_windowgmcontroltabs.37	Destroy all items in your Gachapon Inventory.
 pli_windowgolddeal.1	Insert the proper amount.
-pli_windowgolddeal.2	Preferred Discount
+pli_windowgolddeal.2	Waived
 pli_windowgrouplistview.1	Please select the group you will move your friend to.
 pli_windowgrouplistview.2	OK
 pli_windowgrouplistview.3	Cancel
@@ -5842,7 +5882,7 @@ pli_windowhinventory.11	Gold
 pli_windowhinventory.12	Ducats
 pli_windowhinventory.13	This is the total amount of Ducats in your possession.
 pli_windowhinventory.14	{0}'s Inventory
-pli_windowhinventory.15	{0} service is not in use.
+pli_windowhinventory.15	You don't currently have an active {0}.
 pli_windowhinventory.16	VIP
 pli_windowhinventory.17	Enter a search term.
 pli_windowhinventory.18	Click on the item and enter the dungeon.
@@ -5851,7 +5891,7 @@ pli_windowhinventory.20	Style
 pli_windowhinventory.21	The expiration date has passed.
 pli_windowhinventory.22	{0:Remain_Time_String} left.
 pli_windowhinventory.23	서비스 종료, 클릭 시 구매 사이트 이동
-pli_windowhinventory.24	Mabinogi Premium Service
+pli_windowhinventory.24	Mabinogi VIP Membership
 pli_windowhinventory.25	PC방 유저는 무료로 사용 가능합니다.
 pli_windowhinventory.26	VIP
 pli_windowhinventory.27	Can be used for free with VIP service.
@@ -5869,12 +5909,12 @@ pli_windowhinventory.38	{0} hr and {1} min left.
 pli_windowhinventory.39	The expiration date has passed!\nClear the Sidhe Finnachaid area to lengthen the item's useful period.
 pli_windowhinventory.40	To unlock, complete the 'Refrain of Sorrow and Serenity' quest.
 pli_windowhinventory.41	You can easily switch out your equipment by using the extra equipment slot.
-pli_windowhinventory.42	There is no expiration.\nMabinogi VIP Service subscribers have unlimited use.
+pli_windowhinventory.42	Does not expire.\nThose with an active Mabinogi VIP Membership have unlimited use of this feature.
 pli_windowhinventory.43	This bag contains items obtained through bingo and through the use of point items.
 pli_windowhinventory.44	This bag contains items obtained from various events that you have not claimed and the items you obtained through the use of paid products.
 pli_windowhinventory.46	All expired items will be destroyed, and items expiring soon will be checked.
 pli_windowhinventory.47	All expired items will be destroyed, and items expiring soon will be checked.
-pli_windowhinventory.48	This bag can be used like a normal bag during Master Plan events. Once the event ends, you can only withdraw items from it, similar to the Mabinogi VIP inventory.
+pli_windowhinventory.48	This bag can be used like a normal bag during Master Plan events. Once the event ends, you can only withdraw items from it, similar to the Mabinogi VIP Inventory tab.
 pli_windowhinventory.49	You can equip Stardust.
 pli_windowhinventory.50	Group same items with different expiration dates.
 pli_windowhinventory.51	Set the order in which your bags will be filled with items you acquire.
@@ -5891,6 +5931,10 @@ pli_windowhinventory.61	You don't have the Gold to hand to your pet.
 pli_windowhinventory.62	Your pet cannot hold more Gold.
 pli_windowhinventory.63	You cannot hold more Gold.
 pli_windowhinventory.64	Your pet doesn't have any Gold.
+pli_windowhinventory.65	No Time Limit (Basic VIP Membership)
+pli_windowhinventory.66	Expired\nEnabled through use of a Style Tab Key, Pon, or granted automatically with a Basic VIP Membership
+pli_windowhinventory.67	Expired\nEnabled upon clearing Sidhe Finnachaid, or granted automatically with a Combat VIP Membership
+pli_windowhinventory.68	No Time Limit (Combat VIP Membership)
 pli_windowhinventory.69	Allows for the selection and destruction of multiple items in your inventory.
 pli_windowhinventory.70	Shrinks the Hide button.
 pli_windowhinventory.71	Enlarges the Hide button.
@@ -6021,7 +6065,7 @@ pli_windowlobby.52	Cannot delete; currently on an expedition or resting at {0}'s
 pli_windowlobby.53	You cannot log in with a Fynni Pet.
 pli_windowlobby.54	Character {0} cannot be deleted.
 pli_windowlobby.55	Cannot delete; currently placed on the Homestead of character [{0}].
-pli_windowlobby.56	프리미엄 베이직 멤버십을 이용해야 펫을 사용할 수 있습니다.
+pli_windowlobby.56	This pet can only be used by those with a Basic VIP Membership.
 pli_windowlogin.0	메시지
 pli_windowlogin.1	인증번호 입력 유효시간이 경과되었습니다.
 pli_windowlogin.2	Start Mabinogi
@@ -7238,9 +7282,9 @@ pli_windowserviceinfo.15	VIP Membership:
 pli_windowserviceinfo.16	In Use
 pli_windowserviceinfo.18	초보자 혜택
 pli_windowserviceinfo.19	PC방 혜택 보기
-pli_windowserviceinfo.20	프리미엄 베이직 멤버십 :
-pli_windowserviceinfo.21	프리미엄 배틀 멤버십 :
-pli_windowserviceinfo.22	프리미엄 라이프 멤버십 :
+pli_windowserviceinfo.20	Basic VIP Membership:
+pli_windowserviceinfo.21	Combat VIP Membership:
+pli_windowserviceinfo.22	Life VIP Membership:
 pli_windowshadowmissionboard.1	Cannot be used with an Animal Character.
 pli_windowshadowmissionboard.2	Shadow Mission Bulletin
 pli_windowshadowmissionboard.3	Receive Mission
@@ -7637,9 +7681,11 @@ pli_windowtaskbaraction.25	Shows the skills of summoned pets.
 pli_windowtaskbaraction.26	You must complete the tutorial first in order to proceed with Blaanid's Brave Boost.
 pli_windowtaskbaraction.27	Complete the "Brave Boost: A Blue Fragrance on the Wind" quest first.
 pli_windowtaskbaraction.28	You cannot use the Auction House from the country where you're currently logged in.
-pli_windowtaskbaraction.31	이용하기
-pli_windowtaskbaraction.32	프리미엄 원격 {0}\n오늘 남은 이용 횟수 : {1}회
-pli_windowtaskbaraction.33	수리
+pli_windowtaskbaraction.29	The VIP Remote {0} can be accessed <color=3><outlinecolor=4>{1} time(s)</outlinecolor></color> per in-game day.\nThis access is refreshed every day at <color=3><outlinecolor=4>6:00 AM (Erinn Time)</outlinecolor></color>.\nWould you like to access the Remote {0} now?\n\nRemaining Uses Today: <color=3><outlinecolor=4>{2} time(s)</outlinecolor></color>
+pli_windowtaskbaraction.30	You've used all of your Remote {0} access for today.
+pli_windowtaskbaraction.31	Use
+pli_windowtaskbaraction.32	VIP Remote {0}\nUses Available Today: {1}
+pli_windowtaskbaraction.33	Repair
 pli_windowtaskbarshadowmission.1	Press this button to leave the theatre.
 pli_windowtaskbarshadowmission.2	Press this button to view the script.
 pli_windowtaskbarshadowmission.3	Do you wish to leave the theatre?
@@ -8011,7 +8057,7 @@ window.camp.ok_btn	OK
 window.camp.warning_name	The camp name must be at least 4 letters.
 window.camp.warning_name2	The camp name must be at least 4 letters.
 window.camp_char.auto_close_text	The window will close in {0} second(s).
-window.camp_char.msg_wanna_eat	{0} would like to share {1} with you.\nWill you take it?
+window.camp_char.msg_wanna_eat	{0} would like to share food with you.\nDo you accept?
 window.camp_char.usage_text	You can write a memo while sharing food.
 window.camp_shar.cancel_button	Cancel
 window.camp_shar.close_button	Close

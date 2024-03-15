@@ -63,7 +63,7 @@
 63	Herbalism
 64	Potion Making
 65	Fishing
-66	Pickup Item (GM Skill)
+66	Pick Up Item (GM Skill)
 67	Arrow Revolver
 68	Super Windmill (GM Skill)
 69	자폭
@@ -2423,6 +2423,8 @@
 3832	Yui's Support Defense
 3833	Yui is protecting you. Take courage and step forward.
 3834	Yui is protecting you. Take courage and step forward.
+3836	다 죽이기 (운영자 스킬)
+3837	혼자 죽기 (운영자 스킬)
 3838	Yui Strike
 3839	Yui's Support Defense
 3840	If you're facing a crisis during battle, get Yui's help to escape danger!
@@ -2862,7 +2864,7 @@
 4377	Max Damage
 4378	Range
 4379	Casting Time
-4380	아이템 집기2 (운영자 스킬)
+4380	Pick Up Item 2 (GM Skill)
 4381	Wand Effectiveness
 4382	Alban Ambush Attack
 4383	Alban Ice Spray
@@ -3101,7 +3103,7 @@
 4646	Vengeful Power
 4647	Corrupted Power
 4648	Farthest Movement
-4649	슈퍼 올가미 (운영자 스킬)
+4649	Power Pull (GM Skill)
 4662	Menagerie creatures love playing happy music! It just so happens that your enemies can't stand the sound of a happy tune. The happier your animal is, the better they play. Keep them happy to really bring it to your enemies!
 4663	Menagerie creatures love playing happy music! It just so happens that your enemies can't stand the sound of a happy tune. The happier your animal is, the better they play. Keep them happy to really bring it to your enemies!
 4664	Keep the Beat
@@ -4420,7 +4422,7 @@
 6499	Next Aiming Speed
 6500	Effect Duration
 6501	Enhanced Taunt
-6502	Flowery\nSweethearts Flight
+6502	Flowery \nSweethearts \nFlight
 6503	A skill born from the heartfelt bond shared with your special someone. A light dusting of magical matchmaking powder is enough to make your body light as air, letting you take to the skies of Erinn and soar wherever your heart desires.\n\nYou can also right-click on others to request that they Fly Together with you. Enjoy the thrill of flight with your sweetheart, or share the benefit with a friend!
 6504	Custom Action
 6505	A custom skill that displays an icon and time gauge bar.
@@ -4456,6 +4458,8 @@
 6535	Sketch
 6536	Sketch animals or ruins on a piece of Sketch Paper, available for purchase in many General Shops
 6537	Sketch animals or ruins on a piece of Sketch Paper, available for purchase in many General Shops
+6538	Frozen Roar
+6539	Abominable Rabbit's roar freezes the very air, inflicting its enemies with severe shivers.
 6540	Shadow Flare
 6541	Thunderblight
 6542	Polar Vortex
