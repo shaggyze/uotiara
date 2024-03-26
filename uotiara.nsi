@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
-!define UOSHORTVERSION        "436"
-!define UOLONGVERSION         "0.51.75"
+!define UOSHORTVERSION        "437"
+!define UOLONGVERSION         "0.52.75"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -11151,6 +11151,9 @@ StrLen $1 $0
 ${If} $1 = 0
 StrCpy $0 "0.0.0.0"
 ${EndIf}
+nsExec::ExecToStack '"ATTRIB" -R $INSTDIR\package\uotiara_00001.it'
+SetFileAttributes "$INSTDIR\package\uotiara_00001.it" NORMAL
+Delete "$INSTDIR\package\uotiara_00001.it"
 MessageBox MB_YESNOCANCEL|MB_ICONQUESTION "New UO Tiara detected V$NEWUOVERSION$\r$\nV$0 currently installed$\r$\nYou are running V${UOVERSION}$\r$\n$\r$\nWould you like to download the latest version?$\r$\n$\r$\nClick Yes to download automatically$\r$\nNo to continue installing$\r$\nCancel to go to site." IDNO EndNewVersion IDCANCEL SetupSite
 inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/releases/latest/download/UO.Tiaras.Moonshine.Mod.V$NEWUOVERSION.exe" "$INSTDIR\Archived\UOTiara\UOSetup1.exe" /end
 IfFileExists "$INSTDIR\Archived\UOTiara\UOSetup1.exe" SetupFound SetupNotFound
@@ -11191,6 +11194,8 @@ ${If} $1 = 0
 StrCpy $0 "0.0.0.0"
 ${EndIf}
 IntOp $1 $NEWMABIVERSION - 382
+nsExec::ExecToStack '"ATTRIB" -R $INSTDIR\package\uotiara_00001.it'
+SetFileAttributes "$INSTDIR\package\uotiara_00001.it" NORMAL
 Delete "$INSTDIR\package\uotiara_00001.it"
 MessageBox MB_YESNOCANCEL|MB_ICONEXCLAMATION "A newer Mabinogi version is detected V$NEWMABIVERSION($1)$\r$\nPlease wait until UO Tiara has been updated$\r$\nV$0 currently installed$\r$\nYou are running V${UOVERSION}$\r$\n$\r$\nWould you like to close the installer?$\r$\n$\r$\nClick Yes to close$\r$\nNo to continue installing$\r$\nCancel to go to site." IDNO EndNewVersion3 IDCANCEL SetupSite2
 Quit
@@ -11224,6 +11229,8 @@ ${If} $1 = 0
 StrCpy $0 "0.0.0.0"
 ${EndIf}
 IntOp $1 $NEWMABIVERSION - 382
+nsExec::ExecToStack '"ATTRIB" -R $INSTDIR\package\uotiara_00001.it'
+SetFileAttributes "$INSTDIR\package\uotiara_00001.it" NORMAL
 Delete "$INSTDIR\package\uotiara_00001.it"
 MessageBox MB_YESNOCANCEL|MB_ICONEXCLAMATION "A newer Mabinogi version is detected V$NEWMABIVERSION($1)$\r$\nPlease wait until UO Tiara has been updated$\r$\nV$0 currently installed$\r$\nYou are running V${UOVERSION}$\r$\n$\r$\nWould you like to close the installer?$\r$\n$\r$\nClick Yes to close$\r$\nNo to continue installing$\r$\nCancel to go to site." IDNO EndNewVersion3 IDCANCEL SetupSite3
 Quit
