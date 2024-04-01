@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
-!define UOSHORTVERSION        "437"
-!define UOLONGVERSION         "0.52.75"
+!define UOSHORTVERSION        "438"
+!define UOLONGVERSION         "0.53.75"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -12,6 +12,7 @@ RequestExecutionLevel admin
 !define HyddwnEnable "True"
 !define HyddwnUpdateEnable "True"
 !define Lib-LoaderEnable "True"
+!define mabi-pack2ForceInstall "True"
 !define MUI_UI ".\bin\modern.exe"
 
 !addincludedir ".\bin"
@@ -152,8 +153,6 @@ AutoCloseWindow true
 ;ShowInstDetails hide
 SetDateSave on
 ShowInstDetails show
-Var InstMeth
-Var LnchMeth
 ;Var MUI_HWND
 Var Image
 Var FontBMP
@@ -386,12 +385,14 @@ mabi-pack2Found2:
 StrCpy $R7 ".oninstsuccess Execute 1 $INSTDIR\UOTiaraPack.bat"
 Call DumpLog1
 !insertmacro ShellExecWait "" '"$INSTDIR\UOTiaraPack.bat"' '""' "" ${SW_SHOW} $1
-goto end
+goto end2
 mabi-pack2NotFound1:
 MessageBox MB_OK "Please reinstall and select mabi-pack2 to use this option."
 end:
-;remove when patchers are working
-!insertmacro ShellExecWait "" '"$INSTDIR\UOTiaraPack.bat"' '""' "" ${SW_SHOW} $1
+${If} ${mabi-pack2ForceInstall} == "True"
+  !insertmacro ShellExecWait "" '"$INSTDIR\UOTiaraPack.bat"' '""' "" ${SW_SHOW} $1
+${EndIf}
+end2:
 FunctionEnd
 
 
@@ -510,6 +511,7 @@ Delete "$SMPROGRAMS\Unofficial Tiara\Abyss.lnk"
 Delete "$DESKTOP\Abyss.lnk"
 no5:
 !macroend
+
 Section "Hyddwn Launcher" MOD395
 ${If} ${HyddwnEnable} == "True"
   DetailPrint "Copying Hyddwn Logs..."
@@ -790,8 +792,8 @@ no4:
 !macroend
 
 Section "mabi-pack2" MOD434
+  DetailPrint "Installing mabi-pack2..."
 SetOutPath "$INSTDIR\mabi-pack2"
-;WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "State" "1"
 File "${srcdir}\Tiara's Moonshine Mod\Tools\mabi-pack2\mabi-pack2.exe"
 SetOutPath "$INSTDIR\"
 Call UOTiaraPackBuild
@@ -800,12 +802,23 @@ WriteRegStr HKCR "IT.it" "" "IT File"
 WriteRegStr HKCR "IT.it\shell" "" "Open"
 WriteRegStr HKCR "IT.it\shell\Open\command" "" '"$INSTDIR\mabi-pack2\mabi-pack2.exe" "%1"'
 WriteRegStr HKCR "IT.it\DefaultIcon" "" "$INSTDIR\mabi-pack2\mabi-pack2.exe"
+${If} ${mabi-pack2ForceInstall} == "True"
+WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "State" "1"
 SectionIn RO
+${Else}
+SectionIn 1 2 3
+${EndIf}
 SectionEnd
 !macro Remove_${MOD434}
   DetailPrint "*** Removing mabi-pack2..."
+SetOutPath "$INSTDIR\mabi-pack2"
+IfFileExists $INSTDIR\mabi-pack2\mabi-pack2.exe mabi-pack2Found3 mabi-pack2NotFound2
+mabi-pack2Found3:
+MessageBox MB_YESNO "mabi-pack2 is unchecked or your requesting uninstall, it has been found. Would you like to Remove mabi-pack2?" IDNO no2
 Delete "$INSTDIR\mabi-pack2\mabi-pack2.exe"
 RMDir "$INSTDIR\mabi-pack2"
+no2:
+mabi-pack2NotFound2:
 !macroend
 
 Section "Kanan" MOD435
@@ -882,7 +895,6 @@ Delete "$SMPROGRAMS\Unofficial Tiara\Update Kanan.lnk"
 Delete "$DESKTOP\Update Kanan.lnk"
 Delete "$INSTDIR\Kanan\kanan.zip"
 Delete "$INSTDIR\Kanan\Loader.txt.bak"
-
 ${EndIf}
 SectionIn 1 2
 SectionEnd
@@ -10860,31 +10872,7 @@ Push $5
 
     ; check if section has changed
   IntOp $R4 $R3 & 1
-        ;Abyss
-        SectionGetFlags ${MOD432} $4
-        ;Kanan
-        SectionGetFlags ${MOD435} $7
-        ;Hyddwn Launcher
-        SectionGetFlags ${MOD395} $8
-        ;mabi-pack2
-        SectionGetFlags ${MOD434} $9
-
-  		${If} $7 == 1
-		${AndIf} $9 == 1
-			StrCpy $InstMeth 1
-                ${EndIf}
-		${If} $7 == 0
-		${AndIf} $9 == 1
-			StrCpy $InstMeth 2
-                ${EndIf}
-		${If} $7 == 1
-		${AndIf} $9 == 0
-		         StrCpy $InstMeth 3
-		${EndIf}
-		${If} $7 == 0
-		${AndIf} $9 == 0
-		         StrCpy $InstMeth 4
-		${EndIf}
+  
 ${If} $R4 == 1
 	IntOp $R5 $R1 & 1
 	SectionGetText $R0 $R6
@@ -10892,25 +10880,6 @@ ${If} $R4 == 1
 	;messagebox mb_ok "$R0 + $R6"
 	${If} $R5 == 1
 		${Switch} $R0
-		${Case} 0
-                        SectionSetFlags ${SECTION1} 17
-		${Break}
-		${Case} 1
-                ;StrCpy $Abyss 1
-		${Break}
-		${Case} 2
-		        StrCpy $LnchMeth 2
-		${Break}
-		${Case} 3
-		${If} $8 == 0
-			IntOp $8 $8 | ${SF_SELECTED}
-			SectionSetFlags ${MOD395} $8
-			goto startsel
-		${EndIf}
-		${Break}
-		${Case} 4
-			;StrCpy $Kanan 1
-		${Break}
 		${Case} 5
 		        StrCpy $FontBMP "ydygo550.bmp"
 		${IfNot} $R0 == $6
@@ -11008,50 +10977,6 @@ ${If} $R4 == 1
 		${EndSwitch}
 	${Else}
 		${Switch} $R0
-	    ${Case} 0
-                 SectionSetFlags ${SECTION1} 17
-		${Break}
-		${Case} 1
-                 ;StrCpy $Abyss 0
- 		${If} $7 == 0
-		${AndIf} $9 == 0
-			IntOp $9 $9 | ${SF_SELECTED}
-			SectionSetFlags ${MOD434} $9
-			goto startsel
-	 	${EndIf}
-		${Break}
-		${Case} 2
-		        StrCpy $LnchMeth 1
- 		${IfNot} $7 == 1
-		${AndIf} $9 == 0
-		${If} $4 == 0
-		        IntOp $4 $4 | ${SF_SELECTED}
-		        SectionSetFlags ${MOD432} $4
-		        goto startsel
-	 	${EndIf}
-	 	${EndIf}
-		${Break}
-		${Case} 3
-		${IfNot} $9 == 1
-		${AndIf} $7 == 0
-		${If} $4 == 0
-			IntOp $4 $4 | ${SF_SELECTED}
-			SectionSetFlags ${MOD432} $4
-			goto startsel
-	 	${EndIf}
-	 	${EndIf}
-		${Break}
-		${Case} 4
-			;StrCpy $Kanan 0
-		${IfNot} $9 == 1
-		${AndIf} $7 == 0
-		${If} $4 == 0
-			IntOp $4 $4 | ${SF_SELECTED}
-			SectionSetFlags ${MOD432} $4
-			goto startsel
-	 	${EndIf}
-	 	${EndIf}
-		${Break}
 		${Case} 5
 		RMDir /r "$INSTDIR\data\gfx\font"
 		${Break}
@@ -11268,6 +11193,10 @@ Section -FinishComponents
   Call DumpLog
   ;Removes unselected components and writes component status to registry
   !insertmacro SectionList "FinishSection"
+${If} ${mabi-pack2ForceInstall} == "True"
+WriteRegDWORD HKLM "${REG_UNINSTALL}\Components\MOD434" \
+  "Installed" 1
+${EndIf}
   StrCpy $R7 "End -FinishComponents"
   Call DumpLog
 SectionEnd

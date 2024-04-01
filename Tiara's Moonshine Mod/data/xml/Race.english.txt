@@ -9723,6 +9723,7 @@
 12054	Scouting Unit Captain
 12055	Scouting Unit Captain
 12056	Scouting Unit Captain
+12057	미션용 투명 인간
 12061	Nuadha
 12065	Adventurous Elephant Figure
 12066	Marathon Camel Figure

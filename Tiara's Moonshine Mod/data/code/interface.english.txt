@@ -2254,7 +2254,7 @@ pli_giveheartstickerview.3	Send
 pli_giveheartstickerview.4	Cancel
 pli_givehelppointview.1	The message will be deleted after {0} second(s).
 pli_goldtransview.1	Pick Up Gold
-pli_goldtransview.2	Pass On Gold
+pli_goldtransview.2	Trade Gold
 pli_goldtransview.3	Quantity
 pli_goldtransview.4	Confirm
 pli_goldtransview.5	Cancel
@@ -2965,6 +2965,7 @@ pli_interfacemgraction.15	You cannot change channels while using the Auction Hou
 pli_interfacemgraction.16	You cannot move here.
 pli_interfacemgraction.17	If you move to another channel now, you'll lose {0} EXP and {1} Gold.\nTo avoid this loss, wait for {2} before switching channels.
 pli_interfacemgraction.18	If you Rebirth now, you'll lose {0} EXP and {1} Gold.\nTo avoid this loss, wait for {2} before proceeding with Rebirth.
+pli_interfacemgraction.19	피격받았으므로 미니게임을 종료합니다.
 pli_interfacemgrcreate.1	Set {0}
 pli_interfaceskillmgr.0	Switching the current skill hotkey group set to Set #2.
 pli_interfaceskillmgr.1	Switching the current skill hotkey group set to Set #1.
@@ -3416,6 +3417,8 @@ pli_mikugachaponview.6	Spins decreased.
 pli_mikugachaponview.7	Please accumulate more Spins.
 pli_mikugachaponview.8	Not enough Spins.
 pli_mikugachaponview.9	[Penalty: Lose a Spin]\nYou won't get your next spin.
+pli_minigamealwaysmainview.1	1인용
+pli_minigamealwaysmainview.2	다인용
 pli_minigamepartymaketabframe.1	The password must be 8 or less alphabetic characters.
 pli_minigamepartymaketabframe.2	Create Party
 pli_minigamepartymaketabframe.3	Settings
@@ -4321,6 +4324,8 @@ pli_randomtablemainview.5	Available at Grade {0} and above
 pli_randomtablemainview.6	Items
 pli_randomtablemainview.7	Shiny
 pli_randomtablemainview.8	View Synthesis Probability
+pli_randomtableselectview.1	소각 및 모닥불의 정령 보상 아이템 확률
+pli_randomtableselectview.2	에르그 개방 성공률
 pli_rebirthrankupbonusview.1	Click the [Level Up!] button to rebirth your character!\nNot only that, but your character will automatically level up to <color=6>Level {0}</color>!
 pli_recordbookmainview.1	Stickers Acquired: {0}
 pli_recordbookmainview.2	There doesn't seem to be much here yet. Complete the First Memoir first.
@@ -6726,6 +6731,7 @@ pli_windowoptiontabsvideo.20	Video Card
 pli_windowoptiontabsvideo.21	Graphic settings changed.\nRestart the game to apply the change.
 pli_windowoptiontabsvideo.22	You must restart the client to apply.
 pli_windowoptiontabsvideo.23	Adjusts the maximum value to which the camera can zoom-out. Terrain may appear to be rendered abnormally in certain suburban areas.\nIf using a PC with lower hardware specs, set the zoom-out distance smaller to ensure smooth performance.
+pli_windowoptiontabsvideo.24	채팅 폰트 크기를 조절할 수 있습니다.
 pli_windowoptiontabsvideo.25	Windowed Mode
 pli_windowoptiontabsvideo.26	Full Screen
 pli_windowoptiontabsvideo.27	Borderless Full Screen Mode
@@ -7716,6 +7722,8 @@ pli_windowtaskbartrayicon.22	VIP Beauty Shop
 pli_windowtaskbartrayicon.23	MabiNovel
 pli_windowtaskbartrayicon.24	Interaction
 pli_windowtaskbartrayicon.26	View Probability
+pli_windowtaskbartrayicon.27	미니게임
+pli_windowtaskbartrayiconaction.2	다른 미니게임을 진행하고 있습니다.\n종료 후 다시 클릭해주시길 바랍니다.
 pli_windowtaskbartutorialrenewal.1	Click the button to skip this stage.
 pli_windowtaskbartutorialrenewal.2	Do you wish to skip the tutorial for this area?\nThis may reduce your reward.
 pli_windowtitle.1	Show/Hide Secondary Titles

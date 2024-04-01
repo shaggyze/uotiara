@@ -3306,7 +3306,7 @@
 5155	Divine Blast
 5156	Blink
 5157	Nova Obliteration
-5158	Moonlight \nCouples Flight
+5158	Moonlight \nCouple's Flight
 5159	A skill received when you formed a bond with your special sweetie. The magic powder, of unknown origin, will make your body as light as air and let you take to the skies around Erinn. Fly whenever you want!\nYou can also right-click on others and request that they Fly Together with you. Enjoy the skies with a friend or a sweetie under the moonlight!
 5160	Create Lava Decal
 5161	Iron Chain Charge
@@ -4422,7 +4422,7 @@
 6499	Next Aiming Speed
 6500	Effect Duration
 6501	Enhanced Taunt
-6502	Flowery \nSweethearts \nFlight
+6502	Flowery \nCouple's Flight
 6503	A skill born from the heartfelt bond shared with your special someone. A light dusting of magical matchmaking powder is enough to make your body light as air, letting you take to the skies of Erinn and soar wherever your heart desires.\n\nYou can also right-click on others to request that they Fly Together with you. Enjoy the thrill of flight with your sweetheart, or share the benefit with a friend!
 6504	Custom Action
 6505	A custom skill that displays an icon and time gauge bar.
@@ -4521,3 +4521,6 @@
 6605	Fusion Bolt is an advanced technique which combines the powers of two different types of Bolt Magic. In the past, a true fusion could only be produced by two party members casting magic simultaneously. However, after much research, a method was discovered allowing a single person to accomplish the same feat. The simplest method is to start casting Bolt Magic with your currently equipped magic tool, and then to cast a different attribute before preparation is complete. However, skilled mages can begin casting a fusion immediately.
 6606	Learn [Bolt Mastery], then talk to [Stewart] in Dunbarton with the [Skills] keyword.
 6607	Damage
+6661	해커 포즈
+6662	특별한 포즈를 짓게 되는 액션이다. 세련된 모습을 보여주는 포즈를 지어보자.
+6663	특별한 포즈를 짓게 되는 액션이다. 세련된 모습을 보여주는 포즈를 지어보자.
