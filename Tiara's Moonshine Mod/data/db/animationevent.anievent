@@ -2675,35 +2675,40 @@ set("C4_human")
 	
 	"male_royalblacksmith_stand"
 		0:lookat(off)
-		0:hand(both,palm)		
-		0:hideequip(false)	
+		0:hand(left,palm)		
+		0:hand(right,fist)		
+		//0:hideequip(false)	
 			
 	"female_royalblacksmith_stand"
 		0:lookat(off)
-		0:hand(both,palm)		
-		0:hideequip(false)
+		0:hand(left,palm)		
+		0:hand(right,fist)	
+		//0:hideequip(false)
 		
 	"male_royaltailor_stand"
 		0:lookat(off)
-		0:hand(left,palm)		
-		0:hand(right,fist)		
-		0:hideequip(false)	
+		0:hand(right,palm)		
+		0:hand(left,fist)		
+		0:generic ("custom_equip(shield:weapon_c4_drama_pincushion)")	
 			
 	"female_royaltailor_stand"
 		0:lookat(off)
-		0:hand(both,fist)		
-		0:hideequip(false)	
+		0:hand(both,palm)		
+		0:generic ("custom_equip(shield:weapon_c4_drama_pincushion)")	
 		
 	"male_royalenchanter_stand"
 		0:lookat(off)
 		0:hand(both,palm)		
-		0:hideequip(false)	
-			
+		0:generic ("custom_equip(weapon:tool_c4_royalscrollr_ani, tr1b:D4C7BD tr2b:A92929)")	
+		1:effect("pen_magic_A10",0,1)
+
+		
 	"female_royalenchanter_stand"
 		0:lookat(off)
 		0:hand(both,palm)		
-		0:hideequip(false)			
-	
+		0:generic ("custom_equip(shield:tool_c4_royalscrolll_ani, tr1b:D4C7BD tr2b:A92929)")	
+		1:effect("pen_magic_A10",0,1)
+		
 	"human_Halloween2023Desk_Sit"
 		
 		0:lookat(off)
@@ -8131,9 +8136,12 @@ set("tool_Bhand_G")
 			0:hand(both,fist)
 			0:lookat(off)	
 			0:generic ("custom_equip(shield:weapon_c4_arrow_dummy)") //화살 슬롯에 투명메시적용//
-			//0:effect("crayon01",0,1)
-			//80:effect("crayon02",0,1)
+			//20:effect("crayon01",0,1)
+			//30:effect("crayon04",0,1)			
+			//77:effect("crayon02",0,1)
+			//100:effect("crayon03",0,1)				
 			//81:effectoff("crayon01")
+            //81:effectoff("crayon04")
 			95:hand(right, palm)	
 			440:hand(right, fist)	
 			440:jump(10)			
@@ -14805,37 +14813,40 @@ set("C4_giant")
 	
 	"giant_royalblacksmith_stand"
 		0:lookat(off)
-		0:hand(both,palm)		
-		0:hideequip(false)	
+		0:hand(left,palm)		
+		0:hand(right,fist)		
+		//0:hideequip(false)	
 			
 	"giant_female_royalblacksmith_stand"
 		0:lookat(off)
-		0:hand(both,palm)		
-		0:hideequip(false)
+		0:hand(left,palm)		
+		0:hand(right,fist)		
+		//0:hideequip(false)
 
 	"giant_royaltailor_stand"
 		0:lookat(off)
-		0:hand(left,palm)		
-		0:hand(right,fist)		
-		0:hideequip(false)	
+		0:hand(right,palm)		
+		0:hand(left,fist)		
+		0:generic ("custom_equip(shield:giant_weapon_c4_drama_pincushion)")
 			
 	"giant_female_royaltailor_stand"
 		0:lookat(off)
-		0:hand(both,fist)		
-		0:hideequip(false)	
+		0:hand(both,palm)		
+		0:generic ("custom_equip(shield:giant_weapon_c4_drama_pincushion)")
 		
 	"giant_royalenchanter_stand"
 		0:lookat(off)
 		0:hand(right,palm)		
-		0:hand(left,fist)		
-		0:hideequip(false)	
-			
+		0:hand(left,fist)			
+		0:generic ("custom_equip(weapon:giant_tool_c4_royalscrollr_ani, tr1b:D4C7BD tr2b:A92929)")
+		1:effect("pen_magic_A10",0,1)
+		
 	"giant_female_royalenchanter_stand"
 		0:lookat(off)
 		0:hand(both,palm)		
-		0:hideequip(false)		
-
-				
+		0:generic ("custom_equip(shield:giant_tool_c4_royalscrolll_ani, tr1b:D4C7BD tr2b:A92929)")	
+		1:effect("pen_magic_A10",0,1)
+		
 	"giant_bluedragon_cintamanichair01_sit"
 		0:lookat(off)
 		0:hand(both,palm)	
@@ -30250,10 +30261,9 @@ set("social motion")
 		0:lookat(off)
 		0:hideequip(false)
 		0:hand(both, palm)
-		65:generic("custom_equip(weapon:human_afternoontea_ani)")
+		65:generic("custom_mesh(1:human_afternoontea_ani)")
 		783:jump(158)
-	
-	
+		
 	"female_2023dessert"
 		0:lookat(off)
 		0:hideequip(false)
@@ -32409,43 +32419,43 @@ set("social motion")
 
 		"human_natural_gesture_s9_04"
 			0:lookat(off)
-			0:hideequip(false)	
+			0:hideequip(true)	
 			0:hand(both, palm)
-			197:linkframework(1, "race:240303, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolR", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
-			216:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolL", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
-			262:linkframework(3, "race:240302, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolR", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
+			197:linkframework(1, "race:240303, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0111", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
+			216:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0112", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
+			262:linkframework(3, "race:240302, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0113", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
 			267:linkframework(1)
-			267:linkframework(1, "race:240303, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolR", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")
+			267:linkframework(1, "race:240303, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0111", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")
 			286:linkframework(2)
-			286:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolL", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")
-			300:linkframework(4, "race:240305, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolL", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
+			286:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0112", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")
+			300:linkframework(4, "race:240305, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0114", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
 			310:linkframework(3)
-			310:linkframework(3, "race:240302 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolR", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")				
-			320:linkframework(5, "race:240306, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "Arm2toolL", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
+			310:linkframework(3, "race:240302 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0113", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")				
+			320:linkframework(5, "race:240306, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0115", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
 			370:linkframework(4)
-			370:linkframework(4, "race:240305 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolL", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")			
+			370:linkframework(4, "race:240305 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0114", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")			
 			390:linkframework(5)
-			390:linkframework(5, "race:240306 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "Arm2toolL", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")
+			390:linkframework(5, "race:240306 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0115", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")
 			650:linkframework(5)
-			650:linkframework(5, "race:240306 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "Arm2toolL", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
+			650:linkframework(5, "race:240306 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0115", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
 			655:linkframework(2)
-			655:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolL", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
+			655:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0112", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
 			657:linkframework(1)
-			657:linkframework(1, "race:240303 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolR", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
+			657:linkframework(1, "race:240303 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0111", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
 			657:linkframework(3)
-			657:linkframework(3, "race:240302 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolR", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
+			657:linkframework(3, "race:240302 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0113", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
 			660:linkframework(4)
-			660:linkframework(4, "race:240305 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolL", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")			
+			660:linkframework(4, "race:240305 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0114", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")			
 			700:linkframework(5)
-			700:linkframework(5, "race:240306 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "Arm2toolL", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
+			700:linkframework(5, "race:240306 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0115", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
 			705:linkframework(2)
-			705:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolL", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
+			705:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0112", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
 			707:linkframework(1)
-			707:linkframework(1, "race:240303 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolR", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
+			707:linkframework(1, "race:240303 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0111", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
 			707:linkframework(3)
-			707:linkframework(3, "race:240302 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolR", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
+			707:linkframework(3, "race:240302 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0113", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
 			710:linkframework(4)
-			710:linkframework(4, "race:240305 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolL", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
+			710:linkframework(4, "race:240305 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0114", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
 			731:linkframework(5)
 			736:linkframework(2)
 			738:linkframework(1)
@@ -36515,7 +36525,7 @@ set("social motion")
 	"male_dragongod"
 		0:lookat(off)
 		0:hand(both, palm)
-		0:hideequip(false)	
+		1:hideequip(false)	
 		279:effect("dragongod_R",0,1)	
 		380:effect("dragongod_L",0,1)
 		367:hand(right, palm)
@@ -36525,7 +36535,7 @@ set("social motion")
 	"female_dragongod"
 		0:lookat(off)
 		0:hand(both, palm)
-		0:hideequip(false)	
+		1:hideequip(false)	
 		279:effect("dragongod_L",0,1)	
 		380:effect("dragongod_R",0,1)
 		357:hand(right, fist)
@@ -37008,7 +37018,8 @@ set("social motion")
 		0:hand(both, palm)
 		190:effect("20th",0,1)
 		1046:jump(285,true)
-///크레용
+		1046:jump(285,true)
+	///크레용
 
 	"female_crayon"
 		0:lookat(off)
@@ -37027,6 +37038,26 @@ set("social motion")
 		121:generic ("custom_equip(shield:tool_sketchbook_ani)")
 		132:generic ("custom_equip(weapon:tool_c4_crayon_ani)")
 		750:jump(310,true)
+		
+		
+	//샤인스테이지 의상모션///
+	"female_shinestage"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:effect("ShineStageS2_01",0,1)		
+		270:effect("ShineStageS2_heart01",0,1)
+		115:hand(both, fist)
+		206:hand(both, palm)
+		258:hand(both, fist)
+		271:hand(both, palm)
+		446:jump(0,true)	
+
+	"male_shinestage"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:effect("ShineStageS2_01",0,1)	
+		220:effect("ShineStageS2_heart02",0,1)		
+        500:jump(0,true)
 		
 	///세일러 수영복의상
 	
@@ -54785,6 +54816,189 @@ set("phoenix")
 		
 			
     endfolder
+	
+	
+	
+	
+///////////////////////////////// C4_pet_바르그  ////////////////////////////////////	
+
+
+
+		folder("char\chapter4\pet\anim\vargr")
+		
+		
+		
+		"pet_vargr_gleipnir"
+			0:lookat(off)
+			0:generic ("custom_mesh(0)")
+			3:effect("vargr_Gleipnir_summon01",0,1)
+			17:effect("vargr_Gleipnir_summon02",0,1)			
+			
+		"pet_vargr_stand"
+			0:lookat(off)
+			0:generic ("custom_mesh(0)")
+
+
+	
+        "pet_vargr_offensive"
+			0:lookat(off)   
+			0:generic ("custom_mesh(0)")
+
+	      
+		  
+		"pet_vargr_run"
+			0:lookat(off)
+			0:generic ("custom_mesh(0)")
+			0:sound("data\sound\footstep\rock_run01.wav")
+			10:sound("data\sound\footstep\rock_run01.wav")
+			20:sound("data\sound\footstep\rock_run01.wav")
+
+			
+		"pet_vargr_booster"
+			0:lookat(off)   
+			0:generic ("custom_mesh(0)")
+			0:sound("data\sound\footstep\rock_run01.wav")
+			3:sound("data\sound\footstep\rock_run01.wav")
+			7:sound("data\sound\footstep\rock_run01.wav")
+			1:effect("vargr_dash_boost01",0,1)
+		
+		"pet_vargr_walk"
+			0:lookat(off)   
+			0:generic ("custom_mesh(0)")
+			0:sound("data\sound\footstep\rock_run01.wav")
+			8:sound("data\sound\footstep\rock_run01.wav")
+			16:sound("data\sound\footstep\rock_run01.wav")
+
+		
+			
+        "pet_vargr_attack"
+			0:lookat(off)
+			0:generic ("custom_mesh(0)")
+			12:hit(down,normal)
+	
+	
+        "pet_vargr_smash"
+			0:lookat(off)
+			0:generic ("custom_mesh(0)")
+			32:hit(up,spin)	
+	
+ 
+		"pet_vargr_counter"
+			0:lookat(off)
+			0:generic ("custom_mesh(0)")	
+			17:hit(down,normal)	
+				
+				
+		"pet_vargr_down"
+			0:lookat(off)
+			0:generic ("custom_mesh(0)")			
+
+			
+		"pet_vargr_down_to_stand"
+			0:lookat(off)
+			0:generic ("custom_mesh(0)")
+			
+			
+		"pet_vargr_groggy"
+			0:lookat(off)
+			0:generic ("custom_mesh(0)")
+			
+			
+		"pet_vargr_HitA"
+			0:lookat(off)
+			0:generic ("custom_mesh(0)")
+		
+				
+		"pet_vargr_HitB"
+			0:lookat(off)
+			0:generic ("custom_mesh(0)")
+
+		
+		"pet_vargr_HitBlowAwayBackward"
+			0:lookat(off)
+			0:generic ("custom_mesh(0)")
+
+				
+		"pet_vargr_HitBlowAwayForward"
+			0:lookat(off)
+			0:generic ("custom_mesh(0)")
+
+			
+		"pet_vargr_HitBlowAwayBound"
+			0:lookat(off)
+			0:generic ("custom_mesh(0)")
+			0:sound("data\sound\munchkincat\munchkin_hit_2.wav")
+		
+		
+		"pet_vargr_HitBlowAwaySpin"
+			0:lookat(off)
+			0:generic ("custom_mesh(0)")
+			0:sound("data\sound\munchkincat\munchkin_hit_1.wav")
+
+			
+		"pet_vargr_HitEndurance"
+			0:lookat(off)
+			0:generic ("custom_mesh(0)")
+
+			
+		"pet_vargr_riding_dashattack" //랜스차지
+			0:lookat(off)
+			0:generic ("custom_mesh(0)")	
+			0:effect("human_dash1_hit01")
+			1:effect("vargr_dash_boost01",0,1)		
+
+		"pet_vargr_riding_dashrun"
+			0:lookat(off)
+			0:generic ("custom_mesh(0)")
+			0:sound("data\sound\footstep\rock_run01.wav")
+			10:sound("data\sound\footstep\rock_run01.wav")
+			20:sound("data\sound\footstep\rock_run01.wav")			
+
+					
+			
+		"pet_vargr_windclaw" 
+			0:lookat(off)
+			0:generic ("custom_mesh(0)")	
+			35:effect("vargr_WindClaw_wind01",0,1)
+
+		"pet_vargr_moonhowling" 
+			0:lookat(off)
+			0:generic ("custom_mesh(0)")	
+			5:effect("vargr_Moonhowling_wave01",0,1)		
+
+		"pet_vargr_stand_to_sit"
+		    0:lookat(off)
+			0:generic ("custom_mesh(0)")			
+			
+		"pet_vargr_sit"
+		    0:lookat(off)
+			0:generic ("custom_mesh(0)")			
+			
+		"pet_vargr_sit_to_stand"
+		    0:lookat(off)
+			0:generic ("custom_mesh(0)")			
+
+	
+		"pet_vargr_lovely_start"
+		    0:lookat(off)
+			0:generic ("custom_mesh(0)")
+
+		
+		"pet_vargr_lovely"
+		    0:lookat(off)
+			0:generic ("custom_mesh(0)")			
+
+			
+			
+		"pet_vargr_lovely_end"
+		    0:lookat(off)
+			0:generic ("custom_mesh(0)")
+			
+		
+			
+    endfolder
+
+	
 	
 	
 
@@ -79058,6 +79272,7 @@ endset
 set("elf_Bhand_M10")
 
 	folder("char\chapter4\elf\anim\tool\Bhand_M")
+	
 
 	"elf_tool_Bhand_M10_walk_friendly"
 		0:hand(both, fist)
@@ -81500,6 +81715,11 @@ set("bard")
 
 	folder("char\chapter4\human\anim\tool\Bhand_M")
 	
+	
+	"human_tool_bhand_m01_ukulele_stand"
+		0:hand(both, palm)		
+		0:lookat(off) 
+	
 
 
 	"human_mp_popularmusic_piano_success"
@@ -82404,6 +82624,18 @@ endset
 set("giant Bhand_M")
 
 	folder("char\chapter4\giant\anim\tool\Bhand_M")
+	
+	
+	"giant_tool_bhand_m01_ukulele_stand"	
+		0:lookat(off)
+		0:hand(both, palm)
+	
+	
+	"giant_female_tool_bhand_m01_ukulele_stand"
+		0:lookat(off)
+		0:hand(both, palm)
+
+	
 	
 	"giant_tool_bhand_m17_bigharp_sit"
 		0:hideequip(false)	
@@ -84070,18 +84302,22 @@ set("giant")
 			
 		"giant_female_devilchair_sit"
 			0:lookat(off)
+			0:hideequip(true)
 			0:hand (both, palm)
 			
 		"giant_devilchair_sit"
-			0:lookat(off)			
+			0:lookat(off)	
+			0:hideequip(true)
 			0:hand (both,palm)
 			
 		"giant_female_devilchair02_sit"
 			0:lookat(off)
+			0:hideequip(true)	
 			0:hand (both, palm)
 			
 		"giant_devilchair02_sit"
-			0:lookat(off)			
+			0:lookat(off)	
+			0:hideequip(true)			
 			0:hand (both,palm)			
 	
 		"giant_death_escape"
@@ -94225,7 +94461,7 @@ set("social motion")
 		0:lookat(off)
 		0:hideequip(false)
 		0:hand(both, palm)
-		65:generic("custom_equip(weapon:giant_afternoontea_ani)")
+		65:generic("custom_mesh(1:giant_afternoontea_ani)")
 		783:jump(158)
 		
 	"giant_female_2023dessert"
@@ -94234,7 +94470,7 @@ set("social motion")
 		0:hand(both, palm)
 		45:hand(right,fist)
 		60:hand(right,palm)
-		61:generic("custom_equip(weapon:giant_tool_c4_sweeticecream_01_ani)")
+		62:generic("custom_equip(weapon:giant_tool_c4_sweeticecream_01_ani)")
 		80:hand(right,fist)
 		826:jump(167)
 
@@ -96910,49 +97146,48 @@ set("social motion")
 
 		"giant_natural_gesture_s9_04"
 			0:lookat(off)
-			0:hideequip(false)	
+			0:hideequip(true)	
 			0:hand(both, palm)
-			197:linkframework(1, "race:240303, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolR", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
-			216:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolL", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
-			262:linkframework(3, "race:240302, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolR", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
+			197:linkframework(1, "race:240303, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0111", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
+			216:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0112", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
+			262:linkframework(3, "race:240302, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0113", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
 			267:linkframework(1)
-			267:linkframework(1, "race:240303, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolR", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")
+			267:linkframework(1, "race:240303, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0111", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")
 			286:linkframework(2)
-			286:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolL", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")
-			300:linkframework(4, "race:240305, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolL", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
+			286:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0112", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")
+			300:linkframework(4, "race:240305, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0114", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
 			310:linkframework(3)
-			310:linkframework(3, "race:240302 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolR", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")				
-			320:linkframework(5, "race:240306, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "Arm2toolL", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
+			310:linkframework(3, "race:240302 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0113", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")				
+			320:linkframework(5, "race:240306, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0115", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
 			370:linkframework(4)
-			370:linkframework(4, "race:240305 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolL", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")			
+			370:linkframework(4, "race:240305 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0114", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")			
 			390:linkframework(5)
-			390:linkframework(5, "race:240306 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "Arm2toolL", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")
+			390:linkframework(5, "race:240306 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0115", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")
 			650:linkframework(5)
-			650:linkframework(5, "race:240306 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "Arm2toolL", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
+			650:linkframework(5, "race:240306 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0115", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
 			655:linkframework(2)
-			655:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolL", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
+			655:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0112", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
 			657:linkframework(1)
-			657:linkframework(1, "race:240303 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolR", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
+			657:linkframework(1, "race:240303 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0111", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
 			657:linkframework(3)
-			657:linkframework(3, "race:240302 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolR", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
+			657:linkframework(3, "race:240302 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0113", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
 			660:linkframework(4)
-			660:linkframework(4, "race:240305 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolL", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")			
+			660:linkframework(4, "race:240305 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0114", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")			
 			700:linkframework(5)
-			700:linkframework(5, "race:240306 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "Arm2toolL", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
+			700:linkframework(5, "race:240306 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0115", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
 			705:linkframework(2)
-			705:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolL", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
+			705:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0112", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
 			707:linkframework(1)
-			707:linkframework(1, "race:240303 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolR", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
+			707:linkframework(1, "race:240303 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0111", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
 			707:linkframework(3)
-			707:linkframework(3, "race:240302 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolR", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
+			707:linkframework(3, "race:240302 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0113", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
 			710:linkframework(4)
-			710:linkframework(4, "race:240305 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolL", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
+			710:linkframework(4, "race:240305 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0114", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
 			731:linkframework(5)
 			736:linkframework(2)
 			738:linkframework(1)
 			738:linkframework(3)
 			741:linkframework(4)			 
-			900:jump(0)
 			
 		"giant_natural_gesture_s9_05"
 			0:lookat(off)
@@ -96997,49 +97232,49 @@ set("social motion")
 
 		"giant_female_natural_gesture_s9_04"
 			0:lookat(off)
-			0:hideequip(false)	
+			0:hideequip(true)	
 			0:hand(both, palm)
-			197:linkframework(1, "race:240303, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolR", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
-			216:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolL", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
-			262:linkframework(3, "race:240302, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolR", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
+			197:linkframework(1, "race:240303, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0111", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
+			216:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0112", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
+			262:linkframework(3, "race:240302, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0113", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
 			267:linkframework(1)
-			267:linkframework(1, "race:240303, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolR", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")
+			267:linkframework(1, "race:240303, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0111", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")
 			286:linkframework(2)
-			286:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolL", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")
-			300:linkframework(4, "race:240305, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolL", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
+			286:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0112", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")
+			300:linkframework(4, "race:240305, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0114", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
 			310:linkframework(3)
-			310:linkframework(3, "race:240302 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolR", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")				
-			320:linkframework(5, "race:240306, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "Arm2toolL", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
+			310:linkframework(3, "race:240302 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0113", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")				
+			320:linkframework(5, "race:240306, c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0115", "data/gfx/char/pet/anim/bird/pet_bird_natural_stand_to_sit_01")
 			370:linkframework(4)
-			370:linkframework(4, "race:240305 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolL", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")			
+			370:linkframework(4, "race:240305 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0114", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")			
 			390:linkframework(5)
-			390:linkframework(5, "race:240306 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "Arm2toolL", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")
+			390:linkframework(5, "race:240306 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0115", "data\gfx\char\pet\anim\bird\pet_bird_natural_feed")
 			650:linkframework(5)
-			650:linkframework(5, "race:240306 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "Arm2toolL", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
+			650:linkframework(5, "race:240306 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0115", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
 			655:linkframework(2)
-			655:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolL", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
+			655:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0112", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
 			657:linkframework(1)
-			657:linkframework(1, "race:240303 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolR", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
+			657:linkframework(1, "race:240303 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0111", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
 			657:linkframework(3)
-			657:linkframework(3, "race:240302 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolR", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
+			657:linkframework(3, "race:240302 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0113", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")
 			660:linkframework(4)
-			660:linkframework(4, "race:240305 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolL", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")			
+			660:linkframework(4, "race:240305 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0114", "data\gfx\char\pet/anim/bird/pet_bird_natural_sit_01_to_stand")			
 			700:linkframework(5)
-			700:linkframework(5, "race:240306 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "Arm2toolL", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
+			700:linkframework(5, "race:240306 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0115", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
 			705:linkframework(2)
-			705:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolL", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
+			705:linkframework(2, "race:240304 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0112", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
 			707:linkframework(1)
-			707:linkframework(1, "race:240303 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolR", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
+			707:linkframework(1, "race:240303 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0111", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
 			707:linkframework(3)
-			707:linkframework(3, "race:240302 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "HandtoolR", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
+			707:linkframework(3, "race:240302 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0113", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
 			710:linkframework(4)
-			710:linkframework(4, "race:240305 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "BodytoolL", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
+			710:linkframework(4, "race:240305 , c1:808080 c2:FFFFFF c3:C87B4E c4:080808 c5:080808", "I0114", "data\gfx\char\pet/anim/bird/pet_bird_natural_stand_friendly")
 			731:linkframework(5)
 			736:linkframework(2)
 			738:linkframework(1)
 			738:linkframework(3)
 			741:linkframework(4)
-			900:jump(0)			
+		
 		
 		"giant_female_natural_gesture_s9_05"
 			0:lookat(off)
@@ -101768,7 +102003,7 @@ set("social motion")
 	"giant_female_dragongod"
 		0:lookat(off)
 		0:hand(both, palm)
-		0:hideequip(false)	
+		1:hideequip(false)	
 		279:effect("dragongod_L",0,1)	
 		380:effect("dragongod_R",0,1)
 		357:hand(right, fist)
@@ -101777,7 +102012,7 @@ set("social motion")
 	"giant_dragongod"
 		0:lookat(off)
 		0:hand(both, palm)
-		0:hideequip(false)	
+		1:hideequip(false)	
 		279:effect("dragongod_R",0,1)	
 		380:effect("dragongod_L",0,1)
  		367:hand(right, palm)
@@ -102259,6 +102494,25 @@ set("social motion")
 		190:effect("20th",0,1)
 		1046:jump(285,true)		
 		
+		
+//샤인스테이지 의상모션///
+	"giant_female_shinestage"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:effect("ShineStageS2_g_01",0,1)			
+        270:effect("ShineStageS2_heart_g_01",0,1)			
+		115:hand(both, fist)
+		206:hand(both, palm)
+		258:hand(both, fist)
+		271:hand(both, palm)
+		500:jump(0,true)
+
+	"giant_shinestage"
+		0:lookat(off)
+		0:hand(both, palm)
+		0:effect("ShineStageS2_g_01",0,1)			
+        220:effect("ShineStageS2_heart_g_02",0,1)	
+		446:jump(0,true)
 ///크레용
 
 
@@ -118709,10 +118963,12 @@ set("newcharacter_motion")
 	
 	"female_devilchair_sit"
 		0:lookat(off)
+		0:hideequip(true)
 		0:hand(both, palm)
 	
 	"male_devilchair_sit"
 		0:lookat(off)
+		0:hideequip(true)
 		0:hand(both, palm)
 
 	

@@ -12102,15 +12102,15 @@
 13579	the Pompous
 13580	the Born Artisan
 13581	A 2nd Title that can be obtained by Milletians who completed Fizzy's Request in a flawless fashion. Although the stat bonuses it gives are available only for a limited time, you'll keep the title and can use it even after the stats are gone. (Duration cannot be extended)
-13582	A title given to those who endured the suspense and cleared the Crack the Coded Box in the last turn.
-13583	A title given to the unfortunate ones who came in last place in Crack the Coded Box.\nComing in first is nothing compared to continuing to try in the face of adversity.
-13584	A title given to those who guessed the right answer within three turns in the Crack the Coded Box. If your head gets much bigger, you won't be able to fit through the door.
-13585	A title given to those who won first place among everyone who challenged to Crack the Coded Box.\nRevel in the glory you obtained through fierce competition.
+13582	A title given to those who endured the suspense and cleared the Code Cracker mini-game in the last turn.
+13583	A title given to the unfortunate ones who came in last place in the Code Cracker mini-game.\nComing in first is nothing compared to continuing to try in the face of adversity.
+13584	A title given to those who guessed the right answer within three turns in the Code Cracker mini-game. If your head gets much bigger, you won't be able to fit through the door.
+13585	A title given to those who won first place among everyone who challenged the Code Cracker mini-game.\nRevel in the glory you obtained through fierce competition.
 13586	A 2nd Title that can be obtained by Milletians who completed Fizzy's Request in a flawless fashion. Although the stat bonuses it gives are available only for a limited time, you'll keep the title and can use it even after the stats are gone. (Duration cannot be extended)
-13587	A title given to those who endured the suspense and cleared the Crack the Coded Box in the last turn.
-13588	A title given to the unfortunate ones who came in last place in Crack the Coded Box.\nComing in first is nothing compared to continuing to try in the face of adversity.
-13589	A title given to those who guessed the right answer within three turns in the Crack the Coded Box. If your head gets much bigger, you won't be able to fit through the door.
-13590	A title given to those who won first place among everyone who challenged to Crack the Coded Box.\nRevel in the glory you obtained through fierce competition.
+13587	A title given to those who endured the suspense and cleared the Code Cracker mini-game in the last turn.
+13588	A title given to the unfortunate ones who came in last place in the Code Cracker mini-game.\nComing in first is nothing compared to continuing to try in the face of adversity.
+13589	A title given to those who guessed the right answer within three turns in the Code Cracker mini-game. If your head gets much bigger, you won't be able to fit through the door.
+13590	A title given to those who won first place among everyone who challenged the Code Cracker mini-game.\nRevel in the glory you obtained through fierce competition.
 13591	Max Damage +28\nMagic Attack +44
 13592	Luck +30
 13593	Luck +30
@@ -14538,20 +14538,27 @@
 16197	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 16198	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 16199	채집 확률 10% 증가\n채집 속도 10% 증가\n자동 낚시 성공률 증가\n더 큰 물고기를 낚을 확률 증가\n전투 경험치 10% 증가\n이동 속도 2% 증가
-16291	반짝이는 보석 비
-16292	흐르는 황금 빛 물결
-16293	반짝이는 보석 비
-16294	흐르는 황금 빛 물결
-16295	반짝이는 보석 비
-16296	흐르는 황금 빛 물결
-16297	반짝이는 보석 비
-16298	흐르는 황금 빛 물결
-16299	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16300	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16301	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16302	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16303	행운 30 증가
-16304	행운 30 증가
+16235	개굴개굴
+16236	개굴개굴
+16237	개굴개굴
+16238	개굴개굴
+16239	키워보자 신비한 알! 이벤트에서 개구리를 성체까지 키운 밀레시안에게 주어지는 타이틀.
+16240	키워보자 신비한 알! 이벤트에서 개구리를 성체까지 키운 밀레시안에게 주어지는 타이틀.
+16241	행운 25 증가
+16291	Rain of Jewels
+16292	Shimmering Helix
+16293	Rain of Jewels
+16294	Shimmering Helix
+16295	Rain of Jewels
+16296	Shimmering Helix
+16297	Rain of Jewels
+16298	Shimmering Helix
+16299	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16300	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16301	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16302	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16303	Luck +30
+16304	Luck +30
 16305	2024년 마비노기 스타
 16306	가장 빛나는 마비노기 스타
 16307	반짝이는 마비노기 스타
@@ -14636,6 +14643,20 @@
 16449	Maximum Damage +7\nMagic Attack +7\nDefense +5\nProtection +2\nWill +15\n[Luck -25]
 16450	Luck +30
 16451	Luck +30
+16466	해가 쨍쟁
+16467	알록달록 꽃송이
+16468	해가 쨍쟁
+16469	알록달록 꽃송이
+16470	해가 쨍쟁
+16471	알록달록 꽃송이
+16472	해가 쨍쟁
+16473	알록달록 꽃송이
+16474	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16475	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16476	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16477	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16478	행운 30 증가
+16479	행운 30 증가
 16480	who Stargazed with the GMs
 16481	who Stargazed with the GMs
 16482	who Stargazed with the GMs
@@ -14650,3 +14671,17 @@
 16526	19주년을 축하하는 특별한 날을 함께한 사람에게 주어지는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 16527	19주년을 축하하는 특별한 날을 함께한 사람에게 주어지는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 16528	최대 대미지 19 증가\n마법 공격력 19 증가\n물 / 불 / 바람 / 흙 속성\n연금술 대미지 13 증가\n체력 19 증가\n지력 19 증가\n솜씨 19 증가\n의지 19 증가\n행운 19 증가\n이동 속도 1% 증가
+16536	화사한 봄의 절경
+16537	화사한 봄의 절경
+16538	화사한 봄의 절경
+16539	화사한 봄의 절경
+16540	2024 두근두근 아일랜드 이벤트 진행 시 지급되는 매력적인 2차 타이틀이다.다른 일반 타이틀과 함께 사용할 수 있다.
+16541	2024 두근두근 아일랜드 이벤트 진행 시 지급되는 매력적인 2차 타이틀이다.다른 일반 타이틀과 함께 사용할 수 있다.
+16542	최대 대미지 28 증가\n마법 공격력 44 증가
+16620	따스한 사랑으로 가득한
+16621	따스한 사랑으로 가득한
+16622	따스한 사랑으로 가득한
+16623	따스한 사랑으로 가득한
+16624	다양한 연인들과 인연을 맺고, 따스한 사랑으로 도움을 건넨 밀레시안에게 주어지는 타이틀.
+16625	다양한 연인들과 인연을 맺고, 따스한 사랑으로 도움을 건넨 밀레시안에게 주어지는 타이틀.
+16626	행운 30 증가

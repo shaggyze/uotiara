@@ -256,7 +256,7 @@
 256	Red Kobold Archer
 257	Small Troll
 258	Viewscope
-259	Skeleton HellHound
+259	Skeleton Hellhound
 260	Pirate Red Skeleton
 261	Pirate Red Skeleton
 262	Captain Red Skeleton
@@ -376,7 +376,7 @@
 429	하우징 npc 악사 - 류트 (임시)
 430	하우징 npc 악사 - 피리 (임시)
 431	하우징 npc 악사 - 플룻 (임시)
-432	Lost Sahuagin
+432	Lost Sahagin
 433	Armed Gremlin
 434	Giant Worm
 435	Spiked Worm
@@ -389,7 +389,7 @@
 447	Borzoi
 448	Siberian Husky
 449	Bug Bear
-450	Lost Sahuagin
+450	Lost Sahagin
 451	Red Sickle Laghodessa
 452	Red Spike Laghodessa
 453	Dark Rat Man
@@ -432,7 +432,7 @@
 501	Mimic
 502	Wisp
 503	Flying Sword
-504	Lost Sahuagin
+504	Lost Sahagin
 505	Gorgon
 506	Red Succubus
 507	Black Succubus
@@ -1120,8 +1120,8 @@
 1451	Hobgoblin Exorcist
 1452	Hobgoblin Exorcist
 1453	Hobgoblin Warrior
-1454	_Lost Sahuagin (Passive Explosion)
-1455	_Lost Sahuagin (Active Explosion)
+1454	_Lost Sahagin (Passive Explosion)
+1455	_Lost Sahagin (Active Explosion)
 1456	Nao
 1459	Hobgoblin Grenadier
 1460	Hobgoblin Grenadier
@@ -1180,7 +1180,7 @@
 1525	Red Skeleton
 1526	Banner Imp
 1527	Golem
-1528	Lost Sahuagin
+1528	Lost Sahagin
 1529	Advancement Test Inspector
 1530	Banner Imp
 1531	Banner Imp
@@ -1203,7 +1203,7 @@
 1548	Dark Rat Man
 1549	Dark Rat Man
 1550	Dark Rat Man
-1551	Lost Sahuagin
+1551	Lost Sahagin
 1552	Chon Chon
 1553	Troll
 1554	Ogre Warrior
@@ -1826,7 +1826,7 @@
 2410	Cerberus
 2411	Vegetable
 2413	Shadow Wizard Illusion
-2414	Bone Lance Illusion
+2414	Bone Lancer Illusion
 2415	Small Bone Lancer
 2416	Small Bone Archer
 2417	Small Bone Fighter
@@ -2268,7 +2268,7 @@
 2956	Cloaker
 2957	Giant Sheep Wolf
 2958	Skeleton Armor Ogre
-2959	Skeleton Full Armor Ogre
+2959	Heavily Armored Skeleton Ogre
 2960	Grim Reaper
 2961	로떼 유령
 2962	샤론 유령
@@ -2294,7 +2294,7 @@
 2986	Capulet Family
 2987	Capulet Family
 2988	Capulet Family
-2989	The Nurse
+2989	Nurse
 2991	Bran
 2992	Guard
 2993	Bran
@@ -2523,7 +2523,7 @@
 3261	Bella
 3263	Skeleton Armor Ogre
 3264	Training Basic Dummy
-3265	Skeleton Full Armor Ogre
+3265	Heavily Armored Skeleton Ogre
 3268	Bandit Goblin Final Hit
 3269	Bandit Goblin Arrow Revolver
 3270	Bandit Goblin Mirage Missile
@@ -4380,7 +4380,7 @@
 5733	Gray Prison Zombie
 5734	Black Prison Zombie
 5735	White Prison Zombie
-5736	Heavy Skeleton Armor Ogre
+5736	Heavily Armored Skeleton Ogre
 5737	Red Skeleton
 5738	Metal Skeleton
 5739	Captain Red Skeleton
@@ -4887,7 +4887,7 @@
 6269	Goblin Hunter
 6270	"Stinky" Berkkus
 6271	Ogre Warrior
-6272	Heavy Skeleton Armor Ogre
+6272	Heavily Armored Skeleton Ogre
 6273	Sahagin Soldier
 6274	Cave Sahagin Mage
 6275	Balrog
@@ -5003,16 +5003,16 @@
 6403	Skeleton Squad
 6404	Skeleton Ogre
 6405	Skeleton Armor Ogre
-6406	Heavy Skeleton Armor Ogre
+6406	Heavily Armored Skeleton Ogre
 6407	Skeleton Ghost
 6408	Skeleton Ogre
 6409	Skeleton Armor Ogre
-6410	Heavy Skeleton Armor Ogre
+6410	Heavily Armored Skeleton Ogre
 6411	Bone Drake
 6412	Gilgamesh
 6413	Skeleton Ogre
 6414	Skeleton Armor Ogre
-6415	Heavy Skeleton Armor Ogre
+6415	Heavily Armored Skeleton Ogre
 6416	Skeleton Ghost
 6417	Bone Drake
 6418	The Elder
@@ -5550,7 +5550,7 @@
 7629	Gargoyle Idol
 7630	Gargoyle Idol Plinth
 7631	Black Armored Skeleton
-7632	Black Heavy Skeleton Armor Ogre
+7632	Black Heavily Armored Skeleton Ogre
 7633	Crimson Laghodessa
 7634	Black Skeleton Wolf
 7635	Crimson Giant Firefly
@@ -5865,7 +5865,7 @@
 7950	Gargoyle Idol
 7951	Gargoyle Idol Plinth
 7952	Black Armored Skeleton
-7953	Black Heavy Skeleton Armor Ogre
+7953	Black Heavily Armored Skeleton Ogre
 7954	Crimson Laghodessa
 7955	Black Skeleton Wolf
 7956	Crimson Giant Firefly
@@ -7021,7 +7021,7 @@
 9184	Bard Skeleton
 9185	Crew Skeleton
 9186	Spearman Skeleton
-9187	Archer Skeleton
+9187	Bone Archer
 9188	Skeleton Ogre
 9189	Unstable Sahagin
 9190	The Invisible One
@@ -8483,7 +8483,7 @@
 10674	Armored Skeleton
 10675	Skeleton Ogre
 10676	Skeleton Armor Ogre
-10677	Heavy Skeleton Armor Ogre
+10677	Heavily Armored Skeleton Ogre
 10678	Skeleton Squad
 10679	Red Skeleton
 10680	Red Skeleton
@@ -8978,11 +8978,11 @@
 11185	Salamander
 11186	Ifrit
 11187	Bone Lancer
-11188	Archer Skeleton
+11188	Bone Archer
 11189	Bone Fighter
 11190	Skeleton Laghodessa
 11191	Skeleton Armor Ogre
-11192	Heavy Skeleton Armor Ogre
+11192	Heavily Armored Skeleton Ogre
 11193	Claimh Solas
 11194	Dullahan
 11195	Hell Steed
@@ -9723,7 +9723,7 @@
 12054	Scouting Unit Captain
 12055	Scouting Unit Captain
 12056	Scouting Unit Captain
-12057	미션용 투명 인간
+12057	Mission Invisible Man
 12061	Nuadha
 12065	Adventurous Elephant Figure
 12066	Marathon Camel Figure
@@ -9742,6 +9742,26 @@
 12337	Tagar
 12338	Creag
 12339	Creag
+12348	장미 한 송이
 12349	미니 모험가 코끼리
 12352	Tagar
 12353	Tagar
+12354	어둠의 로나운
+12355	어둠의 카리
+12356	어둠의 인스가독
+12357	어둠의 그와스고프
+12358	어둠의 위니
+12359	어둠의 추종자
+12360	어둠의 추종자
+12361	어둠의 추종자
+12380	레드 리저드 위치
+12381	일루전 좀비
+12382	일루전 좀비
+12383	검은 달의 교단원
+12384	일루전 좀비
+12388	라이트닝 슬라임
+12389	라이트닝 슬라임
+12390	검은 달의 교단원
+12399	Hasidim
+12431	라이트닝 슬라임
+12432	라이트닝 슬라임

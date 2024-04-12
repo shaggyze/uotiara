@@ -329,6 +329,8 @@ pli_2021winterpreeventmainview.6	Commerce Activity Score: {0}
 pli_2021winterpreeventmainview.7	Commerce Count: {0}
 pli_additionalequipmentpocketview.1	You can use this with a Hotkey! Register it to a Hotkey slot.
 pli_additionalequipmentpocketview.2	The item settings have been applied.
+pli_additionalequipsystemtab.1	Undo
+pli_additionalequipsystemtab.2	Equip This Set
 pli_additionalequipsystemview.1	You need to purchase an Extra Equipment Slot Coupon.
 pli_additionalequipsystemview.2	{0}
 pli_additionalequipsystemview.3	VIP Membership In Effect\n
@@ -1838,6 +1840,11 @@ pli_erinnlandwaitingtableframe.3	sec
 pli_erinnmarbleview.1	You used {1} Dice Points to move {0} spaces.
 pli_erinnmarbleview.2	All that travel wore me out.\nLet's take it easy until tomorrow.
 pli_erinnmarbleview.3	Aww, you don't have enough Dice Points to do that.
+pli_eventdamagochiview.1	{0}.{1}.{2} 부터 {3}.{4}.{5} 까지
+pli_eventdamagochiview.2	오늘 접속 시간
+pli_eventdamagochiview.3	Bonus Reward
+pli_eventdamagochiview.4	개구리 코인 : {0}
+pli_eventdamagochiview.5	누적 횟수 : {0}
 pli_eventingamepopupview.1	Close
 pli_eventingamepopupview.2	<color=2>지원금 받기</color>
 pli_eventpopupbuttonlistview.1	This event is for Milletians only.
@@ -1988,7 +1995,7 @@ pli_farminformationtab.9	Water
 pli_farminformationtab.10	Fertilize
 pli_farminformationtab.11	Remove Bugs
 pli_farminformationtab.12	Harvest
-pli_farminformationtab.13	Havesting
+pli_farminformationtab.13	Harvesting
 pli_farminformationtab.14	When you've finished harvesting, the lease will expire.\nDo you really wish to harvest?
 pli_farminformationtab.15	The moisture level is sufficient.\nPlease choose a different action.
 pli_farminformationtab.16	The nourishment level is sufficient.\nPlease choose a different action.
@@ -2005,7 +2012,7 @@ pli_farminformationtab.26	Sowing date
 pli_farminformationtab.27	Farm Work Information
 pli_farminformationtab.28	Watered
 pli_farminformationtab.29	Fertilized
-pli_farminformationtab.30	Bugs removed
+pli_farminformationtab.30	Debugged
 pli_farminformationtab.31	{0} Time(s)
 pli_farminformationtab.32	{0} Time(s)
 pli_farminformationtab.33	{0} Time(s)
@@ -2017,8 +2024,8 @@ pli_farminformationtab.38	You successfully planted the seeds.
 pli_farminformationtab.39	Hope you have a great harvest!
 pli_farminformationtab.40	Plant Seeds
 pli_farminformationtab.41	Harvesting
-pli_farminformationtab.42	{0} left until harvest is complete.\nThe Farm Report and harvest will be delivered to you through mail.\nPlease check the mail box after {0}.
-pli_farminformationtab.43	You are currently harvesting {0}.\n{1} left until harvest is complete.\nThe Farm Report and harvest will be delivered to you through mail.\nPlease check the mail box after {1}.
+pli_farminformationtab.42	{0} left until the harvest is complete.\n\nYour Farm Report and harvest will be delivered to you in via the mail, so check any Mailbox after {0}.
+pli_farminformationtab.43	You are currently harvesting {0}.\n{1} left until the harvest is complete.\nYour Farm Report and harvest will be delivered to you in via the mail, so check any Mailbox after {1}.
 pli_farminformationtab.44	You are currently harvesting {0}.
 pli_farminformationview.1	Farm Information
 pli_farminformationview.2	Close
@@ -2498,10 +2505,10 @@ pli_heroandnormaltalentselectview.1	You need {0} Pon to Rebirth your Ace charact
 pli_heroandnormaltalentselectview.2	Purchase Ace Rebirth
 pli_herotalentselectview.1	Only available with an Ace Rebirth.
 pli_herotalentselectview.2	Ace Rebirth
-pli_hitmoleview.1	<Armadillos Spawned>\n
-pli_hitmoleview.2	<Armadillos Caught>\n
-pli_hitmoleview.3	Smack-A-Rat
-pli_hitmoleview.4	Gray Armadillo: {0}\nBlack Armadillo: {1}\nWhite Armadillo: {2}\nBomb Armadillo: {3}\n
+pli_hitmoleview.1	<Mice Popped>\n
+pli_hitmoleview.2	<Mice Bopped>\n
+pli_hitmoleview.3	Mouse Bopper
+pli_hitmoleview.4	Gray Mice: {0}\nBlack Mice: {1}\nRoyal Mice: {2}\nBomb Mice: {3}\n
 pli_hitrepeatedlyview.1	Time Remaining: {0} sec
 pli_houseaddressguideview.0	Area information
 pli_houseaddressguideview.1	Address Guide
@@ -2965,7 +2972,7 @@ pli_interfacemgraction.15	You cannot change channels while using the Auction Hou
 pli_interfacemgraction.16	You cannot move here.
 pli_interfacemgraction.17	If you move to another channel now, you'll lose {0} EXP and {1} Gold.\nTo avoid this loss, wait for {2} before switching channels.
 pli_interfacemgraction.18	If you Rebirth now, you'll lose {0} EXP and {1} Gold.\nTo avoid this loss, wait for {2} before proceeding with Rebirth.
-pli_interfacemgraction.19	피격받았으므로 미니게임을 종료합니다.
+pli_interfacemgraction.19	You are being attacked. Ending the mini-game.
 pli_interfacemgrcreate.1	Set {0}
 pli_interfaceskillmgr.0	Switching the current skill hotkey group set to Set #2.
 pli_interfaceskillmgr.1	Switching the current skill hotkey group set to Set #1.
@@ -3417,8 +3424,8 @@ pli_mikugachaponview.6	Spins decreased.
 pli_mikugachaponview.7	Please accumulate more Spins.
 pli_mikugachaponview.8	Not enough Spins.
 pli_mikugachaponview.9	[Penalty: Lose a Spin]\nYou won't get your next spin.
-pli_minigamealwaysmainview.1	1인용
-pli_minigamealwaysmainview.2	다인용
+pli_minigamealwaysmainview.1	Single-player
+pli_minigamealwaysmainview.2	Multiplayer
 pli_minigamepartymaketabframe.1	The password must be 8 or less alphabetic characters.
 pli_minigamepartymaketabframe.2	Create Party
 pli_minigamepartymaketabframe.3	Settings
@@ -3428,7 +3435,7 @@ pli_minigamepartymaketabframe.6	Memory Match
 pli_minigamepartymaketabframe.7	Set the max members for the party up to {0}.
 pli_minigamepartymaketabframe.8	Mini-game
 pli_minigamepartymaketabframe.9	Mafia
-pli_minigamepartymaketabframe.10	Crack the Coded Box
+pli_minigamepartymaketabframe.10	Code Cracker
 pli_minigamepartysetting.1	Mini-game
 pli_mobileauth.1	Mobile Secret Security
 pli_mobileauth.2	도전코드를 확인하여 결과값을 입력하세요.
@@ -4324,6 +4331,7 @@ pli_randomtablemainview.5	Available at Grade {0} and above
 pli_randomtablemainview.6	Items
 pli_randomtablemainview.7	Shiny
 pli_randomtablemainview.8	View Synthesis Probability
+pli_randomtablemainview.9	<color=2><outlinecolor=3>* 아래 아이템의 경우, 염색 앰플 팔레트에서 표현할 수 있는 색상 범위 내에서\n균등한 확률로 각 파트별 색상이 선택됩니다.</outlinecolor></color>\n\n- 자이언트용 메이드 의상 롱 타입\n- 자이언트용 메이드 의상 쇼트 타입\n- 메이드 의상 쇼트 타입\n- 메이드 의상 롱 타입\n- 집사 의상
 pli_randomtableselectview.1	소각 및 모닥불의 정령 보상 아이템 확률
 pli_randomtableselectview.2	에르그 개방 성공률
 pli_rebirthrankupbonusview.1	Click the [Level Up!] button to rebirth your character!\nNot only that, but your character will automatically level up to <color=6>Level {0}</color>!
@@ -6731,7 +6739,7 @@ pli_windowoptiontabsvideo.20	Video Card
 pli_windowoptiontabsvideo.21	Graphic settings changed.\nRestart the game to apply the change.
 pli_windowoptiontabsvideo.22	You must restart the client to apply.
 pli_windowoptiontabsvideo.23	Adjusts the maximum value to which the camera can zoom-out. Terrain may appear to be rendered abnormally in certain suburban areas.\nIf using a PC with lower hardware specs, set the zoom-out distance smaller to ensure smooth performance.
-pli_windowoptiontabsvideo.24	채팅 폰트 크기를 조절할 수 있습니다.
+pli_windowoptiontabsvideo.24	Adjusts the chatbox font size.
 pli_windowoptiontabsvideo.25	Windowed Mode
 pli_windowoptiontabsvideo.26	Full Screen
 pli_windowoptiontabsvideo.27	Borderless Full Screen Mode
@@ -6741,6 +6749,7 @@ pli_windowoptiontabsvideo.30	Use Interface Display Scaling (Applied after Restar
 pli_windowoptiontabsvideo.31	Scales the size of the game's UI elements in proportion to higher resolutions.\n(For use with operating systems from Windows 10 onward.)
 pli_windowoptiontabsvideo.32	Display scaling can't be applied while in Full Screen mode.
 pli_windowoptiontabsvideo.33	You cannot activate the interface display scaling feature while in Full Screen mode.
+pli_windowoptiontabsvideo.34	Chat Font Size
 pli_windowotpauth.1	Login Authentication\nOTP 인증 로그인
 pli_windowotpauth.2	{0}고객님은 OTP 인증 로그인 서비스를 이용 중입니다.
 pli_windowotpauth.3	마지막으로 접속한 IP는 {0} 입니다.
@@ -7722,8 +7731,8 @@ pli_windowtaskbartrayicon.22	VIP Beauty Shop
 pli_windowtaskbartrayicon.23	MabiNovel
 pli_windowtaskbartrayicon.24	Interaction
 pli_windowtaskbartrayicon.26	View Probability
-pli_windowtaskbartrayicon.27	미니게임
-pli_windowtaskbartrayiconaction.2	다른 미니게임을 진행하고 있습니다.\n종료 후 다시 클릭해주시길 바랍니다.
+pli_windowtaskbartrayicon.27	Mini-games
+pli_windowtaskbartrayiconaction.2	You are in a different mini-game.\nPlease try again after finishing.
 pli_windowtaskbartutorialrenewal.1	Click the button to skip this stage.
 pli_windowtaskbartutorialrenewal.2	Do you wish to skip the tutorial for this area?\nThis may reduce your reward.
 pli_windowtitle.1	Show/Hide Secondary Titles
@@ -7744,6 +7753,9 @@ pli_windowtitle.15	PC방 타이틀 항상 착용
 pli_windowtitle.16	PC방에서 로그인시 자동으로 PC방 전용타이틀로 교체할지를 선택하는 옵션
 pli_windowtitle.17	The effects will soon dissipate
 pli_windowtitle.18	Favorites can be added/removed by right-clicking.
+pli_windowtitle.19	Set Extra Equipment Slot Title
+pli_windowtitle.20	Base Title
+pli_windowtitle.21	Vanity Title
 pli_windowtrade.1	Please make sure before trading any expensive items.
 pli_windowtrade.2	After trading this item, the number of allowable trades will decrease by 1.\nOnce the number of allowable trades reaches 0, you will no longer be able to trade this.\nDo you still wish to trade?
 pli_windowtrade.3	Notice

@@ -4521,6 +4521,37 @@
 6605	Fusion Bolt is an advanced technique which combines the powers of two different types of Bolt Magic. In the past, a true fusion could only be produced by two party members casting magic simultaneously. However, after much research, a method was discovered allowing a single person to accomplish the same feat. The simplest method is to start casting Bolt Magic with your currently equipped magic tool, and then to cast a different attribute before preparation is complete. However, skilled mages can begin casting a fusion immediately.
 6606	Learn [Bolt Mastery], then talk to [Stewart] in Dunbarton with the [Skills] keyword.
 6607	Damage
-6661	해커 포즈
-6662	특별한 포즈를 짓게 되는 액션이다. 세련된 모습을 보여주는 포즈를 지어보자.
-6663	특별한 포즈를 짓게 되는 액션이다. 세련된 모습을 보여주는 포즈를 지어보자.
+6661	I'm In
+6662	An action which allows you to strike a special pose.
+6663	An action which allows you to strike a special pose.
+6670	스핀 대시
+6671	부상률(%)
+6672	가로 범위(cm)
+6673	세로 범위(cm)
+6674	이동 거리(cm)
+6675	이동 시간(ms)
+6676	피격 대상 밀려나는 거리(cm)
+6677	기절 시간(ms)
+6678	대미지 min
+6679	대미지 max
+6695	섬멸의 빛
+6696	파괴의 빛
+6697	대미지 min
+6698	대미지 min
+6699	대미지 max
+6700	대미지 max
+6701	부상률(%)
+6702	부상률(%)
+6703	회전각(라디안)
+6704	공격 방향 개수
+6705	Blow Away 거리(cm)
+6706	Blow Away 거리(cm)
+6707	공격 거리(cm)
+6708	공격 거리(cm)
+6709	공격 폭(cm)
+6710	공격 폭(cm)
+6711	랜덤 방향 여부
+6712	전조 이펙트 안내 시간(ms)
+6713	전조 이펙트 안내 시간(ms)
+6732	모던 낭만 비행
+6733	둘도 없는 인연을 만들고 받은 선물. 몸에 뿌려진 출처를 알 수 없는 마법의 가루는 원할 때 마다 몸 전체에 감돌며 하늘에서의 자유를 느낄 수 있게 해준다. 남의 도움을 받거나 누군가에 의지하는 것이 아니라, 스스로의 의지로 자유롭게 하늘을 누비는 기분을 마음껏 만끽 해보자.\n날고 있는 상태에서 상대방을 우클릭 하면 나타나는 날기 요청 메뉴를 이용하여 상대방이 승낙 하면 함께 나란히 하늘을 날아다닐 수 있다. 보다 로맨틱한 느낌으로 상대방의 손을 잡고 허공으로 이끌 수 있다. 친구, 연인과 함께 자유롭게 날아보자.
