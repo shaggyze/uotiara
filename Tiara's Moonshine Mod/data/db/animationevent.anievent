@@ -2796,13 +2796,13 @@ set("C4_human")
 
 //////자판기 음료수 마시는 모션 6종 ////////		
 
-///기본표정/////
+///자판기프랍///
 	"human_sodamachine_sit01"		
 		0:lookat(off)
 		0:hand(both, palm)
 		0:hideequip(false)	
 		20:generic ("custom_equip(weapon:tool_c4_drink03, tr1b:808080)")		
-		205:generic ("custom_equip(weapon)")
+		520:jump(50)	
 
 ///달콤함/////
 	"human_sodamachine_sit02"		
@@ -6088,8 +6088,64 @@ set("C4_human")
 			0:face(default)
 			0:hand (both,palm)
 			0:effect("fly06_trail",0,1)
+
+//모던낭만비행///
+		"male_couple_flying07_ms_run"
+			0:hideequip(false)						
+			0:lookat(off)
+			0:face(default)
+			0:hand (both,palm)
+
+		"male_couple_flying07_as_run"
+			0:hideequip(false)						
+			0:lookat(off)
+			0:face(default)
+			0:hand (both,palm)			
 		
-				
+		"male_flying07_run_r"
+			0:hideequip(false)						
+			0:lookat(off)
+			0:face(default)
+			0:hand (both,palm)
+			186:hand (left,fist)
+			227:hand (left,palm)
+
+		"male_flying07_run_l"
+			0:hideequip(false)	
+			0:lookat(off)			
+			0:face(default)
+			0:hand (both,palm)
+			184:hand (right,fist)
+			227:hand (right,palm)	
+
+		"female_couple_flying07_ms_run"
+			0:hideequip(false)						
+			0:lookat(off)
+			0:face(default)
+			0:hand (both,palm)
+			
+		"female_couple_flying07_as_run"
+			0:hideequip(false)						
+			0:lookat(off)
+			0:face(default)
+			0:hand (both,palm)			
+
+		"female_flying07_run_l"
+			0:hideequip(false)						
+			0:lookat(off)
+			0:face(default)
+			0:hand (both,palm)
+			88:hand (both,fist)
+			133:hand (both,palm)
+		
+		"female_flying07_run_r"
+			0:hideequip(false)	
+			0:lookat(off)			
+			0:face(default)
+			0:hand (both,palm)				
+
+/////////
+
 	
 		"human_discipledisarm"
 			0:hand(both, palm)		
@@ -8136,12 +8192,12 @@ set("tool_Bhand_G")
 			0:hand(both,fist)
 			0:lookat(off)	
 			0:generic ("custom_equip(shield:weapon_c4_arrow_dummy)") //화살 슬롯에 투명메시적용//
-			//20:effect("crayon01",0,1)
-			//30:effect("crayon04",0,1)			
-			//77:effect("crayon02",0,1)
-			//100:effect("crayon03",0,1)				
-			//81:effectoff("crayon01")
-            //81:effectoff("crayon04")
+			20:effect("crayon01",0,1)
+			30:effect("crayon04",0,1)			
+			77:effect("crayon02",0,1)
+			100:effect("crayon03",0,1)				
+			81:effectoff("crayon01")
+            81:effectoff("crayon04")
 			95:hand(right, palm)	
 			440:hand(right, fist)	
 			440:jump(10)			
@@ -11444,6 +11500,111 @@ set("riding_centa")
     
 endset
 ////////////////////////////////////// 인간 펫 모션   //////////////////////////////////////////
+
+
+set("riding_vargr")
+
+
+	folder("char\chapter4\human\anim\riding\riding_vargr")	
+
+		"uni_vargr_riding_stand"
+			0:lookat(off)
+			0:hand(both, fist)
+
+			
+		"uni_vargr_riding_offensive"
+			0:lookat(off)					
+			0:hand(both, fist)	
+
+			
+		"uni_vargr_riding_walk"
+			0:lookat(off)			
+			0:hand(both, fist)
+			
+				
+		"uni_vargr_riding_run"
+			0:lookat(off)				
+			0:hand(both, fist)
+
+					
+		"uni_vargr_riding_attack"
+			0:lookat(off)			
+			0:hand(both, fist)
+			
+		"uni_vargr_riding_hita"
+			0:lookat(off)
+			0:face(down)
+			0:hand(both, fist)
+			
+			
+		"uni_vargr_riding_hitb"
+			0:lookat(off)
+			0:face(down)	
+			0:hand(both, fist)
+			
+			
+		"uni_vargr_riding_aimingpower"
+			0:lookat(off)			
+			154:jump(134)	
+			
+		"uni_vargr_riding_aimingrange"
+			0:lookat(off)			
+			92:jump(72)				
+		
+		"uni_vargr_riding_aimingsplinter"
+			0:lookat(off)
+			120:jump(75)
+
+		"uni_vargr_riding_dashrun"
+			0:lookat(off)
+			0:sound("data\sound\Glasgavelen_attack1_1.wav")	
+			0:hand(both, fist)
+			
+		"uni_vargr_riding_dashattack"
+			0:lookat(off)
+			0:hit(down,normal)	
+			0:hand(left, fist)
+			0:hand(right, fist)
+			0:sound("data\sound\skill_assault_hit.wav")
+			0:effect("human_dash1_hit01")	
+
+
+		"uni_vargr_riding_shootingpower"
+				0:lookat(off)
+					
+		"uni_vargr_riding_shootingrange"
+				0:lookat(off)
+					
+		"uni_vargr_riding_shootingsplinter"
+				0:lookat(off)
+
+		"uni_vargr_riding_g02_shootingpower"
+				0:lookat(off)
+					
+		"uni_vargr_riding_g02_shootingrange"
+				0:lookat(off)
+					
+		"uni_vargr_riding_g02_shootingsplinter"
+				0:lookat(off)
+	
+		"uni_vargr_riding_g02_aimingpower"
+				0:lookat(off)	
+				98:jump(58)
+			
+		"uni_vargr_riding_g02_aimingrange"
+				0:lookat(off)
+				63:jump(33)	
+		
+		"uni_vargr_riding_g02_aimingsplinter"
+				0:lookat(off)
+				120:jump(65)
+		
+
+	endfolder
+
+endset
+
+
 
 set("riding_Munchkincat")
 
@@ -15008,20 +15169,20 @@ set("C4_giant")
 
 //////자판기 음료수 마시는 모션 6종 ////////		
 
-///기본표정/////
+///자판기프랍 전용///
 	"giant_sodamachine_sit01"		
 		0:lookat(off)
 		0:hand(both, palm)
 		0:hideequip(false)	
 		20:generic ("custom_equip(weapon:giant_tool_c4_drink03, tr1b:808080)")		
-		205:generic ("custom_equip(weapon)")
+		520:jump(50)
 
 	"giant_female_sodamachine_sit01"		
 		0:lookat(off)
 		0:hand(both, palm)
 		0:hideequip(false)	
 		20:generic ("custom_equip(weapon:giant_tool_c4_drink03, tr1b:808080)")		
-		205:generic ("custom_equip(weapon)")
+		520:jump(50)
 
 ///달콤함/////
 	"giant_sodamachine_sit02"		
@@ -18468,6 +18629,10 @@ set("C4_giant")
 			400:hand(right, fist)
 		    0:effect("fly_trail_001_B",0,1)	
 			
+			
+			
+			
+			
 		"giant_female_flying03_run_l"
 			0:hideequip(false)											
 			0:lookat(off)
@@ -18985,6 +19150,10 @@ set("C4_giant")
 			70:face(happy)
             0:effect("fly_trail_001_B",0,1)
 
+
+
+
+
 "giant_flying03_low_run_L"
 			0:hideequip(false)			
 			0:face(love)
@@ -19114,9 +19283,64 @@ set("C4_giant")
 			0:hideequip(false)									
 			0:lookat(off)
 			0:hand (both, palm)				
-	
-	
-	
+
+
+
+//모던낭만비행//
+		"giant_couple_flying07_ms_run"
+			0:hideequip(false)						
+			0:lookat(off)
+			0:face(default)
+			0:hand (both,palm)
+
+		"giant_couple_flying07_as_run"
+			0:hideequip(false)						
+			0:lookat(off)
+			0:face(default)
+			0:hand (both,palm)
+		
+		"giant_flying07_run_r"
+			0:hideequip(false)						
+			0:lookat(off)
+			0:face(default)
+			0:hand (both,palm)
+			186:hand (left,fist)
+			227:hand (left,palm)
+		
+		"giant_flying07_run_l"
+			0:hideequip(false)	
+			0:lookat(off)			
+			0:face(default)
+			0:hand (both,palm)
+			184:hand (right,fist)
+			227:hand (right,palm)	
+
+		"giant_female_couple_flying07_ms_run"
+			0:hideequip(false)						
+			0:lookat(off)
+			0:face(default)
+			0:hand (both,palm)
+
+		"giant_female_couple_flying07_as_run"
+			0:hideequip(false)						
+			0:lookat(off)
+			0:face(default)
+			0:hand (both,palm)
+
+		"giant_female_flying07_run_l"
+			0:hideequip(false)						
+			0:lookat(off)
+			0:face(default)
+			0:hand (both,palm)
+			88:hand (both,fist)
+			133:hand (both,palm)
+		
+		"giant_female_flying07_run_r"
+			0:hideequip(false)	
+			0:lookat(off)			
+			0:face(default)
+			0:hand (both,palm)		
+//////
 	
 	
 	
@@ -23460,6 +23684,70 @@ set("riding_dragon")
 
     
 endset
+
+
+/////////////////////////////////////////////////////////////
+set("riding_vargr")
+
+	
+	folder("char\chapter4\giant\anim\riding\riding_vargr")
+	
+	
+		"giant_vargr_riding_stand"
+				0:lookat(off)
+				0:hand(both, fist)			
+	
+			
+		"giant_vargr_riding_offensive"
+				0:lookat(off)	
+				0:hand(both, fist)			
+			
+		"giant_vargr_riding_run"
+				0:lookat(off)
+				0:hand(both, fist)		
+				
+		"giant_vargr_riding_walk"
+				0:lookat(off)
+				0:hand(both, fist)			
+
+				
+		"giant_vargr_riding_attack"
+				0:lookat(off)	
+				0:hand(both, fist)			
+				
+		"giant_vargr_riding_hita"
+			0:lookat(off)
+			0:face(down)
+			0:hand(both, fist)
+			
+		"giant_vargr_riding_hitb"	
+			0:lookat(off)
+			0:face(down)	
+			0:hand(both, fist)
+		
+
+		"giant_vargr_riding_dashrun"
+			0:lookat(off)
+			0:sound("data\sound\Glasgavelen_attack1_1.wav")	
+			0:hand(both, fist)
+			
+		"giant_vargr_riding_dashattack"
+			0:lookat(off)
+			0:hit(down,normal)	
+			0:hand(left, fist)
+			0:hand(right, fist)
+			0:sound("data\sound\skill_assault_hit.wav")
+			0:effect("human_dash1_hit01")	
+		
+			
+		
+	endfolder
+
+    
+endset
+
+
+
 /////////////////////////////////////////////////////////////
 set("riding_Munchkincat")
 
@@ -27762,6 +28050,7 @@ set("C4_human")
 			
 		"human_elemental_charger_sit"
 			0:lookat(off)		
+			0:hideequip(true)
 			0:eyechange(223, 0)
 			
 		"uni_sleepingbag"
@@ -30893,7 +31182,7 @@ set("social motion")
 			0:lookat(off)
 			0:hand(both,palm)		
 			82:hand(right,fist)
-			82:generic("custom_mesh(0:tool_towell_towel_ani)")
+			82:generic("custom_mesh(0:tool_towel_ani)")
 			237:hand(right,palm)	
 			815:jump(280)	
 	
@@ -37019,6 +37308,24 @@ set("social motion")
 		190:effect("20th",0,1)
 		1046:jump(285,true)
 		1046:jump(285,true)
+		
+	"female_s2marinelook"
+		0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		305:hand(both, fist)
+		508:hand(both, palm)
+		740:jump(0,true)			
+
+	"male_s2marinelook"
+		0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		305:hand(both, fist)
+		508:hand(both, palm)
+		740:jump(0,true)
+
+		
 	///크레용
 
 	"female_crayon"
@@ -37029,7 +37336,12 @@ set("social motion")
 		121:generic ("custom_equip(shield:tool_sketchbook_ani)")
 		125:generic ("custom_equip(weapon:tool_c4_crayon_ani)")
 		750:jump(189,true)
-
+		184:effect("sketchbookCrayon01_1",0,1)
+		299:effect("sketchbookCrayon01_1",0,1)
+		520:effect("sketchbookCrayon01_1",0,1)
+		630:effect("sketchbookCrayon01_1",0,1)
+		749:effect("sketchbookCrayon01_1",0,1)
+		
 	"male_crayon"
 		0:lookat(off)
 		0:hand(both, fist)
@@ -37038,7 +37350,10 @@ set("social motion")
 		121:generic ("custom_equip(shield:tool_sketchbook_ani)")
 		132:generic ("custom_equip(weapon:tool_c4_crayon_ani)")
 		750:jump(310,true)
-		
+		300:effect("sketchbookCrayon01_1",0,1)
+		505:effect("sketchbookCrayon01_1",0,1)
+		633:effect("sketchbookCrayon01_1",0,1)
+		749:effect("sketchbookCrayon01_1",0,1)		
 		
 	//샤인스테이지 의상모션///
 	"female_shinestage"
@@ -54831,46 +55146,54 @@ set("phoenix")
 		"pet_vargr_gleipnir"
 			0:lookat(off)
 			0:generic ("custom_mesh(0)")
-			3:effect("vargr_Gleipnir_summon01",0,1)
-			17:effect("vargr_Gleipnir_summon02",0,1)			
+			3:effect("vargr_Gleipnir_summon01",0,1)		
+			 0:quake(10,20,25,3000)		
+			
 			
 		"pet_vargr_stand"
 			0:lookat(off)
 			0:generic ("custom_mesh(0)")
-
 
 	
         "pet_vargr_offensive"
 			0:lookat(off)   
 			0:generic ("custom_mesh(0)")
 
-	      
 		  
 		"pet_vargr_run"
 			0:lookat(off)
 			0:generic ("custom_mesh(0)")
-			0:sound("data\sound\footstep\rock_run01.wav")
+			7:sound("data\sound\footstep\rock_run01.wav")
 			10:sound("data\sound\footstep\rock_run01.wav")
-			20:sound("data\sound\footstep\rock_run01.wav")
-
+			13:sound("data\sound\footstep\rock_run01.wav")
+            14:sound("data\sound\footstep\rock_run01.wav")
+			23:sound("data\sound\footstep\rock_run01.wav")
+			26:sound("data\sound\footstep\rock_run01.wav")
+			29:sound("data\sound\footstep\rock_run01.wav")
+            30:sound("data\sound\footstep\rock_run01.wav")
 			
 		"pet_vargr_booster"
 			0:lookat(off)   
 			0:generic ("custom_mesh(0)")
-			0:sound("data\sound\footstep\rock_run01.wav")
-			3:sound("data\sound\footstep\rock_run01.wav")
-			7:sound("data\sound\footstep\rock_run01.wav")
 			1:effect("vargr_dash_boost01",0,1)
-		
+			7:sound("data\sound\footstep\rock_run01.wav")
+			10:sound("data\sound\footstep\rock_run01.wav")
+			13:sound("data\sound\footstep\rock_run01.wav")
+            14:sound("data\sound\footstep\rock_run01.wav")
+			23:sound("data\sound\footstep\rock_run01.wav")
+			26:sound("data\sound\footstep\rock_run01.wav")
+			29:sound("data\sound\footstep\rock_run01.wav")
+            30:sound("data\sound\footstep\rock_run01.wav")
+			
 		"pet_vargr_walk"
 			0:lookat(off)   
 			0:generic ("custom_mesh(0)")
 			0:sound("data\sound\footstep\rock_run01.wav")
-			8:sound("data\sound\footstep\rock_run01.wav")
-			16:sound("data\sound\footstep\rock_run01.wav")
-
-		
+			10:sound("data\sound\footstep\rock_run01.wav")
+			22:sound("data\sound\footstep\rock_run01.wav")
+			32:sound("data\sound\footstep\rock_run01.wav")
 			
+					
         "pet_vargr_attack"
 			0:lookat(off)
 			0:generic ("custom_mesh(0)")
@@ -54880,7 +55203,7 @@ set("phoenix")
         "pet_vargr_smash"
 			0:lookat(off)
 			0:generic ("custom_mesh(0)")
-			32:hit(up,spin)	
+			30:hit(up,spin)	
 	
  
 		"pet_vargr_counter"
@@ -54950,21 +55273,24 @@ set("phoenix")
 		"pet_vargr_riding_dashrun"
 			0:lookat(off)
 			0:generic ("custom_mesh(0)")
-			0:sound("data\sound\footstep\rock_run01.wav")
-			10:sound("data\sound\footstep\rock_run01.wav")
-			20:sound("data\sound\footstep\rock_run01.wav")			
-
+			5:sound("data\sound\footstep\rock_run01.wav")
+			6:sound("data\sound\footstep\rock_run01.wav")
+			8:sound("data\sound\footstep\rock_run01.wav")
+            9:sound("data\sound\footstep\rock_run01.wav")
+			15:sound("data\sound\footstep\rock_run01.wav")
+			16:sound("data\sound\footstep\rock_run01.wav")
+			18:sound("data\sound\footstep\rock_run01.wav")
+            19:sound("data\sound\footstep\rock_run01.wav")
 					
 			
 		"pet_vargr_windclaw" 
 			0:lookat(off)
 			0:generic ("custom_mesh(0)")	
-			35:effect("vargr_WindClaw_wind01",0,1)
+			12:effect("vargr_WindClaw_wind01",0,1)
 
 		"pet_vargr_moonhowling" 
 			0:lookat(off)
-			0:generic ("custom_mesh(0)")	
-			5:effect("vargr_Moonhowling_wave01",0,1)		
+			0:generic ("custom_mesh(0)")			
 
 		"pet_vargr_stand_to_sit"
 		    0:lookat(off)
@@ -81719,7 +82045,27 @@ set("bard")
 	"human_tool_bhand_m01_ukulele_stand"
 		0:hand(both, palm)		
 		0:lookat(off) 
-	
+        123:effect("crayonbow_ukulele01",0,1)	
+        154:effect("crayonbow_ukulele01",0,1)	
+        177:effect("crayonbow_ukulele01",0,1)
+        211:effect("crayonbow_ukulele01",0,1)		
+        245:effect("crayonbow_ukulele01",0,1)	
+        269:effect("crayonbow_ukulele01",0,1)	
+        288:effect("crayonbow_ukulele01",0,1)	
+        324:effect("crayonbow_ukulele01",0,1)	
+        355:effect("crayonbow_ukulele01",0,1)
+        381:effect("crayonbow_ukulele01",0,1)	
+        400:effect("crayonbow_ukulele01",0,1)		
+        438:effect("crayonbow_ukulele01",0,1)
+        472:effect("crayonbow_ukulele01",0,1)		
+        496:effect("crayonbow_ukulele01",0,1)		
+        511:effect("crayonbow_ukulele01",0,1)	
+        523:effect("crayonbow_ukulele01",0,1)	
+        552:effect("crayonbow_ukulele01",0,1)		
+        561:effect("crayonbow_ukulele01",0,1)	
+        589:effect("crayonbow_ukulele01",0,1)		
+        611:effect("crayonbow_ukulele01",0,1)			
+        654:effect("crayonbow_ukulele02",0,1)		
 
 
 	"human_mp_popularmusic_piano_success"
@@ -82629,12 +82975,53 @@ set("giant Bhand_M")
 	"giant_tool_bhand_m01_ukulele_stand"	
 		0:lookat(off)
 		0:hand(both, palm)
+        123:effect("crayonbow_ukulele01",0,1)	
+        154:effect("crayonbow_ukulele01",0,1)	
+        177:effect("crayonbow_ukulele01",0,1)
+        211:effect("crayonbow_ukulele01",0,1)		
+        245:effect("crayonbow_ukulele01",0,1)	
+        269:effect("crayonbow_ukulele01",0,1)	
+        288:effect("crayonbow_ukulele01",0,1)	
+        324:effect("crayonbow_ukulele01",0,1)	
+        355:effect("crayonbow_ukulele01",0,1)
+        381:effect("crayonbow_ukulele01",0,1)	
+        400:effect("crayonbow_ukulele01",0,1)		
+        438:effect("crayonbow_ukulele01",0,1)
+        472:effect("crayonbow_ukulele01",0,1)		
+        496:effect("crayonbow_ukulele01",0,1)		
+        511:effect("crayonbow_ukulele01",0,1)	
+        523:effect("crayonbow_ukulele01",0,1)	
+        552:effect("crayonbow_ukulele01",0,1)		
+        561:effect("crayonbow_ukulele01",0,1)	
+        589:effect("crayonbow_ukulele01",0,1)		
+        611:effect("crayonbow_ukulele01",0,1)			
+        654:effect("crayonbow_ukulele02",0,1)	
 	
 	
 	"giant_female_tool_bhand_m01_ukulele_stand"
 		0:lookat(off)
 		0:hand(both, palm)
-
+        123:effect("crayonbow_ukulele01",0,1)	
+        154:effect("crayonbow_ukulele01",0,1)	
+        177:effect("crayonbow_ukulele01",0,1)
+        211:effect("crayonbow_ukulele01",0,1)		
+        245:effect("crayonbow_ukulele01",0,1)	
+        269:effect("crayonbow_ukulele01",0,1)	
+        288:effect("crayonbow_ukulele01",0,1)	
+        324:effect("crayonbow_ukulele01",0,1)	
+        355:effect("crayonbow_ukulele01",0,1)
+        381:effect("crayonbow_ukulele01",0,1)	
+        400:effect("crayonbow_ukulele01",0,1)		
+        438:effect("crayonbow_ukulele01",0,1)
+        472:effect("crayonbow_ukulele01",0,1)		
+        496:effect("crayonbow_ukulele01",0,1)		
+        511:effect("crayonbow_ukulele01",0,1)	
+        523:effect("crayonbow_ukulele01",0,1)	
+        552:effect("crayonbow_ukulele01",0,1)		
+        561:effect("crayonbow_ukulele01",0,1)	
+        589:effect("crayonbow_ukulele01",0,1)		
+        611:effect("crayonbow_ukulele01",0,1)			
+        654:effect("crayonbow_ukulele02",0,1)	
 	
 	
 	"giant_tool_bhand_m17_bigharp_sit"
@@ -85154,10 +85541,12 @@ set("giant")
 		
 		"giant_elemental_charger_sit"
 			0:lookat(off)		
+			0:hideequip(true)
 			0:eyechange(223, 0)
 		
 		"giant_female_elemental_charger_sit"
 			0:lookat(off)		
+			0:hideequip(true)
 			0:eyechange(223, 0)
 			
 		"giant_make_pottery"
@@ -102478,7 +102867,7 @@ set("social motion")
 		44:hand(both, fist)
 		60:effect("firehell",0,1)
 		64:hand(both, palm)
-		1028:jump(285,true)						
+		700:jump(263,true)						
 		
 	"giant_female_20th"
 		0:lookat(off)
@@ -102492,7 +102881,24 @@ set("social motion")
 		0:hideequip(false)
 		0:hand(both, palm)
 		190:effect("20th",0,1)
-		1046:jump(285,true)		
+		1046:jump(285,true)	
+
+		
+	"giant_female_s2marinelook"
+		0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		305:hand(both, fist)
+		508:hand(both, palm)
+		740:jump(0,true)			
+
+	"giant_s2marinelook"
+		0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		305:hand(both, fist)
+		508:hand(both, palm)
+		740:jump(0,true)	
 		
 		
 //샤인스테이지 의상모션///
@@ -102524,7 +102930,12 @@ set("social motion")
 		121:generic ("custom_equip(shield:giant_tool_sketchbook_ani)")
 		125:generic ("custom_equip(weapon:giant_tool_c4_crayon_ani)")
 		750:jump(189,true)
-
+		184:effect("sketchbookCrayon01_1",0,1)
+		299:effect("sketchbookCrayon01_1",0,1)
+		520:effect("sketchbookCrayon01_1",0,1)
+		630:effect("sketchbookCrayon01_1",0,1)
+		749:effect("sketchbookCrayon01_1",0,1)
+		
 	"giant_crayon"
 		0:lookat(off)
 		0:hand(both, fist)
@@ -102533,6 +102944,10 @@ set("social motion")
 		121:generic ("custom_equip(shield:giant_tool_sketchbook_ani)")
 		132:generic ("custom_equip(weapon:giant_tool_c4_crayon_ani)")
 		750:jump(310,true)
+		300:effect("sketchbookCrayon01_1",0,1)
+		505:effect("sketchbookCrayon01_1",0,1)
+		633:effect("sketchbookCrayon01_1",0,1)
+		749:effect("sketchbookCrayon01_1",0,1)
 		
 	////2015년 왕실학교 의상모션///
 	

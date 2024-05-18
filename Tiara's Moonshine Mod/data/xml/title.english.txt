@@ -11031,16 +11031,16 @@
 12501	Max Damage +26\nCritical Damage +2%\nMovement Speed +2%
 12502	Music Buff Effect +11\nMusic Buff Duration +10\nDexterity +20
 12503	Gathering Success Rate +12%\nGathering Speed +12%\nLuck +20\nMovement Speed +1%
-12504	Intense Cosmic Milky Way
+12504	Luminous Cosmic Milky Way
 12505	Brilliant Cosmic Milky Way
 12506	Radiant Cosmic Milky Way
-12507	Intense Cosmic Milky Way
+12507	Luminous Cosmic Milky Way
 12508	Brilliant Cosmic Milky Way
 12509	Radiant Cosmic Milky Way
-12510	Intense Cosmic Milky Way
+12510	Luminous Cosmic Milky Way
 12511	Brilliant Cosmic Milky Way
 12512	Radiant Cosmic Milky Way
-12513	Intense Cosmic Milky Way
+12513	Luminous Cosmic Milky Way
 12514	Brilliant Cosmic Milky Way
 12515	Radiant Cosmic Milky Way
 12516	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
@@ -11052,14 +11052,14 @@
 12522	Luck +30
 12523	Luck +30
 12524	Luck +30
-12525	Special Luminous Cosmos Milky Way
-12527	Special Radiant Cosmos Milky Way
-12528	Special Luminous Cosmos Milky Way
-12530	Special Radiant Cosmos Milky Way
-12531	Special Luminous Cosmos Milky Way
-12533	Special Radiant Cosmos Milky Way
-12534	Special Luminous Cosmos Milky Way
-12536	Special Radiant Cosmos Milky Way
+12525	Special Luminous Cosmic Milky Way
+12527	Special Radiant Cosmic Milky Way
+12528	Special Luminous Cosmic Milky Way
+12530	Special Radiant Cosmic Milky Way
+12531	Special Luminous Cosmic Milky Way
+12533	Special Radiant Cosmic Milky Way
+12534	Special Luminous Cosmic Milky Way
+12536	Special Radiant Cosmic Milky Way
 12537	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 12539	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 12540	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
@@ -11073,10 +11073,10 @@
 12550	신년 맞이 대박 행운을 기원하는 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 12551	신년 맞이 대박 행운을 기원하는 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 12552	최대 대미지 10 증가\n체력 5 증가\n지력 5 증가\n솜씨 5 증가\n의지 5 증가\n행운 5 증가\n이동 속도 1% 증가\n모든 스킬 수련치 2배\n파티로 그림자 미션, 연극 미션, 던전 플레이 시 자신은 경험치 2배, 파티원은 경험치 1.5배\n(돌아온 밀레시안 및 로나의 특별 지원 타이틀과 중복 불가)
-12553	Special Brilliant Cosmos Milky Way
-12554	Special Brilliant Cosmos Milky Way
-12555	Special Brilliant Cosmos Milky Way
-12556	Special Brilliant Cosmos Milky Way
+12553	Special Brilliant Cosmic Milky Way
+12554	Special Brilliant Cosmic Milky Way
+12555	Special Brilliant Cosmic Milky Way
+12556	Special Brilliant Cosmic Milky Way
 12557	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 12558	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 12559	When used with the Expert Engineer title, Hillwen Engineering Completeness Quality increased\nProduction Success Rate +3%
@@ -14538,13 +14538,13 @@
 16197	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 16198	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 16199	채집 확률 10% 증가\n채집 속도 10% 증가\n자동 낚시 성공률 증가\n더 큰 물고기를 낚을 확률 증가\n전투 경험치 10% 증가\n이동 속도 2% 증가
-16235	개굴개굴
-16236	개굴개굴
-16237	개굴개굴
-16238	개굴개굴
-16239	키워보자 신비한 알! 이벤트에서 개구리를 성체까지 키운 밀레시안에게 주어지는 타이틀.
-16240	키워보자 신비한 알! 이벤트에서 개구리를 성체까지 키운 밀레시안에게 주어지는 타이틀.
-16241	행운 25 증가
+16235	is a friend of Froghus
+16236	is a friend of Froghus
+16237	is a friend of Froghus
+16238	is a friend of Froghus
+16239	A title given to Milletians whose hands never slipped as they confidently raised a frog to adulthood.
+16240	A title given to Milletians whose hands never slipped as they confidently raised a frog to adulthood.
+16241	Luck +25
 16291	Rain of Jewels
 16292	Shimmering Helix
 16293	Rain of Jewels
@@ -14643,20 +14643,20 @@
 16449	Maximum Damage +7\nMagic Attack +7\nDefense +5\nProtection +2\nWill +15\n[Luck -25]
 16450	Luck +30
 16451	Luck +30
-16466	해가 쨍쟁
-16467	알록달록 꽃송이
-16468	해가 쨍쟁
-16469	알록달록 꽃송이
-16470	해가 쨍쟁
-16471	알록달록 꽃송이
-16472	해가 쨍쟁
-16473	알록달록 꽃송이
-16474	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16475	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16476	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16477	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16478	행운 30 증가
-16479	행운 30 증가
+16466	Bright Sun
+16467	Vibrant Flower
+16468	Bright Sun
+16469	Vibrant Flower
+16470	Bright Sun
+16471	Vibrant Flower
+16472	Bright Sun
+16473	Vibrant Flower
+16474	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16475	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16476	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16477	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16478	Luck +30
+16479	Luck +30
 16480	who Stargazed with the GMs
 16481	who Stargazed with the GMs
 16482	who Stargazed with the GMs
@@ -14685,3 +14685,24 @@
 16624	다양한 연인들과 인연을 맺고, 따스한 사랑으로 도움을 건넨 밀레시안에게 주어지는 타이틀.
 16625	다양한 연인들과 인연을 맺고, 따스한 사랑으로 도움을 건넨 밀레시안에게 주어지는 타이틀.
 16626	행운 30 증가
+16634	1시즌 크리에이터 미션 컴플리트
+16635	1시즌 크리에이터 미션 컴플리트
+16636	1시즌 크리에이터 미션 컴플리트
+16637	1시즌 크리에이터 미션 컴플리트
+16638	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16639	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16640	행운 30 증가
+16641	1시즌 크리에이터
+16642	1시즌 크리에이터
+16643	1시즌 크리에이터
+16644	1시즌 크리에이터
+16645	1시즌 크리에이터에 선정된 밀레시안에게 지급되는 1차 타이틀.
+16646	1시즌 크리에이터에 선정된 밀레시안에게 지급되는 1차 타이틀.
+16647	행운 30 증가
+16655	일본 19주년 마비노기 파티
+16656	19주년 마비노기 파티
+16657	19주년 마비노기 파티
+16658	19주년 마비노기 파티
+16659	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16660	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16661	최대 생명력 19 증가\n최대 마나 19 증가\n스태미나 19 증가\n행운 30 증가\n더 이상 키가 자라지 않음

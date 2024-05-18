@@ -9742,26 +9742,28 @@
 12337	Tagar
 12338	Creag
 12339	Creag
-12348	장미 한 송이
+12340	Small Golem
+12341	Flying Sword
+12348	Single Rose
 12349	미니 모험가 코끼리
 12352	Tagar
 12353	Tagar
-12354	어둠의 로나운
-12355	어둠의 카리
-12356	어둠의 인스가독
-12357	어둠의 그와스고프
-12358	어둠의 위니
-12359	어둠의 추종자
-12360	어둠의 추종자
-12361	어둠의 추종자
-12380	레드 리저드 위치
-12381	일루전 좀비
-12382	일루전 좀비
-12383	검은 달의 교단원
-12384	일루전 좀비
-12388	라이트닝 슬라임
-12389	라이트닝 슬라임
-12390	검은 달의 교단원
+12354	Dark Ronaun
+12355	Dark Cari
+12356	Dark Llygadog
+12357	Dark Gwallgof
+12358	Dark Wyneb
+12359	Dark Disciple
+12360	Dark Disciple
+12361	Dark Disciple
+12380	Red Lizard Witch
+12381	Illusion Zombie
+12382	Illusion Zombie
+12383	Black Moon Follower
+12384	Illusion Zombie
+12388	Lightning Slime
+12389	Lightning Slime
+12390	Black Moon Follower
 12399	Hasidim
-12431	라이트닝 슬라임
-12432	라이트닝 슬라임
+12431	Lightning Slime
+12432	Lightning Slime
