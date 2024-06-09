@@ -3090,7 +3090,7 @@ set("C4_human")
 			0:lookat(off)
 			0:hideequip(true)
 			0:hand (both, palm)   
-			800:jump(0,true)
+			800:jump(0,true)		
 
 	"female_plamodel_chair_sit"
 			0:lookat(off)
@@ -3102,7 +3102,19 @@ set("C4_human")
 			0:lookat(off)
 			0:hideequip(true)
 			0:hand (both, palm) 
-			//220:jump(0,true)	
+			//220:jump(0,true)
+
+	"female_vargr_chair_sit"
+			0:lookat(off)
+			0:hideequip(true)
+			0:hand (both, palm)   
+			//720:jump(0,true)
+			
+	"male_vargr_chair_sit"
+			0:lookat(off)
+			0:hideequip(true)
+			0:hand (both, palm)   
+			//720:jump(0,true)		
 
 	"female_cowboy_chair_sit"
 			0:lookat(off)
@@ -13629,6 +13641,31 @@ set("movingweapon")
 	"human_sfbow_offensive"
 		0:hand(both,fist)
 		92:jump(60)	
+		
+	"human_sfbow_walk_offensive"
+			0:hand(right, fist)
+			0:hand(left, fist)
+			0:effect("footstep_right")
+			15:effect("footstep_left")
+	
+	"human_sfbow_run_offensive"
+			0:hand(right, fist)
+			0:hand(left, fist)
+			20:effect("footstep_right")
+			8:effect("footstep_left")		
+			
+	"elf_sfbow_walk_offensive"
+			0:hand(right, fist)
+			0:hand(left, fist)
+			22:effect("footstep_right")
+			9:effect("footstep_left")
+
+	
+	"elf_sfbow_run_offensive"
+			0:hand(right, fist)
+			0:hand(left, fist)
+			15:effect("footstep_right")
+			6:effect("footstep_left")				
 	
 	"human_sfdualgun_friendly"
 	0:lookat (off)
@@ -14971,6 +15008,7 @@ endset
 set("C4_giant")
 
 	folder("char\chapter4\giant\anim")
+	
 	
 	"giant_royalblacksmith_stand"
 		0:lookat(off)
@@ -30546,6 +30584,49 @@ set("social motion")
 	
 	folder("char\chapter4\human\anim\social_motion")
 	
+	
+	"female_glowninja"
+		0:lookat(off)
+		0:hideequip(false)		
+		0:hand(both, palm)
+		181:hand(both, fist)		
+		187:hand(both, palm)	
+		198:hand(right,palm)
+		198:hand(left,fist)						
+		215:hand(right,fist)
+		215:hand(left,palm)		
+		222:hand(both, fist)		
+		227:hand(both, palm)											
+		258:hand(right,fist)
+		258:hand(left,palm)				
+		273:hand(both, palm)				
+		341:effect("ninja1",0,1)
+		285:effect("ninja2",0,1)
+		285:effect("ninja3",0,1)	
+		
+		
+	"male_glowninja"
+		0:lookat(off)
+		0:hideequip(false)		
+		0:hand(both, palm)
+		181:hand(both, fist)		
+		187:hand(both, palm)	
+		198:hand(right,palm)
+		198:hand(left,fist)						
+		215:hand(right,fist)
+		215:hand(left,palm)		
+		222:hand(both, fist)		
+		227:hand(both, palm)											
+		258:hand(right,fist)
+		258:hand(left,palm)				
+		273:hand(both, palm)				
+		341:effect("ninja1",0,1)
+		285:effect("ninja2",0,1)
+		285:effect("ninja3",0,1)
+		
+		
+	
+	
 	"male_2023dessert"
 		0:lookat(off)
 		0:hideequip(false)
@@ -31144,7 +31225,7 @@ set("social motion")
         135:effectoff("choir02")
         135:effectoff("choir03")
         130:effect("choir04",0,1)
-        130:generic("custom_mesh(0:tool_c4_book04_01_ani)")    
+        130:generic("custom_equip(weapon:tool_c4_book04_01_ani)")   
         280:hand(right,fist)
         347:hand(right,palm)        
         415:effect("choir01",0,1)
@@ -31162,7 +31243,7 @@ set("social motion")
         135:effectoff("choir02")
         135:effectoff("choir03")
         130:effect("choir04",0,1)
-        130:generic("custom_mesh(0:tool_c4_book04_01_ani)")    
+        130:generic("custom_equip(weapon:tool_c4_book04_01_ani)")   
         280:hand(right,fist)
         347:hand(right,palm)        
         415:effect("choir01",0,1)
@@ -33646,12 +33727,13 @@ set("social motion")
 		"female_2020date"
 			0:hand(both, palm)
 			75:hand(left, fist)
-			75:generic("custom_equip(shield:female_mirror_ani)")	
-			368:generic("custom_equip(shield)")
+			75:generic("custom_equip(weapon:female_mirror_ani)")	
+			368:generic("custom_equip(weapon)")
 			368:hand(left,palm)
-			493:generic("custom_equip(shield:female_mirror_ani)")	
+			493:generic("custom_equip(weapon:female_mirror_ani)")	
 			493:hand(left,fist)
 			525:jump(110)
+
 			
 		"male_constellation"
 			0:lookat(off)
@@ -35099,7 +35181,17 @@ set("social motion")
 			51:effect("ninja_smoke05")
 			51:effect("ninja_smoke06")
 			51:effect("ninja_smoke07")	
-			51:effect("ninja_smoke08")			
+			51:effect("ninja_smoke08")	
+
+		"human_promotion_astrogist"
+			1:hideequip(true)				
+			0:lookat(off)
+			1:generic("custom_equip(weapon:tool_c4_basic_sickle, tb1b:e8dede tb2b:9e8a89 tb3b:392a2a tb5b:171818 tb6b:589cd9)")
+			0:hand(both,fist)
+			46:hand(left,palm)
+			76:hand(left,fist)
+			440:jump(115)
+		
 			
 		//생산
 		"human_promotion_production"
@@ -37298,16 +37390,16 @@ set("social motion")
 		0:lookat(off)
 		0:hideequip(false)
 		0:hand(both, palm)
-		190:effect("20th",0,1)
-		1046:jump(285,true)			
+		210:effect("20th",0,1)
+		1080:jump(285,true)			
 
 	"male_20th"
 		0:lookat(off)
 		0:hideequip(false)
 		0:hand(both, palm)
-		190:effect("20th",0,1)
-		1046:jump(285,true)
-		1046:jump(285,true)
+		215:effect("20th",0,1)
+		1087:jump(285,true)
+
 		
 	"female_s2marinelook"
 		0:lookat(off)
@@ -55146,7 +55238,8 @@ set("phoenix")
 		"pet_vargr_gleipnir"
 			0:lookat(off)
 			0:generic ("custom_mesh(0)")
-			3:effect("vargr_Gleipnir_summon01",0,1)		
+			0:effect("vargr_Gleipnir_summon01",0,1)	
+			4:effect("vargr_Gleipnir_chain01",0,1)				
 			 0:quake(10,20,25,3000)		
 			
 			
@@ -55268,7 +55361,8 @@ set("phoenix")
 			0:lookat(off)
 			0:generic ("custom_mesh(0)")	
 			0:effect("human_dash1_hit01")
-			1:effect("vargr_dash_boost01",0,1)		
+			0:effect("vargr_dash_lance01end",0,1)		
+			0:effect("vargr_dash_lance01shot",0,1)		
 
 		"pet_vargr_riding_dashrun"
 			0:lookat(off)
@@ -55281,17 +55375,21 @@ set("phoenix")
 			16:sound("data\sound\footstep\rock_run01.wav")
 			18:sound("data\sound\footstep\rock_run01.wav")
             19:sound("data\sound\footstep\rock_run01.wav")
-					
+			1:effect("vargr_dash_lance01",0,1)					
+			1:effect("vargr_dash_lance01fire")					
 			
 		"pet_vargr_windclaw" 
 			0:lookat(off)
 			0:generic ("custom_mesh(0)")	
+			11:effect("vargr_WindClaw_smoke01",0,1)
 			12:effect("vargr_WindClaw_wind01",0,1)
+			30:effectoff("vargr_WindClaw_smoke01")
 
 		"pet_vargr_moonhowling" 
 			0:lookat(off)
 			0:generic ("custom_mesh(0)")			
-
+			23:effect("vargr_Moonhowling_wave01",0,1)
+			
 		"pet_vargr_stand_to_sit"
 		    0:lookat(off)
 			0:generic ("custom_mesh(0)")			
@@ -55313,7 +55411,7 @@ set("phoenix")
 		"pet_vargr_lovely"
 		    0:lookat(off)
 			0:generic ("custom_mesh(0)")			
-
+			0:effect("pet_heart_overhead_pet_vargr")
 			
 			
 		"pet_vargr_lovely_end"
@@ -62779,7 +62877,39 @@ endset
 set("prop concerned - temporary")
 
 	// setting file 안의 animation을 정의할 때는 folder를 "::세팅파일 이름" 으로 지정해야 한다.
+
+
+	folder("::scene_prop_vargrchair01")        
+        "scene_prop_vargrchair01_sit"                
+            0:linkframework(1, "race:990392, c1:E3DCDA c2:BE9C81 c3:3E4253", "Bone01", "data\gfx\char\chapter4\human\anim\tool\acc_vargr_chair_stand")    
+    endfolder    
+
+    folder("::scene_prop_vargrchair02")        
+        "scene_prop_vargrchair02_sit"                
+            0:linkframework(1, "race:990393, c1:E3DCDA c2:BE9C81 c3:3E4253", "Bone01", "data\gfx\char\chapter4\human\anim\tool\acc_vargr_chair_stand")   
+    endfolder 
 	
+	folder("::scene_prop_vargrchair03")        
+        "scene_prop_vargrchair03_sit"                
+            0:linkframework(1, "race:990394, c1:E3DCDA c2:BE9C81 c3:3E4253", "Bone01", "data\gfx\char\chapter4\human\anim\tool\acc_vargr_chair_stand")      
+    endfolder 
+	
+	folder("::scene_prop_nymphchair01")
+		"scene_prop_nymphchair01"
+			0:linkframework(1, "race:194028, c1:F1EBC6 c2:73824B c3:684329 c4:808080 c5:E1DDCD", "bone02", "data/gfx\char\human/acc/anim/acc_20th01_talk")
+			0:linkframework(2, "race:194027, c1:F1EBC6 c2:73824B c3:684329 c4:808080 c5:E1DDCD", "bone03", "data/gfx\char\human/acc/anim/acc_20th01_talk")
+			0:linkframework(3, "race:194028, c1:F1EBC6 c2:73824B c3:684329 c4:808080 c5:E1DDCD", "bone04", "data/gfx\char\human/acc/anim/acc_20th01_stand")
+			0:linkframework(4, "race:194028, c1:F1EBC6 c2:73824B c3:684329 c4:808080 c5:E1DDCD", "bone05", "data/gfx\char\human/acc/anim/acc_20th01_talk")
+    endfolder  
+	
+	folder("::scene_prop_nymphchair02")
+		"scene_prop_nymphchair02"
+			0:linkframework(1, "race:194027, c1:F1EBC6 c2:73824B c3:684329 c4:808080 c5:E1DDCD", "bone02", "data/gfx\char\human/acc/anim/acc_20th01_talk")
+			0:linkframework(2, "race:194027, c1:F1EBC6 c2:73824B c3:684329 c4:808080 c5:E1DDCD", "bone03", "data/gfx\char\human/acc/anim/acc_20th01_talk")
+			0:linkframework(3, "race:194028, c1:F1EBC6 c2:73824B c3:684329 c4:808080 c5:E1DDCD", "bone04", "data/gfx\char\human/acc/anim/acc_20th01_stand")
+			0:linkframework(4, "race:194027, c1:F1EBC6 c2:73824B c3:684329 c4:808080 c5:E1DDCD", "bone05", "data/gfx\char\human/acc/anim/acc_20th01_talk")
+    endfolder  
+
 	
 	folder("::scene_prop_erintrip_expedition01")
 		"scene_prop_erintrip_expedition01"
@@ -72256,6 +72386,41 @@ set("G14_npc")
 
 	folder("char\chapter4\human\male\anim")
 	
+	
+
+	"male_npc_neal_stand"
+			0:lookat(off)		
+			0:hand (right, palm)					
+			0:hideequip(false)	
+			199:generic ("custom_equip(weapon:tool_candy01_ani, tr4b:808080)")	
+			611:generic("custom_equip(weapon)")
+	
+	
+	"male_npc_neal_talk"
+			0:lookat(off)		
+			0:hand (right, palm)					
+			0:hideequip(false)	
+	
+	
+
+	"male_npc_leath_stand"
+			0:lookat(off)		
+			0:hand (right, palm)		
+			0:hand (left, fist)					
+			0:hideequip(false)	
+			0:generic("custom_equip(weapon:tool_c4_NPC_Leath_book01, tr1b:51423C tr2b:2F4A2F tr3b:927A5C tr4b:808080 tr5b:8D3131)")
+			
+	
+	"male_npc_leath_talk"
+			0:lookat(off)						
+			0:hand (right, palm)		
+			0:hand (left, fist)					
+			0:hideequip(false)
+			0:generic("custom_equip(weapon:tool_c4_NPC_Leath_book01, tr1b:51423C tr2b:2F4A2F tr3b:927A5C tr4b:808080 tr5b:8D3131)")
+			
+	
+	
+	
 	"male_npc_before"
 		0:lookat(off)
 		0:showtool(5170186,"motion_game")
@@ -72760,7 +72925,19 @@ set("G14_npc")
 
 	folder("char\chapter4\human\female\anim")
 	
-	
+	    "female_npc_delaney_stand"
+			0:lookat(off)
+			0:hand (right, palm)
+            0:hand (left, fist)			
+			0:generic("custom_equip(shield:tool_starcage01_ani)")
+        
+		"female_npc_delaney_talk"
+			0:lookat(off)
+			0:hand (right, palm)
+            0:hand (left, fist)			
+			0:generic("custom_equip(shield:tool_starcage01_ani)")
+			
+		
 		"female_npc_delga"
 			0:lookat(off)
 			0:hand (both, palm)			
@@ -76523,6 +76700,146 @@ set("magician")
 ///////////////////////////////////////// 거대 낫 - 인간 ////////////////////////////////////////////
 
 	folder("char\chapter4\human\anim\tool\scythe")
+	
+	
+//////점성술사_전투////////
+
+
+	"human_tool_scythe_fatalcrush_prepare01"
+		0:lookat(off)
+		0:hand(right,fist)
+		5:hand(left,palm)
+		
+	"human_tool_scythe_fatalcrush_process01"
+		0:lookat(off)
+		0:hand(right,fist)
+		0:hand(left,palm)
+
+	"human_tool_scythe_fatalcrush_complete"
+		0:lookat(off)
+		0:hand(right,fist)
+		28:hand(left,palm)
+
+
+	"human_tool_scythe_starsignspread_wait"
+		0:lookat(off)
+		0:hand(both,fist)
+		80:jump (16)
+
+	"human_tool_scythe_starsignspread_process01"
+		0:lookat(off)
+		0:hand(both,fist)
+		11:hand(left,palm)
+		21:hand(left,fist)
+
+	"human_tool_scythe_starsignspread_complete"
+		0:lookat(off)
+		0:hand(both,fist)
+
+    "human_tool_scythe_scytheslash_process01"
+		0:lookat(off)
+		0:hand(both,fist)
+		3:hand(left,palm)
+		13:hand(left,fist)
+		
+	"human_tool_scythe_scytheslash_process02"
+		0:lookat(off)
+		0:hand(both,fist)
+		
+	"human_tool_scythe_scytheslash_complete"
+		0:lookat(off)
+		0:hand(both,fist)
+		19:hand(left,palm)
+		28:hand(left,fist)
+
+	"human_tool_scythe_stellabreak_wait"
+		0:lookat(off)
+		0:hand(both,fist)
+        46:jump (16)		
+	
+	"human_tool_scythe_stellabreak_process01"
+		0:lookat(off)
+		0:hand(both,fist)
+		6:hand(left,palm)
+		23:hand(left,fist)
+	
+	"human_tool_scythe_stellabreak_process02"
+		0:lookat(off)
+		0:hand(both,fist)	
+	
+	"human_tool_scythe_stellabreak_complete"
+		0:lookat(off)
+		0:hand(both,fist)	
+	    10:hand(left,palm)
+		30:hand(left,fist)
+		
+	"human_tool_scythe_stardetonation_prepare01"
+		0:lookat(off)
+		0:hand(both,fist)
+	
+	"human_tool_scythe_stardetonation_prepare02"
+		0:lookat(off)
+		0:hand(both,fist)
+	
+	"human_tool_scythe_stardetonation_process01"
+		0:lookat(off)
+		0:hand(both,fist)
+
+	"human_tool_scythe_stardetonation_process02"
+		0:lookat(off)
+		0:hand(both,fist)	
+	
+	"human_tool_scythe_stardetonation_complete"
+		0:lookat(off)
+		0:hand(both,fist)
+		6:hand(left,palm)
+		25:hand(left,fist)
+		
+	"human_tool_scythe_spinspurt_wait"
+		0:lookat(off)
+		0:hand(both,fist)
+
+	"human_tool_scythe_spinspurt_process01"
+		0:lookat(off)
+		0:hand(both,fist)
+
+	"human_tool_scythe_spinspurt_process02"
+		0:lookat(off)
+		0:hand(both,fist)	
+	
+	"human_tool_scythe_spinspurt_complete"
+		0:lookat(off)
+		0:hand(both,fist)	
+		10:hand(left,palm)
+		29:hand(left,fist)
+		
+	"human_tool_scythe_gravitationpull_process01"
+		0:lookat(off)
+		0:hand(both,fist)
+		4:hand(left,palm)
+		11:hand(left,fist)
+
+	"human_tool_scythe_gravitationpull_complete"
+		0:lookat(off)
+		0:hand(both,fist)
+		17:hand(left,palm)
+		38:hand(left,fist)
+	
+	"human_tool_scythe_revolveshock_process01"
+		0:lookat(off)
+		0:hand(both,fist)
+		4:hand(left,palm)
+		11:hand(left,fist)
+		
+	"human_tool_scythe_revolveshock_complete"
+		0:lookat(off)
+		0:hand(both,fist)
+ 		13:hand(left,palm)
+		23:hand(left,fist)
+		
+		
+
+////////////	
 	
 	"human_snowmountainscythe_stand"
 	0:hand(both,fist)
@@ -84448,7 +84765,68 @@ set("giant")
 
 	folder("char\chapter4\giant\anim")
 	
-	
+//////점성술사 : 생활 //////	/////
+
+		"giant_astrogist_stellacraft"
+			0:lookat(off)		
+			0:hand(both,palm)			
+			0:hideequip(false)
+		
+		"giant_female_astrogist_stellacraft"
+			0:lookat(off)		
+			0:hand(both,palm)	
+			0:hideequip(false)					
+				
+	"giant_astrogist_astrogy_process"
+			0:lookat(off)		
+			0:hand(both,palm)
+			0:hideequip(false)
+			236:jump(146, true)			
+			
+	"giant_astrogist_astrogy_complete"
+			0:lookat(off)		
+			0:hand(both,palm)			
+			0:hideequip(false)
+			
+	"giant_astrogist_soulcatch_prepare"
+			0:lookat(off)		
+			0:hand(both,palm)
+			0:hideequip(false)
+			10:eyechange(223,0)
+			50:eyechange(default)				
+			
+	"giant_astrogist_soulcatch_process"
+			0:lookat(off)		
+			0:hand(both,palm)			
+			0:hideequip(false)
+			810:jump(90, true)	
+
+	"giant_female_astrogist_astrogy_process"
+			0:lookat(off)		
+			0:hand(both,palm)
+			0:hideequip(false)
+			236:jump(146, true)			
+			
+	"giant_female_astrogist_astrogy_complete"
+			0:lookat(off)		
+			0:hand(both,palm)			
+			0:hideequip(false)
+			
+	"giant_female_astrogist_soulcatch_prepare"
+			0:lookat(off)		
+			0:hand(both,palm)
+			0:hideequip(false)
+			10:eyechange(223,0)
+			50:eyechange(default)				
+			
+	"giant_female_astrogist_soulcatch_process"
+			0:lookat(off)		
+			0:hand(both,palm)			
+			0:hideequip(false)
+			810:jump(90, true)	
+			
+///////////////////////////////		
+
 	
 		"giant_erintrip_expedition_sit"
 			0:lookat(off)
@@ -90487,6 +90865,276 @@ set("alchemy")
 
 	folder("char\chapter4\giant\anim\tool\scythe")
 	
+
+//////점성술사_전투////////
+
+
+	"giant_tool_scythe_fatalcrush_prepare01"
+		0:lookat(off)
+		0:hand(right,fist)
+		5:hand(left,palm)
+
+	"giant_tool_scythe_fatalcrush_process01"
+		0:lookat(off)
+		0:hand(right,fist)
+		0:hand(left,palm)
+
+	"giant_tool_scythe_fatalcrush_complete"
+		0:lookat(off)
+		0:hand(right,fist)
+		28:hand(left,palm)
+
+	"giant_female_tool_scythe_fatalcrush_prepare01"
+		0:lookat(off)
+		0:hand(right,fist)
+		5:hand(left,palm)
+
+	"giant_female_tool_scythe_fatalcrush_process01"
+		0:lookat(off)
+		0:hand(right,fist)
+		0:hand(left,palm)
+		
+	"giant_female_tool_scythe_fatalcrush_complete"
+		0:lookat(off)
+		0:hand(right,fist)
+		28:hand(left,palm)
+
+
+	"giant_tool_scythe_starsignspread_wait"
+		0:lookat(off)
+		0:hand(both,fist)
+		80:jump (16)
+
+	"giant_tool_scythe_starsignspread_process01"
+		0:lookat(off)
+		0:hand(both,fist)
+		11:hand(left,palm)
+		21:hand(left,fist)
+
+	"giant_tool_scythe_starsignspread_complete"
+		0:lookat(off)
+		0:hand(both,fist)
+		
+	"giant_female_tool_scythe_starsignspread_wait"
+		0:lookat(off)
+		0:hand(both,fist)
+		80:jump (16)
+
+	"giant_female_tool_scythe_starsignspread_process01"
+		0:lookat(off)
+		0:hand(both,fist)
+		11:hand(left,palm)
+		21:hand(left,fist)
+
+	"giant_female_tool_scythe_starsignspread_complete"
+		0:lookat(off)
+		0:hand(both,fist)	
+    
+    "giant_tool_scythe_scytheslash_process01"
+		0:lookat(off)
+		0:hand(both,fist)
+		3:hand(left,palm)
+		13:hand(left,fist)
+		
+	"giant_tool_scythe_scytheslash_process02"
+		0:lookat(off)
+		0:hand(both,fist)
+		
+	"giant_tool_scythe_scytheslash_complete"
+		0:lookat(off)
+		0:hand(both,fist)
+		19:hand(left,palm)
+		28:hand(left,fist)
+
+	"giant_tool_scythe_stellabreak_wait"
+		0:lookat(off)
+		0:hand(both,fist)
+        46:jump (16)	
+	
+	"giant_tool_scythe_stellabreak_process01"
+		0:lookat(off)
+		0:hand(both,fist)
+		6:hand(left,palm)
+		23:hand(left,fist)
+	
+	"giant_tool_scythe_stellabreak_process02"
+		0:lookat(off)
+		0:hand(both,fist)	
+	
+	"giant_tool_scythe_stellabreak_complete"
+		0:lookat(off)
+		0:hand(both,fist)	
+	    10:hand(left,palm)
+		30:hand(left,fist)
+		
+	"giant_female_tool_scythe_scytheslash_process01"
+		0:lookat(off)
+		0:hand(both,fist)
+		3:hand(left,palm)
+		13:hand(left,fist)
+		
+	"giant_female_tool_scythe_scytheslash_process02"
+		0:lookat(off)
+		0:hand(both,fist)
+		
+	"giant_female_tool_scythe_scytheslash_complete"
+		0:lookat(off)
+		0:hand(both,fist)
+		19:hand(left,palm)
+		28:hand(left,fist)
+
+	"giant_female_tool_scythe_stellabreak_wait"
+		0:lookat(off)
+		0:hand(both,fist)
+        46:jump (16)		
+	
+	"giant_female_tool_scythe_stellabreak_process01"
+		0:lookat(off)
+		0:hand(both,fist)
+		6:hand(left,palm)
+		23:hand(left,fist)
+	
+	"giant_female_tool_scythe_stellabreak_process02"
+		0:lookat(off)
+		0:hand(both,fist)	
+	
+	"giant_female_tool_scythe_stellabreak_complete"
+		0:lookat(off)
+		0:hand(both,fist)	
+	    10:hand(left,palm)
+		30:hand(left,fist)
+				
+	"giant_female_tool_scythe_stardetonation_prepare01"
+		0:lookat(off)
+		0:hand(both,fist)
+	
+	"giant_female_tool_scythe_stardetonation_prepare02"
+		0:lookat(off)
+		0:hand(both,fist)
+	
+	"giant_female_tool_scythe_stardetonation_process01"
+		0:lookat(off)
+		0:hand(both,fist)
+
+	"giant_female_tool_scythe_stardetonation_process02"
+		0:lookat(off)
+		0:hand(both,fist)	
+	
+	"giant_female_tool_scythe_stardetonation_complete"
+		0:lookat(off)
+		0:hand(both,fist)
+		6:hand(left,palm)
+		25:hand(left,fist)
+		
+	"giant_female_tool_scythe_spinspurt_wait"
+		0:lookat(off)
+		0:hand(both,fist)
+
+	"giant_female_tool_scythe_spinspurt_process01"
+		0:lookat(off)
+		0:hand(both,fist)
+
+	"giant_female_tool_scythe_spinspurt_process02"
+		0:lookat(off)
+		0:hand(both,fist)	
+	
+	"giant_female_tool_scythe_spinspurt_complete"
+		0:lookat(off)
+		0:hand(both,fist)	
+		10:hand(left,palm)
+		29:hand(left,fist)
+		
+	"giant_female_tool_scythe_gravitationpull_process01"
+		0:lookat(off)
+		0:hand(both,fist)
+		11:hand(left,palm)
+		21:hand(left,fist)
+
+	"giant_female_tool_scythe_gravitationpull_complete"
+		0:lookat(off)
+		0:hand(both,fist)
+		17:hand(left,palm)
+		38:hand(left,fist)
+	
+	"giant_female_tool_scythe_revolveshock_process01"
+		0:lookat(off)
+		0:hand(both,fist)
+		4:hand(left,palm)
+		11:hand(left,fist)
+		
+	"giant_female_tool_scythe_revolveshock_complete"
+		0:lookat(off)
+		0:hand(both,fist)
+ 		13:hand(left,palm)
+		23:hand(left,fist)	
+		
+	"giant_tool_scythe_stardetonation_prepare01"
+		0:lookat(off)
+		0:hand(both,fist)
+	
+	"giant_tool_scythe_stardetonation_prepare02"
+		0:lookat(off)
+		0:hand(both,fist)
+	
+	"giant_tool_scythe_stardetonation_process01"
+		0:lookat(off)
+		0:hand(both,fist)
+
+	"giant_tool_scythe_stardetonation_process02"
+		0:lookat(off)
+		0:hand(both,fist)	
+	
+	"giant_tool_scythe_stardetonation_complete"
+		0:lookat(off)
+		0:hand(both,fist)
+		6:hand(left,palm)
+		25:hand(left,fist)
+		
+	"giant_tool_scythe_spinspurt_wait"
+		0:lookat(off)
+		0:hand(both,fist)
+
+	"giant_tool_scythe_spinspurt_process01"
+		0:lookat(off)
+		0:hand(both,fist)
+
+	"giant_tool_scythe_spinspurt_process02"
+		0:lookat(off)
+		0:hand(both,fist)	
+	
+	"giant_tool_scythe_spinspurt_complete"
+		0:lookat(off)
+		0:hand(both,fist)	
+		10:hand(left,palm)
+		29:hand(left,fist)
+		
+	"giant_tool_scythe_gravitationpull_process01"
+		0:lookat(off)
+		0:hand(both,fist)
+		11:hand(left,palm)
+		21:hand(left,fist)
+
+	"giant_tool_scythe_gravitationpull_complete"
+		0:lookat(off)
+		0:hand(both,fist)
+		17:hand(left,palm)
+		38:hand(left,fist)
+	
+	"giant_tool_scythe_revolveshock_process01"
+		0:lookat(off)
+		0:hand(both,fist)
+		4:hand(left,palm)
+		11:hand(left,fist)
+		
+	"giant_tool_scythe_revolveshock_complete"
+		0:lookat(off)
+		0:hand(both,fist)
+ 		13:hand(left,palm)
+		23:hand(left,fist)	
+
+
+////////////	
+	
 	"giant_snowmountainscythe_stand"
 	0:hand(both,fist)
 	0:lookat(off)	
@@ -94846,6 +95494,47 @@ set("social motion")
 	
 	folder("char\chapter4\giant\anim\social_motion")
 	
+	
+	"giant_female_glowninja"
+		0:lookat(off)
+		0:hideequip(false)		
+		0:hand(both, palm)
+		181:hand(both, fist)		
+		187:hand(both, palm)	
+		198:hand(right,palm)
+		198:hand(left,fist)						
+		215:hand(right,fist)
+		215:hand(left,palm)		
+		222:hand(both, fist)		
+		227:hand(both, palm)											
+		258:hand(right,fist)
+		258:hand(left,palm)				
+		273:hand(both, palm)				
+		341:effect("ninja1",0,1)
+		285:effect("ninja2",0,1)
+		285:effect("ninja3",0,1)	
+		
+		
+	"giant_glowninja"
+		0:lookat(off)
+		0:hideequip(false)		
+		0:hand(both, palm)
+		181:hand(both, fist)		
+		187:hand(both, palm)	
+		198:hand(right,palm)
+		198:hand(left,fist)						
+		215:hand(right,fist)
+		215:hand(left,palm)		
+		222:hand(both, fist)		
+		227:hand(both, palm)											
+		258:hand(right,fist)
+		258:hand(left,palm)				
+		273:hand(both, palm)				
+		341:effect("ninja1",0,1)
+		285:effect("ninja2",0,1)
+		285:effect("ninja3",0,1)	
+		
+	
 	"giant_2023dessert"
 		0:lookat(off)
 		0:hideequip(false)
@@ -95712,7 +96401,7 @@ set("social motion")
         135:effectoff("choir02")
         135:effectoff("choir03")
         130:effect("choir04",0,1)
-        130:generic("custom_mesh(0:giant_tool_c4_book04_01_ani)")    
+        130:generic("custom_equip(weapon:giant_tool_c4_book04_01_ani)")   
         280:hand(right,fist)
         347:hand(right,palm)        
         415:effect("choir01",0,1)
@@ -95730,7 +96419,7 @@ set("social motion")
         135:effectoff("choir02")
         135:effectoff("choir03")
         130:effect("choir04",0,1)
-        130:generic("custom_mesh(0:giant_tool_c4_book04_01_ani)")    
+        130:generic("custom_equip(weapon:giant_tool_c4_book04_01_ani)")   
         280:hand(right,fist)
         347:hand(right,palm)        
         415:effect("choir01",0,1)
@@ -98674,12 +99363,12 @@ set("social motion")
 		"giant_female_2020date"
 			0:hand(both, palm)
 			75:hand(left, fist)
-			75:generic("custom_equip(shield:giant_female_mirror_ani)")			
-			369:generic("custom_equip(shield)")
+			75:generic("custom_equip(weapon:giant_female_mirror_ani)")			
+			369:generic("custom_equip(weapon)")
 			369:hand(left,palm)
-			493:generic("custom_equip(shield:giant_female_mirror_ani)")	
+			493:generic("custom_equip(weapon:giant_female_mirror_ani)")	
 			493:hand(left,fist)
-			567:jump(152)			
+			567:jump(152)				
 
 	"giant_constellation"
 		0:lookat(off)
@@ -100447,9 +101136,25 @@ set("social motion")
 			55:generic("custom_mesh(0:giant_tool_effect14)")
 			461:jump(326)		
 		    1:effect("war_gain_hand01",0,1)		
-		    1:effect("war_gain_hand02",0,1)						
+		    1:effect("war_gain_hand02",0,1)	
+
+		"giant_promotion_astrogist"
+			1:hideequip(true)				
+			0:lookat(off)
+			1:generic("custom_equip(weapon:giant_tool_c4_basic_sickle, tb1b:e8dede tb2b:9e8a89 tb3b:392a2a tb5b:171818 tb6b:589cd9)")
+			0:hand(both,fist)
+			46:hand(left,palm)
+			73:hand(left,fist)
+			440:jump(115)	
 			
-			
+		"giant_female_promotion_astrogist"
+			1:hideequip(true)				
+			0:lookat(off)
+			1:generic("custom_equip(weapon:giant_tool_c4_basic_sickle, tb1b:e8dede tb2b:9e8a89 tb3b:392a2a tb5b:171818 tb6b:589cd9)")
+			0:hand(both,fist)
+			46:hand(left,palm)
+			73:hand(left,fist)
+			440:jump(115)	
 	
 	
 		"giant_female_rz_ft"
@@ -102874,14 +103579,14 @@ set("social motion")
 		0:hideequip(false)
 		0:hand(both, palm)
 		190:effect("20th",0,1)
-		1046:jump(285,true)					
+		1070:jump(285,true)					
 
 	"giant_20th"
 		0:lookat(off)
 		0:hideequip(false)
 		0:hand(both, palm)
 		190:effect("20th",0,1)
-		1046:jump(285,true)	
+		1080:jump(285,true)	
 
 		
 	"giant_female_s2marinelook"
@@ -119231,7 +119936,39 @@ set("newcharacter_motion")
 
 	folder("char\chapter4\human\anim")
 	
+//////점성술사 : 생활 //////	/////
 	
+	"human_astrogist_stellacraft"
+			0:lookat(off)		
+			0:hand(both,palm)
+			0:hideequip(false)				
+			
+	"human_astrogist_astrogy_process"
+			0:lookat(off)		
+			0:hand(both,palm)
+			0:hideequip(false)
+			236:jump(146, true)			
+			
+	"human_astrogist_astrogy_complete"
+			0:lookat(off)		
+			0:hand(both,palm)			
+			0:hideequip(false)
+
+	"human_astrogist_soulcatch_prepare"
+			0:lookat(off)		
+			0:hand(both,palm)
+			0:hideequip(false)
+			10:eyechange(223,0)
+			50:eyechange(default)			
+			
+	"human_astrogist_soulcatch_process"
+			0:lookat(off)		
+			0:hand(both,palm)			
+			0:hideequip(false)
+			810:jump(90, true)	
+
+			
+///////////////////////////////
 	
 	"lorna_erintrip_expedition_sit"
 		0:lookat(off)

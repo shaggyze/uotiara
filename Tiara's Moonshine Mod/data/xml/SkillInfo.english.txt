@@ -2829,7 +2829,7 @@
 4342	Long Range Stun Resistance Chance
 4343	Magic Stun Resistance Chance
 4344	Rage Impact is a powerful support skill that can only be used with a Close Combat weapon equipped.\nThe skill can be used to instantly make a mob of enemies defenseless, much like the Giant's Stomp skill.\nCounterattack must be sufficiently trained before you can learn Rage Impact.\n
-4345	Bash can only be used with a Close Combat weapon is equipped.\nSmash and Combat Mastery must be sufficiently trained before you can learn Bash
+4345	Bash can only be used when equipped with a Close Combat weapon. Sufficient training in the Smash and Combat Mastery skills is required before you can learn Bash.
 4346	A warrior must not lose their will to fight, even when surrounded. \nRage Impact unleashes waves of fighting spirit to overwhelm your opponents and give you the opening to take them down.\n
 4347	The bash skill supplements the slow attack speed of Smash.\nUse the skill to find weaknesses and chain progressively stronger attacks, but be careful of leaving yourself open.\nOnly expert warriors who have undergone arduous training can use this skill efficiently.\n
 4348	Go through the [Learn Rage Impact] quest, obtained when the [Counterattack] skill is at Rank 9 or higher and [Combat Mastery] is at Rank 5 or higher.\n
@@ -3029,10 +3029,10 @@
 4568	Achieve character level 100. If you are a novice without an active talent, try spending a little more time getting adjusted to the world.
 4569	Achieve character level 100. If you are a novice without an active talent, try spending a little more time getting adjusted to the world.
 4570	Achieve character level 100. If you are a novice without an active talent, try spending a little more time getting adjusted to the world.
-4571	You are blessed by Eweca, the red moon that shines in the night sky of Erinn. Many stats increase. The longer you stay in this world, the more adept you become at controlling the blessing.
-4572	You are blessed by Ladeca, the blue moon that shines in the night sky of Erinn. Speed increases for a set time. The longer you stay in this world, the more adept you become at controlling the blessing.
-4573	You are blessed by Ladeca, the blue moon that shines in the night sky of Erinn. Ranged attack becomes faster and more accurate in combat. The longer you stay in this world, the more adept you become at controlling the blessing.
-4574	You are blessed by Ladeca, the blue moon that shines in the night sky of Erinn. Attack becomes faster and more powerful when using close combat talent skills with close combat weapons. The longer you stay in this world, the more adept you become at controlling the blessing.
+4571	You are blessed by Eweca, the red moon that shines in Erinn's night sky. This boon empowers body and mind, increasing your stats. The longer you stay in this world, the more adept you'll become at manifesting this blessing.
+4572	You are blessed by Ladeca, the blue moon that shines in Erinn's night sky. This boon increases your Movement Speed. The longer you stay in this world, the more adept you'll become at manifesting this blessing.
+4573	You are blessed by Ladeca, the blue moon that shines in Erinn's night sky. This boon imparts greater speed and accuracy to ranged attacks. The longer you stay in this world, the more adept you'll become at manifesting this blessing.
+4574	You are blessed by Ladeca, the blue moon that shines in Erinn's night sky. This boon imparts greater power and speed to any Close Combat Talent skills performed with melee weapons. The longer you stay in this world, the more adept you'll become at manifesting this blessing.
 4575	Achieve character level 50. If you are a novice without an active talent, try spending a little more time getting adjusted to the world.
 4576	Achieve character level 100. If you are a novice without an active talent, try spending a little more time getting adjusted to the world.
 4577	Achieve character level 100. If you are a novice without an active talent, try spending a little more time getting adjusted to the world.
@@ -3244,7 +3244,7 @@
 4824	Damage
 4825	Might of Ladeca
 4826	Achieve character level 100. If you are a novice without an active talent, try spending a little more time getting adjusted to the world.
-4827	You are blessed by Ladeca, the blue moon that shines in Erinn's night sky. Your attacks become faster and more powerful when using close combat talent skills with close combat weapons. When both the skill and the weapon are Chain Slash ones, you are truly at your most devastating. The longer you stay in this world, the more adept you'll become at controlling this blessing.
+4827	You are blessed by Ladeca, the blue moon that shines in Erinn's night sky. This boon imparts greater power and speed to any Close Combat Talent skills performed with melee weapons, and strengthens Chain Slash Talent skills as well. Skills empowered by Ladeca will lend their increased potency to the base damage of any Arcana skills that draw upon them. The longer you stay in this world, the more adept you will become at manifesting this blessing.
 4828	Achieve character level 100. If you are a novice without an active talent, try spending a little more time getting adjusted to the world.
 4829	Damage Amplification
 4830	Complete the [A Sharp Eye] quest, which you receive after completing the Chain Slash scenario quest, which you can access by reaching Rank 1 in Chain Blade Mastery and Rank 3 in Dorcha Mastery. Alternatively, you can access the quest by creating a Baltane Special Unit.
@@ -4415,7 +4415,7 @@
 6492	You are blessed by Ladeca, the blue moon that shines in the night sky of Erinn. Your speed increases, and you will do bonus damage for a set time when using close combat skills with twin swords. The longer you stay in this world, the more adept you become at controlling the blessing.
 6493	Achieve character level 100. If you are a novice without an active talent, try spending a little more time getting adjusted to the world.
 6494	Urgent Shot
-6495	Urgent Shot allows you to focus your mind to fire arrows faster than usual. Use it to attack and interrupt the enemy's actions, knocking back the enemy. Your next archery attacks will have increased damage for a set time.
+6495	Urgent Shot allows you to focus your mind to draw and loose an arrow faster than usual. Use it to attack and interrupt an enemy's actions, knocking them back. This moment of concentration increases the damage dealt by Archery skills for a set time, and will also affect the base damage of any Arcana skills that draw upon them.
 6496	Complete the Creating Opportunity from Crisis quest after Support Shot is Rank B or higher.
 6497	Damage
 6498	Cooldown Reduced
@@ -4521,9 +4521,60 @@
 6605	Fusion Bolt is an advanced technique which combines the powers of two different types of Bolt Magic. In the past, a true fusion could only be produced by two party members casting magic simultaneously. However, after much research, a method was discovered allowing a single person to accomplish the same feat. The simplest method is to start casting Bolt Magic with your currently equipped magic tool, and then to cast a different attribute before preparation is complete. However, skilled mages can begin casting a fusion immediately.
 6606	Learn [Bolt Mastery], then talk to [Stewart] in Dunbarton with the [Skills] keyword.
 6607	Damage
+6613	Lance Leap
+6614	Lance Impact
+6615	Lance Leap was devised to compensate for the weapon's inherent shortcoming of being unable to bring its full power to bear at close range. Skilled lancers saw the need for defensive maneuvers beyond simply the Lance Counter, a stance difficult to hold indefinitely in a pitched battle. The Lance Leap was devised as a means by which a combatant can open distance between themselves and their opponent, securing a more advantageous position from which to quickly launch their next big attack.
+6616	Lance Impact strikes an enemy with a heavy blow, the force of which either knocks the foe back, or pushes the lancer away from them. Skilled lancers saw the need for a strong attack to supplement their Lance Charges, developing Lance Impact to take advantage of a lance's length and heft to simultaneously attack and open distance between themselves and their opponent. This allows a combatant to better avoid lances' limitations at close range.
+6617	Lance Leap was devised to compensate for the weapon's inherent shortcoming of being unable to bring its full power to bear at close range. Skilled lancers saw the need for defensive maneuvers beyond simply the Lance Counter, a stance difficult to hold indefinitely in a pitched battle. The Lance Leap was devised as a means by which a combatant can open distance between themselves and their opponent, securing a more advantageous position from which to quickly launch their next big attack.
+6618	Lance Impact strikes an enemy with a heavy blow, the force of which either knocks the foe back, or pushes the lancer away from them. Skilled lancers saw the need for a strong attack to supplement their Lance Charges, developing Lance Impact to take advantage of a lance's length and heft to simultaneously attack and open distance between themselves and their opponent. This allows a combatant to better avoid lances' limitations at close range.
+6619	Reach Lance Counter Rank 9
+6620	Reach Lance Charge Rank 5
+6621	Movement Distance
+6622	Skill Range
+6623	Accumulated Cooldown
+6624	Damage (Single Target)
+6625	Accumulated Cooldown Limit
+6626	Damage (Linear AoE)
+6627	Unmounted Lance Charge Buff Duration
+6628	Skill Attack Area (Width)
+6629	Unmounted Lance Charge Acceleration
+6630	Skill Attack Area (Height)
+6631	Player Knockback Distance
+6632	Target Knockback Distance
+6633	Linear Enemy Knockback Distance
+6634	Knockdown Duration
+6635	Lance Combat Talent Additional Damage
+6636	Counterattack
+6637	Bash
+6638	Breath of Ladeca
+6639	Counterattack allows a combatant to turn the strength of an opponent's blow against them. The effective use of this skill will greatly increase one's ability to stand their ground in a battle, allowing them to reflect almost any blow. The stronger the force behind an enemy's attack, the stronger the counterattack will be. Using Knuckles, a weapon favored by Fighters, allows you to utilize Counterattack even more nimbly.
+6640	Bash can only be used when equipped with a Close Combat weapon. Sufficient training in the Smash and Combat Mastery skills is required before you can learn Bash.
+6641	Achieve character level 100. If you are a novice without an active talent, try spending a little more time getting adjusted to the world.
+6642	Counterattack allows a combatant to turn the strength of an opponent's blow against them. The effective use of this skill will greatly increase one's ability to stand their ground in a battle, allowing them to reflect almost any blow. The stronger the force behind an enemy's attack, the stronger the counterattack will be. Using Knuckles, a weapon favored by Fighters, allows you to utilize Counterattack even more nimbly.
+6643	Bash's quick strikes provide a useful counterpoint to the slow but powerful blow of the Smash skill. It can be used to capitalize on an enemy's weakness, chaining progressively stronger hits together, as well as to quickly close the distance between a combatant and their foe. However, those who would employ Bash must also be wary of leaving themselves open, as the speed of its blows leaves the attacker open to a well-timed Counterattack or other defensive measures. One must also mind their Stamina so as not to overexert oneself and wind up exhausted at a critical moment. It is for these reasons that Bash is considered a skill only experienced warriors with considerable combat experience can utilize effectively.\n\nUsing Bash sets an aggressive tempo in battle, granting a combatant the ability to negate up to a certain level of auto-defense granted by an enemy's Heavy Stander passive skill. Warriors whose Bash energy has reached its peak will thus find that they deal increased damage with Close Combat skills and partially bypass foes' innate defenses. This increase in Close Combat skill damage also affects the base damage they contribute to any Arcana skills that draw upon them.
+6644	You are blessed by Ladeca, the blue moon that shines in Erinn's night sky. This boon increases your Movement Speed and adds bonus damage to normal Talent skills. Skills empowered by Ladeca will lend their increased potency to the base damage of any Arcana skills that draw upon them. The longer you stay in this world, the more adept you'll become at manifesting this blessing.
+6645	Start the tutorial.
+6646	Complete the [Learn Bash] quest, available when the [Smash] skill is at Rank 9 or higher and [Combat Mastery] is at Rank 5 or higher.
+6647	Achieve character level 100. If you are a novice without an active talent, try spending a little more time getting adjusted to the world.
+6648	When successful, grants the use of the opponent's Attack Rate.
+6649	Attack Rate when Successful
+6650	Movement Delay after Successful Counterattack (ms)
+6651	Dash Distance (cm)
+6652	Melee Damage Boost % at Rage Level 1
+6653	Melee Damage Boost % at Rage Level 2
+6654	Melee Damage Boost % at Rage Level 3
+6655	Melee Damage Boost % at Rage Level 4
+6656	Melee Damage Boost % at Rage Level 5
+6657	Vision of Ladeca
+6658	Achieve character level 100. If you are a novice without an active talent, try spending a little more time getting adjusted to the world.
+6659	You are blessed by Ladeca, the blue moon that shines in Erinn's night sky. This boon increases the speed and accuracy of your ranged attacks. Skills empowered by Ladeca will lend their increased potency to the base damage of any Arcana skills that draw upon them. The longer you stay in this world, the more adept you will become at manifesting this blessing.
+6660	Achieve character level 100. If you are a novice without an active talent, try spending a little more time getting adjusted to the world.
 6661	I'm In
 6662	An action which allows you to strike a special pose.
 6663	An action which allows you to strike a special pose.
+6664	After raising Charge to Rank B, complete the [Herbivores of Cenae] quest.
+6665	Cooldown Reduced
+6666	Chained Close Combat Skill Enhancement Boosted
 6670	Spin Dash
 6671	Injury Rate (%)
 6672	Horizontal Range (cm)
@@ -4534,6 +4585,10 @@
 6677	Unconscious Time (ms)
 6678	Min Damage
 6679	Max Damage
+6680	Breath of Ladeca
+6681	Achieve character level 100. If you are a novice without an active talent, try spending a little more time getting adjusted to the world.
+6682	You are blessed by Ladeca, the blue moon that shines in Erinn's night sky. This boon increases your Movement Speed and adds bonus damage to normal Talent skills. Skills empowered by Ladeca will lend their increased potency to the base damage of any Arcana skills that draw upon them. The longer you stay in this world, the more adept you'll become at manifesting this blessing.
+6683	Achieve character level 100. If you are a novice without an active talent, try spending a little more time getting adjusted to the world.
 6695	Light of Annihilation
 6696	Light of Destruction
 6697	Min Damage

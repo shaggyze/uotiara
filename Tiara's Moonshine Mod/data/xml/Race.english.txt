@@ -832,8 +832,8 @@
 998	(임시)레이드 고스트3
 999	Persian
 1000	Persian
-1001	Veggie & Fruit Shop
-1002	Fish & Meat Shop
+1001	Fruit && Veggies Shop
+1002	Meat && Fish Shop
 1003	Black Wolf
 1004	Black Wolf
 1005	Hamster
@@ -1421,7 +1421,7 @@
 1800	Volcano Rock Scorpion
 1801	Black Leopard
 1817	Balrog
-1827	Dragon Egg
+1827	Dragon Eggs
 1830	Crumena
 1846	Volcano Lizard
 1851	Volcano Rock Scorpion
@@ -9653,6 +9653,12 @@
 11952	Frostblossom Young Ceraunus
 11953	Star Sheep
 11954	Shooting Stars
+11960	Eirawen Doll Bag
+11961	Laoire Doll Bag
+11962	Briana Doll Bag
+11963	Sinead Doll Bag
+11964	Eochaid Doll Bag
+11965	Cowenna Doll Bag
 11966	Leprechaun
 11967	Dog Sled
 11968	Pack Camel
@@ -9732,6 +9738,7 @@
 12069	Wooden Man as Sturdy as the Succubus Queen
 12070	Wooden Man as Sturdy as Irusan
 12071	Wooden Man as Sturdy as Cailleach
+12124	Painting Sheep
 12330	케라우노스(이벤트용)
 12331	빛나는 별 투안
 12332	Archelon
@@ -9744,6 +9751,7 @@
 12339	Creag
 12340	Small Golem
 12341	Flying Sword
+12342	Sweet Coffee Cloud Bun
 12348	Single Rose
 12349	미니 모험가 코끼리
 12352	Tagar
@@ -9764,6 +9772,9 @@
 12388	Lightning Slime
 12389	Lightning Slime
 12390	Black Moon Follower
+12392	Human
+12393	Human
 12399	Hasidim
 12431	Lightning Slime
 12432	Lightning Slime
+12454	붉은빛 페어리 드래곤

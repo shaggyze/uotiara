@@ -11957,13 +11957,13 @@
 13434	Imbolic Season 2 Challenger
 13435	Imbolic Season 3 Challenger
 13436	a Commerce Champion
-13437	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Imbolic Season 1. Can be used with regular titles.
-13438	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Imbolic Season 2. Can be used with regular titles.
-13439	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Imbolic Season 3. Can be used with regular titles.
+13437	A glorious 2nd Title given to those who reached the rank of Challenger during Commerce Imbolic Season 1. Can be used with regular titles.
+13438	A glorious 2nd Title given to those who reached the rank of Challenger during Commerce Imbolic Season 2. Can be used with regular titles.
+13439	A glorious 2nd Title given to those who reached the rank of Challenger during Commerce Imbolic Season 3. Can be used with regular titles.
 13440	A glorious 2nd Title awarded to those who ranked within the top 100 during a Commerce Season. Although its stat bonuses will disappear after the expiration date, you will retain the title afterward and can still use it.
-13441	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Imbolic Season 1. Can be used with regular titles.
-13442	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Imbolic Season 2. Can be used with regular titles.
-13443	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Imbolic Season 3. Can be used with regular titles.
+13441	A glorious 2nd Title given to those who reached the rank of Challenger during Commerce Imbolic Season 1. Can be used with regular titles.
+13442	A glorious 2nd Title given to those who reached the rank of Challenger during Commerce Imbolic Season 2. Can be used with regular titles.
+13443	A glorious 2nd Title given to those who reached the rank of Challenger during Commerce Imbolic Season 3. Can be used with regular titles.
 13444	A glorious Title given to those who ranked within the top 100 during a Commerce Season.
 13445	Movement Speed +3%
 13446	Movement Speed +3%
@@ -14039,12 +14039,12 @@
 15544	Alban Eiler Season 1 Challenger
 15545	Alban Eiler Season 2 Challenger
 15546	Alban Eiler Season 3 Challenger
-15547	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Alban Eiler Season 1. Can be used with regular titles.
-15548	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Alban Eiler Season 2. Can be used with regular titles.
-15549	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Alban Eiler Season 3. Can be used with regular titles.
-15550	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Alban Eiler Season 1. Can be used with regular titles.
-15551	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Alban Eiler Season 2. Can be used with regular titles.
-15552	A glorious 2nd Title given to those who reach the rank of Challenger during Commerce Alban Eiler Season 3. Can be used with regular titles.
+15547	A glorious 2nd Title given to those who reached the rank of Challenger during Commerce Alban Eiler Season 1. Can be used with regular titles.
+15548	A glorious 2nd Title given to those who reached the rank of Challenger during Commerce Alban Eiler Season 2. Can be used with regular titles.
+15549	A glorious 2nd Title given to those who reached the rank of Challenger during Commerce Alban Eiler Season 3. Can be used with regular titles.
+15550	A glorious 2nd Title given to those who reached the rank of Challenger during Commerce Alban Eiler Season 1. Can be used with regular titles.
+15551	A glorious 2nd Title given to those who reached the rank of Challenger during Commerce Alban Eiler Season 2. Can be used with regular titles.
+15552	A glorious 2nd Title given to those who reached the rank of Challenger during Commerce Alban Eiler Season 3. Can be used with regular titles.
 15553	Movement Speed +3%
 15554	Movement Speed +3%
 15555	Movement Speed +3%
@@ -14524,6 +14524,20 @@
 16169	Luck +30
 16170	Luck +30
 16171	Luck +30
+16172	the Master of Lance Leap
+16173	the Master of Lance Impact
+16174	the Master of Lance Leap
+16175	the Master of Lance Impact
+16176	the Master of Lance Leap
+16177	the Master of Lance Impact
+16178	the Master of Lance Leap
+16179	the Master of Lance Impact
+16180	An honorable title awarded to one who has reached the highest level available in Lance Leap.
+16181	An honorable title awarded to one who has reached the highest level available in Lance Impact.
+16182	Reach 100 Training EXP for Lance Leap Rank 1 to receive a title that proves your mastery.
+16183	Reach 100 Training EXP for Lance Impact Rank 1 to receive a title that proves your mastery.
+16184	STR +20\nMax HP +100\n[DEX -10]
+16185	STR +10\nDEX +15\nWILL +10\n[LUK -20]
 16186	일본 18주년 마비노기 파티
 16187	일본 18주년 마비노기 파티
 16188	일본 18주년 마비노기 파티
@@ -14538,6 +14552,13 @@
 16197	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 16198	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 16199	채집 확률 10% 증가\n채집 속도 10% 증가\n자동 낚시 성공률 증가\n더 큰 물고기를 낚을 확률 증가\n전투 경험치 10% 증가\n이동 속도 2% 증가
+16200	Splash of Color
+16201	Splash of Color
+16202	Splash of Color
+16203	Splash of Color
+16204	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16205	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16206	Luck +30
 16235	is a friend of Froghus
 16236	is a friend of Froghus
 16237	is a friend of Froghus
@@ -14545,6 +14566,27 @@
 16239	A title given to Milletians whose hands never slipped as they confidently raised a frog to adulthood.
 16240	A title given to Milletians whose hands never slipped as they confidently raised a frog to adulthood.
 16241	Luck +25
+16242	Baltane Season 1 Challenger
+16243	Baltane Season 2 Challenger
+16244	Baltane Season 3 Challenger
+16245	Baltane Season 1 Challenger
+16246	Baltane Season 2 Challenger
+16247	Baltane Season 3 Challenger
+16248	Baltane Season 1 Challenger
+16249	Baltane Season 2 Challenger
+16250	Baltane Season 3 Challenger
+16251	Baltane Season 1 Challenger
+16252	Baltane Season 2 Challenger
+16253	Baltane Season 3 Challenger
+16254	A glorious 2nd Title given to those who reached the rank of Challenger during Commerce Baltane Season 1. Can be used with regular titles.
+16255	A glorious 2nd Title given to those who reached the rank of Challenger during Commerce Baltane Season 2. Can be used with regular titles.
+16256	A glorious 2nd Title given to those who reached the rank of Challenger during Commerce Baltane Season 3. Can be used with regular titles.
+16257	A glorious 2nd Title given to those who reached the rank of Challenger during Commerce Baltane Season 1. Can be used with regular titles.
+16258	A glorious 2nd Title given to those who reached the rank of Challenger during Commerce Baltane Season 2. Can be used with regular titles.
+16259	A glorious 2nd Title given to those who reached the rank of Challenger during Commerce Baltane Season 3. Can be used with regular titles.
+16260	Movement Speed +3%
+16261	Movement Speed +3%
+16262	Movement Speed +3%
 16291	Rain of Jewels
 16292	Shimmering Helix
 16293	Rain of Jewels
@@ -14685,19 +14727,19 @@
 16624	다양한 연인들과 인연을 맺고, 따스한 사랑으로 도움을 건넨 밀레시안에게 주어지는 타이틀.
 16625	다양한 연인들과 인연을 맺고, 따스한 사랑으로 도움을 건넨 밀레시안에게 주어지는 타이틀.
 16626	행운 30 증가
-16634	1시즌 크리에이터 미션 컴플리트
-16635	1시즌 크리에이터 미션 컴플리트
-16636	1시즌 크리에이터 미션 컴플리트
-16637	1시즌 크리에이터 미션 컴플리트
+16634	마스터 크리에이터즈
+16635	마스터 크리에이터즈
+16636	마스터 크리에이터즈
+16637	마스터 크리에이터즈
 16638	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 16639	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 16640	행운 30 증가
-16641	1시즌 크리에이터
-16642	1시즌 크리에이터
-16643	1시즌 크리에이터
-16644	1시즌 크리에이터
-16645	1시즌 크리에이터에 선정된 밀레시안에게 지급되는 1차 타이틀.
-16646	1시즌 크리에이터에 선정된 밀레시안에게 지급되는 1차 타이틀.
+16641	크리에이터즈
+16642	크리에이터즈
+16643	크리에이터즈
+16644	크리에이터즈
+16645	크리에이터에 선정된 밀레시안에게 지급되는 1차 타이틀.
+16646	크리에이터에 선정된 밀레시안에게 지급되는 1차 타이틀.
 16647	행운 30 증가
 16655	일본 19주년 마비노기 파티
 16656	19주년 마비노기 파티
@@ -14706,3 +14748,24 @@
 16659	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 16660	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 16661	최대 생명력 19 증가\n최대 마나 19 증가\n스태미나 19 증가\n행운 30 증가\n더 이상 키가 자라지 않음
+16662	Real-Life Milletian
+16663	Real-Life Milletian
+16664	Real-Life Milletian
+16665	Real-Life Milletian
+16666	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16667	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16668	Luck +30
+16690	the Artist's Muse
+16691	Erinn's Idol
+16692	the Artist's Muse
+16693	Erinn's Idol
+16694	the Artist's Muse
+16695	Erinn's Idol
+16696	the Artist's Muse
+16697	Erinn's Idol
+16698	A Title given to Milletians who became a spark of brilliant inspiration to the many artists of Erinn.
+16699	A Title given to Milletians who showcased their marvelous musical talent for the inhabitants of Erinn.
+16700	A Title given to Milletians who became a spark of brilliant inspiration to the many artists of Erinn.
+16701	A Title given to Milletians who showcased their marvelous musical talent for the inhabitants of Erinn.
+16702	
+16703	
