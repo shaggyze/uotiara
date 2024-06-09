@@ -6475,7 +6475,7 @@ set("C4_human")
 		
 		"uni_dk_blade_processing"
 			0:lookat(off)
-			 0:quake(30,30,30,1500)
+			//0:quake(30,30,30,1500)
 			0:hand(both, fist)
 			0:sound("data\sound\judgement_blade_02_wait.wav")
 			30:sound("data\sound\judgement_blade_03_process.wav")
@@ -7280,7 +7280,7 @@ set("C4_human")
 			0:face(upset)
 			0:hand(both, fist)
 			0:hit(down, normal)
-			 0:quake(15,15,15,1000)
+			//0:quake(15,15,15,1000)
 			0:sound("data\sound\golem_stomp.wav")
 
 
@@ -8098,7 +8098,7 @@ set("C4_human")
 			25:effect("ftaS_sword_boom001")
 			15:effect("ftaS_sword_boom002")			
 			20:effect("ftaS_bottom01")
-           	 0:quake(20, 20, 40, 100)
+           	//0:quake(20, 20, 40, 100)
 			25:sound("data\sound\judgement_blade_03_process.wav")
 			60:generic ("custom_mesh(1)")	
 
@@ -8160,15 +8160,15 @@ set("C4_human")
             4:effect("ftas_swing_trail101")		
             4:effect("fta_stompR")			
 			4:sound("data\sound\giant_fullswing_swing.wav")
-			 0:quake(8,8,8,200)
+			//0:quake(8,8,8,200)
             15:effect("ftas_swing_trail102")
             15:effect("fta_stompL")		
 			15:sound("data\sound\2hand_swing.wav")			
-			 0:quake(10,10,8,200)
+			//0:quake(10,10,8,200)
             44:effect("ftas_swing_trail103")
 			43:sound("data\sound\giant_fullswing_hit.wav")			
             44:effect("fta_stomp01")		
-			 0:quake(30,30,20,200)
+			//0:quake(30,30,20,200)
 			
 		"uni_tool_bothhand_e02_fta_IA_processing_trail"
 			0:lookat(off)
@@ -8450,7 +8450,7 @@ set("tool_Bhand_G")
 			0:effectoff("fta_a_wind001")	
 			0:effectoff("fta_a_wind002")				
 			0:effectoff("fta_a_point01")	
-			 0:quake(20, 20, 40, 100)
+			//0:quake(20, 20, 40, 100)
 	endfolder
 endset
 
@@ -21035,7 +21035,7 @@ set("C4_giant")
 			0:face(upset)
 			0:hand(both, fist)
 			0:hit(down, normal)
-			 0:quake(15,15,15,1000)
+			//0:quake(15,15,15,1000)
 			0:sound("data\sound\golem_stomp.wav")
 
 			
@@ -21688,16 +21688,16 @@ set("C4_giant")
 		"giant_hand_E03_natural_run"
 			0:hand(right, fist)
 			10:effect("footstep_right_giant")
-			 0:quake(8, 8, 8, 100)
+			//0:quake(8, 8, 8, 100)
 			24:effect("footstep_left_giant")
-			 0:quake(8, 8, 8, 100)
+			//0:quake(8, 8, 8, 100)
 		
 		"giant_hand_E03_offensive_run"
 			0:hand(right, fist)
 			10:effect("footstep_right_giant")
-			 0:quake(8, 8, 8, 100)
+			//0:quake(8, 8, 8, 100)
 			24:effect("footstep_left_giant")
-			 0:quake(8, 8, 8, 100)
+			//0:quake(8, 8, 8, 100)
 			
 		"giant_hand_E03_stand_friendly"
 			0:hand (right, fist)
@@ -21725,7 +21725,7 @@ set("C4_giant")
 			0:hand (right, fist)
 			0:hand (left, palm)		
 			16:hit(up,normal)
-			 0:quake(10, 10, 10, 100)
+			//0:quake(10, 10, 10, 100)
 			16:sound("data\sound\golem_stomp.wav")
 			
 			
@@ -21744,11 +21744,11 @@ set("C4_giant")
             8:effect("ftab_swing_trail01")
             18:effect("ftab_swing_trail01")					
 			5:sound("data\sound\golem_stomp.wav")
-			 0:quake(10, 10, 10, 100)
+			//0:quake(10, 10, 10, 100)
 			13:sound("data\sound\golem_stomp.wav")
-			 0:quake(10, 10, 10, 100)
+			//0:quake(10, 10, 10, 100)
 			23:sound("data\sound\golem_stomp.wav")
-			 0:quake(30, 30, 20, 100)
+			//0:quake(30, 30, 20, 100)
             0:effect("ftab_swing_wind01")
 			0:sound("data\sound\windmill.wav")
             8:effect("ftab_swing_wind01")
@@ -26218,7 +26218,7 @@ set("alchemy")
 			0:lookat(off)
 			6:effect("edo_lightning_S")
 			6:sound("data\sound\weather_thunder_0.wav")
-			 0:quake(20,20,30,1500)
+			//0:quake(20,20,30,1500)
 
 ///////////로이임시
 
@@ -26295,7 +26295,7 @@ set("alchemy")
 	"human_demigod_trans"
 		0:lookat(off)
     		0:hand (both, fist)
-		 0:quake(15,15,15,1500)
+		//0:quake(15,15,15,1500)
 
 	//반신화 집중 공격 캐스팅
 	"human_demi_lightspear_casting"
@@ -26318,7 +26318,7 @@ set("alchemy")
 		0:sound("data\sound\awakening_of_light_ready.wav")
 		0:lookat(off)
     		0:hand (both, fist)
-		 0:quake(15,15,15,1500)
+		//0:quake(15,15,15,1500)
 
 
 
@@ -40016,7 +40016,7 @@ set("monster_scarecro")
 		"scarecrow01_stomp"
 			28:sound("data\sound\golem_stomp.wav")
 			28:effect("scarecrow_stomp_01")
-			 0:quake(25,25,30,1500)
+			//0:quake(25,25,30,1500)
 
 
 
@@ -41426,7 +41426,7 @@ set("monster_mammoth")
 
 		"mammoth_blowaway_ground"
 			0:lookat(off)
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 			4:sound("data\sound\Down.wav")
 
 		"mammoth_down"
@@ -41468,7 +41468,7 @@ set("monster_mammoth")
 
 		"mammoth_golemstomp"
 			0:sound("data\sound\golem_stomp.wav")
-			 0:quake(25,25,30,1500)
+			//0:quake(25,25,30,1500)
 			
 	endfolder
 
@@ -41987,7 +41987,7 @@ set("monster_bear01")
 		"bear01_natural_blowaway_ground"
 			1:sound("data\\sound\\golem01_walk.wav")
 			0:lookat(off)
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 
 		"bear01_natural_downB"
 			0:lookat(off)
@@ -42267,7 +42267,7 @@ set("monster_lizard01")
 
 		"lizard_natural_blowaway_ground"
 			0:lookat(off)
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 
 		"lizard_natural_downB"
 			0:lookat(off)
@@ -42425,7 +42425,7 @@ set("monster_crocodile")
 
 		"crocodile_natural_blowaway_ground"
 			0:lookat(off)
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 
 		"crocodile_natural_downB"
 			0:lookat(off)
@@ -42472,16 +42472,16 @@ set("monster_giantcrocodile")
 
 
 		"crocodile_giant_offensive_run"
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			2:sound("data\sound\golem01_walk.wav")
 		 	0:effect("crocodile_walk_2")
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			4:sound("data\sound\golem01_walk.wav")
 		 	2:effect("crocodile_walk_4")
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			20:sound("data\sound\golem01_walk.wav")
 		 	23:effect("crocodile_walk_1")
-			 0:quake(0,10,5,2000)//	* quake
+			//0:quake(0,10,5,2000)//	* quake
 //		[프레임수]:quake([가로 진동 폭], [세로 진동 폭], [지속 프레임], [범위])
 //
 //		: 이 이벤트가 카메라로부터 주어진 범위 내에서 일어난 경우, 카메라를
@@ -42513,7 +42513,7 @@ set("monster_giantcrocodile")
 
 		"crocodile_giant_natural_blowaway_ground"
 			0:lookat(off)
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 		 	1:effect("crocodile_full_swing_1")
 		 	1:effect("crocodile_full_swing_2")
 
@@ -42528,25 +42528,25 @@ set("monster_giantcrocodile")
 
 		"crocodile_giant_stand_turn"
 			0:lookat(off)
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			47:sound("data\sound\golem01_walk.wav")
 		 	45:effect("crocodile_walk_2")
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			70:sound("data\sound\golem01_walk.wav")
 		 	68:effect("crocodile_walk_1")
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			94:sound("data\sound\golem01_walk.wav")
 		 	92:effect("crocodile_walk_2")
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			119:sound("data\sound\golem01_walk.wav")
 		 	117:effect("crocodile_walk_1")
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			138:sound("data\sound\golem01_walk.wav")
 		 	136:effect("crocodile_walk_2")
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			73:sound("data\sound\golem01_walk.wav")
 		 	71:effect("crocodile_walk_4")
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			101:sound("data\sound\golem01_walk.wav")
 		 	99:effect("crocodile_walk_1")
 			161:changedir(180)
@@ -42567,16 +42567,16 @@ set("monster_giantcrocodile")
 		"crocodile_swim_disappear"
 			0:lookat(off)
                         270:jump(270)
-                         0:quake(0,10,5,2000)
+                        //0:quake(0,10,5,2000)
                         2:sound("data\sound\giantcrocodile_appear.wav")
 		 	2:effect("crocodile_walk_2")
-                         0:quake(0,10,5,2000)
+                        //0:quake(0,10,5,2000)
                         23:sound("data\sound\giantcrocodile_appear.wav")
 		 	23:effect("crocodile_walk_4")
-                         0:quake(0,10,5,2000)
+                        //0:quake(0,10,5,2000)
                         24:sound("data\sound\giantcrocodile_appear.wav")
 		 	24:effect("crocodile_walk_1")
-                         0:quake(0,10,5,2000)
+                        //0:quake(0,10,5,2000)
                         43:sound("data\sound\giantcrocodile_appear.wav")
 		 	43:effect("crocodile_walk_3")
 
@@ -42590,46 +42590,46 @@ set("monster_giantcrocodile")
 			0:lookat(off)
 			37:effect("crocodile_dash_5")
 			37:sound("data\sound\giantcrocodile_dash.wav")
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			97:sound("data\sound\giantcrocodile_dash.wav")
 			97:sound("data\sound\golem01_walk.wav")
 			97:effect("crocodile_dash_2")
 		 	97:effect("crocodile_dash_5")
 
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			112:sound("data\sound\giantcrocodile_dash.wav")
 			112:sound("data\sound\golem01_walk.wav")
 		 	112:effect("crocodile_dash_4")
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			114:sound("data\sound\giantcrocodile_dash.wav")
 			114:sound("data\sound\golem01_walk.wav")
 		 	114:effect("crocodile_dash_1")
 
 		 	120:effect("crocodile_dash_5")
 
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			131:sound("data\sound\giantcrocodile_dash.wav")
 			131:sound("data\sound\golem01_walk.wav")
 		 	131:effect("crocodile_dash_3")
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			150:sound("data\sound\giantcrocodile_dash.wav")
 			151:sound("data\sound\golem01_walk.wav")
 		 	150:effect("crocodile_dash_2")
 
 		 	150:effect("crocodile_dash_5")
 
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			153:sound("data\sound\giantcrocodile_dash.wav")
 			153:sound("data\sound\golem01_walk.wav")
 		 	153:effect("crocodile_dash_4")
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			169:sound("data\sound\giantcrocodile_dash.wav")
 			169:sound("data\sound\golem01_walk.wav")
 		 	169:effect("crocodile_dash_1")
 
 		 	169:effect("crocodile_dash_5")
 
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			173:sound("data\sound\giantcrocodile_dash.wav")
 			173:sound("data\sound\golem01_walk.wav")
 		 	173:effect("crocodile_dash_2")
@@ -42639,11 +42639,11 @@ set("monster_giantcrocodile")
 
 		 	0:effect("crocodile_tail_1")
 		 	0:effect("crocodile_tail_2")
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			116:sound("data\sound\giantcrocodile_tailattack.wav")
 		 	116:effect("crocodile_dash_1")
 		 	116:effect("crocodile_dash_2")
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			122:sound("data\sound\giantcrocodile_tailattack.wav")
 		 	128:effect("crocodile_full_swing_1")
 		 	128:effect("crocodile_full_swing_2")
@@ -42652,11 +42652,11 @@ set("monster_giantcrocodile")
 		 	126:effect("crocodile_full_swing_5")
 		 	126:effect("crocodile_full_swing_6")
 		 	126:effect("crocodile_full_swing_7")
-			 0:quake(0,10,5,2000)
-			 0:quake(0,10,5,2000)
-			 0:quake(0,10,5,2000)
-			 0:quake(0,10,5,2000)
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 
 
 		"crocodile_giant_windmill"
@@ -42664,15 +42664,15 @@ set("monster_giantcrocodile")
 		 	90:effect("crocodile_tail_1")
 			90:sound("data\sound\giantcrocodile_windmill.wav")
 			90:effect("crocodile_tail_2")
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 		 	100:effect("crocodile_windmill_1")
-			 0:quake(0,10,5,2000)
-			 0:quake(0,10,5,2000)
-			// 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			//104:sound("data\sound\giantcrocodile_windmill.wav")
-			// 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			//120:sound("data\sound\giantcrocodile_windmill.wav")
-			// 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			//123:sound("data\sound\giantcrocodile_windmill.wav")
 
 
@@ -42680,7 +42680,7 @@ set("monster_giantcrocodile")
 
                         0:lookat(off)
                         95:sound("data\sound\Down.wav")
-                         0:quake(11,11,11,1000)
+                        //0:quake(11,11,11,1000)
 		 	95:effect("crocodile_die_1")
 		 	95:effect("crocodile_die_2")
 
@@ -42835,7 +42835,7 @@ set("monster_lion")
 		"bosslion_roar"
 			0:lookat(off)
 			25:sound("data\sound\lion_roar.wav")
-			 0:quake(10,10,120,5000)
+			//0:quake(10,10,120,5000)
 			50:effect("Lion_roar01")
 			70:effect("Lion_roar02")
 			80:effect("Lion_roar03")
@@ -42854,9 +42854,9 @@ set("monster_lion")
 
 		"bosslion_swing"
 			0:lookat(off)
-			 0:quake(5,5,20,1000)
+			//0:quake(5,5,20,1000)
 			100:sound("data\sound\golem_stomp.wav")
-			 0:quake(20,20,40,5000)
+			//0:quake(20,20,40,5000)
 			65:effect("Lion_swing02")
 			93:effect("Lion_swing03")
 			100:effect("Lion_swing01")
@@ -43391,7 +43391,7 @@ set("monster_worm")
 			0:lookat(off)
 
 		"worm_blowaway_ground"
-			 0:quake(20,20,20,1000)
+			//0:quake(20,20,20,1000)
 //			1:sound("data\\sound\\golem01_walk.wav")
 			0:lookat(off)
 
@@ -43508,7 +43508,7 @@ set("monster_balrog")
 			0:hand(both, fist)
 			0:sound("data\sound\golem_stomp.wav")
 			3:sound("data\sound\ogre_smash_01.wav")
-			 0:quake(20,20,20,1000)
+			//0:quake(20,20,20,1000)
 
 		"balrog_Rhand_A01_attack_counter"
 			13:hit(down,normal)
@@ -43565,7 +43565,7 @@ set("monster_balrog")
 		"balrog_Rhand_A01_blowaway_ground"
 			0:lookat(off)
 			0:sound("data\\sound\\golem01_walk.wav") //쿵
-			 0:quake(15,15,15,1000)
+			//0:quake(15,15,15,1000)
 
 		"balrog_Rhand_A01_blowaway_endure"
 			5:blowaway
@@ -43658,7 +43658,7 @@ set("monster_gargoyle")
 			0:hand(both, fist)
 			0:sound("data\sound\golem_stomp.wav")
 			3:sound("data\sound\ogre_smash_01.wav")
-			 0:quake(20,20,20,1000)
+			//0:quake(20,20,20,1000)
 
 		"gargoyle_Rhand_A01_attack_counter_01"
 			13:hit(down,normal)
@@ -43715,7 +43715,7 @@ set("monster_gargoyle")
 		"gargoyle_Rhand_A01_blowaway_ground"
 			0:lookat(off)
 			0:sound("data\\sound\\golem01_walk.wav") //쿵
-			 0:quake(15,15,15,1000)
+			//0:quake(15,15,15,1000)
 
 		"gargoyle_Rhand_A01_blowaway_endure"
 			5:blowaway
@@ -44671,7 +44671,7 @@ set("pet")
 		"pet_bear_natural_blowaway_ground"
 			1:sound("data\\sound\\golem01_walk.wav")
 			0:lookat(off)
-			 0:quake(5,5,5,600)
+			//0:quake(5,5,5,600)
 
 		"pet_bear_natural_downB"
 			0:lookat(off)
@@ -45017,7 +45017,7 @@ folder("char\pet\anim\bird")
 			5:effect("pet_bird_feather")
 			0:lookat(off)
 			1:sound("data\sound\Down.wav")
-			 0:quake(5,5,5,600)
+			//0:quake(5,5,5,600)
       
 		"pet_thunderbird_blowaway_headup"
 			5:effect("pet_bird_feather")
@@ -45238,7 +45238,7 @@ folder("char\pet\anim\bird")
 			5:effect("pet_bird_feather")
 			0:lookat(off)
 			1:sound("data\sound\Down.wav")
-			 0:quake(5,5,5,600)
+			//0:quake(5,5,5,600)
       
 		"pet_pelican_blowaway_headup"
 			5:effect("pet_bird_feather")
@@ -45551,7 +45551,7 @@ folder("char\pet\anim\deer")
 		"pet_deer_natural_blowaway_ground"
 			1:sound("data\\sound\\golem01_walk.wav")
 			0:lookat(off)
-			 0:quake(8,8,8,1500)
+			//0:quake(8,8,8,1500)
       
 		"pet_deer_natural_blowaway_headup"		
 			5:blowaway
@@ -46331,7 +46331,7 @@ folder("char\chapter3\pet\anim\elephant")
 		"pet_elephant_blowaway_ground"
 			1:sound("data\sound\Down.wav")
 			0:lookat(off)
-			 0:quake(5,5,5,1500)
+			//0:quake(5,5,5,1500)
 
 		"pet_elephant_blowaway_body"
 			0:lookat(off)
@@ -46365,7 +46365,7 @@ folder("char\chapter3\pet\anim\griffin")
 
 		"griffin_roar_processing"
       		        0:lookat(off)
-			 0:quake(10,10,120,5000)
+			//0:quake(10,10,120,5000)
 			0:sound("data\sound\griffin_roar.wav")
 			0:effect("griffin_roar01_01")
 			0:effect("griffin_roar02_01")
@@ -46840,7 +46840,7 @@ folder("char\pet\anim\horse")
 		"pet_horse_natural_blowaway_ground"
 			1:sound("data\\sound\\golem01_walk.wav")
 			0:lookat(off)
-			 0:quake(8,8,8,1500)
+			//0:quake(8,8,8,1500)
       
 		"pet_horse_natural_blowaway_headup"		
 			5:blowaway
@@ -47405,7 +47405,7 @@ folder("char\chapter4\pet\anim\gorilla")
 			0:lookat(off)
 			0:face(upset)
 			32:hit(up,spin)
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 	
 		"pet_c4_kokopo_attack"
 			14:hit(down,normal)
@@ -47481,17 +47481,17 @@ folder("char\chapter4\pet\anim\gorilla")
 		"pet_c4_kokopo_blow" ////고유스킬
 			0:lookat(off)
 			31:hit(up,spin)
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 			0:sound("data\sound\pillow_blow.wav")
 					
 		"pet_c4_kokopo_windmill" 
 			0:lookat(off)
 			4:hit(up,spin)
-			 0:quake(20,20,20,1500)
+			//0:quake(20,20,20,1500)
 			
 		"pet_c4_kokopo_summon"
 			0:lookat(off)		
-			 0:quake(20,20,20,1500)	
+			//0:quake(20,20,20,1500)	
 			0:effect("cocopo_apear001")
 			0:sound("data\sound\tuan_appear.wav")
 	endfolder
@@ -47801,7 +47801,7 @@ folder("char\chapter4\pet\anim\snowman")
 
 	"pet_snowman_summon"
 		0:lookat(off)
-		 0:quake(20,20,20,500)
+		//0:quake(20,20,20,500)
 		0:sound("data\sound\skill_berserker_hit.wav")
 
 	"pet_snowman_walk"
@@ -47915,7 +47915,7 @@ folder("char\chapter4\pet\anim\raiden")
 	
     "pet_raiden_summon" 
 		0:lookat(off)
-		 0:quake(20,20,20,2000)	
+		//0:quake(20,20,20,2000)	
 		0:sound("data\sound\thunderlion_summoned.wav")
 	"pet_raiden_Lance_Run"
 		0:lookat(off)	
@@ -48951,7 +48951,7 @@ folder("char\chapter4\pet\anim\alo")
 		"pet_kmntractor_SummonedDownClash"
 			0:sound("data\sound\BlackDragon_walk.wav")
 			0:lookat(off)
-			 0:quake(20,20,30,1500)	
+			//0:quake(20,20,30,1500)	
 			3:effect("chef_carriage_summon01")
 			3:effect("chef_carriage_summon02")
 			3:effect("chef_carriage_summon03")			
@@ -49239,7 +49239,7 @@ folder("char\chapter4\pet\anim\dinashee")
 	 
 	 "pet_c4_dinashee_summon"
 			0:lookat(off)		
-			 0:quake(20,20,20,1500)				
+			//0:quake(20,20,20,1500)				
 		    10:effect("dinashee_sumon001")			
 		    12:effect("dinashee_sumon002")		
 			0:sound("data\sound\pet_dinashee_summon.wav")			
@@ -50721,7 +50721,7 @@ folder("char\chapter4\pet\anim\dinashee")
 		"pet_chef_carriage_hitblowawaybound"
 			0:sound("data\sound\chef_carriage_down.wav")
 			0:lookat(off)
-			 0:quake(8,8,8,1500)
+			//0:quake(8,8,8,1500)
       
 	  	 "pet_chef_carriage_hitblowawayspin"
 			5:blowaway
@@ -50765,7 +50765,7 @@ folder("char\chapter4\pet\anim\dinashee")
 		"pet_chef_carriage_summon"
 			0:sound("data\sound\BlackDragon_walk.wav")
 			0:lookat(off)
-			 0:quake(20,20,30,1500)	
+			//0:quake(20,20,30,1500)	
 			3:effect("chef_carriage_summon01")
 			3:effect("chef_carriage_summon02")
 			3:effect("chef_carriage_summon03")			
@@ -51615,7 +51615,7 @@ folder("char\chapter4\pet\anim\pegasus")
 		"pet_c4_pegasus_groggy"
 
 		"pet_c4_pegasus_ground"
-			 0:quake(8,8,8,1500)
+			//0:quake(8,8,8,1500)
 
 		"pet_c4_pegasus_guard"
 
@@ -51808,7 +51808,7 @@ folder("char\chapter4\pet\anim\dragon")
 		 	3:effect("pet_dragon_windmill_fx")
 			0:lookat(off)
 			4:hit(up,spin)
-			 0:quake(20,20,20,1500)
+			//0:quake(20,20,20,1500)
 			3:sound("data\sound\golem_stomp.wav")
 
 		"pet_dragon_smash"
@@ -51946,13 +51946,13 @@ folder("char\chapter4\pet\anim\dragon")
 		// 파이어 드래곤의 소환 모션
 		"pet_firedragon_summon"
 			0:lookat(off)
-			 0:quake(20,20,30,1500)
+			//0:quake(20,20,30,1500)
 			0:sound("data\sound\FireStorm.wav")
 
 		// 썬더 드래곤의 소환 모션
 		"pet_thunderdragon_summon"
 			0:lookat(off)
-			 0:quake(20,20,30,1500)
+			//0:quake(20,20,30,1500)
 			6:sound("data\sound\PetDragon_Roar.wav")
 			0:sound("data\sound\weather_thunder_0.wav")
 
@@ -52059,7 +52059,7 @@ folder("char\chapter4\pet\anim\dragon")
 		 	3:effect("pet_dragon_two_windmill_fx")
 			0:lookat(off)
 			4:hit(up,spin)
-			 0:quake(20,20,20,1500)
+			//0:quake(20,20,20,1500)
 			3:sound("data\sound\golem_stomp.wav")
 
 		"pet_dragon_two_smash"
@@ -52177,7 +52177,7 @@ folder("char\chapter4\pet\anim\dragon")
 		// 썬더 드래곤의 소환 모션
 		"pet_thunderdragon_two_summon"
 			0:lookat(off)
-			 0:quake(20,20,30,1500)
+			//0:quake(20,20,30,1500)
 			6:sound("data\sound\PetDragon_Roar.wav")
 			0:sound("data\sound\weather_thunder_0.wav")
 
@@ -52209,7 +52209,7 @@ folder("char\chapter4\pet\anim\dragon")
 
 		"pet_Icedragon_summon"
 			0:lookat(off)
-			 0:quake(20,20,30,1500)
+			//0:quake(20,20,30,1500)
 		 	3:effect("pet_dragon_ice_summon")
 			6:sound("data\sound\PetDragon_Roar.wav")
 			0:sound("data\sound\hailstorm_wind.wav.wav")
@@ -52243,7 +52243,7 @@ folder("char\chapter4\pet\anim\dragon")
 			
 		"pet_orientaldragon_summon"
 			0:lookat(off)
-			 0:quake(10,10,20,700)			
+			//0:quake(10,10,20,700)			
 			0:effectoff("pet_dragon_booster01")
 			0:effectoff("pet_dragon_booster02")
 			6:sound("data\sound\PetDragon_Roar.wav")
@@ -52592,7 +52592,7 @@ folder("char\chapter4\pet\anim\dragon")
 		"pet_bonedragon_windmill_processing"
 			0:lookat(off)
 			2:hit(up,spin)
-			 0:quake(20,20,20,1500)
+			//0:quake(20,20,20,1500)
 			2:sound("data\sound\golem_stomp.wav")
 
 		"pet_bonedragon_summon"
@@ -53592,7 +53592,7 @@ set("flamemare")
 		// 파이어 드래곤의 소환 모션
 		"pet_flamemare_firestorm"
 			0:lookat(off)
-			 0:quake(20,20,30,1500)
+			//0:quake(20,20,30,1500)
 			0:sound("data\sound\FireStorm.wav")
 			13:sound("data\sound\horse_dagadac0.wav")
 			15:sound("data\sound\horse_dagadac2.wav")
@@ -53618,13 +53618,13 @@ set("flamemare")
 			0:lookat(off)
 			//18:sound("data\sound\horse_dagadac4.wav")
 			18:sound("data\sound\golem_summoned.wav")
-			 0:quake(20,20,30,1500)
+			//0:quake(20,20,30,1500)
 
 		"pet_flamemare_skill_jump_end"
 			0:lookat(off)
 			
 			0:sound("data\sound\golem_summoned.wav")
-			 0:quake(20,20,30,1500)
+			//0:quake(20,20,30,1500)
 
 			7:sound("data\sound\horse_dagadac1.wav")
 			8:sound("data\sound\horse_dagadac4.wav")
@@ -53872,7 +53872,7 @@ set("phoenix")
 			5:effect("pet_bird_feather")
 			0:lookat(off)
 			1:sound("data\sound\Down.wav")
-			 0:quake(5,5,5,600)
+			//0:quake(5,5,5,600)
       
 		"pet_c4_phoenix_blowaway_headup"
 			5:effect("pet_bird_feather")
@@ -55143,11 +55143,11 @@ set("phoenix")
             0:lookat(off)
 			0:generic ("custom_mesh(0)")			
             0:effect("welsh_summon001")
-             0:quake(5,5,10,200)                
+            //0:quake(5,5,10,200)                
             9:effect("welsh_summon002")
             25:effect("welsh_summon003")
             10:effect("welsh_summon004")
-             0:quake(1,1,10,1000)        
+            //0:quake(1,1,10,1000)        
             0:sound("data\sound\welshcorgi\Corgi_Barking_OutSide.wav")
 			7:sound("data\sound\welshcorgi\Corgi_Landing.wav")
 			27:sound("data\sound\welshcorgi\Corgi_Landing_2.wav")
@@ -55240,7 +55240,7 @@ set("phoenix")
 			0:generic ("custom_mesh(0)")
 			0:effect("vargr_Gleipnir_summon01",0,1)	
 			4:effect("vargr_Gleipnir_chain01",0,1)				
-			 0:quake(10,20,25,3000)		
+			//0:quake(10,20,25,3000)		
 			
 			
 		"pet_vargr_stand"
@@ -56028,7 +56028,7 @@ set("phoenix")
 		"Pet_lama_blowawaybound"
 			0:lookat(off)
 			0:effectoff("pet_dance01") 			
-			 0:quake(8,8,8,1500)
+			//0:quake(8,8,8,1500)
       
 	    "Pet_lama_blowawayspin"
 			5:blowaway
@@ -56192,11 +56192,11 @@ set("commerce")
 		"commerce_elephant_run"
 			0:lookat(off)
 			6:sound("data\sound\elephant_walk.wav")
-			// 0:quake(100,100,100,300)
+			//0:quake(100,100,100,300)
 			8:sound("data\sound\elephant_walk.wav")
-			// 0:quake(100,100,100,300)
+			//0:quake(100,100,100,300)
 			22:sound("data\sound\elephant_walk.wav")
-			// 0:quake(100,100,100,300)
+			//0:quake(100,100,100,300)
 
 
 		"commerce_elephant_walk"
@@ -56223,11 +56223,11 @@ set("commerce")
 		"commerce_elephant_memma_run"
 			0:lookat(off)
 			6:sound("data\sound\elephant_walk.wav")
-			// 0:quake(100,100,100,300)
+			//0:quake(100,100,100,300)
 			8:sound("data\sound\elephant_walk.wav")
-			// 0:quake(100,100,100,300)
+			//0:quake(100,100,100,300)
 			22:sound("data\sound\elephant_walk.wav")
-			// 0:quake(100,100,100,300)
+			//0:quake(100,100,100,300)
 
 
 		"commerce_elephant_memma_walk"
@@ -56319,32 +56319,32 @@ set("pythonstone")
 
 	"Pythonstone_syncope_start"
 			76:widesound("data\sound\uroboros_knockdown.wav")
-		 0:quake(0,7,7,2000)
+		//0:quake(0,7,7,2000)
 			76:widesound("data\sound\golem01_walk.wav")
-		 0:quake(0,3,3,1000)
+		//0:quake(0,3,3,1000)
 			106:widesound("data\sound\golem01_walk.wav")
 
 	"Pythonstone_rising"
 			0:widesound("data\sound\uroboros_appear.wav")
-		 0:quake(0,7,7,10000)
-		 0:quake(0,7,7,2000)
+		//0:quake(0,7,7,10000)
+		//0:quake(0,7,7,2000)
 
 
 	"pythonstone_dying_syncope"
 			28:widesound("data\sound\uroboros_death.wav")
 			88:widesound("data\sound\uroboros_roar.wav")
-		 0:quake(0,7,7,2000)
+		//0:quake(0,7,7,2000)
 			//123:widesound("data\sound\golem01_walk.wav")
-		 0:quake(0,3,3,1000)
+		//0:quake(0,3,3,1000)
 			//167:widesound("data\sound\golem01_walk.wav")	
 		215:jump(205)
 
 	"pythonstone_dying"
 			60:widesound("data\sound\uroboros_roar.wav")
 			0:widesound("data\sound\uroboros_death.wav")
-		 0:quake(0,7,7,2000)
+		//0:quake(0,7,7,2000)
 			//123:widesound("data\sound\golem01_walk.wav")
-		 0:quake(0,3,3,1000)
+		//0:quake(0,3,3,1000)
 			//167:widesound("data\sound\golem01_walk.wav")
 			198:jump(177)
 
@@ -57841,16 +57841,16 @@ set("monster_golem")
 		"golem02_dash_process"
 			0:lookat(off)
 			33:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 			33:effect("Tabh_Footstep_dust_L")
 			43:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 			43:effect("Tabh_Footstep_dust_R")
 			54:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 			54:effect("Tabh_Footstep_dust_L")
 			66:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 			66:effect("Tabh_Footstep_dust_R")
 			
 		"golem02_dash_finish"
@@ -57860,9 +57860,9 @@ set("monster_golem")
 			148:sound("data\\sound\\golem01_walk.wav")
 			172:sound("data\\sound\\golem01_walk.wav")
 			191:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(10,10,10,1500)
-			 0:quake(10,10,10,1500)
-			 0:quake(10,10,10,1500)
+			//0:quake(10,10,10,1500)
+			//0:quake(10,10,10,1500)
+			//0:quake(10,10,10,1500)
 			
 		"golem01_walk_friendly"
 		// total:90
@@ -57870,10 +57870,10 @@ set("monster_golem")
 			30:sound("data\\sound\\golem01_walk.wav")
 			51:sound("data\\sound\\golem01_walk.wav")
 			75:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(15,15,15,1500)
-			 0:quake(15,15,15,1500)
-			 0:quake(15,15,15,1500)
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 
 		"golem01_run"
 		// total:60
@@ -57881,10 +57881,10 @@ set("monster_golem")
 			30:sound("data\\sound\\golem01_walk.wav")
 			45:sound("data\\sound\\golem01_walk.wav")
 			60:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(20,20,10,1500)
-			 0:quake(20,20,10,1500)
-			 0:quake(20,20,10,1500)
-			 0:quake(20,20,10,1500)
+			//0:quake(20,20,10,1500)
+			//0:quake(20,20,10,1500)
+			//0:quake(20,20,10,1500)
+			//0:quake(20,20,10,1500)
 			// 60:R -> 60으로 해서 안나올 경우 0으로 해주세요;;
 
 		"golem01_attack_01"
@@ -57931,14 +57931,14 @@ set("monster_golem")
 
 		"golem01_golemstomp"
 			0:sound("data\sound\golem_stomp.wav")
-			 0:quake(25,25,30,1500)
+			//0:quake(25,25,30,1500)
 
 		"golem01_attack_smash_01"
 			0:ForceTargetInRange
 			0:lookat(off)
 			30:hit(up,normal)
-			 0:quake(15,15,10,1500)
-			 0:quake(25,25,30,1500)
+			//0:quake(15,15,10,1500)
+			//0:quake(25,25,30,1500)
 
 		"golem01_windmill_rising"
 		1:hit(up,spin)
@@ -57955,11 +57955,11 @@ set("monster_golem")
 			148:sound("data\\sound\\golem01_walk.wav")
 			172:sound("data\\sound\\golem01_walk.wav")
 			191:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(10,10,10,1500)
+			//0:quake(10,10,10,1500)
 			148:effect("Tabh_Handstep_dust_R")
-			 0:quake(10,10,10,1500)
+			//0:quake(10,10,10,1500)
 			172:effect("Tabh_Handstep_dust_L")
-			 0:quake(10,10,10,1500)
+			//0:quake(10,10,10,1500)
 			191:effect("Tabh_Handstep_dust_R")
 			
 			
@@ -57969,13 +57969,13 @@ set("monster_golem")
 			30:sound("data\\sound\\golem01_walk.wav")
 			51:sound("data\\sound\\golem01_walk.wav")
 			75:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 		  6:effect("Tabh_Footstep_dust_R")
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 			30:effect("Tabh_Handstep_dust_L")
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 			51:effect("Tabh_Footstep_dust_L")
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 			75:effect("Tabh_Handstep_dust_R")
 
 		"golem02_run"
@@ -57984,13 +57984,13 @@ set("monster_golem")
 			30:sound("data\\sound\\golem01_walk.wav")
 			45:sound("data\\sound\\golem01_walk.wav")
 			60:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(20,20,10,1500)
+			//0:quake(20,20,10,1500)
 			15:effect("Tabh_Footstep_dust_L")
-			 0:quake(20,20,10,1500)
+			//0:quake(20,20,10,1500)
 			30:effect("Tabh_Footstep_dust_R")
-			 0:quake(20,20,10,1500)
+			//0:quake(20,20,10,1500)
 			45:effect("Tabh_Footstep_dust_L")
-			 0:quake(20,20,10,1500)
+			//0:quake(20,20,10,1500)
 			60:effect("Tabh_Footstep_dust_R")
 			// 60:R -> 60으로 해서 안나올 경우 0으로 해주세요;;
 
@@ -58000,7 +58000,7 @@ set("monster_golem")
 
 		"golem02_golemstomp"
 			0:sound("data\sound\golem_stomp.wav")
-			 0:quake(25,25,30,1500)
+			//0:quake(25,25,30,1500)
 			1:effect("Tabh_stomp_HandR_splash")
 			4:effect("Tabh_stomp_HandR_dust")
 
@@ -58011,8 +58011,8 @@ set("monster_golem")
 			4:effect("Tabh_Footstep_dust_L")
 			35:effect("Tabh_smash_FootR_splash")
 			35:effect("Tabh_smash_FootR_dust")
-			 0:quake(15,15,10,1500)
-			 0:quake(25,25,30,1500)
+			//0:quake(15,15,10,1500)
+			//0:quake(25,25,30,1500)
 
 		"golem02_windmill_rising"
 			1:hit(up,spin)
@@ -58030,7 +58030,7 @@ set("monster_golem")
 			30:effect("yellow_golem_smoke_shoulder_01")
 
 		"mon_yellow_golem01_appear"
-			 0:quake(50,50,50,3000)
+			//0:quake(50,50,50,3000)
 			0:effect("yellow_golem_hand_appear_01")
 			0:effect("yellow_golem_hand_appear_02")
 
@@ -58043,9 +58043,9 @@ set("monster_golem")
 			169:effect("yellow_golem_hand_bomb_02")
 			191:sound("data\\sound\\golem01_walk.wav")
 			188:effect("yellow_golem_hand_bomb_01")
-			 0:quake(10,10,10,1500)
-			 0:quake(10,10,10,1500)
-			 0:quake(10,10,10,1500)
+			//0:quake(10,10,10,1500)
+			//0:quake(10,10,10,1500)
+			//0:quake(10,10,10,1500)
 			20:effect("yellow_golem_smoke_front_02")
 			20:effect("yellow_golem_smoke_shoulder_02")
 			0:effect("yellow_golem_dust_01")
@@ -58070,7 +58070,7 @@ set("monster_golem")
 
 		"mon_yellow_golem01_golemstomp"
 			0:sound("data\sound\golem_stomp.wav")
-			 0:quake(25,25,30,1500)
+			//0:quake(25,25,30,1500)
 			2:effect("yellow_golem_stomp_end_01")
 			3:effect("yellow_golem_stomp_end_02")
 
@@ -58079,8 +58079,8 @@ set("monster_golem")
 			0:ForceTargetInRange
 			0:lookat(off)
 			30:hit(up,normal)
-			 0:quake(15,15,10,1500)
-			 0:quake(25,25,30,1500)
+			//0:quake(15,15,10,1500)
+			//0:quake(25,25,30,1500)
 			0:effect("yellow_golem_smoke_front_02")
 			0:effect("yellow_golem_smoke_shoulder_02")
 			0:effect("yellow_golem_dust_01")
@@ -58308,7 +58308,7 @@ set("monster_cow")
 		"cow_blowaway_ground"
 			1:sound("data\\sound\\golem01_walk.wav")
 			0:lookat(off)
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 
 		"cow_blowaway_endure"
 			5:blowaway
@@ -58411,7 +58411,7 @@ set("monster_reindeer")
 		"reindeer_blowaway_ground"
 			1:sound("data\\sound\\golem01_walk.wav")
 			0:lookat(off)
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 
 		"reindeer_blowaway_endure"
 			5:blowaway
@@ -58719,8 +58719,8 @@ set("monster_ogre")
 			0:hand(both, palm)
 			9:sound("data\\sound\\golem01_walk.wav")
 			24:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(10,10,10,800)
-			 0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
 			0:effect("footstep_right_yeti")
 			10:effect("footstep_left_yeti")
 			0:effect("footstep_right_yeti01")
@@ -58771,7 +58771,7 @@ set("monster_ogre")
 		"ogre_natural_blowaway_ground"
 			0:lookat(off)
 			0:sound("data\\sound\\golem01_walk.wav") //쿵
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 			0:hand(both, palm)
 
 		"ogre_natural_downB"
@@ -58801,7 +58801,7 @@ set("monster_ogre")
 		"ogre_natural_stomp"
 			0:sound("data\sound\golem_stomp.wav")
 			0:sound("data\sound\ogre_smash_01.wav")
-			 0:quake(20,20,20,1000)
+			//0:quake(20,20,20,1000)
 			0:lookat(off)
 			0:hand(right, fist)
 			0:hand(left, palm)
@@ -58838,7 +58838,7 @@ set("monster_ogre")
 			0:hand(both, fist)
 			8:sound("data\sound\windmill.wav")
 			15:sound("data\sound\windmill_stop.wav")
-			 0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
 			31:sound("data\\sound\\golem01_walk.wav") //쿵
 
 		"ogre_natural_windmill_standing"
@@ -58847,7 +58847,7 @@ set("monster_ogre")
 			0:hand(both, fist)
 			8:sound("data\sound\windmill.wav")
 			15:sound("data\sound\windmill_stop.wav")
-			 0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
 			31:sound("data\\sound\\golem01_walk.wav")
 
 	endfolder
@@ -58858,13 +58858,13 @@ set("monster_ogre")
 			0:hand(both, fist)
 			9:sound("data\\sound\\golem01_walk.wav")
 			24:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(10,10,10,800)
-			 0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
 
 		"ogre_Bhand_E01_walk_offensive"
 			0:hand(both, fist)
-			 0:quake(0,5,7,500)
-			 0:quake(0,5,7,500)
+			//0:quake(0,5,7,500)
+			//0:quake(0,5,7,500)
 
 		"ogre_Bhand_E01_stand_offensive"
 			0:hand(both, fist)
@@ -58876,7 +58876,7 @@ set("monster_ogre")
 			5:sound("data\\sound\\attack_heavy.wav")
 			14:hit(up,spin)
 			14:sound("data\\sound\\ogre_hammer_hit.wav")
-			 0:quake(5,5,5,1000)
+			//0:quake(5,5,5,1000)
 			0:lookat(off)
 			0:hand(both, fist)
 
@@ -58893,7 +58893,7 @@ set("monster_ogre")
 		"ogre_Bhand_E01_blowaway_ground"
 			0:lookat(off)
 			1:sound("data\\sound\\golem01_walk.wav") //쿵
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 			0:hand(left, fist)
 			0:hand(right, palm)
 
@@ -58921,7 +58921,7 @@ set("monster_ogre")
 
 		"ogre_Bhand_E01_stomp"
 			0:sound("data\sound\golem_stomp.wav")
-			 0:quake(20,20,20,1000)
+			//0:quake(20,20,20,1000)
 			//3:sound("data\\sound\\ogre_hammer_hit.wav") <-이건 안나는게 나을듯
 			0:lookat(off)
 			0:hand(both, fist)
@@ -58945,7 +58945,7 @@ set("monster_ogre")
 			30:hit(up,spin)
 			0:hand(both, fist)
 			35:hand(right, palm)
-			 0:quake(5,5,7,800)
+			//0:quake(5,5,7,800)
 			50:sound("data\\sound\\golem01_walk.wav") //쿵
 
 		"ogre_Bhand_E01_blowaway_endure"
@@ -58984,21 +58984,21 @@ set("monster_ifrit")
 			0:hand(both, fist)
 			9:sound("data\\sound\\golem01_walk.wav")
 			24:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
 			9:effect("060614_ifrit_footL")
-			 0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
 			24:effect("060614_ifrit_footR")
 
 		"ogre_ifrit_Bhand_E01_walk_offensive"
 			0:hand(both, fist)
-			 0:quake(0,5,7,500)
+			//0:quake(0,5,7,500)
                         5:effect("060614_ifrit_footL")
-			 0:quake(0,5,7,500)
+			//0:quake(0,5,7,500)
 			30:effect("060614_ifrit_footR")
 
 		"ogre_ifrit_Bhand_E01_stomp"
 			0:sound("data\sound\golem_stomp.wav")
-			 0:quake(20,20,20,1000)
+			//0:quake(20,20,20,1000)
 			3:effect("060614_ifrit_stomp")
 			//3:sound("data\\sound\\ogre_hammer_hit.wav") <-이건 안나는게 나을듯
 			0:lookat(off)
@@ -59024,7 +59024,7 @@ set("monster_troll")
 		"troll_natural_blowaway_ground"
 			0:hand(both, palm)
 			1:sound("data\\sound\\golem01_walk.wav") //쿵
-			 0:quake(7,7,7,800)
+			//0:quake(7,7,7,800)
 
 	endfolder
 
@@ -59042,9 +59042,9 @@ set("monster_troll")
 			0:hand(right, fist)
 			0:hand(left, palm)
 			6:sound("data\\sound\\golem01_walk.wav") //쿵
-			 0:quake(7,7,7,500)
+			//0:quake(7,7,7,500)
 			18:sound("data\\sound\\golem01_walk.wav") //쿵
-			 0:quake(7,7,7,500)
+			//0:quake(7,7,7,500)
 
 		"troll_tool_Rhand_A02_attack_smash_01"
 			0:hand(right, fist)
@@ -59053,12 +59053,12 @@ set("monster_troll")
 			0:lookat(off)
 			25:sound("data\\sound\\Attack_heavy.wav")
 			30:hit(down,normal)
-			 0:quake(2,15,30,1000)
+			//0:quake(2,15,30,1000)
 
 		"troll_tool_Bhand_E01_blowaway_ground"
 			0:hand(both, fist)
 			1:sound("data\\sound\\golem01_walk.wav") //쿵
-			 0:quake(7,7,7,800)
+			//0:quake(7,7,7,800)
 
 	endfolder
 
@@ -61626,7 +61626,7 @@ set("nuadha")
 			16:effect("Nuadha_Stomp_hand_01")
 			16:effect("Nuadha_Stomp_hand02_01")
 			24:sound("data\sound\soul_taming.wav")
-			 0:quake(0,10,10,6000)
+			//0:quake(0,10,10,6000)
 			104:sound("data\sound\golem_stomp.wav")
 			112:sound("data\sound\heat_buster_explode.wav")
 			104:effect("Nuadha_Stomp_bomb_01")
@@ -61734,7 +61734,7 @@ set("nuadha")
 			0:hand(both, fist)
 			25:sound("data\sound\footstep\dungeon_run_giant03.wav")
 			27:sound("data\sound\footstep\dungeon_run_giant03.wav")
-			 0:quake(0,2,5,200)
+			//0:quake(0,2,5,200)
 
 
 
@@ -61835,8 +61835,8 @@ set("GlasGhaibhleann")
 			0:lookat(off)
 			41:sound("data\\sound\\golem01_walk.wav")
 			101:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(0,30,30,2500)
-			 0:quake(0,30,30,2500)
+			//0:quake(0,30,30,2500)
+			//0:quake(0,30,30,2500)
 			41:effect("Glas_Footstep_dust_L")
 			101:effect("Glas_Footstep_dust_R")
 			40:effect("Glasgavelen_breath_L_long")
@@ -61850,8 +61850,8 @@ set("GlasGhaibhleann")
 			9:effect("Glas_Footstep_dust_R")
 			31:sound("data\\sound\\golem01_walk.wav")
 			31:effect("Glas_Footstep_dust_L")
-			 0:quake(0,30,30,2500)
-			 0:quake(0,30,30,2500)
+			//0:quake(0,30,30,2500)
+			//0:quake(0,30,30,2500)
 			16:effect("Glasgavelen_breath_L_short")
 			16:effect("Glasgavelen_breath_R_short")
 			38:effect("Glasgavelen_breath_L_short")
@@ -61892,10 +61892,10 @@ set("GlasGhaibhleann")
 			23:sound("data\sound\golem01_walk.wav")
 			32:sound("data\sound\golem01_walk.wav")
 			47:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,15,15,1500)
-			 0:quake(0,12,12,1500)
-			 0:quake(0,9,9,1200)
-			 0:quake(0,7,7,1200)
+			//0:quake(0,15,15,1500)
+			//0:quake(0,12,12,1500)
+			//0:quake(0,9,9,1200)
+			//0:quake(0,7,7,1200)
 			5:effect("Glasgavelen_breath_L_long")
 			5:effect("Glasgavelen_breath_R_long")
 			70:effect("Glasgavelen_breath_L_short")
@@ -61975,9 +61975,9 @@ set("CrommCruaich")
 			42:effect("Cromm_Foot_R_landing_dust_small")
 			196:effect("Cromm_Foot_R_landing_dust_small")
 			218:effect("Cromm_Foot_L_landing_dust_small")
-			 0:quake(0,7,7,2000)
-			 0:quake(0,7,7,2000)
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			42:sound("data\sound\golem01_walk.wav")
 			196:sound("data\sound\golem01_walk.wav")
 			218:sound("data\sound\golem01_walk.wav")
@@ -61998,21 +61998,21 @@ set("CrommCruaich")
 			156:effect("Cromm_Foot_R_landing_dust_small")
 			48:effect("Cromm_Tailattack_windpressure_01")
 			48:effect("Cromm_Tailattack_windpressure_dust")
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			11:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			28:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,15,5,2000)
+			//0:quake(0,15,5,2000)
 			50:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,5,2000)
+			//0:quake(0,7,5,2000)
 			74:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,5,2000)
+			//0:quake(0,7,5,2000)
 			88:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,5,2000)
+			//0:quake(0,7,5,2000)
 			107:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,5,2000)
+			//0:quake(0,7,5,2000)
 			134:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,5,2000)
+			//0:quake(0,7,5,2000)
 			156:sound("data\sound\golem01_walk.wav")
 			45:sound("data\sound\cromm_tailattack_tail.wav")
 
@@ -62020,11 +62020,11 @@ set("CrommCruaich")
 		"CrommCruaich_dashattack_dash"
 			0:lookat(off)
 			19:effect("Cromm_Foot_R_landing_dust_small")
-			 0:quake(0,7,5,2000)
+			//0:quake(0,7,5,2000)
 			37:effect("Cromm_Foot_L_landing_dust_large")
-			 0:quake(0,12,5,2000)
+			//0:quake(0,12,5,2000)
 			52:effect("Cromm_Foot_R_landing_dust_large")
-			 0:quake(0,12,7,2000)
+			//0:quake(0,12,7,2000)
 			63:effect("Cromm_Dashattack_L_break_dust")
 			74:effect("Cromm_Dashattack_R_break_dust")
 			30:effect("Cromm_Dashattack_foot_lifting_01")
@@ -62044,12 +62044,12 @@ set("CrommCruaich")
 			135:effect("Cromm_Foot_L_landing_dust_small")
 			163:effect("Cromm_Foot_R_landing_dust_small")
 			185:effect("Cromm_Foot_L_landing_dust_small")
-			 0:quake(0,7,7,2000)
-			 0:quake(0,7,7,2000)
-			 0:quake(0,7,7,2000)
-			 0:quake(0,7,7,2000)
-			 0:quake(0,7,7,2000)
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			52:sound("data\sound\golem01_walk.wav")
 			79:sound("data\sound\golem01_walk.wav")
 			108:sound("data\sound\golem01_walk.wav")
@@ -62169,9 +62169,9 @@ set("Dragon")
 			42:effect("Cromm_Foot_R_landing_dust_small")
 			196:effect("Cromm_Foot_R_landing_dust_small")
 			218:effect("Cromm_Foot_L_landing_dust_small")
-			 0:quake(0,7,7,5000)
-			 0:quake(0,7,7,5000)
-			 0:quake(0,7,7,5000)
+			//0:quake(0,7,7,5000)
+			//0:quake(0,7,7,5000)
+			//0:quake(0,7,7,5000)
 			42:sound("data\sound\golem01_walk.wav")
 			196:sound("data\sound\golem01_walk.wav")
 			218:sound("data\sound\golem01_walk.wav")
@@ -62192,21 +62192,21 @@ set("Dragon")
 			156:effect("Cromm_Foot_R_landing_dust_small")
 			48:effect("Cromm_Tailattack_windpressure_01")
 			48:effect("Cromm_Tailattack_windpressure_dust")
-			 0:quake(0,10,5,5000)
+			//0:quake(0,10,5,5000)
 			11:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,10,5,5000)
+			//0:quake(0,10,5,5000)
 			28:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,15,5,5000)
+			//0:quake(0,15,5,5000)
 			50:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,5,5000)
+			//0:quake(0,7,5,5000)
 			74:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,5,5000)
+			//0:quake(0,7,5,5000)
 			88:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,5,5000)
+			//0:quake(0,7,5,5000)
 			107:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,5,5000)
+			//0:quake(0,7,5,5000)
 			134:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,5,5000)
+			//0:quake(0,7,5,5000)
 			156:sound("data\sound\golem01_walk.wav")
 			45:sound("data\sound\cromm_tailattack_tail.wav")
 
@@ -62214,11 +62214,11 @@ set("Dragon")
 		"dragon_dashattack_dash"
 			0:lookat(off)
 			19:effect("Cromm_Foot_R_landing_dust_small")
-			 0:quake(0,12,5,6000)
+			//0:quake(0,12,5,6000)
 			37:effect("Cromm_Foot_L_landing_dust_large")
-			 0:quake(0,18,5,6000)
+			//0:quake(0,18,5,6000)
 			52:effect("Cromm_Foot_R_landing_dust_large")
-			 0:quake(0,18,7,6000)
+			//0:quake(0,18,7,6000)
 			63:effect("Cromm_Dashattack_L_break_dust")
 			74:effect("Cromm_Dashattack_R_break_dust")
 			30:effect("Cromm_Dashattack_foot_lifting_01")
@@ -62238,12 +62238,12 @@ set("Dragon")
 			135:effect("Cromm_Foot_L_landing_dust_small")
 			163:effect("Cromm_Foot_R_landing_dust_small")
 			185:effect("Cromm_Foot_L_landing_dust_small")
-			 0:quake(0,7,7,4000)
-			 0:quake(0,7,7,4000)
-			 0:quake(0,7,7,4000)
-			 0:quake(0,7,7,4000)
-			 0:quake(0,7,7,4000)
-			 0:quake(0,7,7,4000)
+			//0:quake(0,7,7,4000)
+			//0:quake(0,7,7,4000)
+			//0:quake(0,7,7,4000)
+			//0:quake(0,7,7,4000)
+			//0:quake(0,7,7,4000)
+			//0:quake(0,7,7,4000)
 			52:sound("data\sound\golem01_walk.wav")
 			79:sound("data\sound\golem01_walk.wav")
 			108:sound("data\sound\golem01_walk.wav")
@@ -62255,11 +62255,11 @@ set("Dragon")
 		"dragon_dashattack_temp"
 			0:lookat(off)
 			19:effect("Cromm_Foot_R_landing_dust_small")
-			 0:quake(0,12,5,6000)
+			//0:quake(0,12,5,6000)
 			37:effect("Cromm_Foot_L_landing_dust_large")
-			 0:quake(0,18,5,6000)
+			//0:quake(0,18,5,6000)
 			52:effect("Cromm_Foot_R_landing_dust_large")
-			 0:quake(0,18,7,6000)
+			//0:quake(0,18,7,6000)
 			63:effect("Cromm_Dashattack_L_break_dust")
 			74:effect("Cromm_Dashattack_R_break_dust")
 			30:effect("Cromm_Dashattack_foot_lifting_01")
@@ -62275,12 +62275,12 @@ set("Dragon")
 			225:effect("Cromm_Foot_L_landing_dust_small")
 			253:effect("Cromm_Foot_R_landing_dust_small")
 			275:effect("Cromm_Foot_L_landing_dust_small")
-			 0:quake(0,7,7,4000)
-			 0:quake(0,7,7,4000)
-			 0:quake(0,7,7,4000)
-			 0:quake(0,7,7,4000)
-			 0:quake(0,7,7,4000)
-			 0:quake(0,7,7,4000)
+			//0:quake(0,7,7,4000)
+			//0:quake(0,7,7,4000)
+			//0:quake(0,7,7,4000)
+			//0:quake(0,7,7,4000)
+			//0:quake(0,7,7,4000)
+			//0:quake(0,7,7,4000)
 			142:sound("data\sound\golem01_walk.wav")
 			169:sound("data\sound\golem01_walk.wav")
 			198:sound("data\sound\golem01_walk.wav")
@@ -62365,8 +62365,8 @@ set("Dragon")
     // 죽는모션
 		"dragon_dying"
 			0:lookat(off)
-       0:quake(0,7,7,6000)
-       0:quake(0,20,20,8000)
+      //0:quake(0,7,7,6000)
+      //0:quake(0,20,20,8000)
       70:effect("Dragon_dying_01")
       76:effect("Dragon_dying_02")
       80:effect("Dragon_dying_03")
@@ -62437,21 +62437,21 @@ set("Red_Dragon")
 			156:effect("red_Foot_R_landing_dust_small")
 			48:effect("red_Tailattack_windpressure_01")
 			48:effect("red_Tailattack_windpressure_dust")
-			 0:quake(0,10,5,5000)
+			//0:quake(0,10,5,5000)
 			11:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,10,5,5000)
+			//0:quake(0,10,5,5000)
 			28:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,15,5,5000)
+			//0:quake(0,15,5,5000)
 			50:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,5,5000)
+			//0:quake(0,7,5,5000)
 			74:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,5,5000)
+			//0:quake(0,7,5,5000)
 			88:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,5,5000)
+			//0:quake(0,7,5,5000)
 			107:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,5,5000)
+			//0:quake(0,7,5,5000)
 			134:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,5,5000)
+			//0:quake(0,7,5,5000)
 			156:sound("data\sound\golem01_walk.wav")
 			45:sound("data\sound\cromm_tailattack_tail.wav")
 
@@ -62477,11 +62477,11 @@ set("Red_Dragon")
 		"red_dragon_dashattack_dash"
 			0:lookat(off)
 			19:effect("Red_Foot_R_landing_dust_small")
-			 0:quake(0,12,5,6000)
+			//0:quake(0,12,5,6000)
 			37:effect("Red_Foot_L_landing_dust_large")
-			 0:quake(0,18,5,6000)
+			//0:quake(0,18,5,6000)
 			52:effect("Red_Foot_R_landing_dust_large")
-			 0:quake(0,18,7,6000)
+			//0:quake(0,18,7,6000)
 			63:effect("Red_Dashattack_L_break_dust")
 			74:effect("Red_Dashattack_R_break_dust")
 			30:effect("Red_Dashattack_foot_lifting_01")
@@ -62501,12 +62501,12 @@ set("Red_Dragon")
 			135:effect("Red_Foot_L_landing_dust_small")
 			163:effect("Red_Foot_R_landing_dust_small")
 			185:effect("Red_Foot_L_landing_dust_small")
-			 0:quake(0,7,7,4000)
-			 0:quake(0,7,7,4000)
-			 0:quake(0,7,7,4000)
-			 0:quake(0,7,7,4000)
-			 0:quake(0,7,7,4000)
-			 0:quake(0,7,7,4000)
+			//0:quake(0,7,7,4000)
+			//0:quake(0,7,7,4000)
+			//0:quake(0,7,7,4000)
+			//0:quake(0,7,7,4000)
+			//0:quake(0,7,7,4000)
+			//0:quake(0,7,7,4000)
 			52:sound("data\sound\golem01_walk.wav")
 			79:sound("data\sound\golem01_walk.wav")
 			108:sound("data\sound\golem01_walk.wav")
@@ -62601,7 +62601,7 @@ set("Red_Dragon")
 			33:sound("data\sound\cromm_firebreath_wing.wav")
 			56:sound("data\sound\cromm_firebreath_wing.wav")
 			85:sound("data\sound\cromm_stonebreath_breath.wav")
-			 0:quake(10,10,50,2000)
+			//0:quake(10,10,50,2000)
 			93:sound("data\sound\golem01_walk.wav")
 			98:sound("data\sound\golem01_walk.wav")
 
@@ -62666,7 +62666,7 @@ set("Red_Dragon")
 			0:lookat(off)
 			35:effect("Red_windpressure_dust_large")
 			78:effect("Red_windpressure_dust_large")
-			 0:quake(10,10,10,1000)
+			//0:quake(10,10,10,1000)
 			29:sound("data\sound\cromm_firebreath_wing.wav")
 			55:sound("data\sound\cromm_firebreath_wing.wav")
 			74:sound("data\sound\cromm_firebreath_wing.wav")
@@ -62674,14 +62674,14 @@ set("Red_Dragon")
     // 죽는모션
 		"red_dragon_dying"
 			0:lookat(off)
-			 0:quake(0,7,7,6000)
-			 0:quake(0,7,7,6000)
+			//0:quake(0,7,7,6000)
+			//0:quake(0,7,7,6000)
 			70:effect("Dragon_dying_01")
 			76:effect("Dragon_dying_02")
 			80:effect("Dragon_dying_03")
 			64:sound("data\sound\golem01_walk.wav")
 			80:sound("data\sound\golem01_walk.wav")
-			 0:quake(20,20,40,8000)
+			//0:quake(20,20,40,8000)
 			100:sound("data\sound\golem_stomp.wav")
 
     // 죽는모션
@@ -62694,7 +62694,7 @@ set("Red_Dragon")
     //드래곤 포효
 		"dragon_roar"
 			0:lookat(off)
-			 0:quake(20,20,90,8000)
+			//0:quake(20,20,90,8000)
 			70:effect("red_roar01")
 			70:effect("red_roar02")
 			70:effect("red_roar03")
@@ -62702,7 +62702,7 @@ set("Red_Dragon")
 			
 		"dragon_roar02"
 			0:lookat(off)
-			 0:quake(20,20,90,8000)
+			//0:quake(20,20,90,8000)
 			70:effect("sylvan_roar001")
 			70:effect("red_roar02")
 			70:effect("sylvan_roar002")
@@ -62718,7 +62718,7 @@ set("Red_Dragon")
 	//실반 드래곤 (지옥의 손길)		
 		"dragon_sylvan_StampFromHell"
 			0:lookat(off)
-			 0:quake(20,20,50,5000)
+			//0:quake(20,20,50,5000)
 			29:sound("data\sound\BlackDragon_stomp.wav")
 			29:hit(up,normal)
 			29:effect("effect_L_foot_1")
@@ -63029,7 +63029,7 @@ set("prop concerned - temporary")
 	folder("::dg_glennbearna_door01")	
 		"dg_glennbearna_door01_opening"			
 		0:sound("data\sound\golem_summoned.wav")
-		 0:quake(15,15,15,2000)
+		//0:quake(15,15,15,2000)
 		
 	endfolder		
 	
@@ -64243,11 +64243,11 @@ folder("::scene_prop_streamingdesk01")
 	folder("::dg_haunted_house_statue")
 		
 	"dg_haunted_house_statue_rotation01"
-		 0:quake(15,15,15,1000)
+		//0:quake(15,15,15,1000)
 	
 		
 	"dg_haunted_house_statue_rotation02"
-		 0:quake(15,15,15,1000)
+		//0:quake(15,15,15,1000)
 		
 	endfolder
 
@@ -66345,10 +66345,10 @@ set("snowball")
 		"snowball_dashattack_dash"
 			8:effect("watermelon_dash01")
 			12:sound("data\sound\golem01_walk.wav")
-			 0:quake(25,25,30,1500)
+			//0:quake(25,25,30,1500)
 			20:effect("watermelon_dash01")
 			24:sound("data\sound\golem01_walk.wav")
-			 0:quake(25,25,30,1500)
+			//0:quake(25,25,30,1500)
 
 		"snowball_windmill_standing"
 			1:effect("watermelon_windmill")
@@ -68323,7 +68323,7 @@ set("Knight")
 	        17:effect("fta_g_scrw01",0,1) 		
 	        17:effect("fta_g_scrw02",0,1) 	
 	        17:effect("fta_g_scrw03",0,1) 	
-			 0:quake(20, 20, 40, 100)
+			//0:quake(20, 20, 40, 100)
 			15:sound("data\sound\BlackDragon_breath.wav")
 		
 		
@@ -69433,7 +69433,7 @@ set("Knight")
 			0:lookat(off)
 			0:hand(both, fist)	
 			15:hit(down,normal)
-			 0:quake(10,10,20,200)
+			//0:quake(10,10,20,200)
 			//37:effect("warp")
 			10:effect("sword_swing901")			
 			10:effect("sword_swing902")			
@@ -74839,7 +74839,7 @@ set("magician")
 			0:generic ("custom_mesh(1:weapon_c4_Whip01_ani)")
 			25:sound("data\sound\skill_assaultslash_jump.wav")
 			45:sound("data\sound\golem_stomp.wav")
-			 0:quake(30,30,30,1500)
+			//0:quake(30,30,30,1500)
 			
 		"human_cs_tuairimexplosion_finish"
 			0:lookat(off)	
@@ -75600,8 +75600,8 @@ set("magician")
 		0:effect("fighter_skill_Pounding_final_handL")
 		3:hit(down,normal)
 		3:effect("fighter_skill_Pounding_hit_dust_L")
-		 0:quake(0, 10, 8, 400)
-		 0:quake(0, 10, 8, 400)
+		//0:quake(0, 10, 8, 400)
+		//0:quake(0, 10, 8, 400)
 		
 		
 		
@@ -75634,8 +75634,8 @@ set("magician")
 		0:effect("fighter_skill_Pounding_final_handL")
 		3:hit(down,normal)
 		3:effect("fighter_skill_Pounding_2hit_dust_L")
-		 0:quake(0, 10, 8, 400)
-		 0:quake(0, 10, 8, 400)
+		//0:quake(0, 10, 8, 400)
+		//0:quake(0, 10, 8, 400)
 
 
 		
@@ -75650,7 +75650,7 @@ set("magician")
 		0:effect("fighter_skill_Pounding_charge")
 		55:hit(down,spin)
 		55:effectoff("fighter_skill_Pounding_charge")
-		 0:quake(0, 40, 15, 1000)
+		//0:quake(0, 40, 15, 1000)
 
 	//파운딩 원상복귀
 	"male_knuckle_combo3_1_original_state"
@@ -76652,7 +76652,7 @@ set("magician")
 			0:sound("data\sound\golem_stomp.wav")
 			0:lookat(off)
 			0:hand(both, fist)
-			 0:quake(10,10,10,1000)
+			//0:quake(10,10,10,1000)
 
 
 		"uni_tool_vate_explosion"
@@ -78235,7 +78235,7 @@ set("magician")
 			0:hand(left, palm)
 			0:hand(right, fist)
 			111:effect("alo_skill011_h")
-			 0:quake(10,10,10,1000)
+			//0:quake(10,10,10,1000)
 			
 			
 
@@ -78246,7 +78246,7 @@ set("magician")
 			0:hand(right, fist)
 			6:hit(down,normal)
 			3:sound("data\sound\golem_stomp.wav")
-			 0:quake(25,25,30,1500)
+			//0:quake(25,25,30,1500)
 
 		"uni_tool_bhand_st02_walk"
 			0:hand(left, palm)
@@ -81097,7 +81097,7 @@ set("elf_Bhand_M10")
 			0:sound("data\sound\golem_stomp.wav")
 			0:lookat(off)
 			0:hand(both, fist)
-			 0:quake(10,10,10,1000)
+			//0:quake(10,10,10,1000)
 
 
 		"giant_tool_vate_explosion"
@@ -82195,7 +82195,7 @@ set("elf_Bhand_M10")
 			0:hand(right, fist)
 			6:hit(down,normal)
 			3:sound("data\sound\golem_stomp.wav")
-			 0:quake(25,25,30,1500)
+			//0:quake(25,25,30,1500)
 
 		"giant_tool_bhand_st02_walk"
 			0:hand(left, palm)
@@ -82219,13 +82219,13 @@ set("elf_Bhand_M10")
 			0:hand(left, palm)
 			0:hand(right, fist)
 			111:effect("alo_skill011")
-			 0:quake(10,10,10,1000)
+			//0:quake(10,10,10,1000)
 			
 		"giant_female_tool_bhand_st03_stand_friendly"
 			0:hand(left, palm)
 			0:hand(right, fist)
 			111:effect("alo_skill011")
-			 0:quake(10,10,10,1000)			
+			//0:quake(10,10,10,1000)			
 
 		"giant_tool_bhand_st02_smash"
 			0:lookat(off)
@@ -84508,7 +84508,7 @@ set("giant")
 		"giant_stomp_action"
 			0:hand(both, fist)
 			15:hit(up,normal)
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 			16:effect("20061211_snowfield_giant_Foot_landing")
 			16:sound("data\sound\golem_stomp.wav")
 			16:sound("data\sound\ogre_smash_01.wav")	
@@ -85365,7 +85365,7 @@ set("giant")
 		"giant_dk_blade_processing"
 			0:lookat(off)
 			0:hand(both, fist)
-			 0:quake(30,30,30,1500)
+			//0:quake(30,30,30,1500)
 			0:sound("data\sound\judgement_blade_02_wait.wav")
 			30:sound("data\sound\judgement_blade_03_process.wav")
 			
@@ -90826,7 +90826,7 @@ set("alchemy")
 			0:lookat(off)
 			6:effect("edo_lightning_S")
 			6:sound("data\sound\weather_thunder_0.wav")
-			 0:quake(20,20,30,1500)
+			//0:quake(20,20,30,1500)
 
 ///////////로이임시
 
@@ -91578,8 +91578,8 @@ set("alchemy")
 		0:effect("fighter_skill_Pounding_final_handL_G")
 		3:hit(down,normal)
 		3:effect("fighter_skill_Pounding_hit_dust_L_G")
-		 0:quake(0, 10, 8, 400)
-		 0:quake(0, 10, 8, 400)
+		//0:quake(0, 10, 8, 400)
+		//0:quake(0, 10, 8, 400)
 		
 		
 		
@@ -91613,8 +91613,8 @@ set("alchemy")
 		0:effect("fighter_skill_Pounding_final_handL_G")
 		3:hit(down,normal)
 		3:effect("fighter_skill_Pounding_2hit_dust_L_G")
-		 0:quake(0, 10, 8, 400)
-		 0:quake(0, 10, 8, 400)
+		//0:quake(0, 10, 8, 400)
+		//0:quake(0, 10, 8, 400)
 
 		
 
@@ -91630,7 +91630,7 @@ set("alchemy")
 		0:effect("fighter_skill_Pounding_charge_G")
 		55:hit(down,spin)
 		55:effectoff("fighter_skill_Pounding_charge_G")
-		 0:quake(0, 40, 15, 1000)
+		//0:quake(0, 40, 15, 1000)
 
 
 	//파운딩 원상복귀
@@ -92663,7 +92663,7 @@ set("alchemy")
 		0:sound("data\sound\awakening_of_light_ready.wav")
 		0:lookat(off)
     		0:hand (both, fist)	
-		 0:quake(15,15,15,1500)
+		//0:quake(15,15,15,1500)
 
 
 	//여자이언트 반신화 집중 공격 캐스팅
@@ -92687,7 +92687,7 @@ set("alchemy")
 		0:sound("data\sound\awakening_of_light_ready.wav")
 		0:lookat(off)
     		0:hand (both, fist)
-		 0:quake(15,15,15,1500)
+		//0:quake(15,15,15,1500)
 
 	"giant_female_fashion_walk"	
 		0:hand(both, palm)
@@ -94444,7 +94444,7 @@ set("female_giant")
 		"giant_female_stomp_action"
 			0:hand(both, fist)
 			15:hit(up,normal)
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 			16:effect("20061211_snowfield_giant_Foot_landing")
 			16:sound("data\sound\golem_stomp.wav")
 			16:sound("data\sound\ogre_smash_01.wav")	
@@ -105181,7 +105181,7 @@ set("neaghboss")
 			70:effect("neagh_boss_roar_02")
 			40:effect("neagh_boss_lumble_05")
 			70:effect("neagh_boss_lumble_04")
- 			 0:quake(20,20,90,8000)
+ 			//0:quake(20,20,90,8000)
 
 		"neaghboss_waterbombfront"
 			0:sound("data\sound\Neid_idle_water.wav")
@@ -109579,7 +109579,7 @@ set("golddragon")
 			0:lookat(off)
 			70:sound("data\sound\blackDragon_fear.wav")
 			75:effect("boss_white_dragon_fear")
-			 0:quake(20,20,20,1500)
+			//0:quake(20,20,20,1500)
 
 	endfolder
 endset
@@ -109970,7 +109970,7 @@ set("claimhsolas")
 			443:effect("ClaimhSolas_mouth_02")
 			517:effect("ClaimhSolas_mouth_02")
 			163:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,4,4,1000)
+			//0:quake(0,4,4,1000)
 			198:sound("data\sound\ClaimhSolas_stand.wav")
 			238:sound("data\sound\ClaimhSolas_stand.wav")
 
@@ -109987,7 +109987,7 @@ set("claimhsolas")
 		"claimhsolas01_lightsword_casting"
 			0:lookat(off)
 			28:effect("ClaimhSolas_handL_smoke_01")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			42:sound("data\sound\golem01_walk.wav").
 			66:sound("data\sound\ClaimhSolas_stand.wav")
 			90:sound("data\sound\ClaimhSolas_light_prepare.wav")
@@ -110011,10 +110011,10 @@ set("claimhsolas")
 			0:lookat(off)
 			20:effect("ClaimhSolas_mouth_03")
 
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			134:sound("data\sound\golem01_walk.wav")
 			130:effect("ClaimhSolas_handR_smoke_01")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			146:sound("data\sound\golem01_walk.wav")
 			141:effect("ClaimhSolas_handL_smoke_01")
 
@@ -110044,13 +110044,13 @@ set("claimhsolas")
 			120:sound("data\sound\ClaimhSolas_breath.wav")
 
 			0:lookat(off)
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			66:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			86:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			402:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			434:sound("data\sound\golem01_walk.wav")
 
 
@@ -110080,13 +110080,13 @@ set("claimhsolas")
 
 
 			16:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			97:sound("data\sound\golem_stomp.wav")
-			 0:quake(0,7,10,6000)
+			//0:quake(0,7,10,6000)
 			//129:sound("data\sound\golem_stomp.wav")
-			 0:quake(0,7,10,6000)
+			//0:quake(0,7,10,6000)
 			170:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			165:effect("ClaimhSolas_handR_smoke_01")
 
 
@@ -110123,9 +110123,9 @@ set("claimhsolas")
 			23:effect("ClaimhSolas_handL_smoke_01")
 
 			13:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			26:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 
 		"claimhsolas01_run"
 			0:lookat(off)
@@ -110134,9 +110134,9 @@ set("claimhsolas")
 			23:effect("ClaimhSolas_handL_smoke_01")
 
 			13:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			26:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 
 
 
@@ -110156,9 +110156,9 @@ set("claimhsolas")
 			69:effect("ClaimhSolas_dash_smoke_01")
 
 			35:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			74:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 
 
 
@@ -110167,12 +110167,12 @@ set("claimhsolas")
 
 			0:lookat(off)
 			10:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			50:sound("data\sound\ClaimhSolas_swing.wav")
 			122:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			146:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 
 			6:effect("ClaimhSolas_handL_smoke_01")
 
@@ -110197,9 +110197,9 @@ set("claimhsolas")
 		"claimhsolas01_l_turn"
 			0:lookat(off)
 			6:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			13:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,3,3,1000)
+			//0:quake(0,3,3,1000)
 
 
 			1:effect("ClaimhSolas_handL_smoke_01")
@@ -110209,9 +110209,9 @@ set("claimhsolas")
 		"claimhsolas01_R_turn"
 			0:lookat(off)
 			6:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			13:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,3,3,2000)
+			//0:quake(0,3,3,2000)
 
 			8:effect("ClaimhSolas_handL_smoke_01")
 			1:effect("ClaimhSolas_handR_smoke_01")
@@ -110222,14 +110222,14 @@ set("claimhsolas")
 			0:lookat(off)
 			0:sound("data\sound\ClaimhSolas_dead.wav")
 			122:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 
 			165:effect("ClaimhSolas_down_01")
 
 			170:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			190:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,3,3,1000)
+			//0:quake(0,3,3,1000)
 			221:jump(191, true)
 
 
@@ -110238,18 +110238,18 @@ set("claimhsolas")
 
 			0:lookat(off)
 			33:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			105:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			191:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			270:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 			320:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 
 			354:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,7,7,2000)
+			//0:quake(0,7,7,2000)
 
 
 
@@ -112130,7 +112130,7 @@ set("cutscene")
 			0:generic ("custom_mesh(1:weapon_c4_Whip01_ani)")
 			25:sound("data\sound\skill_assaultslash_jump.wav")
 			45:sound("data\sound\golem_stomp.wav")
-			 0:quake(30,30,30,1500)
+			//0:quake(30,30,30,1500)
 			
 	"cutscene_cs_earen_tuairimexplosion_finish"
 			0:lookat(off)	
@@ -113780,7 +113780,7 @@ set("C4_monster")
 			0:lookat(off)
 			230:changealpha(0,70,0)			
 			25:sound("data\sound\Kraken_Pound_on_Floor.wav")
-			 0:quake(30,30,8,2000)
+			//0:quake(30,30,8,2000)
 		
 		"kraken_leg_death"
 			0:lookat(off)		
@@ -113804,7 +113804,7 @@ set("C4_monster")
 			0:sound("data\sound\old_door_move.wav")
 			
 		"kraken_leg_appear"
-			 0:quake(30,30,8,2000)
+			//0:quake(30,30,8,2000)
 			0:lookat(off)
 			0:effect("kraken_stomp_sub001",0,1)	
 			0:effect("archer_urgentshot",0,1)	
@@ -113814,11 +113814,11 @@ set("C4_monster")
 			0:lookat(off)
 			54:effect("kraken_stomp001",0,1)
 			55:sound("data\sound\Kraken_Pound_on_Floor.wav")
-			 0:quake(30,30,8,2000)
+			//0:quake(30,30,8,2000)
 			
 		"kraken_leg_hold"
 			0:lookat(off)
-			 0:quake(30,30,8,2000)	
+			//0:quake(30,30,8,2000)	
 			45:sound("data\sound\Kraken_Pound_on_Floor.wav")	
 			45:sound("data\sound\Kraken_Tighten_01.wav")
 			
@@ -113831,14 +113831,14 @@ set("C4_monster")
 		"kraken_leg_left"
 			0:lookat(off)
 			40:effect("kraken_swingl001",0,1)	
-			 0:quake(30,30,8,2000)	
+			//0:quake(30,30,8,2000)	
 			45:sound("data\sound\Kraken_Pound_on_Floor.wav")	
 			50:sound("data\sound\Kraken_Kick.wav")			
 			
 		"kraken_leg_right"
 			0:lookat(off)
 			40:effect("kraken_swingr001",0,1)		
-			 0:quake(30,30,8,2000)	
+			//0:quake(30,30,8,2000)	
 			45:sound("data\sound\Kraken_Pound_on_Floor.wav")			
 			50:sound("data\sound\Kraken_Kick.wav")
 			
@@ -114200,11 +114200,11 @@ set("C4_monster")
 	   38:sound("data\sound\swing_mid.wav")
 	   15:sound("data\sound\Prop\FC.wav")
 	   
-	    0:quake(2, 2, 40, 1000)
+	   //0:quake(2, 2, 40, 1000)
 	   60:sound("data\sound\Alchmy_HeatBuster.wav")
 	   //144:sound("data\sound\fran_offensive_swing.wav")
 	   70:sound("data\sound\pounding_final_hit.wav")
-	    0:quake(20,20,30,1000)
+	   //0:quake(20,20,30,1000)
        0:effect("D_ruairi_swinghand01")
        9:effect("D_ruairi_sword_grow01")
        76:effectoff("D_ruairi_swinghand01")	 
@@ -114226,13 +114226,13 @@ set("C4_monster")
 	   58:sound("data\sound\pillow_hit.wav")
 	   60:sound("data\sound\summon.wav")
 	   80:sound("data\sound\Alchemy_Spark01.wav")
-	    0:quake(1,1,20,1000)
-	    0:quake(2,2,60,1000)
+	   //0:quake(1,1,20,1000)
+	   //0:quake(2,2,60,1000)
 	   
 	   //64:sound("data\sound\swing_long.wav")
 	   150:sound("data\sound\ThunderBreath_process.wav")
 		150:hit(up,spin)
-		 0:quake(20,20,30,1000)
+		//0:quake(20,20,30,1000)
        0:effect("D_ruairi_catching01")		
        0:effect("D_ruairi_rush_gather01")	
        0:effectoff("D_ruairi_grabpa01")		   
@@ -114262,7 +114262,7 @@ set("C4_monster")
 //스킬3-시전//		
 	"Dragonboss_dragonrush_processing"
 	   0:sound("data\sound\golem_stomp.wav")	
-	    0:quake(20,20,30,1000)
+	   //0:quake(20,20,30,1000)
        3:effect("D_ruairi_rushbomb01")		
        130:effectoff("D_ruairi_swinghand01")	 
        182:effectoff("D_ruairi_sword_grow01")			
@@ -114369,9 +114369,9 @@ set("C4_monster")
 		    0:effectoff("cube_glow01_01")	
 		    150:effectoff("cube_standshock01")		
 		    143:effect("cube_down02")
-			 0:quake(0,10,5,1000)	
+			//0:quake(0,10,5,1000)	
 			61:sound("data\sound\golem_stomp.wav")			
-			 0:quake(0,30,30,3000)			
+			//0:quake(0,30,30,3000)			
 			143:sound("data\sound\golem_stomp.wav")			
 			
 				
@@ -114742,7 +114742,7 @@ set("C4_monster")
 		        20:sound("data\sound\fran_rattling.wav")
 			83:effect("fran_lightning_blast1")
 		        86:sound("data\sound\fran_swing.wav")
-			 0:quake(0,40,40,3000)
+			//0:quake(0,40,40,3000)
 		        90:sound("data\sound\fran_stomp.wav")
 //		        88:sound("data\sound\golem01_walk.wav")
 			0:lookat(off)
@@ -114754,10 +114754,10 @@ set("C4_monster")
 			5:effect("fran_tackle_fx2")
 			5:effect("fran_tackle_fx3")
 
-			 0:quake(0,10,10,2000)
+			//0:quake(0,10,10,2000)
 			25:effect("fran_hand_dust_R")
 //		        25:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,10,10,2000)
+			//0:quake(0,10,10,2000)
 			57:effect("fran_hand_dust_L")
 //		        57:sound("data\sound\golem01_walk.wav")
 
@@ -114765,41 +114765,41 @@ set("C4_monster")
 			90:effect("fran_hand_skid_R")
 			90:effect("fran_hand_skid_L")
 //		        92:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,20,20,2500)
+			//0:quake(0,20,20,2500)
 			173:effectoff("fran_tackle_fx1")
 			173:effectoff("fran_tackle_fx2")
 			173:effectoff("fran_tackle_fx3")
 		        132:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,20,10,2500)
+			//0:quake(0,20,10,2500)
 			132:effect("fran_Footstep_dust_R")
 		        157:sound("data\sound\golem01_walk.wav")
 			157:effect("fran_Footstep_dust_L")
-			 0:quake(0,10,5,1000)
+			//0:quake(0,10,5,1000)
 			0:lookat(off)
 
 		"fran_arm_smashing"
 			38:effect("fran_smashing_skid01")
 		        38:sound("data\sound\fran_swing.wav")
-			 0:quake(0,30,60,3000)
-			 0:quake(0,10,20,3000)
+			//0:quake(0,30,60,3000)
+			//0:quake(0,10,20,3000)
 			0:lookat(off)
 
 
 		"fran_walk"
 			0:lookat(off)
 			0:effect("fran_Footstep_dust")
-			 0:quake(0,20,10,2500)
+			//0:quake(0,20,10,2500)
 		        31:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,20,10,2500)
+			//0:quake(0,20,10,2500)
 		        8:sound("data\sound\golem01_walk.wav")
 			31:effect("fran_Footstep_dust_R")
 			8:effect("fran_Footstep_dust_L")
 
 		"fran_dying"
-			 0:quake(0,10,10,1500)
+			//0:quake(0,10,10,1500)
 		        72:sound("data\sound\golem01_walk.wav")
 		        76:sound("data\sound\golem01_walk.wav")
-			 0:quake(0,30,20,2500)
+			//0:quake(0,30,20,2500)
 		        166:sound("data\sound\golem01_walk.wav")
 			210:jump(200,true)
 
@@ -114827,9 +114827,9 @@ set("C4_monster")
 			14:effect("disciple_Footstep_dustL")							
 			33:effect("disciple_Footstep_dustR")
 			15:sound("data\sound\BlackDragon_walk.wav")
-			 0:quake(5,5,20,500)				
+			//0:quake(5,5,20,500)				
 			35:sound("data\sound\BlackDragon_walk.wav")
-			 0:quake(5,5,20,500)	
+			//0:quake(5,5,20,500)	
 			
 			
 		"disciple_sacredinfection"
@@ -114839,7 +114839,7 @@ set("C4_monster")
 			58:sound("data\sound\Sword_blow.WAV")
 			
 			60:effect("disciple_posion001")	
-			 0:quake(5,5,10,500)			
+			//0:quake(5,5,10,500)			
 
 		"disciple_SacredImprison"
 			0:lookat(off)
@@ -114847,7 +114847,7 @@ set("C4_monster")
 			30:sound("data\sound\Skill2.wav")				
 			60:effect("disciple_cage_bomb01")	
 			60:sound("data\sound\rock_seal_break.wav")	
-			 0:quake(20,20,20,2000)		
+			//0:quake(20,20,20,2000)		
 		
 
 		"disciple_fanaticismready"
@@ -114865,8 +114865,8 @@ set("C4_monster")
 			
 					
 					
-			 0:quake(10,10,40,1000)		
-			 0:quake(15,15,30,1500)	
+			//0:quake(10,10,40,1000)		
+			//0:quake(15,15,30,1500)	
 
 		"disciple_fanaticismattack"
 			0:lookat(off)
@@ -114889,7 +114889,7 @@ set("C4_monster")
 			40:sound("data\sound\giant_fullswing_hit.wav")	
 			
 			//45:sound("data\sound\cromm_firebreath_firing.wav")	
-			 0:quake(5,5,10,500)			
+			//0:quake(5,5,10,500)			
 			315:JUMP(235,true)	
 
 		"disciple_attractingsoulsReture"
@@ -114919,15 +114919,15 @@ set("C4_monster")
 			124:sound("data\sound\BlackDragon_wing.wav")
 			
 			
-			 0:quake(40,40,20,2000)		
-			 0:quake(10,10,40,1000)		
-			 0:quake(15,15,30,1500)	
+			//0:quake(40,40,20,2000)		
+			//0:quake(10,10,40,1000)		
+			//0:quake(15,15,30,1500)	
 
 			
 		"disciple_dpcrystalshowerlanding"
 			0:lookat(off)
 			0:effectoff("disciple_spike01")					
-			 0:quake(20,20,25,2000)		
+			//0:quake(20,20,25,2000)		
 			6:sound("data\sound\rock_seal_break.wav")	
 			97:sound("data\sound\golem01_walk.wav")	
 		
@@ -114939,7 +114939,7 @@ set("C4_monster")
 			5:sound("data\sound\magicshield_start.wav")	
 			78:sound("data\sound\disciple1_dropping_the_staff.wav")	
 			90:sound("data\sound\golem_summoned.wav")	
-			 0:quake(20,20,25,2000)				
+			//0:quake(20,20,25,2000)				
 			300:jump(280,true)
 			
 		"disciple_dpcrystalshowerJudgement"
@@ -114947,7 +114947,7 @@ set("C4_monster")
 			0:effectoff("disciple_spike01")				
 			270:jump(190,true)
 			48:sound("data\sound\golem_summoned.wav")	
-			 0:quake(5,5,10,500)
+			//0:quake(5,5,10,500)
 			
 		"disciple_dpcrystalshowerSpike"
 			0:lookat(off)
@@ -115137,9 +115137,9 @@ set("C4_monster")
 		"white_dragon_friendly_walk"
 			0:lookat(off)
 			24:sound("data\sound\WhiteDragon_walk.wav")
-			 0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
 			59:sound("data\sound\WhiteDragon_walk.wav")
-			 0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
 
 		"white_dragon_liftoff"
 			0:lookat(off)
@@ -115150,7 +115150,7 @@ set("C4_monster")
 
 		"white_dragon_landing"
 			0:lookat(off)
-			 0:quake(15,15,30,800)
+			//0:quake(15,15,30,800)
 			315:sound("data\sound\WhiteDragon_wing.wav")
 			364:sound("data\sound\WhiteDragon_wing.wav")
 			412:sound("data\sound\WhiteDragon_wing.wav")
@@ -115165,7 +115165,7 @@ set("C4_monster")
 		"white_dragon_dying"
 			0:lookat(off)
 			300:jump (280,true)
-			 0:quake(30,30,30,5000)
+			//0:quake(30,30,30,5000)
 			0:widesound("data\sound\WhiteDragon_dead.wav")
 			74:sound("data\sound\WhiteDragon_wing.wav")
 			110:sound("data\sound\WhiteDragon_wing.wav")
@@ -115190,7 +115190,7 @@ set("C4_monster")
 			448:sound("data\sound\WhiteDragon_wing.wav")
 			437:sound("data\sound\Dragon_run1.wav")
 			446:sound("data\sound\Dragon_run1.wav")
-			 0:quake(30,30,30,1500)
+			//0:quake(30,30,30,1500)
 
 		"white_dragon_skill_madnesspilgrimage_ready"
 			0:lookat(off)
@@ -115200,8 +115200,8 @@ set("C4_monster")
 
 		"white_dragon_skill_madnesspilgrimage_run"
 			0:lookat(off)
-			 0:quake(25,25,15,2000)
-			 0:quake(25,25,15,2000)
+			//0:quake(25,25,15,2000)
+			//0:quake(25,25,15,2000)
 			16:sound("data\sound\WhiteDragon_MadnessWalk.wav")
 			41:sound("data\sound\WhiteDragon_MadnessWalk.wav")
 
@@ -115234,7 +115234,7 @@ set("C4_monster")
 
 		"black_dragon_stamp"
 			0:lookat(off)
-			 0:quake(20,20,50,5000)
+			//0:quake(20,20,50,5000)
 			31:sound("data\sound\BlackDragon_stomp.wav")
 			31:hit(up,normal)
 
@@ -115244,7 +115244,7 @@ set("C4_monster")
 
 		"black_dragon_fear"
 			0:lookat(off)
-			 0:quake(0,3,100,5000)
+			//0:quake(0,3,100,5000)
 			74:sound("data\sound\BlackDragon_fear.wav")
 			74:effect("boss_black_dragon_fear")
 
@@ -115273,7 +115273,7 @@ set("C4_monster")
 			506:sound("data\sound\BlackDragon_wing.wav")
 			512:sound("data\sound\Dragon_run1.wav")
 			524:sound("data\sound\Dragon_run1.wav")
-			 0:quake(30,30,15,1500)
+			//0:quake(30,30,15,1500)
 			
 		"black_dragon_liftoff"
 			0:lookat(off)
@@ -115292,9 +115292,9 @@ set("C4_monster")
 
 		"black_dragon_walk"
 			0:lookat(off)
-			 0:quake(15,20,10,800)
+			//0:quake(15,20,10,800)
 			20:sound("data\sound\BlackDragon_walk.wav")
-			 0:quake(15,20,10,800)
+			//0:quake(15,20,10,800)
 			70:sound("data\sound\BlackDragon_walk.wav")
 
 			20:effect("effect_L_foot_1")
@@ -115307,7 +115307,7 @@ set("C4_monster")
 		"black_dragon_landing"
 			0:lookat(off)
 
-			 0:quake(0,30,50,5000)
+			//0:quake(0,30,50,5000)
 			338:sound("data\sound\BlackDragon_stomp.wav")
 			150:sound("data\sound\blackDragon_wing.wav")
 			153:sound("data\sound\blackDragon_wing.wav")
@@ -115323,7 +115323,7 @@ set("C4_monster")
 		"black_dragon_dying"
 			0:lookat(off)
 			300:jump (280,true)
-			 0:quake(0,50,50,5000)
+			//0:quake(0,50,50,5000)
 			20:sound("data\sound\BlackDragon_dead.wav")
 
 		"black_dragon_dead"
@@ -115355,7 +115355,7 @@ set("C4_monster")
 			 50:sound("data\sound\beeper_beam.wav")
 			 90:sound("data\sound\tree_breakdown.wav")
 			 180:sound("data\sound\WhiteDragon_MadnessWalk.wav")
-			  0:quake(5,5,10,100)	
+			 //0:quake(5,5,10,100)	
 			 //91:sound("data\sound\WhiteDragon_wing.wav")
 		     40:effect("Sephiroth_ball_L")
              92:effectoff("Sephiroth_ball_L")  
@@ -115370,7 +115370,7 @@ set("C4_monster")
 			 174:effect("Sephiroth_button_spread_b") 			 
 			 185:effect("Sephiroth_leaf_fall_1")  	
 			 245:effectoff("Sephiroth_leaf_fall_1")  
-			  0:quake(5,5,10,100)			 
+			 //0:quake(5,5,10,100)			 
 		"ent_run"
 
 		"ent_offensive"
@@ -115380,11 +115380,11 @@ set("C4_monster")
 			 134:effect("Sephiroth_leaf_fall_1")  	 
 			 176:effect("Sephiroth_stomp_a")	
 			 176:effect("Sephiroth_leaf_fall_1")
-			  0:quake(5,5,10,500)				 
+			 //0:quake(5,5,10,500)				 
 			26:sound("data\sound\beeper_beam.wav")			 
 			130:sound("data\sound\giant_fullswing_hit.wav")			 
 			 180:sound("data\sound\fran_stomp.wav")
-			  0:quake(50,50,100,2500)			 
+			 //0:quake(50,50,100,2500)			 
 			 
 		"ent_fearofabyss"
 			 30:sound("data\sound\wind_blast_shoot.wav")
@@ -115392,7 +115392,7 @@ set("C4_monster")
  			 34:effect("Sephiroth_leaf_fall_1")  	 			
 
 		"ent_dying"
-			 0:quake(25,25,30,1500)	
+			//0:quake(25,25,30,1500)	
 			210:sound("data\sound\golem_stomp.wav")
 
 		"ent_death"
@@ -115438,7 +115438,7 @@ set("C4_monster")
 
 		"ent01_WindMilStanding"
 		40:sound("data\sound\golem_stomp.wav")
-		 0:quake(10,10,10,1000)
+		//0:quake(10,10,10,1000)
 
 	endfolder
 		
@@ -115617,7 +115617,7 @@ set("C4_monster")
 		"cosickeleptor_stomp"
 			0:lookat(off)
 			56:sound("data\sound\skill_assaultslash_jump.wav")
-			 0:quake(25,25,60,1500)
+			//0:quake(25,25,60,1500)
 			90:sound("data\sound\golem_stomp.wav")
 
 
@@ -115638,8 +115638,8 @@ set("C4_monster")
 		
 	"mokkurkalfi_walk"
 		0:lookat(off)
-		 0:quake(15,15,30,1000)	
-		 0:quake(15,15,30,1000)	
+		//0:quake(15,15,30,1000)	
+		//0:quake(15,15,30,1000)	
 	    23:effect("mokku_footdustL01")
 		24:sound("data\sound\golem01_blowaway_ground.wav")
 	    65:effect("mokku_footdustR01")
@@ -115647,8 +115647,8 @@ set("C4_monster")
 		
 	"mokkurkalfi_run"
 		0:lookat(off)
-		 0:quake(15,15,30,1000)	
-		 0:quake(15,15,30,1000)	
+		//0:quake(15,15,30,1000)	
+		//0:quake(15,15,30,1000)	
 	    23:effect("mokku_footdustL01")
 		24:sound("data\sound\golem01_blowaway_ground.wav")
 	    65:effect("mokku_footdustR01")
@@ -115661,7 +115661,7 @@ set("C4_monster")
 		
 	"mokkurkalfi_heavy_stomp"
 		0:lookat(off)
-		 0:quake(40,40,40,1000)		
+		//0:quake(40,40,40,1000)		
 	    47:effect("mokku_stomp01")
 		
 	"mokkurkalfi_heavy_swing"
@@ -115670,12 +115670,12 @@ set("C4_monster")
 		
 	"mokkurkalfi_poison_breath_prepare"
 			0:lookat(off)
-			 0:quake(40,40,40,1000)		
+			//0:quake(40,40,40,1000)		
 	    	40:effect("mokku_poison01")
 			
 	"mokkurkalfi_stone_blast_process"
 		0:lookat(off)
-		 0:quake(50,50,50,1000)	
+		//0:quake(50,50,50,1000)	
 	    77:effect("mokku_stone01")
 		
 	"mokkurkalfi_stone_blast_finish"
@@ -115683,7 +115683,7 @@ set("C4_monster")
 		
 	"mokkurkalfi_wild_scream_process"
 		0:lookat(off)
-		 0:quake(50,50,190,1000)	
+		//0:quake(50,50,190,1000)	
 		208:jump(92,true)
 	    26:effect("mokku_earth01",0,1)	
 	    26:effect("mokku_earth02",0,1)	
@@ -115700,7 +115700,7 @@ set("C4_monster")
 		
 	"mokkurkalfi_wildmovement_finish"
 		0:lookat(off)
-		 0:quake(50,50,30,1000)	
+		//0:quake(50,50,30,1000)	
 	    25:effect("mokku_stomp01")			
 	    0:effect("mokku_wildfinish01",0,1)	
 
@@ -115863,7 +115863,7 @@ set("C4_monster")
 		
 	"portalmon_dying"
 	  0:lookat(off) 
-	   0:quake(20,20,20,2500)
+	  //0:quake(20,20,20,2500)
        0:effect("potal_cdie001") 
 	   
     endfolder	
@@ -115977,29 +115977,29 @@ set("C4_monster")
 		0:lookat(off)
 		0:widesound("data\sound\Nuckalavee_HeadButt.wav")
 		65:effect("nuck_headbutt001")
-	     0:quake(20,12,30,2500)	
+	    //0:quake(20,12,30,2500)	
 
 	"nk_jump"
 		0:lookat(off)
 		25:widesound("data\sound\Nuckalavee_Jump.wav")
         118:effect("nuck_jump_hit02")		
 		125:effect("nuck_jump_hit01")
-	     0:quake(20,30,40,1000)		
+	    //0:quake(20,30,40,1000)		
 
 		
 	"nk_soundwave"
 	    0:lookat(off)
 		0:widesound("data\sound\Nuckalavee_SoundWave.wav")
         77:effect("red_roar77")
-	     0:quake(20,20,100,1000)
+	    //0:quake(20,20,100,1000)
 		
 	"nk_taillash"
 		0:lookat(off)
 		0:widesound("data\sound\Nuckalavee_Taillash.wav")		
 		32:effect("nuck_swing001") 
-	     0:quake(70,4,10,1000)
+	    //0:quake(70,4,10,1000)
         73:effect("nuck_swing002")		
-	     0:quake(100,4,10,1000)
+	    //0:quake(100,4,10,1000)
     	
 	
 	"nk_swimmingup"
@@ -116274,11 +116274,11 @@ set("C4_monster")
 		
 	
 	"mon_cailleach01_dying"
-			 0:quake(15,15,10,300)	
+			//0:quake(15,15,10,300)	
 			24:widesound("data\sound\golem_stomp.wav")
 			28:widesound("data\sound\golem_stomp.wav")
 
-			 0:quake(25,25,30,1500)	
+			//0:quake(25,25,30,1500)	
 			192:widesound("data\sound\golem_stomp.wav")		
 		
 //cailleach02
@@ -116422,10 +116422,10 @@ set("C4_monster")
 		66:effect("GB_DoomSentence_cast002",0,1)
 		
 	"mon_cailleach02_dying"
-			 0:quake(25,25,30,1500)	
+			//0:quake(25,25,30,1500)	
 			19:widesound("data\sound\golem_stomp.wav")
 
-			 0:quake(25,25,30,1500)	
+			//0:quake(25,25,30,1500)	
 			108:widesound("data\sound\golem_stomp.wav")
 	
 			
@@ -116456,7 +116456,7 @@ set("C4_monster")
 		1:widesound("data\sound\red_dragon_fear.wav")
 		20:widesound("data\sound\CromCruach_deed.wav")
 		155:widesound("data\sound\BlackDragon_stomp.wav")
-		 0:quake(20,20,50,3000)
+		//0:quake(20,20,50,3000)
 		
 
 		
@@ -116469,10 +116469,10 @@ set("C4_monster")
 		
 	"mon_cromcruach_run"
 		0:lookat(off)
-		 0:quake(20,20,30,2500)
+		//0:quake(20,20,30,2500)
 		13:sound("data\sound\BlackDragon_walk.wav")
 		54:sound("data\sound\BlackDragon_walk.wav")
-		 0:quake(20,20,30,2500)
+		//0:quake(20,20,30,2500)
 		13:effect("crow_1_foot01")				
 		35:effect("crow_4_foot01")		
 		52:effect("crow_2_foot01")	
@@ -116511,13 +116511,13 @@ set("C4_monster")
 		0:lookat(off)
 		0:widesound("data\sound\CromCruach_Breath_S1.wav")
 		33:widesound("data\sound\CromCruach_Breath_S1.wav")
-		 0:quake(30,30,30,3000)
+		//0:quake(30,30,30,3000)
 		40:effect("Cromm_windpressure_dust_large00")	
 			
 	"mon_cromcruach_foreleg_right"
 		0:lookat(off)
 		34:effect("crow_swing02",0,1)
-		 0:quake(20,20,30,2500)
+		//0:quake(20,20,30,2500)
 		30:widesound("data\sound\CromCruach_Foreleg.wav")
 	
 		
@@ -116525,20 +116525,20 @@ set("C4_monster")
 		0:lookat(off)
 		30:widesound("data\sound\CromCruach_Foreleg.wav")
 		34:effect("crow_swing02",0,1)
-		 0:quake(20,20,30,2500)
+		//0:quake(20,20,30,2500)
 		
 		
 	"mon_cromcruach_meteor"
 		0:lookat(off)
 		40:widesound("data\sound\CromCruach_Meteor_S1.wav")
-		 0:quake(50,50,100,3000)	
+		//0:quake(50,50,100,3000)	
 		50:effect("crow_roar001")		   
 	   
 	"mon_cromcruach_shoulderattack"
 		0:lookat(off)
 		15:widesound("data\sound\CromCruach_Shoulder_S1.wav")
 		50:widesound("data\sound\CromCruach_Shoulder_S2.wav")
-		 0:quake(40,40,40,3000)
+		//0:quake(40,40,40,3000)
 	    30:effect("crow_bottom001")		
 		
 	"mon_cromcruach_windmill"
@@ -116822,8 +116822,8 @@ set("C4_monster")
 			0:lookat(off)
 			41:sound("data\\sound\golem01_walk.wav")
 			101:sound("data\\sound\golem01_walk.wav")
-			 0:quake(0,30,30,2500)
-			 0:quake(0,30,30,2500)
+			//0:quake(0,30,30,2500)
+			//0:quake(0,30,30,2500)
 
 	"ntd_doubleattack_process"
 		0:lookat(off)
@@ -116853,7 +116853,7 @@ set("C4_monster")
 		0:lookat(off)	
     	0:sound("data\sound\GlasgavelenNTD_BladeStorm_2.wav")		
 		0:sound("data\sound\ntdgg_bladestorm_02.wav")
-		 0:quake(30,30,15,2000)
+		//0:quake(30,30,15,2000)
 		
 	"NTD_shield_process"
 		0:lookat(off)
@@ -116868,7 +116868,7 @@ set("C4_monster")
 		
 	"NTD_ergblackhole_process"
 		0:lookat(off)
-		 0:quake(30,30,90,5000)
+		//0:quake(30,30,90,5000)
 		
 	"NTD_ergblackhole_complete"
 		0:lookat(off)		
@@ -116876,7 +116876,7 @@ set("C4_monster")
 
 	"NTD_ergbeam360_process"
 		0:lookat(off)
-		 0:quake(30,30,90,2000)
+		//0:quake(30,30,90,2000)
 		0:sound("data\sound\ntdgg_ergbeam360.wav")	
 	    30:sound("data\sound\GlasgavelenNTD_ErgBeam.wav")
 	
@@ -116886,7 +116886,7 @@ set("C4_monster")
 	"NTD_ergbeam_process"
 		0:lookat(off)
 		0:lookat(off)
-		 0:quake(0,30,30,2500)
+		//0:quake(0,30,30,2500)
 		30:generic("line_path_effect_attach(effectName:glas_beam02,startJoint:effectbone01,endJoint:effectbone02)")
 		90:generic("line_path_effect_detach(effectName:glas_beam02,startJoint:effectbone01,endJoint:effectbone02)")
 		0:sound("data\sound\ntdgg_ergbeam.wav")
@@ -116917,11 +116917,11 @@ set("C4_monster")
 		"ntd_hd_bladestorm_complete"
 			0:sound("data\sound\ntdgg_bladestorm_02.wav")
 			0:sound("data\sound\GlasgavelenNTD_BladeStorm_2.wav")
-			 0:quake(0,30,30,2500)
+			//0:quake(0,30,30,2500)
 			
 		"NTD_HD_ergbeam360_prepare"
 			0:lookat(off)
-			 0:quake(0,30,30,2500)
+			//0:quake(0,30,30,2500)
 			30:sound("data\\sound\\golem01_walk.wav")
 			0:sound("data\sound\ntdgg_ergbeam360.wav")	
 			30:sound("data\sound\GlasgavelenNTD_ErgBeam360.wav")			
@@ -116932,7 +116932,7 @@ set("C4_monster")
 
 		"NTD_HD_ergbeam_prepare"
 			0:lookat(off)
-			 0:quake(0,30,30,2500)
+			//0:quake(0,30,30,2500)
 			0:sound("data\sound\ntdgg_ergbeam.wav")
 			30:sound("data\sound\GlasgavelenNTD_ErgBeam.wav")
 			40:generic("line_path_effect_attach(effectName:glas_beam02,startJoint:effectbone01,endJoint:effectbone02)")
@@ -116946,7 +116946,7 @@ set("C4_monster")
 			150:jump(90)
 			
 		"NTD_HD_jumpingdash_process"
-			 0:quake(0,30,30,2500)			
+			//0:quake(0,30,30,2500)			
 			0:sound("data\sound\ntdgg_jumpingdash_03.wav")
 			0:sound("data\sound\GlasgavelenNTD_JumpingDash_2.wav")
 			40:jump(35)	
@@ -116954,17 +116954,17 @@ set("C4_monster")
 		"ntd_hd_attack"
 			30:sound("data\sound\GlasgavelenNTD_DoubleAttack.wav")
 			0:sound("data\sound\ntdgg_attack_vh.wav")
-			 0:quake(0,20,20,1500)					
+			//0:quake(0,20,20,1500)					
 			45:sound("data\sound\GlasgavelenNTD_DoubleAttack.wav")			
-			 0:quake(0,20,20,1500)
+			//0:quake(0,20,20,1500)
 			
 
 			
 		"ntd_hd_confusion_prepare"
 			0:sound("data\sound\ntdgg_confusion.wav")
-			 0:quake(0,10,10,1000)
+			//0:quake(0,10,10,1000)
 			30:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(0,10,10,1000)
+			//0:quake(0,10,10,1000)
 			36:sound("data\\sound\\golem01_walk.wav")
 			
 
@@ -116972,9 +116972,9 @@ set("C4_monster")
 		"ntd_hd_dying"
 		    0:sound("data\sound\ntdgg_die_vh.wav")
 			34:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(0,15,15,1500)
+			//0:quake(0,15,15,1500)
 			40:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(0,20,20,2500)
+			//0:quake(0,20,20,2500)
 			199:jump (180,true)
 			
 		"ntd_hd_ergblackhole_prepare"
@@ -116983,7 +116983,7 @@ set("C4_monster")
 		
 		"ntd_hd_ergblackhole_process"
 			0:lookat(off)
-			 0:quake(30,30,90,2000)		
+			//0:quake(30,30,90,2000)		
 			
 					
     endfolder		
@@ -117005,9 +117005,9 @@ set("C4_monster")
 		0:lookat(off)
 		0:effect("fran_Footstep_dust")
 		13:effect("fran_Footstep_dust_L")
-		 0:quake(0,20,10,2500)
+		//0:quake(0,20,10,2500)
 		13:sound("data\sound\golem01_walk.wav")
-		 0:quake(0,20,10,2500)
+		//0:quake(0,20,10,2500)
 		42:sound("data\sound\golem01_walk.wav")
 		42:effect("fran_Footstep_dust_R")
 		
@@ -117016,9 +117016,9 @@ set("C4_monster")
 		0:lookat(off)
 		0:effect("fran_Footstep_dust")
 		13:effect("fran_Footstep_dust_L")
-		 0:quake(0,20,10,2500)
+		//0:quake(0,20,10,2500)
 		13:sound("data\sound\golem01_walk.wav")
-		 0:quake(0,20,10,2500)
+		//0:quake(0,20,10,2500)
 		42:sound("data\sound\golem01_walk.wav")
 		42:effect("fran_Footstep_dust_R")
 			
@@ -117198,7 +117198,7 @@ set("C4_monster")
 	"crazyblacksmith_natural_blowaway_ground"
 			0:lookat(off)
 			0:sound("data\\sound\\golem01_walk.wav") //쿵
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 			0:hand(both, palm)
 		
 	"crazyblacksmith_natural_downb"
@@ -117226,7 +117226,7 @@ set("C4_monster")
 	"crazyblacksmith_natural_stomp"
 			0:sound("data\sound\golem_stomp.wav")
 			0:sound("data\sound\ogre_smash_01.wav")
-			 0:quake(20,20,20,1000)
+			//0:quake(20,20,20,1000)
 			0:lookat(off)
 			0:hand(right, fist)
 			0:hand(left, palm)
@@ -117245,7 +117245,7 @@ set("C4_monster")
 			0:hand(both, fist)
 			8:sound("data\sound\windmill.wav")
 			15:sound("data\sound\windmill_stop.wav")
-			 0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
 			31:sound("data\\sound\\golem01_walk.wav") //쿵
 		
 	"crazyblacksmith_natural_windmill_standing"
@@ -117254,7 +117254,7 @@ set("C4_monster")
 			0:hand(both, fist)
 			8:sound("data\sound\windmill.wav")
 			15:sound("data\sound\windmill_stop.wav")
-			 0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
 			31:sound("data\\sound\\golem01_walk.wav")
 		
 	"crazyblacksmith_run_friendly"
@@ -117262,8 +117262,8 @@ set("C4_monster")
 			0:hand(both, fist)
 			9:sound("data\\sound\\golem01_walk.wav")
 			24:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(10,10,10,800)
-			 0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
 			0:effect("footstep_right_yeti")
 			10:effect("footstep_left_yeti")
 			0:effect("footstep_right_yeti01")
@@ -117307,7 +117307,7 @@ set("C4_monster")
 		
 	"archelon_smash"
 		0:lookat(off)
-		 0:quake(20,20,30,1000)		
+		//0:quake(20,20,30,1000)		
 		60:hit(up,normal)
 		60:sound("data\sound\rock_seal_break.wav")
 		
@@ -117319,21 +117319,21 @@ set("C4_monster")
 		
 	"archelon_dying"
 		0:lookat(off)
-		 0:quake(20,20,20,1000)	
+		//0:quake(20,20,20,1000)	
 		180:jump(120,true)
 		88:sound("data\sound\archelon_dying.wav")		
 		
 		
 	"archelon_dash_processing"
 			0:lookat(off)
-			 0:quake(0,12,5,6000)
+			//0:quake(0,12,5,6000)
 			21:sound("data\sound\elephant_walk.wav")
 			34:effect("Worm_head_run_sand01")
-			 0:quake(0,12,5,6000)
+			//0:quake(0,12,5,6000)
 			34:sound("data\sound\elephant_walk.wav")
-			 0:quake(0,18,5,6000)
+			//0:quake(0,18,5,6000)
 			53:effect("Worm_head_run_sand02")
-			 0:quake(0,18,5,6000)
+			//0:quake(0,18,5,6000)
 			55:sound("data\sound\elephant_walk.wav")
 			73:effect("Worm_head_run_sand01")
 			53:effect("arch_front_sand01")		
@@ -117360,7 +117360,7 @@ set("C4_monster")
 	"archelon_water_spitting_prepare"
 		0:lookat(off)
 		38:hit(up,normal)
-		 0:quake(20,20,30,1000)		
+		//0:quake(20,20,30,1000)		
 		37:effect("arch_waterboomb001")				
 		35:effect("arch_stoners0001")
 		37:sound("data\sound\archelon_waterspitting.wav")		
@@ -117378,13 +117378,13 @@ set("C4_monster")
 		700:effect("zebach_sum001")			
 		1044:effect("zebach_sum001")
 		450:sound("data\sound\golem_summoned.wav")	
-		 0:quake(10,10,30,1000)	
+		//0:quake(10,10,30,1000)	
 		598:sound("data\sound\golem_summoned.wav")	
-		 0:quake(10,10,30,1000)	
+		//0:quake(10,10,30,1000)	
 		951:sound("data\sound\golem_summoned.wav")	
-		 0:quake(20,20,30,1000)	
+		//0:quake(20,20,30,1000)	
 		986:sound("data\sound\golem_summoned.wav")	
-		 0:quake(20,20,30,1000)	
+		//0:quake(20,20,30,1000)	
 		
 		722:sound("data\sound\BlackDragon_fear.wav")	
 		
@@ -117395,11 +117395,11 @@ set("C4_monster")
 		20:sound("data\sound\BlackDragon_fear.wav")
 		92:sound("data\sound\wind_blast_shoot.wav")
 		135:sound("data\sound\golem_summoned.wav")
-		 0:quake(20,20,30,1000)	
+		//0:quake(20,20,30,1000)	
 		152:sound("data\sound\golem_summoned.wav")
-		 0:quake(20,20,30,1000)	
+		//0:quake(20,20,30,1000)	
 		178:sound("data\sound\golem_summoned.wav")
-		 0:quake(20,20,30,1000)	
+		//0:quake(20,20,30,1000)	
 		
 	"zebach03_dying"
 		0:lookat(off)
@@ -117408,9 +117408,9 @@ set("C4_monster")
 		92:sound("data\sound\wind_blast_shoot.wav")
 		
 		135:sound("data\sound\golem_summoned.wav")
-		 0:quake(20,20,30,1500)	
+		//0:quake(20,20,30,1500)	
 		152:sound("data\sound\golem_summoned.wav")
-		 0:quake(20,20,30,1500)	
+		//0:quake(20,20,30,1500)	
 		
 		//십자가
 		179:sound("data\sound\elvenmissile_ice_hit.wav")
@@ -117421,22 +117421,22 @@ set("C4_monster")
 		180:sound("data\sound\goldstrike_hit.wav")
 		//goldstrike_hit.wav
 		174:sound("data\sound\BlackDragon_stomp.wav")
-		 0:quake (50,50,50,1800)		
+		//0:quake (50,50,50,1800)		
 		
 	"zebach_roar"
 		0:lookat(off)
 		60:sound("data\sound\griffin_roar.wav")
-		 0:quake(60,60,60,1700)
+		//0:quake(60,60,60,1700)
 		60:effect("zebach_roar001")		
 	
 	"zebach_roar02"
 		0:lookat(off)
 		75:sound("data\sound\griffin_roar.wav")
-		 0:quake(20,20,30,1700)
+		//0:quake(20,20,30,1700)
 		26:sound("data\sound\golem_summoned.wav")
-		 0:quake(20,20,30,1700)
+		//0:quake(20,20,30,1700)
 		47:sound("data\sound\golem_summoned.wav")
-		 0:quake(60,60,90,1700)
+		//0:quake(60,60,90,1700)
 		75:effect("zebach_roar001")		
 		
 		
@@ -117445,13 +117445,13 @@ set("C4_monster")
 		5:sound("data\sound\stonehenge_build.wav")
 		
 		10:sound("data\sound\Gargoyle_magic_casting.wav")
-		 0:quake(10,10,30,500)	
+		//0:quake(10,10,30,500)	
 		60:sound("data\sound\skill_berserker_hit.wav")
 		//giant_fullswing_hit.wav
-		 0:quake(20,20,60,1500)	
+		//0:quake(20,20,60,1500)	
 		
 		120:sound("data\sound\golem_stomp.wav")	
-		 0:quake(10,10,30,1500)	
+		//0:quake(10,10,30,1500)	
 	
 	"zebach_walk"
 		0:lookat(off)
@@ -117461,9 +117461,9 @@ set("C4_monster")
 		37:effect("drop_rockL")	
 		
 		8:sound("data\sound\golem_summoned.wav")	
-		 0:quake(5,5,30,1000)		
+		//0:quake(5,5,30,1000)		
 		36:sound("data\sound\golem_summoned.wav")
-		 0:quake(5,5,30,1000)
+		//0:quake(5,5,30,1000)
 		//21:sound("data\sound\golem_stomp.wav")
 		//49:sound("data\sound\golem_stomp.wav")
 		
@@ -117472,13 +117472,13 @@ set("C4_monster")
 	"zebach_stomp_casting"
 		0:lookat(off)
 		0:sound("data\sound\Gargoyle_magic_casting.wav")
-		 0:quake(5,5,30,1000)		
+		//0:quake(5,5,30,1000)		
 		5:sound("data\sound\golem_stomp.wav")
 		210:jump(150)
 	
 	"zebach_stomp_processing"
 		0:lookat(off)
-		 0:quake(80,80,80,1000)
+		//0:quake(80,80,80,1000)
 		4:sound("data\sound\golem_stomp.wav")
 		6:effect("zebach_stomp01")			
 	
@@ -117925,7 +117925,7 @@ set("C4_monster")
 
 		"vategolem_golemstomp"
 			0:sound("data\sound\golem_stomp.wav")
-			 0:quake(25,25,30,1500)
+			//0:quake(25,25,30,1500)
 
 		"vategolem_golemstomp_casting"
 			1:sound("data\\sound\\golem01_woo.wav")
@@ -117946,8 +117946,8 @@ set("C4_monster")
 		"vategolem_run"
 			10:sound("data\\sound\\golem01_walk.wav")
 			25:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(10,10,10,1000)
-			 0:quake(10,10,10,1000)
+			//0:quake(10,10,10,1000)
+			//0:quake(10,10,10,1000)
 
 		"vategolem_taunt"
 			32:sound("data\\sound\\golem01_woo.wav")
@@ -117960,8 +117960,8 @@ set("C4_monster")
 			0:ForceTargetInRange
 			0:lookat(off)
 			30:hit(up,normal)
-			 0:quake(15,15,10,1500)
-			 0:quake(25,25,30,1500)
+			//0:quake(15,15,10,1500)
+			//0:quake(25,25,30,1500)
 
 		"vategolem_stand_friendly"
 			0:lookat(off)
@@ -118117,15 +118117,15 @@ set("C4_monster")
 
 		"ogre_c4_walk_offensive"
 			0:hand(both, fist)
-			 0:quake(0,5,7,500)
-			 0:quake(0,5,7,500)
+			//0:quake(0,5,7,500)
+			//0:quake(0,5,7,500)
 
 		"ogre_c4_run_friendly"
 			0:hand(both, fist)
 			9:sound("data\\sound\\golem01_walk.wav")
 			24:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(10,10,10,800)
-			 0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
 			0:effect("footstep_right_yeti")
 			10:effect("footstep_left_yeti")
 			0:effect("footstep_right_yeti01")
@@ -118135,8 +118135,8 @@ set("C4_monster")
 			0:hand(both, fist)
 			9:sound("data\\sound\\golem01_walk.wav")
 			24:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(10,10,10,800)
-			 0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
 
 		"ogre_c4_guard"
 			0:lookat(off)
@@ -118200,7 +118200,7 @@ set("C4_monster")
 			0:lookat(off)
 			0:lookat(off)
 			0:sound("data\\sound\\golem01_walk.wav") //쿵
-			 0:quake(15,15,15,1500)
+			//0:quake(15,15,15,1500)
 
 		"ogre_c4_blowaway_spin"
 			5:blowaway
@@ -118283,8 +118283,8 @@ set("C4_monster")
 			0:hand(both, fist)
 			9:sound("data\\sound\\golem01_walk.wav")
 			24:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(10,10,10,800)
-			 0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
 			0:effect("footstep_right_yeti")
 			10:effect("footstep_left_yeti")
 			0:effect("footstep_right_yeti01")
@@ -118626,14 +118626,14 @@ set("C4_monster")
 
 
 		"marionette_b_walk"
-			 0:quake(2,2,2,100)
+			//0:quake(2,2,2,100)
 			//15:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(2,2,2,100)
+			//0:quake(2,2,2,100)
 			//43:sound("data\\sound\\golem01_walk.wav")
 		"marionette_b_run"
-			 0:quake(5,5,5,400)
+			//0:quake(5,5,5,400)
 			14:sound("data\sound\golem01_walk.wav")
-			 0:quake(5,5,5,400)
+			//0:quake(5,5,5,400)
 			36:sound("data\sound\golem01_walk.wav")
 
 
@@ -118651,25 +118651,25 @@ set("C4_monster")
 			0:hand(both, fist)
 			10:effect("B_doll_stomp")
 			10:sound("data\sound\golem_stomp.wav")
-			 0:quake(20,20,20,1000)
+			//0:quake(20,20,20,1000)
 			
 		"marionette_b_1step_windmill02"
 			0:lookat(off)
 			0:hand(both, fist)
 			10:effect("B_doll_rstomp")
 			10:sound("data\sound\golem_stomp.wav")
-			 0:quake(20,20,20,1000)			
+			//0:quake(20,20,20,1000)			
 
 		"marionette_b_1step_smash"
 			0:hand(both, fist)
 			16:hit(down,normal)
-			 0:quake(10,10,10,400)
+			//0:quake(10,10,10,400)
 			//16:sound("data\\sound\\golem01_walk.wav")
 			39:hit(up,normal)
-			 0:quake(10,10,10,400)
+			//0:quake(10,10,10,400)
 			//43:sound("data\sound\colossus_hit.wav")
 			71:hit(up,spin)
-			 0:quake(10,10,10,400)
+			//0:quake(10,10,10,400)
 			//75:sound("data\sound\colossus_blow.wav")
 			70:effect("B_3rd_Hit")
 
@@ -118678,13 +118678,13 @@ set("C4_monster")
 			0:effect("Catastrophe_B_line")
 
 			0:lookat(off)
-			 0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
 			9:sound("data\sound\colossus_walking.wav")
-			 0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
 			20:sound("data\sound\colossus_walking.wav")
-			 0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
 			33:sound("data\sound\colossus_walking.wav")
-			 0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
 			35:sound("data\sound\colossus_walking.wav")
 			0:sound("data\sound\colossus_catastrophe_rush.wav ")
 			
@@ -118728,7 +118728,7 @@ set("C4_monster")
 		//스피릿 변신 모션
 		"marionette_b_1step_transform"
 			0:lookat(off)
-			 0:quake(10,10,10,400)
+			//0:quake(10,10,10,400)
 			0:sound("data\\sound\\Glasgavelen_attack1.wav")
 			29:sound("data\\sound\\heat_buster_explode.wav")
 
@@ -118740,7 +118740,7 @@ set("C4_monster")
 
 		"marionette_b_ground"
 			0:lookat(off)
-			 0:quake(10,10,10,400)
+			//0:quake(10,10,10,400)
 			3:sound("data\\sound\\golem01_walk.wav")
 
 
@@ -118750,15 +118750,15 @@ set("C4_monster")
 
 
 		"marionette_b_2step_walk"
-			 0:quake(2,2,2,100)
+			//0:quake(2,2,2,100)
 			//15:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(2,2,2,100)
+			//0:quake(2,2,2,100)
 			//43:sound("data\\sound\\golem01_walk.wav")
 
 		"marionette_b_2step_run"
-			 0:quake(5,5,5,400)
+			//0:quake(5,5,5,400)
 			14:sound("data\\sound\\golem01_walk.wav")
-			 0:quake(5,5,5,400)
+			//0:quake(5,5,5,400)
 			36:sound("data\\sound\\golem01_walk.wav")
 
 
@@ -118790,14 +118790,14 @@ set("C4_monster")
 
 		"marionette_B_4step_walk"
 			0:hand(both, fist)
-			 0:quake(2,2,2,100)
-			 0:quake(2,2,2,100)
+			//0:quake(2,2,2,100)
+			//0:quake(2,2,2,100)
 
 		"marionette_B_4step_run"
 			0:hand(both, fist)
-			 0:quake(5,5,5,400)
+			//0:quake(5,5,5,400)
 			14:sound("data\sound\colossus_walking.wav")
-			 0:quake(5,5,5,400)
+			//0:quake(5,5,5,400)
 			37:sound("data\sound\colossus_walking.wav")
 
 		"marionette_b_4step_windmill"
@@ -118805,26 +118805,26 @@ set("C4_monster")
 			0:hand(both, fist)
 			10:effect("B_doll_stomp")
 			10:sound("data\sound\golem_stomp.wav")
-			 0:quake(20,20,20,1000)
+			//0:quake(20,20,20,1000)
 			
 		"marionette_b_4step_windmill02"
 			0:lookat(off)
 			0:hand(both, fist)
 			10:effect("B_doll_rstomp")
 			10:sound("data\sound\golem_stomp.wav")
-			 0:quake(20,20,20,1000)			
+			//0:quake(20,20,20,1000)			
 
 
 		"marionette_b_4step_smash"
 			0:hand(both, fist)
 			16:hit(down,normal)
-			 0:quake(10,10,10,400)
+			//0:quake(10,10,10,400)
 			//16:sound("data\\sound\\golem01_walk.wav")
 			39:hit(up,normal)
-			 0:quake(10,10,10,400)
+			//0:quake(10,10,10,400)
 			//43:sound("data\sound\colossus_hit.wav")
 			71:hit(up,spin)
-			 0:quake(10,10,10,400)
+			//0:quake(10,10,10,400)
 			//75:sound("data\sound\colossus_blow.wav")
 			70:effect("B_3rd_Hit")
 			
@@ -118873,13 +118873,13 @@ set("C4_monster")
 		"marionette_B_4step_catastrophe"
 			0:effect("Catastrophe_B_line")
 			0:lookat(off)
-			 0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
 			9:sound("data\sound\colossus_walking.wav")
-			 0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
 			20:sound("data\sound\colossus_walking.wav")
-			 0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
 			33:sound("data\sound\colossus_walking.wav")
-			 0:quake(10,10,10,800)
+			//0:quake(10,10,10,800)
 			35:sound("data\sound\colossus_walking.wav")
 			0:sound("data\sound\colossus_catastrophe_rush.wav ")
 			
@@ -118887,7 +118887,7 @@ set("C4_monster")
 		//스피릿 변신 모션
 		"marionette_b_4step_transform"
 			0:lookat(off)
-			 0:quake(10,10,10,400)
+			//0:quake(10,10,10,400)
 			0:sound("data\\sound\\Glasgavelen_attack1.wav")
 			29:sound("data\\sound\\heat_buster_explode.wav")
 
@@ -118896,13 +118896,13 @@ set("C4_monster")
 		"marionette_b_4step_transform_v02"
 			0:lookat(off)
 			0:sound("data\\sound\\Glasgavelen_attack1.wav")
-			 0:quake(10,10,10,400)
+			//0:quake(10,10,10,400)
 			10:sound("data\\sound\\heat_buster_explode.wav")
 
 			
 		"marionette_b_4step_ground"
 			0:lookat(off)
-			 0:quake(10,10,10,400)
+			//0:quake(10,10,10,400)
 			3:sound("data\\sound\\golem01_walk.wav")
 	
 			
@@ -119397,7 +119397,7 @@ set("C4_monster")
 	"albangolem_ambush_appear"
 		0:lookat(off)
 		0:hand(both, fist)
-		 0:quake(5,5,5,1500)		
+		//0:quake(5,5,5,1500)		
 		16:sound("data\sound\golem01_walk.wav")
 		5:sound("data\sound\albangolem_ambush_02.wav")
 		
@@ -119455,33 +119455,33 @@ set("C4_monster")
 		
 	"albangolem_run"
 			0:hand(both, fist)
-			 0:quake(5,5,5,400)
+			//0:quake(5,5,5,400)
 			9:sound("data\sound\golem01_walk.wav")
-			 0:quake(5,5,5,400)
+			//0:quake(5,5,5,400)
 			24:sound("data\sound\golem01_walk.wav")
 	    	0:effectoff("albangolem_meteo01") 			
 			
 	"albangolem_offensive_run"
 			0:hand(both, fist)
-			 0:quake(5,5,5,400)
+			//0:quake(5,5,5,400)
 			9:sound("data\sound\golem01_walk.wav")
-			 0:quake(5,5,5,400)
+			//0:quake(5,5,5,400)
 			24:sound("data\sound\golem01_walk.wav")	
 		   	0:effectoff("albangolem_meteo01") 
 			
 	"albangolem_walk"
 			0:hand(both, fist)
-			 0:quake(2,2,2,200)
+			//0:quake(2,2,2,200)
 			15:sound("data\sound\golem01_walk.wav")
-			 0:quake(2,2,2,200)
+			//0:quake(2,2,2,200)
 			45:sound("data\sound\golem01_walk.wav")
 	    	0:effectoff("albangolem_meteo01") 
 			
 	"albangolem_offensive_walk"
 			0:hand(both, fist)
-			 0:quake(2,2,2,200)
+			//0:quake(2,2,2,200)
 			15:sound("data\sound\golem01_walk.wav")
-			 0:quake(2,2,2,200)
+			//0:quake(2,2,2,200)
 			45:sound("data\sound\golem01_walk.wav")	
 	    	0:effectoff("albangolem_meteo01") 	
 	
@@ -119523,7 +119523,7 @@ set("C4_monster")
 			30:sound("data\sound\Skill2.wav")				
 			60:effect("disciple_cage_bomb01")	
 			60:sound("data\sound\rock_seal_break.wav")	
-			 0:quake(20,20,20,2000)		
+			//0:quake(20,20,20,2000)		
 	    	0:effectoff("albangolem_meteo01")
 			0:effect("albangolem_meteo01")		
 			0:effect("albangolem_meteo02")		
@@ -119537,7 +119537,7 @@ set("C4_monster")
 			58:sound("data\sound\Sword_blow.WAV")
      		0:effectoff("albangolem_meteo01")	
 			60:effect("disciple_posion001")	
-			 0:quake(5,5,10,500)	
+			//0:quake(5,5,10,500)	
 			0:effect("albangolem_meteo01")		
 			0:effect("albangolem_meteo02")		
 			
@@ -119551,7 +119551,7 @@ set("C4_monster")
 	"albangolem_bash"
 		0:lookat(off)
 		0:hand(both, fist)	
-			 0:quake(10,10,40,1000)	
+			//0:quake(10,10,40,1000)	
 			23:sound("data\sound\golem01_walk.wav")		
 		24:hit(down, normal)		
 		0:effectoff("albangolem_meteo01")
@@ -119570,7 +119570,7 @@ set("C4_monster")
 		
 		"albangolem_dk_blade_processing"
 			0:lookat(off)
-			 0:quake(30,30,30,1500)
+			//0:quake(30,30,30,1500)
 			0:hand(both, palm)
 			0:sound("data\sound\judgement_blade_02_wait.wav")
 			30:sound("data\sound\judgement_blade_03_process.wav")		
@@ -119608,9 +119608,9 @@ set("C4_monster")
 			124:sound("data\sound\BlackDragon_wing.wav")
 		
 		
-			 0:quake(40,40,20,2000)		
-			 0:quake(10,10,40,1000)		
-			 0:quake(15,15,30,1500)		
+			//0:quake(40,40,20,2000)		
+			//0:quake(10,10,40,1000)		
+			//0:quake(15,15,30,1500)		
 			0:effect("albangolem_meteo01")		
 			0:effect("albangolem_meteo02")				
 			
@@ -119618,7 +119618,7 @@ set("C4_monster")
 			0:lookat(off)
 			0:effectoff("disciple_spike01")	
 			15:sound("data\sound\wind_blast_shoot.wav")				
-			 0:quake(10,10,10,1000)		
+			//0:quake(10,10,10,1000)		
 			70:sound("data\sound\golem01_walk.wav")	
 			64:effectoff("albangolem_meteo01")			
 			52:effect("albangolem_ambush_attack01")	
@@ -119656,7 +119656,7 @@ set("C4_monster")
 		
 		
 	"albanGolem_blowaway_bound"
-		 0:quake(10,10,10,1000)		
+		//0:quake(10,10,10,1000)		
 		2:sound("data\sound\golem01_walk.wav")	
 
 
@@ -119767,7 +119767,7 @@ set("C4_monster")
 			//26:sound("data\sound\beeper_beam.wav")			 
 		     22:sound("data\sound\giant_fullswing_hit.wav")			 
 			 75:sound("data\sound\fran_stomp.wav")
-			  0:quake(50,50,100,2500)	
+			 //0:quake(50,50,100,2500)	
 			 22:effect("bear_jump_dust01_01")
 			 75:effect("bear_jump_dust02_01")
 			
@@ -119785,9 +119785,9 @@ set("C4_monster")
 			
 		"bigragdoll_run"
 			1:sound("data\sound\bunshin_appear.wav")
-			 0:quake(5,5,10,100)	
+			//0:quake(5,5,10,100)	
 			4:sound("data\sound\bunshin_appear.wav")
-			 0:quake(5,5,10,100)	
+			//0:quake(5,5,10,100)	
 			
 		"bb_attack"
 			0:lookat(off)
@@ -119801,13 +119801,13 @@ set("C4_monster")
 		"bbb_attack"
 			0:lookat(off)
 			30:sound("data\sound\bunshin_appear.wav")
-			 0:quake(10,10,20,200)	
+			//0:quake(10,10,20,200)	
 			30:effect("bear_bellyHit_giant_01")
 			
 		"bbb_kick"
 			0:lookat(off)	
 			30:sound("data\sound\bunshin_appear.wav")
-			 0:quake(10,10,20,200)	
+			//0:quake(10,10,20,200)	
 			30:effect("bear_kick_giant_01")
 
 	endfolder
@@ -120831,7 +120831,7 @@ set("chainslash")
 			0:generic ("custom_mesh(1:giant_weapon_c4_Whip01_ani)")
 			25:sound("data\sound\skill_assaultslash_jump.wav")
 			45:sound("data\sound\golem_stomp.wav")
-			 0:quake(30,30,30,1500)
+			//0:quake(30,30,30,1500)
 			
 		"giant_cs_tuairimexplosion_finish"
 			0:lookat(off)	
@@ -120964,13 +120964,13 @@ set("fuath")
 		0:lookat(off)
 		1:effect("fuath_summon_prepare_w1",0,1)
 		1:effect("fuath_summon_prepare_w20",0,1)
-		 0:quake(10,10,100,10)		
-		 0:quake(10,10,100,10)		
-		 0:quake(10,10,100,10)		
-		 0:quake(10,10,100,10)		
+		//0:quake(10,10,100,10)		
+		//0:quake(10,10,100,10)		
+		//0:quake(10,10,100,10)		
+		//0:quake(10,10,100,10)		
 		200:jump(120,true)
-		 0:quake(10,10,100,10)	
-		 0:quake(10,10,100,10)	
+		//0:quake(10,10,100,10)	
+		//0:quake(10,10,100,10)	
 		
 	"Fuath_w_summon_process"
 		0:lookat(off)	
@@ -121010,13 +121010,13 @@ set("fuath")
 		0:lookat(off)
 		1:effect("fuath_summon_prepare_b1",0,1)
 		1:effect("fuath_summon_prepare_b20",0,1)	
-		 0:quake(10,10,100,10)		
-		 0:quake(10,10,100,10)		
-		 0:quake(10,10,100,10)		
-		 0:quake(10,10,100,10)		
+		//0:quake(10,10,100,10)		
+		//0:quake(10,10,100,10)		
+		//0:quake(10,10,100,10)		
+		//0:quake(10,10,100,10)		
 		200:jump(120,true)
-		 0:quake(10,10,100,10)	
-		 0:quake(10,10,100,10)	
+		//0:quake(10,10,100,10)	
+		//0:quake(10,10,100,10)	
 		
 	"Fuath_b_summon_process"
 		0:lookat(off)		
@@ -121028,7 +121028,7 @@ set("fuath")
 	"fuath_b_cyclone"
 		0:lookat(off)
 		21:effect("fuath_cyclone_boom_b1",0,1)
-		 0:quake(10,10,20,10)
+		//0:quake(10,10,20,10)
 		
 	"fuath_b_angryprepare"
 		0:lookat(off)
@@ -121037,7 +121037,7 @@ set("fuath")
 		10:effect("fuath_angry_prepare2_b1",0,1)		
 		10:effect("fuath_angry_prepare3_b1",0,1)
 		10:effect("fuath_angry_preparewarning_b",0,1)		
-		 0:quake(5,5,5,5)			
+		//0:quake(5,5,5,5)			
 		
 	"fuath_b_angryprocess"
 		0:lookat(off)
@@ -121046,7 +121046,7 @@ set("fuath")
         0:effect("fuath_angry_prepare_b2",0,1)
         30:effect("fuath_angry_prepare3_b1",0,1)	
 		0:effect("fuath_angry_warning_end01",0,1)
-		 0:quake(10,10,200,10)	
+		//0:quake(10,10,200,10)	
 		
 	"Fuath_b_death"
 		0:lookat(off)
