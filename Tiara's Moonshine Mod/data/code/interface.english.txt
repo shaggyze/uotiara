@@ -1059,8 +1059,8 @@ pli_charactercommerceframe.4	{0} Commerce Rank: {1}
 pli_charactercommerceframe.5	{0}.{1}.{2} - {3}.{4}.{5} (Resets on {6}.{7} 0:00)
 pli_characterconditionremaintimeview.1	No effects active.
 pli_characterconditionremaintimeview.2	 (Cannot be used)
-pli_characterentryview.1	Character Info: {0}
-pli_characterentryview.2	Talent {0}
+pli_characterentryview.1	Character Info {0}
+pli_characterentryview.2	Talents {0}
 pli_characterentryview.3	Blaanid's Brave Boost {0}
 pli_characterentryview.4	Can be used after completing the quest "A Familiar Voice."
 pli_charactererinnlandachievementframe.1	Exit
@@ -1233,6 +1233,7 @@ pli_commercenotifyview.7	Ancient Stela Discovery
 pli_commercenotifyview.8	Hidden Box Discovery
 pli_commercenotifyview.9	Gust of Wind
 pli_commercenotifyview.10	Wind Essence Discovery
+pli_commercenotifyview.11	Alert: Trade Goods Not Reclaimed
 pli_commercepartyaircombatview.1	Total Enhancement Stone Increase: {0}%
 pli_commercepartyaircombatview.2	Remaining Wyverns: {0} / {1} \nLose if Durability decreases by 900 or more
 pli_commercepartyaircombatview.3	Someone either hasn't boarded yet, or hasn't finalized a Barter Goods purchase.
@@ -1310,16 +1311,16 @@ pli_commerceproductframe.31	<color=4><outlinecolor=5>{0:price}</outlinecolor></c
 pli_commerceproductframe.32	<color=4>Original Price: {0} Seasonal Ducats</color>
 pli_commerceproductframe.33	Current Price: <color=5>{0} Seasonal Ducats</color>
 pli_commerceproductframe.34	Current Price: <color=3>{0} Seasonal Ducats</color> ({1}% Discount)
-pli_commerceproductframe.35	<color=5>Resets at {0} o'clock (Earth time)</color>
-pli_commerceproductframe.36	<color=5>Resets at {0} {1} (Earth time)</color>
-pli_commerceproductframe.37	<color=5>\nNumber of purchases available: {0}\n- {1}</color>
-pli_commerceproductframe.38	<color=5>Resets at {0} o'clock (Earth time)</color>
-pli_commerceproductframe.39	<color=5>Resets at {0} {1} (Earth time)</color>
-pli_commerceproductframe.40	<color=5>\nNumber of exchanges available: {0}\n- {1}</color>
+pli_commerceproductframe.35	Reset: <color=5>{0} o'clock (Server Time)</color>
+pli_commerceproductframe.36	Reset: <color=5>{0} at {1} (Server Time)</color>
+pli_commerceproductframe.37	\nNumber available to purchase: <color=5>{0}</color>\n{1}
+pli_commerceproductframe.38	Reset: <color=5>{0} o'clock (Server Time)</color>
+pli_commerceproductframe.39	Reset: <color=5>{0} at {1} (Server Time)</color>
+pli_commerceproductframe.40	\nNumber available to exchange: <color=5>{0}</color>\n{1}
 pli_commerceproductframe.41	Exchange limit has been reached.
 pli_commerceproductframe.42	Purchase limit has been reached.
 pli_commerceseasonrewardview.1	You've already received the reward.
-pli_commerceseasonrewardview.2	이전 시즌의 데이터를 집계 중입니다.\n(남은 시간: {0}분)
+pli_commerceseasonrewardview.2	The previous season's data is currently being compiled.\n(Remaining time: {0} min.)
 pli_commerceselectview.1	You can use this transport mount after\npaying a fee in Ducats. See the\nTransport Helper to learn more.
 pli_commerceselectview.2	Slot: {0:slot}</color>
 pli_commerceselectview.3	Weight: {0:weight}</color>
@@ -1558,6 +1559,21 @@ pli_dungeonguidemainview.2	Teleport to the entrance of {0}?
 pli_dungeonguidemainview.3	No dungeon to recommend at your level.
 pli_dungeonguidemainview.4	Dungeon recommended based on your current Damage.
 pli_dungeonguidemainview.5	Dungeon recommended based on your current Magic Attack.
+pli_dungeonguidemainview.6	누적 레벨 5000을 달성한 후 획득 가능한\n\"숨겨진 고대 유적 탐사\" 퀘스트를 완료한 후 사용할 수 있습니다.\n(퀘스트 수주 게시판에서 수주 가능)
+pli_dungeonguidetowercontentsframe.1	파티 중에는 도전할 수 없습니다.
+pli_dungeonguidetowercontentsframe.2	제{0}계층을 클리어한 후 도전할 수 있습니다.
+pli_dungeonguidetowercontentsframe.3	유적 입구로 이동
+pli_dungeonguidetowercontentsframe.4	도전하기
+pli_dungeonguidetowercontentsframe.5	%02d일 %02d시간 %02d분
+pli_dungeonguidetowercontentsframe.6	제 %d 계층
+pli_dungeonguidetowercontentsframe.7	파메스 유적 입구로 이동하시겠습니까?
+pli_dungeonguidetowercontentsframe.8	제{0}계층에 도전하시겠습니까?
+pli_dungeonguidetowersectionrewardview.1	제%d계층 최초 보상
+pli_dungeonguidetowersectionviewbox.1	제 {0} 계층
+pli_dungeonguidetowersectionviewbox.2	제{0}계층 마지막 단계 클리어 후 해금
+pli_dungeonguidetowerstarrewardview.1	이미 획득한 보상입니다.
+pli_dungeonguidetowerstarrewardview.2	조건을 달성해야 받을 수 있습니다.
+pli_dungeonguidetowerstarrewardview.3	획득 완료
 pli_dungeonpassview.1	Unrestricted Dungeon Pass
 pli_dungeonpassview.2	Please select the dungeon you wish to enter.
 pli_dungeonpassview.3	Enter
@@ -1565,6 +1581,7 @@ pli_dungeonpassview.4	Cancel
 pli_dungeonpassview.5	You cannot access any dungeons here with an Unrestricted Dungeon Pass.
 pli_dungeonrankcleared.1	Challenge Successful
 pli_dungeonrankcleared.2	OK
+pli_dungeonstatisticview.1	기타
 pli_echostoneawakeningview.1	Required AP <color=1>{0} AP</color>
 pli_echostoneawakeningview.2	Required AP <color=2>{0} AP</color>
 pli_echostoneawakeningview.3	Place the Echostone.
@@ -1780,7 +1797,7 @@ pli_entryeventview.5	Your Invitation Code: {0}@{1}
 pli_entryview.1	Spirit {0}
 pli_entryview.2	Pet {0}
 pli_entryview.3	You don't have any Spirit Weapons.\nBerched can help you form a contract with the Spirit.
-pli_entryview.4	Smart Contents {0}
+pli_entryview.4	Traveler's Guide {0}
 pli_entryview.5	Dungeon Guide
 pli_entryview.6	VIP Membership Benefits {0}
 pli_entryview.7	Currency {0}
@@ -1854,6 +1871,7 @@ pli_eventpopupbuttonlistview.3	You can't do that here.
 pli_eventpopupbuttonlistview.4	You haven't joined a guild.
 pli_eventpopupbuttonlistview.5	Please try again after {0} seconds.
 pli_eventpopupbuttonlistview.6	Talk to Roy of the Grand Guild Gathering event.\nYou can meet Roy at the Dunbarton Town Square.
+pli_eventpopupbuttonlistview.7	이벤트 정보를 불러오지 못했습니다.\n채널 이동이나 재접속 후 다시 시도해주세요.
 pli_eventpopupview.1	Notice
 pli_eventpopupview.2	Item Shop
 pli_eventpopupview.3	Hide Window
@@ -2050,30 +2068,30 @@ pli_farmstandbyview.11	No
 pli_farmstandbyview.12	{0} hr
 pli_farmstandbyview.13	{0} min
 pli_fashioncongratulationview.1	OK
-pli_fashionnoticeview.1	Match Schedule
-pli_fashionnoticeview.2	Preliminaries: Starts every evening at 8pm except on Imbolic (Sunday).\nFinals: Starts at 8pm every Imbolic (Sunday).
-pli_fashionnoticeview.3	Application
-pli_fashionnoticeview.4	Preliminaries: Register between 7:50pm and 9pm on days of prelims.\nFinals: Register between 7:30pm and 8pm on the day of Final.
+pli_fashionnoticeview.1	Fashion Show Schedule
+pli_fashionnoticeview.2	Preliminaries: Held every evening at 8:00 PM (Server Time) except Imbolic (Sunday).\nFinals: Held every Imbolic (Sunday) at 8:00 PM (Server Time), on Channel 4.
+pli_fashionnoticeview.3	Registration Period
+pli_fashionnoticeview.4	Preliminaries: Register between 7:50 PM and 9:00 PM (Server Time)\nFinals: Register between 7:30 PM and 8:00 PM (Server Time) on Imbolic (Sunday).
 pli_fashionnoticeview.5	Theme
-pli_fashionnoticeview.6	The theme of this contest is Good Friends.
-pli_fashionnoticeview.7	The theme of this contest is Confidence.
-pli_fashionnoticeview.8	The theme of this contest is New Love.
-pli_fashionnoticeview.9	The theme of today's contest has not been decided yet.
-pli_fashionnoticeview.10	Game Method and Points
-pli_fashionnoticeview.11	You must enter the W A S D keys quickly and accurately according to the arrows indicated above the stage.
-pli_fashionnoticeview.12	Walking Portion
-pli_fashionnoticeview.13	Score received for entering the keys effectively.
-pli_fashionnoticeview.14	Assessment Portion
-pli_fashionnoticeview.15	Average score of the assessment given by spectators.
+pli_fashionnoticeview.6	The theme of today's show is Good Friends.
+pli_fashionnoticeview.7	The theme of today's show is Confidence.
+pli_fashionnoticeview.8	The theme of today's show is New Love.
+pli_fashionnoticeview.9	The theme of today's show has not been decided yet.
+pli_fashionnoticeview.10	Participation and Scoring
+pli_fashionnoticeview.11	Press the W A S D keys quickly and accurately in the order they appear on your screen.
+pli_fashionnoticeview.12	Performance Score
+pli_fashionnoticeview.13	Received for accurately matching the sequence of keys shown
+pli_fashionnoticeview.14	Audience Score
+pli_fashionnoticeview.15	The average score of the ratings given by spectators
 pli_fashionnoticeview.16	Final Score
-pli_fashionnoticeview.17	Sum of the Walking and Assessment portions
+pli_fashionnoticeview.17	The combined total of the Performance and Audience Scores
 pli_fashionnoticeview.18	Winners
-pli_fashionnoticeview.19	Grand
-pli_fashionnoticeview.20	Contestant with the highest Final Score in the Finals
-pli_fashionnoticeview.21	Popular
-pli_fashionnoticeview.22	Contestant with the highest Assessment score.
-pli_fashionnoticeview.23	Statue
-pli_fashionnoticeview.24	Grand Prize or Popular Prize Winners can make a gesture during the finale. Statue of the winner will be crafted based on the outfit and gesture during the finale and be placed in Tara, Emain Macha, and Dunbarton. 
+pli_fashionnoticeview.19	Grand Prize
+pli_fashionnoticeview.20	The contestant with the highest Final Score in the Finals
+pli_fashionnoticeview.21	People's Choice
+pli_fashionnoticeview.22	The contestant with the highest Audience Score
+pli_fashionnoticeview.23	Statues
+pli_fashionnoticeview.24	Grand Prize and People's Choice winners can perform a gesture during the finale. Each winner's unique combination of fashion and gesture will be captured in a lifelike statue put on display in Tara, Emain Macha, and Dunbarton.
 pli_fashionnoticeview.25	Fashion Contest Info
 pli_fashionnoticeview.26	Contest Info
 pli_fashionshowgalleryview.1	Enter Spectator Mode
@@ -2142,6 +2160,8 @@ pli_furniturecontextmenuview.3	Retrieve
 pli_fynnsbeadsshiningminigameview.1	The input order seems to be incorrect!\nPlease enter again correctly to infuse the power of Fynn!
 pli_fynnsbeadsshiningview.1	Place the items available for burnishing.
 pli_fynnsbeadsshiningview.2	Skill Name: {0}\nSkill Rank: {1} - {2}\n
+pli_fynnsbeadsshiningview.3	샤이닝을 시도 할 핀즈비즈를 올려주세요.\n성공 시, 핀즈비즈 스킬이 사용 가능한 상태로 변환됩니다.\n실패 시, 핀즈비즈는 파괴됩니다.
+pli_fynnsbeadsshiningview.4	샤이닝을 시도 할 핀즈비즈를 올려주세요.\n성공 시, 핀즈비즈 스킬이 사용 가능한 상태로 변환됩니다.\n(연습용 핀즈비즈는 실패하여도 파괴되지 않습니다.)
 pli_fynnsynchelementselectview.1	You cannot select the current element.
 pli_fynnsynchelementselectview.2	{1} of {0} is required to change the Fynn Pet's element.
 pli_fynnsynchresultview.1	Fynn Sync Great Success
@@ -2467,6 +2487,7 @@ pli_helperapi.37	An orb imbued with the power of Fynn that can be equipped to en
 pli_helperapi.38	Combat
 pli_helperapi.39	Horn
 pli_helperapi.40	Field Raid
+pli_helperapi.41	NPC
 pli_helperapiskill.1	Currently aware of the skill.\nBecomes available once the Classic Spirit Weapon's social level reaches 21.
 pli_helperapiskill.2	Beast
 pli_helperapiskill.3	The First Dan
@@ -3354,6 +3375,7 @@ pli_magiccircledesignview.13	Confirm
 pli_magiccircledesignview.14	You confirm that this design contains no inappropriate imagery. Inappropriate Glyph\nImprints may result in punitive actions against your account.
 pli_magiccircledesignview.15	Would you like to delete all placed objects?
 pli_magiccircledesignview.16	누구나 이 도안에서 디자인을 불러올 수 있도록 허용합니다.
+pli_magiccircledesignview.17	디자인을 불러오던 중 오류가 발생했습니다.\n다른 도안을 선택해주세요.
 pli_magigraphdesignloadview.1	디자이너 : {0}
 pli_magigraphdesignloadview.2	배치된 도형 : {0} / {1}
 pli_magigraphdesignloadview.3	지금의 스킬 랭크로는 알 수 없는 색
@@ -3388,6 +3410,7 @@ pli_makeampulview.3	Instrument
 pli_makeampulview.4	Hair
 pli_makeampulview.5	Stardust
 pli_makeampulview.6	Pet
+pli_makecustomampulview.1	{0} 만들기
 pli_makepotteryview.1	Only materials for pots can be added.
 pli_makepotteryview.2	Ends after completing the current pot
 pli_makepotteryview.3	Auto-craftable Quantity: {0}
@@ -3707,6 +3730,9 @@ pli_petdyeingview.2	Search Next
 pli_petdyeingview.3	There was no color on the palette within the margin of error value of 5.\nPlease enter a different color.
 pli_petdyeingview.4	The entered value was not found on the palette, so colors within the <color=2>margin of error value of 5</color> were searched for.\n\nFound: {0}
 pli_petdyeingview.5	Target color: R ({0}), G ({1}), B ({2}) \n\nFound: {3}
+pli_petdyeingview.6	선택
+pli_petdyeingview.7	선택 완료
+pli_petdyeingview.8	팔레트에 일치하는 색이 없어 다음 색상이 선택되었습니다.\n#{0} (R:{1}, G:{2}, B:{3})\n\n* 입력한 색상과의 오차\nR:{4} G:{5} B:{6}
 pli_peteventforoverseasframe.1	Log in every day
 pli_peteventforoverseasframe.2	Play for 30 minutes
 pli_peteventforoverseasframe.3	Clear Daily Shadow Mission
@@ -4838,6 +4864,23 @@ pli_taskquestboardview.2	Mission
 pli_taskquestboardview.3	Confirm Mission
 pli_taskquestboardview.4	How to use the Mission Board
 pli_taskquestboardview.5	Would you like to complete all Missions?
+pli_title2024mainview.1	<color=2>설정된 타이틀이 없습니다.</color>
+pli_title2024mainview.2	<color=2>설정된 타이틀이 없습니다.</color>
+pli_title2024mainview.3	타이틀을 사용하지 않습니다.
+pli_title2024mainview.4	힌트가 없는 타이틀입니다.
+pli_title2024mainview.5	어디서 어떻게 얻는지 알 수 없는 타이틀. 플레이을 하다보면 힌트를 얻을 수 있다.
+pli_title2024mainview.6	타이틀을 사용하지 않습니다.
+pli_title2024mainview.7	힌트가 없는 타이틀입니다.
+pli_title2024mainview.8	어디서 어떻게 얻는지 알 수 없는 타이틀. 플레이을 하다보면 힌트를 얻을 수 있다.
+pli_title2024mainview.9	타이틀을 해제하시겠습니까?
+pli_title2024mainview.10	해제
+pli_title2024mainview.11	의장 타이틀을 해제하시겠습니까?
+pli_title2024mainview.12	해제
+pli_title2024mainview.13	장비 타이틀을 해제하시겠습니까?
+pli_title2024mainview.14	해제
+pli_title2024mainview.15	해제
+pli_title2024mainview.16	취소
+pli_title2024mainview.17	{0} 즐겨찾기
 pli_tpsmodemanualview.1	Control Manual
 pli_tpsmodemanualview.2	When a Tower Cylinder is installed, change the targeting mode by pressing the TAB key.\n\nIn Aiming mode, use the mouse to control where you aim.\nYou will attack the enemy located in the middle of your screen.\n\nIn Cursor mode, drag your cursor to control where you aim. \nYou will attack the enemy that your cursor is pointing to.\nAuto-targeting using the CTRL key can be used in either mode.
 pli_tpsmodemanualview.3	Do not show this message again.
@@ -5275,6 +5318,7 @@ pli_usercreateddungeonview.37	Gathering
 pli_usercreateddungeonview.38	Spawn
 pli_usercreateddungeonview.39	{0} {1} {2} {3}
 pli_usercreateddungeonview.40	Hall of Crusaders
+pli_usercreateddungeonview.41	You can enter up to {0} times per day.
 pli_usercreatedtotemcomposeview.1	Choose your emblem.
 pli_usercreatedtotemcomposeview.2	{0} Lv. {1} will increase to {2} Lv. {3}\n
 pli_usercreatedtotemcomposeview.3	{0} Lv. 1 will be added\n
@@ -5482,6 +5526,7 @@ pli_windowbank.17	Fee
 pli_windowbank.18	Limit
 pli_windowbank.19	Current: {0} / Max: {1}
 pli_windowbank.20	+{0} Bank Limit Expansion Coupon Effect\n<color=5>- Time Remaining: {1} </color>
+pli_windowbank.21	This is the <color=5><outlinecolor=6>maximum amount of Gold</outlinecolor></color> that you can deposit in your bank account. This cap can be increased in the following ways:\n\n<color=2><outlinecolor=3>1.</outlinecolor></color> While you have an active Combination VIP Membership or Life VIP Membership, the deposit limit is increased by 600 million Gold. VIP Memberships are sold in the Item Shop.\n\n<color=2><outlinecolor=3>2.</outlinecolor></color> Using a Bank Limit Expansion Coupon, sold in Item Shop, permanently increases your deposit limit.\n\n<color=2><outlinecolor=3>3.</outlinecolor></color> Using a Bank Limit Expansion Coupon (500 Million) (30 Days), obtained as a Commerce reward, temporarily increases the deposit limit by 500 million Gold.\n\n<color=2><outlinecolor=3>4.</outlinecolor></color> Every additional character on your account (excluding Pets) will increase your deposit limit by the following amount:\n - 30 million Gold each for your first 10 characters\n - 15 million Gold each for your 11th character onwards\n - Note: You can create a maximum of 200 characters.
 pli_windowbattlegroundframe.1	\nGuild Members : {0} Members
 pli_windowbattlegroundframe.2	\nGuild Points : {0} Points
 pli_windowbattlegroundframe.3	\nMy Score : {0} Points
@@ -5644,6 +5689,7 @@ pli_windowcombocardview.4	No Time Limit (Event)
 pli_windowcombocardview.5	No Expiration (Mabinogi Combat VIP Membership)
 pli_windowcombocardview.6	No Time Limit (Combat VIP Membership)
 pli_windowcombocardview.7	Expired
+pli_windowcommerceridenotifyballoon.1	Reclaim your Trade Goods with the '{0}' hotkey
 pli_windowconditionballoon.1	(Defense: -{0}, Protection: -{1})
 pli_windowconditionballoon.2	 Level {0}
 pli_windowconditionballoon.3	Diligent Milletian
@@ -5705,6 +5751,9 @@ pli_windowdyeing.6	Search Next
 pli_windowdyeing.7	There was no color on the palette within the margin of error value of 5.\nPlease enter a different color.
 pli_windowdyeing.8	The entered value was not found on the palette, so colors within the <color=2>margin of error value of 5</color> were searched for.\n\nFound: {0}
 pli_windowdyeing.9	Target color: R ({0}), G ({1}), B ({2}) \n\nFound: {3}
+pli_windowdyeing.10	선택
+pli_windowdyeing.11	선택 완료
+pli_windowdyeing.12	팔레트에 일치하는 색이 없어 다음 색상이 선택되었습니다.\n#{0} (R:{1}, G:{2}, B:{3})\n\n* 입력한 색상과의 오차\nR:{4} G:{5} B:{6}
 pli_windoweditex.1	<color=2>\'{0}\' cannot be used in a name.
 pli_windoweditmainchat.1	Enter the target's name and then press the space bar.
 pli_windoweditmainchat.2	The name is too short.
@@ -5756,6 +5805,10 @@ pli_windowfossilrestoration.6	Tailoring
 pli_windowfossilrestoration.7	You can adjust the size of the scissors.
 pli_windowfossilrestoration.8	Completing tailoring.
 pli_windowfossilrestoration.9	Cut the cloth to\nthe shape shown.
+pli_windowfossilrestoration.10	If you stop now, the fossil you are restoring will be destroyed. Are you sure you'd like to quit?
+pli_windowfossilrestoration.11	Scraping off the inside of the fossil damages it, as shown in red.\nScrape off the area outside of the fossil to restore it.
+pli_windowfossilrestoration.12	The fossil was severely damaged! You need to scrape off the area outside of the fossil.
+pli_windowfossilrestoration.13	Scrape off the <color=2><outlinecolor=3>area outside of the fossil</outlinecolor></color> to restore the fossil.
 pli_windowfriendinvite.1	Please select a friend to invite.
 pli_windowfriendinvite.2	OK
 pli_windowfriendinvite.3	Cancel
@@ -5959,8 +6012,8 @@ pli_windowhinventory.66	Expired\nEnabled through use of a Style Tab Key, Pon, or
 pli_windowhinventory.67	Expired\nEnabled upon clearing Sidhe Finnachaid, or granted automatically with a Combat VIP Membership
 pli_windowhinventory.68	No Time Limit (Combat VIP Membership)
 pli_windowhinventory.69	Allows for the selection and destruction of multiple items in your inventory.
-pli_windowhinventory.70	Shrinks the Hide button.
-pli_windowhinventory.71	Enlarges the Hide button.
+pli_windowhinventory.70	Collapse Menu
+pli_windowhinventory.71	Expand Menu
 pli_windowhousebiddinglistboard.1	Address
 pli_windowhousebiddinglistboard.2	Shop Type
 pli_windowhousebiddinglistboard.3	Mark the location of the selected shop on the Mini-map.
@@ -7576,7 +7629,7 @@ pli_windowspecialization.33	Only one raid-exclusive technique can be included pe
 pli_windowspecializationlevelup.1	You have learned the Technique {0}.
 pli_windowspecializationlevelup.2	Lv. {0}
 pli_windowspecializationpopupview.1	Phantasmal Remnants: {0} \nPhantasmal Amalgams: {1}
-pli_windowstopwatchframe.1	{0} hour(s)
+pli_windowstopwatchframe.1	{0} hour(s) 
 pli_windowstopwatchframe.2	{0} min 
 pli_windowstopwatchframe.3	{0} sec 
 pli_windowstopwatchframe.4	 progressed
@@ -7600,10 +7653,10 @@ pli_windowtalenttitleballoon.1	Talent Title
 pli_windowtaskbar.2	Click here or press 'B' to use the Escape Bomb.
 pli_windowtaskbar.3	This bomb has already been used.\nIt'll be available again at 7 AM PST tomorrow (real time).
 pli_windowtaskbar.4	Toggle Character Window {0}
-pli_windowtaskbar.5	Toggle Skill Window {0}
-pli_windowtaskbar.6	Toggle Inventory Window {0}
-pli_windowtaskbar.7	Toggle Quest Window {0}
-pli_windowtaskbar.8	Toggle Action Window {0}
+pli_windowtaskbar.5	View Skills {0}
+pli_windowtaskbar.6	Open Inventory {0}
+pli_windowtaskbar.7	Quests {0}
+pli_windowtaskbar.8	View Actions/Gestures {0}
 pli_windowtaskbar.9	Close Friend/Party Window
 pli_windowtaskbar.10	Friend/Party
 pli_windowtaskbar.11	Close Map Window
@@ -7638,7 +7691,7 @@ pli_windowtaskbar.39	Homeste<color=2>a</color>d
 pli_windowtaskbar.40	Farm (<color=2>A</color>)
 pli_windowtaskbar.41	Toggles Homestead Information. {0}
 pli_windowtaskbar.42	Character
-pli_windowtaskbar.43	Skill
+pli_windowtaskbar.43	Skills
 pli_windowtaskbar.44	Inventory
 pli_windowtaskbar.45	Quest
 pli_windowtaskbar.46	Action
@@ -7650,11 +7703,11 @@ pli_windowtaskbar.51	Dressing Room {0}
 pli_windowtaskbar.52	Talent F<color=2>-</color>rm
 pli_windowtaskbar.53	Talent (<color=2>=</color>)
 pli_windowtaskbar.54	Talent
-pli_windowtaskbar.55	Toggles talent information. {0}
+pli_windowtaskbar.55	Talents {0}
 pli_windowtaskbar.56	Pets
 pli_windowtaskbar.57	Messenger
-pli_windowtaskbar.58	Enlarges the Hide button.
-pli_windowtaskbar.59	Toggles the messenger. {0}
+pli_windowtaskbar.58	Expand Menu
+pli_windowtaskbar.59	Friends List {0}
 pli_windowtaskbar.60	Minimizes Status information.
 pli_windowtaskbar.61	Enlarges Status information.
 pli_windowtaskbar.62	View Board
@@ -7672,12 +7725,12 @@ pli_windowtaskbar.74	VIP Exclusive
 pli_windowtaskbar.75	My Ribbons
 pli_windowtaskbar.76	Auction House
 pli_windowtaskbar.77	Auction House
-pli_windowtaskbar.78	Technique
-pli_windowtaskbar.79	Technique {0}
+pli_windowtaskbar.78	Techniques
+pli_windowtaskbar.79	Techniques {0}
 pli_windowtaskbar.80	Chapter Info
-pli_windowtaskbar.81	Pet/Spirit
-pli_windowtaskbar.82	Storyline
-pli_windowtaskbar.83	Info
+pli_windowtaskbar.81	Pets / Spirits
+pli_windowtaskbar.82	Main Storyline
+pli_windowtaskbar.83	Guides
 pli_windowtaskbaraction.1	현재 테스트 서버에서 엘프는 어드밴스드 아이템을 받을 수 없습니다.
 pli_windowtaskbaraction.2	A pet is already summoned.
 pli_windowtaskbaraction.3	The animal character is not present at slot number {0} of the pet summon window.
@@ -7690,8 +7743,8 @@ pli_windowtaskbaraction.9	The minimap cannot be viewed in this area.
 pli_windowtaskbaraction.10	Once a day, you can ask veteran adventurers for help.\nWould you like ask for help?
 pli_windowtaskbaraction.11	You already have a summoned partner.
 pli_windowtaskbaraction.12	There's no partner in slot {0} of the Summon Partner Window.
-pli_windowtaskbaraction.13	Shrinks the Hide button.
-pli_windowtaskbaraction.14	Enlarges the Hide button.
+pli_windowtaskbaraction.13	Collapse Menu
+pli_windowtaskbaraction.14	Expand Menu
 pli_windowtaskbaraction.15	You are requesting an opponent for a Rock Paper Scissors match.
 pli_windowtaskbaraction.16	Cancel
 pli_windowtaskbaraction.17	You can't use the bottom menu while changing your Partner's appearance.
@@ -7716,6 +7769,7 @@ pli_windowtaskbarshadowmission.2	Press this button to view the script.
 pli_windowtaskbarshadowmission.3	Do you wish to leave the theatre?
 pli_windowtaskbarshadowmission.4	Do you wish to stop the play and leave the theatre?
 pli_windowtaskbarshadowmission.5	Clear Time: {0}
+pli_windowtaskbarshadowmission.6	대미지 정보를 보고싶으면 이 버튼을 누르세요.
 pli_windowtaskbartrayicon.1	Clock
 pli_windowtaskbartrayicon.2	Item Shop
 pli_windowtaskbartrayicon.3	Cash Shop
@@ -7777,12 +7831,12 @@ pli_windowtrade.8	Already expanded.
 pli_windowtrade.9	Expands your Trade Window.\nOnly one character can expand per trade. \n<color=2>{0}</color> Gold will be removed your bank account.\n
 pli_windowtrade.10	{0} in Gold
 pli_windowtrade.11	{0} in Checks
-pli_windowtreasureofgodpocket.1	Unlocked after you clear the Return of Hero storyline.
-pli_windowtreasureofgodpocket.2	Unlocked after you use a Falias Dew after clearing the Return of Hero storyline.
-pli_windowtreasureofgodpocket.3	Unlocked after you use a Falias Rain Drop after clearing the Return of Hero storyline.
-pli_windowtreasureofgodpocket.4	Unlocked after you fulfill special requirements.
+pli_windowtreasureofgodpocket.1	Unlocked after completing the G12 (Return of the Hero) storyline.
+pli_windowtreasureofgodpocket.2	Unlocked upon using a Falias Dew after completing the G12 (Return of the Hero) storyline.
+pli_windowtreasureofgodpocket.3	Unlocked upon using a Falias Rain Drop after completing the G12 (Return of the Hero) storyline.
+pli_windowtreasureofgodpocket.4	Unlocked after fulfilling special requirements.
 pli_windowtreasureofgodpocket.5	You can equip a Falias Treasure.
-pli_windowtreasureofgodpocket.6	Unlocked once you use a Falias Storm after clearing the Return of the Hero storyline.
+pli_windowtreasureofgodpocket.6	Unlocked upon using a Falias Storm after completing the G12 (Return of the Hero) storyline.
 pli_windowvideocontrolview.1	Record Video
 pli_windowvideocontrolview.2	Start
 pli_windowvideocontrolview.3	Stop
@@ -8064,13 +8118,13 @@ window.camp.abandon_warning_ok_btn	OK
 window.camp.abandon_warning_title	Notice
 window.camp.ask_pw	Password:
 window.camp.camp_title	Camp
-window.camp.campskill_level_msg	*Since your Campfire skill is at rank {0},\nyou will be able to set up Grade {1} camp.
+window.camp.campskill_level_msg	*Your Campfire skill is at {0}, allowing\nthe setup of a Grade {1} camp.
 window.camp.cancel_btn	Cancel
 window.camp.confirm_enter_camp	Enter the camp?
 window.camp.confirm_join_camp	Enter {0:char_name}'s camp?
 window.camp.destroy_btn	Close Camp
 window.camp.destroy_warning_cancel_btn	Cancel
-window.camp.destroy_warning_msg	Once a camp is closed, the Camping Kit will disappear and you will no longer be able to revive at the camp.
+window.camp.destroy_warning_msg	Once a camp has been taken down, the Camping Kit will disappear and you will no longer be able to revive at the camp.
 window.camp.destroy_warning_ok_btn	OK
 window.camp.destroy_warning_title	Warning
 window.camp.enter_pw	Password:
@@ -9632,7 +9686,7 @@ window.taskbar.tooltip.map_button_o	Map Window M
 window.taskbar.tooltip.pet	Pet T
 window.taskbar.tooltip.quest_button	Toggle Quest Window (Press 'Q')
 window.taskbar.tooltip.skil_button	Toggle Skill Window (Press 'S')
-window.taskbar.tooltip.system_button	Toggle System Menu \n(Press 'Window Key' or 'Ctrl + ESC')
+window.taskbar.tooltip.system_button	System Menu\n(Press the 'Windows' Key or 'Ctrl + ESC')
 window.title.cancel_button	Cancel
 window.title.desc_text	Description
 window.title.desc_text_dont_know	???\n\nA mysterious title with effects and methods still unknown.\nClues will be available in the course of playing the game.

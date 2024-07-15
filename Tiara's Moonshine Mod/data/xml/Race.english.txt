@@ -8854,8 +8854,8 @@
 11059	Blue Disciple - proficient at long-range combat
 11060	White Disciple - proficient with magic
 11061	Yellow Disciple - vulnerable to pets
-11064	피어스 코브라
-11065	피어스 코브라
+11064	Sly Serpent
+11065	Sly Serpent
 11066	Goblin
 11067	Poison Goblin
 11068	Goblin Archer
@@ -9730,6 +9730,9 @@
 12055	Scouting Unit Captain
 12056	Scouting Unit Captain
 12057	Mission Invisible Man
+12058	Fuath
+12059	Umbral Fuath
+12060	Fuathic Feather
 12061	Nuadha
 12065	Adventurous Elephant Figure
 12066	Marathon Camel Figure
@@ -9738,7 +9741,201 @@
 12069	Wooden Man as Sturdy as the Succubus Queen
 12070	Wooden Man as Sturdy as Irusan
 12071	Wooden Man as Sturdy as Cailleach
+12086	Delga
+12087	Aine
+12088	Declan
+12089	Seafra
+12090	Eirawen
+12091	Etain
+12092	Corentin
+12094	Lepidopteran Divine Beast
+12098	Piscine Divine Beast
+12099	Avian Divine Beast
+12100	Aine
+12101	Declan
+12102	Seasoned Merchants' Guild Bandit Elf
+12103	Seasoned Merchants' Guild Bandit Elf
+12104	Seasoned Merchants' Guild Bandit Human
+12105	Seasoned Merchants' Guild Bandit Giant
+12106	Seasoned Merchants' Guild Bandit Boss
+12107	Seasoned Merchants' Guild Bandit Boss
+12108	Seasoned Merchants' Guild Bandit Boss
+12109	Shadow Shire
+12110	Shadow Warrior
+12111	Shadow Fighter
+12112	Shadow Archer
+12113	Shadow Wizard
+12114	Shadow Lancer
+12115	Shadow Wizard
+12116	Shadow Alchemist
+12117	Gwerful
+12118	Torquil
+12119	Madezou
+12120	Sinead
+12121	The Rabbit
+12122	The Cat
+12123	The Cat
 12124	Painting Sheep
+12125	Lepidopteran Divine Beast
+12126	Human
+12127	Human
+12128	The Rabbit
+12129	The Cat
+12130	Declan
+12131	Brynn
+12132	Meara
+12133	Sithech
+12134	Sithech
+12135	Fer
+12136	Camp Tent
+12137	Brynn
+12140	Aine
+12141	Seafra
+12142	Mercenary
+12143	Mercenary
+12144	Mercenary
+12145	Mercenary
+12148	Talvish
+12149	Mercenary
+12150	Mercenary
+12151	Mercenary
+12152	Mercenary
+12161	고블린
+12162	포이즌고블린
+12163	고블린아처
+12164	골드고블린
+12165	레드 고블린아처
+12166	레드 고블린
+12167	고블린 헌터
+12168	고블린 헌터 아처
+12169	홉고블린 전사
+12170	홉고블린 궁수
+12171	홉고블린 주술사
+12172	홉고블린 주술사
+12173	홉고블린 주술사
+12174	홉고블린 두목
+12175	골렘
+12176	갈색 뱀
+12177	청색 뱀
+12178	녹색 뱀
+12179	거대 흰 뱀
+12180	거대 검은 뱀
+12181	사하긴 솔저
+12182	사하긴 파이터
+12183	사하긴 레인저
+12184	사하긴 워리어
+12185	로스트 사하긴
+12186	리버 사하긴 레인저
+12187	리버 사하긴 파이터
+12188	케이브 사하긴 메이지
+12189	케이브 사하긴 워리어
+12190	위습
+12191	세이렌
+12192	메로우
+12193	아머 스켈레톤
+12194	아머 스켈레톤
+12195	레드 스켈레톤
+12196	레드 스켈레톤
+12197	메탈 스켈레톤
+12198	메탈 스켈레톤
+12199	스켈레톤 스쿼드
+12200	스켈레톤 헬하운드
+12201	블랙 아머 스켈레톤
+12202	파이톤 아미
+12203	파이톤 주술사
+12204	본 랜서
+12205	본 아처
+12206	본 파이터
+12207	해골 라고데사
+12208	스켈레톤 아머 오거
+12209	스켈레톤 풀아머 오거
+12210	듀라한
+12211	지옥마
+12212	파이어 서큐버스
+12213	라이트닝 서큐버스
+12214	아이스 서큐버스
+12215	포이즌 서큐버스
+12216	베이비 서큐버스
+12217	팬텀
+12218	고스트
+12219	블루 고스트
+12220	레드 고스트
+12221	블루 고스트 킹
+12222	레드 고스트 킹
+12223	고스트 킹
+12224	스켈레톤 고스트
+12225	그린 스켈레톤 고스트
+12226	블루 스켈레톤 고스트
+12227	레드 스켈레톤 고스트
+12228	반시
+12229	클로커
+12230	고스트 클로커
+12231	나이트메어 휴머노이드
+12232	블랙 프리즌 고스트
+12233	고스트 아머
+12234	타흘룸
+12235	파이어 슬라임
+12236	아이스 슬라임
+12237	라이트닝 슬라임
+12238	일루전 샐러맨더
+12239	일루전 좀비
+12240	샐러맨더
+12241	그렌델
+12242	레드 리저드 위치
+12243	검은 달의 교단원
+12244	헬 캣
+12245	스파이더 워리어
+12246	촌촌
+12247	검은 달의 교단원
+12248	검은 달의 교단원
+12249	검은 달의 교단원
+12250	폭탄 박쥐
+12251	붉은 발 타란툴라
+12252	검은 달의 교단원
+12253	검은 달의 교단원
+12254	피아나 기흐레
+12255	스넷타
+12256	스넷타
+12257	스넷타
+12258	구일리온
+12259	눈 덮인 식인식물
+12260	눈 덮인 식충식물
+12261	아이소머 팬텀
+12262	엠버스 스프라이트
+12263	아이시클 스프라이트
+12264	시저 래빗
+12265	균형의 시저 래빗
+12266	스노우 슬링
+12267	폴라하 카트
+12268	구이쉬기
+12269	Fuath
+12270	Lepidopteran Divine Beast
+12273	눈 덮인 식충식물
+12274	아이소머 팬텀
+12275	시저 래빗
+12276	스노우 슬링
+12277	홉고블린 두목
+12278	케이브 사하긴 워리어
+12279	위습
+12280	위습
+12281	스켈레톤 풀아머 오거
+12282	그렌델
+12285	트레저헌터
+12292	스켈레톤 풀아머 오거
+12293	레드 스켈레톤 고스트
+12294	일루전 좀비
+12295	폴라하 카트
+12296	구이쉬기
+12297	시저 래빗
+12298	시저 래빗
+12299	Seafra
+12300	Avian Divine Beast
+12301	Avian Divine Beast
+12302	Lepidopteran Divine Beast
+12303	폴라하 카트
+12304	시저 래빗
+12305	구이쉬기
+12306	Fuathic Feather
 12330	케라우노스(이벤트용)
 12331	빛나는 별 투안
 12332	Archelon
@@ -9754,6 +9951,7 @@
 12342	Sweet Coffee Cloud Bun
 12348	Single Rose
 12349	미니 모험가 코끼리
+12351	셰프라
 12352	Tagar
 12353	Tagar
 12354	Dark Ronaun
@@ -9764,17 +9962,69 @@
 12359	Dark Disciple
 12360	Dark Disciple
 12361	Dark Disciple
+12362	셰이시
+12363	메이라
+12364	브라운 프리즌 고스트
+12365	레드 프리즌 고스트
+12366	블루 프리즌 고스트
+12367	회색 프리즌 좀비
+12368	검은 프리즌 좀비
+12369	흰 프리즌 좀비
+12370	프리즌 플라잉 소드
+12371	브라운 프리즌 고스트
+12372	레드 프리즌 고스트
+12373	블루 프리즌 고스트
+12374	회색 프리즌 좀비
+12375	검은 프리즌 좀비
+12376	흰 프리즌 좀비
+12377	프리즌 플라잉 소드
+12378	메이라
+12379	셰이시
 12380	Red Lizard Witch
 12381	Illusion Zombie
 12382	Illusion Zombie
 12383	Black Moon Follower
 12384	Illusion Zombie
+12385	크라반
+12386	맹독 가시 악어
+12387	아라흐드
 12388	Lightning Slime
 12389	Lightning Slime
 12390	Black Moon Follower
 12392	Human
 12393	Human
+12394	페르
+12395	페르
+12396	페르
+12397	아리안넬
+12398	페르
 12399	Hasidim
+12410	데클룬
+12414	검은 다이어 울프
+12415	흰 다이어 울프
+12416	흰 다이어 울프
+12417	와이트
+12418	구울
+12419	헬 캣
+12420	데미 리치
+12421	마스터 리치
+12422	검은 다이어 울프
+12423	흰 다이어 울프
+12424	흰 다이어 울프
+12425	와이트
+12426	구울
+12427	헬 캣
+12428	데미 리치
+12429	마스터 리치
+12430	페르
 12431	Lightning Slime
 12432	Lightning Slime
-12454	붉은빛 페어리 드래곤
+12454	별빛 페어리 드래곤
+12473	Helionic Wolf
+12474	Selenian Cat
+12492	디나시
+12493	애교부릴꺼양
+12494	심연의 하데스
+12495	스쿠터
+12504	리틀 케라우노스
+12505	빛나는 별 투안

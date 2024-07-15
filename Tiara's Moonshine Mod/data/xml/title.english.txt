@@ -14559,6 +14559,34 @@
 16204	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 16205	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 16206	Luck +30
+16207	the Whisper of the White Wind
+16208	who Seeks to Bring Order
+16209	who Strives for a Better Life
+16210	who Dreams of a New World
+16211	the Whisper of the White Wind
+16212	who Seeks to Bring Order
+16213	who Strives for a Better Life
+16214	who Dreams of a New World
+16215	the Whisper of the White Wind
+16216	who Seeks to Bring Order
+16217	who Strives for a Better Life
+16218	who Dreams of a New World
+16219	the Whisper of the White Wind
+16220	who Seeks to Bring Order
+16221	who Strives for a Better Life
+16222	who Dreams of a New World
+16223	As Findias's Fate hangs over Erinn, you stood fast against one whose divergent ideals stood to threaten your new allies and their tenuous place in the world.
+16224	It was your love for the people of Erinn that moved you to action, doing your utmost to protect the peace and prosperity of a land living in the shadow of Findias's Fate.
+16225	It was your desire for order and stability that moved you to action, using your keen insight and sound judgment on behalf of a land living in the shadow of Findias's Fate.
+16226	It was your longing to pioneer a new future for yourself that moved you to action. Some might think you a maker of mischief, but your ability to think outside the box has proven undeniably valuable in a land living in the shadow of Findias's Fate.
+16227	A title granted to those who stood in defense of Erinn's peace, even in the looming shadow of Findias's Fate.
+16228	A title granted to Milletians who have completed the G26 Main Story Questline. There's no complicated calculus to consider--you're committed to taking action in a way that minimizes the risk to others.
+16229	A title granted to Milletians who have completed the G26 Main Story Questline. It seems most prudent to weigh all options before deciding on the most effective course of action.  
+16230	A title granted to Milletians who have completed the G26 Main Story Questline. If what's best for everyone is a future markedly different from the present, you will be a driving force behind that change.  
+16231	Max Damage +15\nMagic Attack +15\nProtection +10\nMagic Protection +10\nMovement Speed +2%
+16232	
+16233	
+16234	
 16235	is a friend of Froghus
 16236	is a friend of Froghus
 16237	is a friend of Froghus
@@ -14587,6 +14615,13 @@
 16260	Movement Speed +3%
 16261	Movement Speed +3%
 16262	Movement Speed +3%
+16284	파메스 유적 정복자
+16285	파메스 유적 정복자
+16286	파메스 유적 정복자
+16287	파메스 유적 정복자
+16288	파메스 유적을 정복한 밀레시안에게 주어지는 영광스러운 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16289	파메스 유적을 정복한 밀레시안에게 주어지는 영광스러운 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16290	방어 12 증가\n보호 11 증가\n마법방어 14 증가\n마법보호 8 증가\n이동 속도 3% 증가
 16291	Rain of Jewels
 16292	Shimmering Helix
 16293	Rain of Jewels
@@ -14629,6 +14664,13 @@
 16330	최대 데미지 30 증가\n마법 공격력 30 증가\n크리티컬 10 증가\n방어 10 증가\n보호 10 증가\n마법 방어 10 증가\n 마법 보호 10 증가
 16331	최대 데미지 25 증가\n마법 공격력 20 증가\n방어 10 증가\n보호 10 증가\n마법 방어 10 증가\n 마법 보호 10 증가
 16332	이동 속도 3% 증가\n크리티컬 10 증가\n체력 10 증가\n솜씨 20 증가\n행운 20 증가
+16333	Snow by Starlight
+16334	Snow by Starlight
+16335	Snow by Starlight
+16336	Snow by Starlight
+16337	A fanciful 2nd Title that captures the feeling of looking skyward on a cold winter night. Can be used with regular titles.
+16338	A fanciful 2nd Title that captures the feeling of looking skyward on a cold winter night.
+16339	Luck +30
 16340	Blue Dragon's Still Waters
 16341	Blue Dragon's Forest Whispers
 16342	Blue Dragon's Spring Blossoms
@@ -14755,17 +14797,17 @@
 16666	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 16667	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 16668	Luck +30
-16690	the Artist's Muse
+16690	the Muse of an Artist
 16691	Erinn's Idol
-16692	the Artist's Muse
+16692	the Muse of an Artist
 16693	Erinn's Idol
-16694	the Artist's Muse
+16694	the Muse of an Artist
 16695	Erinn's Idol
-16696	the Artist's Muse
+16696	the Muse of an Artist
 16697	Erinn's Idol
-16698	A Title given to Milletians who became a spark of brilliant inspiration to the many artists of Erinn.
+16698	Among the artists of Erinn, you are a brilliant spark of inspiration captured in a fleeting moment. Continue to share your own creativity.
 16699	A Title given to Milletians who showcased their marvelous musical talent for the inhabitants of Erinn.
-16700	A Title given to Milletians who became a spark of brilliant inspiration to the many artists of Erinn.
+16700	Among the artists of Erinn, you are a brilliant spark of inspiration captured in a fleeting moment. Continue to share your own creativity.
 16701	A Title given to Milletians who showcased their marvelous musical talent for the inhabitants of Erinn.
 16702	
 16703	

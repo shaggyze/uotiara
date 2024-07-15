@@ -6,7 +6,7 @@ autobotdescmgr.5	Pet Combat EXP Bonus +{0}%
 autobotdescmgr.6	Music Buff Duration +{0}
 autobotdescmgr.7	Attack Speed {0}%
 autobotdescmgr.8	Gathering Speed +{0}%
-autobotdescmgr.9	음악 버프 스킬 효과 {0}
+autobotdescmgr.9	Music Buff Effect {0}
 booleanfunctionhandler.1	When you are an Elf or supporting an Elf
 booleanfunctionhandler.2	When you are a Giant or supporting a Giant
 booleanfunctionhandler.3	Summoning Golem
@@ -499,9 +499,9 @@ itemoptiondeschelper.31	Number of objects that can be used in Glyph Design
 itemoptiondeschelper.32	Use count of Glyph Imprint
 itemoptiondeschelper.33	Tri-Element Mastery Damage
 itemoptiondeschelper.34	Adjusts Aim Rate
-itemoptiondeschelper.35	Fire Magic Damage
-itemoptiondeschelper.36	Ice Magic Damage
-itemoptiondeschelper.37	Lightning Magic Damage
+itemoptiondeschelper.35	Fire Mastery Damage Increased
+itemoptiondeschelper.36	Ice Mastery Damage Increased
+itemoptiondeschelper.37	Lightning Mastery Damage Increased
 itemoptiondeschelper.38	Healing Effect
 itemoptiondeschelper.39	Recovers Wounds Equal to Healing Effect
 itemoptiondeschelper.40	Movement Speed

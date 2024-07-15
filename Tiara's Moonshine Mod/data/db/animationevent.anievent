@@ -1294,6 +1294,9 @@ set("emotion")
 		"ego_female_blunt_neo_twohandsword"
 			0:effect("ready")
 			60:effectoff("ready")
+		"ego_female_blunt_neo_scythe"
+			0:effect("ready")
+			60:effectoff("ready")
 		"ego_female_bow_neo_twohandax"
 			0:effect("ready")
 			60:effectoff("ready")
@@ -1301,6 +1304,9 @@ set("emotion")
 			0:effect("ready")
 			60:effectoff("ready")
 		"ego_female_bow_neo_twohandsword"
+			0:effect("ready")
+			60:effectoff("ready")
+		"ego_female_bow_neo_scythe"
 			0:effect("ready")
 			60:effectoff("ready")
 		"ego_female_cylinder_neo_twohandax"
@@ -1312,6 +1318,9 @@ set("emotion")
 		"ego_female_cylinder_neo_twohandsword"
 			0:effect("ready")
 			60:effectoff("ready")
+		"ego_female_cylinder_neo_scythe"
+			0:effect("ready")
+			60:effectoff("ready")
 		"ego_female_sword_neo_twohandAX"
 			0:effect("ready")
 			60:effectoff("ready")
@@ -1321,6 +1330,9 @@ set("emotion")
 		"ego_female_sword_neo_twohandsword"
 			0:effect("ready")
 			60:effectoff("ready")
+		"ego_female_sword_neo_scythe"
+			0:effect("ready")
+			60:effectoff("ready")		
 		"ego_female_wand_neo_twohandax"
 			0:effect("ready")
 			60:effectoff("ready")
@@ -1330,6 +1342,9 @@ set("emotion")
 		"ego_female_wand_neo_twohandsword"
 			0:effect("ready")
 			60:effectoff("ready")
+		"ego_female_wand_neo_scythe"
+			0:effect("ready")
+			60:effectoff("ready")		
 		"ego_male_blunt_neo_twohandAX"
 			0:effect("ready")
 			60:effectoff("ready")
@@ -1339,6 +1354,9 @@ set("emotion")
 		"ego_male_blunt_neo_twohandsword"
 			0:effect("ready")
 			60:effectoff("ready")
+		"ego_male_blunt_neo_scythe"
+			0:effect("ready")
+			60:effectoff("ready")			
 		"ego_male_bow_neo_twohandAX"
 			0:effect("ready")
 			60:effectoff("ready")
@@ -1348,6 +1366,9 @@ set("emotion")
 		"ego_male_bow_neo_twohandsword"
 			0:effect("ready")
 			60:effectoff("ready")
+		"ego_male_bow_neo_scythe"
+			0:effect("ready")
+			60:effectoff("ready")		
 		"ego_male_cylinder_neo_twohandAX"
 			0:effect("ready")
 			60:effectoff("ready")
@@ -1357,6 +1378,9 @@ set("emotion")
 		"ego_male_cylinder_neo_twohandsword"
 			0:effect("ready")
 			60:effectoff("ready")
+		"ego_male_cylinder_neo_scythe"
+			0:effect("ready")
+			60:effectoff("ready")		
 		"ego_male_sword_neo_twohandAX"
 			0:effect("ready")
 			60:effectoff("ready")
@@ -1364,6 +1388,9 @@ set("emotion")
 			0:effect("ready")
 			60:effectoff("ready")
 		"ego_male_sword_neo_twohandsword"
+			0:effect("ready")
+			60:effectoff("ready")
+		"ego_male_sword_neo_scythe"
 			0:effect("ready")
 			60:effectoff("ready")
 		"ego_male_wand_neo_twohandAX"
@@ -1375,7 +1402,9 @@ set("emotion")
 		"ego_male_wand_neo_twohandsword"
 			0:effect("ready")
 			60:effectoff("ready")			
-	
+	    "ego_male_wand_neo_scythe"
+			0:effect("ready")
+			60:effectoff("ready")		
 
 		"ego_female_blunt_neo_wand"
 			0:effect("ready")
@@ -2698,7 +2727,8 @@ set("C4_human")
 		
 	"male_royalenchanter_stand"
 		0:lookat(off)
-		0:hand(both,palm)		
+		0:hand(right,palm)		
+		0:hand(left,fist)		
 		0:generic ("custom_equip(weapon:tool_c4_royalscrollr_ani, tr1b:D4C7BD tr2b:A92929)")	
 		1:effect("pen_magic_A10",0,1)
 
@@ -2865,6 +2895,29 @@ set("C4_human")
 		
 ////////////////////////////////////////////////////////
 
+	
+	"male_horsebrushing_sit01"
+		0:lookat(off)
+		0:hideequip(true)
+		0:generic("custom_mesh(1:tool_c4_horsebrush_ani)")
+		0:hand (both, palm)   
+		650:jump(0,true)
+	
+	"female_horsebrushing_sit01"
+		0:lookat(off)
+		0:hideequip(true)
+		0:generic("custom_mesh(1:tool_c4_horsebrush_ani)")
+		0:hand (both, palm)   
+		650:jump(0,true)
+	
+	"human_horsebrushing_sit02"
+		0:lookat(off)
+		0:hideequip(true)
+		0:generic("custom_mesh(1:tool_c4_horsebrush_ani)")
+		0:hand (both, palm)   
+		650:jump(0,true)
+	
+	
 	"human_bluedragon_home01_sit"
 		0:lookat(off)
 		0:hideequip(true)
@@ -3114,8 +3167,18 @@ set("C4_human")
 			0:lookat(off)
 			0:hideequip(true)
 			0:hand (both, palm)   
-			//720:jump(0,true)		
+			//720:jump(0,true)
 
+	"human_userhorizonattack"
+			0:lookat(off)		
+			0:hand(both,fist)			
+			0:hideequip(false)
+			0:generic("custom_equip(weapon:tool_c4_snowmountain_sickle, tb1b:96D7FF tb2b:9B9EA6 tb3b:575D6F tb5b:A8B6D6)")
+			3:hand(left,palm)
+			7:hand(left,fist)
+			65:hand(left,palm)
+			105:hand(left,fist)
+			
 	"female_cowboy_chair_sit"
 			0:lookat(off)
 			0:hideequip(true)
@@ -7832,6 +7895,41 @@ set("C4_human")
 			6:effect("footstep_left")
 	
 	
+		"elf_s24period_twohanded_sword_run"
+			0:hand (both, fist)
+			0:lookat(off)
+			14:effect("footstep_right")
+			5:effect("footstep_left")
+	
+		"elf_s24period_twohanded_sword_walk"
+			0:hand (both, fist)
+			0:lookat(off)
+			22:effect("footstep_right")
+			9:effect("footstep_left")			
+		
+	
+		"human_s24period_twohanded_sword_stand"
+			0:hand(right,fist)
+			0:hand(left,palm)
+			0:lookat(off)
+			
+		"human_s24period_twohanded_sword_offensive"
+			0:hand (both, fist)
+			0:lookat(off)
+			
+		"human_s24period_twohanded_sword_run"
+			0:hand (both, fist)
+			0:lookat(off)
+			0:effect("footstep_right")
+			10:effect("footstep_left")			
+			
+		"human_s24period_twohanded_sword_walk"
+			0:hand (both, fist)
+			0:lookat(off)
+			18:effect("footstep_right")
+			6:effect("footstep_left")
+		
+	
 		"female_tool_bhand_e04_stand_friendly"
 			0:lookat(off)
 			0:hand(left, palm)	
@@ -8199,6 +8297,19 @@ set("tool_Bhand_G")
 
 	folder("char\chapter4\human\anim\tool\Bhand_G")
 	
+	
+		"human_s24periodcrossbowstand"
+			0:hand(both,palm)
+			0:lookat(off)	
+	
+		"human_s24periodcrossbowoffensive"
+			0:hand(both,palm)
+			0:lookat(off)	
+			78:jump(45)		
+	
+		"human_s24periodbow_stand"
+			0:hand(both,fist)
+			0:lookat(off)	
 
 		"human_crayonbow_stand"
 			0:hand(both,fist)
@@ -11518,6 +11629,11 @@ set("riding_vargr")
 
 
 	folder("char\chapter4\human\anim\riding\riding_vargr")	
+
+		"uni_vargr_riding_mount"
+			0:lookat(off)
+			0:hand(both, fist)
+
 
 		"uni_vargr_riding_stand"
 			0:lookat(off)
@@ -15337,6 +15453,19 @@ set("C4_giant")
 		
 ////////////////////////////////////////////////////////
 
+	"giant_horsebrushing_sit01"
+		0:lookat(off)
+		0:hideequip(true)
+		0:generic("custom_mesh(1:giant_tool_c4_horsebrush_ani)")
+		0:hand (both, palm)   
+		650:jump(0,true)
+	
+	"giant_female_horsebrushing_sit01"
+		0:lookat(off)
+		0:hideequip(true)
+		0:generic("custom_mesh(1:giant_tool_c4_horsebrush_ani)")
+		0:hand (both, palm)   
+		650:jump(0,true)
 	
 	"giant_bluedragon_home01_sit"
 	    0:lookat(off)
@@ -15502,7 +15631,38 @@ set("C4_giant")
 		0:hideequip(true)
 		0:hand (both, palm) 
 		//220:jump(0,true)
+		
+	"giant_female_vargr_chair_sit"
+			0:lookat(off)
+			0:hideequip(true)
+			0:hand (both, palm)   
+			//720:jump(0,true)
+			
+	"giant_vargr_chair_sit"
+			0:lookat(off)
+			0:hideequip(true)
+			0:hand (both, palm)   
+			//720:jump(0,true)
 
+	"giant_female_userhorizonattack"
+			0:lookat(off)		
+			0:hand(both,fist)			
+			0:hideequip(false)
+			0:generic("custom_equip(weapon:giant_tool_c4_snowmountain_sickle, tb1b:96D7FF tb2b:9B9EA6 tb3b:575D6F tb5b:A8B6D6)")
+			3:hand(left,palm)
+			7:hand(left,fist)
+			65:hand(left,palm)
+			105:hand(left,fist)
+			
+	"giant_userhorizonattack"
+			0:lookat(off)		
+			0:hand(both,fist)			
+			0:hideequip(false)
+			0:generic("custom_equip(weapon:giant_tool_c4_snowmountain_sickle, tb1b:96D7FF tb2b:9B9EA6 tb3b:575D6F tb5b:A8B6D6)")
+			3:hand(left,palm)
+			7:hand(left,fist)
+			65:hand(left,palm)
+			105:hand(left,fist)
 		
 	"giant_female_cowboy_chair_sit"
 			0:lookat(off)
@@ -23731,6 +23891,12 @@ set("riding_vargr")
 	folder("char\chapter4\giant\anim\riding\riding_vargr")
 	
 	
+	
+		"giant_vargr_riding_mount"
+				0:lookat(off)
+				0:hand(both, fist)			
+	
+	
 		"giant_vargr_riding_stand"
 				0:lookat(off)
 				0:hand(both, fist)			
@@ -28296,6 +28462,11 @@ set("C4_human")
 				0:lookat(off)				
 				1:generic ("custom_equip(weapon:tool_c4_2021summer_book)")
 				468:jump(1)	
+				
+		"human_butterfly_book_stand"
+				0:lookat(off)				
+				1:generic("custom_equip(weapon:tool_c4_butterfly_book)")	
+				468:jump(1)	
 
 		"human_ferocious_book_stand"
 				0:lookat(off)				
@@ -30579,12 +30750,103 @@ set("social motion")
 	endfolder
 
 
-
 	
 	
 	folder("char\chapter4\human\anim\social_motion")
 	
+	"female_cowenna"
+		0:lookat(off)
+		0:hideequip(false)	
+		0:hand(both, palm)
+		
+	"male_cowenna"
+		0:lookat(off)
+		0:hideequip(false)	
+		0:hand(both, palm)		
 	
+	"female_butterflyfairy01"
+		0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		196:generic("custom_mesh(1:tool_butterflyfairy_ani, tr2b:968B66 tr3b:3D5B5F tr5b:8EF7FF)")
+		871:generic("custom_mesh(1)")
+		196:effect("astrea",0,1)
+		871:effectoff("astrea")
+		871:hand(right,fist)
+		905:hand(right,palm)
+		
+			
+	"male_butterflyfairy01"
+		0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		196:generic("custom_mesh(1:tool_butterflyfairy_ani, tr2b:968B66 tr3b:3D5B5F tr5b:8EF7FF)")
+		871:generic("custom_mesh(1)")
+		196:effect("astrea",0,1)
+		871:effectoff("astrea")
+		871:hand(right,fist)
+		905:hand(right,palm)
+		
+			
+	"human_24gesture_02"
+		0:hand(left,fist)
+		0:hand(right, palm)
+
+	"human_24gesture_03"
+		0:hand(left,fist)
+		0:hand(right, palm)
+	
+	
+	"female_astrea"
+		0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		40:effect("astrea",0,1)
+		265:effectoff("astrea")
+		270:effect("astrea",0,1)
+		273:effectoff("astrea")
+		276:effect("astrea",0,1)
+		790:effectoff("astrea")
+		793:effect("astrea",0,1)
+		795:effectoff("astrea")
+		797:effect("astrea",0,1)
+		800:effectoff("astrea")
+		40:generic("custom_mesh(1:human_astreastar_ani)")
+		265:generic("custom_mesh(1)")
+		270:generic("custom_mesh(1:human_astreastar_ani)")
+		273:generic("custom_mesh(1)")
+		276:generic("custom_mesh(1:human_astreastar_ani)")
+		790:generic("custom_mesh(1)")
+		793:generic("custom_mesh(1:human_astreastar_ani)")
+		795:generic("custom_mesh(1)")
+		797:generic("custom_mesh(1:human_astreastar_ani)")
+		800:generic("custom_mesh(1)")
+		
+	"male_astrea"
+		0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		40:effect("astrea",0,1)
+		265:effectoff("astrea")
+		270:effect("astrea",0,1)
+		273:effectoff("astrea")
+		276:effect("astrea",0,1)
+		790:effectoff("astrea")
+		793:effect("astrea",0,1)
+		795:effectoff("astrea")
+		797:effect("astrea",0,1)
+		800:effectoff("astrea")
+		40:generic("custom_mesh(1:human_astreastar_ani)")
+		265:generic("custom_mesh(1)")
+		270:generic("custom_mesh(1:human_astreastar_ani)")
+		273:generic("custom_mesh(1)")
+		276:generic("custom_mesh(1:human_astreastar_ani)")
+		790:generic("custom_mesh(1)")
+		793:generic("custom_mesh(1:human_astreastar_ani)")
+		795:generic("custom_mesh(1)")
+		797:generic("custom_mesh(1:human_astreastar_ani)")
+		800:generic("custom_mesh(1)")
+			
 	"female_glowninja"
 		0:lookat(off)
 		0:hideequip(false)		
@@ -35186,7 +35448,7 @@ set("social motion")
 		"human_promotion_astrogist"
 			1:hideequip(true)				
 			0:lookat(off)
-			1:generic("custom_equip(weapon:tool_c4_basic_sickle, tb1b:e8dede tb2b:9e8a89 tb3b:392a2a tb5b:171818 tb6b:589cd9)")
+			1:generic("custom_equip(weapon:tool_c4_basic_sickle:no_height_adjust, tb1b:e8dede tb2b:9e8a89 tb3b:392a2a tb5b:171818 tb6b:589cd9)")
 			0:hand(both,fist)
 			46:hand(left,palm)
 			76:hand(left,fist)
@@ -37385,6 +37647,26 @@ set("social motion")
 		60:effect("firehell",0,1)
 		64:hand(both, palm)
 		700:jump(263,true)	
+		
+		
+	"female_s24period"
+			0:lookat(off)
+			0:hand (both, fist)
+			1:generic("custom_equip(weapon:tool_s24periodbaskettr_ani, tb4b:808080)")
+			174:hand (left, palm)
+			203:hand (right, palm)
+			249:hand (left, fist)
+			855:jump(500, true)
+	
+	"male_s24period"
+			0:lookat(off)
+			0:hand (both, fist)
+			1:generic("custom_equip(weapon:tool_s24periodbaskettr_ani, tb4b:808080)")
+			174:hand (left, palm)
+			203:hand (right, palm)
+			249:hand (left, fist)
+			855:jump(500, true)
+			
 
 	"female_20th"
 		0:lookat(off)
@@ -37415,7 +37697,23 @@ set("social motion")
 		0:hand(both, palm)
 		305:hand(both, fist)
 		508:hand(both, palm)
-		740:jump(0,true)
+		740:jump(0)
+		
+	"female_sunmoon"
+		0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		103:effect("sunmoon",0,1)
+		403:effect("sunmoon2",0,1)		
+		1100:jump(0,true)
+
+	"male_sunmoon"
+		0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		103:effect("sunmoon",0,1)
+		398:effect("sunmoon2",0,1)		
+		1100:jump(0,true)	
 
 		
 	///크레용
@@ -46771,6 +47069,10 @@ folder("char\chapter3\pet\anim\furseal")
 
 folder("char\pet\anim\horse")
 
+        "pet_horse_horsebrushing_sit"
+			0:lookat(off)
+
+
 		"pet_horse_natural_attack_01"
 //사운드		19,22,32,35,45,48,58,67,73,79 85, 90 : 공격후에 발이 땅에 닿는순간
 			0:lookat(off)			
@@ -55240,7 +55542,8 @@ set("phoenix")
 			0:generic ("custom_mesh(0)")
 			0:effect("vargr_Gleipnir_summon01",0,1)	
 			4:effect("vargr_Gleipnir_chain01",0,1)				
-			//0:quake(10,20,25,3000)		
+			//0:quake(10,20,25,3000)
+			0:sound("data\sound\vargr\vargr_summon.wav")			
 			
 			
 		"pet_vargr_stand"
@@ -55384,11 +55687,14 @@ set("phoenix")
 			11:effect("vargr_WindClaw_smoke01",0,1)
 			12:effect("vargr_WindClaw_wind01",0,1)
 			30:effectoff("vargr_WindClaw_smoke01")
+			0:sound("data\sound\vargr\vargr_claw.wav")
+
 
 		"pet_vargr_moonhowling" 
 			0:lookat(off)
 			0:generic ("custom_mesh(0)")			
 			23:effect("vargr_Moonhowling_wave01",0,1)
+			0:sound("data\sound\vargr\vargr_howling1.wav")
 			
 		"pet_vargr_stand_to_sit"
 		    0:lookat(off)
@@ -60118,8 +60424,7 @@ set("tool Rhand_A05")
 			15:sound("data\sound\sword_swing_0.wav")
 			16:sound("data\\sound\\ogre_windmill_hammerdrag.wav")
 			25:sound("data\sound\draw_sword_echo.wav") 
-        
-
+		
   endfolder
   
 endset
@@ -62879,6 +63184,41 @@ set("prop concerned - temporary")
 	// setting file 안의 animation을 정의할 때는 folder를 "::세팅파일 이름" 으로 지정해야 한다.
 
 
+    folder("::farm_prop_catwheel01")		
+		"farm_prop_catwheel01"				
+			0:linkframework(1, "race:201701", "Bone03", "data/gfx\char\pet\anim\cat\catwheelwalk")
+			0:linkframework(2, "race:201703", "Bone04", "data/gfx\char\pet\anim\cat\pet_cat_natural_sit_01")
+			0:linkframework(3, "race:201702", "Bone05", "data/gfx\char\pet\anim\cat\pethouse_cattower_stand")
+			0:linkframework(4, "race:201704", "Bone06", "data/gfx\char\pet\anim\cat\pethouse_cattower_house")
+	endfolder
+
+    folder("::scene_prop_cattown_catwheel01")
+		"scene_prop_cattown_catwheel01"
+			0:linkframework(1, "race:201701", "Bone03", "data/gfx\char\pet\anim\cat\catwheelwalk")
+			0:linkframework(2, "race:201703", "Bone04", "data/gfx\char\pet\anim\cat\pet_cat_natural_sit_01")
+			0:linkframework(3, "race:201702", "Bone05", "data/gfx\char\pet\anim\cat\pethouse_cattower_stand")
+			0:linkframework(4, "race:201704", "Bone06", "data/gfx\char\pet\anim\cat\pethouse_cattower_house")
+	endfolder
+		
+	folder("::scene_prop_astrologist_spinningwheel01")
+		"scene_prop_astrologist_spinningwheel01"		
+			8000:jump(0)
+    endfolder 
+
+   
+   folder("::scene_prop_cowenna_horsechair01")
+		"scene_prop_cowenna_horsechair01_sit"
+		    0:linkframework(1, "race:4674", "Bone02", "data/gfx\char\chapter4\human\anim\human_horsebrushing_sit02")
+			0:linkframework(2, "race:260001, c1:A88064 c2:DDB97C c3:A72121", "Bone03", "data/gfx\char\pet\anim\horse\pet_horse_horsebrushing_sit")
+    endfolder 
+
+    folder("::scene_prop_cowenna_horsechair02")
+		"scene_prop_cowenna_horsechair02_sit"
+			0:linkframework(1, "race:4674", "Bone02", "data/gfx\char\chapter4\human\anim\human_horsebrushing_sit02")
+			0:linkframework(2, "race:260001, c1:A88064 c2:DDB97C c3:A72121", "Bone03", "data/gfx\char\pet\anim\horse\pet_horse_horsebrushing_sit")
+    endfolder 
+
+		
 	folder("::scene_prop_vargrchair01")        
         "scene_prop_vargrchair01_sit"                
             0:linkframework(1, "race:990392, c1:E3DCDA c2:BE9C81 c3:3E4253", "Bone01", "data\gfx\char\chapter4\human\anim\tool\acc_vargr_chair_stand")    
@@ -62910,7 +63250,13 @@ set("prop concerned - temporary")
 			0:linkframework(4, "race:194027, c1:F1EBC6 c2:73824B c3:684329 c4:808080 c5:E1DDCD", "bone05", "data/gfx\char\human/acc/anim/acc_20th01_talk")
     endfolder  
 
-	
+		
+	folder("::scene_prop_20thanniversary_campfire01")
+		"scene_prop_20thanniversary_campfire01"		
+			293:jump(1)
+    endfolder  
+
+
 	folder("::scene_prop_erintrip_expedition01")
 		"scene_prop_erintrip_expedition01"
 			0:linkframework(1, "race:1121, c1:808080 c2:917C65 c3:393939 ", "riding2", "data/gfx\char\chapter4\human\anim\lorna_erintrip_expedition_sit")
@@ -67381,7 +67727,43 @@ endset
 set("Knight")
 
 	folder("char\chapter4\human\anim\tool\rhand_A")
+	
+		// 나비요정_모션무기 	
+		"male_butterfly_sword_stand"
+				0:lookat(off)
+				0:hand (right, fist)
+				0:hand (left, palm)
+				10:effect("fairy_butterfly01_01",0,1)
+				377:effect("fairy_butterfly02_01",0,1)
+				960:jump(697,true)
+		
+		"female_butterfly_sword_stand"
+				0:lookat(off)
+				0:hand (right, fist)
+				0:hand (left, palm)
+				10:effect("fairy_butterfly01_01",0,1)
+				377:effect("fairy_butterfly02_01",0,1)
+				960:jump(697,true)
+		
+		"human_butterfly_sword_run"
+				0:lookat(off)
+				0:hand (right, fist)
+				0:hand (left, fist)
+				0:effect("fairy_butterfly03_01",0,1)
+		
+		"elf_butterfly_sword_run"
+				0:lookat(off)
+				0:hand (right, fist)
+				0:hand (left, fist)
+				0:effect("fairy_butterfly03_01",0,1)
 
+				
+		"human_20th_owl_stand"
+			0:hand(both, palm)
+		    0:lookat(off)
+			1016:jump(418)
+
+			
         "human_polaroid_stand"
 		    0:hand(both, palm)
 		    0:hand(right, fist)
@@ -70998,6 +71380,48 @@ set("Knight")
 
 	folder("char\chapter4\giant\anim\tool\Rhand_A")   
 	
+		"giant_butterfly_sword_stand"
+				0:lookat(off)
+				0:hand (right, fist)
+				0:hand (left, palm)
+				10:effect("fairy_butterfly01_01",0,1)
+				377:effect("fairy_butterfly02_01",0,1)
+				960:jump(697,true)
+		
+		"giant_female_butterfly_sword_stand"
+				0:lookat(off)
+				0:hand (right, fist)
+				0:hand (left, palm)
+				10:effect("fairy_butterfly01_01",0,1)
+				377:effect("fairy_butterfly02_01",0,1)
+				960:jump(697,true)
+				
+		"giant_butterfly_sword_run"
+				0:lookat(off)
+				0:hand (right, fist)
+				0:hand (left, fist)
+				0:effect("fairy_butterfly03_01",0,1)
+
+		
+		"giant_female_butterfly_sword_run"
+				0:lookat(off)
+				0:hand (right, fist)
+				0:hand (left, fist)
+				0:effect("fairy_butterfly03_01",0,1)	
+		
+		"giant_female_20th_owl_stand"
+			0:hand(both, palm)
+		    0:lookat(off)
+			1016:jump(418)
+
+		
+		"giant_20th_owl_stand"
+			0:hand(both, palm)
+		    0:lookat(off)
+			1016:jump(418)
+
+			
+	
 	    "giant_polaroid_stand"
 		    0:hand(left, palm)
 		    0:hand(right, fist)
@@ -71366,8 +71790,49 @@ set("Knight")
 		296:hand(right,palm)
 		310:hand(right,fist)		
 
+	"giant_female_s24period_twohanded_sword_stand"
+		0:hand(right,fist)
+		0:hand(left,palm)
+		0:lookat(off)
 
+	"giant_female_s24period_twohanded_sword_offensive"	
+		0:hand(both,fist)
+		0:lookat(off)
+
+	"giant_female_s24period_twohanded_sword_walk"	
+		0:hand(both,fist)
+		0:lookat(off)
+		10:effect("footstep_right_giant")
+		28:effect("footstep_left_giant")
+	
+	"giant_female_s24period_twohanded_sword_run"			
+		0:hand (both,fist)
+		0:lookat(off)
+		11:effect("footstep_right_giant")
+		27:effect("footstep_left_giant")
 		
+	
+	"giant_s24period_twohanded_sword_stand"
+		0:hand(right,fist)
+		0:hand(left,palm)
+		0:lookat(off)
+
+	"giant_s24period_twohanded_sword_offensive"	
+		0:hand(both,fist)
+		0:lookat(off)
+
+	"giant_s24period_twohanded_sword_walk"	
+		0:hand(both,fist)
+		0:lookat(off)
+		10:effect("footstep_right_giant")
+		28:effect("footstep_left_giant")
+	
+	"giant_s24period_twohanded_sword_run"			
+		0:hand (both,fist)
+		0:lookat(off)
+		11:effect("footstep_right_giant")
+		27:effect("footstep_left_giant")
+			
 	
 	"giant_female_psychopomp_twohanded_sword_friendly"
 		0:hand(right,fist)
@@ -79824,26 +80289,24 @@ set("magician")
 	folder("char\chapter4\elf\anim\tool\trunk")
 	
 	"elf_male_trunk_run"
-		0:hand(right, palm)
-		0:hand(left, fist)
+		0:hand (both, fist)
 		13:effect("footstep_right")
 		4:effect("footstep_left")
 		
 	"elf_male_trunk_walk"
-		0:hand(right, palm)
-		0:hand(left, fist)
+		0:hand(right, fist)
+		0:hand(left, palm)
 		9:effect("footstep_right")
 		22:effect("footstep_left")
 		
 	"elf_female_trunk_run"
-		0:hand(right, palm)
-		0:hand(left, fist)
+		0:hand (both, fist)
 		14:effect("footstep_right")
 		5:effect("footstep_left")
 		
 	"elf_female_trunk_walk"
-		0:hand(right, palm)
-		0:hand(left, fist)
+		0:hand(right, fist)
+		0:hand(left, palm))
 		9:effect("footstep_right")
 		22:effect("footstep_left")
 		
@@ -84767,6 +85230,45 @@ set("giant")
 	
 //////점성술사 : 생활 //////	/////
 
+	"giant_Astrogy_Receive"
+			0:lookat(off)		
+			0:hand(both,palm)
+			0:hideequip(false)				
+			
+
+	"giant_Astrogy_Sharing_complete"
+			0:lookat(off)		
+			0:hand(both,palm)
+			0:hideequip(false)	
+			0:effect("fx_buffShare_E1_end_01",0,1)
+
+	"giant_Astrogy_Sharing_process"
+			0:lookat(off)		
+			0:hand(both,palm)
+			0:hideequip(false)	
+			229:jump(152, true)			
+			0:effect("fx_buffShare_E1_01",0,1)
+
+	"giant_female_Astrogy_Receive"
+			0:lookat(off)		
+			0:hand(both,palm)
+			0:hideequip(false)				
+			
+
+	"giant_female_Astrogy_Sharing_complete"
+			0:lookat(off)		
+			0:hand(both,palm)
+			0:hideequip(false)	
+			0:effect("fx_buffShare_E1_end_01",0,1)
+
+	"giant_female_Astrogy_Sharing_process"
+			0:lookat(off)		
+			0:hand(both,palm)
+			0:hideequip(false)	
+			229:jump(152, true)		
+			0:effect("fx_buffShare_E1_01",0,1)
+
+
 		"giant_astrogist_stellacraft"
 			0:lookat(off)		
 			0:hand(both,palm)			
@@ -84794,13 +85296,15 @@ set("giant")
 			0:hideequip(false)
 			10:eyechange(223,0)
 			50:eyechange(default)				
+			40:effect("fx_soulcatch_02",0,1)
 			
 	"giant_astrogist_soulcatch_process"
 			0:lookat(off)		
 			0:hand(both,palm)			
 			0:hideequip(false)
 			810:jump(90, true)	
-
+			6:effect("fx_soulcatch_01",0,1)
+			
 	"giant_female_astrogist_astrogy_process"
 			0:lookat(off)		
 			0:hand(both,palm)
@@ -84818,12 +85322,14 @@ set("giant")
 			0:hideequip(false)
 			10:eyechange(223,0)
 			50:eyechange(default)				
+			40:effect("fx_soulcatch_02",0,1)
 			
 	"giant_female_astrogist_soulcatch_process"
 			0:lookat(off)		
 			0:hand(both,palm)			
 			0:hideequip(false)
 			810:jump(90, true)	
+			6:effect("fx_soulcatch_01",0,1)
 			
 ///////////////////////////////		
 
@@ -85102,7 +85608,12 @@ set("giant")
 		"giant_bookstand_2021"
 			0:lookat(off)			
 			1:generic ("custom_equip(weapon:giant_tool_c4_2021summer_book)")
-			468:jump(1)			
+			468:jump(1)	
+
+		"giant_butterfly_book_stand"
+			0:lookat(off)				
+			1:generic("custom_equip(weapon:giant_tool_c4_butterfly_book)")	
+			468:jump(1)
 			
 		"giant_bookstand02"
 			0:lookat(off)			
@@ -95495,6 +96006,101 @@ set("social motion")
 	folder("char\chapter4\giant\anim\social_motion")
 	
 	
+	
+	"giant_female_cowenna"
+		0:lookat(off)
+		0:hideequip(false)	
+		0:hand(both, palm)
+		
+	"giant_cowenna"
+		0:lookat(off)
+		0:hideequip(false)	
+		0:hand(both, palm)			
+	
+	"giant_female_butterflyfairy01"
+		0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		196:generic("custom_mesh(1:giant_tool_butterflyfairy_ani, tr2b:968B66 tr3b:3D5B5F tr5b:8EF7FF)")
+		871:generic("custom_mesh(1)")
+		196:effect("astrea",0,1)
+		871:effectoff("astrea")
+		871:hand(right,fist)
+		905:hand(right,palm)
+				
+	"giant_butterflyfairy01"
+		0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		196:generic("custom_mesh(1:giant_tool_butterflyfairy_ani, tr2b:968B66 tr3b:3D5B5F tr5b:8EF7FF)")
+		871:generic("custom_mesh(1)")
+		196:effect("astrea",0,1)
+		871:effectoff("astrea")
+		871:hand(right,fist)
+		905:hand(right,palm)
+			
+	"giant_24gesture_02"
+		0:hand(left,fist)
+		0:hand(right, palm)
+
+	"giant_24gesture_03"	
+		0:hand(left,fist)
+		0:hand(right, palm)	
+	
+	"giant_female_astrea"
+		0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		40:effect("astrea",0,1)
+		265:effectoff("astrea")
+		270:effect("astrea",0,1)
+		273:effectoff("astrea")
+		276:effect("astrea",0,1)
+		790:effectoff("astrea")
+		793:effect("astrea",0,1)
+		795:effectoff("astrea")
+		797:effect("astrea",0,1)
+		800:effectoff("astrea")
+		40:generic("custom_mesh(1:giant_astreastar_ani)")
+		265:generic("custom_mesh(1)")
+		270:generic("custom_mesh(1:giant_astreastar_ani)")
+		273:generic("custom_mesh(1)")
+		276:generic("custom_mesh(1:giant_astreastar_ani)")
+		790:generic("custom_mesh(1)")
+		793:generic("custom_mesh(1:giant_astreastar_ani)")
+		795:generic("custom_mesh(1)")
+		797:generic("custom_mesh(1:giant_astreastar_ani)")
+		800:generic("custom_mesh(1)")
+		
+	"giant_astrea"
+		0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		40:effect("astrea",0,1)
+		265:effectoff("astrea")
+		270:effect("astrea",0,1)
+		273:effectoff("astrea")
+		276:effect("astrea",0,1)
+		790:effectoff("astrea")
+		793:effect("astrea",0,1)
+		795:effectoff("astrea")
+		797:effect("astrea",0,1)
+		800:effectoff("astrea")
+		40:generic("custom_mesh(1:giant_astreastar_ani)")
+		265:generic("custom_mesh(1)")
+		270:generic("custom_mesh(1:giant_astreastar_ani)")
+		273:generic("custom_mesh(1)")
+		276:generic("custom_mesh(1:giant_astreastar_ani)")
+		790:generic("custom_mesh(1)")
+		793:generic("custom_mesh(1:giant_astreastar_ani)")
+		795:generic("custom_mesh(1)")
+		797:generic("custom_mesh(1:giant_astreastar_ani)")
+		800:generic("custom_mesh(1)")
+	
+	
+	
+	
+	
 	"giant_female_glowninja"
 		0:lookat(off)
 		0:hideequip(false)		
@@ -101141,7 +101747,7 @@ set("social motion")
 		"giant_promotion_astrogist"
 			1:hideequip(true)				
 			0:lookat(off)
-			1:generic("custom_equip(weapon:giant_tool_c4_basic_sickle, tb1b:e8dede tb2b:9e8a89 tb3b:392a2a tb5b:171818 tb6b:589cd9)")
+			1:generic("custom_equip(weapon:giant_tool_c4_basic_sickle:no_height_adjust, tb1b:e8dede tb2b:9e8a89 tb3b:392a2a tb5b:171818 tb6b:589cd9)")
 			0:hand(both,fist)
 			46:hand(left,palm)
 			73:hand(left,fist)
@@ -101150,7 +101756,7 @@ set("social motion")
 		"giant_female_promotion_astrogist"
 			1:hideequip(true)				
 			0:lookat(off)
-			1:generic("custom_equip(weapon:giant_tool_c4_basic_sickle, tb1b:e8dede tb2b:9e8a89 tb3b:392a2a tb5b:171818 tb6b:589cd9)")
+			1:generic("custom_equip(weapon:giant_tool_c4_basic_sickle:no_height_adjust, tb1b:e8dede tb2b:9e8a89 tb3b:392a2a tb5b:171818 tb6b:589cd9)")
 			0:hand(both,fist)
 			46:hand(left,palm)
 			73:hand(left,fist)
@@ -103572,7 +104178,27 @@ set("social motion")
 		44:hand(both, fist)
 		60:effect("firehell",0,1)
 		64:hand(both, palm)
-		700:jump(263,true)						
+		700:jump(263,true)	
+		
+
+	"giant_female_s24period"
+			0:lookat(off)
+			0:hand (both, fist)
+			1:generic ("custom_equip(weapon:giant_tool_s24periodbaskettr_ani, tb4b:808080)")
+			174:hand (left, palm)
+			203:hand (right, palm)
+			249:hand (left, fist)
+			855:jump(500, true)
+	
+	"giant_s24period"
+			0:lookat(off)
+			0:hand (both, fist)
+			1:generic ("custom_equip(weapon:giant_tool_s24periodbaskettr_ani, tb4b:808080)")
+			174:hand (left, palm)
+			203:hand (right, palm)
+			249:hand (left, fist)
+			855:jump(500, true)	
+			
 		
 	"giant_female_20th"
 		0:lookat(off)
@@ -103603,7 +104229,23 @@ set("social motion")
 		0:hand(both, palm)
 		305:hand(both, fist)
 		508:hand(both, palm)
-		740:jump(0,true)	
+		740:jump(0,true)
+
+	"giant_female_sunmoon"
+		0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		103:effect("sunmoon",0,1)
+		403:effect("sunmoon2",0,1)		
+		1100:jump(0,true)
+
+	"giant_sunmoon"
+		0:lookat(off)
+		0:hideequip(false)
+		0:hand(both, palm)
+		103:effect("sunmoon",0,1)
+		398:effect("sunmoon2",0,1)		
+		1100:jump(0,true)	
 		
 		
 //샤인스테이지 의상모션///
@@ -112357,6 +112999,189 @@ set("cutscene")
 	endfolder
 	
 	folder("char\chapter4\human\anim\cutscene7")
+	
+
+
+///////////점성술사 프로모션 모션리소스
+
+	"cutscene_astrologist_01"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, palm)
+		
+	"cutscene_astrologist_01-2"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, palm)
+		107:hand (both, fist)
+		
+	"cutscene_astrologist_02"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, fist)
+		48:hand (both, palm)	
+		
+	"cutscene_astrologist_03"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, palm)	
+		
+	"cutscene_astrologist_04"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, palm)	
+		
+	"cutscene_astrologist_05"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, palm)	
+		
+	"cutscene_astrologist_05-2"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, palm)	
+		
+	"cutscene_astrologist_06"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, palm)	
+		
+	"cutscene_astrologist_06-2"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, palm)	
+		
+	"cutscene_astrologist_07"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, palm)
+		
+	"cutscene_astrologist_08"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, palm)
+		67:generic("custom_equip(weapon:tool_c4_card01)")
+
+	"cutscene_astrologist_09"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:generic("custom_equip(weapon:tool_c4_card01)")		
+
+	"cutscene_astrologist_10"
+		0:lookat(off)
+		0:hideequip(true)
+		0:generic("custom_equip(weapon:weapon_pluteshortsword)")
+		0:hand (both, fist)
+		82:generic("custom_equip(shield:tool_goblin_card_L)")	
+		84:hand (left, palm)		
+
+		
+	"cutscene_astrologist_11"
+		0:lookat(off)
+		0:hand (both, palm)		
+		96:hand (left, fist)	
+		104:hand (left, palm)	
+		109:hand (left, fist)	
+		120:hand (left, palm)	
+		123:hand (left, fist)	
+		152:hand (left, palm)	
+		
+	"cutscene_astrologist_11-1"
+		0:generic("custom_equip(weapon:tool_c4_basic_sickle, tb1b:E8DEDE tb2b:9E8A89 tb3b:392A2A tb5b:171818 tb6b:589CD9)")	
+		
+	"cutscene_astrologist_11-2"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, fist)		
+
+	"cutscene_astrologist_11-3"
+		0:lookat(off)
+		0:hand (both, fist)
+
+	"cutscene_astrologist_12"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, palm)
+		0:generic("custom_equip(weapon:tool_c4_basic_sickle, tb1b:E8DEDE tb2b:9E8A89 tb3b:392A2A tb5b:171818 tb6b:589CD9)")		
+	    156:hand (right, fist)	
+		
+	"cutscene_astrologist_14"
+		0:lookat(off)
+		0:hand (both, fist)		
+
+    "cutscene_astrologist_15"
+		0:lookat(off)
+		0:hand (both, fist)	
+        4:hand (left, palm)
+        15:hand (right, palm)
+        19:hand (right, fist)		
+		20:hand (left, fist)	
+		38:hand (left, palm)	
+		78:hand (left, fist)	
+		87:hand (right, palm)	
+	
+	"cutscene_astrologist_16"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, fist)
+		0:generic("custom_equip(weapon:tool_c4_basic_sickle, tb1b:E8DEDE tb2b:9E8A89 tb3b:392A2A tb5b:171818 tb6b:589CD9)")	
+        47:hand (right, palm)
+		53:hand (right, fist)			
+		
+	"cutscene_astrologist_17"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, fist)
+		0:generic("custom_equip(weapon:tool_c4_basic_sickle, tb1b:E8DEDE tb2b:9E8A89 tb3b:392A2A tb5b:171818 tb6b:589CD9)")		
+	    19:hand (left, palm)
+		
+	"cutscene_astrologist_18"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (right, fist)
+		0:hand (left, palm)
+		0:generic("custom_equip(weapon:tool_c4_basic_sickle, tb1b:E8DEDE tb2b:9E8A89 tb3b:392A2A tb5b:171818 tb6b:589CD9)")		
+	
+	"cutscene_astrologist_19"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (right, fist)
+		0:hand (left, palm)
+		175:hand (right, palm)
+		
+	"cutscene_astrologist_19-2"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, palm)	
+		216:hand (both, fist)	
+		269:hand (left, palm)
+		
+	"cutscene_astrologist_20"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, palm)	
+
+
+	"cutscene_astrologist_20-2"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, palm)		
+
+	"cutscene_astrologist_21"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, palm)	
+
+
+	"cutscene_astrologist_21-2"
+		0:lookat(off)
+		0:hideequip(true)
+		0:hand (both, palm)	
+		
+
+////////////////////////		
+	
 
 	"cutscene_20th_cartwalk"
 		0:lookat(off)
@@ -119937,6 +120762,26 @@ set("newcharacter_motion")
 	folder("char\chapter4\human\anim")
 	
 //////점성술사 : 생활 //////	/////
+
+
+	"human_Astrogy_Receive"
+			0:lookat(off)		
+			0:hand(both,palm)
+			0:hideequip(false)				
+
+			
+	"human_Astrogy_Sharing_complete"
+			0:lookat(off)		
+			0:hand(both,palm)
+			0:hideequip(false)	
+			0:effect("fx_buffShare_E1_end_01",0,1)
+
+	"human_Astrogy_Sharing_process"
+			0:lookat(off)		
+			0:hand(both,palm)
+			0:hideequip(false)	
+			229:jump(152, true)			
+			0:effect("fx_buffShare_E1_01",0,1)
 	
 	"human_astrogist_stellacraft"
 			0:lookat(off)		
@@ -119960,13 +120805,14 @@ set("newcharacter_motion")
 			0:hideequip(false)
 			10:eyechange(223,0)
 			50:eyechange(default)			
+			40:effect("fx_soulcatch_02",0,1)
 			
 	"human_astrogist_soulcatch_process"
 			0:lookat(off)		
 			0:hand(both,palm)			
 			0:hideequip(false)
 			810:jump(90, true)	
-
+            6:effect("fx_soulcatch_01",0,1)
 			
 ///////////////////////////////
 	
