@@ -246,6 +246,24 @@ interface_item.2	Empty Music Scores cannot be included.
 interface_item.3	Music Scores with no uses left cannot be included.
 interface_item.4	 (Not Activated)
 interface_item.5	Dan {0}
+interface_minigame.1	You are currently a pet and cannot participate in mini-games.
+interface_minigame.2	Cannot start a mini-game while unconscious.
+interface_minigame.3	Cannot start a mini-game while using a skill.
+interface_minigame.4	Cannot start a mini-game while participating in Pet PvP.
+interface_minigame.5	Cannot start a mini-game while talking to an NPC
+interface_minigame.6	Cannot start a mini-game while mounted.
+interface_minigame.7	Cannot start a mini-game while skiing.
+interface_minigame.8	Cannot start a mini-game while participating in a Fashion Show.
+interface_minigame.9	Cannot start a mini-game while participating in a Water Balloon Fight.
+interface_minigame.10	You can't start a mini-game while playing Code Cracker.
+interface_minigame.11	Cannot start a mini-game while inside the Event Hall.
+interface_minigame.12	Cannot start a mini-game while dueling.
+interface_minigame.13	Cannot start a mini-game while participating in a Jousting Tournament.
+interface_minigame.14	Cannot start a mini-game while sitting in a chair.
+interface_minigame.15	You can't start a mini-game here.
+interface_minigame.16	Cannot start a mini-game while trading.
+interface_minigame.17	You cannot start a mini-game in the Clobbermeister Zone.
+interface_minigame.18	You can't start a mini-game currently.
 interface_multiclass.1	Requires a close combat weapon to use.
 interface_multiclass.2	{0} cannot be used with a 0 durability weapon.
 interface_personalrankingmgr.1	Girgashiy
@@ -274,6 +292,15 @@ interface_petmgr.2	You can't swallow this monster.
 interface_petmgr.3	I don't think you can swallow this monster.
 interface_petmgr.4	You can't swallow this monster because it still has a lot of HP.
 interface_petmgr.5	You can't swallow this monster because it is too strong.
+interface_privateislandnpcmgr.1	You cannot send away your last islander.
+interface_privateislandnpcmgr.2	You cannot send away the islander as they have insufficient satisfaction.
+interface_privateislandnpcmgr.3	You cannot send away an islander who is in the middle of production.
+interface_privateislandnpcmgr.4	You cannot send away an islander who is in the middle of a part-time job.
+interface_privateislandnpcmgr.5	You cannot send away an islander who is placed on your island.
+interface_privateislandnpcmgr.6	You cannot disable that when wearing equipment.
+interface_privateislandnpcmgr.7	You cannot give this food due to insufficient satisfaction.
+interface_privateislandnpcmgr.8	You don't have enough skill points.
+interface_privateislandnpcmgr.9	You don't have enough journals.
 interface_prop.1	 {1}, dispatched by {0}
 interface_prop.2	 {1}, opened by {0}
 interface_prop.3	{1}, opened by {0}

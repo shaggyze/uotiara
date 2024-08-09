@@ -113,7 +113,7 @@ Note: Some mods of this are not included in Official Tiara, but I think they des
 31. Alchemist Flame Burst Simplify.
 32. Alchemist Shock Removal.
 33. More Pet Sound and Quake Removals. (removed)
-34. Blade3575's Abyss Patcher.
+34. Blade3575's Abyss Patcher. (needs ngs bypass)
 35. logue's MabiPacker. (removed)
 36. Tera's Solea Map Updated With Ores.
 37. Visual Chat Mod. thanks to Yiting, exec and the Aura community that helped me indirectly.
@@ -121,16 +121,16 @@ Note: Some mods of this are not included in Official Tiara, but I think they des
 39. Silent Edern.
 40. Realistic Rain by [Bloodhound]
 41. step29's Talent Level Number Mod.
-42. Mob Life Bar to Boss Life Bar (removed)
+42. Mob Life Bar to Boss Life Bar. (removed)
 43. Oversight's Huge Ancient Names.
 44. akeno's Trade Imp Removal.
 45. Tekashi's Nimbus Effects Removal.
 46. Jragon0's Strange book Mod.
-47. Changed DATA Packer's PACK malformatted error (removed)
+47. Changed DATA Packer's PACK malformatted error. (removed)
 48. Rydian's Zero/Enlightenment SM Maps.
 49. step29's Reforge Realview Mod. (removed)
 50. kirbysama's V176 Exploration Maps. Remade + Cleaned
-51. Rydian's Partner Skillbar Icon.
+51. Rydian's Partner Skillbar Icon
 52. Draconis's Elf Transformation Cutscene Removal
 53. Draconis's Giant Transformation Cutscene Removal
 54. Draconis's Abb Neagh Incubus Transformation Cutscene Removal
@@ -168,7 +168,7 @@ Note: Some mods of this are not included in Official Tiara, but I think they des
 86. Rydian's Bitmap font improvements
 87. y3tii's Blacksmith/Tailor Manual Tooltip
 88. Sven's Hyddwn Launcher
-89. Cursey's Kanan Patcher
+89. Cursey's Kanan Patcher (needs ngs bypass)
 90. Aahz's Simplified Baltane Squire Area
 91. Aahz's Simplified Festia
 92. Fl0rn's Tech Duinn Fog Removal

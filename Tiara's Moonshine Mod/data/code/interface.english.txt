@@ -1451,6 +1451,11 @@ pli_crystalmanagementview.1	Please select a crystal to store.\nClicking the stor
 pli_crystalmanagementview.2	{0}
 pli_crystalmanagementview.3	{0}
 pli_deactivequestboardview.1	Click the Details button to see more information.
+pli_deformplanetooltipview.1	Landscape Essence: {0}
+pli_deformplanetooltipview.2	<color=4>You cannot change the terrain here.</color>
+pli_deformplanetooltipview.3	<color=4>You cannot make a waterway because there is a hill nearby.</color>
+pli_deformplanetooltipview.4	<color=4>You cannot make a hill because there is a waterway nearby.</color>
+pli_deformplanetooltipview.5	<color=4>You can't change the terrain when there are props nearby.</color>
 pli_destroyexpiredconfirmview.1	{0:itemname} x ({1:itemcount})
 pli_dicebattleview.1	It's a tie! Roll again.
 pli_dicebattleview.2	End the battle immediately?\nBattle progress will not be saved
@@ -1606,6 +1611,7 @@ pli_echostoneconvertview.4	Alert
 pli_echostoneconvertview.5	Grade {0}
 pli_echostoneconvertview.6	{0} x{1}
 pli_echostoneconvertview.7	This is <color=5><outlinecolor=3>a very high-grade Echostone</outlinecolor></color>. Continue?
+pli_echostoneconvertview.8	해당 에코스톤은 분해할 수 없습니다.
 pli_echostoneprobeachlevelview.1	Level {0}
 pli_echostoneupgraderesultview.1	{0} {1} + {2} Increase
 pli_echostoneupgraderesultview.2	{0} {1} Increase
@@ -1929,6 +1935,8 @@ pli_facilitylistview.9	\t\tWould you like to extend your lease?\t\t\nIt will cos
 pli_facilitylistview.10	Direct Bank Transaction
 pli_facilitylistview.11	You can't enter into a lease if you have 2 or more houses in your Homestead.
 pli_facilitylistview.12	Pet House Upgrade
+pli_facilitylistview.16	All
+pli_facilitylistview.17	Width: {0}, Height: {1}
 pli_familycontrolview.1	{0} Family Tree
 pli_familycontrolview.2	Family Custom: {0}
 pli_familycontrolview.3	No Family Custom
@@ -2520,6 +2528,7 @@ pli_helperapiskill.29	Level {0}
 pli_helperapiskill.30	Fynn Bead
 pli_helperapiskill.31	Pounces and play-attacks the ground, placing a pentacle at that location for {0} sec. If the Purrling's owner stands within the pentacle it grants them a special blessing that increases Min Damage and Max Damage by {1}.
 pli_helperapiskill.32	Pounces and play-attacks the ground, placing a pentacle at that location for {0} sec. If the Purrling's owner stands within the pentacle it grants them a special blessing that increases Magic Attack by {1} and Fire/Wind/Earth/Water Alchemic Damage by {2}.
+pli_helperapiskill.33	펫 주변 {0}미터 내의 몬스터는 약점이 노출되어 크리티컬 히트 공격을 받을 시 {1}% 보너스 대미지를 추가로 받는다.
 pli_helprequestview.1	You can select a quest to request help with.
 pli_helprequestview.2	Would you like to request help with your current quest?
 pli_helprequestview.3	Select a quest to request help for.
@@ -2981,9 +2990,9 @@ pli_interactionmainview.19	Interaction Board
 pli_interfacemgraction.1	Regular characters (users) too are able to control and target their aim while making attacks.
 pli_interfacemgraction.2	Regular characters (users) cannot control and target their aim while making attacks. 
 pli_interfacemgraction.3	You cannot change channels during the Jousting Tournament.
-pli_interfacemgraction.4	You cannot move to another channel while you're in a Homestead.
+pli_interfacemgraction.4	You cannot move to another channel while on a Homestead or Moonlight Island.
 pli_interfacemgraction.5	Error
-pli_interfacemgraction.6	You cannot teleport to a different continent from within a Homestead.
+pli_interfacemgraction.6	You cannot warp to a different continent while on a Homestead or Moonlight Island.
 pli_interfacemgraction.7	In addition, you may lose some of the Trade Goods in your possession.
 pli_interfacemgraction.8	If you log off now,\nyou may lose some of the Trade Goods in your possession.
 pli_interfacemgraction.9	You cannot change channels while engaged in commerce.
@@ -3239,6 +3248,12 @@ pli_joustvictoryview.4	You've obtained\n{0} Jousting Points.
 pli_joustvictoryview.5	The player you favored has won.\nObtained {0} Jousting Points.
 pli_joustvictoryview.6	The player you favored has lost.\nObtained {0} Jousting Points.
 pli_jukeboxview.1	This background music hasn't been unlocked yet.\nUnlock it by using the Replay Reward Box.
+pli_jukeboxview.2	Playlist ({0} / 30)
+pli_jukeboxview.3	You cannot add any more songs because your playlist is full.
+pli_jukeboxview.4	Playlist ({0} / 30)
+pli_jukeboxview.5	Playlist ({0} / 30)
+pli_jukeboxview.6	Close Advanced Jukebox Functions
+pli_jukeboxview.7	Open Advanced Jukebox Functions
 pli_kioskinventoryview.1	Kiosk Item Storage
 pli_kioskinventoryview.2	The Kiosk cannot be closed because there are items that are still being sold.\nPlease organize your Kiosk.
 pli_kioskinventoryview.3	Do you wish to close the Kiosk?
@@ -3513,6 +3528,7 @@ pli_multiclassmanageview.6	Advance
 pli_multiclassmanageview.7	{0} {1}
 pli_multiclassmanageview.8	You have not acquired the Arcana Talent associated with this skill yet.
 pli_multiclassmanageview.9	* Obtain {0}
+pli_multifacilitycontextmenuview.1	Select at least 2 housing items
 pli_myknightsmemberinfoframe.1	Specialty {0} \n
 pli_myknightsmemberinfoframe.2	Divine Power {0} \n
 pli_myknightsmemberinfoframe.3	Strength {0} \n
@@ -4103,7 +4119,7 @@ pli_privatefarmentryview.3	Incorrect Homestead name.
 pli_privatefarmentryview.4	Failed to enter the Homestead.
 pli_privatefarmentryview.5	Cannot teleport from here.
 pli_privatefarmentryview.6	You cannot go to the Homestead during a Fashion Contest.
-pli_privatefarmentryview.7	An animal character cannot enter the Homestead.
+pli_privatefarmentryview.7	Pets cannot enter this area unaccompanied.
 pli_privatefarmentryview.8	You can't move to the Marketplace.
 pli_privatefarmentryview.9	You cannot enter the Homestead if you have a summoned creature.
 pli_privatefarmentryview.10	You cannot go to the Homestead with a mount.
@@ -4158,6 +4174,10 @@ pli_privatefarmentryview.58	You cannot move while playing a Festia mini-game or 
 pli_privatefarmentryview.59	You can't use a Homestead from the Guild Battle channel.
 pli_privatefarmentryview.60	You cannot enter while mounted.
 pli_privatefarmentryview.61	You cannot enter Homesteads during battles.\nTime Remaining until End of Battle: {0}
+pli_privatefarmentryview.62	You have already requested to visit this island.\nPlease wait until the owner accepts the request.
+pli_privatefarmentryview.63	You can't use this in the Marketplace Channel.
+pli_privatefarmentryview.64	You can't use this in the Guild Battle Channel.
+pli_privatefarmentryview.65	You can't do that right now.
 pli_privatefarmfacilitypaintingview.1	That has expired and cannot be used.
 pli_privatefarmfacilitypaintingview.2	Selected {0}.
 pli_privatefarmfacilitypaintingview.3	Starting painting on part {0}.
@@ -4181,6 +4201,7 @@ pli_privatefarmlevelupicon.2	<color=4>Required Materials</color>\n{0}\n\n
 pli_privatefarmoptionview.1	Save Entrance Settings
 pli_privatefarmoptionview.2	Save All House Settings
 pli_privatefarmoptionview.3	Failed to {0}.
+pli_privatefarmoptionview.4	Island Options
 pli_privatefarmpaintmixingview.1	That has expired and cannot be used.
 pli_privatefarmpaintmixingview.2	About to begin Paint mixing...
 pli_privatefarmpaintmixingview.3	Selected {0}.
@@ -4204,7 +4225,7 @@ pli_privatefarmrecommendview.4	Cancel
 pli_privatefarmrecommendview.5	Farm Name
 pli_privatefarmrecommendview.6	Charcter Name
 pli_privatefarmrecommendview.7	Kon
-pli_privatefarmstatusview.1	Kons are the value of your Homestead.
+pli_privatefarmstatusview.1	Kon represents the overall growth and value of your Homestead.
 pli_privatefarmstatusview.2	Homestead Information
 pli_privatefarmstatusview.3	You cannot add any more favorites.\nDelete existing favorites to add more.
 pli_privatefarmstatusview.4	You cannot add any more favorites.
@@ -4218,12 +4239,88 @@ pli_privatefarmstatusview.11	<color=2>Install Jukebox to Use</color>
 pli_privatefarmstatusview.12	 Decoration Effect
 pli_privatefarmstatusview.13	Jukebox [No Time Limit (VIP)]
 pli_privatefarmstatusview.14	<color=2>Expired. Enabled via a Jukebox Coupon, or with an active Life VIP Membership</color>
+pli_privateislandentryview.1	Do you wish to enter {0}?
+pli_privateislandentryview.2	Do you wish to enter {0}'s island?
+pli_privateislandentryview.3	x{0}
+pli_privateislandentryview.4	{0}'s
+pli_privateislandentryview.5	Visitors
+pli_privateislandentryview.6	Islander Production
+pli_privateislandentryview.7	Equipment
+pli_privateislandentryview.8	Production and Equipment
+pli_privateislandentryview.9	Pet Expedition
+pli_privateislandentryview.10	Pet House
+pli_privateislandentryview.11	Workshop Bench
+pli_privateislandhelpnpcview.1	Request Help From {0}
+pli_privateislandinteractionnpcselectview.1	You cannot place the islander because you've reached your maximum number of saved islanders.
+pli_privateislandinteractionnpcselectview.2	You cannot place the islander because you've reached your maximum number of placed islanders.
+pli_privateislandinteractionnpcselectview.3	You cannot place any more.
+pli_privateislandinteractionnpcselectview.4	You cannot place in your current state.
+pli_privateislandinteractionnpcselectview.5	Placed Islanders' Dispositions:\n\n
+pli_privateislandinteractionnpcselectview.6	Can be placed: {0}/{1}
+pli_privateislandinteractionnpcselectview.7	No Effect
+pli_privateislandinvenview.1	There is not enough space in your inventory.
+pli_privateislandinvenview.2	You cannot change the style of an islander who is in the middle of production.
+pli_privateislandknownpcskillview.1	Would you like to obtain\nthe {0} Skill?
+pli_privateislandknownpcskillview.2	<color=5>LV.{0} {1}</color>\n\nEffect:\n{2}\n\n{3}
+pli_privateislandnpcskillview.1	You cannot change the skills of an islander who is in the middle of production.
+pli_privateislandnpcskillview.2	Would you like to upgrade your skills using the points below?\n(Cannot be undone once applied. Resetting skills will require you to spend a set amount of Gold.)\n\n* Production Skill Points: <color=2>{0}</color>\n* Journals: <color=2>x{1}</color>
+pli_privateislandnpcskillview.3	Would you like to reset all skills?\nYour Production Skill Points and Journals will be restored.\nReset Cost: <color=5><outlinecolor=3>{0} Gold</outlinecolor></color>\n
+pli_privateislandnpcskillview.4	Direct Bank Transaction
+pli_privateislandnpcskillview.5	<color=5>LV.{0} {1}</color>\n\nCurrent Effect:\n{2}
+pli_privateislandnpcskillview.6	\n\nEffect upon Level Up:\n{0}\n\n{1}
+pli_privateislandnpcstatusview.1	Invite to Moonlight Island.
+pli_privateislandnpcstatusview.2	{1} day(s) since becoming an islander on {0}
+pli_privateislandnpcstatusview.3	Are you sure you want to send {0} off your island?\n<color=5><outlinecolor=3>Items used for islander growth will not be returned to you. Please choose carefully.</outlinecolor></color>
+pli_privateislandnpcstatusview.4	Send Off
+pli_privateislandsiteproductioninfoview.1	Time Remaining: {0}
+pli_privateislandsiteproductioninfoview.2	Time Remaining: Complete
+pli_privateislandskillview.1	You can't do that while in the middle of production.
+pli_privateislandskillview.2	The island skill has been applied.
+pli_privateislandskillview.3	The island skill has been reset.
+pli_privateislandskillview.4	Remaining Skill Points: {0}
+pli_privateislandskillview.5	Applies the points distributed to each island skill.\nAfter skills have been applied, you must pay a set amount of Gold to reset them.
+pli_privateislandskillview.6	Resets all island skills.\nYour skill points will be returned. The cost of resetting is proportional to the number of skill points applied.\nReset Cost: <color=5><outlinecolor=3>{0} Gold</outlinecolor></color>\n\nAre you sure you want to reset island skills?\n<color=5><outlinecolor=3>If your plot or islander limits will be exceeded due to skill reset, you will have certain functions restricted.</outlinecolor></color>
+pli_privateislandskillview.7	Direct Bank Transaction
+pli_privateislandskillview.8	{0}: Unlock Special Recipe Level {1}
+pli_privateislandskillview.9	Deactivated
+pli_privateislandskillview.10	\n\nCurrent Effect:\n
+pli_privateislandskillview.11	\n\nEffect upon Level Up:\n
+pli_privateislandskillview.12	\n\nPrerequisites:
+pli_privateislandskillview.13	\n\nRequired Skill Points: {0}
+pli_privateislandskillview.14	{0}\n<color=3>Max Level:</color>
+pli_privateislandskillview.15	{0}\nLevel: {1}
+pli_privateislandspecialnpcnotiviewframe.1	Leaves in
+pli_privateislandstatusview.1	Lv. {0}
+pli_privateislandstatusview.2	Level {0} Land Expansion
+pli_privateislandstatusview.3	You cannot add any more favorites.\nDelete existing favorites to add more.
+pli_privateislandstatusview.4	You cannot add any more favorites.
+pli_privateislandstatusview.5	x%d
+pli_privateislandstatusview.6	Pay Moonlight Island Maintenance Fee
+pli_privateislandstatusview.7	Expand usable island land.\nPlaceable Housing Items: <color=3>x{0}</color> More\nMaximum Placeable Residents: <color=3>{1}</color> More
+pli_privateislandstatusview.8	Level {0} Land
+pli_privateislandstatusview.9	Expand usable island land.\nPlaceable Housing Items: <color=3>x{0}</color> More\nMaximum Placeable Residents: <color=3>{1}</color> More
+pli_privateislandstatusview.10	You cannot select any more.
+pli_privateislandstatusview.11	Amount to use
+pli_privateislandstatusview.12	Maximum Placeable Islanders: <color=3>{0}</color>
+pli_privateislandstatusview.13	Maximum Placeable Housing Items: <color=3>x{0}</color>
+pli_privateislandstatusview.14	All Housing Items: {0}/{1}
+pli_privateislandstatusview.15	All Production Equipment: {0}/{1}
+pli_privateislandviewutility.1	Age {0}
+pli_privateislandviewutility.2	Production Skill Points: {0}
+pli_privateislandviewutility.3	Journals Possessed: x{0}
+pli_privateislandviewutility.4	Required Skill Points: {0}
+pli_privateislandviewutility.5	Required Journals: x{0}
+pli_privateislandviewutility.6	{0} {1} islander(s)
+pli_privateislandviewutility.7	Current EXP: {0}\nNext Level: {1}
 pli_privatezoneaskexitview.1	{0:itemname} x ({1:itemcount})
 pli_privatezoneaskexitview.2	Please wait.
 pli_productionbookview.1	Enter a search term
 pli_productionbookview.2	Enter a search term
 pli_productionbookview.3	{0}\nInitial Crafting Time - {1}\n
 pli_productionbookview.4	{0}\nNot produced
+pli_productioninstallview.1	{0} Plots Installed
+pli_productioninstallview.2	All
+pli_productioninstallview.3	Width: {0}, Height: {1}
 pli_productionview4.1	Not enough materials.
 pli_productionview4.2	Materials must be combined to be added.
 pli_productionview4.3	Nothing can be made from this material.
@@ -4636,6 +4733,61 @@ pli_simcardauth.3	확인
 pli_simcardauth.4	Cancel
 pli_simcardauth.5	메시지
 pli_simcardauth.6	인증 중입니다...
+pli_sitecontextview.1	Lv.{0} {1} ({2}X{3})
+pli_sitecontextview.2	{0} Housing Item Installation
+pli_sitelevelrecipeview.1	Lv.{0} {1} Production Equipment Installation Requirements
+pli_sitelevelrecipeview.2	Install {0} ({1}/{2})
+pli_sitelevelrecipeview.3	[Complete]
+pli_sitenpcproductionhelpframe.1	Would you like to stop helping in the current category and begin helping in a different category?\n\nCost: <color=5><outlinecolor=3>{0} Gold</outlinecolor></color>
+pli_sitenpcproductionhelpframe.2	Direct Bank Transaction
+pli_sitenpcproductionhelpframe.3	Unlock Lv. {0} {1} Production Equipment
+pli_sitenpcproductionhelpframe.4	* Production Time {0} Min. Faster
+pli_sitenpcproductionhelpframe.5	Currently Held: {0}/{1}
+pli_siteproductionmainview.1	Lv. {0} {1} Production Equipment
+pli_siteproductionmainview.2	This will be crafted in an unfinished state.\nAre you sure you want to continue?
+pli_siteproductionmainview.3	Would you like to craft using materials in your inventory as well?
+pli_siteproductionmainview.4	Total Islander Skill Level: {0} Required
+pli_siteproductionmainview.5	Island: {0} EXP
+pli_siteproductionmainview.6	Islander: {0} EXP
+pli_siteproductionmainview.7	Island Production Capacity: -{0}
+pli_siteproductionmainview.8	Islander Endurance: -{0}
+pli_siteproductionmainview.9	Time Required: {0} min.
+pli_siteproductionmainview.10	* Total Islander Skill Level: {0}
+pli_siteproductionmainview.11	Island Skill Effect: Production Capacity Lost <color=3>-{0}</color>\n
+pli_siteproductionmainview.12	Island Skill Effect: Production Time <color=3>-{0}%</color> \n
+pli_siteproductionmainview.13	Placement Synergy: Production Time <color=3>-{0}%</color>\n
+pli_siteproductionmainview.14	Islander Dexterity Effect: Production Time <color=3>-{0}%</color>\n
+pli_siteproductionmainview.15	You cannot produce anything because you have exceeded the limit of installable plots.
+pli_siteproductionmainview.16	Unlock Lv. {0} {1} Production Equipment
+pli_siteproductionmainview.17	{0} Skill Level: {1}
+pli_siteproductionmainview.18	Island Skill Effect: Consumed Endurance <color=3>-{0}%</color>
+pli_siteproductionmainview.19	Resident Skill Effect: Consumed Endurance <color=3>-{0}%</color>
+pli_siteproductionmainview.20	Islander Synergy Effect: Consumed Endurance <color=3>-{0}%</color>
+pli_siteproductionmainview.21	Islander Stats Effect: Consumed Endurance <color=3>-{0}%</color>
+pli_siteproductionnpclistview.1	The islander cannot currently produce anything.
+pli_siteproductionnpclistview.2	You cannot place the islander because you've reached your maximum number of saved islanders.
+pli_siteproductionnpclistview.3	You cannot place any more islanders.
+pli_siteproductionnpclistview.4	Lv. {0}
+pli_siteproductionnpclistview.5	{0} Skill Level: {1}
+pli_siteproductionprogressview.1	Lv. {0} {1} Production Equipment
+pli_siteproductionprogressview.2	Amount Crafted: x{0}
+pli_siteproductionprogressview.3	Time Remaining: {0}
+pli_siteproductionprogressview.4	Time Remaining: Complete
+pli_siteproductionprogressview.5	<color=5><outlinecolor=3>Consumed materials, endurance, and production capacity will not be restored.</outlinecolor></color>\nYou can obtain products only when all crafting is completed.\nWould you like to cancel crafting?
+pli_siteproductionprogressview.6	Number of Times Helped: <color=3>{0}/{1}</color>
+pli_siteproductionprogressview.7	Number of Times Helped: {0}/{1}
+pli_siteproductionprogressview.8	Production cannot be completed because there are {0} too few item slots in islander storage.
+pli_siteproductionprogressview.9	Lv. {0} {1} Production Equipment
+pli_siteproductionprogressview.10	Amount Crafted: x{0}
+pli_siteproductionprogressview.11	Production Time: {0}
+pli_siteproductionprogressview.12	Number of Times Helped: {0} ({1} Decrease)
+pli_siteproductionprogressview.13	Number of Times Helped: 0
+pli_siteproductionprogressview.14	Island EXP Gained: {0}
+pli_siteproductionprogressview.15	Satisfaction Bonus: <color=3>+{0}%</color> Island EXP\n
+pli_siteproductionprogressview.16	Placement Synergy Bonus: <color=3>+{0}%</color> Island EXP
+pli_siteproductionprogressview.17	Unlock Lv. {0} {1} Production Equipment
+pli_siteproductionprogressview.18	+{0} EXP
+pli_siteproductionprogressview.19	Lv. {0}
 pli_sittingpropselectseatview.1	(Partner)
 pli_skillexpbonusboostalarmview.1	Current Boost
 pli_skillexpbonusboostalarmview.2	{0} Talent Training EXP x{1}.{2}
@@ -4868,10 +5020,9 @@ pli_title2024mainview.1	<color=2>설정된 타이틀이 없습니다.</color>
 pli_title2024mainview.2	<color=2>설정된 타이틀이 없습니다.</color>
 pli_title2024mainview.3	타이틀을 사용하지 않습니다.
 pli_title2024mainview.4	힌트가 없는 타이틀입니다.
-pli_title2024mainview.5	어디서 어떻게 얻는지 알 수 없는 타이틀. 플레이을 하다보면 힌트를 얻을 수 있다.
+pli_title2024mainview.5	어디서 어떻게 얻는지 알 수 없는 타이틀. 플레이를 하다보면 힌트를 얻을 수 있다.
 pli_title2024mainview.6	타이틀을 사용하지 않습니다.
 pli_title2024mainview.7	힌트가 없는 타이틀입니다.
-pli_title2024mainview.8	어디서 어떻게 얻는지 알 수 없는 타이틀. 플레이을 하다보면 힌트를 얻을 수 있다.
 pli_title2024mainview.9	타이틀을 해제하시겠습니까?
 pli_title2024mainview.10	해제
 pli_title2024mainview.11	의장 타이틀을 해제하시겠습니까?
@@ -5236,6 +5387,7 @@ pli_trashcanview.1	This item cannot be destroyed.
 pli_trashcanview.2	One or more of the selected items cannot be destroyed.
 pli_trashcanview.3	All items will be <color=5><outlinecolor=3>deleted</outlinecolor></color> and cannot be recovered.\nDo you want to <color=5><outlinecolor=3>delete</outlinecolor></color> the selected items?
 pli_trashcanview.4	You cannot select any more items.
+pli_trashcanview.5	You cannot change the style of an islander who is in the middle of production.
 pli_treasureboxevent.1	You do not have a Treasure Chest Key.
 pli_treasureboxevent.2	Open
 pli_treasureboxevent.3	Close
@@ -5829,6 +5981,7 @@ pli_windowfriendlistpopup.14	Expand All
 pli_windowfriendlistpopup.15	Expand all friend groups.\nYou can also hold Ctrl and double-click a group name to expand all groups.
 pli_windowfriendlistpopup.16	Collapse All
 pli_windowfriendlistpopup.17	Collapse all friend groups.\nYou can also hold Ctrl and double-click a group name to collapse all groups.
+pli_windowfriendlistpopup.18	Enter Moonlight Island
 pli_windowfriendtreeview.1	Offline
 pli_windowgameclockweather.1	{0} {1}:{2}
 pli_windowgmcontroltabs.1	Destroy all items in my Inventory.
@@ -6932,7 +7085,7 @@ pli_windowpocketitem.7	Price: {0} Adventurer Seals
 pli_windowpocketitem.8	Cost: {0} x{1}
 pli_windowpocketitem.9	Unpurchaseable
 pli_windowpocketitem.10	Inventory Size
-pli_windowpocketitem.11	Width: {0} slots, Height: {1} slots
+pli_windowpocketitem.11	Width: {0}, Height: {1}
 pli_windowpocketitem.12	Remaining: {0}
 pli_windowpocketitem.13	Remaining: {0}
 pli_windowpocketitem.14	Seasonal Ducat Price: {0}
@@ -6944,6 +7097,9 @@ pli_windowpocketitem.19	PM
 pli_windowpocketitem.20	%d:00
 pli_windowpocketitem.21	- Resets at {0} {1} (Earth time)
 pli_windowpocketitem.22	<color=5>- Resets next season</color>
+pli_windowpocketitem.23	Placement Information
+pli_windowpocketitem.24	\nCan be placed on Homestead
+pli_windowpocketitem.25	\nCan be placed on Moonlight Island
 pli_windowpocketitemaction.1	You may not equip an item that has already been expired.
 pli_windowpocketitemaction.2	Only characters with {0} at dan {1} are eligible to be equipped with this item.
 pli_windowpocketitemaction.3	The guild robe can be outfitted only after it is registered with the corresponding guild.
@@ -6994,6 +7150,8 @@ pli_windowpocketitemaction.47	Cannot be used at regular enhancement level.
 pli_windowpocketitemaction.48	Are you sure you want to spend Additional Stat Stones to grant the amulet mysterious powers?\nIf the enhancement succeeds with these powers, the stat effects will be further increased by {0}.\nIf regular enhancement fails, the Additional Stat Stone effect on the amulet will be lost.
 pli_windowpocketitemaction.49	Only runes of the same type as the emblem can be used.
 pli_windowpocketitemaction.51	This function can only be used by the Guild Master.
+pli_windowpocketitemaction.52	You cannot equip that item.
+pli_windowpocketitemaction.53	You cannot change the style of an islander who is in the middle of production.
 pli_windowpopupcharacter.0	Failed to view equipment.
 pli_windowpopupcharacter.1	View Equipment
 pli_windowpopupcharacter.2	Mount on My Pet
@@ -7064,6 +7222,10 @@ pli_windowpopupcharacter.66	Stop walking
 pli_windowpopupcharacter.67	Start a Conversation
 pli_windowpopupcharacter.68	Float High
 pli_windowpopupcharacter.69	You cannot ride a mount while casting.
+pli_windowpopupcharacter.70	Details
+pli_windowpopupcharacter.71	View Skill
+pli_windowpopupcharacter.72	Enter Moonlight Island
+pli_windowpopupcharacter.73	Remove from Island
 pli_windowpopupitem.0	Change Direction
 pli_windowpopupitem.1	Set Rental Fee
 pli_windowpopupitem.2	Open Production Window
@@ -7689,7 +7851,7 @@ pli_windowtaskbar.37	Unconscious: {0}\n
 pli_windowtaskbar.38	You have {0} connection(s) with the people nearby.
 pli_windowtaskbar.39	Homeste<color=2>a</color>d
 pli_windowtaskbar.40	Farm (<color=2>A</color>)
-pli_windowtaskbar.41	Toggles Homestead Information. {0}
+pli_windowtaskbar.41	Homestead/Moonlight Island {0}
 pli_windowtaskbar.42	Character
 pli_windowtaskbar.43	Skills
 pli_windowtaskbar.44	Inventory
@@ -7814,7 +7976,7 @@ pli_windowtitle.12	Secondary Titles
 pli_windowtitle.13	Enter a search term.
 pli_windowtitle.14	Enter a search term.
 pli_windowtitle.15	PC방 타이틀 항상 착용
-pli_windowtitle.16	PC방에서 로그인시 자동으로 PC방 전용타이틀로 교체할지를 선택하는 옵션
+pli_windowtitle.16	PC방에서 로그인 시 자동으로 PC방 전용 타이틀로 교체할지를 선택하는 옵션
 pli_windowtitle.17	The effects will soon dissipate
 pli_windowtitle.18	Favorites can be added/removed by right-clicking.
 pli_windowtitle.19	Set Extra Equipment Slot Title

@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
-!define UOSHORTVERSION        "446"
-!define UOLONGVERSION         "0.58.78"
+!define UOSHORTVERSION        "447"
+!define UOLONGVERSION         "0.59.78"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -11169,6 +11169,10 @@ EndNewVersion3:
 Push $5
 Call .onSelChange
 !insertmacro SaveSections $R2
+;Disable Abyss Selection
+;SectionGetFlags ${MOD432} $7
+;IntOp $7 $7 | ${SECTION_OFF}
+;SectionSetFlags ${MOD432} $7
 ;Disable Hyddwn Selection
 ;SectionGetFlags ${MOD433} $7
 ;IntOp $7 $7 | ${SECTION_OFF}
@@ -11198,6 +11202,8 @@ ${If} ${mabi-pack2ForceInstall} == "True"
 WriteRegDWORD HKLM "${REG_UNINSTALL}\Components\MOD434" \
   "Installed" 1
 ${EndIf}
+WriteRegDWORD HKLM "${REG_UNINSTALL}\Components\MOD81" \
+  "Installed" 0
   StrCpy $R7 "End -FinishComponents"
   Call DumpLog
 SectionEnd

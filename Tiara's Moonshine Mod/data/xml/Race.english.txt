@@ -9789,6 +9789,8 @@
 12135	Fer
 12136	Camp Tent
 12137	Brynn
+12138	Human
+12139	Human
 12140	Aine
 12141	Seafra
 12142	Mercenary
@@ -9920,7 +9922,15 @@
 12280	위습
 12281	스켈레톤 풀아머 오거
 12282	그렌델
+12283	Merlin
+12284	Eiren
 12285	트레저헌터
+12286	Gorilla
+12287	Starlet
+12288	Professor J
+12289	Culinary Artist
+12290	Culinary Artist's Flying Food Truck
+12291	Laoire
 12292	스켈레톤 풀아머 오거
 12293	레드 스켈레톤 고스트
 12294	일루전 좀비
@@ -9936,6 +9946,26 @@
 12304	시저 래빗
 12305	구이쉬기
 12306	Fuathic Feather
+12308	Delga
+12309	Blue Poisonous Snake
+12310	White Poisonous Snake
+12311	Black Poisonous Snake
+12312	Zombie Soldier
+12313	Zombie Soldier
+12314	Scarred Scout
+12315	Mustachioed Scout
+12316	Tall Scout
+12317	Bearded Scout
+12318	Kobold
+12319	Poison Kobold
+12320	Kobold Archer
+12321	Tuatha de Danann
+12322	Tuatha de Danann
+12323	Tuatha de Danann
+12324	Solitude
+12325	Emptiness
+12326	Futility
+12327	Loss
 12330	케라우노스(이벤트용)
 12331	빛나는 별 투안
 12332	Archelon
@@ -9951,7 +9981,7 @@
 12342	Sweet Coffee Cloud Bun
 12348	Single Rose
 12349	미니 모험가 코끼리
-12351	셰프라
+12351	Seafra
 12352	Tagar
 12353	Tagar
 12354	Dark Ronaun
@@ -9962,64 +9992,74 @@
 12359	Dark Disciple
 12360	Dark Disciple
 12361	Dark Disciple
-12362	셰이시
-12363	메이라
-12364	브라운 프리즌 고스트
-12365	레드 프리즌 고스트
-12366	블루 프리즌 고스트
-12367	회색 프리즌 좀비
-12368	검은 프리즌 좀비
-12369	흰 프리즌 좀비
-12370	프리즌 플라잉 소드
-12371	브라운 프리즌 고스트
-12372	레드 프리즌 고스트
-12373	블루 프리즌 고스트
-12374	회색 프리즌 좀비
-12375	검은 프리즌 좀비
-12376	흰 프리즌 좀비
-12377	프리즌 플라잉 소드
-12378	메이라
-12379	셰이시
+12362	Sithech
+12363	Meara
+12364	Brown Prison Ghost
+12365	Red Prison Ghost
+12366	Blue Prison Ghost
+12367	Gray Prison Zombie
+12368	Grim Prison Zombie
+12369	White Prison Zombie
+12370	Prison Flying Sword
+12371	Brown Prison Ghost
+12372	Red Prison Ghost
+12373	Blue Prison Ghost
+12374	Gray Prison Zombie
+12375	Grim Prison Zombie
+12376	White Prison Zombie
+12377	Prison Flying Sword
+12378	Meara
+12379	Sithech
 12380	Red Lizard Witch
 12381	Illusion Zombie
 12382	Illusion Zombie
 12383	Black Moon Follower
 12384	Illusion Zombie
-12385	크라반
-12386	맹독 가시 악어
-12387	아라흐드
+12385	Cravan
+12386	Poison Alligator
+12387	Arahud
 12388	Lightning Slime
 12389	Lightning Slime
 12390	Black Moon Follower
 12392	Human
 12393	Human
-12394	페르
-12395	페르
-12396	페르
-12397	아리안넬
-12398	페르
+12394	Fer
+12395	Fer
+12396	Fer
+12397	Arianell
+12398	Fer
 12399	Hasidim
-12410	데클룬
-12414	검은 다이어 울프
-12415	흰 다이어 울프
-12416	흰 다이어 울프
-12417	와이트
-12418	구울
-12419	헬 캣
-12420	데미 리치
-12421	마스터 리치
-12422	검은 다이어 울프
-12423	흰 다이어 울프
-12424	흰 다이어 울프
-12425	와이트
-12426	구울
-12427	헬 캣
-12428	데미 리치
-12429	마스터 리치
-12430	페르
+12410	Declan
+12414	Black Dire Wolf
+12415	White Dire Wolf
+12416	White Dire Wolf
+12417	Wight
+12418	Ghoul
+12419	Hellcat
+12420	Demi Lich
+12421	Master Lich
+12422	Black Dire Wolf
+12423	White Dire Wolf
+12424	White Dire Wolf
+12425	Wight
+12426	Ghoul
+12427	Hellcat
+12428	Demi Lich
+12429	Master Lich
+12430	Fer
 12431	Lightning Slime
 12432	Lightning Slime
+12433	쿤 아눈
+12434	수호의 쿤 아눈
+12435	심판의 쿤 아눈
 12454	별빛 페어리 드래곤
+12463	쿤 아눈
+12464	수호의 쿤 아눈
+12465	심판의 쿤 아눈
+12467	Sheriff Warrior Corgi
+12468	Sheriff Warrior Corgi
+12469	Mariachi Wizard Corgi
+12470	Mariachi Wizard Corgi
 12473	Helionic Wolf
 12474	Selenian Cat
 12492	디나시

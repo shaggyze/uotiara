@@ -4510,6 +4510,12 @@
 6588	Cannot be used in the current state.
 6589	Enchanting is the art of imbuing an object with magical effects. However, the scrolls that contain these enchantments can be fragile, and if used alone, may crumble to dust if the attempt fails. However, by learning the Enchant skill, you'll be able to use Magic Powder as a medium to transfer the effect from scroll to equipment, making such tragic outcomes far less commonplace. You can use the Enchant skill alone to attempt an Enchant, but seasoned enchanters recommend using the skill while holding a bottle of Magic Powder in your right hand and an Enchant Scroll in your left. If you choose to protect the Enchant Scroll, only the piece of equipment you're trying to enchant will be damaged in the event of a failed enchant attempt. On the other hand, if you choose to protect the equipment, the Enchant Scroll will absorb the brunt of a failed enchant attempt, destroying it.
 6590	Equip [Magic Powder], which is sold in Magic Shops.
+6591	Music Lover
+6592	Band Member
+6593	An action which allows you to strike a special pose.
+6594	An action which allows you to strike a special pose.
+6595	An action which allows you to strike a special pose.
+6596	An action which allows you to strike a special pose.
 6597	Lightning - Ice
 6598	Ice - Fire
 6599	Fire - Lightning
@@ -4577,7 +4583,7 @@
 6661	I'm In
 6662	An action which allows you to strike a special pose.
 6663	An action which allows you to strike a special pose.
-6664	After raising Charge to Rank B, complete the [Herbivores of Cenae] quest.
+6664	Change Terrain
 6665	Cooldown Reduced
 6666	Chained Close Combat Skill Enhancement Boosted
 6670	Spin Dash
@@ -4613,5 +4619,18 @@
 6711	Random direction availability
 6712	Effect Warning Time (ms)
 6713	Effect Warning Time (ms)
+6717	글레이프니르
+6718	샤프 아이즈
+6719	미스틱 커튼
+6720	문 하울링
+6721	윈드 클로
+6723	쿤 아눈이 날카로운 시선을 통해 주변의 적들의 약점을 노출시킨다. 약점에 노출된 적은 치명적인 공격을 받을 시 더 큰 피해를 입으며 펫의 누적된 성장에 따라 입히는 피해량이 높아진다.
+6724	주인이 죽음에 이르는 피해를 받았을 때 확률적으로 발동되는 특별한 마법. 자신과 주인에게 신비한 보호막을 만들어 모습을 감추며 보호한다.
+6725	쿤 아눈이 제자리에서 하울링을 하며 마력을 발산한다. 마력은 일정 시간 동안 주기적으로 발산되며 마력에 노출된 적은 해로운 효과를 받으며 자신과 주인은 이로운 효과를 준다.
+6726	쿤 아눈이 날카로운 발톱으로 바람을 일으키고 전방을 휩쓸어버린며 동시에 자신과 주인에게는 피해를 막아줄 바람막을 형성한다. 바람막은 피해를 감소시키고 미스틱 커튼 효과를 강화 시킨다.\n미스틱 커튼 효과 발동 시 효과는 사라진다.
+6728	쿤 아눈이 날카로운 시선을 통해 주변의 적들의 약점을 노출시킨다. 약점에 노출된 적은 치명적인 공격을 받을 시 더 큰 피해를 입으며 펫의 누적된 성장에 따라 입히는 피해량이 높아진다.
+6729	주인이 죽음에 이르는 피해를 받았을 때 확률적으로 발동되는 특별한 마법. 자신과 주인에게 신비한 보호막을 만들어 모습을 감추며 보호한다.
+6730	쿤 아눈이 제자리에서 하울링을 하며 마력을 발산한다. 마력은 일정 시간 동안 주기적으로 발산되며 마력에 노출된 적은 해로운 효과를 받으며 자신과 주인은 이로운 효과를 준다.
+6731	쿤 아눈이 날카로운 발톱으로 바람을 일으키고 전방을 휩쓸어버린며 동시에 자신과 주인에게는 피해를 막아줄 바람막을 형성한다. 바람막은 피해를 감소시키고 미스틱 커튼 효과를 강화 시킨다.\n미스틱 커튼 효과 발동 시 효과는 사라진다.
 6732	모던 낭만 비행
 6733	둘도 없는 인연을 만들고 받은 선물. 몸에 뿌려진 출처를 알 수 없는 마법의 가루는 원할 때 마다 몸 전체에 감돌며 하늘에서의 자유를 느낄 수 있게 해준다. 남의 도움을 받거나 누군가에 의지하는 것이 아니라, 스스로의 의지로 자유롭게 하늘을 누비는 기분을 마음껏 만끽 해보자.\n날고 있는 상태에서 상대방을 우클릭 하면 나타나는 날기 요청 메뉴를 이용하여 상대방이 승낙 하면 함께 나란히 하늘을 날아다닐 수 있다. 보다 로맨틱한 느낌으로 상대방의 손을 잡고 허공으로 이끌 수 있다. 친구, 연인과 함께 자유롭게 날아보자.
