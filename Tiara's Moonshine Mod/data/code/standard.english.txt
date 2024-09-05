@@ -29,7 +29,7 @@ compareskilllevelhandler.6	when the {0} Technique is Lv. {1} or higher
 continentmgr.1	Uladh
 continentmgr.2	Iria
 continentmgr.3	Belvast Island
-continentmgr.4	Moye Ocean
+continentmgr.4	Moyer Ocean
 divineknightdescmgr.1	Warding
 divineknightdescmgr.2	Binding
 divineknightdescmgr.3	Smiting
@@ -161,7 +161,7 @@ interface_character.5	You cannot Continent Warp yet.
 interface_character.6	You cannot teleport to a different continent while participating in a Capture the Flag event.
 interface_character.7	You cannot teleport to a different continent while participating in a Jousting Tournament.
 interface_character.8	You cannot teleport to a different continent at this time.
-interface_character.9	You cannot teleport to a different continent from a Homestead.
+interface_character.9	You cannot warp to a different continent while on a Homestead or Moonlight Island.
 interface_character.10	You cannot move to another continent from the Dressing Room.
 interface_character.11	Ears
 interface_character.12	Eyes

@@ -8791,7 +8791,7 @@
 10995	Un Llygadog
 10996	Gwallgof
 10997	Slime Wyneb
-10998	Melci Diafol
+10998	Merch Diafol
 10999	Brielle
 11000	Disciple
 11001	Ronaun
@@ -8807,7 +8807,7 @@
 11011	Un Llygadog
 11012	Gwallgof
 11013	Slime Wyneb
-11014	Melci Diafol
+11014	Merch Diafol
 11015	Bleugenne Perfume Bottle
 11016	Pink Star Candy Sprite
 11017	Yellow Star Candy Sprite
@@ -9078,8 +9078,8 @@
 11304	베이비 서큐버스
 11305	Disciple
 11306	Dark Disciple
-11307	Melci Diafol
-11308	Melci Diafol
+11307	Merch Diafol
+11308	Merch Diafol
 11309	"The Loner" Fintan
 11310	"Penny-Pincher" Padriga
 11311	"Dreammaker" Dovheil
@@ -9802,149 +9802,149 @@
 12150	Mercenary
 12151	Mercenary
 12152	Mercenary
-12161	고블린
-12162	포이즌고블린
-12163	고블린아처
-12164	골드고블린
-12165	레드 고블린아처
-12166	레드 고블린
-12167	고블린 헌터
-12168	고블린 헌터 아처
-12169	홉고블린 전사
-12170	홉고블린 궁수
-12171	홉고블린 주술사
-12172	홉고블린 주술사
-12173	홉고블린 주술사
-12174	홉고블린 두목
-12175	골렘
-12176	갈색 뱀
-12177	청색 뱀
-12178	녹색 뱀
-12179	거대 흰 뱀
-12180	거대 검은 뱀
-12181	사하긴 솔저
-12182	사하긴 파이터
-12183	사하긴 레인저
-12184	사하긴 워리어
-12185	로스트 사하긴
-12186	리버 사하긴 레인저
-12187	리버 사하긴 파이터
-12188	케이브 사하긴 메이지
-12189	케이브 사하긴 워리어
-12190	위습
-12191	세이렌
-12192	메로우
-12193	아머 스켈레톤
-12194	아머 스켈레톤
-12195	레드 스켈레톤
-12196	레드 스켈레톤
-12197	메탈 스켈레톤
-12198	메탈 스켈레톤
-12199	스켈레톤 스쿼드
-12200	스켈레톤 헬하운드
-12201	블랙 아머 스켈레톤
-12202	파이톤 아미
-12203	파이톤 주술사
-12204	본 랜서
-12205	본 아처
-12206	본 파이터
-12207	해골 라고데사
-12208	스켈레톤 아머 오거
-12209	스켈레톤 풀아머 오거
-12210	듀라한
-12211	지옥마
-12212	파이어 서큐버스
-12213	라이트닝 서큐버스
-12214	아이스 서큐버스
-12215	포이즌 서큐버스
-12216	베이비 서큐버스
-12217	팬텀
-12218	고스트
-12219	블루 고스트
-12220	레드 고스트
-12221	블루 고스트 킹
-12222	레드 고스트 킹
-12223	고스트 킹
-12224	스켈레톤 고스트
-12225	그린 스켈레톤 고스트
-12226	블루 스켈레톤 고스트
-12227	레드 스켈레톤 고스트
-12228	반시
-12229	클로커
-12230	고스트 클로커
-12231	나이트메어 휴머노이드
-12232	블랙 프리즌 고스트
-12233	고스트 아머
-12234	타흘룸
-12235	파이어 슬라임
-12236	아이스 슬라임
-12237	라이트닝 슬라임
-12238	일루전 샐러맨더
-12239	일루전 좀비
-12240	샐러맨더
-12241	그렌델
-12242	레드 리저드 위치
-12243	검은 달의 교단원
-12244	헬 캣
-12245	스파이더 워리어
-12246	촌촌
-12247	검은 달의 교단원
-12248	검은 달의 교단원
-12249	검은 달의 교단원
-12250	폭탄 박쥐
-12251	붉은 발 타란툴라
-12252	검은 달의 교단원
-12253	검은 달의 교단원
-12254	피아나 기흐레
-12255	스넷타
-12256	스넷타
-12257	스넷타
-12258	구일리온
-12259	눈 덮인 식인식물
-12260	눈 덮인 식충식물
-12261	아이소머 팬텀
-12262	엠버스 스프라이트
-12263	아이시클 스프라이트
-12264	시저 래빗
-12265	균형의 시저 래빗
-12266	스노우 슬링
-12267	폴라하 카트
-12268	구이쉬기
+12161	Goblin
+12162	Poison Goblin
+12163	Goblin Archer
+12164	Gold Goblin
+12165	Red Goblin Archer
+12166	Red Goblin
+12167	Goblin Hunter
+12168	Goblin Hunter Archer
+12169	Hobgoblin Warrior
+12170	Hobgoblin Bowman
+12171	Hobgoblin Exorcist
+12172	Hobgoblin Exorcist
+12173	Hobgoblin Exorcist
+12174	Head Hobgoblin
+12175	Golem
+12176	Brown Snake
+12177	Blue Snake
+12178	Green Snake
+12179	Giant White Snake
+12180	Giant Black Snake
+12181	Sahagin Soldier
+12182	Sahagin Fighter
+12183	Sahagin Ranger
+12184	Sahagin Warrior
+12185	Lost Sahagin
+12186	River Sahagin Ranger
+12187	River Sahagin Fighter
+12188	Cave Sahagin Mage
+12189	Cave Sahagin Warrior
+12190	Wisp
+12191	Siren
+12192	Merrow
+12193	Armored Skeleton
+12194	Armored Skeleton
+12195	Red Skeleton
+12196	Red Skeleton
+12197	Metal Skeleton
+12198	Metal Skeleton
+12199	Skeleton Squad
+12200	Skeleton Hellhound
+12201	Black Armored Skeleton
+12202	Python Soldier
+12203	Python Shaman
+12204	Bone Lancer
+12205	Bone Archer
+12206	Bone Fighter
+12207	Skeleton Laghodessa
+12208	Skeleton Armor Ogre
+12209	Heavy Skeleton Armor Ogre
+12210	Dullahan
+12211	Hell Steed
+12212	Fire Succubus
+12213	Lightning Succubus
+12214	Ice Succubus
+12215	Poison Succubus
+12216	Succubus Fiend
+12217	Wraith
+12218	Ghost
+12219	Blue Ghost
+12220	Red Ghost
+12221	Blue Ghost King
+12222	Red Ghost King
+12223	Ghost King
+12224	Skeleton Ghost
+12225	Green Skeleton Ghost
+12226	Blue Skeleton Ghost
+12227	Red Skeleton Ghost
+12228	Banshee
+12229	Cloaker
+12230	Ghost Cloaker
+12231	Nightmare Humanoid
+12232	Black Prison Ghost
+12233	Ghost Armor
+12234	Tathlum
+12235	Fire Slime
+12236	Ice Slime
+12237	Lightning Slime
+12238	Illusion Salamander
+12239	Illusion Zombie
+12240	Salamander
+12241	Grendel
+12242	Red Lizard Witch
+12243	Black Moon Follower
+12244	Hellcat
+12245	Spider Warrior
+12246	Chon Chon
+12247	Black Moon Follower
+12248	Black Moon Follower
+12249	Black Moon Follower
+12250	Bomb Bat
+12251	Red-tipped Tarantula
+12252	Black Moon Follower
+12253	Black Moon Follower
+12254	Fianna Geimhridh
+12255	Snuggly Sneachta
+12256	Snuggly Sneachta
+12257	Snuggly Sneachta
+12258	Gwyllion
+12259	Man-eating Snowtrap
+12260	Carnivorous Snowtrap
+12261	Enkindled Wraith
+12262	Ember Sprite
+12263	Icicle Sprite
+12264	Abominable Rabbit
+12265	Abominable Rabbit of Equilibrium
+12266	Frostwork Soul
+12267	Folach Catt
+12268	Gwyllgi
 12269	Fuath
 12270	Lepidopteran Divine Beast
-12273	눈 덮인 식충식물
-12274	아이소머 팬텀
-12275	시저 래빗
-12276	스노우 슬링
-12277	홉고블린 두목
-12278	케이브 사하긴 워리어
-12279	위습
-12280	위습
-12281	스켈레톤 풀아머 오거
-12282	그렌델
+12273	Carnivorous Snowtrap
+12274	Enkindled Wraith
+12275	Abominable Rabbit
+12276	Frostwork Soul
+12277	Head Hobgoblin
+12278	Cave Sahagin Warrior
+12279	Wisp
+12280	Wisp
+12281	Heavy Skeleton Armor Ogre
+12282	Grendel
 12283	Merlin
 12284	Eiren
-12285	트레저헌터
+12285	Treasure Hunter
 12286	Gorilla
 12287	Starlet
 12288	Professor J
 12289	Culinary Artist
 12290	Culinary Artist's Flying Food Truck
 12291	Laoire
-12292	스켈레톤 풀아머 오거
-12293	레드 스켈레톤 고스트
-12294	일루전 좀비
-12295	폴라하 카트
-12296	구이쉬기
-12297	시저 래빗
-12298	시저 래빗
+12292	Heavy Skeleton Armor Ogre
+12293	Red Skeleton Ghost
+12294	Illusion Zombie
+12295	Folach Catt
+12296	Gwyllgi
+12297	Abominable Rabbit
+12298	Abominable Rabbit
 12299	Seafra
 12300	Avian Divine Beast
 12301	Avian Divine Beast
 12302	Lepidopteran Divine Beast
-12303	폴라하 카트
-12304	시저 래빗
-12305	구이쉬기
+12303	Folach Catt
+12304	Abominable Rabbit
+12305	Gwyllgi
 12306	Fuathic Feather
 12308	Delga
 12309	Blue Poisonous Snake
@@ -9979,8 +9979,14 @@
 12340	Small Golem
 12341	Flying Sword
 12342	Sweet Coffee Cloud Bun
+12343	Lorna
+12344	Black Pan
+12345	Lorna
+12346	Black Pan
+12347	Scented Bear (Spider)
 12348	Single Rose
 12349	미니 모험가 코끼리
+12350	Lightning Phoenix
 12351	Seafra
 12352	Tagar
 12353	Tagar
@@ -10021,6 +10027,7 @@
 12388	Lightning Slime
 12389	Lightning Slime
 12390	Black Moon Follower
+12391	Pan Doll
 12392	Human
 12393	Human
 12394	Fer

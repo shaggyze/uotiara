@@ -283,11 +283,25 @@ pli_2021extendedattendances5passview.1	Can purchase up to {0}
 pli_2021extendedattendances5passview.2	Price: {0} Pon
 pli_2021extendedattendances5passview.3	Total: {0} Pon
 pli_2021extendedattendances5passview.4	{0} Magical Attendance Passes Held
+pli_2021extendedattendances5passview.6	The limit on Gold-purchasable Attendance Passes has been reset.\nPlease open the purchase window again.
+pli_2021extendedattendances5passview.7	The limit on Gold-purchasable Attendance Passes has been reset.\nPlease open the purchase window again.
+pli_2021extendedattendances5passview.8	Spending {0} Gold and {1} Pon to receive {2} Attendance Stamps.
+pli_2021extendedattendances5passview.9	Spending {0} Gold to receive {1} Attendance Stamps.
+pli_2021extendedattendances5passview.10	Spending {0} Pon to receive {1} Attendance Stamps.
+pli_2021extendedattendances5passview.11	You don't have enough Gold or Pon.
+pli_2021extendedattendances5passview.12	You don't have enough Gold.
+pli_2021extendedattendances5passview.13	You spent {0} Pon.\n\nRemaining Pon: {1}
+pli_2021extendedattendances5passview.14	You spent {0} Gold.\n\nRemaining Gold: {1}
+pli_2021extendedattendances5passview.15	You spent {0} Gold and {1} Pon.\n\nRemaining Gold: {2}\nRemaining Pon: {3}
+pli_2021extendedattendances5passview.16	Price: {0} Gold
+pli_2021extendedattendances5passview.17	Available Purchases This Week: {0} [Resets every Thursday]
+pli_2021extendedattendances5passview.18	Total: {0} Gold
 pli_2021extendedattendances5rewardframe.1	Only the main character can receive the reward.\nPlease log in with your main character to claim the reward.
 pli_2021extendedattendances5view.1	Attendance Complete
 pli_2021extendedattendances5view.2	BONUS
 pli_2021extendedattendances5view.3	From {0} to {1}
 pli_2021extendedattendances5view.4	Stamp Date\n{0}
+pli_2021extendedattendances5view.5	You can purchase Attendance Passes with Gold!\n\nGold-Purchasable Passes This Week: {0}
 pli_2021wintermaineventmainview.1	In progress
 pli_2021wintermaineventmainview.2	Expired
 pli_2021wintermaineventmainview.3	Complete
@@ -541,6 +555,7 @@ pli_arbeitrewardframe.1	Remaining: {0}
 pli_arbeitview2.1	Openings Available: {0}
 pli_arbeitview2.2	Time: %s %02u:00 - %s %02u:00
 pli_arbeitview2.3	Times Completed: {0}
+pli_attendances10gifticonframe.1	%d time(s)
 pli_auctioninventoryview.1	Auction Item
 pli_auctioninventoryview.2	Accept
 pli_auctioninventoryview.3	Cancel
@@ -1059,6 +1074,7 @@ pli_charactercommerceframe.4	{0} Commerce Rank: {1}
 pli_charactercommerceframe.5	{0}.{1}.{2} - {3}.{4}.{5} (Resets on {6}.{7} 0:00)
 pli_characterconditionremaintimeview.1	No effects active.
 pli_characterconditionremaintimeview.2	 (Cannot be used)
+pli_characterconditionremaintimeview.3	 <color=2>(Polyphony)</color>
 pli_characterentryview.1	Character Info {0}
 pli_characterentryview.2	Talents {0}
 pli_characterentryview.3	Blaanid's Brave Boost {0}
@@ -1516,6 +1532,7 @@ pli_donationrankingview.2	Eluned
 pli_donationrankingview.3	Duncan
 pli_donationrankingview.4	Keith
 pli_donationrankingview.5	Eavan
+pli_donationrankingview.6	{0} 님
 pli_donationview.1	Offering Box
 pli_donationview.2	Lymilark Charity Fund
 pli_donationview.3	{0}'s total donation
@@ -1564,21 +1581,21 @@ pli_dungeonguidemainview.2	Teleport to the entrance of {0}?
 pli_dungeonguidemainview.3	No dungeon to recommend at your level.
 pli_dungeonguidemainview.4	Dungeon recommended based on your current Damage.
 pli_dungeonguidemainview.5	Dungeon recommended based on your current Magic Attack.
-pli_dungeonguidemainview.6	누적 레벨 5000을 달성한 후 획득 가능한\n\"숨겨진 고대 유적 탐사\" 퀘스트를 완료한 후 사용할 수 있습니다.\n(퀘스트 수주 게시판에서 수주 가능)
-pli_dungeonguidetowercontentsframe.1	파티 중에는 도전할 수 없습니다.
-pli_dungeonguidetowercontentsframe.2	제{0}계층을 클리어한 후 도전할 수 있습니다.
-pli_dungeonguidetowercontentsframe.3	유적 입구로 이동
-pli_dungeonguidetowercontentsframe.4	도전하기
-pli_dungeonguidetowercontentsframe.5	%02d일 %02d시간 %02d분
-pli_dungeonguidetowercontentsframe.6	제 %d 계층
-pli_dungeonguidetowercontentsframe.7	파메스 유적 입구로 이동하시겠습니까?
-pli_dungeonguidetowercontentsframe.8	제{0}계층에 도전하시겠습니까?
-pli_dungeonguidetowersectionrewardview.1	제%d계층 최초 보상
-pli_dungeonguidetowersectionviewbox.1	제 {0} 계층
-pli_dungeonguidetowersectionviewbox.2	제{0}계층 마지막 단계 클리어 후 해금
-pli_dungeonguidetowerstarrewardview.1	이미 획득한 보상입니다.
-pli_dungeonguidetowerstarrewardview.2	조건을 달성해야 받을 수 있습니다.
-pli_dungeonguidetowerstarrewardview.3	획득 완료
+pli_dungeonguidemainview.6	Can be used after completing the \"Hidden Ancient Ruin Exploration\" quest,\navailable after reaching a cumulative level of 5,000.\n(Quest can be started at the Receivable Quest Board.)
+pli_dungeonguidetowercontentsframe.1	You cannot attempt the Stage while in a party.
+pli_dungeonguidetowercontentsframe.2	Can be attempted after clearing Stage {0}.
+pli_dungeonguidetowercontentsframe.3	Move to Entrance
+pli_dungeonguidetowercontentsframe.4	Attempt Stage
+pli_dungeonguidetowercontentsframe.5	%02d days %02d hours %02d minutes
+pli_dungeonguidetowercontentsframe.6	Stage %d
+pli_dungeonguidetowercontentsframe.7	Would you like to move to the Fahmes Ruin entrance?
+pli_dungeonguidetowercontentsframe.8	Would you like to attempt Stage {0}?
+pli_dungeonguidetowersectionrewardview.1	Stage %d First Clear Reward
+pli_dungeonguidetowersectionviewbox.1	Stage {0}
+pli_dungeonguidetowersectionviewbox.2	Available after clearing the final level of Stage {0}
+pli_dungeonguidetowerstarrewardview.1	You already received this reward.
+pli_dungeonguidetowerstarrewardview.2	You must complete the objective to receive this reward.
+pli_dungeonguidetowerstarrewardview.3	Obtained
 pli_dungeonpassview.1	Unrestricted Dungeon Pass
 pli_dungeonpassview.2	Please select the dungeon you wish to enter.
 pli_dungeonpassview.3	Enter
@@ -1586,7 +1603,7 @@ pli_dungeonpassview.4	Cancel
 pli_dungeonpassview.5	You cannot access any dungeons here with an Unrestricted Dungeon Pass.
 pli_dungeonrankcleared.1	Challenge Successful
 pli_dungeonrankcleared.2	OK
-pli_dungeonstatisticview.1	기타
+pli_dungeonstatisticview.1	Misc.
 pli_echostoneawakeningview.1	Required AP <color=1>{0} AP</color>
 pli_echostoneawakeningview.2	Required AP <color=2>{0} AP</color>
 pli_echostoneawakeningview.3	Place the Echostone.
@@ -1911,7 +1928,7 @@ pli_eyerestoreview.2	Cannot apply this eye style on the current race.
 pli_facilitycontextmenuview.1	Building Menu
 pli_facilitycontextmenuview.2	You can set visitor rights.
 pli_facilitycontextmenuview.3	You can set usage rights.
-pli_facilitycontextmenuview.4	The building will completely disappear and you will not be able to restore it.\nDo you wish to proceed?
+pli_facilitycontextmenuview.4	Upon removal, this prop will <color=2>disappear completely</color> and <color=2>cannot be restored</color>.\nDo you wish to proceed?
 pli_facilitycontextmenuview.5	Removing this object will transform it back into a housing item.\nYou will be able to install this object again if you use the housing item.\nWhen removing an installed house, only the materials used for the current upgrade will be returned to you.\nThe house will disappear completely, making it unable to be restored.\nAre you sure you wish to remove it?
 pli_facilitycontextmenuview.6	Removing this object will cost {0} Homestead Stones and will transform it into a kit in your inventory. Proceed?
 pli_facilitycontextmenuview.7	Partner Gesture
@@ -2275,11 +2292,12 @@ pli_gameendframe.4	{0} x{1}
 pli_gameendframe.5	멤버십
 pli_gameendmainview.1	This item is not in your inventory.
 pli_gameendmainview.2	This quest has already been completed or removed.
-pli_gameendmainview.3	Erinn Pass Reward
+pli_gameendmainview.3	Erinn Adventure Pass Reward
 pli_gameendmainview.4	Adventure Journal Reward
 pli_gameendmainview.5	Irusan's Attendance Check-in Reward
 pli_gameendmainview.6	You can claim the reward from Lorna.
 pli_gameendmainview.7	You've already received all your rewards.
+pli_gameendmainview.8	Irusan's Attendance Check-in - Today's Stamp Not Yet Received
 pli_gameendmainview.9	어드밴스드 아이템 수령
 pli_gametipview.1	Daily Tip
 pli_gametipview.2	Turn Off Daily Tips
@@ -4332,6 +4350,7 @@ pli_productionview6.5	Unable to auto-equip or register material. Please equip/re
 pli_productionview6.6	The proper tools will be automatically equipped if your hands are empty.
 pli_productionview6.7	Insufficient tools or materials needed for crafting.
 pli_productionview6.8	MP Cost
+pli_productionview6.9	이만큼의 생산품을 한번에 만들기에는 장비의 내구도가 부족합니다.
 pli_promotionapplyview.1	Combat
 pli_promotionapplyview.2	Magic
 pli_promotionapplyview.3	Life
@@ -4642,6 +4661,7 @@ pli_searchitemview.btn.close	Close
 pli_searchitemview.btn.find	Search
 pli_searchitemview.msg.1	Enter the name of the item you want to find.
 pli_searchitemview.title	Search Personal Shop
+pli_seasonpassaventureuppopupview.1	Erinn Adventure Pass Level {0}!
 pli_seasonpassgradeuppopupview.1	GRADE UP
 pli_seasonpassgradeuppopupview.2	Check the GRADE UP {0} -> {1} reward.
 pli_seasonpassmainview.1	Daily
@@ -4659,11 +4679,12 @@ pli_seasonpassmainview.12	This has already been activated.
 pli_seasonpassmainview.13	You need {0} Pon for Special Reward Activation.\nWould you like to activate the Special Reward?
 pli_seasonpassmainview.14	You can receive a Special Reward.
 pli_seasonpassmainview.15	You don't have enough Pon.
-pli_seasonpassrewarddescframe.1	Claim Reward
+pli_seasonpassrewarddescframe.1	Claim
 pli_seasonpassrewarddescframe.2	Claimed
-pli_seasonpasss4mainview.1	종료까지 남은 기간 : {0}
-pli_seasonpasss4mainview.2	종료까지 남은 기간 : {0}
-pli_seasonpasss4mainview.3	등록된 서버가 아니라 보상을 받을 수 없습니다.\n에반과 대화하여 변경된 서버를 등록해 주시기를 바랍니다.
+pli_seasonpasss4mainview.1	Event time remaining: {0}
+pli_seasonpasss4mainview.2	Event time remaining: {0}
+pli_seasonpasss4mainview.3	You're connected to an unregistered server and cannot receive rewards.\nPlease talk to Eavan to change the registered server.
+pli_seasonpasss4mainview.4	(EXP Earned Today: {0}/<color={1}>{2}</color>)
 pli_secretnumberview.1	Press the buttons with your cursor and figure out the 3-digit passcode!
 pli_secretnumberview.2	Try another passcode!
 pli_secretnumberview.3	Yay! You found the passcode!
@@ -4694,6 +4715,9 @@ pli_selectrewardview.11	{0} Cat's Paw(s)
 pli_selectrewardview.12	Coin x{0}
 pli_selectrewardview.13	Star Piece x{0}
 pli_selectrewardview.14	Seasonal Ducats: {0} SD
+pli_selectrewardview.15	Coupon: 
+pli_selectrewardview.16	x{0}
+pli_selectrewardview.17	{0} x{1}
 pli_sendmemoview2.1	Please enter the note you want to send.
 pli_sendmemoview2.2	Send
 pli_sendmemoview2.3	Reply
@@ -5362,7 +5386,7 @@ pli_transmuteview.113	{0} and
 pli_transmuteview.114	You can obtain a/an {1} by synthesizing {0}(s).
 pli_transmuteview.115	Success Rate: {0}%
 pli_transmuteview.116	<color=2>Success Rate: 0%</color>
-pli_transmuteview.117	\n<color=2>In order to make {a/an} {0}, you must raise your Synthesis skill rank.</color>
+pli_transmuteview.117	\n<color=2>In order to make {0}, you must raise your Synthesis skill rank.</color>
 pli_transmuteview.118	\n<color=2>You must place 3 different types of items in order to perform a synthesis.</color>
 pli_transmuteview.119	<color=2>{0} cannot be fragmentized because there are not enough items.</color>
 pli_transmuteview.120	<color=2>{0} cannot be fragmentized because there are not enough items.</color>
@@ -6775,6 +6799,8 @@ pli_windowoptiontabscontrolframe.52	Use Marionette Camera
 pli_windowoptiontabscontrolframe.53	When using Control Marionette, set the puppet as the focus of the camera.
 pli_windowoptiontabscontrolframe.54	Skip Cutscene with Esc
 pli_windowoptiontabscontrolframe.55	Skips cutscenes immediately when you press Esc.
+pli_windowoptiontabscontrolframe.56	Heals only target damaged allies
+pli_windowoptiontabscontrolframe.57	Healing, Party Healing, and Hand of Restoration only target characters or pets who are missing health.
 pli_windowoptiontabseffect.1	Not Used
 pli_windowoptiontabseffect.2	My Character
 pli_windowoptiontabseffect.3	My Party Members and I
@@ -7090,12 +7116,12 @@ pli_windowpocketitem.12	Remaining: {0}
 pli_windowpocketitem.13	Remaining: {0}
 pli_windowpocketitem.14	Seasonal Ducat Price: {0}
 pli_windowpocketitem.15	Daily
-pli_windowpocketitem.16	Weekly {0}
+pli_windowpocketitem.16	Weekly on {0}
 pli_windowpocketitem.17	{0} {1}:00
 pli_windowpocketitem.18	AM
 pli_windowpocketitem.19	PM
 pli_windowpocketitem.20	%d:00
-pli_windowpocketitem.21	- Resets at {0} {1} (Earth time)
+pli_windowpocketitem.21	- Resets {0} at {1} (Server Time)
 pli_windowpocketitem.22	<color=5>- Resets next season</color>
 pli_windowpocketitem.23	Placement Information
 pli_windowpocketitem.24	\nCan be placed on Homestead
@@ -7931,7 +7957,7 @@ pli_windowtaskbarshadowmission.2	Press this button to view the script.
 pli_windowtaskbarshadowmission.3	Do you wish to leave the theatre?
 pli_windowtaskbarshadowmission.4	Do you wish to stop the play and leave the theatre?
 pli_windowtaskbarshadowmission.5	Clear Time: {0}
-pli_windowtaskbarshadowmission.6	대미지 정보를 보고싶으면 이 버튼을 누르세요.
+pli_windowtaskbarshadowmission.6	Press this button to see information about damage.
 pli_windowtaskbartrayicon.1	Clock
 pli_windowtaskbartrayicon.2	Item Shop
 pli_windowtaskbartrayicon.3	Cash Shop
@@ -8783,8 +8809,8 @@ window.lobby.event	[Event]
 window.lobby.full	[Full]
 window.lobby.login_pet_timeout	This pet doesn't have any summon time left.
 window.lobby.msg.choose_char_for_rebirth	Select a character to be reborn and press Rebirth.
-window.lobby.msg.warn_char_delete_default	A Character Card will not be restored after deleting a character.\nThe deleted character will disappear completely.\n\nA Free Character Creation Card is available only when there is no character left in the account.\n\nDo you still want to continue deletion?\n\nYou can cancel deletion until 7 a.m. tomorrow morning.
-window.lobby.msg.warn_char_delete_now	A Character Card will not be restored after deleting a character.\nThe deleted character will disappear completely.\n\nA Free Character Creation Card is available only when there is no character left in the account.\n\nDo you still want to delete?
+window.lobby.msg.warn_char_delete_default	Deleting a character will not restore the character card used in their creation.\nThe deleted character will disappear completely.\n\nFree Character Creation Cards are available only when no characters are left on the account.\n\nDo you still wish to proceed with deletion?\n\nYou will have until 7:00 AM the following day to cancel the deletion.
+window.lobby.msg.warn_char_delete_now	Deleting a character will not restore the character card used in their creation.\nThe deleted character will disappear completely.\n\nFree Character Creation Cards are available only when no characters are left on the account.\n\nDo you still wish to proceed with deletion?
 window.lobby.msg_connecting_to_world	Connecting...
 window.lobby.msg_create_new_char	Create a new character.
 window.lobby.msg_delete_text	Confirm the deletion of a character.

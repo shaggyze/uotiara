@@ -4428,7 +4428,7 @@
 4724	Anvil
 4725	Snowfield Well
 4726	Homestead Stone
-4727	Homestead Entrance
+4727	Entrance
 4728	*Farm_level03_House_PhysisType_01
 4729	*Avon_G14_Stage_LogInUse_Night
 4730	*Avon_G14_Terrace_LogInUse_Night

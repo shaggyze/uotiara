@@ -2102,7 +2102,7 @@
 2315	Elephants represent the best of the creatures living in Courcle jungle.
 2316	Raft the Suytu River to seek excitement and adventure!
 2317	This title is awarded to adventurers that have paddled on a raft at the age of 10.
-2318	+30 Max HP\n[-10 Max MP]\n[-10 Max Stamina]\n+20 HP\n[-5 Intelligence]\n[-5 Dexterity]\n[-5 Will]\n[-5 Will]
+2318	+30 Max HP\n[-10 Max MP]\n[-10 Max Stamina]\n+20 Strength\n[-5 Intelligence]\n[-5 Dexterity]\n[-5 Will]\n[-5 Luck]
 2319	[-5 HP]\n+15 Intelligence\n[-5 Dexterity]\n[-5 Will]\n+15 Luck
 2320	[-5 Max HP]\n[-10 Max MP]\n[-10 Max Stamina]\n+15 Dexterity\n+10 Will\n+10 Luck
 2321	+2 Defense\n+5 HP\n+5 Intelligence\n+5 Dexterity\n+5 Will\n+5 Luck\n+10 Max HP\n[-25 Max MP]\n+10 Max Stamina
@@ -10933,6 +10933,27 @@
 12382	You've fulfilled sponsorship requests from Aliech's Royal Societies 100 times.
 12383	Continue to sponsor Royal Society activities through Melwyn.
 12384	Max MP +50\nIntelligence +30\nWill +30
+12385	밀레시안TV 레전드 스타
+12386	밀레시안TV 슈퍼스타
+12387	밀레시안TV 스타
+12388	밀레시안TV 레전드 스타
+12389	밀레시안TV 슈퍼스타
+12390	밀레시안TV 스타
+12391	밀레시안TV 레전드 스타
+12392	밀레시안TV 슈퍼스타
+12393	밀레시안TV 스타
+12394	밀레시안TV 레전드 스타
+12395	밀레시안TV 슈퍼스타
+12396	밀레시안TV 스타
+12397	밀레시안 브이로그 대전에서 우승한 밀레시안에게 주어지는 영광스러운 타이틀.
+12398	밀레시안 브이로그 대전에서 입상한 밀레시안에게 주어지는 영광스러운 타이틀.
+12399	밀레시안 브이로그 대전에서 입상한 밀레시안에게 주어지는 영광스러운 타이틀.
+12400	밀레시안 브이로그 대전에서 우승한 밀레시안에게 주어지는 영광스러운 타이틀.
+12401	밀레시안 브이로그 대전에서 입상한 밀레시안에게 주어지는 영광스러운 타이틀.
+12402	밀레시안 브이로그 대전에서 입상한 밀레시안에게 주어지는 영광스러운 타이틀.
+12403	
+12404	
+12405	
 12406	Lucky Winner
 12407	Lucky Winner
 12408	Lucky Winner
@@ -14062,13 +14083,13 @@
 15567	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 15568	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 15569	행운 30 증가
-15577	화사한 연꽃
-15578	화사한 연꽃
-15579	화사한 연꽃
-15580	화사한 연꽃
-15581	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15582	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15583	행운 30 증가
+15577	Beautiful Lotus
+15578	Beautiful Lotus
+15579	Beautiful Lotus
+15580	Beautiful Lotus
+15581	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15582	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15583	Luck +30
 15584	Golden Rabbit
 15585	Rose Rabbit
 15586	Azure Rabbit
@@ -14160,20 +14181,20 @@
 15679	Max Damage +25\nMagic Attack +45\nStrength, Dexterity, Will, Intelligence, Luck +15\nProtection, Magic Protection +15
 15680	Strength +20\nIntelligence +20\nLuck +35\nCritical +5%
 15681	Max Damage +5\nMagic Attack +5\nCritical +1%\nMovement Speed +1%
-15682	석양
-15683	황야
-15684	석양
-15685	황야
-15686	석양
-15687	황야
-15688	석양
-15689	황야
-15690	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15691	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15692	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15693	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15694	행운 30 증가
-15695	행운 30 증가
+15682	Sunset
+15683	Tumbleweed
+15684	Sunset
+15685	Tumbleweed
+15686	Sunset
+15687	Tumbleweed
+15688	Sunset
+15689	Tumbleweed
+15690	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15691	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15692	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15693	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15694	Luck +30
+15695	Luck +30
 15696	who met the GMs during the 15th Anniversary
 15697	who met the GMs during the 15th Anniversary
 15698	who met the GMs during the 15th Anniversary
@@ -14244,27 +14265,27 @@
 15777	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 15778	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 15779	Max Damage +7\nDefense +3\nProtection +3\nGathering Success Rate +10%\nGathering Speed +5% during a Doki Doki Island event.
-15780	에린 패스 러너
-15781	에린 패스 정복자
-15782	에린 패스 러너
-15783	에린 패스 정복자
-15784	에린 패스 러너
-15785	에린 패스 정복자
-15786	에린 패스 러너
-15787	에린 패스 정복자
-15788	에린 패스를 시작한 러너들에게 주어지는 타이틀.
-15789	에린 패스의 모든 단계를 달성한 밀레시안에게 주어지는 타이틀.
-15790	에린 패스를 시작한 러너들에게 주어지는 타이틀.
-15791	에린 패스의 모든 단계를 달성한 밀레시안에게 주어지는 타이틀.
-15792	모든 스킬 수련치 2배\n전투 경험치 2배\n채집 확률 5% 증가\n채집 속도 5% 증가\n이동 속도 1% 증가\n자동 낚시 성공률 증가\n교역 추가 이득 5%\n생산 제작 스킬 성공률 5% 증가
-15793	최대 대미지 21 증가\n마법 공격력 35 증가\n크리티컬 8% 증가\n음악 버프 스킬 효과 5 증가\n방어 10 증가\n보호 8 증가\n마법 방어 10 증가\n마법 보호 8 증가
-15794	모험 기억의 걸음
-15795	모험 기억의 걸음
-15796	모험 기억의 걸음
-15797	모험 기억의 걸음
-15798	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15799	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-15800	행운 30 증가
+15780	Erinn Adventure Pass Challenger
+15781	Erinn Adventure Pass Conqueror
+15782	Erinn Adventure Pass Challenger
+15783	Erinn Adventure Pass Conqueror
+15784	Erinn Adventure Pass Challenger
+15785	Erinn Adventure Pass Conqueror
+15786	Erinn Adventure Pass Challenger
+15787	Erinn Adventure Pass Conqueror
+15788	A title given to Milletians who signed up for an Erinn Adventure Pass.
+15789	A title given to Milletians who completed their Erinn Adventure Pass.
+15790	A title given to Milletians who signed up for an Erinn Adventure Pass.
+15791	A title given to Milletians who completed their Erinn Adventure Pass.
+15792	All Skill Training 2x EXP\nCombat 2x EXP\nGathering Success Rate +5%\nGathering Speed +5\nMovement Speed +1%\nIncreased Automatic Fishing Success Rate\nBonus Ducats +5%\n Production Success Rate +5%
+15793	Max Damage +21\nMagic Attack +35\nCritical +8%\nMusic Buff Skill Effect +5\nDefense +10\nProtection +8\nMagic Defense +10\nMagic Protection +8
+15794	Path of Adventure
+15795	Path of Adventure
+15796	Path of Adventure
+15797	Path of Adventure
+15798	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15799	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+15800	Luck +30
 15801	who Reminisced During the 15th Anniversary
 15802	who Reminisced During the 15th Anniversary
 15803	who Reminisced During the 15th Anniversary
@@ -14482,6 +14503,20 @@
 16050	행운 30 증가
 16051	최대 대미지 21 증가\n마법 공격력 7 증가\n방어 5 증가 / 보호 5 증가
 16052	마법 공격력 30 증가\n최대 마나 12 증가\n방어 5 증가 / 보호 5 증가
+16060	새비지 스포트라이트
+16061	매지컬 스포트라이트
+16062	새비지 스포트라이트
+16063	매지컬 스포트라이트
+16064	새비지 스포트라이트
+16065	매지컬 스포트라이트
+16066	새비지 스포트라이트
+16067	매지컬 스포트라이트
+16068	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16069	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16070	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16071	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16072	행운 30 증가
+16073	행운 30 증가
 16074	Sky Lantern
 16075	Sky Lantern
 16076	Sky Lantern
@@ -14615,13 +14650,13 @@
 16260	Movement Speed +3%
 16261	Movement Speed +3%
 16262	Movement Speed +3%
-16284	파메스 유적 정복자
-16285	파메스 유적 정복자
-16286	파메스 유적 정복자
-16287	파메스 유적 정복자
-16288	파메스 유적을 정복한 밀레시안에게 주어지는 영광스러운 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16289	파메스 유적을 정복한 밀레시안에게 주어지는 영광스러운 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16290	방어 12 증가\n보호 11 증가\n마법방어 14 증가\n마법보호 8 증가\n이동 속도 3% 증가
+16284	Champion of Fahmes Ruin
+16285	Champion of Fahmes Ruin
+16286	Champion of Fahmes Ruin
+16287	Champion of Fahmes Ruin
+16288	A glorious 2nd Title awarded to those who have proven themselves the champion of Fahmes Ruin. Can be used with regular titles.
+16289	A glorious 2nd Title awarded to those who have proven themselves the champion of Fahmes Ruin. Can be used with regular titles.
+16290	Defense +12\nProtection +11\nMagic Defense +14\nMagic Protection +8\nMovement Speed +3%
 16291	Rain of Jewels
 16292	Shimmering Helix
 16293	Rain of Jewels
@@ -14727,6 +14762,20 @@
 16449	Maximum Damage +7\nMagic Attack +7\nDefense +5\nProtection +2\nWill +15\n[Luck -25]
 16450	Luck +30
 16451	Luck +30
+16452	하트가 뿅뿅
+16453	하트가 뿅뿅
+16454	하트가 뿅뿅
+16455	하트가 뿅뿅
+16456	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16457	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16458	행운 30 증가
+16459	Joy of Discovery
+16460	Joy of Discovery
+16461	Joy of Discovery
+16462	Joy of Discovery
+16463	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16464	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16465	Luck +30
 16466	Bright Sun
 16467	Vibrant Flower
 16468	Bright Sun
@@ -14748,6 +14797,34 @@
 16484	A title received by those who joined in the fun of the 16th Anniversary GM event. You've really seen some stars!
 16485	A title received by those who joined in the fun of the 16th Anniversary GM event. You've really seen some stars!
 16486	
+16487	Erinn Adventure Pass Season 1 Conqueror
+16488	Erinn Adventure Pass Season 1 Conqueror
+16489	Erinn Adventure Pass Season 1 Conqueror
+16490	Erinn Adventure Pass Season 1 Conqueror
+16491	A title given to Milletians who completed their Erinn Adventure Pass during Season 1
+16492	A title given to Milletians who completed their Erinn Adventure Pass during Season 1
+16493	Max Damage +35\nMagic Attack +45\nCritical +8%\nMusic Buff Effect +5\nDefense +10\nProtection +8\nMagic Defense +10\nMagic Protection +8\nWater/Fire/Wind/Earth Alchemic Damage +14
+16494	드래곤 가디언 나이트
+16495	드래곤 가디언 워리어
+16496	드래곤 가디언 세이지
+16497	드래곤 가디언 나이트
+16498	드래곤 가디언 워리어
+16499	드래곤 가디언 세이지
+16500	드래곤 가디언 나이트
+16501	드래곤 가디언 워리어
+16502	드래곤 가디언 세이지
+16503	드래곤 가디언 나이트
+16504	드래곤 가디언 워리어
+16505	드래곤 가디언 세이지
+16506	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16507	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16508	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16509	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16510	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16511	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16512	행운 30 증가
+16513	행운 30 증가
+16514	행운 30 증가
 16522	19주년 판타지스타
 16523	19주년 판타지스타
 16524	19주년 판타지스타
@@ -14811,3 +14888,45 @@
 16701	A Title given to Milletians who showcased their marvelous musical talent for the inhabitants of Erinn.
 16702	
 16703	
+17019	신비한 별빛 스타
+17020	활기찬 별빛 스타
+17021	아름다운 별빛 스타
+17022	신비한 별빛 스타
+17023	활기찬 별빛 스타
+17024	아름다운 별빛 스타
+17025	신비한 별빛 스타
+17026	활기찬 별빛 스타
+17027	아름다운 별빛 스타
+17028	신비한 별빛 스타
+17029	활기찬 별빛 스타
+17030	아름다운 별빛 스타
+17031	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17032	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17033	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17034	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17035	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17036	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17037	행운 30 증가
+17038	행운 30 증가
+17039	행운 30 증가
+17040	순수한 별빛 스타
+17041	순수한 별빛 스타
+17042	순수한 별빛 스타
+17043	순수한 별빛 스타
+17044	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17045	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17046	행운 30 증가
+17145	Erinn Adventure Pass Season 1 Challenger
+17146	Erinn Adventure Pass Season 1 Challenger
+17147	Erinn Adventure Pass Season 1 Challenger
+17148	Erinn Adventure Pass Season 1 Challenger
+17149	A title given to Milletians who signed up for the Erinn Adventure Pass during Season 1.
+17150	A title given to Milletians who signed up for the Erinn Adventure Pass during Season 1.
+17151	All Skill Training 2x EXP\nCombat 2x EXP\nGathering Success Rate +5%\nGathering Speed +5\nMovement Speed +1%\nIncreased Automatic Fishing Success Rate\nBonus Ducats +5%\n Production Success Rate +5%
+17152	콩싹이
+17153	콩싹이
+17154	콩싹이
+17155	콩싹이
+17156	대만 9월 웹이벤트 1차 타이틀.
+17157	대만 9월 웹이벤트 1차 타이틀.
+17158	최대 대미지 10 증가\n마법 공격력 5 증가\n방어 5 증가\n보호 5 증가\n크리티컬 5% 증가

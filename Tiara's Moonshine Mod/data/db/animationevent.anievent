@@ -7813,25 +7813,11 @@ set("C4_human")
 	
 		"female_fcwh_bothhandsword_stand"
 			0:lookat(off)
-			0:hand(both, palm)
-			0:hideequip(false)
-			64:hand(right, fist)
-			64:generic("custom_equip(weapon:weapon_c4_FCWh_twohandedsword)")
-			96:hand(left, fist)
-			122:hand(right, palm)
-			128:hand(left, palm)
-			655:jump(324)	
+			0:hand(both, palm)	
 		
 		"male_fcwh_bothhandsword_stand"
 			0:lookat(off)
 			0:hand(both, palm)
-			0:hideequip(false)
-			64:hand(right, fist)
-			64:generic("custom_equip(weapon:weapon_c4_FCWh_twohandedsword)")
-			96:hand(left, fist)
-			122:hand(right, palm)
-			128:hand(left, palm)
-			655:jump(324)
 			
 		
 		"human_noble_bothhandsword_stand"
@@ -21692,25 +21678,11 @@ set("C4_giant")
 	
 		"giant_female_fcwh_bothhandsword_stand"
 			0:lookat(off)
-			0:hand(both, palm)
-			0:hideequip(false)
-			64:hand(right, fist)
-			64:generic("custom_equip(weapon:giant_weapon_c4_FCWh_twohandedsword)")
-			96:hand(left, fist)
-			122:hand(right, palm)
-			128:hand(left, palm)
-			655:jump(324)	
+			0:hand(both, palm)	
 		
 		"giant_fcwh_bothhandsword_stand"
 			0:lookat(off)
 			0:hand(both, palm)
-			0:hideequip(false)
-			64:hand(right, fist)
-			64:generic("custom_equip(weapon:giant_weapon_c4_FCWh_twohandedsword)")
-			96:hand(left, fist)
-			122:hand(right, palm)
-			128:hand(left, palm)
-			655:jump(324)
 			
 		
 		"giant_female_noble_bothhandsword_stand"
@@ -30862,15 +30834,6 @@ set("social motion")
 		870:effect("astrea2",0,1)		
 		871:hand(right,fist)
 		905:hand(right,palm)
-		
-			
-	"human_24gesture_02"
-		0:hand(left,fist)
-		0:hand(right, palm)
-
-	"human_24gesture_03"
-		0:hand(left,fist)
-		0:hand(right, palm)
 	
 	
 	"female_astrea"
@@ -31531,9 +31494,34 @@ set("social motion")
 		554:hand(left, palm)
 		784:hand(left, fist)
 		950:jump(63,true)
+		
+	"human_24gesture_02"
+		0:hand(left,fist)
+		0:hand(right, palm)
+
+	"human_24gesture_03"
+		0:hand(left,fist)
+		0:hand(right, palm)			
+		
+	"human_24gesture_04"
+		0:hideequip(false)
+		0:hand(both, palm)
+		25:hand(both, fist)
+		165:hand(both, palm)
+		
+
+	"human_24gesture_05"
+		0:hideequip(false)
+		0:hand(both, palm)
+		100:eyechange(223, 0)		
+		260:eyechange(default)	
+
+
+	"human_24gesture_06"
+		0:hideequip(false)
+		0:hand(both, palm)	
 			
-	
-	
+			
 	"male_heartchair01_sit"
 		0:lookat(off)
 		0:hand(both, palm)
@@ -43098,11 +43086,11 @@ set("monster_giantcrocodile")
 		 	100:effect("crocodile_windmill_1")
 			//0:quake(0,10,5,2000)
 			//0:quake(0,10,5,2000)
-			////0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			//104:sound("data\sound\giantcrocodile_windmill.wav")
-			////0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			//120:sound("data\sound\giantcrocodile_windmill.wav")
-			////0:quake(0,10,5,2000)
+			//0:quake(0,10,5,2000)
 			//123:sound("data\sound\giantcrocodile_windmill.wav")
 
 
@@ -56630,11 +56618,11 @@ set("commerce")
 		"commerce_elephant_run"
 			0:lookat(off)
 			6:sound("data\sound\elephant_walk.wav")
-			////0:quake(100,100,100,300)
+			//0:quake(100,100,100,300)
 			8:sound("data\sound\elephant_walk.wav")
-			////0:quake(100,100,100,300)
+			//0:quake(100,100,100,300)
 			22:sound("data\sound\elephant_walk.wav")
-			////0:quake(100,100,100,300)
+			//0:quake(100,100,100,300)
 
 
 		"commerce_elephant_walk"
@@ -56661,11 +56649,11 @@ set("commerce")
 		"commerce_elephant_memma_run"
 			0:lookat(off)
 			6:sound("data\sound\elephant_walk.wav")
-			////0:quake(100,100,100,300)
+			//0:quake(100,100,100,300)
 			8:sound("data\sound\elephant_walk.wav")
-			////0:quake(100,100,100,300)
+			//0:quake(100,100,100,300)
 			22:sound("data\sound\elephant_walk.wav")
-			////0:quake(100,100,100,300)
+			//0:quake(100,100,100,300)
 
 
 		"commerce_elephant_memma_walk"
@@ -63315,6 +63303,24 @@ set("prop concerned - temporary")
 
 	// setting file 안의 animation을 정의할 때는 folder를 "::세팅파일 이름" 으로 지정해야 한다.
 
+
+
+    folder("::scene_prop_ntaef_chair01")		
+		"scene_prop_ntaef_chair01"				
+			0:linkframework(1, "race:990404", "Bone02", "data/gfx/char/human/acc/anim/acc_jp01_stand02")
+			0:linkframework(2, "race:990405", "Bone03", "data/gfx/char/human/acc/anim/acc_fp02_stand")
+			0:linkframework(3, "race:990406", "Bone04", "data/gfx/char/human/acc/anim/acc_jp01_stand")
+			0:linkframework(4, "race:990404", "Bone05", "data/gfx/char/human/acc/anim/acc_jp01_stand")
+			0:linkframework(5, "race:990405", "Bone06", "data/gfx/char/human/acc/anim/acc_jp01_stand02")
+			0:linkframework(6, "race:990406", "Bone07", "data/gfx/char/human/acc/anim/acc_jp01_stand03")
+	endfolder
+	
+    folder("::scene_prop_ntaef_chair03")		
+		"scene_prop_ntaef_chair03"				
+			0:linkframework(1, "race:990402", "Bone02", "data/gfx/char/chapter4/human/anim/male_cloudchair_sit")
+			0:linkframework(2, "race:990403", "Bone03", "data/gfx/char/chapter4/human/anim/social_motion/female_c4_dunfa_wizard")
+	endfolder	
+	
 	
     folder("::farm_prop_catslide01")		
 		"farm_prop_catslide01"				
@@ -67889,24 +67895,23 @@ set("Knight")
 	
 		"female_fcwa_wp_stand"
 			0:lookat(off)
-			0:hand(both, palm)
-			0:hideequip(false)
-			0:generic("custom_equip(weapon:weapon_c4_FCWa_wp)")
-			0:jump(0)
+			0:hand(right, palm)
+			0:hand(left, fist)
+			1:generic("custom_equip(weapon:weapon_FCWa_wp_ani)")	
 		
 		"male_fcwa_wp_stand"
 			0:lookat(off)
-			0:hand(both, palm)
-			0:hideequip(false)
-			0:generic("custom_equip(weapon:weapon_c4_FCWa_wp)")
-			0:jump(0)
+			0:hand(right, palm)
+			0:hand(left, fist)
+			1:generic("custom_equip(weapon:weapon_FCWa_wp_ani)")	
 			
 	
-		// 아르카나_탱커
 		"human_SG_NS_process"
 			0:lookat(off)
 			0:hand (both, fist)
-	
+		    1:effect("SG_NS_E1_02",0,1)
+		    20:effect("SG_NS_E1_01",0,1)
+			
 		"human_SG_RS_process"
 			0:lookat(off)
 			0:hand (both, fist)
@@ -67914,12 +67919,22 @@ set("Knight")
 		"human_SG_CL_process"
 			0:lookat(off)
 			0:hand (both, fist)
+		    1:effect("SG_CL_P1_Dash_01",0,1)			
+		    1:effect("SG_CL_P1_Start_Dust01",0,1)			
+		    1:effect("SG_CL_P1_Dust02_01",0,1)						
+		    1:effect("SG_CL_P1_shield_01",0,1)
+		    38:effect("SG_CL_P1_Stop_Dust_01",0,1)		
+		    38:effect("SG_CL_P1_StopDash01",0,1)	
 	
 		"human_SG_US_process"
 			0:lookat(off)
 			0:hand (both, fist)
-	
-	
+		    1:effect("SG_US_E1_02",0,1)
+		    10:effect("SG_US_E1_03",0,1)			
+		    30:effect("SG_US_E1_01",0,1)	
+		    58:effect("SG_US_E1_04",0,1)
+		    58:effect("SG_US_E1_05",0,1)			
+			
 		// 나비요정_모션무기 	
 		"male_butterfly_sword_stand"
 				0:lookat(off)
@@ -71574,20 +71589,17 @@ set("Knight")
 
 		"giant_female_fcwa_wp_stand"
 			0:lookat(off)
-			0:hand(both, palm)
-			0:hideequip(false)
-			0:generic("custom_equip(weapon:giant_weapon_c4_fcwa_wp)")
-			0:jump(0)
+			0:hand(right, palm)
+			0:hand(left, fist)
+			1:generic("custom_equip(weapon:giant_weapon_FCWa_wp_ani)")	
 		
 		"giant_fcwa_wp_stand"
 			0:lookat(off)
-			0:hand(both, palm)
-			0:hideequip(false)
-			0:generic("custom_equip(weapon:giant_weapon_c4_fcwa_wp)")
-			0:jump(0)
+			0:hand(right, palm)
+			0:hand(left, fist)
+			1:generic("custom_equip(weapon:giant_weapon_FCWa_wp_ani)")	
 			
 
-	// 아르카나_탱커
 		"giant_SG_NS_process"
 			0:lookat(off)
 			0:hand (both, fist)
@@ -72828,17 +72840,17 @@ set("Knight")
 	
 		"giant_female_fcws_twohandedax_stand"
 			0:lookat(off)
-			0:hand(both, palm)
-			0:hideequip(false)
-			0:generic("custom_equip(weapon:giant_weapon_c4_fcws_twohandedax)")
-			0:jump(0)
+			0:hand(both, fist)
+			177:hand(both, palm)
+			194:hand(both, fist)
+
 		
 		"giant_fcws_twohandedax_stand"
 			0:lookat(off)
-			0:hand(both, palm)
-			0:hideequip(false)
-			0:generic("custom_equip(weapon:giant_weapon_c4_fcws_twohandedax)")
-			0:jump(0)
+			0:hand(both, fist)
+			177:hand(both, palm)
+			194:hand(both, fist)
+
 			
 			
 		"giant_female_fcwli_twohandedax_stand"
@@ -75036,16 +75048,10 @@ set("magician")
 		"female_fcwu_lance_stand"
 			0:lookat(off)
 			0:hand(both, palm)
-			0:hideequip(false)
-			0:generic("custom_equip(weapon:weapon_c4_FCWu_lance)")
-			0:jump(0)
 		
 		"male_fcwu_lance_stand"
 			0:lookat(off)
 			0:hand(both, palm)
-			0:hideequip(false)
-			0:generic("custom_equip(weapon:weapon_c4_FCWu_lance)")
-			0:jump(0)
 			
 			
 	"human_s2celestial_lance_stand"
@@ -75776,17 +75782,17 @@ set("magician")
 	
 		"female_fcws_twohandedax_stand"
 			0:lookat(off)
-			0:hand(both, palm)
-			0:hideequip(false)
-			0:generic("custom_equip(weapon:weapon_c4_fcws_twohandedax)")
-			0:jump(0)
+			0:hand(both, fist)
+			177:hand(both, palm)
+			194:hand(both, fist)
+
 		
 		"male_fcws_twohandedax_stand"
 			0:lookat(off)
-			0:hand(both, palm)
-			0:hideequip(false)
-			0:generic("custom_equip(weapon:weapon_c4_fcws_twohandedax)")
-			0:jump(0)
+			0:hand(both, fist)
+			177:hand(both, palm)
+			194:hand(both, fist)
+
 			
 			
 		"female_fcwli_twohandedax_stand"
@@ -78529,50 +78535,31 @@ set("magician")
 	
 		"female_fcwf_staff_stand"
 			0:lookat(off)
-			0:hand(both, palm)
-			0:hideequip(false)
-			64:hand(right, fist)
-			64:generic("custom_equip(weapon:weapon_c4_FCWf_staff)")
-			96:hand(left, fist)
-			122:hand(right, palm)
-			128:hand(left, palm)
-			655:jump(324)	
+			0:hand(both, fist)
+			201:hand(right, palm)
+			355:hand(right, fist)
 		
 		"male_fcwf_staff_stand"
 			0:lookat(off)
-			0:hand(both, palm)
-			0:hideequip(false)
-			64:hand(right, fist)
-			64:generic("custom_equip(weapon:weapon_c4_FCWf_staff)")
-			96:hand(left, fist)
-			122:hand(right, palm)
-			128:hand(left, palm)
-			655:jump(324)
+			0:hand(both, fist)
+			201:hand(right, palm)
+			355:hand(right, fist)			
 			
 			
 		"female_fcwfe_staff_stand"
 			0:lookat(off)
-			0:hand(both, palm)
-			0:hideequip(false)
-			64:hand(right, fist)
-			64:generic("custom_equip(weapon:weapon_c4_FCWfe_staff)")
-			96:hand(left, fist)
-			122:hand(right, palm)
-			128:hand(left, palm)
-			655:jump(324)	
+			0:hand(both, fist)
+			209:hand(left, palm)
+			230:hand(left, fist)
 		
 		"male_fcwfe_staff_stand"
 			0:lookat(off)
-			0:hand(both, palm)
-			0:hideequip(false)
-			64:hand(right, fist)
-			64:generic("custom_equip(weapon:weapon_c4_FCWfe_staff)")
-			96:hand(left, fist)
-			122:hand(right, palm)
-			128:hand(left, palm)
-			655:jump(324)	
+			0:hand(both, fist)
+			209:hand(left, palm)
+			230:hand(left, fist)
+
+
 			
-	
 	"male_noble_staff_stand"
 		0:hand(both, fist)
 		0:lookat(off)
@@ -82508,50 +82495,31 @@ set("elf_Bhand_M10")
 //////////////////////////////스태프 - 자이언트 //////////////////////////////////////////////
 	folder("char\chapter4\giant\anim\tool\staff")
 	
-	"	giatn_female_fcwf_staff_stand"
+	   "giant_female_fcwf_staff_stand"
 			0:lookat(off)
-			0:hand(both, palm)
-			0:hideequip(false)
-			64:hand(right, fist)
-			64:generic("custom_equip(weapon:giant_weapon_c4_fcwf_staff)")
-			96:hand(left, fist)
-			122:hand(right, palm)
-			128:hand(left, palm)
-			655:jump(324)	
+			0:hand(both, fist)
+			201:hand(right, palm)
+			343:hand(right, fist)
+
 		
 		"giant_fcwf_staff_stand"
 			0:lookat(off)
-			0:hand(both, palm)
-			0:hideequip(false)
-			64:hand(right, fist)
-			64:generic("custom_equip(weapon:giant_weapon_c4_fcwf_staff)")
-			96:hand(left, fist)
-			122:hand(right, palm)
-			128:hand(left, palm)
-			655:jump(324)
+			0:hand(both, fist)
+			195:hand(right, palm)
+			350:hand(right, fist)
 			
 			
 		"giant_female_fcwfe_staff_stand"
 			0:lookat(off)
-			0:hand(both, palm)
-			0:hideequip(false)
-			64:hand(right, fist)
-			64:generic("custom_equip(weapon:giant_weapon_c4_fcwfe_staff)")
-			96:hand(left, fist)
-			122:hand(right, palm)
-			128:hand(left, palm)
-			655:jump(324)	
+			0:hand(both, fist)
+			209:hand(left, palm)
+			230:hand(left, fist)
 		
 		"giant_fcwfe_staff_stand"
 			0:lookat(off)
-			0:hand(both, palm)
-			0:hideequip(false)
-			64:hand(right, fist)
-			64:generic("custom_equip(weapon:giant_weapon_c4_fcwfe_staff)")
-			96:hand(left, fist)
-			122:hand(right, palm)
-			128:hand(left, palm)
-			655:jump(324)	
+			0:hand(both, fist)
+			209:hand(left, palm)
+			230:hand(left, fist)
 			
 	
 	"giant_noble_staff_stand"
@@ -89139,16 +89107,10 @@ set("tool_Two hand sword 01")
 	"giant_female_fcwu_lance_stand"
 			0:lookat(off)
 			0:hand(both, palm)
-			0:hideequip(false)
-			0:generic("custom_equip(weapon:giant_weapon_c4_fcwu_lance)")
-			0:jump(0)
 		
 	"giant_fcwu_lance_stand"
 			0:lookat(off)
 			0:hand(both, palm)
-			0:hideequip(false)
-			0:generic("custom_equip(weapon:giant_weapon_c4_fcwu_lance)")
-			0:jump(0)
 	
 	
 	"giant_female_s2celestial_lance_stand"
@@ -96515,14 +96477,6 @@ set("social motion")
 		870:effect("astrea2",0,1)
 		871:hand(right,fist)
 		905:hand(right,palm)
-			
-	"giant_24gesture_02"
-		0:hand(left,fist)
-		0:hand(right, palm)
-
-	"giant_24gesture_03"	
-		0:hand(left,fist)
-		0:hand(right, palm)	
 	
 	"giant_female_astrea"
 		0:lookat(off)
@@ -97380,6 +97334,48 @@ set("social motion")
 		1209:hand(left, palm)
 		1663:hand(left, fist)
 		1837:jump(63,true)	
+		
+	"giant_24gesture_02"
+		0:hand(left,fist)
+		0:hand(right, palm)
+
+	"giant_24gesture_03"	
+		0:hand(left,fist)
+		0:hand(right, palm)			
+		
+	"giant_24gesture_04"
+		0:hideequip(false)
+		0:hand(both, palm)
+		25:hand(both, fist)
+		165:hand(both, palm)
+		
+	"giant_female_24gesture_04"
+		0:hideequip(false)
+		0:hand(both, palm)
+		25:hand(both, fist)
+		165:hand(both, palm)		
+		
+
+	"giant_24gesture_05"
+		0:hideequip(false)
+		0:hand(both, palm)
+		100:eyechange(223, 0)		
+		260:eyechange(default)	
+
+	"giant_female_24gesture_05"
+		0:hideequip(false)
+		0:hand(both, palm)
+		100:eyechange(223, 0)		
+		260:eyechange(default)	
+
+
+	"giant_24gesture_06"
+		0:hideequip(false)
+		0:hand(both, palm)	
+
+	"giant_female_24gesture_06"
+		0:hideequip(false)
+		0:hand(both, palm)			
 		
 	"giant_bluedragon"
 		0:lookat(off)
