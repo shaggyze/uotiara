@@ -15481,6 +15481,39 @@ set("C4_giant")
 		190:generic ("custom_equip(weapon)")			
 		
 ////////////////////////////////////////////////////////
+	"giant_fcw_studio_sit"
+		0:lookat(off)
+		0:hand(both,palm)
+
+	"giant_female_fcw_studio_sit"
+		0:lookat(off)
+		0:hand(both,palm)	
+		
+		
+	"giant_fcw_beauty_sit"
+		0:lookat(off)
+		0:hand(both,palm)
+		224:hand(right,fist)
+		228:hand(left,fist)
+		460:hand(right,palm)
+		464:hand(left,palm)
+		
+	"giant_female_fcw_beauty_sit"
+		224:hand(right,fist)
+		228:hand(left,fist)
+		460:hand(right,palm)
+		464:hand(left,palm)	
+	
+	
+	"giant_fcw_box_sit"
+		0:lookat(off)
+		0:hand(both,palm)	
+		0:hideequip(true)
+
+	"giant_female_fcw_box_sit"
+		0:lookat(off)
+		0:hand(both,palm)
+		0:hideequip(true)		
 
 	"giant_typewriterdesk_sit"		
 		0:lookat(off)
@@ -37782,11 +37815,54 @@ set("social motion")
 			0:lookat(off)
 			0:hand (both, palm)
 			0:hideequip(false)
+			
+			
+	"male_fcwl"
+			0:lookat(off)
+			0:hand (both, palm)
+			0:hideequip(false)			
+					
 
 	"male_FCWh"
 			0:lookat(off)
 			0:hand (both, palm)
 			0:hideequip(false)		
+	
+	"male_FCWs"
+			0:lookat(off)
+			0:hand (left, fist)
+			0:hand (right, palm)
+			0:hideequip(false)
+			
+	"female_fcwf"
+			0:lookat(off)
+			0:hand (both, palm)
+			0:hideequip(false)	
+
+	"female_fcwfe"
+			0:lookat(off)
+			0:hand (both, fist)
+			0:hideequip(false)	
+
+	"female_fcwa"
+			0:lookat(off)
+			0:hand (both, palm)
+			0:hideequip(false)	
+
+	"female_fcwse"
+			0:lookat(off)
+			0:hand (both, palm)
+			0:hideequip(false)	
+
+	"female_fcwli"
+			0:lookat(off)
+			0:hand (both, palm)
+			0:hideequip(false)	
+
+	"female_fcwu"
+			0:lookat(off)
+			0:hand (both, fist)
+			0:hideequip(false)				
 	
 	"female_20th"
 		0:lookat(off)
@@ -63302,9 +63378,42 @@ endset
 set("prop concerned - temporary")
 
 	// setting file 안의 animation을 정의할 때는 folder를 "::세팅파일 이름" 으로 지정해야 한다.
+	
+	folder("::scene_prop_fcw_beauty01")		
+		"scene_prop_fcw_beauty01_sit"				
+			0:linkframework(1, "race:271459", "Bone01", "data/gfx/char/chapter4/human/anim/female_fcwf_beauty_sit")			                                              
+	endfolder
+	
+	
+	folder("::scene_prop_fcw_beauty02")		
+		"scene_prop_fcw_beauty02_sit"				
+			0:linkframework(1, "race:271459", "Bone01", "data/gfx/char/chapter4/human/anim/female_fcwf_beauty_sit")			                                              
+	endfolder
+	
+	
+	folder("::scene_prop_fcw_studio01")		
+		"scene_prop_fcw_studio01"				
+			0:linkframework(1, "race:271459", "Bone01", "data/gfx/char/chapter4/human/anim/female_fcwf_studio_sit")			                                              
+	endfolder
+	
+	folder("::scene_prop_fcw_studio02")		
+		"scene_prop_fcw_studio02"				
+			0:linkframework(1, "race:271459", "Bone01", "data/gfx/char/chapter4/human/anim/female_fcwf_studio_sit")			                                              
+	endfolder
+	
 
+   folder("::scene_prop_fcw_box01")		
+		"scene_prop_fcw_box01"				
+			0:linkframework(1, "race:271459", "riding2", "data/gfx/char/chapter4/human/anim/female_fcwf_box_sit")			                                              
+	endfolder	
+	
+	
+	folder("::scene_prop_fcw_box02")		
+		"scene_prop_fcw_box02"				
+			0:linkframework(1, "race:271459", "riding2", "data/gfx/char/chapter4/human/anim/female_fcwf_box_sit")			                                              
+	endfolder	
 
-
+	
     folder("::scene_prop_ntaef_chair01")		
 		"scene_prop_ntaef_chair01"				
 			0:linkframework(1, "race:990404", "Bone02", "data/gfx/char/human/acc/anim/acc_jp01_stand02")
@@ -67897,43 +68006,93 @@ set("Knight")
 			0:lookat(off)
 			0:hand(right, palm)
 			0:hand(left, fist)
-			1:generic("custom_equip(weapon:weapon_FCWa_wp_ani)")	
+			1:generic("custom_equip(weapon:weapon_FCWa_wp_ani)")
+			
 		
 		"male_fcwa_wp_stand"
 			0:lookat(off)
 			0:hand(right, palm)
 			0:hand(left, fist)
-			1:generic("custom_equip(weapon:weapon_FCWa_wp_ani)")	
-			
+			1:generic("custom_equip(weapon:weapon_FCWa_wp_ani)")
 	
 		"human_SG_NS_process"
 			0:lookat(off)
 			0:hand (both, fist)
-		    1:effect("SG_NS_E1_02",0,1)
-		    20:effect("SG_NS_E1_01",0,1)
+		    20:effect("SG_NS_E1_01",0,1)			
+		    0:effect("SG_NS_E1_02",0,1)
+		    20:effect("SG_NS_E1_03",0,1)
+		    57:effect("SG_NS_E1_04")
+		    57:effect("SG_NS_E1_05")
 			
 		"human_SG_RS_process"
 			0:lookat(off)
 			0:hand (both, fist)
-	
+		    15:effect("SG_RS_E1_shieldCast_01",0,1)			
+		    5:effect("SG_RS_E1_shield_01",0,1)
+		    15:effect("SG_RS_E1_cast2_01",0,1)						
+		    30:effect("SG_RS_E1_shieldBroken_01",0,1)	
+		    30:effect("SG_NS_E1_shieldBroken1_01",0,1)				
+		    30:effect("SG_RS_E3_Decal_01",0,1)
+		    30:effect("SG_RS_E3_DecalBroken_01",0,1)	
+		    30:effect("SG_RS_E3_DecalBroken01_01",0,1)
+			
 		"human_SG_CL_process"
 			0:lookat(off)
 			0:hand (both, fist)
-		    1:effect("SG_CL_P1_Dash_01",0,1)			
-		    1:effect("SG_CL_P1_Start_Dust01",0,1)			
-		    1:effect("SG_CL_P1_Dust02_01",0,1)						
-		    1:effect("SG_CL_P1_shield_01",0,1)
-		    38:effect("SG_CL_P1_Stop_Dust_01",0,1)		
-		    38:effect("SG_CL_P1_StopDash01",0,1)	
+		    1:effect("SG_CL_E1_Dash_01")											
+		    1:effect("SG_CL_E3_shield_01")
+            5:effect("SG_NS_E3_shieldBroken1_02",0,1)				
+		    1:effect("SG_CL_E3_shieldBroken_01")			
+		    1:effect("SG_CL_E2_Stop_Dust_01")		
+		    1:effect("SG_CL_E2_StopDash_01")	
 	
 		"human_SG_US_process"
 			0:lookat(off)
 			0:hand (both, fist)
-		    1:effect("SG_US_E1_02",0,1)
-		    10:effect("SG_US_E1_03",0,1)			
+		    0:effect("SG_US_E1_02",0,1)
+		    15:effect("SG_US_E1_03",0,1)			
 		    30:effect("SG_US_E1_01",0,1)	
-		    58:effect("SG_US_E1_04",0,1)
-		    58:effect("SG_US_E1_05",0,1)			
+		    57:effect("SG_US_E1_04")
+		    57:effect("SG_US_E1_05")
+        
+		"human_SG_QP_prepare"
+			0:lookat(off)
+			0:hand (both, fist)
+		
+        "human_SG_QP_wait"
+			0:lookat(off)
+			0:hand (both, fist)		
+			
+        "human_SG_QP_process"
+			0:lookat(off)
+			0:hand (both, fist)	
+		    0:effect("SG_QP_p_E1_01",0,1)
+		    0:effect("SG_QP_p_E1_02",0,1)
+			
+        "human_SG_SR_process"
+			0:lookat(off)
+			0:hand (both, fist)	
+            13:effect("SG_RS_E1_cast1_02",0,1)		
+            13:effect("SG_US_E1_cast2_02",0,1)			
+		    30:effect("SG_SR_E1_Cast_01",0,1)
+            30:effect("SG_SR_E1_Broken_01",0,1)		
+            30:effect("SG_SR_E1_Broken_dust_01",0,1)	
+            30:effect("SG_NS_E1_shieldBroken1_02",0,1)		
+            30:effect("SG_NS_E1_shieldBroken2_02",0,1)
+	
+        "human_SG_IH_process"
+			0:lookat(off)
+			0:hand (both, fist)	
+		    15:effect("SG_IH_E1_shield_01",0,1)
+		    15:effect("SG_IH_E1_cast2_01",0,1)			
+		    15:effect("SG_IH_E1_cast1_01",0,1)			
+		    30:effect("SG_IH_E2_Trail_01",0,1)	
+		    30:effect("SG_IH_E1_Trail_Dn01_01",0,1)
+		    30:effect("SG_IH_E1_Trail_Dust_02",0,1)
+		    30:effect("SG_IH_E1_Trail_Dust_03",0,1)			
+            28:effect("SG_IH_E1_shieldBroken_01",0,1)				
+
+			
 			
 		// 나비요정_모션무기 	
 		"male_butterfly_sword_stand"
@@ -71597,42 +71756,162 @@ set("Knight")
 			0:lookat(off)
 			0:hand(right, palm)
 			0:hand(left, fist)
-			1:generic("custom_equip(weapon:giant_weapon_FCWa_wp_ani)")	
+			1:generic("custom_equip(weapon:giant_weapon_FCWa_wp_ani)")
 			
-
+			
 		"giant_SG_NS_process"
 			0:lookat(off)
 			0:hand (both, fist)
-	
+		    20:effect("SG_NS_E1_01",0,1)			
+		    0:effect("SG_NS_E1_02",0,1)
+		    20:effect("SG_NS_E1_03",0,1)
+		    57:effect("SG_NS_E1_04")
+		    57:effect("SG_NS_E1_05")
+			
 		"giant_SG_US_process"
 			0:lookat(off)
 			0:hand (both, fist)
-
+		    0:effect("SG_US_E1_02",0,1)
+		    15:effect("SG_US_E1_03",0,1)			
+		    30:effect("SG_US_E1_01",0,1)	
+		    57:effect("SG_US_E1_04")
+		    57:effect("SG_US_E1_05")
+			
 		"giant_SG_CL_process"
 			0:lookat(off)
 			0:hand (both, fist)
+		    1:effect("SG_CL_E1_Dash_01")											
+		    1:effect("G_SG_CL_E3_shield_01")
+		    5:effect("G_SG_NS_E3_shieldBroken1_02")				
+		    1:effect("G_SG_CL_E3_shieldBroken_01")			
+		    1:effect("SG_CL_E2_Stop_Dust_01")		
+		    1:effect("SG_CL_E2_StopDash_01")	
 			
 		"giant_SG_RS_process"
 			0:lookat(off)
 			0:hand (both, fist)
-		
+		    15:effect("G_SG_RS_E1_shieldCast_01",0,1)			
+		    5:effect("G_SG_RS_E1_shield_01",0,1)
+		    15:effect("SG_RS_E1_cast2_01",0,1)						
+		    30:effect("G_SG_RS_E1_shieldBroken_01",0,1)	
+		    30:effect("G_SG_NS_E1_shieldBroken1_01",0,1)				
+		    30:effect("SG_RS_E3_Decal_01",0,1)
+		    30:effect("SG_RS_E3_DecalBroken_01",0,1)	
+		    30:effect("SG_RS_E3_DecalBroken01_01",0,1)
+			
 		"giant_female_SG_NS_process"
 			0:lookat(off)
 			0:hand (both, fist)
-	
+		    20:effect("SG_NS_E1_01",0,1)			
+		    0:effect("SG_NS_E1_02",0,1)
+		    20:effect("SG_NS_E1_03",0,1)
+		    57:effect("SG_NS_E1_04")
+		    57:effect("SG_NS_E1_05")
+			
 		"giant_female_SG_US_process"
 			0:lookat(off)
 			0:hand (both, fist)
-
+		    0:effect("SG_US_E1_02",0,1)
+		    15:effect("SG_US_E1_03",0,1)			
+		    30:effect("SG_US_E1_01",0,1)	
+		    57:effect("SG_US_E1_04")
+		    57:effect("SG_US_E1_05")
+			
 		"giant_female_SG_CL_process"
 			0:lookat(off)
 			0:hand (both, fist)
+		    1:effect("SG_CL_E1_Dash_01")											
+		    1:effect("G_SG_CL_E3_shield_01")
+		    5:effect("G_SG_NS_E3_shieldBroken1_02")			
+		    1:effect("G_SG_CL_E3_shieldBroken_01")			
+		    1:effect("SG_CL_E2_Stop_Dust_01")		
+		    1:effect("SG_CL_E2_StopDash_01")
 			
 		"giant_female_SG_RS_process"
 			0:lookat(off)
 			0:hand (both, fist)
+		    15:effect("G_SG_RS_E1_shieldCast_01",0,1)			
+		    5:effect("G_SG_RS_E1_shield_01",0,1)
+		    15:effect("SG_RS_E1_cast2_01",0,1)						
+		    30:effect("G_SG_RS_E1_shieldBroken_01",0,1)	
+		    30:effect("G_SG_NS_E1_shieldBroken1_01",0,1)				
+		    30:effect("SG_RS_E3_Decal_01",0,1)
+		    30:effect("SG_RS_E3_DecalBroken_01",0,1)	
+		    30:effect("SG_RS_E3_DecalBroken01_01",0,1)
+			
+		"giant_SG_QP_prepare"
+			0:lookat(off)
+			0:hand (both, fist)
 		
-	
+        "giant_SG_QP_wait"
+			0:lookat(off)
+			0:hand (both, fist)		
+			
+        "giant_SG_QP_process"
+			0:lookat(off)
+			0:hand (both, fist)	
+		    0:effect("SG_QP_p_E1_01",0,1)
+		    0:effect("SG_QP_p_E1_02",0,1)
+			
+        "giant_SG_SR_process"
+			0:lookat(off)
+			0:hand (both, fist)	
+            13:effect("G_SG_RS_E1_cast1_02",0,1)		
+            13:effect("G_SG_SR_E1_shield",0,1)			
+		    30:effect("SG_SR_E1_Cast_01",0,1)
+            30:effect("SG_SR_E1_Broken_01",0,1)
+            30:effect("SG_SR_E1_Broken_dust_01",0,1)	
+            30:effect("G_SG_NS_E1_shieldBroken1_02",0,1)		
+            30:effect("G_SG_NS_E1_shieldBroken2_02",0,1)
+			
+        "giant_SG_IH_process"
+			0:lookat(off)
+			0:hand (both, fist)
+		    15:effect("G_SG_IH_E1_shield_01",0,1)
+		    15:effect("SG_IH_E1_cast2_01",0,1)			
+		    15:effect("SG_IH_E1_cast1_01",0,1)			
+		    30:effect("SG_IH_E2_Trail_01",0,1)	
+		    30:effect("SG_IH_E1_Trail_Dn01_01",0,1)	
+		    30:effect("G_SG_IH_E1_Trail_Dust_02",0,1)
+		    30:effect("G_SG_IH_E1_Trail_Dust_03",0,1)			
+            28:effect("G_SG_IH_E1_shieldBroken_01",0,1)	
+			
+        "giant_female_SG_QP_prepare"
+			0:lookat(off)
+			0:hand (both, fist)
+		
+        "giant_female_SG_QP_wait"
+			0:lookat(off)
+			0:hand (both, fist)		
+			
+        "giant_female_SG_QP_process"
+			0:lookat(off)
+			0:hand (both, fist)	
+		    0:effect("SG_QP_p_E1_01",0,1)
+		    0:effect("SG_QP_p_E1_02",0,1)
+			
+        "giant_female_SG_SR_process"
+			0:lookat(off)
+			0:hand (both, fist)	
+            13:effect("G_SG_RS_E1_cast1_02",0,1)		
+            13:effect("G_SG_SR_E1_shield",0,1)			
+		    30:effect("SG_SR_E1_Cast_01",0,1)
+            30:effect("SG_SR_E1_Broken_01",0,1)
+            30:effect("SG_SR_E1_Broken_dust_01",0,1)	
+            30:effect("G_SG_NS_E1_shieldBroken1_02",0,1)		
+            30:effect("G_SG_NS_E1_shieldBroken2_02",0,1)
+			
+        "giant_female_SG_IH_process"
+			0:lookat(off)
+			0:hand (both, fist)			
+		    15:effect("G_SG_IH_E1_shield_01",0,1)
+		    15:effect("SG_IH_E1_cast2_01",0,1)			
+		    15:effect("SG_IH_E1_cast1_01",0,1)			
+		    30:effect("SG_IH_E2_Trail_01",0,1)	
+		    30:effect("SG_IH_E1_Trail_Dn01_01",0,1)	
+		    30:effect("G_SG_IH_E1_Trail_Dust_02",0,1)
+		    30:effect("G_SG_IH_E1_Trail_Dust_03",0,1)			
+            28:effect("G_SG_IH_E1_shieldBroken_01",0,1)	
 	
 		"giant_butterfly_sword_stand"
 				0:lookat(off)
@@ -72855,17 +73134,17 @@ set("Knight")
 			
 		"giant_female_fcwli_twohandedax_stand"
 			0:lookat(off)
-			0:hand(both, palm)
-			0:hideequip(false)
-			0:generic("custom_equip(weapon:giant_weapon_c4_fcwli_twohandedax)")
-			0:jump(0)
+			0:hand(both, fist)
+			284:hand (left, palm)
+			706:hand(both, fist)
+
 		
 		"giant_fcwli_twohandedax_stand"
 			0:lookat(off)
-			0:hand(both, palm)
-			0:hideequip(false)
-			0:generic("custom_equip(weapon:giant_weapon_c4_fcwli_twohandedax)")
-			0:jump(0)
+			0:hand(both, fist)
+			284:hand (left, palm)
+			706:hand(both, fist)
+
 			
 	
 		"giant_rubberboat01_run"
@@ -73154,19 +73433,9 @@ set("G14_npc")
 			0:hideequip(false)	
 				
 	"male_npc_FCWs_talk"
-			0:lookat(off)		
+			0:lookat(on)		
 			0:hand (left, fist)
 			0:hand (right, palm)					
-			0:hideequip(false)
-
-	"male_npc_FCWh_stand"
-			0:lookat(off)		
-			0:hand (both, palm)					
-			0:hideequip(false)	
-				
-	"male_npc_FCWh_talk"
-			0:lookat(off)		
-			0:hand (both, palm)					
 			0:hideequip(false)		
 
 
@@ -73775,7 +74044,9 @@ set("G14_npc")
 			133:generic("custom_equip(weapon:tool_c4_letter01_ani)")
 			133:linkframework(1, "race:240012", "HandtoolL", "data\gfx\char\pet\anim\bird\pet_owl_natural_gifting_letter")	
 			333:linkframework(1)
-			2592:jump(1530)			
+			2592:jump(1530)
+
+			
 		
 		"female_npc_runningmachine"
 			0:hideequip(true)
@@ -73894,7 +74165,27 @@ set("G14_npc")
 		"female_c4_npc_dancer"
 			0:lookat(off)	
 			0:hideequip(true)
-			0:hand(both, palm)			
+			0:hand(both, palm)	
+
+		"female_npc_fcwf_stand"
+			0:lookat(off)	
+			0:hideequip(true)
+			0:hand(both, palm)	
+			
+		"female_npc_fcwf_talk"
+			0:lookat(on)	
+			0:hideequip(true)
+			0:hand(both, palm)				
+			
+		"female_npc_fcwfe_stand"
+			0:lookat(off)	
+			0:hideequip(true)
+			0:hand(both, fist)	
+
+		"female_npc_fcwfe_talk"
+			0:lookat(on)	
+			0:hideequip(true)
+			0:hand(both, fist)				
 
 		////에린랜드 속이 울렁거리는 NPC
 		
@@ -75780,6 +76071,21 @@ set("magician")
 	
 	folder("char\chapter4\human\anim\tool\Bhand_H")
 	
+		"female_fcwli_twohandedax_stand"
+			0:lookat(off)
+			0:hand(both, fist)
+			284:hand (left, palm)
+			706:hand(both, fist)
+
+	
+		"male_fcwli_twohandedax_stand"
+			0:lookat(off)
+			0:hand(both, fist)
+			284:hand (left, palm)
+			706:hand(both, fist)
+
+	
+	
 		"female_fcws_twohandedax_stand"
 			0:lookat(off)
 			0:hand(both, fist)
@@ -75793,21 +76099,6 @@ set("magician")
 			177:hand(both, palm)
 			194:hand(both, fist)
 
-			
-			
-		"female_fcwli_twohandedax_stand"
-			0:lookat(off)
-			0:hand(both, palm)
-			0:hideequip(false)
-			0:generic("custom_equip(weapon:weapon_c4_fcwli_twohandedax)")
-			0:jump(0)
-		
-		"male_fcwli_twohandedax_stand"
-			0:lookat(off)
-			0:hand(both, palm)
-			0:hideequip(false)
-			0:generic("custom_equip(weapon:weapon_c4_fcwli_twohandedax)")
-			0:jump(0)	
 			
 	
 		"human_rubberboat01_run"
@@ -78538,12 +78829,24 @@ set("magician")
 			0:hand(both, fist)
 			201:hand(right, palm)
 			355:hand(right, fist)
+			921:hand(right, palm)
+			1075:hand(right, fist)
+			1641:hand(right, palm)
+			1795:hand(right, fist)
+			2361:hand(right, palm)
+			2515:hand(right, fist)
 		
 		"male_fcwf_staff_stand"
 			0:lookat(off)
 			0:hand(both, fist)
 			201:hand(right, palm)
-			355:hand(right, fist)			
+			355:hand(right, fist)
+			921:hand(right, palm)
+			1075:hand(right, fist)
+			1641:hand(right, palm)
+			1795:hand(right, fist)
+			2361:hand(right, palm)
+			2515:hand(right, fist)			
 			
 			
 		"female_fcwfe_staff_stand"
@@ -78551,12 +78854,16 @@ set("magician")
 			0:hand(both, fist)
 			209:hand(left, palm)
 			230:hand(left, fist)
+			466:hand(left, palm)
+			502:hand(left, fist)
 		
 		"male_fcwfe_staff_stand"
 			0:lookat(off)
 			0:hand(both, fist)
 			209:hand(left, palm)
 			230:hand(left, fist)
+			466:hand(left, palm)
+			502:hand(left, fist)
 
 
 			
@@ -82500,6 +82807,12 @@ set("elf_Bhand_M10")
 			0:hand(both, fist)
 			201:hand(right, palm)
 			343:hand(right, fist)
+			921:hand(right, palm)
+			1070:hand(right, fist)
+			1641:hand(right, palm)
+			1790:hand(right, fist)
+			2361:hand(right, palm)
+			2510:hand(right, fist)
 
 		
 		"giant_fcwf_staff_stand"
@@ -82507,6 +82820,12 @@ set("elf_Bhand_M10")
 			0:hand(both, fist)
 			195:hand(right, palm)
 			350:hand(right, fist)
+			915:hand(right, palm)
+			1070:hand(right, fist)
+			1634:hand(right, palm)
+			1789:hand(right, fist)
+			2354:hand(right, palm)
+			2509:hand(right, fist)
 			
 			
 		"giant_female_fcwfe_staff_stand"
@@ -82514,12 +82833,16 @@ set("elf_Bhand_M10")
 			0:hand(both, fist)
 			209:hand(left, palm)
 			230:hand(left, fist)
+			466:hand(left, palm)
+			502:hand(left, fist)
 		
 		"giant_fcwfe_staff_stand"
 			0:lookat(off)
 			0:hand(both, fist)
 			209:hand(left, palm)
 			230:hand(left, fist)
+			466:hand(left, palm)
+			502:hand(left, fist)
 			
 	
 	"giant_noble_staff_stand"
@@ -104702,10 +105025,51 @@ set("social motion")
 			556:hand (left, fist)
 			861:hand (left, palm)
 			
-	"giant_FCWh"
+	"giant_fcwl"
 			0:lookat(off)
 			0:hand (both, palm)
 			0:hideequip(false)		
+			
+	"giant_FCWh"
+			0:lookat(off)
+			0:hand (both, palm)
+			0:hideequip(false)
+
+	"giant_FCWs"		
+			0:lookat(off)
+			0:hand (left, fist)
+			0:hand (right, palm)
+			0:hideequip(false)
+
+	"giant_female_fcwf"
+			0:lookat(off)
+			0:hand (both, palm)
+			0:hideequip(false)	
+
+	"giant_female_fcwfe"
+			0:lookat(off)
+			0:hand (both, fist)
+			0:hideequip(false)	
+
+	"giant_female_fcwa"
+			0:lookat(off)
+			0:hand (both, palm)
+			0:hideequip(false)	
+
+	"giant_female_fcwse"
+			0:lookat(off)
+			0:hand (both, palm)
+			0:hideequip(false)	
+
+	"giant_female_fcwli"
+			0:lookat(off)
+			0:hand (both, palm)
+			0:hideequip(false)	
+
+	"giant_female_fcwu"
+			0:lookat(off)
+			0:hand (both, fist)
+			0:hideequip(false)			
 
 	"giant_female_s24period"
 			0:lookat(off)
@@ -121345,6 +121709,39 @@ set("newcharacter_motion")
             6:effect("fx_soulcatch_01",0,1)
 			
 ///////////////////////////////
+
+	
+	"human_fcw_box_sit"
+		0:lookat(off)
+		0:hand(both,palm)
+		0:hideequip(true)			
+
+			
+	"female_FCWf_box_sit"
+		0:lookat(off)
+		0:hand(both,palm)
+		0:hideequip(true)			
+
+	
+	"human_fcw_studio_sit"
+		0:lookat(off)
+		0:hand(both,palm)	
+		
+	"female_FCWf_studio_sit"
+		0:lookat(off)
+		0:hand(both,palm)
+
+		
+	"human_fcw_beauty_sit"
+		224:hand(right,fist)
+		228:hand(left,fist)
+		460:hand(right,palm)
+		464:hand(left,palm)
+			
+	"female_FCWf_beauty_sit"
+		0:lookat(off)
+		0:hand(both,palm)	
+
 	
 	"lorna_erintrip_expedition_sit"
 		0:lookat(off)

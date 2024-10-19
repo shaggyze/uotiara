@@ -86,3 +86,8 @@
 89	[Invite]
 90	[Part-Timer]
 91	[Growth Guide]
+93	Royal
+94	[Royal Alchemist]
+95	[Royal Blacksmith]
+96	[Royal Tailor]
+97	[Royal Enchanter]

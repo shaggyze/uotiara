@@ -162,5 +162,5 @@ MaxAutoProduction="10"->MaxAutoProduction="1000"
 _____________________________________________________________________
 AnimationEvent.anievent
 
-;Control+H, replace all. Changes "\d{1,3}:quake" " //0:quake"
+;Control+H, replace all. Changes "\d{1,3}:quake" "//0:quake"
 " ////0:quake" " //0:quake"

@@ -4619,20 +4619,32 @@
 6711	Random direction availability
 6712	Effect Warning Time (ms)
 6713	Effect Warning Time (ms)
-6717	글레이프니르
-6718	샤프 아이즈
-6719	미스틱 커튼
-6720	문 하울링
-6721	윈드 클로
-6723	쿤 아눈이 날카로운 시선을 통해 주변의 적들의 약점을 노출시킨다. 약점에 노출된 적은 치명적인 공격을 받을 시 더 큰 피해를 입으며 펫의 누적된 성장에 따라 입히는 피해량이 높아진다.
-6724	주인이 죽음에 이르는 피해를 받았을 때 확률적으로 발동되는 특별한 마법. 자신과 주인에게 신비한 보호막을 만들어 모습을 감추며 보호한다.
-6725	쿤 아눈이 제자리에서 하울링을 하며 마력을 발산한다. 마력은 일정 시간 동안 주기적으로 발산되며 마력에 노출된 적은 해로운 효과를 받으며 자신과 주인은 이로운 효과를 준다.
-6726	쿤 아눈이 날카로운 발톱으로 바람을 일으키고 전방을 휩쓸어버린며 동시에 자신과 주인에게는 피해를 막아줄 바람막을 형성한다. 바람막은 피해를 감소시키고 미스틱 커튼 효과를 강화 시킨다.\n미스틱 커튼 효과 발동 시 효과는 사라진다.
-6728	쿤 아눈이 날카로운 시선을 통해 주변의 적들의 약점을 노출시킨다. 약점에 노출된 적은 치명적인 공격을 받을 시 더 큰 피해를 입으며 펫의 누적된 성장에 따라 입히는 피해량이 높아진다.
-6729	주인이 죽음에 이르는 피해를 받았을 때 확률적으로 발동되는 특별한 마법. 자신과 주인에게 신비한 보호막을 만들어 모습을 감추며 보호한다.
-6730	쿤 아눈이 제자리에서 하울링을 하며 마력을 발산한다. 마력은 일정 시간 동안 주기적으로 발산되며 마력에 노출된 적은 해로운 효과를 받으며 자신과 주인은 이로운 효과를 준다.
-6731	쿤 아눈이 날카로운 발톱으로 바람을 일으키고 전방을 휩쓸어버린며 동시에 자신과 주인에게는 피해를 막아줄 바람막을 형성한다. 바람막은 피해를 감소시키고 미스틱 커튼 효과를 강화 시킨다.\n미스틱 커튼 효과 발동 시 효과는 사라진다.
+6717	Gleipnir
+6718	Keen Eye
+6719	Veil of Mystique
+6720	Lunar Howl
+6721	Rending Gale
+6723	With its sharp gaze, a Cwn Annwn is capable of laying bare the weak points of nearby foes. Enemies who have had their weak points exposed will suffer greater harm when struck by a critical hit, with the amount of damage increasing as the hound grows.
+6724	A powerful spell that has a chance of activating when a Cwn Annwn's master suffers a knockout blow. The hound's enchantment protects itself and its master and veils both from sight.
+6725	The Cwn Annwn braces itself and lets loose a wild howl. The power of this howl surges forth in bursts for a fixed duration, cursing enemies within range while blessing the hound and its master.
+6726	The Cwn Annwn rakes its claws through the air, stirring up a gale that sweeps away enemies in the space before it. The same act simultaneously creates a barrier that shields the hound and its master, reducing damage and bolstering the Veil of Mystique.\n\nThis effect disappears when Veil of Mystique's effect is activated.
+6728	With its sharp gaze, a Cwn Annwn is capable of laying bare the weak points of nearby foes. Enemies who have had their weak points exposed will suffer greater harm when struck by a critical hit, with the amount of damage increasing as the hound grows.
+6729	A powerful spell that has a chance of activating when a Cwn Annwn's master suffers a knockout blow. The hound's enchantment protects itself and its master and veils both from sight.
+6730	The Cwn Annwn braces itself and lets loose a wild howl. The power of this howl surges forth in bursts for a fixed duration, cursing enemies within range while blessing the hound and its master.
+6731	The Cwn Annwn rakes its claws through the air, stirring up a wind that sweeps away enemies in the space before it. The same act simultaneously creates a barrier that shields the hound and its master, reducing damage and bolstering the Veil of Mystique.\n\nThis effect disappears when Veil of Mystique's effect is activated.
 6732	모던 낭만 비행
 6733	둘도 없는 인연을 만들고 받은 선물. 몸에 뿌려진 출처를 알 수 없는 마법의 가루는 원할 때 마다 몸 전체에 감돌며 하늘에서의 자유를 느낄 수 있게 해준다. 남의 도움을 받거나 누군가에 의지하는 것이 아니라, 스스로의 의지로 자유롭게 하늘을 누비는 기분을 마음껏 만끽 해보자.\n날고 있는 상태에서 상대방을 우클릭 하면 나타나는 날기 요청 메뉴를 이용하여 상대방이 승낙 하면 함께 나란히 하늘을 날아다닐 수 있다. 보다 로맨틱한 느낌으로 상대방의 손을 잡고 허공으로 이끌 수 있다. 친구, 연인과 함께 자유롭게 날아보자.
 6734	Polyphonic Melody
 6735	A skill that draws on sacred power to layer two different pieces of music, making them sound like parts of a single composition. Achieving this blended harmony requires a deep understanding of the songs being performed, as well as the ability to make minute adjustments to balance the two songs. This level of control is necessary, lest minor errors compound, turning harmony to dissonance.
+6736	포효
+6737	눈던지기
+6738	임시
+6739	임시
+6741	칼리아흐 떨어지는 빙각
+6742	칼리아흐 엄동의 속삭임
+6743	임시
+6744	임시
+6745	엄동의 속삭임 추적
+6746	임시
+6747	피아나 기흐레 돌진
+6748	임시

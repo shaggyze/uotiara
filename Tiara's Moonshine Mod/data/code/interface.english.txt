@@ -539,9 +539,9 @@ pli_arbeitboardview.7	Time: %s %02u:00 - %s %02u:00
 pli_arbeitboardview.8	Perfect Completion Reward: {0}
 pli_arbeitboardview.9	Openings Available: Unlimited
 pli_arbeitboardview.10	Times Completed: {0}
-pli_arbeitboardview.11	Accept this part-time job?
+pli_arbeitboardview.11	Accept this Part-Time Job?
 pli_arbeitboardview.12	Give up on this part-time job?\nAfter giving up, you won't be able to re-start this job for 24 hours in Erinn time.
-pli_arbeitboardview.13	자동 파기
+pli_arbeitboardview.13	Auto-destroy
 pli_arbeitrankingview.1	Completed
 pli_arbeitrankingview.2	Effect Time Remaining: {0}
 pli_arbeitreportview2.1	Not enough points.
@@ -1071,7 +1071,8 @@ pli_charactercommerceframe.1	Current Merchant Rating: {0}
 pli_charactercommerceframe.2	Current Merchant Rating {0}\nTo Next Level {1}
 pli_charactercommerceframe.3	lv{0} exp {1}%
 pli_charactercommerceframe.4	{0} Commerce Rank: {1}
-pli_charactercommerceframe.5	{0}.{1}.{2} - {3}.{4}.{5} (Resets on {6}.{7} 0:00)
+pli_charactercommerceframe.5	{1}/{2}/{0} - {4}/{5}/{3} (Resets on {6}/{7} at {8}:00)
+pli_charactercommerceframe.6	<color=2><outlinecolor=3>[시즌 교역]</outlinecolor></color>\n교역은 시즌제로 진행되며, 4월/8월/12월 첫 번째 주 목요일 오전 7시에 기존 시즌이 종료되고 새로운 시즌이 시작됩니다.\n시즌 종료 시 시즌 동안 획득한 [시즌 두카트] 및 [시즌 등급]은 초기화됩니다.\n\n<color=2><outlinecolor=3>[시즌 두카트]</outlinecolor></color>\n교역 시즌 기간 사용 가능한 교역용 화폐이며, 교역소에서 교역품을 구매할 수 있습니다.\n시즌 두카트를 이용하여 운송 수단을 대여하거나 시즌 상점에서 아이템을 구매할 수 있습니다.\n시즌이 종료되면 시즌 두카트는 일반 두카트로 전환됩니다.\n보유 중인 두카트와 시즌 두카트는 소지품 창에서 확인할 수 있습니다.\n\n<color=2><outlinecolor=3>[시즌 상점]</outlinecolor></color>\n이리아 켈라 항구의 NPC '사이브' 를 통해 시즌 한정 아이템을 구매할 수 있습니다.\n시즌 한정 아이템은 시즌 두카트를 사용하여 구매할 수 있습니다.\n\n<color=2><outlinecolor=3>[시즌 등급]</outlinecolor></color>\n교역을 진행하면 시즌 교역 점수를 획득할 수 있으며, 점수에 따라 시즌 교역 등급이 결정됩니다.\n시즌 교역 등급 달성 시 해당 등급의 보상을 획득할 수 있습니다.\n\n<color=2><outlinecolor=3>[물물 교역]</outlinecolor></color>\n시즌 교역 등급 [실버5] 달성 시 이리아에 위치한 물물 교역소에서 물물 교역이 가능합니다.\n물물 교역에 필요한 교역품은 아르바이트나 제작으로 획득한 아이템들로 구매가 가능합니다.\n물물 교역소의 교역품은 구매 제한이 있으며, 현실 시간으로 매주 목요일 오전 7시에 초기화됩니다.\n\n<color=2><outlinecolor=3>[교역소 신용도]</outlinecolor></color>\n교역소에서 교역품을 구매하여 다른 마을의 교역소에 판매하면 구매한 마을의 신용도가 상승합니다.\n신용 레벨이 오를수록 구입할 수 있는 교역품의 종류가 늘어납니다.\n\n
 pli_characterconditionremaintimeview.1	No effects active.
 pli_characterconditionremaintimeview.2	 (Cannot be used)
 pli_characterconditionremaintimeview.3	 <color=2>(Polyphony)</color>
@@ -1547,6 +1548,8 @@ pli_donationview.11	Donate {0}
 pli_donationview.12	Would you like to donate {0} Gold?
 pli_donationview.13	You do not have enough Gold.
 pli_donationview.14	Would you like to donate {0}?
+pli_donationview.15	{0} 골드
+pli_donationview.16	({0} 골드)
 pli_dramaepisodeitem.1	EP {0} - {1}
 pli_dramaepisodeitem.2	You are currently watching a different episode of the Saga.
 pli_dramaepisodeitem.3	EP {0}
@@ -1858,7 +1861,7 @@ pli_ergenhancemainview.20	Failed to infuse Erg.
 pli_ergenhancemainview.21	Failed to increase Max Erg Level.
 pli_ergenhancemainview.22	Success Rate: <color=2>{0}</color>({1}) %
 pli_ergenhancemainview.23	[Rank {0} Erg Enhancement]
-pli_ergenhancemainview.24	%d배 이벤트 진행 중
+pli_ergenhancemainview.24	x%d event in progress
 pli_ergenhancetransferview.1	Select weapon for Erg extraction
 pli_ergenhancetransferview.2	Select weapon to receive Erg
 pli_ergenhancetransferview.3	Transfer
@@ -2185,8 +2188,8 @@ pli_furniturecontextmenuview.3	Retrieve
 pli_fynnsbeadsshiningminigameview.1	The input order seems to be incorrect!\nPlease enter again correctly to infuse the power of Fynn!
 pli_fynnsbeadsshiningview.1	Place the items available for burnishing.
 pli_fynnsbeadsshiningview.2	Skill Name: {0}\nSkill Rank: {1} - {2}\n
-pli_fynnsbeadsshiningview.3	샤이닝을 시도 할 핀즈비즈를 올려주세요.\n성공 시, 핀즈비즈 스킬이 사용 가능한 상태로 변환됩니다.\n실패 시, 핀즈비즈는 파괴됩니다.
-pli_fynnsbeadsshiningview.4	샤이닝을 시도 할 핀즈비즈를 올려주세요.\n성공 시, 핀즈비즈 스킬이 사용 가능한 상태로 변환됩니다.\n(연습용 핀즈비즈는 실패하여도 파괴되지 않습니다.)
+pli_fynnsbeadsshiningview.3	Place a Faded Fynn Bead to attempt burnishing.\nIf successful, you'll restore the Fynn Bead to a usable state.\nHowever, if you fail, the bead will be destroyed.
+pli_fynnsbeadsshiningview.4	Place a Faded Fynn Bead to attempt burnishing.\nIf successful, you'll restore the Fynn Bead to a usable state.\n(Unlike normal Fynn Beads, practice Fynn Beads are not destroyed upon failure.)
 pli_fynnsynchelementselectview.1	You cannot select the current element.
 pli_fynnsynchelementselectview.2	{1} of {0} is required to change the Fynn Pet's element.
 pli_fynnsynchresultview.1	Fynn Sync Great Success
@@ -2289,7 +2292,7 @@ pli_gameendframe.1	In progress
 pli_gameendframe.2	Unclaimed
 pli_gameendframe.3	Event
 pli_gameendframe.4	{0} x{1}
-pli_gameendframe.5	멤버십
+pli_gameendframe.5	VIP
 pli_gameendmainview.1	This item is not in your inventory.
 pli_gameendmainview.2	This quest has already been completed or removed.
 pli_gameendmainview.3	Erinn Adventure Pass Reward
@@ -2298,7 +2301,7 @@ pli_gameendmainview.5	Irusan's Attendance Check-in Reward
 pli_gameendmainview.6	You can claim the reward from Lorna.
 pli_gameendmainview.7	You've already received all your rewards.
 pli_gameendmainview.8	Irusan's Attendance Check-in - Today's Stamp Not Yet Received
-pli_gameendmainview.9	어드밴스드 아이템 수령
+pli_gameendmainview.9	Receive Advanced Items
 pli_gametipview.1	Daily Tip
 pli_gametipview.2	Turn Off Daily Tips
 pli_gametipview.3	Close this Tip
@@ -2546,7 +2549,7 @@ pli_helperapiskill.29	Level {0}
 pli_helperapiskill.30	Fynn Bead
 pli_helperapiskill.31	Pounces and play-attacks the ground, placing a pentacle at that location for {0} sec. If the Purrling's owner stands within the pentacle it grants them a special blessing that increases Min Damage and Max Damage by {1}.
 pli_helperapiskill.32	Pounces and play-attacks the ground, placing a pentacle at that location for {0} sec. If the Purrling's owner stands within the pentacle it grants them a special blessing that increases Magic Attack by {1} and Fire/Wind/Earth/Water Alchemic Damage by {2}.
-pli_helperapiskill.33	펫 주변 {0}미터 내의 몬스터는 약점이 노출되어 크리티컬 히트 공격을 받을 시 {1}% 보너스 대미지를 추가로 받는다.
+pli_helperapiskill.33	Exposes the weak points of monsters within {0} meters of the pet, causing critical hits to deal an additional {1}% Bonus Damage to those affected.
 pli_helprequestview.1	You can select a quest to request help with.
 pli_helprequestview.2	Would you like to request help with your current quest?
 pli_helprequestview.3	Select a quest to request help for.
@@ -3305,7 +3308,7 @@ pli_lobbylistboxitem.9	{0} hr
 pli_lobbylistboxitem.10	Rebirth Available
 pli_lobbylistboxitem.11	Specialized Perk: {0}
 pli_lobbylistboxitem.12	Current Level: {0}\nCumulative Level: {1}
-pli_lobbylistboxitem.13	(멤버십)
+pli_lobbylistboxitem.13	(VIP)
 pli_luxurymagicrandomcardview.1	Please select a card.
 pli_luxurymagicrandomcardview.2	You obtained {0}.
 pli_luxurymagicrandomcardview.3	Items are shuffled.
@@ -3407,12 +3410,12 @@ pli_magiccircledesignview.12	Would you like to save your progress\nand exit Glyp
 pli_magiccircledesignview.13	Confirm
 pli_magiccircledesignview.14	You confirm that this design contains no inappropriate imagery. Inappropriate Glyph\nImprints may result in punitive actions against your account.
 pli_magiccircledesignview.15	Would you like to delete all placed objects?
-pli_magiccircledesignview.16	누구나 이 도안에서 디자인을 불러올 수 있도록 허용합니다.
-pli_magiccircledesignview.17	디자인을 불러오던 중 오류가 발생했습니다.\n다른 도안을 선택해주세요.
-pli_magigraphdesignloadview.1	디자이너 : {0}
-pli_magigraphdesignloadview.2	배치된 도형 : {0} / {1}
-pli_magigraphdesignloadview.3	지금의 스킬 랭크로는 알 수 없는 색
-pli_magigraphdesignloadview.4	사용된 색상 : {0}
+pli_magiccircledesignview.16	Allows anyone to reproduce the design on this imprint.
+pli_magiccircledesignview.17	An error was encountered while reproducing the design.\nPlease select another imprint.
+pli_magigraphdesignloadview.1	Creator: {0}
+pli_magigraphdesignloadview.2	Symbols Placed: {0} / {1}
+pli_magigraphdesignloadview.3	Color unavailable at current skill rank
+pli_magigraphdesignloadview.4	Colors: {0}
 pli_magigraphignitionmanageview.1	You can only apply Glyphs.
 pli_magigraphignitionmanageview.2	Any Glyph you add must match the type of Glyph already in the set.
 pli_magigraphignitionmanageview.3	Set contains no Glyphs.\n
@@ -3436,6 +3439,9 @@ pli_magigraphmaterializationview.8	Would you like to formulate the selected Glyp
 pli_magigraphmaterializationview.9	Confirm
 pli_magigraphmaterializationview.10	You confirm that the selected Glyph image is not inappropriate.\nThe creation of inappropriate Glyph Imprints may result in punitive actions against your account.
 pli_magigraphmaterializationview.11	Quality: 
+pli_magigraphrepairview.1	0/{0}개
+pli_magigraphrepairview.2	 소모 수량
+pli_magigraphrepairview.3	{0}/{1}개
 pli_mailboxlistboxitem.1	(No item)
 pli_makeampulview.1	Normal
 pli_makeampulview.2	Metal
@@ -3476,6 +3482,12 @@ pli_manualformview.17	Unable to auto-equip or register material. Please equip/re
 pli_manualformview.18	Either have the appropriate crafting tool in your right hand with a Sewing Pattern/Blacksmith Manual in your left hand, or empty your hands.
 pli_manualformview.19	Requires a talent suited for Sewing Pattern/Blacksmith Manual crafting.
 pli_manualformview.20	Insufficient tools or materials needed for crafting.
+pli_manualformview.21	Required Tools (Ready)
+pli_manualformview.22	Required Tools
+pli_manualformview.23	The crafter must be holding a {0:Blacksmith Hammer/Tailoring Kit}.
+pli_manualformview.24	{0} could not receive all the Gold.
+pli_manualformview.25	You have requested {0}'s crafting services.
+pli_manualformview.26	Waiting for Crafting Request
 pli_mastersordereventmainview.1	You obtained the reward.
 pli_mastersordereventmainview.2	You obtained the reward.
 pli_memolistboxitem.1	Read
@@ -3713,7 +3725,7 @@ pli_personalrankingdefaultview.3	Period {0}/{1}/{2} - {3}/{4}/{5}
 pli_personalrankingdefaultview.4	{0} / {1}
 pli_personalrankingdefaultview.5	Page not found.
 pli_personalrankingdefaultview.6	{0} / {1}
-pli_personalrankingdefaultview.7	Period - {0}.{1}.{2} (Resets on {3}.{4} 0:00)
+pli_personalrankingdefaultview.7	Period: {1}/{2}/{0} (Resets on {3}/{4} at {5}:00)
 pli_personalrankingdefaultview.8	Last Season
 pli_personalrankingdefaultview.9	Previous Altruism Season
 pli_personalshopsetpriceview.1	Price Selection
@@ -3764,9 +3776,9 @@ pli_petdyeingview.2	Search Next
 pli_petdyeingview.3	There was no color on the palette within the margin of error value of 5.\nPlease enter a different color.
 pli_petdyeingview.4	The entered value was not found on the palette, so colors within the <color=2>margin of error value of 5</color> were searched for.\n\nFound: {0}
 pli_petdyeingview.5	Target color: R ({0}), G ({1}), B ({2}) \n\nFound: {3}
-pli_petdyeingview.6	선택
-pli_petdyeingview.7	선택 완료
-pli_petdyeingview.8	팔레트에 일치하는 색이 없어 다음 색상이 선택되었습니다.\n#{0} (R:{1}, G:{2}, B:{3})\n\n* 입력한 색상과의 오차\nR:{4} G:{5} B:{6}
+pli_petdyeingview.6	Select
+pli_petdyeingview.7	Selection Complete
+pli_petdyeingview.8	The palette does not contain the exact color searched for, so the following color was substituted. \n#{0} (R: {1} G: {2} B: {3})\n\n* Difference from selected: \nR: {4} G: {5} B: {6}
 pli_peteventforoverseasframe.1	Log in every day
 pli_peteventforoverseasframe.2	Play for 30 minutes
 pli_peteventforoverseasframe.3	Clear Daily Shadow Mission
@@ -3803,7 +3815,7 @@ pli_petframe.18	This bead cannot be equipped. The pet already has a {0} Fynn Bea
 pli_petframe.19	You can view the pet's skill only when you have that pet summoned.
 pli_petframe.20	This bead cannot be equipped because the slot is locked.\nYou can open the slot through Fynn Syncing.
 pli_petframe.21	You can open the slot through Fynn Syncing.
-pli_petframe.22	선택한 펫을 정말 삭제하시겠습니까? 삭제한 펫은 복구 할 수 없습니다.
+pli_petframe.22	Deleted pets cannot be restored. Would you really like to delete the selected pet?
 pli_pethousemainview.1	Rest Finished
 pli_pethousemainview.2	Can Finish Rest
 pli_pethousemainview.3	Pausing will reset rest progress.\nContinue?
@@ -3972,7 +3984,7 @@ pli_pointshopframe.3	Notification
 pli_portraitattendanceview.1	Obtained
 pli_portraitattendanceview.2	Receive Gift
 pli_portraitattendanceview.3	Time Remaining: {0}
-pli_portraitattendanceview.4	기간 : %04d/%02d/%02d %02d:%02d까지
+pli_portraitattendanceview.4	Period: Until %04d/%02d/%02d %02d:%02d
 pli_premiumservicetabframe.1	VIP Benefits
 pli_premiumservicetabframe.2	(Old) Mabinogi VIP Service
 pli_premiumservicetabframe.3	(Old) Mabinogi Premium Service
@@ -4595,6 +4607,7 @@ pli_rockpaperscissorsscoreview.1	{0} Win(s)
 pli_rockpaperscissorsscoreview.2	{0} Loss(es)
 pli_roulettebingoview.1	Spin Roulette! Pay {0} coin(s)
 pli_roulettebingoview.2	Next Coin In:
+pli_royalrankingview.1	This player has relinquished their position with the Royal Institution.
 pli_scrapbookbestcookview.1	<color=4><outlinecolor=5>{0:Server name}'s Best\n{1:Name of dish}</outlinecolor></color>
 pli_scrapbookbestcookview.2	A word from Master Chef {0}
 pli_scrapbookbestcookview.3	You've made the best {0:food name}.\nLet everyone know about it!
@@ -5927,9 +5940,9 @@ pli_windowdyeing.6	Search Next
 pli_windowdyeing.7	There was no color on the palette within the margin of error value of 5.\nPlease enter a different color.
 pli_windowdyeing.8	The entered value was not found on the palette, so colors within the <color=2>margin of error value of 5</color> were searched for.\n\nFound: {0}
 pli_windowdyeing.9	Target color: R ({0}), G ({1}), B ({2}) \n\nFound: {3}
-pli_windowdyeing.10	선택
-pli_windowdyeing.11	선택 완료
-pli_windowdyeing.12	팔레트에 일치하는 색이 없어 다음 색상이 선택되었습니다.\n#{0} (R:{1}, G:{2}, B:{3})\n\n* 입력한 색상과의 오차\nR:{4} G:{5} B:{6}
+pli_windowdyeing.10	Select
+pli_windowdyeing.11	Selection Complete
+pli_windowdyeing.12	The palette does not contain the exact color searched for, so the following color was substituted. \n#{0} (R: {1} G: {2} B: {3})\n\n* Difference from selected: \nR: {4} G: {5} B: {6}
 pli_windoweditex.1	<color=2>\'{0}\' cannot be used in a name.
 pli_windoweditmainchat.1	Enter the target's name and then press the space bar.
 pli_windoweditmainchat.2	The name is too short.
@@ -5962,7 +5975,7 @@ pli_windowenchantentrust.4	Request Enchant
 pli_windowenchantentrust.5	Begin Enchant
 pli_windowenchantentrust.6	Requesting...
 pli_windowenchantentrust.7	The final success rate of your enchant attempt is derived from the base success rate plus any additional bonuses. The base success rate {1} is determined by your Enchant skill rank and the Enchant Scroll's rank {0}. Additional bonuses include your Intelligence and the type of Magic Powder used to perform the Enchant.
-pli_windowepilogue.1	게임 이용이 차단됩니다.
+pli_windowepilogue.1	Your game access has been restricted.
 pli_windowequipmentcollectionsystem.1	The <color=2><outlinecolor=3>{0}</outlinecolor></color>'s form will be applied to the selected item.\n<color=5>If a different appearance has already been applied, the existing\n appearance will be overwritten by the new one.</color>\nProceed?
 pli_windowequipmentcollectionsystem.2	You are about to apply the <color=2><outlinecolor=3>{0}</outlinecolor></color>'s form to the selected item.\n<color=5>Items whose appearance has been changed cannot be traded.</color>\nProceed?
 pli_windowexplorationquestboard.1	Refresh
@@ -6125,8 +6138,8 @@ pli_windowhinventory.1	Switch to first weapon set.\n(Hotkey: '{0}')
 pli_windowhinventory.2	Switch to second weapon set.\n(Hotkey: '{0}')
 pli_windowhinventory.3	Basic
 pli_windowhinventory.4	Extra
-pli_windowhinventory.5	장비를 자신이나 다른 사람에게 보이지 않도록 설정합니다.\n(장비의 장착 효과는 동일하게 적용됩니다.)
-pli_windowhinventory.6	장비를 자신이나 다른 사람에게 보이도록 설정합니다.
+pli_windowhinventory.5	Makes this equipment invisible to you and others. (It will still be functional.)
+pli_windowhinventory.6	Makes this equipment visible to you and others.
 pli_windowhinventory.7	Default
 pli_windowhinventory.8	Decorate
 pli_windowhinventory.9	Basic
@@ -6164,7 +6177,7 @@ pli_windowhinventory.40	To unlock, complete the 'Refrain of Sorrow and Serenity'
 pli_windowhinventory.41	You can easily switch out the items you have equipped by using Extra Equipment Slots.
 pli_windowhinventory.42	Does not expire.\nThose with an active Mabinogi VIP Membership have unlimited use of this feature.
 pli_windowhinventory.43	This bag contains items obtained through bingo and through the use of point items.
-pli_windowhinventory.44	This bag contains items obtained from various events that you have not claimed and the items you obtained through the use of paid products.
+pli_windowhinventory.44	Point Inventory\nThis bag contains items that you haven't claimed from past events, and items you obtained through the use of paid products.
 pli_windowhinventory.46	All expired items will be destroyed, and items expiring soon will be checked.
 pli_windowhinventory.47	All expired items will be destroyed, and items expiring soon will be checked.
 pli_windowhinventory.48	This bag can be used like a normal bag during Master Plan events. Once the event ends, you can only withdraw items from it, similar to the Mabinogi VIP Inventory tab.
@@ -6188,7 +6201,7 @@ pli_windowhinventory.65	No Time Limit (Basic VIP Membership)
 pli_windowhinventory.66	Expired\nEnabled through use of a Style Tab Key, Pon, or granted automatically with a Basic VIP Membership
 pli_windowhinventory.67	Expired\nEnabled upon clearing Sidhe Finnachaid, or granted automatically with a Combat VIP Membership
 pli_windowhinventory.68	No Time Limit (Combat VIP Membership)
-pli_windowhinventory.69	Allows for the selection and destruction of multiple items in your inventory.
+pli_windowhinventory.69	Trash Can\nAllows you to select multiple items in your inventory to be destroyed.
 pli_windowhinventory.70	Collapse Menu
 pli_windowhinventory.71	Expand Menu
 pli_windowhousebiddinglistboard.1	Address

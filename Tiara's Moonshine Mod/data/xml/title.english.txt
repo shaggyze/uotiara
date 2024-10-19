@@ -21,7 +21,7 @@
 21	none
 22	none
 23	Shall We Dance
-24	Charge Ahead!
+24	will Charge Ahead
 25	none
 26	the Lucky
 27	the Conniving Deceiver
@@ -70,7 +70,7 @@
 70	the Bear Hunter
 71	none
 72	Shall We Dance
-73	Charge Ahead!
+73	will Charge Ahead
 74	none
 75	the Conniving Deceiver
 76	the Queenslayer
@@ -153,7 +153,7 @@
 153	none
 154	none
 155	Shall We Dance
-156	Charge Ahead!
+156	will Charge Ahead
 157	none
 158	the Conniving Deceiver
 159	the Queenslayer
@@ -191,7 +191,7 @@
 191	none
 192	none
 193	Shall We Dance
-194	Charge Ahead!
+194	will Charge Ahead
 195	the Adult
 196	the All-Knowing
 197	the Old
@@ -2704,10 +2704,10 @@
 3239	the Master of Party Healing
 3240	An honorable title awarded to someone who has reached the highest level available in Party Healing.
 3241	Meet all the training requirements of Party Healing Rank 1 and you will receive a title to prove it.
-3244	who is a Royal Alchemist
-3245	who is a Royal Alchemist
-3246	who is a Royal Alchemist
-3247	who is a Royal Alchemist
+3244	the Royal Alchemist
+3245	the Royal Alchemist
+3246	the Royal Alchemist
+3247	the Royal Alchemist
 3249	The path of a Royal Alchemist is not one that just anyone can follow.
 3250	Crystal Making Success +1%\nSynthesis Success +1%\nFragmentation Success +1%\nWater Alchemic Damage +15\nFire Alchemic Damage +5
 3251	the Master of Carpentry
@@ -10422,10 +10422,10 @@
 11850	채집 확률 5% 증가\n채집 속도 5% 증가\n자동 낚시 성공률 증가\n더 큰 물고기를 낚을 확률 증가\n조련 성공률 25% 증가
 11851	힐웬 공학 마스터 타이틀과 함께 사용 시, 힐웬 공학 품질 증가\n매직 크래프트 마스터 타이틀과 함께 사용 시, 매직 크래프트 품질 증가\n생산 제작 스킬 성공률 5% 증가
 11852	음악 버프 스킬 효과 9 증가\n음악 버프 스킬 지속시간 15 증가
-11853	Master Storyline Binger
-11854	Master Storyline Binger
-11855	Master Storyline Binger
-11856	Master Storyline Binger
+11853	the Master Storyline Binger
+11854	the Master Storyline Binger
+11855	the Master Storyline Binger
+11856	the Master Storyline Binger
 11857	You completed a whopping 100 Storyline Replays! You are the Master Storyline Binger!
 11858	A title you can earn by completing Storyline Replay 100 times.
 11859	Will +30
@@ -14531,6 +14531,13 @@
 16099	A title granted to the bottom 1% of participants. Having luck this bad truly defies the odds, making you strangely lucky, in a weird way. Hopefully that's SOME consolation.
 16100	A title granted to the bottom 1% of participants. Having luck this bad truly defies the odds, making you strangely lucky, in a weird way. Hopefully that's SOME consolation.
 16101	Luck +30
+16130	Dreaming Gyre
+16131	Dreaming Gyre
+16132	Dreaming Gyre
+16133	Dreaming Gyre
+16134	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16135	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16136	Luck +30
 16137	홍콩 오프라인 기념용
 16138	홍콩 오프라인 기념용
 16139	홍콩 오프라인 기념용
@@ -14650,6 +14657,27 @@
 16260	Movement Speed +3%
 16261	Movement Speed +3%
 16262	Movement Speed +3%
+16263	the Royal Blacksmith
+16264	the Royal Tailor
+16265	the Royal Enchanter
+16266	the Royal Blacksmith
+16267	the Royal Tailor
+16268	the Royal Enchanter
+16269	the Royal Blacksmith
+16270	the Royal Tailor
+16271	the Royal Enchanter
+16272	the Royal Blacksmith
+16273	the Royal Tailor
+16274	the Royal Enchanter
+16275	An emblem signifying those chosen as representatives of Erinn's most elite company of blacksmiths.
+16276	An emblem signifying those chosen as representatives of Erinn's most elite company of tailors.
+16277	An emblem signifying those chosen as representatives of Erinn's most elite company of enchanters.
+16278	To become a Royal Blacksmith is an honor bestowed on a precious few individuals--the best of the best with fire and forge.
+16279	To become a Royal Tailor is an honor bestowed on a precious few individuals--the best of the best with needle and thread.
+16280	To become a Royal Enchanter is an honor bestowed on a precious few individuals--the best of the best with scrolls and catalysts.
+16281	Blacksmithing Success Rate +3%\nBlacksmithing Completeness +1
+16282	Tailoring Success Rate +3%\nTailoring Completeness +1
+16283	Enchant Success Rate +10%\nEnchant Burn Success Rate +3%
 16284	Champion of Fahmes Ruin
 16285	Champion of Fahmes Ruin
 16286	Champion of Fahmes Ruin
@@ -14888,6 +14916,13 @@
 16701	A Title given to Milletians who showcased their marvelous musical talent for the inhabitants of Erinn.
 16702	
 16703	
+16704	틈새 속 낮과 밤을 이은
+16705	틈새 속 낮과 밤을 이은
+16706	틈새 속 낮과 밤을 이은
+16707	틈새 속 낮과 밤을 이은
+16708	글렌 베르나의 주인, 겨울의 찬탈자의 오랜 염원을 저지하고 내일을 인도한 자에게 주어지는 타이틀이다.
+16709	태고의 겨울 한복판에서 글렌 베르나 주인의 차가운 시련을 이겨낸 자에게 주어지는 타이틀이다.\n겨울의 찬탈자와의 전투에서 누구도 쓰러지지 않으면 획득할 수 있을 것 같다.
+16710	최대 대미지 27 증가\n마법 공격력 50 증가\n보호, 마법 보호 15증가\n이동 속도 2% 증가
 17019	신비한 별빛 스타
 17020	활기찬 별빛 스타
 17021	아름다운 별빛 스타
@@ -14916,6 +14951,24 @@
 17044	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 17045	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 17046	행운 30 증가
+17089	고양이의 간택을 받은
+17090	고양이의 애착인형
+17091	고양이의 집사
+17092	고양이의 간택을 받은
+17093	고양이의 애착인형
+17094	고양이의 집사
+17095	고양이의 간택을 받은
+17096	고양이의 애착인형
+17097	고양이의 집사
+17098	고양이의 간택을 받은
+17099	고양이의 애착인형
+17100	고양이의 집사
+17101	신비한 고양이 마을 이벤트로 얻을 수 있는 1차 타이틀.
+17102	신비한 고양이 마을 이벤트로 얻을 수 있는 1차 타이틀.
+17103	신비한 고양이 마을 이벤트로 얻을 수 있는 1차 타이틀.
+17104	신비한 고양이 마을 이벤트의 목표달성 퀘스트 완료 시 얻을 수 있다.
+17105	신비한 고양이 마을 이벤트의 목표달성 퀘스트 완료 시 얻을 수 있다.
+17106	신비한 고양이 마을 이벤트의 목표달성 퀘스트 완료 시 얻을 수 있다.
 17145	Erinn Adventure Pass Season 1 Challenger
 17146	Erinn Adventure Pass Season 1 Challenger
 17147	Erinn Adventure Pass Season 1 Challenger
@@ -14930,3 +14983,52 @@
 17156	대만 9월 웹이벤트 1차 타이틀.
 17157	대만 9월 웹이벤트 1차 타이틀.
 17158	최대 대미지 10 증가\n마법 공격력 5 증가\n방어 5 증가\n보호 5 증가\n크리티컬 5% 증가
+17194	순수한 보석 비
+17195	청아한 보석 비
+17196	흐르는 순수한 빛 물결
+17197	흐르는 청아한 빛 물결
+17198	순수한 보석 비
+17199	청아한 보석 비
+17200	흐르는 순수한 빛 물결
+17201	흐르는 청아한 빛 물결
+17202	순수한 보석 비
+17203	청아한 보석 비
+17204	흐르는 순수한 빛 물결
+17205	흐르는 청아한 빛 물결
+17206	순수한 보석 비
+17207	청아한 보석 비
+17208	흐르는 순수한 빛 물결
+17209	흐르는 청아한 빛 물결
+17210	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17211	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17212	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17213	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17214	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17215	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17216	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17217	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17218	행운 30 증가
+17219	행운 30 증가
+17220	행운 30 증가
+17221	행운 30 증가
+17292	꼭두각시 핸들
+17293	다크 버터플라이
+17294	다크 레이스
+17295	꼭두각시 핸들
+17296	다크 버터플라이
+17297	다크 레이스
+17298	꼭두각시 핸들
+17299	다크 버터플라이
+17300	다크 레이스
+17301	꼭두각시 핸들
+17302	다크 버터플라이
+17303	다크 레이스
+17304	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17305	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17306	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17307	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17308	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17309	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17310	행운 30 증가
+17311	행운 30 증가
+17312	행운 30 증가

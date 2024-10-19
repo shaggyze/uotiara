@@ -226,7 +226,7 @@ interface_event.17	You can't do this during a Jousting Tournament.
 interface_event.18	You can't do this while sitting in a chair.
 interface_focuslisten.1	You can block up to 50 people.
 interface_fynnpetcomponent.1	You can't use this skill while you're unconscious.
-interface_fynnpetcomponent.2	Cannot be used on a Homestead.
+interface_fynnpetcomponent.2	Cannot be used on a Homestead or Moonlight Island.
 interface_houseform.1	Street {0} Shop No. {1}
 interface_inventory.1	A portion of the Mana connected to the wand has disappeared.
 interface_inventory.2	Although the durability of the wand reached 0,\n{0} prevented the Mana on the wand from evaporating.
@@ -343,6 +343,14 @@ interface_rockpaperscissors.5	You have become incapacitated. The Rock Paper Scis
 interface_rockpaperscissors.6	Your opponent has become incapacitated. The Rock Paper Scissors Match has been canceled.
 interface_rockpaperscissors.7	You can't play Rock Paper Scissors at this time.
 interface_rockpaperscissors.8	Your opponent can't play Rock Paper Scissors at this time.
+interface_royalalchemist.1	Basic
+interface_royalalchemist.2	Beginner
+interface_royalalchemist.3	Intermediate
+interface_royalalchemist.4	Advanced
+interface_royalalchemist.5	Royal Alchemist
+interface_royalalchemist.6	Royal Blacksmith
+interface_royalalchemist.7	Royal Tailor
+interface_royalalchemist.8	Royal Enchanter
 interface_servicemgr.1	Inventory Plus Kit
 interface_servicemgr.2	Mabinogi Premium Service
 interface_servicemgr.3	Mabinogi VIP Service
@@ -709,6 +717,7 @@ mabinogi_privatefarmdesc.20	Protection
 mabinogi_privatefarmdesc.21	Magic Protection
 mabinogi_privatefarmdesc.22	Combat EXP Increase
 mabinogi_privatefarmdesc.23	Movement Speed
+mabinogi_privatefarmdesc.24	크리티컬 상한 증가
 mabinogi_propentity.1	프랍 ClassID를 바꾸려 합니다. objectID: %d 이전 ClassID: %d 바뀌는 ClassID: %d
 mabinogi_shadowmissiondesc.1	Basic
 mabinogi_shadowmissiondesc.2	Int.
@@ -922,7 +931,7 @@ pccarddescmgr.13	{0:Character Card Name} Bonus\n\n{1:Bonus Amount List}
 privatefarmdescmgr.1	<color={0}>{1} Set Effect\n
 privatefarmdescmgr.2	<color=3>Decoration Set</color>\n
 privatefarmdescmgr.3	Increase\n
-questresult.1	Royal Alchemist Activity Points {0}
+questresult.1	Royal Activity Points {0}
 questresult.2	Ducats {0}
 questresult.3	Crusader EXP {0}
 questresult.4	Command EXP {0}
@@ -935,7 +944,7 @@ questresult.12	Reward: <color=2>{0}</color>
 questresult.13	Seasonal Ducats: <color=2>{0}</color>
 questresult.14	Exploration EXP: <color=2>{0}</color>
 questresult.15	AP: <color=2>{0}</color>
-questresult.16	Royal Alchemist Activity Points: <color=2>{0}</color>
+questresult.16	Royal Activity Points: <color=2>{0}</color>
 questresult.17	Crusader EXP: <color=2>{0}</color>
 questresult.18	Command EXP: <color=2>{0}</color>
 questresult.19	Training Points: <color=2>{0}</color>
