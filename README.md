@@ -21,7 +21,7 @@ https://discord.gg/mCNBwZT
 Donate for Support:
 https://www.patreon.com/shaggyze
 or
-https://paypal.me/thoggsr
+https://paypal.me/shaggyze
 
 (If the installer or CrashReporter.dll is Missing, being Detected, Deleted or Blocked due to Kanan or Abyss's packing/encryption method, Disable your Anti-Virus programs temporarily and add the Mabinogi or Download folders to your White/Exclusion list or right click CrashReporter.dll and set it to allow)
 
