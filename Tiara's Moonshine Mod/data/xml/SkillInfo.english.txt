@@ -4636,15 +4636,15 @@
 6733	둘도 없는 인연을 만들고 받은 선물. 몸에 뿌려진 출처를 알 수 없는 마법의 가루는 원할 때 마다 몸 전체에 감돌며 하늘에서의 자유를 느낄 수 있게 해준다. 남의 도움을 받거나 누군가에 의지하는 것이 아니라, 스스로의 의지로 자유롭게 하늘을 누비는 기분을 마음껏 만끽 해보자.\n날고 있는 상태에서 상대방을 우클릭 하면 나타나는 날기 요청 메뉴를 이용하여 상대방이 승낙 하면 함께 나란히 하늘을 날아다닐 수 있다. 보다 로맨틱한 느낌으로 상대방의 손을 잡고 허공으로 이끌 수 있다. 친구, 연인과 함께 자유롭게 날아보자.
 6734	Polyphonic Melody
 6735	A skill that draws on sacred power to layer two different pieces of music, making them sound like parts of a single composition. Achieving this blended harmony requires a deep understanding of the songs being performed, as well as the ability to make minute adjustments to balance the two songs. This level of control is necessary, lest minor errors compound, turning harmony to dissonance.
-6736	포효
-6737	눈던지기
-6738	임시
-6739	임시
-6741	칼리아흐 떨어지는 빙각
-6742	칼리아흐 엄동의 속삭임
-6743	임시
-6744	임시
-6745	엄동의 속삭임 추적
-6746	임시
-6747	피아나 기흐레 돌진
-6748	임시
+6736	Roar
+6737	Throw Snow
+6738	Temp
+6739	Temp
+6741	Cailleach Icicle Drop
+6742	Cailleach Whisper of Unending Winter
+6743	Temp
+6744	Temp
+6745	Whisper of Unending Winter Pursuit
+6746	Temp
+6747	Fianna Geimhridh Charge
+6748	Temp

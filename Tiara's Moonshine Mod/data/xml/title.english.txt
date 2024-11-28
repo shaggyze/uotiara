@@ -14916,13 +14916,13 @@
 16701	A Title given to Milletians who showcased their marvelous musical talent for the inhabitants of Erinn.
 16702	
 16703	
-16704	틈새 속 낮과 밤을 이은
-16705	틈새 속 낮과 밤을 이은
-16706	틈새 속 낮과 밤을 이은
-16707	틈새 속 낮과 밤을 이은
-16708	글렌 베르나의 주인, 겨울의 찬탈자의 오랜 염원을 저지하고 내일을 인도한 자에게 주어지는 타이틀이다.
-16709	태고의 겨울 한복판에서 글렌 베르나 주인의 차가운 시련을 이겨낸 자에게 주어지는 타이틀이다.\n겨울의 찬탈자와의 전투에서 누구도 쓰러지지 않으면 획득할 수 있을 것 같다.
-16710	최대 대미지 27 증가\n마법 공격력 50 증가\n보호, 마법 보호 15증가\n이동 속도 2% 증가
+16704	the Uniter of Dawn and Dusk
+16705	the Uniter of Dawn and Dusk
+16706	the Uniter of Dawn and Dusk
+16707	the Uniter of Dawn and Dusk
+16708	A title granted to those who thwarted the ambitions of the master of Glenn Bearna, the Winter Tyrant, securing a path to the future.
+16709	A title granted to those who stood against the master of Glenn Bearna, emerging victorious even when confronted with the full fury of a Primeval Winter.\nEarned by claiming victory against the Winter Tyrant without any party member being knocked out.
+16710	Max Damage +27\nMagic Attack +50\nProtection/Magic Protection +15\nMovement Speed +2%
 17019	신비한 별빛 스타
 17020	활기찬 별빛 스타
 17021	아름다운 별빛 스타
@@ -14951,24 +14951,27 @@
 17044	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 17045	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 17046	행운 30 증가
-17089	고양이의 간택을 받은
-17090	고양이의 애착인형
-17091	고양이의 집사
-17092	고양이의 간택을 받은
-17093	고양이의 애착인형
-17094	고양이의 집사
-17095	고양이의 간택을 받은
-17096	고양이의 애착인형
-17097	고양이의 집사
-17098	고양이의 간택을 받은
-17099	고양이의 애착인형
-17100	고양이의 집사
-17101	신비한 고양이 마을 이벤트로 얻을 수 있는 1차 타이틀.
-17102	신비한 고양이 마을 이벤트로 얻을 수 있는 1차 타이틀.
-17103	신비한 고양이 마을 이벤트로 얻을 수 있는 1차 타이틀.
-17104	신비한 고양이 마을 이벤트의 목표달성 퀘스트 완료 시 얻을 수 있다.
-17105	신비한 고양이 마을 이벤트의 목표달성 퀘스트 완료 시 얻을 수 있다.
-17106	신비한 고양이 마을 이벤트의 목표달성 퀘스트 완료 시 얻을 수 있다.
+17089	who Has the Zoomies
+17090	the Purrfect Cat Sofa
+17091	who Fetches the Finest Catnip
+17092	who Has the Zoomies
+17093	the Purrfect Cat Sofa
+17094	who Fetches the Finest Catnip
+17095	who Has the Zoomies
+17096	the Purrfect Cat Sofa
+17097	who Fetches the Finest Catnip
+17098	who Has the Zoomies
+17099	the Purrfect Cat Sofa
+17100	who Fetches the Finest Catnip
+17101	A title obtained from the Meowsterious Village event.
+17102	A title obtained from the Meowsterious Village event.
+17103	A title obtained from the Meowsterious Village event.
+17104	Obtained by completing the corresponding Achievement Quest from the Meowsterious Village event.
+17105	Obtained by completing the corresponding Achievement Quest from the Meowsterious Village event.
+17106	Obtained by completing the corresponding Achievement Quest from the Meowsterious Village event.
+17107	
+17108	
+17109	
 17145	Erinn Adventure Pass Season 1 Challenger
 17146	Erinn Adventure Pass Season 1 Challenger
 17147	Erinn Adventure Pass Season 1 Challenger
@@ -15011,24 +15014,10 @@
 17219	행운 30 증가
 17220	행운 30 증가
 17221	행운 30 증가
-17292	꼭두각시 핸들
-17293	다크 버터플라이
-17294	다크 레이스
-17295	꼭두각시 핸들
-17296	다크 버터플라이
-17297	다크 레이스
-17298	꼭두각시 핸들
-17299	다크 버터플라이
-17300	다크 레이스
-17301	꼭두각시 핸들
-17302	다크 버터플라이
-17303	다크 레이스
-17304	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-17305	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-17306	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-17307	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-17308	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-17309	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-17310	행운 30 증가
-17311	행운 30 증가
-17312	행운 30 증가
+17327	Primeval Winner
+17328	Primeval Winner
+17329	Primeval Winner
+17330	Primeval Winner
+17331	A title obtained from the Glenn Bearna Primeval Winter celebration challenge event.
+17332	Those who embody power, valor, and no small amount of tenacity can earn this title by clearing Glenn Bearna Primeval Winter during the Glenn Bearna Primeval Winter celebration challenge event period.
+17333	

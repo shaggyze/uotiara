@@ -3410,12 +3410,12 @@ pli_magiccircledesignview.12	Would you like to save your progress\nand exit Glyp
 pli_magiccircledesignview.13	Confirm
 pli_magiccircledesignview.14	You confirm that this design contains no inappropriate imagery. Inappropriate Glyph\nImprints may result in punitive actions against your account.
 pli_magiccircledesignview.15	Would you like to delete all placed objects?
-pli_magiccircledesignview.16	Allows anyone to reproduce the design on this imprint.
+pli_magiccircledesignview.16	Grant permission for other players to reproduce the design depicted on this imprint.
 pli_magiccircledesignview.17	An error was encountered while reproducing the design.\nPlease select another imprint.
 pli_magigraphdesignloadview.1	Creator: {0}
 pli_magigraphdesignloadview.2	Symbols Placed: {0} / {1}
 pli_magigraphdesignloadview.3	Color unavailable at current skill rank
-pli_magigraphdesignloadview.4	Colors: {0}
+pli_magigraphdesignloadview.4	Color: {0}
 pli_magigraphignitionmanageview.1	You can only apply Glyphs.
 pli_magigraphignitionmanageview.2	Any Glyph you add must match the type of Glyph already in the set.
 pli_magigraphignitionmanageview.3	Set contains no Glyphs.\n
@@ -3439,9 +3439,9 @@ pli_magigraphmaterializationview.8	Would you like to formulate the selected Glyp
 pli_magigraphmaterializationview.9	Confirm
 pli_magigraphmaterializationview.10	You confirm that the selected Glyph image is not inappropriate.\nThe creation of inappropriate Glyph Imprints may result in punitive actions against your account.
 pli_magigraphmaterializationview.11	Quality: 
-pli_magigraphrepairview.1	0/{0}개
-pli_magigraphrepairview.2	 소모 수량
-pli_magigraphrepairview.3	{0}/{1}개
+pli_magigraphrepairview.1	0/{0}
+pli_magigraphrepairview.2	 Cost
+pli_magigraphrepairview.3	{0}/{1}
 pli_mailboxlistboxitem.1	(No item)
 pli_makeampulview.1	Normal
 pli_makeampulview.2	Metal
@@ -5431,6 +5431,8 @@ pli_treasureboxevent.3	Close
 pli_treasureboxevent.4	Buy Key
 pli_treasurerestoration.1	A treasure that needs to be restored is required.
 pli_treasurerestoration.2	You need a Catalyst that's required for restoration.
+pli_tutorialpopupview.1	닫기
+pli_tutorialpopupview.2	다음
 pli_typeminigameview.1	score : {0} / {1}
 pli_upgradeboxitem.0	Increased collection speed
 pli_upgradeboxitem.1	Increased repair fee
@@ -5941,7 +5943,7 @@ pli_windowdyeing.7	There was no color on the palette within the margin of error 
 pli_windowdyeing.8	The entered value was not found on the palette, so colors within the <color=2>margin of error value of 5</color> were searched for.\n\nFound: {0}
 pli_windowdyeing.9	Target color: R ({0}), G ({1}), B ({2}) \n\nFound: {3}
 pli_windowdyeing.10	Select
-pli_windowdyeing.11	Selection Complete
+pli_windowdyeing.11	Select
 pli_windowdyeing.12	The palette does not contain the exact color searched for, so the following color was substituted. \n#{0} (R: {1} G: {2} B: {3})\n\n* Difference from selected: \nR: {4} G: {5} B: {6}
 pli_windoweditex.1	<color=2>\'{0}\' cannot be used in a name.
 pli_windoweditmainchat.1	Enter the target's name and then press the space bar.
@@ -7344,8 +7346,8 @@ pli_windowproduction.1	<outlinecolor=2>Production EXP: {0} exp</outlinecolor>
 pli_windowproduction.2	{0} Only
 pli_windowproduction2.1	This product is {0}-exclusive.
 pli_windowproduction2.2	{0} Only
-pli_windowproduction3.0	Fabric (Cheap)
-pli_windowproduction3.1	Silk (Cheap)
+pli_windowproduction3.0	Cheap Fabric
+pli_windowproduction3.1	Cheap Silk
 pli_windowproduction3.2	That product can't be produced here.
 pli_windowproduction3.3	Auto Production
 pli_windowproduction3.4	{0}

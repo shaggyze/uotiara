@@ -9814,8 +9814,8 @@
 12143	Mercenary
 12144	Mercenary
 12145	Mercenary
-12146	스위트럭키 알파카
-12147	로맨틱선샤인 하프링거
+12146	Lucky Festive Alpaca
+12147	Sunshine Rose Haflinger
 12148	Talvish
 12149	Mercenary
 12150	Mercenary
@@ -9985,10 +9985,10 @@
 12325	Emptiness
 12326	Futility
 12327	Loss
-12328	똑똑한 야옹
-12329	똑똑한 야옹
+12328	Siamese Purrling
+12329	Siamese Purrling
 12330	케라우노스(이벤트용)
-12331	빛나는 별 투안
+12331	Starbound Tuan
 12332	Archelon
 12333	Tagar
 12334	Creag
@@ -10081,12 +10081,12 @@
 12433	Cwn Annwn
 12434	Guardian Cwn Annwn
 12435	Arbiter Cwn Annwn
-12441	아이시클 스프라이트
-12445	칼리아흐
-12446	불완전한 공상
-12449	불완전한 공상
-12450	겨울의 찬탈자
-12451	엄동의 속삭임
+12441	Icicle Sprite
+12445	Cailleach
+12446	Unfinished Reverie
+12449	Unfinished Reverie
+12450	The Winter Tyrant
+12451	Whisper of Unending Winter
 12454	별빛 페어리 드래곤
 12463	Cwn Annwn
 12464	Guardian Cwn Annwn
@@ -10103,13 +10103,14 @@
 12495	스쿠터
 12504	리틀 케라우노스
 12505	Starbound Tuan
-12507	고양이마을 킹스
-12508	길 잃은 비숍
-12509	가출한 비숍
-12510	보안관 비숍
-12511	길 잃은 비숍 미니돌
-12512	가출한 비숍 미니돌
-12513	보안관 비숍 미니돌
-12516	고양이마을 캣 휠
-12517	고양이마을 회전목마
-12518	고양이마을 미끄럼틀
+12507	King of Cat Village
+12508	Lost Bishop
+12509	Bishop from tha Streetz
+12510	Sheriff Bishop
+12511	Lost Bishop Mini-Gem
+12512	Bishop from tha Streetz Mini-Gem
+12513	Sheriff Bishop Mini-Gem (Quest)
+12516	Cat Village Exercise Wheel
+12517	Cat Village Meowry-go-Round
+12518	Cat Village Slide Tower
+12598	빛고래(크리에이터)

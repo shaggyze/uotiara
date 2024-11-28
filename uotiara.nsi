@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
-!define UOSHORTVERSION        "453"
-!define UOLONGVERSION         "0.61.79"
+!define UOSHORTVERSION        "455"
+!define UOLONGVERSION         "0.62.79"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -1038,11 +1038,10 @@ Section "AutoBot (fossil restoration & updates Mods)" MOD431
   SetOutPath "$INSTDIR"
   Delete "$INSTDIR\Update AutoBot.exe"
   DetailPrint "Downloading AutoBot..."
-  inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/AutoBot/AutoBotS.rar" "AutoBotS.rar" /end
-  inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/UnRAR.exe" "UnRAR.exe" /end
+  inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/AutoBot/raw/main/AutoBotS.rar" "AutoBotS.rar" /end
+  inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/AutoBot/raw/main/UnRAR.exe" "UnRAR.exe" /end
   DetailPrint "Extracting AutoBotS.rar..."
   nsExec::ExecToStack 'UnRAR.exe x -o+ "AutoBotS.rar"'
-  Delete "$INSTDIR\AutoBot\Tailor Minigame.exe"
   Delete "$INSTDIR\UnRAR.exe"
   IfFileExists $INSTDIR\AutoBot\AutoBot.exe AutoBotFound1 AutoBotNotFound1
 AutoBotFound1:
@@ -3873,6 +3872,34 @@ SectionEnd
   DetailPrint "*** Removing MOD145..."
   Delete "$INSTDIR\data\gfx\gui\login_screen\login_copyright03_kr_w.dds"
 !macroend
+Section "Commerce Map Guides" MOD458
+SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
+DetailPrint "Installing Commerce Map Guides..."
+  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_dugald_2017AFE_eng_01.jpg"
+  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_dunbarton_2017AFE_eng.jpg"
+  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_emainmacha_2019CHR_kor.jpg"
+  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_gairech_2022_kor.jpg"
+  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_Iria_zardine_hotspring_mgFree_2021_kor.jpg"
+  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_taillteann_mgFree_ENG.jpg"
+  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_taillteann_sliab_cuilin_2017CHR_ENG.jpg"
+  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_Tara_mgFree_ENG.jpg"
+  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_Tara_N_Field_eng.jpg"
+  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_Tara_SE_Field_mgFree_ENG.jpg"
+SectionIn 1 2
+SectionEnd
+!macro Remove_${MOD458}
+  DetailPrint "*** Removing MOD458..."
+  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_dugald_2017AFE_eng_01.jpg"
+  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_dunbarton_2017AFE_eng.jpg"
+  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_emainmacha_2019CHR_kor.jpg"
+  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_gairech_2022_kor.jpg"
+  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_Iria_zardine_hotspring_mgFree_2021_kor.jpg"
+  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_taillteann_mgFree_ENG.jpg"
+  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_taillteann_sliab_cuilin_2017CHR_ENG.jpg"
+  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_Tara_mgFree_ENG.jpg"
+  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_Tara_N_Field_eng.jpg"
+  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_Tara_SE_Field_mgFree_ENG.jpg"
+!macroend
 Section "Modded Rano Map" MOD147
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
 DetailPrint "Installing Modded Rano Map..."
@@ -3904,12 +3931,12 @@ SectionEnd
 Section "Modded Connous Map" MOD150
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
 DetailPrint "Installing Modded Connous Map..."
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_Iria_connous_mgFree_2021_kor.jpg"
+File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_Iria_connous_2023_kor.jpg"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD150}
   DetailPrint "*** Removing MOD150..."
-  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_Iria_connous_mgFree_2021_kor.jpg"
+  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_Iria_connous_2023_kor.jpg"
 !macroend
 Section "Modded Ant Hell Map" MOD151
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
@@ -3942,12 +3969,12 @@ SectionEnd
 !macroend
 Section "Modded Shadow Realm Abb Neagh Map" MOD154
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_taillteann_abb_neagh_mgfree_eng.jpg"
+File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_taillteann_abb_neagh_2017CHR_ENG.jpg"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD154}
   DetailPrint "*** Removing MOD154..."
-  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_taillteann_abb_neagh_mgfree_eng.jpg"
+  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_taillteann_abb_neagh_2017CHR_ENG.jpg"
 !macroend
 Section "Modded Shadow Realm Taillteann Map" MOD155
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
@@ -4007,21 +4034,21 @@ SectionEnd
 !macroend
 Section "Modded Sen Mag Map" MOD161
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_senmag_mgfree_eng.jpg"
+File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_senmag_eng.jpg"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD161}
   DetailPrint "*** Removing MOD161..."
-  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_senmag_mgfree_eng.jpg"
+  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_senmag_eng.jpg"
 !macroend
 Section "Modded Sen Mag Map 2" MOD162
 SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_senmag_eng.jpg"
+File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_senmag_2017CHR_ENG.jpg"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD162}
   DetailPrint "*** Removing MOD162..."
-  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_senmag_eng.jpg"
+  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_senmag_2017CHR_ENG.jpg"
 !macroend
 Section "Blacksmith Minigame Simplification" MOD163
 SetOutPath "$INSTDIR\data\gfx\gui"
@@ -7417,6 +7444,7 @@ SectionGroupEnd
 ;!insertmacro "${MacroName}" "MOD399"
 !insertmacro "${MacroName}" "MOD457"
 !insertmacro "${MacroName}" "MOD402"
+!insertmacro "${MacroName}" "MOD458"
 !macroend
 
 
@@ -8574,7 +8602,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD146" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD147" "" "Modded Rano Map"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD147" "FILE1" "\data\gfx\gui\map_jpg\minimap_Iria_Rano_new_mgFree_2021_kor.jpg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD147" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD147" "CREATOR" "Arcane & kirbysama"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD147" "CREATOR" "Arcane, kirbysama & Warsen"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD147" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD148" "" "Modded Solea North Map"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD148" "FILE1" "\data\gfx\gui\map_jpg\minimap_iria_nw_tunnel_n_eng.jpg"
@@ -8587,9 +8615,9 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD149" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD149" "CREATOR" "Tera"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD149" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD150" "" "Modded Connous Map"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD150" "FILE1" "\data\gfx\gui\map_jpg\minimap_Iria_connous_mgFree_2021_kor.jpg"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD150" "FILE1" "\data\gfx\gui\map_jpg\minimap_Iria_connous_2023_kor.jpg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD150" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD150" "CREATOR" "Arcane & kirbysama"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD150" "CREATOR" "Arcane, kirbysama & Warsen"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD150" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD151" "" "Modded Ant Hell Map"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD151" "FILE1" "\data\gfx\gui\map_jpg\minimap_iria_connous_underworld.jpg"
@@ -8599,17 +8627,17 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD151" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD152" "" "Modded Courcle Map"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD152" "FILE1" "\data\gfx\gui\map_jpg\minimap_Iria_courcle_mgFree_2021_kor.jpg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD152" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD152" "CREATOR" "Arcane & kirbysama"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD152" "CREATOR" "Arcane, kirbysama & Warsen"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD152" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD153" "" "Modded Physis Map"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD153" "FILE1" "\data\gfx\gui\map_jpg\minimap_Iria_Physis_mgFree_2021_kor.jpg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD153" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD153" "CREATOR" "Arcane & kirbysama"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD153" "CREATOR" "Arcane, kirbysama & Warsen"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD153" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD154" "" "Modded Shadow Realm Abb Neagh Map"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD154" "FILE1" "\data\gfx\gui\map_jpg\minimap_taillteann_abb_neagh_mgfree_eng.jpg"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD154" "FILE1" "\data\gfx\gui\map_jpg\minimap_taillteann_abb_neagh_2017CHR_ENG.jpg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD154" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD154" "CREATOR" "Rydian"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD154" "CREATOR" "Rydian & Warsen"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD154" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD155" "" "Modded Shadow Realm Taillteann Map"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD155" "FILE1" "\data\gfx\gui\map_jpg\minimap_taillteann_eng_rep.jpg"
@@ -8642,14 +8670,14 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD160" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD160" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD160" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD161" "" "Modded Sen Mag Map"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD161" "FILE1" "\data\gfx\gui\map_jpg\minimap_senmag_mgfree_eng.jpg"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD161" "FILE1" "\data\gfx\gui\map_jpg\minimap_senmag_eng.jpg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD161" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD161" "CREATOR" "Arcane & kirbysama"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD161" "CREATOR" "Arcane, kirbysama"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD161" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD162" "" "Modded Sen Mag Map 2"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD162" "FILE1" "\data\gfx\gui\map_jpg\minimap_senmag_eng.jpg"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD162" "FILE1" "\data\gfx\gui\map_jpg\minimap_senmag_2017CHR_ENG.jpg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD162" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD162" "CREATOR" "Arcane & kirbysama"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD162" "CREATOR" "Arcane, kirbysama & Warsen"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD162" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD163" "" "Blacksmith Minigame Simplification"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD163" "FILE1" "\data\gfx\gui\blacksmith.dds"
@@ -10586,6 +10614,20 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD457" "FILE146" "\data\gfx\scene
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD457" "FILES" "146"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD457" "CREATOR" "Aahz"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD457" "DESCRIPTION" "Removes animations and simplify graphics in Festia"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "" "Commerce Map Guides"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "FILE1" "\data\gfx\gui\map_jpg\minimap_dugald_2017AFE_eng_01.jpg"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "FILE2" "\data\gfx\gui\map_jpg\minimap_dunbarton_2017AFE_eng.jpg"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "FILE3" "\data\gfx\gui\map_jpg\minimap_emainmacha_2019CHR_kor.jpg"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "FILE4" "\data\gfx\gui\map_jpg\minimap_gairech_2022_kor.jpg"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "FILE5" "\data\gfx\gui\map_jpg\minimap_Iria_zardine_hotspring_mgFree_2021_kor.jpg"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "FILE6" "\data\gfx\gui\map_jpg\minimap_taillteann_mgFree_ENG.jpg"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "FILE7" "\data\gfx\gui\map_jpg\minimap_taillteann_sliab_cuilin_2017CHR_ENG.jpg"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "FILE8" "\data\gfx\gui\map_jpg\minimap_Tara_mgFree_ENG.jpg"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "FILE9" "\data\gfx\gui\map_jpg\minimap_Tara_N_Field_eng.jpg"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "FILE10" "\data\gfx\gui\map_jpg\minimap_Tara_SE_Field_mgFree_ENG.jpg"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "FILES" "10"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "CREATOR" "Warsen"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "DESCRIPTION" "Commerce Map Guides"
   ;Under WinXP this creates two separate buttons: "Modify" and "Remove".
   ;"Modify" will run installer and "Remove" will run uninstaller.
    ${GetSize} "$INSTDIR\Data\" "/S=0K" $0 $1 $2

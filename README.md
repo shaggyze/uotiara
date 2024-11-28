@@ -181,6 +181,7 @@ Note: Some mods of this are not included in Official Tiara, but I think they des
 99. poidoe's Shadow Mission Boards
 100. Pot and extraterrestrial's Feth Indicator
 101. Phy's Character Condition FX/Enhancements
+102. Warsen's commerce map guides
 
 >>To restore things, find the corresponding files in the data folder (or whatever directory you use) and delete/remove/replace to modify them to fit your preferences, delete uotiara_00001.it in the package folder or use the installer/uninstaller.
 

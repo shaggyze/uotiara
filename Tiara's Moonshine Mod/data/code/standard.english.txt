@@ -20,9 +20,9 @@ camputil.2	The Camping Kit was added to the Personal Shop.
 chainskilldesc.1	You can use this skill after using stage {0} Combo.
 commercedescmgr.1	.
 commercedescmgr.2	Plays special background music full of holiday cheer.
-compareskilllevelhandler.1	If the rank of {0} is dan {1}
-compareskilllevelhandler.2	If the rank of {0} is dan {1} or higher
-compareskilllevelhandler.3	If the rank of {0} is dan {1} or lower
+compareskilllevelhandler.1	If the rank of {0} is Dan {1}
+compareskilllevelhandler.2	If the rank of {0} is Dan {1} or higher
+compareskilllevelhandler.3	If the rank of {0} is Dan {1} or lower
 compareskilllevelhandler.4	While in Commerce with {0} Rank {1} or higher
 compareskilllevelhandler.5	While in Commerce with {0} Rank {1} or higher
 compareskilllevelhandler.6	when the {0} Technique is Lv. {1} or higher
@@ -717,7 +717,7 @@ mabinogi_privatefarmdesc.20	Protection
 mabinogi_privatefarmdesc.21	Magic Protection
 mabinogi_privatefarmdesc.22	Combat EXP Increase
 mabinogi_privatefarmdesc.23	Movement Speed
-mabinogi_privatefarmdesc.24	크리티컬 상한 증가
+mabinogi_privatefarmdesc.24	Critical Limit Boost
 mabinogi_propentity.1	프랍 ClassID를 바꾸려 합니다. objectID: %d 이전 ClassID: %d 바뀌는 ClassID: %d
 mabinogi_shadowmissiondesc.1	Basic
 mabinogi_shadowmissiondesc.2	Int.
