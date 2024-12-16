@@ -1,4 +1,12 @@
-﻿autobotdescmgr.1	Combat EXP Bonus +{0}%
+﻿astrologistdescmgr.1	The {0} effect cannot be slotted here.
+astrologistdescmgr.2	This effect is not compatible with the {0} skill.
+astrologistdescmgr.3	 Aspect
+astrologistdescmgr.4	 Aspect
+astrologistdescmgr.5	Offense
+astrologistdescmgr.6	Support
+astrologistdescmgr.7	Control
+astrologistdescmgr.8	Fortune
+autobotdescmgr.1	Combat EXP Bonus +{0}%
 autobotdescmgr.2	Movement Speed +{0}%
 autobotdescmgr.3	{0}
 autobotdescmgr.4	Critical Damage +{0}%
@@ -246,6 +254,7 @@ interface_item.2	Empty Music Scores cannot be included.
 interface_item.3	Music Scores with no uses left cannot be included.
 interface_item.4	 (Not Activated)
 interface_item.5	Dan {0}
+interface_item.6	Battle Astrology Talent Skill Damage +{0}%
 interface_minigame.1	You are currently a pet and cannot participate in mini-games.
 interface_minigame.2	Cannot start a mini-game while unconscious.
 interface_minigame.3	Cannot start a mini-game while using a skill.
@@ -497,6 +506,8 @@ interface_standardapi_util.40	Requires a bow or a crossbow.
 interface_standardapi_util.41	You can't use this weapon anymore.
 interface_standardapi_util.42	You need more arrows or bolts.
 interface_standardapi_util.43	This skill cannot be used with this weapon.
+interface_standardapi_util.44	You are not in the Stellar Citadel.
+interface_standardapi_util.45	Scythe
 itemenhancedescmgr.1	Upgrading to {0}, type {1} level {2}.\n
 itemenhancedescmgr.2	Converting {0}, type {1} level {2} to type {3} level {4}.\n
 itemenhancedescmgr.3	Upgrading to {0} level {1}.\n
@@ -772,6 +783,7 @@ mabinogi_talent.25	Novice
 mabinogi_talent.26	Chain Slash
 mabinogi_talent.27	Pet Training
 mabinogi_talent.28	Glyphwright
+mabinogi_talent.29	Battle Astrology
 mabinovelmgr.1	Mysterious Detective
 mastersordereventdescmgr.1	The event is not currently in progress.
 mastersordereventdescmgr.2	You do not have the required item.

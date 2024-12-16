@@ -555,6 +555,60 @@ pli_arbeitrewardframe.1	Remaining: {0}
 pli_arbeitview2.1	Openings Available: {0}
 pli_arbeitview2.2	Time: %s %02u:00 - %s %02u:00
 pli_arbeitview2.3	Times Completed: {0}
+pli_astrologistdecksettingtooltipview.1	{0} (Grade {1})
+pli_astrologistdecksettingview.1	You cannot change your hand of cards outside of the Stellar Citadel.
+pli_astrologistdecksettingview.2	You cannot place two Wheel of Fortune cards in a row.
+pli_astrologistdecksettingview.3	You must have an Orb equipped to draw and activate cards in battle.
+pli_astrologistgrandconjunctioneffectframe.1	Aspect: {0}
+pli_astrologistgrandconjunctioneffectframe.2	\n\n<color=1>Requirements</color>
+pli_astrologistgrandconjunctioneffectframe.3	\n- {0} {1} or higher
+pli_astrologistgrandconjunctioneffectframe.4	\n- Dominant Aspect set to {0}
+pli_astrologistgrandconjunctioneffectframe.5	\n- {0} effect applied to the skill
+pli_astrologistgrandconjunctioneffectframe.6	\n- Cannot be slotted together with: 
+pli_astrologistgrandconjunctioneffectframe.7	\n   {0} effect
+pli_astrologistgrandconjunctioneffectframe.8	<color=1>Effect When Applied</color>\n
+pli_astrologistgrandconjunctioneffectframe.9	- {0}\n  {1}\n
+pli_astrologistgrandconjunctionsingleslotframe.1	Aspect: {0}
+pli_astrologistgrandconjunctionsingleslotframe.2	{0}\n{1}\n\n{2}\n\n<color=2>(Right-click to remove)</color>
+pli_astrologistgrandconjunctiontooltipview.1	Aspect: <color={0}>{1}</color>
+pli_astrologistgrandconjunctiontooltipview.2	 (Shifted Aspect)
+pli_astrologistgrandconjunctionview.1	Would you like to load Configuration {0}?\nAny unsaved changes to the current configuration will be lost.
+pli_astrologistgrandconjunctionview.2	Note
+pli_astrologistgrandconjunctionview.3	Save the current arrangement to Configuration {0}\nand set as your active combat configuration?
+pli_astrologistgrandconjunctionview.4	Note
+pli_astrologistgrandconjunctionview.5	Set the current arrangement as your active combat configuration?
+pli_astrologistgrandconjunctionview.6	Note
+pli_astrologistgrandconjunctionview.7	There are no more available nodes where the {0} effect can be slotted.
+pli_astrologistgrandconjunctionview.8	All Skills
+pli_astrologistgrandconjunctionview.9	Common
+pli_astrologistgrandconjunctionview.10	Config {0}
+pli_astrologistgrandconjunctionview.11	You cannot change skill effects outside the Stellar Citadel.
+pli_astrologistgrandconjunctionview.12	There are no more available nodes where the {0} effect can be slotted.\nReview the conditions required to utilize this effect.
+pli_astrologistgrandconjunctionview.13	Cannot be slotted together with the [{0}] effect.
+pli_astrologistgrandconjunctionview.14	The [{0}] effect must be slotted first.
+pli_astrologistgrandconjunctionview.15	This effect has already been slotted.
+pli_astrologistgrandconjunctionview.16	You cannot place any more.
+pli_astrologistgrandconjunctionview.17	This effect is only available when the Dominant Aspect is {0}.
+pli_astrologistgrandconjunctionview.18	This layout cannot be used.
+pli_astrologistgrandconjunctionview.19	The connected slot must be emptied first.
+pli_astrologistgrandconjunctionview.20	Dominant: {0}
+pli_astrologistgrandconjunctionview.21	The Dominant Aspect has changed to {0}.
+pli_astrologistgrandconjunctionview.22	Effects: {0}/{1}
+pli_astrologistgrandconjunctionview.23	No effects have been applied.
+pli_astrologistgrandconjunctionview.24	You cannot change skill effects outside the Stellar Citadel.
+pli_astrologistgrandconjunctionview.25	Slotting this effect will change the Dominant Aspect to {0}.\nSome effects that require the current Dominant Aspect will be unequipped.\nContinue?
+pli_astrologistgrandconjunctionview.26	Note
+pli_astrologistgrandconjunctionview.27	Removing this effect will change the Dominant Aspect to {0}.\nSome effects that require the current Dominant Aspect will be unequipped.\nContinue?
+pli_astrologistgrandconjunctionview.28	Note
+pli_astrologistgrandconjunctionview.29	Would you like to save the current arrangement as Configuration {0}?
+pli_astrologisthandview.1	{0}/{1}
+pli_astrologistsynergyviewboxframe.1	{1} {0} Aspect Cards
+pli_astrologistweaponeventview.1	Progress
+pli_astrologistweaponeventview.2	Complete
+pli_astrologistweaponeventview.3	The owl is delivering the quest scroll.
+pli_astrologistweaponeventview.4	Unlocked upon completing the '{0}' quest.
+pli_astrologistweaponeventview.5	Obtained upon completing the '{0}' mission.
+pli_astrologistweaponeventview.6	You have already completed this mission.
 pli_attendances10gifticonframe.1	%d time(s)
 pli_auctioninventoryview.1	Auction Item
 pli_auctioninventoryview.2	Accept
@@ -736,6 +790,7 @@ pli_beautyslottab.15	You currently have <color=2><outlinecolor=3>{0}</outlinecol
 pli_beautyslottab.16	<color=5>* Pon will be deducted from your current total when you click 'OK'.</color>
 pli_beautyslottab.17	<color=5>* An additional slot will be unlocked immediately once the Pon has been spent.</color>
 pli_beautyslottab.18	<color=5>* The transaction cannot be canceled once the purchase has been completed.</color>
+pli_beautyslottab.19	\n\nThe appearance below is not saved in the Appearance Slot.\nThis appearance cannot be restored if it changes.\n\n<color=2>{0}</color>\n<color=5>(Color save status is not displayed. Please check before changing.)</color>
 pli_beautyslotviewboxframe.1	You cannot use appearance data for that gender.
 pli_bingo2019view.1	{0} Row(s)
 pli_bingo2019view.2	Each play requires three Bingo Coins.
@@ -1385,6 +1440,7 @@ pli_conditionsupportbuffslotview.2	Aspect of Fortification\n\nOn party members:\
 pli_conditionsupportbuffslotview.3	Aspect of Swiftness\n\nOn party members:\n<color=1>Movement Speed +{0}%\nAttack Delay -{1}%\nRanged Aiming Speed +{2}%\nMagic Charging Speed +{3}%\nAlchemy Charging Speed +{4}%\nDoes not stack with [Relentless Assault]\n(When used on self, only the last used Technique effects are applied)</color>\n\nOn monsters:\n<color=1>Movement Speed -{0}%\nAttack Delay +{1}%\nRanged Aiming Speed -{2}%\nMagic Charging Speed -{3}%\nAlchemy Charging Speed -{4}%</color>\n\n
 pli_conditionsupportbuffslotview.4	Aspect of Focus\n\nOn party members:\n<color=1>Removes aggro for {0} sec\nCannot be re-used on same party member again for 30 sec and cannot be used on party members with [Tenacious Taunt] active</color>\n\nOn monsters:\n<color=1>Removes aggro for {0} sec\n(Can be used up to 3 times per monster)</color>\n\n
 pli_conditionsupportbuffslotview.5	Aspect of Reversal\n\nOn party members:\n<color=1>Restores {0}% of damage as HP (up to {2} times)</color>\n\nOn monsters:\n<color=1>Deals {1}% of damage as additional damage (up to {2} times)</color>\n\n
+pli_configurationhandlers_play.41	Locks the position of the Astrology Cards UI.
 pli_continentmapview.1	Petitioner
 pli_continentmapview.2	Blessing of Cairbre\\nTime Left: {0} min {1} sec
 pli_continentmapview.3	주위의 파티원과 함께 {0}{로} 이동하시겠습니까?\n[아니오]를 누를 경우 혼자 이동합니다.
@@ -2177,9 +2233,19 @@ pli_freeseasonguidebookhistoryview.9	{0} times
 pli_freeseasonguidebookhistoryview.10	{0} times
 pli_freeseasonguidebookhistoryview.11	{0} times
 pli_freeseasonguidebookselectframe.1	{0} ({1})
+pli_freeseasonguidebookselectview.1	You have selected the following buffs.\n\n<color=2>{0}</color>\nSet these buffs as your weekly buffs?\nYou cannot cancel after applying them, and they will reset at 7:00 AM (Server Time) next Thursday.
+pli_freeseasonguidebookselectview.2	Apply
+pli_freeseasonguidebookselectview.3	Close
+pli_freeseasonguidebookselectview.4	Please select 5 effects and try again.
+pli_freeseasonguidebookselectview.5	You've reached the maximum number of effects. You cannot add any more.
+pli_freeseasonguidebookselectview.6	In order to apply your weekly selected buffs, you must register a main character for the Brilliantly Shining Star event within the account.
+pli_freeseasonguidebookselectview.7	The item will only be given to the main character of the Brilliantly Shining Star event. This character will only receive buffs and will not receive any items.
 pli_freeseasonguidebookview.1	Finale - All Buffs Applied
 pli_freeseasonguidebookview.2	This week's selected Buff: None (Select a Buff by talking to the NPC)
 pli_freeseasonguidebookview.3	This week's selected Buff: {0}
+pli_freeseasonguidebookview.4	Quest Progress
+pli_freeseasonguidebookview.5	You can choose from among the following buffs during the event.\n\n<color=1>{0}</color>\n\nYou can choose <color=1>5</color> buffs you want to set for your weekly buffs.\n◆You cannot cancel after applying them, and they will reset at 7:00 AM (Server Time) next Thursday.
+pli_freeseasonguidebookview.6	You currently do not have any quests in progress.\nYou can receive a quest from {0}.
 pli_freestylejamjoinview.1	You cannot enter before the host.
 pli_freestylejamjoinview.2	You are too far away from where the Freestyle Jam is taking place.
 pli_furniturecontextmenuview.1	You can't retrieve a workshop bench while a research task is in progress.\nComplete or stop the research first.
@@ -2550,6 +2616,8 @@ pli_helperapiskill.30	Fynn Bead
 pli_helperapiskill.31	Pounces and play-attacks the ground, placing a pentacle at that location for {0} sec. If the Purrling's owner stands within the pentacle it grants them a special blessing that increases Min Damage and Max Damage by {1}.
 pli_helperapiskill.32	Pounces and play-attacks the ground, placing a pentacle at that location for {0} sec. If the Purrling's owner stands within the pentacle it grants them a special blessing that increases Magic Attack by {1} and Fire/Wind/Earth/Water Alchemic Damage by {2}.
 pli_helperapiskill.33	Exposes the weak points of monsters within {0} meters of the pet, causing critical hits to deal an additional {1}% Bonus Damage to those affected.
+pli_helperapiskill.34	Astro
+pli_helperapiskill.35	Arcana
 pli_helprequestview.1	You can select a quest to request help with.
 pli_helprequestview.2	Would you like to request help with your current quest?
 pli_helprequestview.3	Select a quest to request help for.
@@ -3449,7 +3517,7 @@ pli_makeampulview.3	Instrument
 pli_makeampulview.4	Hair
 pli_makeampulview.5	Stardust
 pli_makeampulview.6	Pet
-pli_makecustomampulview.1	{0} 만들기
+pli_makecustomampulview.1	Create {0}
 pli_makepotteryview.1	Only materials for pots can be added.
 pli_makepotteryview.2	Ends after completing the current pot
 pli_makepotteryview.3	Auto-craftable Quantity: {0}
@@ -3501,6 +3569,7 @@ pli_mikugachaponview.6	Spins decreased.
 pli_mikugachaponview.7	Please accumulate more Spins.
 pli_mikugachaponview.8	Not enough Spins.
 pli_mikugachaponview.9	[Penalty: Lose a Spin]\nYou won't get your next spin.
+pli_mileageshopitembuyview.7	<color=2>Your current gender or race cannot use this coupon.\nWould you still like to purchase?</color>
 pli_minigamealwaysmainview.1	Single-player
 pli_minigamealwaysmainview.2	Multiplayer
 pli_minigamepartymaketabframe.1	The password must be 8 or less alphabetic characters.
@@ -4713,6 +4782,7 @@ pli_selectidview.2	{0}개의 마비노기 ID가 존재합니다.\n로그인할 I
 pli_selectidview.3	'마비노기'를 플레이 하려면 마비노기 아이디가 필요합니다.\n최초 로그인시 마비노기 아이디가 자동 생성됩니다.\n마비노기 아이디 리스트에서 선택하신 후,\n'접속'을 눌러서 게임을 시작하세요.\n마비노기 아이디는 최대 10개까지 생성할 수 있습니다.
 pli_selectidview.4	마비노기 아이디를 생성하시겠습니까?\n최대 10개까지 생성할 수 있습니다.
 pli_selectidview.5	더 이상 계정을 생성할 수 없습니다.
+pli_selectinventoryitemview.1	{0} x1
 pli_selectlistboxview.1	Select {0}?
 pli_selectrewardview.1	{0} Coupon(s)\nChance {1}%
 pli_selectrewardview.2	Try your luck on this item?\n{0} Coupon(s) will be used.
@@ -5006,6 +5076,8 @@ pli_talentmainview.43	Would you like to go to Duncan?
 pli_talentmainview.44	<color=5><outlinecolor=6>(Locked)</outlinecolor></color>\n
 pli_talentmainview.45	Unlocked after clearing the 'Lighting the Arcana's Flame' quest.
 pli_talentmainview.46	The total level for all Arcana Talents.\nA character's stat limits are raised based on the total level.\n\n<color=5><Current Maximum Effective Arcana Level: {0}></color>
+pli_talentmainview.47	When equipped with a Scythe, 
+pli_talentmainview.48	When equipped with a Wand or Staff, 
 pli_taskquestboarddetailview.1	Success Rate: 
 pli_taskquestboarddetailview.2	{0}-only Mission
 pli_taskquestboarddetailview.3	Common Mission
@@ -5431,8 +5503,6 @@ pli_treasureboxevent.3	Close
 pli_treasureboxevent.4	Buy Key
 pli_treasurerestoration.1	A treasure that needs to be restored is required.
 pli_treasurerestoration.2	You need a Catalyst that's required for restoration.
-pli_tutorialpopupview.1	닫기
-pli_tutorialpopupview.2	다음
 pli_typeminigameview.1	score : {0} / {1}
 pli_upgradeboxitem.0	Increased collection speed
 pli_upgradeboxitem.1	Increased repair fee
@@ -6182,7 +6252,7 @@ pli_windowhinventory.43	This bag contains items obtained through bingo and throu
 pli_windowhinventory.44	Point Inventory\nThis bag contains items that you haven't claimed from past events, and items you obtained through the use of paid products.
 pli_windowhinventory.46	All expired items will be destroyed, and items expiring soon will be checked.
 pli_windowhinventory.47	All expired items will be destroyed, and items expiring soon will be checked.
-pli_windowhinventory.48	This bag can be used like a normal bag during Master Plan events. Once the event ends, you can only withdraw items from it, similar to the Mabinogi VIP Inventory tab.
+pli_windowhinventory.48	This bag is available for use during events that provide extra storage space. Once the event has ended, you can only withdraw items from it, similar to the Mabinogi VIP Inventory tab.
 pli_windowhinventory.49	You can equip Stardust.
 pli_windowhinventory.50	Group same items with different expiration dates.
 pli_windowhinventory.51	Set the order in which your bags will be filled with items you acquire.
@@ -6389,6 +6459,8 @@ pli_windowlogin.51	마비노기ID는 영문/숫자만 입력할 수 있습니다
 pli_windowlogin.54	일일 이용 가능한 게임 시간대를 초과했습니다. 휴식과 공부에 주의하시길 바랍니다.
 pli_windowlogin.56	관리자에 의해 로그아웃 되었습니다. 021-34144567 고객센터로 연락 바랍니다.
 pli_windowlogin.57	인증하러 가기
+pli_windowlogin.58	등록하기
+pli_windowlogin.59	닫기
 pli_windowlostandfound.1	Close
 pli_windowlostnfoundpocket.1	Price Info
 pli_windowmailboxframes.1	From
@@ -6899,6 +6971,8 @@ pli_windowoptiontabsetcframe.67	View Field Raid Announcements
 pli_windowoptiontabsetcframe.68	Select to show Field Raid announcements on the screen.
 pli_windowoptiontabsetcframe.69	View Field Raid Announcements
 pli_windowoptiontabsetcframe.70	Select to show Field Raid announcements on the screen.
+pli_windowoptiontabsetcframe.75	Lock Astrology Cards UI
+pli_windowoptiontabsetcframe.76	Locks the position of the Astrology Cards UI.
 pli_windowoptiontabsetcframe.autohide_ssb	Lock Extra Skill Slot
 pli_windowoptiontabsetcframe.autohide_ssb_tp	Locks the extra skill slot.\nLocked skills cannot be removed from the window. Prevents window from being moved.
 pli_windowoptiontabsetcframe.l_ssb	Show Extra Skill Slot 1
@@ -7715,6 +7789,8 @@ pli_windowskillbutton.7	End Transformation
 pli_windowskillbutton.8	\n\nNote: <color=1>{0}</color>
 pli_windowskillbutton.9	<color=2>No Mana Crystallization Skill</color>
 pli_windowskillbutton.10	Swap equipment with {0}
+pli_windowskillbutton.11	\n\n<color=1>Celestial Conjunction ({0})</color>
+pli_windowskillbutton.12	\nNo applied effects
 pli_windowskilldesc.1	How to Advance Dan
 pli_windowskilldesc.2	code.interface.window.skill_desc.msg_skill_desc_title
 pli_windowskilldesc.3	To attain a higher dan, you must gain Training EXP. If you do not take advancement tests once every four weeks in real time, you will lose as much Dan EXP gained in one training session. If your Dan EXP reaches 0 at the current dan, no more points will be lost; you will not be demoted to a lower dan.
@@ -7726,6 +7802,7 @@ pli_windowskilldesc2.2	Talent EXP
 pli_windowskilldesc2.3	Advancement Training Method
 pli_windowskilldesc2.4	Perk Information
 pli_windowskilldesc2.5	Perk Explanation
+pli_windowskilldesc2.6	No effects have been applied.
 pli_windowskillframe2.1	<color=2>Learn Skill</color>
 pli_windowskillframe2.2	<color=2>Advance</color>
 pli_windowskillframe2.3	<color=2>Train</color>

@@ -7672,14 +7672,14 @@
 8993	This honorable title will amplify the effects of a Puppetry skill's master title, as long as the Puppetry skill's rank is Dan 1 or higher.
 8994	This honorable title will amplify the effects of a Dual Gun skill's master title, as long as the Dual Gun skill's rank is Dan 1 or higher.
 8995	This honorable title will amplify the effects of a Ninja skill's master title, as long as the Ninja skill's rank is Dan 1 or higher.
-8996	When the Life skill reaches Dan 1, you are awarded the advancement title.
-8997	When the Combat skill reaches Dan 1, you are awarded the advancement title.
-8998	When the Magic skill reaches Dan 1, you are awarded the advancement title.
-8999	When the Alchemy skill reaches Dan 1, you are awarded the advancement title.
-9000	When the Martial Arts skill reaches Dan 1, you are awarded the advancement title.
-9001	When the Puppetry skill reaches Dan 1, you are awarded the advancement title.
-9002	When the Dual Gun skill reaches Dan 1, you are awarded the advancement title.
-9003	When the Ninja skill reaches Dan 1, you are awarded the advancement title.
+8996	You will be awarded the advancement title upon reaching Dan 1 with any Life skill.
+8997	You will be awarded the advancement title upon reaching Dan 1 with any Combat skill.
+8998	You will be awarded the advancement title upon reaching Dan 1 with any Magic skill.
+8999	You will be awarded the advancement title upon reaching Dan 1 with any Alchemy skill.
+9000	You will be awarded the advancement title upon reaching Dan 1 with any Martial Arts skill.
+9001	You will be awarded the advancement title upon reaching Dan 1 with any Puppetry skill.
+9002	You will be awarded the advancement title upon reaching Dan 1 with any Dual Gun skill.
+9003	You will be awarded the advancement title upon reaching Dan 1 with any Ninja skill.
 9004	Amplifies effect of the Life master title
 9005	Amplifies effect of the Combat master title
 9006	Amplifies effect of the Magic master title
@@ -8048,7 +8048,7 @@
 9375	the Slasher of the Night who is
 9376	the Slasher of the Night who is
 9377	This honorable title will amplify the effects of a master title for a Chain Slash skill, as long as the Chain Slash skill's rank is Dan 1 or higher.
-9378	When the Chain Slash skill reaches Dan 1, you are awarded the advancement title.
+9378	You will be awarded the advancement title upon reaching Dan 1 with any Chain Slash skill.
 9379	Amplifies the effects of the Chain Slash master title
 9380	Snow Showers and Flowers
 9381	Snow Showers and Flowers
@@ -14867,6 +14867,83 @@
 16540	2024 두근두근 아일랜드 이벤트 진행 시 지급되는 매력적인 2차 타이틀이다.다른 일반 타이틀과 함께 사용할 수 있다.
 16541	2024 두근두근 아일랜드 이벤트 진행 시 지급되는 매력적인 2차 타이틀이다.다른 일반 타이틀과 함께 사용할 수 있다.
 16542	최대 대미지 28 증가\n마법 공격력 44 증가
+16543	the Aspiring Guide of Starlight
+16544	the Aspiring Guide of Starlight
+16545	the Aspiring Guide of Starlight
+16546	the Aspiring Guide of Starlight
+16547	A title for those who choose Battle Astrology as their first active Talent. This title can no longer be used when you are not a beginner.
+16548	A title for those who choose Battle Astrology as their first active Talent. This title can no longer be used when you are not a beginner.
+16549	Magic Attack +15\nMax MP +20\nMax HP +20
+16550	the Starspoken who is
+16551	the Starspoken who is
+16552	the Starspoken who is
+16553	the Starspoken who is
+16554	This honorable title will amplify the effects of a Battle Astrology skill's master title, as long as the Battle Astrology skill's rank is Dan 1 or higher.
+16555	You will be awarded the advancement title upon reaching Dan 1 with any Battle Astrology skill.
+16556	Amplifies effect of a Battle Astrology skill's master title
+16557	the Master of Astral Reave
+16558	the Master of Nova Blast
+16559	the Master of Stellar Surge
+16560	the Master of Meridian Sweep
+16561	the Master of Orbital Pulse
+16562	the Master of Starlight Veil
+16563	the Master of Gravity Well
+16564	the Master of Battle Astrology
+16565	the Master of Celestial Conjunction
+16566	the Master of Astral Reave
+16567	the Master of Nova Blast
+16568	the Master of Stellar Surge
+16569	the Master of Meridian Sweep
+16570	the Master of Orbital Pulse
+16571	the Master of Starlight Veil
+16572	the Master of Gravity Well
+16573	the Master of Battle Astrology
+16574	the Master of Celestial Conjunction
+16575	the Master of Astral Reave
+16576	the Master of Nova Blast
+16577	the Master of Stellar Surge
+16578	the Master of Meridian Sweep
+16579	the Master of Orbital Pulse
+16580	the Master of Starlight Veil
+16581	the Master of Gravity Well
+16582	the Master of Battle Astrology
+16583	the Master of Celestial Conjunction
+16584	the Master of Astral Reave
+16585	the Master of Nova Blast
+16586	the Master of Stellar Surge
+16587	the Master of Meridian Sweep
+16588	the Master of Orbital Pulse
+16589	the Master of Starlight Veil
+16590	the Master of Gravity Well
+16591	the Master of Battle Astrology
+16592	the Master of Celestial Conjunction
+16593	An honorable title awarded to one who has reached the highest level available in Astral Reave.
+16594	An honorable title awarded to one who has reached the highest level available in Nova Blast.
+16595	An honorable title awarded to one who has reached the highest level available in Stellar Surge.
+16596	An honorable title awarded to one who has reached the highest level available in Meridian Sweep.
+16597	An honorable title awarded to one who has reached the highest level available in Orbital Pulse.
+16598	An honorable title awarded to one who has reached the highest level available in Starlight Veil.
+16599	An honorable title awarded to one who has reached the highest level available in Gravity Well.
+16600	An honorable title awarded to one who has reached the highest level available in Battle Astrology Mastery.
+16601	An honorable title awarded to one who has reached the highest level available in Celestial Conjunction.
+16602	Reach 100 Training EXP for Astral Reave Rank 1 to receive a title that proves your mastery.
+16603	Reach 100 Training EXP for Nova Blast Rank 1 to receive a title that proves your mastery.
+16604	Reach 100 Training EXP for Stellar Surge Rank 1 to receive a title that proves your mastery.
+16605	Reach 100 Training EXP for Meridian Sweep Rank 1 to receive a title that proves your mastery.
+16606	Reach 100 Training EXP for Orbital Pulse Rank 1 to receive a title that proves your mastery.
+16607	Reach 100 Training EXP for Starlight Veil Rank 1 to receive a title that proves your mastery.
+16608	Reach 100 Training EXP for Gravity Well Rank 1 to receive a title that proves your mastery.
+16609	Reach 100 Training EXP for Battle Astrology Mastery Rank 1 to receive a title that proves your mastery.
+16610	Reach 100 Training EXP for Celestial Conjunction Rank 1 to receive a title that proves your mastery.
+16611	Magic Attack +25\nMax MP +50
+16612	Magic Attack +25\nIntelligence +30
+16613	Magic Attack +25\nMax HP +50
+16614	Magic Attack +25\nMax Stamina +50
+16615	Magic Attack +25\nLuck +30
+16616	Max MP +50\nMax HP +30\nMax Stamina +30
+16617	Movement Speed +1%
+16618	Magic Attack +50
+16619	Intelligence +20\nLuck +10\nDexterity +20
 16620	따스한 사랑으로 가득한
 16621	따스한 사랑으로 가득한
 16622	따스한 사랑으로 가득한
@@ -14902,6 +14979,27 @@
 16666	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 16667	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 16668	Luck +30
+16669	the Master of Hand of Destiny
+16670	the Master of Fate Foretold
+16671	the Master of Stellar Citadel
+16672	the Master of Hand of Destiny
+16673	the Master of Fate Foretold
+16674	the Master of Stellar Citadel
+16675	the Master of Hand of Destiny
+16676	the Master of Fate Foretold
+16677	the Master of Stellar Citadel
+16678	the Master of Hand of Destiny
+16679	the Master of Fate Foretold
+16680	the Master of Stellar Citadel
+16681	An honorable title awarded to one who has reached the highest level available in Hand of Destiny.
+16682	An honorable title awarded to one who has reached the highest level available in Fate Foretold.
+16683	An honorable title awarded to one who has reached the highest level available in Stellar Citadel.
+16684	Reach 100 Training EXP for Hand of Destiny Rank 1 to receive a title that proves your mastery.
+16685	Reach 100 Training EXP for Fate Foretold Rank 1 to receive a title that proves your mastery.
+16686	Reach 100 Training EXP for Stellar Citadel Rank 1 to receive a title that proves your mastery.
+16687	Intelligence +20\nLuck +20\nMax MP +20
+16688	Intelligence +20\nStrength +20
+16689	Intelligence +10\nDexterity +10
 16690	the Muse of an Artist
 16691	Erinn's Idol
 16692	the Muse of an Artist
@@ -14951,6 +15049,20 @@
 17044	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 17045	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 17046	행운 30 증가
+17075	별 위를 걷는
+17076	별을 품은
+17077	별 위를 걷는
+17078	별을 품은
+17079	별 위를 걷는
+17080	별을 품은
+17081	별 위를 걷는
+17082	별을 품은
+17083	운명 점성술사의 자질을 갖춘 자에게 지급되는 특별한 2차 타이틀. 기간이 만료되면 옵션 효과는 사라지지만 지속적으로 장착 및 소장이 가능하다. (기간 연장 불가능)
+17084	운명 점성술사의 이치를 모두 깨달은 자에게 지급되는 특별한 2차 타이틀.
+17085	운명 점성술사의 자질을 갖춘 자에게 지급되는 특별한 2차 타이틀. 기간이 만료되면 옵션 효과는 사라지지만 지속적으로 장착 및 소장이 가능하다. (기간 연장 불가능)
+17086	운명 점성술사의 이치를 모두 깨달은 자에게 지급되는 특별한 2차 타이틀.
+17087	솜씨 20 증가\n행운 20 증가\n채집 확률 5% 증가\n채집 속도 5% 증가\n교역 추가 이득 5%\n자동 낚시 성공률 증가\n이동 속도 1% 증가
+17088	마법 공격력 40 증가\n지력 10 증가\n솜씨 10 증가\n행운 10 증가
 17089	who Has the Zoomies
 17090	the Purrfect Cat Sofa
 17091	who Fetches the Finest Catnip
@@ -15014,10 +15126,31 @@
 17219	행운 30 증가
 17220	행운 30 증가
 17221	행운 30 증가
-17327	Primeval Winner
-17328	Primeval Winner
-17329	Primeval Winner
-17330	Primeval Winner
+17313	에린 1타 강사
+17314	Summa Cum Laude
+17315	에린 1타 강사
+17316	Summa Cum Laude
+17317	에린 1타 강사
+17318	Summa Cum Laude
+17319	에린 1타 강사
+17320	Summa Cum Laude
+17321	[마비노기 원데이 클래스 in 넥슨 PC방]에 참여하여 멋진 강의를 진행해주신 밀레시안에게 지급되는 타이틀.
+17322	[마비노기 원데이 클래스 in 넥슨 PC방]에 참여하여 멋진 플레이를 보여주신 밀레시안에게 지급되는 타이틀.
+17323	[마비노기 원데이 클래스 in 넥슨 PC방]에 참여하여 멋진 강의를 진행해주신 밀레시안에게 지급되는 타이틀.
+17324	[마비노기 원데이 클래스 in 넥슨 PC방]에 참여하여 멋진 플레이를 보여주신 밀레시안에게 지급되는 타이틀.
+17325	행운 30 증가
+17326	행운 30 증가
+17327	the Primeval Winner
+17328	the Primeval Winner
+17329	the Primeval Winner
+17330	the Primeval Winner
 17331	A title obtained from the Glenn Bearna Primeval Winter celebration challenge event.
 17332	Those who embody power, valor, and no small amount of tenacity can earn this title by clearing Glenn Bearna Primeval Winter during the Glenn Bearna Primeval Winter celebration challenge event period.
 17333	
+17411	the Birthday Bloomer
+17412	the Birthday Bloomer
+17413	the Birthday Bloomer
+17414	the Birthday Bloomer
+17415	A Title given to the Birthday Bloomers who joined Tamara's birthday stream.
+17416	A Title given to the Birthday Bloomers who joined Tamara's birthday stream.
+17417	

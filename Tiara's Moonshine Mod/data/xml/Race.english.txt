@@ -5724,7 +5724,7 @@
 7803	Astral Scooter
 7804	Succubus Queen
 7805	Astral Abyss Dragon
-7806	Astral Rudolf
+7806	Astral Rudolph
 7807	Astral Fox
 7808	Supakupa Wam-Bam
 7809	Brave Gummy Bear
@@ -10081,13 +10081,20 @@
 12433	Cwn Annwn
 12434	Guardian Cwn Annwn
 12435	Arbiter Cwn Annwn
+12436	Neal
+12437	Delaney
+12438	Astrologers' Camp
+12439	Neal
 12441	Icicle Sprite
 12445	Cailleach
 12446	Unfinished Reverie
+12447	Altar to the Stars
 12449	Unfinished Reverie
 12450	The Winter Tyrant
 12451	Whisper of Unending Winter
 12454	별빛 페어리 드래곤
+12455	Rockstar Scooter Imp
+12462	Campfire
 12463	Cwn Annwn
 12464	Guardian Cwn Annwn
 12465	Arbiter Cwn Annwn
@@ -10101,6 +10108,9 @@
 12493	애교부릴꺼양
 12494	심연의 하데스
 12495	스쿠터
+12496	Neal
+12497	Delaney
+12499	Negative Thoughts
 12504	리틀 케라우노스
 12505	Starbound Tuan
 12507	King of Cat Village
@@ -10110,7 +10120,12 @@
 12511	Lost Bishop Mini-Gem
 12512	Bishop from tha Streetz Mini-Gem
 12513	Sheriff Bishop Mini-Gem (Quest)
+12514	Dark Rat Man
+12515	Servant
 12516	Cat Village Exercise Wheel
 12517	Cat Village Meowry-go-Round
 12518	Cat Village Slide Tower
+12519	Servant
+12520	Servant
 12598	빛고래(크리에이터)
+12728	무등고래

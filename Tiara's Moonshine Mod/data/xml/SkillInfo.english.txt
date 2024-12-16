@@ -2907,8 +2907,8 @@
 4421	Spinning Slash
 4422	Enuma Elish
 4423	Smokescreen
-4424	This capsule is full of a foul powder that decreases enemy Defense and Protection, thus increasing the damage of your next attack!
-4425	This capsule is full of a foul powder that decreases enemy Defense and Protection, thus increasing the damage of your next attack!
+4424	Toss a smoke bomb made from a noxious powder that, when activated, temporarily decreases enemy Defense and Protection.
+4425	Toss a smoke bomb made from a noxious powder that, when activated, temporarily decreases enemy Defense and Protection.
 4426	Complete quest [The Crisis].
 4427	Skill Range
 4428	Smoke Range
@@ -3274,7 +3274,7 @@
 5120	You cannot use this skill right now. Proceed through the Storyline first.
 5121	You cannot use this skill right now. Proceed through the Storyline first.
 5122	You cannot use this skill right now. Proceed through the Storyline first.
-5123	When otherworldly power clashes with power from the gods of Erinn, it creates a quick blast of power that can damage enemies. Charge the otherworldly power to amplify it, making it more powerful and reach further. The most you charge it, the more damage you do and the more powerful your next Nova Obliteration will be.
+5123	When otherworldly power clashes with power from the gods of Erinn, it creates a quick blast of power that can damage enemies. Charge the otherworldly power to amplify it, increasing its power and range. A longer charge results in higher damage, and increases the power of your next Nova Obliteration.
 5124	This skill lets you instantly teleport your transformed body, vanishing from enemy sight even after they've seen you.
 5125	While Divine Blast relies on the clashing of power from two worlds to deal damage, Nova Obliteration takes it a step further by fueling the clash with the essence of Erinn, causing a powerful echoing of power that releases in a massive explosion of energy. This explosion will be more powerful if you first use Divine Blast or Alban Knight Crusader skills to amplify it.
 5129	Jack's Throw Snowball
@@ -4194,8 +4194,8 @@
 6255	Tornado Damage
 6256	Duration
 6257	Smokescreen
-6258	This capsule is full of a foul powder that decreases enemy Defense, Magic Defense, Protection, and Magic Protection, thus increasing the damage of your next attack!
-6259	This capsule is full of a foul powder that decreases enemy Defense, Magic Defense, Protection, and Magic Protection, thus increasing the damage of your next attack!
+6258	Toss a smoke bomb made from a noxious powder that, when activated, temporarily decreases enemy Defense, Magic Defense, Protection, and Magic Protection.
+6259	Toss a smoke bomb made from a noxious powder that, when activated, temporarily decreases enemy Defense, Magic Defense, Protection, and Magic Protection.
 6260	Complete quest: The Crisis
 6261	Skill Range
 6262	Smoke Radius
@@ -4600,6 +4600,17 @@
 6681	Achieve character level 100. If you are a novice without an active talent, try spending a little more time getting adjusted to the world.
 6682	You are blessed by Ladeca, the blue moon that shines in Erinn's night sky. This boon increases your Movement Speed and adds bonus damage to normal Talent skills. Skills empowered by Ladeca will lend their increased potency to the base damage of any Arcana skills that draw upon them. The longer you stay in this world, the more adept you'll become at manifesting this blessing.
 6683	Achieve character level 100. If you are a novice without an active talent, try spending a little more time getting adjusted to the world.
+6684	Astral Reave
+6685	Nova Blast
+6686	Stellar Surge
+6687	Meridian Sweep
+6688	Orbital Pulse
+6689	Starlight Veil
+6690	Gravity Well
+6691	Battle Astrology Mastery
+6692	Celestial Conjunction
+6693	Hand of Destiny
+6694	Fate Foretold
 6695	Light of Annihilation
 6696	Light of Destruction
 6697	Min Damage
@@ -4640,6 +4651,7 @@
 6737	Throw Snow
 6738	Temp
 6739	Temp
+6740	Stellar Citadel
 6741	Cailleach Icicle Drop
 6742	Cailleach Whisper of Unending Winter
 6743	Temp
@@ -4648,3 +4660,57 @@
 6746	Temp
 6747	Fianna Geimhridh Charge
 6748	Temp
+6749	A skill that transmits the force of an attack across a wide distance. One trained in the esoteric art of Battle Astrology uses their ability to sense the forces of cause and effect to bend the laws of causality. By opening a brief rift in subspace, the astrologer is able to inscribe the full force of their attack on the target as though the two were in close proximity.
+6750	A skill that creates and detonates a condensed orb of stellar energy to scathe a large area. Battle Astrologers can conjure these starlike spheres and propel them to a location of their choosing. As the gravitational forces holding the orb together are dispelled, the energy is released in a violent blast, dealing great damage to surrounding foes.
+6751	A skill that sends forth a shearing wave of stellar energy, striking all enemies in its path. The origins of this art are rooted in the concept of severing an entity from its fate, projecting a map of the constellations to guide the curved wave that rends those same links as it passes. The further the wave extends from its point of origin, the more its power will be diminished, until it eventually dissipates. By pressing and holding the skill's hotkey, you can extend the distance this skill can travel while retaining its full destructive power.
+6752	A skill in which the user quickly spins as they dash toward a chosen point, swinging their scythe in an unbroken radial arc capable of striking any enemy in its path up to three times. This movement draws inspiration from the rotation of the celestial bodies, and combines both movement and offense in a gracefully aggressive assault.
+6753	A skill that unleashes a quick burst of stellar energy accompanied by two proto-stars that quickly rotate around the caster. The surge of energy stuns the surrounding enemies as it passes through them, halting their attack while granting the astrologer an opportunity to take the offensive.
+6754	A skill that draws upon the constellations to bathe the caster's surroundings in starlight, weakening enemies' attacks while restoring allies' HP. The power of these astrological signs exert their influence upon each individual's fortune, amplifying positive connections to the astrologer in the form of boons and positive effects while blunting the strength of those who bear them ill will.
+6755	A skill that harnesses a potent gravitational fluctuation to quickly move to a desired location. The distance one can travel rapidly expands in the moments after the skill is cast.
+6756	Astrology is a field of study that draws upon knowledge gleaned from observing the stars to divine the potential fates of those living in Erinn. One skilled in the astrologer's arts goes beyond mere prediction, becoming capable of directing the forces of cause and effect in battle. Astrologers determine the most successful course of action by reading the fortunes of allies and enemies alike through the use of tarot cards and observing the stars. They wield scythes in battle, symbolizing their ability to sever a foe's connection to blessings and good fortune, as well as stellar magic that deals potent damage that is difficult to avoid.
+6757	A skill that calls upon an astrologer's sagacious knowledge of the heavens to augment the attributes of their skills. By altering the influence exerted by specific stars, they can modify the functionality of each of their abilities in a variety of ways. The representations of the stars in the constellations that govern each skill are known as 'Stella,' and depending on which Stella are most strongly expressed in the governing constellation, skills will take on one of four distinct aspects: Offense, Support, Control, or Fortune. As this skill redirects the influence of the stars themselves upon the astrologer, making changes to the Constellation Chart requires access to the Fatespinner apparatus in the Stellar Citadel. As one grows more adept in this skill, one will be able to place a greater number of Stella, as well as utilize more powerful Stella.
+6758	Astrologers are trained to divine the workings of fate through several means, including the use of tarot cards to foresee the best courses of action in battle. Through the drawing of cards, they determine how to use their abilities to maximum effect to claim victory, as well as the most advantageous skill for a specific moment. Guided by Battle Astrology's focus on bending fate to one's advantage, the aptly named 'Hand of Destiny' involves selecting and arranging a hand of cards tailored to one's own preferences and propensities in battle.
+6759	Tarot Cards serve as a medium through which astrologers are able to discern the influence of the stars on past, present, and future, but they also serve as a potent part of a Battle Astrologer's arsenal. When an astrologer has, through their actions, manifested the destiny with which the cards in their hand are linked, they can fling the cards at a foe in a powerful attack whose malefic energy is intended to direct the target's destiny toward ruin. Fate Foretold can be invoked after drawing each of the cards chosen for your hand via 'Hand of Destiny' at least once. The aspect of each card will confer bonus effects on this skill.
+6760	A skill that grants one the ability to travel to the Stellar Citadel, a space only perceptible to those trained in the esoteric art of Battle Astrology. The growth of this skill represents a strengthening of one's connection to the citadel itself, granting an astrologer the ability to draw upon its currents of mana to bolster their own reserves.
+6761	Complete Battle Astrology Talent scenario quest 'A Starlit Summons'.
+6762	Complete Battle Astrology Talent scenario quest 'On the Pilgrim's Path'.
+6763	Complete Battle Astrology Talent scenario quest 'The Hall Where Knowledge Shines'.
+6764	Complete Battle Astrology Talent scenario quest 'An Astrological Orientation'.
+6765	Complete Battle Astrology Talent scenario quest 'The Movement of Wind and Stars'.
+6766	Complete Battle Astrology Talent scenario quest 'Faces of the Moons'.
+6767	Complete Battle Astrology Talent scenario quest 'Faces of the Moons'.
+6768	Complete Battle Astrology Talent scenario quest 'A Starlit Summons'.
+6769	Complete Battle Astrology Talent scenario quest 'A Story Writ in Starlight'.
+6770	Complete Battle Astrology Talent scenario quest 'The Workings of the Stellar Citadel'.
+6771	Complete Battle Astrology Talent scenario quest 'The Workings of the Stellar Citadel'.
+6772	Complete Battle Astrology Talent scenario quest 'A Story Writ in Starlight'.
+6773	Damage
+6774	Damage
+6775	Damage
+6776	Damage
+6777	Damage
+6778	Range
+6779	Max Range
+6780	Magic Attack Increase
+6781	Damage
+6782	Attack Range
+6783	Attack Radius
+6784	Min Damage Rate
+6785	Range
+6786	Cooldown Reduction
+6787	Max Attack Range
+6788	Attack Width
+6789	Charge Radius per Second
+6790	Cooldown Reduction
+6791	Cooldown Reduction
+6792	Debuff Duration
+6793	Charge Distance per Second
+6794	Cooldown Reduction
+6795	Spirit Scythe Awakening
+6796	This skill awakens the spirit inside of the weapon to assist in combat. Once awakened, the spirit attacks all targets within range. Only spirits at level 21 or higher can awaken. Use the Spirit Weapon in combat to build up the energy needed for awakening. Save this attack for difficult foes, since it takes some time to charge up the skill.
+6797	Damage
+6798	Spirit Level Effect
+6799	Awakening Energy Charge Rate
+6800	Spirit Buff Duration
+6801	Spirit Buff Bonus Damage
+6802	Spirit Attack Range

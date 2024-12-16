@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
-!define UOSHORTVERSION        "455"
-!define UOLONGVERSION         "0.62.79"
+!define UOSHORTVERSION        "456"
+!define UOLONGVERSION         "0.63.79"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -13,7 +13,7 @@ RequestExecutionLevel admin
 !define HyddwnUpdateEnable "True"
 !define Lib-LoaderEnable "True"
 !define mabi-pack2ForceInstall "True"
-!define MUI_UI ".\bin\modern.exe"
+!define MUI_UI ".\bin\Modern.exe"
 
 !addincludedir ".\bin"
 !addplugindir ".\bin"
@@ -4280,16 +4280,16 @@ SectionEnd
 !macroend
 Section "Belfast Delagger 1" MOD176
 SetOutPath "$INSTDIR\data\gfx\scene\belfast\building"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\building\scene_building_belfast_01.pmg"
+/*File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\building\scene_building_belfast_01.pmg"*/
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\building\scene_building_belfast_lawcourt_02.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\building\scene_building_belfast_lawcourt_03.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\building\scene_building_belfast_lawcourt_04.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\building\scene_building_belfast_lawcourt_05.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\building\scene_building_belfast_lawcourt_06.pmg"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\building\scene_building_belfast_lawcourt_07.pmg"
+/*File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\building\scene_building_belfast_lawcourt_07.pmg"*/
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\building\scene_building_belfast_lawcourt_08.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\building\scene_building_belfast_lawcourt_09.pmg"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\building\scene_building_belfast_wall01.pmg"
+/*File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\building\scene_building_belfast_wall01.pmg"*/
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD176}
@@ -4320,7 +4320,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_bel
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_bank_column_08.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_bank_entrance_01.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_bank_wall_01.pmg"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_bigship.pmg"
+/*File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_bigship.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_bigship_flag01.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_bigship_flag01_rotate.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_bigship_flag02.pmg"
@@ -4328,7 +4328,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_bel
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_bigship_flag03.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_bigship_flag03_rotate.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_bigship_light.pmg"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_bigship_rotate.pmg"
+File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_bigship_rotate.pmg"*/
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_bigsign_01.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_church00.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_cliff01.pmg"
@@ -4394,11 +4394,11 @@ File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_bel
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_market_weapon02.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_market_weapon03.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_ocean00.pmg"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_owenhouse_00.pmg"
+/*File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_owenhouse_00.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_owenhouse_01.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_owenhouse_02.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_owenhouse_03.pmg"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_owenhouse_04.pmg"
+File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_owenhouse_04.pmg"*/
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_owenhouse_05.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_owenhouse_06.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_owenhouse_07.pmg"
@@ -4417,9 +4417,9 @@ File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_bel
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_pirate ship_flagall.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_tombstone_02.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_tradeship_cutscene00.pmg"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_tradeship_flag01.pmg"
+/*File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_tradeship_flag01.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_tradeship_flag02.pmg"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_tradeship_flag03.pmg"
+File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_tradeship_flag03.pmg"*/
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_tradingpost_01.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_wrecked_obj.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_wrecked_obj01.pmg"
@@ -7458,7 +7458,7 @@ Function ModInfo
   WriteRegStr HKLM "${REG_UNINSTALL}" "DisplayVersion" "${UOVERSION}"
   WriteRegStr HKLM "${REG_UNINSTALL}" "Publisher" "ShaggyZE"
   WriteRegStr HKLM "${REG_UNINSTALL}" "InstallSource" "$EXEDIR\"
-  WriteRegStr HKLM "${REG_UNINSTALL}" "MODS" "457"
+  WriteRegStr HKLM "${REG_UNINSTALL}" "MODS" "458"
 
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD1" "" "Artifact Discovery Cutscene Removal"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD1" "FILE1" "\data\db\cutscene\c2\iria_finding.xml"

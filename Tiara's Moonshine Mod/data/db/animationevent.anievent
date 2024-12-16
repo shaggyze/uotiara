@@ -15558,12 +15558,14 @@ set("C4_giant")
 	"giant_fcw_beauty_sit"
 		0:lookat(off)
 		0:hand(both,palm)
+		53:effect("fcwh_heart",0,1)
 		224:hand(right,fist)
 		228:hand(left,fist)
 		460:hand(right,palm)
 		464:hand(left,palm)
 		
 	"giant_female_fcw_beauty_sit"
+	    53:effect("fcwh_heart",0,1)
 		224:hand(right,fist)
 		228:hand(left,fist)
 		460:hand(right,palm)
@@ -28612,7 +28614,12 @@ set("C4_human")
 		"human_butterfly_book_stand"
 				0:lookat(off)				
 				1:generic("custom_equip(weapon:tool_c4_butterfly_book)")	
-				468:jump(1)	
+				468:jump(1)
+
+		"human_muri_book_stand"
+				0:lookat(off)				
+				1:generic("custom_equip(weapon:tool_c4_muri_book)")	
+				468:jump(1)			
 
 		"human_ferocious_book_stand"
 				0:lookat(off)				
@@ -30960,7 +30967,7 @@ set("social motion")
 		225:generic("custom_equipmentmesh(1, female_c4_puppet_bls_ani)")
 		0:hideequip(false)
 		0:hand(both, palm)
-		199:generic("custom_mesh(1:tool_puppet_ani)")
+		199:generic("custom_mesh(1:tool_puppet_ani,tr1b:393939)")
 		230:hand(right,fist)
 		1222:jump(382)
 	
@@ -30968,7 +30975,7 @@ set("social motion")
 		0:lookat(off)
 		0:hideequip(false)
 		0:hand(both, palm)
-		199:generic("custom_mesh(1:tool_puppet_ani)")
+		199:generic("custom_mesh(1:tool_puppet_ani,tr1b:393939)")
 		230:hand(left,fist)
 		1222:jump(382)
 	
@@ -31616,9 +31623,10 @@ set("social motion")
 		0:lookat(off)
 		0:hand(both, palm)	
 		0:hideequip(false)
-		75:eyechange(223, 0)
-		1572:jump(266,true)	
+		75:eyechange(223, 0)	
 		75:effect("gesture_wintersleep_ball01_01",0,1)	
+		266:eyechange(223, 0)	
+		1572:jump(266,true)
 
 
 	"human_23gesture_01"
@@ -31675,6 +31683,7 @@ set("social motion")
 		0:hand(right, palm)			
 		
 	"human_24gesture_04"
+		0:lookat(off)
 		0:hideequip(false)
 		0:hand(both, palm)
 		25:hand(both, fist)
@@ -31682,6 +31691,7 @@ set("social motion")
 		220:jump(0)
 		
 	"human_24gesture_05"
+		0:lookat(off)
 		0:hideequip(false)
 		0:hand(both, palm)
 		100:eyechange(223, 0)		
@@ -31689,6 +31699,7 @@ set("social motion")
 		510:jump(0)
 
 	"human_24gesture_06"
+		0:lookat(off)
 		0:hideequip(false)
 		0:hand(both, palm)
 		47:hand(both, fist)
@@ -37997,8 +38008,19 @@ set("social motion")
 			945:effectoff("dru_02")
 			955:eyechange(default)
 			955:generic("custom_equip(weapon)")
-			955:hand (right, palm)			
-			
+			955:hand (right, palm)
+
+	"female_fruit"
+			0:lookat(off)
+			0:hand (both, palm)
+			0:hideequip(false)		
+			0:generic("custom_equip(weapon:tool_fruit_ani, tr1b:808080)")
+	
+	"male_fruit"
+			0:lookat(off)
+			0:hand (both, palm)
+			0:hideequip(false)		
+			0:generic("custom_equip(weapon:tool_fruit_ani, tr1b:808080)")
 			
 	"female_24gesture_07"
 			0:lookat(off)
@@ -38072,24 +38094,48 @@ set("social motion")
 			0:hand (both, palm)
 			0:hideequip(false)	
 			82:generic ("custom_equip(shield:tool_alchebook01_ani, tl1b:3E2E2D tl2b:BA9C77 tl3b:7978F1 tl4b:808080)")
+			992:jump(304)
 
 	"female_alche02"
 			0:lookat(off)
 			0:hand (both, palm)
 			0:hideequip(false)	
 			82:generic ("custom_equip(shield:tool_alchebook02_ani, tl1b:3E2E2D tl2b:BA9C77 tl3b:7978F1 tl4b:808080)")
+			82:generic ("custom_equip(weapon:tool_alchebook02_ani,  tr1b:3E2E2D tr2b:BA9C77 tr3b:7978F1 tr4b:808080)")
+			1111:jump(396)
 			
 	"male_alche01"
 			0:lookat(off)
 			0:hand (both, palm)
 			0:hideequip(false)	
 			82:generic ("custom_equip(shield:tool_alchebook01_ani, tl1b:3E2E2D tl2b:BA9C77 tl3b:7978F1 tl4b:808080)")
+			992:jump(304)
 
 	"male_alche02"
 			0:lookat(off)
 			0:hand (both, palm)
 			0:hideequip(false)	
-			82:generic ("custom_equip(shield:tool_alchebook02_ani, tl1b:3E2E2D tl2b:BA9C77 tl3b:7978F1 tl4b:808080)")					
+			82:generic ("custom_equip(shield:tool_alchebook02_ani, tl1b:3E2E2D tl2b:BA9C77 tl3b:7978F1 tl4b:808080)")
+			82:generic ("custom_equip(weapon:tool_alchebook02_ani,  tr1b:3E2E2D tr2b:BA9C77 tr3b:7978F1 tr4b:808080)")			
+			1111:jump(396)	
+
+	"female_oni"
+			0:lookat(off)
+			0:hideequip(false)	
+			0:hand (both, palm)
+			150:hand (both, fist)
+			333:hand (both, palm)
+			663:hand (left, fist)
+			928:hand (left, palm)
+	
+	"male_oni"
+			0:lookat(off)
+			0:hideequip(false)
+			0:hand (both, palm)			
+			150:hand (both, fist)
+			333:hand (both, palm)
+			663:hand (right, fist)
+			928:hand (right, palm)
 	
 	"female_20th"
 		0:lookat(off)
@@ -68257,10 +68303,10 @@ set("Knight")
 		    15:effect("SG_RS_E1_shieldCast_01",0,1)			
 		    5:effect("SG_RS_E1_shield_01",0,1)
 		    15:effect("SG_RS_E1_cast2_01",0,1)						
-		    30:effect("SG_RS_E1_shieldBroken_01",0,1)	
-		    30:effect("SG_NS_E1_shieldBroken1_01",0,1)				
-		    30:effect("SG_RS_E3_Decal_01",0,1)	
-		    30:effect("SG_RS_E3_DecalBroken01_01",0,1)
+		    30:effect("SG_RS_E1_shieldBroken_01")	
+		    30:effect("SG_NS_E1_shieldBroken1_01")				
+		    30:effect("SG_RS_E3_Decal_01")	
+		    30:effect("SG_RS_E3_DecalBroken01_01")
 			
 		"human_SG_CL_process"
 			0:lookat(off)
@@ -68315,8 +68361,9 @@ set("Knight")
 		    15:effect("SG_IH_E1_cast1_01",0,1)			
 		    30:effect("SG_IH_E2_Trail_01",0,1)	
 		    30:effect("SG_IH_E1_Trail_Dn01_01",0,1)
-		    30:effect("SG_IH_E1_Trail_Dust_02",0,1)
-		    30:effect("SG_IH_E1_Trail_Dust_03",0,1)			
+		    30:effect("SG_IH_E1_Trail_Dust_01")			
+		    30:effect("SG_IH_E1_Trail_Dust_02")
+		    30:effect("SG_IH_E1_Trail_Dust_03")			
             28:effect("SG_IH_E1_shieldBroken_01",0,1)				
 
 			
@@ -72021,10 +72068,10 @@ set("Knight")
 		    15:effect("G_SG_RS_E1_shieldCast_01",0,1)			
 		    5:effect("G_SG_RS_E1_shield_01",0,1)
 		    15:effect("SG_RS_E1_cast2_01",0,1)						
-		    30:effect("G_SG_RS_E1_shieldBroken_01",0,1)	
-		    30:effect("G_SG_NS_E1_shieldBroken1_01",0,1)				
-		    30:effect("SG_RS_E3_Decal_01",0,1)	
-		    30:effect("SG_RS_E3_DecalBroken01_01",0,1)
+		    30:effect("G_SG_RS_E1_shieldBroken_01")	
+		    30:effect("G_SG_NS_E1_shieldBroken1_01")				
+		    30:effect("SG_RS_E3_Decal_01")	
+		    30:effect("SG_RS_E3_DecalBroken01_01")
 			
 		"giant_female_SG_NS_process"
 			0:lookat(off)
@@ -72061,10 +72108,10 @@ set("Knight")
 		    15:effect("G_SG_RS_E1_shieldCast_01",0,1)			
 		    5:effect("G_SG_RS_E1_shield_01",0,1)
 		    15:effect("SG_RS_E1_cast2_01",0,1)						
-		    30:effect("G_SG_RS_E1_shieldBroken_01",0,1)	
-		    30:effect("G_SG_NS_E1_shieldBroken1_01",0,1)				
-		    30:effect("SG_RS_E3_Decal_01",0,1)	
-		    30:effect("SG_RS_E3_DecalBroken01_01",0,1)
+		    30:effect("G_SG_RS_E1_shieldBroken_01")	
+		    30:effect("G_SG_NS_E1_shieldBroken1_01")				
+		    30:effect("SG_RS_E3_Decal_01")	
+		    30:effect("SG_RS_E3_DecalBroken01_01")
 			
 		"giant_SG_QP_prepare"
 			0:lookat(off)
@@ -72099,8 +72146,9 @@ set("Knight")
 		    15:effect("SG_IH_E1_cast1_01",0,1)			
 		    30:effect("SG_IH_E2_Trail_01",0,1)	
 		    30:effect("SG_IH_E1_Trail_Dn01_01",0,1)	
-		    30:effect("G_SG_IH_E1_Trail_Dust_02",0,1)
-		    30:effect("G_SG_IH_E1_Trail_Dust_03",0,1)			
+		    30:effect("G_SG_IH_E1_Trail_Dust_01")			
+		    30:effect("G_SG_IH_E1_Trail_Dust_02")
+		    30:effect("G_SG_IH_E1_Trail_Dust_03")			
             28:effect("G_SG_IH_E1_shieldBroken_01",0,1)	
 			
         "giant_female_SG_QP_prepare"
@@ -72136,8 +72184,9 @@ set("Knight")
 		    15:effect("SG_IH_E1_cast1_01",0,1)			
 		    30:effect("SG_IH_E2_Trail_01",0,1)	
 		    30:effect("SG_IH_E1_Trail_Dn01_01",0,1)	
-		    30:effect("G_SG_IH_E1_Trail_Dust_02",0,1)
-		    30:effect("G_SG_IH_E1_Trail_Dust_03",0,1)			
+		    30:effect("G_SG_IH_E1_Trail_Dust_01")			
+		    30:effect("G_SG_IH_E1_Trail_Dust_02")
+		    30:effect("G_SG_IH_E1_Trail_Dust_03")			
             28:effect("G_SG_IH_E1_shieldBroken_01",0,1)	
 	
 		"giant_butterfly_sword_stand"
@@ -74223,7 +74272,7 @@ set("G14_npc")
 			0:generic ("custom_equip(shield:tool_npc_iolar_ani, tl2b:69A795 tl4b:808080)")
 	
 		"female_npc_iolar_talk"
-			0:lookat(off)		
+			0:lookat(on)		
 			0:hand (both, palm)			
 			0:hideequip(false)
 			0:generic ("custom_equip(shield:tool_npc_iolar_ani, tl2b:69A795 tl4b:808080)")
@@ -74449,6 +74498,16 @@ set("G14_npc")
 			0:lookat(on)	
 			0:hideequip(true)
 			0:hand(both, palm)
+			
+		"female_npc_midir_stand"
+			0:lookat(off)	
+			0:hideequip(true)
+			0:hand(both, palm)		
+		
+		"female_npc_midir_talk"
+			0:lookat(on)	
+			0:hideequip(true)
+			0:hand(both, palm)			
 			
 
 		////에린랜드 속이 울렁거리는 NPC
@@ -75870,6 +75929,57 @@ set("magician")
             5:effect("lanceblow_process_cast01")			
             15:effect("lanceblow_process01")			
 			15:effect("lanceblow_process_Dust_01")	
+			
+			
+	"human_BL_SV_process"
+			0:lookat(off)
+			0:hand (both,fist)
+			
+	"human_BL_CA_process"
+			0:lookat(off)
+			0:hand (both,fist)
+
+	"human_BL_CA_complete"
+			0:lookat(off)
+			0:hand (both,fist)		
+	
+	"human_BL_SS_process"
+			0:lookat(off)
+			0:hand (both,fist)
+	
+	"human_BL_FE_process1"
+			0:lookat(off)
+			0:hand (both,fist)
+			64:jump(34)
+	
+	"human_BL_FE_process2"
+			0:lookat(off)
+			0:hand (both,fist)
+	
+	"human_BL_FE_process3"
+			0:lookat(off)
+			0:hand (both,fist)
+	
+	"human_BL_IC_process"
+			0:lookat(off)
+			0:hand (both,fist)
+			1:hand (left,palm)
+			9:hand (left,fist)
+			40:hand (left,palm)
+			49:hand (left,fist)
+	
+	"human_BL_OD_process"
+			0:lookat(off)
+			0:hand (both,fist)
+			16:hand (left,palm)
+			61:hand (left,fist)
+	
+	"human_BL_UOD_process"
+			0:lookat(off)
+			0:hand (both,fist)
+			26:hand (left,palm)
+			72:hand (left,fist)
+		
 
 	endfolder
 	
@@ -86659,6 +86769,11 @@ set("giant")
 			1:generic("custom_equip(weapon:giant_tool_c4_butterfly_book)")	
 			468:jump(1)
 			
+		"giant_muri_book_stand"
+				0:lookat(off)				
+				1:generic("custom_equip(weapon:giant_tool_c4_muri_book)")	
+				468:jump(1)		
+			
 		"giant_bookstand02"
 			0:lookat(off)			
 			1:generic ("custom_equip(weapon:giant_tool_c4_2018winter_book)")
@@ -90095,9 +90210,89 @@ set("tool_Two hand sword 01")
 			0:hand (both,fist)	
             5:effect("lanceblow_process_cast01")			
             15:effect("lanceblow_process01")			
-			15:effect("lanceblow_process_Dust_01")	
+			15:effect("lanceblow_process_Dust_01")
 
+			
+	"giant_female_BL_SV_process"
+			0:lookat(off)
+			0:hand (both,fist)
+			
+	"giant_female_BL_CA_process"
+			0:lookat(off)
+			0:hand (both,fist)
 
+	"giant_female_BL_CA_complete"
+			0:lookat(off)
+			0:hand (both,fist)
+	
+	"giant_female_BL_SS_process"
+			0:lookat(off)
+			0:hand (both,fist)
+	
+	"giant_female_BL_FE_process1"
+			0:lookat(off)
+			0:hand (both,fist)
+			64:jump(34)
+	
+	"giant_female_BL_FE_process2"
+			0:lookat(off)
+			0:hand (both,fist)
+	
+	"giant_female_BL_FE_process3"
+			0:lookat(off)
+			0:hand (both,fist)
+	
+	"giant_female_BL_IC_process"
+			0:lookat(off)
+			0:hand (both,fist)
+	
+	"giant_female_BL_OD_process"
+			0:lookat(off)
+			0:hand (both,fist)
+	
+	"giant_female_BL_UOD_process"
+			0:lookat(off)		
+
+	"giant_BL_SV_process"
+			0:lookat(off)
+			0:hand (both,fist)
+			
+	"giant_BL_CA_process"
+			0:lookat(off)
+			0:hand (both,fist)
+
+	"giant_BL_CA_complete"
+			0:lookat(off)
+			0:hand (both,fist)		
+
+    "giant_BL_SS_process"
+			0:lookat(off)
+			0:hand (both,fist)
+	
+	"giant_BL_FE_process1"
+			0:lookat(off)
+			0:hand (both,fist)
+			64:jump(34)
+	
+	"giant_BL_FE_process2"
+			0:lookat(off)
+			0:hand (both,fist)
+	
+	"giant_BL_FE_process3"
+			0:lookat(off)
+			0:hand (both,fist)
+	
+	"giant_BL_IC_process"
+			0:lookat(off)
+			0:hand (both,fist)
+	
+	"giant_BL_OD_process"
+			0:lookat(off)
+			0:hand (both,fist)
+	
+	"giant_BL_UOD_process"
+			0:lookat(off)
+			
 
 	endfolder
 
@@ -97211,7 +97406,7 @@ set("social motion")
 		225:generic("custom_equipmentmesh(1, giant_female_c4_puppet_bls_ani)")
 		0:hideequip(false)
 		0:hand(both, palm)
-		199:generic("custom_mesh(1:giant_tool_puppet_ani)")
+		199:generic("custom_mesh(1:giant_tool_puppet_ani,tr1b:393939)")
 		230:hand(right,fist)
 		1222:jump(382)
 	
@@ -97219,7 +97414,7 @@ set("social motion")
 		0:lookat(off)
 		0:hideequip(false)
 		0:hand(both, palm)
-		199:generic("custom_mesh(1:giant_tool_puppet_ani)")
+		199:generic("custom_mesh(1:giant_tool_puppet_ani,tr1b:393939)")
 		230:hand(left,fist)
 		1222:jump(382)
 	
@@ -98039,17 +98234,18 @@ set("social motion")
 		0:hand(both, palm)	
 		0:hideequip(false)
 		75:eyechange(223, 0)
-		1572:jump(266,true)	
 		75:effect("gesture_wintersleep_ball01_01",0,1)	
+		266:eyechange(223, 0)
+		1572:jump(266,true)
 		
 	"giant_female_natural_gesture_s22_01"
 		0:lookat(off)
 		0:hand(both, palm)	
 		0:hideequip(false)
 		75:eyechange(223, 0)
-		1572:jump(266,true)	
-		75:effect("gesture_wintersleep_ball01_01",0,1)			
-	
+		75:effect("gesture_wintersleep_ball01_01",0,1)	
+		266:eyechange(223, 0)
+		1572:jump(266,true)
 
 	"giant_23gesture_01"
 		0:lookat(off)
@@ -98121,6 +98317,7 @@ set("social motion")
 		0:hand(right, palm)			
 		
 	"giant_24gesture_04"
+		0:lookat(off)
 		0:hideequip(false)
 		0:hand(both, palm)
 		25:hand(both, fist)
@@ -98128,6 +98325,7 @@ set("social motion")
 		220:jump(0)
 		
 	"giant_female_24gesture_04"
+		0:lookat(off)
 		0:hideequip(false)
 		0:hand(both, palm)
 		25:hand(both, fist)
@@ -98136,6 +98334,7 @@ set("social motion")
 		
 
 	"giant_24gesture_05"
+		0:lookat(off)
 		0:hideequip(false)
 		0:hand(both, palm)
 		100:eyechange(223, 0)		
@@ -98143,6 +98342,7 @@ set("social motion")
 		510:jump(0)
 
 	"giant_female_24gesture_05"
+		0:lookat(off)
 		0:hideequip(false)
 		0:hand(both, palm)
 		100:eyechange(223, 0)		
@@ -98150,6 +98350,7 @@ set("social motion")
 		510:jump(0)
 
 	"giant_24gesture_06"
+		0:lookat(off)
 		0:hideequip(false)
 		0:hand(both, palm)
 		47:hand(both, fist)
@@ -98159,6 +98360,7 @@ set("social motion")
 		573:jump(190,true)	
 
 	"giant_female_24gesture_06"
+		0:lookat(off)
 		0:hideequip(false)
 		0:hand(both, palm)
 		47:hand(both, fist)
@@ -105532,6 +105734,19 @@ set("social motion")
 			955:hand (right, palm)
 			
 			
+	"giant_female_fruit"
+			0:lookat(off)
+			0:hand (both, palm)
+			0:hideequip(false)		
+			0:generic("custom_equip(weapon:giant_tool_fruit_ani, tr1b:808080)")
+	
+	"giant_fruit"
+			0:lookat(off)
+			0:hand (both, palm)
+			0:hideequip(false)		
+			0:generic("custom_equip(weapon:giant_tool_fruit_ani, tr1b:808080)")		
+			
+			
 	"giant_female_24gesture_07"
 			0:lookat(off)
 			0:hand (both, fist)
@@ -105636,24 +105851,48 @@ set("social motion")
 			0:hand (both, palm)
 			0:hideequip(false)	
 			82:generic ("custom_equip(shield:giant_tool_alchebook01_ani, tl1b:3E2E2D tl2b:BA9C77 tl3b:7978F1 tl4b:808080)")
+			992:jump(304)
 
 	"giant_female_alche02"
 			0:lookat(off)
 			0:hand (both, palm)
 			0:hideequip(false)	
 			82:generic ("custom_equip(shield:giant_tool_alchebook02_ani, tl1b:3E2E2D tl2b:BA9C77 tl3b:7978F1 tl4b:808080)")
+			82:generic ("custom_equip(weapon:giant_tool_alchebook02_ani,  tr1b:3E2E2D tr2b:BA9C77 tr3b:7978F1 tr4b:808080)")
+			1111:jump(396)
 			
 	"giant_alche01"
 			0:lookat(off)
 			0:hand (both, palm)
 			0:hideequip(false)	
 			82:generic ("custom_equip(shield:giant_tool_alchebook01_ani, tl1b:3E2E2D tl2b:BA9C77 tl3b:7978F1 tl4b:808080)")
+			992:jump(304)
 
 	"giant_alche02"
 			0:lookat(off)
 			0:hand (both, palm)
 			0:hideequip(false)	
-			82:generic ("custom_equip(shield:giant_tool_alchebook02_ani, tl1b:3E2E2D tl2b:BA9C77 tl3b:7978F1 tl4b:808080)")			
+			82:generic ("custom_equip(shield:giant_tool_alchebook02_ani, tl1b:3E2E2D tl2b:BA9C77 tl3b:7978F1 tl4b:808080)")
+			82:generic ("custom_equip(weapon:giant_tool_alchebook02_ani,  tr1b:3E2E2D tr2b:BA9C77 tr3b:7978F1 tr4b:808080)")
+			1111:jump(396)			
+
+	"giant_female_oni"
+			0:lookat(off)
+			0:hideequip(false)	
+			0:hand (both, palm)
+			150:hand (both, fist)
+			333:hand (both, palm)
+			663:hand (left, fist)
+			928:hand (left, palm)
+	
+	"giant_oni"
+			0:lookat(off)
+			0:hideequip(false)
+			0:hand (both, palm)			
+			150:hand (both, fist)
+			333:hand (both, palm)
+			663:hand (right, fist)
+			928:hand (right, palm)
 			
 		
 	"giant_female_20th"
@@ -122282,8 +122521,8 @@ set("newcharacter_motion")
 	"female_FCWf_box_sit"
 		0:lookat(off)
 		0:hand(both,palm)
-		0:hideequip(true)			
-
+		0:hideequip(true)	
+		1:generic("custom_equipmentmesh(1, female_c4_fcwf_bls_ani)")
 	
 	"human_fcw_studio_sit"
 		0:lookat(off)
@@ -122295,6 +122534,7 @@ set("newcharacter_motion")
 
 		
 	"human_fcw_beauty_sit"
+	    53:effect("fcwh_heart",0,1)
 		224:hand(right,fist)
 		228:hand(left,fist)
 		460:hand(right,palm)
@@ -123411,6 +123651,14 @@ endset
 set("VT")
 	 
 	 folder("char/chapter4/monster/anim/VT")	
+
+	"VT_SS_process01"
+		0:lookat(off)
+		0:hand (both, fist)	
+
+	"VT_SS_process02"
+		0:lookat(off)
+		0:hand (both, fist)
 	 
 	"VT_CS_process01"
 		0:lookat(off)
@@ -123451,6 +123699,7 @@ set("VT")
 		20:hand (left, fist)
 		0:effect("VT_C_UnderSnow_E3_01_1",0,1)
 		0:effect("VT_C_UnderSnow_E3_01_2",0,1)
+		60:jump(30,true)
 		
 	"VT_CS_process04"
 		0:lookat(off)
@@ -123520,7 +123769,8 @@ set("VT")
 		8:hand (right, palm)
 		23:hand (right, fist)
 		49:hand (left, fist)
-				
+		10:effect("VT_MA_E5_01",0,1)
+		
 	"VT_PP_process01"
 		0:lookat(off)
 		0:hand (both, fist)
@@ -123536,12 +123786,11 @@ set("VT")
 	"VT_PP_process03"
 		0:lookat(off)
 		0:hand (both, fist)
-        2:hand (left, palm)
-        10:hand (both, fist)		
-		47:jump(17,true)
-		10:effect("VT_PP_E3_01_1",0,1)
-		11:effect("VT_PP_E3_02_1",0,1)	
-		10:effect("VT_PP_E3_03_1",0,1)
+		25:hand (left, palm)
+		47:hand (left, fist)
+		0:effect("VT_PP_E3_01_1",0,1)
+		1:effect("VT_PP_E3_02_1",0,1)	
+		0:effect("VT_PP_E3_03_1",0,1)
 		
     "VT_ER_process01"
         0:lookat(off)
@@ -123568,7 +123817,7 @@ set("VT")
         77:jump(47,true)
 		35:effect("VT_DV_E1_02_1",0,1)
 		35:effect("VT_DV_E1_01_1",0,1)	
-		37:effect("VT_DV_E1_03_1",0,1)
+
 		
 	"VT_DV_process02"
         0:lookat(off)
@@ -123655,3 +123904,312 @@ set("VT")
 
 endset	
 		
+		
+//////////////////////////////////  BT  ////////////////////////////////////
+set("BT")
+	 
+	 folder("char/chapter4/monster/anim/BT")	
+
+    "bt_stand"
+	    0:lookat(off)
+	
+	"bt_dead"
+	    0:lookat(off)
+	
+	"bt_turn_l"
+	    0:lookat(off)
+	
+	"bt_turn_r"
+	    0:lookat(off)
+		
+	"bt_walk"
+	    0:lookat(off)
+		
+    "bt_rs_process01"
+	    0:lookat(off)	
+		
+    "bt_rs_process01_loop"
+	    0:lookat(off)		
+		
+    "bt_la_process02"
+	    0:lookat(off)
+		
+    "bt_la_process02_loop"
+	    0:lookat(off)		
+
+    "bt_sa_process03"
+	    0:lookat(off)
+		
+    "bt_sa_process03_loop"
+	    0:lookat(off)	
+
+	"bt_sa_process03_02"
+	    0:lookat(off)
+		
+    "bt_sa_process03_02_loop"
+	    0:lookat(off)	
+
+	"bt_sa_process03_03"
+	    0:lookat(off)	
+		
+    "bt_ra_process04"
+	    0:lookat(off)
+
+    "bt_ra_process04_loop"
+	    0:lookat(off)	
+
+	"bt_ra_process05"
+	    0:lookat(off)	
+		
+	"bt_ra_process06"
+	    0:lookat(off)
+
+	"bt_groggy_start"
+	    0:lookat(off)
+
+	"bt_groggy_loop"
+	    0:lookat(off)	
+		
+	"bt_groggy_end"
+	    0:lookat(off)		
+
+    "bt_rl_process01"
+	    0:lookat(off)
+		62:effect("BT_RL_E1_01_1",0,1)		
+		10:effect("BT_RL_E1_01_2",0,1)
+	    10:effect("BT_RL_E1_01_3",0,1)
+		62:effect("BT_RL_E1_06_1",0,1)
+	    62:effect("BT_RL_E1_06_2",0,1)
+		
+    "bt_lal_process02"
+	    0:lookat(off)
+		5:effect("BT_LRL_E2_02_1",0,1)
+	    5:effect("BT_LRL_E2_02_2",0,1)	
+		5:effect("BT_LRL_E2_02_3",0,1)
+	    5:effect("BT_LRL_E2_02_4",0,1)		
+	    20:effect("BT_LRL_E2_02_5",0,1)
+		20:effect("BT_LRL_E2_02_1",0,1)
+	    20:effect("BT_LRL_E2_02_2",0,1)	
+		20:effect("BT_LRL_E2_02_3",0,1)
+	    20:effect("BT_LRL_E2_02_4",0,1)	
+		20:effect("BT_LRL_E2_04_1",0,1)
+	    20:effect("BT_LRL_E2_04_2",0,1)	
+		20:effect("BT_LRL_E2_04_3",0,1)
+	    20:effect("BT_LRL_E2_04_4",0,1)		
+	    20:effect("BT_LRL_E2_05_1",0,1)	
+		
+    "bt_lar_process03"
+	    0:lookat(off)
+		5:effect("BT_LAR_E2_02_1",0,1)
+	    5:effect("BT_LAR_E2_02_2",0,1)	
+		5:effect("BT_LAR_E2_02_3",0,1)
+	    5:effect("BT_LAR_E2_02_4",0,1)		
+	    20:effect("BT_LAR_E2_02_5",0,1)
+		20:effect("BT_LAR_E2_02_1",0,1)
+	    20:effect("BT_LAR_E2_02_2",0,1)	
+		20:effect("BT_LAR_E2_02_3",0,1)
+	    20:effect("BT_LAR_E2_02_4",0,1)	
+		20:effect("BT_LAR_E2_04_1",0,1)
+	    20:effect("BT_LAR_E2_04_2",0,1)	
+		20:effect("BT_LAR_E2_04_3",0,1)
+	    20:effect("BT_LAR_E2_04_4",0,1)		
+	    20:effect("BT_LAR_E2_05_1",0,1)
+
+   "bt_cgl_process01"
+	    0:lookat(off)
+		24:effect("BT_RL_E1_01_2",0,1)
+	    24:effect("BT_RL_E1_01_3",0,1)		
+		55:effect("BT_CGL_E2_Code_2",0,1)			
+		55:effect("BT_RL_E1_06_1",0,1)	
+	    55:effect("BT_RL_E1_06_2",0,1)		
+		53:effect("BT_CGL_E2_Code_1",0,1)
+		50:effect("BT_CGL_E2_Code_4",0,1)	
+	
+    "bt_cgr_process02"
+	    0:lookat(off)
+		55:effect("BT_CGL_E2_Code_2",0,1)			
+		55:effect("BT_RL_E1_06_1",0,1)	
+	    55:effect("BT_RL_E1_06_2",0,1)		
+		24:effect("BT_RL_E1_01_2",0,1)
+	    24:effect("BT_RL_E1_01_3",0,1)			
+		53:effect("BT_CGL_E2_Code_L_1",0,1)		
+		50:effect("BT_CGL_E2_Code_L_4",0,1)	
+
+    "bt_bbn_process01"
+	    0:lookat(off)
+		25:effect("BT_BBN_E1_1",0,1)	
+		
+    "bt_bbn_process01_loop"
+	    0:lookat(off)		
+    "bt_bbn_process02"
+	    0:lookat(off)
+		0:effect("BT_BBN_E1_Attacl_1",0,1)		
+		25:effect("BT_BBN_E1_Attacl_2",0,1)	
+		
+    "bt_bbn_process02_loop"
+	    0:lookat(off)			
+    "bt_bbn_process03"
+	    0:lookat(off)
+
+    "bt_bbs_process04"
+	    0:lookat(off)
+		25:effect("BT_BBN_E2_Attacl_1",0,1)		
+		72:effect("BT_BBN_E2_Attacl_2",0,1)	
+		25:effect("BT_BBN_E2_Attacl_3",0,1)			
+		30:effect("BT_BBN_E2_Attacl_4",0,1)	
+		
+    "bt_sr_process01"
+	    0:lookat(off)
+		25:effect("BT_SR_E1_eye_1",0,1)			
+		25:effect("BT_SR_E1_eye_2",0,1)			
+		22:effect("BT_LRL_E2_02_1",0,1)	
+		22:effect("BT_LRL_E2_02_2",0,1)	
+		75:effect("BT_SR_E1_1",0,1)
+		75:effect("BT_SR_E1_2",0,1)		
+		75:effect("BT_RL_E1_01_1",0,1)			
+		114:effect("BT_SR_E4_food_1")
+		114:effect("BT_SR_E4_food_2")
+		114:effect("BT_SR_E4_food_3")
+		114:effect("BT_SR_E4_food_4")		
+		116:effect("BT_SR_E3_up_1")
+		
+    "bt_sr_process02"
+	    0:lookat(off)
+		5:effect("BT_LRL_E2_02_1",0,1)	
+		5:effect("BT_LRL_E2_02_2",0,1)		
+		10:effect("BT_SR_E4_body_1",0,1)	
+		10:effect("BT_SR_E4_body_2",0,1)
+		10:effect("BT_SR_E4_body_3",0,1)	
+		40:effect("BT_SR_E4_food_1")
+		40:effect("BT_SR_E4_Food_2")
+		51:effect("BT_SR_E4_food_1")
+		51:effect("BT_SR_E4_Food_2")	
+		65:effect("BT_SR_E4_food_1")
+		65:effect("BT_SR_E4_Food_2")		
+		50:effect("BT_SR_E4_Food_3",0,1)
+		50:effect("BT_SR_E4_Food_4",0,1)	
+		61:effect("BT_SR_E4_Food_3",0,1)
+		61:effect("BT_SR_E4_Food_4",0,1)		
+		75:effect("BT_SR_E4_floor_1",0,1)
+		75:effect("BT_SR_E4_floor_2",0,1)
+		
+    "bt_sr_process03"
+	    0:lookat(off)
+		11:effect("BT_SR_E8_Dwon_1",0,1)	
+		13:effect("BT_SR_E1_1")
+		10:effect("BT_SR_E1_2")
+		18:effect("BT_SR_E8_3")
+		18:effect("BT_SR_E8_4")	
+		70:effect("BT_LRL_E2_02_1",0,1)	
+		70:effect("BT_LRL_E2_02_2",0,1)	
+		
+    "bt_sr_process04"
+	    0:lookat(off)
+		
+	 endfolder
+
+endset	
+				
+				
+//////////////////////////////////  LM  ////////////////////////////////////
+set("LM")
+	 
+	 folder("char/chapter4/monster/anim/LM")	
+	 
+
+	"RM_idle"
+	
+	"RM_run"
+	
+	"RM_defense"
+		220:jump(160,true)
+		
+	"RM_def_toidle"
+	
+	"RM_down"
+		215:jump(165,true)
+		
+	"RM_down_toidle"
+	
+	"RM_die"
+		239:jump(179,true)
+
+	"RM_BS_prepare01"
+		145:jump(95,true)
+		
+	"RM_BS_process01"
+		48:jump(7,true)
+		
+	"RM_BS_toidle"
+
+	"RM_TF_prepare01"
+		152:jump(102,true)
+	
+	"RM_TF_process01"
+		190:jump(140,true)
+        0:effect("fx_E_K4_P1_1",0,1)
+		
+	"RM_TF_toidle"
+	
+	"RM_DG_prepare01"
+		130:jump(90,true)
+		//0:quake(2,2,30,3000)
+		//0:quake(3,3,100,3000)
+		//0:quake(3,3,100,3000)
+		
+		
+	"RM_DG_process01"
+        0:effect("fx_E_K5_P1_1",0,1)
+		
+	"RM_DG_process02"
+		//0:quake(15,15,40,3000)
+		123:jump(96,true)
+
+	"RM_GR_prepare01"
+		150:jump(90,true)
+		
+	"RM_GR_process01"
+	
+	"RM_GR_toidle"
+	
+	"RM_GF_prepare01"
+		119:jump(83,true)
+		
+	"RM_GF_process01"
+	
+	"RM_GF_process02"
+		72:jump(36,true)
+		
+	"RM_GF_process03"
+	
+	"RM_GF_process04"
+		72:jump(36,true)
+				
+	"RM_GF_toidle"
+	
+	"RM_WP_process01"
+		55:jump(35,true)
+        10:effect("fx_E_SK2_P3_1_1",0,1) 
+        10:effect("fx_E_SK2_P3_2_1",0,1) 
+        10:effect("fx_E_SK2_P3_3_1",0,1) 
+        10:effect("fx_E_SK2_P3_4_1",0,1) 
+		
+	"RM_WP_process02"
+		53:jump(33,true)
+        0:effect("fx_E_SK2_P3_3_P_1",0,1)
+        0:effect("fx_E_SK2_P3_4_P_1",0,1)
+		
+	"RM_WP_toidle"
+	
+	"RM_RF_process01"
+		121:jump(91,true)
+		
+	"RM_RF_process02"
+	
+	"RM_RF_process03"
+		48:jump(0,true)
+	 
+	 
+	 endfolder
+
+endset	
