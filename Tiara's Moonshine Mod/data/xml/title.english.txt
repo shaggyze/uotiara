@@ -14531,6 +14531,34 @@
 16099	A title granted to the bottom 1% of participants. Having luck this bad truly defies the odds, making you strangely lucky, in a weird way. Hopefully that's SOME consolation.
 16100	A title granted to the bottom 1% of participants. Having luck this bad truly defies the odds, making you strangely lucky, in a weird way. Hopefully that's SOME consolation.
 16101	Luck +30
+16102	제이의 감사
+16103	임프, 강아지 그리고
+16104	밀레시안의 불행단속
+16105	제이의 감사
+16106	임프, 강아지 그리고
+16107	밀레시안의 불행단속
+16108	제이의 감사
+16109	임프, 강아지 그리고
+16110	밀레시안의 불행단속
+16111	제이의 감사
+16112	임프, 강아지 그리고
+16113	밀레시안의 불행단속
+16114	제이의 친구를 찾아준 밀레시안에게 지급되는 2차 타이틀. 기간이 만료되면 옵션 효과는 사라지지만 지속적으로 장착 및 소장이 가능하다. (기간 연장 불가능)
+16115	향긋한 풀 냄새가 가득 풍겨오는 피오드 지역에서 요정 임프, 강아지 제이와의 새로운 인연을 시작한 밀레시안에게 주어지는 특별한 타이틀.
+16116	임프 쿤에게 10회 이상 도움을 준 당신은 에린 세계의 불행이 닥치지 않도록 불철주야 최선을 다하는 밀레시안입니다.
+16117	제이의 친구를 찾아준 밀레시안에게 지급되는 2차 타이틀. 기간이 만료되면 옵션 효과는 사라지지만 지속적으로 장착 및 소장이 가능하다. (기간 연장 불가능)
+16118	향긋한 풀 냄새가 가득 풍겨오는 피오드 지역에서 요정 임프, 강아지 제이와의 새로운 인연을 시작한 밀레시안에게 주어지는 특별한 타이틀.
+16119	임프 쿤에게 10회 이상 도움을 준 당신은 에린 세계의 불행이 닥치지 않도록 불철주야 최선을 다하는 밀레시안입니다.
+16120	최대 대미지 30 증가\n마법 공격력 45 증가
+16121	행운 30 증가
+16122	행운 30 증가
+16123	임프는 이것을 기억할 것입니다
+16124	임프는 이것을 기억할 것입니다
+16125	임프는 이것을 기억할 것입니다
+16126	임프는 이것을 기억할 것입니다
+16127	에린 세계에서 임프가 구슬을 좋아한다는 것은 이미 널리 알려진 사실이다. 이를 기억하고, 쿤에게 구슬을 선물해 준 척척박사 밀레시안에게 지급되는 특별한 타이틀.
+16128	에린 세계에서 임프가 구슬을 좋아한다는 것은 이미 널리 알려진 사실이다. 이를 기억하고, 쿤에게 구슬을 선물해 준 척척박사 밀레시안에게 지급되는 특별한 타이틀.
+16129	행운 30 증가
 16130	Dreaming Gyre
 16131	Dreaming Gyre
 16132	Dreaming Gyre
@@ -14790,13 +14818,13 @@
 16449	Maximum Damage +7\nMagic Attack +7\nDefense +5\nProtection +2\nWill +15\n[Luck -25]
 16450	Luck +30
 16451	Luck +30
-16452	하트가 뿅뿅
-16453	하트가 뿅뿅
-16454	하트가 뿅뿅
-16455	하트가 뿅뿅
-16456	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16457	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16458	행운 30 증가
+16452	Overflowing Affection
+16453	Overflowing Affection
+16454	Overflowing Affection
+16455	Overflowing Affection
+16456	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16457	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16458	Luck +30
 16459	Joy of Discovery
 16460	Joy of Discovery
 16461	Joy of Discovery
@@ -15021,48 +15049,76 @@
 16708	A title granted to those who thwarted the ambitions of the master of Glenn Bearna, the Winter Tyrant, securing a path to the future.
 16709	A title granted to those who stood against the master of Glenn Bearna, emerging victorious even when confronted with the full fury of a Primeval Winter.\nEarned by claiming victory against the Winter Tyrant without any party member being knocked out.
 16710	Max Damage +27\nMagic Attack +50\nProtection/Magic Protection +15\nMovement Speed +2%
-17019	신비한 별빛 스타
-17020	활기찬 별빛 스타
-17021	아름다운 별빛 스타
-17022	신비한 별빛 스타
-17023	활기찬 별빛 스타
-17024	아름다운 별빛 스타
-17025	신비한 별빛 스타
-17026	활기찬 별빛 스타
-17027	아름다운 별빛 스타
-17028	신비한 별빛 스타
-17029	활기찬 별빛 스타
-17030	아름다운 별빛 스타
-17031	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-17032	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-17033	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-17034	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-17035	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-17036	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-17037	행운 30 증가
-17038	행운 30 증가
-17039	행운 30 증가
-17040	순수한 별빛 스타
-17041	순수한 별빛 스타
-17042	순수한 별빛 스타
-17043	순수한 별빛 스타
-17044	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-17045	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-17046	행운 30 증가
-17075	별 위를 걷는
-17076	별을 품은
-17077	별 위를 걷는
-17078	별을 품은
-17079	별 위를 걷는
-17080	별을 품은
-17081	별 위를 걷는
-17082	별을 품은
-17083	운명 점성술사의 자질을 갖춘 자에게 지급되는 특별한 2차 타이틀. 기간이 만료되면 옵션 효과는 사라지지만 지속적으로 장착 및 소장이 가능하다. (기간 연장 불가능)
-17084	운명 점성술사의 이치를 모두 깨달은 자에게 지급되는 특별한 2차 타이틀.
-17085	운명 점성술사의 자질을 갖춘 자에게 지급되는 특별한 2차 타이틀. 기간이 만료되면 옵션 효과는 사라지지만 지속적으로 장착 및 소장이 가능하다. (기간 연장 불가능)
-17086	운명 점성술사의 이치를 모두 깨달은 자에게 지급되는 특별한 2차 타이틀.
-17087	솜씨 20 증가\n행운 20 증가\n채집 확률 5% 증가\n채집 속도 5% 증가\n교역 추가 이득 5%\n자동 낚시 성공률 증가\n이동 속도 1% 증가
-17088	마법 공격력 40 증가\n지력 10 증가\n솜씨 10 증가\n행운 10 증가
+16991	the Master of Stellar Handicraft
+16992	the Master of Constellation Casting
+16993	the Master of Cartomancy
+16994	the Master of Astral Imaging
+16995	the Master of Stellar Handicraft
+16996	the Master of Constellation Casting
+16997	the Master of Cartomancy
+16998	the Master of Astral Imaging
+16999	the Master of Stellar Handicraft
+17000	the Master of Constellation Casting
+17001	the Master of Cartomancy
+17002	the Master of Astral Imaging
+17003	the Master of Stellar Handicraft
+17004	the Master of Constellation Casting
+17005	the Master of Cartomancy
+17006	the Master of Astral Imaging
+17007	An honorable title awarded to someone who has reached the highest level available in Stellar Handicraft.
+17008	An honorable title awarded to someone who has reached the highest level of Constellation Casting.
+17009	An honorable title awarded to someone who has reached the highest level of Cartomancy.
+17010	An honorable title awarded to someone who has reached the highest level of Astral Imaging.
+17011	Reach 100 Training EXP for Stellar Handicraft Rank 1 to receive a title that proves your mastery.
+17012	Reach 100 Training EXP for Constellation Casting Rank 1 to receive a title that proves your mastery.
+17013	Reach 100 Training EXP for Cartomancy Rank 1 to receive a title that proves your mastery.
+17014	Reach 100 Training EXP for Astral Imaging Rank 1 to receive a title that proves your mastery.
+17015	DEX +15\nLuck +5
+17016	Max MP +50\nMax STA +50\nConstellation Casting Capture Speed +5
+17017	Will +10\nLuck +5
+17018	Will +5\nLuck +10
+17019	Beautiful Starlight
+17020	Enchanting Starlight
+17021	Mysterious Starlight
+17022	Beautiful Starlight
+17023	Enchanting Starlight
+17024	Mysterious Starlight
+17025	Beautiful Starlight
+17026	Enchanting Starlight
+17027	Mysterious Starlight
+17028	Beautiful Starlight
+17029	Enchanting Starlight
+17030	Mysterious Starlight
+17031	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17032	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17033	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17034	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17035	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17036	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17037	Luck +30
+17038	Luck +30
+17039	Luck +30
+17040	Pure Starlight
+17041	Pure Starlight
+17042	Pure Starlight
+17043	Pure Starlight
+17044	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17045	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17046	Luck +30
+17075	Walking Among the Stars
+17076	Embracing the Stars
+17077	Walking Among the Stars
+17078	Embracing the Stars
+17079	Walking Among the Stars
+17080	Embracing the Stars
+17081	Walking Among the Stars
+17082	Embracing the Stars
+17083	A 2nd Title that can be obtained by those who have the potential to become a Fate Astrologer. Although the stat bonuses it provides are available only for a limited time, you'll keep the title and can use it even after the stats are gone. (Duration cannot be extended)
+17084	A 2nd Title that can be obtained by those who have become enlightened on all matters of Fate Astrology.
+17085	A 2nd Title that can be obtained by those who have the potential to become a Fate Astrologer. Although the stat bonuses it provides are available only for a limited time, you'll keep the title and can use it even after the stats are gone. (Duration cannot be extended)
+17086	A 2nd Title that can be obtained by those who have become enlightened on all matters of Fate Astrology.
+17087	DEX +20\nLuck +20\nGathering Success Rate +5%\nGathering Speed +5%\nBonus Ducats +5%\nAutomatic Fishing Success Rate Increased\nMovement Speed +1%
+17088	Magic Attack +40 \nINT +10\nDEX +10 \nLuck +10
 17089	who Has the Zoomies
 17090	the Purrfect Cat Sofa
 17091	who Fetches the Finest Catnip
@@ -15084,6 +15140,20 @@
 17107	
 17108	
 17109	
+17124	the Master of Astral Imprinting
+17125	the Master of Astral Imprinting
+17126	the Master of Astral Imprinting
+17127	the Master of Astral Imprinting
+17128	An honorable title awarded to someone who has reached the highest level of Astral Imprinting.
+17129	Reach 100 Training EXP for Astral Imprinting Rank 1 to receive a title that proves your mastery.
+17130	Will +5\nLuck +5
+17131	the Aspiring Fate Astrologer
+17132	the Aspiring Fate Astrologer
+17133	the Aspiring Fate Astrologer
+17134	the Aspiring Fate Astrologer
+17135	A title for those who choose Fate Astrology as their first active Talent. This title can no longer be used when you are not a beginner.
+17136	A title for those who choose Fate Astrology as their first active Talent. This title can no longer be used when you are not a beginner.
+17137	Magic Attack +15\nMax MP +20\nMax HP +20
 17145	Erinn Adventure Pass Season 1 Challenger
 17146	Erinn Adventure Pass Season 1 Challenger
 17147	Erinn Adventure Pass Season 1 Challenger
@@ -15154,3 +15224,45 @@
 17415	A Title given to the Birthday Bloomers who joined Tamara's birthday stream.
 17416	A Title given to the Birthday Bloomers who joined Tamara's birthday stream.
 17417	
+17530	2025년 마비노기 스타
+17531	2025년 마비노기 스타
+17532	2025년 마비노기 스타
+17533	2025년 마비노기 스타
+17534	마비노기 스타에게 주어지는 영광스러운 타이틀
+17535	마비노기 스타에게 주어지는 영광스러운 타이틀
+17536	마법 공격력 35 증가\n지력 15 증가\n마법 시전속도 5% 증가
+17537	2024년 마비노기 스타
+17538	2024년 마비노기 스타
+17539	2024년 마비노기 스타
+17540	2024년 마비노기 스타
+17541	2024년 마비노기 스타
+17542	2024년 마비노기 스타
+17543	2024년 마비노기 스타
+17544	2024년 마비노기 스타
+17545	마비노기 스타에게 주어지는 영광스러운 타이틀
+17546	마비노기 스타에게 주어지는 영광스러운 타이틀
+17547	마비노기 스타에게 주어지는 영광스러운 타이틀
+17548	마비노기 스타에게 주어지는 영광스러운 타이틀
+17549	마법 공격력 35 증가\n지력 15 증가\n마법 시전속도 5% 증가
+17550	
+17551	에린 1타 강사 시즌2
+17552	Summa Cum Laude 시즌2
+17553	피아나 기흐레보다 빠른
+17554	에린 1타 강사 시즌2
+17555	Summa Cum Laude 시즌2
+17556	피아나 기흐레보다 빠른
+17557	에린 1타 강사 시즌2
+17558	Summa Cum Laude 시즌2
+17559	피아나 기흐레보다 빠른
+17560	에린 1타 강사 시즌2
+17561	Summa Cum Laude 시즌2
+17562	피아나 기흐레보다 빠른
+17563	[마비노기 원데이 클래스 시즌2 in 영등포 PC방]에 참여하여 멋진 강의를 진행해주신 밀레시안에게 지급되는 타이틀.
+17564	[마비노기 원데이 클래스 시즌2 in 영등포 PC방]에 참여하여 멋진 플레이를 보여주신 밀레시안에게 지급되는 타이틀.
+17565	[마비노기 PC방 for 밀레시안] 이벤트에 참여하여 글렌 베르나(어려움)을 가장 빠르게 클리어한 밀레시안에게 지급되는 타이틀.
+17566	[마비노기 원데이 클래스 시즌2 in 영등포 PC방]에 참여하여 멋진 강의를 진행해주신 밀레시안에게 지급되는 타이틀.
+17567	[마비노기 원데이 클래스 시즌2 in 영등포 PC방]에 참여하여 멋진 플레이를 보여주신 밀레시안에게 지급되는 타이틀.
+17568	[마비노기 PC방 for 밀레시안] 이벤트에 참여하여 글렌 베르나(어려움)을 가장 빠르게 클리어한 밀레시안에게 지급되는 타이틀.
+17569	행운 30 증가
+17570	행운 30 증가
+17571	행운 30 증가

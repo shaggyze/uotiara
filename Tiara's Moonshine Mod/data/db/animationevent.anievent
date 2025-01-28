@@ -30907,6 +30907,20 @@ set("social motion")
 	
 	folder("char\chapter4\human\anim\social_motion")
 	
+	"male_north"
+		0:lookat(off)
+		0:hand(both, palm)		
+		50:effect("north",0,1)
+		60:linkframework(1, "race:200801, ", "handtoolL", "data\gfx\char\pet\anim\dog\pet_dog_natural_north")
+		1209:jump(551,true)
+			
+	"female_north"
+		0:lookat(off)
+		0:hand(both, palm)				
+		50:effect("north",0,1)
+		60:linkframework(1, "race:200801, ", "handtoolL", "data\gfx\char\pet\anim\dog\pet_dog_natural_north")
+		1209:jump(551,true)			
+	
 	"human_24gesture_09"    
 	    0:lookat(off)
 		0:hideequip(false)
@@ -38012,20 +38026,35 @@ set("social motion")
 
 	"female_fruit"
 			0:lookat(off)
-			0:hand (both, palm)
-			0:hideequip(false)		
-			0:generic("custom_equip(weapon:tool_fruit_ani, tr1b:808080)")
+			0:hand (both, fist)
+			0:hideequip(false)
+			1:generic("custom_equipmentmesh(1, female_fruit_bss_ani)")	
+			80:generic("custom_equip(weapon:tool_lemon_ani, tr1b:808080)")
+			100:generic("custom_equip(weapon)")
+			117:hand (both, palm)
+			196:generic("custom_equip(weapon:tool_lemon_ani, tr1b:808080)")
+			235:hand (right, fist)
+			490:generic("custom_equip(weapon)")
+			510:hand (left, fist)
 	
 	"male_fruit"
 			0:lookat(off)
 			0:hand (both, palm)
 			0:hideequip(false)		
-			0:generic("custom_equip(weapon:tool_fruit_ani, tr1b:808080)")
-			
+			80:generic("custom_equip(weapon:tool_lemon_ani, tr1b:808080)")
+			96:hand (both, fist)
+			100:generic("custom_equip(weapon)")
+			117:hand (both, palm)
+			196:generic("custom_equip(weapon:tool_lemon_ani, tr1b:808080)")
+			235:hand (right, fist)
+			490:generic("custom_equip(weapon)")
+			510:hand (both, fist)
+			612:hand (both, palm)
+		
 	"female_24gesture_07"
 			0:lookat(off)
 			0:hand (both, fist)
-			0:hideequip(false)
+			80:hideequip(false)
 	
 	"male_24gesture_07"
 			0:lookat(off)
@@ -45176,6 +45205,16 @@ set("pet")
 
 		"pet_flying_dog_01_natural_walk"
 			0:lookat(off)
+			
+		"pet_dog_natural_north"
+		    0:changealpha(0,0,0)
+			1:changealpha(255,10,0)	
+			1149:jump(491,true)	
+
+		"pet_dog_natural_G_north"
+		    0:changealpha(0,0,0)
+			1:changealpha(255,10,0)	
+			1149:jump(491,true)					
          
 	endfolder
 
@@ -68275,6 +68314,19 @@ set("Knight")
 
 	folder("char\chapter4\human\anim\tool\rhand_A")
 	
+		"human_25maid_golf_stand"
+		    0:lookat(off)
+			0:hand(right, fist)
+			0:hand(left, palm)
+			249:hand(left, fist)
+			414:hand(right, palm)
+			856:hand(right, fist)
+			859:hand(left, palm)
+			64:generic ("custom_equip(shield:tool_25maid_ball_ani, tb4b:808080 )")
+			361:generic("custom_equip(shield)")
+			982:generic ("custom_equip(shield:tool_25maid_ball_ani, tb4b:808080 )")
+	        1043:jump(120)			
+		
 		"female_fcwa_wp_stand"
 			0:lookat(off)
 			0:hand(right, palm)
@@ -68296,6 +68348,7 @@ set("Knight")
 		    20:effect("SG_NS_E1_03",0,1)
 		    57:effect("SG_NS_E1_04")
 		    57:effect("SG_NS_E1_05")
+		    0:sound("data\sound\skill_sg_noblesacrifice_01.wav")
 			
 		"human_SG_RS_process"
 			0:lookat(off)
@@ -68307,6 +68360,8 @@ set("Knight")
 		    30:effect("SG_NS_E1_shieldBroken1_01")				
 		    30:effect("SG_RS_E3_Decal_01")	
 		    30:effect("SG_RS_E3_DecalBroken01_01")
+		    5:sound("data\sound\skill_sg_refereestroke_01.wav")
+		    30:sound("data\sound\skill_sg_refereestroke_02.wav")
 			
 		"human_SG_CL_process"
 			0:lookat(off)
@@ -68317,6 +68372,7 @@ set("Knight")
 		    1:effect("SG_CL_E3_shieldBroken_01")			
 		    1:effect("SG_CL_E2_Stop_Dust_01")		
 		    1:effect("SG_CL_E2_StopDash_01")	
+		    1:sound("data\sound\skill_sg_clash_02.wav")
 	
 		"human_SG_US_process"
 			0:lookat(off)
@@ -68327,10 +68383,13 @@ set("Knight")
 		    57:effect("SG_US_E1_04")
 		    57:effect("SG_US_E1_05")
  		    57:effect("SG_US_E3_01")
+		    15:sound("data\sound\skill_sg_unfoldingsanctum_01.wav")
+		    57:sound("data\sound\skill_sg_unfoldingsanctum_02.wav")
 			
 		"human_SG_QP_prepare"
 			0:lookat(off)
 			0:hand (both, fist)
+			0:sound("data\sound\skill_sg_quickprovocation_01.wav")
 		
         "human_SG_QP_wait"
 			0:lookat(off)
@@ -68341,6 +68400,7 @@ set("Knight")
 			0:hand (both, fist)	
 		    0:effect("SG_QP_p_E1_01",0,1)
 		    0:effect("SG_QP_p_E1_02",0,1)
+		    0:sound("data\sound\skill_sg_quickprovocation_02.wav")
 			
         "human_SG_SR_process"
 			0:lookat(off)
@@ -68348,10 +68408,12 @@ set("Knight")
             13:effect("SG_RS_E1_cast1_02",0,1)		
             13:effect("SG_US_E1_cast2_02",0,1)			
 		    30:effect("SG_SR_E1_Cast_01",0,1)
-            30:effect("SG_SR_E1_Broken_01",0,1)		
-            30:effect("SG_SR_E1_Broken_dust_01",0,1)	
+            30:effect("SG_SR_E1_Broken_01")		
+            30:effect("SG_SR_E1_Broken_dust_01")	
             30:effect("SG_NS_E1_shieldBroken1_02",0,1)		
             30:effect("SG_NS_E1_shieldBroken2_02",0,1)
+	    	0:sound("data\sound\skill_sg_sacrificeretribution_01.wav")
+	    	30:sound("data\sound\skill_sg_sacrificeretribution_02.wav")
 	
         "human_SG_IH_process"
 			0:lookat(off)
@@ -68365,6 +68427,8 @@ set("Knight")
 		    30:effect("SG_IH_E1_Trail_Dust_02")
 		    30:effect("SG_IH_E1_Trail_Dust_03")			
             28:effect("SG_IH_E1_shieldBroken_01",0,1)				
+	    	15:sound("data\sound\skill_sg_ironwallhit_01.wav")
+	   		30:sound("data\sound\skill_sg_ironwallhit_02.wav")
 
 			
 			
@@ -68396,7 +68460,23 @@ set("Knight")
 				0:hand (right, fist)
 				0:hand (left, fist)
 				0:effect("fairy_butterfly03_01",0,1)
-
+		
+		
+		"female_fruit_wand_stand"
+				0:lookat(off)
+				0:hand (right, fist)
+				0:hand (left, palm)
+				43:hand (left, fist)
+				150:hand (left, palm)
+				403:jump(263,true)
+		
+		"male_fruit_wand_stand"
+				0:lookat(off)
+				0:hand (right, fist)
+				0:hand (left, palm)
+				43:hand (left, fist)
+				150:hand (left, palm)
+				403:jump(263,true)
 				
 		"human_20th_owl_stand"
 			0:hand(both, palm)
@@ -72041,6 +72121,7 @@ set("Knight")
 		    20:effect("SG_NS_E1_03",0,1)
 		    57:effect("SG_NS_E1_04")
 		    57:effect("SG_NS_E1_05")
+		    0:sound("data\sound\skill_sg_noblesacrifice_01.wav")
 			
 		"giant_SG_US_process"
 			0:lookat(off)
@@ -72051,6 +72132,8 @@ set("Knight")
 		    57:effect("SG_US_E1_04")
 		    57:effect("SG_US_E1_05")
  		    57:effect("SG_US_E3_01")
+		    15:sound("data\sound\skill_sg_unfoldingsanctum_01.wav")
+		    57:sound("data\sound\skill_sg_unfoldingsanctum_02.wav")
 			
 		"giant_SG_CL_process"
 			0:lookat(off)
@@ -72061,6 +72144,7 @@ set("Knight")
 		    1:effect("G_SG_CL_E3_shieldBroken_01")			
 		    1:effect("SG_CL_E2_Stop_Dust_01")		
 		    1:effect("SG_CL_E2_StopDash_01")	
+		    1:sound("data\sound\skill_sg_clash_02.wav")
 			
 		"giant_SG_RS_process"
 			0:lookat(off)
@@ -72072,6 +72156,8 @@ set("Knight")
 		    30:effect("G_SG_NS_E1_shieldBroken1_01")				
 		    30:effect("SG_RS_E3_Decal_01")	
 		    30:effect("SG_RS_E3_DecalBroken01_01")
+		    5:sound("data\sound\skill_sg_refereestroke_01.wav")
+		    30:sound("data\sound\skill_sg_refereestroke_02.wav")
 			
 		"giant_female_SG_NS_process"
 			0:lookat(off)
@@ -72081,6 +72167,7 @@ set("Knight")
 		    20:effect("SG_NS_E1_03",0,1)
 		    57:effect("SG_NS_E1_04")
 		    57:effect("SG_NS_E1_05")
+		    0:sound("data\sound\skill_sg_noblesacrifice_01.wav")
 			
 		"giant_female_SG_US_process"
 			0:lookat(off)
@@ -72091,6 +72178,8 @@ set("Knight")
 		    57:effect("SG_US_E1_04")
 		    57:effect("SG_US_E1_05")
  		    57:effect("SG_US_E3_01")
+		    15:sound("data\sound\skill_sg_unfoldingsanctum_01.wav")
+		    57:sound("data\sound\skill_sg_unfoldingsanctum_02.wav")
 			
 		"giant_female_SG_CL_process"
 			0:lookat(off)
@@ -72101,6 +72190,7 @@ set("Knight")
 		    1:effect("G_SG_CL_E3_shieldBroken_01")			
 		    1:effect("SG_CL_E2_Stop_Dust_01")		
 		    1:effect("SG_CL_E2_StopDash_01")
+		    1:sound("data\sound\skill_sg_clash_02.wav")
 			
 		"giant_female_SG_RS_process"
 			0:lookat(off)
@@ -72112,10 +72202,13 @@ set("Knight")
 		    30:effect("G_SG_NS_E1_shieldBroken1_01")				
 		    30:effect("SG_RS_E3_Decal_01")	
 		    30:effect("SG_RS_E3_DecalBroken01_01")
+		    5:sound("data\sound\skill_sg_refereestroke_01.wav")
+		    30:sound("data\sound\skill_sg_refereestroke_02.wav")
 			
 		"giant_SG_QP_prepare"
 			0:lookat(off)
 			0:hand (both, fist)
+			0:sound("data\sound\skill_sg_quickprovocation_01.wav")
 		
         "giant_SG_QP_wait"
 			0:lookat(off)
@@ -72126,6 +72219,7 @@ set("Knight")
 			0:hand (both, fist)	
 		    0:effect("SG_QP_p_E1_01",0,1)
 		    0:effect("SG_QP_p_E1_02",0,1)
+		    0:sound("data\sound\skill_sg_quickprovocation_02.wav")
 			
         "giant_SG_SR_process"
 			0:lookat(off)
@@ -72133,10 +72227,12 @@ set("Knight")
             13:effect("G_SG_RS_E1_cast1_02",0,1)		
             13:effect("G_SG_SR_E1_shield",0,1)			
 		    30:effect("SG_SR_E1_Cast_01",0,1)
-            30:effect("SG_SR_E1_Broken_01",0,1)
-            30:effect("SG_SR_E1_Broken_dust_01",0,1)	
+            30:effect("SG_SR_E1_Broken_01")
+            30:effect("SG_SR_E1_Broken_dust_01")	
             30:effect("G_SG_NS_E1_shieldBroken1_02",0,1)		
             30:effect("G_SG_NS_E1_shieldBroken2_02",0,1)
+	 		0:sound("data\sound\skill_sg_sacrificeretribution_01.wav")
+	    	30:sound("data\sound\skill_sg_sacrificeretribution_02.wav")
 			
         "giant_SG_IH_process"
 			0:lookat(off)
@@ -72150,10 +72246,13 @@ set("Knight")
 		    30:effect("G_SG_IH_E1_Trail_Dust_02")
 		    30:effect("G_SG_IH_E1_Trail_Dust_03")			
             28:effect("G_SG_IH_E1_shieldBroken_01",0,1)	
+	    	15:sound("data\sound\skill_sg_ironwallhit_01.wav")
+		    30:sound("data\sound\skill_sg_ironwallhit_02.wav")
 			
         "giant_female_SG_QP_prepare"
 			0:lookat(off)
 			0:hand (both, fist)
+			0:sound("data\sound\skill_sg_quickprovocation_01.wav")
 		
         "giant_female_SG_QP_wait"
 			0:lookat(off)
@@ -72164,6 +72263,7 @@ set("Knight")
 			0:hand (both, fist)	
 		    0:effect("SG_QP_p_E1_01",0,1)
 		    0:effect("SG_QP_p_E1_02",0,1)
+		    0:sound("data\sound\skill_sg_quickprovocation_02.wav")
 			
         "giant_female_SG_SR_process"
 			0:lookat(off)
@@ -72171,10 +72271,12 @@ set("Knight")
             13:effect("G_SG_RS_E1_cast1_02",0,1)		
             13:effect("G_SG_SR_E1_shield",0,1)			
 		    30:effect("SG_SR_E1_Cast_01",0,1)
-            30:effect("SG_SR_E1_Broken_01",0,1)
-            30:effect("SG_SR_E1_Broken_dust_01",0,1)	
+            30:effect("SG_SR_E1_Broken_01")
+            30:effect("SG_SR_E1_Broken_dust_01")	
             30:effect("G_SG_NS_E1_shieldBroken1_02",0,1)		
             30:effect("G_SG_NS_E1_shieldBroken2_02",0,1)
+	    0:sound("data\sound\skill_sg_sacrificeretribution_01.wav")
+	    30:sound("data\sound\skill_sg_sacrificeretribution_02.wav")
 			
         "giant_female_SG_IH_process"
 			0:lookat(off)
@@ -72187,7 +72289,9 @@ set("Knight")
 		    30:effect("G_SG_IH_E1_Trail_Dust_01")			
 		    30:effect("G_SG_IH_E1_Trail_Dust_02")
 		    30:effect("G_SG_IH_E1_Trail_Dust_03")			
-            28:effect("G_SG_IH_E1_shieldBroken_01",0,1)	
+            28:effect("G_SG_IH_E1_shieldBroken_01",0,1)		    
+	    15:sound("data\sound\skill_sg_ironwallhit_01.wav")
+	    30:sound("data\sound\skill_sg_ironwallhit_02.wav")
 	
 		"giant_butterfly_sword_stand"
 				0:lookat(off)
@@ -72216,7 +72320,24 @@ set("Knight")
 				0:lookat(off)
 				0:hand (right, fist)
 				0:hand (left, fist)
-				0:effect("fairy_butterfly03_01",0,1)	
+				0:effect("fairy_butterfly03_01",0,1)
+
+
+		"giant_female_fruit_wand_stand"
+				0:lookat(off)
+				0:hand (right, fist)
+				0:hand (left, palm)
+				43:hand (left, fist)
+				150:hand (left, palm)
+				403:jump(263,true)
+		
+		"giant_fruit_wand_stand"
+				0:lookat(off)
+				0:hand (right, fist)
+				0:hand (left, palm)
+				43:hand (left, fist)
+				150:hand (left, palm)
+				403:jump(263,true)			
 		
 		"giant_female_20th_owl_stand"
 			0:hand(both, palm)
@@ -75938,7 +76059,12 @@ set("magician")
 	"human_BL_CA_process"
 			0:lookat(off)
 			0:hand (both,fist)
-
+			0:effect("Fx_Bl_CA_Dash_01")				
+			0:effect("Fx_Bl_CA_Dash_02")	
+			0:effect("Fx_Bl_CA_Dash_03")	
+			0:effect("Fx_Bl_CA_Dash_dust_01")			
+			0:effect("Fx_Bl_CA_Dash_cast_01")		
+			
 	"human_BL_CA_complete"
 			0:lookat(off)
 			0:hand (both,fist)		
@@ -75946,19 +76072,30 @@ set("magician")
 	"human_BL_SS_process"
 			0:lookat(off)
 			0:hand (both,fist)
+			12:hand (left,palm)
+			18:hand (left,fist)
+			35:hand (left,palm)
+			40:hand (right,palm)
+			49:hand (left,fist)
+			56:hand (right,fist)
 	
 	"human_BL_FE_process1"
 			0:lookat(off)
 			0:hand (both,fist)
-			64:jump(34)
+			9:hand (left,palm)
+			58:jump(28)
 	
 	"human_BL_FE_process2"
 			0:lookat(off)
-			0:hand (both,fist)
+			0:hand (right,fist)
+			0:hand (left,palm)
+			55:hand (left,fist)
 	
 	"human_BL_FE_process3"
 			0:lookat(off)
-			0:hand (both,fist)
+			0:hand (right,fist)
+			0:hand (left,palm)
+			16:hand (left,fist)
 	
 	"human_BL_IC_process"
 			0:lookat(off)
@@ -75973,7 +76110,9 @@ set("magician")
 			0:hand (both,fist)
 			16:hand (left,palm)
 			61:hand (left,fist)
-	
+			0:effect("fx_BL_OD_p_cast_01",0,1)
+			38:effect("fx_BL_OD_p_smoke_01")
+			
 	"human_BL_UOD_process"
 			0:lookat(off)
 			0:hand (both,fist)
@@ -90228,11 +90367,13 @@ set("tool_Two hand sword 01")
 	"giant_female_BL_SS_process"
 			0:lookat(off)
 			0:hand (both,fist)
+			41:hand (right,palm)
+			52:hand (right,fist)
 	
 	"giant_female_BL_FE_process1"
 			0:lookat(off)
 			0:hand (both,fist)
-			64:jump(34)
+			58:jump(28)
 	
 	"giant_female_BL_FE_process2"
 			0:lookat(off)
@@ -90249,9 +90390,12 @@ set("tool_Two hand sword 01")
 	"giant_female_BL_OD_process"
 			0:lookat(off)
 			0:hand (both,fist)
-	
+			0:effect("fx_BL_OD_p_cast_01",0,1)
+			38:effect("fx_BL_OD_p_smoke_01")
+			
 	"giant_female_BL_UOD_process"
-			0:lookat(off)		
+			0:lookat(off)
+			0:hand (both,fist)	
 
 	"giant_BL_SV_process"
 			0:lookat(off)
@@ -90268,11 +90412,13 @@ set("tool_Two hand sword 01")
     "giant_BL_SS_process"
 			0:lookat(off)
 			0:hand (both,fist)
+			41:hand (right,palm)
+			52:hand (right,fist)
 	
 	"giant_BL_FE_process1"
 			0:lookat(off)
 			0:hand (both,fist)
-			64:jump(34)
+			58:jump(28)
 	
 	"giant_BL_FE_process2"
 			0:lookat(off)
@@ -90289,9 +90435,12 @@ set("tool_Two hand sword 01")
 	"giant_BL_OD_process"
 			0:lookat(off)
 			0:hand (both,fist)
-	
+			0:effect("fx_BL_OD_p_cast_01",0,1)
+			38:effect("fx_BL_OD_p_smoke_01")
+			
 	"giant_BL_UOD_process"
 			0:lookat(off)
+			0:hand (both,fist)
 			
 
 	endfolder
@@ -97292,6 +97441,20 @@ set("social motion")
 
 	
 	folder("char\chapter4\giant\anim\social_motion")
+	
+	"giant_north"
+		0:lookat(off)
+		0:hand(both, palm)		
+		50:effect("north_G",0,1)
+		60:linkframework(1, "race:990407, ", "handtoolL", "data\gfx\char\pet\anim\dog\pet_dog_natural_g_north")
+		1209:jump(551,true)	
+		
+	"giant_female_north"
+		0:lookat(off)
+		0:hand(both, palm)		
+		50:effect("north_G",0,1)
+		60:linkframework(1, "race:990407, ", "handtoolL", "data\gfx\char\pet\anim\dog\pet_dog_natural_g_north")
+		1209:jump(551,true)			
 	
 	"giant_24gesture_09"    
 	    0:lookat(off)
@@ -105736,15 +105899,30 @@ set("social motion")
 			
 	"giant_female_fruit"
 			0:lookat(off)
-			0:hand (both, palm)
-			0:hideequip(false)		
-			0:generic("custom_equip(weapon:giant_tool_fruit_ani, tr1b:808080)")
+			0:hand (both, fist)
+			0:hideequip(false)	
+			1:generic("custom_equipmentmesh(1, giant_female_fruit_bss_ani)")		
+			80:generic("custom_equip(weapon:giant_tool_lemon_ani, tr1b:808080)")
+			100:generic("custom_equip(weapon)")
+			117:hand (both, palm)
+			196:generic("custom_equip(weapon:giant_tool_lemon_ani, tr1b:808080)")
+			235:hand (right, fist)
+			490:generic("custom_equip(weapon)")
+			510:hand (left, fist)
 	
 	"giant_fruit"
 			0:lookat(off)
 			0:hand (both, palm)
 			0:hideequip(false)		
-			0:generic("custom_equip(weapon:giant_tool_fruit_ani, tr1b:808080)")		
+			80:generic("custom_equip(weapon:giant_tool_lemon_ani, tr1b:808080)")
+			96:hand (both, fist)
+			100:generic("custom_equip(weapon)")
+			117:hand (both, palm)
+			196:generic("custom_equip(weapon:giant_tool_lemon_ani, tr1b:808080)")
+			235:hand (right, fist)
+			490:generic("custom_equip(weapon)")
+			510:hand (both, fist)
+			612:hand (both, palm)	
 			
 			
 	"giant_female_24gesture_07"
@@ -123893,7 +124071,8 @@ set("VT")
 	    0:lookat(off)
 		0:hand(right, fist)
 	    0:hand(left, palm)
-		4:hand(right, palm)	
+		4:hand(right, palm)
+		190:jump(90,true)
 	
     "VT_stand"
 	    0:lookat(off)
@@ -123927,34 +124106,53 @@ set("BT")
 		
     "bt_rs_process01"
 	    0:lookat(off)	
+		5:effect("BT_RS_E1_eye_1")
+		5:effect("BT_RS_E1_eye_2")
+		40:effect("BT_RS_E1_foot_1")
+		55:effect("BT_RS_E1_foot_1")
 		
     "bt_rs_process01_loop"
 	    0:lookat(off)		
-		
+
     "bt_la_process02"
 	    0:lookat(off)
+		5:effect("BT_RS_E2_Foot_Jump_2")
+		5:effect("BT_RS_E2_Foot_Jump_3")
+		5:effect("BT_RS_E2_Foot_Jump_4")		
 		
     "bt_la_process02_loop"
 	    0:lookat(off)		
 
     "bt_sa_process03"
 	    0:lookat(off)
+		5:effect("BT_RS_E2_Foot_Jump_1")	
+		5:effect("BT_RS_E2_Foot_Jump_2")
+		5:effect("BT_RS_E2_Foot_Jump_3")
+		5:effect("BT_RS_E2_Foot_Jump_4")		
+		23:effect("BT_RA_E3_Sliding01_1")
+		26:effect("BT_RA_E3_Sliding01_2")
 		
     "bt_sa_process03_loop"
 	    0:lookat(off)	
 
 	"bt_sa_process03_02"
 	    0:lookat(off)
+		5:effect("BT_RA_E3_Sliding03_1",0,1)
+		5:effect("BT_RA_E3_Sliding03_2",0,1)
 		
     "bt_sa_process03_02_loop"
 	    0:lookat(off)	
 
 	"bt_sa_process03_03"
 	    0:lookat(off)	
+		25:effect("BT_RA_E3_Sliding03_1",0,1)
+		25:effect("BT_RA_E3_Sliding03_2",0,1)
 		
     "bt_ra_process04"
 	    0:lookat(off)
-
+		5:effect("BT_SR_E4_food_1")
+		5:effect("BT_SR_E4_food_2")
+		
     "bt_ra_process04_loop"
 	    0:lookat(off)	
 
@@ -123966,7 +124164,9 @@ set("BT")
 
 	"bt_groggy_start"
 	    0:lookat(off)
-
+		26:effect("BT_groggy_start_1")
+		28:effect("BT_groggy_start_2")	
+		
 	"bt_groggy_loop"
 	    0:lookat(off)	
 		
@@ -124066,7 +124266,7 @@ set("BT")
 		22:effect("BT_LRL_E2_02_2",0,1)	
 		75:effect("BT_SR_E1_1",0,1)
 		75:effect("BT_SR_E1_2",0,1)		
-		75:effect("BT_RL_E1_01_1",0,1)			
+		75:effect("BT_SR_E2_1",0,1)				
 		114:effect("BT_SR_E4_food_1")
 		114:effect("BT_SR_E4_food_2")
 		114:effect("BT_SR_E4_food_3")
@@ -124105,6 +124305,14 @@ set("BT")
 		
     "bt_sr_process04"
 	    0:lookat(off)
+		40:effect("BT_SR_E11_Breath_1")		
+		76:effect("BT_SR_E11_Breath_2")
+		76:effect("BT_SR_E11_Breath_L")	
+		76:effect("BT_SR_E11_Breath_R")			
+		76:effect("BT_SR_E11_Breath_L1")	
+		76:effect("BT_SR_E11_Breath_R1")
+		76:effect("BT_SR_E11_Breath_L2")	
+		76:effect("BT_SR_E11_Breath_R2")
 		
 	 endfolder
 
@@ -124119,39 +124327,52 @@ set("LM")
 
 	"RM_idle"
 	
+	
 	"RM_run"
 	
 	"RM_defense"
+		0:lookat(off)	
 		220:jump(160,true)
 		
 	"RM_def_toidle"
+		0:lookat(off)	
 	
 	"RM_down"
-		215:jump(165,true)
+		0:lookat(off)		
+		194:jump(144,true)
 		
 	"RM_down_toidle"
+		0:lookat(off)		
 	
 	"RM_die"
+		0:lookat(off)		
 		239:jump(179,true)
 
 	"RM_BS_prepare01"
+		0:lookat(off)		
 		145:jump(95,true)
 		
 	"RM_BS_process01"
+		0:lookat(off)		
 		48:jump(7,true)
 		
 	"RM_BS_toidle"
+		0:lookat(off)		
 
 	"RM_TF_prepare01"
+		0:lookat(off)		
 		152:jump(102,true)
 	
 	"RM_TF_process01"
+		0:lookat(off)		
 		190:jump(140,true)
         0:effect("fx_E_K4_P1_1",0,1)
 		
 	"RM_TF_toidle"
+		0:lookat(off)		
 	
 	"RM_DG_prepare01"
+		0:lookat(off)		
 		130:jump(90,true)
 		//0:quake(2,2,30,3000)
 		//0:quake(3,3,100,3000)
@@ -124159,35 +124380,55 @@ set("LM")
 		
 		
 	"RM_DG_process01"
+		0:lookat(off)		
         0:effect("fx_E_K5_P1_1",0,1)
+        0:effect("fx_E_K5_P0_e_1",0,1)
+		8:changealpha(0,0,0)
+		12:jump(8,true)
+		
 		
 	"RM_DG_process02"
+		0:changealpha(255,0,0)
+		0:lookat(off)		
 		//0:quake(15,15,40,3000)
 		123:jump(96,true)
 
 	"RM_GR_prepare01"
+		0:lookat(off)		
 		150:jump(90,true)
 		
 	"RM_GR_process01"
+		0:lookat(off)		
 	
 	"RM_GR_toidle"
+		0:lookat(off)		
 	
 	"RM_GF_prepare01"
+		0:lookat(off)		
 		119:jump(83,true)
+        0:effect("fx_E_K7_P1_c_1",0,1)
 		
 	"RM_GF_process01"
+		0:lookat(off)		
 	
 	"RM_GF_process02"
+		0:lookat(off)		
 		72:jump(36,true)
+        0:effect("fx_E_K7_P1_c_1",0,1)
 		
 	"RM_GF_process03"
+		0:lookat(off)		
 	
 	"RM_GF_process04"
+		0:lookat(off)		
 		72:jump(36,true)
-				
+        0:effect("fx_E_K7_P1_c_1",0,1)
+		
 	"RM_GF_toidle"
+		0:lookat(off)		
 	
 	"RM_WP_process01"
+		0:lookat(off)		
 		55:jump(35,true)
         10:effect("fx_E_SK2_P3_1_1",0,1) 
         10:effect("fx_E_SK2_P3_2_1",0,1) 
@@ -124195,21 +124436,59 @@ set("LM")
         10:effect("fx_E_SK2_P3_4_1",0,1) 
 		
 	"RM_WP_process02"
+		0:lookat(off)		
 		53:jump(33,true)
         0:effect("fx_E_SK2_P3_3_P_1",0,1)
         0:effect("fx_E_SK2_P3_4_P_1",0,1)
 		
 	"RM_WP_toidle"
+		0:lookat(off)		
 	
 	"RM_RF_process01"
+		0:lookat(off)		
 		121:jump(91,true)
+        0:effect("fx_E_SK3_P0_1_1",0,1)
+        0:effect("fx_E_SK3_P0_1_2",0,1) 
+        0:effect("fx_E_SK3_P0_2_1",0,1)
 		
 	"RM_RF_process02"
+		0:lookat(off)		
 	
 	"RM_RF_process03"
+		0:lookat(off)		
 		48:jump(0,true)
-	 
-	 
+		
+	"RM_groggy"		
+		0:lookat(off)		
+		183:jump (133,true)
+		
+	"SC_die"
+		0:lookat(off)	
+        35:effect("fx_E_obj_die_1")
+		
+	"SC_down"
+		0:lookat(off)	
+
+	"SC_idle"
+		0:lookat(off)	
+		
+	"SC_landing"
+		0:lookat(off)	
+		0:effect("fx_E_obj_landing_1",0,1)
+		0:effect("fx_E_obj_landing_2",0,1)
+		0:effect("fx_E_obj_landing_3",0,1)
+		
+	"SC_spin_f"
+		0:lookat(off)	
+		
+	"SC_spin_s"
+		0:lookat(off)		
+		
+	"SC_takeoff"
+		0:lookat(off)		
+        0:effect("fx_E_obj_takeoff_1",0,1)
+        0:effect("fx_E_obj_takeoff_2",0,1)	 
+        0:effect("fx_E_obj_takeoff_3",0,1)	 
 	 endfolder
 
 endset	

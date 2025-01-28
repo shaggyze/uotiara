@@ -9718,6 +9718,7 @@
 12031	Betha
 12041	Reamonn
 12042	Nuadha
+12043	보더 콜리
 12044	Nuadha
 12045	Scouting Unit's Rendezvous Point
 12046	Moon Bunny Flora
@@ -10057,7 +10058,7 @@
 12397	Arianell
 12398	Fer
 12399	Hasidim
-12400	사슴 봉제 인형
+12400	Deer Rag Doll
 12410	Declan
 12414	Black Dire Wolf
 12415	White Dire Wolf
@@ -10127,5 +10128,7 @@
 12518	Cat Village Slide Tower
 12519	Servant
 12520	Servant
+12542	Neal
+12543	Delaney
 12598	빛고래(크리에이터)
 12728	무등고래

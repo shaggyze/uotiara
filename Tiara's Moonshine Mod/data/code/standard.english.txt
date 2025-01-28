@@ -157,6 +157,7 @@ guilddata.3	Senior Member
 guilddata.4	Guild Member
 guilddata.5	Request to Join
 guilddata.6	Leave
+interface_astrologist.1	Your fate has been guided by the {0} card's influence.
 interface_buffer.1	{0} Recovery Speed {1}%
 interface_buffer.2	{0} Recovery: {2} points every {1} sec.
 interface_buffer.3	{0:param} +{1:value}
@@ -552,6 +553,7 @@ itemoptiondeschelper.38	Healing Effect
 itemoptiondeschelper.39	Recovers Wounds Equal to Healing Effect
 itemoptiondeschelper.40	Movement Speed
 itemoptiondeschelper.41	Magic Casting Speed
+itemoptiondeschelper.42	Constellation Casting Mini-game Bonus
 itemoptionset.1	Spirit 
 itemqualitymgr.1	Talent Bonus: 
 itemqualitymgr.2	Grandmaster craft bonus : 
@@ -784,6 +786,7 @@ mabinogi_talent.26	Chain Slash
 mabinogi_talent.27	Pet Training
 mabinogi_talent.28	Glyphwright
 mabinogi_talent.29	Battle Astrology
+mabinogi_talent.30	Fate Astrology
 mabinovelmgr.1	Mysterious Detective
 mastersordereventdescmgr.1	The event is not currently in progress.
 mastersordereventdescmgr.2	You do not have the required item.

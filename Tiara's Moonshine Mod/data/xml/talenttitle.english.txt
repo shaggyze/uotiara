@@ -1438,7 +1438,7 @@
 2303	Champion (LV13) Chain Slasher
 2304	Wise (LV14) Chain Slasher
 2305	Master (LV15) Chain Slasher
-2306	Chain (MAX) Chain Slash Grandmaster
+2306	Grandmaster (MAX) Chain Slasher
 2307	The Chain Slash Talent uses the mysterious metaphysical powers of Dorcha and Bachram to control an epic Chain Blade weapon.\nSince these powers build with each attack, you must strategically decide when to consume them to be at your most devastating.
 2308	The Chain Slash Talent uses the mysterious metaphysical powers of Dorcha and Bachram to control an epic Chain Blade weapon.\nSince these powers build with each attack, you must strategically decide when to consume them to be at your most devastating.
 2309	The Chain Slash Talent uses the mysterious metaphysical powers of Dorcha and Bachram to control an epic Chain Blade weapon.\nSince these powers build with each attack, you must strategically decide when to consume them to be at your most devastating.
@@ -1825,6 +1825,22 @@
 2690	Your craft is the thing of legend. While any woodsman can train animals and work wood, you elevate it to another level with your glyphwrighting acumen.
 2691	Grandmaster Spellsword
 2692	Grandmaster Choirmaster
+2693	약품을 연구하고 여러 가지를 조합하여 약품을 만들어내는 것이 바로 약품 연구입니다.\n약품 연구는 여러 가지 포션을 제조하여 다양한 효과를 낼 수 있습니다.
+2694	약품을 연구하고 여러 가지를 조합하여 약품을 만들어내는 것이 바로 약품 연구입니다.\n약품 연구는 여러 가지 포션을 제조하여 다양한 효과를 낼 수 있습니다.
+2695	약품을 연구하고 여러 가지를 조합하여 약품을 만들어내는 것이 바로 약품 연구입니다.\n약품 연구는 여러 가지 포션을 제조하여 다양한 효과를 낼 수 있습니다.
+2696	약품을 연구하고 여러 가지를 조합하여 약품을 만들어내는 것이 바로 약품 연구입니다.\n약품 연구는 여러 가지 포션을 제조하여 다양한 효과를 낼 수 있습니다.
+2697	약품을 연구하고 여러 가지를 조합하여 약품을 만들어내는 것이 바로 약품 연구입니다.\n약품 연구는 여러 가지 포션을 제조하여 다양한 효과를 낼 수 있습니다.
+2698	약품을 연구하고 여러 가지를 조합하여 약품을 만들어내는 것이 바로 약품 연구입니다.\n약품 연구는 여러 가지 포션을 제조하여 다양한 효과를 낼 수 있습니다.
+2699	약품을 연구하고 여러 가지를 조합하여 약품을 만들어내는 것이 바로 약품 연구입니다.\n약품 연구는 여러 가지 포션을 제조하여 다양한 효과를 낼 수 있습니다.
+2700	약품을 연구하고 여러 가지를 조합하여 약품을 만들어내는 것이 바로 약품 연구입니다.\n약품 연구는 여러 가지 포션을 제조하여 다양한 효과를 낼 수 있습니다.
+2701	약품을 연구하고 여러 가지를 조합하여 약품을 만들어내는 것이 바로 약품 연구입니다.\n약품 연구는 여러 가지 포션을 제조하여 다양한 효과를 낼 수 있습니다.
+2702	약품을 연구하고 여러 가지를 조합하여 약품을 만들어내는 것이 바로 약품 연구입니다.\n약품 연구는 여러 가지 포션을 제조하여 다양한 효과를 낼 수 있습니다.
+2703	약품을 연구하고 여러 가지를 조합하여 약품을 만들어내는 것이 바로 약품 연구입니다.\n약품 연구는 여러 가지 포션을 제조하여 다양한 효과를 낼 수 있습니다.
+2704	약품을 연구하고 여러 가지를 조합하여 약품을 만들어내는 것이 바로 약품 연구입니다.\n약품 연구는 여러 가지 포션을 제조하여 다양한 효과를 낼 수 있습니다.
+2705	약품을 연구하고 여러 가지를 조합하여 약품을 만들어내는 것이 바로 약품 연구입니다.\n약품 연구는 여러 가지 포션을 제조하여 다양한 효과를 낼 수 있습니다.
+2706	약품을 연구하고 여러 가지를 조합하여 약품을 만들어내는 것이 바로 약품 연구입니다.\n약품 연구는 여러 가지 포션을 제조하여 다양한 효과를 낼 수 있습니다.
+2707	약품을 연구하고 여러 가지를 조합하여 약품을 만들어내는 것이 바로 약품 연구입니다.\n약품 연구는 여러 가지 포션을 제조하여 다양한 효과를 낼 수 있습니다.
+2708	약품을 연구하고 여러 가지를 조합하여 약품을 만들어내는 것이 바로 약품 연구입니다.\n약품 연구는 여러 가지 포션을 제조하여 다양한 효과를 낼 수 있습니다.
 2709	This hidden talent is a result of proficiency in Close Combat and Magic.
 2710	This hidden talent is a result of proficiency in Music and the Holy Arts. Soothe people's spirits by singing a sacred song.
 2711	Grandmaster Bombardier
@@ -1846,7 +1862,7 @@
 2727	Champion Battle Astrologer
 2728	Wise Battle Astrologer
 2729	Master Battle Astrologer
-2730	Grandmaster Battle Astrologer
+2730	Grandmaster (MAX) Battle Astrologer
 2731	Practitioners of Battle Astrology wield Scythes in combat, and carry with them an Orb used in their auguries. Their damage is primarily reliant upon their Magic Attack power.\nAstrologers can customize their skills, tailoring each to best suit their own proclivities in combat.\nSelect Battle Astrology as your talent to gain greater amounts of Intelligence and Luck as you level.
 2732	Practitioners of Battle Astrology wield Scythes in combat, and carry with them an Orb used in their auguries. Their damage is primarily reliant upon their Magic Attack power.\nAstrologers can customize their skills, tailoring each to best suit their own proclivities in combat.\nSelect Battle Astrology as your talent to gain greater amounts of Intelligence and Luck as you level.
 2733	Practitioners of Battle Astrology wield Scythes in combat, and carry with them an Orb used in their auguries. Their damage is primarily reliant upon their Magic Attack power.\nAstrologers can customize their skills, tailoring each to best suit their own proclivities in combat.\nSelect Battle Astrology as your talent to gain greater amounts of Intelligence and Luck as you level.
@@ -1863,6 +1879,38 @@
 2744	Practitioners of Battle Astrology wield Scythes in combat, and carry with them an Orb used in their auguries. Their damage is primarily reliant upon their Magic Attack power.\nAstrologers can customize their skills, tailoring each to best suit their own proclivities in combat.\nSelect Battle Astrology as your talent to gain greater amounts of Intelligence and Luck as you level.
 2745	Practitioners of Battle Astrology wield Scythes in combat, and carry with them an Orb used in their auguries. Their damage is primarily reliant upon their Magic Attack power.\nAstrologers can customize their skills, tailoring each to best suit their own proclivities in combat.\nSelect Battle Astrology as your talent to gain greater amounts of Intelligence and Luck as you level.
 2746	Practitioners of Battle Astrology wield Scythes in combat, and carry with them an Orb used in their auguries. Their damage is primarily reliant upon their Magic Attack power.\nAstrologers can customize their skills, tailoring each to best suit their own proclivities in combat.\nSelect Battle Astrology as your talent to gain greater amounts of Intelligence and Luck as you level.
+2747	Fledgling Fate Astrologer
+2748	Novice Fate Astrologer
+2749	Amateur Fate Astrologer
+2750	Green Fate Astrologer
+2751	Naive Fate Astrologer
+2752	Apprentice Fate Astrologer
+2753	Senior Fate Astrologer
+2754	Advanced Fate Astrologer
+2755	Seasoned Fate Astrologer
+2756	Skilled Fate Astrologer
+2757	Expert Fate Astrologer
+2758	Great Fate Astrologer
+2759	Champion Fate Astrologer
+2760	Wise Fate Astrologer
+2761	Master Fate Astrologer
+2762	Grandmaster Fate Astrologer
+2763	Fate Astrologers can gain insight into people's futures, personalities, and fates by studying the positions of the stars. They are frequently also skilled in other divination methods, such as Cartomancy, and may be able to create tools and materials that use the power of the stars.
+2764	Fate Astrologers can gain insight into people's futures, personalities, and fates by studying the positions of the stars. They are frequently also skilled in other divination methods, such as Cartomancy, and may be able to create tools and materials that use the power of the stars.
+2765	Fate Astrologers can gain insight into people's futures, personalities, and fates by studying the positions of the stars. They are frequently also skilled in other divination methods, such as Cartomancy, and may be able to create tools and materials that use the power of the stars.
+2766	Fate Astrologers can gain insight into people's futures, personalities, and fates by studying the positions of the stars. They are frequently also skilled in other divination methods, such as Cartomancy, and may be able to create tools and materials that use the power of the stars.
+2767	Fate Astrologers can gain insight into people's futures, personalities, and fates by studying the positions of the stars. They are frequently also skilled in other divination methods, such as Cartomancy, and may be able to create tools and materials that use the power of the stars.
+2768	Fate Astrologers can gain insight into people's futures, personalities, and fates by studying the positions of the stars. They are frequently also skilled in other divination methods, such as Cartomancy, and may be able to create tools and materials that use the power of the stars.
+2769	Fate Astrologers can gain insight into people's futures, personalities, and fates by studying the positions of the stars. They are frequently also skilled in other divination methods, such as Cartomancy, and may be able to create tools and materials that use the power of the stars.
+2770	Fate Astrologers can gain insight into people's futures, personalities, and fates by studying the positions of the stars. They are frequently also skilled in other divination methods, such as Cartomancy, and may be able to create tools and materials that use the power of the stars.
+2771	Fate Astrologers can gain insight into people's futures, personalities, and fates by studying the positions of the stars. They are frequently also skilled in other divination methods, such as Cartomancy, and may be able to create tools and materials that use the power of the stars.
+2772	Fate Astrologers can gain insight into people's futures, personalities, and fates by studying the positions of the stars. They are frequently also skilled in other divination methods, such as Cartomancy, and may be able to create tools and materials that use the power of the stars.
+2773	Fate Astrologers can gain insight into people's futures, personalities, and fates by studying the positions of the stars. They are frequently also skilled in other divination methods, such as Cartomancy, and may be able to create tools and materials that use the power of the stars.
+2774	Fate Astrologers can gain insight into people's futures, personalities, and fates by studying the positions of the stars. They are frequently also skilled in other divination methods, such as Cartomancy, and may be able to create tools and materials that use the power of the stars.
+2775	Fate Astrologers can gain insight into people's futures, personalities, and fates by studying the positions of the stars. They are frequently also skilled in other divination methods, such as Cartomancy, and may be able to create tools and materials that use the power of the stars.
+2776	Fate Astrologers can gain insight into people's futures, personalities, and fates by studying the positions of the stars. They are frequently also skilled in other divination methods, such as Cartomancy, and may be able to create tools and materials that use the power of the stars.
+2777	Fate Astrologers can gain insight into people's futures, personalities, and fates by studying the positions of the stars. They are frequently also skilled in other divination methods, such as Cartomancy, and may be able to create tools and materials that use the power of the stars.
+2778	Fate Astrologers can gain insight into people's futures, personalities, and fates by studying the positions of the stars. They are frequently also skilled in other divination methods, such as Cartomancy, and may be able to create tools and materials that use the power of the stars.\nSelect Fate Astrology as your talent to gain greater amounts of HP, MP, and Stamina as you level, as well as to expedite the training of Fate Astrology skills.
 2779	Practitioners of Battle Astrology wield Scythes in combat, and carry with them an Orb used in their auguries. Their damage is primarily reliant upon their Magic Attack power.\nAstrologers can customize their skills, tailoring each to best suit their own proclivities in combat.\nSelect Battle Astrology as your talent to gain greater amounts of Intelligence and Luck as you level.
 2780	Practitioners of Battle Astrology wield Scythes in combat, and carry with them an Orb used in their auguries. Their damage is primarily reliant upon their Magic Attack power.\nAstrologers can customize their skills, tailoring each to best suit their own proclivities in combat.\nSelect Battle Astrology as your talent to gain greater amounts of Intelligence and Luck as you level.
 2781	Practitioners of Battle Astrology wield Scythes in combat, and carry with them an Orb used in their auguries. Their damage is primarily reliant upon their Magic Attack power.\nAstrologers can customize their skills, tailoring each to best suit their own proclivities in combat.\nSelect Battle Astrology as your talent to gain greater amounts of Intelligence and Luck as you level.
@@ -1895,3 +1943,4 @@
 2808	Practitioners of Battle Astrology wield Scythes in combat, and carry with them an Orb used in their auguries. Their damage is primarily reliant upon their Magic Attack power.\nAstrologers use their knowledge of the stars to customize their skills, tailoring each to best suit their own proclivities in combat. In doing so, they demonstrate their heightened ability to influence destiny itself.
 2809	Practitioners of Battle Astrology wield Scythes in combat, and carry with them an Orb used in their auguries. Their damage is primarily reliant upon their Magic Attack power.\nAstrologers use their knowledge of the stars to customize their skills, tailoring each to best suit their own proclivities in combat. In doing so, they demonstrate their heightened ability to influence destiny itself.
 2810	Practitioners of Battle Astrology wield Scythes in combat, and carry with them an Orb used in their auguries. Their damage is primarily reliant upon their Magic Attack power.\nAstrologers use their knowledge of the stars to customize their skills, tailoring each to best suit their own proclivities in combat. In doing so, they demonstrate their heightened ability to influence destiny itself.
+2811	Fate Astrologers can gain insight into people's futures, personalities, and fates by studying the positions of the stars. They are frequently also skilled in other divination methods, such as Cartomancy, and may be able to create tools and materials that use the power of the stars.

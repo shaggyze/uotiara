@@ -4714,3 +4714,28 @@
 6800	Spirit Buff Duration
 6801	Spirit Buff Bonus Damage
 6802	Spirit Attack Range
+6803	Stellar Handicraft
+6804	Constellation Casting
+6805	Cartomancy
+6806	Astral Imaging
+6807	Astral Imprinting
+6808	Sticker
+6809	Allows the user to draw upon the residual potentialities of the stars' reflections to invest created objects with stellar energy. Drawing upon the great knowledge contained within the Stellar Citadel's Fatespinner, Astrologers make use of this discipline to craft the things needed for the practice of their art. No special equipment is required, but one must be near the Fatespinner in order to utilize this skill. As such creations require a vast amount of knowledge, some items require significant amounts of MP and Stamina to produce.
+6810	A skill that showcases Astrologers' expert ability to harness celestial forces. Observing the stars reflected on a body of water, the user casts their line and draws from them fragments of stellar energy based on their alignment. The greater one's knowledge of the constellations, the more effectively such energy can be harvested. As the stars must be reflected, this skill can only be used at night.
+6811	The art of reading a person's fate using a deck of tarot cards. The subject must focus on a possibility they're curious about or some question or topic on which they desire greater understanding, then select a card. If the destiny the card foretells isn't what you hoped for, there is no cause to fret--the future is never truly set in stone, and you may yet be able to receive the guidance of fate from another.
+6812	A skill that draws upon Astrologers' knowledge of body and spirit, allowing them to capture an astral reflection of a subject's soul that preserves visual information about all aspects of their appearance. As the image reflects a singular point in time, it will not change even if the individual does. If there's anyone you wish to remember just the way they are, this is an excellent way to commit such fleeting moments to memory.
+6813	A skill that allows an Astrologer to embellish the reflections captured with Astral Imaging. One can add stickers, borders, and backgrounds, customizing the details to create entirely unique designs for cards.
+6814	Manual Fishing Bonus Reward
+6815	Biting Rate
+6816	Automatic Fishing Success Rate
+6817	Increased Production Success Rate
+6818	Manual Fishing Bonus Reward
+6819	Complete the Fate Astrology Talent scenario quest 'Pentacle of Good Fortune'.
+6820	Complete Fate Astrology Talent scenario quest 'Wand of Lesser Willpower'.
+6821	Complete Fate Astrology Talent scenario quest 'Sword of Fate's Resolve'.
+6822	Complete Fate Astrology Talent scenario quest 'Cup of Overflowing Emotion'.
+6823	Complete Fate Astrology Talent scenario quest 'Cup of Overflowing Emotion'.
+6824	Production Mastery
+6825	Improves crafting know-how commonly associated with almost all production skills, excluding cooking and enchants.
+6826	The act of creation involves selecting materials and assembling them to bring your idea to life. Studying the relationships between materials and pondering the many ways in which they can be combined to produce the desired results is an exercise in patience and perseverance, which leads to the development of stamina. Production Mastery allows the creator's imagination to take shape and be fully realized through the labor of their own hands. The joy of creation and the satisfaction of turning concepts into reality is the driving force behind Production Mastery. (The Cooking, Enchanting, Pet Training, Glyphwright, and Astrology Talents are not affected by this skill.)
+6827	Talk to Alissa in Tir Chonaill with the Skills keyword.\n\nOr, during the tutorial, undertake the 'Production Mastery' quest or the 'Red Sand Scorpion Venom Sac' quest.

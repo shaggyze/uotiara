@@ -555,6 +555,58 @@ pli_arbeitrewardframe.1	Remaining: {0}
 pli_arbeitview2.1	Openings Available: {0}
 pli_arbeitview2.2	Time: %s %02u:00 - %s %02u:00
 pli_arbeitview2.3	Times Completed: {0}
+pli_astrocapturefpsframeview.1	Image Storage: {0} / 10
+pli_astrocapturefpsframeview.2	<color=4>Image Storage: 0 / 10</color>
+pli_astrocapturefpsframeview.3	Item Icon Storage: {0}
+pli_astrocapturefpsframeview.4	<color=4>Item Icon Storage: 0</color>
+pli_astrocapturemainview.1	[Subjects]\nAstral Imaging records the appearance of an NPC, monster, or another\n Milletian as a "Subject." You can save images of up to 10 different Subjects\nat one time, but cannot use the same image repeatedly.\n\n[Borders]\nBorders, used to decorate cards, are permanently available once unlocked.\n\n[Stickers]\nYou can use an Astral Sticker Kit to save the icon of an item in your Inventory\nas a sticker. A selection of stickers is also available for purchase from the Sticker Shop.\nAll stickers are single-use, and stickers you have attached will be consumed when\na card design is finalized. Glittering Dyes applied to stickers will be displayed as\nthe first color on the finished card design.\n\n[Completed Cards]\nA place where finished card designs are saved. Completed cards can be shared\nwith other Milletians by inscribing them on Astral Cards. The appearance of\ncards in your Astrology tarot deck can be changed to the appearance of these\ncustomized cards. A saved card will disappear if the completed design is extracted\nor its appearance is modified. Completed card designs can be saved in Frames\nthat can be placed on your Homestead or Moonlight Island.
+pli_astrocapturemainview.2	Switch to the Completed Cards tab without saving current edits?
+pli_astrocapturemainview.3	Astral Imprinting Help
+pli_astrocapturemainview.4	This Border has not been unlocked yet.
+pli_astrocapturemainview.5	Exit customization without saving your progress?\nAny unsaved edits cannot be recovered later.
+pli_astrocapturemainview.6	Material currently being edited will be reset. Do you wish to change the Subject?
+pli_astrocapturemainview.7	This Background has not been unlocked yet.
+pli_astrocapturemainview.8	Extracted Stickers cannot be restored once deleted. Proceed?
+pli_astrodecoratemainview.1	You must select a Subject first.
+pli_astrodecoratemainview.2	Finalize this card? Cost: {0} Gold\n\n- Any stickers applied to this card will be consumed.\n- Glittering stickers will not be displayed when a card is finalized.
+pli_astrodecoratemainview.3	You don't have enough Gold.
+pli_astrodecoratemainview.4	You have exceeded the maximum cost.
+pli_astrodecoratemainview.5	Material currently being edited will be reset. Proceed?
+pli_astrodecoratemainview.6	You have exceeded the number of stickers allowed on a single card.
+pli_astrodecoratemainview.7	Total Gold required: {0}
+pli_astrodecoratemanageview.1	{0} Gold
+pli_astrodecoratemanageview.2	Basic Border
+pli_astrodecoratemanageview.3	Background: Basic Background
+pli_astrodecoratemanageview.4	Background: {0}
+pli_astrodecoratemanageview.5	Subject: None
+pli_astrodecoratemanageview.6	Subject: {0}
+pli_astrodecoratestickertooltipview.1	Name: {0}
+pli_astrodecoratestickertooltipview.2	Cost: {0}
+pli_astrodecoratestickertooltipview.3	Price: {0} Gold
+pli_astrodecoratestickertooltipview.4	Unlock Requirement: {0}
+pli_astrodecoratestickertooltipview.5	Name: {0}
+pli_astrologistcardoracleballoon.1	End Sharing
+pli_astrologistcardoracleballoon.2	{0}/{1} - {2} sec.
+pli_astrologistcardoracleballoon.3	You are too far away to share in another's fate.
+pli_astrologistcardoracleballoon.4	Finish sharing your fate.
+pli_astrologistcardoracleshareview.1	Conjuration Crystals Used/Held: {0}/{1}
+pli_astrologistcardoracleshareview.2	\n(The guidance of fate is active.)
+pli_astrologistcardoracleview.1	{0}, you can harness the untapped potential of the fate you've drawn.\n\nWill you use {1} Conjuration Crystal(s) to receive the guidance of fate?\n\n
+pli_astrologistcardoracleview.2	Receive
+pli_astrologistcardoracleview.3	Close
+pli_astrologistcardoracleview.4	Fate's guidance is already active.
+pli_astrologistcardoracleview.5	You have not received the guidance of fate.\nClose the window anyway?
+pli_astrologistcardoracleview.6	Close
+pli_astrologistcardoracleview.7	Cancel
+pli_astrologistcardoracleview.8	You have already received the guidance of fate, and cannot share another.
+pli_astrologistcardoracleview.9	View the selected Fortune.\nDoes not consume a Conjuration Crystal, but prevents you from receiving the guidance of fate.\nRevealing your fate will trigger the cooldown period for the Cartomancy skill.\nContinue?
+pli_astrologistcardoracleview.10	Read Fate
+pli_astrologistcardoracleview.11	Close
+pli_astrologistcardoracleview.12	Conjuration Crystals Used/Held: {0}/{1}
+pli_astrologistcardpackview.1	{0}\n-Grade {1}-
+pli_astrologistcardpackview.2	+{0}
+pli_astrologistcardpackview.3	Received {0} (Grade {1}) Card (Converted to {2} x{3}).
+pli_astrologistcardpackview.4	Received {0} (Grade {1}) Card.
 pli_astrologistdecksettingtooltipview.1	{0} (Grade {1})
 pli_astrologistdecksettingview.1	You cannot change your hand of cards outside of the Stellar Citadel.
 pli_astrologistdecksettingview.2	You cannot place two Wheel of Fortune cards in a row.
@@ -609,6 +661,15 @@ pli_astrologistweaponeventview.3	The owl is delivering the quest scroll.
 pli_astrologistweaponeventview.4	Unlocked upon completing the '{0}' quest.
 pli_astrologistweaponeventview.5	Obtained upon completing the '{0}' mission.
 pli_astrologistweaponeventview.6	You have already completed this mission.
+pli_astropfframeskinselectview.1	You don't have enough Gold.
+pli_astropfframeskinselectview.2	Extracting a Frame's design requires 10,000 Gold and a blank Astral Card.\nProceed with extraction?
+pli_astropfframeskinselectview.3	You don't have enough Gold.
+pli_astropfframeskinselectview.4	Changing a Frame's design requires 10,000 Gold.\nProceed?
+pli_astrostickerextractview.1	You cannot extract yourself as a Sticker.
+pli_astrostickerextractview.2	You cannot extract images from expired items.
+pli_astrostickerextractview.3	You cannot extract an images from Echostones.
+pli_astrostickerextractview.4	You cannot extract an images from Stardust.
+pli_astrostickerextractview.5	The image extracted for items that change appearance based on\nstack size will be representative of the maximum value.
 pli_attendances10gifticonframe.1	%d time(s)
 pli_auctioninventoryview.1	Auction Item
 pli_auctioninventoryview.2	Accept
@@ -1519,7 +1580,7 @@ pli_crystalizeview.48	Magic Charges: <color={0}>{1}/{2}</color>
 pli_crystalizeview.49	Auto Production
 pli_crystalizeview.50	{0}
 pli_crystalizeview.51	Cannot register materials. Please equip materials.
-pli_crystalizeview.52	Auto Register Tools and Materials
+pli_crystalizeview.52	Register Tools and Materials
 pli_crystalmanagementview.1	Please select a crystal to store.\nClicking the stored crystal will remove it from the slot.
 pli_crystalmanagementview.2	{0}
 pli_crystalmanagementview.3	{0}
@@ -5351,8 +5412,8 @@ pli_transmute2022view.5	Favorites {0}/{1}
 pli_transmute2022view.6	Synthesize Manually
 pli_transmute2022view.7	{0}. {1}
 pli_transmute2022view.8	Find synthesis recipes and register as favorites.
-pli_transmute2022view.9	Auto Register Tools and Materials
-pli_transmute2022view.10	Auto Register Tools and Materials
+pli_transmute2022view.9	Register Tools and Materials
+pli_transmute2022view.10	Register Tools and Materials
 pli_transmute2022view.11	Add Favorites
 pli_transmute2022view.12	Delete Favorites
 pli_transmuteview.1	{0} Synthesis
@@ -5844,6 +5905,10 @@ pli_windowbuy.25	You don't have enough Seasonal Ducats.
 pli_windowbuy.26	Seasonal Ducat Price: {0}
 pli_windowbuy.27	Your Seasonal Ducats: {0}
 pli_windowcampballoon.1	{0} ({1} to hide)
+pli_windowcampjoin.1	Enter Oracle's Pavilion
+pli_windowcampmake.1	Create Oracle's Pavilion
+pli_windowcampmake.2	Oracle's Pavilion
+pli_windowcampmake.3	Do you wish to take down the pavilion?
 pli_windowcampsharing.0	House Sharing
 pli_windowcardselect.0	You need the Basic Elf card.
 pli_windowcardselect.1	You need the Premium Elf card.
@@ -6973,6 +7038,11 @@ pli_windowoptiontabsetcframe.69	View Field Raid Announcements
 pli_windowoptiontabsetcframe.70	Select to show Field Raid announcements on the screen.
 pli_windowoptiontabsetcframe.75	Lock Astrology Cards UI
 pli_windowoptiontabsetcframe.76	Locks the position of the Astrology Cards UI.
+pli_windowoptiontabsetcframe.77	Allow Astral Imaging
+pli_windowoptiontabsetcframe.78	All
+pli_windowoptiontabsetcframe.79	Friends
+pli_windowoptiontabsetcframe.80	Guild Members
+pli_windowoptiontabsetcframe.81	OFF
 pli_windowoptiontabsetcframe.autohide_ssb	Lock Extra Skill Slot
 pli_windowoptiontabsetcframe.autohide_ssb_tp	Locks the extra skill slot.\nLocked skills cannot be removed from the window. Prevents window from being moved.
 pli_windowoptiontabsetcframe.l_ssb	Show Extra Skill Slot 1
@@ -7153,7 +7223,7 @@ pli_windowpartyboardframe.14	It's {0}({1})'s party.\n \"{2}\"
 pli_windowpartyboardframe.15	Party Name
 pli_windowpartyboardframe.16	It's {0}({1})'s party.\n \"{2}\"\n{3}
 pli_windowpartydetail.1	Party Join Confirmation
-pli_windowpartydetail.2	Password
+pli_windowpartydetail.2	Password:
 pli_windowpartydetail.3	Join Party
 pli_windowpartyframe.1	[Unit {0}]
 pli_windowpartyjoin.1	Cannot be used while reforging.
@@ -7215,6 +7285,14 @@ pli_windowpocketitem.22	<color=5>- Resets next season</color>
 pli_windowpocketitem.23	Placement Information
 pli_windowpocketitem.24	\nCan be placed on Homestead
 pli_windowpocketitem.25	\nCan be placed on Moonlight Island
+pli_windowpocketitem.26	Design Info
+pli_windowpocketitem.27	Subject: {0}
+pli_windowpocketitem.28	Sticker Info
+pli_windowpocketitem.29	Shape: {0}
+pli_windowpocketitem.30	You do not have enough Astral Sticker Kits.
+pli_windowpocketitem.31	You cannot extract images from expired items.
+pli_windowpocketitem.32	You cannot extract images from Echostones.
+pli_windowpocketitem.33	You cannot extract images from Stardust forms.
 pli_windowpocketitemaction.1	You may not equip an item that has already been expired.
 pli_windowpocketitemaction.2	Only characters with {0} at dan {1} are eligible to be equipped with this item.
 pli_windowpocketitemaction.3	The guild robe can be outfitted only after it is registered with the corresponding guild.
@@ -8645,12 +8723,12 @@ window.enchant.enchat_burn_entrust_title	Entrust Enchanter for Burning
 window.enchant.entrust_reward_tab	Item to Give
 window.enchant.gold	Gold
 window.enchant.meterial_item_tooltip	Only one will decrease even if there are more in the bundle.
-window.enchant.my_source_item	Provided by me
-window.enchant.others_source_item	Provided by the enchanter
+window.enchant.my_source_item	(From me)
+window.enchant.others_source_item	(From enchanter)
 window.enchant.perform_reward_tab	Item to Receive
 window.enchant.reward_item	Gratuity Gift Offered
 window.enchant.reward_item2	Gratuity Gift Offered
-window.enchant.source_item	Material Item
+window.enchant.source_item	Materials
 window.enchant.source_item_desc	Enchanter's Burn requires 1 Sunlight Herb and\n1 Holy Water of Lymilark. The items can be\nprovided by either the requester or the burner.
 window.enchant.success_rate	Success % :
 window.enchant.success_rate2	Success %
@@ -9177,14 +9255,14 @@ window.option.shadow_low	Low
 window.option.shadow_medium	Normal
 window.option.shadow_none	Not Used
 window.option.shadow_text	Shadow Effect
-window.option.skin_color_0	Sky Blue Glass
+window.option.skin_color_0	Calm Skies
 window.option.skin_color_1	Silver Gray
-window.option.skin_color_2	Doll Pink
-window.option.skin_color_3	Electric Gray
-window.option.skin_color_4	Gray Thin Glass
+window.option.skin_color_2	Carnation Pink
+window.option.skin_color_3	Black Tungsten
+window.option.skin_color_4	Tinted Glass
 window.option.skin_color_5	Metallic Green
 window.option.skin_color_6	Windows9X
-window.option.skin_color_7	Flaming Dev
+window.option.skin_color_7	Crimson Flames
 window.option.skin_color_8	Milk Bubble
 window.option.skin_color_text	Interface Color
 window.option.sound_tab	SOUND

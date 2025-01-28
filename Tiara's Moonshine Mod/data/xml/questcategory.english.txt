@@ -92,4 +92,6 @@
 95	[Royal Blacksmith]
 96	[Royal Tailor]
 97	[Royal Enchanter]
-99	[전투 점성술]
+98	[Fate]
+99	[Battle]
+100	[Fate]
