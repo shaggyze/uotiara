@@ -1188,7 +1188,7 @@ pli_charactercommerceframe.2	Current Merchant Rating {0}\nTo Next Level {1}
 pli_charactercommerceframe.3	lv{0} exp {1}%
 pli_charactercommerceframe.4	{0} Commerce Rank: {1}
 pli_charactercommerceframe.5	{1}/{2}/{0} - {4}/{5}/{3} (Resets on {6}/{7} at {8}:00)
-pli_charactercommerceframe.6	<color=2><outlinecolor=3>[시즌 교역]</outlinecolor></color>\n교역은 시즌제로 진행되며, 4월/8월/12월 첫 번째 주 목요일 오전 7시에 기존 시즌이 종료되고 새로운 시즌이 시작됩니다.\n시즌 종료 시 시즌 동안 획득한 [시즌 두카트] 및 [시즌 등급]은 초기화됩니다.\n\n<color=2><outlinecolor=3>[시즌 두카트]</outlinecolor></color>\n교역 시즌 기간 사용 가능한 교역용 화폐이며, 교역소에서 교역품을 구매할 수 있습니다.\n시즌 두카트를 이용하여 운송 수단을 대여하거나 시즌 상점에서 아이템을 구매할 수 있습니다.\n시즌이 종료되면 시즌 두카트는 일반 두카트로 전환됩니다.\n보유 중인 두카트와 시즌 두카트는 소지품 창에서 확인할 수 있습니다.\n\n<color=2><outlinecolor=3>[시즌 상점]</outlinecolor></color>\n이리아 켈라 항구의 NPC '사이브' 를 통해 시즌 한정 아이템을 구매할 수 있습니다.\n시즌 한정 아이템은 시즌 두카트를 사용하여 구매할 수 있습니다.\n\n<color=2><outlinecolor=3>[시즌 등급]</outlinecolor></color>\n교역을 진행하면 시즌 교역 점수를 획득할 수 있으며, 점수에 따라 시즌 교역 등급이 결정됩니다.\n시즌 교역 등급 달성 시 해당 등급의 보상을 획득할 수 있습니다.\n\n<color=2><outlinecolor=3>[물물 교역]</outlinecolor></color>\n시즌 교역 등급 [실버5] 달성 시 이리아에 위치한 물물 교역소에서 물물 교역이 가능합니다.\n물물 교역에 필요한 교역품은 아르바이트나 제작으로 획득한 아이템들로 구매가 가능합니다.\n물물 교역소의 교역품은 구매 제한이 있으며, 현실 시간으로 매주 목요일 오전 7시에 초기화됩니다.\n\n<color=2><outlinecolor=3>[교역소 신용도]</outlinecolor></color>\n교역소에서 교역품을 구매하여 다른 마을의 교역소에 판매하면 구매한 마을의 신용도가 상승합니다.\n신용 레벨이 오를수록 구입할 수 있는 교역품의 종류가 늘어납니다.\n\n
+pli_charactercommerceframe.6	<color=2><outlinecolor=3>[Commerce Seasons]</outlinecolor></color>\nEach Commerce season lasts four months, changing over on the first Thursday\nin March, July, and November at 7:00 AM (Server Time). At the beginning of\na new season, all players' Seasonal Rank and Seasonal Ducats will be reset.\n\n<color=2><outlinecolor=3>[Seasonal Ducats]</outlinecolor></color>\nThis currency is the trade standard for Commerce seasons, and can be used to\npurchase goods from the Trading Posts, as well as rent Commerce Mounts and\npurchase items from the Seasonal Shop. Any Seasonal Ducats in your possession\nwill be converted to standard Ducats at the beginning of a new season. You can\nsee your current holdings of Seasonal and Standard Ducats in your inventory.\n\n<color=2><outlinecolor=3>[Seasonal Shop]</outlinecolor></color>\nYou can purchase a selection of limited-availability seasonal items from Sayiv\nin Port Qilla. These items can only be bought with Seasonal Ducats.\n\n<color=2><outlinecolor=3>[Seasonal Rank]</outlinecolor></color>\nYou can raise your Seasonal Commerce Score via taking part in Commerce.\nThis score determines your overall Seasonal Rank. Each tier of Seasonal Rank\nyou reach makes you eligible for additional rewards.\n\n<color=2><outlinecolor=3>[Barter Trading]</outlinecolor></color>\nOnce you reach a Seasonal Rank of [Silver 5], you can engage in barter trading\nwith the Barter Trading Posts in Iria. Wares used in barter trading can be crafted,\nor received as rewards from Part-Time Jobs. There are weekly purchase limits\non goods obtainable through barter trading, which reset every Thursday at 7:00 AM (Server Time).\n\n<color=2><outlinecolor=3>[Merchant Rating]</outlinecolor></color>\nWhen you purchase goods from a Trading Post and sell them at a different\nTrading Post, your Merchant Rating will increase with the location from which\nyou originally purchased those goods. A higher Merchant Rating with\na location will increase the selection of wares available for Commerce.\n\n
 pli_characterconditionremaintimeview.1	No effects active.
 pli_characterconditionremaintimeview.2	 (Cannot be used)
 pli_characterconditionremaintimeview.3	 <color=2>(Polyphony)</color>
@@ -1293,6 +1293,7 @@ pli_chronicleweaponstoreview.2	You cannot hold more than one weapon of that type
 pli_chronicleweaponstoreview.3	Deposit the {0} in your Storage?
 pli_chronicleweaponstoreview.4	Exchange
 pli_chronicleweaponstoreview.5	Exchange Weapon
+pli_cleaningdollminigameview.1	(Tries Remaining: {0})
 pli_collecthuntview.1	Hunt ({0}/{1})
 pli_collectionframe.1	Popularity
 pli_collectionframe.2	Collect
@@ -1924,6 +1925,25 @@ pli_eldrankingframe.6	Error
 pli_eldrankingframe.7	Recent Rank Update
 pli_electioneventview.1	정말로 [{0}]에 투표하시겠습니까?
 pli_enchantentrustview.1	Dan
+pli_enchantoptionselectview.1	알림
+pli_enchantoptionselectview.2	다음 옵션을 강화하시겠습니까?\n
+pli_enchantoptionselectview.3	강화 가능한 아이템이 없습니다. 착용중인 아이템은 강화할 수 없습니다.
+pli_enchantoptionselectview.4	강화할 아이템을 고르세요.
+pli_enchantoptionselectview.5	강화에 성공하였습니다.
+pli_enchantoptionselectview.6	잠시 후 다시 시도해 주세요.({0})
+pli_enchantoptionselectview.7	아이템을 선택해 주세요.
+pli_enchantoptionselectview.8	대상 아이템 : 없음
+pli_enchantoptionselectview.9	접두 : 
+pli_enchantoptionselectview.10	접미 : 
+pli_enchantoptionselectview.11	강화할 옵션을 고르세요.
+pli_enchantoptionselectview.12	대상 아이템 : {0}
+pli_enchantoptionselectview.13	옵션의 수치가 고정이므로 강화할 수 없습니다.
+pli_enchantoptionselectview.14	옵션의 수치가 최대치에 도달하여 강화할 수 없습니다.
+pli_enchantoptionselectview.15	현재 옵션 수치 : {0} / 최대 옵션 수치 : {1}
+pli_enchantoptionselectview.16	\n{0}\n\n<color=2><outlinecolor=3>기존 : {1}\n변경 : {2}</outlinecolor></color>
+pli_enchantoptionselectview.17	접두 : {0} ({1})
+pli_enchantoptionselectview.18	접미 : {0} ({1})
+pli_enchantoptionselectview.19	인챈트 능력 상승의 스크롤이 만료되었습니다
 pli_ensembleplaypartymainview.1	You need the Chorus action.
 pli_ensembleplaypartymainview.2	You need the Jam Session action.
 pli_ensembleplaypartymainview.3	You need an instrument.
@@ -4733,6 +4753,8 @@ pli_resoulmateview.4	[Inactive]
 pli_resoulmateview.5	If you break your Soulmate bond, you will not be able to create a new one for 24 hours. Proceed?
 pli_resoulmateview.6	Acquisition Method
 pli_resoulmateview.7	No effect
+pli_restoregrimoireframes.1	Restoration complete.
+pli_restoregrimoireview.1	Damage: %u
 pli_rockpaperscissorsscoreview.1	{0} Win(s)
 pli_rockpaperscissorsscoreview.2	{0} Loss(es)
 pli_roulettebingoview.1	Spin Roulette! Pay {0} coin(s)

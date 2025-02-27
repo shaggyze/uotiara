@@ -966,6 +966,7 @@ questresult.19	Training Points: <color=2>{0}</color>
 questresult.20	Mission Points: <color=2>{0}</color>
 questresult.21	Cumulative Level: <color=2>{0}</color>
 questresult.22	{0} PT
+questresult.23	Erinn-go-Round Dice Points <color=2>{0}</color>
 recommendflagtable.1	EXP +{0}
 recommendflagtable.2	{0} - A recommender will receive {1} Recommendation EXP.
 setitemmgr.1	Increase

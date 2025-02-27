@@ -15049,6 +15049,69 @@
 16708	A title granted to those who thwarted the ambitions of the master of Glenn Bearna, the Winter Tyrant, securing a path to the future.
 16709	A title granted to those who stood against the master of Glenn Bearna, emerging victorious even when confronted with the full fury of a Primeval Winter.\nEarned by claiming victory against the Winter Tyrant without any party member being knocked out.
 16710	Max Damage +27\nMagic Attack +50\nProtection/Magic Protection +15\nMovement Speed +2%
+16868	the Thousand-Year Mage
+16869	who is Frieren's Apprentice
+16870	the Hero of the Village
+16871	the Brave Demon King Slayer
+16872	the 500-Year-Old Greater Demon
+16873	the Leader of the Executioners
+16874	the Imitating Executioner
+16875	the First-Class Mage Examinee
+16876	the Living Grimoire
+16887	the Thousand-Year Mage
+16888	who is Frieren's Apprentice
+16889	the Hero of the Village
+16890	the Brave Demon King Slayer
+16891	the 500-Year-Old Greater Demon
+16892	the Leader of the Executioners
+16893	the Imitating Executioner
+16894	the First-Class Mage Examinee
+16895	the Living Grimoire
+16906	the Thousand-Year Mage
+16907	who is Frieren's Apprentice
+16908	the Hero of the Village
+16909	the Brave Demon King Slayer
+16910	the 500-Year-Old Greater Demon
+16911	the Leader of the Executioners
+16912	the Imitating Executioner
+16913	the First-Class Mage Examinee
+16914	the Living Grimoire
+16925	the Thousand-Year Mage
+16926	who is Frieren's Apprentice
+16927	the Hero of the Village
+16928	the Brave Demon King Slayer
+16929	the 500-Year-Old Greater Demon
+16930	the Leader of the Executioners
+16931	the Imitating Executioner
+16932	the First-Class Mage Examinee
+16933	the Living Grimoire
+16944	A title given to the great mage who has practiced magic for over a thousand years.
+16945	A title given to Frieren's apprentice.
+16946	A title given to the great hero who saved the village.
+16947	A title given to the brave warrior who defeated the Demon King.
+16948	A title given to a greater demon who has lived for over 500 years.
+16949	A title given to the demon who leads Aura's Executioners.
+16950	A title given to Aura's Executioners.
+16951	A title given to one who took the first-class mage exam.
+16952	A title given to the great mage who knows almost every spell that exists in this world.
+16963	A title given to the great mage who has practiced magic for over a thousand years.
+16964	A title given to Frieren's apprentice.
+16965	A title given to the great hero who saved the village.
+16966	A title given to the brave warrior who defeated the Demon King.
+16967	A title given to a greater demon who has lived for over 500 years.
+16968	A title given to the demon who leads Aura's Executioners.
+16969	A title given to Aura's Executioners.
+16970	A title given to one who took the first-class mage exam.
+16971	A title given to the great mage who knows almost every spell that exists in this world.
+16982	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
+16983	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
+16984	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
+16985	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
+16986	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
+16987	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
+16988	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
+16989	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
+16990	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
 16991	the Master of Stellar Handicraft
 16992	the Master of Constellation Casting
 16993	the Master of Cartomancy
@@ -15196,6 +15259,76 @@
 17219	행운 30 증가
 17220	행운 30 증가
 17221	행운 30 증가
+17222	Frieren (Frieren: Beyond Journey's End)
+17223	Fern (Frieren: Beyond Journey's End)
+17224	Stark (Frieren: Beyond Journey's End)
+17225	Himmel (Frieren: Beyond Journey's End)
+17226	Aura (Frieren: Beyond Journey's End)
+17227	Lügner (Frieren: Beyond Journey's End)
+17228	Linie (Frieren: Beyond Journey's End)
+17229	Übel (Frieren: Beyond Journey's End)
+17230	Serie (Frieren: Beyond Journey's End)
+17231	Mana Suppression
+17232	Frieren (Frieren: Beyond Journey's End)
+17233	Fern (Frieren: Beyond Journey's End)
+17234	Stark (Frieren: Beyond Journey's End)
+17235	Himmel (Frieren: Beyond Journey's End)
+17236	Aura (Frieren: Beyond Journey's End)
+17237	Lügner (Frieren: Beyond Journey's End)
+17238	Linie (Frieren: Beyond Journey's End)
+17239	Übel (Frieren: Beyond Journey's End)
+17240	Serie (Frieren: Beyond Journey's End)
+17241	Mana Suppression
+17242	Frieren (Frieren: Beyond Journey's End)
+17243	Fern (Frieren: Beyond Journey's End)
+17244	Stark (Frieren: Beyond Journey's End)
+17245	Himmel (Frieren: Beyond Journey's End)
+17246	Aura (Frieren: Beyond Journey's End)
+17247	Lügner (Frieren: Beyond Journey's End)
+17248	Linie (Frieren: Beyond Journey's End)
+17249	Übel (Frieren: Beyond Journey's End)
+17250	Serie (Frieren: Beyond Journey's End)
+17251	Mana Suppression
+17252	Frieren (Frieren: Beyond Journey's End)
+17253	Fern (Frieren: Beyond Journey's End)
+17254	Stark (Frieren: Beyond Journey's End)
+17255	Himmel (Frieren: Beyond Journey's End)
+17256	Aura (Frieren: Beyond Journey's End)
+17257	Lügner (Frieren: Beyond Journey's End)
+17258	Linie (Frieren: Beyond Journey's End)
+17259	Übel (Frieren: Beyond Journey's End)
+17260	Serie (Frieren: Beyond Journey's End)
+17261	Mana Suppression
+17262	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17263	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17264	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17265	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17266	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17267	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17268	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17269	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17270	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17271	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17272	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17273	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17274	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17275	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17276	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17277	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17278	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17279	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17280	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17281	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17282	Magic Attack +50\nMax MP +100\nBonus Damage +1%
+17283	Magic Attack +45\nMagic Casting Speed +5%\nBolt Magic Damage +5%
+17284	Max Damage+ 23\nProtection +13\nMagic Protection +13\nMax HP +50
+17285	Max Damage +30\nCritical Damage +3%\nMax Stamina +100
+17286	Marionette Max Damage +15\nAct 7: Climactic Crash Damage +45%\nAct 6: Crisis Radius +0.5m\nPuppetry Skill Cooldown Reduction +3%
+17287	Fire/Wind/Earth/Water\nAlchemic Damage +15\nHydra Transmutation Duration +15 sec.\nHydra Transmutation Radius +1m
+17288	Max Damage +15\nDeath Mark Duration +5 sec.\nDorcha Snatch - Dorcha Acquired +10%
+17289	Max Damage +18\nMagic Attack +22\nMovement Speed +3%
+17290	Music Buff Effect +10\nMusic Buff Duration +30
+17291	Luck +30
 17313	에린 1타 강사
 17314	Summa Cum Laude
 17315	에린 1타 강사
@@ -15217,6 +15350,69 @@
 17331	A title obtained from the Glenn Bearna Primeval Winter celebration challenge event.
 17332	Those who embody power, valor, and no small amount of tenacity can earn this title by clearing Glenn Bearna Primeval Winter during the Glenn Bearna Primeval Winter celebration challenge event period.
 17333	
+17341	Frieren (Frieren: Beyond Journey's End)
+17342	Fern (Frieren: Beyond Journey's End)
+17343	Stark (Frieren: Beyond Journey's End)
+17344	Himmel (Frieren: Beyond Journey's End)
+17345	Aura (Frieren: Beyond Journey's End)
+17346	Lügner (Frieren: Beyond Journey's End)
+17347	Linie (Frieren: Beyond Journey's End)
+17348	Übel (Frieren: Beyond Journey's End)
+17349	Serie (Frieren: Beyond Journey's End)
+17350	Frieren (Frieren: Beyond Journey's End)
+17351	Fern (Frieren: Beyond Journey's End)
+17352	Stark (Frieren: Beyond Journey's End)
+17353	Himmel (Frieren: Beyond Journey's End)
+17354	Aura (Frieren: Beyond Journey's End)
+17355	Lügner (Frieren: Beyond Journey's End)
+17356	Linie (Frieren: Beyond Journey's End)
+17357	Übel (Frieren: Beyond Journey's End)
+17358	Serie (Frieren: Beyond Journey's End)
+17359	Frieren (Frieren: Beyond Journey's End)
+17360	Fern (Frieren: Beyond Journey's End)
+17361	Stark (Frieren: Beyond Journey's End)
+17362	Himmel (Frieren: Beyond Journey's End)
+17363	Aura (Frieren: Beyond Journey's End)
+17364	Lügner (Frieren: Beyond Journey's End)
+17365	Linie (Frieren: Beyond Journey's End)
+17366	Übel (Frieren: Beyond Journey's End)
+17367	Serie (Frieren: Beyond Journey's End)
+17368	Frieren (Frieren: Beyond Journey's End)
+17369	Fern (Frieren: Beyond Journey's End)
+17370	Stark (Frieren: Beyond Journey's End)
+17371	Himmel (Frieren: Beyond Journey's End)
+17372	Aura (Frieren: Beyond Journey's End)
+17373	Lügner (Frieren: Beyond Journey's End)
+17374	Linie (Frieren: Beyond Journey's End)
+17375	Übel (Frieren: Beyond Journey's End)
+17376	Serie (Frieren: Beyond Journey's End)
+17377	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17378	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17379	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17380	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17381	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17382	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17383	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17384	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17385	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17386	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17387	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17388	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17389	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17390	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17391	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17392	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17393	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17394	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17395	Magic Attack +50\nMax MP +100\nCritical Damage +2%
+17396	Magic Attack +45\nMagic Casting Speed +5%
+17397	Max Damage+ 30\nProtection +8\nMagic Protection +8\nMax HP +100
+17398	Max Damage +25\nCritical Damage +2%\nMax Stamina +100
+17399	Production Success Rate +5\nGathering Success Rate +5%\nGathering Speed +5%\nTaming Success Rate +25%
+17400	Max Damage +20\nFire/Wind/Earth/Water\nAlchemic Damage +20\nProtection +5\nMagic Protection +5
+17401	Max Damage +23\nMagic Attack +23\nWater/Fire/Wind/Earth\nAlchemic Damage +15\nMarionette Max Damage +10
+17402	Healing Effect +20%\nMax MP +100\nCures wounds at 7% of Healing Effect
+17403	Music Buff Effect +9\nMusic Buff Duration +15
 17411	the Birthday Bloomer
 17412	the Birthday Bloomer
 17413	the Birthday Bloomer

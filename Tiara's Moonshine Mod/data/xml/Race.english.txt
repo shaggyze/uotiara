@@ -10086,6 +10086,7 @@
 12437	Delaney
 12438	Astrologers' Camp
 12439	Neal
+12440	지능형 자판기 1호
 12441	Icicle Sprite
 12445	Cailleach
 12446	Unfinished Reverie
@@ -10130,5 +10131,34 @@
 12520	Servant
 12542	Neal
 12543	Delaney
+12548	Frieren
+12549	Frieren
+12550	Frieren
+12551	Frieren
+12552	Frieren
+12553	Frieren
+12554	Frieren
+12555	Fern
+12556	Fern
+12557	Fern
+12558	Fern
+12559	Stark
+12560	Stark
+12561	Stark
+12574	Frieren Doll
+12575	Fern Doll
+12576	Stark Doll
+12577	Himmel Doll
+12578	Übel Doll
+12579	Serie Doll
+12594	Stark
+12595	Stark
+12596	Stark
+12597	Antique Mimic
 12598	빛고래(크리에이터)
+12710	Statue of Someone
 12728	무등고래
+12975	화염의 카트시
+12976	화염의 카트시
+12977	청명의 카트시
+12978	청명의 카트시

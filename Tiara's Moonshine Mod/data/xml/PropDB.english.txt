@@ -8198,3 +8198,4 @@
 10036	*이단 심판관의 무기가방(자이용)
 10037	Receivable Quest Board
 10038	Part-Time Job Bulletin Board
+10039	*Frieren Personal Shop Bag

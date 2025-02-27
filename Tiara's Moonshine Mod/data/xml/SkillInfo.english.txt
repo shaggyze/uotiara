@@ -4739,3 +4739,6 @@
 6825	Improves crafting know-how commonly associated with almost all production skills, excluding cooking and enchants.
 6826	The act of creation involves selecting materials and assembling them to bring your idea to life. Studying the relationships between materials and pondering the many ways in which they can be combined to produce the desired results is an exercise in patience and perseverance, which leads to the development of stamina. Production Mastery allows the creator's imagination to take shape and be fully realized through the labor of their own hands. The joy of creation and the satisfaction of turning concepts into reality is the driving force behind Production Mastery. (The Cooking, Enchanting, Pet Training, Glyphwright, and Astrology Talents are not affected by this skill.)
 6827	Talk to Alissa in Tir Chonaill with the Skills keyword.\n\nOr, during the tutorial, undertake the 'Production Mastery' quest or the 'Red Sand Scorpion Venom Sac' quest.
+6832	과일 저글링
+6833	특별한 포즈를 짓게 되는 액션이다. 흥미로운 모습을 보여주는 포즈를 지어보자.
+6834	특별한 포즈를 짓게 되는 액션이다. 흥미로운 모습을 보여주는 포즈를 지어보자.
