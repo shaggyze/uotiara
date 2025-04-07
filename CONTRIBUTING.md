@@ -10,7 +10,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 > - Tweet about it
 > - Refer this project in your project's readme
 > - Mention the project at local meetups and tell your friends/colleagues
-> - Donate/Sponsor the project with [Patreon](https://www.patreon.com/shaggyze) or [PayPal](https://paypal.me/thoggsr)
+> - Donate/Sponsor the project with [Patreon](https://www.patreon.com/shaggyze) or [PayPal](https://paypal.me/shaggyze)
 
 <!-- omit in toc -->
 ## Table of Contents

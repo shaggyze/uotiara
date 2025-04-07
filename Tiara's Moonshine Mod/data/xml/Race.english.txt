@@ -9684,6 +9684,7 @@
 11991	Sreng
 11992	Shadow Stone
 11993	Fir Bolg Bard
+11994	Ghost Cat
 11995	고정 불1 더미
 11996	고정 불5 더미
 11997	고정 불9 더미
@@ -10088,9 +10089,13 @@
 12439	Neal
 12440	지능형 자판기 1호
 12441	Icicle Sprite
+12442	Elder Booksprite
+12443	Booksprite
+12444	Booksprite
 12445	Cailleach
 12446	Unfinished Reverie
 12447	Altar to the Stars
+12448	Leath
 12449	Unfinished Reverie
 12450	The Winter Tyrant
 12451	Whisper of Unending Winter
@@ -10106,12 +10111,29 @@
 12470	Mariachi Wizard Corgi
 12473	Helionic Wolf
 12474	Selenian Cat
+12475	White Spider
+12476	Red Spider
+12477	Country Rat
+12478	Bat
+12479	Ghoul
+12480	Ghost Cloaker
+12481	Blue Ghost
+12482	Red Ghost
+12483	Giant Firefly
+12484	Demi Lich
+12485	Reno
+12486	Vay
+12487	Tion
+12488	Reno
+12489	Vay
+12490	Tion
 12492	디나시
 12493	애교부릴꺼양
 12494	심연의 하데스
 12495	스쿠터
 12496	Neal
 12497	Delaney
+12498	Booksprite
 12499	Negative Thoughts
 12504	리틀 케라우노스
 12505	Starbound Tuan
@@ -10131,6 +10153,8 @@
 12520	Servant
 12542	Neal
 12543	Delaney
+12546	Erinn Courier Bear Doll
+12547	Erinn Courier Fennec Fox Doll
 12548	Frieren
 12549	Frieren
 12550	Frieren
@@ -10158,7 +10182,7 @@
 12598	빛고래(크리에이터)
 12710	Statue of Someone
 12728	무등고래
-12975	화염의 카트시
+12975	Blazing Catsidhe
 12976	화염의 카트시
-12977	청명의 카트시
+12977	Dazzling Catsidhe
 12978	청명의 카트시

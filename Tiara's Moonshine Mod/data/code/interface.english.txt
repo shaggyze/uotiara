@@ -662,7 +662,7 @@ pli_astrologistweaponeventview.4	Unlocked upon completing the '{0}' quest.
 pli_astrologistweaponeventview.5	Obtained upon completing the '{0}' mission.
 pli_astrologistweaponeventview.6	You have already completed this mission.
 pli_astropfframeskinselectview.1	You don't have enough Gold.
-pli_astropfframeskinselectview.2	Extracting a Frame's design requires 10,000 Gold and a blank Astral Card.\nProceed with extraction?
+pli_astropfframeskinselectview.2	Extracting a Frame's design requires 10,000 Gold and a Blank Astral Card.\nProceed with extraction?
 pli_astropfframeskinselectview.3	You don't have enough Gold.
 pli_astropfframeskinselectview.4	Changing a Frame's design requires 10,000 Gold.\nProceed?
 pli_astrostickerextractview.1	You cannot extract yourself as a Sticker.
@@ -1147,10 +1147,10 @@ pli_characteradditionalframe.37	Stage 3
 pli_characteradditionalframe.38	Stage 4
 pli_characteradditionalframe.39	Blaanid's Blessing: 
 pli_characteradditionalframe.40	Blaanid's Blessing\n\nBlaanid's Blessing is not in effect.\nContinue working on the Memoir to earn Blaanid's Blessing.
-pli_characteradditionalframe.41	Blaanid's Blessing - Stage 1\n\nRecall Book - 1 Slot\n Movement Speed +2%\nAll Stats +1\nGain 1 additional AP upon rebirth\nBlessing Effect Stage 1
-pli_characteradditionalframe.42	Blaanid's Blessing - Stage 2\n\nRecall Book - 2 Slots\nMovement Speed +4%\nAll Stats +2\nGain 2 additional AP upon rebirth\nBlessing Effect Stage 2
-pli_characteradditionalframe.43	Blaanid's Blessing - Stage 3\n\nRecall Book - 3 Slots\nMovement Speed +6%\nAll Stats +3\nGain 3 additional AP upon rebirth\nBlessing Effect Stage 3
-pli_characteradditionalframe.44	Blaanid's Blessing - Stage 4\n\nRecall Book - 4 Slots\nMovement Speed +8%\nAll Stats +4\nGain 4 additional AP upon rebirth\nBlessing Effect Stage 4
+pli_characteradditionalframe.41	Blaanid's Blessing - Stage 1\n\nRecall Book - 1 Slot\n Movement Speed +2%\nAll Stats +1\nGain 1 additional AP upon rebirth\nHalo Effect Stage 1
+pli_characteradditionalframe.42	Blaanid's Blessing - Stage 2\n\nRecall Book - 2 Slots\nMovement Speed +4%\nAll Stats +2\nGain 2 additional AP upon rebirth\nHalo Effect Stage 2
+pli_characteradditionalframe.43	Blaanid's Blessing - Stage 3\n\nRecall Book - 3 Slots\nMovement Speed +6%\nAll Stats +3\nGain 3 additional AP upon rebirth\nHalo Effect Stage 3
+pli_characteradditionalframe.44	Blaanid's Blessing - Stage 4\n\nRecall Book - 4 Slots\nMovement Speed +8%\nAll Stats +4\nGain 4 additional AP upon rebirth\nHalo Effect Stage 4
 pli_characteradditionalframe.45	{0} / {1}
 pli_characterarbeitcategoryframe.1	{0} time(s)
 pli_characterarbeitframe.1	Completed
@@ -1502,7 +1502,88 @@ pli_conditionsupportbuffslotview.2	Aspect of Fortification\n\nOn party members:\
 pli_conditionsupportbuffslotview.3	Aspect of Swiftness\n\nOn party members:\n<color=1>Movement Speed +{0}%\nAttack Delay -{1}%\nRanged Aiming Speed +{2}%\nMagic Charging Speed +{3}%\nAlchemy Charging Speed +{4}%\nDoes not stack with [Relentless Assault]\n(When used on self, only the last used Technique effects are applied)</color>\n\nOn monsters:\n<color=1>Movement Speed -{0}%\nAttack Delay +{1}%\nRanged Aiming Speed -{2}%\nMagic Charging Speed -{3}%\nAlchemy Charging Speed -{4}%</color>\n\n
 pli_conditionsupportbuffslotview.4	Aspect of Focus\n\nOn party members:\n<color=1>Removes aggro for {0} sec\nCannot be re-used on same party member again for 30 sec and cannot be used on party members with [Tenacious Taunt] active</color>\n\nOn monsters:\n<color=1>Removes aggro for {0} sec\n(Can be used up to 3 times per monster)</color>\n\n
 pli_conditionsupportbuffslotview.5	Aspect of Reversal\n\nOn party members:\n<color=1>Restores {0}% of damage as HP (up to {2} times)</color>\n\nOn monsters:\n<color=1>Deals {1}% of damage as additional damage (up to {2} times)</color>\n\n
+pli_configurationhandlers_graphic.1	Lower resolutions can help improve the smoothness of the game's animation. Setting a resolution higher than your PC's specifications may cause a reduction in performance.
+pli_configurationhandlers_graphic.2	Using a higher multiplier value helps display softer animation. Setting a high multiplier may cause a reduction in performance.
+pli_configurationhandlers_graphic.3	Changes the font size displayed in the chat window and chat bubbles.
+pli_configurationhandlers_graphic.4	Adjusts the draw distance. Setting this to a high value may cause a reduction in performance.\n* This setting does not affect your range of vision inside dungeons, or for any characters, monsters, or environmental props (i.e. campfires, seal stones, etc.) that would have an impact on gameplay.
+pli_configurationhandlers_graphic.5	Digital post-processing is applied to render the image on-screen in a more cinematic style.
+pli_configurationhandlers_graphic.6	Setting the game's quality to 'High'  can minimize wavy lines in shadows. Higher settings may cause a reduction in performance.
+pli_configurationhandlers_graphic.7	Sets the intensity of the flash effect that accompanies Critical Hits.
+pli_configurationhandlers_graphic.8	Allows the landscape and characters to be reflected on the surface of water. Aesthetically pleasing, but may cause a moderate reduction in performance on PCs with lower specs.
+pli_configurationhandlers_graphic.9	Displays outlines for characters and objects. May cause a moderate reduction in performance on PCs with lower specs.
+pli_configurationhandlers_graphic.10	Displays special effects, such as afterimages.
+pli_configurationhandlers_graphic.11	Displays the background more naturally. May cause a moderate reduction in performance on PCs with lower specs.
+pli_configurationhandlers_graphic.12	Render light sources and object reflections in a more aesthetically pleasing way. May cause a moderate reduction in performance on PCs with lower specs.\nToggle on and off with the hotkey "{0}".
+pli_configurationhandlers_graphic.13	Displays a screen-shaking effect from skills and monster movement.\n* This setting does not apply to screen-shake effects in cutscenes.
+pli_configurationhandlers_graphic.14	Displays footprints on applicable types of terrain.
+pli_configurationhandlers_graphic.15	Curtails the displaying of special effects to improve system performance. Relaunching the game is recommended after applying this option.
+pli_configurationhandlers_graphic.16	Simplifies nearby characters based on the performance of the game client. Toggle on and off with the hotkey "{0}".
+pli_configurationhandlers_graphic.17	Improves performance by simplifying the Demigod Effect displayed on characters.
+pli_configurationhandlers_graphic.18	Automatically adjusts the field of view based on the performance of the client.
+pli_configurationhandlers_graphic.19	Adjusts the maximum value to which the camera can be zoomed out. May cause some terrain in the distance to appear distorted. May cause a moderate reduction in performance on PCs with lower specs.
+pli_configurationhandlers_graphic.20	Optimizes the camera angle when changing location.
+pli_configurationhandlers_graphic.21	Plays a special cutscene when using certain skills.
+pli_configurationhandlers_graphic.22	Plays a special cutscene when transformation skills (Paladin, Dark Knight, Beast Mode, Demigod, etc.) are used.
+pli_configurationhandlers_graphic.23	Focus the camera on the puppet when using the Control Marionette skill.
+pli_configurationhandlers_graphic.24	Synchronize game rendering with monitor frequency. May cause a moderate reduction in performance on PCs with lower specs.\n* Can only be used in full-screen mode.
+pli_configurationhandlers_graphic.25	Automatically scales the size of the game's UI proportionally with higher resolutions.\n* This option is compatible with operating systems from Windows 10 onward, and can only be used in windowed mode and borderless windowed mode.
+pli_configurationhandlers_graphic.26	Sets the degree to which the minimum field of view is reduced. A lower value equals a narrower field of view.
+pli_configurationhandlers_graphic.27	Screen brightness can only be controlled in full-screen mode.
+pli_configurationhandlers_play.1	Changes to combat mode. If Auto Combat has been enabled, you will deliver a Normal Attack to the targeted enemy.
+pli_configurationhandlers_play.2	Configure how movement is controlled while flying.
+pli_configurationhandlers_play.3	Sets the control mode when using Tower Cylinders. Press the ` key to switch modes while using a Tower Cylinder.
+pli_configurationhandlers_play.4	Automatically selects the target nearest your mouse cursor.
+pli_configurationhandlers_play.5	Configure the selection priority and targeting order (including who will be targeted first) when changing targets.
+pli_configurationhandlers_play.6	Hold down Ctrl to target the closest enemy according to your established targeting priority. While in this state, press the "{0}" hotkey or right-click to select a target.
+pli_configurationhandlers_play.7	Enables the canceling of skill icon bubbles above a character's head by left-clicking.
+pli_configurationhandlers_play.8	Automatically switches to the slot containing the weapon necessary to use a skill.
+pli_configurationhandlers_play.9	Automatically adjusts the font size of the NPC dialogue box based on your resolution.
+pli_configurationhandlers_play.10	Displays a warning when dropping an expensive item (valued at greater than 10,000 Gold).
+pli_configurationhandlers_play.11	Displays an extra hotbar array that shares hotkeys with the main array. Press the "{0}" hotkey to toggle between the two, changing which skills each key activates.
+pli_configurationhandlers_play.12	Enables an extra hotbar to allow access to additional skills.
+pli_configurationhandlers_play.13	Enables an extra hotbar to allow access to additional skills.
+pli_configurationhandlers_play.14	Enables an extra hotbar to allow access to additional pet skills.
+pli_configurationhandlers_play.15	If this option is disabled, you can view the hidden element by pressing the Alt key.
+pli_configurationhandlers_play.16	If this option is disabled, you can view the hidden element by pressing the Alt key.
+pli_configurationhandlers_play.17	This option allows the game to load in real time after entering the world, minimizing the time needed to log in. Although this allows faster access, on PCs with lower specs, the framerate may drop temporarily after loading in.
+pli_configurationhandlers_play.18	Humans who support Elves can PvP against Giants and Giant-allied humans. Humans who support Giants can PvP against Elves and Elf-allied humans.
+pli_configurationhandlers_play.19	Allows a summoned pet, partner, or marionette to finish off a defeated monster themselves.
+pli_configurationhandlers_play.20	When this option is disabled, you can view other players' 2nd Title icons by pressing the Alt key.
+pli_configurationhandlers_play.21	When this option is disabled, you can view the hidden element by pressing the Alt key.
+pli_configurationhandlers_play.22	Hide or display your guild name on your character nameplate.
+pli_configurationhandlers_play.23	When this option is disabled, you can view the hidden element by pressing the Alt key.
+pli_configurationhandlers_play.24	When this option is disabled, you can view the hidden element by pressing the Alt key.
+pli_configurationhandlers_play.25	Hide or display the names of all pets/partners.
+pli_configurationhandlers_play.26	Hide or display the names of all monsters, excluding bosses.\nPress the Alt key to view monster names that are hidden.
+pli_configurationhandlers_play.27	Hide or display your weapon's Spirit visual effect.
+pli_configurationhandlers_play.28	Hide or display the visual effects of other players' Spirit Weapons.
+pli_configurationhandlers_play.29	Hide or display your weapon's Erg visual effect.
+pli_configurationhandlers_play.30	Hide or display the Erg visual effect of other players' weapons.
+pli_configurationhandlers_play.31	Hide or display your weapon's Special Upgrade visual effect.
+pli_configurationhandlers_play.32	Hide or display the Special Upgrade visual effect of other players' weapons.
+pli_configurationhandlers_play.33	Hide or display all pets' Fynn Sync visual effect.
+pli_configurationhandlers_play.34	Immediately skip cutscenes without a confirmation window by pressing the ESC key.
+pli_configurationhandlers_play.35	Displays a gauge indicating how much the targeted enemy must be attacked in order to be knocked down.
+pli_configurationhandlers_play.36	When this option is active, you can view the hidden elements by pressing the Alt key. If this option is disabled, they will not be viewable even when the Alt key is pressed.
+pli_configurationhandlers_play.37	Displays quest markers and guide arrows.
+pli_configurationhandlers_play.38	When this option is active, an alert will be displayed when a piece of equipped gear has low durability. If this option is disabled, there will be no notification at any amount of durability.
+pli_configurationhandlers_play.39	Locks the extra skill slots. While locked, the array cannot be moved, and skills cannot be removed from the slots.
+pli_configurationhandlers_play.40	Locks the pet skill slots. While locked, the array cannot be moved, and skills cannot be removed from the slots.
 pli_configurationhandlers_play.41	Locks the position of the Astrology Cards UI.
+pli_configurationhandlers_social.1	Allows other players to view your equipment.
+pli_configurationhandlers_social.2	Allows other players to compare their Journals with yours.
+pli_configurationhandlers_social.3	Allows you to receive invitations to join guilds. If this option is disabled, you will automatically decline all invitations.
+pli_configurationhandlers_social.4	Allows you to receive Soulmate requests. If this option is disabled, you will automatically decline all such requests.
+pli_configurationhandlers_social.5	Allows you to set whether your character shares music buffs with other members of a party. If this option is disabled, party members will not receive the effects of your music and you will not receive the effects of anyone else's music.
+pli_configurationhandlers_social.6	Sets whose Visual Chat Speech Bubbles are displayed. You can find any hidden speech bubble chat recorded in the conversation log.
+pli_configurationhandlers_social.7	Places you in the the Beginner Channel upon logging in.
+pli_configurationhandlers_social.8	Turns off display of chat messages from the channel and deactivates the tab.
+pli_configurationhandlers_social.9	Displays chat messages from the channel across all channels.
+pli_configurationhandlers_social.10	Changes the color of messages from the specified channel in all channels.
+pli_configurationhandlers_sound.1	Changes some background music to a different version.
+pli_configurationhandlers_sound.2	Sets the range at which singing and instruments are audible. Any adjustments made will take effect starting with the next performance.
+pli_configurationhandlers_sound.3	Enables the sound of footsteps when walking or running. May cause a moderate reduction in performance on PCs with lower specs.
+pli_configurationoptionframe_hotkey.1	"%s" is currently assigned to another command.\nWould you like to change it?\n\nCurrent: %s\nNew: %s
 pli_continentmapview.1	Petitioner
 pli_continentmapview.2	Blessing of Cairbre\\nTime Left: {0} min {1} sec
 pli_continentmapview.3	주위의 파티원과 함께 {0}{로} 이동하시겠습니까?\n[아니오]를 누를 경우 혼자 이동합니다.
@@ -2444,10 +2525,10 @@ pli_gameendmainview.1	This item is not in your inventory.
 pli_gameendmainview.2	This quest has already been completed or removed.
 pli_gameendmainview.3	Erinn Adventure Pass Reward
 pli_gameendmainview.4	Adventure Journal Reward
-pli_gameendmainview.5	Irusan's Attendance Check-in Reward
+pli_gameendmainview.5	Pan's Attendance Check-in Reward
 pli_gameendmainview.6	You can claim the reward from Lorna.
 pli_gameendmainview.7	You've already received all your rewards.
-pli_gameendmainview.8	Irusan's Attendance Check-in - Today's Stamp Not Yet Received
+pli_gameendmainview.8	Pan's Attendance Check-in - Today's Stamp Not Yet Received
 pli_gameendmainview.9	Receive Advanced Items
 pli_gametipview.1	Daily Tip
 pli_gametipview.2	Turn Off Daily Tips
@@ -3088,7 +3169,7 @@ pli_instantgiftdrawview.3	Ticket Entry
 pli_instantgiftdrawview.4	Gold Entry
 pli_instantgiftdrawview.5	Instant Draw
 pli_instantgiftdrawview.6	Submit Entry\n- {0} Ticket(s)
-pli_instantgiftview.1	Unlimited
+pli_instantgiftview.1	∞
 pli_instantgiftview.2	Number {0} Prize
 pli_instantgiftview.3	{0} hr {1} min
 pli_instantgiftview.4	You don't have enough gold to enter the sweepstakes.
@@ -3819,6 +3900,47 @@ pli_newyearfortune2015japan.1	To reveal your fortune, you need 3 Fortune's Fees.
 pli_npcenchantentrustview.1	If an enchant attempt of rank 6 or higher fails,\nno further enchants can be applied to the item.
 pli_npcenchantentrustview.2	If an enchant attempt of rank 6 or higher fails,\nno further enchants can be applied to the item.
 pli_npcenchantentrustview.3	This item cannot be burned.
+pli_npcshopbuyframe.1	All
+pli_npcshopbuyview.1	You can't use a Direct Bank Transaction to purchase items that cost less than {0} Gold per unit.
+pli_npcshopbuyview.2	You can't use a Direct Bank Transaction when purchasing 2 or more items.
+pli_npcshopbuyview.3	Remaining: {0}/{1}
+pli_npcshopbuyview.4	Total Purchase Quantity: {0}
+pli_npcshopitemframe.1	Inventory Size: {0}x{1}
+pli_npcshopsellframe.1	This item cannot be sold.
+pli_npcshopsellframe.2	Repurchase List ({0}/{1})
+pli_npcshopsellframe.3	You cannot register any more items.\nPlease free up at least 1 slot before trying again.
+pli_npcshopsellframe.4	This item cannot be repurchased. Are you sure you want to list it in a sales slot?
+pli_npcshopsellframe.5	There is not enough space in your bag. Try again after freeing up sufficient space.
+pli_npcshopsellframe.6	This item cannot be repurchased. Are you sure you wish to sell it?
+pli_npcshopsellview.1	Would you like to sell the {0}?
+pli_npcshopsellview.2	Sell the {0} item(s) listed below?
+pli_npcshopsellview.3	This item can only be sold via a Direct Bank Transaction.
+pli_npcshopsellview.4	You can't use a Direct Bank Transaction to purchase items with a totally selling price less than {0} Gold.
+pli_npcshoptabframe.1	There are no items available for purchase.
+pli_npcshoptabframe.2	Your search yielded no results.
+pli_npcshoputility.1	Jousting Points
+pli_npcshoputility.2	Seasonal Ducats
+pli_npcshoputility.3	Ducats
+pli_npcshoputility.4	Stars
+pli_npcshoputility.5	Pon
+pli_npcshoputility.6	Gold
+pli_npcshoputility.7	Insufficient funds in your bank account.
+pli_npcshoputility.8	Combat EXP
+pli_npcshoputility.9	Exploration EXP
+pli_npcshoputility.10	Spirit EXP
+pli_npcshoputility.11	Reward Gold
+pli_npcshoputility.12	Bank Balance
+pli_npcshoputility.13	Gold Held
+pli_npcshoputility.14	Current Resources
+pli_npcshoputility.15	{0} x{1}
+pli_npcshoputility.16	Jousting Points: {0}
+pli_npcshoputility.17	{0} Stars
+pli_npcshoputility.18	{0} Pon
+pli_npcshoputility.19	{0} Seasonal Ducats
+pli_npcshoputility.20	{0} Ducats
+pli_npcshoputility.21	{0} Gold
+pli_npcshoputility.22	Owned: {0}
+pli_npcshoputility.23	In Bank: {0}
 pli_objectivepointeventview.1	Please click again after {0} sec.
 pli_objectivepointeventview.2	{0} min
 pli_objectivepointeventview.3	From %04d.%02d.%02d to %04d.%02d.%02d
@@ -5208,26 +5330,29 @@ pli_taskquestboardview.2	Mission
 pli_taskquestboardview.3	Confirm Mission
 pli_taskquestboardview.4	How to use the Mission Board
 pli_taskquestboardview.5	Would you like to complete all Missions?
-pli_title2024mainview.1	<color=2>설정된 타이틀이 없습니다.</color>
-pli_title2024mainview.2	<color=2>설정된 타이틀이 없습니다.</color>
-pli_title2024mainview.3	타이틀을 사용하지 않습니다.
-pli_title2024mainview.4	힌트가 없는 타이틀입니다.
-pli_title2024mainview.5	어디서 어떻게 얻는지 알 수 없는 타이틀. 플레이를 하다보면 힌트를 얻을 수 있다.
-pli_title2024mainview.6	타이틀을 사용하지 않습니다.
-pli_title2024mainview.7	힌트가 없는 타이틀입니다.
-pli_title2024mainview.9	타이틀을 해제하시겠습니까?
-pli_title2024mainview.10	해제
-pli_title2024mainview.11	의장 타이틀을 해제하시겠습니까?
-pli_title2024mainview.12	해제
-pli_title2024mainview.13	장비 타이틀을 해제하시겠습니까?
-pli_title2024mainview.14	해제
-pli_title2024mainview.15	해제
-pli_title2024mainview.16	취소
-pli_title2024mainview.17	{0} 즐겨찾기
+pli_title2024mainview.1	<color=2>No title created.</color>
+pli_title2024mainview.2	<color=2>No title created.</color>
+pli_title2024mainview.3	Unequips all titles.
+pli_title2024mainview.4	There is no hint for this title.
+pli_title2024mainview.5	A title of unknown provenance. You may receive a clue as to where and how to earn it as you play.
+pli_title2024mainview.6	Unequips all titles.
+pli_title2024mainview.7	There is no hint for this title.
+pli_title2024mainview.8	A title of unknown provenance. You may receive a clue as to where and how to earn it as you play.
+pli_title2024mainview.9	Would you like to unequip all titles?
+pli_title2024mainview.10	Unequip
+pli_title2024mainview.11	Would you like to unequip your Vanity Titles?
+pli_title2024mainview.12	Unequip
+pli_title2024mainview.13	Would you like to unequip your Base Titles?
+pli_title2024mainview.14	Unequip
+pli_title2024mainview.15	Unequip
+pli_title2024mainview.16	Cancel
+pli_title2024mainview.17	{0} Favorite
+pli_title2024mainview.18	Expired (Effect Not Applied)
 pli_tpsmodemanualview.1	Control Manual
 pli_tpsmodemanualview.2	When a Tower Cylinder is installed, change the targeting mode by pressing the TAB key.\n\nIn Aiming mode, use the mouse to control where you aim.\nYou will attack the enemy located in the middle of your screen.\n\nIn Cursor mode, drag your cursor to control where you aim. \nYou will attack the enemy that your cursor is pointing to.\nAuto-targeting using the CTRL key can be used in either mode.
 pli_tpsmodemanualview.3	Do not show this message again.
 pli_tpsmodemanualview.4	Close
+pli_tpsmodemanualview.5	[Aiming Mode]\n- This mode uses your camera to aim your shots, with attacks focused in the middle of your screen.\n\n[Cursor Mode]\n- This mode uses your cursor to aim your shots, with attacks focused on the enemies your cursor is pointed at.\n\n* You can switch modes by pressing the {0} key on your keyboard.\n(During Tower Cylinder setup, the existing hotkey {1} will not work.)\n* You can change how you target enemies by pressing the "Change Targeting" hotkey, and can use the Ctrl key to auto-target.
 pli_tradeauctionaverageinfoview.1	Item's Market Price Data
 pli_tradeauctionaverageinfoview.2	Latest Average: {0} Gold
 pli_tradeauctionaverageinfoview.3	Data From: {0}
@@ -5586,6 +5711,8 @@ pli_treasureboxevent.3	Close
 pli_treasureboxevent.4	Buy Key
 pli_treasurerestoration.1	A treasure that needs to be restored is required.
 pli_treasurerestoration.2	You need a Catalyst that's required for restoration.
+pli_tutorialpopupview.1	Close
+pli_tutorialpopupview.2	Next
 pli_typeminigameview.1	score : {0} / {1}
 pli_upgradeboxitem.0	Increased collection speed
 pli_upgradeboxitem.1	Increased repair fee
@@ -6045,6 +6172,7 @@ pli_windowconditionballoon.4	(Magic Defense: -{0}, Magic Protection: -{1})
 pli_windowconditionballoon.5	
 pli_windowconditionballoon.6	Encounter Chance Increased
 pli_windowconditionballoon.7	Encounter Chance Decreased
+pli_windowconfiguration.1	There are changes that have not been applied.\nClose the menu without saving?
 pli_windowcontestframe.1	{0}\nSubmission complete
 pli_windowcontestframe.2	\nCurrently in stage {1}.
 pli_windowcontestframe.3	The deadline is near.
@@ -6180,6 +6308,7 @@ pli_windowfriendlistpopup.17	Collapse all friend groups.\nYou can also hold Ctrl
 pli_windowfriendlistpopup.18	Enter Moonlight Island
 pli_windowfriendtreeview.1	Offline
 pli_windowgameclockweather.1	{0} {1}:{2}
+pli_windowgeneralnpcshop.1	View as List
 pli_windowgmcontroltabs.1	Destroy all items in my Inventory.
 pli_windowgmcontroltabs.2	Check
 pli_windowgmcontroltabs.3	Are you sure you want to destroy all items in your Inventory?
@@ -6889,6 +7018,9 @@ pli_windownpcchat.1	This character has voiceover.\nYou can change voice-related 
 pli_windownpcchatetc.1	<npcportrait name='NONE'/><title name='NONE'/>You've ended your conversation with the Spirit.
 pli_windownpcchatetc.2	Return to the first dialog
 pli_windownpcshop.0	Refresh
+pli_windownpcshop2.1	Ctrl + Left-click: Quick Buy 
+pli_windownpcshop2.2	Alt + Left-click: Quick Sale  /  Alt + Right-click: Add to Selling Slots
+pli_windownpcshop2.3	 Ctrl + Shift + Left-click: Purchase Full Stack
 pli_windownpcshoptabframe.1	Current Jousting Points: {0}
 pli_windownpcshoptabframe.2	Current Stars: {0}
 pli_windownpcshoptabframe.3	Current Pon: {0}
@@ -6987,6 +7119,32 @@ pli_windowoptiontabseffect.9	Adjust the range of vision for the surrounding fixe
 pli_windowoptiontabseffect.10	A special effect to render the light source and reflections on objects in a more beautiful way. Using this option may lower the frame rate a little.\nToggle on and off with the shortcut key {0}.\n\n*This option requires a video card supporting Pixel Shader 1.1 or higher version.
 pli_windowoptiontabseffect.11	Shadow Blurring
 pli_windowoptiontabseffect.12	Shadows are blurred.
+pli_windowoptiontabseffect.13	Pet Fynn Sync Effect
+pli_windowoptiontabseffect.14	Hide or display all pets' Fynn Sync visual effect.
+pli_windowoptiontabseffect.15	Spirit Weapon Effects (Self)
+pli_windowoptiontabseffect.16	Hide or display your weapon's Spirit visual effect.
+pli_windowoptiontabseffect.19	Erg Effects (Self)
+pli_windowoptiontabseffect.20	Hide or display your weapon's Erg visual effect.
+pli_windowoptiontabseffect.21	Erg Effects (Others)
+pli_windowoptiontabseffect.22	Hide or display the Erg visual effect of other players' weapons.
+pli_windowoptiontabseffect.23	Special Upgrade (Self)
+pli_windowoptiontabseffect.24	Hide or display your weapon's Special Upgrade visual effect.
+pli_windowoptiontabseffect.25	Special Upgrade (Others)
+pli_windowoptiontabseffect.26	Hide or display the Special Upgrade visual effect of other players' weapons.
+pli_windowoptiontabseffect.27	Monster Names (Non-Boss)
+pli_windowoptiontabseffect.28	Hide or display the names of all monsters, excluding bosses.\nPress the Alt key to view monster names that are hidden.
+pli_windowoptiontabseffect.29	Fynni Gem Icon
+pli_windowoptiontabseffect.30	Hide or display the Fynni Gem icons of all monsters.
+pli_windowoptiontabseffect.31	2nd Title Icon
+pli_windowoptiontabseffect.32	Hide or display the icons of all 2nd titles.\nPress the Alt key to view hidden 2nd Title icons.
+pli_windowoptiontabseffect.35	Guild Name (Self)
+pli_windowoptiontabseffect.36	Hide or display your guild name on your character nameplate.
+pli_windowoptiontabseffect.37	Guild Name (Others)
+pli_windowoptiontabseffect.38	Hide or display guild names on other players' nameplates.\nPress the Alt key to view hidden guild names.
+pli_windowoptiontabseffect.39	Doll Bags
+pli_windowoptiontabseffect.40	Hide or display dolls summoned from doll bags.
+pli_windowoptiontabseffect.41	Pet/Partner Names
+pli_windowoptiontabseffect.42	Hide or display the names of all pets/partners.
 pli_windowoptiontabsetcframe.0	Allow Equipment View
 pli_windowoptiontabsetcframe.1	Allow others to view my equipment.
 pli_windowoptiontabsetcframe.2	Enable Pet Auto Finish
@@ -6995,7 +7153,7 @@ pli_windowoptiontabsetcframe.4	Allow Elf vs. Giant PVP
 pli_windowoptiontabsetcframe.5	This allows the Elf and Giant to PVP.\nHumans who support Elves can PVP against Giants and against humans who support Giants. \nHumans who support Giants can PVP against Elves and against humans who support Elves. 
 pli_windowoptiontabsetcframe.6	Allow PVP
 pli_windowoptiontabsetcframe.7	Selects the PVP status.
-pli_windowoptiontabsetcframe.8	Would you like to synchronize the position of all windows within the game? 
+pli_windowoptiontabsetcframe.8	Would you like to reset the position of all windows within the game?\nResetting will move all UI elements to their default position, including inventory windows.
 pli_windowoptiontabsetcframe.9	Use 24-Hour Clock
 pli_windowoptiontabsetcframe.10	Warn if dropping an expensive item
 pli_windowoptiontabsetcframe.11	Allow PVP
@@ -7058,12 +7216,16 @@ pli_windowoptiontabsetcframe.67	View Field Raid Announcements
 pli_windowoptiontabsetcframe.68	Select to show Field Raid announcements on the screen.
 pli_windowoptiontabsetcframe.69	View Field Raid Announcements
 pli_windowoptiontabsetcframe.70	Select to show Field Raid announcements on the screen.
+pli_windowoptiontabsetcframe.71	Talent Title & Icon
+pli_windowoptiontabsetcframe.72	Hide or display all talent titles and icons.
+pli_windowoptiontabsetcframe.73	Show Technique Cards
+pli_windowoptiontabsetcframe.74	Hide or display Technique cards over other players' heads.\nPress the Alt key to view hidden Technique cards.
 pli_windowoptiontabsetcframe.75	Lock Astrology Cards UI
 pli_windowoptiontabsetcframe.76	Locks the position of the Astrology Cards UI.
 pli_windowoptiontabsetcframe.77	Allow Astral Imaging
 pli_windowoptiontabsetcframe.78	All
 pli_windowoptiontabsetcframe.79	Friends
-pli_windowoptiontabsetcframe.80	Guild Members
+pli_windowoptiontabsetcframe.80	Guildmates
 pli_windowoptiontabsetcframe.81	OFF
 pli_windowoptiontabsetcframe.autohide_ssb	Lock Extra Skill Slot
 pli_windowoptiontabsetcframe.autohide_ssb_tp	Locks the extra skill slot.\nLocked skills cannot be removed from the window. Prevents window from being moved.
@@ -7115,6 +7277,8 @@ pli_windowoptiontabsperformance.39	Disable Screen Shake
 pli_windowoptiontabsperformance.40	Turn on to remove screen shake effect from skills and monster movement. Does not disable screen shake in cutscenes.
 pli_windowoptiontabsperformance.41	Hide Others' Damage Skins
 pli_windowoptiontabsperformance.42	Enable this setting to see only your active damage skin, hiding any used by other players.
+pli_windowoptiontabsperformance.43	Damage Skin (Others)
+pli_windowoptiontabsperformance.44	Hide or display other players' damage skins.
 pli_windowoptiontabssound.1	Use Sound FX for Footsteps
 pli_windowoptiontabssound.2	Disabling sound FX for footsteps may slightly increase the speed of the game.
 pli_windowoptiontabssound.3	Performance Options
@@ -7367,6 +7531,7 @@ pli_windowpocketitemaction.49	Only runes of the same type as the emblem can be u
 pli_windowpocketitemaction.51	This function can only be used by the Guild Master.
 pli_windowpocketitemaction.52	You cannot equip that item.
 pli_windowpocketitemaction.53	You cannot change the style of an islander who is in the middle of production.
+pli_windowpocketitemaction.54	This item cannot be sold.
 pli_windowpopupcharacter.0	Failed to view equipment.
 pli_windowpopupcharacter.1	View Equipment
 pli_windowpopupcharacter.2	Mount on My Pet

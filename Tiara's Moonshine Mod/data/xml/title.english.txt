@@ -737,7 +737,7 @@
 737	A title that certifies one as a White Knight.  To acquire the title, use the Spirit of Order skill.
 738	A title that certifies one as a Holy Knight.  To acquire the title, use the Spirit of Order skill.
 739	A title that certifies one as a Champion.  To acquire the title, use the Spirit of Order skill.
-740	A title given to pariticpants of The Amazing Race of Mabinogi.
+740	A title given to participants of The Amazing Race of Mabinogi.
 741	
 742	
 743	
@@ -885,7 +885,7 @@
 885	A title that certifies one as a White Knight.  To acquire the title, use the Spirit of Order skill.
 886	A title that certifies one as a Holy Knight.  To acquire the title, use the Spirit of Order skill.
 887	A title that certifies one as a Champion.  To acquire the title, use the Spirit of Order skill.
-888	A title given to pariticpants of The Amazing Race of Mabinogi. This title cannot be used during the race.
+888	A title given to participants of The Amazing Race of Mabinogi. This title cannot be used during the race.
 889	
 890	
 891	
@@ -1034,7 +1034,7 @@
 1034	
 1035	
 1036	
-1037	A title given to pariticpants of The Amazing Race of Mabinogi. This title can only be used during the race.
+1037	A title given to participants of The Amazing Race of Mabinogi. This title can only be used during the race.
 1038	a Library Part-Timer
 1039	a Library Part-Timer
 1040	a Library Part-Timer
@@ -2303,7 +2303,7 @@
 2723	the Wyvern Hunter
 2724	the Sulfur-poisoned Explorer
 2725	the Wyvern Hunter
-2727	You delivered a whooping 1000 Wyvern Claws to Kelpie.
+2727	You delivered a whopping 1000 Wyvern Claws to Kelpie.
 2732	You almost died of sulfur poisoning, but you've lived to tell the tale.
 2733	Endure sulfur poisoning, but try not to die!
 2754	the Ambidextrous
@@ -14881,6 +14881,13 @@
 16512	행운 30 증가
 16513	행운 30 증가
 16514	행운 30 증가
+16515	A Close Shave
+16516	A Close Shave
+16517	A Close Shave
+16518	A Close Shave
+16519	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16520	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16521	Luck +30
 16522	19주년 판타지스타
 16523	19주년 판타지스타
 16524	19주년 판타지스타
@@ -15049,6 +15056,97 @@
 16708	A title granted to those who thwarted the ambitions of the master of Glenn Bearna, the Winter Tyrant, securing a path to the future.
 16709	A title granted to those who stood against the master of Glenn Bearna, emerging victorious even when confronted with the full fury of a Primeval Winter.\nEarned by claiming victory against the Winter Tyrant without any party member being knocked out.
 16710	Max Damage +27\nMagic Attack +50\nProtection/Magic Protection +15\nMovement Speed +2%
+16739	a 12th Anniversary Milletian
+16740	a 13th Anniversary Milletian
+16741	a 14th Anniversary Milletian
+16742	a 15th Anniversary Milletian
+16743	a 16th Anniversary Milletian
+16744	a 17th Anniversary Milletian
+16745	an 18th Anniversary Milletian
+16746	a 19th Anniversary Milletian
+16747	a 20th Anniversary Milletian
+16748	a 12th Anniversary Milletian
+16749	a 13th Anniversary Milletian
+16750	a 14th Anniversary Milletian
+16751	a 15th Anniversary Milletian
+16752	a 16th Anniversary Milletian
+16753	a 17th Anniversary Milletian
+16754	an 18th Anniversary Milletian
+16755	a 19th Anniversary Milletian
+16756	a 20th Anniversary Milletian
+16757	a 12th Anniversary Milletian
+16758	a 13th Anniversary Milletian
+16759	a 14th Anniversary Milletian
+16760	a 15th Anniversary Milletian
+16761	a 16th Anniversary Milletian
+16762	a 17th Anniversary Milletian
+16763	an 18th Anniversary Milletian
+16764	a 19th Anniversary Milletian
+16765	a 20th Anniversary Milletian
+16766	a 12th Anniversary Milletian
+16767	a 13th Anniversary Milletian
+16768	a 14th Anniversary Milletian
+16769	a 15th Anniversary Milletian
+16770	a 16th Anniversary Milletian
+16771	a 17th Anniversary Milletian
+16772	an 18th Anniversary Milletian
+16773	a 19th Anniversary Milletian
+16774	a 20th Anniversary Milletian
+16775	A Title given to Milletians who have been with Mabinogi since the 12th Anniversary.
+16776	A Title given to Milletians who have been with Mabinogi since the 13th Anniversary.
+16777	A Title given to Milletians who have been with Mabinogi since the 14th Anniversary.
+16778	A Title given to Milletians who have been with Mabinogi since the 15th Anniversary.
+16779	A Title given to Milletians who have been with Mabinogi since the 16th Anniversary.
+16780	A Title given to Milletians who have been with Mabinogi since the 17th Anniversary.
+16781	A Title given to Milletians who have been with Mabinogi since the 18th Anniversary.
+16782	A Title given to Milletians who have been with Mabinogi since the 19th Anniversary.
+16783	A Title given to Milletians who have been with Mabinogi since the 20th Anniversary.
+16784	A Title given to Milletians who have been with Mabinogi since the 12th Anniversary.
+16785	A Title given to Milletians who have been with Mabinogi since the 13th Anniversary.
+16786	A Title given to Milletians who have been with Mabinogi since the 14th Anniversary.
+16787	A Title given to Milletians who have been with Mabinogi since the 15th Anniversary.
+16788	A Title given to Milletians who have been with Mabinogi since the 16th Anniversary.
+16789	A Title given to Milletians who have been with Mabinogi since the 17th Anniversary.
+16790	A Title given to Milletians who have been with Mabinogi since the 18th Anniversary.
+16791	A Title given to Milletians who have been with Mabinogi since the 19th Anniversary.
+16792	A Title given to Milletians who have been with Mabinogi since the 20th Anniversary.
+16793	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
+16794	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
+16795	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
+16796	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
+16797	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
+16798	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
+16799	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
+16800	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
+16801	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
+16830	17th Anniversary Fantasy Star
+16831	17th Anniversary Fantasy Star
+16832	17th Anniversary Fantasy Star
+16833	17th Anniversary Fantasy Star
+16834	A fancy 2nd title given to those who celebrated the 17th Anniversary of Mabinogi. Can be used with regular titles.
+16835	A fancy 2nd title given to those who celebrated the 17th Anniversary of Mabinogi. Can be used with regular titles.
+16836	Max Damage +17\nMagic Attack +17\nWater/Fire/Wind/Earth\nAlchemic Damage +14\nStrength +17\nIntelligence +17\nDexterity +17\nWill +17\nLuck +17\nMovement Speed +1%
+16837	who Upstaged the Stage of Trials
+16838	who Bested the Stage of Trials
+16839	who Upstaged the Stage of Trials
+16840	who Bested the Stage of Trials
+16841	who Upstaged the Stage of Trials
+16842	who Bested the Stage of Trials
+16843	who Upstaged the Stage of Trials
+16844	who Bested the Stage of Trials
+16845	Clearly, the Stage of Trials was barely a trial at all to you. This Title is awarded to those who cleared the final round of the 17th Anniversary's Stage of Trials. When set as your title, enables a special effect.
+16846	Your outstanding ability sees you standing atop the mountain of foes the Stage of Trials has to offer. This Title is awarded to those who cleared the Stage of Trials in Veteran Mode. Although the stat bonuses it confers will disappear once it expires, you will retain the title and can use it ever after to boast of your accomplishment.
+16847	Clearly, the Stage of Trials was barely a trial at all to you. This Title is awarded to those who cleared the final round of the 17th Anniversary's Stage of Trials. When set as your title, enables a special effect.
+16848	Your outstanding ability sees you standing atop the mountain of foes the Stage of Trials has to offer. This Title is awarded to those who cleared the Stage of Trials in Veteran Mode. Although the stat bonuses it confers will disappear once it expires, you will retain the title and can use it ever after to boast of your accomplishment.
+16849	Max Damage +20\nMagic Attack +20
+16850	Max Damage +30\nMagic Attack +45
+16851	who Shone Bright for the 17th Anniversary
+16852	who Shone Bright for the 17th Anniversary
+16853	who Shone Bright for the 17th Anniversary
+16854	who Shone Bright for the 17th Anniversary
+16855	A special title awarded to Milletians who helped Mabinogi's 17th Anniversary shine so brightly. When set as your title, enables a special effect.\nWe hope you continue to enjoy our journey together!
+16856	A special title awarded to Milletians who helped Mabinogi's 17th Anniversary shine so brightly. When set as your title, enables a special effect.\nWe hope you continue to enjoy our journey together!
+16857	Strength +20\nIntelligence +20 \nDexterity +20\nWill +20\nLuck +20
 16868	the Thousand-Year Mage
 16869	who is Frieren's Apprentice
 16870	the Hero of the Village
@@ -15137,7 +15235,7 @@
 17013	Reach 100 Training EXP for Cartomancy Rank 1 to receive a title that proves your mastery.
 17014	Reach 100 Training EXP for Astral Imaging Rank 1 to receive a title that proves your mastery.
 17015	DEX +15\nLuck +5
-17016	Max MP +50\nMax STA +50\nConstellation Casting Capture Speed +5
+17016	Max MP +50\nMax Stamina +50\nConstellation Casting Capture Speed +5
 17017	Will +10\nLuck +5
 17018	Will +5\nLuck +10
 17019	Beautiful Starlight
@@ -15462,3 +15560,94 @@
 17569	행운 30 증가
 17570	행운 30 증가
 17571	행운 30 증가
+17656	순수한 스포트라이트
+17657	잔혹한 스포트라이트
+17658	활기찬 스포트라이트
+17659	화려한 스포트라이트
+17660	순수한 스포트라이트
+17661	잔혹한 스포트라이트
+17662	활기찬 스포트라이트
+17663	화려한 스포트라이트
+17664	순수한 스포트라이트
+17665	잔혹한 스포트라이트
+17666	활기찬 스포트라이트
+17667	화려한 스포트라이트
+17668	순수한 스포트라이트
+17669	잔혹한 스포트라이트
+17670	활기찬 스포트라이트
+17671	화려한 스포트라이트
+17672	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17673	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17674	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17675	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17676	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17677	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17678	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17679	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17680	행운 30 증가
+17681	행운 30 증가
+17682	행운 30 증가
+17683	행운 30 증가
+17684	순수한 로얄 소사이어티
+17685	청명한 로얄 소사이어티
+17686	우아한 로얄 소사이어티
+17687	화려한 로얄 소사이어티
+17688	순수한 로얄 소사이어티
+17689	청명한 로얄 소사이어티
+17690	우아한 로얄 소사이어티
+17691	화려한 로얄 소사이어티
+17692	순수한 로얄 소사이어티
+17693	청명한 로얄 소사이어티
+17694	우아한 로얄 소사이어티
+17695	화려한 로얄 소사이어티
+17696	순수한 로얄 소사이어티
+17697	청명한 로얄 소사이어티
+17698	우아한 로얄 소사이어티
+17699	화려한 로얄 소사이어티
+17700	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17701	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17702	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17703	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17704	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17705	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17706	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17707	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17708	행운 30 증가
+17709	행운 30 증가
+17710	행운 30 증가
+17711	행운 30 증가
+17734	모험과 환희
+17736	모험과 환희
+17738	모험과 환희
+17740	모험과 환희
+17742	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17744	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17746	행운 30 증가
+17747	who Upstaged the Stage of Trials
+17748	17th Anniversary Fantasy Star
+17749	who Shone Bright for the 17th Anniversary
+17750	who Upstaged the Stage of Trials
+17751	17th Anniversary Fantasy Star
+17752	who Shone Bright for the 17th Anniversary
+17753	who Upstaged the Stage of Trials
+17754	17th Anniversary Fantasy Star
+17755	who Shone Bright for the 17th Anniversary
+17756	who Upstaged the Stage of Trials
+17757	17th Anniversary Fantasy Star
+17758	who Shone Bright for the 17th Anniversary
+17759	Clearly, the Stage of Trials was barely a trial at all to you. This Title is awarded to those who cleared the final round of the 17th Anniversary's Stage of Trials. When set as your title, enables a special effect.
+17760	A fancy 2nd title given to those who celebrated Mabinogi's 17th Anniversary. Can be used with regular titles.
+17761	A special title awarded to Milletians who helped Mabinogi's 17th Anniversary shine so brightly. When set as your title, enables a special effect.\n\nWe hope you continue to enjoy our journey together!
+17762	Clearly, the Stage of Trials was barely a trial at all to you. This Title is awarded to those who cleared the final round of the 17th Anniversary's Stage of Trials. When set as your title, enables a special effect.
+17763	A fancy 2nd title given to those who celebrated Mabinogi's 17th Anniversary. Can be used with regular titles.
+17764	A special title awarded to Milletians who helped Mabinogi's 17th Anniversary shine so brightly. When set as your title, enables a special effect.\n\nWe hope you continue to enjoy our journey together!
+17765	Max Damage +17\nMagic Attack +17
+17766	Max Damage +17\nMagic Attack +17\nWater/Fire/Wind/Earth\nAlchemic Damage +11\nStrength +17\nIntelligence +17\nDexterity +17\nWill +17\nLuck +17\nMovement Speed +1%
+17767	Strength +17\nIntelligence +17 \nDexterity +17\nWill +17\nLuck +17
+17768	who Read with the GMs in the Library
+17769	who Read with the GMs in the Library
+17770	who Read with the GMs in the Library
+17771	who Read with the GMs in the Library
+17772	A title received by taking part in the 17th Anniversary GM event.
+17773	A title received by taking part in the 17th Anniversary GM event.
+17774	

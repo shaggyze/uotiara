@@ -175,8 +175,8 @@ interface_character.10	You cannot move to another continent from the Dressing Ro
 interface_character.11	Ears
 interface_character.12	Eyes
 interface_character.13	Mouth
-interface_character.14	 -type items cannot be equipped together.
-interface_character.15	 that makes you completely unique! 
+interface_character.14	.
+interface_character.15	 cannot be equipped because you are already wearing something that covers your 
 interface_character.16	Face Accessory-Exclusive items and Headwear cannot be equipped together if any of their features would overlap.
 interface_character.17	You cannot move to another continent from this location.
 interface_character.18	You cannot do that right now.\nContinent Warp is available after the quest [Fomor Threat].
@@ -610,6 +610,7 @@ mabinogi_commerce.41	Cannot purchase because you're not in a merchant group part
 mabinogi_etcconstants.1	Beginner
 mabinogi_etcconstants.2	Intermediate
 mabinogi_etcconstants.3	Advanced
+mabinogi_etcconstants.4	[z]Repurchase
 mabinogi_fieldquest.1	This is a Quest Zone that you already entered.
 mabinogi_fieldquest.2	Character cannot be found. Please try again.
 mabinogi_fieldquest.3	Incorrect location.
