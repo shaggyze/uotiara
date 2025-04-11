@@ -9617,6 +9617,8 @@
 11875	[Guild][Partner] Trader's Skiff
 11876	[Guild][Partner] Dog Sled
 11877	Location of Suspicious Monolith Discovery
+11878	매
+11879	수리부엉이
 11880	White Poodle Mini-Gem
 11881	Siamese Cat Mini-Gem
 11882	Spotted Deer Mini-Gem
@@ -9627,6 +9629,9 @@
 11887	Mini Brown Fox Mini-Gem
 11924	Eiry
 11925	Eiry
+11926	흰올빼미
+11927	수리부엉이
+11928	흰올빼미
 11929	Horse for Jousting
 11930	Horse for Jousting
 11931	Horse for Jousting
@@ -9967,6 +9972,7 @@
 12304	Abominable Rabbit
 12305	Gwyllgi
 12306	Fuathic Feather
+12307	장군청룡
 12308	Delga
 12309	Blue Poisonous Snake
 12310	White Poisonous Snake
@@ -10151,6 +10157,11 @@
 12518	Cat Village Slide Tower
 12519	Servant
 12520	Servant
+12537	Sreng
+12538	Barrier Monolith
+12539	Fir Bolg Mage
+12540	Fir Bolg Infantry
+12541	Fir Bolg Archer
 12542	Neal
 12543	Delaney
 12546	Erinn Courier Bear Doll
@@ -10180,9 +10191,108 @@
 12596	Stark
 12597	Antique Mimic
 12598	빛고래(크리에이터)
+12604	베이비 서큐버스
+12605	베이비 서큐버스
+12606	베이비 서큐버스
+12607	베이비 서큐버스
+12608	추종자
+12609	어둠의 추종자
+12610	베이비 서큐버스
+12616	Cailleach
+12617	Cailleach
+12618	Cailleach
+12619	Cailleach
+12620	Unfinished Reverie
+12621	Unfinished Reverie
+12622	Cnoc Oighir
+12623	Cnoc Oighir
+12624	Unfinished Reverie
+12625	Unfinished Reverie
+12626	Cailleach
+12627	Cailleach
+12628	Cnoc Oighir
+12629	Cnoc Oighir
+12630	Unfinished Reverie
+12631	Unfinished Reverie
+12632	Unfinished Reverie
+12633	Unfinished Reverie
+12634	Unfinished Reverie
+12635	Unfinished Reverie
+12636	The Winter Tyrant
+12637	The Winter Tyrant
+12638	Succubus Queen
+12639	Succubus Queen
+12640	Skelemancer
+12641	Skelemancer
+12642	Succubus Queen
+12643	Succubus Queen
+12644	Skelemancer
+12645	Skelemancer
+12646	Illusion of Balor
+12647	Illusion of Balor
+12648	Cethlenn
+12649	Cethlenn
+12650	Fleur
+12651	Fleur
+12652	Illusion of Balor (Immune to Threshold Cutter Stun)
+12653	Illusion of Balor (Immune to Threshold Cutter Stun)
+12654	Fleur
+12655	Fleur
+12656	Fleur
+12657	Fleur
+12658	Mag Mell Guard Captain
+12659	Mag Mell Guard Captain
+12660	Mag Mell Guard Captain
+12661	Mag Mell Guard Captain
+12662	Kerune
+12663	Kerune
+12664	Kerune
+12665	Kerune
+12666	Fleur (AI 1)
+12667	Fleur (AI 1)
+12668	Fleur (AI 2)
+12669	Fleur (AI 2)
+12670	Fleur (AI 3)
+12671	Fleur (AI 3)
+12672	Mag Mell Magic Spirit
+12673	Mag Mell Magic Spirit
+12674	Fleur (AI 1)
+12675	Fleur (AI 1)
+12676	Fleur (AI 2)
+12677	Fleur (AI 2)
+12678	Fleur (AI 3)
+12679	Fleur (AI 3)
+12680	Sreng
+12681	Sreng
+12682	Sreng
+12683	Sreng
+12684	Completed Glas Ghaibhleann
+12685	Completed Glas Ghaibhleann
+12686	Giga Glas Ghaibhleann
+12687	Giga Glas Ghaibhleann
+12688	Irusan
+12689	Irusan
+12695	Succubus Queen
+12696	Succubus Queen
+12697	Skelemancer
+12698	Skelemancer
+12699	Sreng
+12700	Sreng
+12701	Completed Glas Ghaibhleann
+12702	Completed Glas Ghaibhleann
+12703	Giga Glas Ghaibhleann
+12704	Giga Glas Ghaibhleann
+12705	Irusan
+12706	Irusan
 12710	Statue of Someone
 12728	무등고래
+12929	번개의 카트시
+12964	파트너 [라그린네]
 12975	Blazing Catsidhe
 12976	화염의 카트시
 12977	Dazzling Catsidhe
 12978	청명의 카트시
+13001	꽃 머리띠 솜사탕 양
+13002	꽃 머리띠 고양이
+13004	
+13005	

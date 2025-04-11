@@ -525,6 +525,9 @@ pli_appearancechangeframe.18	Recommended Mouth
 pli_appearancechangeframe.19	Mouth
 pli_appearancechangeframe.20	Right
 pli_appearancechangeframe.21	Left
+pli_appearancechangeframe.22	파트너에게 사용할 헤어 지정 염색 앰플을 선택해 주세요.
+pli_appearancecouponpreview.1	Reset Camera
+pli_appearancecouponpreview.2	Background Brightness
 pli_apskilltrainview.1	Unknown Training Method
 pli_apskilltrainview.2	You cannot train anymore.
 pli_apskilltrainview.3	Please select a skill to train.
@@ -782,6 +785,9 @@ pli_bardboardwriteview.5	Title must be at least 4 characters long.
 pli_bardboardwriteview.6	There is an inappropriate word in your title. Please try again.
 pli_bardboardwriteview.7	Please enter the composer's comments.
 pli_bardboardwriteview.8	There is an inappropriate word in the composer's comments. Please try again.
+pli_basicpartymaketabframe.1	(없음)
+pli_basicpartymaketabframe.2	{0}님의 파티
+pli_basicpartymaketabframe.3	확인
 pli_battledanceframe.1	Apply the {0} effect?
 pli_battledancemanageview.1	You can choose which dance to perform.\nCurrent theme: {0}
 pli_battledancemanageview.2	You can choose which effect to display.\nCurrent mood: {0}
@@ -1192,6 +1198,16 @@ pli_charactercommerceframe.6	<color=2><outlinecolor=3>[Commerce Seasons]</outlin
 pli_characterconditionremaintimeview.1	No effects active.
 pli_characterconditionremaintimeview.2	 (Cannot be used)
 pli_characterconditionremaintimeview.3	 <color=2>(Polyphony)</color>
+pli_characterconditionremaintimeview.4	Compact
+pli_characterconditionremaintimeview.5	Expand
+pli_characterconditionremaintimeview.6	No more can be added.
+pli_characterconditionremaintimeviewframe.1	Buffs marked as favorites cannot be moved to another position.
+pli_characterconditionremaintimeviewframe.2	Favorites
+pli_characterconditionremaintimeviewframe.3	Hidden
+pli_characterconditionremaintimeviewframe.4	Visible
+pli_characterconditionremaintimeviewframe.5	History
+pli_characterconditionremaintimeviewframe.6	Add to {0}.
+pli_characterconditionremaintimeviewframe.7	Remove from {0}.
 pli_characterentryview.1	Character Info {0}
 pli_characterentryview.2	Talents {0}
 pli_characterentryview.3	Blaanid's Brave Boost {0}
@@ -1316,7 +1332,7 @@ pli_collectionlistframe.10	(M)
 pli_collectionlistframe.11	{0}  {1} / {2}
 pli_collectionlistframe.12	Enter a search term.
 pli_collectionlistframe.13	Tail
-pli_collectionlistframe.14	Face Accessory
+pli_collectionlistframe.14	Facewear
 pli_collectionlistframe.15	Chair
 pli_collectionlistframe.16	Accessory
 pli_collectnotifyview.1	Successfully hunted {0}!
@@ -1570,6 +1586,8 @@ pli_configurationhandlers_play.38	When this option is active, an alert will be d
 pli_configurationhandlers_play.39	Locks the extra skill slots. While locked, the array cannot be moved, and skills cannot be removed from the slots.
 pli_configurationhandlers_play.40	Locks the pet skill slots. While locked, the array cannot be moved, and skills cannot be removed from the slots.
 pli_configurationhandlers_play.41	Locks the position of the Astrology Cards UI.
+pli_configurationhandlers_play.42	Lock the Status List window. While locked, you cannot make changes to the Status List or move the window.
+pli_configurationhandlers_play.44	When enabled, Reserve Attack will queue up basic attacks after using skills. It can only be used when set to Manual Combat mode.
 pli_configurationhandlers_social.1	Allows other players to view your equipment.
 pli_configurationhandlers_social.2	Allows other players to compare their Journals with yours.
 pli_configurationhandlers_social.3	Allows you to receive invitations to join guilds. If this option is disabled, you will automatically decline all invitations.
@@ -1583,6 +1601,10 @@ pli_configurationhandlers_social.10	Changes the color of messages from the speci
 pli_configurationhandlers_sound.1	Changes some background music to a different version.
 pli_configurationhandlers_sound.2	Sets the range at which singing and instruments are audible. Any adjustments made will take effect starting with the next performance.
 pli_configurationhandlers_sound.3	Enables the sound of footsteps when walking or running. May cause a moderate reduction in performance on PCs with lower specs.
+pli_configurationoptionframe_chat.1	더 이상 등록할 수 없습니다.
+pli_configurationoptionframe_chat.2	알 수 없는 오류입니다.
+pli_configurationoptionframe_chat.3	입력하신 '{0}' 키워드는 이미 등록된 '{1}'에 포함되어 있습니다.\n다른 키워드를 입력해 주세요.
+pli_configurationoptionframe_chat.4	키워드 내용이 너무 깁니다.
 pli_configurationoptionframe_hotkey.1	"%s" is currently assigned to another command.\nWould you like to change it?\n\nCurrent: %s\nNew: %s
 pli_continentmapview.1	Petitioner
 pli_continentmapview.2	Blessing of Cairbre\\nTime Left: {0} min {1} sec
@@ -2146,6 +2168,8 @@ pli_extrabagorderview.1	Please try again in {0} seconds.
 pli_eyeblinkview.1	Apply changes to blink settings?
 pli_eyerestoreview.1	Using this coupon will change your current\neye colors and eye style to the ones stored on the coupon.\nWould you like to apply the coupon's eye colors and eye style?
 pli_eyerestoreview.2	Cannot apply this eye style on the current race.
+pli_eyerestoreview.3	Reset Camera
+pli_eyerestoreview.4	Background Brightness
 pli_facilitycontextmenuview.1	Building Menu
 pli_facilitycontextmenuview.2	You can set visitor rights.
 pli_facilitycontextmenuview.3	You can set usage rights.
@@ -2655,10 +2679,16 @@ pli_haberdashereventview.1	You received all the coins for today.
 pli_haberdashereventview.2	Time Remaining: 
 pli_haberdashereventview.3	You received a Peddler Event coin {0} time(s).
 pli_hairfixedcolordyeingview.1	If you apply this hair dye, your current color will be lost.\nContinue?
+pli_hairfixedcolordyeingview.2	파트너 헤어 염색
+pli_hairfixedcolordyeingview.3	현재 소환된 파트너의 헤어에 염색을 할 수 있습니다.
+pli_hairfixedcolordyeingview.4	Reset Camera
+pli_hairfixedcolordyeingview.5	Background Brightness
 pli_hairrestoreview.1	Cannot apply this hairstyle on the current gender.
 pli_hairrestoreview.2	The stored hairstyle is invalid.
 pli_hairrestoreview.3	The stored hairstyle will be applied immediately, and this coupon will disappear.\nAny current hair color you applied with a Hair Dye Ampoule will not be retained.
 pli_hairrestoreview.4	Using this coupon will change your current hairdo and hair color to the ones stored on the coupon.\n\nWould you like to apply the coupon's hairdo and color?
+pli_hairrestoreview.5	Reset Camera
+pli_hairrestoreview.6	Background Brightness
 pli_heightselectchangeview.1	{0} Years Old Appearance
 pli_heightselectchangeview.2	Change your appearance to {0} years old.
 pli_helpalarmsettingview.1	Deactivate
@@ -3387,6 +3417,9 @@ pli_itemmarketview.15	닫기
 pli_itemmarketview.16	판매등록이 정상적으로 처리되었습니다.
 pli_itemmarketview.17	등록 취소가 정상처리되었습니다.
 pli_itemmarketview.18	구매 완료되었습니다\n아이템 보관함에서 아이템을 확인할 수 있습니다.
+pli_itemselect2024view.1	Select Reward
+pli_itemselect2024view.2	Current Signet Effect Level: \nSuccess Rate: 
+pli_itemselect2024view.3	Select an item from the list.
 pli_iuinputaction.1	Action
 pli_iuinputaction.2	Gesture
 pli_iuinputaction.3	Persona
@@ -3669,6 +3702,8 @@ pli_magigraphmaterializationview.8	Would you like to formulate the selected Glyp
 pli_magigraphmaterializationview.9	Confirm
 pli_magigraphmaterializationview.10	You confirm that the selected Glyph image is not inappropriate.\nThe creation of inappropriate Glyph Imprints may result in punitive actions against your account.
 pli_magigraphmaterializationview.11	Quality: 
+pli_magigraphpreviewview.1	Play Again
+pli_magigraphpreviewview.2	Background Brightness
 pli_magigraphrepairview.1	0/{0}
 pli_magigraphrepairview.2	 Cost
 pli_magigraphrepairview.3	{0}/{1}
@@ -3734,6 +3769,24 @@ pli_mikugachaponview.9	[Penalty: Lose a Spin]\nYou won't get your next spin.
 pli_mileageshopitembuyview.7	<color=2>Your current gender or race cannot use this coupon.\nWould you still like to purchase?</color>
 pli_minigamealwaysmainview.1	Single-player
 pli_minigamealwaysmainview.2	Multiplayer
+pli_minigamealwaysmainview.3	전체
+pli_minigamealwayspartymainview.1	인원 : {0} / {1}
+pli_minigamealwayspartymainview.2	게임명 : {0}
+pli_minigamealwayspartymainview.3	파티명 : {0}
+pli_minigamealwayspartymainview.4	 (파티장)
+pli_minigamealwayspartymainview.5	파티 모집
+pli_minigamealwayspartymainview.6	파티 모집 (대기)
+pli_minigamealwayspartymainview.7	열림
+pli_minigamealwayspartymainview.8	{0} to {1}
+pli_minigamealwayspartymainview.9	1초 뒤에 다시 입력해주세요
+pli_minigamealwayspartymainview.10	미니게임을 시작하기 위해 최소 인원을 맞춰주세요
+pli_minigamealwayspartymainview.11	A팀
+pli_minigamealwayspartymainview.12	B팀
+pli_minigamealwaysresultview.1	패배
+pli_minigamealwaysresultview.2	승리
+pli_minigamealwaysresultview.3	알 수 없음
+pli_minigamepartyleaderview.1	해당 인원을 정말로 파티장으로 위임하시겠습니까?
+pli_minigamepartyleaderview.2	해당 인원을 정말로 추방하시겠습니까?
 pli_minigamepartymaketabframe.1	The password must be 8 or less alphabetic characters.
 pli_minigamepartymaketabframe.2	Create Party
 pli_minigamepartymaketabframe.3	Settings
@@ -3757,6 +3810,10 @@ pli_movecontinentview.1	Teleports you to {0}.\nDo you wish to teleport now?
 pli_movecontinentview.2	Teleports you to {0}.\nThis function becomes usable again at 12:00 PM and 12:00 AM Erinn time.\nDo you wish to teleport now?
 pli_movecontinentview.3	Teleport to {0}
 pli_msgboxitem2.1	Displays the visual chat with {0} on the screen.
+pli_msgboxitem2.2	전투 중 채널 이동 패널티 (<color=5>{0}:{1}후 해제</color>)\n{2} exp, {3}골드
+pli_msgboxitem2.3	파티 목적지로 즉시 이동됩니다.\n파티에 가입하려면 채널 이동을 해야 합니다.\n지금 바로 가입 및 이동하시겠습니까?\n\n{0}
+pli_msgboxitem2.4	현재 가입된 파티입니다.
+pli_msgboxitem2.5	지금 바로 가입 및 목적지로 이동하시겠습니까?
 pli_multiclasschangeframe.1	Arcana Level {0}
 pli_multiclasschangeframe.2	Unlearned
 pli_multiclasschangeframe.3	EXP {0}%
@@ -3790,6 +3847,8 @@ pli_multiclassmanageview.7	{0} {1}
 pli_multiclassmanageview.8	You have not acquired the Arcana Talent associated with this skill yet.
 pli_multiclassmanageview.9	* Obtain {0}
 pli_multifacilitycontextmenuview.1	Select at least 2 housing items
+pli_musicbuffsharingsettingview.1	Failed to save.
+pli_musicbuffsharingsettingview.2	(none)
 pli_myknightsmemberinfoframe.1	Specialty {0} \n
 pli_myknightsmemberinfoframe.2	Divine Power {0} \n
 pli_myknightsmemberinfoframe.3	Strength {0} \n
@@ -3931,7 +3990,7 @@ pli_npcshoputility.10	Spirit EXP
 pli_npcshoputility.11	Reward Gold
 pli_npcshoputility.12	Bank Balance
 pli_npcshoputility.13	Gold Held
-pli_npcshoputility.14	Current Resources
+pli_npcshoputility.14	Amount Held
 pli_npcshoputility.15	{0} x{1}
 pli_npcshoputility.16	Jousting Points: {0}
 pli_npcshoputility.17	{0} Stars
@@ -3985,6 +4044,7 @@ pli_oxquizquestionview.2	\n\n{0}sec
 pli_oxquizquestionview.3	\n\n<color=4>{0}sec</color>
 pli_participantpopupmenu.1	Altruism Points: {0}
 pli_participantpopupmenu.2	Altruism Score: {0}
+pli_partyshouthornview.1	[{0}] {1} [{2}/{3}명]
 pli_pawnpurchaselistview.1	{0} Pon
 pli_pawnpurchaselistview.2	{0} Pon
 pli_pawnpurchaselistview.3	Available Coupon: {0}
@@ -4149,7 +4209,7 @@ pli_petqueststartview.1	Your pet will be dispatched\n
 pli_petqueststartview.2	[<color=2><outlinecolor=3>{0}</outlinecolor></color>]\nSend out on the Expedition?
 pli_petquickslotview.1	Registered automatically upon equipping Fynn Beads.
 pli_petquickslotview.2	Pets can acquire perks upon rebirth at level 100 or higher.
-pli_petquickslotview.3	You can use a pet's icon to register any skill that activates when the pet is summoned from the pet information window.\n(Can be registered or removed once a day in Erinn time. Resets after 06:00 in Erinn time.)
+pli_petquickslotview.3	You can move a pet's icon from the pet information window to this Friend Summon slot to register another pet's summoning skill for use.\n\n(Can be registered or updated once every 5 minutes, per slot.)
 pli_petquickslotview.4	You can select skills in a pet's skill list to register them.
 pli_petrestitem.1	Resting at {0}
 pli_petrestitem.2	Complete
@@ -6306,6 +6366,7 @@ pli_windowfriendlistpopup.15	Expand all friend groups.\nYou can also hold Ctrl a
 pli_windowfriendlistpopup.16	Collapse All
 pli_windowfriendlistpopup.17	Collapse all friend groups.\nYou can also hold Ctrl and double-click a group name to collapse all groups.
 pli_windowfriendlistpopup.18	Enter Moonlight Island
+pli_windowfriendlistpopup.25	파티 초대하기
 pli_windowfriendtreeview.1	Offline
 pli_windowgameclockweather.1	{0} {1}:{2}
 pli_windowgeneralnpcshop.1	View as List
@@ -6354,7 +6415,7 @@ pli_windowgrouplistview.3	Cancel
 pli_windowgroupnameinput.1	Add Group
 pli_windowgroupnameinput.2	Change Group Name
 pli_windowgroupnameinput.3	Please insert the group name.
-pli_windowgrowthguideview.1	Can be used after completing the About the Growth Guide quest,\nreceived after clearing Blaanid's Brave Boost Volume 3.
+pli_windowgrowthguideview.1	Can be used after completing the [Guide] Growth Guide quest,\nreceived after clearing Blaanid's Brave Boost Volume 3.
 pli_windowgrowthguideview.2	Cumulative Points ({0} / {1})
 pli_windowgrowthguideview.3	No completion rewards are available.
 pli_windowguildjoin.1	You have already applied to join this guild.
@@ -6520,6 +6581,9 @@ pli_windowhouseshoppocket.0	Sale Price: {0} Gold
 pli_windowhouseshoppocket.1	Not-for-Sale Items
 pli_windowhouseshoppocket.2	Price Info
 pli_windowitempreview.1	Refresh
+pli_windowitempreview.2	Preview
+pli_windowitempreview.3	Reset Camera
+pli_windowitempreview.4	Background Brightness
 pli_windowitemrepair.1	프리미엄PC방에서는 무료로 수리할 수 있습니다.
 pli_windowitemrepair2.1	\n(Fee: 
 pli_windowitemrepair2.2	Direct Bank Transaction is avaliable from {0} Gold.
@@ -7227,6 +7291,8 @@ pli_windowoptiontabsetcframe.78	All
 pli_windowoptiontabsetcframe.79	Friends
 pli_windowoptiontabsetcframe.80	Guildmates
 pli_windowoptiontabsetcframe.81	OFF
+pli_windowoptiontabsetcframe.82	Status List
+pli_windowoptiontabsetcframe.83	Lock the Status List window. While locked, you cannot make changes to the Status List or move the window.
 pli_windowoptiontabsetcframe.autohide_ssb	Lock Extra Skill Slot
 pli_windowoptiontabsetcframe.autohide_ssb_tp	Locks the extra skill slot.\nLocked skills cannot be removed from the window. Prevents window from being moved.
 pli_windowoptiontabsetcframe.l_ssb	Show Extra Skill Slot 1
@@ -7363,6 +7429,16 @@ pli_windowparty.11	Team Ready
 pli_windowparty.12	Party Board
 pli_windowparty.13	Start Mini-game
 pli_windowparty.14	Try matching all the cards within the time limit.\nDo you want to begin the game?
+pli_windowparty.15	너무 자주 이용할 수 없습니다. {0}초 이후 다시 시도해주세요.
+pli_windowparty.16	목적지가 없는 파티입니다.
+pli_windowparty.17	{0}{으로} 이동하시겠습니까?
+pli_windowparty.18	[거대한 외침의 뿔피리]를 보유하고 있지 않습니다.
+pli_windowparty.19	목적지 이동
+pli_windowparty.20	뿔피리 홍보
+pli_windowparty.21	파티 게시판 모집
+pli_windowparty.22	파티 게시판 모집중
+pli_windowparty.23	해당 파티는 목적지가 없어서 이용할 수 없습니다.
+pli_windowparty.24	파티 설정 변경
 pli_windowpartyboard.1	Party Board
 pli_windowpartyboard.2	Party Properties:
 pli_windowpartyboard.3	Party Goals:
@@ -7392,6 +7468,7 @@ pli_windowpartyboard.26	Current Channel
 pli_windowpartyboard.27	Ascending Order
 pli_windowpartyboard.28	Descending Order
 pli_windowpartyboard.29	Channel Info
+pli_windowpartyboard.30	검색어를 입력하세요.
 pli_windowpartyboardframe.1	Leader
 pli_windowpartyboardframe.2	Goals
 pli_windowpartyboardframe.3	Details
@@ -7408,6 +7485,14 @@ pli_windowpartyboardframe.13	You are already in a party.
 pli_windowpartyboardframe.14	It's {0}({1})'s party.\n \"{2}\"
 pli_windowpartyboardframe.15	Party Name
 pli_windowpartyboardframe.16	It's {0}({1})'s party.\n \"{2}\"\n{3}
+pli_windowpartyboardframe.17	목적
+pli_windowpartyboardframe.18	파티 목적 : {0}\n
+pli_windowpartyboardframe.19	세부 항목 : {0}\n
+pli_windowpartyboardframe.20	제한 없음
+pli_windowpartyboardframe.21	제한 사항 : {0}\n
+pli_windowpartyboardframe.22	(없음)
+pli_windowpartyboardframe.23	제한 없음
+pli_windowpartyboardframe.24	{0}({1})님의 파티입니다.\n \"{2}\"\n{3}{4}{5}
 pli_windowpartydetail.1	Party Join Confirmation
 pli_windowpartydetail.2	Password:
 pli_windowpartydetail.3	Join Party
@@ -7440,7 +7525,7 @@ pli_windowpersonalshoppanel.1	Personal Shop (Preparing)
 pli_windowpersonalshoppanel.2	Personal Shop (Opening)
 pli_windowpersonalshoppanel.3	Close Shop
 pli_windowpersonalshoppanel.4	Open Shop
-pli_windowpersonalshoppanel.5	Selected Item Price {0} Gold
+pli_windowpersonalshoppanel.5	Selected Item Price: {0} Gold
 pli_windowpersonalshoppocket.1	Price Info
 pli_windowpet.1	You cannot create any more tabs.
 pli_windowpet.2	The pet was added to the "{0}" tab.
@@ -7606,6 +7691,12 @@ pli_windowpopupcharacter.70	Details
 pli_windowpopupcharacter.71	View Skill
 pli_windowpopupcharacter.72	Enter Moonlight Island
 pli_windowpopupcharacter.73	Remove from Island
+pli_windowpopupcharacter.74	함께 앉기
+pli_windowpopupcharacter.75	파티 초대하기
+pli_windowpopupcharacter.76	기본 인터랙션 기능 켜기
+pli_windowpopupcharacter.77	기본 인터랙션 기능 끄기
+pli_windowpopupcharacter.78	앉을 자리가 없습니다.
+pli_windowpopupcharacter.79	현재 상대방이 접속 중이 아닙니다.
 pli_windowpopupitem.0	Change Direction
 pli_windowpopupitem.1	Set Rental Fee
 pli_windowpopupitem.2	Open Production Window
@@ -7673,7 +7764,7 @@ pli_windowpopupitem.63	Stardust Info
 pli_windowpopupitem.64	Reset
 pli_windowpopupitem.65	Additional Function Settings
 pli_windowpopupitem.66	Move all items to trash
-pli_windowpopupitem.67	Register Add-on Collection Category
+pli_windowpopupitem.67	Set Add-on Collection Category
 pli_windowpopupitem.68	스타더스트 위치 조정
 pli_windowpopupprop.0	Set Rental Fee
 pli_windowpopupprop.1	Change Direction
@@ -8068,6 +8159,7 @@ pli_windowskilldesc2.3	Advancement Training Method
 pli_windowskilldesc2.4	Perk Information
 pli_windowskilldesc2.5	Perk Explanation
 pli_windowskilldesc2.6	No effects have been applied.
+pli_windowskilldesc2.7	The 'Immediately Activate Skill on Target' setting is currently enabled.
 pli_windowskillframe2.1	<color=2>Learn Skill</color>
 pli_windowskillframe2.2	<color=2>Advance</color>
 pli_windowskillframe2.3	<color=2>Train</color>
@@ -8096,6 +8188,7 @@ pli_windowskilltabframe2.3	Crusader Lv: {0}
 pli_windowskilltabframe2.4	Points: {0}/{1}
 pli_windowskilltabframe2.5	Current Arcana Talent: {0}
 pli_windowskilltabframe2.6	Arcana Level: {0}
+pli_windowslavepocket.1	[악보 스크롤] 장착 해제 후 장비 변경이 가능합니다.
 pli_windowsmsauth.0	{0} 고객님은 인증 로그인 {1} 타입 서비스를 이용 중입니다.
 pli_windowsmsauth.1	마지막으로 접속한 IP는 {0} 입니다.
 pli_windowsmsauth.2	유효시간 {0} 안에 입력해주세요.
@@ -8302,7 +8395,7 @@ pli_windowtaskbaraction.23	Cannot be used while playing a Festia mini-game or at
 pli_windowtaskbaraction.24	You can't use that right now.
 pli_windowtaskbaraction.25	Shows the skills of summoned pets.
 pli_windowtaskbaraction.26	You must complete the tutorial first in order to proceed with Blaanid's Brave Boost.
-pli_windowtaskbaraction.27	Complete the "Brave Boost: A Blue Fragrance on the Wind" quest first.
+pli_windowtaskbaraction.27	Complete the "[Guide] Blaanid's Brave Boost" quest first.
 pli_windowtaskbaraction.28	You cannot use the Auction House from the country where you're currently logged in.
 pli_windowtaskbaraction.29	The VIP Remote {0} can be accessed <color=3><outlinecolor=4>{1} time(s)</outlinecolor></color> per in-game day.\nThis access is refreshed every day at <color=3><outlinecolor=4>6:00 AM (Erinn Time)</outlinecolor></color>.\nWould you like to access the Remote {0} now?\n\nRemaining Uses Today: <color=3><outlinecolor=4>{2} time(s)</outlinecolor></color>
 pli_windowtaskbaraction.30	You've used all of your Remote {0} access for today.
@@ -8365,6 +8458,8 @@ pli_windowtitle.18	Favorites can be added/removed by right-clicking.
 pli_windowtitle.19	Set Extra Equipment Slot Title
 pli_windowtitle.20	Base Title
 pli_windowtitle.21	Vanity Title
+pli_windowtooltip.1	Compact View (Alt)
+pli_windowtooltip.2	Detailed View (Alt)
 pli_windowtrade.1	Please make sure before trading any expensive items.
 pli_windowtrade.2	After trading this item, the number of allowable trades will decrease by 1.\nOnce the number of allowable trades reaches 0, you will no longer be able to trade this.\nDo you still wish to trade?
 pli_windowtrade.3	Notice

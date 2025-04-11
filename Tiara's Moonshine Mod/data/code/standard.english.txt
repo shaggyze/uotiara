@@ -947,6 +947,8 @@ pccarddescmgr.13	{0:Character Card Name} Bonus\n\n{1:Bonus Amount List}
 privatefarmdescmgr.1	<color={0}>{1} Set Effect\n
 privatefarmdescmgr.2	<color=3>Decoration Set</color>\n
 privatefarmdescmgr.3	Increase\n
+privatefarmdescmgr.4	{0} Set Effect
+privatefarmdescmgr.5	Decoration Set
 questresult.1	Royal Activity Points {0}
 questresult.2	Ducats {0}
 questresult.3	Crusader EXP {0}
@@ -980,6 +982,8 @@ setitemmgr.7	(Set effect activates upon reaching +10.)
 setitemmgr.8	Signet Effect Enhancement was successful, raising the Signet Effect's level to {0}.
 setitemmgr.9	Signet Effect Enhancement failed.
 setitemmgr.10	\n<color=3>Lv. {0}: {1}</color>\n
+setitemmgr.11	Bonus
+setitemmgr.12	{0} (Level {1})
 setparameter.1	{0} Degree
 setparameter.2	{0} Second(s)
 setparameter.3	{0} {1} Reforge
@@ -998,6 +1002,7 @@ setparameter.15	{0}\n(Level {1}/{2}: {3} {4})
 setparameter.16	{0}(Level {1})
 setparameter.17	{0}(Level {1}:{2} {3})
 setparameter.18	{0} Level {1}
+setparameter.19	{0} (Level {1}/{2})
 shapeshiftdescmgr.1	No Bonus
 shapeshiftdescmgr.2	HP
 shapeshiftdescmgr.3	MP

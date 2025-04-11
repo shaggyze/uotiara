@@ -2663,7 +2663,7 @@
 3185	An honorable title awarded to someone who has reached the highest level available in Life Drain.
 3186	Meet all the training requirements of Alchemy Mastery Rank 1 and you will receive a title to prove it.
 3187	Meet all the training requirements of Life Drain Rank 1 and you will receive a title to prove it.
-3190	Crystal Making Success Rate 3%\nWater/Fire/Wind/Earth Alchemy\nAlchemy Damage +10
+3190	Crystal Making Success Rate +3%\nWater/Fire/Wind/Earth\nAlchemic Damage +10
 3191	Weaving, Refining, Tailoring, Blacksmithing Success +2%
 3192	Max HP +50\nMax MP +20
 3193	a Shadow Expeditionary Force Member
@@ -4574,7 +4574,7 @@
 5552	This fancy 2nd title can be obtained from a title coupon. Can be used with regular titles.
 5553	This fancy 2nd title can be obtained from a title coupon. Can be used with regular titles.
 5554	This fancy 2nd title can be obtained from a title coupon. Can be used with regular titles.
-5556	Crystal Making Success Rate 5%\nWater/Fire/Wind/Earth Alchemy\nAlchemy Damage +10
+5556	Crystal Making Success Rate +5%\nWater/Fire/Wind/Earth\nAlchemic Damage +10
 5640	실장(미적용)
 5641	실장(미적용)
 5642	실장(미적용)
@@ -10772,12 +10772,12 @@
 12221	Max Damage +25\nMagic Attack +60\nCritical +20%\nCritical Damage +10%\nBonus Damage +5%\nStrength +100\nIntelligence +100\nDexterity +100\nWill +100\nLuck +100\nMax HP +400\nMax Stamina +400\nMax MP +400\nDefense +100\nProtection +20\nMagic Defense +100\nMagic Protection +40\nBaltane Mission Combat EXP +250%\n2x Skill Training EXP\nWhen defeating monsters as a party in a Shadow Mission, Drama Mission, or Dungeon, the title bearer will receive 2x EXP, while other party members will receive 1.5x EXP.
 12222	Max Damage +30\nMagic Attack +70\nCritical +25%\nCritical Damage +12%\nBonus Damage +7%\nStrength +130\nIntelligence +130\nDexterity +130\nWill +130\nLuck +130\nMax HP +400\nMax Stamina +400\nMax MP +400\nDefense +130\nProtection +20\nMagic Defense +100\nMagic Protection +40\nBaltane Mission Combat EXP +250%\n2x Skill Training EXP\nWhen defeating monsters as a party in a Shadow Mission, Drama Mission, or Dungeon, the title bearer will receive 2x EXP, while other party members will receive 1.5x EXP.
 12223	Max Damage +35\nMagic Attack +80\nCritical +30%\nCritical Damage +20%\nBonus Damage +10%\nStrength +150\nIntelligence +150\nDexterity +150\nWill +150\nLuck +150\nMax HP +500\nMax Stamina +500\nMax MP +500\nDefense +150\nProtection +30\nMagic Defense +120\nMagic Protection +50\nBaltane Mission Combat EXP +300%\n2x Skill Training EXP\nWhen defeating monsters as a party in a Shadow Mission, Drama Mission, or Dungeon, the title bearer will receive 2x EXP, while other party members will receive 1.5x EXP.
-12224	the Soul Streamer
-12225	the Soul Streamer
-12226	the Soul Streamer
-12227	the Soul Streamer
-12228	A title bestowed upon Soul Streamers
-12229	A title bestowed upon Soul Streamers
+12224	an Ascended Soul
+12225	an Ascended Soul
+12226	an Ascended Soul
+12227	an Ascended Soul
+12228	An honorable title bestowed upon those who once left their mark on Erinn through the retired Soul Streamer program. May you always adventure in good company!
+12229	An honorable title bestowed upon those who once left their mark on Erinn through the retired Soul Streamer program. May you always adventure in good company!
 12230	
 12231	Special Floral Fairy Walk
 12232	Floral Fairy Walk
@@ -13655,7 +13655,7 @@
 15118	STR +10\nDEX +20\n[WILL - 20]
 15119	STR +20\nINT +20
 15120	Max Damage +15
-15121	Crystal Making Success Rate +3%\nWater/Fire/Wind/Earth Alchemy\nAlchemy Damage +10
+15121	Crystal Making Success Rate +3%\nWater/Fire/Wind/Earth\nAlchemic Damage +10
 15122	Max HP +50\nMax MP +20
 15123	M. ATT +20\nMax MP +20
 15124	Max Mana +40\nHealing Effect Wounds Healed Up To 10%\nHealing Effect +20%\n[STR - 10]\n[Will - 10]
@@ -14783,6 +14783,13 @@
 16358	Luck +30
 16359	Luck +30
 16360	Luck +30
+16368	여의주를 품은 청룡
+16369	여의주를 품은 청룡
+16370	여의주를 품은 청룡
+16371	여의주를 품은 청룡
+16372	2024 청룡의 해를 기념하여 밀레시안에게 지급되는 2차 타이틀. 기간이 만료되면 옵션 효과는 사라지지만 지속적으로 장착 및 소장이 가능하다. (기간 연장 불가능)
+16373	2024 청룡의 해를 기념하여 밀레시안에게 지급되는 2차 타이틀. 기간이 만료되면 옵션 효과는 사라지지만 지속적으로 장착 및 소장이 가능하다. (기간 연장 불가능)
+16374	최대 대미지 25 증가\n마법 공격력 40 증가\n물 / 불 / 바람 / 흙 속성 연금술 대미지 15 증가
 16389	안전한 에린 지킴이
 16390	안전한 에린 지킴이
 16391	안전한 에린 지킴이
@@ -14895,13 +14902,13 @@
 16526	19주년을 축하하는 특별한 날을 함께한 사람에게 주어지는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 16527	19주년을 축하하는 특별한 날을 함께한 사람에게 주어지는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 16528	최대 대미지 19 증가\n마법 공격력 19 증가\n물 / 불 / 바람 / 흙 속성\n연금술 대미지 13 증가\n체력 19 증가\n지력 19 증가\n솜씨 19 증가\n의지 19 증가\n행운 19 증가\n이동 속도 1% 증가
-16536	화사한 봄의 절경
-16537	화사한 봄의 절경
-16538	화사한 봄의 절경
-16539	화사한 봄의 절경
-16540	2024 두근두근 아일랜드 이벤트 진행 시 지급되는 매력적인 2차 타이틀이다.다른 일반 타이틀과 함께 사용할 수 있다.
-16541	2024 두근두근 아일랜드 이벤트 진행 시 지급되는 매력적인 2차 타이틀이다.다른 일반 타이틀과 함께 사용할 수 있다.
-16542	최대 대미지 28 증가\n마법 공격력 44 증가
+16536	A Song of Spring
+16537	A Song of Spring
+16538	A Song of Spring
+16539	A Song of Spring
+16540	A special 2nd title bestowed upon those who opened their hearts to the 2025 Doki Doki Island event. Can be used with regular titles.
+16541	A special 2nd title bestowed upon those who opened their hearts to the 2025 Doki Doki Island event. Can be used with regular titles.
+16542	Max Damage +28\nMagic Attack +44
 16543	the Aspiring Guide of Starlight
 16544	the Aspiring Guide of Starlight
 16545	the Aspiring Guide of Starlight
@@ -14979,13 +14986,13 @@
 16617	Movement Speed +1%
 16618	Magic Attack +50
 16619	Intelligence +20\nLuck +10\nDexterity +20
-16620	따스한 사랑으로 가득한
-16621	따스한 사랑으로 가득한
-16622	따스한 사랑으로 가득한
-16623	따스한 사랑으로 가득한
-16624	다양한 연인들과 인연을 맺고, 따스한 사랑으로 도움을 건넨 밀레시안에게 주어지는 타이틀.
-16625	다양한 연인들과 인연을 맺고, 따스한 사랑으로 도움을 건넨 밀레시안에게 주어지는 타이틀.
-16626	행운 30 증가
+16620	the Hopeless Romantic
+16621	the Hopeless Romantic
+16622	the Hopeless Romantic
+16623	the Hopeless Romantic
+16624	A title given to Milletians who met many couples and lent a helping hand to true love.
+16625	A title given to Milletians who met many couples and lent a helping hand to true love.
+16626	Luck +30
 16634	마스터 크리에이터즈
 16635	마스터 크리에이터즈
 16636	마스터 크리에이터즈
@@ -15119,6 +15126,34 @@
 16799	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
 16800	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
 16801	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
+16802	드림우드 플라워
+16803	드림우드 버터플라이
+16804	스페셜 드림우드 플라워
+16805	스페셜 드림우드 버터플라이
+16806	드림우드 플라워
+16807	드림우드 버터플라이
+16808	스페셜 드림우드 플라워
+16809	스페셜 드림우드 버터플라이
+16810	드림우드 플라워
+16811	드림우드 버터플라이
+16812	스페셜 드림우드 플라워
+16813	스페셜 드림우드 버터플라이
+16814	드림우드 플라워
+16815	드림우드 버터플라이
+16816	스페셜 드림우드 플라워
+16817	스페셜 드림우드 버터플라이
+16818	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16819	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16820	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16821	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16822	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16823	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16824	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16825	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16826	행운 30 증가
+16827	행운 30 증가
+16828	음악 버프 스킬 효과 12 증가
+16829	파이어볼트 최대 대미지 20 증가\n볼트 마법 대미지 15% 증가\n볼트 마법 조합 대미지 5% 증가\n최대 마나 50 증가\n마법 공격력 20 증가\n마법 시전속도 5% 증가
 16830	17th Anniversary Fantasy Star
 16831	17th Anniversary Fantasy Star
 16832	17th Anniversary Fantasy Star
@@ -15315,13 +15350,13 @@
 17135	A title for those who choose Fate Astrology as their first active Talent. This title can no longer be used when you are not a beginner.
 17136	A title for those who choose Fate Astrology as their first active Talent. This title can no longer be used when you are not a beginner.
 17137	Magic Attack +15\nMax MP +20\nMax HP +20
-17145	Erinn Adventure Pass Season 1 Challenger
-17146	Erinn Adventure Pass Season 1 Challenger
-17147	Erinn Adventure Pass Season 1 Challenger
-17148	Erinn Adventure Pass Season 1 Challenger
-17149	A title given to Milletians who signed up for the Erinn Adventure Pass during Season 1.
-17150	A title given to Milletians who signed up for the Erinn Adventure Pass during Season 1.
-17151	All Skill Training 2x EXP\nCombat 2x EXP\nGathering Success Rate +5%\nGathering Speed +5\nMovement Speed +1%\nIncreased Automatic Fishing Success Rate\nBonus Ducats +5%\n Production Success Rate +5%
+17145	Erinn Adventure Pass Challenger
+17146	Erinn Adventure Pass Challenger
+17147	Erinn Adventure Pass Challenger
+17148	Erinn Adventure Pass Challenger
+17149	A title given to Milletians who signed up for the Erinn Adventure Pass and strove for adventure.
+17150	A title given to Milletians who signed up for the Erinn Adventure Pass and strove for adventure.
+17151	All Skill Training 2x EXP\nCombat 2x EXP\nGathering Success Rate +5%\nGathering Speed +5\nMovement Speed +1%\nIncreased Automatic Fishing Success Rate\nBonus Ducats +5%\nProduction Success Rate +5%
 17152	콩싹이
 17153	콩싹이
 17154	콩싹이
@@ -15560,6 +15595,13 @@
 17569	행운 30 증가
 17570	행운 30 증가
 17571	행운 30 증가
+17649	Erinn Adventure Pass Season 2 Conqueror
+17650	Erinn Adventure Pass Season 2 Conqueror
+17651	Erinn Adventure Pass Season 2 Conqueror
+17652	Erinn Adventure Pass Season 2 Conqueror
+17653	A title given to Milletians who completed their Erinn Adventure Pass during Season 2.
+17654	A title given to Milletians who completed their Erinn Adventure Pass during Season 2.
+17655	Max Damage +35\nMagic Attack +45\nCritical +8%\nMusic Buff Effect +5\nDefense +10\nProtection +8\nMagic Defense +10\nMagic Protection +8\nWater/Fire/Wind/Earth Alchemic Damage +14
 17656	순수한 스포트라이트
 17657	잔혹한 스포트라이트
 17658	활기찬 스포트라이트
@@ -15651,3 +15693,10 @@
 17772	A title received by taking part in the 17th Anniversary GM event.
 17773	A title received by taking part in the 17th Anniversary GM event.
 17774	
+17859	청아한 봄의 절경
+17860	청아한 봄의 절경
+17861	청아한 봄의 절경
+17862	청아한 봄의 절경
+17863	2025 두근두근 아일랜드 이벤트 진행 시 지급되는 매력적인 2차 타이틀이다.다른 일반 타이틀과 함께 사용할 수 있다.
+17864	2025 두근두근 아일랜드 이벤트 진행 시 지급되는 매력적인 2차 타이틀이다.다른 일반 타이틀과 함께 사용할 수 있다.
+17865	최대 대미지 28 증가\n마법 공격력 44 증가

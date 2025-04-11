@@ -4643,8 +4643,8 @@
 6729	A powerful spell that has a chance of activating when a Cwn Annwn's master suffers a knockout blow. The hound's enchantment protects itself and its master and veils both from sight.
 6730	The Cwn Annwn braces itself and lets loose a wild howl. The power of this howl surges forth in bursts for a fixed duration, cursing enemies within range while blessing the hound and its master.
 6731	The Cwn Annwn rakes its claws through the air, stirring up a wind that sweeps away enemies in the space before it. The same act simultaneously creates a barrier that shields the hound and its master, reducing damage and bolstering the Veil of Mystique.\n\nThis effect disappears when Veil of Mystique's effect is activated.
-6732	모던 낭만 비행
-6733	둘도 없는 인연을 만들고 받은 선물. 몸에 뿌려진 출처를 알 수 없는 마법의 가루는 원할 때 마다 몸 전체에 감돌며 하늘에서의 자유를 느낄 수 있게 해준다. 남의 도움을 받거나 누군가에 의지하는 것이 아니라, 스스로의 의지로 자유롭게 하늘을 누비는 기분을 마음껏 만끽 해보자.\n날고 있는 상태에서 상대방을 우클릭 하면 나타나는 날기 요청 메뉴를 이용하여 상대방이 승낙 하면 함께 나란히 하늘을 날아다닐 수 있다. 보다 로맨틱한 느낌으로 상대방의 손을 잡고 허공으로 이끌 수 있다. 친구, 연인과 함께 자유롭게 날아보자.
+6732	Harmonious \nCouple's Flight
+6733	A skill born from the heartfelt bond shared with your special someone. A light dusting of magical matchmaking powder is enough to make your body light as air, letting you take to the skies of Erinn and soar wherever your heart desires.\n\nYou can also right-click on others to request that they Fly Together with you. Enjoy the thrill of flight with your sweetheart, or share the benefit with a friend!
 6734	Polyphonic Melody
 6735	A skill that draws on sacred power to layer two different pieces of music, making them sound like parts of a single composition. Achieving this blended harmony requires a deep understanding of the songs being performed, as well as the ability to make minute adjustments to balance the two songs. This level of control is necessary, lest minor errors compound, turning harmony to dissonance.
 6736	Roar
@@ -4739,6 +4739,9 @@
 6825	Improves crafting know-how commonly associated with almost all production skills, excluding cooking and enchants.
 6826	The act of creation involves selecting materials and assembling them to bring your idea to life. Studying the relationships between materials and pondering the many ways in which they can be combined to produce the desired results is an exercise in patience and perseverance, which leads to the development of stamina. Production Mastery allows the creator's imagination to take shape and be fully realized through the labor of their own hands. The joy of creation and the satisfaction of turning concepts into reality is the driving force behind Production Mastery. (The Cooking, Enchanting, Pet Training, Glyphwright, and Astrology Talents are not affected by this skill.)
 6827	Talk to Alissa in Tir Chonaill with the Skills keyword.\n\nOr, during the tutorial, undertake the 'Production Mastery' quest or the 'Red Sand Scorpion Venom Sac' quest.
+6828	Pet Parade
+6829	A special action that summons all of a pet's friends. It can't be used if no pet is currently summoned, or if the summoned pet has no friends. Pets need friends too!
+6830	A special action that summons all of a pet's friends. It can't be used if no pet is currently summoned, or if the summoned pet has no friends. Pets need friends too!
 6832	과일 저글링
 6833	특별한 포즈를 짓게 되는 액션이다. 흥미로운 모습을 보여주는 포즈를 지어보자.
 6834	특별한 포즈를 짓게 되는 액션이다. 흥미로운 모습을 보여주는 포즈를 지어보자.
