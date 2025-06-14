@@ -8199,3 +8199,8 @@
 10037	Receivable Quest Board
 10038	Part-Time Job Bulletin Board
 10039	*Frieren Personal Shop Bag
+10040	Iron Ore
+10041	Copper Ore
+10042	Silver Ore
+10043	Gold Ore
+10044	Mythril Ore

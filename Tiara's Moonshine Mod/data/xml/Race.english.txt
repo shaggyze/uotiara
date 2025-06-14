@@ -4012,8 +4012,8 @@
 5336	Akule
 5337	Cessair
 5338	Glowing Stone Gargoyle
-5339	Blue Phoenix
-5340	White Phoenix
+5339	Cerulean Phoenix
+5340	Mistborn Phoenix
 5341	Dragon Eater
 5342	Dragon Eater
 5343	Dragon Eater
@@ -4067,8 +4067,8 @@
 5396	Cor Villager
 5397	Korsek Raptor
 5398	Unknown Man
-5399	White Phoenix (Limited Duration)
-5400	Blue Phoenix (Limited Duration)
+5399	Mistborn Phoenix (Limited Duration)
+5400	Cerulean Phoenix (Limited Duration)
 5401	White Dragon
 5402	White Dragon
 5407	Giant Guard
@@ -9608,14 +9608,14 @@
 11866	Perspicacious Siamese Purrling
 11867	Perspicacious Siamese Purrling
 11868	Elegant Riding Crop
-11869	[Guild] Dog Sled
-11870	[Guild] Camel
-11871	[Guild] Trader's Skiff
-11872	[Guild] Dog Sled
-11873	[Guild][Partner] Dog Sled
-11874	[Guild][Partner] Camel
-11875	[Guild][Partner] Trader's Skiff
-11876	[Guild][Partner] Dog Sled
+11869	[G] Dog Sled
+11870	[G] Camel
+11871	[G] Trader's Skiff
+11872	[G] Dog Sled
+11873	[G][P] Dog Sled
+11874	[G][P] Camel
+11875	[G][P] Trader's Skiff
+11876	[G][P] Dog Sled
 11877	Location of Suspicious Monolith Discovery
 11878	매
 11879	수리부엉이
@@ -9828,6 +9828,14 @@
 12150	Mercenary
 12151	Mercenary
 12152	Mercenary
+12153	Rainy Day Duckling Doll
+12154	Rainy Day Gosling Doll
+12155	Dorren Doll
+12156	Eabha Doll
+12157	Brenda Doll
+12158	Pierrick Doll
+12159	Rainy Day Duckling Premium Doll
+12160	Rainy Day Gosling Premium Doll
 12161	Goblin
 12162	Poison Goblin
 12163	Goblin Archer
@@ -9972,7 +9980,7 @@
 12304	Abominable Rabbit
 12305	Gwyllgi
 12306	Fuathic Feather
-12307	장군청룡
+12307	Marshal Blue Dragon
 12308	Delga
 12309	Blue Poisonous Snake
 12310	White Poisonous Snake
@@ -10105,7 +10113,7 @@
 12449	Unfinished Reverie
 12450	The Winter Tyrant
 12451	Whisper of Unending Winter
-12454	별빛 페어리 드래곤
+12454	Starlight Red Fairy Dragon
 12455	Rockstar Scooter Imp
 12462	Campfire
 12463	Cwn Annwn
@@ -10115,6 +10123,8 @@
 12468	Sheriff Warrior Corgi
 12469	Mariachi Wizard Corgi
 12470	Mariachi Wizard Corgi
+12471	Formal Red Fairy Dragon
+12472	Frostblossom Blue Fairy Dragon
 12473	Helionic Wolf
 12474	Selenian Cat
 12475	White Spider
@@ -10133,10 +10143,10 @@
 12488	Reno
 12489	Vay
 12490	Tion
-12492	디나시
-12493	애교부릴꺼양
-12494	심연의 하데스
-12495	스쿠터
+12492	Fallen Fairy
+12493	Cutie Sheep
+12494	Abyss Dragon
+12495	Scooter
 12496	Neal
 12497	Delaney
 12498	Booksprite
@@ -10180,24 +10190,37 @@
 12559	Stark
 12560	Stark
 12561	Stark
+12562	Tabby Purrling
+12563	Tabby Purrling
+12564	Siamese Purrling
+12565	Siamese Purrling
 12574	Frieren Doll
 12575	Fern Doll
 12576	Stark Doll
 12577	Himmel Doll
 12578	Übel Doll
 12579	Serie Doll
+12582	Saber X (Event)
+12583	Mart Kart (Event)
+12584	Lodi Infernal (Event)
+12585	White Knight X (Event)
+12586	Dark Knight X (Event)
+12587	Practice Kart (Event)
+12588	이올라
+12589	이올라
+12593	Mouse Click Guide
 12594	Stark
 12595	Stark
 12596	Stark
 12597	Antique Mimic
 12598	빛고래(크리에이터)
-12604	베이비 서큐버스
-12605	베이비 서큐버스
-12606	베이비 서큐버스
-12607	베이비 서큐버스
-12608	추종자
-12609	어둠의 추종자
-12610	베이비 서큐버스
+12604	Succubus Fiend
+12605	Succubus Fiend
+12606	Succubus Fiend
+12607	Succubus Fiend
+12608	Disciple
+12609	Dark Disciple
+12610	Succubus Fiend
 12616	Cailleach
 12617	Cailleach
 12618	Cailleach
@@ -10272,6 +10295,7 @@
 12687	Giga Glas Ghaibhleann
 12688	Irusan
 12689	Irusan
+12694	목제 마차
 12695	Succubus Queen
 12696	Succubus Queen
 12697	Skelemancer
@@ -10284,15 +10308,235 @@
 12704	Giga Glas Ghaibhleann
 12705	Irusan
 12706	Irusan
+12707	Rudolph Pony
+12708	Heart Jack
+12709	Santa Phoenix
 12710	Statue of Someone
+12711	이올라
+12712	캐러반 조
+12713	캐러반 조
+12714	캐러반 조
+12715	좀 싸울 줄 아는 캐러반 조
+12716	마법사 캐러반 조
+12717	이올라
+12719	살찐 왕성 쥐
+12720	고블린
+12721	포이즌고블린
+12724	마테우스
+12725	마테우스
 12728	무등고래
+12743	견습 약탈자 고블린
+12744	견습 약탈자 고블린아처
+12745	견습 약탈자 임프
+12746	견습 약탈자 인간
+12747	견습 약탈자 자이언트
+12748	견습 약탈단 두목
+12749	견습 약탈단 두목
+12750	약탈자 고블린 파이널히트
+12751	약탈자 고블린 애로우리볼버
+12752	약탈자 고블린 미라지미사일
+12753	약탈자 고블린 크래시샷
+12754	약탈자 자이언트 랜스
+12755	약탈자 자이언트 던지기공격
+12756	약탈자 임프 썬더
+12757	약탈자 임프 파이어볼
+12758	약탈자 임프 아이스스피어
+12759	약탈자 인간 다운 어택
+12760	약탈자 인간 프로즌 블래스트
+12761	약탈자 인간 플레이머
+12762	약탈자 인간 라이프 드레인
+12763	약탈자 오거 내츄럴실드
+12764	약탈자 오거 헤비스탠더
+12765	약탈자 오거 마나리플렉터
+12766	2년차 약탈자 고블린
+12767	2년차 약탈자 고블린아처
+12768	2년차 약탈자 임프
+12769	2년차 약탈자 인간
+12770	2년차 약탈자 자이언트
+12771	2년차 약탈단 두목
+12772	2년차 약탈단 두목
+12773	알만한 약탈자 고블린
+12774	알만한 약탈자 고블린아처
+12775	알만한 약탈자 임프
+12776	알만한 약탈자 인간
+12777	알만한 약탈자 자이언트
+12778	알만한 약탈단 두목
+12779	알만한 약탈단 두목
+12780	베테랑 약탈자 고블린
+12781	베테랑 약탈자 고블린아처
+12782	베테랑 약탈자 임프
+12783	베테랑 약탈자 인간
+12784	베테랑 약탈자 자이언트
+12785	베테랑 약탈단 두목
+12786	베테랑 약탈단 두목
+12787	일류 약탈자 고블린
+12788	일류 약탈자 고블린아처
+12789	일류 약탈자 임프
+12790	일류 약탈자 인간
+12791	일류 약탈자 자이언트
+12792	일류 약탈단 두목
+12793	일류 약탈단 두목
+12794	서투른 와이번 용병
+12795	약한 와이번 용병
+12796	와이번 용병
+12797	미숙한 와이번 용병
+12798	등외 와이번 용병
+12799	정규직 와이번 용병
+12800	견습 와이번 용병
+12801	왜소한 와이번 용병
+12802	체격좋은 와이번 용병
+12803	파이어 와이번
+12804	파이어 와이번
+12805	파이어 와이번
+12806	어리숙한 레드 드래곤
+12807	서투른 상단 약탈자 인간
+12808	견습 상단 약탈자 엘프
+12809	견습 상단 약탈자 엘프
+12810	견습 상단 약탈자 인간
+12811	견습 상단 약탈자 자이언트
+12812	견습 상단 약탈단 두목
+12813	견습 상단 약탈단 두목
+12814	견습 상단 약탈단 두목
+12815	2년차 상단 약탈자 엘프
+12816	2년차 상단 약탈자 엘프
+12817	2년차 상단 약탈자 인간
+12818	2년차 상단 약탈자 자이언트
+12819	2년차 상단 약탈단 두목
+12820	2년차 상단 약탈단 두목
+12821	2년차 상단 약탈단 두목
+12822	알만한 상단 약탈자 엘프
+12823	알만한 상단 약탈자 엘프
+12824	알만한 상단 약탈자 인간
+12825	알만한 상단 약탈자 자이언트
+12826	알만한 상단 약탈단 두목
+12827	알만한 상단 약탈단 두목
+12828	알만한 상단 약탈단 두목
+12829	베테랑 상단 약탈자 엘프
+12830	베테랑 상단 약탈자 엘프
+12831	베테랑 상단 약탈자 인간
+12832	베테랑 상단 약탈자 자이언트
+12833	베테랑 상단 약탈단 두목
+12834	베테랑 상단 약탈단 두목
+12835	베테랑 상단 약탈단 두목
+12836	일류 상단 약탈자 엘프
+12837	일류 상단 약탈자 엘프
+12838	일류 상단 약탈자 인간
+12839	일류 상단 약탈자 자이언트
+12840	일류 상단 약탈단 두목
+12841	일류 상단 약탈단 두목
+12842	일류 상단 약탈단 두목
+12843	3년차 서투른 와이번 용병
+12844	3년차 약한 와이번 용병
+12845	3년차 와이번 용병
+12846	3년차 미숙한 와이번 용병
+12847	3년차 등외 와이번 용병
+12848	3년차 정규직 와이번 용병
+12849	3년차 견습 와이번 용병
+12850	3년차 왜소한 와이번 용병
+12851	3년차 체격좋은 와이번 용병
+12852	5년차 서투른 와이번 용병
+12853	5년차 약한 와이번 용병
+12854	5년차 와이번 용병
+12855	5년차 미숙한 와이번 용병
+12856	5년차 등외 와이번 용병
+12857	5년차 정규직 와이번 용병
+12858	5년차 견습 와이번 용병
+12859	5년차 왜소한 와이번 용병
+12860	5년차 체격좋은 와이번 용병
+12861	소품쓴 약탈자 엘프
+12862	소품쓴 약탈자 인간
+12863	소품쓴 약탈자 자이언트
+12864	소품쓴 약탈단 두목
+12865	서투른 약탈자 인간
+12866	견습 약탈자 엘프
+12867	견습 약탈자 엘프
+12868	견습 약탈자 인간
+12869	견습 약탈자 자이언트
+12870	견습 약탈단 두목
+12871	견습 약탈단 두목
+12872	견습 약탈단 두목
+12873	2년차 약탈자 엘프
+12874	2년차 약탈자 엘프
+12875	2년차 약탈자 인간
+12876	2년차 약탈자 자이언트
+12877	2년차 약탈단 두목
+12878	2년차 약탈단 두목
+12879	2년차 약탈단 두목
+12880	알만한 약탈자 엘프
+12881	알만한 약탈자 엘프
+12882	알만한 약탈자 인간
+12883	알만한 약탈자 자이언트
+12884	알만한 약탈단 두목
+12885	알만한 약탈단 두목
+12886	알만한 약탈단 두목
+12887	베테랑 약탈자 엘프
+12888	베테랑 약탈자 엘프
+12889	베테랑 약탈자 인간
+12890	베테랑 약탈자 자이언트
+12891	베테랑 약탈단 두목
+12892	베테랑 약탈단 두목
+12893	베테랑 약탈단 두목
+12894	일류 약탈자 엘프
+12895	일류 약탈자 엘프
+12896	일류 약탈자 인간
+12897	일류 약탈자 자이언트
+12898	일류 약탈단 두목
+12899	일류 약탈단 두목
+12900	일류 약탈단 두목
+12901	베테랑 약탈자 엘프
+12902	베테랑 약탈자 엘프
+12903	베테랑 약탈자 인간
+12904	베테랑 약탈자 자이언트
+12905	일류 약탈자 엘프
+12906	일류 약탈자 엘프
+12907	일류 약탈자 인간
+12908	일류 약탈자 자이언트
+12909	블랙 드래곤
+12910	화이트 드래곤
+12911	거대 사자
+12912	거대 악어
+12913	평원 드래곤
+12914	사막 드래곤
+12915	레드 드래곤
+12916	예티
+12917	매머드
+12918	이프리트
+12919	거대 샌드웜
+12920	모쿠르칼피
+12921	실반 드래곤
 12929	번개의 카트시
-12964	파트너 [라그린네]
+12953	암살자
+12954	암살자
+12955	암살자
+12956	자이언트 암살자
+12957	자이언트 암살자
+12964	Laighlinne Partner
+12970	암살자
+12971	암살자
+12972	암살자
 12975	Blazing Catsidhe
 12976	화염의 카트시
 12977	Dazzling Catsidhe
 12978	청명의 카트시
+12988	Pony Pinata
+12989	Scented Bear Pinata
+12990	Irusan Pinata
+12992	White Dragon
+12993	Bike
+12994	Bike
+12995	Wizard Corgi (Event)
+12996	Wizard Corgi (Event)
+12997	Iria Treasure Map
+12998	플라잉 토끼 인형
+12999	플라잉 사막여우 인형
+13000	플라잉 곰돌이 인형
 13001	꽃 머리띠 솜사탕 양
 13002	꽃 머리띠 고양이
+13003	Pony Pinata
 13004	
 13005	
+13006	Pony Pinata
+13007	Scented Bear Pinata
+13008	Irusan Pinata
+13017	워리어 코기(이벤트용)
+13018	워리어 코기(이벤트용)

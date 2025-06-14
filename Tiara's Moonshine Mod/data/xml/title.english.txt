@@ -2687,8 +2687,8 @@
 3222	an Erinn Expeditionary Force Member
 3223	an Erinn Expeditionary Force Member
 3224	an Erinn Expeditionary Force Member
-3225	A unique title given only to members of your guild. Your guild master can personally create a title during the event. 
-3226	A unique title given only to members of your guild. Your guild master can personally create a title during the event. 
+3225	A unique title available only to members of your guild. Your Guild Leader can create or change this title during special events.
+3226	A unique title available only to members of your guild. Your Guild Leader can create or change this title during special events.
 3227	the Master of Magic
 3228	the Master of Magic
 3229	the Master of Magic
@@ -4920,42 +4920,42 @@
 6025	This fancy 2nd title can be obtained from a title coupon. Can be used with regular titles.
 6026	This fancy 2nd title can be obtained from a title coupon. Can be used with regular titles.
 6027	Magic Attack +24\nBolt Magic Damage +5%
-6028	A title for those who choose Adventure as their active Talent. This title can no longer be used when you are no longer a beginner.
-6029	A title for those who choose Close Combat as their active Talent. This title can no longer be used when you are no longer a beginner.
-6030	A title for those who choose Magic as their active Talent. This title can no longer be used when you are no longer a beginner.
-6031	A title for those who choose Archery as their active Talent. This title can no longer be used when you are no longer a beginner.
-6032	A title for those who choose Mercantile as their active Talent. This title can no longer be used when you are no longer a beginner.
-6033	A title for those who choose Battle Alchemy as their active Talent. This title can no longer be used when you are no longer a beginner.
-6034	A title for those who choose Martial Arts as their active Talent. This title can no longer be used when you are no longer a beginner.
-6035	A title for those who choose Music as their active Talent. This title can no longer be used when you are no longer a beginner.
-6036	A title for those who choose Puppetry as their active Talent. This title can no longer be used when you are no longer a beginner.
-6037	A title for those who choose Lance Combat as their active Talent. This title can no longer be used when you are no longer a beginner.
-6038	A title for those who choose Holy Arts as their active Talent. This title can no longer be used when you are no longer a beginner.
-6039	A title for those who choose Transmutation as their active Talent. This title can no longer be used when you are no longer a beginner.
-6040	A title for those who choose Cooking as their active Talent. This title can no longer be used when you are no longer a beginner.
-6041	A title for those who choose Smithing as their active Talent. This title can no longer be used when you are no longer a beginner.
-6042	A title for those who choose Tailoring as their active Talent. This title can no longer be used when you are no longer a beginner.
-6043	A title for those who choose Medicine as their active Talent. This title can no longer be used when you are no longer a beginner.
-6044	A title for those who choose Carpentry as their active Talent. This title can no longer be used when you are no longer a beginner.
-6045	A title for those who choose Gunslinger as their active Talent. This title can no longer be used when you are no longer a beginner.
-6046	A title for those who choose Adventure as their active Talent. This title can no longer be used when you are no longer a beginner.
-6047	A title for those who choose Close Combat as their active Talent. This title can no longer be used when you are no longer a beginner.
-6048	A title for those who choose Magic as their active Talent. This title can no longer be used when you are no longer a beginner.
-6049	A title for those who choose Archery as their active Talent. This title can no longer be used when you are no longer a beginner.
-6050	A title for those who choose Mercantile as their active Talent. This title can no longer be used when you are no longer a beginner.
-6051	A title for those who choose Battle Alchemy as their active Talent. This title can no longer be used when you are no longer a beginner.
-6052	A title for those who choose Martial Arts as their active Talent. This title can no longer be used when you are no longer a beginner.
-6053	A title for those who choose Music as their active Talent. This title can no longer be used when you are no longer a beginner.
-6054	A title for those who choose Puppetry as their active Talent. This title can no longer be used when you are no longer a beginner.
-6055	A title for those who choose Lance Combat as their active Talent. This title can no longer be used when you are no longer a beginner.
-6056	A title for those who choose Holy Arts as their active Talent. This title can no longer be used when you are no longer a beginner.
-6057	A title for those who choose Transmutation as their active Talent. This title can no longer be used when you are no longer a beginner.
-6058	A title for those who choose Cooking as their active Talent. This title can no longer be used when you are no longer a beginner.
-6059	A title for those who choose Smithing as their active Talent. This title can no longer be used when you are no longer a beginner.
-6060	A title for those who choose Tailoring as their active Talent. This title can no longer be used when you are no longer a beginner.
-6061	A title for those who choose Medicine as their active Talent. This title can no longer be used when you are no longer a beginner.
-6062	A title for those who choose Carpentry as their active Talent. This title can no longer be used when you are no longer a beginner.
-6063	A title for those who choose Dual Gunner as their active Talent. This title can no longer be used when you are no longer a beginner.
+6028	A title given to those who choose Adventure as their active Talent.
+6029	A title given to those who choose Close Combat as their active Talent.
+6030	A title given to those who choose Magic as their active Talent.
+6031	A title given to those who choose Archery as their active Talent.
+6032	A title given to those who choose Merchantry as their active Talent.
+6033	A title given to those who choose Battle Alchemy as their active Talent.
+6034	A title given to those who choose Martial Arts as their active Talent.
+6035	A title given to those who choose Music as their active Talent.
+6036	A title given to those who choose Puppetry as their active Talent.
+6037	A title given to those who choose Lance Combat as their active Talent.
+6038	A title given to those who choose Holy Arts as their active Talent.
+6039	A title given to those who choose Transmutation as their active Talent.
+6040	A title given to those who choose Cooking as their active Talent.
+6041	A title given to those who choose Smithing as their active Talent.
+6042	A title given to those who choose Tailoring as their active Talent.
+6043	A title given to those who choose Medicine as their active Talent.
+6044	A title given to those who choose Carpentry as their active Talent.
+6045	A title given to those who choose Gunslinger as their active Talent.
+6046	A title given to those who choose Adventure as their active Talent.
+6047	A title given to those who choose Close Combat as their active Talent.
+6048	A title given to those who choose Magic as their active Talent.
+6049	A title given to those who choose Archery as their active Talent.
+6050	A title given to those who choose Merchantry as their active Talent.
+6051	A title given to those who choose Battle Alchemy as their active Talent.
+6052	A title given to those who choose Martial Arts as their active Talent.
+6053	A title given to those who choose Music as their active Talent.
+6054	A title given to those who choose Puppetry as their active Talent.
+6055	A title given to those who choose Lance Combat as their active Talent.
+6056	A title given to those who choose Holy Arts as their active Talent.
+6057	A title given to those who choose Transmutation as their active Talent.
+6058	A title given to those who choose Cooking as their active Talent.
+6059	A title given to those who choose Smithing as their active Talent.
+6060	A title given to those who choose Tailoring as their active Talent.
+6061	A title given to those who choose Medicine as their active Talent.
+6062	A title given to those who choose Carpentry as their active Talent.
+6063	A title given to those who choose Dual Gunner as their active Talent.
 6064	던전 앤 파이터
 6065	던전 앤 파이터
 6066	던전 앤 파이터
@@ -5937,7 +5937,7 @@
 7157	the Master of Explosive Kunai
 7158	the Master of Smokescreen
 7159	the Master of Sakura Abyss
-7160	A title for those who choose Ninja as their active Talent. This title can no longer be used when you are no longer a beginner.
+7160	A title given to those who choose Ninja as their active Talent.
 7161	An honorable title awarded to someone who has reached the highest level available in Shuriken Mastery.
 7162	An honorable title awarded to someone who has reached the highest level available in Shuriken Charge.
 7163	An honorable title awarded to someone who has reached the highest level available in Kunai Storm.
@@ -5946,7 +5946,7 @@
 7166	An honorable title awarded to someone who has reached the highest level available in Explosive Kunai.
 7167	An honorable title awarded to someone who has reached the highest level available in Smokescreen.
 7168	An honorable title awarded to someone who has reached the highest level available in Sakura Abyss.
-7169	A title for those who choose Ninja as their active Talent. This title can no longer be used when you are no longer a beginner.
+7169	A title given to those who choose Ninja as their active Talent.
 7170	Complete your training and become a master of Shuriken Mastery.
 7171	Complete your training and become a master of Shuriken Charge.
 7172	Complete your training and become a master of Kunai Storm.
@@ -6244,7 +6244,7 @@
 7478	Halloween Trickster
 7479	Halloween Trickster
 7480	Halloween Trickster
-7481	A special title to celebrate Halloween 2015. If you use this title, you will receive special effects when you use the Festival Food, Windmill, Meteor Strike, Song, Crash Shot, or Rest skills.
+7481	A special title to celebrate Halloween 2015. If you have this title equipped, you'll see special seasonal effects when using the Windmill, Meteor Strike, Songs, Crash Shot, and Rest skills, and when serving Catering dishes.
 7482	A special title to celebrate the 2015 Halloween party. This title can be used in conjunction with other titles.
 7483	Magic Attack +20 \nMagic Attack +6\nWater/Fire/Wind/Earth \nAlchemy Damage +8 \nMusic Buff Skill Effect+2\nMagic Defense +4 \nMagic Protection +4
 7484	the Girgashiy Slayer
@@ -7713,8 +7713,8 @@
 9034	the Aspiring Chain Slasher
 9035	the Aspiring Chain Slasher
 9036	the Aspiring Chain Slasher
-9037	A title for those who choose Chain Slash as their active Talent. This title can no longer be used when you are not a beginner.
-9038	A title for those who choose Chain Slash as their active Talent. This title can no longer be used when you are not a beginner.
+9037	A title given to those who choose Chain Slash as their active Talent.
+9038	A title given to those who choose Chain Slash as their active Talent.
 9039	DEX +15\nLuck +25\nMax HP +10
 9040	단오절 기념 2차 타이틀
 9041	단오절 기념 2차 타이틀
@@ -10033,13 +10033,13 @@
 11454	the Master of Fynn Crafting
 11455	the Master of Fynn Bead Burnishing
 11456	the Master of Fynn Sync
-11457	A title for those who choose Pet Training as their active Talent. This title can no longer be used when you are not a beginner.
+11457	A title given to those who choose Pet Training as their active Talent.
 11458	An honorable title awarded to one who has reached the highest level available in Fynni Catching.
 11459	An honorable title awarded to one who has reached the highest level available in Fynni Blossoming.
 11460	An honorable title awarded to one who has reached the highest level available in Fynn Crafting.
 11461	An honorable title awarded to one who has reached the highest level available in Fynn Bead Burnishing.
 11462	An honorable title awarded to one who has reached the highest level available in Fynn Sync.
-11463	A title for those who choose Pet Training as their active Talent. This title can no longer be used when you are not a beginner.
+11463	A title given to those who choose Pet Training as their active Talent.
 11464	Meet all the training requirements to reach Fynni Catching Rank 1 and you will receive a title to prove it.
 11465	Meet all the training requirements to reach Fynni Blossoming Rank 1 and you will receive a title to prove it.
 11466	Meet all the training requirements to reach Fynn Crafting Rank 1 and you will receive a title to prove it.
@@ -10685,8 +10685,8 @@
 12120	the Aspiring Glyphwright
 12121	the Aspiring Glyphwright
 12122	the Aspiring Glyphwright
-12123	A title for those who choose Glyphwrighting as their active Talent. This title can no longer be used when you are not a beginner.
-12124	A title for those who choose Glyphwrighting as their active Talent. This title can no longer be used when you are not a beginner.
+12123	A title given to those who choose Glyphwrighting as their active Talent.
+12124	A title given to those who choose Glyphwrighting as their active Talent.
 12125	INT +25\nDEX +15\nMax HP +10
 12126	에린의 사자
 12127	에린의 수호자
@@ -13907,10 +13907,10 @@
 15381	the Aspiring Construct Alchemist
 15383	a Lighthouse Handyman
 15385	A title earned through passing the Chef Exam by having your cooking accepted by Chef Gordon
-15387	A title for those who choose Transmutation as their active Talent. This title can no longer be used when you are no longer a beginner.
+15387	A title given to those who choose Transmutation as their active Talent.
 15389	A title given those who take up part-time work at the Lighthouse.
 15391	Put your culinary skills to the test by participating in the Cooking Contest that takes place in Emain Macha's town square.
-15393	A title for those who choose Transmutation as their active Talent. This title can no longer be used when you are no longer a beginner.
+15393	A title given to those who choose Transmutation as their active Talent.
 15395	A title given those who take up part-time work at the Lighthouse. You cannot use this title if you're not working.
 15397	Max Stamina +20\nMax HP +20\nDexterity +10\nIntelligence +10\n[Will -20]\n[Luck -10]
 15399	Max Stamina +20\nSynthesis Success Rate +1%\nFragmentation Success Rate +1%
@@ -14783,13 +14783,13 @@
 16358	Luck +30
 16359	Luck +30
 16360	Luck +30
-16368	여의주를 품은 청룡
-16369	여의주를 품은 청룡
-16370	여의주를 품은 청룡
-16371	여의주를 품은 청룡
-16372	2024 청룡의 해를 기념하여 밀레시안에게 지급되는 2차 타이틀. 기간이 만료되면 옵션 효과는 사라지지만 지속적으로 장착 및 소장이 가능하다. (기간 연장 불가능)
-16373	2024 청룡의 해를 기념하여 밀레시안에게 지급되는 2차 타이틀. 기간이 만료되면 옵션 효과는 사라지지만 지속적으로 장착 및 소장이 가능하다. (기간 연장 불가능)
-16374	최대 대미지 25 증가\n마법 공격력 40 증가\n물 / 불 / 바람 / 흙 속성 연금술 대미지 15 증가
+16368	Blue Dragon's Cintamani
+16369	Blue Dragon's Cintamani
+16370	Blue Dragon's Cintamani
+16371	Blue Dragon's Cintamani
+16372	A 2nd title given to Milletians to commemorate 2024, the year of blue dragon. Although the stat bonuses it provides are available only for a limited time, you'll keep the title and can use it even after the stats are gone. (Duration cannot be extended)
+16373	A 2nd title given to Milletians to commemorate 2024, the year of blue dragon. Although the stat bonuses it provides are available only for a limited time, you'll keep the title and can use it even after the stats are gone. (Duration cannot be extended)
+16374	Max Damage +25\nMagic Attack +40\nWater/Fire/Wind/Earth Attribute Alchemic Damage +15
 16389	안전한 에린 지킴이
 16390	안전한 에린 지킴이
 16391	안전한 에린 지킴이
@@ -14913,8 +14913,8 @@
 16544	the Aspiring Guide of Starlight
 16545	the Aspiring Guide of Starlight
 16546	the Aspiring Guide of Starlight
-16547	A title for those who choose Battle Astrology as their first active Talent. This title can no longer be used when you are not a beginner.
-16548	A title for those who choose Battle Astrology as their first active Talent. This title can no longer be used when you are not a beginner.
+16547	A title given to those who choose Battle Astrology as their active Talent.
+16548	A title given to those who choose Battle Astrology as their active Talent.
 16549	Magic Attack +15\nMax MP +20\nMax HP +20
 16550	the Starspoken who is
 16551	the Starspoken who is
@@ -15126,34 +15126,34 @@
 16799	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
 16800	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
 16801	Strength +10\nDexterity +10\nIntelligence +10\nWill +10\nLuck +10
-16802	드림우드 플라워
-16803	드림우드 버터플라이
-16804	스페셜 드림우드 플라워
-16805	스페셜 드림우드 버터플라이
-16806	드림우드 플라워
-16807	드림우드 버터플라이
-16808	스페셜 드림우드 플라워
-16809	스페셜 드림우드 버터플라이
-16810	드림우드 플라워
-16811	드림우드 버터플라이
-16812	스페셜 드림우드 플라워
-16813	스페셜 드림우드 버터플라이
-16814	드림우드 플라워
-16815	드림우드 버터플라이
-16816	스페셜 드림우드 플라워
-16817	스페셜 드림우드 버터플라이
-16818	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16819	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16820	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16821	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16822	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16823	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16824	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16825	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-16826	행운 30 증가
-16827	행운 30 증가
-16828	음악 버프 스킬 효과 12 증가
-16829	파이어볼트 최대 대미지 20 증가\n볼트 마법 대미지 15% 증가\n볼트 마법 조합 대미지 5% 증가\n최대 마나 50 증가\n마법 공격력 20 증가\n마법 시전속도 5% 증가
+16802	Dreamwood Blossom
+16803	Dreamwood Butterfly
+16804	Special Dreamwood Blossom
+16805	Special Dreamwood Butterfly
+16806	Dreamwood Blossom
+16807	Dreamwood Butterfly
+16808	Special Dreamwood Blossom
+16809	Special Dreamwood Butterfly
+16810	Dreamwood Blossom
+16811	Dreamwood Butterfly
+16812	Special Dreamwood Blossom
+16813	Special Dreamwood Butterfly
+16814	Dreamwood Blossom
+16815	Dreamwood Butterfly
+16816	Special Dreamwood Blossom
+16817	Special Dreamwood Butterfly
+16818	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16819	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16820	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16821	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16822	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16823	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16824	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16825	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+16826	Luck +30
+16827	Luck +30
+16828	Music Buff Effect +12
+16829	Firebolt Max Damage +20\nBolt Magic Damage +15%\nFusion Bolt Damage +5%\nMax MP +50\nMagic Attack +20\nMagic Casting Speed +5%
 16830	17th Anniversary Fantasy Star
 16831	17th Anniversary Fantasy Star
 16832	17th Anniversary Fantasy Star
@@ -15347,8 +15347,8 @@
 17132	the Aspiring Fate Astrologer
 17133	the Aspiring Fate Astrologer
 17134	the Aspiring Fate Astrologer
-17135	A title for those who choose Fate Astrology as their first active Talent. This title can no longer be used when you are not a beginner.
-17136	A title for those who choose Fate Astrology as their first active Talent. This title can no longer be used when you are not a beginner.
+17135	A title for those who choose Fate Astrology as their first active Talent.
+17136	A title for those who choose Fate Astrology as their first active Talent.
 17137	Magic Attack +15\nMax MP +20\nMax HP +20
 17145	Erinn Adventure Pass Challenger
 17146	Erinn Adventure Pass Challenger
@@ -15546,6 +15546,13 @@
 17401	Max Damage +23\nMagic Attack +23\nWater/Fire/Wind/Earth\nAlchemic Damage +15\nMarionette Max Damage +10
 17402	Healing Effect +20%\nMax MP +100\nCures wounds at 7% of Healing Effect
 17403	Music Buff Effect +9\nMusic Buff Duration +15
+17404	Alban Heruin Season 1 Challenger
+17405	Alban Heruin Season 1 Challenger
+17406	Alban Heruin Season 1 Challenger
+17407	Alban Heruin Season 1 Challenger
+17408	A glorious 2nd Title given to those who reached the rank of Challenger during Commerce Alban Heruin Season 1. Can be used with regular titles.
+17409	A glorious 2nd Title given to those who reached the rank of Challenger during Commerce Alban Heruin Season 1. Can be used with regular titles.
+17410	Movement Speed +3%
 17411	the Birthday Bloomer
 17412	the Birthday Bloomer
 17413	the Birthday Bloomer
@@ -15693,6 +15700,48 @@
 17772	A title received by taking part in the 17th Anniversary GM event.
 17773	A title received by taking part in the 17th Anniversary GM event.
 17774	
+17817	순수한 드림우드 플라워
+17818	청아한 드림우드 플라워
+17819	순수한 드림우드 버터플라이
+17820	순수한 드림우드 플라워
+17821	청아한 드림우드 플라워
+17822	순수한 드림우드 버터플라이
+17823	순수한 드림우드 플라워
+17824	청아한 드림우드 플라워
+17825	순수한 드림우드 버터플라이
+17826	순수한 드림우드 플라워
+17827	청아한 드림우드 플라워
+17828	순수한 드림우드 버터플라이
+17829	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17830	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17831	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17832	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17833	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17834	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+17835	행운 30 증가
+17836	행운 30 증가
+17837	행운 30 증가
+17838	Friendship Rekindled
+17839	Always Together
+17840	New Connections
+17841	Friendship Rekindled
+17842	Always Together
+17843	New Connections
+17844	Friendship Rekindled
+17845	Always Together
+17846	New Connections
+17847	Friendship Rekindled
+17848	Always Together
+17849	New Connections
+17850	A special title granted to those who have returned to Erinn. You can get this title from the Letters to a Milletian event.
+17851	A special title granted to those who stay with Erinn. You can get this title from the Letters to a Milletian event.
+17852	A special title granted to those who have just taken their first steps in Erinn. You can get this title from the Letters to a Milletian event.
+17853	A special title granted to those who have returned to Erinn. You can get this title from the Letters to a Milletian event. 
+17854	A special title granted to those who stay with Erinn. You can get this title from the Letters to a Milletian event. 
+17855	A special title granted to those who have just taken their first steps in Erinn. You can get this title from the Letters to a Milletian event. (Effects cannot be stacked with the Returned Milletian and Lorna's Special Support title effects)
+17856	Max Damage +20\nStrength +20\nIntelligence +20\nDexterity +20\nWill +20\nLuck +20\nHP +200\nStamina +200\nMP +200\nMovement Speed +2%\nCombat EXP in Baltane Missions +150%\nGathering Success Rate +10%\nGathering Speed +10%\nProduction Success Rate +5%\n2x All Skill Training EXP\nWhen defeating monsters as a party in a Shadow Mission, Theatre Mission, or Dungeon, party members will receive 1.5x EXP and the title bearer will receive 2x EXP.\n
+17857	Max Damage +20\nStrength +20\nIntelligence +20\nDexterity +20\nWill +20\nLuck +20\nHP +200\nStamina +200\nMP +200\nMovement Speed +2%\nCombat EXP in Baltane Missions +150%\nGathering Success Rate +10%\nGathering Speed +10%\nProduction Success Rate +5%\n2x All Skill Training EXP\nWhen defeating monsters as a party in a Shadow Mission, Theatre Mission, or Dungeon, party members will receive 1.5x EXP and the title bearer will receive 2x EXP.\n
+17858	Max Damage +20\nStrength +20\nIntelligence +20\nDexterity +20\nWill +20\nLuck +20\nHP +200\nStamina +200\nMP +200\nMovement Speed +2%\nCombat EXP in Baltane Missions +150%\nGathering Success Rate +10%\nGathering Speed +10%\nProduction Success Rate +5%\n2x All Skill Training EXP\nWhen defeating monsters as a party in a Shadow Mission, Theatre Mission, or Dungeon, party members will receive 1.5x EXP and the title bearer will receive 2x EXP.\n(Cannot be stacked with the Returned Milletian and Lorna's Special Support title effects)
 17859	청아한 봄의 절경
 17860	청아한 봄의 절경
 17861	청아한 봄의 절경
@@ -15700,3 +15749,87 @@
 17863	2025 두근두근 아일랜드 이벤트 진행 시 지급되는 매력적인 2차 타이틀이다.다른 일반 타이틀과 함께 사용할 수 있다.
 17864	2025 두근두근 아일랜드 이벤트 진행 시 지급되는 매력적인 2차 타이틀이다.다른 일반 타이틀과 함께 사용할 수 있다.
 17865	최대 대미지 28 증가\n마법 공격력 44 증가
+17866	서포트 샷 마스터
+17867	서포트 샷 마스터
+17868	데스 마커 마스터
+17869	데스 마커 마스터
+17870	서포트 샷 마스터
+17871	서포트 샷 마스터
+17872	데스 마커 마스터
+17873	데스 마커 마스터
+17874	서포트 샷 마스터
+17875	서포트 샷 마스터
+17876	데스 마커 마스터
+17877	데스 마커 마스터
+17878	서포트 샷 마스터
+17879	서포트 샷 마스터
+17880	데스 마커 마스터
+17881	데스 마커 마스터
+17882	서포트 샷의 최고레벨에 도달한 사람에게 주어지는 영광스러운 칭호
+17883	서포트 샷의 최고레벨에 도달한 사람에게 주어지는 영광스러운 칭호
+17884	데스 마커의 최고레벨에 도달한 사람에게 주어지는 영광스러운 칭호
+17885	데스 마커의 최고레벨에 도달한 사람에게 주어지는 영광스러운 칭호
+17886	서포트 샷 1랭크의 수련 경험치가 100에 도달하면 최고 레벨임을 증명하는 타이틀을 받을 수 있다
+17887	서포트 샷 1랭크의 수련 경험치가 100에 도달하면 최고 레벨임을 증명하는 타이틀을 받을 수 있다
+17888	데스 마커 1랭크의 수련 경험치가 100에 도달하면 최고 레벨임을 증명하는 타이틀을 받을 수 있다
+17889	데스 마커 1랭크의 수련 경험치가 100에 도달하면 최고 레벨임을 증명하는 타이틀을 받을 수 있다
+17890	솜씨 20 증가\n서포트 샷 이후 추가 근접 공격 대미지 5% 증가\n[체력 20 감소]\n[의지 10 감소]
+17891	솜씨 20 증가\n[체력 20 감소]\n[의지 10 감소]
+17892	솜씨 5 증가\n행운 10 증가\n죽음의 징표 유지 시간 3초 증가
+17893	솜씨 5 증가\n행운 10 증가\n죽음의 징표 유지 시간 10초 증가
+17943	대마법사를 꿈꾸는
+17944	대마법사를 꿈꾸는
+17945	대마법사를 꿈꾸는
+17946	대마법사를 꿈꾸는
+17947	대마법사를 꿈꾸는
+17948	대마법사를 꿈꾸는
+17949	대마법사를 꿈꾸는
+17950	대마법사를 꿈꾸는
+17951	대마법사를 꿈꾸는
+17952	대마법사를 꿈꾸는
+17953	대마법사를 꿈꾸는
+17954	대마법사를 꿈꾸는
+17955	대마법사를 꿈꾸는
+17956	대마법사를 꿈꾸는
+17957	대마법사를 꿈꾸는
+17958	대마법사를 꿈꾸는
+17959	첫 장래희망으로 마법사를 택한 밀레시안이 받는 타이틀. 누적 레벨이 100을 넘으면 더 이상 사용할 수 없다.
+17960	첫 장래희망으로 마법사를 택한 밀레시안이 받는 타이틀. 누적 레벨이 100을 넘으면 더 이상 사용할 수 없다.
+17961	첫 수련재능으로 마법을 택한 밀레시안이 받는 타이틀. 초보자가 아니게 되면 더 이상 사용할 수 없다.
+17962	첫 수련재능으로 마법을 택한 밀레시안이 받는 타이틀. 초보자가 아니게 되면 더 이상 사용할 수 없다.
+17963	첫 장래희망으로 마법사를 택한 밀레시안이 받는 타이틀. 누적 레벨이 100을 넘으면 더 이상 사용할 수 없다.
+17964	첫 장래희망으로 마법사를 택한 밀레시안이 받는 타이틀. 누적 레벨이 100을 넘으면 더 이상 사용할 수 없다.
+17965	첫 수련재능으로 마법을 택한 밀레시안이 받는 타이틀. 초보자가 아니게 되면 더 이상 사용할 수 없다.
+17966	첫 수련재능으로 마법을 택한 밀레시안이 받는 타이틀. 초보자가 아니게 되면 더 이상 사용할 수 없다.
+17967	최대 마나 20 증가\n볼트 마법 대미지 1% 증가\n정령 실체화 대미지 5 증가
+17968	최대 마나 20 증가\n볼트 마법 최대 대미지 1% 증가\n정령 실체화 대미지 5 증가
+17969	최대 마나 20 증가\n볼트 마법 대미지 5 증가\n정령 실체화 대미지 5 증가
+17970	최대 마나 20 증가\n볼트 마법 최대 대미지 1% 증가\n정령 실체화 대미지 5 증가
+17971	비바체 마스터
+17972	비바체 마스터
+17973	비바체 마스터
+17974	비바체 마스터
+17975	비바체 마스터
+17976	비바체 마스터
+17977	비바체 마스터
+17978	비바체 마스터
+17979	비바체 최고레벨에 도달한 사람에게 주어지는 영광스러운 칭호
+17980	비바체 최고레벨에 도달한 사람에게 주어지는 영광스러운 칭호
+17981	비바체 1랭크의 수련 경험치가 100에 도달하면 최고 레벨임을 증명하는 타이틀을 받을 수 있다
+17982	비바체 1랭크의 수련 경험치가 100에 도달하면 최고 레벨임을 증명하는 타이틀을 받을 수 있다
+17983	비바체 버프 스킬 효과 10 증가
+17984	비바체 버프 스킬 효과 8 증가
+18013	여신의 깃털
+18014	스며드는 기억
+18015	여신의 깃털
+18016	스며드는 기억
+18017	여신의 깃털
+18018	스며드는 기억
+18019	여신의 깃털
+18020	스며드는 기억
+18021	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+18022	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+18023	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+18024	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+18025	행운 30 증가
+18026	행운 30 증가

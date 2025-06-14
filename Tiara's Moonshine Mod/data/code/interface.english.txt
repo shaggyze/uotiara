@@ -525,7 +525,7 @@ pli_appearancechangeframe.18	Recommended Mouth
 pli_appearancechangeframe.19	Mouth
 pli_appearancechangeframe.20	Right
 pli_appearancechangeframe.21	Left
-pli_appearancechangeframe.22	파트너에게 사용할 헤어 지정 염색 앰플을 선택해 주세요.
+pli_appearancechangeframe.22	Please select the Fixed Color Hair Dye Ampoule you wish your Partner to use.
 pli_appearancecouponpreview.1	Reset Camera
 pli_appearancecouponpreview.2	Background Brightness
 pli_apskilltrainview.1	Unknown Training Method
@@ -785,9 +785,9 @@ pli_bardboardwriteview.5	Title must be at least 4 characters long.
 pli_bardboardwriteview.6	There is an inappropriate word in your title. Please try again.
 pli_bardboardwriteview.7	Please enter the composer's comments.
 pli_bardboardwriteview.8	There is an inappropriate word in the composer's comments. Please try again.
-pli_basicpartymaketabframe.1	(없음)
-pli_basicpartymaketabframe.2	{0}님의 파티
-pli_basicpartymaketabframe.3	확인
+pli_basicpartymaketabframe.1	(none)
+pli_basicpartymaketabframe.2	{0}'s Party
+pli_basicpartymaketabframe.3	Confirm
 pli_battledanceframe.1	Apply the {0} effect?
 pli_battledancemanageview.1	You can choose which dance to perform.\nCurrent theme: {0}
 pli_battledancemanageview.2	You can choose which effect to display.\nCurrent mood: {0}
@@ -1201,6 +1201,8 @@ pli_characterconditionremaintimeview.3	 <color=2>(Polyphony)</color>
 pli_characterconditionremaintimeview.4	Compact
 pli_characterconditionremaintimeview.5	Expand
 pli_characterconditionremaintimeview.6	No more can be added.
+pli_characterconditionremaintimeview.7	 (비활성)
+pli_characterconditionremaintimeview.8	<color=4>(투안의 노래)</color>
 pli_characterconditionremaintimeviewframe.1	Buffs marked as favorites cannot be moved to another position.
 pli_characterconditionremaintimeviewframe.2	Favorites
 pli_characterconditionremaintimeviewframe.3	Hidden
@@ -1398,8 +1400,8 @@ pli_commercepartymainview.4	Closed
 pli_commercepartymainview.5	 - Leader
 pli_commercepartymainview.6	{0}
 pli_commercepartymainview.7	Not Purchased
-pli_commercepartymainview.8	Recruiting OFF
-pli_commercepartymainview.9	Recruiting ON
+pli_commercepartymainview.8	Recruiting Locally
+pli_commercepartymainview.9	Recruit Locally
 pli_commercepartymainview.10	Name: {0}
 pli_commercepartymainview.11	Party Size: {0}/{1}
 pli_commercepartymainview.12	Group Status: {0}
@@ -1587,6 +1589,7 @@ pli_configurationhandlers_play.39	Locks the extra skill slots. While locked, the
 pli_configurationhandlers_play.40	Locks the pet skill slots. While locked, the array cannot be moved, and skills cannot be removed from the slots.
 pli_configurationhandlers_play.41	Locks the position of the Astrology Cards UI.
 pli_configurationhandlers_play.42	Lock the Status List window. While locked, you cannot make changes to the Status List or move the window.
+pli_configurationhandlers_play.43	마나 셸 창을 잠급니다. 잠금 상태에서는 창을 이동할 수 없습니다.
 pli_configurationhandlers_play.44	When enabled, Reserve Attack will queue up basic attacks after using skills. It can only be used when set to Manual Combat mode.
 pli_configurationhandlers_social.1	Allows other players to view your equipment.
 pli_configurationhandlers_social.2	Allows other players to compare their Journals with yours.
@@ -1601,11 +1604,21 @@ pli_configurationhandlers_social.10	Changes the color of messages from the speci
 pli_configurationhandlers_sound.1	Changes some background music to a different version.
 pli_configurationhandlers_sound.2	Sets the range at which singing and instruments are audible. Any adjustments made will take effect starting with the next performance.
 pli_configurationhandlers_sound.3	Enables the sound of footsteps when walking or running. May cause a moderate reduction in performance on PCs with lower specs.
-pli_configurationoptionframe_chat.1	더 이상 등록할 수 없습니다.
-pli_configurationoptionframe_chat.2	알 수 없는 오류입니다.
-pli_configurationoptionframe_chat.3	입력하신 '{0}' 키워드는 이미 등록된 '{1}'에 포함되어 있습니다.\n다른 키워드를 입력해 주세요.
-pli_configurationoptionframe_chat.4	키워드 내용이 너무 깁니다.
+pli_configurationoptionframe_chat.1	Unable to add more.
+pli_configurationoptionframe_chat.2	Unknown error.
+pli_configurationoptionframe_chat.3	The keyword '{0}' is included in '{1}', which is already on your list.\nChoose a different keyword to add.
+pli_configurationoptionframe_chat.4	The keyword is too long.
+pli_configurationoptionframe_chat.5	Contains a prohibited character or symbol.
 pli_configurationoptionframe_hotkey.1	"%s" is currently assigned to another command.\nWould you like to change it?\n\nCurrent: %s\nNew: %s
+pli_contentsnavigationminiview.1	You've completed all Arcana Achievement Missions for today.
+pli_contentsnavigationview.1	You must complete <color=5>Volume 3 of Blaanid's Brave Boost</color>\nbefore you can complete Arcana Achievement Missions.
+pli_contentsnavigationview.2	Track Quest
+pli_contentsnavigationview.3	Stop Tracking
+pli_contentsnavigationview.4	Cumulative Point Rewards (Complete)
+pli_contentsnavigationview.5	Cumulative Point Rewards ({0} / {1})
+pli_contentsnavigationview.6	Grants a bonus to this character's cumulative level  (1/5 the reward if cumulative level is higher than 20,000)
+pli_contentsnavigationview.7	\nNext: {0}
+pli_contentsnavigationview.8	\n* This is the last objective for this quest.
 pli_continentmapview.1	Petitioner
 pli_continentmapview.2	Blessing of Cairbre\\nTime Left: {0} min {1} sec
 pli_continentmapview.3	주위의 파티원과 함께 {0}{로} 이동하시겠습니까?\n[아니오]를 누를 경우 혼자 이동합니다.
@@ -1852,7 +1865,7 @@ pli_echostoneconvertview.4	Alert
 pli_echostoneconvertview.5	Grade {0}
 pli_echostoneconvertview.6	{0} x{1}
 pli_echostoneconvertview.7	This is <color=5><outlinecolor=3>a very high-grade Echostone</outlinecolor></color>. Continue?
-pli_echostoneconvertview.8	해당 에코스톤은 분해할 수 없습니다.
+pli_echostoneconvertview.8	This Echostone cannot be fragmented.
 pli_echostoneprobeachlevelview.1	Level {0}
 pli_echostoneupgraderesultview.1	{0} {1} + {2} Increase
 pli_echostoneupgraderesultview.2	{0} {1} Increase
@@ -1987,6 +2000,7 @@ pli_egoweaponmainmaterialpanel.12	You already have a Classic Spirit Weapon of th
 pli_egoweaponmainview.1	Alert
 pli_egoweaponmainview.2	You don't have any Spirit Weapons.\nBerched can help you form a contract with the Spirit.
 pli_egoweaponmainview.3	Spirits Contracted ({0}/{1})
+pli_egoweaponmainview.4	In order to form contracts with more Spirits, you need a Spirit Weapon Additional Contract Coupon.
 pli_egoweaponmanageframe.1	Forming a contract with a new Spirit.\nPlace the materials needed to form the contract in the correct slots.\n\n- Weapon Slot: Weapon to form a contract with the Spirit\n- Material Slot: Elemental Remover x5, Magical Spirit Stone x1
 pli_egoweaponmanageframe.2	Transferring the Spirit into a new weapon.\nPlace the materials needed for transfer in the correct slots.\n\nClassic Spirit Weapon Conversion\n- Weapon Slot: Classic Spirit Weapon\n- Material Slot: Elemental Remover x5, Magical Spirit Stone x1, Spirit Liqueur x1\n\nSpirit Weapon Transfer\n- Weapon Slot: Spirit Weapon in use, Weapon to be transferred into\n- Material Slot : Elemental Remover x5, Spirit Liqueur x1
 pli_egoweaponmanageframe.3	Destroying the contract with the Spirit.\nPlace the materials needed to destroy the contract in the correct slots.\n\n- Weapon Slot: Spirit Weapon in use\n- Material Slot: Elemental Remover x5, Memory Spirit Liqueur x1, Empty Spirit Stone x1
@@ -2068,6 +2082,7 @@ pli_entryview.5	Dungeon Guide
 pli_entryview.6	VIP Membership Benefits {0}
 pli_entryview.7	Currency {0}
 pli_entryview.8	Growth Guide {0}
+pli_entryview.9	Arcana Achievement Mission
 pli_equipmentcollectiontab.1	Loading...
 pli_equipmentcollectiontab.2	The Dressing Room is being loaded.
 pli_equipskinslottab.1	You don't have any equipment whose appearance you can save.
@@ -2398,6 +2413,8 @@ pli_fishingboxview.3	There is not enough space in your inventory.
 pli_fixedcolordyeingview.1	Preview
 pli_flipcardmatchresultview.1	Time Remaining: {0}{1} sec
 pli_flipcardmatchresultview.2	{0} Cards
+pli_flyhighview.1	플라이 이벤트를 해금하기 위해서는,\n아르카나 부스팅 퀘스트를 완료해야 합니다.\n\n아르카나 부스팅 퀘스트는 부스트 이벤트가 완료되면 부여되는 퀘스트로, \n퀘스트창의 이벤트 탭을 확인해주세요.
+pli_flyhighview.2	플라이 이벤트를 해금하기 위해서는,\n아르카나 부스팅 퀘스트를 완료해야 합니다.\n\n아르카나 부스팅 퀘스트는 부스트 이벤트가 완료되면 부여되는 퀘스트로, \n퀘스트창의 이벤트 탭을 확인해주세요.
 pli_focuslistenblockview.1	Unblock {0}?
 pli_focuslistenblockview.2	Block {0}?
 pli_focuslistenblockview.3	The character cannot be found.\nPlease check the character name.
@@ -2554,6 +2571,8 @@ pli_gameendmainview.6	You can claim the reward from Lorna.
 pli_gameendmainview.7	You've already received all your rewards.
 pli_gameendmainview.8	Pan's Attendance Check-in - Today's Stamp Not Yet Received
 pli_gameendmainview.9	Receive Advanced Items
+pli_gameendmainview.11	Mystical Rental Event Daily Login Time Reward
+pli_gameendmainview.12	Mystical Rental Event Weekly Login Time Reward
 pli_gametipview.1	Daily Tip
 pli_gametipview.2	Turn Off Daily Tips
 pli_gametipview.3	Close this Tip
@@ -2593,6 +2612,116 @@ pli_guestbookview.8	Complete
 pli_guestbookview.9	Private
 pli_guestbookview.10	Change the settings so that only you and the shop owner can see this post.
 pli_guestbookview.11	Close
+pli_guild2024approvaconfirmview.1	Approve {0}'s guild application?\nUpon approval, they will be officially registered as a member of the guild. Their rank can be managed in the Member Management list.
+pli_guild2024createguildframe.1	Invalid guild name.
+pli_guild2024createguildframe.2	<color=2>This guild name is available.</color>
+pli_guild2024createguildframe.3	<color=3>* This guild name is unavailable. Please select another name.</color>
+pli_guild2024createguildframe.4	<color=3>* This guild name cannot be used. Please select another name.</color>
+pli_guild2024createguildframe.5	<color=3>* This guild name is too long. Please select another name.</color>
+pli_guild2024createguildframe.6	You have a pending application to join a guild. To create a guild, you must first withdraw your application.
+pli_guild2024leaveconfirmview.1	Disband Guild
+pli_guild2024leaveconfirmview.2	Are you sure you want to disband this guild?\nOnce disbanded, all growth and progress will be lost, even if you form a new guild with the same name.
+pli_guild2024leaveconfirmview.3	Disband
+pli_guild2024leaveconfirmview.4	Leave Guild
+pli_guild2024leaveconfirmview.5	Do you wish to leave your guild?\nAfter leaving, you must wait at least 24 hours since you first joined to join another guild.
+pli_guild2024leaveconfirmview.6	Leave
+pli_guild2024mainimagebackgroundconfirmview.1	Changing the background to <color=2>{0}</color> requires <color=2>{1} Guild Points</color>.\n\nProceed?
+pli_guild2024mainimagebackgroundconfirmview.2	Current Guild Points: {0}
+pli_guild2024mainimagecostumeconfirmview.1	Updating the Guild Portrait to reflect your current equipment and pose requires <color=2>{0} Guild Coins</color>.\n\nPoses and appearance changes from non-equipment sources may not be reflected.\n\nProceed?
+pli_guild2024mainimagecostumeconfirmview.2	{0} / {1}
+pli_guild2024mainimagecostumeconfirmview.3	You don't have enough Guild Coins.
+pli_guild2024mainimagesettingview.1	Required Guild Points: {0} / {1}
+pli_guild2024mainimagesettingview.2	Updating the Guild Portrait's background requires {0} Guild Points.
+pli_guild2024mainimagesettingview.3	Only the Guild Leader or Guild Officers can update the background.
+pli_guild2024mainimagesettingview.4	The guild must be level 5 or higher to change the background.
+pli_guild2024mainimagesettingview.5	<color=2><outlineColor=3>{0}</outlineColor></color> background has been unlocked.\n\nYou can change to this newly unlocked background for <color=2><outlineColor=3>Free</outlineColor></color>. Would you like to do so now?
+pli_guild2024mainimagesettingview.6	Change for Free
+pli_guild2024mainimageunlockconfirmview.1	Unlocking a background costs <color=2>{0} Guild Points</color> or <color=2>{1} Guild Gold</color>. Proceed?\n\nSelected Background: <color=2>{2}</color>
+pli_guild2024mainview.1	Community Bulletin Board
+pli_guild2024mainview.2	Guild Guide
+pli_guild2024missionframe.1	You will receive {0}x GP.
+pli_guild2024myguildframe.1	Guild Member List ({0} / {1})
+pli_guild2024myguildframe.2	Donate GP ({0} / {1})
+pli_guild2024myguildframe.3	You've already withdrawn the maximum amount allowed per day. Try again tomorrow.
+pli_guild2024myguildframe.4	Choose the Guild Focus Tags
+pli_guild2024myguildframe.5	Click the pencil icon on the right to update the Guild Announcements.
+pli_guild2024myguildframe.6	Submit Application
+pli_guild2024myguildframe.7	Disband Guild
+pli_guild2024myguildframe.8	Once disbanded, all growth and progress will be lost, even if you form a new guild with the same name.
+pli_guild2024myguildframe.9	{0}/{1}
+pli_guild2024myguildframe.10	Other
+pli_guild2024myguildframe.11	You cannot access the Guild Member List right now. Please try again later.
+pli_guild2024myguildframe.12	Increase Guild Level
+pli_guild2024myguildframe.13	Spend <color=2>{0} Guild Points</color> and <color=2>{1} Guild Gold</color> to increase the guild's level?
+pli_guild2024myguildframe.14	Expand Guild
+pli_guild2024myguildframe.15	Spend <color=2>{0} Guild Points</color> and <color=2>{1} Guild Gold</color> to expand the guild's membership?
+pli_guild2024myguildframe.16	Current Guild Points: {0}\nCurrent Guild Gold: {1}
+pli_guild2024myguildframe.17	Increasing the guild's level from Lv. {0} to Lv. {1}\ncosts {2} Guild Points and {3} Guild Gold.
+pli_guild2024myguildframe.18	At maximum level.
+pli_guild2024myguildframe.19	Expanding the guild's maximum capacity from {0} to {1} costs {2} Guild Points and {3} Guild Gold.
+pli_guild2024myguildframe.20	At maximum capacity.
+pli_guild2024oldgprankingview.1	My Guild Info\n- Server Rank: {0}\n- Guild Points: {1}
+pli_guild2024oldgprankingview.2	My Guild Info\n- No previous Guild Point info.
+pli_guild2024popupview.1	Edit Guild Message
+pli_guild2024popupview.2	Edit Guild Announcements
+pli_guild2024popupview.3	Guild Introduction
+pli_guild2024popupview.4	Guild Welcome Message
+pli_guild2024popupview.5	Guild Farewell Message
+pli_guild2024popupview.6	Appointing <color=2>{0}</color> as the new Guild Leader.
+pli_guild2024popupview.7	Expelling <color=2>{0}</color> from the guild.
+pli_guild2024popupview.8	You can select up to {0} focus tags.
+pli_guild2024popupview.9	The guild announcement has been updated.
+pli_guild2024popupview.10	The guild introduction has been updated.
+pli_guild2024popupview.11	The guild welcome message has been updated.
+pli_guild2024popupview.12	The guild farewell message has been updated.
+pli_guild2024popupview.13	Set Guild Leader
+pli_guild2024popupview.14	* Set Guild Leader: When you appoint another member of the guild to become the Guild Leader, you will then become a regular member. This decision cannot be reverted once made.
+pli_guild2024popupview.15	Expel Member
+pli_guild2024popupview.16	* Expel Member: Players who have been expelled from the guild are still permitted to join the guild again, as long as more than 24 hours have passed since they first joined.
+pli_guild2024rankingview.1	Dungeon Master
+pli_guild2024rankingview.2	Day Trader
+pli_guild2024rankingview.3	Busy Bee
+pli_guild2024rankingview.4	Apex Angler
+pli_guild2024rankingview.5	Shopaholic
+pli_guild2024rankingview.6	To Dye For
+pli_guild2024rankingview.7	Potion Addict
+pli_guild2024rankingview.8	Chatterbox
+pli_guild2024rankingview.9	Idle Worship
+pli_guild2024rankingview.10	You cleared dungeons {0} time(s).
+pli_guild2024rankingview.11	You sold Commerce Goods {0} time(s).
+pli_guild2024rankingview.12	You completed {0} Part-Time Job(s).
+pli_guild2024rankingview.13	You reeled in {0} catch(es).
+pli_guild2024rankingview.14	You made {0} Auction House purchase(s).
+pli_guild2024rankingview.15	You dyed items {0} time(s).
+pli_guild2024rankingview.16	You used {0} potion(s).
+pli_guild2024rankingview.17	You chatted with guildmates {0} time(s).
+pli_guild2024rankingview.18	Cleared dungeons {0} time(s).
+pli_guild2024rankingview.19	Sold Commerce Goods {0} time(s).
+pli_guild2024rankingview.20	Completed {0} Part-Time Job(s).
+pli_guild2024rankingview.21	Reeled in {0} catch(es).
+pli_guild2024rankingview.22	Made {0} Auction House purchase(s).
+pli_guild2024rankingview.23	Dyed items {0} time(s).
+pli_guild2024rankingview.24	Used {0} potion(s).
+pli_guild2024rankingview.25	Chatted with guildmates {0} time(s).
+pli_guild2024rankingview.26	Your Playtime: {0}:{1}:{2}.
+pli_guild2024rankingview.27	Playtime: {0}:{1}:{2}.
+pli_guild2024rankingview.28	Failed to load guild information.
+pli_guild2024rankingview.29	Not all guild members' playtime has been recorded.
+pli_guild2024rankingview.30	There are no play records.
+pli_guild2024rankingview.31	Previous Guild Point Rank
+pli_guild2024recommendguildframe.1	Withdraw Application
+pli_guild2024recommendguildframe.2	Submit Application
+pli_guild2024recommendguildframe.3	Submit Application
+pli_guild2024recommendguildframe.4	There is no guild introduction.
+pli_guild2024recommendguildframe.5	Open Membership
+pli_guild2024refuseconfirmview.1	Reject {0}'s guild membership application?
+pli_guild2024searchguildframe.1	Open Membership
+pli_guild2024searchguildframe.2	Review Required
+pli_guild2024searchguildframe.3	Withdraw Application
+pli_guild2024searchguildframe.4	Submit Application
+pli_guild2024searchguildframe.5	There is no guild introduction.
+pli_guild2024searchguildframe.6	There are no guild focus tags.
+pli_guild2024searchguildframe.7	Application Submitted
 pli_guildrecruiteventframe.1	Complete
 pli_guildrecruiteventview.1	Please try again after {0} seconds.
 pli_guildrenewalmainview.1	There is no Guild Hall available to move to.
@@ -2636,7 +2765,7 @@ pli_guildstoneview.4	0
 pli_guildstoneview.5	Would you like to change your guild stone?
 pli_guildtitleeventview.1	Create a Title
 pli_guildtitleeventview.2	Guide
-pli_guildtitleeventview.3	Titles that contain profanity or inappropriate words will be deleted without notice. Once a title has been deleted, it cannot be restored. During the event, titles may be changed as many times as you like. After meeting the requirements, guild members will automatically receive the custom guild title.
+pli_guildtitleeventview.3	For the duration of the event, you can freely change the Guild Title to one of your choosing as long as you meet the recruitment requirements. Updated titles will be immediately applied to the guild.\n\nPlease keep in mind that titles containing profanity or other words deemed inappropriate or offensive will be deleted without notice. Once a title has been deleted, it cannot be restored.
 pli_guildtitleeventview.4	Current Title: No title has been created.
 pli_guildtitleeventview.5	Enter a title between 2-10 letters long. (Spaces okay.)
 pli_guildtitleeventview.6	This number may include\nmembers that have left the guild.
@@ -2655,7 +2784,7 @@ pli_guildtitleeventview.18	Failed to gather\ninformation.
 pli_guildtitleeventview.19	You have succesfully created a new Guild Title.
 pli_guildtitleeventview.20	There are currently no events going on.
 pli_guildtitleeventview.21	You are not in a guild.
-pli_guildtitleeventview.22	Only a Guild Master can create a title.
+pli_guildtitleeventview.22	Only a Guild Leader can create a guild title.
 pli_guildtitleeventview.23	You must wait at least 1 minute before changing the Guild Title again.\nPlease try again later.
 pli_guildtitleeventview.24	A title must contain 2-10 characters, including spaces.
 pli_guildtitleeventview.25	A Guild Title must meet the following requirements:\n\n1. Cannot contain profanity or other prohibited words.\n2.Can only include English letters and empty spaces.
@@ -2679,8 +2808,8 @@ pli_haberdashereventview.1	You received all the coins for today.
 pli_haberdashereventview.2	Time Remaining: 
 pli_haberdashereventview.3	You received a Peddler Event coin {0} time(s).
 pli_hairfixedcolordyeingview.1	If you apply this hair dye, your current color will be lost.\nContinue?
-pli_hairfixedcolordyeingview.2	파트너 헤어 염색
-pli_hairfixedcolordyeingview.3	현재 소환된 파트너의 헤어에 염색을 할 수 있습니다.
+pli_hairfixedcolordyeingview.2	Dye Partner's Hair
+pli_hairfixedcolordyeingview.3	The selected dye will be used to change the currently summoned Partner's hair color.
 pli_hairfixedcolordyeingview.4	Reset Camera
 pli_hairfixedcolordyeingview.5	Background Brightness
 pli_hairrestoreview.1	Cannot apply this hairstyle on the current gender.
@@ -2775,6 +2904,14 @@ pli_helperapi.38	Combat
 pli_helperapi.39	Horn
 pli_helperapi.40	Field Raid
 pli_helperapi.41	NPC
+pli_helperapi.42	<color=10>(하모니)</color>
+pli_helperapi.43	<color=11>(투안의 노래)</color>
+pli_helperapi.44	마법 공격력 {0}% 증가\n마법 시전속도 {1}% 증가\n연금술 시전속도 {2}% 증가\n공격속도 {3}% 증가\n
+pli_helperapi.45	이동속도 {0}% 증가\n
+pli_helperapi.46	채집 성공률 {0}% 증가\n생산 성공률 {1}% 증가\n채집 속도 {2}% 증가\n
+pli_helperapi.47	최소 공격력 {0}% 증가\n최대 공격력 {1}% 증가\n크리티컬 확률 {2} 증가\n
+pli_helperapi.48	방어 {0} 증가\n보호 {1} 증가\n마법방어 {2} 증가\n마법보호 {3} 증가\n마나 회복속도 {4}% 증가\n스태미나 회복속도 {5}% 증가\n
+pli_helperapi.49	남은시간 : 
 pli_helperapiskill.1	Currently aware of the skill.\nBecomes available once the Classic Spirit Weapon's social level reaches 21.
 pli_helperapiskill.2	Beast
 pli_helperapiskill.3	The First Dan
@@ -3295,6 +3432,7 @@ pli_interfaceskillmgr.3	Switched to the first set of hotkeys.
 pli_interfaceskillmgr.4	The {0} skill is now Rank {1}.
 pli_interfaceskillmgr.5	Skills that complete training will be ranked up automatically.\n\nAutomatic rank ups will be disabled if there is insufficient AP.\nPlease manually rank up skills that remain as training complete individually.\n\nUn-check the box on the bottom of the skill window if you want to disable automatic rank ups.
 pli_interfaceskillmgraction.1	Please select the type of firewood you would like to use.
+pli_inventoryshortcutframe.1	This is an special high-capacity bag (20x15) for the Mystical Rental Event. The registered Main Character for the Mystical Rental Event can freely use this extra storage, but once the event ends, you will only be able to take your items out. You will no longer be able to put new items in, or benefit from any totems inside it.
 pli_inviteeventview.1	*{0} hr {1} m
 pli_inviteeventview.2	Referral Code Input Box
 pli_inviteeventview.3	Only new or returning players can enter a referral code.
@@ -3708,6 +3846,7 @@ pli_magigraphrepairview.1	0/{0}
 pli_magigraphrepairview.2	 Cost
 pli_magigraphrepairview.3	{0}/{1}
 pli_mailboxlistboxitem.1	(No item)
+pli_mainstreamskipbookview.1	메인스트림 G{0}의 이야기를 머리 속에 각인합니다.\n진행 중인 G{0} 퀘스트 정보가 모두 사라지고 완료 처리됩니다.\n메인스트림을 스킵하시겠습니까?
 pli_makeampulview.1	Normal
 pli_makeampulview.2	Metal
 pli_makeampulview.3	Instrument
@@ -3810,10 +3949,10 @@ pli_movecontinentview.1	Teleports you to {0}.\nDo you wish to teleport now?
 pli_movecontinentview.2	Teleports you to {0}.\nThis function becomes usable again at 12:00 PM and 12:00 AM Erinn time.\nDo you wish to teleport now?
 pli_movecontinentview.3	Teleport to {0}
 pli_msgboxitem2.1	Displays the visual chat with {0} on the screen.
-pli_msgboxitem2.2	전투 중 채널 이동 패널티 (<color=5>{0}:{1}후 해제</color>)\n{2} exp, {3}골드
-pli_msgboxitem2.3	파티 목적지로 즉시 이동됩니다.\n파티에 가입하려면 채널 이동을 해야 합니다.\n지금 바로 가입 및 이동하시겠습니까?\n\n{0}
-pli_msgboxitem2.4	현재 가입된 파티입니다.
-pli_msgboxitem2.5	지금 바로 가입 및 목적지로 이동하시겠습니까?
+pli_msgboxitem2.2	Penalty for Changing Channels while in Combat (<color=5>Removed in {0}:{1}</color>)\n{2} EXP, {3} Gold
+pli_msgboxitem2.3	You will be taken to the party's destination immediately.\nTo join this party, you must change channels. Would you like to\nchange channels and move to the party's destination now?\n{0}
+pli_msgboxitem2.4	You are currently in this party.
+pli_msgboxitem2.5	Would you like to join and move to the party's destination?
 pli_multiclasschangeframe.1	Arcana Level {0}
 pli_multiclasschangeframe.2	Unlearned
 pli_multiclasschangeframe.3	EXP {0}%
@@ -3885,6 +4024,8 @@ pli_myknightstrainingview.21	Specialty {0} \n
 pli_myknightstrainingview.22	Training is already in progress.
 pli_myknightstrainingview.23	Notice
 pli_myknightstrainingview.24	Do you want to move on to the next training?\n(After training begins, Likeability will decrease.)
+pli_mysticrentaleventframe.1	Total Login Time:  
+pli_mysticrentaleventview.1	Earn rewards by staying logged in during the event! You can\nonly receive the Daily and Weekly rewards once per account.\nWeekly Login time resets on {0} {1}.
 pli_naturaldyecreateview.1	End
 pli_naturaldyecreateview.2	Start
 pli_naturaldyecreateview.3	You successfully crafted a natural dye.\nWill you take the natural dye ampoule?
@@ -3955,6 +4096,8 @@ pli_newmetalwareview.10	\n<color=2>▶ Maximum Level Possible with Journeyman's 
 pli_newrebirtheventview.1	Time: 
 pli_newrecordbookmainview.1	There doesn't seem to be much here yet.\nComplete the Third Memoir first.
 pli_newrecordbookmainview.2	* Bookmark\n
+pli_newrecordbookmainview.3	Auto-Pathfinding
+pli_newrecordbookmainview.4	Automatically finds the best route to the quest destination.
 pli_newyearfortune2015japan.1	To reveal your fortune, you need 3 Fortune's Fees.
 pli_npcenchantentrustview.1	If an enchant attempt of rank 6 or higher fails,\nno further enchants can be applied to the item.
 pli_npcenchantentrustview.2	If an enchant attempt of rank 6 or higher fails,\nno further enchants can be applied to the item.
@@ -4039,12 +4182,21 @@ pli_optionweaponmainview.23	저장
 pli_optionweaponmainview.24	닫기
 pli_optionweaponshapeview.1	Would you like to change the Stardust's appearance to {0}?
 pli_optionweaponshapeview.2	Confirm
+pli_os20theventbookview.1	Details
+pli_os20theventbookview.2	To NPC
+pli_os20theventbookview.3	ON
+pli_os20theventbookview.4	OFF
+pli_os20theventbookview.5	This event has not started yet.
+pli_os20theventbookview.6	This event has ended.
+pli_os20theventbookview.7	Move to the event NPC now?
+pli_os20theventbookview.8	Notice
+pli_os20theventbookview.9	You have not received this quest.
 pli_oxquizquestionview.1	\n\n{0}sec
 pli_oxquizquestionview.2	\n\n{0}sec
 pli_oxquizquestionview.3	\n\n<color=4>{0}sec</color>
 pli_participantpopupmenu.1	Altruism Points: {0}
 pli_participantpopupmenu.2	Altruism Score: {0}
-pli_partyshouthornview.1	[{0}] {1} [{2}/{3}명]
+pli_partyshouthornview.1	[{0}] {1} [{2}/{3}]
 pli_pawnpurchaselistview.1	{0} Pon
 pli_pawnpurchaselistview.2	{0} Pon
 pli_pawnpurchaselistview.3	Available Coupon: {0}
@@ -4405,7 +4557,7 @@ pli_premiumservicetabframe.85	Unlimited Talent Title Changes
 pli_premiumservicetabframe.86	Checks can be issued without incurring a fee from the bank.
 pli_premiumservicetabframe.87	Premium VIP Bag
 pli_premiumservicetabframe.88	Combo Cards will not expire as long as your VIP Membership is active.
-pli_premiumservicetabframe.89	An Age Potion - Age 9-19 Selection Box will be given upon rebirth once each week.\nAvailable to all characters on accounts with a Basic VIP Membership.
+pli_premiumservicetabframe.89	An Age Potion - Age 9-19 Selection Box will be given upon rebirth once each week (age potion effects reset after 12:00 PM (Server Time) on Saturdays.\n\nAvailable to all characters on accounts with a Basic VIP Membership.
 pli_premiumservicetabframe.90	Unlimited Belvast Personal Shop Item Price
 pli_premiumservicetabframe.91	The fee for checks issued via Guild Stones will be waived.
 pli_premiumservicetabframe.92	Items posted for sale on the Auction House will be able to remain listed for up to 60 hours.
@@ -4482,22 +4634,22 @@ pli_privatefarmentryview.4	Failed to enter the Homestead.
 pli_privatefarmentryview.5	Cannot teleport from here.
 pli_privatefarmentryview.6	You cannot go to the Homestead during a Fashion Contest.
 pli_privatefarmentryview.7	Pets cannot enter this area unaccompanied.
-pli_privatefarmentryview.8	You can't move to the Marketplace.
-pli_privatefarmentryview.9	You cannot enter the Homestead if you have a summoned creature.
-pli_privatefarmentryview.10	You cannot go to the Homestead with a mount.
-pli_privatefarmentryview.11	You cannot go to the Homestead during a Jousting Tournament.
-pli_privatefarmentryview.12	You cannot go to the Homestead during a RP.
-pli_privatefarmentryview.13	You cannot enter the Homestead from this region.
-pli_privatefarmentryview.14	You cannot go to the Homestead while you are unconscious.
-pli_privatefarmentryview.15	You cannot go to the Homestead during PVP.
-pli_privatefarmentryview.16	You cannot go to the Homestead while you are casting a skill.
-pli_privatefarmentryview.17	You cannot go to the Homestead while you are in a conversation with an NPC.
-pli_privatefarmentryview.18	You cannot go to the Homestead from an Arena region.
-pli_privatefarmentryview.19	You cannot go to the Homestead from a battlefield.
-pli_privatefarmentryview.20	You cannot go to the Homestead from the performance stage.
-pli_privatefarmentryview.21	You cannot enter the Homestead from this region.
-pli_privatefarmentryview.22	You cannot go to the Homestead while you are on a mount.
-pli_privatefarmentryview.23	You cannot go to the Homestead during a battle.
+pli_privatefarmentryview.8	You cannot teleport to the Marketplace.
+pli_privatefarmentryview.9	You cannot teleport if you have a creature summoned.
+pli_privatefarmentryview.10	You cannot teleport with a mount.
+pli_privatefarmentryview.11	You cannot teleport during a Jousting Tournament.
+pli_privatefarmentryview.12	You cannot teleport during a Roleplay Mission.
+pli_privatefarmentryview.13	You cannot teleport from this region.
+pli_privatefarmentryview.14	You cannot teleport while you are unconscious.
+pli_privatefarmentryview.15	You cannot teleport during PVP.
+pli_privatefarmentryview.16	You cannot teleport while you are using a skill.
+pli_privatefarmentryview.17	You cannot teleport while you are speaking with an NPC.
+pli_privatefarmentryview.18	You cannot teleport while in an Arena.
+pli_privatefarmentryview.19	You cannot teleport while on a battlefield.
+pli_privatefarmentryview.20	You cannot teleport while on a performance stage.
+pli_privatefarmentryview.21	You cannot teleport from this region.
+pli_privatefarmentryview.22	You cannot teleport while on a mount.
+pli_privatefarmentryview.23	You cannot teleport while engaged in combat.
 pli_privatefarmentryview.24	Homestead
 pli_privatefarmentryview.25	You can decorate your own home\nand grow crops.\n\n<color=3>Homestead Preparation event is in progress,\nGather more Homestead stones from monsters!</color>\n\nRequired Item : Homestead Ticket
 pli_privatefarmentryview.26	\nHomestead Stone : {0}\n\n
@@ -4622,6 +4774,7 @@ pli_privateislandinteractionnpcselectview.6	Can be placed: {0}/{1}
 pli_privateislandinteractionnpcselectview.7	No Effect
 pli_privateislandinvenview.1	There is not enough space in your inventory.
 pli_privateislandinvenview.2	You cannot change the style of an islander who is in the middle of production.
+pli_privateislandinvenview.3	주민창고에 있는 <color=5>{0} {1}개</color>를 버립니다.\n아이템을 버려도 만족도는 차감되지 않습니다.\n정말로 버리시겠습니까?
 pli_privateislandknownpcskillview.1	Would you like to obtain\nthe {0} Skill?
 pli_privateislandknownpcskillview.2	<color=5>LV.{0} {1}</color>\n\nEffect:\n{2}\n\n{3}
 pli_privateislandnpcskillview.1	You cannot change the skills of an islander who is in the middle of production.
@@ -4800,8 +4953,8 @@ pli_raidpartymainview.17	Do you really want to leave this squad?
 pli_raidpartymainview.18	Teleports you to the Knight Assembly Area. This function becomes usable again at 12:00 PM and 12:00 AM Erinn time.\nDo you wish to teleport now?
 pli_raidpartymainview.19	Do you want to reassign this team member?
 pli_raidpartymainview.20	Do you want to change this slot's availability?
-pli_raidpartymainview.21	Recruiting On
-pli_raidpartymainview.22	Recruiting Off
+pli_raidpartymainview.21	Recruit Locally
+pli_raidpartymainview.22	Recruiting Locally
 pli_raidpartymainview.23	Do you want to reassign this team member?
 pli_raidpartymaketabframe.1	Try again after completing your current mission.
 pli_raidpartymaketabframe.2	Please enter the squad objective.
@@ -5498,7 +5651,7 @@ pli_tradeauctionmarkettab.3	Search Suffix
 pli_tradeauctionmarkettab.4	Please enter the name of the item to search for.
 pli_tradeauctionmarkettab.5	Please check the item name before you search.
 pli_tradeauctionmarkettab.6	There are no items that meet that criteria.
-pli_tradeauctionmarkettab.7	Total
+pli_tradeauctionmarkettab.7	All
 pli_tradeauctionmarkettab.8	Would you like to view the item details?
 pli_tradeauctionmarkettab.9	Please search after selecting a detailed category.
 pli_tradeauctionmarkettab.10	You must enter at least one letter or number to search.
@@ -5851,15 +6004,15 @@ pli_usercreateddungeonview.39	{0} {1} {2} {3}
 pli_usercreateddungeonview.40	Hall of Crusaders
 pli_usercreateddungeonview.41	You can enter up to {0} times per day.
 pli_usercreatedtotemcomposeview.1	Choose your emblem.
-pli_usercreatedtotemcomposeview.2	{0} Lv. {1} will increase to {2} Lv. {3}\n
+pli_usercreatedtotemcomposeview.2	{0} Lv.{1} will increase to Lv.{2}\n
 pli_usercreatedtotemcomposeview.3	{0} Lv. 1 will be added\n
-pli_usercreatedtotemcomposeview.4	One of the below will be applied:
+pli_usercreatedtotemcomposeview.4	One of the following effects will be applied:
 pli_usercreatedtotemcomposeview.5	Item does not exist.
 pli_usercreatedtotemcomposeview.6	Do you want to synthesize these emblems?
 pli_usercreatedtotemcomposeview.7	\nA failed synthesis will destroy both emblems.
 pli_usercreatedtotemcomposeview.8	Emblem Synthesis
 pli_usercreatedtotemcomposeview.9	You cannot synthesize activated emblems.
-pli_usercreatedtotemcomposeview.10	Both emblems must be of the same type.
+pli_usercreatedtotemcomposeview.10	You cannot use this emblem as a material for further synthesis.\nYou must use an emblem with a different stat.
 pli_usercreatedtotemcomposeview.11	Choose your emblem.
 pli_usercreatedtotemcomposeview.12	Can be synthesized only with emblems of the same type.
 pli_usershopsearchview.1	Item Search
@@ -6197,7 +6350,7 @@ pli_windowcharacter.62	You must wait 7 days your character was created or your m
 pli_windowcharacter.63	You cannot rebirth while engaged in a pursuit.
 pli_windowcharacter2.1	{0} (Real Time: {1})
 pli_windowcharacter2.2	{0}day(s) {1}hour(s)
-pli_windowcharacter2.3	When you turn 20, you can rebirth without a character card.
+pli_windowcharacter2.3	You'll be able to Rebirth one day after either creating your character, or after your last rebirth.
 pli_windowcharacter2.4	Avail
 pli_windowcharacter2.5	Avail
 pli_windowcharacter2.6	Unavail
@@ -6232,6 +6385,7 @@ pli_windowconditionballoon.4	(Magic Defense: -{0}, Magic Protection: -{1})
 pli_windowconditionballoon.5	
 pli_windowconditionballoon.6	Encounter Chance Increased
 pli_windowconditionballoon.7	Encounter Chance Decreased
+pli_windowconditionballoon.8	(방어:-{0},보호:-{1},마법 방어:-{2},마법 보호:-{3})
 pli_windowconfiguration.1	There are changes that have not been applied.\nClose the menu without saving?
 pli_windowcontestframe.1	{0}\nSubmission complete
 pli_windowcontestframe.2	\nCurrently in stage {1}.
@@ -6278,6 +6432,9 @@ pli_windowdungeonrankview.19	My Rank: Rank {0}
 pli_windowdungeonrankview.20	Dungeon: {0}
 pli_windowdungeonrankview.21	By Score
 pli_windowdungeonrankview.22	By Time
+pli_windowdurabilityview.1	{0}의 내구도가 <color=5>{1}%</color> 입니다.
+pli_windowdurabilityview.2	{0}의 내구도가 <color=5>20%</color> 이하입니다.
+pli_windowdurabilityview.3	{0}의 내구도가 <color=5>0</color>입니다.
 pli_windowdyeing.1	위의 {0}가지 색 또는 특별한 색 중 하나로 염색됩니다. \n색을 골라주세요.
 pli_windowdyeing.2	The color will change to one of the {0} colors featured in preview section. \nPlease select a color.
 pli_windowdyeing.3	Will be dyed the color of the preview above.
@@ -6357,7 +6514,7 @@ pli_windowfriendlistpopup.6	You cannot block a user you have just sent a messeng
 pli_windowfriendlistpopup.7	Do you want to delete {0} [{1}]?
 pli_windowfriendlistpopup.8	Do you want to delete the selected group?
 pli_windowfriendlistpopup.9	Add Friend
-pli_windowfriendlistpopup.10	Guild Member Menu
+pli_windowfriendlistpopup.10	Member Menu
 pli_windowfriendlistpopup.11	Remove from Blacklist
 pli_windowfriendlistpopup.12	Enter Homestead
 pli_windowfriendlistpopup.13	Allow Homestead Visitation
@@ -6366,7 +6523,13 @@ pli_windowfriendlistpopup.15	Expand all friend groups.\nYou can also hold Ctrl a
 pli_windowfriendlistpopup.16	Collapse All
 pli_windowfriendlistpopup.17	Collapse all friend groups.\nYou can also hold Ctrl and double-click a group name to collapse all groups.
 pli_windowfriendlistpopup.18	Enter Moonlight Island
-pli_windowfriendlistpopup.25	파티 초대하기
+pli_windowfriendlistpopup.19	Appoint as Guild Officer
+pli_windowfriendlistpopup.20	Change this member's rank to Guild Officer
+pli_windowfriendlistpopup.21	Appoint as Sr. Member
+pli_windowfriendlistpopup.22	Change this member's rank to Senior Member
+pli_windowfriendlistpopup.23	Set to Regular Member
+pli_windowfriendlistpopup.24	Change this member's rank to Regular Member
+pli_windowfriendlistpopup.25	Invite to Party
 pli_windowfriendtreeview.1	Offline
 pli_windowgameclockweather.1	{0} {1}:{2}
 pli_windowgeneralnpcshop.1	View as List
@@ -6418,8 +6581,9 @@ pli_windowgroupnameinput.3	Please insert the group name.
 pli_windowgrowthguideview.1	Can be used after completing the [Guide] Growth Guide quest,\nreceived after clearing Blaanid's Brave Boost Volume 3.
 pli_windowgrowthguideview.2	Cumulative Points ({0} / {1})
 pli_windowgrowthguideview.3	No completion rewards are available.
+pli_windowgrowthguideview.4	You can get the <color=5>[Brave Boost] Arcana Achievement Mission</color> Guide Quest after completing Blaanid's Brave Boost Volume 3.\nCan be used after clearing the <color=5>[Guide] Growth Guide</color> quest, during the initial quest after selecting the Main Character, <color=5>[Growth Guide] Arcana Achievement Mission</color>.
 pli_windowguildjoin.1	You have already applied to join this guild.
-pli_windowguildjoin.2	펫은 길드에 가입할 수 없습니다.
+pli_windowguildjoin.2	Pets cannot join a guild.
 pli_windowguildlistboard.1	Guild List
 pli_windowguildlistboard.2	Search Name:
 pli_windowguildlistboard.3	Search 
@@ -6872,12 +7036,12 @@ pli_windowmessengermain.2	See Friends
 pli_windowmessengermain.3	View Guild Members
 pli_windowmessengermain.4	Can view the login status of my registered friends.
 pli_windowmessengermain.5	Can view the login status of the registered guild members.
-pli_windowmessengermain.6	Guild Home (G)
+pli_windowmessengermain.6	Guild Home
 pli_windowmessengermain.7	{0} (Guild)
 pli_windowmessengermain.8	{0} (Guild)
 pli_windowmessengermain.9	There are no registered guilds.
 pli_windowmessengermain.10	Guild List
-pli_windowmessengermain.11	You are not in a Guild. Request to join one\nby pressing the Guild List button below.
+pli_windowmessengermain.11	You are not a member of a guild. Click the guild icon at the bottom of the screen to search for one, or view recommended guilds.
 pli_windowmessengermain.12	Referral Info
 pli_windowmessengermain.15	. You cannot message your friend if their status is set to 'Offline'.
 pli_windowmessengeroption.1	Nickname
@@ -6960,6 +7124,8 @@ pli_windowmissionsheet.38	Open Storyline
 pli_windowmissionsheet.39	You can now receive and begin the quest.
 pli_windowmissionsheet.40	Receive quest
 pli_windowmissionsheet.41	Request Help
+pli_windowmissionsheet.42	Automatically finds the best route to the quest destination.
+pli_windowmissionsheet.43	Auto-Pathfinding
 pli_windowmissionsheetbingo.1	Bingo Row Reward
 pli_windowmissionsheetbingo.2	Perfect Bingo Reward
 pli_windowmissionsheetcreate.1	Notes
@@ -6969,6 +7135,16 @@ pli_windowmovieshow.2	The file cannot be found.
 pli_windowmovieshow.3	The codec for this movie file cannot be found.
 pli_windowmovieshow.4	This is an unknown file extension.
 pli_windowmulticlasslevelup.1	Arcana Link\nStage {0}
+pli_windownavigationregionconfirm.1	Spend <color=2><outlinecolor=3>{0} Gold</outlinecolor></color> to teleport to the {1}.\nThe fee will be waived if your cumulative level is\nbelow 10,000, or if you currently have an active\nBasic VIP Membership.
+pli_windownavigationregionconfirm.2	Moving to {0}.
+pli_windownavigationregionconfirm.3	Moon Gate
+pli_windownavigationregionconfirm.4	Mana Tunnel
+pli_windownavigationregionconfirm.5	\n\nThis destination can be reached on foot without\nspending Gold using the <color=2><outlinecolor=3>Go on Foot</outlinecolor></color> button.
+pli_windownavigationregionconfirm.6	\nThis destination can be reached on foot using the\n<color=2><outlinecolor=3>Go on Foot</outlinecolor></color> button.
+pli_windownavigationregionconfirm.7	Go
+pli_windownavigationregionconfirm.8	Go ({0})
+pli_windownavigationregionconfirm.9	Go on Foot
+pli_windownavigationregionconfirm.10	Cancel Move
 pli_windownewcharacter.0	You need the Basic Elf card.
 pli_windownewcharacter.1	You need the Premium Elf card.
 pli_windownewcharacter.2	Select the race that you would like to create your character as.\n\nWhen humans grow, their progress is evenly distributed between stamina, intelligence, and skills.\nThey are very well-versed at melee combat, and can provide immense excitement in battles once the combat skills are mastered.\n\nElves are highly skilled, have high intelligence as well as high MP.\nElves, unlike humans, use bows and a lot of magic which enables them to launch powerful attacks, and faster movement. Elves can make long-range attacks from an early age which gives them an edge when it comes to safety and effectiveness.  
@@ -7293,6 +7469,8 @@ pli_windowoptiontabsetcframe.80	Guildmates
 pli_windowoptiontabsetcframe.81	OFF
 pli_windowoptiontabsetcframe.82	Status List
 pli_windowoptiontabsetcframe.83	Lock the Status List window. While locked, you cannot make changes to the Status List or move the window.
+pli_windowoptiontabsetcframe.84	마나 셸 잠그기
+pli_windowoptiontabsetcframe.85	마나 셸 창을 잠급니다. 잠금 상태에서는 창을 이동할 수 없습니다.
 pli_windowoptiontabsetcframe.autohide_ssb	Lock Extra Skill Slot
 pli_windowoptiontabsetcframe.autohide_ssb_tp	Locks the extra skill slot.\nLocked skills cannot be removed from the window. Prevents window from being moved.
 pli_windowoptiontabsetcframe.l_ssb	Show Extra Skill Slot 1
@@ -7429,16 +7607,16 @@ pli_windowparty.11	Team Ready
 pli_windowparty.12	Party Board
 pli_windowparty.13	Start Mini-game
 pli_windowparty.14	Try matching all the cards within the time limit.\nDo you want to begin the game?
-pli_windowparty.15	너무 자주 이용할 수 없습니다. {0}초 이후 다시 시도해주세요.
-pli_windowparty.16	목적지가 없는 파티입니다.
-pli_windowparty.17	{0}{으로} 이동하시겠습니까?
-pli_windowparty.18	[거대한 외침의 뿔피리]를 보유하고 있지 않습니다.
-pli_windowparty.19	목적지 이동
-pli_windowparty.20	뿔피리 홍보
-pli_windowparty.21	파티 게시판 모집
-pli_windowparty.22	파티 게시판 모집중
-pli_windowparty.23	해당 파티는 목적지가 없어서 이용할 수 없습니다.
-pli_windowparty.24	파티 설정 변경
+pli_windowparty.15	This action is currently recharging. Please try again in {0} seconds.
+pli_windowparty.16	This party has not set a destination.
+pli_windowparty.17	Would you like to teleport to {0}?
+pli_windowparty.18	You do not have a [Horn Bugle - World].
+pli_windowparty.19	Move to Destination
+pli_windowparty.20	Recruit via Bugle
+pli_windowparty.21	Recruit on Party Board
+pli_windowparty.22	Recruiting on Party Board
+pli_windowparty.23	Cannot be used by this party, as no destination has been set.
+pli_windowparty.24	Change Party Settings
 pli_windowpartyboard.1	Party Board
 pli_windowpartyboard.2	Party Properties:
 pli_windowpartyboard.3	Party Goals:
@@ -7468,13 +7646,13 @@ pli_windowpartyboard.26	Current Channel
 pli_windowpartyboard.27	Ascending Order
 pli_windowpartyboard.28	Descending Order
 pli_windowpartyboard.29	Channel Info
-pli_windowpartyboard.30	검색어를 입력하세요.
+pli_windowpartyboard.30	Enter a search term.
 pli_windowpartyboardframe.1	Leader
-pli_windowpartyboardframe.2	Goals
+pli_windowpartyboardframe.2	Objective
 pli_windowpartyboardframe.3	Details
 pli_windowpartyboardframe.4	Restrictions
 pli_windowpartyboardframe.5	Size
-pli_windowpartyboardframe.6	Features
+pli_windowpartyboardframe.6	Access
 pli_windowpartyboardframe.7	Join
 pli_windowpartyboardframe.8	Join
 pli_windowpartyboardframe.9	Cannot join the party due to cumulative level restrictions.
@@ -7485,14 +7663,14 @@ pli_windowpartyboardframe.13	You are already in a party.
 pli_windowpartyboardframe.14	It's {0}({1})'s party.\n \"{2}\"
 pli_windowpartyboardframe.15	Party Name
 pli_windowpartyboardframe.16	It's {0}({1})'s party.\n \"{2}\"\n{3}
-pli_windowpartyboardframe.17	목적
-pli_windowpartyboardframe.18	파티 목적 : {0}\n
-pli_windowpartyboardframe.19	세부 항목 : {0}\n
-pli_windowpartyboardframe.20	제한 없음
-pli_windowpartyboardframe.21	제한 사항 : {0}\n
-pli_windowpartyboardframe.22	(없음)
-pli_windowpartyboardframe.23	제한 없음
-pli_windowpartyboardframe.24	{0}({1})님의 파티입니다.\n \"{2}\"\n{3}{4}{5}
+pli_windowpartyboardframe.17	Objective
+pli_windowpartyboardframe.18	Party Objective: {0}\n
+pli_windowpartyboardframe.19	Details: {0}\n
+pli_windowpartyboardframe.20	No Restrictions
+pli_windowpartyboardframe.21	Restrictions: {0}\n
+pli_windowpartyboardframe.22	(none)
+pli_windowpartyboardframe.23	No Restrictions
+pli_windowpartyboardframe.24	This is {0}({1})'s party.\n \"{2}\"\n{3}{4}{5}
 pli_windowpartydetail.1	Party Join Confirmation
 pli_windowpartydetail.2	Password:
 pli_windowpartydetail.3	Join Party
@@ -7503,7 +7681,7 @@ pli_windowpartymake2.2	Recruiting members for a Party Music Jam.\nWhen the Party
 pli_windowpartymake2.3	Jam Band
 pli_windowpartymake2.4	Recruiting members for a Party Music Jam.\nWhen the Party Leader plays a musical piece\nthe rest of the members will each perform their own piece simultaneously.
 pli_windowpartymake2.5	If you have a Music Jam Action, you can recruit for a Music Jam Ensemble.
-pli_windowpartymake2.6	Register on the Party Board
+pli_windowpartymake2.6	Recruit on Party Board
 pli_windowpartymake2.7	Please enter the following details to register in the Party Board.
 pli_windowpartymake2.8	Please select the party's goals.
 pli_windowpartymake2.9	Goals:
@@ -7613,7 +7791,7 @@ pli_windowpocketitemaction.46	Can only be used on amulets with {0} available enh
 pli_windowpocketitemaction.47	Cannot be used at regular enhancement level.
 pli_windowpocketitemaction.48	Are you sure you want to spend Additional Stat Stones to grant the amulet mysterious powers?\nIf the enhancement succeeds with these powers, the stat effects will be further increased by {0}.\nIf regular enhancement fails, the Additional Stat Stone effect on the amulet will be lost.
 pli_windowpocketitemaction.49	Only runes of the same type as the emblem can be used.
-pli_windowpocketitemaction.51	This function can only be used by the Guild Master.
+pli_windowpocketitemaction.51	This function can only be used by the Guild Leader.
 pli_windowpocketitemaction.52	You cannot equip that item.
 pli_windowpocketitemaction.53	You cannot change the style of an islander who is in the middle of production.
 pli_windowpocketitemaction.54	This item cannot be sold.
@@ -7691,12 +7869,12 @@ pli_windowpopupcharacter.70	Details
 pli_windowpopupcharacter.71	View Skill
 pli_windowpopupcharacter.72	Enter Moonlight Island
 pli_windowpopupcharacter.73	Remove from Island
-pli_windowpopupcharacter.74	함께 앉기
-pli_windowpopupcharacter.75	파티 초대하기
-pli_windowpopupcharacter.76	기본 인터랙션 기능 켜기
-pli_windowpopupcharacter.77	기본 인터랙션 기능 끄기
-pli_windowpopupcharacter.78	앉을 자리가 없습니다.
-pli_windowpopupcharacter.79	현재 상대방이 접속 중이 아닙니다.
+pli_windowpopupcharacter.74	Sit Together
+pli_windowpopupcharacter.75	Invite to Party
+pli_windowpopupcharacter.76	Enable Basic Interaction Feature
+pli_windowpopupcharacter.77	Disable Basic Interaction Feature
+pli_windowpopupcharacter.78	There is no room available.
+pli_windowpopupcharacter.79	Player is offline.
 pli_windowpopupitem.0	Change Direction
 pli_windowpopupitem.1	Set Rental Fee
 pli_windowpopupitem.2	Open Production Window
@@ -7835,6 +8013,8 @@ pli_windowquest.13	DivKn
 pli_windowquest.14	Filtering
 pli_windowquest.15	You can request help with your current quest,\or help out with someone else's request.
 pli_windowquest.16	Quest Help
+pli_windowquest.17	Continue Blaanid's Brave Boost
+pli_windowquest.18	View Arcana Achievement Mission
 pli_windowquestevilscrollboard.1	Mission Reward: {0}
 pli_windowquestframes.1	This is a storyline quest.
 pli_windowquestframes.2	Shadow Mission
@@ -8008,9 +8188,9 @@ pli_windowshadowmissionboard.9	Time Limit
 pli_windowshadowmissionboard.10	Mission Info is being updated
 pli_windowshadowmissionboard.11	Cannot be used with an Animal Character.
 pli_windowshadowmissionboard.12	Accept Shadow Mission
-pli_windowshadowmissionboard.13	Register Shadow Mission Party on Bulletin
-pli_windowshadowmissionboard.14	Register Recruitment Notice
-pli_windowshadowmissionboard.15	Intro
+pli_windowshadowmissionboard.13	Recruit on Party Board
+pli_windowshadowmissionboard.14	Recruit on Party Board
+pli_windowshadowmissionboard.15	Party Name
 pli_windowshadowmissionboard.16	Pwd.
 pli_windowshadowmissionboard.17	
 pli_windowshadowmissionboard.18	
@@ -8027,7 +8207,7 @@ pli_windowshadowmissionboard.28	Time
 pli_windowshadowmissionboard.29	None
 pli_windowshadowmissionboard.30	Mission Details
 pli_windowshadowmissionboard.31	You are too far from the bulletin to accept the mission.
-pli_windowshadowmissionboard.32	Your party intro is too short.\nPlease enter at least four letters.
+pli_windowshadowmissionboard.32	Your party name is too short.\nPlease enter at least four letters.
 pli_windowshadowmissionboard.33	You must complete your current Shadow Mission before you take another.
 pli_windowshadowmissionboard.34	Your level is too low for this mission.
 pli_windowshadowmissionboard.35	Only a party leader can receive a mission.
@@ -8188,7 +8368,7 @@ pli_windowskilltabframe2.3	Crusader Lv: {0}
 pli_windowskilltabframe2.4	Points: {0}/{1}
 pli_windowskilltabframe2.5	Current Arcana Talent: {0}
 pli_windowskilltabframe2.6	Arcana Level: {0}
-pli_windowslavepocket.1	[악보 스크롤] 장착 해제 후 장비 변경이 가능합니다.
+pli_windowslavepocket.1	You can change the gear after unequipping the Music Score Scroll.
 pli_windowsmsauth.0	{0} 고객님은 인증 로그인 {1} 타입 서비스를 이용 중입니다.
 pli_windowsmsauth.1	마지막으로 접속한 IP는 {0} 입니다.
 pli_windowsmsauth.2	유효시간 {0} 안에 입력해주세요.
@@ -8369,6 +8549,8 @@ pli_windowtaskbar.80	Chapter Info
 pli_windowtaskbar.81	Pets / Spirits
 pli_windowtaskbar.82	Main Storyline
 pli_windowtaskbar.83	Guides
+pli_windowtaskbar.84	Guild
+pli_windowtaskbar.85	Guild {0}
 pli_windowtaskbaraction.1	현재 테스트 서버에서 엘프는 어드밴스드 아이템을 받을 수 없습니다.
 pli_windowtaskbaraction.2	A pet is already summoned.
 pli_windowtaskbaraction.3	The animal character is not present at slot number {0} of the pet summon window.
@@ -8550,6 +8732,7 @@ pli_windowwarpbookview.1	This location is not registered.\nPlease register the l
 pli_windowwarpbookview.2	Resets every night at midnight.
 pli_windowwarpbookview.3	Teleports you to {0} location.\nDo you wish to teleport now?
 pli_windowwarpbookview.4	Warp
+pli_windowweb.2	Open in Default Browser
 pli_windowwinehelpview.1	Help
 pli_windowwinehelpview.2	<color=2><outlinecolor=3>Wine Harvesting</outlinecolor></color>
 pli_windowwinehelpview.3	<color=2><outlinecolor=3>Aging</outlinecolor></color>
@@ -8946,19 +9129,19 @@ window.dyed_static_color_success	{0} was dyed successfully!
 window.dyeing.after	After Dyeing
 window.dyeing.before	Before Dyeing
 window.dyeing.cancel_button	Cancel
-window.dyeing.description	The selected parts will be dyed.\nPlease select a part to dye.
+window.dyeing.description	Parts may color multiple areas.\nSome parts may require specific dyes, such as Metal Dye.
 window.dyeing.msg_choose_part	Select a part to dye and press Pick Color.
 window.dyeing.msg_waiting	Loading palette
 window.dyeing.msg_waiting_2	Loading
 window.dyeing.pick_color_button	Pick Color
-window.dyeing.start_button	Start Dyeing
+window.dyeing.start_button	Start
 window.dyeing.text_choose_color	One of the five colors in preview will be used in dyeing. \nPlease select a color.
 window.dyeing.text_main	Choose a color to be used in dyeing the selected part.
 window.dyeing.text_part_a	Part A
 window.dyeing.text_part_b	Part B
 window.dyeing.text_part_c	Part C
 window.dyeing.title	Dyeing Form
-window.dyeing.title_text	Dye a desired part.
+window.dyeing.title_text	Select a part to dye from those available.
 window.ego.basic_info_msg	Basic Info.
 window.ego.display_name	{0}'s {1}
 window.ego.info_desire	Level of Discontent
@@ -9121,15 +9304,15 @@ window.guild_join.cancel_button	No
 window.guild_join.close_button	OK
 window.guild_join.master_text	Guild Leader : {0}
 window.guild_join.member_num_text	Guild Members : {0}
-window.guild_join.msg_cannot_join_already_has_guild	Unable to apply for a membership of this Guild; You are already a member of another Guild.
-window.guild_join.msg_wanna_join	Do you want to send an application for a membership to this Guild?
+window.guild_join.msg_cannot_join_already_has_guild	Unable to apply for membership with this guild, as you are already a member of another guild.
+window.guild_join.msg_wanna_join	Would you like to apply to become a member of this guild?
 window.guild_join.ok_button	Yes
 window.guild_join.title_info	<large>Guild Info</large>
 window.guild_join.title_join	<large>Join Guild</large>
 window.guild_join_c.ok_button	OK
 window.guild_join_c.text_main	You are applying to join [{0}] Guild.\nEnter a message to send to the Guild leader.
 window.guild_join_c.title	<large>Join Guild</large>
-window.guild_join_c.warning_msg	Warning: Once in a Guild, you can't join another Guild for 7 days, even if you leave your current one.
+window.guild_join_c.warning_msg	Note: When you join a guild, you cannot join any other guild for 24 hours, even if you leave your guild during that time.
 window.guild_make.cancel_button	Cancel
 window.guild_make.msg_invalid_guild_name_len	Guild name must consist of at least 4 letters.
 window.guild_make.name_check_button	Check Dup.
@@ -9164,12 +9347,12 @@ window.guild_menu.msg_no_gp	No new point to be added\nPlease try again later.
 window.guild_menu.name_text	{0:guild_name} Guild's Guild Stone.
 window.guild_menu.title	<large>Guild Stone</large>
 window.guild_point.cancel_button	Cancel
-window.guild_point.main_text	Your Play Points equal <color=2>{0} GP</color>. Click OK to convert these for your Guild.
+window.guild_point.main_text	Donate <color=2>{0} GP</color>? You will receive an equal number of Guild Coins in return.
 window.guild_point.ok_button	OK
 window.guild_point.title	<large>Donate GP</large>
 window.guild_wait.close_button	Close
 window.guild_wait.guild_info_button	Guild Info
-window.guild_wait.main_text	You have already applied for [{0}] Guild.\nTo cancel the existing application,\nPress 'Cancel' on Guild Info Page\non the Website.
+window.guild_wait.main_text	You've already applied to join the [{0}] Guild. You can view the guild's information by clicking the button below. If you'd like to withdraw your request, click on the guild you applied for at the top of the Guild Search List and select "Withdraw Application".
 window.guild_wait.title	<large>Cancel Guild Application</large>
 window.housing.can_not_know	Unknown
 window.housing.castle_info	Castle information
@@ -9591,11 +9774,11 @@ window.party.banish_button	Remove from Party
 window.party.exp_mode_text	EXP-sharing Rule
 window.party.finish_mode_text	Finish Rule
 window.party.item_no_quest	None
-window.party.leave_button	Quit Party
+window.party.leave_button	Leave the Party
 window.party.msg_wanna_leave	Do you really wish to leave the party?
 window.party.quest_text	Party Quest
-window.party.recruit_button_0	Wanted
-window.party.recruit_button_1	Wanted (On)
+window.party.recruit_button_0	Recruit Locally
+window.party.recruit_button_1	Recruiting Locally
 window.party.select_entruster_cancel_button	Cancel
 window.party.select_entruster_desc	Select a party member to entrust.
 window.party.select_entruster_ok_button	OK
@@ -9969,7 +10152,7 @@ window.score_scroll.ch2_text	Harmony 1
 window.score_scroll.ch3_text	Harmony 2
 window.score_scroll.compose_text	Compose
 window.score_scroll.composer_text	Composer
-window.score_scroll.level_text	Difficulty:
+window.score_scroll.level_text	Difficulty: 
 window.score_scroll.level_text_0	Draft
 window.score_scroll.level_text_x	Grade {0}
 window.score_scroll.msg_no_composer	Enter the composer.
