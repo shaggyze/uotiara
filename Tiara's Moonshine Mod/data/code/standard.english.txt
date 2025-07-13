@@ -280,9 +280,9 @@ interface_minigame.17	You cannot start a mini-game in the Clobbermeister Zone.
 interface_minigame.18	You can't start a mini-game currently.
 interface_multiclass.1	Requires a close combat weapon to use.
 interface_multiclass.2	{0} cannot be used with a 0 durability weapon.
-interface_multiclass.3	마나 셸
-interface_multiclass.4	과열
-interface_multiclass.5	{0}{이} 부족하여 스킬을 사용할 수 없습니다.
+interface_multiclass.3	Mana Shells
+interface_multiclass.4	Mana Pressure
+interface_multiclass.5	You don't have enough {0} for this skill.
 interface_personalrankingmgr.1	Girgashiy
 interface_personalshopcustomer.1	Armor
 interface_personalshopcustomer.2	Weapons
@@ -561,6 +561,8 @@ itemoptiondeschelper.39	Recovers Wounds Equal to Healing Effect
 itemoptiondeschelper.40	Movement Speed
 itemoptiondeschelper.41	Magic Casting Speed
 itemoptiondeschelper.42	Constellation Casting Mini-game Bonus
+itemoptiondeschelper.62	힐링 스킬 생명력 회복 효과
+itemoptiondeschelper.63	파티 힐링 스킬 생명력 회복 효과
 itemoptionset.1	Spirit 
 itemqualitymgr.1	Talent Bonus: 
 itemqualitymgr.2	Grandmaster craft bonus : 

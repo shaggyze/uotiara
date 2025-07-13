@@ -1201,8 +1201,8 @@ pli_characterconditionremaintimeview.3	 <color=2>(Polyphony)</color>
 pli_characterconditionremaintimeview.4	Compact
 pli_characterconditionremaintimeview.5	Expand
 pli_characterconditionremaintimeview.6	No more can be added.
-pli_characterconditionremaintimeview.7	 (비활성)
-pli_characterconditionremaintimeview.8	<color=4>(투안의 노래)</color>
+pli_characterconditionremaintimeview.7	  (Deactivated)
+pli_characterconditionremaintimeview.8	<color=4>(Tuan)</color>
 pli_characterconditionremaintimeviewframe.1	Buffs marked as favorites cannot be moved to another position.
 pli_characterconditionremaintimeviewframe.2	Favorites
 pli_characterconditionremaintimeviewframe.3	Hidden
@@ -1589,7 +1589,7 @@ pli_configurationhandlers_play.39	Locks the extra skill slots. While locked, the
 pli_configurationhandlers_play.40	Locks the pet skill slots. While locked, the array cannot be moved, and skills cannot be removed from the slots.
 pli_configurationhandlers_play.41	Locks the position of the Astrology Cards UI.
 pli_configurationhandlers_play.42	Lock the Status List window. While locked, you cannot make changes to the Status List or move the window.
-pli_configurationhandlers_play.43	마나 셸 창을 잠급니다. 잠금 상태에서는 창을 이동할 수 없습니다.
+pli_configurationhandlers_play.43	Lock the Mana Shell window. While locked, you cannot move the window.
 pli_configurationhandlers_play.44	When enabled, Reserve Attack will queue up basic attacks after using skills. It can only be used when set to Manual Combat mode.
 pli_configurationhandlers_social.1	Allows other players to view your equipment.
 pli_configurationhandlers_social.2	Allows other players to compare their Journals with yours.
@@ -1971,7 +1971,7 @@ pli_egoweaponfoodfilterview.3	Misc.
 pli_egoweaponfoodfilterview.4	High Value Items
 pli_egoweaponfoodfilterview.5	Low Value Items
 pli_egoweaponfoodframe.1	Alert
-pli_egoweaponfoodframe.2	You can select up to {0} items.
+pli_egoweaponfoodframe.2	You can select up to {0} unique items.
 pli_egoweaponfoodframe.3	Alert
 pli_egoweaponfoodframe.4	You've selcted an enhanced item.\nAre you sure you want to continue?
 pli_egoweaponfoodframe.5	Divide Spirit Food
@@ -2413,8 +2413,9 @@ pli_fishingboxview.3	There is not enough space in your inventory.
 pli_fixedcolordyeingview.1	Preview
 pli_flipcardmatchresultview.1	Time Remaining: {0}{1} sec
 pli_flipcardmatchresultview.2	{0} Cards
-pli_flyhighview.1	플라이 이벤트를 해금하기 위해서는,\n아르카나 부스팅 퀘스트를 완료해야 합니다.\n\n아르카나 부스팅 퀘스트는 부스트 이벤트가 완료되면 부여되는 퀘스트로, \n퀘스트창의 이벤트 탭을 확인해주세요.
-pli_flyhighview.2	플라이 이벤트를 해금하기 위해서는,\n아르카나 부스팅 퀘스트를 완료해야 합니다.\n\n아르카나 부스팅 퀘스트는 부스트 이벤트가 완료되면 부여되는 퀘스트로, \n퀘스트창의 이벤트 탭을 확인해주세요.
+pli_flyhighview.1	To access everything the Flying High event has to offer, you must complete the Arcana Boost quest,\nwhich you'll receive upon completing the "Dash" part of this event.\n\nCheck the Event tab in your Quest Window for more information.
+pli_flyhighview.2	To access everything the Flying High event has to offer, you must complete the Arcana Boost quest,\nwhich you'll receive upon completing the "Dash" part of this event.\n\nCheck the Event tab in your Quest Window for more information.
+pli_flyhighview.3	Unlock Requirement
 pli_focuslistenblockview.1	Unblock {0}?
 pli_focuslistenblockview.2	Block {0}?
 pli_focuslistenblockview.3	The character cannot be found.\nPlease check the character name.
@@ -2441,8 +2442,8 @@ pli_freeseasonguidebookselectview.2	Apply
 pli_freeseasonguidebookselectview.3	Close
 pli_freeseasonguidebookselectview.4	Please select 5 effects and try again.
 pli_freeseasonguidebookselectview.5	You've reached the maximum number of effects. You cannot add any more.
-pli_freeseasonguidebookselectview.6	In order to apply your weekly selected buffs, you must register a main character for the Brilliantly Shining Star event within the account.
-pli_freeseasonguidebookselectview.7	The item will only be given to the main character of the Brilliantly Shining Star event. This character will only receive buffs and will not receive any items.
+pli_freeseasonguidebookselectview.6	In order to apply your weekly selected buffs, you must register a main character for the Summer of Strength event within the account.
+pli_freeseasonguidebookselectview.7	The item will only be given to the main character of the Summer of Strength event. Other characters will only receive buffs and will not receive any items.
 pli_freeseasonguidebookview.1	Finale - All Buffs Applied
 pli_freeseasonguidebookview.2	This week's selected Buff: None (Select a Buff by talking to the NPC)
 pli_freeseasonguidebookview.3	This week's selected Buff: {0}
@@ -2904,14 +2905,14 @@ pli_helperapi.38	Combat
 pli_helperapi.39	Horn
 pli_helperapi.40	Field Raid
 pli_helperapi.41	NPC
-pli_helperapi.42	<color=10>(하모니)</color>
-pli_helperapi.43	<color=11>(투안의 노래)</color>
-pli_helperapi.44	마법 공격력 {0}% 증가\n마법 시전속도 {1}% 증가\n연금술 시전속도 {2}% 증가\n공격속도 {3}% 증가\n
-pli_helperapi.45	이동속도 {0}% 증가\n
-pli_helperapi.46	채집 성공률 {0}% 증가\n생산 성공률 {1}% 증가\n채집 속도 {2}% 증가\n
-pli_helperapi.47	최소 공격력 {0}% 증가\n최대 공격력 {1}% 증가\n크리티컬 확률 {2} 증가\n
-pli_helperapi.48	방어 {0} 증가\n보호 {1} 증가\n마법방어 {2} 증가\n마법보호 {3} 증가\n마나 회복속도 {4}% 증가\n스태미나 회복속도 {5}% 증가\n
-pli_helperapi.49	남은시간 : 
+pli_helperapi.42	 <color=10>(Polyphony)</color>
+pli_helperapi.43	<color=11>(Tuan)</color>
+pli_helperapi.44	Magic Attack +{0}%\nMagic Casting Speed +{1}%\nAlchemy Charging Speed +{2}%\nAttack Speed +{3}%\n
+pli_helperapi.45	Movement Speed +{0}%\n
+pli_helperapi.46	Gathering Success Rate +{0}%\nProduction Success Rate +{1}%\nGathering Speed +{2}%\n
+pli_helperapi.47	Min Attack +{0}%\nMax Attack +{1}%\nCritical Rate +{2}\n
+pli_helperapi.48	Defense +{0}\nProtection +{1}\nMagic Defense +{2}\nMagic Protection +{3}\nMP Recovery Speed +{4}%\nStamina Recovery Speed +{5}%\n
+pli_helperapi.49	Time Remaining: 
 pli_helperapiskill.1	Currently aware of the skill.\nBecomes available once the Classic Spirit Weapon's social level reaches 21.
 pli_helperapiskill.2	Beast
 pli_helperapiskill.3	The First Dan
@@ -3846,7 +3847,7 @@ pli_magigraphrepairview.1	0/{0}
 pli_magigraphrepairview.2	 Cost
 pli_magigraphrepairview.3	{0}/{1}
 pli_mailboxlistboxitem.1	(No item)
-pli_mainstreamskipbookview.1	메인스트림 G{0}의 이야기를 머리 속에 각인합니다.\n진행 중인 G{0} 퀘스트 정보가 모두 사라지고 완료 처리됩니다.\n메인스트림을 스킵하시겠습니까?
+pli_mainstreamskipbookview.1	This will fill your mind with memories of the G{0} storyline.\nOnce you use it, all your quests in progress from G{0} will be completed and removed.\nAre you sure you want to skip the storyline?
 pli_makeampulview.1	Normal
 pli_makeampulview.2	Metal
 pli_makeampulview.3	Instrument
@@ -5097,7 +5098,7 @@ pli_roulettebingoview.2	Next Coin In:
 pli_royalrankingview.1	This player has relinquished their position with the Royal Institution.
 pli_scrapbookbestcookview.1	<color=4><outlinecolor=5>{0:Server name}'s Best\n{1:Name of dish}</outlinecolor></color>
 pli_scrapbookbestcookview.2	A word from Master Chef {0}
-pli_scrapbookbestcookview.3	You've made the best {0:food name}.\nLet everyone know about it!
+pli_scrapbookbestcookview.3	You made the best {0:food name}. Time to tell the world!
 pli_scrapbookbestcookview.4	Enter a comment.
 pli_scrapbookbestcookview.5	The phrase includes a term that is deemed inappropriate.
 pli_scrapbookdetailview.1	{0:year}-{1:month}-{2:day} {3:hour}:{4:minute}:{5:second} 
@@ -5776,6 +5777,7 @@ pli_transmute2022view.9	Register Tools and Materials
 pli_transmute2022view.10	Register Tools and Materials
 pli_transmute2022view.11	Add Favorites
 pli_transmute2022view.12	Delete Favorites
+pli_transmute2022view.13	창 닫지 않기
 pli_transmuteview.1	{0} Synthesis
 pli_transmuteview.2	{0} Fragmentation
 pli_transmuteview.3	This item cannot be used as an ingredient for synthesis.
@@ -6385,7 +6387,7 @@ pli_windowconditionballoon.4	(Magic Defense: -{0}, Magic Protection: -{1})
 pli_windowconditionballoon.5	
 pli_windowconditionballoon.6	Encounter Chance Increased
 pli_windowconditionballoon.7	Encounter Chance Decreased
-pli_windowconditionballoon.8	(방어:-{0},보호:-{1},마법 방어:-{2},마법 보호:-{3})
+pli_windowconditionballoon.8	(Defense: -{0}, Protection: -{1}, Magic Defense: -{2}, Magic Protection: -{3})
 pli_windowconfiguration.1	There are changes that have not been applied.\nClose the menu without saving?
 pli_windowcontestframe.1	{0}\nSubmission complete
 pli_windowcontestframe.2	\nCurrently in stage {1}.
@@ -6432,9 +6434,9 @@ pli_windowdungeonrankview.19	My Rank: Rank {0}
 pli_windowdungeonrankview.20	Dungeon: {0}
 pli_windowdungeonrankview.21	By Score
 pli_windowdungeonrankview.22	By Time
-pli_windowdurabilityview.1	{0}의 내구도가 <color=5>{1}%</color> 입니다.
-pli_windowdurabilityview.2	{0}의 내구도가 <color=5>20%</color> 이하입니다.
-pli_windowdurabilityview.3	{0}의 내구도가 <color=5>0</color>입니다.
+pli_windowdurabilityview.1	The durability of {0} is <color=5>{1}%</color>.
+pli_windowdurabilityview.2	The durability of {0} is <color=5>20% or less</color>.
+pli_windowdurabilityview.3	The durability of {0} is <color=5>0</color>.
 pli_windowdyeing.1	위의 {0}가지 색 또는 특별한 색 중 하나로 염색됩니다. \n색을 골라주세요.
 pli_windowdyeing.2	The color will change to one of the {0} colors featured in preview section. \nPlease select a color.
 pli_windowdyeing.3	Will be dyed the color of the preview above.
@@ -7469,8 +7471,8 @@ pli_windowoptiontabsetcframe.80	Guildmates
 pli_windowoptiontabsetcframe.81	OFF
 pli_windowoptiontabsetcframe.82	Status List
 pli_windowoptiontabsetcframe.83	Lock the Status List window. While locked, you cannot make changes to the Status List or move the window.
-pli_windowoptiontabsetcframe.84	마나 셸 잠그기
-pli_windowoptiontabsetcframe.85	마나 셸 창을 잠급니다. 잠금 상태에서는 창을 이동할 수 없습니다.
+pli_windowoptiontabsetcframe.84	Lock Mana Shells
+pli_windowoptiontabsetcframe.85	Lock the Mana Shell window. While locked, you cannot move the window.
 pli_windowoptiontabsetcframe.autohide_ssb	Lock Extra Skill Slot
 pli_windowoptiontabsetcframe.autohide_ssb_tp	Locks the extra skill slot.\nLocked skills cannot be removed from the window. Prevents window from being moved.
 pli_windowoptiontabsetcframe.l_ssb	Show Extra Skill Slot 1
@@ -9129,7 +9131,7 @@ window.dyed_static_color_success	{0} was dyed successfully!
 window.dyeing.after	After Dyeing
 window.dyeing.before	Before Dyeing
 window.dyeing.cancel_button	Cancel
-window.dyeing.description	Parts may color multiple areas.\nSome parts may require specific dyes, such as Metal Dye.
+window.dyeing.description	Parts may color multiple areas.\nSome parts may require specific dye types.
 window.dyeing.msg_choose_part	Select a part to dye and press Pick Color.
 window.dyeing.msg_waiting	Loading palette
 window.dyeing.msg_waiting_2	Loading

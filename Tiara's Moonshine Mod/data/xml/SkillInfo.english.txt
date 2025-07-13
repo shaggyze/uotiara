@@ -1013,7 +1013,7 @@
 1452	A skill that gathers lightning in the dragon's mouth, and unleashes it in a straight line toward enemies.
 1453	When the Fire Dragon is summoned by its master, it strikes surrounding enemies with a powerful heat wave and pushes them back.
 1454	A skill that gathers fire in the dragon's mouth, and unleashes it in an explosive burst. Ideal for use against groups of enemies.
-1459	Claudius's Conspiracy
+1459	Claudius's \nConspiracy
 1460	Ophelia's Tears
 1461	Hamlet's Anguish
 1462	Hamlet's life was filled with anguish. This skill embodies who he was. When this Persona is used, Defense and Strength increase for a fixed duration, but INT and DEX may decrease. Use the Persona that's right for you.
@@ -1113,8 +1113,8 @@
 1609	Bran's Shockwave
 1610	Bran's Arm Swing
 1611	Bran's Charge
-1612	Romeo's Confession
-1613	Tybalt's Fencing Skills
+1612	Romeo's \nConfession
+1613	Tybalt's \nFencing Skills
 1614	Juliet's Feelings
 1615	Romeo was able to express love ever so beautifully. This skill embodies who he was. When this Persona is used, DEX increases for a fixed duration. Remember to use the Persona that's right for you.
 1616	Tybalt was a hot-blooded young man known as the Greatest Swordsman of Verona. This skill embodies who he was. When this Persona is used, STR increases for a fixed duration. Remember to use the Persona that's right for you.
@@ -2089,7 +2089,7 @@
 3323	Launches forward to petrify enemies. Ideal for use against groups of enemies. \nWhen you're not mounted, cast the spell, then hold down Shift and choose your target.
 3324	Summons energy from the underworld to deal damage to a single enemy. The cry is so terrifying, the enemy will be slowed upon hearing it. If a Blinker is hit with this attack, it will be unable to fly. When you're not mounted, cast the spell, then hold down Shift and choose your target.
 3325	Begin the Rumors of Transformation quest by talking to Shamala in Courcle.
-3327	When summoned by its owner, the Bone Dragon uses powerful demonic powers to attack nearby enemies. Enemies hit by these demonic powers are stunned for a certain amount of time, and their Defense and Protection are decreased.
+3327	When summoned by its owner, the Bone Dragon uses powerful demonic powers to attack nearby enemies. Enemies hit by these demonic powers are stunned for a certain amount of time, and their Defense/Magic Defense and Protection/Magic Protection are decreased.
 3328	Doppelganger
 3329	This skill allows you to gather monster souls and turn them into clones to attack your enemies. If you have high Stamina, you can use it to inflict more damage on your enemy by making your doppelgangers more active. You must gather monster souls each time you use this skill.
 3330	This skill allows you to gather monster souls and turn them into clones to attack your enemies. If you have high Stamina, you can use it to inflict more damage on your enemy by making your doppelgangers more active. You must gather monster souls each time you use this skill.
@@ -2942,8 +2942,8 @@
 4437	Charge Time
 4438	Cooldown
 4439	Attack Range
-4440	You can hear Tuan whispering in your ears. Increases the duration of you and your party's Music Skills by 3x and grants 2x Music Skill Training EXP.
-4441	You can hear Tuan whispering in your ears. Increases the duration of you and your party's Music Skills by 3x and grants 2x Music Skill Training EXP.
+4440	You can hear Tuan whispering in your ears. Grants 2x Music Skill Training EXP to you and your party.
+4441	You can hear Tuan whispering in your ears. Grants 2x Music Skill Training EXP to you and your party.
 4442	Tuan's deep wrath decreases the movement speed of enemies that are within 8 meters of the Spirit of Tuan.
 4443	Tuan's deep wrath decreases the movement speed of enemies that are within 8 meters of the Spirit of Tuan.
 4444	Saber Strike
@@ -3764,7 +3764,7 @@
 5606	Water Balloon
 5607	Missile Attack
 5611	The kart drifts to gather enemies into one place. Targets are stunned and the UFO reduces their movement speed.
-5612	Attacks with a classic KartRider water balloon. Reduces targets' movement speed, defense, and protection.
+5612	Attacks with a classic KartRider water balloon. Reduces targets' movement speed, Defense/Magic Defense, and Protection/Magic Protection.
 5613	Launches a classic KartRider missile. Draws the targets' attention to the pet. Triggers a powerful missile attack after getting targeted.
 5614	Kart Racing Mode
 5615	Toggles Kart Racing Mode. The camera changes to a fixed angle. Steer with WASD and drift with the Shift key. You must be mounted on a kart to use this skill.
@@ -4461,14 +4461,14 @@
 6519	Pentacle of Blessing
 6520	Lucky Time
 6521	Form Change
-6522	Attacks all enemies in the area by rushing in, fur flying.The unfortunate enemies caught in the furious charge are stunned for a set duration, and their Defense and Protection are reduced.
-6523	Attacks all enemies in the area by rushing in, fur flying.The unfortunate enemies caught in the furious charge are stunned for a set duration, and their Magic Defense and Magic Protection are reduced.
+6522	Attacks all enemies in the area by rushing in, fur flying. The unfortunate enemies caught in the furious charge are stunned for a set duration, and their Defense/Magic Defense and Protection/Magic Protection are reduced.
+6523	Attacks all enemies in the area by rushing in, fur flying. The unfortunate enemies caught in the furious charge are stunned for a set duration, and their Defense/Magic Defense and Protection/Magic Protection are reduced.
 6524	Summons a special pentacle using their instinctive control of mana. The pentacle boosts their owner's stats by an amount that increases as the pet grows.
 6525	Summons a special pentacle using their instinctive control of mana. The pentacle boosts their owner's stats by an amount that increases as the pet grows.
 6526	Imbues their owner with good luck. This lucky energy improves the owner's financial fortunes and allows them to buy their loyal pet more treats. 
 6527	Changes size using magic. The pet can only fly or be used as a mount in their larger form.
-6528	Attacks all enemies in the area by rushing in, fur flying.The unfortunate enemies caught in the furious charge are stunned for a set duration, and their Defense and Protection are reduced.
-6529	Attacks all enemies in the area by rushing in, fur flying.The unfortunate enemies caught in the furious charge are stunned for a set duration, and their Magic Defense and Magic Protection are reduced.
+6528	Attacks all enemies in the area by rushing in, fur flying. The unfortunate enemies caught in the furious charge are stunned for a set duration, and their Defense/Magic Defense and Protection/Magic Protection are reduced.
+6529	Attacks all enemies in the area by rushing in, fur flying. The unfortunate enemies caught in the furious charge are stunned for a set duration, and their Defense/Magic Defense and Protection/Magic Protection are reduced.
 6530	Summons a special pentacle using their instinctive control of mana. The pentacle boosts their owner's stats by an amount that increases as the pet grows.
 6531	Summons a special pentacle using their instinctive control of mana. The pentacle boosts their owner's stats by an amount that increases as the pet grows.
 6532	Imbues their owner with good luck. This lucky energy improves the owner's financial fortunes and allows them to buy their loyal pet more treats.
@@ -4764,48 +4764,48 @@
 6832	과일 저글링
 6833	특별한 포즈를 짓게 되는 액션이다. 흥미로운 모습을 보여주는 포즈를 지어보자.
 6834	특별한 포즈를 짓게 되는 액션이다. 흥미로운 모습을 보여주는 포즈를 지어보자.
-6835	성역 전개
-6836	순간 도발
-6837	격돌
-6838	철벽 강타
-6839	심판의 일격
-6840	희생의 응징
-6841	고결한 희생
-6842	세이크리드 가드는 견고한 의지와 고결한 울림을 내는 생명력을 기반으로 마나를 결정화하고, 이 결정을 모아 방패의 형상으로 빚어낸다. 이렇게 만들어진 결정과 방패는 세이크리드 가드가 사용하는 기술의 기반이 되며 다양한 형태로 완성된다.\n성역 전개는 스테인드글라스가 무너지며 사방으로 튀는 유리의 모습을 형상화한 기술로, 결정을 강하게 응집시킨 방패를 땅에 내리치며 일정 시간 동안 영역을 전개한다. 방패가 무형의 마나로 돌아가는 과정에서 생긴 충격은 가까운 거리에 있는 적에게 피해를 주고 먼 거리에 있는 적의 시선을 빼앗는다. 이때, 흩어진 결정은 세이크리드 가드가 품은 생명력의 울림과 공명하며 영역을 형성하는데, 이 영역에 발을 디딘 자는 생명력의 울림에 이끌려 영역의 주인만을 인지하게 된다. 결정과 공명한 생명력은 시전자가 어떠한 순간에도 무너지지 않도록 강인한 의지를 끌어올린다. 세이크리드 가드는 이 영역을 성역으로 지칭하여 자신이 견고함을 공표한다.\n*방어력은 방어와 보호, 마법방어와 마법보호를 총칭한다.
-6843	세이크리드 가드는 견고한 의지와 고결한 울림을 내는 생명력을 기반으로 마나를 결정화하고, 이 결정을 모아 방패의 형상으로 빚어낸다. 이렇게 만들어진 결정과 방패는 세이크리드 가드가 사용하는 기술의 기반이 되며 다양한 형태로 완성된다.\n순간 도발은 스테인드글라스에서 쏟아진 빛이 바닥에 퍼지는 모습을 형상화한 기술로, 응집한 마나의 결정을 원하는 위치에 퍼뜨려 적의 시선을 빼앗는다. 작은 결정이 무형의 마나로 돌아가는 과정이기에 성역 전개만큼 넓은 범위에 영향을 줄 수는 없으나, 방패가 결정으로 돌아가는 과정이 없어 적의 시선을 즉각적으로 사로잡을 수 있다. 순간 도발에 직격당한 적에게는 세이크리드 가드의 마나가 덧씌워져, 일정 시간 동안 다른 순간 도발의 영향을 받지 않는다.\n*방어력은 방어와 보호, 마법방어와 마법보호를 총칭한다.
-6844	세이크리드 가드는 견고한 의지와 고결한 울림을 내는 생명력을 기반으로 마나를 결정화하고, 이 결정을 모아 방패의 형상으로 빚어낸다. 이렇게 만들어진 결정과 방패는 세이크리드 가드가 사용하는 기술의 기반이 되며 다양한 형태로 완성된다.\n격돌은 두 다리에 마나를 강하게 응집하여 바닥을 박차 나감과 동시에 눈에 잔상조차 남지 않을 정도로 빠르게 돌진하여 적에게 방패를 충돌시키는 형태의 스킬이다. 적과 부딪치는 순간, 스테인드글라스가 팽창하는 것처럼 방패의 형상을 이루고 있던 힘이 터지며 순간적으로 공기가 밀려난다. 진공이 된 타격 지점으로 주변 대기가 빠르게 이동하며, 이 흐름에 일부 적이 해당 방향으로 다운된다. 매우 빠른 속도로 이동하는 스킬인 만큼, 대상과의 거리가 멀어질수록 몸의 균형이 무너져 재사용 대기시간이 늘어난다. 돌진을 응용한 기술이기에, 돌진 대미지의 영향을 받는다.\n*방어력은 방어와 보호, 마법방어와 마법보호를 총칭한다.
-6845	세이크리드 가드는 견고한 의지와 고결한 울림을 내는 생명력을 기반으로 마나를 결정화하고, 이 결정을 모아 방패의 형상으로 빚어낸다. 이렇게 만들어진 결정과 방패는 세이크리드 가드가 사용하는 기술의 기반이 되며 다양한 형태로 완성된다.\n철벽 강타는 방패를 강하게 휘두르며 주변의 적을 공격하는 기술이다. 방패를 휘두를 때, 마나의 결합이 사용자의 근력을 버텨내지 못하고 끊어지는데, 그 충격으로 짧은 시간 동안 스테인드글라스의 빛무리와 같은 궤적이 만들어진다. 이 궤적에 흐르는 마나는 불규칙하게 움직이며 서로 부딪치고 결정으로 엉겨 짧은 시간 형태를 유지한다. 이때, 철벽 강타에 피격당해 빈틈이 생긴 적이 있으면 결정은 적의 빈틈을 파고들어 보호하는 능력을 방해한다. 철벽 강타에 여러 번 적중당한 적은 더 많은 결정의 영향을 받아, 그만큼 많은 양의 능력을 잃게 된다. 윈드밀을 응용한 기술인 만큼 사용자의 윈드밀 대미지의 영향을 받는다.\n*방어력은 방어와 보호, 마법방어와 마법보호를 총칭한다.
-6846	세이크리드 가드는 견고한 의지와 고결한 울림을 내는 생명력을 기반으로 마나를 결정화하고, 이 결정을 모아 방패의 형상으로 빚어낸다. 이렇게 만들어진 결정과 방패는 세이크리드 가드가 사용하는 기술의 기반이 되며 다양한 형태로 완성된다.\n심판의 일격은 빚어낸 방패를 강하게 내리찍으며 만든 충격으로 주변의 적을 공격하는 기술이다. 일순간 지면에 깨진 스테인드글라스의 형상이 새겨지며 그 위에 서 있는 적에게 영향을 준다. 이때, 적에게 철벽 강타의 무너진 방벽 효과가 적용된 상태면, 더 높은 대미지를 줄 수 있다. 심판의 일격에 적중당한 적은 충격에 의해 몸의 균형이 무너져 짧은 시간 동안 이동 속도가 감소한다. 윈드밀을 응용한 기술인 만큼 사용자의 윈드밀 범위와 대미지의 영향을 받는다.\n*방어력은 방어와 보호, 마법방어와 마법보호를 총칭한다.
-6847	세이크리드 가드는 견고한 의지와 고결한 울림을 내는 생명력을 기반으로 마나를 결정화하고, 이 결정을 모아 방패의 형상으로 빚어낸다. 이렇게 만들어진 결정과 방패는 세이크리드 가드가 사용하는 기술의 기반이 되며 다양한 형태로 완성된다.\n희생의 응징은 희생을 감내한 자가 사용하는 기술이다. 내면을 견고하게 다져 자신의 뜻을 완벽히 관철하고자 하는 의지가 방패의 형상에 덧씌워지며 마침내 가장 눈 부신 빛을 터뜨린다. 방패에 모여든 빛과 결정이 터져나가며 주변의 적에게 감내하고 있던 희생이 영향을 준다. 공격에 맞은 일부 적은 세이크리드 가드의 위세에 눌려 오랜 시간 경직된다. 누적된 희생은 세이크리드 가드의 강한 의지에 영향을 받아, 잠시 동안 적에게 더 강한 공격을 실을 수 있도록 그 성질이 변하고 증가한 대미지만큼 희생에서 소모된다. 매직 실드류의 스킬을 응용한 기술이기에, 매직 실드의 가장 긴 지속 시간의 영향을 받는다.\n*희생은 아군이 받은 대미지 중 대신 감내하게 된 수치다.\n*방어력은 방어와 보호, 마법방어와 마법보호를 총칭한다.
-6848	세이크리드 가드는 견고한 의지와 고결한 울림을 내는 생명력을 기반으로 마나를 결정화하고, 이 결정을 모아 방패의 형상으로 빚어낸다. 이렇게 만들어진 결정과 방패는 세이크리드 가드가 사용하는 기술의 기반이 되며 다한 형태로 완성된다.\n고결한 희생은 아군이 받는 대미지의 일부를 대신 감당하여 아군이 전투에 집중할 수 있도록 보조하는 기술이다. 지킬 대상에게 마나의 결정을 보내 자신과 연결하고 희생의 가호를 부여한다. 희생의 가호가 적용되면 마나의 결정이 고리처럼 떠올라 주변을 감싸는 데, 적에게 공격을 받으면 그 피해의 일부를 시전자에게 전달하는 역할을 한다. 전달된 피해는 곧바로 시전자에게 적용되지 않고 희생에 누적되어 주기마다 일정 비율만큼 감소한다. 감소한 수치는 원래의 형태인 대미지로 전환되고, 세이크리드 가드보다 항상 앞에 있는 방패의 영향을 받아 그 수치가 방패의 대미지 감소 효과만큼 감소하게 된다.\n*희생은 아군이 받은 대미지 중 대신 감내하게 된 수치다.\n*던전, 그림자 미션 등을 클리어하면 스킬이 종료된다.
-6849	세이크리드 가드의 아르카나 레벨을 1 이상으로 올린다.
-6850	세이크리드 가드의 아르카나 레벨을 2 이상, 성역 전개 스킬의 랭크를 F 랭크 이상으로 올린다.
-6851	세이크리드 가드의 아르카나 레벨을 3 이상으로 올린다.
-6852	세이크리드 가드의 아르카나 레벨을 1 이상으로 올린다.
-6853	세이크리드 가드의 아르카나 레벨을 2 이상, 철벽 강타 스킬의 랭크를 F 랭크 이상으로 올린다.
-6854	세이크리드 가드의 아르카나 레벨을 10 이상, 고결한 희생 스킬의 랭크를 F 랭크 이상으로 올린다.
-6855	세이크리드 가드의 아르카나 레벨을 9 이상으로 올린다.
-6900	셸 시프트
-6901	포커스드 엣지
-6902	임팩트 크러시
-6903	스파이럴 볼텍스
-6904	차지 어설트
-6905	오버 드라이브
-6906	어나이얼레이션
-6907	셸 시프트는 탄환에 담긴 마력을 사용자의 마나 셸로 재가공하는 스킬로 생산된 마나 셸은 블래스트 랜서의 스킬을 사용하기 위한 동력으로 사용된다. 마나 셸로 재가공되는 과정에서 재료로 사용된 마력탄의 추가 효과는 사용자의 랜스에 스며들어 그 효과 또한 받게 되어 높은 품질의 마력탄을 사용할수록 더 높은 효과를 받는다.
-6908	포커스드 엣지는 날카로운 랜스의 끝을 더욱 날카롭게 다시 한번 마나로 감싸 적을 공격하는 형태로 사용자의 스킬 랭크가 높을수록 스킬을 제약 없이 더 많이 사용할 수 있으며 적을 연이어 공격할수록 더욱 강하게 공격한다. 이 기술을 반복하여 사용하게 되면 무기가 받는 부담이 커지기 때문에 영속적으로 사용할 수는 없으며 사용 숙련도가 블래스트 랜서의 지구력을 결정짓는다.
-6909	임팩트 크러시는 랜스를 땅에 강하게 내리치며 이때 충돌로 발생한 스파크로 랜스 전신에 담겨있던 마나에 폭발을 일으켜 적을 공격하는 기술이다. 자칫 잘못하면 주변뿐만 아니라 자신까지 위험하게 만드는 굉장히 위험한 기술이기 때문에 마나 셸을 다루는 솜씨가 능숙한 블래스트 랜서만이 가능한 기술이다.
-6910	스파이럴 볼텍스는 랜스 전신에 담겨있던 마나를 고밀도로 압축한 다음 방출하며 얻은 동력으로 빠르게 주변을 공격하는 기술이다. 방출되는 마나의 압력을 자신의 의지대로 제어하는 것은 결코 쉬운 기술이 아니기 때문에 마나 셸을 다루는 솜씨가 능숙한 블래스트 랜서만이 가능한 기술이다.
-6911	차지 어설트는 랜스 블로우에서 적을 강하게 찌르기 위해 순식간에 힘을 압축하던 기술을 마나 셸에 접목한 형태로 필요한 순간에 시전자가 순간적으로 압축된 마나 셸을 해제하여 강력한 추진력을 얻게 되어 고속으로 이동하게 되는 기술이다. 마나 셸을 순식간에 압축하기 위해선 많은 에너지가 요구되기 때문에 자주 사용할 수는 없지만 강력한 추진력을 얻은 블래스트 랜서는 이동하는 일직선상의 모든 적을 관통한다.
-6912	오버 드라이브는 적을 향해 맹렬히 돌진하여 공격하는 랜스 차지의 추진력을 접목한 형태로 순식간에 압축된 마나를 상대방에게 찔러 넣어 폭발 시키는 기술이다. 순식간에 압축된 마나는 상대방을 공격할 때 발생한 강력한 충격으로 인해 통제되던 형태를 잃어버려 다시 팽창하게 되는데 이때 공격 대상을 중심으로 강력한 폭발이 발생한다. 랜스 차지를 응용한 기술인 만큼 사용자의 랜스 차지 대미지의 영향을 받는다. (과열 에너지를 50% 이상 보유하고 있는 경우, 일정 수준 이하의 헤비 스탠더 자동 방어 무시 적용)
-6913	어나이얼레이션은 적을 향해 맹렬히 돌진하여 공격하는 랜스 차지의 추진력을 활용한 형태로 사용자의 모든 마나를 순식간에 압축시킨 뒤 상대방에게 찔러 넣어 폭발 시키는 기술이다. 순식간에 압축된 대량의 마나는 상대방을 공격할 때 방생한 강력한 충격으로 인해 통제되던 형태를 잃어버리게 되고 다시 팽창하는 과정에서 과열되어 있던 랜스의 높은 온도를 방출해 연쇄 반응을 일으켜 공격 대상을 중심으로 매우 강력한 폭발이 발생하게 되며 이때 발생한 화염은 거침없이 주변을 태워버린다. 랜스 차지를 응용한 기술인 만큼 사용자의 랜스 차지의 대미지 영향을 받는다. (과열 에너지를 50% 이상 보유하고 있는 경우, 일정 수준 이하의 헤비 스탠더 자동 방어 무시 적용)
-6914	블래스트 랜서 아르카나 레벨을 1 이상으로 올린다.
-6915	블래스트 랜서 아르카나 레벨을 2 이상, 셸 시프트 F 랭크 이상으로 올린다.
-6916	블래스트 랜서 아르카나 레벨을 3 이상, 셸 시프트 F 랭크 이상으로 올린다.
-6917	블래스트 랜서 아르카나 레벨을 3 이상, 셸 시프트 F 랭크 이상으로 올린다.
-6918	블래스트 랜서 아르카나 레벨을 6 이상, 셸 시프트 F 랭크 이상으로 올린다.
-6919	블래스트 랜서 아르카나 레벨을 7 이상, 셸 시프트 F 랭크 이상으로 올린다.
-6920	블래스트 랜서 아르카나 레벨을 8 이상, 셸 시프트 F 랭크 이상으로 올린다.
+6835	Pledge of Penance
+6836	Provoke
+6837	Ardent Advance
+6838	Rend Armor
+6839	Deliver Judgment
+6840	Divine Retribution
+6841	Martyr's Consecration
+6842	Sacred Guardians draw upon their resolute will and stalwart constitution to manifest mana as crystals that take the form of a shield of light. These crystalline projections serve as the foundation for all of a Sacred Guardian's skills, utilized in distinct arrangements for both defensive and offensive purposes.\n\nPledge of Penance temporarily surrounds the Sacred Guardian with a ring that resembles shattered shards of glass. As the crystals that form the ring begin to dissipate, they release a wave of energy, damaging enemies near the Guardian and drawing the attention of enemies further away. These crystals also resonate with the Guardian's life force, causing foes within the area to be unable to focus on anyone but the caster. This resonance also bolsters the Guardian's tenacity, allowing them to stand unshaken even in the face of a relentless assault. The skill's name is derived from its intent to defend others even at cost to oneself, at the same time punishing foes for their hostility.\n\n* Cumulative Defense is a comprehensive stat that includes Defense, Protection, Magic Defense and Magic Protection.
+6843	Sacred Guardians draw upon their resolute will and stalwart constitution to manifest mana as crystals that take the form of a shield of light. These crystalline projections serve as the foundation for all of a Sacred Guardian's skills, utilized in distinct arrangements for both defensive and offensive purposes.\n\nSome have likened the light that accompanies Provoke to stained glass window's colors upon the ground, an effect caused by the condensed mana crystals dispersed to draw foes' attention. As this skill utilizes smaller crystals that do not need to first be gathered to one's shield, its effect is almost instantaneous. Enemies affected by this skill are enveloped by a Sacred Guardian's mana, which prevents them from being provoked again for a period of time.\n\n* Cumulative Defense is a comprehensive stat that includes Defense, Protection, Magic Defense and Magic Protection.
+6844	Sacred Guardians draw upon their resolute will and stalwart constitution to manifest mana as crystals that take the form of a shield of light. These crystalline projections serve as the foundation for all of a Sacred Guardian's skills, utilized in distinct arrangements for both defensive and offensive purposes.\n\nTo use Ardent Advance, a Guardian must first concentrate mana in their legs, allowing them to close the distance to a foe with such speed that a brief afterimage is left behind. At the moment of contact, the energy built up in their shield is forcefully expelled, pushing even the air away. As the displaced air rushes back to fill the vacuum, nearby enemies are drawn in along with it. Ardent Advance requires a burst of extreme speed, such that using it against a more distant foe will result in a longer wait before it can be used again. As this skill builds upon the fundamentals of the Charge skill, its damage is also influenced by one's mastery of Charge.\n\n* Cumulative Defense is a comprehensive stat that includes Defense, Protection, Magic Defense and Magic Protection.
+6845	Sacred Guardians draw upon their resolute will and stalwart constitution to manifest mana as crystals that take the form of a shield of light. These crystalline projections serve as the foundation for all of a Sacred Guardian's skills, utilized in distinct arrangements for both defensive and offensive purposes.\n\nRend Armor is a cleaving attack that uses one's shield offensively, briefly gathering mana to it before performing a wide swing. The force of the blow is enough to destabilize the mana, leaving a luminous trail behind the shield. The mana within this trail, charged by the turbulence, forms crystals that are instantly drawn to foes struck by the attack. These small crystals both reveal and excoriate an enemy's weak points, reducing the effectiveness of their defenses. Foes struck repeatedly by Rend Armor will find themselves weakened by many crystals, rendering them even more vulnerable. As this skill draws upon the sweeping attack of the Windmill skill, its damage is also influenced by one's mastery of Windmill.\n\n* Cumulative Defense is a comprehensive stat that includes Defense, Protection, Magic Defense and Magic Protection.
+6846	Sacred Guardians draw upon their resolute will and stalwart constitution to manifest mana as crystals that take the form of a shield of light. These crystalline projections serve as the foundation for all of a Sacred Guardian's skills, utilized in distinct arrangements for both defensive and offensive purposes.\n\nDeliver Judgment allows a Guardian to unleash a crushing blow in all directions by coalescing mana into a crystalline shield, then shattering it upon the ground. The resulting shockwave tears through nearby enemies, dealing especially devastating damage to those enfeebled by Rend Armor's effect. Foes hit by this blast will also be temporarily thrown off-balance, reducing their Movement Speed for a short time. As this skill attacks all nearby foes like the Windmill skill, its damage and range are also influenced by one's mastery of Windmill.\n\n* Cumulative Defense is a comprehensive stat that includes Defense, Protection, Magic Defense and Magic Protection.
+6847	Sacred Guardians draw upon their resolute will and stalwart constitution to manifest mana as crystals that take the form of a shield of light. These crystalline projections serve as the foundation for all of a Sacred Guardian's skills, utilized in distinct arrangements for both defensive and offensive purposes.\n\nDivine Retribution is a skill used to its fullest by those who have stood as a bastion against harm, withstanding pain and suffering in place of others. The Guardian draws upon their innermost will, giving shape to a crystalline shield that bursts forth in a dazzling display of light. From patience and longsuffering is wrought a holy explosion that overwhelms foes, leaving them stunned. The amount of accumulated damage the Guardian has withstood in place of their allies will empower this attack, which also has the effect of reducing the self-sacrificing burden they bear.\n\n* The accumulated damage a Sacred Guardian suffers in place of their allies is known as their "Martyr's Burden".\n\n* Cumulative Defense is a comprehensive stat that includes Defense, Protection, Magic Defense and Magic Protection.
+6848	Sacred Guardians draw upon their resolute will and stalwart constitution to manifest mana as crystals that take the form of a shield of light. These crystalline projections serve as the foundation for all of a Sacred Guardian's skills, utilized in distinct arrangements for both defensive and offensive purposes.\n\nMartyr's Consecration is a potent prayer of protection that lessens the harm suffered by allies, enabling them to focus on the battle at hand. Through the use of shards of crystallized mana, a Guardian consecrates their allies, establishing a connection that allows the Guardian to take upon themself a portion of the damage those allies would otherwise receive. This damage is not borne immediately, but accumulates as a burden that is dispensed over time, that the Guardian might be able to withstand its toll from moment to moment. Through the mitigating properties of the shield they bear, a Guardian can further reduce the damage suffered from this selfless act, allowing them to endure as they preserve their allies.\n\n* The accumulated damage a Sacred Guardian suffers in place of their allies is known as their "Martyr's Burden".\n\n* Cumulative Defense is a comprehensive stat that includes Defense, Protection, Magic Defense and Magic Protection.
+6849	Raise the Sacred Guardian Arcana to Level 1 or higher.
+6850	Raise the Sacred Guardian Arcana to Level 2 or higher and the Pledge of Penance skill to Rank F or higher.
+6851	Raise the Sacred Guardian Arcana to Level 3 or higher.
+6852	Raise the Sacred Guardian Arcana to Level 1 or higher.
+6853	Raise the Sacred Guardian Arcana to Level 2 or higher and the Rend Armor skill to Rank F or higher.
+6854	Raise the Sacred Guardian Arcana to Level 10 or higher and the Martyr's Consecration skill to Rank F or higher.
+6855	Raise the Sacred Guardian Arcana to Level 9 or higher.
+6900	Recharge Shells
+6901	Relentless Thrust
+6902	Arc Impact
+6903	Blast Zone
+6904	Drill Charge
+6905	Dreadnought Burst
+6906	Blaze of Glory
+6907	Recharge Shells is a method of converting the mana that is held in stasis within Mana Bullets into a new form. This process creates Mana Shells, a unique form of mana which can be used by Explosive Vanguards. Additional energy released in the conversion is absorbed into the lance, granting it additional power. Using higher-quality Mana Bullets results in the lance receiving better buffs.
+6908	To carry out a Relentless Thrust, the head of the lance is imbued with mana to create an even sharper point, which is used to attack enemies to devastating effect. As the attacker becomes more skilled, it becomes possible to attack more times in sequence before the effect must be removed. The more it's used consecutively, the more damage it does. Unfortunately, this puts great strain on the lance itself. The number of times it can be safely used in a row depends on the Explosive Vanguard's proficiency.
+6909	An Arc Impact is an over-the-shoulder swing of the lance, smashing it into the ground at full force. This creates a spark, detonating the mana imbued within the lance. Enemies are hit with a deadly blast. However, it's easy for the user to get caught up in the explosion themself, so only skilled Explosive Vanguards who have a great deal of experience in handling the energy of Mana Shells should attempt this skill.
+6910	When the Mana imbued within the lance is condensed to build up pressure, then unleashed into the surroundings all at once, the result is a Blast Zone. It takes a great deal of control to handle mana that's been put under so much pressure, so only skilled Explosive Vanguards who have a great deal of experience in handling the energy of Mana Shells should attempt this skill.
+6911	Drill Charge grows out of the principles of Lance Impact, after seeing how the power of the lance can be used for movement. By releasing the energy of Mana Shells all at once, the user can gain powerful forward momentum, allowing for swift movement. However, releasing so many Mana Shells in a short period of time takes a great deal of energy, so the skill cannot be used too often. It's useful despite the energy cost because the movement of an Explosive Vanguard with this skill is powerful enough to pierce through any enemy that might get in the way.
+6912	Dreadnought Burst grows out of the principles of Lance Charge, a skill which uses forward momentum to close distance and attack an enemy. Dreadnaught Burst transforms Lance Charge's  movement into a thrust of condensed mana that is shot at an enemy. The condensed mana is then detonated from the force of the collision, losing the form and control it had as a Mana Shell, and causing a powerful explosion around the primary target. Its damage is affected by that of Lance Charge, as it takes its power from the user's ability to carry out the charge. (If Mana Pressure is at 50% or higher, this skill automatically ignores Heavy Stander Auto Defense below certain ranks.)
+6913	Blaze of Glory grows out of the principles of Lance Charge, a skill which uses forward momentum to close distance and attack an enemy. Blaze of Glory condenses all available mana in a moment, and uses the force of Lance Charge's movement to thrust it at an enemy. The huge amount of mana is then detonated from the force of the collision, losing the form and control it had as Mana Shells. As it explodes, the high temperature of the lance causes a chain reaction, and a deadly explosion incinerates the surrounding area. Its damage is affected by that of Lance Charge, as it takes its power from the user's ability to carry out the charge. (If Mana Pressure is at 50% or higher, this skill automatically ignores Heavy Stander Auto Defense below certain ranks.)
+6914	Raise the Explosive Vanguard Arcana to Level 1 or higher.
+6915	Raise the Explosive Vanguard Arcana to Level 2 or higher and the Recharge Shells skill to Rank F or higher.
+6916	Raise the Explosive Vanguard Arcana to Level 3 or higher and the Recharge Shells skill to Rank F or higher.
+6917	Raise the Explosive Vanguard Arcana to Level 3 or higher and the Recharge Shells skill to Rank F or higher.
+6918	Raise the Explosive Vanguard Arcana to Level 6 or higher and the Recharge Shells skill to Rank F or higher.
+6919	Raise the Explosive Vanguard Arcana to Level 7 or higher and the Recharge Shells skill to Rank F or higher.
+6920	Raise the Explosive Vanguard Arcana to Level 8 or higher and the Recharge Shells skill to Rank F or higher.
 6949	Best Friends'\nSecret Handshake
 6950	A secret handshake shared by only the best of friends.\nRight-click on your bestie while flying and click on Request Fly Together to send a request. If they accept, you'll perform this special gesture. Using it with your mentor or mentee will help deepen the bond between you.
 6952	파티 힐링
@@ -4824,20 +4824,20 @@
 6973	G20 성역의 문 중 [잊을 수 없는 나날] 퀘스트를 수행한다.
 6974	메모리 낭만 비행
 6975	둘도 없는 인연을 만들고 받은 선물. 몸에 뿌려진 출처를 알 수 없는 마법의 가루는 원할 때 마다 몸 전체에 감돌며 하늘에서의 자유를 느낄 수 있게 해준다. 남의 도움을 받거나 누군가에 의지하는 것이 아니라, 스스로의 의지로 자유롭게 하늘을 누비는 기분을 마음껏 만끽 해보자.\n날고 있는 상태에서 상대방을 우클릭 하면 나타나는 날기 요청 메뉴를 이용하여 상대방이 승낙 하면 함께 나란히 하늘을 날아다닐 수 있다. 추억을 되살리며 상대방의 손을 잡고 허공으로 이끌 수 있다. 친구, 연인과 함께 자유롭게 날아보자.
-6992	엘레멘탈 인젝션
-6993	라인 브레이크
-6994	엘레멘탈 인젝션은 장비하고 있는 근접 재능 무기에 각종 엘레멘탈을 부여하여 불/얼음/전기 속성의 한 단계 증가와 대미지 향상 외에도 각종 마법을 동시에 시전할 수 있게 하는 등 여러 특별한 효과를 만들어내는 엘레멘탈 나이트의 아이덴티티와도 같은 기술이다. 엘레멘탈 인젝션을 활성화할 경우, 일반 공격 시 넓은 범위의 적을 한 번에 공격할 수 있으며, 공격한 대상의 이동 속도와 공격 속도를 늦추고, 상대의 방어와 보호, 그리고 헤비 스탠더 효과를 일정량 무시할 수 있다. 불/얼음/전기 속성 마법 사용 시 시전 속도 상승과 함께 최대 대미지의 5% 만큼 마법 공격력이 상승되어 적용된다. 동시 시전한 마법은 Ctrl+우클릭으로 사용할 수 있으며 무기의 피어싱 효과를 받을 수 없다. 또한 시전 시간은 50% 이하로는 줄어들지 않는다. 숙련될수록 엘레멘탈을 부여하는 속도가 빨라진다.
-6995	근접 전투로 단련된 신체에서 나오는 폭발적인 추진력으로 돌진하며 전방의 적을 공격한다. 근접 전투 재능 스킬인 배쉬의 추진력을 활용할 수 있기에 배쉬를 사용하면 라인 브레이크의 쿨타임이 줄어든다. 전투 흐름을 선도하는 배쉬 특유의 기운이 있는 상태라면 이 기운을 소비하여 라인 브레이크를 사용할 수 없는 동안 강제로 스킬을 한번 더 사용할 수 있다. 배쉬에서 파생된 기술인 라인 브레이크를 사용하는 동안은 배쉬의 헤비 스텐더 무시 효과가 상시 적용되며 이동 거리는 배쉬 이동 거리 증가 효과를 적용 받는다. 이러한 특징을 활용하여 높은 기동성을 토대로 적의 치명적인 공격을 회피하거나 적의 헛점을 노려 순식간에 강력한 공격을 퍼부울 수 있다.
-6996	​엘레멘탈 나이트의 아르카나 레벨을 8 이상으로 올린다.
-7013	어드밴스드 디펜스
-7014	파이어 리프 어택
-7015	아이스 윈드밀
-7016	라이트닝 스매시
-7017	다수와의 전투 중에는 수비 자세를 계속 유지할 수 있는 능력도 필요하다. 어드밴스드 디펜스는 적의 맹공 속에서도 디펜스 상태를 계속 유지, 그리고 찰나의 빈틈을 노려 주변의 적들에게 피해를 줄 수 있는 기술이다. 방어 성공 효과는 스킬의 숙련도와 사용자가 수련한 디펜스 스킬의 효과에 따르며, 방어에 성공했을 시 받은 피해를 이용하여 반격 대미지가 달라진다. 반격에 성공한다면 발생한 에너지를 마나와 스태미나로 치환하여 일정량 회복할 수 있다. 디펜스 스킬에서 파생된 스킬이기 때문에 디펜스로 막을 수 없는 공격에 대해서는 대미지 감소 효과가 적용되지 않는다.
-7018	빠르게 날아올라 적들을 타격하고 빠르게 후퇴하는, 강력함과 기동성을 동시에 갖춘 기술. 다운 어택을 응용한 이 기술을 사용하면 크게 점프하여 대상과 주변을 화염으로 휩싸인 무기로 공격 후 그 폭발을 이용해 다시 원하는 위치로 튕겨나가듯 빠르게 이동할 수 있다. 기술이 발동된 후 폭발이 일어나기 전의 짧은 순간에 퇴각 위치를 선택하는 것이 중요하다. 다운 어택을 응용한 기술인 만큼 사용자의 다운 어택 대미지와 공격 가능 거리의 영향을 받으며, 엘레멘탈 인젝션이 활성화된 상태에서는 추가적인 효과가 발휘된다.
-7019	둘러싼 적을 윈드밀로 1차 공격과 함께 얼어붙게 만들어 후속 공격을 이어갈 수 있게 만드는 기술. 공격을 받은 적들은 일정 시간 얼어붙었다가 얼음이 깨질 때 추가 대미지를 입는다. 윈드밀을 응용한 기술인 만큼 사용자의 윈드밀 범위와 대미지의 영향을 받으며, 엘레멘탈 인젝션이 활성화된 상태에서는 추가적인 효과가 발휘된다. 넘어지지 않는 적들은 얼지 않으며 이미 아이스 윈드밀로 얼어붙은 적 또한 같은 스킬로 다시 얼릴 수 없다.
-7020	라이트닝 엘레멘탈이 실린 무기로 스매시를 시전해 전방의 적들에게 번개를 내리치는 기술. 스매시를 응용한 기술인 만큼 사용자의 스매시 대미지의 영향을 받으며 이 기술의 숙련 정도에 따른 대미지가 추가된다. 엘레멘탈 인젝션이 활성화된 상태에서는 추가적인 효과가 발휘된다.
-7021	엘레멘탈 나이트의 아르카나 레벨을 8 이상으로 올린다.
-7022	엘레멘탈 나이트의 아르카나 레벨을 7 이상, 엘레멘탈 인젝션 : 파이어 스킬의 랭크를 B 랭크 이상으로 올린다.
-7023	엘레멘탈 나이트의 아르카나 레벨을 7 이상, 엘레멘탈 인젝션 : 아이스 스킬의 랭크를 B 랭크 이상으로 올린다.
-7024	엘레멘탈 나이트의 아르카나 레벨을 7 이상, 엘레멘탈 인젝션 : 라이트닝 스킬의 랭크를 B 랭크 이상으로 올린다.
+6992	Instill Elements
+6993	Flashing Steel
+6994	Elemental Instillment is a practice core to the identity of Elemental Knights. This martial invocation imbues a warrior's weapon with a variety of special effects, including fire, ice, and lightning properties, increased damage, and enabling spells to be readied while fighting. While the instillment persists, the elemental energies grant normal attacks the ability to cleave enemies in a wider area, decrease the target's Movement Speed and Attack Speed, ignore an enemy's Defense and Protection and partially negate the effects of the Heavy Stander effect, as well as speeding the casting of fire/ice/lightning magic and adding 5% of Max Damage to the caster's Magic Attack. A spell readied during combat can be cast with Ctrl + Right Click, but will not be affected by the Piercing stat of the equipped weapon, and its charge time cannot be reduced below 50%. The more adept one becomes at instilling weapons with elemental energy, the faster the process will be, until it can be performed almost instantaneously.
+6995	Charge forth, attacking all who stand in your way with the explosive force generated by a body honed from rigorous training in Close Combat. Using the Close Combat Talent skill Bash will reduce Flashing Steel's cooldown, as the combatant can harness the driving force of Bash. When Bash's aura is is present, it is even possible to use Flashing Steel again when one would be otherwise unable to do so. As Flashing Steel draws upon the Bash skill, it inherits Bash's ability to ignore the Heavy Stander effect, and its distance is extended by any effects that extend the distance of Bash. By utilizing these traits, one can utilize their superior mobility to dodge enemies' attacks, or take advantage of a momentary opening to unleash a barrage of powerful attacks.
+6996	​Raise the Elemental Knight Arcana to Level 8 or higher.
+7013	Dauntless Defense
+7014	Blazing Assault Slash
+7015	Shattering Windmill
+7016	Dynavolt Smash
+7017	Maintaining a formidable defense is important when facing multiple enemies. Dauntless Defense is a powerful stance that keeps one's guard up even amid a flurry of blows, turning the tables to damage foes by exploiting the gaps in their offensive. The defensive effect relies on a warrior's proficiency with this skill and the Defense skill, while the counterattack damage increases with the amount of damage received when the attacks are successfully blocked. When the counterattack is successful, the combatant can convert the energy generated, recovering a set amount of MP and Stamina. As this skill is derived from the Defense skill, the Damage Reduction effect will not be applied to attacks that cannot be blocked using Defense.
+7018	A technique in which one leaps in to strike enemies with a weapon wreathed in flame, then bounds out of harm's way just as quickly through the use of the force generated by the explosion. Being aware of where one wishes to end up is crucial to the effective use of this skill. Developed as an outgrowth of the Assault Slash skill, it is influenced by the user's Assault Slash damage and range, and is augmented by the energies harnessed through elemental instillment.
+7019	A technique in which one enhances the spin of their Windmill strike to freeze surrounding enemies, leaving them vulnerable to a follow-up attack. Enemies hit by this attack are left frozen for a time and take additional damage when the ice shatters. Developed as an outgrowth of the Windmill skill, it is influenced by the user's Windmill radius and damage, and is augmented by the energies harnessed through elemental instillment. Enemies that aren't knocked down and enemies that have already been frozen by Shattering Windmill cannot be frozen.
+7020	A technique in which one unleashes a powerful forward smash, striking all enemies in a line with a shower of electric energy. Developed as an outgrowth of the Smash skill, it is influenced by the user's Smash damage, with more damage added based on one's proficiency with this skill. It is augmented by the energies harnessed through elemental instillment.
+7021	Raise the Elemental Knight Arcana to Level 8 or higher.
+7022	Raise the Elemental Knight Arcana to Level 7 or higher and the Instill Flame Skill to Rank B or higher.
+7023	Raise the Elemental Knight Arcana to Level 7 or higher and the Instill Frost Skill to Rank B or higher.
+7024	Raise the Elemental Knight Arcana to Level 7 or higher and the Instill Thunder Skill to Rank B or higher.

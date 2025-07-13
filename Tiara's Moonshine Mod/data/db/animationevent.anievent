@@ -3340,9 +3340,20 @@ set("C4_human")
 			225:hand (left, palm)
 			227:hand (right, palm)
 			400:hand (both, fist)
-			670:jump (100,true)			
- 	
+			670:jump (100,true)	
 
+
+	"female_magnoliatree_sit"
+			0:lookat(off)
+			0:hideequip(true)
+			0:hand (both, palm)
+			
+	"male_magnoliatree_sit"
+			0:lookat(off)
+			0:hideequip(true)
+			0:hand (both, palm)		
+					
+ 	
 	"human_userhorizonattack"
 			0:lookat(off)		
 			0:hand(both,fist)			
@@ -8138,6 +8149,14 @@ set("C4_human")
 
 	folder("char\chapter4\human\anim\tool\Bhand_E")	
 	
+		"female_fantasy_twohanded_sword_stand"
+			0:lookat(off)
+			0:hand(both, fist)	
+		
+		"male_fantasy_twohanded_sword_stand"
+			0:lookat(off)
+			0:hand(both, fist)		
+	
 		"human_tool_Rhand_E01_line_break"
 			0:lookat(off)
 			0:hand(both, fist)				
@@ -8722,10 +8741,35 @@ set("tool_Bhand_G")
 	folder("char\chapter4\human\anim\tool\Bhand_G")
 	
 	
-	    "human_agent_crossbow05_stand"
+	    "human_agent_crossbow01_stand"
+			0:hand(right, palm)
+			0:hand(left, fist)
+			0:lookat(off)
+			13:hand(left, palm)
+			33:hand(left, fist)
+			192:hand(right, fist)
+			585:hand(right, palm)
+			612:hand(left, palm)
+			633:hand(left, fist)
+		
+		"human_agent_crossbow03_stand"
+			0:hand(right, fist)
+			0:hand(left, palm)
+			0:lookat(off)
+	        206:hand(right, palm)
+			213:hand(right, fist)
+			263:hand(right, palm)
+	        407:hand(right, fist)
+	        424:hand(right, palm)
+	        833:hand(right, fist)
+	        206:hand(left, fist)
+			408:hand(left, palm)
+			421:hand(left, fist)
+	        834:hand(left, palm)
+	
+		"human_agent_crossbow05_stand"
 			0:hand(both, palm)
 			0:lookat(off)
-
 		
 		"human_fantasy_bow_stand"
 			0:hand(both, fist)
@@ -27651,7 +27695,8 @@ set("alchemy")
 			6:hand(both,palm)
 			13:hand(right,fist)
 			60:jump(25)
-		
+			0:effect("AAM_CS_wait_E1_01",0,1)
+			
 		"human_AAM_CS_process"
 			0:hand(both,fist)
 			0:lookat(off)
@@ -27659,16 +27704,21 @@ set("alchemy")
 			13:hand(right,fist)
 			79:hand(right,palm)
 			96:hand(both,fist)
+			0:effect("AAM_CS_wait_E1_02",0,1)			
+			18:effect("AAM_CS_process_E2_01",0,1)
+			18:effect("AAM_CS_wait_E1_03",0,1)	
 			
 		"human_AAM_SN_wait"
 			0:hand(both,fist)
 			0:lookat(off)
 			60:jump(30)
-		
+			3:effect("AAM_SN_wait_E1_1_01",0,1)
+			3:effect("AAM_SN_wait_E1_1_02",0,1)
+			
 		"human_AAM_SN_process"
 			0:hand(both,fist)
 			0:lookat(off)
-
+			0:effect("AAM_SN_process_E2_01",0,1)
 		
 		
 		"uni_edo_skill_casting"
@@ -50826,9 +50876,10 @@ folder("char\chapter4\pet\anim\puffy")
 			0:generic("custom_mesh(1)")			
 
           "pet_puffy_booster"
-			0:lookat(off)
+			0:lookat(off)			
 			0:generic("custom_mesh(2)")
-			0:generic("custom_mesh(1)")			
+			0:generic("custom_mesh(1)")		
+			
 
           "pet_puffy_carrottrap"
 			0:lookat(off)
@@ -50837,6 +50888,8 @@ folder("char\chapter4\pet\anim\puffy")
 			4:generic("custom_mesh(2:Pet_Puffy_carrot, c5:EF9252?)")	
 			34:generic("custom_mesh(2)")	
 			3:effect("puffy_CarrotTrap01_1")
+			0:sound("data\sound\puffy\puffy_trap1.wav")	
+			
 			
           "pet_puffy_counter"
 			0:lookat(off)
@@ -50926,6 +50979,9 @@ folder("char\chapter4\pet\anim\puffy")
 			0:generic("custom_mesh(1)")		  
 			0:lookat(off)
 			0:effect("puffy_SandSprinkle01_1")
+			0:sound("data\sound\footstep\grass_run03.wav")	
+			8:sound("data\sound\footstep\grass_run03.wav")
+			20:sound("data\sound\puffy\puffy_sand1.wav")	
 			
           "pet_puffy_sandsprinkle_process"
 			0:generic("custom_mesh(2)")
@@ -50933,6 +50989,8 @@ folder("char\chapter4\pet\anim\puffy")
 			0:lookat(off)			
 			0:effect("puffy_SandSprinkle02_1")	
 			4:effect("puffy_SandSprinkle03_1")
+			//0:quake(15,15,15,2000)
+			0:sound("data\sound\puffy\puffy_sand2.wav")
 			
           "pet_puffy_smash"
 			0:generic("custom_mesh(2)")
@@ -50950,9 +51008,10 @@ folder("char\chapter4\pet\anim\puffy")
 			0:effect("puffy_summon00_1")
 			0:effect("puffy_summon01_1")			
 			3:effect("puffy_summon02_1")
-			5:effect("puffy_summon02_2")			
+			5:effect("puffy_summon02_2")	
+			0:sound("data\sound\puffy\puffy_summon.wav")			
 			//0:quake(20,20,20,1500)
-			3:sound("data\sound\golem_stomp.wav")	
+			//3:sound("data\sound\golem_stomp.wav")	
 			28:generic("custom_mesh(1:Pet_Puffy_umbrella)")		
 			28:effect("puffy_summon03_1")				
 			80:generic("custom_mesh(1)")				
@@ -59116,7 +59175,7 @@ set("pythonstone")
 	
 	"AAM_SN_GhostUroboros_process"
 			98:jump(0)
-
+			
 	//컷씬용 등장모션
 	"pythonstone_cutscene_rising"
 			220:jump(210)
@@ -70350,7 +70409,19 @@ endset
 //////////////////////////////////////// 기사 ////////////////////////////////////////////
 set("Knight")
 
-	folder("char\chapter4\human\anim\tool\rhand_A")
+	folder("char\chapter4\human\anim\tool\rhand_A")	
+			
+		"female_fantasywand_offensive"
+			0:lookat(off)
+			0:hand(right, fist)
+			0:hand(left, palm)
+			435:jump(71,true)
+		
+		"male_fantasywand_offensive"
+			0:lookat(off)
+			0:hand(right, fist)
+			0:hand(left, palm)
+			426:jump(62,true)				
 	
 		"human_agent_onehandax_stand"
 		    0:lookat(off)		
@@ -72818,6 +72889,7 @@ set("Knight")
 
 	folder("char\chapter4\giant\anim\tool\Hand_A01")	
 	
+	
 		"giant_tool_rhand_a01_line_break"
 			0:lookat(off)
 			0:hand(both, fist)	
@@ -74297,6 +74369,36 @@ set("Knight")
 	endfolder
 
 	folder("char\chapter4\giant\anim\tool\Rhand_A")  
+	
+		"giant_female_fantasywand_offensive"
+			0:lookat(off)
+			0:hand(right, fist)
+			0:hand(left, palm)
+			435:jump(71,true)
+		
+		"giant_fantasywand_offensive"
+			0:lookat(off)
+			0:hand(right, fist)
+			0:hand(left, palm)
+			426:jump(62,true)	
+		
+		"giant_female_agent_onehandax_stand"
+		    0:lookat(off)		
+			0:hand(right, fist)
+			0:hand(left, fist)
+			273:hand(left, palm)
+			686:hand(left, fist)
+			810:jump(167)
+			
+		
+		"giant_agent_onehandax_stand"
+		    0:lookat(off)		
+			0:hand(right, fist)
+			0:hand(left, fist)
+			273:hand(left, palm)
+			686:hand(left, fist)
+			810:jump(167)
+			
 		
 		"giant_25swimsuit_flower_stand"
 		    0:hand(both, palm)
@@ -75745,7 +75847,15 @@ set("Knight")
 	endfolder
 
 
-	folder("char\chapter4\giant\anim\tool\hand_E01")	
+	folder("char\chapter4\giant\anim\tool\hand_E01")
+
+	"giant_female_fantasy_twohanded_sword_stand"
+		0:lookat(off)
+		0:hand(both, fist)	
+		
+	"giant_fantasy_twohanded_sword_stand"
+		0:lookat(off)
+		0:hand(both, fist)		
 	
 	"giant_orientwohandsword_stand"
 			0:hand(both,fist)
@@ -76246,6 +76356,14 @@ set("G14_npc")
 
 	folder("char\chapter4\human\male\anim")
 	
+	
+	"male_npc_micheal_stand"
+		0:lookat(off)
+		0:hand(both, palm)	
+		
+	"male_npc_micheal_talk"
+		0:lookat(off)
+		0:hand(both, palm)
 			
 	"male_npc_leannan_stand"
 		0:lookat(off)	
@@ -76807,6 +76925,16 @@ set("G14_npc")
 
 
 	folder("char\chapter4\human\female\anim")
+	
+		"female_npc_taise"
+			0:lookat(off)		
+			0:hand (both, palm)				
+			1:generic("custom_equipmentmesh(1, female_npc_taise_bssh_ani)")			
+		
+		"female_npc_taise_talk"
+			0:lookat(on)
+			0:hand (both, palm)		
+			1:generic("custom_equipmentmesh(1, female_npc_taise_bssh_ani)")					
 	
 	
 		"female_npc_iolar_stand"
@@ -79237,6 +79365,109 @@ set("magician")
 	folder("char\chapter4\human\anim\tool\gun")
 	
 
+		"Human_SMA_RF_prepare"
+			0:lookat(off)	
+			0:hand(both,fist)			
+			0:generic("custom_equip(weapon:weapon_sh_gatling)")
+			118:jump(60,true)
+			0:effect("SMA_RF_prepare_E1_01")
+			0:sound("data\sound\skill_vg_rapid_fire_prepare.wav ")
+			
+		"Human_SMA_RF_process"
+			0:lookat(off)	
+			0:hand(both,fist)			
+			0:generic("custom_equip(weapon:weapon_sh_gatling)")		
+			//35:jump(0,true)
+			0:effect("SMA_RF_prepare_E2_01",0,1)
+			
+		"Human_SMA_RF_complete"
+			0:lookat(off)	
+			0:hand(both,palm)			
+			14:hand(both,fist)	
+			0:effect("SMA_RF_prepare_E7_01")
+			0:effect("SMA_RF_prepare_E7_02")
+			0:sound("data\sound\skill_vg_rapid_fire_complete.wav ")
+			
+		"Human_SMA_HA_prepare"
+			0:lookat(off)			
+			0:generic("custom_equip(weapon:weapon_sh_mortar)")
+			0:hand(both,palm)
+			//11:hand(right,fist)
+			105:jump(65,true)
+			0:effect("SMA_HA_prepare_E1_01")
+			0:effect("SMA_HA_prepare_E1_02")
+			0:sound("data\sound\skill_vg_heavy_artillery_prepare.wav ")
+			
+		"human_SMA_HA_process"
+			0:lookat(off)
+			0:hand(both,palm)
+			0:generic("custom_equip(weapon:weapon_sh_mortar)")				
+			26:generic("custom_equip(weapon)")			
+			38:hand(both,fist)
+			1:effect("SMA_HA_prepare_E3_01")
+			0:effect("SMA_HA_prepare_E3_02")
+			3:effect("SMA_HA_prepare_E3_03")			
+			20:effect("SMA_HA_prepare_E6_01")
+			0:sound("data\sound\skill_vg_heavy_artillery_process_1.wav ")
+			26:sound("data\sound\skill_vg_heavy_artillery_complete.wav ")
+			
+		"Human_SMA_DC_prepare"
+			0:lookat(off)
+			0:hand(right,fist)
+			0:hand(left, palm)
+			0:generic("custom_equip(weapon:weapon_sh_cannon)")
+			109:jump(57,true)
+			0:sound("data\sound\skill_vg_devastation_cannon_prepare.wav ")
+		
+		"Human_SMA_DC_process"
+			0:lookat(off)
+			0:hand(right,fist)
+			0:hand(left, palm)
+			0:generic("custom_equip(weapon:weapon_sh_cannon)")		
+			27:generic("custom_equip(weapon)")
+			28:hand(both,palm)
+			40:hand(both,fist)
+			0:sound("data\sound\skill_vg_devastation_cannon_process.wav ")
+			28:sound("data\sound\skill_vg_devastation_cannon_complete.wav ")
+			
+		"human_SMA_FS_prepare01"
+			0:lookat(off)
+			0:hand(right,fist)
+			0:hand(left, palm)		
+			0:generic("custom_equip(weapon:weapon_sh_sniper)")			
+			170:jump(110,true)
+			
+		"human_SMA_FS_prepare02"
+			0:lookat(off)
+			0:hand(right,fist)
+			0:hand(left, palm)		
+			0:generic("custom_equip(weapon:weapon_sh_sniper)")			
+			
+		"human_SMA_FS_process"
+			0:lookat(off)
+			0:hand(right,fist)
+			0:hand(left, palm)		
+			0:generic("custom_equip(weapon:weapon_sh_sniper)")	
+
+		"human_SMA_FS_complete"			
+			0:lookat(off)
+			0:hand(both, palm)
+			12:hand(both, fist)		
+			
+		"human_SMA_SE_process"
+			0:lookat(off)
+			0:hand(both,fist)		
+
+		"human_SMA_ps_process"
+			0:lookat(off)
+			0:hand(both,fist)	
+
+		"human_SMA_tz_process"
+			0:lookat(off)
+			0:hand(both,fist)	
+			0:sound("data\sound\skill_vg_transmute_zone_process.wav ")
+			
+	
 		"human_techw_dualgun_stand"
 			0:lookat(off)
 			0:hand(both, fist)
@@ -81956,7 +82187,44 @@ set("magician")
 ///////////////////////////////////////// 스태프 - 인간 ////////////////////////////////////////////
 
 	folder("char\chapter4\human\anim\tool\staff")
+	
+		"male_OrientalFastivalStaff_stand"
+			0:lookat(off)
+			0:hand (both, fist)
+			0:generic ("custom_equip(weapon:weapon_orienta_staff_ani)")		
+			232:hand (right, palm)
+			244:hand (right, fist)
+			445:hand (right, palm)
+			461:hand (right, fist)
+			
+		"female_OrientalFastivalStaff_stand"
+			0:lookat(off)
+			0:hand (both, fist)
+			0:generic ("custom_equip(weapon:weapon_orienta_staff_ani)")		
+			232:hand (right, palm)
+			244:hand (right, fist)
+			445:hand (right, palm)
+			461:hand (right, fist)			
+	
+		"female_fantasystaff_stand"
+			0:lookat(off)
+			0:hand (right, fist)
+			0:hand (left, palm)
 		
+		"male_fantasystaff_stand"
+			0:lookat(off)
+			0:hand (right, fist)
+			0:hand (left, palm)		
+			
+		"female_fantasystaff_offensive"
+			0:lookat(off)
+			0:hand (both, fist)
+			360:jump(140,true)
+		
+		"male_fantasystaff_offensive"
+			0:lookat(off)
+			0:hand (both, fist)
+			360:jump(140,true)		
 		
 		"human_darkfairy_staff_stand"
 		    0:hand(both, fist)
@@ -84488,7 +84756,165 @@ set("elf_Bhand_M10")
 
 	folder("char\chapter4\giant\anim\tool\Gun")
 	
+		"Giant_SMA_RF_prepare"
+			0:lookat(off)	
+			0:hand(both,fist)			
+			0:generic("custom_equip(weapon:giant_weapon_sh_gatling)")
+			118:jump(60,true)
+			
+		"Giant_SMA_RF_process"
+			0:lookat(off)	
+			0:hand(both,fist)			
+			0:generic("custom_equip(weapon:giant_weapon_sh_gatling)")		
+			//35:jump(0,true)
+			
+		"Giant_SMA_RF_complete"
+			0:lookat(off)	
+			0:hand(both,palm)			
+			14:hand(both,fist)	
+	
+		"Giant_SMA_HA_prepare"
+			0:lookat(off)			
+			0:generic("custom_equip(weapon:giant_weapon_sh_mortar)")
+			0:hand(both,palm)
+			//11:hand(right,fist)
+			105:jump(65,true)
+		
+		"Giant_SMA_HA_process"
+			0:lookat(off)
+			0:hand(both,palm)
+			0:generic("custom_equip(weapon:giant_weapon_sh_mortar)")
+			26:generic("custom_equip(weapon)")
+			38:hand(both,fist)
+			
+		"Giant_SMA_DC_prepare"
+			0:lookat(off)
+			0:hand(right,fist)
+			0:hand(left, palm)
+			0:generic("custom_equip(weapon:giant_weapon_sh_cannon)")
+			109:jump(57,true)
+		
+		"Giant_SMA_DC_process"
+			0:lookat(off)
+			0:hand(right,fist)
+			0:hand(left, palm)
+			0:generic("custom_equip(weapon:giant_weapon_sh_cannon)")		
+			27:generic("custom_equip(weapon)")
+			28:hand(both,palm)
+			40:hand(both,fist)
+			
+		"Giant_SMA_FS_prepare01"
+			0:lookat(off)
+			0:hand(right,palm)
+			0:hand(left, palm)		
+			0:generic("custom_equip(weapon:giant_weapon_sh_sniper)")			
+			170:jump(110,true)
+			
+		"Giant_SMA_FS_prepare02"
+			0:lookat(off)		
+			0:hand(right,palm)
+			13:hand(right,fist)
+			32:hand(right,palm)
+			0:hand(left, palm)	
+			0:generic("custom_equip(weapon:giant_weapon_sh_sniper)")			
+			
+		"Giant_SMA_FS_process"
+			0:lookat(off)
+			0:hand(right,palm)
+			0:hand(left, palm)		
+			0:generic("custom_equip(weapon:giant_weapon_sh_sniper)")	
 
+		"Giant_SMA_FS_complete"			
+			0:lookat(off)
+			0:hand(both, palm)
+			12:hand(both, fist)			
+			
+		"giant_female_SMA_RF_prepare"
+			0:lookat(off)	
+			0:hand(both,fist)			
+			0:generic("custom_equip(weapon:giant_weapon_sh_gatling)")
+			118:jump(60,true)
+			
+		"giant_female_SMA_RF_process"
+			0:lookat(off)	
+			0:hand(both,fist)			
+			0:generic("custom_equip(weapon:giant_weapon_sh_gatling)")		
+			//35:jump(0,true)
+			
+		"giant_female_SMA_RF_complete"
+			0:lookat(off)	
+			0:hand(both,palm)			
+			14:hand(both,fist)	
+	
+		"giant_female_SMA_HA_prepare"
+			0:lookat(off)			
+			0:generic("custom_equip(weapon:giant_weapon_sh_mortar)")
+			0:hand(both,palm)
+			105:jump(65,true)
+		
+		"giant_female_SMA_HA_process"
+			0:lookat(off)
+			0:hand(both,palm)
+			0:generic("custom_equip(weapon:giant_weapon_sh_mortar)")
+			26:generic("custom_equip(weapon)")
+			38:hand(both,fist)
+			
+		"giant_female_SMA_DC_prepare"
+			0:lookat(off)
+			0:hand(right,fist)
+			0:hand(left, palm)
+			0:generic("custom_equip(weapon:giant_weapon_sh_cannon)")
+			109:jump(57,true)
+		
+		"giant_female_SMA_DC_process"
+			0:lookat(off)
+			0:hand(right,fist)
+			0:hand(left, palm)
+			0:generic("custom_equip(weapon:giant_weapon_sh_cannon)")		
+			27:generic("custom_equip(weapon)")
+			28:hand(both,palm)
+			40:hand(both,fist)
+			
+		"giant_female_SMA_FS_prepare01"
+			0:lookat(off)
+			0:hand(right,fist)
+			0:hand(left, palm)		
+			0:generic("custom_equip(weapon:giant_weapon_sh_sniper)")			
+			170:jump(110,true)
+			
+		"giant_female_SMA_FS_prepare02"
+			0:lookat(off)
+			0:hand(right,fist)
+			2:hand(right,palm)
+			13:hand(right,fist)
+			0:hand(left, palm)		
+			0:generic("custom_equip(weapon:giant_weapon_sh_sniper)")				
+			
+		"giant_female_SMA_FS_process"
+			0:lookat(off)
+			0:hand(right,fist)
+			0:hand(left, palm)		
+			0:generic("custom_equip(weapon:giant_weapon_sh_sniper)")	
+
+		"giant_female_SMA_FS_complete"			
+			0:lookat(off)
+			0:hand(both, palm)
+			12:hand(both, fist)					
+	
+
+		"giant_SMA_SE_process"
+			0:lookat(off)
+			0:hand(both,fist)		
+
+		"giant_SMA_ps_process"
+			0:lookat(off)
+			0:hand(both,fist)	
+
+		"giant_SMA_tz_process"
+			0:lookat(off)
+			0:hand(both,fist)	
+				
+	
 		"giant_female_techw_dualgun_stand"
 			0:lookat(off)
 			0:hand(both, fist)
@@ -86069,6 +86495,43 @@ set("elf_Bhand_M10")
 //////////////////////////////스태프 - 자이언트 //////////////////////////////////////////////
 	folder("char\chapter4\giant\anim\tool\staff")
 	
+		"giant_OrientalFastivalStaff_stand"
+			0:lookat(off)
+			0:hand (both, fist)		
+			0:generic ("custom_equip(weapon:giant_weapon_orienta_staff_ani)")	
+			232:hand (right, palm)
+			244:hand (right, fist)
+			445:hand (right, palm)
+			461:hand (right, fist)		
+		
+		"giant_female_OrientalFastivalStaff_stand"
+			0:lookat(off)
+			0:hand (both, fist)		
+			0:generic ("custom_equip(weapon:giant_weapon_orienta_staff_ani)")	
+			232:hand (right, palm)
+			244:hand (right, fist)
+			445:hand (right, palm)
+			461:hand (right, fist)		
+	
+		"giant_female_fantasystaff_stand"
+			0:lookat(off)
+			0:hand (right, fist)
+			0:hand (left, palm)
+		
+		"giant_fantasystaff_stand"
+			0:lookat(off)
+			0:hand (right, fist)
+			0:hand (left, palm)		
+			
+		"giant_female_fantasystaff_offensive"
+			0:lookat(off)
+			0:hand (both, fist)
+			360:jump(140,true)
+		
+		"giant_fantasystaff_offensive"
+			0:lookat(off)
+			0:hand (both, fist)
+			360:jump(140,true)		
 		
 		"giant_darkfairy_staff_stand"
 		    0:hand(both, fist)

@@ -15749,87 +15749,115 @@
 17863	2025 두근두근 아일랜드 이벤트 진행 시 지급되는 매력적인 2차 타이틀이다.다른 일반 타이틀과 함께 사용할 수 있다.
 17864	2025 두근두근 아일랜드 이벤트 진행 시 지급되는 매력적인 2차 타이틀이다.다른 일반 타이틀과 함께 사용할 수 있다.
 17865	최대 대미지 28 증가\n마법 공격력 44 증가
-17866	서포트 샷 마스터
-17867	서포트 샷 마스터
-17868	데스 마커 마스터
-17869	데스 마커 마스터
-17870	서포트 샷 마스터
-17871	서포트 샷 마스터
-17872	데스 마커 마스터
-17873	데스 마커 마스터
-17874	서포트 샷 마스터
-17875	서포트 샷 마스터
-17876	데스 마커 마스터
-17877	데스 마커 마스터
-17878	서포트 샷 마스터
-17879	서포트 샷 마스터
-17880	데스 마커 마스터
-17881	데스 마커 마스터
-17882	서포트 샷의 최고레벨에 도달한 사람에게 주어지는 영광스러운 칭호
-17883	서포트 샷의 최고레벨에 도달한 사람에게 주어지는 영광스러운 칭호
-17884	데스 마커의 최고레벨에 도달한 사람에게 주어지는 영광스러운 칭호
-17885	데스 마커의 최고레벨에 도달한 사람에게 주어지는 영광스러운 칭호
-17886	서포트 샷 1랭크의 수련 경험치가 100에 도달하면 최고 레벨임을 증명하는 타이틀을 받을 수 있다
-17887	서포트 샷 1랭크의 수련 경험치가 100에 도달하면 최고 레벨임을 증명하는 타이틀을 받을 수 있다
-17888	데스 마커 1랭크의 수련 경험치가 100에 도달하면 최고 레벨임을 증명하는 타이틀을 받을 수 있다
-17889	데스 마커 1랭크의 수련 경험치가 100에 도달하면 최고 레벨임을 증명하는 타이틀을 받을 수 있다
-17890	솜씨 20 증가\n서포트 샷 이후 추가 근접 공격 대미지 5% 증가\n[체력 20 감소]\n[의지 10 감소]
-17891	솜씨 20 증가\n[체력 20 감소]\n[의지 10 감소]
-17892	솜씨 5 증가\n행운 10 증가\n죽음의 징표 유지 시간 3초 증가
-17893	솜씨 5 증가\n행운 10 증가\n죽음의 징표 유지 시간 10초 증가
-17943	대마법사를 꿈꾸는
-17944	대마법사를 꿈꾸는
-17945	대마법사를 꿈꾸는
-17946	대마법사를 꿈꾸는
-17947	대마법사를 꿈꾸는
-17948	대마법사를 꿈꾸는
-17949	대마법사를 꿈꾸는
-17950	대마법사를 꿈꾸는
-17951	대마법사를 꿈꾸는
-17952	대마법사를 꿈꾸는
-17953	대마법사를 꿈꾸는
-17954	대마법사를 꿈꾸는
-17955	대마법사를 꿈꾸는
-17956	대마법사를 꿈꾸는
-17957	대마법사를 꿈꾸는
-17958	대마법사를 꿈꾸는
-17959	첫 장래희망으로 마법사를 택한 밀레시안이 받는 타이틀. 누적 레벨이 100을 넘으면 더 이상 사용할 수 없다.
-17960	첫 장래희망으로 마법사를 택한 밀레시안이 받는 타이틀. 누적 레벨이 100을 넘으면 더 이상 사용할 수 없다.
-17961	첫 수련재능으로 마법을 택한 밀레시안이 받는 타이틀. 초보자가 아니게 되면 더 이상 사용할 수 없다.
-17962	첫 수련재능으로 마법을 택한 밀레시안이 받는 타이틀. 초보자가 아니게 되면 더 이상 사용할 수 없다.
-17963	첫 장래희망으로 마법사를 택한 밀레시안이 받는 타이틀. 누적 레벨이 100을 넘으면 더 이상 사용할 수 없다.
-17964	첫 장래희망으로 마법사를 택한 밀레시안이 받는 타이틀. 누적 레벨이 100을 넘으면 더 이상 사용할 수 없다.
-17965	첫 수련재능으로 마법을 택한 밀레시안이 받는 타이틀. 초보자가 아니게 되면 더 이상 사용할 수 없다.
-17966	첫 수련재능으로 마법을 택한 밀레시안이 받는 타이틀. 초보자가 아니게 되면 더 이상 사용할 수 없다.
-17967	최대 마나 20 증가\n볼트 마법 대미지 1% 증가\n정령 실체화 대미지 5 증가
-17968	최대 마나 20 증가\n볼트 마법 최대 대미지 1% 증가\n정령 실체화 대미지 5 증가
-17969	최대 마나 20 증가\n볼트 마법 대미지 5 증가\n정령 실체화 대미지 5 증가
-17970	최대 마나 20 증가\n볼트 마법 최대 대미지 1% 증가\n정령 실체화 대미지 5 증가
-17971	비바체 마스터
-17972	비바체 마스터
-17973	비바체 마스터
-17974	비바체 마스터
-17975	비바체 마스터
-17976	비바체 마스터
-17977	비바체 마스터
-17978	비바체 마스터
-17979	비바체 최고레벨에 도달한 사람에게 주어지는 영광스러운 칭호
-17980	비바체 최고레벨에 도달한 사람에게 주어지는 영광스러운 칭호
-17981	비바체 1랭크의 수련 경험치가 100에 도달하면 최고 레벨임을 증명하는 타이틀을 받을 수 있다
-17982	비바체 1랭크의 수련 경험치가 100에 도달하면 최고 레벨임을 증명하는 타이틀을 받을 수 있다
-17983	비바체 버프 스킬 효과 10 증가
-17984	비바체 버프 스킬 효과 8 증가
-18013	여신의 깃털
-18014	스며드는 기억
-18015	여신의 깃털
-18016	스며드는 기억
-18017	여신의 깃털
-18018	스며드는 기억
-18019	여신의 깃털
-18020	스며드는 기억
-18021	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-18022	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-18023	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-18024	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-18025	행운 30 증가
-18026	행운 30 증가
+17866	the Master of Support Shot
+17867	the Master of Support Shot
+17868	the Master of Death Mark
+17869	the Master of Death Mark
+17870	the Master of Support Shot
+17871	the Master of Support Shot
+17872	the Master of Death Mark
+17873	the Master of Death Mark
+17874	the Master of Support Shot
+17875	the Master of Support Shot
+17876	the Master of Death Mark
+17877	the Master of Death Mark
+17878	the Master of Support Shot
+17879	the Master of Support Shot
+17880	the Master of Death Mark
+17881	the Master of Death Mark
+17882	An honorable title awarded to someone who has reached the highest level available in Support Shot.
+17883	An honorable title awarded to someone who has reached the highest level available in Support Shot.
+17884	An honorable title awarded to someone who has reached the highest level available in Death Mark.
+17885	An honorable title awarded to someone who has reached the highest level available in Death Mark.
+17886	Reach 100 Training EXP for Support Shot Rank 1 to receive a title that proves your mastery.
+17887	Reach 100 Training EXP for Support Shot Rank 1 to receive a title that proves your mastery.
+17888	Reach 100 Training EXP for Death Mark Rank 1 to receive a title that proves your mastery.
+17889	Reach 100 Training EXP for Death Mark Rank 1 to receive a title that proves your mastery.
+17890	DEX +20\nIncreases melee attack damage an additional 5% after Support Shot\n[STR -20]\n[WILL -10]
+17891	DEX +20\n[STR -20]\n[WILL -10]
+17892	DEX +5\nLuck +10\nDeath Mark duration +3 sec.
+17893	DEX +5\nLuck +10\nDeath Mark duration +10 sec.
+17943	the Aspiring Mage
+17944	the Aspiring Mage
+17945	the Aspiring Mage
+17946	the Aspiring Mage
+17947	the Aspiring Mage
+17948	the Aspiring Mage
+17949	the Aspiring Mage
+17950	the Aspiring Mage
+17951	the Aspiring Mage
+17952	the Aspiring Mage
+17953	the Aspiring Mage
+17954	the Aspiring Mage
+17955	the Aspiring Mage
+17956	the Aspiring Mage
+17957	the Aspiring Mage
+17958	the Aspiring Mage
+17959	A title given to a Milletian who chose the Destiny of a Wizard. Cannot be used after exceeding a cumulative level of 100.
+17960	A title given to a Milletian who chose the Destiny of a Wizard. Cannot be used after exceeding a cumulative level of 100.
+17961	A title for those who choose Magic as their active Talent. This title can no longer be used when you are no longer a beginner.
+17962	A title for those who choose Magic as their active Talent. This title can no longer be used when you are no longer a beginner.
+17963	A title given to a Milletian who chose the Destiny of a Wizard. Cannot be used after exceeding a cumulative level of 100.
+17964	A title given to a Milletian who chose the Destiny of a Wizard. Cannot be used after exceeding a cumulative level of 100.
+17965	A title for those who choose Magic as their active Talent. This title can no longer be used when you are no longer a beginner.
+17966	A title for those who choose Magic as their active Talent. This title can no longer be used when you are no longer a beginner.
+17967	Max MP +20\nBolt Magic Damage +1%\nSpirit Awakening Damage +5
+17968	Max MP +20\nBolt Magic Max Damage +1%\nSpirit Awakening Damage +5
+17969	Max MP +20\nBolt Magic Damage +5\nSpirit Awakening Damage +5
+17970	Max MP +20\nBolt Magic Max Damage +1%\nSpirit Awakening Damage +5
+17971	the Master of Vivace
+17972	the Master of Vivace
+17973	the Master of Vivace
+17974	the Master of Vivace
+17975	the Master of Vivace
+17976	the Master of Vivace
+17977	the Master of Vivace
+17978	the Master of Vivace
+17979	An honorable title awarded to someone who has reached the highest level available in Vivace.
+17980	An honorable title awarded to someone who has reached the highest level available in Vivace.
+17981	Reach 100 Training EXP for Vivace Rank 1 to receive a title that proves your mastery.
+17982	Reach 100 Training EXP for Vivace Rank 1 to receive a title that proves your mastery.
+17983	Vivace Effect +10
+17984	Vivace Effect +8
+18013	Goddess Feather
+18014	Immersed in Memory
+18015	Goddess Feather
+18016	Immersed in Memory
+18017	Goddess Feather
+18018	Immersed in Memory
+18019	Goddess Feather
+18020	Immersed in Memory
+18021	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+18022	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+18023	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+18024	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+18025	Luck +30
+18026	Luck +30
+18090	Special Dreamwood Butterfly
+18091	Special Dreamwood Butterfly
+18092	Special Dreamwood Butterfly
+18093	Special Dreamwood Butterfly
+18094	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+18095	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+18096	Firebolt Max Damage +1%\nBolt Magic Damage +15%\nFusion Bolt Damage +5%\nMax MP +50\nMagic Attack +20\nMagic Casting Speed +5%
+18097	20주년 간 나오와 함께한
+18098	에린의 전설인
+18099	20주년 간 나오와 함께한
+18100	에린의 전설인
+18101	20주년 간 나오와 함께한
+18102	에린의 전설인
+18103	20주년 간 나오와 함께한
+18104	에린의 전설인
+18105	20주년을 맞이한 대만의 밀레시안에게 주어지는 특별한 1차 타이틀.
+18106	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+18107	20주년을 맞이한 대만의 밀레시안에게 주어지는 특별한 1차 타이틀. 타이틀 쿠폰을 통해서 획득 할 수 있다.
+18108	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+18109	체력 20 증가\n솜씨 20 증가\n지력 20 증가\n의지 20 증가\n행운 20 증가
+18110	최대 대미지 20 증가\n마법 공격력 20 증가\n물 / 불 / 바람 / 흙 속성\n연금술 대미지 12 증가\n이동 속도 1% 증가
+18139	에린 체험 특별 지원
+18140	에린 체험 특별 지원
+18141	에린 체험 특별 지원
+18142	에린 체험 특별 지원
+18143	에린 체험 특별 지원 효과를 얻을 수 있는 타이틀이다.
+18144	에린 체험 특별 지원 효과를 얻을 수 있는 타이틀이다.
+18145	최대 대미지 20 증가\n체력 10 증가\n지력 10 증가\n솜씨 10 증가\n의지 10 증가\n행운 10 증가\n이동 속도 2% 증가\n모든 스킬 수련치 2배\n파티로 그림자 미션, 연극 미션, 던전 플레이 시 자신은 경험치 2배, 파티원은 경험치 1.5배

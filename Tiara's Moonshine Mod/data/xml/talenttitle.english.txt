@@ -1944,27 +1944,27 @@
 2809	Practitioners of Battle Astrology wield Scythes in combat, and carry with them an Orb used in their auguries. Their damage is primarily reliant upon their Magic Attack power.\nAstrologers use their knowledge of the stars to customize their skills, tailoring each to best suit their own proclivities in combat. In doing so, they demonstrate their heightened ability to influence destiny itself.
 2810	Practitioners of Battle Astrology wield Scythes in combat, and carry with them an Orb used in their auguries. Their damage is primarily reliant upon their Magic Attack power.\nAstrologers use their knowledge of the stars to customize their skills, tailoring each to best suit their own proclivities in combat. In doing so, they demonstrate their heightened ability to influence destiny itself.
 2811	Fate Astrologers can gain insight into people's futures, personalities, and fates by studying the positions of the stars. They are frequently also skilled in other divination methods, such as Cartomancy, and may be able to create tools and materials that use the power of the stars.
-2812	그랜드마스터 성기사
-2813	축복과 근접 전투를 모두 능숙하게 사용할 수 있는 사람에게만 나타나는 숨겨진 재능입니다. 성스러운 힘을 바탕으로 근접 전투를 할 수 있습니다.
-2814	베테랑 폭발 예술가
-2815	수석 폭발 예술가
-2816	상급 폭발 예술가
-2817	일류 폭발 예술가
-2818	특급 폭발 예술가
-2819	달인 폭발 예술가
-2820	로얄 폭발 예술가
-2821	챔피언 폭발 예술가
-2822	대 폭발 예술가
-2823	마스터 폭발 예술가
-2824	그랜드마스터 폭발 예술가
-2825	바닥에 굴러다니던 마력탄을 랜스로 콕콕 찔러보다 아이쿠! 그만 마력탄을 터트리고 말았는데! 폭발하는 불꽃 속에서 영감을 얻는 저는 그만 폭발 예술가가 되었답니다.
-2826	바닥에 굴러다니던 마력탄을 랜스로 콕콕 찔러보다 아이쿠! 그만 마력탄을 터트리고 말았는데! 폭발하는 불꽃 속에서 영감을 얻는 저는 그만 폭발 예술가가 되었답니다.
-2827	바닥에 굴러다니던 마력탄을 랜스로 콕콕 찔러보다 아이쿠! 그만 마력탄을 터트리고 말았는데! 폭발하는 불꽃 속에서 영감을 얻는 저는 그만 폭발 예술가가 되었답니다.
-2828	바닥에 굴러다니던 마력탄을 랜스로 콕콕 찔러보다 아이쿠! 그만 마력탄을 터트리고 말았는데! 폭발하는 불꽃 속에서 영감을 얻는 저는 그만 폭발 예술가가 되었답니다.
-2829	바닥에 굴러다니던 마력탄을 랜스로 콕콕 찔러보다 아이쿠! 그만 마력탄을 터트리고 말았는데! 폭발하는 불꽃 속에서 영감을 얻는 저는 그만 폭발 예술가가 되었답니다.
-2830	바닥에 굴러다니던 마력탄을 랜스로 콕콕 찔러보다 아이쿠! 그만 마력탄을 터트리고 말았는데! 폭발하는 불꽃 속에서 영감을 얻는 저는 그만 폭발 예술가가 되었답니다.
-2831	바닥에 굴러다니던 마력탄을 랜스로 콕콕 찔러보다 아이쿠! 그만 마력탄을 터트리고 말았는데! 폭발하는 불꽃 속에서 영감을 얻는 저는 그만 폭발 예술가가 되었답니다.
-2832	바닥에 굴러다니던 마력탄을 랜스로 콕콕 찔러보다 아이쿠! 그만 마력탄을 터트리고 말았는데! 폭발하는 불꽃 속에서 영감을 얻는 저는 그만 폭발 예술가가 되었답니다.
-2833	바닥에 굴러다니던 마력탄을 랜스로 콕콕 찔러보다 아이쿠! 그만 마력탄을 터트리고 말았는데! 폭발하는 불꽃 속에서 영감을 얻는 저는 그만 폭발 예술가가 되었답니다.
-2834	바닥에 굴러다니던 마력탄을 랜스로 콕콕 찔러보다 아이쿠! 그만 마력탄을 터트리고 말았는데! 폭발하는 불꽃 속에서 영감을 얻는 저는 그만 폭발 예술가가 되었답니다.
-2835	바닥에 굴러다니던 마력탄을 랜스로 콕콕 찔러보다 아이쿠! 그만 마력탄을 터트리고 말았는데! 폭발하는 불꽃 속에서 영감을 얻는 저는 그만 폭발 예술가가 되었답니다.
+2812	Grandmaster Holy Warrior
+2813	This hidden talent is a result of proficiency in Close Combat and the Holy Arts. Your attacks are infused with the power of the divine!
+2814	Apprentice Pyrotechnician
+2815	Senior Pyrotechnician
+2816	Advanced Pyrotechnician
+2817	Seasoned Pyrotechnician
+2818	Skilled Pyrotechnician
+2819	Expert Pyrotechnician
+2820	Great Pyrotechnician
+2821	Champion Pyrotechnician
+2822	Wise Pyrotechnician
+2823	Master Pyrotechnician
+2824	Grandmaster Pyrotechnician
+2825	On one fateful day, you stabbed a loose Mana Bullet rolling around on the floor with a lance. The resulting explosion inspired you to study the explosive arts.
+2826	On one fateful day, you stabbed a loose Mana Bullet rolling around on the floor with a lance. The resulting explosion inspired you to study the explosive arts.
+2827	On one fateful day, you stabbed a loose Mana Bullet rolling around on the floor with a lance. The resulting explosion inspired you to study the explosive arts.
+2828	On one fateful day, you stabbed a loose Mana Bullet rolling around on the floor with a lance. The resulting explosion inspired you to study the explosive arts.
+2829	On one fateful day, you stabbed a loose Mana Bullet rolling around on the floor with a lance. The resulting explosion inspired you to study the explosive arts.
+2830	On one fateful day, you stabbed a loose Mana Bullet rolling around on the floor with a lance. The resulting explosion inspired you to study the explosive arts.
+2831	On one fateful day, you stabbed a loose Mana Bullet rolling around on the floor with a lance. The resulting explosion inspired you to study the explosive arts.
+2832	On one fateful day, you stabbed a loose Mana Bullet rolling around on the floor with a lance. The resulting explosion inspired you to study the explosive arts.
+2833	On one fateful day, you stabbed a loose Mana Bullet rolling around on the floor with a lance. The resulting explosion inspired you to study the explosive arts.
+2834	On one fateful day, you stabbed a loose Mana Bullet rolling around on the floor with a lance. The resulting explosion inspired you to study the explosive arts.
+2835	On one fateful day, you stabbed a loose Mana Bullet rolling around on the floor with a lance. The resulting explosion inspired you to study the explosive arts.
