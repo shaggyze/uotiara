@@ -9997,7 +9997,6 @@
 11408	돌아온 기분이 드는 밀레시안
 11409	마치 오랜 시간이 지나 다시 에린으로 돌아온 것처럼 생소하고 어색함이 느껴지는 밀레시안. 얼핏 보면 돌아온 밀레시안처럼 보인다.
 11410	오랜 시간이 지나진 않았지만 다시 에린으로 돌아온 것 같은 마음가짐을 만들어 주는 타이틀. (돌아온 밀레시안과 로나의 특별 지원 타이틀과 중복적용 되지 않는다.)
-11411	최대 대미지 10 증가\n체력 5 증가\n지력 5 증가\n솜씨 5 증가\n의지 5 증가\n행운 5 증가\n이동 속도 1% 증가\n모든 스킬 수련치 2배\n파티로 그림자 미션, 연극 미션, 던전 플레이 시 자신은 경험치 2배, 파티원은 경험치 1.5배
 11412	삼하인의 기억
 11415	삼하인의 기억
 11418	삼하인의 기억
@@ -11093,7 +11092,6 @@
 12549	신년 맞이 대박 행운
 12550	신년 맞이 대박 행운을 기원하는 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 12551	신년 맞이 대박 행운을 기원하는 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-12552	최대 대미지 10 증가\n체력 5 증가\n지력 5 증가\n솜씨 5 증가\n의지 5 증가\n행운 5 증가\n이동 속도 1% 증가\n모든 스킬 수련치 2배\n파티로 그림자 미션, 연극 미션, 던전 플레이 시 자신은 경험치 2배, 파티원은 경험치 1.5배\n(돌아온 밀레시안 및 로나의 특별 지원 타이틀과 중복 불가)
 12553	Special Brilliant Cosmic Milky Way
 12554	Special Brilliant Cosmic Milky Way
 12555	Special Brilliant Cosmic Milky Way
@@ -12080,7 +12078,6 @@
 13536	달콤한 밀레시안
 13537	이루샤가 특별하게 만든 타이틀. 분홍 발자국 마법이 걸려있어, 다양한 효과를 얻을 수 있으며 정해진 기간이 지나면 마법 효과가 사라진다.
 13538	이루샤가 특별하게 만든 타이틀. 분홍 발자국 마법이 걸려있어, 다양한 효과를 얻을 수 있으며 정해진 기간이 지나면 마법 효과가 사라진다.
-13539	최대 대미지 10 증가\n체력 5 증가\n지력 5 증가\n솜씨 5 증가\n의지 5 증가\n행운 5 증가\n이동 속도 1% 증가\n모든 스킬 수련치 2배\n파티로 그림자 미션, 연극 미션, 던전 플레이 시 자신은 경험치 2배, 파티원은 경험치 1.5배\n(다시 만난 밀레시안, 로나의 특별 지원, 특별 지원 타이틀과 중복 불가)
 13540	Divine Black Feather
 13541	Divine White Feather
 13542	Divine Black Feather
@@ -15063,6 +15060,34 @@
 16708	A title granted to those who thwarted the ambitions of the master of Glenn Bearna, the Winter Tyrant, securing a path to the future.
 16709	A title granted to those who stood against the master of Glenn Bearna, emerging victorious even when confronted with the full fury of a Primeval Winter.\nEarned by claiming victory against the Winter Tyrant without any party member being knocked out.
 16710	Max Damage +27\nMagic Attack +50\nProtection/Magic Protection +15\nMovement Speed +2%
+16711	아크 해커
+16712	다크 해커
+16713	샤방 샤방
+16714	영원한 구속
+16715	아크 해커
+16716	다크 해커
+16717	샤방 샤방
+16718	영원한 구속
+16719	아크 해커
+16720	다크 해커
+16721	샤방 샤방
+16722	영원한 구속
+16723	아크 해커
+16724	다크 해커
+16725	샤방 샤방
+16726	영원한 구속
+16727	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16728	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16729	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16730	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16731	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16732	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16733	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16734	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+16735	행운 30 증가
+16736	행운 30 증가
+16737	행운 30 증가
+16738	행운 30 증가
 16739	a 12th Anniversary Milletian
 16740	a 13th Anniversary Milletian
 16741	a 14th Anniversary Milletian
@@ -15560,6 +15585,48 @@
 17415	A Title given to the Birthday Bloomers who joined Tamara's birthday stream.
 17416	A Title given to the Birthday Bloomers who joined Tamara's birthday stream.
 17417	
+17432	who Recalls the Unfading Garden
+17433	the Unbent Stem
+17434	the Unbound Blossom
+17435	the Unerring Root
+17436	who Recalls the Unfading Garden
+17437	the Unbent Stem
+17438	the Unbound Blossom
+17439	the Unerring Root
+17440	who Recalls the Unfading Garden
+17441	the Unbent Stem
+17442	the Unbound Blossom
+17443	the Unerring Root
+17444	who Recalls the Unfading Garden
+17445	the Unbent Stem
+17446	the Unbound Blossom
+17447	the Unerring Root
+17448	You have revealed the truth hidden beneath Bri Leith's false tranquility, and have given solace to the residents of Murias with the love in your heart.
+17449	You faced the secrets beneath the solace of Murias with steadfast kindness.
+17450	You broke free of the secrets beneath the solace of Murias with daring and unpredictability.
+17451	You confronted the secrets beneath the solace of Murias with calm and sure judgement.
+17452	A title given to those who realized the truth behind the garden's solace alongside the Windfall Mercenary Corps.
+17453	A title given to Milletians who completed all G27 quests. If your heart never wavers...
+17454	A title given to Milletians who completed all G27 quests. If your nerve never falters...
+17455	A title given to Milletians who completed all G27 quests. If you never doubt your judgement...
+17456	Max Damage +20\nMagic Attack +20\nProtection +10\nMagic Protection +10\nMovement Speed +2%
+17457	
+17458	
+17459	
+17516	who Lent a Hand in Bri Leith
+17517	who Earned the Trust of Bri Leith
+17518	who Lent a Hand in Bri Leith
+17519	who Earned the Trust of Bri Leith
+17520	who Lent a Hand in Bri Leith
+17521	who Earned the Trust of Bri Leith
+17522	who Lent a Hand in Bri Leith
+17523	who Earned the Trust of Bri Leith
+17524	A special title given to Milletians who helped the residents of Bri Leith.
+17525	A special title given to diligent Milletians who helped the residents of Bri Leith until the bitter end.
+17526	A special title given to Milletians who helped the residents of Bri Leith.
+17527	A special title given to diligent Milletians who helped the residents of Bri Leith until the bitter end.
+17528	Max Damage +5\nMagic Attack +5\nWater/Fire/Wind/Earth Attribute\nAlchemic Damage +1\nMovement Speed +1%
+17529	Max Damage +15\nMagic Attack +15\nWater/Fire/Wind/Earth Attribute\nAlchemic Damage +5\nMovement Speed +3%
 17530	2025년 마비노기 스타
 17531	2025년 마비노기 스타
 17532	2025년 마비노기 스타
@@ -15602,6 +15669,41 @@
 17569	행운 30 증가
 17570	행운 30 증가
 17571	행운 30 증가
+17572	who Broke the Comet's Orbit
+17573	who Trampled the Trampler
+17574	the Ender of Euphoria
+17575	who Broke the Comet's Orbit
+17576	who Trampled the Trampler
+17577	the Ender of Euphoria
+17578	who Broke the Comet's Orbit
+17579	who Trampled the Trampler
+17580	the Ender of Euphoria
+17581	who Broke the Comet's Orbit
+17582	who Trampled the Trampler
+17583	the Ender of Euphoria
+17584	A title given to those who defeated the first boss of Bri Leith, Vertrag of the Deep Roots.
+17585	A title given to those who defeated the second boss of Bri Leith, Bronntanas.
+17586	A title given to those who defeated the third boss of Bri Leith, Midir the Beloved.
+17587	A title given to those who defeated the first boss of Bri Leith, Vertrag of the Deep Roots.
+17588	A title given to those who defeated the second boss of Bri Leith, Bronntanas.
+17589	A title given to those who defeated the third boss of Bri Leith, Midir the Beloved.
+17590	Movement Speed +3%
+17591	Movement Speed +3%
+17592	Movement Speed +3%
+17614	the Agony and the Ecstasy
+17615	whose Memories Shall Never Fade
+17616	the Agony and the Ecstasy
+17617	whose Memories Shall Never Fade
+17618	the Agony and the Ecstasy
+17619	whose Memories Shall Never Fade
+17620	the Agony and the Ecstasy
+17621	whose Memories Shall Never Fade
+17622	A title given to those who have proven their exceptional skill in Bri Leith.
+17623	A title given to those who have gathered memories from Bri Leith, helping to foster a life beyond the end.
+17624	A title given to those who have proven their exceptional skill in Bri Leith.\nEarn this title by defeating Vertrag of the Deep Roots, Bronntanas, and Midir the Beloved in sequence with no retries.
+17625	A title given to those who have gathered memories from Bri Leith, helping to foster a life beyond the end. Gather Traces of Memories and give them to someone who has lost their memories of Murias.
+17626	Max Damage +33\nMagic Attack +55\nDefense +30\nMagic Defense +30\nProtection +15\nMagic Protection +15\nMovement Speed +2%
+17627	Max Damage +33\nMagic Attack +55
 17649	Erinn Adventure Pass Season 2 Conqueror
 17650	Erinn Adventure Pass Season 2 Conqueror
 17651	Erinn Adventure Pass Season 2 Conqueror
@@ -15665,6 +15767,20 @@
 17709	행운 30 증가
 17710	행운 30 증가
 17711	행운 30 증가
+17712	Galvanic Current
+17713	Toxic Vapor
+17714	Galvanic Current
+17715	Toxic Vapor
+17716	Galvanic Current
+17717	Toxic Vapor
+17718	Galvanic Current
+17719	Toxic Vapor
+17720	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17721	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17722	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17723	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17724	Luck +30
+17725	Luck +30
 17734	모험과 환희
 17736	모험과 환희
 17738	모험과 환희
@@ -15861,3 +15977,87 @@
 18143	에린 체험 특별 지원 효과를 얻을 수 있는 타이틀이다.
 18144	에린 체험 특별 지원 효과를 얻을 수 있는 타이틀이다.
 18145	최대 대미지 20 증가\n체력 10 증가\n지력 10 증가\n솜씨 10 증가\n의지 10 증가\n행운 10 증가\n이동 속도 2% 증가\n모든 스킬 수련치 2배\n파티로 그림자 미션, 연극 미션, 던전 플레이 시 자신은 경험치 2배, 파티원은 경험치 1.5배
+18216	환상 속 세계수
+18217	환상 속 마법의 성
+18218	환상 속 세계수
+18219	환상 속 마법의 성
+18220	환상 속 세계수
+18221	환상 속 마법의 성
+18222	환상 속 세계수
+18223	환상 속 마법의 성
+18224	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+18225	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+18226	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+18227	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+18228	행운 30 증가
+18229	행운 30 증가
+18230	Black Moon's Omen
+18231	Black Moon's Shadow
+18232	Black Moon's Rising
+18233	Black Moon's Advent
+18234	Black Moon's Omen
+18235	Black Moon's Shadow
+18236	Black Moon's Rising
+18237	Black Moon's Advent
+18238	Black Moon's Omen
+18239	Black Moon's Shadow
+18240	Black Moon's Rising
+18241	Black Moon's Advent
+18242	Black Moon's Omen
+18243	Black Moon's Shadow
+18244	Black Moon's Rising
+18245	Black Moon's Advent
+18246	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+18247	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+18248	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+18249	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+18250	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+18251	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+18252	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+18253	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+18254	Luck +30
+18255	Luck +30
+18256	Luck +30
+18257	Luck +30
+18265	익스프레스 정복자
+18266	파괴의 선구자
+18267	익스프레스 정복자
+18268	파괴의 선구자
+18269	익스프레스 정복자
+18270	파괴의 선구자
+18271	익스프레스 정복자
+18272	파괴의 선구자
+18273	2025 던전 플레이 이벤트를 통해 선정된 밀레시안에게 주어지는 영광스러운 타이틀 A.
+18274	2025 던전 플레이 이벤트를 통해 선정된 밀레시안에게 주어지는 영광스러운 타이틀 B.
+18275	2025 던전 플레이 이벤트를 통해 선정된 밀레시안에게 주어지는 영광스러운 타이틀 A.
+18276	2025 던전 플레이 이벤트를 통해 선정된 밀레시안에게 주어지는 영광스러운 타이틀 B.
+18277	
+18278	
+18279	이올라
+18280	마테우스
+18281	이올라
+18282	마테우스
+18283	이올라
+18284	마테우스
+18285	이올라
+18286	마테우스
+18287	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+18288	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+18289	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+18290	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+18291	기본 효과\n최대 대미지 16 증가\n방어 15 증가\n보호 8 증가\n마법 방어 15 증가\n마법 보호 8 증가\n\n세이크리드 가드 보너스 효과\n방어 15 증가\n보호 8 증가\n마법 방어 15 증가\n마법 보호 8 증가\n최대 생명력 150 증가\n격돌 재사용 대기 시간 1초 감소\n성역 전개 반경 1.5m 증가
+18292	기본 효과\n최대 대미지 24 증가\n보호 12 증가\n최대 생명력 80 증가\n\n블래스트 랜서 보너스 효과\n랜스 재능 무기 최대 대미지 8 증가\n랜스 차지 대미지 배율 15% 증가\n차지 어설트 공격 범위 1m\n보너스 대미지 1% 증가
+18293	the Conqueror of Bri Leith
+18294	the Conqueror of Bri Leith
+18295	the Conqueror of Bri Leith
+18296	the Conqueror of Bri Leith
+18297	A title earned from the Bri Leith server-first event.
+18298	Be part of the first team to fully clear the Bri Leith dungeon during the Bri Leith server-first event to earn this title.
+18299	
+18300	Erinn Adventure Pass Season 3 Conqueror
+18301	Erinn Adventure Pass Season 3 Conqueror
+18302	Erinn Adventure Pass Season 3 Conqueror
+18303	Erinn Adventure Pass Season 3 Conqueror
+18304	A title given to Milletians who completed their Erinn Adventure Pass during Season 3.
+18305	A title given to Milletians who completed their Erinn Adventure Pass during Season 3.
+18306	Max Damage +35\nMagic Attack +45\nCritical +8%\nMusic Buff Effect +5\nDefense +10\nProtection +8\nMagic Defense +10\nMagic Protection +8\nWater/Fire/Wind/Earth Alchemic Damage +14

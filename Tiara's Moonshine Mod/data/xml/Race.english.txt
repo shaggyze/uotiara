@@ -993,7 +993,7 @@
 1268	Black Snowfield Ostrich
 1269	렛서 팬더
 1270	흰 푸들
-1271	갈색 푸들
+1271	Brown Poodle
 1272	Golden Pig
 1273	Emperor Penguin
 1274	Adelie Penguin
@@ -1125,7 +1125,7 @@
 1456	Nao
 1459	Hobgoblin Grenadier
 1460	Hobgoblin Grenadier
-1461	갈색 타조
+1461	Brown Ostrich
 1462	Watermelon
 1465	Head Hobgoblin
 1466	Head Hobgoblin
@@ -1771,7 +1771,7 @@
 2322	원령 궁수
 2323	거대 원령 기사
 2324	거대 원령 궁수
-2325	Thoroughbred (Color Selectable)
+2325	Thoroughbred
 2326	Shire (Color Selectable)
 2327	Unicorn (Color Selectable)
 2330	Silver Tableware
@@ -2878,7 +2878,7 @@
 3845	Event Temple Knight
 3846	Event Spider Archer
 3848	Smuggler Elephant
-3849	키이스
+3849	Keith
 3850	Black Flamemare
 3851	파트너 [멘마]
 3852	Marshal Street Cat
@@ -4557,6 +4557,7 @@
 5920	Rudolph
 5921	Head Hobgoblin
 5922	Head Hobgoblin
+5923	마스터 셰프의 포장마차
 5924	Lovely Boston Terrier
 5926	Lovely Siamese
 5927	Lovely Scottish Fold
@@ -10074,7 +10075,13 @@
 12398	Fer
 12399	Hasidim
 12400	Deer Rag Doll
+12407	Irusan
+12408	Far Darrig
+12409	Scented Bear
 12410	Declan
+12411	Mascot
+12412	Mascot
+12413	Mascot
 12414	Black Dire Wolf
 12415	White Dire Wolf
 12416	White Dire Wolf
@@ -10174,6 +10181,7 @@
 12541	Fir Bolg Archer
 12542	Neal
 12543	Delaney
+12544	Vertrag
 12546	Erinn Courier Bear Doll
 12547	Erinn Courier Fennec Fox Doll
 12548	Frieren
@@ -10194,12 +10202,22 @@
 12563	Tabby Purrling
 12564	Siamese Purrling
 12565	Siamese Purrling
+12566	Vertrag of the Deep Roots
+12567	Vertrag of the Deep Roots
+12568	Midir the Beloved
+12569	Shard of Solace
+12570	Shard of Solace
+12571	Shard of Solace
+12572	Shard of Solace
+12573	Shard of Solace
 12574	Frieren Doll
 12575	Fern Doll
 12576	Stark Doll
 12577	Himmel Doll
 12578	Übel Doll
 12579	Serie Doll
+12580	Leannan
+12581	Dairine
 12582	Saber X (Event)
 12583	Mart Kart (Event)
 12584	Lodi Infernal (Event)
@@ -10208,14 +10226,20 @@
 12587	Practice Kart (Event)
 12588	Iolar
 12589	Iolar
+12590	Heart-Eating Spirit
+12591	Abandoned Nightbringer Berserker
+12592	Wagon
 12593	Mouse Click Guide
 12594	Stark
 12595	Stark
 12596	Stark
 12597	Antique Mimic
 12598	빛고래(크리에이터)
-12602	소울 리버레이트 피에로 마리오네트
-12603	소울 리버레이트 콜로서스 마리오네트
+12599	Bronntanas
+12600	Vertrag
+12601	Altam
+12602	Soul Liberator Pierrot Marionette
+12603	Soul Liberator Colossus Marionette
 12604	Succubus Fiend
 12605	Succubus Fiend
 12606	Succubus Fiend
@@ -10223,6 +10247,10 @@
 12608	Disciple
 12609	Dark Disciple
 12610	Succubus Fiend
+12611	Frightened Guard
+12612	Calm Guard
+12613	Lepidopteran Divine Beast
+12614	Avian Divine Beast
 12616	Cailleach
 12617	Cailleach
 12618	Cailleach
@@ -10297,6 +10325,10 @@
 12687	Giga Glas Ghaibhleann
 12688	Irusan
 12689	Irusan
+12690	Giant
+12691	Elf
+12692	Human
+12693	Dairine
 12694	Rustic Food Truck
 12695	Succubus Queen
 12696	Succubus Queen
@@ -10324,9 +10356,25 @@
 12719	Huge Royal Castle Rat
 12720	Goblin
 12721	Poison Goblin
+12723	Rowan
 12724	Matthias
 12725	Matthias
+12726	Merlin
+12727	Lughnasadh Unit Member
 12728	무등고래
+12730	Lughnasadh Unit Member
+12731	Leannan
+12732	Fionntan
+12733	Meliora
+12734	Beacan
+12735	Ibyka
+12736	Huchon
+12737	Nonn
+12738	Rubus
+12739	Krahe
+12740	Tudor
+12741	Somairle
+12742	Dairine
 12743	Rookie Bandit Goblin
 12744	Rookie Bandit Goblin Archer
 12745	Rookie Bandit Imp
@@ -10506,16 +10554,57 @@
 12919	Giant Sandworm
 12920	Mokkurkalfi
 12921	Sylvan Dragon
-12929	번개의 카트시
+12922	Elevated Ground
+12923	Ancient Rancor
+12924	Ancient Giant
+12925	Ancient Giant
+12926	Ancient Giant
+12927	Ancient Giant
+12928	Vertrag
+12929	Lightning Catsidhe
+12931	Vertrag
+12932	Seafra
+12933	Gwerful
+12934	Declan
+12935	Delga
+12936	Aine
+12937	Declan
+12938	Seafra
+12939	Delga
+12940	
+12941	Vertrag
+12942	Vertrag
+12943	Fionntan
+12944	Meliora
+12945	Beacan
+12946	Ibyka
+12947	Huchon
+12948	Nonn
+12949	Rubus
+12950	Krahe
+12951	Tudor
+12952	Somairle
 12953	Assassin
 12954	Assassin
 12955	Assassin
 12956	Giant Assassin
 12957	Giant Assassin
+12958	Midir the Beloved
+12959	Shard of Solace
+12960	Shard of Solace
+12961	Shard of Solace
+12962	Shard of Solace
+12963	Shard of Solace
 12964	Laighlinne Partner
+12965	Vertrag of the Deep Roots
+12966	Bronntanas
+12967	Declan
+12968	Aine
+12969	Seafra
 12970	Assassin
 12971	Assassin
 12972	Assassin
+12974	Vertrag
 12975	Blazing Catsidhe
 12976	화염의 카트시
 12977	Dazzling Catsidhe
@@ -10542,5 +10631,24 @@
 13008	Irusan Pinata
 13017	Warrior Corgi (Event)
 13018	Warrior Corgi (Event)
+13027	Treasure Hunting Giant Leprechaun
+13028	Silvershine Giant Leprechaun
+13029	Goldengleam Giant Leprechaun
+13030	Dapper Dandy Giant Leprechaun
 13049	판 미니돌
-13056	별마법사 카트시
+13052	Guardian Cwn Annwn (Event)
+13053	Arbiter Cwn Annwn (Event)
+13054	Red Fairy Dragon (Event)
+13055	Blue Fairy Dragon (Event)
+13056	Star Wizard Catsidhe
+13074	루에리
+13075	타르라크
+13076	마리
+13077	서큐버스 크리스텔
+13078	타르라크
+13216	White Mist
+13217	Black Mist
+13218	Blighting Orb
+13280	Illusion of Balor
+13281	Tech Duinn Geata
+13283	Hellgate

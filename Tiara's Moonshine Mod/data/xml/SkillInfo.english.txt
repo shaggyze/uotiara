@@ -967,10 +967,10 @@
 1372	When people think of magic, they think of the ability to manipulate weather. This basic skill allows you to create a snow storm, gather ice from that storm, and then unleash that ice upon your enemies. You need to wield a staff to use the skill, but it will allow you to ceaselessly attack nearby enemies.
 1373	A true fighter must never be caught off guard or show mercy. When an enemy falls, that is the moment to strike! Jump high into the air, and crash down, slashing with your sword. Your mighty strike will leave your enemy begging for mercy.
 1374	A true fighter must never be caught off guard or show mercy. When an enemy falls, that is the moment to strike! Jump high into the air, and crash down, slashing with your sword. Your mighty strike will leave your enemy begging for mercy.
-1376	Fire Alchemy
-1377	Water Alchemy
+1376	Fire Alchemy Mastery
+1377	Water Alchemy Mastery
 1378	Earth Alchemy Mastery
-1379	Wind Alchemy
+1379	Wind Alchemy Mastery
 1381	Transmutation
 1382	This skill increases your knowledge of Fire Magic, which increases the damage you inflict on enemies. This skill is essential if you wish to master Fire Magic.
 1383	This skill increases your knowledge of Ice Magic, which increases the damage you inflict on enemies. This skill is essential if you wish to master Ice Magic.
@@ -1042,10 +1042,10 @@
 1537	Ice Mastery
 1538	Lightning Mastery
 1539	Bolt Mastery
-1540	Fire Alchemy
-1541	Water Alchemy
+1540	Fire Alchemy Mastery
+1541	Water Alchemy Mastery
 1542	Earth Alchemy Mastery
-1543	Wind Alchemy
+1543	Wind Alchemy Mastery
 1544	Transmutation
 1545	When it comes to melee combat, swords are the weapons of choice. Sword Mastery enhances your skill with swords. While this ability doesn't grant any specific skills, it will grant you greater proficiency when you fight enemies using your trusty sword.
 1546	Powerful and heavy, combat axes are a handful, to say the least. Axe Mastery allows you to maximize the power of your axe to deal greater damage with it.
@@ -4603,8 +4603,11 @@
 6662	An action which allows you to strike a special pose.
 6663	An action which allows you to strike a special pose.
 6664	Change Terrain
-6665	Cooldown Reduced
-6666	Chained Close Combat Skill Enhancement Boosted
+6665	Throw Snowball
+6666	Equips [Snowballs]
+6667	Min Ranged Attack Damage
+6668	Ranged Attack Max Damage
+6669	Accuracy
 6670	Spin Dash
 6671	Injury Rate (%)
 6672	Horizontal Range (cm)
@@ -4761,6 +4764,7 @@
 6828	Pet Parade
 6829	A special action that summons all of a pet's friends. It can't be used if no pet is currently summoned, or if the summoned pet has no friends. Pets need friends too!
 6830	A special action that summons all of a pet's friends. It can't be used if no pet is currently summoned, or if the summoned pet has no friends. Pets need friends too!
+6831	Holy Water
 6832	과일 저글링
 6833	특별한 포즈를 짓게 되는 액션이다. 흥미로운 모습을 보여주는 포즈를 지어보자.
 6834	특별한 포즈를 짓게 되는 액션이다. 흥미로운 모습을 보여주는 포즈를 지어보자.
@@ -4785,6 +4789,50 @@
 6853	Raise the Sacred Guardian Arcana to Level 2 or higher and the Rend Armor skill to Rank F or higher.
 6854	Raise the Sacred Guardian Arcana to Level 10 or higher and the Martyr's Consecration skill to Rank F or higher.
 6855	Raise the Sacred Guardian Arcana to Level 9 or higher.
+6856	Wind from the Plains
+6857	Scouring Winds
+6858	Subsidence
+6859	Temp
+6860	Temp
+6861	Temp
+6862	Dance Beneath the Snowfall
+6863	Form Shift: Martial Arts
+6864	Temp
+6865	Temp
+6866	Focused Vision
+6867	Sequential Elimination
+6868	Form Shift: Close Combat
+6869	Consecutive Call-outs
+6870	Temp
+6871	Temp
+6872	Temp
+6873	Temp
+6874	Call of the Land
+6875	Cry of the Earth
+6876	Trampling Charge (Left)
+6877	Trampling Charge (Right)
+6878	Earthrending Fury (Left)
+6879	Earthrending Fury (Right)
+6880	Earthward Breath
+6881	Earthward Exhalation
+6882	Storm's Charge
+6883	Leaping Attack
+6884	Furious Charge
+6885	Stormcutter Charge
+6886	Maverick's Maelstrom
+6887	Temp
+6888	Temp
+6889	Temp
+6890	Temp
+6891	Temp
+6892	Temp
+6893	Temp
+6894	Temp
+6895	Temp
+6896	Temp
+6897	Temp
+6898	Temp
+6899	Temp
 6900	Recharge Shells
 6901	Relentless Thrust
 6902	Arc Impact
@@ -4806,28 +4854,56 @@
 6918	Raise the Explosive Vanguard Arcana to Level 6 or higher and the Recharge Shells skill to Rank F or higher.
 6919	Raise the Explosive Vanguard Arcana to Level 7 or higher and the Recharge Shells skill to Rank F or higher.
 6920	Raise the Explosive Vanguard Arcana to Level 8 or higher and the Recharge Shells skill to Rank F or higher.
+6921	Tempest of Faith
+6922	Rescinded Grace
+6923	Divine Wings
+6924	Conjure Shard of Solace
+6925	Temp
+6926	Temp
+6927	Temp
+6928	Temp
+6929	Divine Shot
+6930	Divine Edge
+6931	Divine Thrust
+6932	Goddess's Advent
+6933	Entwined Goddess's Miracle
+6934	Benevolent Binding
+6935	Ward of Innocence
+6936	Smothering Affection
+6937	Mercurial Judgment
+6938	Divine Punishment
+6939	Temp
+6940	Temp
+6941	Temp
+6942	Temp
+6943	Temp
+6944	Temp
+6945	Temp
+6946	Temp
+6947	Temp
+6948	Temp
 6949	Best Friends'\nSecret Handshake
 6950	A secret handshake shared by only the best of friends.\nRight-click on your bestie while flying and click on Request Fly Together to send a request. If they accept, you'll perform this special gesture. Using it with your mentor or mentee will help deepen the bond between you.
-6952	파티 힐링
-6953	디바인 링크
-6955	뜻을 같이하는 동료들의 생명력을 치료하는 마법이라고 한다.
-6956	지금은 사용할 수 없는 스킬이다. 메인스트림을 진행해 보자.
-6958	마나의 힘을 빌어 사람에게 필요한 생명력을 모으는 마법을 힐링 마법이라고 한다. 특히 파티 힐링은 힐링 마법과 동일한 원리의 마법으로, 어느 한 개인이 아닌, 자신이 속한 파티의 동료들의 생명력을 회복시킨다는 점에서 일반적인 힐링 마법과 다르다. 파티의 동료 모두의 생명력을 회복시킬 수 있는 것은 이 마법을 가진 자만의 특권이라고 할 수 있다. 모험을 떠나는 길에 자신의 동료들의 생명력 유지를 책임지는 사람으로서 받는 존경의 눈길에 대한 보답은 그 특권에 따르는 책임이기도 하다. 사실 파티 힐링 마법은 힐링 마법과 이론상 닮은 부분이 많기 때문에 마법을 준비하는 시전자가 외부로부터의 공격에 대해 방어효과를 가지거나, 더 많은 사람들의 생명력을 회복할수록 더 쉽게 마법을 향상시킬 수 있는 점에서도 역시 공통점을 보인다. 하지만 이러한 공통점은 마법이 회복시키는 것은 생명력 뿐, 상처를 치료하지는 못한다는 점에도 마찬가지기 때문에 주의할 필요가 있다.
-6959	신성한 힘으로 서로의 영혼을 연결하는 스킬이다. 신의 힘으로 연결된 영혼들은 교감을 통해 서로의 기억과 경험을 공유하며, 내면에 잠재되어 있던 힘을 한계까지 발휘할 수 있게 된다. 보통 영혼을 연결하기 위해 특별한 매개체를 필요로 하나, 자신의 펫을 대상으로는 이러한 제약 없이 스킬을 사용할 수 있다. 영혼이 연결된 펫과 시전자는 여러 능력치가 상승하며 펫은 시전자가 적을 처치하여 얻은 경험치를 동일하게 얻을 수 있다. 또한 펫은 방어와 보호가 크게 증가한 채로 시전자를 인식한 적의 주의를 끌어 적으로부터 주인을 보호한다. 단, 이러한 효과들은 펫의 능력치와 레벨, 디바인 링크 랭크에 영향을 받으므로 이를 유념하도록 하자.
-6961	[힐링 원드]를 장비한 상태에서 [힐링] 스킬을 사용한다.
-6962	G20 성역의 문 중 [잊을 수 없는 나날] 퀘스트를 수행한다.
-6964	생명력 회복
-6966	방어
-6970	디바인 링크
-6971	지금은 사용할 수 없는 스킬이다. 메인스트림을 진행해 보자.
-6972	신성한 힘으로 서로의 영혼을 연결하는 스킬이다. 신의 힘으로 연결된 영혼들은 교감을 통해 서로의 기억과 경험을 공유하며, 내면에 잠재되어 있던 힘을 한계까지 발휘할 수 있게 된다. 보통 영혼을 연결하기 위해 특별한 매개체를 필요로 하나, 자신의 펫을 대상으로는 이러한 제약 없이 스킬을 사용할 수 있다. 영혼이 연결된 펫과 시전자는 여러 능력치가 상승하며 펫은 시전자가 적을 처치하여 얻은 경험치를 동일하게 얻을 수 있다. 또한 펫은 방어와 보호가 크게 증가한 채로 시전자를 인식한 적의 주의를 끌어 적으로부터 주인을 보호한다. 단, 이러한 효과들은 펫의 능력치와 레벨, 디바인 링크 랭크에 영향을 받으므로 이를 유념하도록 하자.
-6973	G20 성역의 문 중 [잊을 수 없는 나날] 퀘스트를 수행한다.
+6952	Party Healing
+6953	Divine Link
+6955	A restorative spell capable of recovering the HP of multiple party members simultaneously.
+6956	You cannot use this skill right now. Proceed through the Storyline first.
+6958	Just as the Healing spell restores health to those who have been injured, Party Healing works to accomplish the same result. However, where Healing focuses on a single individual, Party Healing focuses on all members of a group. This spell serves as a foundation point for those wishing to support an adventuring group. As a more support-oriented spell, Party Healing increases the Defense and Magic Defense of all party members within range while the caster has the spell charged. Using the spell to heal greater numbers of people at once will also allow one to train this skill more expediently. The one drawback is that Party Healing restores only HP and is of no use for healing wounds, so the wise healer would do well to keep that in mind.
+6959	This skill links the souls of two beings, enabling them to share memories and experiences. This deeper level of communication allows each to more fully realize their innermost potential. Typically, the linking of souls requires a special object to serve as a medium, but no such ritual implement is required to connect with your own pets. When linked, both caster and pet will see an increase in their stats, and when the caster defeats an enemy, the pet will receive the same amount of EXP from it. The linked pet will enjoy a substantial increase in its Defense and Protection, and will keep its owner safe by drawing the attention of nearby foes. These effects will vary depending on both the pet's stats and the rank of Divine Link.
+6961	Use the [Healing] skill while you have a [Healing Wand] equipped.
+6962	During the Generation 20 "Gate of Sanctuary" storyline, complete the "Eternal Memories" quest.
+6964	HP Recovery
+6966	Defense
+6970	Divine Link
+6971	You cannot use this skill right now. Continue playing through the main storyline to unlock it.
+6972	This skill links the souls of two beings, enabling them to share memories and experiences. This deeper level of communication allows each to more fully realize their innermost potential. Typically, the linking of souls requires a special object to serve as a medium, but no such ritual implement is required to connect with your own pets. When linked, both caster and pet will see an increase in their stats, and when the caster defeats an enemy, the pet will receive the same amount of EXP from it. The linked pet will enjoy a substantial increase in its Defense and Protection, and will keep its owner safe by drawing the attention of nearby foes. These effects will vary depending on both the pet's stats and the rank of Divine Link.
+6973	During the Generation 20 "Gate of Sanctuary" storyline, complete the "Eternal Memories" quest.
 6974	메모리 낭만 비행
 6975	둘도 없는 인연을 만들고 받은 선물. 몸에 뿌려진 출처를 알 수 없는 마법의 가루는 원할 때 마다 몸 전체에 감돌며 하늘에서의 자유를 느낄 수 있게 해준다. 남의 도움을 받거나 누군가에 의지하는 것이 아니라, 스스로의 의지로 자유롭게 하늘을 누비는 기분을 마음껏 만끽 해보자.\n날고 있는 상태에서 상대방을 우클릭 하면 나타나는 날기 요청 메뉴를 이용하여 상대방이 승낙 하면 함께 나란히 하늘을 날아다닐 수 있다. 추억을 되살리며 상대방의 손을 잡고 허공으로 이끌 수 있다. 친구, 연인과 함께 자유롭게 날아보자.
 6992	Instill Elements
 6993	Flashing Steel
 6994	Elemental Instillment is a practice core to the identity of Elemental Knights. This martial invocation imbues a warrior's weapon with a variety of special effects, including fire, ice, and lightning properties, increased damage, and enabling spells to be readied while fighting. While the instillment persists, the elemental energies grant normal attacks the ability to cleave enemies in a wider area, decrease the target's Movement Speed and Attack Speed, ignore an enemy's Defense and Protection and partially negate the effects of the Heavy Stander effect, as well as speeding the casting of fire/ice/lightning magic and adding 5% of Max Damage to the caster's Magic Attack. A spell readied during combat can be cast with Ctrl + Right Click, but will not be affected by the Piercing stat of the equipped weapon, and its charge time cannot be reduced below 50%. The more adept one becomes at instilling weapons with elemental energy, the faster the process will be, until it can be performed almost instantaneously.
-6995	Charge forth, attacking all who stand in your way with the explosive force generated by a body honed from rigorous training in Close Combat. Using the Close Combat Talent skill Bash will reduce Flashing Steel's cooldown, as the combatant can harness the driving force of Bash. When Bash's aura is is present, it is even possible to use Flashing Steel again when one would be otherwise unable to do so. As Flashing Steel draws upon the Bash skill, it inherits Bash's ability to ignore the Heavy Stander effect, and its distance is extended by any effects that extend the distance of Bash. By utilizing these traits, one can utilize their superior mobility to dodge enemies' attacks, or take advantage of a momentary opening to unleash a barrage of powerful attacks.
+6995	Charge forth, attacking all who stand in your way with the explosive force generated by a body honed from rigorous training in Close Combat. Using the Close Combat Talent skill Bash will reduce Flashing Steel's cooldown, as the combatant can harness the driving force of Bash. When Bash's aura is present, it is even possible to use Flashing Steel again when one would be otherwise unable to do so. As Flashing Steel draws upon the Bash skill, it inherits Bash's ability to ignore the Heavy Stander effect, and its distance is extended by any effects that extend the distance of Bash. By utilizing these traits, one can utilize their superior mobility to dodge enemies' attacks, or take advantage of a momentary opening to unleash a barrage of powerful attacks.
 6996	​Raise the Elemental Knight Arcana to Level 8 or higher.
 7013	Dauntless Defense
 7014	Blazing Assault Slash
@@ -4841,3 +4917,6 @@
 7022	Raise the Elemental Knight Arcana to Level 7 or higher and the Instill Flame Skill to Rank B or higher.
 7023	Raise the Elemental Knight Arcana to Level 7 or higher and the Instill Frost Skill to Rank B or higher.
 7024	Raise the Elemental Knight Arcana to Level 7 or higher and the Instill Thunder Skill to Rank B or higher.
+7143	메모리얼 링크
+7144	지금은 사용할 수 없는 스킬이다. 추억담을 진행해 보자.
+7145	블로니의 힘으로 만들어낸 영혼을 연결하는 유대감의 스킬이다. 연결된 영혼들은 교감을 통해 서로의 기억과 경험을 공유하며, 내면에 잠재되어 있던 힘을 한계까지 발휘할 수 있게 된다. 영혼이 연결된 펫과 시전자는 여러 능력치가 상승하며 펫은 시전자가 적을 처치하여 얻은 경험치를 동일하게 얻을 수 있다. 또한 펫은 방어와 보호가 크게 증가한 채로 시전자를 인식한 적의 주의를 끌어 적으로부터 주인을 보호한다. 단, 이러한 효과들은 펫의 능력치와 레벨, 메모리얼 링크 랭크에 영향을 받으므로 이를 유념하도록 하자. 디바인 링크와 같은 원리로 동작하는 것으로 보아, 디바인 링크와 동시에 보유할 수는 없어 보인다.

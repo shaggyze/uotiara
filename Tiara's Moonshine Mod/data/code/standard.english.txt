@@ -50,7 +50,7 @@ erinnlandachievementdescmgr.1	Basic
 erinnlandachievementdescmgr.2	Limited
 erinnlandachievementdescmgr.3	Mini-game
 erinnlandachievementdescmgr.4	Attraction
-etc.combat_power.strong1	+100 CP
+ etc.combat_power.strong1	+100 CP
 etc.combat_power.strong2	+500 CP
 etc.combat_power.strong3	+1000 CP
 etc.combat_power.strong4	+1500 CP
@@ -260,6 +260,7 @@ interface_item.3	Music Scores with no uses left cannot be included.
 interface_item.4	 (Not Activated)
 interface_item.5	Dan {0}
 interface_item.6	Battle Astrology Talent Skill Damage +{0}%
+interface_item.7	Imprinted
 interface_minigame.1	You are currently a pet and cannot participate in mini-games.
 interface_minigame.2	Cannot start a mini-game while unconscious.
 interface_minigame.3	Cannot start a mini-game while using a skill.
@@ -542,7 +543,7 @@ itemoptiondeschelper.20	Max stat cap for item crafted through Carpentry
 itemoptiondeschelper.21	Purchase Discount Rate
 itemoptiondeschelper.22	Merchant Rating Increase Rate
 itemoptiondeschelper.23	Shop Price
-itemoptiondeschelper.24	Time Warp Cooldown Ignore Count
+itemoptiondeschelper.24	Time Shift Cooldown Ignore Count
 itemoptiondeschelper.25	Defense upon Shock Dampening activation
 itemoptiondeschelper.26	Magic Defense upon Shock Dampening activation
 itemoptiondeschelper.27	Combo cooldown reset upon landing a critical hit
@@ -561,8 +562,27 @@ itemoptiondeschelper.39	Recovers Wounds Equal to Healing Effect
 itemoptiondeschelper.40	Movement Speed
 itemoptiondeschelper.41	Magic Casting Speed
 itemoptiondeschelper.42	Constellation Casting Mini-game Bonus
-itemoptiondeschelper.62	힐링 스킬 생명력 회복 효과
-itemoptiondeschelper.63	파티 힐링 스킬 생명력 회복 효과
+itemoptiondeschelper.43	Natural HP Recovery
+itemoptiondeschelper.44	Natural MP Recovery
+itemoptiondeschelper.45	Natural Stamina Recovery
+itemoptiondeschelper.46	Piercing Resistance
+itemoptiondeschelper.47	Critical Damage
+itemoptiondeschelper.48	Icebolt Enhancement
+itemoptiondeschelper.49	Firebolt Enhancement
+itemoptiondeschelper.50	Flame Burst Enhancement
+itemoptiondeschelper.51	Water Cannon Enhancement
+itemoptiondeschelper.52	Life Drain Enhancement
+itemoptiondeschelper.53	Magnum Shot Enhancement
+itemoptiondeschelper.54	Bash Enhancement
+itemoptiondeschelper.55	Support Shot Enhancement
+itemoptiondeschelper.56	Absorption Enhancement
+itemoptiondeschelper.57	Smash Enhancement
+itemoptiondeschelper.58	Windmill Enhancement
+itemoptiondeschelper.59	Charge Enhancement
+itemoptiondeschelper.60	Healing Enhancement
+itemoptiondeschelper.61	Assault Slash Enhancement
+itemoptiondeschelper.62	Healing Skill Recovery Effect
+itemoptiondeschelper.63	Party Healing Skill Recovery Effect
 itemoptionset.1	Spirit 
 itemqualitymgr.1	Talent Bonus: 
 itemqualitymgr.2	Grandmaster craft bonus : 

@@ -1189,6 +1189,8 @@ pli_charactercombocardframe.25	No Combo Card to delete.
 pli_charactercombocardframe.26	Among <color=5><outlinecolor=3>{0}</outlinecolor></color> unlocked Combo Cards,\n<color=2>an active Combo Card</color> has been selected.\nRemove all unlocked cards?\n<color=5><outlinecolor=3>(You can't restore the removed items.)</outlinecolor></color>\n<color=2>You can set the lock function by right-clicking with the mouse.</color>
 pli_charactercombocardframe.27	<color=5><outlinecolor=3>{0}</outlinecolor></color> unlocked Combo Cards\nwill be permanently removed.\nAre you sure you want to remove?\n<color=5><outlinecolor=3>(You can't restore the removed items.)</outlinecolor></color>\n<color=2>You can set the lock function by right-clicking with the mouse.</color>
 pli_charactercombocardframe.28	Can set again in {0} second(s).
+pli_charactercombocardframe.29	잠금가능한 카드가 없습니다.
+pli_charactercombocardframe.30	잠금된 카드가 {0}개 선택되어 있습니다.\n정말로 해제하시겠습니까?
 pli_charactercommerceframe.1	Current Merchant Rating: {0}
 pli_charactercommerceframe.2	Current Merchant Rating {0}\nTo Next Level {1}
 pli_charactercommerceframe.3	lv{0} exp {1}%
@@ -2553,6 +2555,8 @@ pli_g25preeventview.8	0%
 pli_gachaponrewardframe.1	 {0}
 pli_gachaponrewardframe.2	Move the {1} {0}(s) to your Inventory?
 pli_gachaponrewardframe.3	Move the {0} to your Inventory?
+pli_gachaponrewardframe.5	Search on Auction House
+pli_gachaponrewardframe.6	Preview
 pli_gachaponrewardinventoryview.1	Do you want to delete this item?
 pli_gachaponrewardinventoryview.2	The item you selected does not exist.
 pli_gachaponrewardinventoryview.3	Would you like to move this item to your Inventory?
@@ -2821,6 +2825,8 @@ pli_hairrestoreview.5	Reset Camera
 pli_hairrestoreview.6	Background Brightness
 pli_heightselectchangeview.1	{0} Years Old Appearance
 pli_heightselectchangeview.2	Change your appearance to {0} years old.
+pli_hellgatedungeonview.1	Failed to enter the Hellgate.
+pli_hellgatedungeonview.2	Level {0}
 pli_helpalarmsettingview.1	Deactivate
 pli_helpalarmsettingview.2	Activate
 pli_helpboardrankview.1	Rank {0}
@@ -3893,8 +3899,11 @@ pli_manualformview.23	The crafter must be holding a {0:Blacksmith Hammer/Tailori
 pli_manualformview.24	{0} could not receive all the Gold.
 pli_manualformview.25	You have requested {0}'s crafting services.
 pli_manualformview.26	Waiting for Crafting Request
+pli_manualformview.27	Items unaffected by the Grandmaster Unique Effect: 
 pli_mastersordereventmainview.1	You obtained the reward.
 pli_mastersordereventmainview.2	You obtained the reward.
+pli_meetingcareitemframe.1	Search on Auction House
+pli_meetingcareitemframe.2	Preview
 pli_memolistboxitem.1	Read
 pli_memolistboxitem.2	Unread
 pli_mikugachaponview.1	Congratulations!
@@ -3909,27 +3918,27 @@ pli_mikugachaponview.9	[Penalty: Lose a Spin]\nYou won't get your next spin.
 pli_mileageshopitembuyview.7	<color=2>Your current gender or race cannot use this coupon.\nWould you still like to purchase?</color>
 pli_minigamealwaysmainview.1	Single-player
 pli_minigamealwaysmainview.2	Multiplayer
-pli_minigamealwaysmainview.3	전체
-pli_minigamealwayspartymainview.1	인원 : {0} / {1}
-pli_minigamealwayspartymainview.2	게임명 : {0}
-pli_minigamealwayspartymainview.3	파티명 : {0}
-pli_minigamealwayspartymainview.4	 (파티장)
-pli_minigamealwayspartymainview.5	파티 모집
-pli_minigamealwayspartymainview.6	파티 모집 (대기)
-pli_minigamealwayspartymainview.7	열림
+pli_minigamealwaysmainview.3	All
+pli_minigamealwayspartymainview.1	Members: {0}/{1}
+pli_minigamealwayspartymainview.2	Game: {0}
+pli_minigamealwayspartymainview.3	Party: {0}
+pli_minigamealwayspartymainview.4	 (Leader)
+pli_minigamealwayspartymainview.5	Recruit Party
+pli_minigamealwayspartymainview.6	Recruit Party (Waiting)
+pli_minigamealwayspartymainview.7	Opened
 pli_minigamealwayspartymainview.8	{0} to {1}
-pli_minigamealwayspartymainview.9	1초 뒤에 다시 입력해주세요
-pli_minigamealwayspartymainview.10	미니게임을 시작하기 위해 최소 인원을 맞춰주세요
-pli_minigamealwayspartymainview.11	A팀
-pli_minigamealwayspartymainview.12	B팀
-pli_minigamealwaysresultview.1	패배
-pli_minigamealwaysresultview.2	승리
-pli_minigamealwaysresultview.3	알 수 없음
-pli_minigamepartyleaderview.1	해당 인원을 정말로 파티장으로 위임하시겠습니까?
-pli_minigamepartyleaderview.2	해당 인원을 정말로 추방하시겠습니까?
+pli_minigamealwayspartymainview.9	Please try again in 1 second.
+pli_minigamealwayspartymainview.10	There are not enough people present to start the Mini-game.
+pli_minigamealwayspartymainview.11	Team A
+pli_minigamealwayspartymainview.12	Team B
+pli_minigamealwaysresultview.1	Defeat
+pli_minigamealwaysresultview.2	Victory
+pli_minigamealwaysresultview.3	Unknown
+pli_minigamepartyleaderview.1	Appoint the chosen member as the party leader?
+pli_minigamepartyleaderview.2	Remove this member from the party?
 pli_minigamepartymaketabframe.1	The password must be 8 or less alphabetic characters.
 pli_minigamepartymaketabframe.2	Create Party
-pli_minigamepartymaketabframe.3	Settings
+pli_minigamepartymaketabframe.3	Confirm
 pli_minigamepartymaketabframe.4	Fill out the info below to create a new party.
 pli_minigamepartymaketabframe.5	You're in a party. Make changes to the party information below.
 pli_minigamepartymaketabframe.6	Memory Match
@@ -4094,6 +4103,9 @@ pli_newmetalwareview.7	First Attribute can be added
 pli_newmetalwareview.8	Second Attribute can be added
 pli_newmetalwareview.9	Third Attribute can be added
 pli_newmetalwareview.10	\n<color=2>▶ Maximum Level Possible with Journeyman's Reforging Tools</color>
+pli_newmetalwareview.26	정교한 빛: {0}%
+pli_newmetalwareview.27	영롱한 빛: {0}%
+pli_newmetalwareview.28	찬란한 빛: {0}%
 pli_newrebirtheventview.1	Time: 
 pli_newrecordbookmainview.1	There doesn't seem to be much here yet.\nComplete the Third Memoir first.
 pli_newrecordbookmainview.2	* Bookmark\n
@@ -4157,6 +4169,7 @@ pli_onlineconcertview.4	아직 콘서트 시간이 아닙니다.
 pli_onlineconcertview.5	별이 빛나는 에린 콘서트를 시청합니다.
 pli_ontimerewardconfirmview.1	{0} x{1}
 pli_ontimerewardconfirmview.2	Until <color={0}><outlinecolor=4>{2}/{3}/{1} {4} hr {5} min</outlinecolor></color>, the <color={0}><outlinecolor=4>{6}</outlinecolor></color> will remain in progress.
+pli_optionweaponeachshapeview.1	- Support Effect Damage +{0}
 pli_optionweaponmainview.1	Avail. Effects
 pli_optionweaponmainview.2	All Effects
 pli_optionweaponmainview.3	Spend materials to increase the level of the level {1} {0}?
@@ -4181,6 +4194,8 @@ pli_optionweaponmainview.21	* 캐릭터의 왼쪽이 기준입니다
 pli_optionweaponmainview.22	초기화
 pli_optionweaponmainview.23	저장
 pli_optionweaponmainview.24	닫기
+pli_optionweaponmainview.25	Support Effect Damage {0}%
+pli_optionweaponmainview.26	Support Effect Damage +{1} due to the {0}'s effect.\n<color=5>* Support Effect Damage Increase from Stardust forms only applies the highest stats.</color>
 pli_optionweaponshapeview.1	Would you like to change the Stardust's appearance to {0}?
 pli_optionweaponshapeview.2	Confirm
 pli_os20theventbookview.1	Details
@@ -4197,6 +4212,25 @@ pli_oxquizquestionview.2	\n\n{0}sec
 pli_oxquizquestionview.3	\n\n<color=4>{0}sec</color>
 pli_participantpopupmenu.1	Altruism Points: {0}
 pli_participantpopupmenu.2	Altruism Score: {0}
+pli_partyrewarddistributeview.1	Now Distributing Rewards: {0}/{1}
+pli_partyrewarddistributeview.2	Time Remaining to Roll: <color=2>{0}</color> sec.
+pli_partyrewarddistributeview.3	Passed
+pli_partyrewarddistributeview.4	Conceded
+pli_partyrewarddistributeview.5	Passed by All
+pli_partyrewarddistributeview.6	(Winner)
+pli_partyrewarddistributeview.7	<color=2>Pending</color>
+pli_partyrewarddistributeview.8	Current Rolls
+pli_partyrewarddistributeview.9	Finished
+pli_partyrewarddistributeview.10	Roll
+pli_partyrewarddistributeview.11	Tiebreaker Roll
+pli_partyrewarddistributeview.12	Tiebreaker Roll (Item)
+pli_partyrewarddistributeview.13	Abnormal access.
+pli_partyrewarddistributeview.14	In the case of a tie, a reroll will occur. Only those who\ntied for the highest roll initially will reroll for the item.
+pli_partyrewarddistributeview.15	Reward distribution complete.
+pli_partyrewarddistributeview.16	The time limit has been reached. Reward distribution has been automatically completed.
+pli_partyrewarddistributeview.17	{1} has received the {0}.
+pli_partyrewarddistributeview.18	Rerolling has commenced for the {0}.
+pli_partyrewarddistributeview.19	You will relinquish your claim to all remaining items, aside from any you have\nalready won and received. (This includes items for which you have already rolled.)\nProceed?
 pli_partyshouthornview.1	[{0}] {1} [{2}/{3}]
 pli_pawnpurchaselistview.1	{0} Pon
 pli_pawnpurchaselistview.2	{0} Pon
@@ -4466,6 +4500,10 @@ pli_pointmissionview.7	{0} Days
 pli_pointshopframe.1	{0} points
 pli_pointshopframe.2	Purchase {0}?
 pli_pointshopframe.3	Notification
+pli_popupitem2024view.1	Search on Auction House
+pli_popupitem2024view.2	List on Auction House
+pli_popupitem2024view.3	Exchange for Mileage
+pli_popupitem2024view.4	Move to Inventory
 pli_portraitattendanceview.1	Obtained
 pli_portraitattendanceview.2	Receive Gift
 pli_portraitattendanceview.3	Time Remaining: {0}
@@ -5007,6 +5045,9 @@ pli_relicinvestigationview.2	Appraise
 pli_relicinvestigationview.3	This relic has not been appraised yet.\nWould you like to appraise it?
 pli_relicinvestigationview.4	Restore
 pli_relicinvestigationview.5	Do you want to attempt to restore this relic?\nDepending on appraisal value,\nthe restoration attempt may fail.
+pli_relicofmuriasrestorationview.1	You must select an item that can be restored.
+pli_relicofmuriasrestorationview.2	Restoration cost: {0}
+pli_relicofmuriasrestorationview.3	Restore
 pli_relicsketchview.1	Glowing {0}
 pli_remembermetalwareview.1	Rank {0}
 pli_remembermetalwareview.2	Reforge
@@ -5327,6 +5368,7 @@ pli_skilluntrainview.4	Select a Talent to untrain for an AP refund.
 pli_skilluntrainview.5	Reduces the rank of all skills to Rank F. Only applies to skills that are already Rank E or above.\n- Any AP previously used to rank up will be refunded.\n- Any rank bonuses, such as stats or skill improvements, will be removed.\n- You do not need to train your skills to reach the current rank again.\n- If you have received the Master title for any skill, you will not be able to use it again until that skill is Rank 1.\n- Partially trained skills will lose all current EXP.
 pli_slapmatchview.1	If you quit in the middle of a match, your tile will be forfeit.\nDo you want to quit?
 pli_slapmatchview.2	{0} goes first.
+pli_slapmatchview.3	Are you sure you want to quit?
 pli_smartcontentboardview.1	Part-Time Job
 pli_smartcontentboardview.2	, or
 pli_smartcontentboardview.3	{0} will appear in {1}.
@@ -5361,6 +5403,9 @@ pli_smartgameinfoview.3	<color=4>[Current]</color>
 pli_smartgameinfoview.4	<color=4>[Next]</color>
 pli_smartgameinfoview.5	<color=4>[Current]</color> Cannot locate
 pli_smartgameinfoview.6	<color=4>[Next]</color> Cannot locate
+pli_solorewarddistributeview.1	Do you wish to pass on all rewards?
+pli_solorewarddistributeview.2	You will receive a total of {0} items, excluding those you have decided to pass on.\nProceed?
+pli_solorewarddistributeview.3	You have chosen to forgo your opportunity to receive all rewards.\n(You will not receive any items.)\nProceed? 
 pli_soulmateview.1	Unknown
 pli_soulmateview.2	{0} day(s) {1} hour(s)
 pli_soulmateview.3	Cancel soulmate status and reset your Romance Points?
@@ -5638,6 +5683,7 @@ pli_tradeauctionitemframebase.18	<color=2>(Enchant, Special Upgrade unavailable)
 pli_tradeauctionitemframebase.19	<color=2>(Unable to enchant)</color> 
 pli_tradeauctionitemframebase.20	<color=2>(Special Upgrade unavailable)</color> 
 pli_tradeauctionitemframebase.21	(Shop Purchase)
+pli_tradeauctionitemframebase.22	Imprinted
 pli_tradeauctionlowpriceframe.1	The selected price will be set as the Sale Price.
 pli_tradeauctionlowpriceframe.2	The selected price will be set as the Buyout Price.
 pli_tradeauctionlowpriceframe.3	 pcs
@@ -5656,6 +5702,7 @@ pli_tradeauctionmarkettab.7	All
 pli_tradeauctionmarkettab.8	Would you like to view the item details?
 pli_tradeauctionmarkettab.9	Please search after selecting a detailed category.
 pli_tradeauctionmarkettab.10	You must enter at least one letter or number to search.
+pli_tradeauctionmarkettab.11	Pet Adoption Medal
 pli_tradeauctionmarkettabbase.1	Regular items will have priority when sorting. \nYou can select and view the Sale Type through the search filter.
 pli_tradeauctionmyitemframe.1	Get Paid
 pli_tradeauctionmyitemframe.2	<color=2><outlinecolor=3>On Waiting List\n{0}:{1}</color></outlinecolor>
@@ -5734,6 +5781,12 @@ pli_tradeauctionregisterview.32	You cannot list items\nthat expire before the wa
 pli_tradeauctionregisterview.33	\n\nYou cannot list an item for longer than its time limit.\nThe listing time will be automatically adjusted to match its duration.
 pli_tradeauctionregisterview.34	The listed price for the {0} item is more than <color=5><outlinecolor=3>90%</outlinecolor></color> different the latest average price.\n\nPrice per item: <color=5><outlinecolor=3>{1}</outlinecolor></color> Gold\nTotal price: <color=5><outlinecolor=3>{2}</outlinecolor></color> Gold\n\n
 pli_tradeauctionregisterview.35	아이템 정보를 가져오는데에 실패했습니다.\n잠시 후 다시 시도해주세요.
+pli_tradeauctionregisterview.36	\t[{0}] requires additional confirmation for the reasons specified below.\n\n
+pli_tradeauctionregisterview.37	\tThe price you're trying to list this item for is <color=5><outlinecolor=3>more than 90% higher</outlinecolor></color> than the average sale price.\n\t\t- Average: {0} Gold\n\t\t- Unit Price: <color=5><outlinecolor=3>{1}</outlinecolor></color> Gold\n\t\t- Total Price: <color=5><outlinecolor=3>{2}</outlinecolor></color> Gold\n
+pli_tradeauctionregisterview.38	\tThe price you're trying to list this item for is <color=5><outlinecolor=3>more than 90% lower</outlinecolor></color> than the average sale price.\n\t\t- Average: {0} Gold\n\t\t- Unit Price: <color=5><outlinecolor=3>{1}</outlinecolor></color> Gold\n\t\t- Total Price: <color=5><outlinecolor=3>{2}</outlinecolor></color> Gold\n
+pli_tradeauctionregisterview.39	\n\tDo you wish to list this item at the price you entered?
+pli_tradeauctionregisterview.40	\tThe price you're trying to list this item for is <color=5><outlinecolor=3>more than 90% higher</outlinecolor></color> than the average sale price.\n\t\t- Average: {0} Gold\n\t\t- Price: <color=5><outlinecolor=3>{1}</outlinecolor></color> Gold\n
+pli_tradeauctionregisterview.41	\tThe price you're trying to list this item for is <color=5><outlinecolor=3>more than 90% lower</outlinecolor></color> than the average sale price.\n\t\t- Average: {0} Gold\n\t\t- Price: <color=5><outlinecolor=3>{1}</outlinecolor></color> Gold\n
 pli_tradeauctionsalestateview.1	Retrieve
 pli_tradeauctionsalestateview.2	Receive
 pli_tradeauctionsalestateview.3	Collect
@@ -5765,6 +5818,9 @@ pli_tradeauctionstateviewbase.23	If you collect the balance now, the remaining i
 pli_tradeauctionstateviewbase.24	The listed price for the {0} item is more than <color=5><outlinecolor=3>{1}%</outlinecolor></color> different from the latest average price.\n\nThe item was not purchased due to your purchase restriction settings.\nIf you want to purchase the item anyway, choose <color=5><outlinecolor=3>Confirm Purchase</outlinecolor></color>.\n\nPrice per item: <color=5><outlinecolor=3>{2}</outlinecolor></color> Gold\nTotal price: <color=5><outlinecolor=3>{3}</outlinecolor></color> Gold\n
 pli_tradeauctionstateviewbase.25	The listed price for the {0} item is more than <color=5><outlinecolor=3>90%</outlinecolor></color> different from the latest average price.\n\nPrice per item: <color=5><outlinecolor=3>{1}</outlinecolor></color> Gold\nTotal price: <color=5><outlinecolor=3>{2}</outlinecolor></color> Gold\n\n
 pli_tradeauctionstateviewbase.26	You selected <color=2><outlinecolor=3>Purchase All</outlinecolor></color>.\nPurchasing a total of <color=2><outlinecolor=3>{0} items</outlinecolor></color>.\nConfirm purchase?\n\nTotal price: {1}
+pli_tradeauctionstateviewbase.27	This item <color=5><outlinecolor=3>cannot be repaired</outlinecolor></color> and its durability is <color=5><outlinecolor=3>at or below 20%</outlinecolor></color>.\n\n
+pli_tradeauctionstateviewbase.28	The remaining number of uses is <color=5><outlinecolor=3>at or below 20%</outlinecolor></color>.\n\n
+pli_tradeauctionstateviewbase.29	\n\tDo you wish to purchase this item anyway?
 pli_transmute2022view.1	Required Tools\n
 pli_transmute2022view.2	Barehanded
 pli_transmute2022view.3	Dry Oven
@@ -5777,7 +5833,7 @@ pli_transmute2022view.9	Register Tools and Materials
 pli_transmute2022view.10	Register Tools and Materials
 pli_transmute2022view.11	Add Favorites
 pli_transmute2022view.12	Delete Favorites
-pli_transmute2022view.13	창 닫지 않기
+pli_transmute2022view.13	Keep Window Open
 pli_transmuteview.1	{0} Synthesis
 pli_transmuteview.2	{0} Fragmentation
 pli_transmuteview.3	This item cannot be used as an ingredient for synthesis.
@@ -6094,6 +6150,9 @@ pli_waterballoonbattleview.3	The event is in progress.
 pli_waterballoonbattleview.4	The event has ended.
 pli_waterballoonbattleview.5	Personal Score: {0} point(s)
 pli_waterballoonbattleview.6	Time remaining: {0} min {1} sec
+pli_weaponmastereventquestframe.1	Opens on {1}/{2}/{0} at {3}:00.
+pli_weaponmastereventview.1	The event window isn't yet available.\nSpeak with Ferghus to select a weapon and quest objectives for the event.
+pli_weaponmastereventview.2	{0}/{1}/{2} - {3}/{4}/{5} Before Maintenance
 pli_weaponskinapplyview.1	This item cannot be used.
 pli_weaponskinapplyview.2	The previous order couldn't be registered.
 pli_weaponskinapplyview.3	Failed to use the item.
@@ -6678,7 +6737,7 @@ pli_windowhinventory.26	VIP
 pli_windowhinventory.27	Can be used for free with VIP service.
 pli_windowhinventory.28	Style Tab (30 days)
 pli_windowhinventory.29	Stack
-pli_windowhinventory.30	Gathers stackable items in your inventory to make space.
+pli_windowhinventory.30	Gathers stackable items in your inventory to make space.\n(Including all items of the same type with durations less than 1 minute apart.)
 pli_windowhinventory.31	 more seconds before you can Stack again.
 pli_windowhinventory.32	All your expired items will be destroyed.
 pli_windowhinventory.33	You don't have any expired items.
@@ -7147,6 +7206,7 @@ pli_windownavigationregionconfirm.7	Go
 pli_windownavigationregionconfirm.8	Go ({0})
 pli_windownavigationregionconfirm.9	Go on Foot
 pli_windownavigationregionconfirm.10	Cancel Move
+pli_windownavigationrenewalconfirm.1	Teleport to {0}'s location?
 pli_windownewcharacter.0	You need the Basic Elf card.
 pli_windownewcharacter.1	You need the Premium Elf card.
 pli_windownewcharacter.2	Select the race that you would like to create your character as.\n\nWhen humans grow, their progress is evenly distributed between stamina, intelligence, and skills.\nThey are very well-versed at melee combat, and can provide immense excitement in battles once the combat skills are mastered.\n\nElves are highly skilled, have high intelligence as well as high MP.\nElves, unlike humans, use bows and a lot of magic which enables them to launch powerful attacks, and faster movement. Elves can make long-range attacks from an early age which gives them an edge when it comes to safety and effectiveness.  
@@ -7797,6 +7857,8 @@ pli_windowpocketitemaction.51	This function can only be used by the Guild Leader
 pli_windowpocketitemaction.52	You cannot equip that item.
 pli_windowpocketitemaction.53	You cannot change the style of an islander who is in the middle of production.
 pli_windowpocketitemaction.54	This item cannot be sold.
+pli_windowpocketitemaction.55	현재 상태에선 사용할 수 없는 아이템 입니다.
+pli_windowpocketitemaction.56	Equipping the Murias Relic with the\n{0} effect\nwill bind it to you, making it untradable.\nEquip the Divine Relic?
 pli_windowpopupcharacter.0	Failed to view equipment.
 pli_windowpopupcharacter.1	View Equipment
 pli_windowpopupcharacter.2	Mount on My Pet
@@ -8132,7 +8194,7 @@ pli_windowselectrespawn.32	There are currently no penalties for revival, so\nrev
 pli_windowselectrespawn.33	- 10% Loss of Trade Goods
 pli_windowselectrespawn.34	Ask Partner for help
 pli_windowselectrespawn.35	Ask your Partner for a revival.\n\n- HP Recovery 100%\n- Injury Recovery 100%\n- {0} EXP Loss
-pli_windowselectrespawn.36	Use Guard Soulstone\nUse a Guardian Soul Stone to revive ({0})
+pli_windowselectrespawn.36	Use Guardian Soulstone\nUse a Guardian Soul Stone to revive ({0})
 pli_windowselectrespawn.37	Use a Guardian Soul Stone to revive.\n\n- Recovers all HP\n- Heals all injuries\n- {0} EXP Loss\nBlesses Equipment\nGrants immunity to attack for a short time
 pli_windowselectrespawn.38	Buy Guard Soulstone\nBuy Guardian Soul Stone
 pli_windowselectrespawn.39	You may buy a Guardian Soul Stone from the Cash Shop and revive with minimal penalties.\nWhen you revive, all of your items will be blessed and you will be immune to enemy attacks for a short time.
@@ -8148,6 +8210,9 @@ pli_windowselectrespawn.52	Steadfast Soul
 pli_windowselectrespawn.53	Harmonic Saints can call upon their resolute spirits to revive when knocked unconscious. \n\n- Recovers {0}% of HP
 pli_windowselectrespawn.54	({0} min Remaining)
 pli_windowselectrespawn.55	Once you revive through Steadfast Soul, you cannot do so again for 1 hour. Revive?
+pli_windowselectrespawn.56	Request Retry
+pli_windowselectrespawn.57	Restart the current battle.\nIf you are in a party, all members must agree to proceed.
+pli_windowselectrespawn.58	You cannot revive at this time.
 pli_windowsell.1	EXP {0} Exp\n
 pli_windowsell.2	EXP {0}%\n
 pli_windowsell.3	Exploration EXP {0} Exp\n
@@ -8592,6 +8657,8 @@ pli_windowtaskbarshadowmission.3	Do you wish to leave the theatre?
 pli_windowtaskbarshadowmission.4	Do you wish to stop the play and leave the theatre?
 pli_windowtaskbarshadowmission.5	Clear Time: {0}
 pli_windowtaskbarshadowmission.6	Press this button to see information about damage.
+pli_windowtaskbarshadowmission.7	Press to restart the current phase from the beginning.
+pli_windowtaskbarshadowmission.8	Press to cancel the retry request.
 pli_windowtaskbartrayicon.1	Clock
 pli_windowtaskbartrayicon.2	Item Shop
 pli_windowtaskbartrayicon.3	Cash Shop
@@ -8657,9 +8724,9 @@ pli_windowtrade.10	{0} in Gold
 pli_windowtrade.11	{0} in Checks
 pli_windowtreasureofgodpocket.1	Unlocked after completing the G12 (Return of the Hero) storyline.
 pli_windowtreasureofgodpocket.2	Unlocked upon using a Falias Dew after completing the G12 (Return of the Hero) storyline.
-pli_windowtreasureofgodpocket.3	Unlocked upon using a Falias Rain Drop after completing the G12 (Return of the Hero) storyline.
+pli_windowtreasureofgodpocket.3	Unlocked upon using a Falias Raindrops after completing the G12 (Return of the Hero) storyline.
 pli_windowtreasureofgodpocket.4	Unlocked after fulfilling special requirements.
-pli_windowtreasureofgodpocket.5	You can equip a Falias Treasure.
+pli_windowtreasureofgodpocket.5	You can equip a Relic from the cities of the gods.
 pli_windowtreasureofgodpocket.6	Unlocked upon using a Falias Storm after completing the G12 (Return of the Hero) storyline.
 pli_windowvideocontrolview.1	Record Video
 pli_windowvideocontrolview.2	Start
@@ -8809,6 +8876,11 @@ tradeauctionviewutility.10	R Range:
 tradeauctionviewutility.11	G Range:
 tradeauctionviewutility.12	B Range:
 tradeauctionviewutility.13	You cannot use this while using Nascent Divinity.
+tradeauctionviewutility.14	\tThe listed price for the [{0}] differs from the average sale price by more than <color=5><outlinecolor=3>{1}%</outlinecolor></color>.\n\n\tThe purchase has been blocked based on your purchase restriction settings.\n\tIf you wish to purchase this item anyway, choose <color=5><outlinecolor=3>Confirm Purchase</outlinecolor></color>.\n\n\t\t- Average: {2} Gold\n\t\t- Price: <color=5><outlinecolor=3>{3}</outlinecolor></color> Gold\n\n
+tradeauctionviewutility.15	\tThe listed price for the [{0}] differs from the average sale price by more than <color=5><outlinecolor=3>{1}%</outlinecolor></color>.\n\n\tThe purchase has been blocked based on your purchase restriction settings.\n\tIf you wish to purchase this item anyway, choose <color=5><outlinecolor=3>Confirm Purchase</outlinecolor></color>.\n\t\t- Average: {2} Gold\n\t\t- Unit Price: <color=5><outlinecolor=3>{3}</outlinecolor></color> Gold\n\t\t- Total Price: <color=5><outlinecolor=3>{4}</outlinecolor></color> Gold\n\n
+tradeauctionviewutility.16	The price you're trying to purchase this item for is <color=5><outlinecolor=3>more than 90% higher</outlinecolor></color> than the average sale price.\n\t\t- Average: {0} Gold\n\t\t- Price: <color=5><outlinecolor=3>{1}</outlinecolor></color> Gold\n\n
+tradeauctionviewutility.17	The price you're trying to purchase this item for is <color=5><outlinecolor=3>more than 90% higher</outlinecolor></color> than the average sale price.\n\t\t- Average: {0} Gold\n\t\t- Unit Price: <color=5><outlinecolor=3>{1}</outlinecolor></color> Gold\n\t\t- Total Price: <color=5><outlinecolor=3>{2}</outlinecolor></color> Gold\n\n
+tradeauctionviewutility.18	The durability of this enchant scroll is <color=5><outlinecolor=3>at or below 20%</outlinecolor></color>.\n\n
 treasurerestoration.contents.1	Restore
 treasurerestoration.contents.2	Please place the treasure you wish to restore.
 treasurerestoration.contents.3	Treasure
@@ -8889,7 +8961,7 @@ window.arbeit_frame.title	{0:npc_name}'s {1:arbeit_name}
 window.arena_frame.guide_text	This round will end after {0:time_string}.
 window.bag.btn_personal_shop	Personal Shop
 window.bag.select_license	Select License
-window.bag.title	<large>Bag</large>
+window.bag.title	Bag
 window.bank.close_button	Finish
 window.bank.deposit_button	Deposit
 window.bank.gold_text	Gold
