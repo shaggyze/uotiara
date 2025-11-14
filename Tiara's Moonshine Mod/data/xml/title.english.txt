@@ -3574,6 +3574,33 @@
 4339	Received from the forum event
 4340	Magic Damage +4%\nMaxMP +30\nProtection +5
 4341	Maximum Damage +13\nWill +30\nLuck +30
+4342	탑 클래스의
+4343	탑 클래스의
+4344	탑 클래스의
+4345	탑 클래스의
+4346	탑 클래스의
+4347	탑 클래스의
+4348	탑 클래스의
+4349	탑 클래스의
+4350	탑 클래스의
+4351	탑 클래스의
+4352	탑 클래스의
+4353	탑 클래스의
+4354	탑 클래스의
+4355	탑 클래스의
+4356	탑 클래스의
+4357	탑 클래스의
+4358	탑 클래스 선정 기념 타이틀이다
+4359	탑 클래스 선정 기념 타이틀이다
+4360	탑 클래스 선정 기념 타이틀이다
+4361	탑 클래스 선정 기념 타이틀이다
+4362	탑 클래스로 선정되었다.
+4363	탑 클래스로 선정되었다.
+4364	탑 클래스로 선정되었다.
+4365	탑 클래스로 선정되었다.
+4366	체력 15 증가\n지력 15 증가\n솜씨 15 증가\n[의지 15 감소]\n[행운 15 감소]\n최대 스태미나 5 증가\n최대 마나 5 증가\n[최대 생명력 5 감소]\n전투 경험치 10% 증가
+4367	체력 15 증가\n지력 15 증가\n솜씨 15 증가\n[의지 15 감소]\n[행운 15 감소]\n최대 스태미나 5 증가\n최대 마나 5 증가\n[최대 생명력 5 감소]\n전투 경험치 10% 증가
+4368	체력 15 증가\n지력 15 증가\n솜씨 15 증가\n[의지 15 감소]\n[행운 15 감소]\n최대 스태미나 5 증가\n최대 마나 5 증가\n[최대 생명력 5 감소]\n전투 경험치 10% 증가
 4369	STR +15\nINT +15\nDEX +15\n[WILL -15]\n[Luck -15]\nMax Stamina +5\nMax MP +5\n[Max HP -5]\nCombat EXP +10%
 4370	A Valentine's forum event title. Increases Intelligence, Max MP, and Protection.
 4371	INT +30\nMax MP +30\nProtection +5
@@ -3764,8 +3791,12 @@
 4612	the Master Sommelier
 4613	You may not be the real god of wine, but nobody else can tell the difference.
 4614	Complete your training and become a master of Wine Making.
+4615	8주년을 기념하는
 4616	8주년을 기념하는
+4617	8주년을 기념하는
 4618	8주년을 기념하는
+4621	체력 8 증가\n의지 8 증가\n솜씨 8 증가\n지력 8 증가\n행운 8 증가
+4622	8주년을 기념하는 타이틀이다.
 4623	8주년을 기념하는 타이틀이다.
 4624	the Master of Commerce
 4625	the Master of Commerce
@@ -4006,6 +4037,9 @@
 4940	The truth isn't always pretty, but it's still the truth.
 4941	Not everything is black and white.
 4942	What's a little white lie between friends?
+4943	진실이 그에게 도움이 될지, 되지 않을지는 말하기 전까진 모른다. 그것은 그가 선택해야 할 문제다.
+4944	애매한 거짓말은 오히려 독이 될지도 모른다. 적당히 이야기 해주는 것이 상책.
+4945	꼭 진실을 이야기 해야만 할까? 때론 거짓이 도움이 될 때도 있을 것이다.
 4946	Will +5
 4947	Luck +5
 4948	INT +5
@@ -4645,6 +4679,12 @@
 5737	Music Buff Skill Effect +8
 5738	Max ATT +9\nMax MP +30
 5739	Max ATT +14\nCritical +10%
+5740	호두까기 인형
+5741	백조의 호수
+5742	호두까기 인형
+5743	호두까기 인형
+5746	최대 대미지 7 증가\n크리티컬 5% 증가\n 최대 생명력 20 증가
+5747	호두까기 인형 캐릭터 카드로 생성 또는 환생한 캐릭터에게 주어지는 타이틀이다.
 5748	A title given to Milletians who were created or reborn using a Nutcracker Character Card.
 5749	조금 약해보이는
 5750	조금 약해보이는
@@ -6018,6 +6058,7 @@
 7238	Title given to one who has been with Mabinogi since the 8th Anniversary.
 7239	Title given to one who has been with Mabinogi since the 9th Anniversary.
 7240	Title given to one who has been with Mabinogi since the 10th Anniversary.
+7241	임시
 7242	Title given to one who has been with Mabinogi since the 1st Anniversary.
 7243	Title given to one who has been with Mabinogi since the 2nd Anniversary.
 7244	Title given to one who has been with Mabinogi since the 3rd Anniversary.
@@ -6028,6 +6069,7 @@
 7249	Title given to one who has been with Mabinogi since the 8th Anniversary.
 7250	Title given to one who has been with Mabinogi since the 9th Anniversary.
 7251	Title given to one who has been with Mabinogi since the 10th Anniversary.
+7252	임시
 7253	STR + 10\nDEX + 10\nINT + 10\nWILL + 10\nLuck + 10
 7254	STR + 10\nDEX + 10\nINT + 10\nWILL + 10\nLuck + 10
 7255	STR + 10\nDEX + 10\nINT + 10\nWILL + 10\nLuck + 10
@@ -6085,7 +6127,9 @@
 7307	A title given to Milletians who wanted to look like their favorite Sword Art Online character.
 7308	This fancy 2nd title can be used with regular titles.
 7309	Melee Damage Taken -3%\nDefense +10\nProtection +10
+7310	근접 공격으로 받는 대미지 3% 추가 감소\n방어 10 증가\n보호 10 증가
 7311	Max Damage +8\nCritical +5%\nMovement Speed +3%
+7312	최대 대미지 8 증가\n크리티컬 5% 증가\n이동 속도 3% 증가
 7313	a Seven-year Wonder
 7314	a Seven-year Wonder
 7315	a Seven-year Wonder
@@ -6338,6 +6382,13 @@
 7572	Max Damage +8\nMagic Attack +4\nCritical +1%
 7573	Max Damage +10\nMagic Attack +6\nCritical +2%
 7574	Max Damage +12\nMagic Attack +8\nCritical +3%
+7575	거상
+7576	거상
+7577	거상
+7578	거상
+7579	교역왕 저널 달성시 주어지는 타이틀.
+7580	교역왕 저널을 달성하면 타이틀을 받을 수 있다. 교역을 통해 마을 신용도를 올려 보자.
+7581	교역 추가 이득률 5% 증가
 7582	the Master of Dual Wielding
 7583	the Master of Dual Wielding
 7584	the Master of Dual Wielding
@@ -6358,6 +6409,7 @@
 7599	그린노기 운동가
 7600	에린의 환경 지키는데 공헌한 밀레시안에게 주어지는 타이틀.
 7601	에린의 환경 지키는데 공헌한 밀레시안에게 주어지는 타이틀.
+7602	최대 대미지 10 증가\n마법 공격력 6 증가\n마법 방어 3 증가\n마법 보호 3 증가\n체력 3 증가\n지력 3 증가\n솜씨 3 증가\n의지 3 증가\n행운 3 증가
 7603	the Master of Rage Impact
 7604	the Master of Bash
 7605	the Master of Rage Impact
@@ -6750,18 +6802,39 @@
 7992	
 7993	
 7994	
+7995	미사용 타이틀 텍스트
+7996	미사용 타이틀 텍스트
+7997	미사용 타이틀 텍스트
 7998	Baltane Special Unit Trainer
 7999	the New Divinity
+8000	미사용 타이틀 텍스트
+8001	미사용 타이틀 텍스트
+8002	미사용 타이틀 텍스트
 8003	Baltane Special Unit Trainer
 8004	the New Divinity
+8005	미사용 타이틀 텍스트
+8006	미사용 타이틀 텍스트
+8007	미사용 타이틀 텍스트
 8008	Baltane Special Unit Trainer
 8009	the New Divinity
+8010	미사용 타이틀 텍스트
+8011	미사용 타이틀 텍스트
+8012	미사용 타이틀 텍스트
 8013	Baltane Special Unit Trainer
 8014	the New Divinity
+8015	미사용 타이틀 설명 텍스트
+8016	미사용 타이틀 설명 텍스트
+8017	미사용 타이틀 설명 텍스트
 8018	This special 2nd title is given to Milletians who helped with the Baltane Special Unit training. Can be used with other regular titles.
 8019	A title given to the one who faced a godlike being and marshaled all of their powers in harmony to rise to the challenge.
+8020	미사용 타이틀 힌트 텍스트
+8021	미사용 타이틀 힌트 텍스트
+8022	미사용 타이틀 힌트 텍스트
 8023	This special 2nd title is given to Milletians who helped with the Baltane Special Unit training. Can be used with other regular titles.
 8024	A title given to the one who faced a godlike being and marshaled all of their powers in harmony to rise to the challenge.
+8025	미사용 타이틀 옵션 텍스트
+8026	미사용 타이틀 옵션 텍스트
+8027	미사용 타이틀 옵션 텍스트
 8028	Max Damage +5\nMin Damage +5\nMagic Attack +10\nDefense +10\nBaltane Mission Combat EXP +10%
 8029	Max Damage +15\nMagic Attack +10\nCrusader EXP Obtained +5%\nNascent Divinity Duration +30 sec
 8030	the Guardian of the Gate
@@ -9997,6 +10070,7 @@
 11408	돌아온 기분이 드는 밀레시안
 11409	마치 오랜 시간이 지나 다시 에린으로 돌아온 것처럼 생소하고 어색함이 느껴지는 밀레시안. 얼핏 보면 돌아온 밀레시안처럼 보인다.
 11410	오랜 시간이 지나진 않았지만 다시 에린으로 돌아온 것 같은 마음가짐을 만들어 주는 타이틀. (돌아온 밀레시안과 로나의 특별 지원 타이틀과 중복적용 되지 않는다.)
+11411	최대 대미지 10 증가\n체력 5 증가\n지력 5 증가\n솜씨 5 증가\n의지 5 증가\n행운 5 증가\n이동 속도 1% 증가\n모든 스킬 수련치 2배\n그림자 미션, 연극 미션, 던전 플레이 자신은 경험치 2배
 11412	삼하인의 기억
 11415	삼하인의 기억
 11418	삼하인의 기억
@@ -11092,6 +11166,7 @@
 12549	신년 맞이 대박 행운
 12550	신년 맞이 대박 행운을 기원하는 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 12551	신년 맞이 대박 행운을 기원하는 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+12552	최대 대미지 10 증가\n체력 5 증가\n지력 5 증가\n솜씨 5 증가\n의지 5 증가\n행운 5 증가\n이동 속도 1% 증가\n모든 스킬 수련치 2배\n그림자 미션, 연극 미션, 던전 플레이 시 경험치 2배\n(돌아온 밀레시안 및 로나의 특별 지원 타이틀과 중복 불가)
 12553	Special Brilliant Cosmic Milky Way
 12554	Special Brilliant Cosmic Milky Way
 12555	Special Brilliant Cosmic Milky Way
@@ -12078,6 +12153,7 @@
 13536	달콤한 밀레시안
 13537	이루샤가 특별하게 만든 타이틀. 분홍 발자국 마법이 걸려있어, 다양한 효과를 얻을 수 있으며 정해진 기간이 지나면 마법 효과가 사라진다.
 13538	이루샤가 특별하게 만든 타이틀. 분홍 발자국 마법이 걸려있어, 다양한 효과를 얻을 수 있으며 정해진 기간이 지나면 마법 효과가 사라진다.
+13539	최대 대미지 10 증가\n체력 5 증가\n지력 5 증가\n솜씨 5 증가\n의지 5 증가\n행운 5 증가\n이동 속도 1% 증가\n모든 스킬 수련치 2배\n그림자 미션, 연극 미션, 던전 플레이 시 경험치 2배\n(다시 만난 밀레시안, 로나의 특별 지원, 특별 지원 타이틀과 중복 불가)
 13540	Divine Black Feather
 13541	Divine White Feather
 13542	Divine Black Feather
@@ -15389,6 +15465,41 @@
 17156	대만 9월 웹이벤트 1차 타이틀.
 17157	대만 9월 웹이벤트 1차 타이틀.
 17158	최대 대미지 10 증가\n마법 공격력 5 증가\n방어 5 증가\n보호 5 증가\n크리티컬 5% 증가
+17159	Haunted Footsteps
+17160	Haunted Footsteps
+17161	Haunted Footsteps
+17162	Haunted Footsteps
+17163	A 2nd title that can be obtained during Samhain. Can be used with regular titles.
+17164	A 2nd title that can be obtained during Samhain. Can be used with regular titles.
+17165	Luck +30
+17166	the Restorer of Books
+17167	who Finished a Notable Story
+17168	who Finished a Strange Story
+17169	who Finished a Beautiful Story
+17170	the Restorer of Books
+17171	who Finished a Notable Story
+17172	who Finished a Strange Story
+17173	who Finished a Beautiful Story
+17174	the Restorer of Books
+17175	who Finished a Notable Story
+17176	who Finished a Strange Story
+17177	who Finished a Beautiful Story
+17178	the Restorer of Books
+17179	who Finished a Notable Story
+17180	who Finished a Strange Story
+17181	who Finished a Beautiful Story
+17182	A 1st title earned through The Library of Lost Tales event.
+17183	A 1st title earned through The Library of Lost Tales event.
+17184	A 1st title earned through The Library of Lost Tales event.
+17185	A 1st title earned through The Library of Lost Tales event.
+17186	Can be obtained by completing the achievement quest of The Library of Lost Tales event.
+17187	Can be obtained by completing Exploring Territories of a Shattered Past during The Library of Lost Tales event.
+17188	Can be obtained by completing Exploring Moonlight Dreams during The Library of Lost Tales event.
+17189	Can be obtained by completing Exploring Times Remembered, Times Forgotten during The Library of Lost Tales event.
+17190	Luck +30
+17191	Luck +30
+17192	Luck +30
+17193	Luck +30
 17194	순수한 보석 비
 17195	청아한 보석 비
 17196	흐르는 순수한 빛 물결
@@ -15487,6 +15598,27 @@
 17289	Max Damage +18\nMagic Attack +22\nMovement Speed +3%
 17290	Music Buff Effect +10\nMusic Buff Duration +30
 17291	Luck +30
+17292	Marionette
+17293	Dark Butterfly
+17294	Dark Lace
+17295	Marionette
+17296	Dark Butterfly
+17297	Dark Lace
+17298	Marionette
+17299	Dark Butterfly
+17300	Dark Lace
+17301	Marionette
+17302	Dark Butterfly
+17303	Dark Lace
+17304	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17305	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17306	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17307	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17308	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17309	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17310	Luck +30
+17311	Luck +30
+17312	Luck +30
 17313	에린 1타 강사
 17314	Summa Cum Laude
 17315	에린 1타 강사
@@ -15613,6 +15745,55 @@
 17457	
 17458	
 17459	
+17460	White Butterfly
+17461	White Lace
+17462	Blue Lace
+17463	Pure Phantasmal Emanation
+17464	Innocent Phantasmal Emanation
+17465	Corrupted Phantasmal Emanation
+17466	White Butterfly
+17467	White Lace
+17468	Blue Lace
+17469	Pure Phantasmal Emanation
+17470	Innocent Phantasmal Emanation
+17471	Corrupted Phantasmal Emanation
+17472	White Butterfly
+17473	White Lace
+17474	Blue Lace
+17475	Pure Phantasmal Emanation
+17476	Innocent Phantasmal Emanation
+17477	Corrupted Phantasmal Emanation
+17478	White Butterfly
+17479	White Lace
+17480	Blue Lace
+17481	Pure Phantasmal Emanation
+17482	Innocent Phantasmal Emanation
+17483	Corrupted Phantasmal Emanation
+17484	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17485	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17486	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17487	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17488	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17489	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17490	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17491	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17492	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17493	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17494	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17495	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17496	Luck +30
+17497	Luck +30
+17498	Luck +30
+17499	Luck +30
+17500	Luck +30
+17501	Luck +30
+17509	Elegant Phantasmal Emanation
+17510	Elegant Phantasmal Emanation
+17511	Elegant Phantasmal Emanation
+17512	Elegant Phantasmal Emanation
+17513	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17514	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17515	Luck +30
 17516	who Lent a Hand in Bri Leith
 17517	who Earned the Trust of Bri Leith
 17518	who Lent a Hand in Bri Leith
@@ -15704,6 +15885,13 @@
 17625	A title given to those who have gathered memories from Bri Leith, helping to foster a life beyond the end. Gather Traces of Memories and give them to someone who has lost their memories of Murias.
 17626	Max Damage +33\nMagic Attack +55\nDefense +30\nMagic Defense +30\nProtection +15\nMagic Protection +15\nMovement Speed +2%
 17627	Max Damage +33\nMagic Attack +55
+17642	A Freshman's Dream
+17643	A Freshman's Dream
+17644	A Freshman's Dream
+17645	A Freshman's Dream
+17646	A Freshman's Dream 2nd Title
+17647	A Freshman's Dream 2nd Title
+17648	Luck +30
 17649	Erinn Adventure Pass Season 2 Conqueror
 17650	Erinn Adventure Pass Season 2 Conqueror
 17651	Erinn Adventure Pass Season 2 Conqueror
@@ -15816,6 +16004,13 @@
 17772	A title received by taking part in the 17th Anniversary GM event.
 17773	A title received by taking part in the 17th Anniversary GM event.
 17774	
+17810	Alban Heruin Season 2 Challenger
+17811	Alban Heruin Season 2 Challenger
+17812	Alban Heruin Season 2 Challenger
+17813	Alban Heruin Season 2 Challenger
+17814	A glorious 2nd Title given to those who reached the rank of Challenger during Commerce Alban Heruin Season 2. Can be used with regular titles.
+17815	A glorious 2nd Title given to those who reached the rank of Challenger during Commerce Alban Heruin Season 2. Can be used with regular titles.
+17816	Movement Speed +3%
 17817	순수한 드림우드 플라워
 17818	청아한 드림우드 플라워
 17819	순수한 드림우드 버터플라이
@@ -15935,6 +16130,34 @@
 17982	Reach 100 Training EXP for Vivace Rank 1 to receive a title that proves your mastery.
 17983	Vivace Effect +10
 17984	Vivace Effect +8
+17985	the Seeker of Treasure
+17986	Continental Compass
+17987	the Seeker of Treasure
+17988	Continental Compass
+17989	the Seeker of Treasure
+17990	Continental Compass
+17991	the Seeker of Treasure
+17992	Continental Compass
+17993	An honorable title bestowed upon those who tirelessly undertook expeditions in search of artifacts in Iria.
+17994	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17995	An honorable title bestowed upon those who tirelessly undertook expeditions in search of artifacts in Iria.
+17996	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+17997	Luck +30
+17998	Luck +30
+17999	High Frequency
+18000	Flashing Hearts
+18001	High Frequency
+18002	Flashing Hearts
+18003	High Frequency
+18004	Flashing Hearts
+18005	High Frequency
+18006	Flashing Hearts
+18007	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+18008	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+18009	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+18010	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+18011	Luck +30
+18012	Luck +30
 18013	Goddess Feather
 18014	Immersed in Memory
 18015	Goddess Feather
@@ -15949,6 +16172,34 @@
 18024	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
 18025	Luck +30
 18026	Luck +30
+18030	아름답게 피어난
+18034	아름답게 피어난
+18038	아름답게 피어난
+18042	아름답게 피어난
+18046	아름답게 피어난 당신께 지급되는 타이틀. 마비노기 21주년 이벤트 기간에 착용 시, 모든 스킬 수련치가 2배로 증가하는 등의 특별한 부스터 효과를 추가로 받을 수 있다.
+18050	아름답게 피어난 당신께 지급되는 타이틀. 마비노기 21주년 이벤트 기간에 착용 시, 모든 스킬 수련치가 2배로 증가하는 등의 특별한 부스터 효과를 추가로 받을 수 있다.
+18054	최대 대미지 21 증가\n마법 공격력 21 증가\n물 / 불 / 바람 / 흙 속성\n연금술 대미지 8 증가\n\n21주년 이벤트 기간 동안 모든 스킬 수련치 2배\n파티로 그림자 미션, 연극 미션, 던전 플레이 시 자신은 경험치 3배, 파티원은 경험치 1.5배
+18069	who Achieved 10,000 Iria Expedition Points
+18070	who Achieved 20,000 Iria Expedition Points
+18071	who Achieved 30,000 Iria Expedition Points
+18072	who Achieved 10,000 Iria Expedition Points
+18073	who Achieved 20,000 Iria Expedition Points
+18074	who Achieved 30,000 Iria Expedition Points
+18075	who Achieved 10,000 Iria Expedition Points
+18076	who Achieved 20,000 Iria Expedition Points
+18077	who Achieved 30,000 Iria Expedition Points
+18078	who Achieved 10,000 Iria Expedition Points
+18079	who Achieved 20,000 Iria Expedition Points
+18080	who Achieved 30,000 Iria Expedition Points
+18081	A title given to explorers who earned over 10,000 Expedition Points in a single mission during the Iria Expedition event.
+18082	A title given to explorers who earned over 20,000 Expedition Points in a single mission during the Iria Expedition event.
+18083	A title given to explorers who earned over 30,000 Expedition Points in a single mission during the Iria Expedition event.
+18084	A title given to explorers who earned over 10,000 Expedition Points in a single mission during the Iria Expedition event.
+18085	A title given to explorers who earned over 20,000 Expedition Points in a single mission during the Iria Expedition event.
+18086	A title given to explorers who earned over 30,000 Expedition Points in a single mission during the Iria Expedition event.
+18087	Luck +30
+18088	Luck +30
+18089	Luck +30
 18090	Special Dreamwood Butterfly
 18091	Special Dreamwood Butterfly
 18092	Special Dreamwood Butterfly
@@ -15970,27 +16221,69 @@
 18108	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 18109	체력 20 증가\n솜씨 20 증가\n지력 20 증가\n의지 20 증가\n행운 20 증가
 18110	최대 대미지 20 증가\n마법 공격력 20 증가\n물 / 불 / 바람 / 흙 속성\n연금술 대미지 12 증가\n이동 속도 1% 증가
-18139	에린 체험 특별 지원
-18140	에린 체험 특별 지원
-18141	에린 체험 특별 지원
-18142	에린 체험 특별 지원
-18143	에린 체험 특별 지원 효과를 얻을 수 있는 타이틀이다.
-18144	에린 체험 특별 지원 효과를 얻을 수 있는 타이틀이다.
-18145	최대 대미지 20 증가\n체력 10 증가\n지력 10 증가\n솜씨 10 증가\n의지 10 증가\n행운 10 증가\n이동 속도 2% 증가\n모든 스킬 수련치 2배\n파티로 그림자 미션, 연극 미션, 던전 플레이 시 자신은 경험치 2배, 파티원은 경험치 1.5배
-18216	환상 속 세계수
-18217	환상 속 마법의 성
-18218	환상 속 세계수
-18219	환상 속 마법의 성
-18220	환상 속 세계수
-18221	환상 속 마법의 성
-18222	환상 속 세계수
-18223	환상 속 마법의 성
-18224	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-18225	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-18226	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-18227	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-18228	행운 30 증가
-18229	행운 30 증가
+18139	Erinn Experience Special Support
+18140	Erinn Experience Special Support
+18141	Erinn Experience Special Support
+18142	Erinn Experience Special Support
+18143	A title that grants the benefits of Erinn Experience Special Support to those who equip it.
+18144	A title that grants the benefits of Erinn Experience Special Support to those who equip it.
+18145	Max Damage +20\nStrength +10\nIntelligence +10\nDexterity +10\nWill +10\nLuck +10\nMovement Speed +2%\nSkill 2x EXP\nWhen defeating monsters as a party in a Shadow Mission, Theatre Mission, or Dungeon, the title bearer will receive 2x EXP, while other party members will receive 1.5x EXP.
+18174	who was Acknowledged by Nele
+18175	who Merited Yvona's Esteem
+18176	whose Potential was Recognized by Briana
+18177	who was Praised by Endelyon
+18178	who Earned Edern's Approval
+18179	who Impressed Countess Eluned
+18180	who was Acknowledged by Nele
+18181	who Merited Yvona's Esteem
+18182	whose Potential was Recognized by Briana
+18183	who was Praised by Endelyon
+18184	who Earned Edern's Approval
+18185	who Impressed Countess Eluned
+18186	who was Acknowledged by Nele
+18187	who Merited Yvona's Esteem
+18188	whose Potential was Recognized by Briana
+18189	who was Praised by Endelyon
+18190	who Earned Edern's Approval
+18191	who Impressed Countess Eluned
+18192	who was Acknowledged by Nele
+18193	who Merited Yvona's Esteem
+18194	whose Potential was Recognized by Briana
+18195	who was Praised by Endelyon
+18196	who Earned Edern's Approval
+18197	who Impressed Countess Eluned
+18198	A title for those whose accomplishments have been acknowledged by Nele, a bard deeply fascinated by talented composers.
+18199	A title for those who earned the esteem of Yvona, a reserved Elf who acknowledges only the most brilliant musicians.
+18200	A title for those whose potential was recognized by court composer Briana, a passionate girl with a deep appreciation for music of all kinds.
+18201	A title for those who earned the praise of Endelyon, a sister of the Church of Lymilark who esteems those skilled in the ways of gathering.
+18202	A title for those who earned the approval of Edern, a master blacksmith who esteems those skilled in the ways of crafting.
+18203	A title for those who impressed Countess Eluned, a noblewoman who esteems those who show appreciation for fine food and drink.
+18204	A title for those whose accomplishments have been acknowledged by Nele, a bard deeply fascinated by talented composers.
+18205	A title for those who earned the esteem of Yvona, a reserved Elf who acknowledges only the most brilliant musicians.
+18206	A title for those whose potential was recognized by court composer Briana, a passionate girl with a deep appreciation for music of all kinds.
+18207	A title for those who earned the praise of Endelyon, a sister of the Church of Lymilark who esteems those skilled in the ways of gathering.
+18208	A title for those who earned the approval of Edern, a master blacksmith who esteems those skilled in the ways of crafting.
+18209	A title for those who impressed Countess Eluned, a noblewoman who esteems those who show appreciation for fine food and drink.
+18210	
+18211	
+18212	
+18213	
+18214	
+18215	
+18216	Wondrous World Tree
+18217	Castle in the Clouds
+18218	Wondrous World Tree
+18219	Castle in the Clouds
+18220	Wondrous World Tree
+18221	Castle in the Clouds
+18222	Wondrous World Tree
+18223	Castle in the Clouds
+18224	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+18225	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+18226	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+18227	You can get this fancy 2nd title from a title coupon. Can be used with regular titles.
+18228	Luck +30
+18229	Luck +30
 18230	Black Moon's Omen
 18231	Black Moon's Shadow
 18232	Black Moon's Rising
@@ -16045,7 +16338,7 @@
 18288	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 18289	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
 18290	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
-18291	기본 효과\n최대 대미지 16 증가\n방어 15 증가\n보호 8 증가\n마법 방어 15 증가\n마법 보호 8 증가\n\n세이크리드 가드 보너스 효과\n방어 15 증가\n보호 8 증가\n마법 방어 15 증가\n마법 보호 8 증가\n최대 생명력 150 증가\n격돌 재사용 대기 시간 1초 감소\n성역 전개 반경 1.5m 증가
+18291	기본 효과\n최대 대미지 16 증가\n방어 15 증가\n보호 8 증가\n마법 방어 15 증가\n마법 보호 8 증가\n\n세이크리드 가드 보너스 효과\n방어 15 증가\n보호 8 증가\n마법 방어 15 증가\n마법 보호 8 증가\n최대 생명력 150 증가\n격돌 재사용 대기 시간 1초 감소\n성역 영향권 범위 반경 1.5m 증가
 18292	기본 효과\n최대 대미지 24 증가\n보호 12 증가\n최대 생명력 80 증가\n\n블래스트 랜서 보너스 효과\n랜스 재능 무기 최대 대미지 8 증가\n랜스 차지 대미지 배율 15% 증가\n차지 어설트 공격 범위 1m\n보너스 대미지 1% 증가
 18293	the Conqueror of Bri Leith
 18294	the Conqueror of Bri Leith
@@ -16061,3 +16354,52 @@
 18304	A title given to Milletians who completed their Erinn Adventure Pass during Season 3.
 18305	A title given to Milletians who completed their Erinn Adventure Pass during Season 3.
 18306	Max Damage +35\nMagic Attack +45\nCritical +8%\nMusic Buff Effect +5\nDefense +10\nProtection +8\nMagic Defense +10\nMagic Protection +8\nWater/Fire/Wind/Earth Alchemic Damage +14
+18328	판타스틱 드리머
+18329	판타스틱 드리머
+18330	판타스틱 드리머
+18331	판타스틱 드리머
+18332	누구의 도움도 없이 몽환의 라비 던전 꿈속의 유혹을 클리어했다.
+18333	몽환의 라비 던전 꿈속의 유혹을 처음부터 끝까지 혼자서 클리어해 보자.
+18334	최대 대미지 25 증가\n마법 공격력 25 증가\n물 / 불 / 바람 / 흙 속성 연금술 대미지 40 증가\n행운 30 증가\n이동 속도 2% 증가
+18356	브리 레흐 정복자
+18357	브리 레흐 공략자
+18358	브리 레흐 순행자
+18359	브리 레흐 정복자
+18360	브리 레흐 공략자
+18361	브리 레흐 순행자
+18362	브리 레흐 정복자
+18363	브리 레흐 공략자
+18364	브리 레흐 순행자
+18365	브리 레흐 정복자
+18366	브리 레흐 공략자
+18367	브리 레흐 순행자
+18368	브리 레흐 공략 경기 이벤트에서 최고의 자리에 오른 밀레시안에게 지급되는 타이틀.
+18369	브리 레흐 공략 경기 이벤트에서 뛰어난 기량을 선보인 밀레시안에게 지급되는 타이틀.
+18370	브리 레흐 공략 경기 이벤트에서 자신의 실력을 입증한 밀레시안에게 지급되는 타이틀.
+18371	브리 레흐 공략 경기 이벤트에서 최고의 자리에 오른 밀레시안에게 지급되는 타이틀.
+18372	브리 레흐 공략 경기 이벤트에서 뛰어난 기량을 선보인 밀레시안에게 지급되는 타이틀.
+18373	브리 레흐 공략 경기 이벤트에서 자신의 실력을 입증한 밀레시안에게 지급되는 타이틀.
+18374	
+18375	
+18376	
+18377	the Millionetian
+18378	the Millionetian
+18379	the Millionetian
+18380	the Millionetian
+18381	An honorable title given to Milletians who have reached 1 million cumulative levels.
+18382	An honorable title given to Milletians who have reached 1 million cumulative levels.
+18383	
+18384	the Millionetian
+18385	the Millionetian
+18386	the Millionetian
+18387	the Millionetian
+18388	An honorable title given to Milletians who have reached 1 million cumulative levels.
+18389	An honorable title given to Milletians who have reached 1 million cumulative levels.
+18390	
+18398	브리 레흐 도전자
+18399	브리 레흐 도전자
+18400	브리 레흐 도전자
+18401	브리 레흐 도전자
+18402	브리 레흐 공략 경기 이벤트를 도전한 밀레시안에게 지급되는 타이틀.
+18403	브리 레흐 공략 경기 이벤트를 도전한 밀레시안에게 지급되는 타이틀.
+18404	

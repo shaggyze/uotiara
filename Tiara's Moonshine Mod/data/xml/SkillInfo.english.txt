@@ -2442,8 +2442,8 @@
 3832	Yui's Support Defense
 3833	Yui is protecting you. Take courage and step forward.
 3834	Yui is protecting you. Take courage and step forward.
-3836	다 죽이기 (운영자 스킬)
-3837	혼자 죽기 (운영자 스킬)
+3836	Kill All (GM Skill)
+3837	KO Self (GM Skill)
 3838	Yui Strike
 3839	Yui's Support Defense
 3840	If you're facing a crisis during battle, get Yui's help to escape danger!
@@ -2453,6 +2453,7 @@
 3844	Damage
 3845	Cooldown
 3846	Range
+3854	펫 점프
 3855	Bolt Out of the Blue
 3856	Spooky Sounds
 3857	Titan Kick
@@ -2524,6 +2525,7 @@
 3932	2nd Couple's Flight
 3933	A skill received when you formed a bond with your special someone. The magic powder, of unknown origin, will make your body as light as air, and let you take to the skies around Doki Doki Island. Fly whenever you want!\nYou can right-click on others and request that they Fly Together with you. This will be a romantic flight, where the two of you hold hands. 
 3934	A skill received when you formed a bond with your special someone. The magic powder, of unknown origin, will make your body as light as air, and let you take to the skies around Doki Doki Island. Fly whenever you want!\nYou can right-click on others and request that they Fly Together with you. \nCan only be used on Doki Doki Island.
+3935	멀티 물폭탄
 3936	Hot-Air Balloon Crossbow Shot (mini game)
 3937	Truck to the Head
 3938	It's not the most graceful maneuver, but the impact of a truck dropping from the sky will send a shockwave that temporarily stuns enemies.
@@ -2764,6 +2766,7 @@
 4243	Damage On Apostle Until Soul Disappears (Multiplied by Number of Players)
 4246	Protection & Magic Protection Buff (%)
 4249	Buff Duration (sec)
+4252	이동속도 디버프(%)
 4254	Strength Debuff (%)
 4256	Protection & Magic Protection Debuff (%)
 4258	Debuff Duration (sec)
@@ -2950,6 +2953,18 @@
 4445	Archer Strike
 4446	Rin Strike
 4447	Illya Strike
+4448	대미지
+4449	대미지
+4450	대미지
+4451	대미지
+4452	쿨타임
+4453	쿨타임
+4454	쿨타임
+4455	쿨타임
+4456	사거리
+4457	사거리
+4458	사거리
+4459	사거리
 4460	Roll the dice 2
 4461	It's all about the roll of the dice! Dice are sold at the General Shop.
 4462	It's all about the roll of the dice! Dice are sold at the General Shop.
@@ -2976,6 +2991,7 @@
 4487	Magic Defense Bonus
 4488	Release Sky Lantern
 4489	Release Sky Lantern (Hidden skills)
+4490	악마의 저주
 4491	A special action you can perform during the event. Release a Sky Lantern into the air! It sets the perfect mood when released at night.
 4492	A special action you can perform during the event. Release a Sky Lantern into the air! It sets the perfect mood when released at night.
 4493	Cold Winter Performance
@@ -3191,7 +3207,7 @@
 4740	Plant the Chain Blade in a target and pull yourself to that target in an instant! \nYou can use this skill even when you are stunned.
 4741	Imbues the Chain Blade with Dorcha, and curses an enemy with the mark of death. Whenever that enemy takes a hit, a blast occurs, which attracts more monsters.\nThe one with the Death Mark receives increased damage, but don't rely on this fact, for the mark of death does not last forever.
 4742	A skill that boosts Dorcha's efficiency by imbuing the will of the Sluagh itself right onto the surface of the Chain Blade!\nThus, the damage of Dorcha skills increases for a brief period of time.
-4743	A skill to be used when your faith is as strong as steel, untarnished by the acid of doubt. It unleashes your accrued Bachram to deal powerful damage, and can only be used one time during each Bachram Boost. The number of uses cannot be stacked.
+4743	A skill to be used when one's unwavering conviction shines like a light, piercing even the clouds of doubt and despair. It detonates your accumulated Bachram, dealing heavy damage to enemies. When at least one member of your party is in combat, your Bachram gauge will slowly fill, eventually triggering a Bachram Boost. A Bachram Explosion can be used only once per boost, and the number of uses cannot be stacked.
 4744	To master Chain Slash, you must learn how it works. First, the Sluagh...\nThe Sluagh are restless spirits which can live within you, and their turbulent aggression will permeate your soul with darkness, known as Dorcha. But this does not have to be a bleak state of affairs, for you can harness this Dorcha to achieve your own ends, and hopefully they are noble ends! You consume Dorcha to perform Chain Slash skills, but to do that effectively, you'll need to call upon your own inner strength, known as Bachram. Since it is your own inner strength, Bachram keeps the hostile Sluagh spirit under control. As your Bachram gauge fills, it restores HP, MP, and Stamina, and it resets the cooldown of many skills. And finally, a Bachram Boost will quickly refuel your Dorcha. Now, go forth and Chain Slash!
 4745	You can use the Chain Blade to manage your Dorcha. Practice this skill often, and its efficiency will increase. Practice makes perfect!
 4746	The most rudimentary of Chain Blade attacks. It doesn't do great damage, but it does effectively increase your Dorcha. Attack speed varies depending on distance. If you defeat the enemy with a Lucky Finish, you'll gain 3 Dorcha. If you defeat the enemy with a Huge Lucky Finish, you'll gain the maximum amount of Dorcha possible!
@@ -3204,7 +3220,7 @@
 4753	Plant the Chain Blade in a target and pull yourself to that target in an instant! \nYou can use this skill even when you are stunned.
 4754	Imbues the Chain Blade with Dorcha, and curses an enemy with the mark of death. Whenever that enemy takes a hit, a blast occurs, which attracts more monsters.\nThe one with the Death Mark receives increased damage, but don't rely on this fact, for the mark of death does not last forever.
 4755	A skill that boosts Dorcha's efficiency by imbuing the will of the Sluagh itself right onto the surface of the Chain Blade!\nThus, the damage of Dorcha skills increases for a brief period of time.
-4756	A skill to be used when your faith is as strong as steel, untarnished by the acid of doubt. It unleashes your accrued Bachram to deal powerful damage, and can only be used one time during each Bachram Boost. The number of uses cannot be stacked.
+4756	A skill to be used when one's unwavering conviction shines like a light, piercing even the clouds of doubt and despair. It detonates your accumulated Bachram, dealing heavy damage to enemies. When at least one member of your party is in combat, your Bachram gauge will slowly fill, eventually triggering a Bachram Boost. A Bachram Explosion can be used only once per boost, and the number of uses cannot be stacked.
 4757	Complete Chain Slash Talent's scenario quest [Where She Sleeps].
 4758	Equip a [Chain Blade]. Chain Blades can be purchased from the Weapons Shop.
 4759	Equip a [Chain Blade]. Chain Blades can be purchased from the Weapons Shop.
@@ -4900,11 +4916,37 @@
 6973	During the Generation 20 "Gate of Sanctuary" storyline, complete the "Eternal Memories" quest.
 6974	메모리 낭만 비행
 6975	둘도 없는 인연을 만들고 받은 선물. 몸에 뿌려진 출처를 알 수 없는 마법의 가루는 원할 때 마다 몸 전체에 감돌며 하늘에서의 자유를 느낄 수 있게 해준다. 남의 도움을 받거나 누군가에 의지하는 것이 아니라, 스스로의 의지로 자유롭게 하늘을 누비는 기분을 마음껏 만끽 해보자.\n날고 있는 상태에서 상대방을 우클릭 하면 나타나는 날기 요청 메뉴를 이용하여 상대방이 승낙 하면 함께 나란히 하늘을 날아다닐 수 있다. 추억을 되살리며 상대방의 손을 잡고 허공으로 이끌 수 있다. 친구, 연인과 함께 자유롭게 날아보자.
+6976	Iria Expedition Passive
+6977	L-Rod Exploration EX
+6978	Campfire EX
+6979	Cooking EX
+6980	Handicraft EX
+6981	Firebolt
+6983	Exploration Range
+6984	Effect Duration
+6985	Min Damage
+6987	Quality Bonus
+6988	Max Damage
+6990	Range
+6991	Success Rate
 6992	Instill Elements
 6993	Flashing Steel
 6994	Elemental Instillment is a practice core to the identity of Elemental Knights. This martial invocation imbues a warrior's weapon with a variety of special effects, including fire, ice, and lightning properties, increased damage, and enabling spells to be readied while fighting. While the instillment persists, the elemental energies grant normal attacks the ability to cleave enemies in a wider area, decrease the target's Movement Speed and Attack Speed, ignore an enemy's Defense and Protection and partially negate the effects of the Heavy Stander effect, as well as speeding the casting of fire/ice/lightning magic and adding 5% of Max Damage to the caster's Magic Attack. A spell readied during combat can be cast with Ctrl + Right Click, but will not be affected by the Piercing stat of the equipped weapon, and its charge time cannot be reduced below 50%. The more adept one becomes at instilling weapons with elemental energy, the faster the process will be, until it can be performed almost instantaneously.
 6995	Charge forth, attacking all who stand in your way with the explosive force generated by a body honed from rigorous training in Close Combat. Using the Close Combat Talent skill Bash will reduce Flashing Steel's cooldown, as the combatant can harness the driving force of Bash. When Bash's aura is present, it is even possible to use Flashing Steel again when one would be otherwise unable to do so. As Flashing Steel draws upon the Bash skill, it inherits Bash's ability to ignore the Heavy Stander effect, and its distance is extended by any effects that extend the distance of Bash. By utilizing these traits, one can utilize their superior mobility to dodge enemies' attacks, or take advantage of a momentary opening to unleash a barrage of powerful attacks.
 6996	​Raise the Elemental Knight Arcana to Level 8 or higher.
+6997	A skill that helps you to locate objects using a tool. When you hold the L-Rod and start searching the area, you will start getting a response from the L-Rod, in light and sound, as you draw near to the treasure chest, at which point you will hear four loud beeps. When the L-Rod is beeping as such, click on the ground using your mouse cursor. The L-Rod will then reveal the treasure chest that has been hidden nearby. If a treasure chest does not appear, try clicking on another spot.
+6998	Every night, adventurers sleep in a vast wilderness, making their home wherever they may go. The combination of a warm campfire, freshly hunted game, and a bard's song can dissipate any kind of fatigue. This skill allows you to use Firewood in your possession to make a campfire.
+6999	A skill that combines a variety of ingredients to cook a meal. These recipes have been passed down among explorers for many years.
+7000	It's very fascinating to use a variety of materials to create items that may have unexpected functions. In order to do this, one must have nimble hands and a thorough understanding of the materials. Beyond that, a high level of concentration required to intuit just the right combination of items that will have the best effect. Explaining all this to everyone hoping to create something from scratch is a difficult task, however. Over time, people began to call this combination of time-tested know-how and practical application the Handicraft skill. To anyone that desires to create something from scratch, this skill could be seen as a divine gift.
+7001	Icebolt
+7002	Min Damage
+7003	Max Damage
+7004	Windmill EX
+7005	A skill that attacks surrounding enemies by spinning vigorously.
+7006	No matter how skilled you are at melee combat, it's never easy to handle multiple enemies at once. Using Windmill, you can spin around to attack all nearby enemies at once. This skill is extremely useful, especially when the enemies have you on the ground.
+7007	Damage
+7008	HP Consumption Rate
+7009	Attack Radius
 7013	Dauntless Defense
 7014	Blazing Assault Slash
 7015	Shattering Windmill
@@ -4917,6 +4959,26 @@
 7022	Raise the Elemental Knight Arcana to Level 7 or higher and the Instill Flame Skill to Rank B or higher.
 7023	Raise the Elemental Knight Arcana to Level 7 or higher and the Instill Frost Skill to Rank B or higher.
 7024	Raise the Elemental Knight Arcana to Level 7 or higher and the Instill Thunder Skill to Rank B or higher.
+7043	클로버 사인
+7044	막아줘!
+7045	터져줘!
+7046	도와줘!
+7047	때려줘!
+7090	Palalan Embrace
+7091	A skill that harnesses the light of Palala. Use it to gain special effects.
+7092	You have reached Potential Level 30!
+7093	모모가 스스로를 보호하는 스킬. 모모가 공격당할 때 일정 확률로 클로버 실드가 발동되어, 자신이 받는 피해가 감소한다. 실드가 활성화된 상태에서 모모를 공격한 적은 일정 시간 동안 경직 상태에 빠진다.
+7094	모모가 당근 폭탄을 설치하는 스킬. 폭탄 설치 시 일정 시간 동안 주인의 이동 속도와 공격 속도가 증가한다. 이후 적이 당근 폭탄 위를 지나가면, 폭탄이 폭발하여 대미지를 입히고 이동 속도를 감소시킨다.
+7095	모모가 모래바람을 일으키며 주인에게 이동하는 스킬. 모모는 현재 위치와 관계없이 즉시 주인 곁으로 이동하며, 도착 시 주변 적을 실명시킨다.
+7096	모모가 특별한 도움을 받는 스킬. 일정 시간 동안 모모가 적을 공격할 때, 확률적으로 작은 모모가 소환된다. 작은 모모는 주변 적을 기본 공격으로 공격하며 주인을 보조한다. 모모의 누적 성장 수치에 따라 소환되는 작은 모모의 수가 증가한다.
+7097	모모가 스스로를 보호하는 스킬. 모모가 공격당할 때 일정 확률로 클로버 실드가 발동되어, 자신이 받는 피해가 감소한다. 실드가 활성화된 상태에서 모모를 공격한 적은 일정 시간 동안 경직 상태에 빠진다.
+7098	모모가 당근 폭탄을 설치하는 스킬. 폭탄 설치 시 일정 시간 동안 주인의 이동 속도와 공격 속도가 증가한다. 이후 적이 당근 폭탄 위를 지나가면, 폭탄이 폭발하여 대미지를 입히고 이동 속도를 감소시킨다.
+7099	모모가 모래바람을 일으키며 주인에게 이동하는 스킬. 모모는 현재 위치와 관계없이 즉시 주인 곁으로 이동하며, 도착 시 주변 적을 실명시킨다.
+7100	모모가 특별한 도움을 받는 스킬. 일정 시간 동안 모모가 적을 공격할 때, 확률적으로 작은 모모가 소환된다. 작은 모모는 주변 적을 기본 공격으로 공격하며 주인을 보조한다. 모모의 누적 성장 수치에 따라 소환되는 작은 모모의 수가 증가한다.
 7143	메모리얼 링크
 7144	지금은 사용할 수 없는 스킬이다. 추억담을 진행해 보자.
 7145	블로니의 힘으로 만들어낸 영혼을 연결하는 유대감의 스킬이다. 연결된 영혼들은 교감을 통해 서로의 기억과 경험을 공유하며, 내면에 잠재되어 있던 힘을 한계까지 발휘할 수 있게 된다. 영혼이 연결된 펫과 시전자는 여러 능력치가 상승하며 펫은 시전자가 적을 처치하여 얻은 경험치를 동일하게 얻을 수 있다. 또한 펫은 방어와 보호가 크게 증가한 채로 시전자를 인식한 적의 주의를 끌어 적으로부터 주인을 보호한다. 단, 이러한 효과들은 펫의 능력치와 레벨, 메모리얼 링크 랭크에 영향을 받으므로 이를 유념하도록 하자. 디바인 링크와 같은 원리로 동작하는 것으로 보아, 디바인 링크와 동시에 보유할 수는 없어 보인다.
+7146	레이 오브 쏜즈
+7147	로즈 위스퍼
+7148	임시
+7149	임시

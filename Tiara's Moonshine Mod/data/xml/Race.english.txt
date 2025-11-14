@@ -992,7 +992,7 @@
 1267	Yellow Snowfield Ostrich
 1268	Black Snowfield Ostrich
 1269	렛서 팬더
-1270	흰 푸들
+1270	White Poodle
 1271	Brown Poodle
 1272	Golden Pig
 1273	Emperor Penguin
@@ -2277,8 +2277,8 @@
 2965	노베르 유령
 2966	마법 융단
 2967	마법 융단
-2968	고급 마법 융단
-2969	고급 마법 융단
+2968	Royal Magic Carpet
+2969	Royal Magic Carpet
 2970	Free Thoroughbred (7-day)
 2971	Crystal Deer
 2972	Montague Family
@@ -2734,6 +2734,8 @@
 3547	Giant Male Partner
 3548	Noble Carriage
 3549	Magical Broom
+3551	엘프
+3552	자이언트
 3553	The Ninth Sun
 3685	Black Grizzly Bear
 3686	Lion
@@ -3491,7 +3493,7 @@
 4732	Snow White Giant Golem
 4733	Tabhartas
 4734	Outlaw Hunter
-4735	썬더 드래곤 (2인승)(드래곤 라이더 세트))
+4735	Thunder Dragon (for 2) (Dragon Rider Set)
 4736	Incubus
 4737	[Apprentice Holy Knight] Collen
 4738	Hollow Knight
@@ -3966,6 +3968,8 @@
 5283	Red Team Snowman
 5284	Blue Team Snowman
 5285	Snowfield Slayer
+5287	(일반)지성
+5288	(고정)지성
 5289	Polar Hornet
 5290	Young Tundra Reindeer
 5291	Tundra Reindeer
@@ -4093,7 +4097,7 @@
 5426	Royal Guard
 5427	Giant
 5428	Giant
-5429	Dark Cloud
+5429	Stormy Nimbus
 5430	Millia
 5431	Millia
 5432	Black-Tailed Mongoose
@@ -4219,8 +4223,13 @@
 5556	카딘
 5557	Mushmom
 5565	Scooter
+5569	베야야 (이벤트)
+5570	아이스 드래곤 (이벤트)
+5571	Recall Mage Imp (Event)
 5572	Josephine
-5573	노란 진돗개
+5573	Yellow Jindo
+5574	골든 리트리버
+5575	래브라도 리트리버
 5576	Shadow Golem
 5577	Caravan Joe Sand Sculpture Stage 1
 5578	Caravan Joe Sand Sculpture Stage 2
@@ -4248,7 +4257,7 @@
 5600	Duke
 5602	Sephirot
 5603	Slime
-5604	파
+5604	Leek
 5605	Spider Fighter
 5606	Poison Kobold
 5607	Kobold Archer
@@ -4492,12 +4501,14 @@
 5847	Black Poisonous Snake
 5848	White Poisonous Snake
 5849	Ice Dragon (Event)
-5850	파이어 드래곤 (이벤트)
-5851	썬더 드래곤 (이벤트)
+5850	Fire Dragon (Event)
+5851	Thunder Dragon (Event)
 5852	Ice Dragon (Event)
-5853	파이어 드래곤 (이벤트)
-5854	썬더 드래곤 (이벤트)
-5856	하데스 (이벤트)
+5853	Fire Dragon (Event)
+5854	Thunder Dragon (Event)
+5855	듀크(임시)
+5856	Bone Dragon (Event)
+5857	Yellow Jindo
 5858	Kirito
 5859	White Dragon
 5860	Snowfield Slayer
@@ -4506,16 +4517,17 @@
 5864	Frost Dragon
 5865	Blue Dire Wolf
 5866	Sword Art Online Designer
-5868	근두운
-5869	스쿠터
-5870	전투 페가수스
-5871	플레임메어
-5872	크리스탈 루돌프
-5873	피닉스
+5868	Nimbus
+5869	Scooter
+5870	Battle Pegasus
+5871	Flamemare
+5872	Crystal Deer
+5873	Phoenix
 5874	Warp Imp
+5875	태양의 제단
 5876	Armored Bear
 5877	Ancient Stone Mask
-5878	하데스 (이벤트)
+5878	Bone Dragon (Event)
 5879	Neid
 5880	Trickster
 5881	Returned Trickster
@@ -4542,6 +4554,9 @@
 5902	Common Zombie
 5903	Mutated Zombie
 5904	Halloween Eastern Vampire (F)
+5905	캐러반 조
+5906	고릴라
+5907	고릴라
 5908	Spider Ranger
 5909	Spider Soldier
 5910	Spider Warrior
@@ -4557,8 +4572,9 @@
 5920	Rudolph
 5921	Head Hobgoblin
 5922	Head Hobgoblin
-5923	마스터 셰프의 포장마차
+5923	Culinary Artist's Flying Food Truck
 5924	Lovely Boston Terrier
+5925	임시 캠프
 5926	Lovely Siamese
 5927	Lovely Scottish Fold
 5928	Lovely Labrador Retriever
@@ -4610,6 +4626,7 @@
 5977	Skittish Bandit
 5978	Menhir
 5979	Enslaved Alpha Wyvern
+5980	움직이는 머리띠
 5981	Whirlpool Snake
 5982	Wandering Scorpion
 5983	Gravel Rhino
@@ -4628,6 +4645,8 @@
 5996	Demonic Archer
 5997	Demonic Warrior
 5998	아이스 드래곤 (이벤트)
+5999	인간
+6000	인간
 6001	Cessair
 6002	Gorilla
 6003	Gorilla
@@ -4695,6 +4714,7 @@
 6069	Floral Fairy
 6070	Cone Hat Seal
 6071	Festival Goblin
+6072	랜드마크
 6073	Girgashiy
 6074	Girgashiy
 6075	Girgashiy
@@ -4800,6 +4820,7 @@
 6176	Ferghus Doll
 6177	Young Tarlach Doll
 6178	Kristell Doll
+6179	유령 흑표범
 6180	Girgashiy
 6181	Mineral Wolf
 6182	Mineral Boar
@@ -4846,9 +4867,13 @@
 6223	Purple Rainbow Sheep
 6224	무지개 하얀 양
 6225	무지개 검은 양
+6226	무한공격 더미
+6227	무한궁술 더미
+6228	무한마법 더미
+6229	세피로트
 6230	Brainy Sheep
-6231	썬더 드래곤 (이벤트)
-6232	파이어 드래곤 (이벤트)
+6231	Thunder Dragon (Event)
+6232	Fire Dragon (Event)
 6233	Cumulosheepus
 6234	 
 6235	 
@@ -5094,7 +5119,7 @@
 6494	Crystal Chime Deer
 6495	Albino Tiger
 6496	Celestial Unicorn
-6497	Lightning Dragon
+6497	Thunder Dragon
 6498	Solar Stallion
 6499	Reanimated Corpse
 6500	Reanimated Corpse
@@ -5160,8 +5185,10 @@
 6560	Pihne
 6561	Security Device
 6562	Volcano Horned Wild Boar
+6563	
+6564	
 6565	Fallen Fairy
-6566	적토마
+6566	Solar Stallion
 6567	Bard Skeleton
 6568	Battle Crewman Skeleton
 6569	Skeleton
@@ -5177,7 +5204,7 @@
 6579	Crystal Chime Deer
 6580	Albino Tiger
 6581	Celestial Unicorn
-6582	Lightning Dragon
+6582	Thunder Dragon
 6583	RM Unicorn
 6584	White Stallion
 6585	Laighlinne Partner
@@ -5714,14 +5741,14 @@
 7792	Red Monkey
 7793	Phantasm Wisp
 7794	Runaway Gingerman
-7795	순간이동 마법사 임프
+7795	Recall Mage Imp
 7796	Astral Cosmic Stallion
 7797	Astral Pegasus
 7798	Astral Cheetah
 7799	Astral Nimbus
 7800	Succubus Fiend
 7801	Astral Frost Dragon
-7802	Astral Lightning Dragon
+7802	Astral Thunder Dragon
 7803	Astral Scooter
 7804	Succubus Queen
 7805	Astral Abyss Dragon
@@ -5762,11 +5789,11 @@
 7844	별빛이 담긴 청마
 7845	별빛이 담긴 페가수스
 7846	별빛이 담긴 체스터
-7847	별빛이 담긴 근두운
+7847	Astral Nimbus
 7848	별빛이 담긴 아이스 드래곤
 7849	별빛이 담긴 썬더 드래곤 (2인승)
 7850	별빛이 담긴 스쿠터
-7851	별빛이 담긴 하데스
+7851	Astral Abyss Dragon
 7852	별빛이 담긴 루돌프
 7853	별빛이 담긴 여우
 7854	백마
@@ -5855,7 +5882,7 @@
 7937	Matryoshka
 7938	Matryoshka
 7939	화이트 피닉스
-7940	순간이동 마법사 임프
+7940	Recall Mage Imp
 7941	Fez
 7942	Tia
 7943	Mir Dragon
@@ -6018,7 +6045,7 @@
 8141	Sheep Wolf
 8142	Sheep Wolf
 8143	Sheepdog
-8144	밀키웨이 하데스 (이벤트)
+8144	Milky Way Bone Dragon (Event)
 8145	밀키웨이 페가수스 (이벤트)
 8146	Sheep Wolf
 8147	Sheep
@@ -8153,7 +8180,7 @@
 10334	Red Ghast
 10335	Ghoul
 10336	Ghost Cloaker
-10337	하데스(프리시즌용)
+10337	Bone Dragon (Master Plan)
 10338	Kanna
 10339	Eirlys
 10340	Beimnech
@@ -8452,7 +8479,7 @@
 10641	Pitta
 10642	대박나소
 10643	Ribbon Battle Pegasus
-10644	Ribbon Lightning Dragon (for 2)
+10644	Ribbon Thunder Dragon
 10645	Red Prison Zombie
 10646	Green Prison Zombie
 10647	Blue Prison Zombie
@@ -10122,6 +10149,12 @@
 12451	Whisper of Unending Winter
 12454	Starlight Red Fairy Dragon
 12455	Rockstar Scooter Imp
+12456	Walter Doll Bag
+12457	Eavan Doll Bag
+12458	Aeira Doll Bag
+12459	Stewart Doll Bag
+12460	Beachcomber Cat Doll Bag
+12461	Snorkeling Pup Doll Bag
 12462	Campfire
 12463	Cwn Annwn
 12464	Guardian Cwn Annwn
@@ -10612,12 +10645,13 @@
 12988	Pony Pinata
 12989	Scented Bear Pinata
 12990	Irusan Pinata
+12991	Eochaid
 12992	White Dragon
 12993	Bike
 12994	Bike
 12995	Wizard Corgi (Event)
 12996	Wizard Corgi (Event)
-12997	Iria Treasure Map
+12997	Continent of Iria Treasure Map
 12998	Flying Bunny Doll
 12999	Flying Fennec Fox Doll
 13000	Flying Bear Doll
@@ -10629,26 +10663,258 @@
 13006	Pony Pinata
 13007	Scented Bear Pinata
 13008	Irusan Pinata
+13009	수줍은 모모
+13010	엉뚱한 모모
+13011	도도한 모모
+13012	차분한 모모
 13017	Warrior Corgi (Event)
 13018	Warrior Corgi (Event)
+13019	수줍은 모모
+13020	엉뚱한 모모
+13021	도도한 모모
+13022	차분한 모모
+13023	Continent of Iria Treasure Map
+13024	Continent of Iria Treasure Map
+13025	모모의 쿠키마차
+13026	토끼 다루의 스쿠터
 13027	Treasure Hunting Giant Leprechaun
 13028	Silvershine Giant Leprechaun
 13029	Goldengleam Giant Leprechaun
 13030	Dapper Dandy Giant Leprechaun
+13034	Vampire Bat
+13035	Country Rat
+13036	Armored Skeleton
+13037	Red Skeleton
+13038	Metal Skeleton
+13039	Black Wizard
+13040	Ghost Armor
+13041	Light Gargoyle
+13042	Heavy Gargoyle
+13043	Cichol's Follower
+13044	Cichol's Follower
+13045	Cichol's Follower
+13046	Recall Scooter Imp
 13049	판 미니돌
 13052	Guardian Cwn Annwn (Event)
 13053	Arbiter Cwn Annwn (Event)
 13054	Red Fairy Dragon (Event)
 13055	Blue Fairy Dragon (Event)
 13056	Star Wizard Catsidhe
-13074	루에리
-13075	타르라크
-13076	마리
-13077	서큐버스 크리스텔
-13078	타르라크
+13057	Battle Pegasus
+13058	Flying High Bunny Doll
+13059	인간 남성 마네킹
+13060	인간 여성 마네킹
+13061	엘프 남성 마네킹
+13062	엘프 여성 마네킹
+13063	자이언트 남성 마네킹
+13064	자이언트 여성 마네킹
+13073	Red Dragon Construct
+13074	Ruairi
+13075	Tarlach
+13076	Mari
+13077	Succubus Kristell
+13078	Tarlach
+13080	Flying High Fennec Fox Doll
+13081	Flying High Bear Doll
+13082	Black Spider
+13083	Goblin
+13084	Gray Town Rat
+13085	Mimic
+13086	Goblin Archer
+13087	Poison Goblin
+13088	Red Spider
+13089	Bat
+13090	Sickle Laghodessa
+13091	Brown Snake
+13092	Blue Snake
+13093	Rat Man
+13094	White Snake
+13095	Burgundy Sickle Laghodessa
+13096	Blue Rat Man
+13097	Black Snake
+13098	Great Mimic
+13099	Spike Laghodessa
+13100	Red Town Rat
+13101	Green Snake
+13102	Dark Rat Man
+13103	Red Sickle Laghodessa
+13104	Red Spike Laghodessa
+13105	Bug Bear
+13106	Old Mimic
+13107	Giant Spider
+13108	Blue Dire Wolf
+13109	Giant White Spider
+13110	Blue Grizzly Bear
+13111	Wisp
+13112	Burgundy Dire Wolf
+13113	Gray Werewolf
+13114	Red Spider Wasp
+13115	Black Poisonous Spider
+13116	Spider Fighter
+13117	Spider Archer
+13118	Beetle Wolf
+13119	Spider Soldier
+13120	Larva
+13121	Beetle Wolf
+13122	Grendel
+13123	Cobweb Mummy
+13124	Spider Ranger
+13125	Spider Warrior
+13126	Grendel
+13127	Larva
+13128	Gray Town Rat
+13129	Black Spider
+13130	White Spider
+13131	Red Spider
+13132	Pirate Skeleton
+13133	Skeleton
+13134	Treasure Mimic
+13135	Flying Sword
+13136	Skeleton Wolf
+13137	Pirate Skeleton
+13138	Bat
+13139	Sahagin Ranger
+13140	Sahagin Soldier
+13141	Gnoll
+13142	Gnoll
+13143	Black Ship Rat
+13144	Pirate Red Skeleton
+13145	Small Argus
+13146	Pirate Red Skeleton
+13147	Captain Red Skeleton
+13148	Flying Sword
+13149	Black Spider
+13150	Goblin
+13151	Gray Town Rat
+13152	Mimic
+13153	Goblin Archer
+13154	Poison Goblin
+13155	Red Spider
+13156	Bat
+13157	Sickle Laghodessa
+13158	Brown Snake
+13159	Blue Snake
+13160	Rat Man
+13161	White Snake
+13162	Burgundy Sickle Laghodessa
+13163	Blue Rat Man
+13164	Black Snake
+13165	Great Mimic
+13166	Spike Laghodessa
+13167	Red Town Rat
+13168	Green Snake
+13169	Dark Rat Man
+13170	Red Sickle Laghodessa
+13171	Red Spike Laghodessa
+13172	Bug Bear
+13173	Old Mimic
+13174	Giant Spider
+13175	Blue Dire Wolf
+13176	Giant White Spider
+13177	Blue Grizzly Bear
+13178	Wisp
+13179	Burgundy Dire Wolf
+13180	Gray Werewolf
+13181	Red Spider Wasp
+13182	Black Poisonous Spider
+13183	Spider Fighter
+13184	Spider Archer
+13185	Beetle Wolf
+13186	Spider Soldier
+13187	Larva
+13188	Beetle Wolf
+13189	Grendel
+13190	Cobweb Mummy
+13191	Spider Ranger
+13192	Spider Warrior
+13193	Grendel
+13194	Larva
+13195	Gray Town Rat
+13196	Black Spider
+13197	White Spider
+13198	Red Spider
+13199	Pirate Skeleton
+13200	Skeleton
+13201	Treasure Mimic
+13202	Flying Sword
+13203	Skeleton Wolf
+13204	Pirate Skeleton
+13205	Bat
+13206	Sahagin Ranger
+13207	Sahagin Soldier
+13208	Gnoll
+13209	Gnoll
+13210	Black Ship Rat
+13211	Pirate Red Skeleton
+13212	Small Argus
+13213	Pirate Red Skeleton
+13214	Captain Red Skeleton
+13215	Flying Sword
 13216	White Mist
 13217	Black Mist
 13218	Blighting Orb
+13219	Giant Spider
+13220	Giant Spider
+13221	Golem
+13222	Golem
+13223	Cyclops
+13224	Cyclops
+13225	Cat Sith Knight
+13226	Cat Sith Knight
+13227	Cat Sith Knight
+13228	Cat Sith Knight
+13229	Cat Sith Knight
+13230	Cat Sith Knight
+13231	Cat Sith Knight
+13232	Cat Sith Knight
+13233	Cyclops
+13234	Cyclops
+13235	Giant Red Spider
+13236	Giant Red Spider
+13237	Lycanthrope
+13238	Lycanthrope
+13239	Arachne
+13240	Arachne
+13241	Golem
+13242	Golem
+13243	Golem
+13244	Golem
+13245	Golem
+13246	Golem
+13247	Golem
+13248	Golem
 13280	Illusion of Balor
 13281	Tech Duinn Geata
 13283	Hellgate
+13288	서큐버스 퀸
+13289	검게 물든 장미
+13292	Admiral's Lingering Spirit
+13293	Red Giant Tentacle
+13294	Blue Giant Tentacle
+13295	Yellow Giant Tentacle
+13296	Green Giant Tentacle
+13299	레드 서큐버스 르제핀
+13300	화이트 서큐버스 아이리나
+13301	옐로우 서큐버스 피안
+13302	핑크 서큐버스 클로라
+13303	레드 서큐버스 르제핀
+13304	화이트 서큐버스 아이리나
+13305	옐로우 서큐버스 피안
+13306	핑크 서큐버스 클로라
+13312	Moon Shard
+13313	Lunar Nightmare
+13314	Sun Shard
+13315	Solar Nightmare
+13316	Sol-Luna Nightmare
+13318	Kraken Rex
+13320	Cethlenn's Staff
+13321	Cethlenn
+13380	Starback Whale (Event)
+13381	Grassback Whale (Event)
+13382	Bareback Whale (Event)
+13383	Green Fairy Dragon (Event)
+13384	Fairy Dragon (Event)
+13386	화염의 카트시(이벤트)
+13387	청명의 카트시(이벤트)
+13388	광명의 카트시(이벤트)
+13389	심연의 카트시(이벤트)

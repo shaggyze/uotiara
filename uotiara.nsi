@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
-!define UOSHORTVERSION        "474"
-!define UOLONGVERSION         "0.71.80"
+!define UOSHORTVERSION        "480"
+!define UOLONGVERSION         "0.73.80"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -1363,7 +1363,8 @@ SectionEnd
 !macroend
 Section "Vertical Flight Speed" MOD97
 SetOutPath "$INSTDIR\data\db"
-File "${srcdir}\Tiara's Moonshine Mod\data\db\aircraftdesc.xml"
+Delete "$INSTDIR\data\db\aircraftdesc.xml"
+;File "${srcdir}\Tiara's Moonshine Mod\data\db\aircraftdesc.xml"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD97}

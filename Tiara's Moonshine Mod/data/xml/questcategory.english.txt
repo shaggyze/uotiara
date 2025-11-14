@@ -98,3 +98,4 @@
 101	[Sacred]
 103	[Explo]
 104	Guild
+105	[ArcAsc]

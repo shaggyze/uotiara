@@ -46,6 +46,7 @@ divineknightdescmgr.1	Warding
 divineknightdescmgr.2	Binding
 divineknightdescmgr.3	Smiting
 dungeon.downstairs	<mini>TO</mini>  Downstairs
+equipmentcollectiondescmgr.1	잘못된 형식의 링크입니다. 링크를 확인해 주세요.
 erinnlandachievementdescmgr.1	Basic
 erinnlandachievementdescmgr.2	Limited
 erinnlandachievementdescmgr.3	Mini-game
@@ -119,15 +120,15 @@ etc.gameword_param_food	Hunger
 etc.gameword_param_intelligence	Intelligence
 etc.gameword_param_level	Level
 etc.gameword_param_life	HP
-etc.gameword_param_lifemax	MaxHP
+etc.gameword_param_lifemax	Max HP
 etc.gameword_param_luck	Luck
 etc.gameword_param_mana	MP
-etc.gameword_param_manamax	MaxMP
+etc.gameword_param_manamax	Max MP
 etc.gameword_param_protect	Protection
 etc.gameword_param_rate	Damage Balance
 etc.gameword_param_stamina	Stamina
 etc.gameword_param_staminamax	Max Stamina
-etc.gameword_param_strength	STR
+etc.gameword_param_strength	Strength
 etc.gameword_param_wattackmax	Max Injury Rate
 etc.gameword_param_wattackmin	Min Injury Rate
 etc.gameword_param_will	Will
@@ -284,6 +285,11 @@ interface_multiclass.2	{0} cannot be used with a 0 durability weapon.
 interface_multiclass.3	Mana Shells
 interface_multiclass.4	Mana Pressure
 interface_multiclass.5	You don't have enough {0} for this skill.
+interface_multiclass.6	Please try again later.
+interface_multiclass.7	You cannot use this here.
+interface_multiclass.8	You cannot use this while in combat.
+interface_multiclass.9	You cannot use this while using a skill.
+interface_multiclass.10	You cannot use this right now.
 interface_personalrankingmgr.1	Girgashiy
 interface_personalshopcustomer.1	Armor
 interface_personalshopcustomer.2	Weapons
@@ -373,6 +379,7 @@ interface_servicemgr.1	Inventory Plus Kit
 interface_servicemgr.2	Mabinogi Premium Service
 interface_servicemgr.3	Mabinogi VIP Service
 interface_servicemgr.4	VIP 
+interface_servicemgr.5	길드 패키지
 interface_servicemgr.7	Basic VIP Membership
 interface_servicemgr.8	Combat VIP Membership
 interface_servicemgr.9	Life VIP Membership
@@ -473,6 +480,13 @@ interface_standardapi_gamemonth.26	{0} Hour(s)
 interface_standardapi_gamemonth.27	{0} min 
 interface_standardapi_gamemonth.28	{0} sec
 interface_standardapi_gamemonth.29	Less than 1 Minute
+interface_standardapi_gamemonth.30	Sunday
+interface_standardapi_gamemonth.31	Monday
+interface_standardapi_gamemonth.32	Tuesday
+interface_standardapi_gamemonth.33	Wednesday
+interface_standardapi_gamemonth.34	Thursday
+interface_standardapi_gamemonth.35	Friday
+interface_standardapi_gamemonth.36	Saturday
 interface_standardapi_util.1	You cannot use this right now.
 interface_standardapi_util.2	Characters cannot do that while in the tutorial.\n(Available after first Rebirth)
 interface_standardapi_util.3	You cannot use this when your character is below Lv. 20.
@@ -583,6 +597,10 @@ itemoptiondeschelper.60	Healing Enhancement
 itemoptiondeschelper.61	Assault Slash Enhancement
 itemoptiondeschelper.62	Healing Skill Recovery Effect
 itemoptiondeschelper.63	Party Healing Skill Recovery Effect
+itemoptiondeschelper.64	Critical Damage
+itemoptiondeschelper.65	Final Critical Rate (Can Exceed Max)
+itemoptiondeschelper.66	Shadow Mission Completion EXP
+itemoptiondeschelper.67	자신의 전투 경험치
 itemoptionset.1	Spirit 
 itemqualitymgr.1	Talent Bonus: 
 itemqualitymgr.2	Grandmaster craft bonus : 
@@ -674,7 +692,7 @@ mabinogi_gameword.25	Movement Speed
 mabinogi_gameword.26	Transport Speed
 mabinogi_gameword.27	Act 2: Threshold Cutter Damage Boost
 mabinogi_gameword.28	Marionette Min Damage
-mabinogi_gameword.29	Marionette - Max Damage
+mabinogi_gameword.29	Marionette Max Damage
 mabinogi_gameword.30	Marionette Max HP
 mabinogi_gameword.31	Marionette Defense
 mabinogi_gameword.32	Marionette Protection
@@ -691,19 +709,20 @@ mabinogi_gameword.42	Act 2: Threshold Cutter 3 Hit Damage
 mabinogi_gameword.43	Quality
 mabinogi_gameword.44	Alchemy success rate increased
 mabinogi_gameword.45	Dual Gun Min Damage
-mabinogi_gameword.46	Dual Gun - Max Damage
+mabinogi_gameword.46	Dual Gun Max Damage
 mabinogi_gameword.47	Max Ammo Reserve Increase
 mabinogi_gameword.48	Magic Protection
 mabinogi_gameword.49	Magic Defense
 mabinogi_gameword.50	Magic Protection
 mabinogi_gameword.51	Shuriken Min Damage
-mabinogi_gameword.52	Shuriken - Max Damage
+mabinogi_gameword.52	Shuriken Max Damage
 mabinogi_gameword.53	Chain Blade Min Damage
-mabinogi_gameword.54	Chain Blade - Max Damage
+mabinogi_gameword.54	Chain Blade Max Damage
 mabinogi_gameword.55	Music Buff Duration
 mabinogi_gameword.56	Knuckle Min Damage
-mabinogi_gameword.57	Knuckle - Max Damage
+mabinogi_gameword.57	Knuckle Max Damage
 mabinogi_gameword.58	Total Alchemic Element Damage
+mabinogi_gameword.59	Balance
 mabinogi_item.1	I'm a super n00b and proud of it!
 mabinogi_itemforjob.1	Change to {0}
 mabinogi_itemforjob.2	{0} Increase
@@ -1137,4 +1156,9 @@ usercreatedtotemdescmgr.35	Tenacious Taunt Rune
 usercreatedtotemdescmgr.36	Zone of Renewal Rune
 usercreatedtotemdescmgr.37	Unified Might Rune
 usercreatedtotemdescmgr.38	sec
+usercreatedtotemdescmgr.39	Close Combat Talent Weapon Max Damage
+usercreatedtotemdescmgr.40	Close Combat Talent Weapon Min Damage
+usercreatedtotemdescmgr.41	Archery Talent Weapon Max Damage
+usercreatedtotemdescmgr.42	Archery Talent Weapon Min Damage
+usercreatedtotemdescmgr.43	Marionette Min Damage
 usercreatedtotemelement.1	Lv. {0}: {1} + {2}
