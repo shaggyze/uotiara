@@ -1,6 +1,6 @@
 RequestExecutionLevel admin
 !define UOSHORTVERSION        "480"
-!define UOLONGVERSION         "0.73.80"
+!define UOLONGVERSION         "0.73.81"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -1287,7 +1287,7 @@ SectionEnd
 !macroend
 Section "Dark Knight Sound" MOD89
 SetOutPath "$INSTDIR\data\db"
-File "${srcdir}\Tiara's Moonshine Mod\data\db\animationevent.anievent"
+Delete "$INSTDIR\data\db\animationevent.anievent"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD89}
