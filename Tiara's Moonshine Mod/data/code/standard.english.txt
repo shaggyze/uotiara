@@ -19,6 +19,11 @@ autobotdescmgr.10	Water Alchemy Efficiency {0}%
 autobotdescmgr.11	Fire Alchemy Efficiency {0}%
 autobotdescmgr.12	Wind Alchemy Efficiency {0}%
 autobotdescmgr.13	Earth Alchemy Efficiency {0}%
+autobotdescmgr.14	Water Alchemic Damage +{0}
+autobotdescmgr.15	Fire Alchemic Damage +{0}
+autobotdescmgr.16	Wind Alchemic Damage +{0}
+autobotdescmgr.17	Earth Alchemic Damage +{0}
+autobotdescmgr.18	All Elemental Alchemic Damage +{0}
 booleanfunctionhandler.1	When you are an Elf or supporting an Elf
 booleanfunctionhandler.2	When you are a Giant or supporting a Giant
 booleanfunctionhandler.3	Summoning Golem
@@ -51,7 +56,7 @@ erinnlandachievementdescmgr.1	Basic
 erinnlandachievementdescmgr.2	Limited
 erinnlandachievementdescmgr.3	Mini-game
 erinnlandachievementdescmgr.4	Attraction
- etc.combat_power.strong1	+100 CP
+etc.combat_power.strong1	+100 CP
 etc.combat_power.strong2	+500 CP
 etc.combat_power.strong3	+1000 CP
 etc.combat_power.strong4	+1500 CP
@@ -185,6 +190,15 @@ interface_character.15	 cannot be equipped because you are already wearing somet
 interface_character.16	Face Accessory-Exclusive items and Headwear cannot be equipped together if any of their features would overlap.
 interface_character.17	You cannot move to another continent from this location.
 interface_character.18	You cannot do that right now.\nContinent Warp is available after the quest [Fomor Threat].
+interface_character.19	You cannot equip {0} with {1}.
+interface_character.20	hats that cover your ears
+interface_character.21	ear facewear
+interface_character.22	hats that cover your eyes
+interface_character.23	eye facewear
+interface_character.24	hats that cover your mouth
+interface_character.25	mouth facewear
+interface_character.26	hats
+interface_character.27	hat-type facewear
 interface_characteretc.1	You can't save this location.
 interface_characteretc.2	You cannot save during PvP.
 interface_characteretc.3	You cannot save while mounted.
@@ -262,6 +276,33 @@ interface_item.4	 (Not Activated)
 interface_item.5	Dan {0}
 interface_item.6	Battle Astrology Talent Skill Damage +{0}%
 interface_item.7	Imprinted
+interface_item.8	Prestige
+interface_item.9	Cutting Edge
+interface_item.10	Trendy
+interface_item.11	Standard
+interface_item.12	방금 차린 
+interface_item.13	방금 요리한 
+interface_item.14	Classic
+interface_item.15	4대 속성 연금술 대미지 {0} 증가)))
+interface_item.16	4대 속성 연금술 대미지 {0} 감소)))
+interface_item.17	제철 
+interface_item.18	Repair Fee Change: {0}%
+interface_livingcontents.1	위탁자의 골드가 부족합니다.
+interface_livingcontents.2	이미 준비 완료 상태입니다.
+interface_livingcontents.3	아직 시작할 수 없습니다.
+interface_livingcontents.4	위탁자가 준비되지 않았습니다.
+interface_livingcontents.5	현재 장비 조율을 할 수 없는 상태입니다.
+interface_livingcontents.6	금속가공
+interface_livingcontents.7	의류제작
+interface_livingcontents.8	약품제작
+interface_livingcontents.9	식품제조
+interface_livingcontents.10	수공예
+interface_livingcontents.11	명장
+interface_livingcontents.12	장인
+interface_livingcontents.13	전문
+interface_livingcontents.14	숙련
+interface_livingcontents.15	견습
+interface_livingcontents.16	입문
 interface_minigame.1	You are currently a pet and cannot participate in mini-games.
 interface_minigame.2	Cannot start a mini-game while unconscious.
 interface_minigame.3	Cannot start a mini-game while using a skill.
@@ -290,6 +331,10 @@ interface_multiclass.7	You cannot use this here.
 interface_multiclass.8	You cannot use this while in combat.
 interface_multiclass.9	You cannot use this while using a skill.
 interface_multiclass.10	You cannot use this right now.
+interface_multiclass.11	Transmutation Energy Bullets
+interface_multiclass.12	You don't have enough elements charged.
+interface_multiclass.13	You don't have enough materials.
+interface_multiclass.14	Fury
 interface_personalrankingmgr.1	Girgashiy
 interface_personalshopcustomer.1	Armor
 interface_personalshopcustomer.2	Weapons
@@ -375,6 +420,7 @@ interface_royalalchemist.5	Royal Alchemist
 interface_royalalchemist.6	Royal Blacksmith
 interface_royalalchemist.7	Royal Tailor
 interface_royalalchemist.8	Royal Enchanter
+interface_seasonalfarming.1	임시 인벤토리를 비우고 시도해 주세요.
 interface_servicemgr.1	Inventory Plus Kit
 interface_servicemgr.2	Mabinogi Premium Service
 interface_servicemgr.3	Mabinogi VIP Service
@@ -404,6 +450,9 @@ interface_shapeshift.18	You are currently unable to transform.
 interface_shapeshift.19	You cannot transform at this time.
 interface_shapeshift.20	You cannot transform while you are walking a pet.
 interface_shapeshift.21	You cannot transform while in a forced transformation.
+interface_shapeshift.22	You cannot perform another transformation right now.\nYou must first use the Magic Compact to cancel your current transformation.
+interface_shapeshift.23	You cannot transform with this item.
+interface_shapeshift.24	You must have learned the Transformation Mastery skill to transform.\nThe Transformation Mastery skill can be learned by clearing the 'Rumors of Transformation' quest available from NPC Shamala. 
 interface_skilldescmgr.1	Skill [{0}] Level[{1}] - invalid promotion count
 interface_skilldescmgr.2	Skill [{0}] Level[{1}] - invalid promotion exp
 interface_skilldescmgr.3	\nThe skill data has an error.\nYou need the 'necessary_crystal' information.\nSkill Name: {0}, Skill Level: {1}
@@ -427,6 +476,7 @@ interface_skillhandler.7	무기의 사용기간이 지나서 {0}{을} 사용할 
 interface_skillhandler.8	You can't use this here.
 interface_skillhandler.9	지금은 스킬을 사용할 수 없습니다.\n게임에 접속 중인 상태로, {0} 후에 다시 시도하세요.
 interface_skillhandler.10	You can't use that Technique now. Please try again in {0} sec.
+interface_skillhandler.11	이번 시즌에 사용할 수 없는 아이템이 있습니다.
 interface_skillhandlerparam.1	You don't have enough Dorcha.
 interface_skillmgr.1	All the attributes are charged.
 interface_skillmgr.2	Requires a close combat weapon to use.
@@ -531,6 +581,8 @@ interface_standardapi_util.42	You need more arrows or bolts.
 interface_standardapi_util.43	This skill cannot be used with this weapon.
 interface_standardapi_util.44	You are not in the Stellar Citadel.
 interface_standardapi_util.45	Scythe
+interface_standardapi_util.47	You don't have any formulas saved.
+interface_standardapi_util.48	Requires a Cylinder.
 itemenhancedescmgr.1	Upgrading to {0}, type {1} level {2}.\n
 itemenhancedescmgr.2	Converting {0}, type {1} level {2} to type {3} level {4}.\n
 itemenhancedescmgr.3	Upgrading to {0} level {1}.\n
@@ -601,6 +653,9 @@ itemoptiondeschelper.64	Critical Damage
 itemoptiondeschelper.65	Final Critical Rate (Can Exceed Max)
 itemoptiondeschelper.66	Shadow Mission Completion EXP
 itemoptiondeschelper.67	자신의 전투 경험치
+itemoptiondeschelper.68	Battlefield Overture/Vivace Attack Bonus
+itemoptiondeschelper.69	Enchanted Item's Durability Loss
+itemoptiondeschelper.70	Arcana Skill Damage
 itemoptionset.1	Spirit 
 itemqualitymgr.1	Talent Bonus: 
 itemqualitymgr.2	Grandmaster craft bonus : 
@@ -739,6 +794,8 @@ mabinogi_job.7	Fighter
 mabinogi_job.8	Bard
 mabinogi_job.9	Puppeteer
 mabinogi_job.10	Gunslinger
+mabinogi_livingcontents.1	환경
+mabinogi_livingcontents.2	던전/미션
 mabinogi_minigame.1	Mafia
 mabinogi_minigame.2	Citizen
 mabinogi_minigame.3	Cop
@@ -1020,6 +1077,8 @@ questresult.22	{0} PT
 questresult.23	Erinn-go-Round Dice Points <color=2>{0}</color>
 questresult.24	<color=2>{0}</color> Guild Points
 questresult.25	<color=2>{0}</color> Guild Points
+questresult.26	시즌 생활 경험치 <color=2>{0}</color>
+questresult.27	시즌 생활 경험치 <color=2>{0}</color>
 recommendflagtable.1	EXP +{0}
 recommendflagtable.2	{0} - A recommender will receive {1} Recommendation EXP.
 setitemmgr.1	Increase
@@ -1161,4 +1220,22 @@ usercreatedtotemdescmgr.40	Close Combat Talent Weapon Min Damage
 usercreatedtotemdescmgr.41	Archery Talent Weapon Max Damage
 usercreatedtotemdescmgr.42	Archery Talent Weapon Min Damage
 usercreatedtotemdescmgr.43	Marionette Min Damage
+usercreatedtotemdescmgr.44	Magic Talent Weapon Magic Attack
+usercreatedtotemdescmgr.45	Scythe Magic Attack
+usercreatedtotemdescmgr.46	Lance Max Damage
+usercreatedtotemdescmgr.47	Lance Min Damage
+usercreatedtotemdescmgr.48	All Elemental Alchemic Damage
+usercreatedtotemdescmgr.49	Effective Range
+usercreatedtotemdescmgr.50	Critical Damage
+usercreatedtotemdescmgr.51	Healing Effect
+usercreatedtotemdescmgr.52	Music Buff Effect
+usercreatedtotemdescmgr.53	Casting Speed
+usercreatedtotemdescmgr.54	Movement Speed
+usercreatedtotemdescmgr.55	Melee Auto Defense
+usercreatedtotemdescmgr.56	Ranged Auto Defense
+usercreatedtotemdescmgr.57	Magic Auto Defense
+usercreatedtotemdescmgr.58	Natural HP Recovery Boost
+usercreatedtotemdescmgr.59	Natural MP Recovery Boost
+usercreatedtotemdescmgr.60	Natural Stamina Recovery Boost
+usercreatedtotemdescmgr.61	Bonus Damage
 usercreatedtotemelement.1	Lv. {0}: {1} + {2}

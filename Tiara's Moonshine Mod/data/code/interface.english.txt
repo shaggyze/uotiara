@@ -12,7 +12,7 @@ card_select.title	Select Card
 castlebidcancelview.cancelbutton	Cancel bid
 castlebidcancelview.keepbutton	Maintain bid
 code.gameserver.commonapi.isposiblebenchseat	You cannot sit together.
-etc.card_select.avail_basic	이 캐릭터는 베이직카드로 만들 수 있습니다
+dddddddddddddwcard_select.avail_basic	이 캐릭터는 베이직카드로 만들 수 있습니다
 donationranking.contents.1	Lymilark Charity Fund Board
 donationranking.contents.2	Lymilark Charity Fund
 donationranking.contents.3	Total
@@ -342,10 +342,14 @@ pli_2021winterpreeventmainview.4	Perform Commerce 3 Times: {0}  /  {1}
 pli_2021winterpreeventmainview.5	Clear Setting Up the Iria Trading Posts: {0}  /  {1} 
 pli_2021winterpreeventmainview.6	Commerce Activity Score: {0}
 pli_2021winterpreeventmainview.7	Commerce Count: {0}
+pli_additionalequipechostoneview.1	[How to Swap]\nMark the checkbox by the Echostones in the slots you wish to swap. Slots without a checkmark will not be swapped, and the Echostones from your default equipment set will remain active.\n\n[Swap Priority]\nEchostones of the same color will be prioritized. After that, priority is decided according to the order of the slot.\n\n[Restrictions]\nIf multiple Echostones of the same color are registered in the same Extra Equipment Slot, the Echostones cannot be swapped.
 pli_additionalequipmentpocketview.1	You can use this with a Hotkey! Register it to a Hotkey slot.
 pli_additionalequipmentpocketview.2	The item settings have been applied.
 pli_additionalequipsystemtab.1	Undo
 pli_additionalequipsystemtab.2	Equip This Set
+pli_additionalequipsystemtab.3	Excluded
+pli_additionalequipsystemtab.4	Swapped ({0}/{1})
+pli_additionalequipsystemtab.5	Swap Ready ({0}/{1})
 pli_additionalequipsystemview.1	You need to purchase an Extra Equipment Slot Coupon.
 pli_additionalequipsystemview.2	{0}
 pli_additionalequipsystemview.3	VIP Membership In Effect\n
@@ -527,6 +531,8 @@ pli_appearancechangeframe.19	Mouth
 pli_appearancechangeframe.20	Right
 pli_appearancechangeframe.21	Left
 pli_appearancechangeframe.22	Please select the Fixed Color Hair Dye Ampoule you wish your Partner to use.
+pli_appearancechangeframe.23	Please select the Fixed Color Hair Dye Ampoule to add.
+pli_appearancechangeframe.24	This color has already been added.
 pli_appearancecouponpreview.1	Reset Camera
 pli_appearancecouponpreview.2	Background Brightness
 pli_apskilltrainview.1	Unknown Training Method
@@ -1165,6 +1171,7 @@ pli_characteradditionalframe.42	Blaanid's Blessing - Stage 2\n\nRecall Book - 2 
 pli_characteradditionalframe.43	Blaanid's Blessing - Stage 3\n\nRecall Book - 3 Slots\nMovement Speed +6%\nAll Stats +3\nGain 3 additional AP upon rebirth\nHalo Effect Stage 3
 pli_characteradditionalframe.44	Blaanid's Blessing - Stage 4\n\nRecall Book - 4 Slots\nMovement Speed +8%\nAll Stats +4\nGain 4 additional AP upon rebirth\nHalo Effect Stage 4
 pli_characteradditionalframe.45	{0} / {1}
+pli_characteradditionalframe.46	You cannot rebirth while using a Motion Sequence.
 pli_characterarbeitcategoryframe.1	{0} time(s)
 pli_characterarbeitframe.1	Completed
 pli_characterarbeitlevelinfoview.1	{0} or more time(s)
@@ -1204,6 +1211,8 @@ pli_charactercommerceframe.3	lv{0} exp {1}%
 pli_charactercommerceframe.4	{0} Commerce Rank: {1}
 pli_charactercommerceframe.5	{1}/{2}/{0} - {4}/{5}/{3} (Resets on {6}/{7} at {8}:00)
 pli_charactercommerceframe.6	<color=2><outlinecolor=3>[Commerce Seasons]</outlinecolor></color>\nEach Commerce season lasts four months, changing over on the first Thursday\nin March, July, and November at 7:00 AM (Server Time). At the beginning of\na new season, all players' Seasonal Rank and Seasonal Ducats will be reset.\n\n<color=2><outlinecolor=3>[Seasonal Ducats]</outlinecolor></color>\nThis currency is the trade standard for Commerce seasons, and can be used to\npurchase goods from the Trading Posts, as well as rent Commerce Mounts and\npurchase items from the Seasonal Shop. Any Seasonal Ducats in your possession\nwill be converted to standard Ducats at the beginning of a new season. You can\nsee your current holdings of Seasonal and Standard Ducats in your inventory.\n\n<color=2><outlinecolor=3>[Seasonal Shop]</outlinecolor></color>\nYou can purchase a selection of limited-availability seasonal items from Sayiv\nin Port Qilla. These items can only be bought with Seasonal Ducats.\n\n<color=2><outlinecolor=3>[Seasonal Rank]</outlinecolor></color>\nYou can raise your Seasonal Commerce Score via taking part in Commerce.\nThis score determines your overall Seasonal Rank. Each tier of Seasonal Rank\nyou reach makes you eligible for additional rewards.\n\n<color=2><outlinecolor=3>[Barter Trading]</outlinecolor></color>\nOnce you reach a Seasonal Rank of [Silver 5], you can engage in barter trading\nwith the Barter Trading Posts in Iria. Wares used in barter trading can be crafted,\nor received as rewards from Part-Time Jobs. There are weekly purchase limits on goods\nobtainable through barter trading, which reset every Saturday at 7:00 AM (Server Time).\n\n<color=2><outlinecolor=3>[Merchant Rating]</outlinecolor></color>\nWhen you purchase goods from a Trading Post and sell them at a different\nTrading Post, your Merchant Rating will increase with the location from which\nyou originally purchased those goods. A higher Merchant Rating with\na location will increase the selection of wares available for Commerce.\n\n
+pli_charactercommerceframe.7	물물 교역소
+pli_charactercommerceframe.8	물물 교역소\n({0} 이상)
 pli_characterconditionremaintimeview.1	No effects active.
 pli_characterconditionremaintimeview.2	 (Cannot be used)
 pli_characterconditionremaintimeview.3	 <color=2>(Polyphony)</color>
@@ -1212,6 +1221,12 @@ pli_characterconditionremaintimeview.5	Expand
 pli_characterconditionremaintimeview.6	No more can be added.
 pli_characterconditionremaintimeview.7	  (Deactivated)
 pli_characterconditionremaintimeview.8	<color=4>(Tuan)</color>
+pli_characterconditionremaintimeview.13	Level {0}
+pli_characterconditionremaintimeview.14	Your stats will be boosted based on the {0} you have allocated.\n\n
+pli_characterconditionremaintimeview.15	{1:02}/{2:02}/{0} - {4:02}/{5:02}/{3}
+pli_characterconditionremaintimeview.16	<color=5>{0} [Level {1}]:</color> +{2}%\n
+pli_characterconditionremaintimeview.17	<color=5>{0} [Level {1}]:</color> +{2}\n
+pli_characterconditionremaintimeview.18	<color=3>No effects applied</color>\n
 pli_characterconditionremaintimeviewframe.1	Buffs marked as favorites cannot be moved to another position.
 pli_characterconditionremaintimeviewframe.2	Favorites
 pli_characterconditionremaintimeviewframe.3	Hidden
@@ -1386,6 +1401,18 @@ pli_commercecontrolview.4	Would you like to stop pursuing?
 pli_commercecontrolview.5	Would you like to stop trading?\nIf you stop now, you'll only be able to recover 75% of your Seasonal Ducats.
 pli_commercecontrolview.6	Would you like to stop trading?\nIf you stop now, you'll only be able to recover {0}% of your Seasonal Ducats.
 pli_commercecontrolview.7	Would you like to stop trading?\nIf you stop now, your Merchant Rating will go down, and you'll only be able to recover {0}% of your Seasonal Ducats.
+pli_commerceducatexchangeview.1	두카트 환전
+pli_commerceducatexchangeview.2	환전 가능한 시즌 두카트
+pli_commerceducatexchangeview.3	{0}
+pli_commerceducatexchangeview.4	보유중인 두카트
+pli_commerceducatexchangeview.5	{0}
+pli_commerceducatexchangeview.6	{0} 시즌 두카트를\n{0} 두카트로 환전합니다.
+pli_commerceducatexchangeview.7	두카트 환전
+pli_commerceducatexchangeview.8	아래와 같이 시즌 두카트 환전을 진행합니다.\n계속하시겠습니까?
+pli_commerceducatexchangeview.9	환전 금액
+pli_commerceducatexchangeview.10	환전 후 시즌 두카트
+pli_commerceducatexchangeview.11	환전 후 두카트
+pli_commerceducatexchangeview.12	금액을 확인 후 다시 시도해주세요.
 pli_commerceinventoryframe.1	<color=4>Slot</color> <color=5><outlinecolor=6>{0}</outlinecolor></color> <color=4>Slot / Weight</color> <color=5><outlinecolor=6>{1}</outlinecolor></color>
 pli_commercenotifyview.1	Safe Area
 pli_commercenotifyview.2	Dangerous Area
@@ -1643,6 +1670,7 @@ pli_continentmapview.2	Blessing of Cairbre\\nTime Left: {0} min {1} sec
 pli_continentmapview.3	주위의 파티원과 함께 {0}{로} 이동하시겠습니까?\n[아니오]를 누를 경우 혼자 이동합니다.
 pli_continentmapview.4	Campfire visited by the Campfire Spirit\nRemaining Time: {0} min {1} sec
 pli_continentmapview.5	\n<color=7>* Visiting {0}</color>
+pli_continentmapview.6	{0} 교역소
 pli_cookingview.0	This is not usable at this time.\nPlease inquire with the tenant.
 pli_cookingview.1	You must pay a usage fee of {0} Gold.\nWould you still like to use this?
 pli_cookingview.2	Recipe
@@ -1653,6 +1681,9 @@ pli_cookingview2.3	Tools needed for crafting (Ready)
 pli_cookingview2.4	Unable to auto-equip or register material. Please equip/register proper equipment or materials
 pli_cookingview2.5	The proper tools will be automatically equipped if your hands are empty.
 pli_cookingview2.6	Insufficient tools or materials needed for crafting.
+pli_cookingview2.7	명장: 
+pli_cookingview2.8	\n<color=2><outlinecolor=1>관련 분야 명장만 제작 가능</outlinecolor></color>
+pli_cookingview2.9	\n관련 분야 명장만 제작 가능
 pli_coupledanceview.1	{0} Point(s)
 pli_createautobotview.1	Summon
 pli_createautobotview.2	OK
@@ -1743,6 +1774,22 @@ pli_customizingmannequinpocket.1	개인상점 가방에 있는 아이템만 착�
 pli_customizingmannequinpocket.2	거래할 수 없는 아이템입니다.
 pli_customizingmannequinrentallistframe.1	{0}시
 pli_customizingmannequinrentallistframe.2	{0}분
+pli_customizingmotionlistframe.1	Disable Motion
+pli_customizingmotionmainlistframe.1	Click to set Motion
+pli_customizingmotionmainlistframe.2	No Motion Applied
+pli_customizingmotionmainview.1	Would you like to apply the Motion Sequence in its current configuration?\nMotion Sequence information may be lost if not saved to a preset.
+pli_customizingmotionmainview.2	Do you want to save this sequence to the selected preset?
+pli_customizingmotionmainview.3	What are Motion Sequences?
+pli_customizingmotionmainview.4	<color=2><outlinecolor=3>[Motion Sequence]</outlinecolor></color>\nMotion Sequences allow you to apply <color=2><outlinecolor=3>up to 5</outlinecolor></color> motions from among those you have collected\nto <color=2><outlinecolor=3>outfits at or above a certain grade</outlinecolor></color>. Motions are placed in slots that determine\nthe order in which they will play, and you can save up to 10 configurations as presets.\n\n<color=2><outlinecolor=3>[Notes]</outlinecolor></color>\nWhen configuring a sequence, you can only select from gestures and outfit animations\nalready in your collection. Cutting Edge-grade outfits can create sequences up to\n 3 motions long, while Prestige-grade outfits can sequence up to 5 motions. Once you've\napplied a Motion Sequence, the animation you've selected in the Dressing Room\nwill be disabled.
+pli_customizingmotionmainview.5	Motion Sequence settings have been reset.
+pli_customizingmotionmainview.6	Would you like to reset the Motion Sequence settings?
+pli_customizingmotionmainview.7	The Motion Sequence could not be set due to incompatibilities with your character's gender.
+pli_customizingmotionmainview.8	You cannot use the Motion Sequence.
+pli_customizingmotionpresetframe.1	Preset {0}
+pli_customizingmotionpresetframe.2	None\n
+pli_customizingmotionpresetview.1	Would you like to apply this preset?\nDoing so will overwrite your current Motion Sequence information.
+pli_customizingmotionpresetview.2	Do you want to save this sequence to the selected preset?
+pli_customizingmotionpresetview.3	Do you wish to delete the preset?
 pli_deactivequestboardview.1	Click the Details button to see more information.
 pli_deformplanetooltipview.1	Landscape Essence: {0}
 pli_deformplanetooltipview.2	<color=4>You cannot change the terrain here.</color>
@@ -1895,6 +1942,31 @@ pli_dungeonpassview.5	You cannot access any dungeons here with an Unrestricted D
 pli_dungeonrankcleared.1	Challenge Successful
 pli_dungeonrankcleared.2	OK
 pli_dungeonstatisticview.1	Misc.
+pli_echomarionettecustomizeselectmodeview.1	Please register the puppet
+pli_echomarionettecustomizeview.1	There are no changes to the appearance
+pli_echomarionettecustomizeview.2	Please empty your Temporary Inventory.
+pli_echomarionettecustomizeview.3	Waiting List
+pli_echomarionettecustomizeview.4	Confirm
+pli_echomarionetteentrustview.1	Puppet Artisan: {0}
+pli_echomarionetteentrustview.2	Patron: {0}
+pli_echomarionetteentrustview.3	There are no changes to the appearance.
+pli_echomarionetteentrustview.4	The patron is making a payment.
+pli_echomarionetteentrustview.5	The patron has added a Hair Dye color sample.
+pli_echomarionetteentrustview.6	Waiting List
+pli_echomarionetteentrustview.7	Change Appearance
+pli_echomarionetteentrustview.8	Confirm
+pli_echomarionetteentrustview.9	Please select a puppet to customize.
+pli_echomarionetteentrustview.10	No Name
+pli_echomarionettemanageview.1	You cannot summon right now.
+pli_echomarionettemanageview.2	No Name
+pli_echomarionettemanageview.3	Cancel Summon
+pli_echomarionettemanageview.4	Summon
+pli_echomarionettenameconfirmview.1	This name cannot be used.
+pli_echostoneautoupgradeview.1	<outlinecolor=2><color={0}>{1}</color></outlinecolor> Consecutive Advancement Grade {2}.
+pli_echostoneautoupgradeview.2	Advancement Total: <outlinecolor=3><color=2>{0}</color></outlinecolor> times
+pli_echostoneautoupgradeview.3	Minimum Gold Required: <outlinecolor=3><color=2>{0}</color></outlinecolor> Gold
+pli_echostoneautoupgradeview.4	> Including {0}% Bank Processing Fee
+pli_echostoneautoupgradeview.5	Minimum Gold Required: <outlinecolor=3><color=4>{0}</color></outlinecolor> Gold
 pli_echostoneawakeningview.1	Required AP <color=1>{0} AP</color>
 pli_echostoneawakeningview.2	Required AP <color=2>{0} AP</color>
 pli_echostoneawakeningview.3	Place the Echostone.
@@ -1911,6 +1983,11 @@ pli_echostoneawakeningview.13	Awakening the Echostone will consume a large amoun
 pli_echostoneawakeningview.14	You have used up all remaining attempts.
 pli_echostoneawakeningview.15	Remaining Attempts: <color=1>Unlimited</color>
 pli_echostoneawakeningview.16	Remaining Attempts: <color={0}>{1}</color>
+pli_echostoneawakeningview.17	Level Reroll Complete
+pli_echostoneawakeningview.18	Level Rerolling <color=3>Unavailable</color> at Max Level
+pli_echostoneawakeningview.19	Level Rerolling <color=3>Unavailable</color>
+pli_echostoneawakeningview.20	Level Rerolling <color=2>Available</color>
+pli_echostoneawakeningview.21	Level Reroll
 pli_echostonecombineview.1	Hover mouse over the button to view details.
 pli_echostoneconvertview.1	Place the Echostone to fragmentize it.
 pli_echostoneconvertview.2	Place the Echostone.
@@ -1920,13 +1997,30 @@ pli_echostoneconvertview.5	Grade {0}
 pli_echostoneconvertview.6	{0} x{1}
 pli_echostoneconvertview.7	This is <color=5><outlinecolor=3>a very high-grade Echostone</outlinecolor></color>. Continue?
 pli_echostoneconvertview.8	This Echostone cannot be fragmented.
+pli_echostoneconvertview.9	Limited Item Cannot be Obtained\n*<color=2>Requires Grade 30 Echostone</color>\n
+pli_echostoneconvertview.10	Limited Item Cannot be Obtained\n*<color=2>Daily Acquisition Limit Reached</color>\n
+pli_echostoneconvertview.11	Limited Item Acquisition Chance: \n<color=3>Total {0}%</color> (Base {1}% + <color=4>Previous Failure Bonus {2}%</color>)\n
+pli_echostoneconvertview.12	Limited Item Acquisition Chance: <color=3>{0}%</color>\n* A failure will grant a <color=4>{1}% bonus</color> on the next attempt\n
+pli_echostoneconvertview.13	\nAccount-wide Daily Acquisition Limit: <color={2}>{0}/{1}</color>\nResets daily at 7:00 AM (Server Time)
 pli_echostoneprobeachlevelview.1	Level {0}
+pli_echostonerelevelingstoneview.1	Place an Echostone Attunement Stone here.\nFragmenting a Grade 30 Echostone has a fixed chance of returning an Echostone Attunement Stone.
+pli_echostonerelevelingstoneview.2	<color=1>Successfully rerolled the Echostone's level.\nPrevious Level: {0} -> New Level: {1}.<color=0>
+pli_echostonerelevelingstoneview.3	<color=2>Failed to reroll the level.\nAs the Echostone is Level {0}, its current Awakened Ability level has been retained.</color>
+pli_echostonerelevelingstoneview.4	Level Reroll
 pli_echostoneupgraderesultview.1	{0} {1} + {2} Increase
 pli_echostoneupgraderesultview.2	{0} {1} Increase
 pli_echostoneupgraderesultview.3	Grade {0}
 pli_echostoneupgraderesultview.4	Upgrade Successful!
 pli_echostoneupgraderesultview.5	Upgrade Failed!
 pli_echostoneupgraderesultview.6	Supplement Success!
+pli_echostoneupgraderesultview.7	 {0} <color=2>+{1}</color>\nGold Cost: <color=4>{2}</color>
+pli_echostoneupgraderesultview.8	 {0} <color=2>+{1}</color>
+pli_echostoneupgraderesultview.9	 <color=2>{0}</color> Increase
+pli_echostoneupgraderesultview.10	Final Advancement Result
+pli_echostoneupgraderesultview.11	Consecutive Advancement was suspended due to a failed advancement.
+pli_echostoneupgraderesultview.12	Failed to upgrade due to insufficient Gold.
+pli_echostoneupgraderesultview.13	Consecutive Advancement was suspended\ndue to failing the first advancement.
+pli_echostoneupgraderesultview.14	 {0}\nGold Cost: <color=4>{1}</color>
 pli_echostoneupgradeview.1	Place the Echostone.
 pli_echostoneupgradeview.2	Place the Echostone to advance it.
 pli_echostoneupgradeview.3	When you advance the Echostone, it will become an exclusive item which cannot be traded.\nWould you like to advance it?
@@ -1939,6 +2033,11 @@ pli_echostoneupgradeview.9	Apply Success Rate Bonus for {0} Difficulty
 pli_echostoneupgradeview.10	Echostone has reached the highest grade.
 pli_echostoneupgradeview.11	You have used up all remaining attempts.
 pli_echostoneupgradeview.12	Once you advance this item, it will become an exclusive item,\nand the temporary trade effect will disappear.\nWould you like to advance it?\n(Even if the advancement fails, the temporary trade effect will still disappear.)
+pli_echostoneupgradeview.13	You can use Consecutive Advancement after expending all your Free Advancement chances.
+pli_echostoneupgradeview.14	\n> Including <color=2>{0}%</color> Bank Processing Fee
+pli_echostoneupgradeview.15	Required Gold: <color=2>{0}</color> Gold
+pli_echostoneupgradeview.16	<color=0>Required Gold</color>: Minimum <color=2>{0}</color> Gold
+pli_echostoneupgradeview.17	Required Gold:   <color=4>{0}</color> Gold
 pli_egorepairerview.1	Repair Classic Spirit Weapon
 pli_egorepairerview.2	Durability: <color=2>{0}</color> / {1}\nRepaired Durability: <color=2>{2}</color>Point(s)\nRepair Rate Per Point: <color=2>{3}</color>%
 pli_egorepairerview.3	OK
@@ -1950,6 +2049,7 @@ pli_egoweaponabilityframe.4	Alert
 pli_egoweaponabilityframe.5	Resetting all effects.\nThis will cost <color=2>{0} Gold</color>
 pli_egoweaponabilityframe.6	Alert
 pli_egoweaponabilityframe.7	From Bank
+pli_egoweaponabilityframe.8	You have a Free Spirit Weapon Reset Coupon.\nIf you choose to redeem your coupon, the fee\nfor resetting your Spirit Weapon's Ego Points\nwill be waived. Would you like to use it?
 pli_egoweaponabilitypanel.1	{0}/{1}
 pli_egoweaponabilitypanel.2	<color=3>Maximum Level</color>\n\n
 pli_egoweaponabilitypanel.3	Level {0}\n\n
@@ -2085,6 +2185,11 @@ pli_egoweaponmemorystoneview.1	Cannot be used when the Spirit's level is above 5
 pli_egoweaponmessageview.1	Close
 pli_egoweaponmessageview.2	Confirm
 pli_egoweaponmessageview.3	Cancel
+pli_egoweaponsetegolevelview.1	The Spirit must be at least level {0} to use this.
+pli_egoweaponsetegolevelview.2	Cannot be used. This Spirit has already reached level {0}.
+pli_egoweaponsetegolevelview.3	Cannot be used when the Spirit's level has reached 100.
+pli_egoweaponsetegolevelview.4	Use {0}
+pli_egoweaponsetegolevelview.5	Use a {0} to imbue a Spirit with energy, helping it grow. This growth does not affect the Spirit Bond Bonus or weekly EXP obtainment cap, and allows you to earn maximum Ego Points depending on the Spirit Bond.
 pli_egoweapontalkframe.1	Regarding
 pli_egoweapontalkframe.2	Regarding {0}
 pli_egoweapontalkframe.3	Tell me about {0}
@@ -2098,6 +2203,10 @@ pli_eldrankingframe.5	Invalid name.
 pli_eldrankingframe.6	Error
 pli_eldrankingframe.7	Recent Rank Update
 pli_electioneventview.1	정말로 [{0}]에 투표하시겠습니까?
+pli_elementalcombinationview.1	This formula is not valid.
+pli_elementalcombinationview.2	Herb Effects ({0}/2)
+pli_elementalcombinationview.3	<color=4>No herb effects currently active.</color>
+pli_elementalcombinationview.4	Cannot exceed 4.
 pli_enchantentrustview.1	Dan
 pli_enchantoptionselectview.1	Notice
 pli_enchantoptionselectview.2	Enhance the following stats?\n
@@ -2136,6 +2245,10 @@ pli_enterdungeonbygoldconfirmview.7	You must enter this dungeon alone.
 pli_enterdungeonbygoldconfirmview.8	You must possess an Arcana Talent at level 50 to enter.
 pli_enterdungeonbygoldconfirmview.9	Use 1 Gold to enter the dungeon?
 pli_enterdungeonbygoldconfirmview.10	Use 1 Shineseeker Orb to enter the dungeon?
+pli_enterdungeonbygoldconfirmview.11	Use {0}<color=2><outlinecolor=3>(+{1})</outlinecolor></color> Shineseeker Orbs to enter the dungeon\n(Orbs Remaining: {2})
+pli_enterdungeonbygoldconfirmview.12	Use {0} Shineseeker Orbs to enter the dungeon\n(Orbs Remaining: {1})
+pli_enterdungeonbygoldconfirmview.13	Combat VIP Membership In Effect
+pli_enterdungeonbygoldconfirmview.14	Use {0} Shineseeker Orbs to enter the dungeon?
 pli_entryeventview.1	Total Ribbons: {0}
 pli_entryeventview.2	Invitation Code Entered: {0}
 pli_entryeventview.3	Invitation Code Input
@@ -2158,6 +2271,7 @@ pli_equipabilitytransferconfirmview.5	Erg
 pli_equipabilitytransferconfirmview.6	Holy Flame/Holy Water
 pli_equipabilitytransferconfirmview.7	Holy Flame/Holy Water
 pli_equipabilitytransferconfirmview.8	Temp
+pli_equipabilitytransferconfirmview.9	현재 장비 계승 골드 할인 쿠폰 사용이 가능합니다.\n계승 실행 시 쿠폰을 사용하시겠습니까?\n
 pli_equipabilitytransferview.1	Apply   
 pli_equipabilitytransferview.2	Select the equipment whose upgrades you wish to transfer (source).
 pli_equipabilitytransferview.3	Select the equipment that will inherit the upgrades (target).
@@ -2209,6 +2323,15 @@ pli_equipskinslottab.7	Select the item whose appearance you'd like to change.
 pli_equipskinslottab.8	No empty slots are available to save the appearance.
 pli_equipskinslottab.9	There are no items to which this appearance can be applied.
 pli_equipskinslottab.10	Items you cannot equip cannot be previewed.
+pli_equipskinslottab.11	Equip your primary weapon to preview this item's appearance.
+pli_equiptuningview.1	장비 조율에 필요한 번들 개수 이상의 아이템만 표시됩니다.
+pli_equiptuningview.2	조율할 장비를 선택해주세요.
+pli_equiptuningview.3	슬롯을 클릭하여\n조율할 장비 선택
+pli_equiptuningview.4	소모 재료를 등록해 주세요.\n: 에테르 파우더 {0} 개
+pli_equiptuningview.5	장비 조율을 실행하시겠습니까?
+pli_equiptuningview.6	선택한 장비가 없습니다.
+pli_equiptuningview.7	{0} 투입 완료
+pli_equiptuningview.8	보유 수량이 부족합니다.
 pli_ergenhancemainview.1	By infusing a weapon with Erg, you can gain Erg EXP\nor expand the weapon's Erg Max Level.\nSimply place a weapon in the slot to begin the infusion process.
 pli_ergenhancemainview.2	[Infusing Erg]
 pli_ergenhancemainview.3	You can infuse a weapon with Erg extracted from weapons of the same type.\nAdd a weapon of the same type as the target to the Required Materials slot.\nAdd weapons or special items as Additional Materials to gain other supplementary effects.
@@ -2297,6 +2420,41 @@ pli_erinnresearchpocket.1	S등급
 pli_erinnresearchpocket.2	A등급
 pli_erinnresearchpocket.3	B등급
 pli_erinnresearchpocket.4	C등급
+pli_eventbuffmainview.1	Event buffs applied.
+pli_eventbuffmainview.2	Successfully reset.
+pli_eventbuffmainview.3	{1:02}/{2:02}/{0} - {4:02}/{5:02}/{3}
+pli_eventbuffmainview.4	Sunday
+pli_eventbuffmainview.5	Monday
+pli_eventbuffmainview.6	Tuesday
+pli_eventbuffmainview.7	Wednesday
+pli_eventbuffmainview.8	Thursday
+pli_eventbuffmainview.9	Friday
+pli_eventbuffmainview.10	Saturday
+pli_eventbuffmainview.11	Failed due to an unknown error.
+pli_eventbuffmainview.12	Cannot retrieve buff information.
+pli_eventbuffmainview.13	Cannot retrieve buff item information.
+pli_eventbuffmainview.14	Buff item information is invalid.
+pli_eventbuffmainview.15	Something is wrong with the stat level information.
+pli_eventbuffmainview.16	Not enough points.
+pli_eventbuffmainview.17	Something is wrong with the stat total.
+pli_eventbuffmainview.18	Failed to reset.\nYou don't have enough {0}.
+pli_eventbuffmainview.19	Failed to reset.\nYou have reached the maximum number of resets.
+pli_eventbuffmainview.20	You don't have any points to reset.
+pli_eventbuffmainview.21	You can only perform a reset {1} times per day. Resets are restored daily at {0}:00 AM (Server Time).\nYou can perform a reset {2} more time(s) today.
+pli_eventbuffmainview.22	You can only perform a reset {2} times. Resets are restored {0} at {1}:00 AM (Server Time).\nYou can perform a reset {3} more time(s).
+pli_eventbuffmainview.23	You can only perform a reset {0} times during the event period.\nYou can perform a reset {1} more times.
+pli_eventbuffmainview.24	Would you like to reset the event buff levels?\n{0}\n\nCost: {1}{2}
+pli_eventbuffmainview.25	No points have been allocated.
+pli_eventbuffmainview.26	You cannot revert the applied {0}, and can only perform a total reset.\n(A cost will be incurred.)\n\nWould you like to apply these setting?
+pli_eventbuffmainview.27	Cannot increase level any further.
+pli_eventbuffmainview.28	Not enough points.
+pli_eventbuffmainview.29	{0}'s effects have been boosted!
+pli_eventbuffmainview.30	Cannot decrease level any further.
+pli_eventbuffmainview.31	Level {0}\n\n
+pli_eventbuffmainview.32	<color=5>Current Effect</color>\n{0} +{1}\n\n
+pli_eventbuffmainview.33	<color=5>Effect upon Level Up</color>\n{0} +{1}\n\n
+pli_eventbuffmainview.34	<color=5>Points Required: {0}</color>
+pli_eventbuffmainview.35	Would you like to reset the event buff levels?\n{0}\n\nCost: {1} Gold
 pli_eventdamagochiview.1	From {0}/{1}/{2} until {3}/{4}/{5}
 pli_eventdamagochiview.2	Login Time
 pli_eventdamagochiview.3	Bonus Reward
@@ -2320,6 +2478,9 @@ pli_eventpopupview.5	1 day
 pli_eventpopupview.6	1 week
 pli_eventpopupview.7	1 day
 pli_eventpopupview.8	1 week
+pli_exchangetomileageresultview.1	Successfully Exchanged Mileage:  
+pli_exchangetomileageview.1	Confirm
+pli_exchangetomileageview.2	The items you've selected include S-Rank item(s). Proceed with the exchange?
 pli_expiretimeextendview.1	현재 보유한 폰 코인 : {0}폰
 pli_expiretimeextendview.2	아이템 유효시간 늘리기
 pli_expiretimeextendview.3	+7일\n{0}폰
@@ -2586,6 +2747,7 @@ pli_focuslistenblockview.6	Only characters can be blocked.
 pli_focuslistenlistview.1	Select the character you wish to block.
 pli_focuslistenlistview.2	Only leaders can use this command.
 pli_focuslistenlistview.3	The character cannot be found.
+pli_forbiddenalchemistrecipeselectview.1	This formula is not registered.
 pli_freeseasonguidebookcustombuffpresetselectview.1	All buffs are currently active due to the Master Plan: New Rise boost effect.
 pli_freeseasonguidebookhistoryview.1	{0} hour(s)
 pli_freeseasonguidebookhistoryview.2	{0} times
@@ -2620,11 +2782,62 @@ pli_freeseasonguidebookview.11	You have not selected any buffs yet.
 pli_freeseasonguidebookview.12	<color=2><outlinecolor=3>Sasha's Rental Redux</outlinecolor></color>\n\n<color=2><outlinecolor=3>NPC Sasha</outlinecolor></color> is back in <color=2><outlinecolor=3>Dunbarton</outlinecolor></color> to support your training!\n\n<color=2><outlinecolor=3>Benefits Available</outlinecolor></color>\n<color=6><outlinecolor=3>Weapons:</outlinecolor></color> Perseus Weapons\n<color=6><outlinecolor=3>Armor:</outlinecolor></color> Refined Armor\n<color=6><outlinecolor=3>Pet:</outlinecolor></color> Kart (One per account)\n<color=6><outlinecolor=3>Inventory:</outlinecolor></color> Extra Inventory Rental\n\n <color=2><outlinecolor=3>(Weapons and armor will improve as you progress in the Master Plan: New Rise Weapon/Armor event.)</outlinecolor></color>
 pli_freeseasonguidebookview.13	<color=2><outlinecolor=3>Daily Gift Event</outlinecolor></color>\n\nWhen registered as the Main Character for the <color=2><outlinecolor=3>Master Plan: New Rise</outlinecolor></color> event, you can receive a free item every day from the <color=2><outlinecolor=3>Daily Gift Scroll.</outlinecolor></color>\n\n<color=2><outlinecolor=3>Event Overview</outlinecolor></color>\n<color=6><outlinecolor=3>Event Progress:</outlinecolor></color> Attendance is counted immediately upon logging in.\n<color=6><outlinecolor=3>Scroll Exchange:</outlinecolor></color> Scrolls can be exchanged with <color=2><outlinecolor=3>NPC Efflam</outlinecolor></color> near the Dunbarton Grocery Store.\n\n<color=2><outlinecolor=3>Scroll Payout Criteria</outlinecolor></color>\n<color=6><outlinecolor=3>November Daily Gift Scroll:</outlinecolor></color> After the 11/13/2025 Maintenance - before 12/1/2025 at 7:00 AM (Server Time) when you register your Main Character for the Master Plan: New Rise event\n<color=6><outlinecolor=3>December Daily Gift Scroll:</outlinecolor></color> After 12/1/2025 at 7:00 AM (Server Time) - before 1/1/2026 at 7:00 AM (Server Time) when you register your Main Character for the Master Plan: New Rise event and exchange your scroll\n<color=6><outlinecolor=3>January Daily Gift Scroll:</outlinecolor></color> After 1/1/2026 at 7:00 AM (Server Time) - Before the 1/15/2026 Maintenance when you register your Main Character for the Master Plan: New Rise event and exchange your scroll
 pli_freeseasonguidebookview.14	<color=2><outlinecolor=3>[에린 탐구생활 이벤트]</outlinecolor></color>\n\n<color=2><outlinecolor=3>[NPC 데키]</outlinecolor></color>를 통해 이벤트 대표 캐릭터 등록\n이후, <color=2><outlinecolor=3>[퀵뷰] - [이벤트 아이콘]</outlinecolor></color> 를 통해 진행\n\n<color=2><outlinecolor=3>[이벤트 개요]</outlinecolor></color>\n<color=6><outlinecolor=3>[이벤트 진행]</outlinecolor></color> 이벤트에서 요구하는 활동을 하면 '연구 포인트' 획득\n* 포인트 획득 제한 횟수는 에린 오전 06시 마다 초기화\n\n<color=6><outlinecolor=3>[포인트 사용]</outlinecolor></color> 연구 포인트를  <color=2><outlinecolor=3>100</outlinecolor></color>소모하여 5개 보상을 지급받을 수 있다.\n보상은 S, A, B, C 총 4개 등급으로 나눠진다.\n\n<color=2><outlinecolor=3>[보상 수령]</outlinecolor></color>\n보상 수령은 현실 시간 기준 하루에 한 번 가능하며, 오전 07시에 초기화됩니다.\n\n<color=2><outlinecolor=3>[보상 반납]</outlinecolor></color>\n보상 수령을 포기하고 반납할 경우, 보상의 종류에 따라 정해진 포인트를 돌려받습니다.\n단, 반납하는 보상 중 S등급이 있을 때, <color=2><outlinecolor=3>[S등급 보상 반납 횟수]</outlinecolor></color>가 차감됩니다.\n반납 횟수는 현실 시간 오전 07시에 초기화됩니다.
+pli_freeseasonguidebookview.15	<color=2><outlinecolor=3>[Fergseus Weapon Event]</outlinecolor></color>\n\nAccessed via <color=2><outlinecolor=3>[Quick View] - [Event Icon]</outlinecolor></color>\n\n<color=2><outlinecolor=3>[Event Overview]</outlinecolor></color>\n<color=6><outlinecolor=3>Objective</outlinecolor></color>: Complete Point Quests to earn points\n* Challenge Quests do not award points\n\n<color=6><outlinecolor=3>Reward Tiers</outlinecolor></color>: <color=2><outlinecolor=3>The number of upgrades on the weapon you receive will vary</outlinecolor></color> based on the number of points you earn\n\n<color=2><outlinecolor=3>[Claiming Rewards]</outlinecolor></color>\nYou can claim your weapon once you've reached 1000 points, or when the event period is over.
+pli_freeseasonguidebookview.16	<color=2><outlinecolor=3>[Refined Armor Event]</outlinecolor></color>\n\nAccessed via <color=2><outlinecolor=3>[Quick View] - [Event Icon]</outlinecolor></color>\n\n<color=2><outlinecolor=3>[Event Overview]</outlinecolor></color>\n<color=6><outlinecolor=3>Objective</outlinecolor></color>: Complete Point Quests to earn points\n* Challenge Quests do not award points\n\n<color=6><outlinecolor=3>Reward Tiers</outlinecolor></color>: <color=2><outlinecolor=3>The number of upgrades on the equipment you receive will vary</outlinecolor></color> based on the number of points you earn\n\n<color=2><outlinecolor=3>[Claiming Rewards]</outlinecolor></color>\nYou can claim your equipment once you've reached 1000 points, or when the event period is over.
+pli_freeseasonguidebookview.17	<color=2><outlinecolor=3>[Forget-me-not Accessory Event]</outlinecolor></color>\n\nAccessed via <color=2><outlinecolor=3>[Quick View] - [Event Icon]</outlinecolor></color>\n\n<color=2><outlinecolor=3>[Event Overview]</outlinecolor></color>\n<color=6><outlinecolor=3>Objective</outlinecolor></color>: Complete Point Quests to earn points\n* Challenge Quests do not award points\n\n<color=6><outlinecolor=3>Reward Tiers</outlinecolor></color>: <color=2><outlinecolor=3>The number of upgrades on the accessory you receive will vary</outlinecolor></color> based on the number of points you earn\n\n<color=2><outlinecolor=3>[Claiming Rewards]</outlinecolor></color>\nYou can claim your accessory once you've reached 1000 points, or when the event period is over.
+pli_freeseasonguidebookview.18	<color=2><outlinecolor=3>[Season of Growth: Main Character Benefits]</outlinecolor></color>\n\n<color=2><outlinecolor=3>Season of Growth Main Characters</outlinecolor></color> receive exclusive benefits\n\n<color=2><outlinecolor=3>[Benefits Overview]</outlinecolor></color>\n<color=6><outlinecolor=3>Event Progression</outlinecolor>: </color> Access to exclusive seasonal events, including Weapon/Armor/Accessory Giveaways and Bingo Event\n\n<color=6><outlinecolor=3>Item Support</outlinecolor></color>:  Upon completing the introductory Season of Growth quest, you will receive a <color=2><outlinecolor=3>Season of Growth Support Box</outlinecolor></color>.\n\n<color=2><outlinecolor=3>[Support Box Contents]</outlinecolor></color>\n- Spirit Memory Scroll (Level 100)\n- Stardust Memory Scroll (Rank 10)\n- Stardust Support Effect Level 5 Scroll\n- Alban Knights Condensed Divine Fruit (Not Tradable)\n- Briogh Potion\n- Triumphant Ten Arcana Scorching Crest Selection Box x5\n- Triumphant Ten Arcana Ice-Scorched Crest Selection Box x2\n<color=2><outlinecolor=3>* If left unused, the items from this box will disappear once the Season of Growth has ended.</outlinecolor></color>\n\n<color=2><outlinecolor=3>[Grandmaster/Dan Advancement Support]</outlinecolor></color>\nUpon completing a Grandmaster Quest, you will receive a Great Talent Seal Selection Box. You can receive up to 3 boxes per day (resets at 7:00 AM, Server Time)\nUpon passing a Dan Advancement Test, you will receive an Additional Advancement Test Ticket. You can receive up to 2 tickets per day (resets at 7:00 AM, Server Time)
 pli_freestylejamjoinview.1	You cannot enter before the host.
 pli_freestylejamjoinview.2	You are too far away from where the Freestyle Jam is taking place.
 pli_furniturecontextmenuview.1	You can't retrieve a workshop bench while a research task is in progress.\nComplete or stop the research first.
 pli_furniturecontextmenuview.2	If you retrieve the workshop bench, you will not be able to place it again,\nand any upgrades that may have been applied will not be retained.\nAre you sure you want to retrieve it?
 pli_furniturecontextmenuview.3	Retrieve
+pli_fusioncostumeconfirmview.1	Costs Phaea's Golden Tailoring Kit <color=2>x{0}</color>
+pli_fusioncostumeconfirmview.2	Costs Phaea's Tailoring Kit <color=2>x{0}</color>
+pli_fusioncostumeconfirmview.3	Cost: <color=2>{0}</color> Gold
+pli_fusioncostumeconfirmview.4	Cost: <color=4>{0}</color> Gold
+pli_fusioncostumedetailframe.1	{0} Set
+pli_fusioncostumedetailframe.2	{0} Set
+pli_fusioncostumepopupview.1	Standard Upgrade Tailoring
+pli_fusioncostumepopupview.2	Trendy Upgrade Tailoring
+pli_fusioncostumepopupview.3	Cutting Edge Upgrade Tailoring
+pli_fusioncostumepopupview.4	No material selected.
+pli_fusioncostumepopupview.5	Contains an item that you don't have.
+pli_fusioncostumepopupview.6	You cannot tailor an item of this grade.
+pli_fusioncostumepopupview.7	You don't have enough materials.
+pli_fusioncostumepopupview.8	You can only use materials of the same grade.
+pli_fusioncostumepopupview.9	You don't have enough Gold.
+pli_fusioncostumepopupview.10	You don't have enough Tailoring Kits.
+pli_fusioncostumepopupview.11	You cannot use an equipped item.
+pli_fusioncostumepopupview.12	You cannot use a sealed item.
+pli_fusioncostumepopupview.13	You cannot use an item from an NPC shop.
+pli_fusioncostumepopupview.14	You cannot use a set item.
+pli_fusioncostumepopupview.15	You cannot use an expired item.
+pli_fusioncostumepopupview.16	This item cannot be used.
+pli_fusioncostumepopupview.17	Could not continue due to an error.
+pli_fusioncostumeview.1	Standard Grade Tailoring
+pli_fusioncostumeview.2	Chance to reach Trendy grade: {0}%
+pli_fusioncostumeview.3	Cost: <color=4>{0}</color> Gold
+pli_fusioncostumeview.4	Trendy Grade Tailoring
+pli_fusioncostumeview.5	Chance to reach Cutting Edge grade: {0}%
+pli_fusioncostumeview.6	Phaea's Tailoring Kit <color=2>x{0}</color>
+pli_fusioncostumeview.7	Cutting Edge Grade Tailoring
+pli_fusioncostumeview.8	Chance to reach Prestige grade: {0}%
+pli_fusioncostumeview.9	Phaea's Golden Tailoring Kit <color=2>x{0}</color>
+pli_fusioncostumeview.10	Item will be for a male character.
+pli_fusioncostumeview.11	Item will be for a female character.
+pli_fusioncostumeview.12	Item has an equal chance to be for either a male or female character.
+pli_fusioncostumeview.13	Classic Grade Tailoring
+pli_fusioncostumeview.14	Chance to reach Standard grade: {0}%
+pli_fusioncostumeview.15	You need a Standard grade secondary material.
+pli_fusioncostumeview.16	Cost: <color=4>{0}</color> Gold
+pli_fusioncostumeview.17	Cost: <color=4>{0}</color> Gold
+pli_fusioncostumeview.18	Cost: <color=4>{0}</color> Gold
+pli_fusioncostumeview.19	Cost: <color=4>{0}</color> Gold
+pli_fusionresultview.1	Prestige
+pli_fusionresultview.2	Cutting Edge
+pli_fusionresultview.3	Trendy
+pli_fusionresultview.4	Standard
+pli_fusionresultview.5	Basic
 pli_fynnsbeadsshiningminigameview.1	The input order seems to be incorrect!\nPlease enter again correctly to infuse the power of Fynn!
 pli_fynnsbeadsshiningview.1	Place the items available for burnishing.
 pli_fynnsbeadsshiningview.2	Skill Name: {0}\nSkill Rank: {1} - {2}\n
@@ -2723,6 +2936,7 @@ pli_g25preeventview.8	0%
 pli_gachaponrewardframe.1	 {0}
 pli_gachaponrewardframe.2	Move the {1} {0}(s) to your Inventory?
 pli_gachaponrewardframe.3	Move the {0} to your Inventory?
+pli_gachaponrewardframe.4	\n\nThis item can be exchanged for Mileage.\nPlease note that items moved to your inventory\ncan no longer be exchanged for Mileage.
 pli_gachaponrewardframe.5	Search on Auction House
 pli_gachaponrewardframe.6	Preview
 pli_gachaponrewardinventoryview.1	Do you want to delete this item?
@@ -2730,6 +2944,7 @@ pli_gachaponrewardinventoryview.2	The item you selected does not exist.
 pli_gachaponrewardinventoryview.3	Would you like to move this item to your Inventory?
 pli_gachaponrewardinventoryview.4	The item you selected does not exist.
 pli_gachaponrewardinventoryview.5	You cannot receive or restore items once you delete them.
+pli_gachaponrewardinventoryview.6	\n\nYour selection includes items that can be exchanged for Mileage.\nPlease note that items moved to your inventory\ncan no longer be exchanged for Mileage.
 pli_gameendframe.1	In progress
 pli_gameendframe.2	Unclaimed
 pli_gameendframe.3	Event
@@ -2813,6 +3028,10 @@ pli_guild2024mainimageunlockconfirmview.1	Unlocking a background costs <color=2>
 pli_guild2024mainview.1	Community Bulletin Board
 pli_guild2024mainview.2	Guild Guide
 pli_guild2024missionframe.1	You will receive {0}x GP.
+pli_guild2024missionframe.2	Clearing the mission grants rewards to the individual who cleared it.
+pli_guild2024missionframe.3	Clearing the mission grants a guild-exclusive effect to all guild members.
+pli_guild2024missionframe.4	Individual Reward
+pli_guild2024missionframe.5	Guild-Exclusive Effect
 pli_guild2024myguildframe.1	Guild Member List ({0} / {1})
 pli_guild2024myguildframe.2	Donate GP ({0} / {1})
 pli_guild2024myguildframe.3	You've already withdrawn the maximum amount allowed per day. Try again tomorrow.
@@ -2833,6 +3052,7 @@ pli_guild2024myguildframe.17	Increasing the guild's level from Lv. {0} to Lv. {1
 pli_guild2024myguildframe.18	At maximum level.
 pli_guild2024myguildframe.19	Expanding the guild's maximum capacity from {0} to {1} costs {2} Guild Points and {3} Guild Gold.
 pli_guild2024myguildframe.20	At maximum capacity.
+pli_guild2024myguildframe.21	Guild-Exclusive Effect Applied\nMax GP Capacity <color=5>+{0}</color>
 pli_guild2024oldgprankingview.1	My Guild Info\n- Server Rank: {0}\n- Guild Points: {1}
 pli_guild2024oldgprankingview.2	My Guild Info\n- No previous Guild Point info.
 pli_guild2024popupview.1	Edit Guild Message
@@ -2903,6 +3123,7 @@ pli_guildrenewalmainview.3	You need guild members' approval to withdraw Gold dep
 pli_guildrenewalmainview.4	The period during which Guild Gold can be withdrawn from the treasury has expired.<br/>Gold must be withdrawn within one week after the request has been approved.
 pli_guildrenewalmainview.5	You are approved to withdraw up to {0} Gold.\nIf you issue a check, the issuing fee\nwill be deducted from the final amount.
 pli_guildrenewalmainview.6	You are approved to withdraw up to {0} Gold.\nIf you issue a check, the issuing fee\nwill be deducted from the final amount.
+pli_guildrenewalmainview.7	Guild-Exclusive Effect Applied\nMax GP Capacity <color=5>+{0}</color>
 pli_guildrenewalmissionframe.1	Unlock Lv. {0}
 pli_guildrobedesignframes.1	Select {0}.
 pli_guildrobedesignframes.2	Select {0}.
@@ -3131,6 +3352,7 @@ pli_helperapiskill.34	Astrology
 pli_helperapiskill.35	Arcana
 pli_helperapiskill.36	펫이 공격할 때, 작은 모모가 소환되어 주변 적을 공격한다
 pli_helperapiskill.37	펫이 공격할 때, {0}마리의 작은 모모가 소환되어 주변 적을 공격한다
+pli_helperapiskill.38	Duration: {0} sec.\nMin Damage +{1}\nMax Damage +{2}\nMagic Attack +{3}\nAlchemic Damage +{4}\nHP, MP, Stamina, and Wound Recovery Speed increased by 500x.\nCleanses status ailments, including Bleed, Poison, Daze, Stun, Hitstun, Petrification, Freeze, Puppet's Snare, Curse, and Kraken Poison.
 pli_helprequestview.1	You can select a quest to request help with.
 pli_helprequestview.2	Would you like to request help with your current quest?
 pli_helprequestview.3	Select a quest to request help for.
@@ -3667,6 +3889,13 @@ pli_itemenhanceview.12	Notice
 pli_itemenhanceview.13	Cancel
 pli_itemenhanceview.14	<color=7>{0}</color>
 pli_itemenhanceview.15	You can't use this anvil anymore.
+pli_itemflowtabframeelement.1	제작
+pli_itemflowtabframeelement.2	마감 타입
+pli_itemflowview.1	획득 방법
+pli_itemflowview.2	제작 가능 아이템
+pli_itemflowview.3	전체
+pli_itemflowview.4	우클릭으로 즐겨찾기를 등록/해제할 수 있습니다.
+pli_itemflowview.5	{0} 즐겨찾기
 pli_itemmarketcancelsale.1	등록취소
 pli_itemmarketcancelsale.2	({0} 개)
 pli_itemmarketcancelsale.3	아이템: <color=2><outlinecolor=3>{0}
@@ -3940,6 +4169,39 @@ pli_linkapcharacteritem.1	Would you like to support {1} on the {0} server? Once 
 pli_linkapcharacteritem.2	Support
 pli_linkapcharacterselectview.1	Do you want to withdraw your support of the target character?\nIf you withdraw your Ace Hero Talent Support, you cannot\nbestow this benefit again until your next rebirth.
 pli_linkapcharacterselectview.2	Do not Support
+pli_livingcontentscooperativestab.1	현재 지원하신 분야의 이전 등급별 점수를 기반으로 예상되는 등급을 표기합니다.\n실제 결과는 안내와 다를 수 있습니다.
+pli_livingcontentscooperativestab.2	입문
+pli_livingcontentscooperativestab.3	견습
+pli_livingcontentscooperativestab.4	숙련
+pli_livingcontentscooperativestab.5	전문
+pli_livingcontentscooperativestab.6	장인
+pli_livingcontentscooperativestab.7	명장
+pli_livingcontentscooperativestab.8	입문
+pli_livingcontentscooperativestab.9	지난 시즌: {0}~
+pli_livingcontentscooperativestab.10	{0}년 {1}월 {2}일 {3}:{4}
+pli_livingcontentscooperativestab.11	{0} {1}위
+pli_livingcontentscooperativestab.12	{0}점
+pli_livingcontentscooperativestab.13	{0}점
+pli_livingcontentshometabframe.1	생활 협회로 이동하시겠습니까?
+pli_livingcontentshometabframe.2	전문 분야 없음
+pli_livingcontentshometabframe.3	{0} 교역 등급 : {1}
+pli_livingcontentshometabframe.4	내 탈틴 농장으로 이동하시겠습니까?
+pli_livingcontentshometabframe.5	농작물을 돌봐주세요!
+pli_livingcontentshometabframe.6	{0} 후
+pli_livingcontentshometabframe.7	채널{0}
+pli_livingcontentshometabframe.8	현재 진행 중인 목표가 없습니다.
+pli_livingcontentshometabframe.9	모든 시즌 생활 목표를 완료하셨습니다!
+pli_livingcontentshometabframe.10	현재 진행 중인 목표가 없습니다.
+pli_livingcontentshometabframe.11	[생활 협회] 새로워진 탈틴 농장 퀘스트를 진행하여\n탈틴 농장을 시작하세요!
+pli_livingcontentshometabframe.12	현재 농장 확장 목표 달성도: {0}\n현재 생활 목표 달성도: {1}\n\n생활 목표 달성도에 따라 다음 효과가 발생합니다:\n\n생활 목표 1개 달성 시마다: \n - 탈틴 농장 내 이동 속도 1% 증가\n - 현재 적용 중인 탈틴 농장 내 이동 속도: {2}%\n - 생활 목표 달성을 통한 이동 속도 증가 효과는\n    최대 44%까지만 적용됩니다.\n\n생활 목표 2개 달성:\n - 초보 농부의 주간 목표 퀘스트 수행 가능\n생활 목표 5개 달성:\n - 숙련 농부의 주간 목표 퀘스트 수행 가능\n생활 목표 7개 달성:\n - 고수 농부의 주간 목표 퀘스트 수행 가능\n\n생활 목표 15개 달성:\n - 농작물 수확 시 보물 상자를 낮은 확률로 획득 가능
+pli_livingcontentshometabframe.13	{0}점
+pli_livingcontentsmainview.1	하나의 캐릭터로만 생활 협회 활동을 할 수 있습니다.\n계정 내 다른 캐릭터가 생활 협회에 등록돼 있습니다.
+pli_livingcontentsmainview.2	블로니의 성장지원 3권을 클리어하고 획득할 수 있는\n[가이드] 생활 협회의 초대 퀘스트를 완료한 후 사용할 수 있습니다.
+pli_livingcontentsmainview.3	생활 협회 기능은 추후 이용하실 수 있습니다.
+pli_livingcontentstabframe.1	기본 전문 효과를 모두 최대 레벨까지 달성해야 합니다.
+pli_livingcontentstabframe.2	전문 분야 미획득
+pli_livingcontentstabframe.3	{0} 전문가
+pli_livingcontentstabframe.4	내 탈틴 농장으로 이동하시겠습니까?
 pli_lobbylistboxitem.1	Unknown
 pli_lobbylistboxitem.2	Last Location: {0}
 pli_lobbylistboxitem.3	Expired
@@ -4096,7 +4358,10 @@ pli_makeampulview.3	Instrument
 pli_makeampulview.4	Hair
 pli_makeampulview.5	Stardust
 pli_makeampulview.6	Pet
+pli_makeampulview.7	Part %c
+pli_makeampulview.8	Name/Chat Color
 pli_makecustomampulview.1	Create {0}
+pli_makecustomampulview.2	Part %c
 pli_makepotteryview.1	Only materials for pots can be added.
 pli_makepotteryview.2	Ends after completing the current pot
 pli_makepotteryview.3	Auto-craftable Quantity: {0}
@@ -4136,6 +4401,14 @@ pli_manualformview.24	{0} could not receive all the Gold.
 pli_manualformview.25	You have requested {0}'s crafting services.
 pli_manualformview.26	Waiting for Crafting Request
 pli_manualformview.27	Items unaffected by the Grandmaster Unique Effect: 
+pli_manualformview.28	\n<color=4><outlinecolor=1>생활 전문 효과에서 관련된 특화 전문 효과 습득 필요</outlinecolor></color>
+pli_manualformview.29	\n생활 전문 효과에서 관련된 특화 전문 효과 습득 필요
+pli_manualformview.30	특화 레시피의 성공률은 오직 관련된 특화 전문 효과의 영향만 받습니다.
+pli_manualformview.31	Could not find the item to craft.
+pli_manualformview.32	Work Progress: {0}%\n Difficulty: {1}\nCurrent Skill Level: {2}\nSuccess Rate: {3}
+pli_manualformview.33	Loading...
+pli_manualformview.34	\n<color=4><outlinecolor=1>관련 분야 명장만 제작 가능</outlinecolor></color>
+pli_manualformview.35	\n관련 분야 명장만 제작 가능
 pli_mastersordereventmainview.1	You obtained the reward.
 pli_mastersordereventmainview.2	You obtained the reward.
 pli_meetingcareitemframe.1	Search on Auction House
@@ -4151,7 +4424,17 @@ pli_mikugachaponview.6	Spins decreased.
 pli_mikugachaponview.7	Please accumulate more Spins.
 pli_mikugachaponview.8	Not enough Spins.
 pli_mikugachaponview.9	[Penalty: Lose a Spin]\nYou won't get your next spin.
+pli_mileageshopitembuyview.1	This item can be traded {0} time(s).
+pli_mileageshopitembuyview.2	Dailly Purchase Limit (Account)
+pli_mileageshopitembuyview.3	Weekly Purchase Limit (Account)
+pli_mileageshopitembuyview.4	Monthly Purchase Limit (Account)
+pli_mileageshopitembuyview.5	Purchase Limit (Account)
 pli_mileageshopitembuyview.7	<color=2>Your current gender or race cannot use this coupon.\nWould you still like to purchase?</color>
+pli_mileageshopview.1	Available from %02d/%02d/%04d After Maintenance - until %02d/%02d/%04d Before Maintenance
+pli_mileageshopview.2	{0} <color=1>{1}</color>
+pli_mileageshopview.3	Mileage will reset <color=1>after the maintenance on %02d/%02d/%04d</color>.
+pli_mileageshopview.4	%02d days %02d hours %02d minutes remaining until Mileage Reset.
+pli_mileageshopview.5	Available from %02d/%02d/%04d After Maintenance - until %02d/%02d/%04d %02d:%02d:00
 pli_minigamealwaysmainview.1	Single-player
 pli_minigamealwaysmainview.2	Multiplayer
 pli_minigamealwaysmainview.3	All
@@ -4242,7 +4525,26 @@ pli_multiclassquestmainview.7	Claim Reward
 pli_multiclassquestmainview.8	Can be checked after doing the first Arcana quest.
 pli_multiclassquestmainview.9	[Quest Progression Prerequisites]\n\n{0}
 pli_multiclassquestmainview.10	Quest {0} Reward
+pli_multiclassquestmainview.11	/ {0} person(s)
 pli_multifacilitycontextmenuview.1	Select at least 2 housing items
+pli_muriasholywatermemoryscrollview.1	You have retained the equipment's existing effect.\n
+pli_muriasholywatermemoryscrollview.2	Failed to use the Holy Water of Murias.
+pli_muriasholywatermemoryscrollview.3	Failed to bless the equipment with the new effect.
+pli_muriasholywatermemoryscrollview.4	You don't have any Holy Water of Murias Memory Scroll.
+pli_muriasholywatermemoryscrollview.5	The Holy Water of Murias Memory Scroll has expired.
+pli_muriasholywatermemoryscrollview.6	You don't have any Holy Waters of Murias.
+pli_muriasholywatermemoryscrollview.7	The Holy Water of Murias has expired.
+pli_muriasholywatermemoryscrollview.8	The target item does not exist.
+pli_muriasholywatermemoryscrollview.9	You cannot apply this effect to that item.
+pli_muriasholywatermemoryscrollview.10	This equipment has not been blessed with any effects.
+pli_muriasholywatermemoryscrollview.11	This effect no longer exists.
+pli_muriasholywatermemoryscrollview.12	Apologies.\nThis feature is currently unavailable.
+pli_muriasholywatermemoryscrollview.13	Error Code: {0}
+pli_muriasholywatermemoryscrollview.14	You must possess a bottle of Holy Water of Murias and a Holy Water of Murias Memory Scroll to proceed.
+pli_muriasholywatermemoryscrollview.15	Please try again later.
+pli_muriasholywatermemoryscrollview.16	Holy Water of Murias Bottles Held: <color={0}>{1}</color>
+pli_muriasholywatermemoryscrollview.17	Holy Water of Murias Memory Scrolls Held: <color={0}>{1}</color>
+pli_muriasholywatermemoryscrollview.18	Select either the existing effect or the new effect.
 pli_musicbuffsharingsettingview.1	Failed to save.
 pli_musicbuffsharingsettingview.2	(none)
 pli_myknightsmemberinfoframe.1	Specialty {0} \n
@@ -4483,6 +4785,10 @@ pli_oxquizquestionview.2	\n\n{0}sec
 pli_oxquizquestionview.3	\n\n<color=4>{0}sec</color>
 pli_participantpopupmenu.1	Altruism Points: {0}
 pli_participantpopupmenu.2	Altruism Score: {0}
+pli_partymemberselectview.1	Select Request
+pli_partymemberselectview.2	Select the party member whose services\nyou would like to request.
+pli_partymemberselectview.3	You can only make Echo Marionette customization requests to another member of your party. Please join a party first.
+pli_partymemberselectview.4	No party members are available to take on an Echo Marionette customization request.
 pli_partyrewarddistributeview.1	Now Distributing Rewards: {0}/{1}
 pli_partyrewarddistributeview.2	Time Remaining to Roll: <color=2>{0}</color> sec.
 pli_partyrewarddistributeview.3	Passed
@@ -4518,6 +4824,7 @@ pli_personalrankingdefaultview.6	{0} / {1}
 pli_personalrankingdefaultview.7	Period: {1}/{2}/{0} (Resets on {3}/{4} at {5}:00)
 pli_personalrankingdefaultview.8	Last Season
 pli_personalrankingdefaultview.9	Previous Altruism Season
+pli_personalrankingdefaultview.10	 (순위는 1시간 단위로 업데이트됩니다.)
 pli_personalshopsetpriceview.1	Price Selection
 pli_personalshopsetpriceview.2	Stop Sale
 pli_personalshopsetpriceview.3	Set Price\nFor All
@@ -4779,11 +5086,25 @@ pli_popupitem2024view.1	Search on Auction House
 pli_popupitem2024view.2	List on Auction House
 pli_popupitem2024view.3	Exchange for Mileage
 pli_popupitem2024view.4	Move to Inventory
+pli_popupitem2024view.6	Motion Sequence
+pli_popupitem2024view.7	Stop Login/Region Change VFX
+pli_popupitem2024view.8	Use Login/Region Change VFX
+pli_popupitem2024view.9	Stop Walk Animation
+pli_popupitem2024view.10	Use Walk Animation
+pli_popupitem2024view.11	Stop Mystic Flight
+pli_popupitem2024view.12	Use Mystic Flight
+pli_popupitem2024view.13	Stop Prestige VFX
+pli_popupitem2024view.14	Use Prestige VFX
+pli_popupitem2024view.15	Change Outfit Style
 pli_popupitem2024view.16	Inheritance (Source Slot)
 pli_popupitem2024view.17	Inheritance (Target Slot)
+pli_popupitem2024view.18	<color=21>Use Mystic Atelier Effects</color>
+pli_popupitem2024view.19	Use Mystic Atelier Effects
 pli_popupitem2024view.20	마네킹에 착용
 pli_popupitem2024view.21	마네킹에 해제
 pli_popupitem2024view.22	Equipment Disassembly
+pli_popupitem2024view.23	아이템 사전(Beta)
+pli_popupitem2024view.24	Additional Function Settings
 pli_portraitattendanceview.1	Obtained
 pli_portraitattendanceview.2	Receive Gift
 pli_portraitattendanceview.3	Time Remaining: {0}
@@ -4920,8 +5241,16 @@ pli_premiumservicetabframe.129	Life VIP
 pli_premiumservicetabframe.130	PC Cafe
 pli_premiumservicetabframe.131	Personal Shop Limit Increase
 pli_premiumservicetabframe.132	When holding a Premium Personal Shop License, your Personal Shop will have a maximum capacity of 50,000,000 Gold.
+pli_premiumservicetabframe.163	Shineseeker Orb Batch Consumption Limit Increase
+pli_premiumservicetabframe.164	Shineseeker Orb Batch Consumption Limit Increase
 pli_premiumserviceview.1	VIP Membership
 pli_premiumserviceview.2	Premium PC Cafe
+pli_prestigecostumeautopotionsettingtabframe.1	The selected function will be disabled.\nDo you want to save?\n
+pli_prestigecostumeautopotionsettingtabframe.2	Use {2} when {0} drops to {1}% or below.\nSave current settings?\n
+pli_prestigecostumeautopotionsettingtabframe.3	{0} ({1}%)
+pli_prestigecostumeautopotionsettingtabframe.4	HP
+pli_prestigecostumeautopotionsettingtabframe.5	MP
+pli_prestigecostumeautopotionsettingtabframe.6	SP
 pli_privatefarmaskexitview.1	{0:itemname} x ({1:itemcount})
 pli_privatefarmaskexitview.2	Please wait for a moment.
 pli_privatefarmaskexitview.3	Would you like to leave the house?
@@ -5158,6 +5487,10 @@ pli_productioninstallview.3	Width: {0}, Height: {1}
 pli_productionview4.1	Not enough materials.
 pli_productionview4.2	Materials must be combined to be added.
 pli_productionview4.3	Nothing can be made from this material.
+pli_productionview5.1	특화: 
+pli_productionview5.2	특화: 
+pli_productionview5.3	명장: 
+pli_productionview5.4	명장: 
 pli_productionview6.1	Spinning Wheel
 pli_productionview6.2	Loom
 pli_productionview6.3	Tools needed for crafting
@@ -5167,9 +5500,20 @@ pli_productionview6.6	The proper tools will be automatically equipped if your ha
 pli_productionview6.7	Insufficient tools or materials needed for crafting.
 pli_productionview6.8	MP Cost
 pli_productionview6.9	이만큼의 생산품을 한번에 만들기에는 장비의 내구도가 부족합니다.
+pli_productionview6.10	특화: 
+pli_productionview6.11	특화: 
+pli_productionview6.12	\n<color=4><outlinecolor=1>생활 전문 효과에서 관련된 특화 전문 효과 습득 필요</outlinecolor></color>\n특화 레시피의 성공률 등은 오직 관련된 특화 전문 효과의 영향만 받습니다.
+pli_productionview6.13	\n생활 전문 효과에서 관련된 특화 전문 효과 습득 필요\n특화 레시피의 성공률은 오직 관련된 특화 전문 효과의 영향만 받습니다.
+pli_productionview6.14	Could not find the item to craft.
+pli_productionview6.15	Success Rate: Loading...
+pli_productionview6.16	명장: 
+pli_productionview6.17	명장: 
+pli_productionview6.18	\n<color=4><outlinecolor=1>관련 분야 명장만 제작 가능</outlinecolor></color>
+pli_productionview6.19	\n관련 분야 명장만 제작 가능
 pli_productionviewbase.1	우클릭으로 즐겨찾기를 등록/해제할 수 있습니다.
 pli_productionviewbase.2	{0} 즐겨찾기
 pli_productionviewbase.3	현재 변경할 수 없는 상태입니다.
+pli_productionviewbase.4	아이템 사전
 pli_promotionapplyview.1	Combat
 pli_promotionapplyview.2	Magic
 pli_promotionapplyview.3	Life
@@ -5242,6 +5586,11 @@ pli_questbriefframe.2	You cannot open the quest log right now.
 pli_questbriefframe.3	 (Mission)
 pli_questbriefview.1	You have to report directly to complete your part-time job.
 pli_questhelpinfoview.1	The message has been deleted.
+pli_questnotiframe.1	You can pin a quest by pressing the 'Pin' button in the quest window.
+pli_questnotiframe.2	You have registered the maximum number of quests.\nYou must remove a quest before adding a new one.
+pli_questnotiframe.3	This quest cannot be removed.
+pli_questnotiframe.4	This quest does not support Auto-Pathfinding.
+pli_questnotiframe.5	Report to {0} to complete the Part-Time Job.
 pli_raidmissionboardview.1	This cannot be used while you're in a party or a squad.
 pli_raidmissionboardview.2	Would you like to change the squad objective to {0} ({1})?
 pli_raidmissionrankingview.1	Tied - {0}
@@ -5294,6 +5643,33 @@ pli_raidpartymaketabframe.13	Do you want to proceed with the current squad setti
 pli_raidpartymaketabframe.14	Regular party quests and missions are restricted when you convert your party to a squad. \n Do you want to keep the current settings and proceed?
 pli_raidpartymaketabframe.15	Create Squad
 pli_raidpartymaketabframe.16	Do you want to create a squad?
+pli_randomboxstepupdefine.1	Boxes Opened: <color=5>{0}</color>\nUntil Next Reward: <color=5>{1}</color>\nUntil Final Reward: <color=5>{2}</color>
+pli_randomboxstepupdefine.2	Open {0}
+pli_randomboxstepupdefine.3	Open a modified {0} to receive a rarer item (probability varies by item). Click the box icon to preview a list of contents on might potentially receive.\n\n<color=2>Items obtained from the Stage 4 Chance Bonus Reward cannot be traded.</color>
+pli_randomboxstepupselectrewardlistview.1	Cooldown: {0} sec.\n{1} sec. remaining.
+pli_randomboxstepupview.1	Skip Animation
+pli_randomboxstepupview.2	Confirm
+pli_randomboxstepupview.3	During the event, you will receive bonus rewards for opening <color=2>{0}es</color> based on the number you open.; The bonus reward consists of 5 stages. You can receive the bonus reward for each stage when you open the number of boxes required for each stage.;Once you receive the reward for the final stage, the counter will reset, allowing you to go through the stages again.;If you open a number of boxes exceeding the amount required for the final stage, any excess will be automatically applied to the next round.
+pli_randomboxstepupview.4	When opening <color=2>{0}es</color>, if you reach the number of boxes required to complete a stage, the bonus reward will be sent to your Point Inventory.;The rewards for some stages may be probability-based. You can check the full list of available rewards via the pop-up.;In the final stage, you can choose which reward you receive.;You'll be able to choose your guaranteed bonus reward from the list, and can change your selection at any time before completing the final stage.
+pli_randomboxstepupview.5	<color=5>After the event ends, your {0}es may still be opened, but you will not receive bonus rewards.</color>
+pli_randomboxstepupview.6	<color=5>Stage 4 Chance Bonus Rewards and Stage 5 Guaranteed Bonus Rewards cannot be traded between players.</color>
+pli_randomboxstepupview.7	Due to a system error, the game failed to distribute some of the items from the {0}.\n\nNumber of failures: {1}
+pli_randomboxstepupview.8	Due to a system error, the game failed to distribute some of the items from the {0}.\n\nNumber of failures: {1}
+pli_randomboxstepupview.9	You can read more about how you can get bonus rewards in the help guide.|I'll send any items you receive directly to your Point Inventory!|These sparkling rewards are only here for a short time, so grab any bonus rewards before the event ends!|If you open enough boxes to claim the final reward, the bonus rewards will reset and you can start over.
+pli_randomboxstepupview.10	Cannot be moved at this time.
+pli_randomboxstepupview.11	{0} day(s) {1} hr. {2} min.
+pli_randomboxstepupview.12	{0} hr. {1} min.
+pli_randomboxstepupview.13	{0} min.
+pli_randomboxstepupview.14	Less than 1 min. remaining
+pli_randomboxstepupview.15	The {0} Sparkling Rewards Event has ended. Opening boxes will no longer grant bonus rewards.
+pli_randomboxstepupview.16	Event Ended
+pli_randomboxstepupview.17	Select Reward
+pli_randomboxstepupview.18	Change Reward
+pli_randomboxstepupview.19	Would you like to move to the Item Shop website?
+pli_randomboxstepupview.20	You don't have enough {0}.\nWould you like to buy more at the Item Shop?
+pli_randomboxstepupview.21	You don't have enough lamps.\nWould you like to go to Lamp Girl Babs?
+pli_randomboxstepupview.22	Would you like to go to Lamp Girl Babs?
+pli_randomboxstepupview.23	You'll receive a Guaranteed Reward when you open this box.\n<color=5>Once you've claimed the reward, you can't change your choice.</color>\nWould you like to proceed?
 pli_randomtablemainview.1	Expires in 
 pli_randomtablemainview.2	{0} day(s)
 pli_randomtablemainview.3	{0} hr
@@ -5305,6 +5681,12 @@ pli_randomtablemainview.8	View Synthesis Probability
 pli_randomtablemainview.9	<color=2><outlinecolor=3>* 아래 아이템의 경우, 염색 앰플 팔레트에서 표현할 수 있는 색상 범위 내에서\n균등한 확률로 각 파트별 색상이 선택됩니다.</outlinecolor></color>\n\n- 자이언트용 메이드 의상 롱 타입\n- 자이언트용 메이드 의상 쇼트 타입\n- 메이드 의상 쇼트 타입\n- 메이드 의상 롱 타입\n- 집사 의상
 pli_randomtableselectview.1	소각 및 모닥불의 정령 보상 아이템 확률
 pli_randomtableselectview.2	에르그 개방 성공률
+pli_randomtableselectview.3	NPC Gift - Jennifer
+pli_randomtableselectview.4	NPC Gift - Simon
+pli_randomtableselectview.5	NPC Gift - Ethna
+pli_randomtableselectview.6	NPC Gift - Voight
+pli_randomtableselectview.7	NPC Gift - Lassar
+pli_raretimelimittab.1	이동하기 위해서는 관련 생활 특화를 배워야 합니다. {0}
 pli_rarityitemsellview.1	Refined Crystal Shard x{0}
 pli_rarityitemsellview.2	You cannot disassemble sealed items.
 pli_rarityitemsellview.3	Contains an <color=5>Enhanced Item</color>.
@@ -5312,6 +5694,13 @@ pli_rarityitemsellview.4	You can disassemble up to {0} items at once.\nVerify th
 pli_rarityitemsellview.5	The items you've selected include <color=5>Enhanced</color> and <color=2>Masterwork Rank</color> equipment.\nProceed with disassembly?
 pli_rarityitemsellview.6	The items you've selected include <color=2>Masterwork Rank</color> equipment.\nProceed with disassembly?
 pli_rarityitemsellview.7	The items you've selected include <color=5>Enhanced</color> equipment.\nProceed with disassembly?
+pli_rarityitemsellview.8	Confirm Item
+pli_rarityitemsellview.9	Trendy
+pli_rarityitemsellview.10	Standard
+pli_rarityitemsellview.11	This list shows items you can disassemble.\nFor each item disassembled, you will obtain an Atelier Fabric of matching grade.\nAtelier Fabric can be traded once.
+pli_rarityitemsellview.12	...and {0} more
+pli_rarityitemsellview.13	To confirm disassembly, enter <color=2><outlinecolor=3>{0}</outlinecolor></color> and press the Disassemble button.
+pli_rarityitemsellview.14	The text you entered does not match. Please try again.
 pli_rebirthrankupbonusview.1	Click the [Level Up!] button to rebirth your character!\nNot only that, but your character will automatically level up to <color=6>Level {0}</color>!
 pli_recordbookmainview.1	Stickers Acquired: {0}
 pli_recordbookmainview.2	There doesn't seem to be much here yet. Complete the First Memoir first.
@@ -5444,6 +5833,9 @@ pli_scrapbookdetailview.9	From Camp
 pli_scrapbookdetailview.10	From Ruins
 pli_scrapbookfooddetailview.1	<color=5>The Master Chef is not here.</color>
 pli_scrapbookfooddetailview.2	<color=5><outlinecolor=6>A word from Master Chef </outlinecolor></color><color=7><outlinecolor=8>{0}</outlinecolor></color>
+pli_scrapbookitem.1	<color=3>Complete</color>
+pli_scrapbookitem.2	<color=4>Not Recorded</color>
+pli_scrapbookitem.3	You have not recorded this information yet.
 pli_scrapbooknotifyview.1	{0:fishName} was successfully caught!
 pli_scrapbooknotifyview.2	{0:fishLength}cm
 pli_scrapbooknotifyview.3	Collected {0:foodName}!
@@ -5493,6 +5885,94 @@ pli_searchitemview.btn.close	Close
 pli_searchitemview.btn.find	Search
 pli_searchitemview.msg.1	Enter the name of the item you want to find.
 pli_searchitemview.title	Search Personal Shop
+pli_seasonalfarmingautofactoryframe.1	해금에 필요한 [생활 협회 열쇠] 수 : {0}
+pli_seasonalfarmingautofactoryframe.2	생산 완료
+pli_seasonalfarmingautofactoryframe.3	남은 시간 : {0} (남은 개수: {1}개)
+pli_seasonalfarmingautofactoryframe.4	해금에 필요한 [생활 협회 열쇠] 수 : {0}
+pli_seasonalfarmingautofactoryframe.5	보유 수 : {0}
+pli_seasonalfarmingautofactoryframe.6	생산 시간 : {0}
+pli_seasonalfarmingautofactoryframe.7	보유 수 : {0}
+pli_seasonalfarmingautofactoryframe.8	생산 완료
+pli_seasonalfarmingautofactoryframe.9	남은 시간 : {0} (남은 개수: {1}개)
+pli_seasonalfarmingautofactoryframe.10	정말 생산을 취소하시겠습니까?\n\n취소 시 아직 생산하지 않은 수량만큼 남은 재료 아이템을 모두 저장고에 반환합니다.\n취소 시점에 이미 생산이 완료된 아이템 역시 모두 저장고에 반환합니다.
+pli_seasonalfarmingautofactoryframe.11	생활 협회 열쇠 {0}개를 사용하여\n이 레시피를 해금하시겠습니까?
+pli_seasonalfarmingautofactoryframe.12	지금까지 {0}개 생산 완료되었습니다.\n획득하시겠습니까?
+pli_seasonalfarmingautofactoryframe.13	선택한 재료를 투입하여\n{0}{을} {1}개 생산하시겠습니까?\n\n저장고에 보관 중인 재료부터 우선 소모됩니다.
+pli_seasonalfarmingautofactoryview.1	마법의 솥이란?
+pli_seasonalfarmingautofactoryview.2	탈틴 농장에서 수확한 <color=2><outlinecolor=3>농작물</outlinecolor></color>을 재료로 마법의 솥에서 다양한 아이템을 생산할 수 있습니다.\n\n재료로 사용되는 농작물은 <color=2><outlinecolor=3>품질 등급(일반, 고급, 최고급)에 상관 없이 사용</outlinecolor></color>할 수 있으며,\n어떤 품질 등급의 농작물을 재료로 투입할 지 생산 전 선택할 수 있습니다.\n\n잠겨 있는 레시피는 <color=2><outlinecolor=3>생활 협회 열쇠</outlinecolor></color>를 일정량 소모하여 해금할 수 있습니다.\n생활 협회 열쇠는 <color=2><outlinecolor=3>협회 납품의 잔금 보상으로 획득</outlinecolor></color>할 수 있습니다.
+pli_seasonalfarmingcollectionitemframe.1	임시 인벤토리를 비워주세요.
+pli_seasonalfarmingcollectionmaterialframe.1	보유하고 있는 {0} {1}개를 소모하여\n해당 컬렉션에 등록하시겠습니까?
+pli_seasonalfarmingcollectionmaterialframe.2	알림
+pli_seasonalfarmingcollectionrewardnoticeview.1	시즌 컬렉션 완성
+pli_seasonalfarmingcollectionrewardnoticeview.2	{0} 완성!\n시즌 컬렉션 완성 보상으로\n{1}{을} 획득하셨습니다.
+pli_seasonalfarmingcropstatusview.1	<color=2><outlinecolor=3>돌보기 점수</outlinecolor></color>란?\n탈틴 농장에서 재배할 수 있는 농작물은 돌보기 액션에 성공 시 돌보기 점수가 쌓입니다.\n돌보기 액션에 1회 성공 시, 비옥도 효과를 받고 있는 농작물은 <color=2><outlinecolor=3>9점</outlinecolor></color>을,\n비옥도 효과를 받지 않고 있는 농작물은 <color=2><outlinecolor=3>5점</outlinecolor></color>을 획득합니다.\n돌보기 점수는 최대 <color=2><outlinecolor=3>100점</outlinecolor></color>까지 쌓을 수 있습니다.\n이 외에도 농작물마다 궁합이 좋은 날씨에 돌보기 액션에 성공하거나, 계절 이벤트 방어 성공 시 돌보기 점수를 추가로 얻을 수 있습니다.\n\n<color=2><outlinecolor=3>특정 품질을 획득하기 위한 돌보기 점수</outlinecolor></color>\n농작물을 수확할 때 돌보기 점수가 몇 점인지에 따라 농작물의 품질이 결정됩니다.\n<color=2><outlinecolor=3>0점 이상 39점 이하 - 일반 품질</outlinecolor></color>\n<color=2><outlinecolor=3>40점 이상 69점 이하 - 고급 품질</outlinecolor></color>\n<color=2><outlinecolor=3>70점 이상 100점 이하 - 최고급 품질</outlinecolor></color>
+pli_seasonalfarmingdeliverydetailframe.1	보상을 흥정하면 하루 납품 가능 횟수를 1회 잃는 대신, 보상이 다시 책정됩니다.\n보상을 흥정하시겠습니까?
+pli_seasonalfarmingdeliverydetailframe.2	알림
+pli_seasonalfarmingdeliverydetailframe.3	배송 완료
+pli_seasonalfarmingdeliverydetailframe.4	배송 시간 : {0}
+pli_seasonalfarmingdeliverydetailframe.5	배송 시간 : {0}
+pli_seasonalfarmingdeliveryitemframe.1	배송 시간 : {0}
+pli_seasonalfarmingdeliveryitemframe.2	배송 시간 : {0}
+pli_seasonalfarmingdeliveryitemframe.3	납품 가능 횟수 : {0}/{1}
+pli_seasonalfarmingmainview.1	현재 농장에 {0} 주의보가 발령되었습니다.\n{1} 방어를 시작하시겠습니까?
+pli_seasonalfarmingmainview.2	{0} 후 종료
+pli_seasonalfarmingmainview.3	진행 가능 {0} / 2
+pli_seasonalfarmingmainview.4	{0} 후
+pli_seasonalfarmingmainview.5	{0}의 탈틴 농장
+pli_seasonalfarmingmainview.6	현재 비옥도: {0}/100\n\n
+pli_seasonalfarmingmainview.7	비옥도가 있으면 자동으로 소모합니다.\n비옥도를 소모한 농작물은 성장 시간이 1/3로 감소합니다.\n비옥도는 현실 시간 오전 7시에 최대치까지 회복합니다.
+pli_seasonalfarmingmainview.8	현재 에너지: {0}/100\n\n
+pli_seasonalfarmingmainview.9	에너지로 시간을 단축할 수 있습니다.\n에너지는 현실 시간 3분에 1씩 회복합니다.
+pli_seasonalfarmingmainview.10	오늘 받은 [응원의 연주]: {0}/{1}\n[응원의 연주]를 받을 때마다\n3 에너지를 획득합니다.
+pli_seasonalfarmingmainview.11	[응원의 연주] 하기: {0}/{1}\n[응원의 연주]를 해줄 때마다\n5 에너지를 획득합니다.
+pli_seasonalfarmingmainview.12	동일한 유저에게 하루 한번만 도움주기가 가능합니다.
+pli_seasonalfarmingmainview.13	다른 농장의 계절 이벤트 정보는\n확인하실 수 없습니다.
+pli_seasonalfarmingproductionautoframe.1	{0}개
+pli_seasonalfarmingproductionautoframe.2	{0}개 (남은 생산 개수 : {1}개)
+pli_seasonalfarmingseedlistframe.1	{0}{을} 가지고 있지 않습니다.
+pli_seasonalfarmingseedlistframe.2	{0} (비옥도 적용 시 {1})
+pli_seasonalfarmingstorageupgradeview.1	현재 {0}단계 (최대 {1}개 보관) >> 다음 {2}단계 (최대 {3}개 보관)
+pli_seasonalfarmingstorageupgradeview.2	위 재료를 사용하여\n저장고를 {0}단계로 확장하시겠습니까?
+pli_seasonalfarmingstorageupgradeview.3	더 이상 저장고를 업그레이드할 수 없습니다!
+pli_seasonalfarmingstorageview.1	탈틴 농장 내에서 획득하는 농작물과 제작품은\n<color=2><outlinecolor=3>저장고에 우선 보관</outlinecolor></color>되며, 저장고 공간이 부족한 경우 <color=2><outlinecolor=3>소지품창</outlinecolor></color>에 보관됩니다.\n\n저장고는 <color=2><outlinecolor=3>저장고 업그레이드용 벽돌/철판/도료/유리</outlinecolor></color>를 소모하여\n저장고 레벨을 올리고 저장고 칸 수를 확장할 수 있습니다.\n<color=2><outlinecolor=3>각 1칸에는 1종류의 아이템을 보관</outlinecolor></color>할 수 있으며,\n저장고 창에 표시되는 칸 수는 보관할 수 있는 모든 아이템의 <color=2><outlinecolor=3>총 번들 합</outlinecolor></color>입니다.
+pli_seasonalfarmingtimereduceview.1	현재 보유 중인 에너지 : {0}
+pli_seasonalfarmingtimereduceview.2	에너지가 없습니다.
+pli_seasonalfarmingtimereduceview.3	생산이 완료되었습니다.
+pli_seasonalfarmingtimereduceview.4	완료 시간이 임박하였습니다.
+pli_seasonalfarmingtimereduceview.5	완료
+pli_seasonalfarmingvisitview.1	{0} 님을 응원해 서로 에너지를 획득하세요!
+pli_seasonallivingspecialityeffectmodifylevelview.1	Lv : {0}/{1}
+pli_seasonallivingspecialityeffectmodifylevelview.2	강화 조건
+pli_seasonallivingspecialityeffectmodifylevelview.3	효과 강화
+pli_seasonallivingspecialityeffectmodifylevelview.4	획득 조건
+pli_seasonallivingspecialityeffectmodifylevelview.5	효과 획득
+pli_seasonallivingspecialityeffectmodifylevelview.6	{0} 전문 효과를 획득하시겠습니까?\n{1}가 1 소모됩니다.
+pli_seasonallivingspecialityeffectmodifylevelview.7	{0} 전문 효과를 강화하시겠습니까?\n{1}가 1 소모됩니다.
+pli_seasonallivingspecialityeffectmodifylevelview.8	{0} 전문 효과를 획득 전 상태로 돌리시겠습니까?
+pli_seasonallivingspecialityeffectmodifylevelview.9	{0} 전문 효과를 한 단계 내리시겠습니까?
+pli_seasonallivingspecialityeffectmodifylevelview.10	{0}AP
+pli_seasonallivingspecialityeffectmodifylevelview.11	{0}골드
+pli_seasonallivingspecialityeffectmodifylevelview.12	{0} {1}개
+pli_seasonallivingspecialityeffectmodifylevelview.13	{0}폰
+pli_seasonallivingspecialityeffectmodifylevelview.14	\n\n({0}이 소모됩니다.)
+pli_seasonallivingspecialityeffectmodifylevelview.15	{0} 전문효과
+pli_seasonallivingspecialityeffectmodifylevelview.16	<color=2><outlinecolor=3>{0}</outlinecolor></color>
+pli_seasonallivingspecialityeffectmodifylevelview.17	{0} {1}p
+pli_seasonallivingspecialityeffectmodifylevelview.18	{0} Lv.{1}
+pli_seasonallivingspecialityeffectmodifylevelview.19	이미 최대 레벨을 달성하였습니다.
+pli_seasonallivingspecialityeffectmodifylevelview.20	{0}가 부족합니다.\n(포인트 획득 방법 : 생활 협회 [폴라]와 [타이론]의\n[협회 의뢰 해결]을 진행해 생활 레벨 올리기
+pli_seasonallivingspecialityeffectmodifylevelview.21	{0}가 부족합니다.\n(포인트 획득 방법 : 생활 협회 [크롬]을 찾아가\n[특화 생활 포인트 획득 심사] 진행)
+pli_seasonallivingspecialityeffectmodifylevelview.22	{0} 특화 전문 효과를 먼저 Lv.{1}까지 달성해 주세요.
+pli_seasonallivingspecialityeffectmodifylevelview.23	{0} {1}포인트를 되돌려받습니다.
+pli_seasonallivingspecialityhavedescframe.1	{0} Lv.{1}
+pli_seasonallivingspecialitytreeframe.1	[{0}] 사용 가능 포인트 : {1}P\n *총 사용 포인트: {2}P
+pli_seasonallivingspecialitytreeframe.2	{0} Lv.{1}
+pli_seasonallivingspecialitytreeframe.3	{0} (획득 전)
+pli_seasonallivingspecialitytreeframe.4	\n *획득 조건:
+pli_seasonallivingspecialitytreeframe.5	\n *필요 포인트: {0} {1}p
+pli_seasonallivingspecialitytreeframe.6	{0}p
+pli_seasonallivingspecialitytreeframe.7	{0}p/{1}p
+pli_seasonallivingspecialitytreeframe.8	Lv.{0}
 pli_seasonpassaventureuppopupview.1	Erinn Adventure Pass Level {0}!
 pli_seasonpassgradeuppopupview.1	GRADE UP
 pli_seasonpassgradeuppopupview.2	Check the GRADE UP {0} -> {1} reward.
@@ -5527,6 +6007,9 @@ pli_secretnumberview.7	If you would like to enter again, press the reset button.
 pli_secretnumberview.8	Next turn starts in {0} sec.
 pli_secretnumberview.9	The game ends in {0} sec.
 pli_selectcolorview.1	Select Color
+pli_selectdunbartonwarpview.1	Move
+pli_selectdunbartonwarpview.2	Move to Dunbarton?
+pli_selectdunbartonwarpview.3	Move to Devastated Dunbarton (for G28 Storyline)?
 pli_selectidview.1	{0}개의 마비노기 ID가 존재합니다.\n로그인할 ID를 선택해주세요.
 pli_selectidview.2	{0}개의 마비노기 ID가 존재합니다.\n로그인할 ID를 선택해주세요.
 pli_selectidview.3	'마비노기'를 플레이 하려면 마비노기 아이디가 필요합니다.\n최초 로그인시 마비노기 아이디가 자동 생성됩니다.\n마비노기 아이디 리스트에서 선택하신 후,\n'접속'을 눌러서 게임을 시작하세요.\n마비노기 아이디는 최대 10개까지 생성할 수 있습니다.
@@ -5598,6 +6081,12 @@ pli_sendmemoview2.12	The recipient field is empty.\nPlease enter a character nam
 pli_sendmemoview2.13	Error
 pli_sendmemoview2.14	The note contains no content.\nPlease enter some content.
 pli_sendmemoview2.15	Error
+pli_shapeshiftdressroomview.1	You stuff the new clothes into the Magic Compact.\nHaving become even more stylish, you practically overflow with confidence.
+pli_shapeshiftdressroomview.2	The Magic Compact is empty...\nPerhaps you should find something to wear.
+pli_shapeshiftdressroomview.3	Failed to save.
+pli_shapeshiftdressroomview.4	Saves the outfit you're wearing to the Magic Compact currently in use.\nSaving will overwrite what is in the compact now, so be sure to check!\n
+pli_shapeshiftdressroomview.5	Confirm Save
+pli_shapeshiftdressroomview.6	Not worn
 pli_shipoarcontrolview.1	Move Left Paddle
 pli_shipoarcontrolview.2	Move Right Paddle
 pli_shipoarcontrolview.3	Stop Steering
@@ -5912,6 +6401,41 @@ pli_taskquestboardview.2	Mission
 pli_taskquestboardview.3	Confirm Mission
 pli_taskquestboardview.4	How to use the Mission Board
 pli_taskquestboardview.5	Would you like to complete all Missions?
+pli_tdcontrolview.1	Battle Status: {0}
+pli_tdcontrolview.2	<color=3>Safe</color>
+pli_tdcontrolview.3	<color=4>Fair</color>
+pli_tdcontrolview.4	<color=5>Dangerous</color>
+pli_tdcontrolview.5	Use {0}?
+pli_tdcontrolview.6	Use Skill
+pli_tdcontrolview.7	Defense Line Stability: {0}/{1}
+pli_tdcontrolview.8	Current Gold: {0}
+pli_tdcontrolview.9	Divine Beast Wave: {0}/{1}
+pli_tdmainview.1	Cannot upgrade further.
+pli_tdmainview.2	Select the placement area first.
+pli_tdmainview.3	Order {0} in this area to retreat?
+pli_tdmainview.4	Order a Retreat
+pli_tdmainview.5	{0}
+pli_tdmainview.6	Enhance the deployed unit?\n\n* Troop Type: {0}\n{1}\n{2}\n{3}
+pli_tdmainview.7	* Attack Power: {0} (Lv. {1}) -> {2} (Lv. {3})
+pli_tdmainview.8	* Attack Speed: {0} (Lv. {1}) -> {2} (Lv. {3})
+pli_tdmainview.9	* Cost: {0} Gold
+pli_tdmainview.10	Place {0} in this location?\n\n{1}
+pli_tdmainview.11	* Unit to be Placed: {0}\n* Attack: {1}\n* Attack Speed: {2}\n* Cost: {3} Gold
+pli_tdmainview.12	Place
+pli_tdmainview.13	Increase the level of {0}?\nCost: {1} Gold
+pli_tdmainview.14	Commander Skill Enhancement
+pli_tdmainview.15	<color=3>Safe</color>
+pli_tdmainview.16	<color=4>Fair</color>
+pli_tdmainview.17	<color=5>Dangerous</color>
+pli_tdmainview.18	You don't have enough Gold.
+pli_tdmainview.19	Troops have already been placed here.
+pli_tdmainview.20	Defense Line Stability: {0}/{1}
+pli_tdmainview.21	Current Gold: {0}
+pli_tdmainview.22	Divine Beast Wave: {0}/{1}
+pli_tdmainview.23	Enhance Units
+pli_tdmainview.24	You will receive a 70% refund, totalling {0} Gold.
+pli_tdmainview.25	[Current Rank]\n{0}\n[Next Rank]\n{1}
+pli_tdmainview.26	No units have been placed on the field.\nYou can begin after placing troops or enhancing skills.
 pli_title2024mainview.1	<color=2>No title created.</color>
 pli_title2024mainview.2	<color=2>No title created.</color>
 pli_title2024mainview.3	Unequips all titles.
@@ -6135,6 +6659,7 @@ pli_tradeauctionregisterview.38	\tThe price you're trying to list this item for 
 pli_tradeauctionregisterview.39	\n\tDo you wish to list this item at the price you entered?
 pli_tradeauctionregisterview.40	\tThe price you're trying to list this item for is <color=5><outlinecolor=3>more than 90% higher</outlinecolor></color> than the average sale price.\n\t\t- Average: {0} Gold\n\t\t- Price: <color=5><outlinecolor=3>{1}</outlinecolor></color> Gold\n
 pli_tradeauctionregisterview.41	\tThe price you're trying to list this item for is <color=5><outlinecolor=3>more than 90% lower</outlinecolor></color> than the average sale price.\n\t\t- Average: {0} Gold\n\t\t- Price: <color=5><outlinecolor=3>{1}</outlinecolor></color> Gold\n
+pli_tradeauctionregisterview.42	\t<color=5><outlinecolor=3>경매장에 등록하면 신선한 상태가 즉시 사라집니다!</outlinecolor></color>\n
 pli_tradeauctionsalestateview.1	Retrieve
 pli_tradeauctionsalestateview.2	Receive
 pli_tradeauctionsalestateview.3	Collect
@@ -6188,6 +6713,8 @@ pli_transmute2022view.10	Register Tools and Materials
 pli_transmute2022view.11	Add Favorites
 pli_transmute2022view.12	Delete Favorites
 pli_transmute2022view.13	Keep Window Open
+pli_transmute2022view.14	One or more slots contains a stack of 2 or more items.\nAll items in the stack will be consumed during synthesis.\n\nWould you like to proceed?
+pli_transmute2022view.15	Do not show again
 pli_transmuteview.1	{0} Synthesis
 pli_transmuteview.2	{0} Fragmentation
 pli_transmuteview.3	This item cannot be used as an ingredient for synthesis.
@@ -6325,6 +6852,9 @@ pli_transmuteview.134	{0}
 pli_transmuteview.135	이 아이템은 합성의 재료로 1개면 충분합니다
 pli_transmuteview.136	View Probability
 pli_transmuteview.137	\n<color=2>You can only synthesize 3 of the same item\nor only items matching the recipe.</color>
+pli_transporttimetableview.1	운항 시간표
+pli_transporttimetableview.2	<출항 시각>
+pli_transporttimetableview.3	운항 시간표는 에린 시간 기준입니다.\n\n승객 여러분께서는 위 시간표를 확인하시어\n출항 시각 전에 미리 승선하시기 바랍니다.
 pli_trashcanview.1	This item cannot be destroyed.
 pli_trashcanview.2	One or more of the selected items cannot be destroyed.
 pli_trashcanview.3	All items will be <color=5><outlinecolor=3>deleted</outlinecolor></color> and cannot be recovered.\nDo you want to <color=5><outlinecolor=3>delete</outlinecolor></color> the selected items?
@@ -6954,6 +7484,7 @@ pli_windowfriendlistpopup.22	Change this member's rank to Senior Member
 pli_windowfriendlistpopup.23	Set to Regular Member
 pli_windowfriendlistpopup.24	Change this member's rank to Regular Member
 pli_windowfriendlistpopup.25	Invite to Party
+pli_windowfriendlistpopup.26	탈틴 농장 입장
 pli_windowfriendtreeview.1	Offline
 pli_windowgameclockweather.1	{0} {1}:{2}
 pli_windowgeneralnpcshop.1	View as List
@@ -7277,6 +7808,7 @@ pli_windowlobby.53	You cannot log in with a Fynni Pet.
 pli_windowlobby.54	Character {0} cannot be deleted.
 pli_windowlobby.55	Cannot delete; currently placed on the Homestead of character [{0}].
 pli_windowlobby.56	This pet can only be used by those with a Basic VIP Membership.
+pli_windowlobby.66	Cannot Enter as a Prestige Pet
 pli_windowlogin.0	메시지
 pli_windowlogin.1	인증번호 입력 유효시간이 경과되었습니다.
 pli_windowlogin.2	Start Mabinogi
@@ -7514,6 +8046,7 @@ pli_windowminimapcontrol.9	Locks the minimap.
 pli_windowminimapcontrol.10	Transparency Adjustment
 pli_windowminimapcontrol.11	You can't do that right now.
 pli_windowminimapcontrol.12	You can't do that right now.
+pli_windowminimaprender.1	{0} 교역소
 pli_windowmissionsheet.1	Additional Info
 pli_windowmissionsheet.2	Basic
 pli_windowmissionsheet.3	Int.
@@ -8235,7 +8768,11 @@ pli_windowpocketitemaction.53	You cannot change the style of an islander who is 
 pli_windowpocketitemaction.54	This item cannot be sold.
 pli_windowpocketitemaction.55	현재 상태에선 사용할 수 없는 아이템 입니다.
 pli_windowpocketitemaction.56	Equipping the Murias Relic with the\n{0} effect\nwill bind it to you, making it untradable.\nEquip the Divine Relic?
+pli_windowpocketitemaction.57	You cannot move Echostones from an Extra Equipment Slot currently in use.
 pli_windowpocketitemaction.58	아이템 사용 단축키(Ctrl)를 누르셨습니다.\n(아이템 판매 단축키는 Alt입니다)\n\n정말로 <color=5>{0}</color> 아이템을 <color=5>사용</color>하시겠습니까?
+pli_windowpocketitemaction.59	You must have a puppet to customize.
+pli_windowpocketitemaction.60	There is no room in your inventory.
+pli_windowpocketitemaction.61	There is no available Echo Marionette slot.
 pli_windowpopupcharacter.0	Failed to view equipment.
 pli_windowpopupcharacter.1	View Equipment
 pli_windowpopupcharacter.2	Mount on My Pet
@@ -8316,7 +8853,11 @@ pli_windowpopupcharacter.76	Enable Basic Interaction Feature
 pli_windowpopupcharacter.77	Disable Basic Interaction Feature
 pli_windowpopupcharacter.78	There is no room available.
 pli_windowpopupcharacter.79	Player is offline.
+pli_windowpopupcharacter.84	Cannot be used while using a Motion Sequence.
 pli_windowpopupcharacter.85	의상 세트 가져오기
+pli_windowpopupcharacter.86	탈틴 농장 입장
+pli_windowpopupcharacter.87	교역 파트너 업기
+pli_windowpopupcharacter.88	교역 파트너 내리기
 pli_windowpopupitem.0	Change Direction
 pli_windowpopupitem.1	Set Rental Fee
 pli_windowpopupitem.2	Open Production Window
@@ -8387,6 +8928,10 @@ pli_windowpopupitem.66	Move all items to trash
 pli_windowpopupitem.67	Set Add-on Collection Category
 pli_windowpopupitem.68	스타더스트 위치 조정
 pli_windowpopupitem.69	Enhance
+pli_windowpopupitem.80	<color=21>Use Mystic Atelier Effects</color>
+pli_windowpopupitem.81	Use Mystic Atelier Effects
+pli_windowpopupitem.82	아이템 사전(Beta)
+pli_windowpopupitem.83	Additional Function Settings
 pli_windowpopupprop.0	Set Rental Fee
 pli_windowpopupprop.1	Change Direction
 pli_windowpopupprop.2	가방 열기
@@ -8475,6 +9020,7 @@ pli_windowquestframes.12	Point
 pli_windowquestframes.13	This is a Mabinogi Saga quest.
 pli_windowquestframes.14	You cannot request help for this quest.
 pli_windowquestframes.15	You cannot request help for this quest.
+pli_windowquestframes.16	You can register only one Storyline quest in the Quest Tracker.\nTo add a different Storyline quest, please remove the one currently registered.
 pli_windowrackingmessageview.1	Replace\nOak Barrel
 pli_windowrackingmessageview.2	Guide
 pli_windowrackingmessageview.3	Replacing the Oak Barrel is an important part of maintaining the freshness of wine.\n\nHowever, the difficulty will increase each time it is performed, and if the results are negative, the quality of the wine may decrease greatly and even result in complete failure.\n\nPlease replace the Oak Barrel after sufficient practice.
@@ -8914,6 +9460,7 @@ pli_windowsystemmenu2.3	Characters cannot do that while in the tutorial.\n(Avail
 pli_windowsystemmenu3.1	Please wait for the event to end first.
 pli_windowsystemmenu3.2	게임 가이드
 pli_windowsystemmenu3.3	지식왕
+pli_windowsystemmenu3.4	This place has not yet been revealed to the world.\nYou can't do that right now.
 pli_windowtalenttitleballoon.1	Talent Title
 pli_windowtaskbar.2	Click here or press 'B' to use the Escape Bomb.
 pli_windowtaskbar.3	This bomb has already been used.\nIt'll be available again at 7 AM PST tomorrow (real time).
@@ -9065,6 +9612,7 @@ pli_windowtaskbartrayicon.23	MabiNovel
 pli_windowtaskbartrayicon.24	Interaction
 pli_windowtaskbartrayicon.26	View Probability
 pli_windowtaskbartrayicon.27	Mini-games
+pli_windowtaskbartrayicon.29	넥슨 오픈 퀘스트
 pli_windowtaskbartrayiconaction.2	You are in a different mini-game.\nPlease try again after finishing.
 pli_windowtaskbartutorialrenewal.1	Click the button to skip this stage.
 pli_windowtaskbartutorialrenewal.2	Do you wish to skip the tutorial for this area?\nThis may reduce your reward.
@@ -11018,3 +11566,4 @@ window.web.guild.title	Mabinogi : Guild
 window.world_loading.title	Loading... Please wait.
 window.world_map.choose_location	Choose your teleport location
 window.world_map.confirm_move	Would you like to teleport to {0}?
+etc.card_select.avail_basic	이 캐릭터는 베이직카드로 만들 수 있습니다

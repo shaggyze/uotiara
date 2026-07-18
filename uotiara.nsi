@@ -1,14 +1,11 @@
-RequestExecutionLevel admin
-!define UOSHORTVERSION        "480"
-!define UOLONGVERSION         "0.73.81"
+﻿RequestExecutionLevel admin
+!define UOSHORTVERSION        "507"
+!define UOLONGVERSION         "0.74.81"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
 !define REG_UNINSTALL "Software\Microsoft\Windows\CurrentVersion\Uninstall\${UOSHORTNAME}"
 !define InstFile "${UOLONGNAME}.exe"
-!define AbyssEnable "False"
-!define KananEnable "False"
-!define KananUpdateEnable "True"
 !define HyddwnEnable "True"
 !define HyddwnUpdateEnable "True"
 !define Lib-LoaderEnable "True"
@@ -38,20 +35,14 @@ VIProductVersion ${UOVERSION}
 !define SWP_NOMOVE            0x0002
 !define IDC_BITMAP            1500
 !define LOGICLIB_SECTIONCMP
+!include "Sections.nsh"
 !define SECTION_ON             ${SF_SELECTED}
-;!define SECTION_ON            0x80000000
-;!define SECTION_OFF           0xFFFFFFFE
-!define SF_UNSELECTED          128
 !define SECTIONCOUNT           11
-;!define LVM_GETITEMCOUNT 0x1004
-;!define LVM_GETITEMTEXT 0x102D
 !define screenimage            "misc\background.bmp"
 !define srcdir                 "."
 !define StrStr "!insertmacro StrStr"
 !define StrContains '!insertmacro "_StrContainsConstructor"'
 
-Var AbyssLoadKanan
-Var LibLoaderLoadKanan
 
 Var AR_SecFlags
 Var AR_RegFlags
@@ -156,8 +147,7 @@ ShowInstDetails show
 ;Var MUI_HWND
 Var Image
 Var FontBMP
-;Var Abyss
-;Var Kanan
+Var FONTBASE ; .onSelChange baseline; dedicated so GetTime/DumpLog ($R0-$R6) can't clobber it
 ;Var AutoBot
 Var NEWUOVERSION
 Var NEWMABIVERSION
@@ -260,7 +250,7 @@ System::Store L
 ;!define MUI_COMPONENTSPAGE_CHECKBITMAP ${screenimage}
 !define MUI_COMPONENTSPAGE_NODESC
 ComponentText " Choose Mods to Install."
-page components "" FontBMPChange
+page components "" FontBMPChange FontBMPRemove
 !define MUI_DIRECTORYPAGE_TEXT_TOP "Directory to install ${UOLONGNAME} in:"
 ;!define MUI_INSTFILESPAGE_COLORS "FFFFFF 000000" ;Multiple settings
 !insertmacro MUI_PAGE_INSTFILES
@@ -312,30 +302,9 @@ FunctionEnd
 Function Show_Config
 BgImage::Destroy
 SetOutPath "$INSTDIR"
-IfFileExists $INSTDIR\Abyss.ini AbyssFound4 AbyssNotFound4
-AbyssFound4:
-IfFileExists $INSTDIR\Kanan\Kanan.dll KananFound4 KananNotFound4
-KananFound4:
-${If} $AbyssLoadKanan == "1"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "LoadDLL" "Kanan\Kanan.dll"
-${EndIf}
-KananNotFound4:
-Exec '"notepad.exe" "$INSTDIR\Abyss.ini"'
-AbyssNotFound4:
 
-IfFileExists $INSTDIR\Loader.cfg Lib-LoaderFound4 Lib-LoaderNotFound4
-Lib-LoaderFound4:
-IfFileExists $INSTDIR\Kanan\Kanan.dll KananFound41 KananNotFound41
-KananFound41:
-${If} $LibLoaderLoadKanan == "1"
-WriteINIStr "$INSTDIR\Loader.cfg" "Loader" "Files" "Kanan.dll"
-${EndIf}
-KananNotFound41:
-Lib-LoaderNotFound4:
 IfFileExists $INSTDIR\Loader.cfg 0 +2
 Exec '"notepad.exe" "$INSTDIR\Loader.cfg"'
-IfFileExists $INSTDIR\Kanan\config.txt 0 +2
-Exec '"notepad.exe" "$INSTDIR\Kanan\config.txt"'
 IfFileExists $INSTDIR\UOTiaraPack.bat 0 +2
 Exec '"notepad.exe" "$INSTDIR\UOTiaraPack.bat"'
 FunctionEnd
@@ -354,24 +323,6 @@ WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Left" "120"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Right" "315"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Top" "130"
 WriteINIStr "$PLUGINSDIR\iospecial.ini" "Field 6" "Bottom" "140"
-IfFileExists $INSTDIR\Abyss.ini AbyssFound14 AbyssNotFound14
-AbyssFound14:
-IfFileExists $INSTDIR\Kanan\Kanan.dll KananFound14 KananNotFound14
-KananFound14:
-StrCpy $AbyssLoadKanan "0"
-;MessageBox MB_YESNO "Would you like Abyss to run Kanan via LoadDLL=Kanan\Kanan.dll in Abyss.ini?$\r$\n(clicking yes can sometimes result in crashing before character select)" IDNO AbyssNotFound14
-;StrCpy $AbyssLoadKanan "1"
-AbyssNotFound14:
-KananNotFound14:
-IfFileExists $INSTDIR\Loader.cfg Lib-LoaderFound14 Lib-LoaderNotFound14
-Lib-LoaderFound14:
-IfFileExists $INSTDIR\Kanan\Kanan.dll KananFound15 KananNotFound15
-KananFound15:
-StrCpy $LibLoaderLoadKanan "0"
-MessageBox MB_YESNO "Would you like Lib-Loader to run Kanan via Files=Kanan.dll in Loader.cfg?$\r$\n(clicking yes can sometimes result in crashing before character select)" IDNO Lib-LoaderNotFound14
-StrCpy $LibLoaderLoadKanan "1"
-Lib-LoaderNotFound14:
-KananNotFound15:
 FunctionEnd
 
 Function fin_leave
@@ -397,120 +348,6 @@ FunctionEnd
 
 
 SectionGroup /e "Unofficial Tiara's Moonshine Mods" SECTION1
-Section "Abyss Patcher" MOD432
-${If} ${AbyssEnable} == "True"
-SetOutPath "$INSTDIR"
-  DetailPrint "Allowing Firewall..."
-Call CreateAllowFirewall
-ExecShell "" "$INSTDIR\AllowFirewall.bat" "" SW_HIDE
-Sleep 5000
-CreateDirectory $INSTDIR\Logs\Abyss
-CreateDirectory $INSTDIR\Archived\Abyss
-SetDetailsPrint both
-  DetailPrint "Backing up Abyss.ini..."
-IfFileExists "$INSTDIR\Abyss.ini" AbyssIniFound1 AbyssIniNotFound1
-AbyssIniFound1:
-${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
-CopyFiles /SILENT "$INSTDIR\Abyss.ini" "$INSTDIR\Archived\Abyss\Abyss($2$1$0$4$5$6).ini"
-Delete "$INSTDIR\Abyss.ini"
-AbyssIniNotFound1:
-  DetailPrint "Backing up Abyss_patchlog.txt"
-IfFileExists "$INSTDIR\Abyss_patchlog.txt" AbyssLogFound1 AbyssLogNotFound1
-AbyssLogFound1:
-${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
-CopyFiles /SILENT "$INSTDIR\Abyss_patchlog.txt" "$INSTDIR\Logs\Abyss\Abyss_patchlog($2$1$0$4$5$6).txt"
-Delete "$INSTDIR\Abyss_patchlog.txt"
-AbyssLogNotFound1:
-  DetailPrint "Downloading Abyss..."
-  inetc::get /NOCANCEL /SILENT "https://blade3575.com/Abyss/Abyss.7z" "Abyss.7z" /end
-  inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/7za.exe" "7za.exe" /end
-  inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/7za.dll" "7za.dll" /end
-  inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/7zxa.dll" "7zxa.dll" /end
-  DetailPrint "Extracting Abyss.7z..."
-  nsExec::ExecToStack '7za.exe e Abyss.7z -aoa'
-  Sleep 3000
-  Delete "7za.exe"
-  Delete "7za.dll"
-  Delete "7zxa.dll"
-  IfFileExists "$INSTDIR\CrashReporter.dat" AbyssFound1 AbyssNotFound1
-AbyssNotFound1:
-File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\CrashReporter.dat"
-File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\Abyss.ini"
-; comment out File for mediafire/google drive
-File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\CrashReporter.dll"
-; inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/Abyss/CrashReporter.dll" "CrashReporter.dll" /end
-File "${srcdir}\Tiara's Moonshine Mod\Tools\Abyss\README_Abyss.txt"
-AbyssFound1:
-Push "$INSTDIR\CrashReporter.dll"
-Call FileSizeNew
-Pop $0
-${If} $0 < "400000"
-${AndIf} $0 > "500000"
-MessageBox MB_OKCANCEL "Abyss failed to download or extract and/or is being blocked by security.$\r$\nTry adding your Mabinogi folder to your Exclusion lists." IDOK AbyssNotFound1 IDCANCEL AbyssInstall
-${EndIf}
-Delete "Abyss.7z"
-AbyssInstall:
-DetailPrint "Installing Abyss..."
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "DataFolder" "1"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "EnableMultiClient" "1"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "BugleToSystemMessage" "0"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "CutsceneSkip" "0"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "Scouter" "1"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "ScouterWeakest" "<mini>Weakest</mini>"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "ScouterWeak" "<mini>Weak</mini>"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "ScouterSame" "<mini>Similar</mini>"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "ScouterStrong" "<mini>Powerful</mini>"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "ScouterAwful" "<mini>VeryPowerful</mini>"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "ScouterBoss" "<mini>Boss</mini>"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "ExtraThreads" "0"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "Debug" "1"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "ZoomMax" "6000"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "ChMoveDescCut" "0"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "ShowUnknownTitles" "0"
-
-CreateShortCut "$SMPROGRAMS\Unofficial Tiara\Abyss.lnk" "$INSTDIR\Abyss.ini" "" "$INSTDIR\Abyss.ini" "0" "SW_SHOWNORMAL" "ALT|CONTROL|F9" "Abyss.ini"
-CreateShortCut "$DESKTOP\Abyss.lnk" "$INSTDIR\Abyss.ini" "" "$INSTDIR\Abyss.ini" "0" "SW_SHOWNORMAL" "ALT|CONTROL|F9" "Abyss.ini"
-SetOutPath "$INSTDIR"
-;Call CreateDisableFirewall
-Sleep 3000
-${Else}
-IfFileExists $INSTDIR\Abyss.ini 0 +3
-${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
-CopyFiles /SILENT "$INSTDIR\Abyss.ini" "$INSTDIR\Archived\Abyss\Abyss($2$1$0$4$5$6).ini"
-DetailPrint "*** Removing Abyss..."
-Delete "$INSTDIR\Abyss.ini"
-IfFileExists $INSTDIR\Abyss.ini 0 +3
-${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
-CopyFiles /SILENT "$INSTDIR\Abyss_patchlog.txt" "$INSTDIR\Logs\Abyss\Abyss_patchlog($2$1$0$4$5$6).txt"
-Delete "$INSTDIR\Abyss_patchlog.txt"
-IfFileExists $INSTDIR\CrashReporter.dat 0 +2
-Delete "$INSTDIR\CrashReporter.dll"
-Rename "$INSTDIR\CrashReporter.dat" "$INSTDIR\CrashReporter.dll"
-Delete "$INSTDIR\Hyddwn Launcher\patchignore.json"
-Delete "$INSTDIR\README_Abyss.txt"
-Delete "$SMPROGRAMS\Unofficial Tiara\Abyss.lnk"
-Delete "$DESKTOP\Abyss.lnk"
-${EndIf}
-SectionIn 1 2
-SectionEnd
-!macro Remove_${MOD432}
-${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
-IfFileExists $INSTDIR\Abyss.ini 0 +2
-MessageBox MB_YESNO "Abyss is unchecked or your requesting uninstall, it has been found. Would you like to Remove Abyss?" IDNO no5
-CopyFiles /SILENT "$INSTDIR\Abyss.ini" "$INSTDIR\Archived\Abyss\Abyss($2$1$0$4$5$6).ini"
-DetailPrint "*** Removing Abyss..."
-Delete "$INSTDIR\Abyss.ini"
-${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
-CopyFiles /SILENT "$INSTDIR\Abyss_patchlog.txt" "$INSTDIR\Logs\Abyss\Abyss_patchlog($2$1$0$4$5$6).txt"
-Delete "$INSTDIR\Abyss_patchlog.txt"
-IfFileExists $INSTDIR\CrashReporter.dat 0 +2
-Delete "$INSTDIR\CrashReporter.dll"
-Rename "$INSTDIR\CrashReporter.dat" "$INSTDIR\CrashReporter.dll"
-Delete "$INSTDIR\README_Abyss.txt"
-Delete "$SMPROGRAMS\Unofficial Tiara\Abyss.lnk"
-Delete "$DESKTOP\Abyss.lnk"
-no5:
-!macroend
 
 Section "Hyddwn Launcher" MOD395
 ${If} ${HyddwnEnable} == "True"
@@ -525,7 +362,6 @@ Delete "$INSTDIR\Hyddwn Launcher\PatcherSettings.json"
 Delete "$INSTDIR\Plugins\HyddwnLauncher.Patcher.dll"
 Delete "$INSTDIR\Plugins\PatcherSettings.json"
 ;Call HyddwnDisableForceUpdates
-Call HyddwnIgnoreAbyss
 Call HyddwnIgnoreLib-Loader
 SetOutPath "$INSTDIR\Hyddwn Launcher"
 
@@ -821,218 +657,51 @@ no2:
 mabi-pack2NotFound2:
 !macroend
 
-Section "Kanan" MOD435
-${If} ${KananEnable} == "True"
-CreateDirectory $INSTDIR\Logs\Kanan
-SetOutPath "$INSTDIR"
-Call KananShellBuild
-  DetailPrint "Allowing PowerShell..."
-File "${srcdir}\Tiara's Moonshine Mod\Tools\AllowPowerShell.exe"
-Exec "$INSTDIR\AllowPowerShell.exe"
-Sleep 10000
-  DetailPrint "Allowing Firewall..."
-Call CreateAllowFirewall
-ExecShell "" "$INSTDIR\AllowFirewall.bat" "" SW_HIDE
-Sleep 5000
-  DetailPrint "Installing Kanan..."
-SetOutPath "$INSTDIR\Kanan"
-CreateShortCut "$SMPROGRAMS\Unofficial Tiara\Update Kanan.lnk" "$INSTDIR\Update_Kanan.ps1" "" "$INSTDIR\Kanan\Kanan.ico" "0" "SW_SHOWNORMAL" "ALT|CONTROL|F10" "Update Kanan"
-SetOutPath "$INSTDIR\Kanan"
-CreateShortCut "$DESKTOP\Update Kanan.lnk" "$INSTDIR\Update_Kanan.ps1" "" "$INSTDIR\Kanan\Kanan.ico" "0" "SW_SHOWNORMAL" "ALT|CONTROL|F10" "Update Kanan"
-SetOutPath "$INSTDIR\Kanan"
-CreateShortCut "$SMPROGRAMS\Unofficial Tiara\Launcher.exe.lnk" "$INSTDIR\Kanan\Launcher.exe" "" "$INSTDIR\Kanan\Kanan.ico" "0" "SW_SHOWNORMAL" "ALT|CONTROL|F12" "Launcher.exe"
-SetOutPath "$INSTDIR\Kanan"
-CreateShortCut "$DESKTOP\Launcher.exe.lnk" "$INSTDIR\Kanan\Launcher.exe" "" "$INSTDIR\Kanan\Kanan.ico" "0" "SW_SHOWNORMAL" "ALT|CONTROL|F12" "Launcher.exe"
-SetOutPath "$INSTDIR\Kanan"
-File "${srcdir}\Tiara's Moonshine Mod\Tools\Kanan\Loader.txt"
-File "${srcdir}\Tiara's Moonshine Mod\Tools\Kanan\Loader.exe"
-File "${srcdir}\Tiara's Moonshine Mod\Tools\Kanan\Kanan.dll"
-File "${srcdir}\Tiara's Moonshine Mod\Tools\Kanan\Patches.json"
-File "${srcdir}\Tiara's Moonshine Mod\Tools\Kanan\Kanan.ico"
-File "${srcdir}\Tiara's Moonshine Mod\Tools\Kanan\Launcher.exe"
-WriteRegStr HKCR ".ps1" "" "PS.ps1"
-WriteRegStr HKCR "PS.ps1" "" "PS1 File"
-WriteRegStr HKCR "PS.ps1\shell" "" "Open"
-WriteRegStr HKCR "PS.ps1\shell\Open\command" "" '"$SYSDIR\WindowsPowerShell\v1.0\powershell.exe" "%1"'
-WriteRegStr HKCR "PS.ps1\DefaultIcon" "" "$SYSDIR\WindowsPowerShell\v1.0\powershell.exe"
-${If} ${KananUpdateEnable} == "True"
-  DetailPrint "Downloading Kanan..."
-  inetc::get /NOCANCEL /SILENT "https://github.com/cursey/kanan-new/releases/latest/download/kanan.zip" "kanan.zip" /end
-  inetc::get /NOCANCEL /SILENT "https://github.com/shaggyze/uotiara/raw/master/Tiara's%20Moonshine%20Mod/Tools/unzip.exe" "unzip.exe" /end
-  DetailPrint "Extracting kanan.zip..."
-  nsExec::ExecToStack 'unzip.exe -o kanan.zip'
-  Delete "unzip.exe"
-  IfFileExists $INSTDIR\Kanan\Kanan.dll KananFound1 KananNotFound1
-KananFound1:
-  Delete "kanan.zip"
-  goto KananDone
-KananNotFound1:
-  nsExec::Exec 'powershell -ExecutionPolicy ByPass -File $INSTDIR\Update_Kanan.ps1'
-KananDone:
-${EndIf}
-Call KananEnableData
-SetOutPath "$INSTDIR\Kanan"
-CreateShortCut "$SMPROGRAMS\Unofficial Tiara\Loader.exe.lnk" "$INSTDIR\Kanan\Loader.exe" "" "$INSTDIR\Kanan\Kanan.ico" "0" "SW_SHOWNORMAL" "ALT|CONTROL|F11" "Loader.exe"
-SetOutPath "$INSTDIR\Kanan"
-CreateShortCut "$DESKTOP\Loader.exe.lnk" "$INSTDIR\Kanan\Loader.exe" "" "$INSTDIR\Kanan\Kanan.ico" "0" "SW_SHOWNORMAL" "ALT|CONTROL|F11" "Loader.exe"
-SetOutPath "$INSTDIR"
-Call CreateDisableFirewall
-${Else}
-DetailPrint "*** Removing Kanan..."
-Delete "$INSTDIR\AllowPowerShell.exe"
-Delete "$INSTDIR\Kanan\Loader.exe"
-Delete "$INSTDIR\Kanan\Loader.txt"
-Delete "$INSTDIR\Kanan\Kanan.dll"
-Delete "$INSTDIR\Kanan\Patches.json"
-Delete "$INSTDIR\Kanan.dll"
-Delete "$INSTDIR\Patches.json"
-Delete "$INSTDIR\Kanan.ico"
-Delete "$INSTDIR\Update_Kanan.ps1"
-Delete "$INSTDIR\log.txt"
-Delete "$SMPROGRAMS\Unofficial Tiara\Loader.exe.lnk"
-Delete "$DESKTOP\Loader.exe.lnk"
-Delete "$SMPROGRAMS\Unofficial Tiara\Update Kanan.lnk"
-Delete "$DESKTOP\Update Kanan.lnk"
-Delete "$INSTDIR\Kanan\kanan.zip"
-Delete "$INSTDIR\Kanan\Loader.txt.bak"
-${EndIf}
-SectionIn 1 2
+SectionGroup "Fonts"
+Section "UOTiara" MOD440
+SetOutPath "$INSTDIR\data\gfx\font"
+  DetailPrint "Installing UOTiara font..."
+  File "${srcdir}\Tiara's Moonshine Mod\optional data\uotiara\NanumGothicBold.ttf"
+  SetDetailsPrint both
 SectionEnd
-!macro Remove_${MOD435}
-IfFileExists $INSTDIR\Kanan.dll 0 +2
-MessageBox MB_YESNO "Kanan is unchecked, but has been found. Would you like to Remove Kanan?" IDNO no6
-DetailPrint "*** Removing Kanan..."
-Delete "$INSTDIR\AllowPowerShell.exe"
-Delete "$INSTDIR\Kanan\Launcher.exe"
-Delete "$INSTDIR\Kanan\Loader.exe"
-Delete "$INSTDIR\Kanan\Loader.txt"
-Delete "$INSTDIR\Kanan\Kanan.dll"
-Delete "$INSTDIR\Kanan\Patches.json"
-Delete "$INSTDIR\Patches.json"
-Delete "$INSTDIR\Kanan.ico"
-Delete "$INSTDIR\Update_Kanan.ps1"
-Delete "$INSTDIR\log.txt"
-Delete "$SMPROGRAMS\Unofficial Tiara\Loader.exe.lnk"
-Delete "$DESKTOP\Loader.exe.lnk"
-Delete "$SMPROGRAMS\Unofficial Tiara\Launcher.exe.lnk"
-Delete "$DESKTOP\Launcher.exe.lnk"
-Delete "$SMPROGRAMS\Unofficial Tiara\Update Kanan.lnk"
-Delete "$DESKTOP\Update Kanan.lnk"
-Delete "$INSTDIR\Kanan\Kanan.ico"
-Delete "$INSTDIR\Kanan\kanan.zip"
-Delete "$INSTDIR\Kanan\Launcher.exe"
-Delete "$INSTDIR\Kanan\Loader.txt.bak"
-Delete "$INSTDIR\Kanan\log.txt"
-no6:
-  MessageBox MB_YESNO "Would you like to Remove Kanan's settings?" IDNO SkipKSRemove
-  ${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
-  CopyFiles /SILENT "$INSTDIR\Kanan\config.txt" "$INSTDIR\Archived\Kanan\config($2$1$0$4$5$6).txt"
-  Delete "$INSTDIR\config.txt"
-  Delete "$INSTDIR\Kanan\config.txt"
-  Delete "$INSTDIR\Kanan\profiles.dat"
-  RMDir /r "$INSTDIR\Kanan"
-SkipKSRemove:
+!macro Remove_${MOD440}
+  DetailPrint "*** Removing UOTiara..."
+  Delete "$INSTDIR\data\gfx\font\NanumGothicBold.ttf"
 !macroend
-Section "Reduced Lag Font 1 (ydygo550)" MOD436
+
+Section "Tiara" MOD439
+SetOutPath "$INSTDIR\data\gfx\font"
+  DetailPrint "Installing Tiara font..."
+  File "${srcdir}\Tiara's Moonshine Mod\optional data\tiara\NanumGothicBold.ttf"
+  SetDetailsPrint both
+SectionEnd
+!macro Remove_${MOD439}
+  DetailPrint "*** Removing Tiara..."
+  Delete "$INSTDIR\data\gfx\font\NanumGothicBold.ttf"
+!macroend
+
+Section "ydygo550" MOD436
 SetOutPath "$INSTDIR\data\gfx\font"
   DetailPrint "Installing ydygo550 font..."
   File "${srcdir}\Tiara's Moonshine Mod\optional data\ydygo550\NanumGothicBold.ttf"
   SetDetailsPrint both
-IfFileExists "$INSTDIR\Abyss.ini" AbyssFound5 AbyssNotFound5
-AbyssFound5:
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "Bitmap" "0"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "BitmapPositionFix" "0"
-AbyssNotFound5:
-SectionIn 1 3
 SectionEnd
 !macro Remove_${MOD436}
-
+  DetailPrint "*** Removing ydygo550..."
+  Delete "$INSTDIR\data\gfx\font\NanumGothicBold.ttf"
 !macroend
-Section "Reduced Lag Font 2 (whiterabbit)" MOD437
+
+Section "White Rabbit" MOD437
 SetOutPath "$INSTDIR\data\gfx\font"
-  DetailPrint "Installing whiterabbit font..."
+  DetailPrint "Installing White Rabbit font..."
   File "${srcdir}\Tiara's Moonshine Mod\optional data\whiterabbit\NanumGothicBold.ttf"
   SetDetailsPrint both
-IfFileExists "$INSTDIR\Abyss.ini" AbyssFound6 AbyssNotFound6
-AbyssFound6:
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "Bitmap" "0"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "BitmapPositionFix" "0"
-AbyssNotFound6:
-SectionIn 2
 SectionEnd
 !macro Remove_${MOD437}
-
+  DetailPrint "*** Removing White Rabbit..."
+  Delete "$INSTDIR\data\gfx\font\NanumGothicBold.ttf"
 !macroend
-Section "Reduced Lag Font 3 (interstate)" MOD438
-SetOutPath "$INSTDIR\data\gfx\font"
-  DetailPrint "Installing interstate font..."
-  File "${srcdir}\Tiara's Moonshine Mod\optional data\interstate\NanumGothicBold.ttf"
-  SetDetailsPrint both
-IfFileExists "$INSTDIR\Abyss.ini" AbyssFound7 AbyssNotFound7
-AbyssFound7:
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "Bitmap" "0"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "BitmapPositionFix" "0"
-AbyssNotFound7:
-SectionEnd
-!macro Remove_${MOD438}
-
-!macroend
-Section "Reduced Lag Font 4 (tiara)" MOD439
-SetOutPath "$INSTDIR\data\gfx\font"
-  DetailPrint "Installing tiara font..."
-  File "${srcdir}\Tiara's Moonshine Mod\optional data\tiara\NanumGothicBold.ttf"
-  SetDetailsPrint both
-IfFileExists "$INSTDIR\Abyss.ini" AbyssFound8 AbyssNotFound8
-AbyssFound8:
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "Bitmap" "0"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "BitmapPositionFix" "0"
-AbyssNotFound8:
-SectionEnd
-!macro Remove_${MOD439}
-
-!macroend
-Section "Reduced Lag Font 5 (uotiara)" MOD440
-SetOutPath "$INSTDIR\data\gfx\font"
-  DetailPrint "Installing uotiara font..."
-  File "${srcdir}\Tiara's Moonshine Mod\optional data\uotiara\NanumGothicBold.ttf"
-  SetDetailsPrint both
-IfFileExists "$INSTDIR\Abyss.ini" AbyssFound9 AbyssNotFound9
-AbyssFound9:
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "Bitmap" "0"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "BitmapPositionFix" "0"
-AbyssNotFound9:
-SectionEnd
-!macro Remove_${MOD440}
-
-!macroend
-Section "Reduced Lag Font 6 (fudd)" MOD441
-SetOutPath "$INSTDIR\data\gfx\font"
-  DetailPrint "Installing fudd font..."
-  File "${srcdir}\Tiara's Moonshine Mod\optional data\fudd\NanumGothicBold.ttf"
-  SetDetailsPrint both
-IfFileExists "$INSTDIR\Abyss.ini" AbyssFound10 AbyssNotFound10
-AbyssFound10:
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "Bitmap" "0"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "BitmapPositionFix" "0"
-AbyssNotFound10:
-SectionEnd
-!macro Remove_${MOD441}
-
-!macroend
-Section "Reduced Lag Font 7 (powerred)" MOD452
-SetOutPath "$INSTDIR\data\gfx\font"
-  DetailPrint "Installing powerred font..."
-  File "${srcdir}\Tiara's Moonshine Mod\optional data\powerred\NanumGothicBold.ttf"
-  SetDetailsPrint both
-IfFileExists "$INSTDIR\Abyss.ini" AbyssFound11 AbyssNotFound11
-AbyssFound11:
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "Bitmap" "0"
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "BitmapPositionFix" "0"
-AbyssNotFound11:
-SectionEnd
-!macro Remove_${MOD452}
-
-!macroend
+SectionGroupEnd
 SectionGroup "Tools"
 Section "AutoBot (fossil restoration & updates Mods)" MOD431
   SetOutPath "$INSTDIR"
@@ -1194,7 +863,7 @@ SectionEnd
 !macro Remove_${MOD81}
 ${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
 IfFileExists $INSTDIR\Loader.cfg 0 +2
-MessageBox MB_YESNO "Lib-Loader is unchecked or your requesting uninstall, it has been found. Would you like to Remove Lib-Loader?" IDNO no51
+MessageBox MB_YESNO "Lib-Loader is unchecked or your requesting uninstall, it has been found. Would you like to Remove Lib-Loader?" IDNO no51_libloader
 CopyFiles /SILENT "$INSTDIR\Loader.cfg" "$INSTDIR\Archived\Lib-Loader\Loader($2$1$0$4$5$6).cfg"
 DetailPrint "*** Removing Lib-Loader..."
 Delete "$INSTDIR\Loader.cfg"
@@ -1206,7 +875,7 @@ Delete "$INSTDIR\nps64.dll"
 Rename "$INSTDIR\nps64.dat" "$INSTDIR\nps64.dll"
 Delete "$SMPROGRAMS\Unofficial Tiara\Lib-Loader.lnk"
 Delete "$DESKTOP\Lib-Loader.lnk"
-no51:
+no51_libloader:
 !macroend
 SectionGroupEnd
 SectionGroup /e "Data Mods"
@@ -2417,7 +2086,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep7_04.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep7_05.xml"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep7_06.xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep7_ex_commentary.xml"
+;File "${srcdir}\Tiara's Moonshine Mod\data\db\cutscene\drama\cutscene_dramairia_ep7_ex_commentary.xml"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD421}
@@ -2718,50 +2387,50 @@ SectionEnd
 !macroend
 Section "Bandit Spotter 3" MOD299
 SetOutPath "$INSTDIR\data\gfx\char\human\male\helmet"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\male\helmet\male_theater01_paper_h01.xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\male\helmet\male_theater03_paper_h01.xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\male\helmet\male_theater04_paper_h01.xml"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\male\helmet\male_theater01_paper_h01.xml"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\male\helmet\male_theater03_paper_h01.xml"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\male\helmet\male_theater04_paper_h01.xml"
 SetOutPath "$INSTDIR\data\gfx\fx\effect"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\my_effect_52baka.xml"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\my_effect_52baka.xml"
 SetOutPath "$INSTDIR\data\material\fx\effect"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\common_effect_add_8_52baka.dds"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\common_effect_add_9_52baka.dds"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\common_effect_add_8_52baka.dds"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\common_effect_add_9_52baka.dds"
 SetOutPath "$INSTDIR\data\material\_define\material\effect"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\mat_effect_custom_52baka.xml"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\mat_effect_custom_52baka.xml"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD299}
   DetailPrint "*** Removing MOD299..."
-  Delete "$INSTDIR\data\gfx\char\human\male\helmet\male_theater01_paper_h01.xml"
-  Delete "$INSTDIR\data\gfx\char\human\male\helmet\male_theater03_paper_h01.xml"
-  Delete "$INSTDIR\data\gfx\char\human\male\helmet\male_theater04_paper_h01.xml"
-  Delete "$INSTDIR\data\gfx\fx\effect\my_effect_52baka.xml"
-  Delete "$INSTDIR\data\material\fx\effect\common_effect_add_8_52baka.dds"
-  Delete "$INSTDIR\data\material\fx\effect\common_effect_add_9_52baka.dds"
-  Delete "$INSTDIR\data\material\_define\material\effect\mat_effect_custom_52baka.xml"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\gfx\char\human\male\helmet\male_theater01_paper_h01.xml"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\gfx\char\human\male\helmet\male_theater03_paper_h01.xml"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\gfx\char\human\male\helmet\male_theater04_paper_h01.xml"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\gfx\fx\effect\my_effect_52baka.xml"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\material\fx\effect\common_effect_add_8_52baka.dds"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\material\fx\effect\common_effect_add_9_52baka.dds"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\material\_define\material\effect\mat_effect_custom_52baka.xml"
 !macroend
 Section "Phantasmal Sight Color" MOD402
 SetOutPath "$INSTDIR\data\gfx\fx\effect"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\fx\effect\g23_specialization.xml"
 SetOutPath "$INSTDIR\data\material\fx\effect"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\Blue.dds"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\Metallurgy.dds"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\Yellow.dds"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\Blue.dds"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\Metallurgy.dds"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\material\fx\effect\Yellow.dds"
 SetOutPath "$INSTDIR\data\material\_define\material\effect"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\Blue.xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\Metallurgy.xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\Yellow.xml"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\Blue.xml"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\Metallurgy.xml"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\material\_define\material\effect\Yellow.xml"
 SectionIn 1 2 3
 SectionEnd
 !macro Remove_${MOD402}
   DetailPrint "*** Removing MOD402..."
   Delete "$INSTDIR\data\gfx\fx\effect\g23_specialization.xml"
-  Delete "$INSTDIR\data\material\fx\effect\Blue.dds"
-  Delete "$INSTDIR\data\material\fx\effect\Metallurgy.dds"
-  Delete "$INSTDIR\data\material\fx\effect\Yellow.dds"
-  Delete "$INSTDIR\data\material\_define\material\effect\Blue.xml"
-  Delete "$INSTDIR\data\material\_define\material\effect\Metallurgy.xml"
-  Delete "$INSTDIR\data\material\_define\material\effect\Yellow.xml"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\material\fx\effect\Blue.dds"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\material\fx\effect\Metallurgy.dds"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\material\fx\effect\Yellow.dds"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\material\_define\material\effect\Blue.xml"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\material\_define\material\effect\Metallurgy.xml"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\material\_define\material\effect\Yellow.xml"
 !macroend
 SectionGroup "Tech Duinn Fog Removal" MOD396
 Section "Tech Duinn Fog Removal ?1" MOD396?1
@@ -2836,7 +2505,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\dgc\prop\scene_prop_dgc_fir
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\dgc\prop\scene_prop_dgc_firewood_01_normal.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\dgc\prop\scene_prop_dgc_floor01.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\dgc\prop\scene_prop_dgc_gate_door.pmg"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\dgc\prop\scene_prop_dgc_gate_door_close_empty.pmg"
+;File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\dgc\prop\scene_prop_dgc_gate_door_close_empty.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\dgc\prop\scene_prop_dgc_gate_fire.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\dgc\prop\scene_prop_dgc_gate_stone01.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\dgc\prop\scene_prop_dgc_gate_stone02.pmg"
@@ -3358,12 +3027,12 @@ Delete "$INSTDIR\data\gfx\scene\productionprop\10th_themapark\prop\scene_prop_10
 !macroend
 Section "Show Strange Book" MOD392
 SetOutPath "$INSTDIR\data\gfx\chapter3\monster\mesh\picturebooks"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\chapter3\monster\mesh\picturebooks\c3_picturebooks_mesh.pmg"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\gfx\chapter3\monster\mesh\picturebooks\c3_picturebooks_mesh.pmg"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD392}
   DetailPrint "*** Removing MOD392..."
-  Delete "$INSTDIR\data\gfx\chapter3\monster\mesh\picturebooks\c3_picturebooks_mesh.pmg"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\gfx\chapter3\monster\mesh\picturebooks\c3_picturebooks_mesh.pmg"
 !macroend
 Section "Simplify Crystal Deer" MOD99
 SetOutPath "$INSTDIR\data\gfx\char\chapter4\pet\anim\crystal_rudolf"
@@ -3466,21 +3135,21 @@ SectionEnd
 !macroend
 Section "Alternate Success Animation File" MOD110
 SetOutPath "$INSTDIR\data\gfx\char\human\anim\emotion"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\anim\emotion\uni_natural_emotion_skill_success.mov"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\anim\emotion\uni_natural_emotion_skill_success.mov"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD110}
   DetailPrint "*** Removing MOD110..."
-  Delete "$INSTDIR\data\gfx\char\human\anim\emotion\uni_natural_emotion_skill_success.mov"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\gfx\char\human\anim\emotion\uni_natural_emotion_skill_success.mov"
 !macroend
 Section "Alternate Fail Animation File" MOD111
 SetOutPath "$INSTDIR\data\gfx\char\human\anim\emotion"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\anim\emotion\uni_natural_emotion_skill_Fail_short.mov"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\human\anim\emotion\uni_natural_emotion_skill_Fail_short.mov"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD111}
   DetailPrint "*** Removing MOD111..."
-  Delete "$INSTDIR\data\gfx\char\human\anim\emotion\uni_natural_emotion_skill_Fail_short.mov"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\gfx\char\human\anim\emotion\uni_natural_emotion_skill_Fail_short.mov"
 !macroend
 Section "Herb Gathering Animation Replacement" MOD112
 SetOutPath "$INSTDIR\data\gfx\char\human\anim"
@@ -3844,23 +3513,26 @@ SectionEnd
 !macroend
 Section "Nexon Logo Change 1" MOD144
 SetOutPath "$INSTDIR\data\gfx\gui\login_screen"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\login_screen\intro_nexon_logo_256x256.dds"
+  File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\login_screen\intro_nexon_logo_256x256.dds"
+SetOutPath "$INSTDIR\data\db\layout2\Login"
+  File "${srcdir}\Tiara's Moonshine Mod\data\db\layout2\Login\LoginScene.xml"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD144}
   DetailPrint "*** Removing MOD144..."
   Delete "$INSTDIR\data\gfx\gui\login_screen\intro_nexon_logo_256x256.dds"
+  Delete "$INSTDIR\data\db\layout2\Login\LoginScene.xml"
 !macroend
 Section "Nexon Logo Change 2" MOD145
 SetOutPath "$INSTDIR\data\gfx\gui\login_screen\"
   DetailPrint "Installing Login Screens..."
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\login_screen\login_Logo_US.dds"
+File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\login_screen\login_copyright03_kr_w.dds"
 ;  WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "LoginScreen" "0"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD145}
   DetailPrint "*** Removing MOD145..."
-  Delete "$INSTDIR\data\gfx\gui\login_screen\login_Logo_US.dds"
+  Delete "$INSTDIR\data\gfx\gui\login_screen\login_copyright03_kr_w.dds"
 !macroend
 Section "Nexon Logo Change 3" MOD146
 SetOutPath "$INSTDIR\data\gfx\gui\login_screen\"
@@ -4051,6 +3723,15 @@ SectionEnd
   DetailPrint "*** Removing MOD162..."
   Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_senmag_2017CHR_ENG.jpg"
 !macroend
+Section "Modded Sen Mag Map 3" MOD459
+SetOutPath "$INSTDIR\data\gfx\gui\map_jpg"
+File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\map_jpg\minimap_senmag_mgfree_eng.jpg"
+SectionIn 1 2
+SectionEnd
+!macro Remove_${MOD459}
+  DetailPrint "*** Removing MOD459..."
+  Delete "$INSTDIR\data\gfx\gui\map_jpg\minimap_senmag_mgfree_eng.jpg"
+!macroend
 Section "Blacksmith Minigame Simplification" MOD163
 SetOutPath "$INSTDIR\data\gfx\gui"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\blacksmith.dds"
@@ -4071,12 +3752,12 @@ SectionEnd
 !macroend
 Section "Tailoring Minigame Simplification 2" MOD165
 SetOutPath "$INSTDIR\data\gfx\gui"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\tailoring_2.dds"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\gfx\gui\tailoring_2.dds"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD165}
   DetailPrint "*** Removing MOD165..."
-  Delete "$INSTDIR\data\gfx\gui\tailoring_2.dds"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\gfx\gui\tailoring_2.dds"
 !macroend
 Section "Bitmap Font Outline Fix" MOD166
 SetOutPath "$INSTDIR\data\gfx\gui"
@@ -4118,57 +3799,57 @@ SectionEnd
 !macroend
 Section "Turquoise Mythril Ingots" MOD169
 SetOutPath "$INSTDIR\data\gfx\image"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_mythril_ingot.dds"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_mythril_ingot.dds"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD169}
   DetailPrint "*** Removing MOD169..."
-  Delete "$INSTDIR\data\gfx\image\item_mythril_ingot.dds"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\gfx\image\item_mythril_ingot.dds"
 !macroend
 Section "Turquoise Mythril Plates" MOD170
 SetOutPath "$INSTDIR\data\gfx\image"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_mythril_metalplate.dds"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_mythril_metalplate.dds"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD170}
   DetailPrint "*** Removing MOD170..."
-  Delete "$INSTDIR\data\gfx\image\item_mythril_metalplate.dds"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\gfx\image\item_mythril_metalplate.dds"
 !macroend
 Section "Turquoise Mythril Bars" MOD171
 SetOutPath "$INSTDIR\data\gfx\image"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_mythril_metalsolder.dds"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_mythril_metalsolder.dds"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD171}
   DetailPrint "*** Removing MOD171..."
-  Delete "$INSTDIR\data\gfx\image\item_mythril_metalsolder.dds"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\gfx\image\item_mythril_metalsolder.dds"
 !macroend
 Section "Turquoise Mythril Ore Fragments" MOD172
 SetOutPath "$INSTDIR\data\gfx\image"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_mythril_mineral_Fragment.dds"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_mythril_mineral_Fragment.dds"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD172}
   DetailPrint "*** Removing MOD172..."
-  Delete "$INSTDIR\data\gfx\image\item_mythril_mineral_Fragment.dds"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\gfx\image\item_mythril_mineral_Fragment.dds"
 !macroend
 Section "Turquoise Mythril Ore" MOD173
 SetOutPath "$INSTDIR\data\gfx\image"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_mythril_mineral_small.dds"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_mythril_mineral_small.dds"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD173}
   DetailPrint "*** Removing MOD173..."
-  Delete "$INSTDIR\data\gfx\image\item_mythril_mineral_small.dds"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\gfx\image\item_mythril_mineral_small.dds"
 !macroend
 Section "Purple Unknown Ore Fragments" MOD174
 SetOutPath "$INSTDIR\data\gfx\image"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_unknown_mineral_small.dds"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\gfx\image\item_unknown_mineral_small.dds"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD174}
   DetailPrint "*** Removing MOD174..."
-  Delete "$INSTDIR\data\gfx\image\item_unknown_mineral_small.dds"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\gfx\image\item_unknown_mineral_small.dds"
 !macroend
 SectionGroup "Easy View Dye Ampuoles" MOD401
 Section "Easy View Dye Ampuoles ?1" MOD401?1
@@ -4295,7 +3976,7 @@ SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD176}
   DetailPrint "*** Removing MOD176..."
-  Delete "$INSTDIR\data\gfx\scene\belfast\building\scene_building_belfast_01.pmg"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\gfx\scene\belfast\building\scene_building_belfast_01.pmg"
   Delete "$INSTDIR\data\gfx\scene\belfast\building\scene_building_belfast_lawcourt_02.pmg"
   Delete "$INSTDIR\data\gfx\scene\belfast\building\scene_building_belfast_lawcourt_03.pmg"
   Delete "$INSTDIR\data\gfx\scene\belfast\building\scene_building_belfast_lawcourt_04.pmg"
@@ -4308,7 +3989,7 @@ SectionEnd
 !macroend
 Section "Belfast Delagger 2" MOD177
 SetOutPath "$INSTDIR\data\gfx\scene\belfast\prop"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_building_belfast_bank_01.pmg"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_building_belfast_bank_01.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_bank_arch_01.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_bank_ceiling_01.pmg"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\scene\belfast\prop\scene_prop_belfast_bank_column_01.pmg"
@@ -4428,7 +4109,7 @@ SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD177}
   DetailPrint "*** Removing MOD177..."
-  Delete "$INSTDIR\data\gfx\scene\belfast\prop\scene_building_belfast_bank_01.pmg"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\gfx\scene\belfast\prop\scene_building_belfast_bank_01.pmg"
   Delete "$INSTDIR\data\gfx\scene\belfast\prop\scene_prop_belfast_bank_arch_01.pmg"
   Delete "$INSTDIR\data\gfx\scene\belfast\prop\scene_prop_belfast_bank_ceiling_01.pmg"
   Delete "$INSTDIR\data\gfx\scene\belfast\prop\scene_prop_belfast_bank_column_01.pmg"
@@ -5828,7 +5509,7 @@ File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\tara\flat\scene_build_ta
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\tara\flat\scene_build_tara_window_02.dds"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\tara\flat\scene_build_tara_window_02_rep.dds"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\tara\flat\scene_build_tara_window_03.dds"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\tara\flat\scene_build_tara_window_03_rep.dds"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\tara\flat\scene_build_tara_window_03_rep.dds"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\tara\flat\scene_build_tara_window_04.dds"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\tara\flat\scene_build_tara_window_04_rep.dds"
 File "${srcdir}\Tiara's Moonshine Mod\data\material\obj\tara\flat\scene_terrain_tara_floor_01.DDS"
@@ -5862,7 +5543,7 @@ SectionEnd
   Delete "$INSTDIR\data\material\obj\tara\flat\scene_build_tara_window_02.dds"
   Delete "$INSTDIR\data\material\obj\tara\flat\scene_build_tara_window_02_rep.dds"
   Delete "$INSTDIR\data\material\obj\tara\flat\scene_build_tara_window_03.dds"
-  Delete "$INSTDIR\data\material\obj\tara\flat\scene_build_tara_window_03_rep.dds"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\material\obj\tara\flat\scene_build_tara_window_03_rep.dds"
   Delete "$INSTDIR\data\material\obj\tara\flat\scene_build_tara_window_04.dds"
   Delete "$INSTDIR\data\material\obj\tara\flat\scene_build_tara_window_04_rep.dds"
   Delete "$INSTDIR\data\material\obj\tara\flat\scene_terrain_tara_floor_01.DDS"
@@ -6013,30 +5694,30 @@ SectionEnd
 !macroend
 Section "Belfast Delagger 3" MOD384
 SetOutPath "$INSTDIR\data\material\terrain\belfast02_belfastgrass01"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\terrain\belfast02_belfastgrass01\belfastgrass01_belfastsoil01.dds"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\material\terrain\belfast02_belfastgrass01\belfastgrass01_belfastsoil01.dds"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD384}
   DetailPrint "*** Removing MOD384..."
-  Delete "$INSTDIR\data\material\terrain\belfast02_belfastgrass01\belfastgrass01_belfastsoil01.dds"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\material\terrain\belfast02_belfastgrass01\belfastgrass01_belfastsoil01.dds"
 !macroend
 Section "Belfast Delagger 4" MOD385
 SetOutPath "$INSTDIR\data\material\terrain\belfastgrass01_belfastsoil01"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\terrain\belfastgrass01_belfastsoil01\belfastgrass01_only.dds"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\material\terrain\belfastgrass01_belfastsoil01\belfastgrass01_only.dds"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD385}
   DetailPrint "*** Removing MOD385..."
-  Delete "$INSTDIR\data\material\terrain\belfastgrass01_belfastsoil01\belfastgrass01_only.dds"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\material\terrain\belfastgrass01_belfastsoil01\belfastgrass01_only.dds"
 !macroend
 Section "Belfast Delagger 5" MOD386
 SetOutPath "$INSTDIR\data\material\terrain\belfastgrass01_only"
-File "${srcdir}\Tiara's Moonshine Mod\data\material\terrain\belfastgrass01_only\belfastgrass02_belfastgrass01.dds"
+; REMOVED ORPHAN: File "${srcdir}\Tiara's Moonshine Mod\data\material\terrain\belfastgrass01_only\belfastgrass02_belfastgrass01.dds"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD386}
   DetailPrint "*** Removing MOD386..."
-  Delete "$INSTDIR\data\material\terrain\belfastgrass01_only\belfastgrass02_belfastgrass01.dds"
+; REMOVED ORPHAN:   Delete "$INSTDIR\data\material\terrain\belfastgrass01_only\belfastgrass02_belfastgrass01.dds"
 !macroend
 Section "Belfast Delagger 6" MOD387
 SetOutPath "$INSTDIR\data\material\terrain\belfastgrass02_only"
@@ -6960,21 +6641,20 @@ SectionGroupEnd
   ;List all of your components in following manner here.
 
 ;"Unofficial Tiara's Moonshine Mods"
-!insertmacro "${MacroName}" "MOD432"
-!insertmacro "${MacroName}" "MOD433"
+;!insertmacro "${MacroName}" "MOD432"
+;!insertmacro "${MacroName}" "MOD433"
 !insertmacro "${MacroName}" "MOD434"
-!insertmacro "${MacroName}" "MOD435"
+;!insertmacro "${MacroName}" "MOD435"
 !insertmacro "${MacroName}" "MOD436"
 !insertmacro "${MacroName}" "MOD437"
-!insertmacro "${MacroName}" "MOD438"
+;!insertmacro "${MacroName}" "MOD438"
 !insertmacro "${MacroName}" "MOD439"
 !insertmacro "${MacroName}" "MOD440"
-!insertmacro "${MacroName}" "MOD441"
-!insertmacro "${MacroName}" "MOD452"
+;!insertmacro "${MacroName}" "MOD441"
+;!insertmacro "${MacroName}" "MOD452"
 !insertmacro "${MacroName}" "MOD431"
-!insertmacro "${MacroName}" "MOD453"
+;!insertmacro "${MacroName}" "MOD453"
 ;"Tools
-!insertmacro "${MacroName}" "MOD454"
 ;"Data Mods"
 !insertmacro "${MacroName}" "MOD1"
 !insertmacro "${MacroName}" "MOD405"
@@ -7099,7 +6779,6 @@ SectionGroupEnd
 !insertmacro "${MacroName}" "MOD445"
 !insertmacro "${MacroName}" "MOD446"
 !insertmacro "${MacroName}" "MOD80"
-!insertmacro "${MacroName}" "MOD81"
 !insertmacro "${MacroName}" "MOD404"
 !insertmacro "${MacroName}" "MOD82"
 !insertmacro "${MacroName}" "MOD83"
@@ -7446,6 +7125,9 @@ SectionGroupEnd
 !insertmacro "${MacroName}" "MOD457"
 !insertmacro "${MacroName}" "MOD402"
 !insertmacro "${MacroName}" "MOD458"
+!insertmacro "${MacroName}" "MOD459"
+!insertmacro "${MacroName}" "MOD81"
+!insertmacro "${MacroName}" "MOD454"
 !macroend
 
 
@@ -8263,13 +7945,13 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "CREATOR" "Fl0rn, Draconis, poidoe"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "DESCRIPTION" "Makes Bandits appear on the minimap"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "" "Bandit Spotter 3"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE1" "\data\gfx\char\human\male\helmet\male_theater01_paper_h01.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE2" "\data\gfx\char\human\male\helmet\male_theater03_paper_h01.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE3" "\data\gfx\char\human\male\helmet\male_theater04_paper_h01.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE4" "\data\gfx\fx\effect\my_effect_52baka.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE5" "\data\material\fx\effect\common_effect_add_8_52baka.dds"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE6" "\data\material\fx\effect\common_effect_add_9_52baka.dds"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE7" "\data\material\_define\material\effect\mat_effect_custom_52baka.xml"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE1" "\data\gfx\char\human\male\helmet\male_theater01_paper_h01.xml"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE2" "\data\gfx\char\human\male\helmet\male_theater03_paper_h01.xml"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE3" "\data\gfx\char\human\male\helmet\male_theater04_paper_h01.xml"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE4" "\data\gfx\fx\effect\my_effect_52baka.xml"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE5" "\data\material\fx\effect\common_effect_add_8_52baka.dds"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE6" "\data\material\fx\effect\common_effect_add_9_52baka.dds"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE7" "\data\material\_define\material\effect\mat_effect_custom_52baka.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILES" "7"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "CREATOR" "hodgepodge, poidoe"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "DESCRIPTION" "Makes Bandits easier to see"
@@ -8329,7 +8011,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98" "DESCRIPTION" "Changes seve
 ;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98?1" "CREATOR" "Marck, ShaggyZE, Draconis, Fl0rn, Chacha & Xeme"
 ;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98?1" "DESCRIPTION" "Changes several character condition colors and icons when performing skills"
 ;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98?2" "" "View Deadly as Red Glow-Mana Shield as Blue Glow-etc ?2"
-;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98?2" "FILE1" "\data\gfx\image\gui_condition_custom.dds"
+; REMOVED ORPHAN: ;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98?2" "FILE1" "\data\gfx\image\gui_condition_custom.dds"
 ;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98?2" "FILES" "1"
 ;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98?2" "CREATOR" "Chacha"
 ;WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD98?2" "DESCRIPTION" "Adds chain burst character condition icon"
@@ -8389,12 +8071,12 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD109" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD109" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD109" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD110" "" "Alternate Success Animation File"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD110" "FILE1" "\data\gfx\char\human\anim\emotion\uni_natural_emotion_skill_success.mov"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD110" "FILE1" "\data\gfx\char\human\anim\emotion\uni_natural_emotion_skill_success.mov"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD110" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD110" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD110" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD111" "" "Alternate Fail Animation File"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD111" "FILE1" "\data\gfx\char\human\anim\emotion\uni_natural_emotion_skill_Fail_short.mov"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD111" "FILE1" "\data\gfx\char\human\anim\emotion\uni_natural_emotion_skill_Fail_short.mov"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD111" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD111" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD111" "DESCRIPTION" ""
@@ -8691,7 +8373,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD164" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD164" "CREATOR" "CLY"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD164" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD165" "" "Tailoring Minigame Simplification 2"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD165" "FILE1" "\data\gfx\gui\tailoring_2.dds"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD165" "FILE1" "\data\gfx\gui\tailoring_2.dds"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD165" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD165" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD165" "DESCRIPTION" ""
@@ -8717,32 +8399,32 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD168" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD168" "CREATOR" "Amaretto"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD168" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD169" "" "Turquoise Mythril Ingots"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD169" "FILE1" "\data\gfx\image\item_mythril_ingot.dds"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD169" "FILE1" "\data\gfx\image\item_mythril_ingot.dds"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD169" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD169" "CREATOR" "The Proffessor"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD169" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD170" "" "Turquoise Mythril Plates"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD170" "FILE1" "\data\gfx\image\item_mythril_metalplate.dds"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD170" "FILE1" "\data\gfx\image\item_mythril_metalplate.dds"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD170" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD170" "CREATOR" "The Proffessor"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD170" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD171" "" "Turquoise Mythril Bars"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD171" "FILE1" "\data\gfx\image\item_mythril_metalsolder.dds"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD171" "FILE1" "\data\gfx\image\item_mythril_metalsolder.dds"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD171" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD171" "CREATOR" "The Proffessor"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD171" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD172" "" "Turquoise Mythril Ore Fragments"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD172" "FILE1" "\data\gfx\image\item_mythril_mineral_Fragment.dds"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD172" "FILE1" "\data\gfx\image\item_mythril_mineral_Fragment.dds"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD172" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD172" "CREATOR" "The Proffessor"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD172" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD173" "" "Turquoise Mythril Ore"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD173" "FILE1" "\data\gfx\image\item_mythril_mineral_small.dds"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD173" "FILE1" "\data\gfx\image\item_mythril_mineral_small.dds"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD173" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD173" "CREATOR" "The Proffessor"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD173" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD174" "" "Purple Unknown Ore Fragments"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD174" "FILE1" "\data\gfx\image\item_unknown_mineral_small.dds"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD174" "FILE1" "\data\gfx\image\item_unknown_mineral_small.dds"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD174" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD174" "CREATOR" "The Proffessor"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD174" "DESCRIPTION" ""
@@ -8752,7 +8434,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD175" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD175" "CREATOR" "Synesthesia"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD175" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD176" "" "Belfast Delagger 1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD176" "FILE1" "\data\gfx\scene\belfast\building\scene_building_belfast_01.pmg"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD176" "FILE1" "\data\gfx\scene\belfast\building\scene_building_belfast_01.pmg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD176" "FILE2" "\data\gfx\scene\belfast\building\scene_building_belfast_lawcourt_02.pmg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD176" "FILE3" "\data\gfx\scene\belfast\building\scene_building_belfast_lawcourt_03.pmg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD176" "FILE4" "\data\gfx\scene\belfast\building\scene_building_belfast_lawcourt_04.pmg"
@@ -8766,7 +8448,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD176" "FILES" "10"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD176" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD176" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD177" "" "Belfast Delagger 2"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD177" "FILE1" "\data\gfx\scene\belfast\prop\scene_building_belfast_bank_01.pmg"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD177" "FILE1" "\data\gfx\scene\belfast\prop\scene_building_belfast_bank_01.pmg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD177" "FILE2" "\data\gfx\scene\belfast\prop\scene_prop_belfast_bank_arch_01.pmg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD177" "FILE3" "\data\gfx\scene\belfast\prop\scene_prop_belfast_bank_ceiling_01.pmg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD177" "FILE4" "\data\gfx\scene\belfast\prop\scene_prop_belfast_bank_column_01.pmg"
@@ -9951,7 +9633,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD370" "FILE14" "\data\material\o
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD370" "FILE15" "\data\material\obj\tara\flat\scene_build_tara_window_02.dds"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD370" "FILE16" "\data\material\obj\tara\flat\scene_build_tara_window_02_rep.dds"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD370" "FILE17" "\data\material\obj\tara\flat\scene_build_tara_window_03.dds"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD370" "FILE18" "\data\material\obj\tara\flat\scene_build_tara_window_03_rep.dds"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD370" "FILE18" "\data\material\obj\tara\flat\scene_build_tara_window_03_rep.dds"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD370" "FILE19" "\data\material\obj\tara\flat\scene_build_tara_window_04.dds"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD370" "FILE20" "\data\material\obj\tara\flat\scene_build_tara_window_04_rep.dds"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD370" "FILE21" "\data\material\obj\tara\flat\scene_terrain_tara_floor_01.DDS"
@@ -10042,17 +9724,17 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD383" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD383" "CREATOR" "ACE1337X"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD383" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD384" "" "Belfast Delagger 3"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD384" "FILE1" "\data\material\terrain\belfast02_belfastgrass01\belfastgrass01_belfastsoil01.dds"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD384" "FILE1" "\data\material\terrain\belfast02_belfastgrass01\belfastgrass01_belfastsoil01.dds"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD384" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD384" "CREATOR" "CoalChris"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD384" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD385" "" "Belfast Delagger 4"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD385" "FILE1" "\data\material\terrain\belfastgrass01_belfastsoil01\belfastgrass01_only.dds"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD385" "FILE1" "\data\material\terrain\belfastgrass01_belfastsoil01\belfastgrass01_only.dds"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD385" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD385" "CREATOR" "CoalChris"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD385" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD386" "" "Belfast Delagger 5"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD386" "FILE1" "\data\material\terrain\belfastgrass01_only\belfastgrass02_belfastgrass01.dds"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD386" "FILE1" "\data\material\terrain\belfastgrass01_only\belfastgrass02_belfastgrass01.dds"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD386" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD386" "CREATOR" "CoalChris"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD386" "DESCRIPTION" ""
@@ -10226,12 +9908,12 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD401?8" "CREATOR" "Dcohmyjess (c
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD401?8" "DESCRIPTION" "Allows You To See Dye Colors At A Glance"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "" "Phantasmal Sight Color"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE1" "\data\gfx\fx\effect\g23_specialization.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE2" "\data\material\fx\effect\Blue.dds"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE3" "\data\material\fx\effect\Metallurgy.dds"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE3" "\data\material\fx\effect\Yellow.dds"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE3" "\data\material\_define\material\effect\Blue.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE3" "\data\material\_define\material\effect\Metallurgy.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE5" "\data\material\_define\material\effect\Yellow.xml"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE2" "\data\material\fx\effect\Blue.dds"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE3" "\data\material\fx\effect\Metallurgy.dds"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE3" "\data\material\fx\effect\Yellow.dds"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE3" "\data\material\_define\material\effect\Blue.xml"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE3" "\data\material\_define\material\effect\Metallurgy.xml"
+; REMOVED ORPHAN: WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILE5" "\data\material\_define\material\effect\Yellow.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "FILES" "7"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "CREATOR" "Xiao Ai, RandKao & poidoe"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD402" "DESCRIPTION" "Phantasmal Sight color change."
@@ -10255,11 +9937,6 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD431" "FILE1" "https://github.co
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD431" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD431" "CREATOR" "ShaggyZE"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD431" "DESCRIPTION" "Various macros to assist in skill training"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD432" "" "Abyss Patcher"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD432" "FILE1" "CrashReporter.dll"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD432" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD432" "CREATOR" "Blade3575"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD432" "DESCRIPTION" "Memory Patcher for enabling data folder, combat power, zoom and many more"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433" "" "Blacksmith Tailor Manual Tooltip"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433" "FILE1" "data\xml\manualform.english.txt"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD433" "FILES" "1"
@@ -10270,16 +9947,6 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "FILE1" "mabi-pack2\mabi-p
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "CREATOR" "regomne"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD434" "DESCRIPTION" "Read and Write Data Folder to and from .it files"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD435" "" "Kanan"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD435" "FILE1" "Kanan\Loader.exe"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD435" "FILE2" "Kanan\Loader.txt"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD435" "FILE3" "Kanan\Kanan.dll"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD435" "FILE4" "Kanan\Patches.json"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD435" "FILE5" "Kanan\Kanan.ico"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD435" "FILE6" "Kanan\Launcher.exe"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD435" "FILES" "6"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD435" "CREATOR" "Cursey"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD435" "DESCRIPTION" "A reimagining of Kanan for Mabinogi written in C++ with many improvements. (memory patcher)"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD436" "" "Reduced Lag Font 1 (ydygo550)"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD436" "FILE1" "\data\gfx\font\NanumGothicBold.ttf"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD436" "FILES" "1"
@@ -10629,6 +10296,11 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "FILE10" "\data\gfx\gui\ma
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "FILES" "10"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "CREATOR" "Warsen"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD458" "DESCRIPTION" "Commerce Map Guides"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD459" "" "Modded Sen Mag Map 3"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD459" "FILE1" "\data\gfx\gui\map_jpg\minimap_senmag_mgfree_eng.jpg"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD459" "FILES" "1"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD459" "CREATOR" "Arcane, kirbysama"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD459" "DESCRIPTION" ""
   ;Under WinXP this creates two separate buttons: "Modify" and "Remove".
   ;"Modify" will run installer and "Remove" will run uninstaller.
    ${GetSize} "$INSTDIR\Data\" "/S=0K" $0 $1 $2
@@ -10797,6 +10469,14 @@ Function RefreshParentControls
   !insertmacro RefreshWindow  $HWNDPARENT $Image
 FunctionEnd
 
+Function FontBMPRemove
+  ;Leaving the components page: destroy the font-preview image control + free its bitmap
+  ;so it doesn't linger over the InstFiles/Finish pages (control lives on $HWNDPARENT).
+  !insertmacro DestroyWindow $HWNDPARENT ${IDC_BITMAP}
+  System::Call `gdi32::DeleteObject(i $Image)`
+  StrCpy $Image 0
+FunctionEnd
+
 Var ttip
 Var ttext
 Var ttext2
@@ -10911,7 +10591,7 @@ Push $5
   ; save original number for comparison
   Push $R1
   ; XOR both results, find out which sections changed
-  IntOp $R3 $R2 ^ $R1
+  IntOp $R3 $FONTBASE ^ $R1
 
   ${For} $R0 0 ${SECTIONCOUNT}
 
@@ -10922,62 +10602,9 @@ ${If} $R4 == 1
 	IntOp $R5 $R1 & 1
 	SectionGetText $R0 $R6
 
-	;messagebox mb_ok "$R0 + $R6"
 	${If} $R5 == 1
 		${Switch} $R0
-		${Case} 5
-		        StrCpy $FontBMP "ydygo550.bmp"
-		${IfNot} $R0 == $6
-			SectionGetFlags $6 $5
-        		IntOp $5 $5 & ${SECTION_OFF}
-			SectionSetFlags $6 $5
-			SectionGetFlags $R0 $5
-			IntOp $5 $5 & ${SF_SELECTED}
-			IntCmp $5 ${SF_SELECTED} 0 +2 +2
-			StrCpy $6 $R0
-			goto startsel
-		${EndIf}
-		${Break}
-		${Case} 6
-		        StrCpy $FontBMP "whiterabbit.bmp"
-		${IfNot} $R0 == $6
-			SectionGetFlags $6 $5
-        		IntOp $5 $5 & ${SECTION_OFF}
-			SectionSetFlags $6 $5
-			SectionGetFlags $R0 $5
-			IntOp $5 $5 & ${SF_SELECTED}
-			IntCmp $5 ${SF_SELECTED} 0 +2 +2
-			StrCpy $6 $R0
-			goto startsel
-		${EndIf}
-		${Break}
-		${Case} 7
-		        StrCpy $FontBMP "interstate.bmp"
-		${IfNot} $R0 == $6
-			SectionGetFlags $6 $5
-        		IntOp $5 $5 & ${SECTION_OFF}
-			SectionSetFlags $6 $5
-			SectionGetFlags $R0 $5
-			IntOp $5 $5 & ${SF_SELECTED}
-			IntCmp $5 ${SF_SELECTED} 0 +2 +2
-			StrCpy $6 $R0
-			goto startsel
-		${EndIf}
-		${Break}
-		${Case} 8
-                        StrCpy $FontBMP "tiara.bmp"
-		${IfNot} $R0 == $6
-			SectionGetFlags $6 $5
-        		IntOp $5 $5 & ${SECTION_OFF}
-			SectionSetFlags $6 $5
-			SectionGetFlags $R0 $5
-			IntOp $5 $5 & ${SF_SELECTED}
-			IntCmp $5 ${SF_SELECTED} 0 +2 +2
-			StrCpy $6 $R0
-			goto startsel
-		${EndIf}
-		${Break}
-		${Case} 9
+		${Case} 4 ; uotiara
 		        StrCpy $FontBMP "uotiara.bmp"
 		${IfNot} $R0 == $6
 			SectionGetFlags $6 $5
@@ -10990,8 +10617,8 @@ ${If} $R4 == 1
 			goto startsel
 		${EndIf}
 		${Break}
-		${Case} 10
-		        StrCpy $FontBMP "fudd.bmp"
+		${Case} 5 ; tiara
+		        StrCpy $FontBMP "tiara.bmp"
 		${IfNot} $R0 == $6
 			SectionGetFlags $6 $5
         		IntOp $5 $5 & ${SECTION_OFF}
@@ -11003,8 +10630,8 @@ ${If} $R4 == 1
 			goto startsel
 		${EndIf}
 		${Break}
-		${Case} 11
-			StrCpy $FontBMP "powerred.bmp"
+		${Case} 6 ; ydygo550
+		        StrCpy $FontBMP "ydygo550.bmp"
 		${IfNot} $R0 == $6
 			SectionGetFlags $6 $5
         		IntOp $5 $5 & ${SECTION_OFF}
@@ -11016,48 +10643,36 @@ ${If} $R4 == 1
 			goto startsel
 		${EndIf}
 		${Break}
-		${Case} 12
-		        ;StrCpy $AutoBot 1
+		${Case} 7 ; whiterabbit
+			StrCpy $FontBMP "whiterabbit.bmp"
+		${IfNot} $R0 == $6
+			SectionGetFlags $6 $5
+        		IntOp $5 $5 & ${SECTION_OFF}
+			SectionSetFlags $6 $5
+			SectionGetFlags $R0 $5
+			IntOp $5 $5 & ${SF_SELECTED}
+			IntCmp $5 ${SF_SELECTED} 0 +2 +2
+			StrCpy $6 $R0
+			goto startsel
+		${EndIf}
 		${Break}
 		${EndSwitch}
 	${Else}
 		${Switch} $R0
+		${Case} 4
 		${Case} 5
-		RMDir /r "$INSTDIR\data\gfx\font"
-		${Break}
 		${Case} 6
-		RMDir /r "$INSTDIR\data\gfx\font"
-		${Break}
 		${Case} 7
 		RMDir /r "$INSTDIR\data\gfx\font"
 		${Break}
-		${Case} 8
-		RMDir /r "$INSTDIR\data\gfx\font"
-		${Break}
-		${Case} 9
-		RMDir /r "$INSTDIR\data\gfx\font"
-		${Break}
-		${Case} 10
-                RMDir /r "$INSTDIR\data\gfx\font"
-		${Break}
-		${Case} 11
-		RMDir /r "$INSTDIR\data\gfx\font"
-		${Break}
-		${Case} 12
-			;StrCpy $AutoBot 0
-		${Break}
 		${EndSwitch}
-			;SectionGetFlags ${ML} $8
-		        ;SectionGetFlags ${MP} $9
-		        ;SectionGetFlags ${dp} $7
-		        ;SectionGetFlags ${RO} $4
 	${EndIf}
 ${EndIf}
     ; go to next section
     IntOp $R3 $R3 >> 1
     IntOp $R1 $R1 >> 1
   ${Next}
-  Pop $R2
+  Pop $FONTBASE
 Pop $5
 ${FontBMPChange} $FontBMP
 FunctionEnd
@@ -11212,8 +10827,7 @@ EndNewVersion3:
 !insertmacro SetSectionInInstType "${SECTION1}" "${INSTTYPE_1}"
 Push $5
 Call .onSelChange
-!insertmacro SaveSections $R2
-;Disable Abyss Selection
+!insertmacro SaveSections $FONTBASE
 ;SectionGetFlags ${MOD432} $7
 ;IntOp $7 $7 | ${SECTION_OFF}
 ;SectionSetFlags ${MOD432} $7
@@ -11225,7 +10839,6 @@ Call .onSelChange
 ;SectionGetFlags ${MOD434} $7
 ;IntOp $7 $7 | ${SECTION_OFF}
 ;SectionSetFlags ${MOD434} $7
-;Disable Kanan Selection
 ;SectionGetFlags ${MOD435} $7
 ;IntOp $7 $7 | ${SECTION_OFF}
 ;SectionSetFlags ${MOD435} $7
@@ -11325,9 +10938,6 @@ closeclient:
 	File /oname=ydygo550.bmp "misc\fonts\ydygo550.bmp"
 	File /oname=uotiara.bmp "misc\fonts\uotiara.bmp"
 	File /oname=tiara.bmp "misc\fonts\tiara.bmp"
-	File /oname=powerred.bmp "misc\fonts\powerred.bmp"
-	File /oname=fudd.bmp "misc\fonts\fudd.bmp"
-	File /oname=interstate.bmp "misc\fonts\interstate.bmp"
 	File /oname=whiterabbit.bmp "misc\fonts\whiterabbit.bmp"
 	InitPluginsDir
 	File /oname=$PLUGINSDIR\1.bmp "${screenimage}"
@@ -11401,6 +11011,64 @@ Delete "$INSTDIR\data\db\layout2\gameclock\GameClockView_Weather.xml"
 Delete "$INSTDIR\data\db\ai\local\aidescdata_autobot_vocaloid.xml"
   ;Reads components status for registry
   !insertmacro SectionList "InitSection"
+  ;Enforce single-font selection + sync tracker $6/preview to the registry-restored font.
+  ;Registry keys by MOD name (Components\MOD43x\Installed) so it survives index shifts.
+  ;Winner = the restored font; ydygo550 (6) evaluated last so it wins ties / no-registry.
+  ;Font indices after the "Fonts" group header: uotiara=4 tiara=5 ydygo550=6 whiterabbit=7.
+  StrCpy $6 0
+  SectionGetFlags 4 $1
+  IntOp $1 $1 & ${SF_SELECTED}
+  ${If} $1 == ${SF_SELECTED}
+    StrCpy $6 4
+  ${EndIf}
+  SectionGetFlags 5 $1
+  IntOp $1 $1 & ${SF_SELECTED}
+  ${If} $1 == ${SF_SELECTED}
+    StrCpy $6 5
+  ${EndIf}
+  SectionGetFlags 7 $1
+  IntOp $1 $1 & ${SF_SELECTED}
+  ${If} $1 == ${SF_SELECTED}
+    StrCpy $6 7
+  ${EndIf}
+  SectionGetFlags 6 $1
+  IntOp $1 $1 & ${SF_SELECTED}
+  ${If} $1 == ${SF_SELECTED}
+    StrCpy $6 6
+  ${EndIf}
+  ${If} $6 == 0
+    StrCpy $6 6
+  ${EndIf}
+  ;Deselect every font, then re-select only the winner (heals a multi-font registry)
+  SectionGetFlags 4 $1
+  IntOp $1 $1 & ${SECTION_OFF}
+  SectionSetFlags 4 $1
+  SectionGetFlags 5 $1
+  IntOp $1 $1 & ${SECTION_OFF}
+  SectionSetFlags 5 $1
+  SectionGetFlags 6 $1
+  IntOp $1 $1 & ${SECTION_OFF}
+  SectionSetFlags 6 $1
+  SectionGetFlags 7 $1
+  IntOp $1 $1 & ${SECTION_OFF}
+  SectionSetFlags 7 $1
+  SectionGetFlags $6 $1
+  IntOp $1 $1 | ${SF_SELECTED}
+  SectionSetFlags $6 $1
+  ;Preview bmp for the winning font
+  StrCpy $FontBMP "ydygo550.bmp"
+  ${If} $6 == 4
+    StrCpy $FontBMP "uotiara.bmp"
+  ${EndIf}
+  ${If} $6 == 5
+    StrCpy $FontBMP "tiara.bmp"
+  ${EndIf}
+  ${If} $6 == 7
+    StrCpy $FontBMP "whiterabbit.bmp"
+  ${EndIf}
+  ${FontBMPChange} $FontBMP
+  ;Refresh the .onSelChange baseline (dedicated $FONTBASE var; $R2 gets clobbered by GetTime in DumpLog)
+  !insertmacro SaveSections $FONTBASE
 StrCpy $R7 "End myonguiinit"
 Call DumpLog1
 FunctionEnd
@@ -11485,33 +11153,6 @@ SetOutPath "$INSTDIR"
 CreateDirectory "$SMPROGRAMS\Unofficial Tiara"
 CreateShortCut "$SMPROGRAMS\Unofficial Tiara\Unofficial Tiara.lnk" "$INSTDIR\Archived\UOTiara\UOSetup.exe" "" "$INSTDIR\Archived\UOTiara\UOSetup.exe" "0" "SW_SHOWNORMAL" "ALT|CONTROL|F7" "UOSetup.exe"
 CreateShortCut "$DESKTOP\Unofficial Tiara.lnk" "$INSTDIR\Archived\UOTiara\UOSetup.exe" "" "$INSTDIR\Archived\UOTiara\UOSetup.exe" "0" "SW_SHOWNORMAL" "ALT|CONTROL|F7" "UOSetup.exe"
-
-
-IfFileExists $INSTDIR\Kanan\Kanan.dll KananFound3 KananNotFound3
-KananFound3:
-${If} $AbyssLoadKanan == "1"
-StrCpy $R7 ".oninstsuccess Execute Abyss.ini PATCH LoadDLL=Kanan\Kanan.dll"
-Call DumpLog1
-WriteINIStr "$INSTDIR\Abyss.ini" "PATCH" "LoadDLL" "Kanan\Kanan.dll"
-goto AbyssEnd3
-${EndIf}
-AbyssEnd3:
-${If} $LibLoaderLoadKanan == "1"
-StrCpy $R7 ".oninstsuccess Execute Loader.cfg Loader Files=Kanan.dll"
-Call DumpLog1
-WriteINIStr "$INSTDIR\Loader.cfg" "Loader" "Files" "Kanan.dll"
-goto Lib-LoaderEnd3
-${EndIf}
-IfFileExists $INSTDIR\Kanan\Kanan.dll KananFound5 KananNotFound5
-KananFound5:
-MessageBox MB_YESNO "Would you like to Run Loader.exe?" IDNO no7
-StrCpy $R7 ".oninstsuccess Execute Loader.exe"
-Call DumpLog1
-ExecShell "" "$DESKTOP\Loader.exe.lnk"
-no7:
-Lib-LoaderEnd3:
-KananNotFound3:
-KananNotFound5:
 
 
 StrCpy $R7 ".oninstsuccess Execute Launchers"
@@ -11617,56 +11258,7 @@ Push $R7
   Pop $5
 FunctionEnd
 
-Function KananEnableData
-IfFileExists "$INSTDIR\Kanan\config.txt" KananFound2 KananNotFound2
-KananNotFound2:
-FileOpen $9 $INSTDIR\Kanan\config.txt w
-FileWrite $9 "UseDataFolder.Enabled=true$\r$\n"
-FileWrite $9 "FasterNetworking.Enabled=false$\r$\n"
-FileClose $9
-KananFound2:
-ClearErrors
-FileOpen $0 "$INSTDIR\Kanan\config.txt" "r"
-GetTempFileName $R0
-FileOpen $1 $R0 "w"
-KananEnableDataloop:
-   FileRead $0 $2
-   IfErrors KananEnableDatadone
-   StrCmp $2 "UseDataFolder.Enabled=false$\r$\n" 0 +2
-      StrCpy $2 "UseDataFolder.Enabled=true$\r$\n"
-   StrCmp $2 "UseDataFolder.Enabled=false" 0 +2
-      StrCpy $2 "UseDataFolder.Enabled=true"
-   StrCmp $2 "FasterNetworking.Enabled=true$\r$\n" 0 +2
-      StrCpy $2 "FasterNetworking.Enabled=false$\r$\n"
-   StrCmp $2 "FasterNetworking.Enabled=true" 0 +2
-      StrCpy $2 "FasterNetworking.Enabled=false"
-   FileWrite $1 $2
-   Goto KananEnableDataloop
 
-KananEnableDatadone:
-   FileClose $0
-   FileClose $1
-   Delete "$INSTDIR\Kanan\config.txt"
-   CopyFiles /SILENT $R0 "$INSTDIR\Kanan\config.txt"
-   Delete $R0
-FunctionEnd
-
-Function HyddwnIgnoreAbyss
-IfFileExists "$INSTDIR\CrashReporter.dat" AbyssFound13 AbyssNotFound13
-AbyssFound13:
-IfFileExists "$INSTDIR\Hyddwn Launcher\patchignore.json" HyddwnFound3 HyddwnNotFound3
-HyddwnNotFound3:
-   SetOutPath "$INSTDIR\Hyddwn Launcher"
-   File "${srcdir}\Tiara's Moonshine Mod\Tools\Hyddwn\patchignore.json"
-HyddwnFound3:
-   ${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
-   CreateDirectory "$INSTDIR\Archived\Hyddwn Launcher"
-   CopyFiles /SILENT "$INSTDIR\Hyddwn Launcher\patchignore.json" "$INSTDIR\Archived\Hyddwn Launcher\patchignore($2$1$0$4$5$6).json"
-   ;Delete "$INSTDIR\Hyddwn Launcher\patchignore.json"
-   SetOutPath "$INSTDIR\Hyddwn Launcher"
-   File "${srcdir}\Tiara's Moonshine Mod\Tools\Hyddwn\patchignore.json"
-AbyssNotFound13:
-FunctionEnd
 
 Function HyddwnIgnoreLib-Loader
 IfFileExists "$INSTDIR\nps64.dat" Lib-LoaderFound13 Lib-LoaderNotFound13
@@ -11752,51 +11344,6 @@ Delete "$INSTDIR\Hyddwn Launcher\HL.zip"
 Delete "$INSTDIR\HL.zip"
 FunctionEnd
 
-Function CreateAllowFirewall
-StrCpy $R7 'powershell Add-MpPreference -ExclusionPath $INSTDIR'
-Call AllowFirewall
-StrCpy $R7 'netsh advfirewall firewall add rule name="Mabinogi Abyss Patch by Blade3575" dir=in action=allow program="$INSTDIR\CrashReporter.dll" enable=yes profile=private,public'
-Call AllowFirewall
-StrCpy $R7 'netsh advfirewall firewall add rule name="${UOSHORTNAME}" dir=in action=allow program="$EXEDIR\$EXEFILE" enable=yes profile=private,public'
-Call AllowFirewall
-StrCpy $R7 'netsh advfirewall firewall add rule name="Mabinogi" dir=in action=allow program="$INSTDIR" enable=yes profile=private,public'
-Call AllowFirewall
-FunctionEnd
-
-Function AllowFirewall
-Push $R7
-  ${GetTime} "" "L" $R0 $R1 $R2 $R3 $R4 $R5 $R6
-  StrCpy $5 "AllowFirewall.bat"
-  Push $5
-  FileOpen $5 $5 "a"
-  FileSeek $5 0 END
-  FileWrite $5 "$R7$\r$\n"
-  FileClose $5
-  Pop $R7
-  Pop $5
-FunctionEnd
-
-Function CreateDisableFirewall
-StrCpy $R7 'netsh.exe advfirewall firewall delete rule "Mabinogi Abyss Patch by Blade3575"'
-Call DisableFirewall
-StrCpy $R7 'netsh advfirewall firewall delete rule "${UOSHORTNAME}"'
-Call DisableFirewall
-StrCpy $R7 'netsh advfirewall firewall delete rule "Mabinogi"'
-Call DisableFirewall
-FunctionEnd
-
-Function DisableFirewall
-Push $R7
-  ${GetTime} "" "L" $R0 $R1 $R2 $R3 $R4 $R5 $R6
-  StrCpy $5 "DisableFirewall.bat"
-  Push $5
-  FileOpen $5 $5 "a"
-  FileSeek $5 0 END
-  FileWrite $5 "$R7$\r$\n"
-  FileClose $5
-  Pop $R7
-  Pop $5
-FunctionEnd
 
 Function UOTiaraPackBuild
 Delete "$INSTDIR\UOTiaraPack.bat"
@@ -11845,39 +11392,7 @@ Push $R7
   Pop $5
 FunctionEnd
 
-Function KananShellBuild
-Delete "$INSTDIR\Update_Kanan.ps1"
-StrCpy $R7 "$$kananUrl = 'https://github.com/cursey/kanan-new/releases/latest/download/kanan.zip'"
-Call KananShell
-StrCpy $R7 "$$downloadLocation = '$INSTDIR'"
-Call KananShell
-StrCpy $R7 "$$ArchiveLocation = '$INSTDIR\Logs\Kanan'"
-Call KananShell
-StrCpy $R7 "$$ZipFile = $downloadLocation + '\kanan.zip'"
-Call KananShell
-StrCpy $R7 "Invoke-WebRequest -Uri $kananUrl -OutFile $ZipFile"
-Call KananShell
-StrCpy $R7 "Expand-Archive $ZipFile -DestinationPath $downloadLocation\Kanan -Force"
-Call KananShell
-StrCpy $R7 "if (Test-Path $ZipFile) {Remove-Item -Path $ZipFile}"
-Call KananShell
-${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
-StrCpy $R7 "if (Test-Path $downloadLocation\Kanan\log.txt) {Copy-Item -Path $downloadLocation\Kanan\log.txt -Destination $$ArchiveLocation\log-$2$1$0$4$5$6.txt}"
-Call KananShell
-FunctionEnd
 
-Function KananShell
-Push $R7
-  ${GetTime} "" "L" $R0 $R1 $R2 $R3 $R4 $R5 $R6
-  StrCpy $5 "Update_Kanan.ps1"
-  Push $5
-  FileOpen $5 $5 "a"
-  FileSeek $5 0 END
-  FileWrite $5 "$R7$\r$\n"
-  FileClose $5
-  Pop $R7
-  Pop $5
-FunctionEnd
 
 Function StrStr
 /*After this point:
@@ -11958,17 +11473,6 @@ Function StrContains
    Exch $STR_RETURN_VAR
 FunctionEnd
 
-Function FileSizeNew
-
-  Exch $0
-  Push $1
-  FileOpen $1 $0 "r"
-  FileSeek $1 0 END $0
-  FileClose $1
-  Pop $1
-  Exch $0
-
-FunctionEnd
 !insertmacro MUI_LANGUAGE "English"
 !endif
 ; eof

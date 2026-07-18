@@ -4910,6 +4910,9 @@
 6962	During the Generation 20 "Gate of Sanctuary" storyline, complete the "Eternal Memories" quest.
 6964	HP Recovery
 6966	Defense
+6967	Vocalist
+6968	An action that allows you to strike a special pose.
+6969	An action that allows you to strike a special pose.
 6970	Divine Link
 6971	You cannot use this skill right now. Continue playing through the main storyline to unlock it.
 6972	This skill links the souls of two beings, enabling them to share memories and experiences. This deeper level of communication allows each to more fully realize their innermost potential. Typically, the linking of souls requires a special object to serve as a medium, but no such ritual implement is required to connect with your own pets. When linked, both caster and pet will see an increase in their stats, and when the caster defeats an enemy, the pet will receive the same amount of EXP from it. The linked pet will enjoy a substantial increase in its Defense and Protection, and will keep its owner safe by drawing the attention of nearby foes. These effects will vary depending on both the pet's stats and the rank of Divine Link.
@@ -4964,6 +4967,47 @@
 7045	터져줘!
 7046	도와줘!
 7047	때려줘!
+7048	낚시
+7049	야생 동물 조련
+7050	야금술
+7051	희귀 광물학
+7052	실리엔 생태학
+7053	스타 캐스팅
+7054	탐사
+7055	이리아의 해변이나 강가에서 [광석 조각]을 채집하는 스킬로 잡화점에서 살 수 있는 [야금용 체]를 오른손에 착용하면 사용할 수 있다. 발견되는 광석 조각은 철, 동, 은, 금, 미스릴 광석 조각 등이며 이 조각들을 마을에 설치된 노에서 괴로 제련할 수 있다. 아주 드물게 [보석]도 채집할 수 있는데 날씨, 시간, 장소 등에 따라 발견되는 보석의 종류가 다르다. 보석은 세월의 흔적이 담긴만큼 정령 무기에게 주면 여러가지 경험치가 대폭 증가하고, 마을 주민에게 선물하면 다양한 반응과 함께 몇몇은 선물도 준다.
+7056	도구를 사용하여 숨겨져 있는 사물을 찾아내는 스킬이다. L 로드를 들고 그 탐지음과 빛 반응을 주시하며 지역을 탐색하다 보면 그 반응이 커지면서 자주 발생하게 되는데, 탐지음이 네 번 연속 '삐 삐 삐 삐' 울리는 것이 바로 근처에 유물이 숨겨져 있다는 신호이다. 이 때 X키를 누르고 마우스 커서로 바닥을 클릭하면 그 근처에 있는 유적을 L 로드의 힘으로 나타내게 할 수 있다. 유물이 나타나지 않으면 다른 가까운 곳을 찍어보자.
+7057	낚시는 물 속을 헤엄쳐 다니는 물고기를 잡아올릴 때 요긴한 스킬이다. 낚시대와 미끼만 있으면 낚시를 쉽게 시작할 수 있지만, 잘 하기 위해서는 더 많은 것이 필요하다. 미끼를 알맞게 다는 데에서 시작해 낚시에 알맞은 장소를 고르는 판단력을 갖춰야 하고, 준비를 갖춘 다음 물고기가 걸릴 때까지 조급하지 않게 기다릴 수도 있어야 한다. 여기에 일단 물고기가 낚이면 힘으로 맞서오는 물고기를 한 가닥 낚시줄에 지혜를 실어 순발력 있게 낚아올리는 법에 익숙해져야 한다. 많은 사람들이 노련한 낚시꾼을 세상사에 통달한 사람이라 부르는 이유가 여기에 있다.
+7058	동물을 조련하는 스킬이다. 오른손에 조련 막대, 왼손에 조련용 미끼를 들고 동물에게 사용해보자. 던전 몬스터를 조련하면 던전 진행이 불가능할 수도 있으니 유의해야한다.
+7059	이리아의 해변이나 강가에서 [광석 조각]을 채집하는 스킬로 잡화점에서 살 수 있는 [야금용 체]를 오른손에 착용하면 사용할 수 있다. 발견되는 광석 조각은 철, 동, 은, 금, 미스릴 광석 조각 등이며 이 조각들을 마을에 설치된 노에서 괴로 제련할 수 있다. 아주 드물게 [보석]도 채집할 수 있는데 날씨, 시간, 장소 등에 따라 발견되는 보석의 종류가 다르다. 보석은 세월의 흔적이 담긴만큼 정령 무기에게 주면 여러가지 경험치가 대폭 증가하고, 마을 주민에게 선물하면 다양한 반응과 함께 몇몇은 선물도 준다.
+7060	힐웬 광산의 희귀 광물을 채집해 연구하는 스킬. 광석을 채집하기 위해서는 [채광 드릴]이 필요하다.
+7061	실리엔 생태 보호 지구의 동식물의 표본을 채집해 연구하는 스킬. 식물 표본을 채집하기 위해서는 [벼락 맞은 떡갈나무 지팡이]가 필요하다.
+7062	점성술사의 기교가 보여지는 스킬. 물에 비친 별을 투영하고 잔상을 낚아올린다. 별의 의미를 찾는 능력이 클수록 더 많은 잔상들을 얻을 수 있다. 물에 비친 별을 투영하기 위해 스킬은 밤에만 사용할 수 있다.
+7063	도구를 사용하여 숨겨져 있는 사물을 찾아내는 스킬이다. L 로드를 들고 그 탐지음과 빛 반응을 주시하며 지역을 탐색하다 보면 그 반응이 커지면서 자주 발생하게 되는데, 탐지음이 네 번 연속 '삐 삐 삐 삐' 울리는 것이 바로 근처에 유물이 숨겨져 있다는 신호이다. 이 때 X키를 누르고 마우스 커서로 바닥을 클릭하면 그 근처에 있는 유적을 L 로드의 힘으로 나타내게 할 수 있다. 유물이 나타나지 않으면 다른 가까운 곳을 찍어보자.
+7064	잡화점에서 판매하는 [낚싯대]를 장비한다.
+7065	쿠르클레 코르 마을의 [투파이]가 판매하는 [쿠르클레 조련 지팡이]를 장비한다.
+7066	켈라 베이스 캠프의 [에피]에게 [야금용 체]를 구매하여 장착한다.
+7067	힐웬 광산의 그랜드마스터 엔지니어에게 [채광 드릴]을 구매하여 장착해본다.
+7068	실리엔 생태 보호 지구의 그랜드마스터 마법학자에게 [벼락맞은 떡갈나무 지팡이]를 구매하여 장착해본다.
+7069	운명 점성술 재능 시나리오 퀘스트 중 [작은 의지의 지팡이] 퀘스트를 완료한다.
+7070	물고기 크기
+7071	가능 거리
+7072	성공률
+7073	채집 성공률
+7074	채집 성공률
+7075	수동 낚시 추가 보상
+7076	탐사 범위
+7077	입질 확률
+7078	유지 시간
+7079	1회 최대 채집량
+7080	입질 확률
+7081	자동 낚시 성공 확률
+7082	성공률
+7083	보너스 채집 확률
+7084	보너스 채집 확률
+7085	자동 낚시 성공 확률
+7086	자동 낚시 물고기 크기 제한
+7087	수동 낚시 추가 보상
+7088	범위
 7090	Palalan Embrace
 7091	A skill that harnesses the light of Palala. Use it to gain special effects.
 7092	You have reached Potential Level 30!
@@ -4975,6 +5019,48 @@
 7098	모모가 당근 폭탄을 설치하는 스킬. 폭탄 설치 시 일정 시간 동안 주인의 이동 속도와 공격 속도가 증가한다. 이후 적이 당근 폭탄 위를 지나가면, 폭탄이 폭발하여 대미지를 입히고 이동 속도를 감소시킨다.
 7099	모모가 모래바람을 일으키며 주인에게 이동하는 스킬. 모모는 현재 위치와 관계없이 즉시 주인 곁으로 이동하며, 도착 시 주변 적을 실명시킨다.
 7100	모모가 특별한 도움을 받는 스킬. 일정 시간 동안 모모가 적을 공격할 때, 확률적으로 작은 모모가 소환된다. 작은 모모는 주변 적을 기본 공격으로 공격하며 주인을 보조한다. 모모의 누적 성장 수치에 따라 소환되는 작은 모모의 수가 증가한다.
+7101	Prestige Action
+7102	Displays the exclusive animation and visual effects of the Prestige Outfit Set.
+7103	Displays the exclusive animation and visual effects of the Prestige Outfit Set.
+7104	Bullet Barrage
+7105	Heavy Artillery
+7106	Calamity Cannon
+7107	Fatal Scope
+7108	Tracer Pod
+7109	Detonation Field
+7110	Gunner's Crest
+7111	Elemental Compounding
+7112	Compound Catalyst
+7113	Elemental Amplification
+7114	Serpentcall
+7115	Chemical Carnival
+7116	Fangs of Stone
+7117	A skill that rapidly fires Mana Bullets using a special weapon with a rotating multi-barrel structure created through transmutation. The hail of magic bullets fired in rapid succession from the spinning barrels suppresses enemies unfortunate enough to find themselves in the line of fire.
+7118	A skill that fires a high-energy mass condensed from Mana Bullets at a steep angle, causing it to descend to the targeted zone in an arc. The projectiles unleash a powerful explosion upon impact, dealing devastating damage across a large area. These munitions are fired from a special high-angle artillery launcher, created using transmutation, in order to ensure stability and control of the trajectory.
+7119	Detonates Mana Bullets within the chamber of a special cannon created through transmutation, propelling the explosive force outward in a straight line. As the compressed energy is ejected, it devastates all enemies in range with intense shock and searing heat.
+7120	A sniping attack that targets an enemy's weak points with precision shots. With a mana-enhanced field of vision, this skill employs intense concentration to detect and target an enemy's vulnerabilities. The precise shot is delivered through a long-barreled firearm created through transmutation, and is delivered with enough force to pierce not only the primary target, but also any enemies positioned in the line of fire. While aiming a precision shot takes time, a sure hit against a foe's vitals is sure to inflict tremendous damage.
+7121	Constructs and launches a small device used to guide and detonate Mana Bullets, using energy generated from creating special firearms through transmutation. This device adjusts the trajectory of Mana Bullets, boosting their accuracy and amplifying their destructive power. The tracer absorbs a portion of the energy from the Mana Bullets that hit the target, eventually triggering a powerful explosion that inflicts significant damage.
+7122	Disperses the energy generated from the transmutation of special firearms to create a circular field. Attacks from transmuted firearms will be amplified by the field in unique ways that vary depending on the skill. As the wavelength of the energy harnessed to create this field is unique to each caster, an Arsenal Gunner is only capable of triggering the effects of their own Detonation Fields.
+7123	Imbues one's Dual Guns with the energy generated from the transmutation of special firearms. Increases the range of Gunslinger Talent skills and causes Normal Attacks to deal increased damage not only to the primary target but also enemies near them.
+7124	A skill that serves to regulate the anomalous phenomena generated by a Forbidden Alchemist's abilities. This skill utilizes both alchemy crystals and herbs to reliably manage the unpredictable effects and unstable energies generated through use of Forbidden Alchemy skills, while also enabling more powerful control over specific properties. Alchemy Crystals provide pure and potent elemental energy, while herbs add the harmonious power of nature, gently tuning the compounding formula according to the alchemist's intent. Because of this, a Forbidden Alchemist's skills can be employed in many ways, with a diverse number of effects, depending on how the formula is configured.
+7125	A skill that lobs a transmuted catalyst imbued with special effects based on the Elemental Compounding formula. The effects vary depending on how an alchemist has personally configured their formula, capable of both strengthening oneself and weakening enemies. This exceptional flexibility allows the skill to be used strategically, bolstering an alchemist's weaknesses or further amplifying their strengths.
+7126	A skill that both greatly amplifies and directly harnesses the desired element from among the four classical elements of alchemy, enhancing it to such an extent that it transcends the limits of traditional alchemy. While catalyzing this effect consumes elemental crystals, the process grants one access to alchemical power beyond the boundaries of what can be achieved through alchemical science alone.
+7127	A skill available only to those who have reached the pinnacle of alchemy. It consumes all built up elemental energy to briefly transmute the legendary entities known as Ouroboros in a semi-spectral form to attack enemies. The effects catalyzed by the appearance of the Ouroboros serpents vary depending on the amount of elemental energy consumed. Controlling the immense energy released by this skill requires a refined mastery of the Flame Burst skill, and as such, Serpentcall is affected by Flame Burst's damage and duration.
+7128	Chemical Carnival is a skill in which the alchemist throws a vial containing a reagent crafted using their own Elemental Compounding formula, dealing massive damage to the target and any enemies near it. The use of this reagent harnesses the explosive energy of the Heat Buster skill, utilizing the high pressure inside the cylinder's chamber to further amplify the energy of the unique combination of elemental crystals and herbs. The amplified energy instantly incinerates the surrounding area with intense thermal energy the moment it destabilizes. As the use of this skill relies upon understanding the fundamental principles of Heat Buster, it is affected by Heat Buster's damage.
+7129	Fangs of Stone is a skill that utilizes one's Elemental Compounding formula to cause jagged rocks to erupt from the ground at a specified location. The force and orientation of these stone fangs inflict damage on all targets in the affected area while pulling them toward the center. To transmute rocks dense and sharp enough to pierce even armor, it draws on the fundamentals of the Water Cannon skill, which is able to turn even water into a high-velocity projectile with a heavy impact. As such, it is affected by Water Cannon's damage.
+7130	Raise the Arsenal Gunner Arcana to Level 4 or higher.
+7131	Raise the Arsenal Gunner Arcana to Level 5 or higher.
+7132	Raise the Arsenal Gunner Arcana to Level 2 or higher.
+7133	Raise the Arsenal Gunner Arcana to Level 3 or higher.
+7134	Raise the Arsenal Gunner Arcana to Level 4 or higher.\n
+7135	Temp
+7136	Temp
+7137	Temp
+7138	Temp
+7139	Temp
+7140	Temp
+7141	Transform with Equipment
+7142	Change into another form while holding some Equipment Items.
 7143	메모리얼 링크
 7144	지금은 사용할 수 없는 스킬이다. 추억담을 진행해 보자.
 7145	블로니의 힘으로 만들어낸 영혼을 연결하는 유대감의 스킬이다. 연결된 영혼들은 교감을 통해 서로의 기억과 경험을 공유하며, 내면에 잠재되어 있던 힘을 한계까지 발휘할 수 있게 된다. 영혼이 연결된 펫과 시전자는 여러 능력치가 상승하며 펫은 시전자가 적을 처치하여 얻은 경험치를 동일하게 얻을 수 있다. 또한 펫은 방어와 보호가 크게 증가한 채로 시전자를 인식한 적의 주의를 끌어 적으로부터 주인을 보호한다. 단, 이러한 효과들은 펫의 능력치와 레벨, 메모리얼 링크 랭크에 영향을 받으므로 이를 유념하도록 하자. 디바인 링크와 같은 원리로 동작하는 것으로 보아, 디바인 링크와 동시에 보유할 수는 없어 보인다.
@@ -4982,3 +5068,123 @@
 7147	로즈 위스퍼
 7148	임시
 7149	임시
+7150	Clash of Division
+7151	Feather Storm
+7152	Dance of Feathers
+7153	Eternal Judgment
+7154	Temp
+7155	Temp
+7156	Temp
+7157	Temp
+7158	Gorias Imaging
+7159	Crioch entrusted you with a Photostatic Imager, a curious device created in Gorias. Using this device allows one to capture an exact likeness of a scene, object, or individual on a sheet of paper through a process different from drawing or painting. Use it to record any points of interest you find in Gorias.
+7160	Crioch entrusted you with a Photostatic Imager, a curious device created in Gorias. Using this device allows one to capture an exact likeness of a scene, object, or individual on a sheet of paper through a process different from drawing or painting. Use it to record any points of interest you find in Gorias.
+7161	Commander Skill: Summon Meteor
+7162	Commander Skill: Battlefield Stasis
+7163	Commander Skill: Battle Cry
+7164	Trace a mysterious sigil with your fingertips, calling down a meteor from the heavens. Where it falls to earth is entirely up to you.
+7165	At your command, all enemies within the targeted area are momentarily stopped, as if frozen in place. This could be the window of opportunity your troops need to press the attack.
+7166	Gather your strength and shout with such force that your voice can be heard over the din of the battlefield. This rallying cry significantly increases the attack power of your deployed troops, making each ally all the more capable.
+7186	Activation: Flash
+7187	Command: Storm
+7188	Execute: Judgment
+7189	Crushing Arm
+7190	Hydro Spiral
+7191	Bombarding Burst
+7192	Iron Charge: Right
+7193	Iron Charge: Left
+7194	물 뿌리기
+7195	거름 주기
+7196	벌레 잡기
+7197	청결 관리하기
+7198	온도 조절하기
+7199	음악 들려주기
+7200	물뿌리개로 물을 뿌려 작물과 토양을 촉촉한 상태로 만든다. 탈틴 농장에서만 사용할 수 있다.
+7201	거름을 골고루 주어 흙에 영양분을 제공한다. 탈틴 농장에서만 사용할 수 있다.
+7202	작물에 병을 옮기거나 해를 주는 벌레를 잡아내어 작물을 보호한다. 탈틴 농장에서만 사용할 수 있다.
+7203	작물의 위생을 확인하여 각종 오염을 예방한다. 탈틴 농장에서만 사용할 수 있다.
+7204	갑작스러운 온도 변화에 작물이 병들지 않도록 주위 온도를 조절한다. 탈틴 농장에서만 사용할 수 있다.
+7205	작물이 편안한 분위기에서 쑥쑥 성장할 수 있도록 음악을 들려준다. 탈틴 농장에서만 사용할 수 있다.
+7206	물뿌리개로 물을 뿌려 작물과 토양을 촉촉한 상태로 만든다. 탈틴 농장에서만 사용할 수 있다.
+7207	거름을 골고루 주어 흙에 영양분을 제공한다. 탈틴 농장에서만 사용할 수 있다.
+7208	작물에 병을 옮기거나 해를 주는 벌레를 잡아내어 작물을 보호한다. 탈틴 농장에서만 사용할 수 있다.
+7209	작물의 위생을 확인하여 각종 오염을 예방한다. 탈틴 농장에서만 사용할 수 있다.
+7210	갑작스러운 온도 변화에 작물이 병들지 않도록 주위 온도를 조절한다. 탈틴 농장에서만 사용할 수 있다.
+7211	작물이 편안한 분위기에서 쑥쑥 성장할 수 있도록 음악을 들려준다. 탈틴 농장에서만 사용할 수 있다.
+7212	수확하기
+7213	응원의 연주
+7214	재배하기
+7215	장비 조율
+7218	식용 보존료
+7219	장비의 등급 효과를 다시 조율할 수 있는 특별한 액션. 다른 사람의 장비를 대신 조율해 주는 것도 가능하다.
+7220	장비의 등급 효과를 다시 조율할 수 있는 특별한 액션. 다른 사람의 장비를 대신 조율해 주는 것도 가능하다.
+7221	장비 조율
+7222	장비의 등급 효과를 다시 조율할 수 있는 특별한 액션. 다른 사람의 장비를 대신 조율해 주는 것도 가능하다.
+7223	장비의 등급 효과를 다시 조율할 수 있는 특별한 액션. 다른 사람의 장비를 대신 조율해 주는 것도 가능하다.
+7224	식용 보존료
+7225	Deploy: Turn
+7226	Soldier Skill
+7227	Soldier Skill
+7235	융합된 축복의 포션
+7236	융합된 축복의 포션 사용시 발동
+7237	장비 착용 성별 변경
+7238	장비의 착용 성별을 변경할 수 있는 특별한 액션. 다른 사람의 장비를 대신 변경해 주는 것도 가능하다.
+7239	장비의 착용 성별을 변경할 수 있는 특별한 액션. 다른 사람의 장비를 대신 변경해 주는 것도 가능하다.
+7243	Wireless Connection
+7244	Downbeat Drop
+7245	Relentless Tempo
+7246	Showstopper
+7247	Live Wire
+7248	Cutting Chorus
+7249	Moving Performance
+7250	Downbeat Drop AI
+7251	Relentless Tempo AI
+7252	Showstopper AI
+7253	Ignite: Flurry of Fists
+7254	Ignite: Cyclone Drive
+7255	Ignite: Hammerblow
+7256	Berserker's Fury
+7257	Fire Within
+7258	Piercing Gale
+7259	Earthshaker
+7260	Radiant Storm
+7261	A skill that reflects one's training to precisely control the pitch and resonance of their voice. As one becomes more proficient in this ability, one will become even more adept at controlling marionettes through subtle shifts in vocalization and tone rather than the direct manipulation of wires connected to a control bar. Liberated from the limitations of traditional operation, the puppets exhibit an unmatched freedom of movement, working together to captivate onlookers. However, if a marionette being controlled through this method is awakened by the Act 9: Invigorating Encore skill, the connection will become unstable, preventing the execution of some skills.
+7262	A skill that compresses resonant energy into a single point, then detonates it in the direction of an enemy. Though the principle behind this attack is simple, the overwhelming force carried through the puppet's body is enough to overpower foes. These concise, unembellished movements evoke the image of a conductor gesturing to open the first, powerful notes of a symphony, signaling the beginning of a battle.
+7263	A skill that sends a marionette to doggedly pursue enemies, assailing them with blows all the while. No enemy within sight of the puppeteer can escape this frenzied, tireless chase. However, keep in mind that once a marionette has been given the order to harry a foe, it will not return for quite some time. No matter the stage, one can command a maximum of three lead performers at once.
+7264	A skill that summons all of a puppeteer's marionettes to unleash a fierce, coordinated assault. Their perfectly synchronized movements call to mind a thrilling scene at the climax of a grand performance. When the order is given, it matters not where a puppet is or what it might be doing. The conductor's command to bring down the final curtain upon an enemy takes the highest priority, and all marionettes will cease their present actions to faithfully answer their master's call.
+7265	A skill that sends thin, threadlike strands of energy piercing through all enemies within a circular area. As these thin, luminous rays shimmer and blink in the air, friend and foe alike may momentarily feel as though even a desperate battlefield is a stage playing host to a flashy, special effects-laden performance.
+7266	A skill that triggers a dynamic release of energy in the area surrounding a marionette, using the puppet's own resonant energy to begin the reaction. Because this skill utilizes the link between puppet and puppeteer as a medium, it does not affect any marionettes that are not currently summoned. As the strike zone is centered on the marionettes themselves, knowing how to optimally position them on the battlefield requires the same expertise as arranging the stage choreography for a perfect performance.
+7267	A skill that instantly moves the puppeteer to the location of one of the marionettes currently on the battlefield. The selected marionette will exit the scene, returning backstage while the conductor fills their vacant spot personally. However, one would do well to note that this skill cannot be used on a puppet currently performing its part in the Showstopper skill. Indeed, once set in motion, such a climactic scene cannot be halted; it must run to its dramatic conclusion.
+7268	A Level 1 Combo skill that unleashes three consecutive strikes in the space of an instant. Though simple and intuitive in principle, accurately targeting three precise points of impact requires tremendous concentration and bodily harmony, such that only those who have surpassed their limits through extreme training can perform such an attack effectively. Creating momentum the moment the attack begins, this technique serves as a strategic opening move that crushes enemy defenses through a relentless series of powerful attacks.
+7269	A Level 2 Combo skill that tears through the air at lightning speed, spinning like a hurricane to unleash three consecutive kicks. Because a martial artist must remain completely in control of their body from the very beginning until the final blow is landed, only those with an extraordinary sense of balance and focus can make use of such an attack. Using the body's momentum to strengthen the power of each blow, this technique crashes into enemies like a raging tempest, slicing through the air of the battlefield. As graceful as it is powerful, such an attack illustrates the capability of those who have reached the pinnacle of martial combat.
+7270	A Level 3 Combo skill that begins by leaping toward the enemy, building inertia in midair through both the body's rotation and the force of gravity to deliver a single devastating blow that slams a foe with the force of a mighty hammer. This high-level technique demands perfect balance and disciplined concentration, and only those who have undergone rigorous training can unleash it at will. The instant a martial artist touches down, the ground trembles as a massive shockwave spreads out from the point of impact, staggering enemies. Such a potent punch possesses power enough to turn the tide of battle as surely as a falling star.
+7271	A skill that releases the Fury a martial artist has built up, allowing it to surge through their body. This explosion of violent energy touches every blood vessel, muscle, and nerve, stimulating them to temporarily surpass the body's limits. With the ability to bring such power to bear at will, a Blazing Brawler can seize control of the flow of battle in an instant. However, because Fury is naturally unstable, it is difficult to control, and only a select few who have undergone ascetic training to master control of their body's spiritual energy can harness it without being consumed by a lust for battle.
+7272	A skill that converts the feelings of wrath and anger that naturally well up in one's heart into a form of energy called "Fury." This potent but unstable energy, fed by suppressing explosive emotions so as to maintain a clear mind during battle, serves as a source of power for skills requiring greater force than mere muscle and bone can generate. Only those who have achieved inner balance through training and meditation can freely harness Fury without being overwhelmed by a backflow of frenzied fervor.
+7273	A skill that releases Fury to push a Martial Artist's body to its limit in the space of an instant, condensing explosive energy into a single point before blasting it out to attack enemies. The tensing of the muscles in the moment before the blast is unleashed shapes the energy into a sharp, lancing form that pierces through enemies. Going beyond a simple strike, this attack uses focused Fury to extend one's assault beyond the bounds of one's physical body.
+7274	A skill that draws upon a Martial Artist's Fury, concentrating it in the hips and legs before stamping the earth with one foot. At the moment the sole makes contact, the Fury explodes downward and outward from the point of impact, causing the very ground to tremble as foes are staggered from the shockwave. One must possess harmonious control to channel their Fury into individual extremities, but once able to do so, even simple motions can release shattering force.
+7275	A skill that channels Fury throughout the body, heightening a Martial Artist's reflexes and tensing their muscles. In this state, they unleash a rapid succession of sharp, powerful strikes that precisely target a foe's unguarded points, shattering their defenses instantly. The finishing strike of this technique makes manifest the full power of Fury to overwhelm whatever resistance remains. To perform this skill, every moment requires supreme concentration and the ability to explosively empower each blow. Its dominating force makes it worthy of being called the supreme technique of a Blazing Brawler's fighting style.
+7276	Marionette\nCrafting
+7277	Marionette Link
+7278	A special action that allows the creation and customization of Echo Marionettes. It is also possible to alter the appearance of another person's puppets.
+7279	A special action used to manage your Echo Marionette. You can summon the puppet or change its outfit.
+7280	A special action that allows the creation and customization of Echo Marionettes. It is also possible to alter the appearance of another person's puppets.
+7281	A special action used to manage your Echo Marionette. You can summon the puppet or change its outfit.
+7282	Raging Rebound
+7324	Almighty Stomp
+7325	Boost Life
+7326	Spiral Spin
+7327	Buddy Revive
+7328	Running Wheel
+7329	(Hidden Skill)
+7330	Using this skill applies the Boost Life effect for 60 minutes. While the effect is active, if the pet's HP falls below a certain threshold, the pet fully recovers its HP and Wounds, and its Defense, Magic Defense, Protection, and Magic Protection will be increased. Once this effect has been triggered, the Boost Life buff will be removed.
+7331	Pulls enemies within a 5m radius to the center of the area chosen by the owner when the skill is used. The affected enemies will take damage and be stunned. At least 2 seconds after the initial use (up to a maximum of 20 seconds), the skill can be used a second time. When this follow-up is activated, or if the time limit expires before the second use, the skill will enter a cooldown period of 1 minute and 20 seconds before it can be used again.
+7332	Targets a party member's pet that has been knocked out, fully recovering its HP and Wounds. Cannot be used if there are no valid targets.
+7333	Listen to the rhythmic sounds your pet makes. As your feet move one after the other upon the ever-turning wheel, you may find that the worries of everyday life fade away as you devote your energies to the simple joy of running.
+7334	(Hidden Skill)
+7335	Using this skill applies the Boost Life effect for 60 minutes. While the effect is active, if the pet's HP falls below a certain threshold, the pet fully recovers its HP and Wounds, and its Defense, Magic Defense, Protection, and Magic Protection will be increased. Once this effect has been triggered, the Boost Life buff will be removed.
+7336	Pulls enemies within a 5m radius to the center of the area chosen by the pet's master when the skill is used. The affected enemies will take damage and be stunned. At least 2 seconds after the initial use (up to a maximum of 20 seconds), the skill can be used a second time. When this follow-up is activated, or if the time limit expires before the second use, the skill will enter a cooldown period of 1 minute and 20 seconds before it can be used again.
+7337	Targets a party member's pet that has been knocked out, fully recovering its HP and Wounds. Cannot be used if there are no valid targets.
+7338	Listen to the rhythmic sounds your pet makes. As your feet move one after the other upon the ever-turning wheel, you may find that the worries of everyday life fade away as you devote your energies to the simple joy of running.
+7430	Sunflower Power
+7431	Summons the pet and grants its master a special buff for 180 seconds.\nThis buff increases Min Damage, Max Damage, Magic Attack, and Alchemic Damage by a base amount of 40.\nIt also increases the recovery speed of the master's HP, MP, Stamina, and Wounds, and cleanses any status ailments, including Bleed, Poison, Daze, Stun, Hitstun, Petrification, Freeze, Puppet's Snare, Curse, and Kraken Poison.
+7432	Summons the pet and grants its master a special buff for 180 seconds.\nThis buff increases Min Damage, Max Damage, Magic Attack, and Alchemic Damage by a base amount of 40.\nIt also increases the recovery speed of the master's HP, MP, Stamina, and Wounds, and cleanses any status ailments, including Bleed, Poison, Daze, Stun, Hitstun, Petrification, Freeze, Puppet's Snare, Curse, and Kraken Poison.

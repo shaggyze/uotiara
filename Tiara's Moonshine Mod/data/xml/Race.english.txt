@@ -8196,6 +8196,8 @@
 10351	Academy Black Stallion
 10352	Academy White Stallion
 10353	Horseman
+10354	페르시안
+10355	페르시안
 10356	Glass Candlestick
 10357	Flora Lantern
 10358	Hexagon Lantern
@@ -10667,6 +10669,10 @@
 13010	엉뚱한 모모
 13011	도도한 모모
 13012	차분한 모모
+13013	
+13014	
+13015	
+13016	
 13017	Warrior Corgi (Event)
 13018	Warrior Corgi (Event)
 13019	수줍은 모모
@@ -10681,6 +10687,8 @@
 13028	Silvershine Giant Leprechaun
 13029	Goldengleam Giant Leprechaun
 13030	Dapper Dandy Giant Leprechaun
+13032	Scholarly Sheep
+13033	Scholarly Alpaca
 13034	Vampire Bat
 13035	Country Rat
 13036	Armored Skeleton
@@ -10695,6 +10703,8 @@
 13045	Cichol's Follower
 13046	Recall Scooter Imp
 13049	판 미니돌
+13050	Taise
+13051	Micheil
 13052	Guardian Cwn Annwn (Event)
 13053	Arbiter Cwn Annwn (Event)
 13054	Red Fairy Dragon (Event)
@@ -10708,6 +10718,14 @@
 13062	엘프 여성 마네킹
 13063	자이언트 남성 마네킹
 13064	자이언트 여성 마네킹
+13065	Rowan Doll
+13066	Loiscneach Doll
+13067	Iolar Doll
+13068	Matthias Doll
+13069	Morrighan Doll
+13070	Cichol Doll
+13071	Neamhain Doll
+13072	Macha Doll
 13073	Red Dragon Construct
 13074	Ruairi
 13075	Tarlach
@@ -10883,16 +10901,50 @@
 13246	Golem
 13247	Golem
 13248	Golem
+13249	Taise
+13250	Taise
+13251	Micheil
+13252	Micheil
+13253	Bandit Leader
+13254	Clumsy Bandit
+13255	Cocky Bandit
+13256	Lazy Bandit
+13257	Bully
+13258	Bully
+13259	Bully
+13260	Bully
+13261	Micheil's Older Brother
+13262	Unfamiliar Messenger
+13263	Scary Illusion
+13264	Eerie Illusion
+13265	Summoned Golem
+13266	Summoned Golem
+13267	Ghost
+13268	Snowball
+13269	Ultimate Gunnery Snowman
+13270	Master Mandrake Snowman
+13271	Ghost
+13272	Training Dummy
+13273	Space Where a Mother Once Was
+13274	Ouroboros
+13275	Ouroboros
+13276	Ouroboros
+13277	Ouroboros
+13278	Suspicious Carriage
+13279	Iolar
 13280	Illusion of Balor
 13281	Tech Duinn Geata
 13283	Hellgate
 13288	서큐버스 퀸
 13289	검게 물든 장미
+13290	Raccoon
+13291	Fuamnach
 13292	Admiral's Lingering Spirit
 13293	Red Giant Tentacle
 13294	Blue Giant Tentacle
 13295	Yellow Giant Tentacle
 13296	Green Giant Tentacle
+13298	Foinse
 13299	레드 서큐버스 르제핀
 13300	화이트 서큐버스 아이리나
 13301	옐로우 서큐버스 피안
@@ -10909,6 +10961,41 @@
 13318	Kraken Rex
 13320	Cethlenn's Staff
 13321	Cethlenn
+13322	Foinse
+13323	Crioch
+13324	Crioch
+13329	Crioch
+13331	Midir the Lost
+13332	Shard of Solace
+13333	Shard of Solace
+13334	Shard of Solace
+13335	Shard of Solace
+13336	Shard of Solace
+13337	Skirmisher
+13338	Archer
+13339	Alchemist
+13340	Glanadh 1
+13341	Glanadh 2
+13342	Glanadh 3
+13343	Scuab 1
+13344	Scuab 2
+13345	Scuab 3
+13346	Scamall 1
+13347	Scamall 2
+13348	Scamall 3
+13350	Insect
+13351	Lepidopteran Divine Beast
+13352	Lepidopteran Divine Beast
+13353	Lepidopteran Divine Beast
+13354	Piscine Divine Beast
+13355	Piscine Divine Beast
+13356	Piscine Divine Beast
+13357	Avian Divine Beast
+13358	Avian Divine Beast
+13359	Avian Divine Beast
+13377	글린트 양
+13378	피오라 암탉
+13379	브리움 젖소
 13380	Starback Whale (Event)
 13381	Grassback Whale (Event)
 13382	Bareback Whale (Event)
@@ -10918,3 +11005,145 @@
 13387	청명의 카트시(이벤트)
 13388	광명의 카트시(이벤트)
 13389	심연의 카트시(이벤트)
+13391	Round Symbol
+13392	Cross Symbol
+13394	Ronaun
+13395	Ronaun
+13396	Dark Ronaun
+13397	Disciple
+13398	Dark Disciple
+13399	Divine Beast Defense Force Desk 1
+13400	Divine Beast Defense Force Desk 2
+13401	Divine Beast Defense Force Weapon Crate 1
+13402	Divine Beast Defense Force Weapon Crate 2
+13403	Divine Beast Defense Force Wooden Box 1
+13404	Divine Beast Defense Force Wooden Box 2
+13405	Shard of Solace
+13406	농장 서리꾼
+13407	Boy Crioch
+13408	수줍은 모모
+13409	엉뚱한 모모
+13410	도도한 모모
+13411	차분한 모모
+13412	Adelia
+13413	Adelia
+13414	Isla
+13415	Isla
+13416	Fuamnach
+13417	Human
+13418	Human
+13419	Elf
+13420	Elf
+13421	Giant
+13422	Giant
+13423	Diligent Tara Relief Soldier
+13424	Calm Tara Relief Soldier
+13425	Timid Tara Relief Soldier
+13426	Fordyce
+13427	Nerys
+13428	Manus
+13429	Manus NA
+13430	Walter
+13431	Stewart
+13432	Aeira
+13433	Austeyn
+13434	Kristell
+13435	Aranwen
+13436	Melwyn
+13437	Eavan
+13438	Pile of Rocks
+13439	Foinse
+13440	Warrior Corgi (Event)
+13441	Warrior Corgi (Event)
+13442	Wizard Corgi (Event)
+13443	Wizard Corgi (Event)
+13444	Lepidopteran Divine Beast
+13445	Piscine Divine Beast
+13446	Avian Divine Beast
+13447	Defense Line
+13448	Mission Invisible Man
+13450	Glora
+13451	Ater
+13452	Food Kiosk
+13453	Dispatched Eccentric Scholar
+13454	Dispatched Assistant Scholar
+13455	Dispatched Royal Scholar
+13456	Gorias Grass
+13457	Declan
+13458	Aine
+13459	Seafra
+13462	Blunt Vales Royal Guard
+13463	Cold Vales Royal Guard
+13464	Hostile Vales Royal Guard
+13465	Veteran Skirmisher
+13466	Veteran Archer
+13467	Veteran Alchemist
+13468	Elite Skirmisher
+13469	Elite Archer
+13470	Elite Alchemist
+13477	Delga
+13478	Sunburst Shire
+13479	Partner Character
+13480	Maid Partner
+13481	Butler Partner
+13482	파트너 [멘마]
+13483	Maid Partner
+13484	Butler Partner
+13485	Commerce Partner
+13486	Commerce Partner
+13487	Commerce Partner
+13488	Laighlinne Partner
+13489	William Partner
+13490	Rem Partner
+13491	Ram Partner
+13492	Rem Partner
+13493	Ram Partner
+13494	Elf
+13495	Elf Female Partner
+13496	Elf Male Partner
+13497	Giant
+13498	Giant Female Partner
+13499	Giant Male Partner
+13500	Defense Commander
+13501	Nightbringer Iris Marionette
+13502	Aine
+13503	Crioch
+13504	Declan
+13505	Seafra
+13506	Crioch
+13507	Papillon Waltz Pierrot Marionette
+13513	Small Brazier Flame
+13514	Excited Fan
+13515	Venomous Rock Scorpion
+13516	Elven Fighter
+13517	Vitis
+13518	Elf Guard
+13519	Glora
+13520	Ater
+13522	Administrative Sector Flame
+13524	Beep Beep Glanadh
+13525	Beep-Beep-Beep Glanadh
+13526	Beep-Boop Glanadh
+13527	Freshman Corgi
+13528	Freshman Corgi
+13530	일렁이는 푸른 늑대
+13531	흰올빼미
+13532	밤의 빗자루
+13560	고고한 모모
+13561	
+13564	Phoenix (Event)
+13565	Spirit of Tuan (Event)
+13566	Squishy Hamchi
+13567	Mighty Hamchi
+13568	Leafy Hamchi
+13569	Hungry Hamchi
+13609	Chef Purrling
+13610	Chef Purrling
+13611	근두운
+13612	미르
+13614	Prestige Cwn Annwn
+13616	Dee Dee Scamall
+13617	Doo Dee Doo Scamall
+13618	Dee Dooo Scamall
+13619	Prestige Cwn Annwn
+13654	Prestige Cwn Annwn
