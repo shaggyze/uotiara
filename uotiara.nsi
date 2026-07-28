@@ -1,5 +1,5 @@
 ﻿RequestExecutionLevel admin
-!define UOSHORTVERSION        "507"
+!define UOSHORTVERSION        "508"
 !define UOLONGVERSION         "0.74.81"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
@@ -1021,8 +1021,10 @@ SectionEnd
 !macroend
 Section "Show Prop Names 1" MOD96
 SetOutPath "$INSTDIR\data\db"
-  DetailPrint "Installing propdb.xml..."
-  File "${srcdir}\Tiara's Moonshine Mod\data\db\propdb.xml"
+  ; propdb.xml dropped 2026-07 (V508): stale encrypted PropDB caused prop-id errors on updated clients.
+  ; Feature disabled (no-op section); the client uses its own current PropDB.
+  ; DetailPrint "Installing propdb.xml..."
+  ; File "${srcdir}\Tiara's Moonshine Mod\data\db\propdb.xml"
   SetDetailsPrint both
 SectionIn 1 2
 SectionEnd

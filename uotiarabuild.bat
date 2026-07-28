@@ -4,9 +4,11 @@ ECHO Creating Unofficial Tiara's Moonshine Mod Installer, you should type 'y' fo
 FOR /F "skip=2 tokens=2,*" %%A IN ('reg.exe query "HKCU\SOFTWARE\Nexon\Mabinogi" /v ""') DO set "MabiPath=%%B"
 ECHO.
 ECHO Checking latest Mabinogi version...
-python "%~dp0.gemini\check_api_version.py"
-FOR /F "usebackq delims=" %%V IN (`python "%~dp0.gemini\check_api_version.py" --bare`) DO set "LIVE_VER=%%V"
-FOR /F "usebackq delims=" %%V IN (`python "%~dp0.gemini\get_nsi_ver.py"`) DO set "NSI_VER=%%V"
+REM Tooling folder name in one place - change this if you rename the folder
+set "TOOLS=.claude"
+python "%~dp0%TOOLS%\check_api_version.py"
+FOR /F "usebackq delims=" %%V IN (`python "%~dp0%TOOLS%\check_api_version.py" --bare`) DO set "LIVE_VER=%%V"
+FOR /F "usebackq delims=" %%V IN (`python "%~dp0%TOOLS%\get_nsi_ver.py"`) DO set "NSI_VER=%%V"
 ECHO NSI version: %NSI_VER%  ^|  Live version: %LIVE_VER%
 IF NOT "%NSI_VER%"=="%LIVE_VER%" (
   ECHO WARNING: NSI version ^(%NSI_VER%^) does not match live version ^(%LIVE_VER%^). Update UOSHORTVERSION in uotiara.nsi before building!
