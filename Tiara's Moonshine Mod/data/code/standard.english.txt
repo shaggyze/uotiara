@@ -52,6 +52,7 @@ divineknightdescmgr.2	Binding
 divineknightdescmgr.3	Smiting
 dungeon.downstairs	<mini>TO</mini>  Downstairs
 equipmentcollectiondescmgr.1	잘못된 형식의 링크입니다. 링크를 확인해 주세요.
+ergenhancedescmgr.1	{0} ({1}/{2} 레벨)
 erinnlandachievementdescmgr.1	Basic
 erinnlandachievementdescmgr.2	Limited
 erinnlandachievementdescmgr.3	Mini-game

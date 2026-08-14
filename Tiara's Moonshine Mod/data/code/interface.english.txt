@@ -464,6 +464,8 @@ pli_airulewizardview.12	You may not use the following for the name.\n\\ / : * ? 
 pli_airulewizardview.13	A rule with the same name already exists.
 pli_airulewizardview.14	Failed to add the new rule.
 pli_airulewizardview.15	This rule does not have a name.
+pli_alchemicsynergymanageview.1	모든 속성이 선택되어야 합니다.
+pli_alchemicsynergymanageview.2	모든 속성이 선택되어야 합니다.
 pli_alchemicsynergyview.1	You don't have enough Crystals.
 pli_alchemicsynergyview.2	The required elements have not been fully charged.
 pli_alltalentselectview.1	You must rebirth once before you can make this your active talent.
@@ -912,6 +914,7 @@ pli_bondingcharacterinviteview.2	{0} wants to form a link with you.
 pli_bondingcharacterinviteview.3	Waiting for {0}'s approval.
 pli_bondingcharacterinviteview.4	Would you like to form a link with {0}?
 pli_boommessageview.1	\t{0} seconds
+pli_bosslifegaugemgr.1	어둠의 에르그
 pli_brionacskilltrainview.1	Brionac Skill Training
 pli_brionacskilltrainview.2	Train
 pli_brionacskilltrainview.3	Increases the EXP of the selected category.
@@ -1592,6 +1595,11 @@ pli_configurationhandlers_graphic.29	UI 크기 변경 기능을 사용하면 폰
 pli_configurationhandlers_graphic.30	사용
 pli_configurationhandlers_graphic.31	취소
 pli_configurationhandlers_graphic.32	현재 화면 크기에서는 사용할 수 없는 배율입니다.
+pli_configurationhandlers_laboratory.1	Vulkan 엔진을 적용하지 못해 기본 엔진(DirectX 9)으로 실행 중입니다. 그래픽 드라이버(Vulkan 지원)를 확인한 뒤 다시 시도해 주세요.
+pli_configurationhandlers_laboratory.2	렌더링 엔진(%s)
+pli_configurationhandlers_laboratory.3	Vulkan
+pli_configurationhandlers_laboratory.4	DirectX 9
+pli_configurationhandlers_laboratory.5	이 PC에서는 Vulkan 엔진을 사용할 수 없습니다. 그래픽 드라이버를 최신으로 업데이트한 뒤 다시 시도해 주세요.
 pli_configurationhandlers_play.1	Changes to combat mode. If Auto Combat has been enabled, you will deliver a Normal Attack to the targeted enemy.
 pli_configurationhandlers_play.2	Configure how movement is controlled while flying.
 pli_configurationhandlers_play.3	Sets the control mode when using Tower Cylinders. Press the ` key to switch modes while using a Tower Cylinder.
@@ -1790,6 +1798,16 @@ pli_customizingmotionpresetframe.2	None\n
 pli_customizingmotionpresetview.1	Would you like to apply this preset?\nDoing so will overwrite your current Motion Sequence information.
 pli_customizingmotionpresetview.2	Do you want to save this sequence to the selected preset?
 pli_customizingmotionpresetview.3	Do you wish to delete the preset?
+pli_darkergenhancemainview.1	보유한 재료가 없습니다.
+pli_darkergenhancemainview.2	투입할 재료를 선택해주세요.
+pli_darkergenhancemainview.3	어둠의 에르그 강화에 성공했습니다.
+pli_darkergenhancemainview.4	선택 해제
+pli_darkergenhancemainview.5	일괄 선택
+pli_darkergenhancemainview.6	어둠의 에르그가 최대 레벨입니다.
+pli_darkergenhancemainview.7	투입할 재료가 없습니다.
+pli_darkergenhancemainview.8	어둠의 에르그가 최대 레벨입니다.
+pli_darkergenhancemainview.9	어둠의 에르그 강화를 진행하시겠습니까?\n(어둠의 에르그를 강화한 무기는 전용화됩니다.)
+pli_darkergenhancemainview.10	미개방
 pli_deactivequestboardview.1	Click the Details button to see more information.
 pli_deformplanetooltipview.1	Landscape Essence: {0}
 pli_deformplanetooltipview.2	<color=4>You cannot change the terrain here.</color>
@@ -2296,6 +2314,7 @@ pli_equipabilitytransferview.21	You don't have enough Gold!
 pli_equipabilitytransferview.22	You don't have enough Gold in your bank account!
 pli_equipabilitytransferview.23	You don't have enough materials!
 pli_equipabilitytransferview.24	\n<color=2><outlinecolor=5>This item cannot inherit Special Upgrades.</outlinecolor></color>    
+pli_equipabilitytransferview.25	장비 계승 진행 시에는\n은행 직거래 수수료가 적용되지 않습니다.
 pli_equipmentcollectiontab.1	Loading...
 pli_equipmentcollectiontab.2	The Dressing Room is being loaded.
 pli_equipmentrentalendview.1	You can claim your final choice of Outfit Set by <color=2><outlinecolor=3>{0}</outlinecolor></color>.
@@ -3315,6 +3334,7 @@ pli_helperapi.47	Min Attack +{0}%\nMax Attack +{1}%\nCritical Rate +{2}\n
 pli_helperapi.48	Defense +{0}\nProtection +{1}\nMagic Defense +{2}\nMagic Protection +{3}\nMP Recovery Speed +{4}%\nStamina Recovery Speed +{5}%\n
 pli_helperapi.49	Time Remaining: 
 pli_helperapi.50	Beginner
+pli_helperapi.52	{0}h{1}m{2}s
 pli_helperapiskill.1	Currently aware of the skill.\nBecomes available once the Classic Spirit Weapon's social level reaches 21.
 pli_helperapiskill.2	Beast
 pli_helperapiskill.3	The First Dan
@@ -4429,6 +4449,7 @@ pli_mileageshopitembuyview.2	Dailly Purchase Limit (Account)
 pli_mileageshopitembuyview.3	Weekly Purchase Limit (Account)
 pli_mileageshopitembuyview.4	Monthly Purchase Limit (Account)
 pli_mileageshopitembuyview.5	Purchase Limit (Account)
+pli_mileageshopitembuyview.6	<color=5>현재 캐릭터와 다른 성별의 아이템을 구입하시겠습니까?\n성별을 변경하지 않으면 해당 아이템을 착용할 수 없습니다.</color>
 pli_mileageshopitembuyview.7	<color=2>Your current gender or race cannot use this coupon.\nWould you still like to purchase?</color>
 pli_mileageshopview.1	Available from %02d/%02d/%04d After Maintenance - until %02d/%02d/%04d Before Maintenance
 pli_mileageshopview.2	{0} <color=1>{1}</color>
@@ -9307,6 +9328,8 @@ pli_windowskillbar.3	Changes the hotkey slot.\n(Hotkey 'Ctrl + 0' - 'Ctrl + 8')
 pli_windowskillbar.4	Changes the hotkey slot.\n(Hotkey 'Ctrl + 0' - 'Ctrl + 8')
 pli_windowskillbar.5	Switch Hotbar Array: {0}
 pli_windowskillbar.6	Change Skill Hotbars by switching tabs.\n(Go to Options - Game - Control - Hotkey Settings - Quick Slot Tabs 1-10)
+pli_windowskillbar.7	상단 스킬 슬롯이 잠겨있습니다.\n잠금을 해제할 경우 스킬 슬롯에서 아이콘을 제거할 수 있습니다.
+pli_windowskillbar.8	상단 스킬 슬롯 잠금이 해제되어 있습니다.\n잠글 경우 스킬 슬롯에서 아이콘을 제거할 수 없습니다.
 pli_windowskillbarbase.1	Use the Outfit Action 2 skill to transform back to normal.
 pli_windowskillbutton.1	Use {0}
 pli_windowskillbutton.2	 '{0}' Gesture
@@ -9320,6 +9343,7 @@ pli_windowskillbutton.9	<color=2>No Mana Crystallization Skill</color>
 pli_windowskillbutton.10	Swap equipment with {0}
 pli_windowskillbutton.11	\n\n<color=1>Celestial Conjunction ({0})</color>
 pli_windowskillbutton.12	\nNo applied effects
+pli_windowskillbutton.13	클릭하면 직전에 등록되어 있던\n아이콘이 재등록됩니다.
 pli_windowskilldesc.1	How to Advance Dan
 pli_windowskilldesc.2	code.interface.window.skill_desc.msg_skill_desc_title
 pli_windowskilldesc.3	To attain a higher dan, you must gain Training EXP. If you do not take advancement tests once every four weeks in real time, you will lose as much Dan EXP gained in one training session. If your Dan EXP reaches 0 at the current dan, no more points will be lost; you will not be demoted to a lower dan.
@@ -9586,6 +9610,9 @@ pli_windowtaskbarshadowmission.5	Clear Time: {0}
 pli_windowtaskbarshadowmission.6	Press this button to see information about damage.
 pli_windowtaskbarshadowmission.7	Press to restart the current phase from the beginning.
 pli_windowtaskbarshadowmission.8	Press to cancel the retry request.
+pli_windowtaskbarshadowmission.9	어둠의 에르그를 모아 사용 시, 잠시 동안 강력한 힘을 얻을 수 있다.\n슬라임 위니 혹은 어둠의 에르그를 가진 몬스터를 처치해 보자.\n(긴급 탈출 폭탄 B 단축키를 눌러도 사용할 수 있으며, 적에게 피격 시, 어둠의 에르그가 감소한다.)
+pli_windowtaskbarshadowmission.10	어둠의 에르그가 부족하다.
+pli_windowtaskbarshadowmission.11	내 어둠의 에르그 {0}
 pli_windowtaskbartrayicon.1	Clock
 pli_windowtaskbartrayicon.2	Item Shop
 pli_windowtaskbartrayicon.3	Cash Shop

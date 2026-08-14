@@ -1,5 +1,5 @@
 ﻿RequestExecutionLevel admin
-!define UOSHORTVERSION        "508"
+!define UOSHORTVERSION        "509"
 !define UOLONGVERSION         "0.74.81"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
