@@ -3252,24 +3252,6 @@ SectionEnd
   DetailPrint "*** Removing MOD121..."
   Delete "$INSTDIR\data\gfx\char\item\anim\item_appear02_From_prop.ani"
 !macroend
-Section "Huge Boss Keys 1" MOD122
-SetOutPath "$INSTDIR\data\gfx\char\item\mesh"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\item\mesh\item_bosskey_001.pmg"
-SectionIn 1 2
-SectionEnd
-!macro Remove_${MOD122}
-  DetailPrint "*** Removing MOD122..."
-  Delete "$INSTDIR\data\gfx\char\item\mesh\item_bosskey_001.pmg"
-!macroend
-Section "Huge Boss Keys 2" MOD123
-SetOutPath "$INSTDIR\data\gfx\char\item\mesh"
-File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\item\mesh\item_bosskey_002.pmg"
-SectionIn 1 2
-SectionEnd
-!macro Remove_${MOD123}
-  DetailPrint "*** Removing MOD123..."
-  Delete "$INSTDIR\data\gfx\char\item\mesh\item_bosskey_002.pmg"
-!macroend
 Section "Huge Treasure Keys 1" MOD124
 SetOutPath "$INSTDIR\data\gfx\char\item\mesh"
 File "${srcdir}\Tiara's Moonshine Mod\data\gfx\char\item\mesh\item_boxkey_001.pmg"
@@ -6826,8 +6808,6 @@ SectionGroupEnd
 !insertmacro "${MacroName}" "MOD119"
 !insertmacro "${MacroName}" "MOD120"
 !insertmacro "${MacroName}" "MOD121"
-!insertmacro "${MacroName}" "MOD122"
-!insertmacro "${MacroName}" "MOD123"
 !insertmacro "${MacroName}" "MOD124"
 !insertmacro "${MacroName}" "MOD125"
 !insertmacro "${MacroName}" "MOD126"
@@ -8132,16 +8112,6 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD121" "FILE1" "\data\gfx\char\it
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD121" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD121" "CREATOR" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD121" "DESCRIPTION" ""
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD122" "" "Huge Boss Keys 1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD122" "FILE1" "\data\gfx\char\item\mesh\item_bosskey_001.pmg"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD122" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD122" "CREATOR" "Amaretto"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD122" "DESCRIPTION" ""
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD123" "" "Huge Boss Keys 2"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD123" "FILE1" "\data\gfx\char\item\mesh\item_bosskey_002.pmg"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD123" "FILES" "1"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD123" "CREATOR" "Amaretto"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD123" "DESCRIPTION" ""
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD124" "" "Huge Treasure Keys 1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD124" "FILE1" "\data\gfx\char\item\mesh\item_boxkey_001.pmg"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD124" "FILES" "1"
