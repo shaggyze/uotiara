@@ -4068,7 +4068,7 @@
 4579	Phantasmal Ingot; Soft Fur Fabric; Lightless Metal Fragment
 4580	Phantasmal Ingot; Polished Plate; Fog Silk
 4581	Phantasmal Ingot; Shattered Black Metal; Tough String
-4582	Phantasmal Ingot; Finest Metal Shard; Finest Leather
+4582	Phantasmal Ingot; Pure Metal Shard; Finest Leather
 4583	Phantasmal Ingot; Polished Plate; Cleansed Mage's Gem
 4584	Phantasmal Ingot; Polished Plate; Cleansed Mage's Gem
 4585	Phantasmal Ingot; Finest Leather Strap; Valiance Metal Shard
@@ -9795,3 +9795,515 @@ p`	   ǔ  ĳtt  $8  ǔ  Pȹ. \ n \ n < c o l o r = 7 > M a t e r i a l   P e r 
  5 3 8 7 	 U s e d   t o   m a k e   a n   A b y s s a l   R o b e   ( F ) . 
  5 3 8 8 	 U s e d   t o   m a k e   a   D e s t r u c t i v e   R o b e   ( M ) . 
  5 3 8 9 	 U s e d   t o   m a k e   a   D e s t r u c t i v e   R o b e   ( F ) . 
+5564	Sewing Pattern - Specialization: Gathering Gloves
+5565	A scroll that contains instructions on how to craft Gathering Gloves.
+5566	Specialization: Gathering Gloves
+5567	Glowing Wool; Professional Silk Weaving Gloves; Thick Thread Ball; Fine Leather Strap
+5568	(Fine Finishing Thread)
+5569	Used to make Gathering Gloves.
+5570	Blacksmith Manual - Specialization: Sturdy Sickle
+5571	A scroll that contains instructions on how to craft a Sturdy Sickle.
+5572	Specialization: Sturdy Sickle
+5573	Azurite Ingot; Hematite Ingot; Mana-Rich Heartwood Essence; Processed Hillwen Core; Iron Ingot
+5574	()
+5575	Used to make a Sturdy Sickle.
+5576	Blacksmith Manual - Specialization: Sturdy Gathering Axe
+5577	Blacksmith Manual - Specialization: Sturdy Blacksmith Hammer
+5578	Blacksmith Manual - Specialization: Sturdy Pickaxe
+5579	Blacksmith Manual - Specialization: Sturdy Cooking Knife
+5580	Blacksmith Manual - Specialization: Sturdy Gathering Knife
+5581	Blacksmith Manual - Specialization: Sturdy Weeding Hoe
+5582	Blacksmith Manual - Specialization: Sturdy Fishing Rod
+5583	Blacksmith Manual - Specialization: Sturdy Rolling Pin
+5584	Blacksmith Manual - Specialization: Sturdy Ladle
+5585	Blacksmith Manual - Specialization: Sturdy Cooking Table
+5586	A scroll that contains instructions on how to craft a Sturdy Gathering Axe.
+5587	A scroll that contains instructions on how to craft a Sturdy Blacksmith Hammer.
+5588	A scroll that contains instructions on how to craft a Sturdy Pickaxe.
+5589	A scroll that contains instructions on how to craft a Sturdy Cooking Knife.
+5590	A scroll that contains instructions on how to craft a Sturdy Gathering Knife.
+5591	A scroll that contains instructions on how to craft a Sturdy Weeding Hoe.
+5592	A scroll that contains instructions on how to craft a Sturdy Fishing Rod.
+5593	A scroll that contains instructions on how to craft a Sturdy Rolling Pin.
+5594	A scroll that contains instructions on how to craft a Sturdy Ladle.
+5595	A scroll that contains instructions on how to craft a Sturdy Cooking Table.
+5596	Specialization: Sturdy Gathering Axe
+5597	Specialization: Sturdy Blacksmith Hammer
+5598	Specialization: Sturdy Pickaxe
+5599	Specialization: Sturdy Cooking Knife
+5600	Specialization: Sturdy Gathering Knife
+5601	Specialization: Sturdy Weeding Hoe
+5602	Specialization: Sturdy Fishing Rod
+5603	Specialization: Sturdy Rolling Pin
+5604	Specialization: Sturdy Ladle
+5605	Specialization: Sturdy Cooking Table
+5606	Azurite Ingot; White Lead Ingot; Mana-Rich Heartwood; Iron Ingot
+5607	Azurite Ingot; White Lead Ingot; Mana-Rich Heartwood; Iron Ingot
+5608	White Lead Ingot; Milky Quartz; Finest Firewood
+5609	Hematite Ingot; Aventurine; Gold Ingot
+5610	Azurite Ingot; Carnelian; Iron Ingot
+5611	Azurite Ingot; Hematite Ingot; Mana-Rich Heartwood
+5612	White Lead Ingot; Mana-Rich Heartwood; Fine Firewood
+5613	White Lead Ingot; Mana-Rich Heartwood; Average Firewood
+5614	Azurite Ingot; White Lead Ingot; Hematite Ingot
+5615	White Lead Ingot; Hematite Ingot; Mana-Rich Heartwood; Hillwen Ore Essence
+5616	()
+5617	()
+5618	()
+5619	()
+5620	()
+5621	()
+5622	()
+5623	()
+5624	()
+5625	()
+5626	Used to make a Sturdy Gathering Axe.
+5627	Used to make a Sturdy Blacksmith Hammer.
+5628	Used to make a Sturdy Pickaxe.
+5629	Used to make a Sturdy Cooking Knife.
+5630	Used to make a Sturdy Gathering Knife.
+5631	Used to make a Sturdy Weeding Hoe.
+5632	Used to make a Sturdy Fishing Rod.
+5633	Used to make a Sturdy Rolling Pin.
+5634	Used to make a Sturdy Ladle.
+5635	Used to make a Sturdy Cooking Table.
+5636	Sewing Pattern - Sweet Ginger Bear Shoes [Standard]
+5637	Sewing Pattern - Sweet Ginger Bear Gloves [Standard]
+5638	Sewing Pattern - Sweet Ginger Bear Hat [Standard]
+5639	Sewing Pattern - Sweet Ginger Bear Outfit (F) [Standard]
+5640	Sewing Pattern - Sweet Ginger Bear Outfit (M) [Standard]
+5641	Sewing Pattern - Surgeon's Gown (F) [Standard]
+5642	Sewing Pattern - Surgeon's Shoes [Standard]
+5643	Sewing Pattern - Desert Soldier Sunglasses and Beret [Standard]
+5644	Sewing Pattern - Desert Soldier Beret [Standard]
+5645	Sewing Pattern - Desert Soldier Camo Uniform (M) [Standard]
+5646	Sewing Pattern - Desert Soldier Camo Uniform (F) [Standard]
+5647	Sewing Pattern - Desert Soldier Camo Pants (M) [Standard]
+5648	Sewing Pattern - Desert Soldier Training Fatigues (F) [Standard]
+5649	Sewing Pattern - Desert Soldier Combat Boots [Standard]
+5650	Sewing Pattern - Special Forces Uniform (M) [Standard]
+5651	Sewing Pattern - Erinn Peace Officer Uniform (F) [Standard]
+5652	Sewing Pattern - Special Forces Combat Boots [Standard]
+5653	Sewing Pattern - Kendogi (M)
+5654	Sewing Pattern - Kendogi (F)
+5655	Sewing Pattern - Swimming Cap
+5656	Sewing Pattern - School Swimsuit (M)
+5657	Sewing Pattern - Classic School Swimsuit (F)
+5658	Sewing Pattern - Modern School Swimsuit (F)
+5659	Sewing Pattern - Music Club Uniform
+5660	Sewing Pattern - School Slippers
+5661	Sewing Pattern - Baseball Cap
+5662	Sewing Pattern - Baseball Uniform
+5663	Sewing Pattern - Baseball Gloves
+5664	Sewing Pattern - Baseball Shoes
+5665	Sewing Pattern - Baseball Headband
+5666	Sewing Pattern - Baseball Club Manager Uniform
+5667	Sewing Pattern - Baseball Club Manager Gloves
+5668	Sewing Pattern - Baseball Club Manager Boots
+5669	Sewing Pattern - Shaman Wig (M) [Standard]
+5670	Sewing Pattern - Shaman Wig (F) [Standard]
+5671	Sewing Pattern - Men's Tengu Hat [Standard]
+5672	Sewing Pattern - Wind Shaman Outfit (M) [Trendy]
+5673	Sewing Pattern - Water Shaman Outfit (M) [Trendy]
+5674	Sewing Pattern - Men's Tengu Outfit [Standard]
+5675	Sewing Pattern - Wind Shaman Outfit (F) [Trendy]
+5676	Sewing pattern - Water Shaman Outfit (F) [Trendy]
+5677	Sewing pattern - Men's Tengu Gloves [Standard]
+5678	Sewing pattern - Shaman Bracelets [Standard]
+5679	Sewing pattern - Men's Tengu Shoes [Standard]
+5680	Sewing pattern - Shaman Shoes [Standard]
+5681	Sewing pattern - Shamaness Hair Band [Standard]
+5682	Sewing pattern - Shamaness Outfit [Standard]
+5683	Sewing pattern - Shamaness Gloves [Standard]
+5684	Sewing pattern - Shamaness Shoes [Standard]
+5685	Sewing pattern - Ronin Wig (M)
+5686	Sewing Pattern - Ronin Wig (F)
+5687	Sewing Pattern - Ronin Outfit (M) [Trendy]
+5688	Sewing Pattern - Ronin Outfit (F) [Trendy]
+5689	Sewing Pattern - Ronin Glove (M) [Standard]
+5690	Sewing Pattern - Ronin Shoes (M) [Standard]
+5691	Sewing Pattern - Ronin Shoes (F) [Standard]
+5692	Sewing Pattern - Sky Dragon Wear (M) [Standard]
+5693	Sewing Pattern - Sky Dragon Wear (F) [Standard]
+5694	Sewing Pattern - Sky Dragon Shoes [Standard]
+5695	A scroll that contains instructions on how to craft Sweet Ginger Bear Shoes.
+5696	A scroll that contains instructions on how to craft Sweet Ginger Bear Gloves.
+5697	A scroll that contains instructions on how to craft a Sweet Ginger Bear Hat.
+5698	A scroll that contains instructions on how to craft a Sweet Ginger Bear Outfit (F).
+5699	A scroll that contains instructions on how to craft a Sweet Ginger Bear Outfit (M).
+5700	A scroll that contains instructions on how to craft a Surgeon's Gown (F).
+5701	A scroll that contains instructions on how to craft Surgeon's Shoes.
+5702	A scroll that contains instructions on how to craft Desert Soldier Sunglasses and Beret.
+5703	A scroll that contains instructions on how to craft a Desert Soldier Beret.
+5704	A scroll that contains instructions on how to craft a Desert Soldier Camo Uniform (M).
+5705	A scroll that contains instructions on how to craft a Desert Soldier Camo Uniform (F).
+5706	A scroll that contains instructions on how to craft Desert Soldier Camo Pants (M).
+5707	A scroll that contains instructions on how to craft Desert Soldier Training Fatigues (F).
+5708	A scroll that contains instructions on how to craft Desert Soldier Combat Boots.
+5709	A scroll that contains instructions on how to craft a Special Forces Uniform (M).
+5710	A scroll that contains instructions on how to craft an Erinn Peace Officer Uniform (F).
+5711	A scroll that contains instructions on how to craft Special Forces Combat Boots.
+5712	A scroll that contains instructions on how to craft a Kendogi (M).
+5713	A scroll that contains instructions on how to craft a Kendogi (F).
+5714	A scroll that contains instructions on how to craft a Swimming Cap.
+5715	A scroll that contains instructions on how to craft a School Swimsuit (M).
+5716	A scroll that contains instructions on how to craft a Classic School Swimsuit (F).
+5717	A scroll that contains instructions on how to craft a Modern School Swimsuit (F).
+5718	A scroll that contains instructions on how to craft a Music Club Uniform.
+5719	A scroll that contains instructions on how to craft School Slippers.
+5720	A scroll that contains instructions on how to craft a Baseball Cap.
+5721	A scroll that contains instructions on how to craft a Baseball Uniform.
+5722	A scroll that contains instructions on how to craft Baseball Gloves.
+5723	A scroll that contains instructions on how to craft Baseball Shoes.
+5724	A scroll that contains instructions on how to craft a Baseball Headband.
+5725	A scroll that contains instructions on how to craft a Baseball Club Manager Uniform.
+5726	A scroll that contains instructions on how to craft Baseball Club Manager Gloves.
+5727	A scroll that contains instructions on how to craft Baseball Club Manager Boots.
+5728	A scroll that contains instructions on how to craft a Shaman Wig (M).
+5729	A scroll that contains instructions on how to craft a Shaman Wig (F).
+5730	A scroll that contains instructions on how to craft a Men's Tengu Hat.
+5731	A scroll that contains instructions on how to craft a Wind Shaman Outfit (M).
+5732	A scroll that contains instructions on how to craft a Water Shaman Outfit (M).
+5733	A scroll that contains instructions on how to craft a Men's Tengu Outfit.
+5734	A scroll that contains instructions on how to craft a Wind Shaman Outfit (F).
+5735	A scroll that contains instructions on how to craft a Water Shaman Outfit (F).
+5736	A scroll that contains instructions on how to craft Men's Tengu Gloves.
+5737	A scroll that contains instructions on how to craft Shaman Bracelets.
+5738	A scroll that contains instructions on how to craft Men's Tengu Shoes.
+5739	A scroll that contains instructions on how to craft Shaman Shoes.
+5740	A scroll that contains instructions on how to craft a Shamaness Hair Band.
+5741	A scroll that contains instructions on how to craft a Shamaness Outfit.
+5742	A scroll that contains instructions on how to craft Shamaness Gloves.
+5743	A scroll that contains instructions on how to craft Shamaness Shoes.
+5744	A scroll that contains instructions on how to craft a Ronin Wig (M).
+5745	A scroll that contains instructions on how to craft a Ronin Wig (F).
+5746	A scroll that contains instructions on how to craft a Ronin Outfit (M).
+5747	A scroll that contains instructions on how to craft a Ronin Outfit (F).
+5748	A scroll that contains instructions on how to craft Ronin Gloves (M).
+5749	A scroll that contains instructions on how to craft Ronin Shoes (M).
+5750	A scroll that contains instructions on how to craft Ronin Shoes (F).
+5751	A scroll that contains instructions on how to craft Sky Dragon Wear (M).
+5752	A scroll that contains instructions on how to craft Sky Dragon Wear (F).
+5753	A scroll that contains instructions on how to craft Sky Dragon Shoes.
+5754	Sweet Ginger Bear Shoes
+5755	Sweet Ginger Bear Gloves
+5756	Sweet Ginger Bear Hat
+5757	Sweet Ginger Bear Outfit (F)
+5758	Sweet Ginger Bear Outfit (M)
+5759	Surgeon's Gown (F)
+5760	Surgeon's Shoes
+5761	Desert Soldier Sunglasses and Beret
+5762	Desert Soldier Beret
+5763	Desert Soldier Camo Uniform (M)
+5764	Desert Soldier Camo Uniform (F)
+5765	Desert Soldier Camo Pants (M)
+5766	Desert Soldier Training Fatigues (F)
+5767	Desert Soldier Combat Boots
+5768	Special Forces Uniform (M)
+5769	Erinn Peace Officer Uniform (F)
+5770	Special Forces Combat Boots
+5771	Kendogi (M)
+5772	Kendogi (F)
+5773	Swimming Cap
+5774	School Swimsuit (M)
+5775	Classic School Swimsuit (F)
+5776	Modern School Swimsuit (F)
+5777	Music Club Uniform
+5778	School Slippers
+5779	Baseball Cap
+5780	Baseball Uniform
+5781	Baseball Gloves
+5782	Baseball Shoes
+5783	Baseball Headband
+5784	Baseball Club Manager Uniform
+5785	Baseball Club Manager Gloves
+5786	Baseball Club Manager Boots
+5787	Shaman Wig (M)
+5788	Shaman Wig (F)
+5789	Men's Tengu Hat
+5790	Wind Shaman Outfit (M)
+5791	Water Shaman Outfit (M)
+5792	Men's Tengu Outfit
+5793	Wind Shaman Outfit (F)
+5794	Water Shaman Outfit (F)
+5795	Men's Tengu Gloves
+5796	Shaman Bracelets
+5797	Men's Tengu Shoes
+5798	Shaman Shoes
+5799	Shamaness Hair Band
+5800	Shamaness Outfit
+5801	Shamaness Gloves
+5802	Shamaness Shoes
+5803	Ronin Wig (M)
+5804	Ronin Wig (F)
+5805	Ronin Outfit (M)
+5806	Ronin Outfit (F)
+5807	Ronin Glove (M)
+5808	Ronin Shoes (M)
+5809	Ronin Shoes (F)
+5810	Sky Dragon Wear (M)
+5811	Sky Dragon Wear (F)
+5812	Sky Dragon Shoes
+5813	Finest Silk; Mysterious Feather; Geas Core
+5814	Mysterious Feather; Geas Core
+5815	Finest Silk; Mysterious Feather; Geas Core
+5816	Finest Silk; Mysterious Feather; Geas Core
+5817	Finest Silk; Mysterious Feather; Geas Core
+5818	Fine Silk; Aventurine; Valiance Metal Shard
+5819	Fine Silk; Aventurine; Valiance Metal Shard
+5820	Fine Fabric; Milky Quartz; Frost-fused Metal Shard
+5821	Fine Fabric; Milky Quartz; Frost-fused Metal Shard
+5822	Fine Fabric; Milky Quartz; Frost-fused Metal Shard
+5823	Fine Fabric; Milky Quartz; Frost-fused Metal Shard
+5824	Fine Fabric; Milky Quartz; Frost-fused Metal Shard
+5825	Fine Fabric; Milky Quartz; Frost-fused Metal Shard
+5826	Fine Fabric; Milky Quartz; Frost-fused Metal Shard
+5827	Fine Fabric; Milky Quartz; Frost-fused Metal Shard
+5828	Fine Fabric; Milky Quartz; Frost-fused Metal Shard
+5829	Fine Fabric; Milky Quartz; Frost-fused Metal Shard
+5830	Fine Fabric; Milky Quartz; Frost-fused Metal Shard
+5831	Fine Fabric; Milky Quartz; Frost-fused Metal Shard
+5832	Finest Fabric; Glowing Wool; Ice Fabric
+5833	Finest Fabric; Glowing Wool; Ice Fabric
+5834	Finest Fabric; Glowing Wool; Ice Fabric
+5835	Finest Fabric; Glowing Wool; Ice Fabric
+5836	Finest Fabric; Glowing Wool; Ice Fabric
+5837	Finest Fabric; Glowing Wool; Ice Fabric
+5838	Common Silk; Carnelian; Strand of an Ancient Veil
+5839	Common Silk; Carnelian; Strand of an Ancient Veil
+5840	Carnelian; Strand of an Ancient Veil
+5841	Common Silk; Carnelian; Strand of an Ancient Veil
+5842	Common Silk; Carnelian; Strand of an Ancient Veil
+5843	Common Silk; Carnelian; Strand of an Ancient Veil
+5844	Carnelian; Strand of an Ancient Veil
+5845	Common Silk; Carnelian; Strand of an Ancient Veil
+5846	Cheap Silk; Azurite; Thin Thread Ball
+5847	Cheap Silk; Azurite; Thin Thread Ball
+5848	Cheap Silk; Azurite; Thin Thread Ball
+5849	Cheap Silk; Azurite; Thin Thread Ball
+5850	Cheap Silk; Azurite; Thin Thread Ball
+5851	Cheap Silk; Azurite; Thin Thread Ball
+5852	Cheap Silk; Azurite; Thin Thread Ball
+5853	Cheap Silk; Azurite; Thin Thread Ball
+5854	Azurite; Thin Thread Ball
+5855	Azurite; Thin Thread Ball
+5856	Cheap Silk; Azurite; Thin Thread Ball
+5857	Cheap Silk; Azurite; Thin Thread Ball
+5858	Common Fabric; Hematite; Tough Thread
+5859	Common Fabric; Hematite; Tough Thread
+5860	Hematite; Tough Thread
+5861	Common Fabric; Hematite; Tough Thread
+5862	Cheap Fabric; White Lead Ore; Thick Thread Ball
+5863	Cheap Fabric; White Lead Ore; Thick Thread Ball
+5864	Fog Silk; Mysterious Feather; Glowing Wool
+5865	Fog Silk; Mysterious Feather; Glowing Wool
+5866	Mysterious Feather; Glowing Wool
+5867	Fog Silk; Mysterious Feather; Glowing Wool
+5868	Fog Silk; Mysterious Feather; Glowing Wool
+5869	Ancient Beast Hide; Mana-Rich Heartwood; Lightless Metal Fragment
+5870	Ancient Beast Hide; Mana-Rich Heartwood; Lightless Metal Fragment
+5871	Ancient Beast Hide; Mana-Rich Heartwood; Lightless Metal Fragment
+5872	Magical Silver Thread; Soft Fur Fabric
+5873	Magical Silver Thread; Radiant String
+5874	Magical Silver Thread; Soft Fur Fabric
+5875	Magical Silver Thread; Soft Fur Fabric; Radiant String
+5876	Magical Silver Thread; Soft Fur Fabric; Radiant String
+5877	Fine Finishing Thread; Amplified Alchemy Crystal
+5878	Fine Finishing Thread; Amplified Alchemy Crystal
+5879	Fine Finishing Thread; Enchanted Thread
+5880	Fine Finishing Thread; Enchanted Thread
+5881	Fine Finishing Thread; Enchanted Thread
+5882	Fine Finishing Thread; Enchanted Thread
+5883	Fine Finishing Thread; Enchanted Thread
+5884	Fine Finishing Thread; Enchanted Thread
+5885	Fine Finishing Thread; Enchanted Thread
+5886	Fine Finishing Thread; Enchanted Thread
+5887	Fine Finishing Thread; Enchanted Thread
+5888	Fine Finishing Thread; Enchanted Thread
+5889	Fine Finishing Thread; Enchanted Thread
+5890	Fine Finishing Thread; Enchanted Thread
+5891	Shiny Gold Thread; Awakened Strength Crystal
+5892	Shiny Gold Thread; Awakened Strength Crystal
+5893	Shiny Gold Thread; Awakened Strength Crystal
+5894	Shiny Gold Thread; Awakened Strength Crystal
+5895	Shiny Gold Thread; Awakened Strength Crystal
+5896	Shiny Gold Thread; Awakened Strength Crystal
+5897	Common Finishing Thread
+5898	Common Finishing Thread
+5899	Common Finishing Thread
+5900	Common Finishing Thread
+5901	Common Finishing Thread
+5902	Common Finishing Thread
+5903	Common Finishing Thread
+5904	Common Finishing Thread
+5905	Cheap Finishing Thread
+5906	Cheap Finishing Thread
+5907	Cheap Finishing Thread
+5908	Cheap Finishing Thread
+5909	Cheap Finishing Thread
+5910	Cheap Finishing Thread
+5911	Cheap Finishing Thread
+5912	Cheap Finishing Thread
+5913	Cheap Finishing Thread
+5914	Cheap Finishing Thread
+5915	Cheap Finishing Thread
+5916	Cheap Finishing Thread
+5917	Common Finishing Thread
+5918	Common Finishing Thread
+5919	Common Finishing Thread
+5920	Common Finishing Thread
+5921	Cheap Finishing Thread
+5922	Cheap Finishing Thread
+5923	Magical Golden Thread; Condensed Chaotic Rune; Scented Silk
+5924	Magical Golden Thread; Condensed Chaotic Rune; Scented Silk
+5925	Magical Golden Thread; Scented Silk
+5926	Magical Golden Thread; Condensed Chaotic Rune
+5927	Magical Golden Thread; Condensed Chaotic Rune
+5928	Finest Finishing Thread; Magic Essence
+5929	Finest Finishing Thread; Magic Essence
+5930	Finest Finishing Thread; Magic Essence
+5931	Used to make Sweet Ginger Bear Shoes. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5932	Used to make Sweet Ginger Bear Gloves. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5933	Used to make a Sweet Ginger Bear Hat. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5934	Used to make a Sweet Ginger Bear Outfit (F). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5935	Used to make a Sweet Ginger Bear Outfit (M). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5936	Used to make a Surgeon's Gown (F). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5937	Used to make Surgeon's Shoes. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5938	Used to make a Desert Soldier Sunglasses and Beret. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5939	Used to make a Desert Soldier Beret. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5940	Used to make a Desert Soldier Camo Uniform (M). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5941	Used to make a Desert Soldier Camo Uniform (F). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5942	Used to make Desert Soldier Camo Pants (M). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5943	Used to make Desert Soldier Training Fatigues (F). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5944	Used to make Desert Soldier Combat Boots. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5945	Used to make a Special Forces Uniform (M). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5946	Used to make an Erinn Peace Officer Uniform (F). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5947	Used to make Special Forces Combat Boots. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5948	Used to make a Kendogi (M). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5949	Used to make a Kendogi (F). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5950	Used to make a Swimming Cap. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5951	Used to make a School Swimsuit (M). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5952	Used to make a Classic School Swimsuit (F). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5953	Used to make a Modern School Swimsuit (F). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5954	Used to make a Music Club Uniform. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5955	Used to make School Slippers. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5956	Used to make a Baseball Cap. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5957	Used to make a Baseball Uniform. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5958	Used to make Baseball Gloves. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5959	Used to make Baseball Shoes. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5960	Used to make a Baseball Headband. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5961	Used to make a Baseball Club Manager Uniform. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5962	Used to make Baseball Club Manager Gloves. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5963	Used to make Baseball Club Manager Boots. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5964	Used to make a Shaman Wig (M). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5965	Used to make a Shaman Wig (F). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5966	Used to make a Men's Tengu Hat. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5967	Used to make a Wind Shaman Outfit (M). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5968	Used to make a Water Shaman Outfit (M). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5969	Used to make a Men's Tengu Outfit. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5970	Used to make a Wind Shaman Outfit (F). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5971	Used to make a Water Shaman Outfit (F). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5972	Used to make Men's Tengu Gloves. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5973	Used to make Shaman Bracelets. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5974	Used to make Men's Tengu Shoes. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5975	Used to make Shaman Shoes. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5976	Used to make a Shamaness Hair Band. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5977	Used to make a Shamaness Outfit. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5978	Used to make Shamaness Gloves. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5979	Used to make Shamaness Shoes. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5980	Used to make a Ronin Wig (M). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5981	Used to make a Ronin Wig (F). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5982	Used to make a Ronin Outfit (M). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5983	Used to make a Ronin Outfit (F). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5984	Used to make a Ronin Glove (M). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5985	Used to make Ronin Shoes (M). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5986	Used to make Ronin Shoes (F). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5987	Used to make Sky Dragon Wear (M). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5988	Used to make Sky Dragon Wear (F). This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5989	Used to make Sky Dragon Shoes. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5990	Sewing Pattern - Red Eye Strap Hat
+5991	A scroll that contains instructions on how to craft a Red Eye Strap Hat.
+5992	Red Eye Strap Hat
+5993	Fog Silk; Mysterious Feather; Glowing Wool
+5994	Magical Golden Thread; Condensed Chaotic Rune
+5995	Used to make a Red Eye Strap Hat. This Sewing Pattern is very fragile due to being transferred over from another world, and it can no longer be used once the clothing is made.
+5996	Sewing Pattern - Red Eye Strap Suit (F)
+5997	Sewing Pattern - Red Eye Strap Suit (M)
+5998	Sewing Pattern - Red Eye Strap Boots
+5999	Sewing Pattern - Red Eye Strap Bracelet (F)
+6000	A scroll that contains instructions on how to craft a Red Eye Strap Suit (F).
+6001	A scroll that contains instructions on how to craft a Red Eye Strap Suit (M).
+6002	A scroll that contains instructions on how to craft Red Eye Strap Boots.
+6003	A scroll that contains instructions on how to craft a Red Eye Strap Bracelet (F).
+6020	Sewing Pattern - Maistir: Robe of Insight
+6021	Sewing Pattern - Maistir: Maistir's Lining
+6022	A scroll that contains instructions on how to craft a Robe of Insight.
+6023	A scroll that contains instructions on how to craft Maistir's Lining.
+6024	Maistir: Robe of Insight
+6025	Maistir: Maistir's Lining
+6026	Finest Silk; Hillwen Ore Crystal; Shyllien Condensed Core
+6027	Finest Fabric; Finest Silk; Wool
+6028	Forgotten Mage's Gem; Finest Leather Strap; Unfading Flower
+6029	Maistir's Essence; Finest Finishing Thread
+6030	Used to make a Robe of Insight.
+6031	Used to make a Maistir's Lining.
+6032	Sewing Pattern - Refashioned Long Leather Coat
+6033	Sewing Pattern - Refashioned Ceremonial Dress
+6034	A scroll that contains instructions on how to craft a Refashioned Long Leather Coat.
+6035	A scroll that contains instructions on how to craft a Refashioned Ceremonial Dress.
+6036	Refashioned Long Leather Coat
+6037	Refashioned Ceremonial Dress
+6038	Finest Leather; Finest Silk; Finest Leather Strap
+6039	Finest Fabric; Finest Silk; Finest Leather Strap
+6040	(Finest Finishing Thread; Braid)
+6041	(Finest Finishing Thread; Braid)
+6042	Used to make a Refashioned Long Leather Coat.
+6043	Used to make a Refashioned Ceremonial Dress.
+6044	Blacksmith Manual - Maistir: Enchanted Eweca Gathering Knife
+6045	Blacksmith Manual - Maistir: Enchanted Eweca Lumber Axe
+6046	Blacksmith Manual - Maistir: Enchanted Eweca Pickaxe
+6047	Blacksmith Manual - Maistir: Enchanted Eweca Metallurgy Sieve
+6048	Blacksmith Manual - Maistir: Antique Cooking Knife
+6049	Blacksmith Manual - Maistir: Antique Cooking Table
+6050	Blacksmith Manual - Maistir: Antique Ladle
+6051	Blacksmith Manual - Maistir: Antique Cooking Pot
+6052	A scroll that contains instructions on how to craft an Enchanted Eweca Gathering Knife.
+6053	A scroll that contains instructions on how to craft an Enchanted Eweca Lumber Axe.
+6054	A scroll that contains instructions on how to craft an Enchanted Eweca Pickaxe.
+6055	A scroll that contains instructions on how to craft an Enchanted Eweca Metallurgy Sieve.
+6056	A scroll that contains instructions on how to craft an Antique Cooking Knife.
+6057	A scroll that contains instructions on how to craft an Antique Cooking Table.
+6058	A scroll that contains instructions on how to craft an Antique Ladle.
+6059	A scroll that contains instructions on how to craft an Antique Cooking Pot.
+6060	Maistir: Enchanted Eweca Gathering Knife
+6061	Maistir: Enchanted Eweca Lumber Axe
+6062	Maistir: Enchanted Eweca Pickaxe
+6063	Maistir: Enchanted Eweca Metallurgy Sieve
+6064	Maistir: Antique Cooking Knife
+6065	Maistir: Antique Cooking Table
+6066	Maistir: Antique Ladle
+6067	Maistir: Antique Cooking Pot
+6068	Pure Essence; Sturdy Gathering Knife; White Lead Ingot
+6069	Pure Essence; Sturdy Gathering Axe; Hematite Ingot
+6070	Pure Essence; Sturdy Pickaxe; Azurite Ingot
+6071	Pure Essence; Metallurgy Sieve; Azurite Ingot
+6072	Pure Essence; Sturdy Cooking Knife; White Lead Ingot
+6073	Pure Essence; Sturdy Cooking Table; Azurite Ingot
+6074	Pure Essence; Sturdy Ladle; Hematite Ingot
+6075	Pure Essence; Cooking Pot; White Lead Ingot
+6076	()
+6077	()
+6078	()
+6079	()
+6080	()
+6081	()
+6082	()
+6083	()
+6084	Used to make an Enchanted Eweca Gathering Knife.
+6085	Used to make an Enchanted Eweca Lumber Axe.
+6086	Used to make an Enchanted Eweca Pickaxe.
+6087	Used to make an Enchanted Eweca Metallurgy Sieve.
+6088	Used to make an Antique Cooking Knife.
+6089	Used to make an Antique Cooking Table.
+6090	Used to make an Antique Ladle.
+6091	Used to make an Antique Cooking Pot.

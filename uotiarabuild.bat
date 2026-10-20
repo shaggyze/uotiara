@@ -17,6 +17,13 @@ IF NOT "%NSI_VER%"=="%LIVE_VER%" (
 ) ELSE (
   ECHO Version OK.
 )
+set "PATCHER=%MabiPath%\mabi-patcher\mabi-patcher.exe"
+if not exist "%PATCHER%" set "PATCHER=%~dp0Tiara's Moonshine Mod\Tools\mabi-patcher\mabi-patcher.exe"
+set /p "yesno=Update the game with mabi-patcher y/n?:"
+IF "%yesno%"=="y" (
+"%PATCHER%" check-update -g "%MabiPath%"
+IF ERRORLEVEL 2 "%PATCHER%" update -g "%MabiPath%"
+)
 cd C:\Nexon\Library\mabinogi\appdata
 if exist %MabiPath%\package\uotiara_00001.it attrib -r %MabiPath%\package\uotiara_00001.it
 if exist C:\Users\%username%\Documents\GitHub\uotiara\uotiara_00001.it attrib -r C:\Users\%username%\Documents\GitHub\uotiara\uotiara_00001.it
@@ -38,6 +45,7 @@ PAUSE
 )
 @ECHO OFF
 set "PACK_KEY=})wWb4?-sVGHNoPKpc"
+set "HEADER_KEY=@6QeTuOaDgJlZcBm#9"
 set /p "yesno=Copy data folder to mabinogi and build uotiara_00001.it y/n?:"
 IF "%yesno%"=="y" (
 @ECHO ON
@@ -53,7 +61,7 @@ xcopy "%MabiPath%\data\locale" "%MabiPath%\UOTiara\data\locale" /q /s /y /c /e /
 xcopy "%MabiPath%\data\material" "%MabiPath%\UOTiara\data\material" /q /s /y /c /e /i
 xcopy "%MabiPath%\data\sound" "%MabiPath%\UOTiara\data\sound" /q /s /y /c /e /i
 xcopy "%MabiPath%\data\features.xml.compiled" "%MabiPath%\UOTiara\data\features.xml.compiled" /q /s /y /c /e
-"%MabiPath%\mabi-pack2\mabi-pack2.exe" pack -i %MabiPath%\UOTiara\ -o %MabiPath%\package\uotiara_00001.it -f .jpg -k "%PACK_KEY%"
+"%PATCHER%" pack -i "%MabiPath%\UOTiara" -o "%MabiPath%\package\uotiara_00001.it" -f .jpg -k "%HEADER_KEY%" --entries-key "%PACK_KEY%"
 rmdir /q /s "%MabiPath%\data\material\_define"
 copy /y "%MabiPath%\package\uotiara_00001.it" "C:\Users\%username%\Documents\GitHub\uotiara\uotiara_00001.it"
 ) ELSE IF "%yesno%"=="n" (

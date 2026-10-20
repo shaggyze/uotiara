@@ -1812,10 +1812,10 @@
 2384	Bone Archer
 2389	Egg
 2391	Iron Pot
-2392	Uroborus
-2393	Uroborus
-2394	Uroborus
-2395	Uroborus
+2392	Ouroboros
+2393	Ouroboros
+2394	Ouroboros
+2395	Ouroboros
 2396	Blinker
 2397	Strange Book
 2400	Corrupted Alchemist
@@ -1859,21 +1859,21 @@
 2452	Zombie
 2453	Zombie
 2454	<mini>NPC</mini> Buchanan
-2455	Uroborus
-2456	Uroborus
-2457	Uroborus
-2458	Uroborus
-2459	Uroborus
-2460	Uroborus
-2461	Uroborus
-2462	Uroborus
-2463	Uroborus
-2464	Uroborus
-2465	Uroborus
-2466	Uroborus
+2455	Ouroboros
+2456	Ouroboros
+2457	Ouroboros
+2458	Ouroboros
+2459	Ouroboros
+2460	Ouroboros
+2461	Ouroboros
+2462	Ouroboros
+2463	Ouroboros
+2464	Ouroboros
+2465	Ouroboros
+2466	Ouroboros
 2467	Python Soldier
 2468	Python Shaman
-2471	Uroborus Statue
+2471	Ouroboros Statue
 2472	Jenna
 2473	Goddess Neamhain
 2474	Python Wizard
@@ -1882,22 +1882,22 @@
 2477	Leymore 
 2479	Jenna_G11_Effect
 2480	Python Knight
-2481	Uroborus
-2482	Uroborus
-2483	Uroborus
-2484	Uroborus
-2485	Uroborus
-2486	Uroborus
-2487	Uroborus
-2488	Uroborus
-2489	Uroborus
-2490	Uroborus
-2491	Uroborus
-2492	Uroborus
-2493	Uroborus
-2494	Uroborus
-2495	Uroborus
-2496	Uroborus
+2481	Ouroboros
+2482	Ouroboros
+2483	Ouroboros
+2484	Ouroboros
+2485	Ouroboros
+2486	Ouroboros
+2487	Ouroboros
+2488	Ouroboros
+2489	Ouroboros
+2490	Ouroboros
+2491	Ouroboros
+2492	Ouroboros
+2493	Ouroboros
+2494	Ouroboros
+2495	Ouroboros
+2496	Ouroboros
 2497	Black Python
 2498	Zombie
 2499	Zombie
@@ -1924,14 +1924,14 @@
 2526	Kid Zombie
 2527	Innocent Zombie
 2528	Magic Shield Imp
-2531	Uroborus
-2532	Uroborus
+2531	Ouroboros
+2532	Ouroboros
 2533	Jungle Scout Imp
 2534	Lava Walker Imp
 2535	Dullahan
 2536	Hell Steed
 2537	Basilisk
-2538	Uroborus
+2538	Ouroboros
 2540	Black Sulfur Spider
 2541	Red Sulfur Spider
 2542	Giant Sulfur Spider
@@ -4931,10 +4931,10 @@
 6287	Giant Castle Wall Golem
 6288	Golem
 6289	Crystal Golem
-6290	Sweet Gingerman
-6291	Savory Gingerman
-6292	Buttery Gingerman
-6293	Crispy Gingerman
+6290	Sweet Gingerbread Cookie
+6291	Savory Gingerbread Cookie
+6292	Buttery Gingerbread Cookie
+6293	Crispy Gingerbread Cookie
 6294	Masked Goblin Archer
 6295	Sahagin Ranger
 6296	Specter Archer
@@ -4958,10 +4958,10 @@
 6319	Vay
 6320	Tion
 6321	Sheep Wolf
-6322	Sweet Gingerman
-6323	Savory Gingerman
-6324	Buttery Gingerman
-6325	Crispy Gingerman
+6322	Sweet Gingerbread Cookie
+6323	Savory Gingerbread Cookie
+6324	Buttery Gingerbread Cookie
+6325	Crispy Gingerbread Cookie
 6326	Tail Chase King Slate
 6327	Tail Chase Archer Slate
 6328	Tail Chase Fighter Slate
@@ -5740,7 +5740,7 @@
 7791	Giant Headless
 7792	Red Monkey
 7793	Phantasm Wisp
-7794	Runaway Gingerman
+7794	Runaway Gingerbread Cookie
 7795	Recall Mage Imp
 7796	Astral Cosmic Stallion
 7797	Astral Pegasus
@@ -5772,12 +5772,12 @@
 7824	Vanilla Candy Wand
 7825	Gummy Bear
 7826	Gummy Bear
-7827	Giant Gingerman
+7827	Giant Gingerbread Cookie
 7828	Cookie Witch
-7829	Sweet Gingerman
-7830	Savory Gingerman
-7831	Buttery Gingerman
-7832	Crispy Gingerman
+7829	Sweet Gingerbread Cookie
+7830	Savory Gingerbread Cookie
+7831	Buttery Gingerbread Cookie
+7832	Crispy Gingerbread Cookie
 7833	Caravan Joe
 7834	Caravan Joe
 7835	Caravan Joe
@@ -7097,7 +7097,7 @@
 9233	Barrier Guardian Spirit
 9234	Haunted Coral Ghost
 9235	Stone Golem
-9236	Soaring Leg
+9236	Giant Tentacle
 9237	Invisible Prop
 9238	Invisible Monster Difficulty 2
 9239	Invisible Monster Difficulty 3
@@ -7281,15 +7281,15 @@
 9418	Grape Kupa
 9419	Gummy Bear
 9420	Gummy Bear
-9421	Sweet Gingerman
-9422	Savory Gingerman
-9423	Buttery Gingerman
-9424	Crispy Gingerman
+9421	Sweet Gingerbread Cookie
+9422	Savory Gingerbread Cookie
+9423	Buttery Gingerbread Cookie
+9424	Crispy Gingerbread Cookie
 9425	Broken Guard Bunny Doll
 9426	Puppet Shop Doll
 9427	Returned Trickster
 9428	Supakupa Wam-Bam
-9429	Giant Gingerman
+9429	Giant Gingerbread Cookie
 9430	Cookie Witch
 9431	Kyle
 9432	Colton
@@ -7430,7 +7430,7 @@
 9567	Merlin
 9568	Poison Alligator
 9569	Arahud
-9570	Cravan
+9570	Craobhan
 9571	Ghost Pirate
 9572	Ghost Pirate
 9573	Ghost Pirate
@@ -7522,7 +7522,7 @@
 9659	Portable Pentacle
 9660	Ghost Girl
 9661	Ghost Boy
-9662	Cravan
+9662	Craobhan
 9663	Poison Alligator
 9664	Arahud
 9665	Doubhca Saturos
@@ -8942,10 +8942,10 @@
 11119	Python Soldier
 11120	Python Shaman
 11121	Python Knight
-11122	Uroborus
-11123	Uroborus
-11124	Uroborus
-11125	Uroborus
+11122	Ouroboros
+11123	Ouroboros
+11124	Ouroboros
+11125	Ouroboros
 11126	Zombie
 11127	Zombie
 11128	Ghoul
@@ -9367,7 +9367,7 @@
 11566	Scooter Imp (90 Days)
 11567	Small Golem
 11568	Giant Gummy Bear
-11569	Giant Gingerman
+11569	Giant Gingerbread Cookie
 11570	Tabhartas
 11571	Hulking Black Ship Rat
 11572	Claimh Solas
@@ -9381,7 +9381,7 @@
 11580	Succubus Queen
 11581	Small Golem
 11582	Giant Gummy Bear
-11583	Giant Gingerman
+11583	Giant Gingerbread Cookie
 11584	Tabhartas
 11585	Hulking Black Ship Rat
 11586	Claimh Solas
@@ -9803,6 +9803,9 @@
 12091	Etain
 12092	Corentin
 12094	Lepidopteran Divine Beast
+12095	Blocky Bubby
+12096	Ret
+12097	Tro
 12098	Piscine Divine Beast
 12099	Avian Divine Beast
 12100	Aine
@@ -10088,7 +10091,7 @@
 12382	Illusion Zombie
 12383	Black Moon Follower
 12384	Illusion Zombie
-12385	Cravan
+12385	Craobhan
 12386	Poison Alligator
 12387	Arahud
 12388	Lightning Slime
@@ -10262,7 +10265,7 @@
 12588	Iolar
 12589	Iolar
 12590	Heart-Eating Spirit
-12591	Abandoned Nightbringer Berserker
+12591	Abandoned Nightbringer Berserker Greataxe
 12592	Wagon
 12593	Mouse Click Guide
 12594	Stark
@@ -10657,32 +10660,32 @@
 12998	Flying Bunny Doll
 12999	Flying Fennec Fox Doll
 13000	Flying Bear Doll
-13001	꽃 머리띠 솜사탕 양
-13002	꽃 머리띠 고양이
+13001	Flower Crown Cotton Candy Sheep
+13002	Flower Crown Cat
 13003	Pony Pinata
 13004	
 13005	
 13006	Pony Pinata
 13007	Scented Bear Pinata
 13008	Irusan Pinata
-13009	수줍은 모모
-13010	엉뚱한 모모
-13011	도도한 모모
-13012	차분한 모모
+13009	Soft Bunbun
+13010	Carrot Bunbun
+13011	Kerchief Bunbun
+13012	Clover Bunbun
 13013	
 13014	
 13015	
 13016	
 13017	Warrior Corgi (Event)
 13018	Warrior Corgi (Event)
-13019	수줍은 모모
-13020	엉뚱한 모모
-13021	도도한 모모
-13022	차분한 모모
+13019	Soft Bunbun
+13020	Carrot Bunbun
+13021	Kerchief Bunbun
+13022	Clover Bunbun
 13023	Continent of Iria Treasure Map
 13024	Continent of Iria Treasure Map
-13025	모모의 쿠키마차
-13026	토끼 다루의 스쿠터
+13025	Bunbun's Cookie Cart
+13026	Bunny Scooter Imp
 13027	Treasure Hunting Giant Leprechaun
 13028	Silvershine Giant Leprechaun
 13029	Goldengleam Giant Leprechaun
@@ -10712,12 +10715,12 @@
 13056	Star Wizard Catsidhe
 13057	Battle Pegasus
 13058	Flying High Bunny Doll
-13059	인간 남성 마네킹
-13060	인간 여성 마네킹
-13061	엘프 남성 마네킹
-13062	엘프 여성 마네킹
-13063	자이언트 남성 마네킹
-13064	자이언트 여성 마네킹
+13059	Human Male Mannequin
+13060	Human Female Mannequin
+13061	Elf Male Mannequin
+13062	Elf Female Mannequin
+13063	Giant Male Mannequin
+13064	Giant Female Mannequin
 13065	Rowan Doll
 13066	Loiscneach Doll
 13067	Iolar Doll
@@ -10732,6 +10735,7 @@
 13076	Mari
 13077	Succubus Kristell
 13078	Tarlach
+13079	Carrie
 13080	Flying High Fennec Fox Doll
 13081	Flying High Bear Doll
 13082	Black Spider
@@ -10935,8 +10939,8 @@
 13280	Illusion of Balor
 13281	Tech Duinn Geata
 13283	Hellgate
-13288	서큐버스 퀸
-13289	검게 물든 장미
+13288	Succubus Queen
+13289	Black-Stained Rose
 13290	Raccoon
 13291	Fuamnach
 13292	Admiral's Lingering Spirit
@@ -10945,14 +10949,14 @@
 13295	Yellow Giant Tentacle
 13296	Green Giant Tentacle
 13298	Foinse
-13299	레드 서큐버스 르제핀
-13300	화이트 서큐버스 아이리나
-13301	옐로우 서큐버스 피안
-13302	핑크 서큐버스 클로라
-13303	레드 서큐버스 르제핀
-13304	화이트 서큐버스 아이리나
-13305	옐로우 서큐버스 피안
-13306	핑크 서큐버스 클로라
+13299	Red Succubus Rosaphine
+13300	White Succubus Irina
+13301	Yellow Succubus Narcissa
+13302	Pink Succubus Coralyn
+13303	Red Succubus Rosaphine
+13304	White Succubus Irina
+13305	Yellow Succubus Narcissa
+13306	Pink Succubus Coralyn
 13312	Moon Shard
 13313	Lunar Nightmare
 13314	Sun Shard
@@ -10993,9 +10997,9 @@
 13357	Avian Divine Beast
 13358	Avian Divine Beast
 13359	Avian Divine Beast
-13377	글린트 양
-13378	피오라 암탉
-13379	브리움 젖소
+13377	Glint Sheep
+13378	Fiora Hen
+13379	Brium Cow
 13380	Starback Whale (Event)
 13381	Grassback Whale (Event)
 13382	Bareback Whale (Event)
@@ -11019,7 +11023,7 @@
 13403	Divine Beast Defense Force Wooden Box 1
 13404	Divine Beast Defense Force Wooden Box 2
 13405	Shard of Solace
-13406	농장 서리꾼
+13406	Farm Crop Thief
 13407	Boy Crioch
 13408	수줍은 모모
 13409	엉뚱한 모모
@@ -11081,6 +11085,8 @@
 13468	Elite Skirmisher
 13469	Elite Archer
 13470	Elite Alchemist
+13471	복주머니 모모
+13472	
 13477	Delga
 13478	Sunburst Shire
 13479	Partner Character
@@ -11120,6 +11126,7 @@
 13518	Elf Guard
 13519	Glora
 13520	Ater
+13521	Matthias
 13522	Administrative Sector Flame
 13524	Beep Beep Glanadh
 13525	Beep-Beep-Beep Glanadh
@@ -11129,6 +11136,18 @@
 13530	일렁이는 푸른 늑대
 13531	흰올빼미
 13532	밤의 빗자루
+13533	Wooden Man as Sturdy as Midir the Beloved
+13542	Vertrag of the Deep Roots
+13543	Vertrag of the Deep Roots
+13544	Ronaun
+13545	Abyssal Cari
+13546	Un Llygadog
+13547	Gwallgof
+13548	Slime Wyneb
+13549	Merch Diafol
+13550	Disciple
+13551	Disciple
+13552	Disciple
 13560	고고한 모모
 13561	
 13564	Phoenix (Event)
@@ -11137,13 +11156,49 @@
 13567	Mighty Hamchi
 13568	Leafy Hamchi
 13569	Hungry Hamchi
+13570	Midir the Beloved
+13571	Midir the Lost
+13572	Vertrag of the Deep Roots
+13573	Vertrag of the Deep Roots
+13574	Bronntanas
+13575	Cow (Test)
+13576	Ancient Rancor
+13579	Cailleach
+13580	Cailleach
+13581	Cailleach
+13582	Unfinished Reverie
+13583	Cnoc Oighir
+13584	Unfinished Reverie
+13585	Cailleach
+13586	Cnoc Oighir
+13587	Unfinished Reverie
+13588	Unfinished Reverie
+13589	Unfinished Reverie
+13590	The Winter Tyrant
+13591	Unfinished Reverie
+13592	The Winter Tyrant
+13593	Completed Glas Ghaibhleann
+13594	Giga Glas Ghaibhleann
+13595	Irusan
+13596	Giga Glas Ghaibhleann
+13597	Disciple
+13598	Erg Slime
+13599	Giga Glas Ghaibhleann
+13600	Folamh
+13601	Folamh's Apparition
+13602	Folamh's Apparition
+13603	Folamh's Apparition
+13604	Abyssal Barrier
+13605	Dark Erg Regulator
 13609	Chef Purrling
 13610	Chef Purrling
 13611	근두운
 13612	미르
+13613	Folamh
 13614	Prestige Cwn Annwn
 13616	Dee Dee Scamall
 13617	Doo Dee Doo Scamall
 13618	Dee Dooo Scamall
 13619	Prestige Cwn Annwn
 13654	Prestige Cwn Annwn
+13733	찬란한 붉은빛 페어리 드래곤

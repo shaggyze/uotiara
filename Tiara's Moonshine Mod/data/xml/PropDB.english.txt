@@ -3562,7 +3562,7 @@
 3858	*타라_게이트홀_to_1F_투명문_01
 3859	*타라_게이트홀_to_2F_투명문_01
 3860	*타라_왕성_실내_무기실_04_플라잉소드
-3861	*펼쳐진_우사단고 개인상점 세트
+3861	*Unfolded_Usadango Personal Shop Set
 3862	*타라_왕성_실내_게이트홀_기둥_R
 3863	*타라_왕성_실내_게이트홀_기둥_L
 3864	*타라_외곽_성문_02_닫힘
@@ -3968,7 +3968,7 @@
 4264	Confessional
 4265	Entering the Confessional.
 4266	Falias Portal
-4267	Use Falias Portal.
+4267	Enter the Falias Portal?
 4268	Leaving the Confessional.
 4269	*이벤트용_풍선부활_풍선_01
 4270	*아본 바닷물 01
@@ -4428,7 +4428,7 @@
 4724	Anvil
 4725	Snowfield Well
 4726	Homestead Stone
-4727	Homestead Entrance
+4727	Entrance
 4728	*Farm_level03_House_PhysisType_01
 4729	*Avon_G14_Stage_LogInUse_Night
 4730	*Avon_G14_Terrace_LogInUse_Night
@@ -7186,8 +7186,8 @@
 7482	*ELD_만국기01
 7483	*ELD_나무01
 7484	*ELD_나무02
-7485	*페시 개인상점 세트
-7486	*티아 개인상점 세트
+7485	*Fez Personal Shop Set
+7486	*Tia Personal Shop Set
 7487	*ELD_미니어쳐 페시
 7488	*ELD_미니어쳐 티아
 7489	*ELD_분수대01_바닥
@@ -7232,7 +7232,7 @@
 7528	*ELD_공연장_표지판
 7529	*농장_로레인의악몽 미니
 7530	실내
-7531	*던바튼 개인상점 세트
+7531	*Dunbarton Personal Shop Set
 7532	*ELD_벽01
 7533	*2016_PA_farmfriends
 7534	*ELD_풍선다발
@@ -7544,8 +7544,8 @@
 7840	*농장_미니어처_펜카스트
 7841	*농장_미니어처_메이븐
 7842	*ELD_즉석추첨프랍
-7843	*펼쳐진_페스티아 공연장 상점세트
-7844	*펼쳐진_장미화관 페시 개인상점 세트
+7843	*Unfolded_Festia Stage Personal Shop Set
+7844	*Unfolded_Rose Wreath Fez Personal Shop Set
 7845	*13주년 비행 어트렉션
 7846	*13주년 비행 어트렉션_장미
 7847	*피스풀 고목나무
@@ -7553,7 +7553,7 @@
 7849	*13주년 아치_장미
 7850	*13주년 화단_장미
 7851	*13주년 장미 리스
-7852	*펼쳐진_장미화관 티아 개인상점 세트
+7852	*Unfolded_Rose Wreath Tia Personal Shop Set
 7853	*13주년 장미 나무
 7854	*크리스마스이벤트_비행어트렉션
 7855	*13주년 장미 초장식01
@@ -7801,7 +7801,7 @@
 8097	*NDW_신전
 8098	*NDW_신전_석상02
 8099	*NDW_안개
-8100	*알반기사단_개인상점01
+8100	*Alban Knights_Personal Shop 01
 8101	*NDW_신전_관01
 8102	*NDW_고지대_씰브레이킹_지형프랍
 8103	*NDW_묘비02
@@ -8570,7 +8570,7 @@
 8866	*TR_A3_벽가시덩굴_부유석02
 8867	*농장_미니어처_모리안
 8868	*농장_미니어처_아드니엘
-8869	*펼쳐진_15주년 개인상점 세트
+8869	*Unfolded_15th Anniversary Personal Shop Set
 8870	*TR_제단주변 벽01
 8871	*TR_제단주변 벽02
 8872	*TR_제단주변 벽03
@@ -8608,7 +8608,7 @@
 9294	Campfire Spirit
 9306	Campfire Spirit
 9356	Campfire Spirit
-9583	*화룡의 가방
+9583	*Fire Dragon Bag
 9631	<mini>TOOL</mini> Hillwen Engineer's Tool Rack
 9653	*NTD_일반룸01(무기고,복도)
 9654	*NTD_일반룸02_02(휴식공간,창고)
@@ -8842,9 +8842,9 @@
 9882	*농장_액자의자_쓸쓸한 기다림
 9883	*하우징_액자의자_쓸쓸한 기다림
 9884	도전의 탑 입구 투명문
-9885	보라색 약초
-9886	주황색 약초
-9887	하얀 약초
+9885	Purple Herb
+9886	Orange Herb
+9887	White Herb
 9888	*농장_월몽하우스
 9889	*악마사냥꾼의 공방
 9890	*이리아_C_다리01
@@ -8857,8 +8857,8 @@
 9897	*케안항구_선착장01
 9898	*케안항구_선착장02
 9899	*필리아 교역소
-9900	<mini>TO</mini> 콘누스 항구 행
-9901	<mini>TO</mini> 셀라 항구 행
+9900	<mini>TO</mini> Port Connous
+9901	<mini>TO</mini> Port Sella
 9902	*케안항구_가로등01
 9903	*케안_콘누스_중간바다
 9904	*코르 교역소
@@ -8866,7 +8866,7 @@
 9906	*발레스 교역소
 9907	*셀라항구_바닥01
 9908	*콘누스항구_바닥01
-9909	상단 교역 게시판
+9909	Merchant Group Commerce Bulletin Board
 9910	*셀라항구_등대01
 9911	*셀라항구_중앙기둥01
 9912	*셀라항구_큰 중앙건물01
@@ -8882,8 +8882,8 @@
 9922	*콘누스항구_아치01
 9923	*셀라항구_가로등01
 9924	*콘누스항구_아치02
-9925	<mini>TO</mini> 케안 항구 행
-9926	<mini>TO</mini> 케안 항구 행
+9925	<mini>TO</mini> Port Ceann
+9926	<mini>TO</mini> Port Ceann
 9927	*콘누스항구_건물02
 9928	*콘누스항구_건물03
 9929	*콘누스항구_건물04
@@ -9002,22 +9002,300 @@
 10042	Silver Ore
 10043	Gold Ore
 10044	Mythril Ore
-10045	캐주얼 마네킹 개인상점
-10046	러블리 마네킹 개인상점
-10047	우아한 마네킹 개인상점
+10045	Casual Mannequin Personal Shop
+10046	Lovely Mannequin Personal Shop
+10047	Elegant Mannequin Personal Shop
 10049	Fruit Tree
 10050	Well
 10051	Mushroom
 10052	Mineral Vein
 10053	Herb
-10174	아르카나 불꽃 단상
-10199	[퀘스트 진행도]\n아르카나 협회원 명단
-10251	아르카나 불꽃 단상
-10820	작은 신수
-10838	용병대원 텐트 OUT
-11472	tool 미스틱 아틀리에
-11473	의상 연출용
-11477	가챠 연출용
-11511	캐주얼 마네킹 개인상점 단상
-11512	러블리 마네킹 개인상점 단상
-11513	우아한 마네킹 개인상점 단상
+10174	Arcana Enkindling Lectern
+10199	[Quest Progress]\nArcana Association Roster
+10251	Arcana Enkindling Lectern
+10820	Diminutive Divine Beast
+10838	Mercenary Tent OUT
+11407	Lumen Plant
+11411	Devil's Finger Mushroom
+11412	Veiled Lady Mushroom
+11413	Snow Lotus
+11414	Azurite
+11415	White Lead Ore
+11416	Hematite
+11417	<mini>TOOL</mini>Anvil
+11418	<mini>TOOL</mini> Magic Cauldron
+11419	<mini>TOOL</mini>Engineering Rack
+11472	<mini>TOOL</mini> Mystic Atelier
+11473	For Outfit VFX
+11477	For Gacha VFX
+11511	Casual Mannequin Personal Shop Podium
+11512	Lovely Mannequin Personal Shop Podium
+11513	Elegant Mannequin Personal Shop Podium
+11528	*GRD_Administrative Sector_Barrier 01
+11529	*GRD_Administrative Sector_Barrier 02
+11530	*GRD_Administrative Sector_Barrier 03
+11531	*GRD_Administrative Sector_Barrier 04
+11532	*GRD_Administrative Sector_Barrier 05
+11533	*GRD_Administrative Sector_Barrier 06
+11534	*GRD_Commercial Sector_Barrier 01
+11535	*GRD_Commercial Sector_Barrier 02
+11536	*GRD_Administrative Sector_Fence 01
+11537	*GRD_Nearby Cliff 01
+11538	*GRD_Nearby Cliff 02
+11539	*GRD_Administrative Sector_Barrier 07
+11554	*GRD_Commercial Sector_Floor
+11555	*GRD_Residential Sector_Floor
+11557	*GRD_Distant Tree 01
+11558	*Foinse Sword (For Skill)
+11559	*GRD_Residential Sector_Destroyed Wall 01
+11560	*GRD_Residential Sector_Destroyed Wall 02
+11561	*GRD_Residential Sector_Destroyed Wall 03
+11562	*GRD_Residential Sector_Destroyed Wall 04
+11563	*GRD_Residential Sector_Destroyed Wall 05
+11564	*GRD_Residential Sector_Destroyed Wall 06
+11565	*GRD_Residential Sector_Center Wall_01
+11566	*GRD_Residential Sector_Center Wall_02
+11567	*GRD_Residential Sector_Center Wall_03
+11568	*GRD_Residential Sector_Center Wall_04
+11569	*GRD_Distant Tree Leaves 01
+11570	*GRD_Administrative Sector_Barrier_In
+11571	*GRD_Commercial Sector_Barrier_In
+11572	*GRD_Administrative Sector_Fence 02
+11573	*GRD_Administrative Sector_Fence 03
+11577	*GRD_Administrative Sector_Round Collision Wall 01
+11578	Quartz Vein
+11579	Red Pear Tree
+11580	Storage
+11581	Storage
+11582	Storage
+11583	Storage
+11584	Mana-Infused Tree
+11585	Rapids Grain
+11586	Moonlight Carrot
+11587	Wild Berry
+11589	<mini>TOOL</mini>Weaving Rack
+11590	Rubber Tree
+11591	Shyllien Plant
+11592	Hillwen Mine Ore
+11593	Okra
+11594	Blackberry
+11595	Fence
+11596	Jasmine
+11597	*GRD_Interceptor
+11599	Sign
+11600	Aventurine
+11601	Milky Quartz
+11602	Carnelian
+11603	Sign
+11604	Fence
+11605	Old Spiderweb Stump
+11615	*GRD_Commercial Sector_Workshop Ruins 01
+11616	*GRD_Devastated Dunbarton 01
+11617	Magic Cauldron of Abundance
+11618	Magic Cauldron of Tenderness
+11619	Magic Cauldron of Brilliance
+11620	Magic Cauldron of Delicacy
+11621	Field
+11622	*GRD_Residential Sector_Destroyed Wall 07
+11623	*GRD_Residential Sector_Destroyed Wall 08
+11624	*GRD_Residential Sector_Destroyed Wall 09
+11625	*GRD_Devastated Dunbarton_Effect Invisible Prop 01
+11626	*GRD_Devastated Dunbarton_Effect Invisible Prop 02
+11627	*GRD_Devastated Dunbarton_Effect Invisible Prop 03
+11628	*GRD_Devastated Dunbarton_Effect Invisible Prop 04
+11629	*GRD_Residential Sector_Destroyed Wall 10
+11630	*GRD_Effect Invisible Prop 01 (For Movement)
+11631	*GRD_Effect Invisible Prop 02 (For Movement)
+11632	*GRD_Commercial Sector_Wall 01_01
+11633	*GRD_Commercial Sector_Wall 02_01
+11634	*GRD_Commercial Sector_Wall 01_02
+11635	*GRD_Devastated Dunbarton Ruins Pillar (For Cutscene)
+11637	*GRD_Devastated Dunbarton_Effect Invisible Prop 05
+11638	*GRD_Devastated Dunbarton_Invisible Door
+11639	*울타리
+11640	*울타리
+11641	*GRD_상업지구_공방 구조물01
+11642	<mini>TO</mini>Erinn
+11643	<mini>TO</mini>Gorias Commercial Sector
+11644	*GRD_파괴된 던바튼_바닥01
+11645	*행선지표지판01
+11646	*행선지표지판02
+11647	*GRD_파괴된 던바튼_의류점문
+11648	*GRD_파괴된 던바튼_교회문
+11649	*GRD_파괴된 던바튼_힐러집문
+11650	*GRD_파괴된 던바튼_학교문
+11651	*GRD_파괴된 던바튼_바닥02
+11652	*GRD_행정지구_중앙 문
+11653	*GRD_행정지구_팬스기둥
+11654	<mini>TO</mini> Osna Sail
+11655	<mini>TO</mini> Dugald Aisle
+11656	<mini>TO</mini> Gairech Hills
+11657	*GRD_주거지구_광석01
+11658	*GRD_주거지구_광석02
+11659	*GRD_주거지구_광석03
+11660	*GRD_주거지구_광석04
+11661	*GRD_주거지구_광석05
+11662	*GRD_행정지구_대형중앙결계_In
+11663	*GRD_행정지구_발판박스
+11664	*GRD_주거지구_부서진바닥01
+11665	*GRD_주거지구_부서진바닥02
+11666	*GRD_주거지구_부서진바닥03
+11667	*GRD_주거지구_부서진바닥04
+11668	*GRD_주거지구_강아지풀01
+11669	*GRD_주거지구_강아지풀02
+11670	*GRD_주거지구_강아지풀03
+11671	*GRD_주거지구_야생풀01
+11672	*GRD_주거지구_야생풀02
+11673	*타라 생활프랍 꾸밈_실타래
+11674	*타라 생활프랍 꾸밈_두루마기
+11675	*타라 생활프랍 꾸밈_공학 선반 책상
+11676	*타라 생활프랍 꾸밈_공학 선반 힐웬상자
+11677	*타라 생활프랍 꾸밈_공학 선반 보면대
+11678	*타라 생활프랍 꾸밈_철공소 상자01
+11679	*타라 생활프랍 꾸밈_목공소 통나무01
+11680	*타라 생활프랍 꾸밈_목공소통나무02
+11681	*타라 생활프랍 꾸밈_목공소 상자01
+11682	*타라 생활프랍 꾸밈_목공소나무판자
+11683	*타라 생활프랍 꾸밈_바리케이드_01
+11684	*타라 생활프랍_포탈01
+11685	*GRD_주거지구_광석06
+11686	*GRD_주거지구_광석07
+11687	*GRD_주거지구_광석08
+11688	*타라_왕성_실내_아르카나_08(벽N)
+11689	*타라_왕성_실내_아르카나_09(벽S)
+11690	*GRD_상업지구_공방 구조물02
+11691	*GRD_상업지구_공방_기계
+11692	*GRD_상업지구_공방_대장
+11693	*GRD_행정지구_소형화로01
+11694	*GRD_행정지구_대형화로01
+11695	*GRD_파괴된 던바튼_투명문5
+11696	*GRD_파괴된 던바튼_투명문6
+11697	*춘절이벤트_소형 소나무
+11698	*춘절이벤트_대형 소나무
+11699	*춘절이벤트_동양풍 연못
+11700	*춘절이벤트_동양풍 소형 아치문
+11701	*춘절이벤트_동양풍 대형 아치문
+11702	*춘절이벤트_동양풍 벤치
+11703	*춘절이벤트_큰 금붕어 조명
+11704	*춘절이벤트_작은 금붕어 조명
+11705	*춘절이벤트_금붕어 무리 조명
+11706	*춘절이벤트_동양풍 조명
+11707	*춘절이벤트_동양풍 무리 조명
+11708	*춘절이벤트_고전 동양풍 거리 판넬
+11709	*춘절이벤트_고전 동양풍 하늘 우산
+11710	*춘절이벤트_고전 동양풍 바닥 우산
+11711	*춘절이벤트_대나무숲 벤치
+11712	*춘절이벤트_매화나무 아래 호수
+11713	*춘절이벤트_연꽃 위 풍경
+11714	*춘절이벤트_목련꽃 필 무렵
+11715	*춘절이벤트_봉황의 꿈자리
+11716	*춘절이벤트_붉은 매화의 속삭임
+11717	*춘절이벤트_동양풍 정자
+11718	*춘절이벤트_동양풍 연회장
+11719	*GRD_상업지구_폐기물구역
+11720	*GRD_행정지구_돌바닥01
+11721	*GRD_상업지구_공방_세공
+11722	*GRD_상업지구_공방_목공 
+11723	*GRD_입구
+11724	*타라_왕성_실내_아르카나_덩쿨01
+11725	*타라_왕성_실내_아르카나_연구대01
+11726	*타라_왕성_실내_아르카나_연구대02
+11727	*GRD_행정지구_돌바닥02
+11728	*GRD_행정지구_돌바닥03
+11729	*GRD_행정지구_돌바닥04
+11730	*GRD_행정지구_돌바닥05
+11731	<mini>TOOL</mini> Engineering Rack
+11732	<mini>TOOL</mini> Magic Cauldron
+11733	*마테우스 의자(인간용)
+11734	*마테우스 의자(자이용)
+11735	*타라_왕성_실내_아르카나_조명장식01
+11736	*농장_이젤 14시즌
+11737	*타라_왕성_실내_아르카나_사이드선반_왼쪽
+11738	*타라_왕성_실내_아르카나_사이드선반_오른쪽
+11739	*도사의 지팡이(인간용)
+11740	*도사의 지팡이(자이용)
+11741	*오리엔테이션_의자
+11742	*농장_음악 동아리 신입생 모집 부스
+11743	*타라_왕성_실내_아르카나_목각인형01
+11744	*타라_왕성_실내_아르카나_책상02
+11745	*타라_왕성_실내_아르카나_깃발01
+11746	*타라_왕성_실내_아르카나_무기통01
+11747	*타라_왕성_실내_아르카나_갑옷01
+11748	*타라_왕성_실내_아르카나_거치대01
+11749	*농장_연금술 동아리 신입생 모집 부스
+11750	*사랑은 방울방울
+11751	*농장_사랑은 방울방울
+11752	<mini>TO</mini>Gorias Residential Sector
+11753	*농장_만남의 나무
+11754	*부유하는 의자(인간용)
+11755	*부유하는 의자(자이용)
+11756	*농장_하늘 우산
+11757	*미국_18주년_캠프파이어_키트
+11758	*함께 하는 시간(인간용)
+11759	*함께 하는 시간(자이용)
+11760	*농장_함께 하는 시간
+11761	*농장_아이스박스
+11762	*음악 동아리 신입생 모집 부스
+11763	*연금술 동아리 신입생 모집 부스
+11764	*농장_네온사인
+11765	*8000일이벤트_판무드등
+11766	*책더미 의자
+11767	*농장_책더미 의자
+11768	*농장_판무드등
+11769	*수박 디저트 의자(인간용)
+11770	*수박 디저트 의자(자이용)
+11771	*농장_책 무드등
+11772	*22주년 캠프파이어 키트
+11773	*파인애플 의자(인간용)
+11774	*파인애플 의자(자이용)
+11775	*농장_책 테이블
+11776	*동글 의자01
+11777	*농장_정령이 비치는 창가
+11778	*8000일 이벤트용 파티 포토월
+11779	*농장_8000일 파티 포토월
+11780	*8000일 파티 포토월
+11781	*덩굴 울타리
+11782	*표지판
+11783	*8000일 이벤트용 풍선01
+11784	*농장_독서 테이블
+11785	*2인풀장의자
+11786	*농장_2인풀장의자
+11787	*저장고
+11788	*책장 창가 의자
+11789	*마가목 나무(컷신용)
+11790	*농장_이젤 15시즌
+11791	*농장_가을 수레
+11792	*GRD_던전광장바닥01
+11793	*GRD_던전광장바닥02
+11794	*GRD_던전소형화로01
+11795	*GRD_던전중앙벽01
+11796	*GRD_던전광장바닥03
+11797	*GRD_던전중앙벽02
+11798	*GRD_던전광장바닥04
+11799	*GRD_던전광장바닥05
+11800	*GRD_던전결계01
+11801	*GRD_던전결계02
+11802	*GRD_던전중앙벽03
+11803	*GRD_던전중앙벽04
+11804	*GRD_던전상업지구바닥01
+11805	*GRD_던전주거지구바닥01
+11806	*포도나무 2인용의자
+11807	*타샤 책장 의자(인간용)
+11808	*타샤 책장 의자(자이용)
+11809	*포비든 알케미스트(스킬용)
+11810	*GRD_던전결계01
+11811	*동글 의자02
+11812	*동글 의자03
+11813	*동글 의자04
+11814	*농장_책장 창가 의자
+11815	*포인셰 검(컷신용)
+11816	*추적 미사일(스킬용)
+11817	Magic Cauldron of Brilliance\n[Gems and Accessories]
+11818	Magic Cauldron of Tenderness\n[Fibers and Fabrics]
+11819	Magic Cauldron of Abundance\n[Food and Perfumes]
+11820	Magic Cauldron of Delicacy\n[Useful Miscellany]
+11821	Magic Cauldron of Abundance\n[Food and Perfumes]
+11822	Magic Cauldron of Tenderness\n[Fibers and Fabrics]
+11823	Magic Cauldron of Brilliance\n[Gems and Accessories]
+11824	Magic Cauldron of Delicacy\n[Useful Miscellany]
+11825	Rapids Grain

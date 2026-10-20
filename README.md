@@ -194,7 +194,7 @@ Note: The new font file must be renamed "nanumgothicbold.ttf" to function. If th
 If Characters being invisible isn't to your liking, check disable character render in kanan and in tiara uncheck invisble robes or numpad / character minimization in mabi settings.
 
 To Remove Graphic Always Noon Sky:
-Find these 3 mods in the installer and uncheck. If you use abyss/kanan you can delete the files manually and if you use mabi-pack2/UOTiaraPack.bat delete uotiara_00001.it in package folder.
+Find these 3 mods in the installer and uncheck. If you use abyss/kanan you can delete the files manually and if you use mabi-patcher/UOTiaraPack.bat delete uotiara_00001.it in package folder.
 
 
 Section Always noon sky 1

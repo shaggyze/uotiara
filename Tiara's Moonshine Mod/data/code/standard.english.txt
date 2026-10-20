@@ -52,7 +52,7 @@ divineknightdescmgr.2	Binding
 divineknightdescmgr.3	Smiting
 dungeon.downstairs	<mini>TO</mini>  Downstairs
 equipmentcollectiondescmgr.1	잘못된 형식의 링크입니다. 링크를 확인해 주세요.
-ergenhancedescmgr.1	{0} ({1}/{2} 레벨)
+ergenhancedescmgr.1	{0} (Lv. {1}/{2})
 erinnlandachievementdescmgr.1	Basic
 erinnlandachievementdescmgr.2	Limited
 erinnlandachievementdescmgr.3	Mini-game
@@ -103,8 +103,8 @@ etc.gameword_elemental_fire	Fire
 etc.gameword_elemental_ice	Ice
 etc.gameword_elemental_lightning	Lightning
 etc.gameword_etc_exp	Experience Points
-etc.gameword_item.attack_max	Max Attack Power
-etc.gameword_item.attack_min	Min Attack Power
+etc.gameword_item.attack_max	Max Damage
+etc.gameword_item.attack_min	Min Damage
 etc.gameword_item.attack_speed	Attack Speed
 etc.gameword_item.balance	Balance
 etc.gameword_item.critical	Critical
@@ -281,29 +281,29 @@ interface_item.8	Prestige
 interface_item.9	Cutting Edge
 interface_item.10	Trendy
 interface_item.11	Standard
-interface_item.12	방금 차린 
-interface_item.13	방금 요리한 
+interface_item.12	Freshly Served 
+interface_item.13	Freshly Cooked 
 interface_item.14	Classic
-interface_item.15	4대 속성 연금술 대미지 {0} 증가)))
-interface_item.16	4대 속성 연금술 대미지 {0} 감소)))
-interface_item.17	제철 
+interface_item.15	Fire/Water/Wind/Earth Alchemic Damage +{0})))
+interface_item.16	Fire/Water/Wind/Earth Alchemic Damage -{0})))
+interface_item.17	Seasonal 
 interface_item.18	Repair Fee Change: {0}%
-interface_livingcontents.1	위탁자의 골드가 부족합니다.
-interface_livingcontents.2	이미 준비 완료 상태입니다.
-interface_livingcontents.3	아직 시작할 수 없습니다.
-interface_livingcontents.4	위탁자가 준비되지 않았습니다.
-interface_livingcontents.5	현재 장비 조율을 할 수 없는 상태입니다.
-interface_livingcontents.6	금속가공
-interface_livingcontents.7	의류제작
-interface_livingcontents.8	약품제작
-interface_livingcontents.9	식품제조
-interface_livingcontents.10	수공예
-interface_livingcontents.11	명장
-interface_livingcontents.12	장인
-interface_livingcontents.13	전문
-interface_livingcontents.14	숙련
-interface_livingcontents.15	견습
-interface_livingcontents.16	입문
+interface_livingcontents.1	The requester does not have enough Gold.
+interface_livingcontents.2	You are already ready.
+interface_livingcontents.3	You cannot start yet.
+interface_livingcontents.4	The requester is not ready.
+interface_livingcontents.5	Equipment Tuning is currently unavailable.
+interface_livingcontents.6	Metalworking
+interface_livingcontents.7	Textiles
+interface_livingcontents.8	Medicine
+interface_livingcontents.9	Food
+interface_livingcontents.10	Craftworks
+interface_livingcontents.11	Maistir
+interface_livingcontents.12	Virtuoso
+interface_livingcontents.13	Expert
+interface_livingcontents.14	Adept
+interface_livingcontents.15	Amateur
+interface_livingcontents.16	Novice
 interface_minigame.1	You are currently a pet and cannot participate in mini-games.
 interface_minigame.2	Cannot start a mini-game while unconscious.
 interface_minigame.3	Cannot start a mini-game while using a skill.
@@ -421,7 +421,7 @@ interface_royalalchemist.5	Royal Alchemist
 interface_royalalchemist.6	Royal Blacksmith
 interface_royalalchemist.7	Royal Tailor
 interface_royalalchemist.8	Royal Enchanter
-interface_seasonalfarming.1	임시 인벤토리를 비우고 시도해 주세요.
+interface_seasonalfarming.1	Please empty your Temporary Inventory and try again.
 interface_servicemgr.1	Inventory Plus Kit
 interface_servicemgr.2	Mabinogi Premium Service
 interface_servicemgr.3	Mabinogi VIP Service
@@ -477,7 +477,7 @@ interface_skillhandler.7	무기의 사용기간이 지나서 {0}{을} 사용할 
 interface_skillhandler.8	You can't use this here.
 interface_skillhandler.9	지금은 스킬을 사용할 수 없습니다.\n게임에 접속 중인 상태로, {0} 후에 다시 시도하세요.
 interface_skillhandler.10	You can't use that Technique now. Please try again in {0} sec.
-interface_skillhandler.11	이번 시즌에 사용할 수 없는 아이템이 있습니다.
+interface_skillhandler.11	Some items cannot be used in this season.
 interface_skillhandlerparam.1	You don't have enough Dorcha.
 interface_skillmgr.1	All the attributes are charged.
 interface_skillmgr.2	Requires a close combat weapon to use.
@@ -494,7 +494,7 @@ interface_skillmgruse.3	This skill cannot be used with the current Arcana.
 interface_soulmate.1	You can only send the request on Doki Doki Island.
 interface_soulmate.2	You're already someone else's soulmate!
 interface_soulmate.3	Your love interest is already someone else's soulmate.
-interface_soulmate.4	상대방이 이벤트에 참여하고 있지 않아 요청이 불가능합니다.
+interface_soulmate.4	Request cannot be sent, as this player has not registered for the event.
 interface_specialization.1	Requirements not met.
 interface_specialization.2	This Technique has not been activated.
 interface_standardapi.1	일반
@@ -653,7 +653,7 @@ itemoptiondeschelper.63	Party Healing Skill Recovery Effect
 itemoptiondeschelper.64	Critical Damage
 itemoptiondeschelper.65	Final Critical Rate (Can Exceed Max)
 itemoptiondeschelper.66	Shadow Mission Completion EXP
-itemoptiondeschelper.67	자신의 전투 경험치
+itemoptiondeschelper.67	Personal Combat EXP
 itemoptiondeschelper.68	Battlefield Overture/Vivace Attack Bonus
 itemoptiondeschelper.69	Enchanted Item's Durability Loss
 itemoptiondeschelper.70	Arcana Skill Damage
@@ -669,6 +669,52 @@ mabiauctionmgr.5	Re-Bid Required
 mabiauctionmgr.6	Purchase Failed
 mabiauctionmgr.7	Purchase\nSucceeded
 mabiauctionmgr.8	Ended
+mabinogi_characterchangename.1	잘못된 캐릭터 이름입니다.
+mabinogi_characterchangename.2	해당 이름은 사용할 수 없는 이름입니다
+mabinogi_characterchangename.3	이름은 한글 2~6, 영문 3~12자이어야 합니다.
+mabinogi_characterchangename.4	이름은 숫자로 시작할 수 없습니다.
+mabinogi_characterchangename.5	숫자 다음으로 문자가 올 수 없습니다.
+mabinogi_characterchangename.6	소문자 뒤에 대문자가 올 수 없습니다.
+mabinogi_characterchangename.7	한글과 영문을 함께 쓸 수 없습니다.
+mabinogi_characterchangename.8	동일한 문자를 여러개 연속하여 쓸 수 없습니다.
+mabinogi_characterchangename.9	이름으로 사용할 수 없는 글자입니다.
+mabinogi_characterchangename.10	이름 변경을 시도할 수 없는 캐릭터입니다.
+mabinogi_characterchangename.11	튜토리얼 진행 중에는 이름 변경을 시도할 수 없습니다. (첫 환생 이후 이용 가능)
+mabinogi_characterchangename.12	누적레벨 30 미만의 캐릭터는 이름 변경을 시도할 수 없습니다.
+mabinogi_characterchangename.13	로그아웃 패널티가 있는 동안은 이름 변경을 시도할 수 없습니다.
+mabinogi_characterchangename.14	대전 중에는 이름 변경을 시도할 수 없습니다.
+mabinogi_characterchangename.15	죽은 상태에서 이름 변경을 시도할 수 없습니다.
+mabinogi_characterchangename.16	스킬 사용 중에는 이름 변경을 시도할 수 없습니다.
+mabinogi_characterchangename.17	마창대회 중에는 이름 변경을 시도할 수 없습니다.
+mabinogi_characterchangename.18	패션쇼 중에는 이름 변경을 시도할 수 없습니다.
+mabinogi_characterchangename.19	이 곳에서는 이름 변경을 시도할 수 없습니다.
+mabinogi_characterchangename.20	필드 퀘스트를 소지하여 이름 변경을 시도할 수 없습니다.
+mabinogi_characterchangename.21	파티 중에는 이름 변경을 시도할 수 없습니다.
+mabinogi_characterchangename.22	길드에 가입하고 있는 중에는 이름 변경을 시도할 수 없습니다.
+mabinogi_characterchangename.23	약혼 또는 결혼 중에는 이름 변경을 시도할 수 없습니다.
+mabinogi_characterchangename.24	하우스 소지 중에는 이름 변경을 시도할 수 없습니다.
+mabinogi_characterchangename.25	은행을 이용하는 도중에는 이름 변경을 시도할 수 없습니다.
+mabinogi_characterchangename.26	인벤토리 기능을 사용하는 중에는 이름 변경을 시도할 수 없습니다.
+mabinogi_characterchangename.27	캐릭터 정보 저장중에는 이름 변경을 시도할 수 없습니다.
+mabinogi_characterchangename.28	교역 중에는 이름 변경을 시도할 수 없습니다.
+mabinogi_characterchangename.29	그린PC가 아니면 이름 변경을 시도할 수 없습니다.
+mabinogi_characterchangename.30	변신 중에는 이름 변경을 시도할 수 없습니다.
+mabinogi_characterchangename.31	변신 중에는 이름 변경을 시도할 수 없습니다.
+mabinogi_characterchangename.32	이름 변경을 시도할 수 없는 상태입니다.
+mabinogi_characterchangename.33	다른 캐릭터가 이름변경을 시도한 상태입니다.
+mabinogi_characterchangename.34	이름 변경을 시도할 수 없는 상태입니다.
+mabinogi_characterchangename.35	시스템 오류로 기능이 비활성화 된 상태입니다.
+mabinogi_characterchangename.36	이미 예약된 이름입니다.
+mabinogi_characterchangename.37	유효하지 않은 캐릭터입니다.
+mabinogi_characterchangename.38	개인거래를 하는 도중에는 이름 변경을 시도할 수 없습니다.
+mabinogi_characterchangename.39	이름에 부적절한 단어가 포함되어 있습니다.
+mabinogi_characterchangename.40	이름 변경에 필요한 재료 아이템이 부족합니다.
+mabinogi_characterchangename.41	재사용 쿨타임이 남아 있어 사용할 수 없습니다.
+mabinogi_characterchangename.42	잠시 후 다시 시도해주세요.
+mabinogi_characterchangename.43	잘못된 요청입니다.
+mabinogi_characterchangename.44	잘못된 요청입니다.
+mabinogi_characterchangename.45	이름 변경이 진행 중입니다.
+mabinogi_characterchangename.46	누군가가 사용중인 이름입니다.\n변경할 이름을 다시 입력해 주세요.
 mabinogi_commerce.1	Failed to trade Mercantile Goods. (0)
 mabinogi_commerce.2	Your Merchant Rating is not high enough at this Trading Post.
 mabinogi_commerce.3	Insufficient Ducats.
@@ -700,7 +746,7 @@ mabinogi_commerce.28	This Transport Mount can only be used while the Alpaca is s
 mabinogi_commerce.29	This partner cannot use the Transport Mount.\nPlease choose a different Transport Mount.
 mabinogi_commerce.30	This Transport Mount can only be used during the event.\nPlease choose a different Transport Mount.
 mabinogi_commerce.31	You don't have enough Seasonal Ducats.
-mabinogi_commerce.32	You can use this transport mount after\npaying a fee in Seasonal Ducats. See the\nTransport Helper to learn more.
+mabinogi_commerce.32	This transport mount is currently unavailable. The usage conditions for transport mounts are as follows:\n\nBasic Transportation Mounts: Can be purchased from the Transport Helper\nEvent/Guild Transport Mounts: Available when event and guild conditions are met\nVIP Transport Mounts: Available while VIP benefits are active
 mabinogi_commerce.33	{0} {1}
 mabinogi_commerce.34	AM
 mabinogi_commerce.35	PM
@@ -742,7 +788,7 @@ mabinogi_gameword.19	Auto Magic Defense
 mabinogi_gameword.20	Auto Ranged Defense
 mabinogi_gameword.21	Gathering Speed
 mabinogi_gameword.22	Collection Probability
-mabinogi_gameword.23	Collection Quantity
+mabinogi_gameword.23	Chance to Gather 1 Additional Material
 mabinogi_gameword.24	Casting Speed
 mabinogi_gameword.25	Movement Speed
 mabinogi_gameword.26	Transport Speed
@@ -795,8 +841,8 @@ mabinogi_job.7	Fighter
 mabinogi_job.8	Bard
 mabinogi_job.9	Puppeteer
 mabinogi_job.10	Gunslinger
-mabinogi_livingcontents.1	환경
-mabinogi_livingcontents.2	던전/미션
+mabinogi_livingcontents.1	Environment
+mabinogi_livingcontents.2	Dungeon/Mission
 mabinogi_minigame.1	Mafia
 mabinogi_minigame.2	Citizen
 mabinogi_minigame.3	Cop
@@ -1078,8 +1124,8 @@ questresult.22	{0} PT
 questresult.23	Erinn-go-Round Dice Points <color=2>{0}</color>
 questresult.24	<color=2>{0}</color> Guild Points
 questresult.25	<color=2>{0}</color> Guild Points
-questresult.26	시즌 생활 경험치 <color=2>{0}</color>
-questresult.27	시즌 생활 경험치 <color=2>{0}</color>
+questresult.26	Season Life EXP: <color=2>{0}</color>
+questresult.27	Season Life EXP: <color=2>{0}</color>
 recommendflagtable.1	EXP +{0}
 recommendflagtable.2	{0} - A recommender will receive {1} Recommendation EXP.
 setitemmgr.1	Increase
@@ -1122,8 +1168,8 @@ shapeshiftdescmgr.6	INT
 shapeshiftdescmgr.7	DEX
 shapeshiftdescmgr.8	Will
 shapeshiftdescmgr.9	Luck
-shapeshiftdescmgr.10	Min Attack Power
-shapeshiftdescmgr.11	Max Attack Power
+shapeshiftdescmgr.10	Min Damage
+shapeshiftdescmgr.11	Max Damage
 shapeshiftdescmgr.12	Defense
 shapeshiftdescmgr.13	Protection
 shapeshiftdescmgr.14	<color=4>{0:Bonus Type}</color>  <color=5>+{1:Bonus Value}</color>

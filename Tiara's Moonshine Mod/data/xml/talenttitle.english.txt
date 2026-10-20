@@ -946,15 +946,15 @@
 1663	This hidden talent is a result of proficiency in Close Combat and Lance Combat.
 1664	This hidden talent is a result of proficiency in Close Combat and Lance Combat.
 1665	This hidden talent is a result of proficiency in Close Combat and Lance Combat.
-1666	This hidden talent is a result of proficiency in Martial Arts and Lance Combat. It's focus is on Charge. Develop this hidden talent further by continuing to train Martial Arts and Lance Combat.
-1667	This hidden talent is a result of proficiency in Martial Arts and Lance Combat. It's focus is on Charge. Develop this hidden talent further by continuing to train Martial Arts and Lance Combat.
-1668	This hidden talent is a result of proficiency in Martial Arts and Lance Combat. It's focus is on Charge. Develop this hidden talent further by continuing to train Martial Arts and Lance Combat.
-1669	This hidden talent is a result of proficiency in Martial Arts and Lance Combat. It's focus is on Charge. Develop this hidden talent further by continuing to train Martial Arts and Lance Combat.
-1670	This hidden talent is a result of proficiency in Martial Arts and Lance Combat. It's focus is on Charge. Develop this hidden talent further by continuing to train Martial Arts and Lance Combat.
-1671	This hidden talent is a result of proficiency in Martial Arts and Lance Combat. It's focus is on Charge. Develop this hidden talent further by continuing to train Martial Arts and Lance Combat.
-1672	This hidden talent is a result of proficiency in Martial Arts and Lance Combat. It's focus is on Charge. Develop this hidden talent further by continuing to train Martial Arts and Lance Combat.
-1673	This hidden talent is a result of proficiency in Martial Arts and Lance Combat. It's focus is on Charge. Develop this hidden talent further by continuing to train Martial Arts and Lance Combat.
-1674	This hidden talent is a result of proficiency in Martial Arts and Lance Combat. It's focus is on Charge. Develop this hidden talent further by continuing to train Martial Arts and Lance Combat.
+1666	This hidden talent is a result of proficiency in Martial Arts and Lance Combat. It focuses on quickly charging enemies to take them down. Develop this hidden talent further by continuing to train Martial Arts and Lance Combat.
+1667	This hidden talent is a result of proficiency in Martial Arts and Lance Combat. It focuses on quickly charging enemies to take them down. Develop this hidden talent further by continuing to train Martial Arts and Lance Combat.
+1668	This hidden talent is a result of proficiency in Martial Arts and Lance Combat. It focuses on quickly charging enemies to take them down. Develop this hidden talent further by continuing to train Martial Arts and Lance Combat.
+1669	This hidden talent is a result of proficiency in Martial Arts and Lance Combat. It focuses on quickly charging enemies to take them down. Develop this hidden talent further by continuing to train Martial Arts and Lance Combat.
+1670	This hidden talent is a result of proficiency in Martial Arts and Lance Combat. It focuses on quickly charging enemies to take them down. Develop this hidden talent further by continuing to train Martial Arts and Lance Combat.
+1671	This hidden talent is a result of proficiency in Martial Arts and Lance Combat. It focuses on quickly charging enemies to take them down. Develop this hidden talent further by continuing to train Martial Arts and Lance Combat.
+1672	This hidden talent is a result of proficiency in Martial Arts and Lance Combat. It focuses on quickly charging enemies to take them down. Develop this hidden talent further by continuing to train Martial Arts and Lance Combat.
+1673	This hidden talent is a result of proficiency in Martial Arts and Lance Combat. It focuses on quickly charging enemies to take them down. Develop this hidden talent further by continuing to train Martial Arts and Lance Combat.
+1674	This hidden talent is a result of proficiency in Martial Arts and Lance Combat. It focuses on quickly charging enemies to take them down. Develop this hidden talent further by continuing to train Martial Arts and Lance Combat.
 1686	This hidden talent is a result of proficiency in Magic and the Holy Arts. Develop it further by continuing to train both those talents.
 1687	This hidden talent is a result of proficiency in Smithing, Tailoring, and Carpentry. Your creativity knows no bounds! Develop this hidden talent further by continuing to train Smithing, Tailoring, and Carpentry.
 1688	This hidden talent is a result of proficiency in Smithing, Tailoring, and Carpentry. Your creativity knows no bounds! Develop this hidden talent further by continuing to train Smithing, Tailoring, and Carpentry.
@@ -999,16 +999,16 @@
 1754	This hidden talent is a result in proficiency in offensive combat abilities. Only those well-versed in Close Combat, Martial Arts, and Magic can unlock this talent.
 1755	This hidden talent is a result in proficiency in offensive combat abilities. Only those well-versed in Close Combat, Martial Arts, and Magic can unlock this talent.
 1756	This hidden talent is a result in proficiency in offensive combat abilities. Only those well-versed in Close Combat, Martial Arts, and Magic can unlock this talent.
-1757	Individuals who really enjoy shooting things, with both a bow and a cylinder, can unlock this talent.
-1758	Individuals who really enjoy shooting things, with both a bow and a cylinder, can unlock this talent.
-1759	Individuals who really enjoy shooting things, with both a bow and a cylinder, can unlock this talent.
-1760	Individuals who really enjoy shooting things, with both a bow and a cylinder, can unlock this talent.
-1761	Individuals who really enjoy shooting things, with both a bow and a cylinder, can unlock this talent.
-1762	Individuals who really enjoy shooting things, with both a bow and a cylinder, can unlock this talent.
-1763	Individuals who really enjoy shooting things, with both a bow and a cylinder, can unlock this talent.
-1764	Individuals who really enjoy shooting things, with both a bow and a cylinder, can unlock this talent.
-1765	Individuals who really enjoy shooting things, with both a bow and a cylinder, can unlock this talent.
-1766	Individuals who really enjoy shooting things, with both a bow and a cylinder, can unlock this talent.
+1757	Those who appreciate the merits of assailing foes from afar with bows and cylinders alike can unlock this hidden talent.
+1758	Those who appreciate the merits of assailing foes from afar with bows and cylinders alike can unlock this hidden talent.
+1759	Those who appreciate the merits of assailing foes from afar with bows and cylinders alike can unlock this hidden talent.
+1760	Those who appreciate the merits of assailing foes from afar with bows and cylinders alike can unlock this hidden talent.
+1761	Those who appreciate the merits of assailing foes from afar with bows and cylinders alike can unlock this hidden talent.
+1762	Those who appreciate the merits of assailing foes from afar with bows and cylinders alike can unlock this hidden talent.
+1763	Those who appreciate the merits of assailing foes from afar with bows and cylinders alike can unlock this hidden talent.
+1764	Those who appreciate the merits of assailing foes from afar with bows and cylinders alike can unlock this hidden talent.
+1765	Those who appreciate the merits of assailing foes from afar with bows and cylinders alike can unlock this hidden talent.
+1766	Those who appreciate the merits of assailing foes from afar with bows and cylinders alike can unlock this hidden talent.
 1767	Those who've extensively studied the elements by practicing both Battle Alchemy and Magic can unlock this talent.
 1768	Those who've extensively studied the elements by practicing both Battle Alchemy and Magic can unlock this talent.
 1769	Those who've extensively studied the elements by practicing both Battle Alchemy and Magic can unlock this talent.
@@ -1125,7 +1125,7 @@
 1931	You've discovered the Lumberjack talent for chopping wood from trees as you wandered the world.
 1932	You've discovered the Lumberjack talent for chopping wood from trees as you wandered the world.
 1933	You've discovered the Lumberjack talent for chopping wood from trees as you wandered the world.
-1934	This hidden talent is a result of proficiency in Martial Arts and Lance Combat. It's focus is on Charge.
+1934	This hidden talent is a result of proficiency in Martial Arts and Lance Combat. It focuses on quickly charging enemies to take them down.
 1935	This hidden talent is a result of proficiency in Smithing, Tailoring, and Carpentry. Your creativity knows no bounds!
 1936	You've traveled far and wide, tasting the different foods the world has to offer. Your palate is unparalleled!
 1937	This hidden talent is available to those who are adept at using ALL sorts of melee weapons, including Lumber Axes.
@@ -1525,16 +1525,16 @@
 2390	This hidden talent is a result of proficiency in Lance Combat and Chain Slash. You are a master with not only the medieval weapons of old, but also the most modern, cutting-edge weapon ever seen in Erinn.
 2391	This hidden talent is a result of proficiency in Lance Combat and Chain Slash. You are a master with not only the medieval weapons of old, but also the most modern, cutting-edge weapon ever seen in Erinn.
 2392	This hidden talent is a result of proficiency in Lance Combat and Chain Slash. You are a master with not only the medieval weapons of old, but also the most modern, cutting-edge weapon ever seen in Erinn.
-2393	This hidden talent is a result of proficiency in Magic and Chain Slash. You bind your enemies with chains even as you keep them spellbound.
-2394	This hidden talent is a result of proficiency in Magic and Chain Slash. You bind your enemies with chains even as you keep them spellbound.
-2395	This hidden talent is a result of proficiency in Magic and Chain Slash. You bind your enemies with chains even as you keep them spellbound.
-2396	This hidden talent is a result of proficiency in Magic and Chain Slash. You bind your enemies with chains even as you keep them spellbound.
-2397	This hidden talent is a result of proficiency in Magic and Chain Slash. You bind your enemies with chains even as you keep them spellbound.
-2398	This hidden talent is a result of proficiency in Magic and Chain Slash. You bind your enemies with chains even as you keep them spellbound.
-2399	This hidden talent is a result of proficiency in Magic and Chain Slash. You bind your enemies with chains even as you keep them spellbound.
-2400	This hidden talent is a result of proficiency in Magic and Chain Slash. You bind your enemies with chains even as you keep them spellbound.
-2401	This hidden talent is a result of proficiency in Magic and Chain Slash. You bind your enemies with chains even as you keep them spellbound.
-2402	This hidden talent is a result of proficiency in Magic and Chain Slash. You bind your enemies with chains even as you keep them spellbound.
+2393	This hidden talent is made known to those who achieve proficiency in both Magic and Chain Slash. Whether binding enemies with a chain blade or keeping them spellbound with arcane energies, you are a force to be reckoned with.
+2394	This hidden talent is made known to those who achieve proficiency in both Magic and Chain Slash. Whether binding enemies with a chain blade or keeping them spellbound with arcane energies, you are a force to be reckoned with.
+2395	This hidden talent is made known to those who achieve proficiency in both Magic and Chain Slash. Whether binding enemies with a chain blade or keeping them spellbound with arcane energies, you are a force to be reckoned with.
+2396	This hidden talent is made known to those who achieve proficiency in both Magic and Chain Slash. Whether binding enemies with a chain blade or keeping them spellbound with arcane energies, you are a force to be reckoned with.
+2397	This hidden talent is made known to those who achieve proficiency in both Magic and Chain Slash. Whether binding enemies with a chain blade or keeping them spellbound with arcane energies, you are a force to be reckoned with.
+2398	This hidden talent is made known to those who achieve proficiency in both Magic and Chain Slash. Whether binding enemies with a chain blade or keeping them spellbound with arcane energies, you are a force to be reckoned with.
+2399	This hidden talent is made known to those who achieve proficiency in both Magic and Chain Slash. Whether binding enemies with a chain blade or keeping them spellbound with arcane energies, you are a force to be reckoned with.
+2400	This hidden talent is made known to those who achieve proficiency in both Magic and Chain Slash. Whether binding enemies with a chain blade or keeping them spellbound with arcane energies, you are a force to be reckoned with.
+2401	This hidden talent is made known to those who achieve proficiency in both Magic and Chain Slash. Whether binding enemies with a chain blade or keeping them spellbound with arcane energies, you are a force to be reckoned with.
+2402	This hidden talent is made known to those who achieve proficiency in both Magic and Chain Slash. Whether binding enemies with a chain blade or keeping them spellbound with arcane energies, you are a force to be reckoned with.
 2403	This hidden talent is a result of proficiency in Chain Slash and Adventure. After traveling the world and meeting all of its animals, you learned how to train them with positive reinforcement only, and no whips! Of course, you still like to crack your Chain Blade like a whip, just for show.
 2404	This hidden talent is a result of proficiency in Chain Slash and Adventure. After traveling the world and meeting all of its animals, you learned how to train them with positive reinforcement only, and no whips! Of course, you still like to crack your Chain Blade like a whip, just for show.
 2405	This hidden talent is a result of proficiency in Chain Slash and Adventure. After traveling the world and meeting all of its animals, you learned how to train them with positive reinforcement only, and no whips! Of course, you still like to crack your Chain Blade like a whip, just for show.
@@ -1783,7 +1783,7 @@
 2648	Master Natural Philosopher
 2649	Great Woodsfolk
 2650	Champion Woodsfolk
-2651	Great Woodsfolk
+2651	Wise Woodsfolk
 2652	Master Woodsfolk
 2653	You are just as comfortable weaving glyphs as you are weaving silk. Your knowledge of glyph design gives your outfits a magic touch, while your fashion sense make your glyphs all the more artistic.
 2654	You are just as comfortable weaving glyphs as you are weaving silk. Your knowledge of glyph design gives your outfits a magic touch, while your fashion sense make your glyphs all the more artistic.
@@ -1823,8 +1823,8 @@
 2688	Your craft is the thing of legend. While any woodsman can train animals and work wood, you elevate it to another level with your glyphwrighting acumen.
 2689	Your craft is the thing of legend. While any woodsman can train animals and work wood, you elevate it to another level with your glyphwrighting acumen.
 2690	Your craft is the thing of legend. While any woodsman can train animals and work wood, you elevate it to another level with your glyphwrighting acumen.
-2691	그랜드마스터 마검사
-2692	그랜드마스터 성가대
+2691	Grandmaster Spellsword
+2692	Grandmaster Choirmaster
 2693	약품을 연구하고 여러 가지를 조합하여 약품을 만들어내는 것이 바로 약품 연구입니다.\n약품 연구는 여러 가지 포션을 제조하여 다양한 효과를 낼 수 있습니다.
 2694	약품을 연구하고 여러 가지를 조합하여 약품을 만들어내는 것이 바로 약품 연구입니다.\n약품 연구는 여러 가지 포션을 제조하여 다양한 효과를 낼 수 있습니다.
 2695	약품을 연구하고 여러 가지를 조합하여 약품을 만들어내는 것이 바로 약품 연구입니다.\n약품 연구는 여러 가지 포션을 제조하여 다양한 효과를 낼 수 있습니다.
@@ -1841,8 +1841,8 @@
 2706	약품을 연구하고 여러 가지를 조합하여 약품을 만들어내는 것이 바로 약품 연구입니다.\n약품 연구는 여러 가지 포션을 제조하여 다양한 효과를 낼 수 있습니다.
 2707	약품을 연구하고 여러 가지를 조합하여 약품을 만들어내는 것이 바로 약품 연구입니다.\n약품 연구는 여러 가지 포션을 제조하여 다양한 효과를 낼 수 있습니다.
 2708	약품을 연구하고 여러 가지를 조합하여 약품을 만들어내는 것이 바로 약품 연구입니다.\n약품 연구는 여러 가지 포션을 제조하여 다양한 효과를 낼 수 있습니다.
-2709	근접 전투와 마법을 모두 능숙하게 사용할 수 있는 사람에게만 나타나는 숨겨진 재능 타이틀입니다.
-2710	축복과 음악을 모두 능숙하게 사용할 수 있는 사람에게만 나타나는 숨겨진 재능입니다. 성스러운 노래를 불러 모두에게 평온함을 줄 수 있을 것 같습니다.
+2709	This hidden talent is a result of proficiency in Close Combat and Magic.
+2710	This hidden talent is a result of proficiency in Music and the Holy Arts. Soothe people's spirits by singing a sacred song.
 2711	Grandmaster Bombardier
 2712	Grandmaster Black Magician
 2713	Those who appreciate the merits of assailing foes from afar with bows and cylinders alike can unlock this hidden talent.
@@ -1944,30 +1944,30 @@
 2809	Practitioners of Battle Astrology wield Scythes in combat, and carry with them an Orb used in their auguries. Their damage is primarily reliant upon their Magic Attack power.\nAstrologers use their knowledge of the stars to customize their skills, tailoring each to best suit their own proclivities in combat. In doing so, they demonstrate their heightened ability to influence destiny itself.
 2810	Practitioners of Battle Astrology wield Scythes in combat, and carry with them an Orb used in their auguries. Their damage is primarily reliant upon their Magic Attack power.\nAstrologers use their knowledge of the stars to customize their skills, tailoring each to best suit their own proclivities in combat. In doing so, they demonstrate their heightened ability to influence destiny itself.
 2811	Fate Astrologers can gain insight into people's futures, personalities, and fates by studying the positions of the stars. They are frequently also skilled in other divination methods, such as Cartomancy, and may be able to create tools and materials that use the power of the stars.
-2812	그랜드마스터 성기사
-2813	축복과 근접 전투를 모두 능숙하게 사용할 수 있는 사람에게만 나타나는 숨겨진 재능입니다. 성스러운 힘을 바탕으로 근접 전투를 할 수 있습니다.
-2814	베테랑 폭발 예술가
-2815	수석 폭발 예술가
-2816	상급 폭발 예술가
-2817	일류 폭발 예술가
-2818	특급 폭발 예술가
-2819	달인 폭발 예술가
-2820	로얄 폭발 예술가
-2821	챔피언 폭발 예술가
-2822	대 폭발 예술가
-2823	마스터 폭발 예술가
-2824	그랜드마스터 폭발 예술가
-2825	바닥에 굴러다니던 마력탄을 랜스로 콕콕 찔러보다 아이쿠! 그만 마력탄을 터트리고 말았는데! 폭발하는 불꽃 속에서 영감을 얻는 저는 그만 폭발 예술가가 되었답니다.
-2826	바닥에 굴러다니던 마력탄을 랜스로 콕콕 찔러보다 아이쿠! 그만 마력탄을 터트리고 말았는데! 폭발하는 불꽃 속에서 영감을 얻는 저는 그만 폭발 예술가가 되었답니다.
-2827	바닥에 굴러다니던 마력탄을 랜스로 콕콕 찔러보다 아이쿠! 그만 마력탄을 터트리고 말았는데! 폭발하는 불꽃 속에서 영감을 얻는 저는 그만 폭발 예술가가 되었답니다.
-2828	바닥에 굴러다니던 마력탄을 랜스로 콕콕 찔러보다 아이쿠! 그만 마력탄을 터트리고 말았는데! 폭발하는 불꽃 속에서 영감을 얻는 저는 그만 폭발 예술가가 되었답니다.
-2829	바닥에 굴러다니던 마력탄을 랜스로 콕콕 찔러보다 아이쿠! 그만 마력탄을 터트리고 말았는데! 폭발하는 불꽃 속에서 영감을 얻는 저는 그만 폭발 예술가가 되었답니다.
-2830	바닥에 굴러다니던 마력탄을 랜스로 콕콕 찔러보다 아이쿠! 그만 마력탄을 터트리고 말았는데! 폭발하는 불꽃 속에서 영감을 얻는 저는 그만 폭발 예술가가 되었답니다.
-2831	바닥에 굴러다니던 마력탄을 랜스로 콕콕 찔러보다 아이쿠! 그만 마력탄을 터트리고 말았는데! 폭발하는 불꽃 속에서 영감을 얻는 저는 그만 폭발 예술가가 되었답니다.
-2832	바닥에 굴러다니던 마력탄을 랜스로 콕콕 찔러보다 아이쿠! 그만 마력탄을 터트리고 말았는데! 폭발하는 불꽃 속에서 영감을 얻는 저는 그만 폭발 예술가가 되었답니다.
-2833	바닥에 굴러다니던 마력탄을 랜스로 콕콕 찔러보다 아이쿠! 그만 마력탄을 터트리고 말았는데! 폭발하는 불꽃 속에서 영감을 얻는 저는 그만 폭발 예술가가 되었답니다.
-2834	바닥에 굴러다니던 마력탄을 랜스로 콕콕 찔러보다 아이쿠! 그만 마력탄을 터트리고 말았는데! 폭발하는 불꽃 속에서 영감을 얻는 저는 그만 폭발 예술가가 되었답니다.
-2835	바닥에 굴러다니던 마력탄을 랜스로 콕콕 찔러보다 아이쿠! 그만 마력탄을 터트리고 말았는데! 폭발하는 불꽃 속에서 영감을 얻는 저는 그만 폭발 예술가가 되었답니다.
+2812	Grandmaster Holy Warrior
+2813	This hidden talent is a result of proficiency in Close Combat and the Holy Arts. Your attacks are infused with the power of the divine!
+2814	Apprentice Pyrotechnician
+2815	Senior Pyrotechnician
+2816	Advanced Pyrotechnician
+2817	Seasoned Pyrotechnician
+2818	Skilled Pyrotechnician
+2819	Expert Pyrotechnician
+2820	Great Pyrotechnician
+2821	Champion Pyrotechnician
+2822	Wise Pyrotechnician
+2823	Master Pyrotechnician
+2824	Grandmaster Pyrotechnician
+2825	On one fateful day, you stabbed a loose Mana Bullet rolling around on the floor with a lance. The resulting explosion inspired you to study the explosive arts.
+2826	On one fateful day, you stabbed a loose Mana Bullet rolling around on the floor with a lance. The resulting explosion inspired you to study the explosive arts.
+2827	On one fateful day, you stabbed a loose Mana Bullet rolling around on the floor with a lance. The resulting explosion inspired you to study the explosive arts.
+2828	On one fateful day, you stabbed a loose Mana Bullet rolling around on the floor with a lance. The resulting explosion inspired you to study the explosive arts.
+2829	On one fateful day, you stabbed a loose Mana Bullet rolling around on the floor with a lance. The resulting explosion inspired you to study the explosive arts.
+2830	On one fateful day, you stabbed a loose Mana Bullet rolling around on the floor with a lance. The resulting explosion inspired you to study the explosive arts.
+2831	On one fateful day, you stabbed a loose Mana Bullet rolling around on the floor with a lance. The resulting explosion inspired you to study the explosive arts.
+2832	On one fateful day, you stabbed a loose Mana Bullet rolling around on the floor with a lance. The resulting explosion inspired you to study the explosive arts.
+2833	On one fateful day, you stabbed a loose Mana Bullet rolling around on the floor with a lance. The resulting explosion inspired you to study the explosive arts.
+2834	On one fateful day, you stabbed a loose Mana Bullet rolling around on the floor with a lance. The resulting explosion inspired you to study the explosive arts.
+2835	On one fateful day, you stabbed a loose Mana Bullet rolling around on the floor with a lance. The resulting explosion inspired you to study the explosive arts.
 2836	Senior Firearms Expert
 2837	Advanced Firearms Expert
 2838	Seasoned Firearms Expert
@@ -3849,3 +3849,7 @@
  2 6 8 8 	 Y o u r   c r a f t   i s   t h e   t h i n g   o f   l e g e n d .   W h i l e   a n y   w o o d s m a n   c a n   t r a i n   a n i m a l s   a n d   w o r k   w o o d ,   y o u   e l e v a t e   i t   t o   a n o t h e r   l e v e l   w i t h   y o u r   g l y p h w r i g h t i n g   a c u m e n . 
  2 6 8 9 	 Y o u r   c r a f t   i s   t h e   t h i n g   o f   l e g e n d .   W h i l e   a n y   w o o d s m a n   c a n   t r a i n   a n i m a l s   a n d   w o r k   w o o d ,   y o u   e l e v a t e   i t   t o   a n o t h e r   l e v e l   w i t h   y o u r   g l y p h w r i g h t i n g   a c u m e n . 
  2 6 9 0 	 Y o u r   c r a f t   i s   t h e   t h i n g   o f   l e g e n d .   W h i l e   a n y   w o o d s m a n   c a n   t r a i n   a n i m a l s   a n d   w o r k   w o o d ,   y o u   e l e v a t e   i t   t o   a n o t h e r   l e v e l   w i t h   y o u r   g l y p h w r i g h t i n g   a c u m e n . 
+2891	Grandmaster Idol
+2892	Your irresistible charm and your love of music have made you someone people can't take their eyes off of! Do you sign autographs, by any chance?
+2893	Grandmaster Brawler
+2894	By training in both Martial Arts and Close Combat, you've reached the pinnacle of training in the way of the fist.

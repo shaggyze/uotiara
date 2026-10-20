@@ -684,7 +684,7 @@
 931	허수아비의 저주
 932	허수아비의 저주를 정해진 유저의 주변에 뿌린다.
 933	허수아비의 저주를 정해진 유저의 주변에 뿌린다. 맞지 않도록 조심하자.
-934	Water Spray
+934	Water Crops
 937	A skill of an elephant that entails collecting and spraying water. It projects a powerful water blast on monsters, while lightly sprinkling water on characters. The sprinkled character will have higher resistance against fire and receive bonus stats. Try spraying water on other players you meet.
 938	A skill of an elephant that entails collecting and spraying water. It projects a powerful water blast on monsters, while lightly sprinkling water on characters. The sprinkled character will have higher resistance against fire and receive bonus stats. Try spraying water on other players you meet.
 942	Rise and Dive
@@ -748,7 +748,7 @@
 1029	A skill that can only be used after the Awakening of Light. Creates a spear of light that can be thrown at enemies. The spear will give damage to all enemies in its path until it reaches the target and creates an explosion that deals more damage to enemies nearby. Caution must be taken, however, as using the skill will decrease your EXP.
 1030	A skill that can only be used after the Awakening of Light. When you use the skill, your body will start to glow before a ray of light shoots out and hits the closest enemy. Its greatest advantage is that you can move or use another skill while the light is flying towards the enemy. Caution must be taken, however, as using the skill will decrease your EXP. 
 1031	Watering
-1032	Fertilizing
+1032	Spread Fertilizer
 1034	
 1035	
 1036	
@@ -762,7 +762,7 @@
 1050	
 1052	
 1054	Metal Conversion
-1058	Bug Catching
+1058	Catch Bugs
 1060	Use Party Popper
 1062	All materials contain the four basic elements of Alchemy: Water, Fire, Wind, and Earth. Substances rust, crumble, or fade over time because the composition of their elements change. With an intentional change of a material's composition, it is possible to create entirely new substances. Alchemists, through a long study of the effects of time on materials, are able to change the attributes of metals. With this skill, you will be able to transform common metals into rare and valuable ones. And, with luck, you might be able to create precious gems, such as diamonds, or new metals that are entirely new to Erinn. This skill can only be used at a Dry Oven.
 1063	Blaze
@@ -3494,7 +3494,7 @@
 5317	Casting Time
 5318	Throw Spikes
 5319	Inked Up
-5320	Soaring Leg
+5320	Giant Tentacle
 5321	Slam Ground
 5322	Tighten (Til Death)
 5323	Tighten (Til Self Destruct)
@@ -4781,9 +4781,9 @@
 6829	A special action that summons all of a pet's friends. It can't be used if no pet is currently summoned, or if the summoned pet has no friends. Pets need friends too!
 6830	A special action that summons all of a pet's friends. It can't be used if no pet is currently summoned, or if the summoned pet has no friends. Pets need friends too!
 6831	Holy Water
-6832	과일 저글링
-6833	특별한 포즈를 짓게 되는 액션이다. 흥미로운 모습을 보여주는 포즈를 지어보자.
-6834	특별한 포즈를 짓게 되는 액션이다. 흥미로운 모습을 보여주는 포즈를 지어보자.
+6832	Fruit Juggling
+6833	An action that allows you to strike a special pose.
+6834	An action that allows you to strike a special pose.
 6835	Pledge of Penance
 6836	Provoke
 6837	Ardent Advance
@@ -4917,8 +4917,8 @@
 6971	You cannot use this skill right now. Continue playing through the main storyline to unlock it.
 6972	This skill links the souls of two beings, enabling them to share memories and experiences. This deeper level of communication allows each to more fully realize their innermost potential. Typically, the linking of souls requires a special object to serve as a medium, but no such ritual implement is required to connect with your own pets. When linked, both caster and pet will see an increase in their stats, and when the caster defeats an enemy, the pet will receive the same amount of EXP from it. The linked pet will enjoy a substantial increase in its Defense and Protection, and will keep its owner safe by drawing the attention of nearby foes. These effects will vary depending on both the pet's stats and the rank of Divine Link.
 6973	During the Generation 20 "Gate of Sanctuary" storyline, complete the "Eternal Memories" quest.
-6974	메모리 낭만 비행
-6975	둘도 없는 인연을 만들고 받은 선물. 몸에 뿌려진 출처를 알 수 없는 마법의 가루는 원할 때 마다 몸 전체에 감돌며 하늘에서의 자유를 느낄 수 있게 해준다. 남의 도움을 받거나 누군가에 의지하는 것이 아니라, 스스로의 의지로 자유롭게 하늘을 누비는 기분을 마음껏 만끽 해보자.\n날고 있는 상태에서 상대방을 우클릭 하면 나타나는 날기 요청 메뉴를 이용하여 상대방이 승낙 하면 함께 나란히 하늘을 날아다닐 수 있다. 추억을 되살리며 상대방의 손을 잡고 허공으로 이끌 수 있다. 친구, 연인과 함께 자유롭게 날아보자.
+6974	Nostalgic \nCouple's Flight
+6975	A skill born from the heartfelt bond shared with your special someone. A light dusting of magical matchmaking powder is enough to make your body light as air, letting you take to the skies of Erinn and soar wherever your heart desires.\nYou can also right-click on others to request that they Fly Together with you. Remember sweet memories and enjoy the thrill of flight with your sweetheart or your friend!
 6976	Iria Expedition Passive
 6977	L-Rod Exploration EX
 6978	Campfire EX
@@ -4962,63 +4962,63 @@
 7022	Raise the Elemental Knight Arcana to Level 7 or higher and the Instill Flame Skill to Rank B or higher.
 7023	Raise the Elemental Knight Arcana to Level 7 or higher and the Instill Frost Skill to Rank B or higher.
 7024	Raise the Elemental Knight Arcana to Level 7 or higher and the Instill Thunder Skill to Rank B or higher.
-7043	클로버 사인
-7044	막아줘!
-7045	터져줘!
-7046	도와줘!
-7047	때려줘!
-7048	낚시
-7049	야생 동물 조련
-7050	야금술
-7051	희귀 광물학
-7052	실리엔 생태학
-7053	스타 캐스팅
-7054	탐사
-7055	이리아의 해변이나 강가에서 [광석 조각]을 채집하는 스킬로 잡화점에서 살 수 있는 [야금용 체]를 오른손에 착용하면 사용할 수 있다. 발견되는 광석 조각은 철, 동, 은, 금, 미스릴 광석 조각 등이며 이 조각들을 마을에 설치된 노에서 괴로 제련할 수 있다. 아주 드물게 [보석]도 채집할 수 있는데 날씨, 시간, 장소 등에 따라 발견되는 보석의 종류가 다르다. 보석은 세월의 흔적이 담긴만큼 정령 무기에게 주면 여러가지 경험치가 대폭 증가하고, 마을 주민에게 선물하면 다양한 반응과 함께 몇몇은 선물도 준다.
-7056	도구를 사용하여 숨겨져 있는 사물을 찾아내는 스킬이다. L 로드를 들고 그 탐지음과 빛 반응을 주시하며 지역을 탐색하다 보면 그 반응이 커지면서 자주 발생하게 되는데, 탐지음이 네 번 연속 '삐 삐 삐 삐' 울리는 것이 바로 근처에 유물이 숨겨져 있다는 신호이다. 이 때 X키를 누르고 마우스 커서로 바닥을 클릭하면 그 근처에 있는 유적을 L 로드의 힘으로 나타내게 할 수 있다. 유물이 나타나지 않으면 다른 가까운 곳을 찍어보자.
-7057	낚시는 물 속을 헤엄쳐 다니는 물고기를 잡아올릴 때 요긴한 스킬이다. 낚시대와 미끼만 있으면 낚시를 쉽게 시작할 수 있지만, 잘 하기 위해서는 더 많은 것이 필요하다. 미끼를 알맞게 다는 데에서 시작해 낚시에 알맞은 장소를 고르는 판단력을 갖춰야 하고, 준비를 갖춘 다음 물고기가 걸릴 때까지 조급하지 않게 기다릴 수도 있어야 한다. 여기에 일단 물고기가 낚이면 힘으로 맞서오는 물고기를 한 가닥 낚시줄에 지혜를 실어 순발력 있게 낚아올리는 법에 익숙해져야 한다. 많은 사람들이 노련한 낚시꾼을 세상사에 통달한 사람이라 부르는 이유가 여기에 있다.
-7058	동물을 조련하는 스킬이다. 오른손에 조련 막대, 왼손에 조련용 미끼를 들고 동물에게 사용해보자. 던전 몬스터를 조련하면 던전 진행이 불가능할 수도 있으니 유의해야한다.
-7059	이리아의 해변이나 강가에서 [광석 조각]을 채집하는 스킬로 잡화점에서 살 수 있는 [야금용 체]를 오른손에 착용하면 사용할 수 있다. 발견되는 광석 조각은 철, 동, 은, 금, 미스릴 광석 조각 등이며 이 조각들을 마을에 설치된 노에서 괴로 제련할 수 있다. 아주 드물게 [보석]도 채집할 수 있는데 날씨, 시간, 장소 등에 따라 발견되는 보석의 종류가 다르다. 보석은 세월의 흔적이 담긴만큼 정령 무기에게 주면 여러가지 경험치가 대폭 증가하고, 마을 주민에게 선물하면 다양한 반응과 함께 몇몇은 선물도 준다.
-7060	힐웬 광산의 희귀 광물을 채집해 연구하는 스킬. 광석을 채집하기 위해서는 [채광 드릴]이 필요하다.
-7061	실리엔 생태 보호 지구의 동식물의 표본을 채집해 연구하는 스킬. 식물 표본을 채집하기 위해서는 [벼락 맞은 떡갈나무 지팡이]가 필요하다.
-7062	점성술사의 기교가 보여지는 스킬. 물에 비친 별을 투영하고 잔상을 낚아올린다. 별의 의미를 찾는 능력이 클수록 더 많은 잔상들을 얻을 수 있다. 물에 비친 별을 투영하기 위해 스킬은 밤에만 사용할 수 있다.
-7063	도구를 사용하여 숨겨져 있는 사물을 찾아내는 스킬이다. L 로드를 들고 그 탐지음과 빛 반응을 주시하며 지역을 탐색하다 보면 그 반응이 커지면서 자주 발생하게 되는데, 탐지음이 네 번 연속 '삐 삐 삐 삐' 울리는 것이 바로 근처에 유물이 숨겨져 있다는 신호이다. 이 때 X키를 누르고 마우스 커서로 바닥을 클릭하면 그 근처에 있는 유적을 L 로드의 힘으로 나타내게 할 수 있다. 유물이 나타나지 않으면 다른 가까운 곳을 찍어보자.
-7064	잡화점에서 판매하는 [낚싯대]를 장비한다.
-7065	쿠르클레 코르 마을의 [투파이]가 판매하는 [쿠르클레 조련 지팡이]를 장비한다.
-7066	켈라 베이스 캠프의 [에피]에게 [야금용 체]를 구매하여 장착한다.
-7067	힐웬 광산의 그랜드마스터 엔지니어에게 [채광 드릴]을 구매하여 장착해본다.
-7068	실리엔 생태 보호 지구의 그랜드마스터 마법학자에게 [벼락맞은 떡갈나무 지팡이]를 구매하여 장착해본다.
-7069	운명 점성술 재능 시나리오 퀘스트 중 [작은 의지의 지팡이] 퀘스트를 완료한다.
-7070	물고기 크기
-7071	가능 거리
-7072	성공률
-7073	채집 성공률
-7074	채집 성공률
-7075	수동 낚시 추가 보상
-7076	탐사 범위
-7077	입질 확률
-7078	유지 시간
-7079	1회 최대 채집량
-7080	입질 확률
-7081	자동 낚시 성공 확률
-7082	성공률
-7083	보너스 채집 확률
-7084	보너스 채집 확률
-7085	자동 낚시 성공 확률
-7086	자동 낚시 물고기 크기 제한
-7087	수동 낚시 추가 보상
-7088	범위
+7043	Clover Sign
+7044	Block 'em!
+7045	Blow 'em up!
+7046	Help me!
+7047	Smack 'em!
+7048	Fishing
+7049	Tame Wild Animal
+7050	Metallurgy
+7051	Rare Mineralogy
+7052	Shyllien Ecology
+7053	Constellation Casting
+7054	L-Rod Exploration
+7055	This skill enables you to collect [Ore Fragments] near rivers and from beaches in Iria. Equip a [Metallurgy Sieve], which can be purchased from any General Shop, in your right hand. Various ore fragments are available including Iron, Copper, Silver, Gold, and Mythril, and these can be refined into ingots at any Furnace in town. This skill has a rare chance of discovering [Gems], whose types vary depending on weather, the time of day, and location. Since gems are repositories of ancient knowledge, they can yield a variety of knowledge points when given to Spirit Weapons. When given to villagers, they elicit various reactions; and you may even be rewarded with gifts.
+7056	A skill that helps you to locate objects using a tool. When you hold the L-Rod and start searching the area, you will start getting a response from the L-Rod, in light and sound, as you draw near to the treasure, at which point you will hear four loud beeps. When the L-Rod is beeping as such, click on the X hotkey, then click on the ground using the mouse's cursor. The L-Rod will then reveal whatever artifact has been hidden nearby. If an artifact does not appear, try clicking on another spot.
+7057	Fishing is the only way to pull a catch from the water. You need a pole and bait, but it takes more than just equipment to excel at it. One needs the skill to properly set the bait on the hook, judiciously choose the best places to fish, and have the patience to wait until the catch is completely hooked. Beyond those things, a good angler must know when, after an extended struggle, to swiftly pull the exhausted fish from the water. These qualities and more are the reason some say that those who possess a mastery of fishing have achieved some measure of true wisdom.
+7058	This skill enables you to tame wild animals. Use it on an animal after equipping a Taming Cane in your right hand and Taming Bait in your left hand. Remember, though, you may not be able to progress through the dungeon if you tame a dungeon monster.
+7059	This skill enables you to collect [Ore Fragments] near rivers and from beaches in Iria. Equip a [Metallurgy Sieve], which can be purchased from any General Shop, in your right hand. Various ore fragments are available including Iron, Copper, Silver, Gold, and Mythril, and these can be refined into ingots at any Furnace in town. This skill has a rare chance of discovering [Gems], whose types vary depending on weather, the time of day, and location. Since gems are repositories of ancient knowledge, they can yield a variety of knowledge points when given to Spirit Weapons. When given to villagers, they elicit various reactions; and you may even be rewarded with gifts.
+7060	Lets you gather and research rare minerals from Hillwen Mine. You need a [Mining Drill] to gather the ore.
+7061	Lets you gather and research specimens of animals and plants from the Shyllien Nature Reserve. You will need a [Blasted Oak Wand] to gather plant specimens.
+7062	A skill that showcases Astrologers' expert ability to harness celestial forces. Observing the stars reflected on a body of water, the user casts their line and draws from them fragments of stellar energy based on their alignment. The greater one's knowledge of the constellations, the more effectively such energy can be harvested. As the stars must be reflected, this skill can only be used at night.
+7063	A skill that helps you to locate objects using a tool. When you hold the L-Rod and start searching the area, you will start getting a response from the L-Rod, in light and sound, as you draw near to the treasure, at which point you will hear four loud beeps. When the L-Rod is beeping as such, click on the X hotkey and click on the ground using the mouse's cursor. The L-Rod will then reveal the artifact that has been hidden nearby. If an artifact does not appear, try to click on another spot.
+7064	Equip a Fishing Rod, sold at General Shops.
+7065	Equip a [Courcle Taming Cane], sold by [Tupai] at Cor in Courcle.
+7066	Purchase a [Metallurgy Sieve] from [Effie] at the Qilla Base Camp, then equip it.
+7067	Purchase a [Mining Drill] from the Grandmaster Engineer at Hillwen Mine and equip it.
+7068	Purchase a [Blasted Oak Wand] from the Grandmaster Magic Scholar at Shyllien Nature Reserve, then equip it.
+7069	Complete the Fate Astrology Talent scenario quest 'Wand of Lesser Willpower'.
+7070	Fish Size
+7071	Range
+7072	Success Rate
+7073	Gathering Success Rate
+7074	Gathering Success Rate
+7075	Manual Fishing Bonus Reward
+7076	Exploration Range
+7077	Biting Rate
+7078	Duration
+7079	Maximum Amount Gathered Per Use
+7080	Biting Rate
+7081	Automatic Fishing Success Rate
+7082	Success Rate
+7083	Bonus Gather Rate
+7084	Bonus Gather Rate
+7085	Automatic Fishing Success Rate
+7086	Automatic Fishing Catch Size Limit
+7087	Manual Fishing Bonus Reward
+7088	Range
 7090	Palalan Embrace
 7091	A skill that harnesses the light of Palala. Use it to gain special effects.
 7092	You have reached Potential Level 30!
-7093	모모가 스스로를 보호하는 스킬. 모모가 공격당할 때 일정 확률로 클로버 실드가 발동되어, 자신이 받는 피해가 감소한다. 실드가 활성화된 상태에서 모모를 공격한 적은 일정 시간 동안 경직 상태에 빠진다.
-7094	모모가 당근 폭탄을 설치하는 스킬. 폭탄 설치 시 일정 시간 동안 주인의 이동 속도와 공격 속도가 증가한다. 이후 적이 당근 폭탄 위를 지나가면, 폭탄이 폭발하여 대미지를 입히고 이동 속도를 감소시킨다.
-7095	모모가 모래바람을 일으키며 주인에게 이동하는 스킬. 모모는 현재 위치와 관계없이 즉시 주인 곁으로 이동하며, 도착 시 주변 적을 실명시킨다.
-7096	모모가 특별한 도움을 받는 스킬. 일정 시간 동안 모모가 적을 공격할 때, 확률적으로 작은 모모가 소환된다. 작은 모모는 주변 적을 기본 공격으로 공격하며 주인을 보조한다. 모모의 누적 성장 수치에 따라 소환되는 작은 모모의 수가 증가한다.
-7097	모모가 스스로를 보호하는 스킬. 모모가 공격당할 때 일정 확률로 클로버 실드가 발동되어, 자신이 받는 피해가 감소한다. 실드가 활성화된 상태에서 모모를 공격한 적은 일정 시간 동안 경직 상태에 빠진다.
-7098	모모가 당근 폭탄을 설치하는 스킬. 폭탄 설치 시 일정 시간 동안 주인의 이동 속도와 공격 속도가 증가한다. 이후 적이 당근 폭탄 위를 지나가면, 폭탄이 폭발하여 대미지를 입히고 이동 속도를 감소시킨다.
-7099	모모가 모래바람을 일으키며 주인에게 이동하는 스킬. 모모는 현재 위치와 관계없이 즉시 주인 곁으로 이동하며, 도착 시 주변 적을 실명시킨다.
-7100	모모가 특별한 도움을 받는 스킬. 일정 시간 동안 모모가 적을 공격할 때, 확률적으로 작은 모모가 소환된다. 작은 모모는 주변 적을 기본 공격으로 공격하며 주인을 보조한다. 모모의 누적 성장 수치에 따라 소환되는 작은 모모의 수가 증가한다.
+7093	Bunbun protects itself. When Bunbun is attacked, there's a chance for Clover Shield to activate, reducing damage taken. Enemies that attack Bunbun while the shield is active are stunned for a short duration.
+7094	Bunbun plants carrot bombs. Master's Movement Speed and Attack Speed is temporarily increased when bomb is planted. When an enemy steps on the carrot bomb, it explodes, dealing damage and reducing their Movement Speed.
+7095	Bunbun creates a sandstorm and moves to its master. Bunbun moves next to its master regardless of the current location, blinding nearby enemies upon arrival.
+7096	Bunbun receives some special help. For a short period of time, when Bunbun attacks enemies, there's a chance for small Bunbun to be summoned. Small Bunbun assists the master and attacks a nearby enemy with a normal attack. The higher the cumulative level of this Bunbun, the more small Bunbuns that are summoned.
+7097	Bunbun protects itself. When Bunbun is attacked, there's a chance for Clover Shield to activate, reducing the damage taken. Enemies that attack Bunbun while the shield is active are stunned for a short duration.
+7098	Bunbun plants carrot bombs. Master's Movement Speed and Attack Speed is temporarily increased when bomb is planted. When an enemy steps on the carrot bomb, it explodes, dealing damage and reducing their Movement Speed.
+7099	Bunbun creates a sandstorm and moves to its master. Bunbun moves next to its master regardless of the current location, blinding nearby enemies upon arrival.
+7100	Bunbun receives some special help. For a short period of time, when Bunbun attacks enemies, there's a chance for small Bunbun to be summoned. Small Bunbun assists the master and attacks a nearby enemy with a normal attack. The higher the cumulative level of this Bunbun, the more small Bunbuns that are summoned.
 7101	Prestige Action
 7102	Displays the exclusive animation and visual effects of the Prestige Outfit Set.
 7103	Displays the exclusive animation and visual effects of the Prestige Outfit Set.
@@ -5061,13 +5061,13 @@
 7140	Temp
 7141	Transform with Equipment
 7142	Change into another form while holding some Equipment Items.
-7143	메모리얼 링크
-7144	지금은 사용할 수 없는 스킬이다. 추억담을 진행해 보자.
-7145	블로니의 힘으로 만들어낸 영혼을 연결하는 유대감의 스킬이다. 연결된 영혼들은 교감을 통해 서로의 기억과 경험을 공유하며, 내면에 잠재되어 있던 힘을 한계까지 발휘할 수 있게 된다. 영혼이 연결된 펫과 시전자는 여러 능력치가 상승하며 펫은 시전자가 적을 처치하여 얻은 경험치를 동일하게 얻을 수 있다. 또한 펫은 방어와 보호가 크게 증가한 채로 시전자를 인식한 적의 주의를 끌어 적으로부터 주인을 보호한다. 단, 이러한 효과들은 펫의 능력치와 레벨, 메모리얼 링크 랭크에 영향을 받으므로 이를 유념하도록 하자. 디바인 링크와 같은 원리로 동작하는 것으로 보아, 디바인 링크와 동시에 보유할 수는 없어 보인다.
-7146	레이 오브 쏜즈
-7147	로즈 위스퍼
-7148	임시
-7149	임시
+7143	Memorial Link
+7144	You cannot use this skill right now. Try completing the Memoir first.
+7145	A bonding skill, created by Blaanid, that links souls together. Linked souls can share each other's memories and experiences and can bring any dormant power within them to the very limit. Multiple stats of soul linked pets and casters increase, and the pet earns the same EXP that the caster earns through defeating enemies. Also, pets can distract enemies that have recognized the caster, granting the caster a large boost to their Defense and Protection. However, these effects are affected by the pet's stats, level, and Memorial Link rank. Since it acts with the same principles, it cannot be active at the same time as Divine Links.
+7146	Ray of Thorns
+7147	Rozen Whisper
+7148	Temp
+7149	Temp
 7150	Clash of Division
 7151	Feather Storm
 7152	Dance of Feathers
@@ -5093,43 +5093,43 @@
 7191	Bombarding Burst
 7192	Iron Charge: Right
 7193	Iron Charge: Left
-7194	물 뿌리기
-7195	거름 주기
-7196	벌레 잡기
-7197	청결 관리하기
-7198	온도 조절하기
-7199	음악 들려주기
-7200	물뿌리개로 물을 뿌려 작물과 토양을 촉촉한 상태로 만든다. 탈틴 농장에서만 사용할 수 있다.
-7201	거름을 골고루 주어 흙에 영양분을 제공한다. 탈틴 농장에서만 사용할 수 있다.
-7202	작물에 병을 옮기거나 해를 주는 벌레를 잡아내어 작물을 보호한다. 탈틴 농장에서만 사용할 수 있다.
-7203	작물의 위생을 확인하여 각종 오염을 예방한다. 탈틴 농장에서만 사용할 수 있다.
-7204	갑작스러운 온도 변화에 작물이 병들지 않도록 주위 온도를 조절한다. 탈틴 농장에서만 사용할 수 있다.
-7205	작물이 편안한 분위기에서 쑥쑥 성장할 수 있도록 음악을 들려준다. 탈틴 농장에서만 사용할 수 있다.
-7206	물뿌리개로 물을 뿌려 작물과 토양을 촉촉한 상태로 만든다. 탈틴 농장에서만 사용할 수 있다.
-7207	거름을 골고루 주어 흙에 영양분을 제공한다. 탈틴 농장에서만 사용할 수 있다.
-7208	작물에 병을 옮기거나 해를 주는 벌레를 잡아내어 작물을 보호한다. 탈틴 농장에서만 사용할 수 있다.
-7209	작물의 위생을 확인하여 각종 오염을 예방한다. 탈틴 농장에서만 사용할 수 있다.
-7210	갑작스러운 온도 변화에 작물이 병들지 않도록 주위 온도를 조절한다. 탈틴 농장에서만 사용할 수 있다.
-7211	작물이 편안한 분위기에서 쑥쑥 성장할 수 있도록 음악을 들려준다. 탈틴 농장에서만 사용할 수 있다.
-7212	수확하기
-7213	응원의 연주
-7214	재배하기
-7215	장비 조율
-7218	식용 보존료
-7219	장비의 등급 효과를 다시 조율할 수 있는 특별한 액션. 다른 사람의 장비를 대신 조율해 주는 것도 가능하다.
-7220	장비의 등급 효과를 다시 조율할 수 있는 특별한 액션. 다른 사람의 장비를 대신 조율해 주는 것도 가능하다.
-7221	장비 조율
-7222	장비의 등급 효과를 다시 조율할 수 있는 특별한 액션. 다른 사람의 장비를 대신 조율해 주는 것도 가능하다.
-7223	장비의 등급 효과를 다시 조율할 수 있는 특별한 액션. 다른 사람의 장비를 대신 조율해 주는 것도 가능하다.
-7224	식용 보존료
+7194	Water Crops
+7195	Spread Fertilizer
+7196	Catch Bugs
+7197	Wipe Clean
+7198	Adjust Heat
+7199	Play Music
+7200	Use a watering can to pour water over the field, keeping the plants and soil moist.\n\nCan only be used while tending a Taillteann Farm.
+7201	Spread fertilizer over the field to enrich the soil with important nutrients.\n\nCan only be used while tending a Taillteann Farm.
+7202	Protect plants by catching bugs that may carry diseases or cause harm.\n\nCan only be used while tending a Taillteann Farm.
+7203	Tend to the hygiene of the plants on your farm to prevent blight or contamination.\n\nCan only be used while tending a Taillteann Farm.
+7204	Regulate the warmth of the field to keep plants from being shocked by sudden swings in temperature.\n\nCan only be used while tending a Taillteann Farm.
+7205	Play music for the plants to provide a restful atmosphere in which they can flourish.\n\nCan only be used while tending a Taillteann Farm.
+7206	Use a watering can to pour water over the field, keeping the plants and soil moist.\n\nCan only be used while tending a Taillteann Farm.
+7207	Spread fertilizer over the field to enrich the soil with important nutrients.\n\nCan only be used while tending a Taillteann Farm.
+7208	Protect plants by catching bugs that may carry diseases or cause harm.\n\nCan only be used while tending a Taillteann Farm.
+7209	Tend to the hygiene of the plants on your farm to prevent blight or contamination.\n\nCan only be used while tending a Taillteann Farm.
+7210	Regulate the warmth of the field to keep plants from being shocked by sudden swings in temperature.\n\nCan only be used while tending a Taillteann Farm.
+7211	Play music for the plants to provide a restful atmosphere in which they can flourish.\n\nCan only be used while tending a Taillteann Farm.
+7212	Harvest
+7213	Cheer Performance
+7214	Cultivate
+7215	Equipment Tuning
+7218	Food Preservative
+7219	A special action that allows you to retune the Rarity Grade effects of equipment. You can also retune another person's equipment on their behalf.
+7220	A special action that allows you to retune the Rarity Grade effects of equipment. You can also retune another person's equipment on their behalf.
+7221	Equipment Tuning
+7222	A special action that allows you to retune the Rarity Grade effects of equipment. You can also retune another person's equipment on their behalf.
+7223	A special action that allows you to retune the Rarity Grade effects of equipment. You can also retune another person's equipment on their behalf.
+7224	Food Preservative
 7225	Deploy: Turn
 7226	Soldier Skill
 7227	Soldier Skill
-7235	융합된 축복의 포션
-7236	융합된 축복의 포션 사용시 발동
-7237	장비 착용 성별 변경
-7238	장비의 착용 성별을 변경할 수 있는 특별한 액션. 다른 사람의 장비를 대신 변경해 주는 것도 가능하다.
-7239	장비의 착용 성별을 변경할 수 있는 특별한 액션. 다른 사람의 장비를 대신 변경해 주는 것도 가능하다.
+7235	Rarefied Holy Water of Lymilark
+7236	Activated when Rarefied Holy Water of Lymilark is used
+7237	Change Equipment's Equippable Gender
+7238	A special action that allows you to change the equippable gender of equipment. You can also change the equippable gender of another person's equipment on their behalf.
+7239	A special action that allows you to change the equippable gender of equipment. You can also change the equippable gender of another person's equipment on their behalf.
 7243	Wireless Connection
 7244	Downbeat Drop
 7245	Relentless Tempo
@@ -5170,6 +5170,33 @@
 7280	A special action that allows the creation and customization of Echo Marionettes. It is also possible to alter the appearance of another person's puppets.
 7281	A special action used to manage your Echo Marionette. You can summon the puppet or change its outfit.
 7282	Raging Rebound
+7285	Resonant Litany
+7286	Spirit Healing Wand Awakening
+7287	This skill awakens the spirit dwelling within the weapon to lend their aid in combat. Once awakened, the spirit heals all allies within range. Only spirits at Level 21 or higher can awaken. Use the weapon the spirit inhabits in combat to build up the energy required for awakening. As this skill can take some time to charge, it is best reserved for moments when its use can turn the tides of battle.
+7288	Damage
+7289	Spirit Level Effect
+7290	Awakening Energy Charge Rate
+7291	Spirit Buff Duration
+7292	Spirit Buff Bonus Damage
+7293	Spirit Attack Range
+7294	Zealous Conviction
+7295	Virtuous Oath
+7296	Sacred Guardians draw upon their resolute will and stalwart constitution to manifest mana as crystals that take the form of a shield of light. These crystalline projections serve as the foundation for all of a Sacred Guardian's skills, utilized in distinct arrangements for both defensive and offensive purposes.\n\nZealous Conviction is a skill in which a Sacred Guardian brandishes their shield to subdue foes. By creating and then instantly shattering the shield of mana crystals manifested before them, they are able to produce a swarm of shards that can then be used to incapacitate multiple enemies. Mana generated during combat can be condensed to enhance the power of this attack, but one must exercise caution, as the flow of mana can dissipate if too much time passes.\n\n* Virtue represents the upright spirit within a Sacred Guardian's heart that drives them to act as a shield, warding off harm to their allies. It increases when fighting while under the effect of the Virtuous Oath status.\n* Cumulative Defense is a comprehensive stat that equals the sum of your Defense, Protection, Magic Defense, and Magic Protection.\n* HP temporarily added to your Max HP through use of the Vital Surge technique has no effect on the damage dealt.
+7297	Sacred Guardians draw upon their resolute will and stalwart constitution to manifest mana as crystals that take the form of a shield of light. These crystalline projections serve as the foundation for all of a Sacred Guardian's skills, utilized in distinct arrangements for both defensive and offensive purposes.\n\nVirtuous Oath is a skill that allows a Sacred Guardian to stand firm at the forefront of the battlefield. A portion of the Guardian's stalwart constitution is manifested, quickly crystallizing mana in the form of a shield in a brilliant flash of light, then dissipating shortly thereafter. The crystallized mana lingers around the Sacred Guardian, forming a resonant ring of protection that significantly increases the Guardian's Max HP, Defense, Protection, Magic Defense, and Magic Protection. This bolstering resonance extends even to a Sacred Guardian's equipment, helping to mitigate its durability loss.\n\n* Virtue represents the upright spirit within a Sacred Guardian's heart that drives them to act as a shield, warding off harm to their allies. It increases when fighting while under the effect of the Virtuous Oath status.\n* Cumulative Defense is a comprehensive stat that equals the sum of your Defense, Protection, Magic Defense, and Magic Protection.\n* HP temporarily added to your Max HP through use of the Vital Surge technique has no effect on the damage dealt.\n* This skill's mitigation of durability loss is applied only while a weapon and shield are equipped, and is not applied outside of combat.
+7298	Raise the Sacred Guardian Arcana to Level 1 or higher.
+7299	Raise the Sacred Guardian Arcana to Level 9 or higher.
+7312	Wave of Force
+7313	Erg Tornado
+7314	Erg Web
+7315	Erg Phantom Burst
+7316	Erg Diffusion
+7317	Erg Swell
+7318	Temp
+7319	Temp
+7320	Temp
+7321	Temp
+7322	Temp
+7323	Temp
 7324	Almighty Stomp
 7325	Boost Life
 7326	Spiral Spin
@@ -5185,6 +5212,126 @@
 7336	Pulls enemies within a 5m radius to the center of the area chosen by the pet's master when the skill is used. The affected enemies will take damage and be stunned. At least 2 seconds after the initial use (up to a maximum of 20 seconds), the skill can be used a second time. When this follow-up is activated, or if the time limit expires before the second use, the skill will enter a cooldown period of 1 minute and 20 seconds before it can be used again.
 7337	Targets a party member's pet that has been knocked out, fully recovering its HP and Wounds. Cannot be used if there are no valid targets.
 7338	Listen to the rhythmic sounds your pet makes. As your feet move one after the other upon the ever-turning wheel, you may find that the worries of everyday life fade away as you devote your energies to the simple joy of running.
+7339	This skill weaves the power of healing into a sharp melody, forming multiple projectiles to assail an enemy. Each blast of sonic energy produces a painful sound wave upon striking an enemy, afflicting them with a discordant Dissonance that grows stronger as it stacks. This same melody then transforms into a harmonious tune that flows to nearby allies in need, recovering their Wounds and HP. Its potency is heavily influenced by the Recovery Amount of the Healing and Party Healing Skills, and its effects are amplified proportionally.
+7340	Divine Edge
+7341	Temp
+7342	Pledge of Penance
+7343	Rend Armor
+7344	Deliver Judgment
+7345	Sacred Guardians draw upon their resolute will and stalwart constitution to manifest mana as crystals that take the form of a shield of light. These crystalline projections serve as the foundation for all of a Sacred Guardian's skills, utilized in distinct arrangements for both defensive and offensive purposes.\n\nPledge of Penance temporarily surrounds the Sacred Guardian with a ring whose border shimmers with what looks like shattered shards of glass. As the crystals that form the ring begin to dissipate, the mana from which they are formed is released as waves of energy that damage nearby foes. These crystals also resonate with the Guardian's life force, bolstering their perseverance to a degree that allows them to stand undaunted even in the face of an relentless assault. The skill's name is derived from its intent to defend others even at cost to oneself, while at the same time punishing foes for their hostility.\n\n* Virtue represents the upright spirit within a Sacred Guardian's heart that drives them to act as a shield, warding off harm to their allies. It increases when fighting while under the effect of the Virtuous Oath status.\n* Cumulative Defense is a comprehensive stat that equals the sum of your Defense, Protection, Magic Defense, and Magic Protection.\n* HP temporarily added to your Max HP through use of the Vital Surge technique has no effect on the damage dealt.
+7346	Sacred Guardians draw upon their resolute will and stalwart constitution to manifest mana as crystals that take the form of a shield of light. These crystalline projections serve as the foundation for all of a Sacred Guardian's skills, utilized in distinct arrangements for both defensive and offensive purposes.\n\nRend Armor is a cleaving attack that uses one's shield offensively, briefly gathering mana to it before performing a wide swing. The force of the blow is enough to destabilize the mana, leaving a luminous trail behind the shield. The mana within this trail, charged by the turbulence, forms crystals that are instantly drawn to foes struck by the attack. The small crystals generated in this process serve to significantly mitigate enemy attacks. These light-imbued mana crystals cause an unstable resonance when struck by an external impact, creating the opportunity for a Sacred Guardian to immediately use Rend Armor again. As this skill draws upon the sweeping attack of the Windmill skill, its damage is also influenced by one's mastery of Windmill.\n\n* Virtue represents the upright spirit within a Sacred Guardian's heart that drives them to act as a shield, warding off harm to their allies. It increases when fighting while under the effect of the Virtuous Oath status.\n* Cumulative Defense is a comprehensive stat that equals the sum of your Defense, Protection, Magic Defense, and Magic Protection.\n* HP temporarily added to your Max HP through use of the Vital Surge technique has no effect on the damage dealt.
+7347	Sacred Guardians draw upon their resolute will and stalwart constitution to manifest mana as crystals that take the form of a shield of light. These crystalline projections serve as the foundation for all of a Sacred Guardian's skills, utilized in distinct arrangements for both defensive and offensive purposes.\n\nDeliver Judgment allows a Guardian to unleash a crushing blow in all directions by coalescing mana into a crystalline shield, then shattering it upon the ground. The resulting shockwave tears through nearby enemies, throwing them off balance and reducing their Movement Speed for a short time. As this skill attacks all nearby foes like the Windmill skill, its damage and range are also influenced by one's mastery of Windmill.\n\n* Virtue represents the upright spirit within a Sacred Guardian's heart that drives them to act as a shield, warding off harm to their allies. It increases when fighting while under the effect of the Virtuous Oath status.\n* Cumulative Defense is a comprehensive stat that equals the sum of your Defense, Protection, Magic Defense, and Magic Protection.\n* HP temporarily added to your Max HP through use of the Vital Surge technique has no effect on the damage dealt.
+7348	Raise the Sacred Guardian Arcana to Level 1 or higher.
+7349	Raise the Sacred Guardian Arcana to Level 1 or higher.
+7350	Raise the Sacred Guardian Arcana to Level 2 or higher and the Rend Armor skill to Rank F or higher.
+7351	Echoes of Salvation
+7352	Pulse of Purification
+7353	Echoes of Salvation restores the HP of all party members within range while dealing damage to all enemies within range. While it shares many fundamental principles with the Party Healing skill, its restorative potency has been substantially increased through the power of Arcana, and the damage dealt to enemies likewise increases based on one's healing Recovery Amount. This skill's potential is greatly influenced by the Party Healing skill, with higher ranks of Party Healing amplifying Echoes of Salvation's potency. This spell also draws on Enduring Melody's power to instantly restore MP and Stamina, though to a lesser degree than the song itself.
+7354	Pulse of Purification creates a sanctified zone that sears enemies and restores the HP, MP, and Stamina of allies within the zone's radius, also serving to empower the caster's healing potency. The intensity of the saintly energy continues to build, growing in power the longer the zone persists, until it is released in a powerful explosion when the zone disappears.
+7355	Provoke
+7356	Ardent Advance
+7357	Divine Retribution
+7358	Sacred Guardians draw upon their resolute will and stalwart constitution to manifest mana as crystals that take the form of a shield of light. These crystalline projections serve as the foundation for all of a Sacred Guardian's skills, utilized in distinct arrangements for both defensive and offensive purposes.\n\nSome have likened the light that accompanies Provoke to a stained glass window's colors upon the ground, an effect caused by the condensed mana crystals dispersed to draw foes' attention. As this skill utilizes smaller crystals that do not need to first be gathered to one's shield, its effect is almost instantaneous. Enemies affected by this skill are enveloped by a Sacred Guardian's mana, which prevents them from being provoked again for a period of time.\n\n* Virtue represents the upright spirit within a Sacred Guardian's heart that drives them to act as a shield, warding off harm to their allies. It increases when fighting while under the effect of the Virtuous Oath status.\n* Cumulative Defense is a comprehensive stat that equals the sum of your Defense, Protection, Magic Defense, and Magic Protection.\n* HP temporarily added to your Max HP through use of the Vital Surge technique has no effect on the damage dealt.
+7359	Sacred Guardians draw upon their resolute will and stalwart constitution to manifest mana as crystals that take the form of a shield of light. These crystalline projections serve as the foundation for all of a Sacred Guardian's skills, utilized in distinct arrangements for both defensive and offensive purposes.\n\nTo use Ardent Advance, a Guardian must first concentrate mana in their legs, allowing them to close the distance to a foe with such speed that a brief afterimage is left behind. At the moment of contact, the energy built up in their shield is forcefully expelled, pushing even the air away. As the displaced air rushes back to fill the vacuum, nearby enemies are drawn in along with it. Ardent Advance requires a burst of extreme speed, such that using it against a more distant foe will result in a longer wait before it can be used again. As this skill builds upon the fundamentals of the Charge skill, its damage is also influenced by one's mastery of Charge.\n\n* Virtue represents the upright spirit within a Sacred Guardian's heart that drives them to act as a shield, warding off harm to their allies. It increases when fighting while under the effect of the Virtuous Oath status.\n* Cumulative Defense is a comprehensive stat that equals the sum of your Defense, Protection, Magic Defense, and Magic Protection.\n* HP temporarily added to your Max HP through use of the Vital Surge technique has no effect on the damage dealt.
+7360	Sacred Guardians draw upon their resolute will and stalwart constitution to manifest mana as crystals that take the form of a shield of light. These crystalline projections serve as the foundation for all of a Sacred Guardian's skills, utilized in distinct arrangements for both defensive and offensive purposes.\n\nDivine Retribution is a skill used to its fullest by those who have stood as a bastion against harm, withstanding pain and suffering by fighting to in defense of others. The Guardian draws upon their innermost will, giving shape to a crystalline shield that bursts forth in a dazzling display of light. From patience and longsuffering is wrought a holy explosion that overwhelms foes, leaving them stunned for a considerable amount of time. A Sacred Guardian will draw upon the strength of their proven virtue to empower this expression of saintly wrath. As this skill has its roots in the "Magic Shield" skills, it draws upon the Shield skill with the longest duration.\n\n* Virtue represents the upright spirit within a Sacred Guardian's heart that drives them to act as a shield, warding off harm to their allies. It increases when fighting while under the effect of the Virtuous Oath status.\n* Cumulative Defense is a comprehensive stat that equals the sum of your Defense, Protection, Magic Defense, and Magic Protection.\n* HP temporarily added to your Max HP through use of the Vital Surge technique has no effect on the damage dealt.
+7361	Raise the Sacred Guardian Arcana to Level 2 or higher and the Pledge of Penance skill to Rank F or higher.
+7362	Raise the Sacred Guardian Arcana to Level 3 or higher.
+7363	Raise the Sacred Guardian Arcana to Level 10 or higher and the Virtuous Oath skill to Rank F or higher.
+7370	Healing
+7371	This magic is said to have the power to restore one's HP, though the specifics of how it accomplishes this remain difficult to pin down.
+7372	Healing magic replenishes HP through the use of mana, the fundamental force that makes up this world. Healing magic restores a certain amount of the target's HP, which aids in the recovery of any energy expended during the course of a prolonged adventure. In addition, this magic's power is great enough to affect not only the target, but the caster as well, dampening the force of incoming attacks for those readying the spell to be cast. The effectiveness of and experience gained from this spell are heightened when a target's HP is low, so proper timing is necessary to make the most effective use of it. However, one must always keep in mind that this magic is only able to restore HP--it cannot treat wounds. However, at the highest levels of mastery, even the recovery of wounds may be possible.
+7373	Read [Healing: The Basics of Magic], which is sold by [Stewart] in Dunbarton and [Lassar] in Tir Chonaill.
+7374	HP Recovery
+7375	Healing Wand Effectiveness
+7376	Hand of Restoration
+7377	Hand of Restoration can quickly restore the HP of even allies in critical condition. While it shares a basis and fundamentals with the Healing skill, its restorative potency has been substantially increased through the power of Arcana. Its full power is greatly influenced by the caster's Healing skill, with higher ranks of Healing further amplifying Hand of Restoration's potency.
+7382	Twilight Surge
+7383	Whenever a Dark Diviner consumes Dorcha that is amplified through the use of Seething Mana, wisps of Dorcha that did not fully dissipate begin to accumulate within them, building up a negative charge. When this charge reaches a certain threshold, the energy takes on a form that is ephemeral but extremely potent. The Twilight Surge skill compresses this unstable "residual" Dorcha into a dense mass of dark energy, unleashing a searing beam that strikes the target from on high like a lightning bolt. The energy that forms the beam is so volatile that it releases an explosive shockwave at the moment of contact, dealing powerful damage to nearby foes.
+7384	Raise the Dark Diviner Arcana to Level 1 or higher.
+7390	Erg Warp
+7391	Temp
+7392	Spirit Wand Awakening
+7393	Spirit Wand Awakening
+7394	This skill awakens the spirit dwelling within the weapon to lend their aid in combat. Once awakened, the spirit attacks all targets within range. Only spirits at level 21 or higher can awaken. Use the weapon the spirit inhabits in combat to build up the energy required for awakening. As this skill can take some time to charge, it is best reserved for moments when its use can turn the tides of battle.
+7395	This skill awakens the spirit dwelling within the weapon to lend their aid in combat. Once awakened, the spirit attacks all targets within range. Only spirits at level 21 or higher can awaken. Use the weapon the spirit inhabits in combat to build up the energy required for awakening. As this skill can take some time to charge, it is best reserved for moments when its use can turn the tides of battle.
+7396	Damage
+7397	Damage
+7398	Spirit Level Effect
+7399	Spirit Level Effect
+7400	Awakening Energy Charge Rate
+7401	Awakening Energy Charge Rate
+7402	Spirit Buff Duration
+7403	Spirit Buff Duration
+7404	Spirit Buff Bonus Damage
+7405	Spirit Buff Bonus Damage
+7406	Spirit Attack Range
+7407	Spirit Attack Range
+7408	Aqua Volley
+7409	Terra Scourge
+7410	Through alchemical refinement, water can be condensed to such pressure that it is harder than standard arrowheads. Water Crystals made to these specifications are fused to arrows and fired in a spread, attacking all enemies within a wide range, or focused in one direction to deal heavy damage. This skill draws upon the force of Magnum Shot, and so is affected by Magnum Shot's damage. To perform this skill, you will need Water Crystals and crystals of one other element. (Crystals Required: 5 Water Crystals, 5 Crystals of another element chosen when the skill is used)
+7411	Affixes Earth Crystals to an arrow before firing it. When the arrow hits an enemy, it sends shockwaves through the ground which affects nearby enemies as well, periodically dealing damage. Since it has been strengthened by alchemy, the earth that is flung up by the shockwave has a hardness comparable to steel. To perform this skill, you will need Earth Crystals and crystals of one other element. (Crystals Required: 5 Earth Crystals, 5 Crystals of another element chosen when the skill is used)
+7412	Raise the Alchemic Sharpshooter Arcana to Level 5 or higher and the Hermetic Harmony skill to Rank F or higher.
+7413	Raise the Alchemic Sharpshooter Arcana to Level 3 or higher and the Hermetic Harmony skill to Rank F or higher.
+7414	Spirit Weapon Effect: Bleeding
+7415	Relentless Thrust
+7416	Arc Impact
+7417	Blast Zone
+7418	Drill Charge
+7419	To perform a Relentless Thrust, the head of the lance is imbued with mana to create an even sharper point, which is used to attack enemies to devastating effect. As the attacker becomes more skilled, it becomes possible to attack more times in sequence before the effect dissipates. The more times it's used consecutively, the more damage it does. Unfortunately, this puts great strain on the lance itself. The number of times it can be safely used in a row depends on the Explosive Vanguard's proficiency. (If Mana Pressure is at 50% or higher, this skill ignores Heavy Stander Auto Defense below certain ranks.)
+7420	An Arc Impact is an over-the-shoulder swing of the lance, smashing it into the ground at full force. This creates a spark, detonating the mana imbued within the lance to strike enemies with a deadly blast. However, it's easy for the user to get caught up in the explosion themself, so only skilled Explosive Vanguards who have a great deal of experience in handling the energy of Mana Shells should attempt this skill. (If Mana Pressure is at 50% or higher, this skill ignores Heavy Stander Auto Defense below certain ranks.)
+7421	When the Mana imbued within the lance is condensed under high pressure, then vented all at once, the resulting radial explosion is known as a Blast Zone. It takes a great deal of control to handle mana compressed under such staggering pressure, so only skilled Explosive Vanguards who have a great deal of experience in handling the energy of Mana Shells should attempt this skill. (If Mana Pressure is at 50% or higher, this skill ignores Heavy Stander Auto Defense below certain ranks.)
+7422	Drill Charge grows out of the principles of Lance Impact, after seeing how the power of the lance can be used for movement. By releasing the energy of Mana Shells all at once, the user can generate a sudden burst of forward momentum, allowing for swift movement. However, releasing so many Mana Shells in a short period of time takes a great deal of energy, so the skill cannot be used too often. It's useful despite the energy cost because the movement of an Explosive Vanguard performing this skill is powerful enough to pierce through any enemy foolish enough to stand in their way. (If Mana Pressure is at 50% or higher, this skill ignores Heavy Stander Auto Defense below certain ranks.)
+7423	Raise the Explosive Vanguard Arcana to Level 2 or higher and the Recharge Shells skill to Rank F or higher.
+7424	Raise the Explosive Vanguard Arcana to Level 3 or higher and the Recharge Shells skill to Rank F or higher.
+7425	Raise the Explosive Vanguard Arcana to Level 3 or higher and the Recharge Shells skill to Rank F or higher.
+7426	Raise the Explosive Vanguard Arcana to Level 6 or higher and the Recharge Shells skill to Rank F or higher.
+7427	Compound Catalyst
+7428	A skill that lobs a transmuted catalyst imbued with special effects based on the Elemental Compounding formula. The effects vary depending on how an alchemist has personally configured their formula, and is even capable of temporarily empowering the caster. This skill's exceptional flexibility allows it to be used strategically, bolstering an alchemist's weaknesses or further amplifying their strengths.
+7429	Temp
 7430	Sunflower Power
 7431	Summons the pet and grants its master a special buff for 180 seconds.\nThis buff increases Min Damage, Max Damage, Magic Attack, and Alchemic Damage by a base amount of 40.\nIt also increases the recovery speed of the master's HP, MP, Stamina, and Wounds, and cleanses any status ailments, including Bleed, Poison, Daze, Stun, Hitstun, Petrification, Freeze, Puppet's Snare, Curse, and Kraken Poison.
 7432	Summons the pet and grants its master a special buff for 180 seconds.\nThis buff increases Min Damage, Max Damage, Magic Attack, and Alchemic Damage by a base amount of 40.\nIt also increases the recovery speed of the master's HP, MP, Stamina, and Wounds, and cleanses any status ailments, including Bleed, Poison, Daze, Stun, Hitstun, Petrification, Freeze, Puppet's Snare, Curse, and Kraken Poison.
+7433	Elemental Amplification
+7434	A skill that both greatly amplifies and directly harnesses the caster's Elemental Energy, enhancing it to such an extent that it transcends the limits of traditional alchemy. While catalyzing this effect fully consumes the Elemental Energy used, the process grants one access to alchemical power beyond the boundaries of what can be achieved through alchemy alone.
+7435	Temp
+7455	Ignis Plume
+7456	Ventus Howl
+7457	Tri-Assault
+7458	Releases a blast of concentrated heat into the air to burn all enemies within range. While the process of attaching a Fire Crystal to an arrow may not seem difficult, without sufficient knowledge about the handling of alchemical elements, one could easily lose control. Because this skill is based upon the concept of the exploding arrowheads used in Crash Shot, it is also affected by Crash Shot's fragment damage. To perform this skill, you will need Fire Crystals and crystals of one other element. (Crystals Required: 5 Fire Crystals, 5 Crystals of another element chosen when the skill is used)
+7459	Attaching Wind Crystals to an arrow creates a powerful current of air that pulls enemies along the path of the arrow. Though the effect is brief, the winds unleashed by this skill are so powerful that they are visible to the naked eye. To perform this skill, you will need Wind Crystals and crystals of one other element. (Crystals Required: 5 Wind Crystals, 5 Crystals of another element chosen when the skill is used)
+7460	Fires three arrows in succession, which pierce through all enemies in a straight line. As in many alchemy skills, any combination of elements can be used. At least two of the four elements must be fully charged with energy to use this skill, which also requires crystals of the corresponding elements. (Crystals Required: 5 for each of the elements chosen when the skill is used)
+7461	Raise the Alchemic Sharpshooter Arcana to Level 2 or higher and the Hermetic Harmony skill to Rank F or higher.
+7462	Raise the Alchemic Sharpshooter Arcana to Level 6 or higher and the Hermetic Harmony skill to Rank F or higher.
+7463	Raise the Alchemic Sharpshooter Arcana to Level 7 or higher and the Hermetic Harmony skill to Rank F or higher.
+7474	Carpentry
+7475	Fynn Crafting
+7477	Control Marionette
+7478	Act 2: Threshold Cutter
+7479	Equip a Fynn Bell and bring the power of the Fynn to bear as you fashion a variety of fun and mysterious items. From tasty snacks the Fynni are sure to love to strange items that enable extraordinary abilities, you and your pet will be able to enjoy life's great and small moments together.
+7480	A skill that allows one to process high-quality firewood and craft bows. Although dealing with hard, heavy logs can be tiring work, a reputation for quality craftsmanship is sure to spread, and people are sure to seek you out. The Carpentry skill must be used at a Carpentry Workbench, found at the Logging Camp and elsewhere.
+7481	Equip a Fynn Bell and bring the power of the Fynn to bear as you fashion a variety of fun and mysterious items. From tasty snacks the Fynni are sure to love to strange items that enable extraordinary abilities, you and your pet will be able to enjoy life's great and small moments together.
+7483	Allows you to take control of a Marionette in battle. As the very foundation of the art of puppetry, a Puppeteer's skill shines through in the quick, precise movements of their marionettes. It is said that a puppet operated by a master puppeteer can at times seem to move on its own, as though it were a living person.
+7484	A Marionette skill that unleashes 3 powerful hits on the enemy. This part of the performance is when the hero overcomes her first challenge and crosses the threshold to adventure.
+7485	Talk to Tracy with the [Skills] keyword.
+7486	Complete Pet Trainer Talent scenario quest 'Reconciliation'.
+7488	Complete the Puppeteer Talent Tutorial or equip a Control Bar to receive the Mysterious Mail quest, followed by the Hugh's Childhood quest.
+7489	Complete the Puppeteer Talent Tutorial or equip a Control Bar to receive the Mysterious Mail quest, followed by the Hugh's Childhood quest.
+7490	Wood Chopping Success Rate
+7491	Chance of Great Success upon Success
+7493	Linked Marionette Min Damage Bonus
+7494	First Hit Damage
+7495	Item Bonus upon Great Success
+7497	Linked Marionette Max Damage Bonus
+7498	Balance and Critical Rate
+7499	Equipment Production Minimum Quality Bonus
+7500	Crafted Item's Buff Duration
+7501	Linked Marionette Critical Rate
+7502	Cooldown
+7503	Equipment Production Maximum Quality Bonus
+7504	Linked Marionette Balance Bonus
+7505	Second Hit Damage
+7506	Equipment Production Time
+7507	Linked Marionette Skill Cooldown Reduction
+7508	Third Hit Damage
+7509	Cooldown
+7511	Spirit Gauge Generation
