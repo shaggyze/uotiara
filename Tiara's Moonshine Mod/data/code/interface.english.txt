@@ -9846,8 +9846,8 @@ pli_windowtitle.11	Approaching usage deadline
 pli_windowtitle.12	Secondary Titles
 pli_windowtitle.13	Enter a search term.
 pli_windowtitle.14	Enter a search term.
-pli_windowtitle.15	PC방 타이틀 항상 착용
-pli_windowtitle.16	PC방에서 로그인 시 자동으로 PC방 전용 타이틀로 교체할지를 선택하는 옵션
+pli_windowtitle.15	Always Equip PC Cafe Title
+pli_windowtitle.16	Option to automatically equip the PC Cafe title upon login.
 pli_windowtitle.17	The effects will soon dissipate
 pli_windowtitle.18	Favorites can be added/removed by right-clicking.
 pli_windowtitle.19	Set Extra Equipment Slot Title
