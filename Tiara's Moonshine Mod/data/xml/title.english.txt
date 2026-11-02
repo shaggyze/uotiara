@@ -16739,6 +16739,13 @@
 18626	You can get this fancy 2nd title befitting aspiring meisters from a title coupon. Can be used with regular titles.
 18627	You can get this fancy 2nd title befitting aspiring meisters from a title coupon. Can be used with regular titles.
 18628	Production Success Rate +2%\nGathering Success Rate +2%\nGathering Speed +2%\nAutomatic Fishing Success Rate Increased\nMovement Speed +1%
+18629	깡총깡총 코지 래빗
+18630	깡총깡총 코지 래빗
+18631	깡총깡총 코지 래빗
+18632	깡총깡총 코지 래빗
+18633	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+18634	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+18635	행운 30 증가
 18636	the Remorseless
 18637	the First Soul Liberator
 18638	who Dominated the Abyss of Solace
@@ -17397,6 +17404,13 @@
 19389	Luck +30
 19390	Luck +30
 19391	Luck +30
+19392	삐약삐약 병아리
+19393	삐약삐약 병아리
+19394	삐약삐약 병아리
+19395	삐약삐약 병아리
+19396	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+19397	타이틀 쿠폰을 통해 획득할 수 있는 매력적인 2차 타이틀이다. 다른 일반 타이틀과 함께 사용할 수 있다.
+19398	행운 30 증가
 19399	2025년 마비노기 스타
 19400	2026년 마비노기 스타
 19401	2026년 마비노기 스타

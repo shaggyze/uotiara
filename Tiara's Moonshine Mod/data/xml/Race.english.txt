@@ -11148,6 +11148,7 @@
 13550	Disciple
 13551	Disciple
 13552	Disciple
+13556	초목의 카트시
 13560	고고한 모모
 13561	
 13564	Phoenix (Event)
@@ -11202,3 +11203,5 @@
 13619	Prestige Cwn Annwn
 13654	Prestige Cwn Annwn
 13733	찬란한 붉은빛 페어리 드래곤
+13809	블루 피닉스(이벤트)
+13810	화이트 피닉스(이벤트)

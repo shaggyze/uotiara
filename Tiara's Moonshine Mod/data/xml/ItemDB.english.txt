@@ -686,7 +686,7 @@
 685	@Lute
 686	@Short Sword
 687	Dagger
-688	Hatchet
+688	Axe
 689	Short Bow
 690	Handycam Set
 691	@Longsword
@@ -2429,7 +2429,7 @@
 2428	Anyone can play this instrument with a little practice. It has an excellent tone.
 2429	The easiest weapon to handle, while offering consistent damage to enemies. An impressive weapon that offers sheer power, and yet is very balanced. They say it outperforms many more expensive weapons.
 2430	Even though it's light and easy to use, this weapon boasts a high performance. It has both an extremely high critical rate and balance. A weapon that all beginning warriors want as their first weapon.
-2431	A hatchet is an excellent weapon that combines high durability with practicality. It has a good critical rate and high max damage, useful for inflicting a deadly blow to the enemy's weak spot.
+2431	An axe is an excellent weapon, ruthlessly practical and very durable. It has a good critical rate and high max damage, useful for inflicting a devastating blow where a foe has left themselves open.
 2432	A short-range bow that's easy to handle. The arrow penetrates deeply, leaving a wound that doesn't heal easily. Good as a pre-emptive strike weapon as well as the main weapon.
 2433	A digital camcorder made with foreign technology for Mabinogi Live only. Due to its DNA recognition function, regular users cannot use it.
 2434	A weapon that seasoned warriors prefer going into a battle. Advanced weapon with high attack rate and good balance. A weapon boasting a long reach and consistent attack rating. However, the edge will rapidly wear away.
@@ -4216,7 +4216,7 @@
 4323	Spirit Short Bow
 4324	Spirit Short Sword
 4325	Spirit Dagger
-4326	Spirit Hatchet
+4326	Spirit Axe
 4327	Spirit Longsword
 4328	Spirit Broadsword
 4329	Spirit Bastard Sword
@@ -4565,7 +4565,7 @@
 4926	@Short Bow
 4927	@Short Sword
 4928	Dagger
-4929	Hatchet
+4929	Axe
 4930	@Longsword
 4931	@Broadsword
 4932	@Bastard Sword
@@ -4596,7 +4596,7 @@
 4960	A short-range, repeat fire bow which is easy to handle. The effective range might be shorter, but when in range will prove deadlier than a longer bow.
 4961	The easiest weapon to handle, while offering consistent damage to enemies. An impressive weapon that offers sheer power, and yet is very balanced. They say it outperforms many more expensive weapons.
 4962	Even though it's light and easy to use, this weapon boasts a high performance. It has both an extremely high critical rate and balance. A weapon that all beginning warriors want as their first weapon.
-4963	A hatchet is an excellent weapon that combines high durability with practicality. It has a good critical rate and high max damage, useful for inflicting a deadly blow to the enemy's weak spot.
+4963	An axe is an excellent weapon, ruthlessly practical and very durable. It has a good critical rate and high max damage, useful for inflicting a devastating blow where a foe has left themselves open.
 4964	A weapon that seasoned warriors prefer going into a battle. Advanced weapon with high attack rate and good balance. A weapon boasting a long reach and consistent attack rating. However, the edge will rapidly wear away.
 4965	This wide-bladed sword owes its fame to its high Min Damage and Max Damage. Many enemies will fall without needing a second strike, showing it to be as powerful in the right hands as its reputation suggests.
 4966	A well-balanced sword capable of quick strikes. Aside from the fact that it's difficult to perform a three-hit combo with, it is an excellent all-around weapon.
@@ -4966,7 +4966,7 @@
 5438	@Lute
 5439	@Short Sword
 5440	Dagger
-5441	Hatchet
+5441	Axe
 5442	@Longsword
 5443	@Broadsword
 5444	@Bastard Sword
@@ -5054,7 +5054,7 @@
 5527	Anyone can play this instrument with a little practice. It has an excellent tone.
 5528	The easiest weapon to handle, while offering consistent damage to enemies. An impressive weapon that offers sheer power, and yet is very balanced. They say it outperforms many more expensive weapons.
 5529	Even though it's light and easy to use, this weapon boasts a high performance. It has both an extremely high critical rate and balance. A weapon that all beginning warriors want as their first weapon.
-5530	A hatchet is an excellent weapon that combines high durability with practicality. It has a good critical rate and high max damage, useful for inflicting a deadly blow to the enemy's weak spot.
+5530	An axe is an excellent weapon, ruthlessly practical and very durable. It has a good critical rate and high max damage, useful for inflicting a devastating blow where a foe has left themselves open.
 5531	A weapon that seasoned warriors prefer going into a battle. Advanced weapon with high attack rate and good balance. A weapon boasting a long reach and consistent attack rating. However, the edge will rapidly wear away.
 5532	This wide-bladed sword owes its fame to its high Min Damage and Max Damage. Many enemies will fall without needing a second strike, showing it to be as powerful in the right hands as its reputation suggests.
 5533	A well-balanced sword capable of quick strikes. Aside from the fact that it's difficult to perform a three-hit combo with, it is an excellent all-around weapon.
@@ -26472,7 +26472,7 @@
 33851	Morrighan's Hair (Not to be Distributed)
 33852	(Temporary) Morrighan's Hair for Cut Scene Only
 33854	@Bare Knuckle (Monster Only)
-33855	Hatchet (Monster Only)
+33855	Axe (Monster Only)
 33856	@Sword of Glory (Monster Only)
 33857	Executioner's Sword (Monster Only)
 33858	@Highlander Long Bow (Monster Only)
@@ -31609,10 +31609,6 @@
 40329	A crystal to initiate the Blessed Rain. If you take these crystals to a Rain Messenger in town, the Blessed Rain can be summoned.
 40330	수호의 영혼석 (이벤트)
 40331	A Soul Stone enchanted with a spell of protection, usable only when knocked unconscious. After reviving, you will be invulnerable for 10 seconds.
-62894	운영자의 사과의 마음이 가득 담긴 상자. 사용하면 운영자의 사과와 생활 스킬 수련치 2배 포션, 네아르, 무제한 그림자 미션 통행증, 완전 회복의 포션 5개, 경험치 상승의 황금 열매를 얻을 수 있다.\n한꺼번에 여러 가지 아이템을 얻어야 하니 가방 공간을 충분히 확보한 후 사용하도록 하자. (거래 불가)
-70043	임시 점검 관련 보상이 담긴 상자. 사용하면 네아르, 무제한 그림자 미션 통행증, 종합 스킬 수련 포션 (1시간)을 얻을 수 있다. 상자 속 아이템들엔 유효기간이 존재한다.\n또한 한꺼번에 여러 가지 아이템을 얻어야 하니 가방 공간을 충분히 확보한 후 사용하도록 하자. (거래 불가)
-70044	임시 점검 관련 보상이 담긴 상자. 사용하면 네아르 2개, 무제한 그림자 미션 통행증 2개, 종합 스킬 수련 포션 (1시간) 2개, 벨테인 엘리트 미션 통행증 선택 박스 1개, 전투 경험치 포션(2시간) 2개를 얻을 수 있다. 상자 속 아이템들엔 유효기간이 존재한다.\n또한 한꺼번에 여러 가지 아이템을 얻어야 하니 가방 공간을 충분히 확보한 후 사용하도록 하자. (거래 불가)
-70045	임시 점검 관련 보상이 담긴 상자. 사용하면 네아르 3개, 무제한 그림자 미션 통행증 3개, 종합 스킬 수련 포션 (1시간) 3개, 벨테인 엘리트 미션 통행증 선택 박스 2개, 라데카의 전투 경험치 포션(1시간) 5개, 퍼펙트 무료 수리 키트 10개를 얻을 수 있다. 상자 속 아이템들엔 유효기간이 존재한다.\n또한 한꺼번에 여러 가지 아이템을 얻어야 하니 가방 공간을 충분히 확보한 후 사용하도록 하자. (거래 불가)
 40332	Gold Grandmaster Certificate
 40333	You'll need this certificate to become a grandmaster. It's expensive because it's made with pure gold, but once Lezarro signs it, you'll officially be a grandmaster.
 40334	Bear Rag Doll
@@ -46981,7 +46977,7 @@
 57034	Childlike Pink Perfume
 57035	A bottled fragrance with magical properties said to enhance a wearer's childlike charm. Any clothing finished with this perfume can only be worn by children.
 57036	Restorative Potion
-57037	A potion containing restorative properties that can restore depowered objects. It can make a pass that connects to special dungeons.
+57037	A magical potion of considerable potency, capable of restoring baubles and trinkets that have lost their arcane powers through time or damage to their original state. This mixture is often used to mend damaged passes, allowing them to be used to access special areas within dungeons.
 57038	Mangled Rabbie Dungeon Pass
 57039	A badly-damaged Rabbie Dungeon Pass that looks nothing like how it used to look. Once restored, it might be usable again.
 57040	Succubus Queen 1
@@ -52280,6 +52276,7 @@
 62891	GM의 특별한 풍선.
 62892	The character will receive 2x Combat EXP for 1 hour. (Not tradable)
 62893	The pet will receive 2X Combat EXP for 1 hour. (Not tradable)
+62894	운영자의 사과의 마음이 가득 담긴 상자. 사용하면 운영자의 사과와 생활 스킬 수련치 2배 포션, 무제한 던전 통행증, 무제한 그림자 미션 통행증, 완전 회복의 포션 5개, 경험치 상승의 황금 열매를 얻을 수 있다.\n한꺼번에 여러 가지 아이템을 얻어야 하니 가방 공간을 충분히 확보한 후 사용하도록 하자. (거래 불가)
 62895	운영자의 진심 어린 사과의 마음이 가득 담긴 상자. 사용하면 운영자의 사과 5개와 전투 경험치 2배 포션 5개, 생활 스킬 수련치 2배 포션 5개, 무제한 던전 통행증 1개, 무제한 그림자 미션 통행증 1개, 완전 회복의 포션 10개, 경험치 상승의 황금 열매 2개를 얻을 수 있다.\n한꺼번에 여러 가지 아이템을 얻어야 하니 가방 공간을 충분히 확보한 후 사용하도록 하자. (거래 불가)
 62896	운영자의 마음이 담긴 무기 상자. 사용하면 원하는 전투 재능에 맞는 장비를 대여받을 수 있다.
 62897	Advancement Guide's Note
@@ -58895,6 +58892,9 @@
 70039	점검 보상 상자(3단계)
 70040	This free kit has a 100% chance to restore all Durability points to any item that can be repaired at the Magic School, Trading Post, Bangor Pub, Blacksmith, General Shop, or Clothing Shop, or by Engineers, Alchemists, or Fleta.\nRight-click to use. (Not Tradable)
 70041	A special box that contains a Baltane Elite Mission Pass of your choice. (Not Tradable)
+70043	임시 점검 관련 보상이 담긴 상자. 사용하면 무제한 던전 통행증, 무제한 그림자 미션 통행증, 종합 스킬 수련 포션 (1시간)을 얻을 수 있다. 상자 속 아이템들엔 유효기간이 존재한다.\n또한 한꺼번에 여러 가지 아이템을 얻어야 하니 가방 공간을 충분히 확보한 후 사용하도록 하자. (거래 불가)
+70044	임시 점검 관련 보상이 담긴 상자. 사용하면 무제한 던전 통행증 2개, 무제한 그림자 미션 통행증 2개, 종합 스킬 수련 포션 (1시간) 2개, 벨테인 엘리트 미션 통행증 선택 박스 1개, 전투 경험치 포션(2시간) 2개를 얻을 수 있다. 상자 속 아이템들엔 유효기간이 존재한다.\n또한 한꺼번에 여러 가지 아이템을 얻어야 하니 가방 공간을 충분히 확보한 후 사용하도록 하자. (거래 불가)
+70045	임시 점검 관련 보상이 담긴 상자. 사용하면 무제한 던전 통행증 3개, 무제한 그림자 미션 통행증 3개, 종합 스킬 수련 포션 (1시간) 3개, 벨테인 엘리트 미션 통행증 선택 박스 2개, 라데카의 전투 경험치 포션(1시간) 5개, 퍼펙트 무료 수리 키트 10개를 얻을 수 있다. 상자 속 아이템들엔 유효기간이 존재한다.\n또한 한꺼번에 여러 가지 아이템을 얻어야 하니 가방 공간을 충분히 확보한 후 사용하도록 하자. (거래 불가)
 70046	Blaanid's Flower Box
 70047	A box full of flowers! Awarded for collecting all the stickers in the new memoir. Grants items that strengthen equipment and helps with entry into difficult missions, with a small chance to grant material items used in item crafting.
 70048	Ladeca Combat 4x EXP Potion (1 Hour)
@@ -73289,5 +73289,33 @@
 85145	밀레시안을 환영하는 마음으로 준비한 알록달록한 풍선. 풍선을 장착한 상태에서 행동 불능 상태가 되면, 1회 사용량이 줄어들며 즉시 부활하게 된다. 최대 5회 사용할 수 있다.
 85146	Fallen Pierrot Marionette
 85147	A marionette created recently, based on an incomplete sculpture fashioned by a certain 'fallen one.' Not only is it a splendid reproduction of the original's form, its performance is nothing to scoff at, either. When equipped, you will always summon this unique marionette. Using this puppet alongside special Control Bars will enable it to bring its full power to bear.
+85148	테흐 두인 미션 통행증 - 되살아난 허상 (매우 어려움)
+85149	테흐 두인 미션 통행증 - 페스 피아다 (매우 어려움)
+85150	테흐 두인 미션 통행증 - 일곱 번의 악몽 (매우 어려움)
+85151	테흐 두인 미션 통행증 - 깨어난 심해의 군주 (매우 어려움)
+85152	<color=2>25.07.10 점검 이후 사용할 수 없는 아이템이다. 풀나브론의 소르카에게서 무제한 던전 통행증 혹은 테흐 두인 미션 - 4인 통행증으로 교환할 수 있다.</color>\n\n2023년 9월 21일 업데이트 이전 테흐 두인 미션 통행증으로 <color=1>[사용하기]</color>를 통해, <color=1>[테흐 두인 미션]</color>의 주간 보상 획득 횟수가 <color=1>[1회]</color> 만큼 감소해 보상을 획득할 권한이 한 번 더 주어진다.\n\n<color=1>[주의]\n- 주간 보상 획득 횟수가 0인 경우에는 사용 불가\n- 주간 최대 5회까지 사용 가능\n- 사용 횟수는 토요일 오전 7시에 초기화\n- 캐릭터 단위로 적용</color>
+85153	<color=2>25.07.10 점검 이후 사용할 수 없는 아이템이다. 풀나브론의 소르카에게서 무제한 던전 통행증 혹은 테흐 두인 미션 - 4인 통행증으로 교환할 수 있다.</color>\n\n2023년 9월 21일 업데이트 이전 테흐 두인 미션 통행증으로 <color=1>[사용하기]</color>를 통해, <color=1>[테흐 두인 미션]</color>의 주간 보상 획득 횟수가 <color=1>[1회]</color> 만큼 감소해 보상을 획득할 권한이 한 번 더 주어진다.\n\n<color=1>[주의]\n- 주간 보상 획득 횟수가 0인 경우에는 사용 불가\n- 주간 최대 5회까지 사용 가능\n- 사용 횟수는 토요일 오전 7시에 초기화\n- 캐릭터 단위로 적용</color>
+85154	<color=2>25.07.10 점검 이후 사용할 수 없는 아이템이다. 풀나브론의 소르카에게서 무제한 던전 통행증 혹은 테흐 두인 미션 - 4인 통행증으로 교환할 수 있다.</color>\n\n2023년 9월 21일 업데이트 이전 테흐 두인 미션 통행증으로 <color=1>[사용하기]</color>를 통해, <color=1>[테흐 두인 미션]</color>의 주간 보상 획득 횟수가 <color=1>[1회]</color> 만큼 감소해 보상을 획득할 권한이 한 번 더 주어진다.\n\n<color=1>[주의]\n- 주간 보상 획득 횟수가 0인 경우에는 사용 불가\n- 주간 최대 5회까지 사용 가능\n- 사용 횟수는 토요일 오전 7시에 초기화\n- 캐릭터 단위로 적용</color>
+85155	<color=2>25.07.10 점검 이후 사용할 수 없는 아이템이다. 풀나브론의 소르카에게서 무제한 던전 통행증 혹은 테흐 두인 미션 - 4인 통행증으로 교환할 수 있다.</color>\n\n2023년 9월 21일 업데이트 이전 테흐 두인 미션 통행증으로 <color=1>[사용하기]</color>를 통해, <color=1>[테흐 두인 미션]</color>의 주간 보상 획득 횟수가 <color=1>[1회]</color> 만큼 감소해 보상을 획득할 권한이 한 번 더 주어진다.\n\n<color=1>[주의]\n- 주간 보상 획득 횟수가 0인 경우에는 사용 불가\n- 주간 최대 5회까지 사용 가능\n- 사용 횟수는 토요일 오전 7시에 초기화\n- 캐릭터 단위로 적용</color>
+85156	죽음의 인도자 장갑(남성용)
+85157	죽음의 인도자 장갑(여성용)
+85158	어비스 드래곤 뿔(남성용)
+85159	어비스 드래곤 뿔(여성용)
+85160	세인츠 가디언 헬멧(남성용)
+85161	세인츠 가디언 헬멧(여성용)
+85162	세인츠 가디언 레더 헬멧(남성용)
+85163	세인츠 가디언 레더 헬멧(여성용)
+85164	죽음의 인도자 신발(남성용)
+85165	죽음의 인도자 신발(여성용)
+85166	어둠의 기운이 담겨 있는 천으로 제작된 특수한 장갑이다. 어둠의 기운이 겹겹이 싸여있어 높은 성능을 가지고 있다.
+85167	어둠의 기운이 담겨 있는 천으로 제작된 특수한 장갑이다. 어둠의 기운이 겹겹이 싸여있어 높은 성능을 가지고 있다.
+85168	단단하고, 강렬한 모습을 자랑하는 뿔. 부분부분 빛나는 것이 매력적이다.
+85169	단단하고, 강렬한 모습을 자랑하는 왕관 뿔. 부분부분 빛나는 것이 매력적이다.
+85170	특별한 가호를 받은 금속을 제련하여 만든 헬멧. 고급스러움은 물론, 넓은 시야 확보가 가능하다.
+85171	특별한 가호를 받은 금속을 제련하여 만든 헬멧. 고급스러움은 물론, 넓은 시야 확보가 가능하다.
+85172	특별한 가호를 받은 금속과 특수한 가죽을 가공하여 만든 레더 헬멧. 고급스러움은 물론, 넓은 시야 확보가 가능하다.
+85173	특별한 가호를 받은 금속과 특수한 가죽을 가공하여 만든 레더 헬멧. 고급스러움은 물론, 넓은 시야 확보가 가능하다.
+85174	어둠의 기운이 담겨 있는 가죽으로 제작된 특수한 신발이다. 어둠의 기운이 겹겹이 싸여있어 높은 성능을 가지고 있다.
+85175	어둠의 기운이 담겨 있는 가죽으로 제작된 특수한 신발이다. 어둠의 기운이 겹겹이 싸여있어 높은 성능을 가지고 있다.
 85176	Caracal/Friends 2nd Title Coupon
 85177	A coupon that can be used to obtain the Caracal/Friends 2nd Title. When set as your 2nd Title, grants Production Success Rate +5%, Hillwen Engineering Quality +5 when used with the Expert Engineer title, and Magic Craft Quality +5 when used with the Magic Artisan title.

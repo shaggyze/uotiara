@@ -555,12 +555,12 @@ interface_standardapi_util.14	You cannot use this while you are a demigod.
 interface_standardapi_util.15	You cannot use this while a pet or partner is summoned.
 interface_standardapi_util.16	You cannot use this here.
 interface_standardapi_util.17	Pet names must be 3-12 characters long.
-interface_standardapi_util.18	One-handed Sword
-interface_standardapi_util.19	One-handed Blunt Weapon
-interface_standardapi_util.20	Hatchet
-interface_standardapi_util.21	Two-handed Sword
-interface_standardapi_util.22	Two-handed Blunt Weapon
-interface_standardapi_util.23	Two-handed Axe
+interface_standardapi_util.18	Sword
+interface_standardapi_util.19	Hammer
+interface_standardapi_util.20	Axe
+interface_standardapi_util.21	Greatsword
+interface_standardapi_util.22	Greathammer
+interface_standardapi_util.23	Greataxe
 interface_standardapi_util.24	Lance
 interface_standardapi_util.25	Atlatl
 interface_standardapi_util.26	Bow
@@ -568,10 +568,10 @@ interface_standardapi_util.27	Crossbow
 interface_standardapi_util.28	Wand
 interface_standardapi_util.29	Staff
 interface_standardapi_util.30	Cylinder
-interface_standardapi_util.31	Knuckle
-interface_standardapi_util.32	Control Bar
+interface_standardapi_util.31	Knuckles
+interface_standardapi_util.32	Control Bars
 interface_standardapi_util.33	Shuriken
-interface_standardapi_util.34	Dual Gun
+interface_standardapi_util.34	Dual Guns
 interface_standardapi_util.35	Chain Blade
 interface_standardapi_util.36	Tower Cylinder
 interface_standardapi_util.37	\n<color=2><outlinecolor=3>(거래 및 경매장 이용이 가능해 질 때 까지 {0} 남았습니다.)</outlinecolor></color>
@@ -856,6 +856,26 @@ mabinogi_minigame.10	Dead
 mabinogi_minigame.11	Ready
 mabinogi_minigame.12	Vote Complete
 mabinogi_newegoweapon.1	Eiry
+mabinogi_oghamscript.1	현재 오검 워드 기능이 비활성화 되어 있습니다. 잠시 기다려 주세요.
+mabinogi_oghamscript.2	시스템이 일시적으로 비활성화 되어 있습니다. 잠시 후 다시 시도해 주세요.
+mabinogi_oghamscript.3	잠시 후 다시 시도해주세요.
+mabinogi_oghamscript.4	잘못된 슬롯입니다.
+mabinogi_oghamscript.5	슬롯이 잠겨 있습니다.
+mabinogi_oghamscript.6	이미 장착 중인 오검입니다.
+mabinogi_oghamscript.7	프레임(슬롯)이 해금되지 않았습니다.
+mabinogi_oghamscript.8	다른 아르카나 오검입니다.
+mabinogi_oghamscript.9	잘못된 등급입니다.
+mabinogi_oghamscript.10	등급이 일치하지 않습니다.
+mabinogi_oghamscript.11	슬롯이 중복되었습니다.
+mabinogi_oghamscript.12	골드가 부족합니다.
+mabinogi_oghamscript.13	재료가 부족합니다.
+mabinogi_oghamscript.14	보관함이 가득 찼습니다.
+mabinogi_oghamscript.15	잘못된 옵션 잠금 설정입니다.
+mabinogi_oghamscript.16	재설정 대기가 없습니다.
+mabinogi_oghamscript.17	재설정 대기가 만료되었습니다.
+mabinogi_oghamscript.18	현재 지역에서 사용할 수 없습니다.
+mabinogi_oghamscript.19	알 수 없는 오류가 발생했습니다. ({0})
+mabinogi_oghamscript.20	빈 옵션은 잠글 수 없습니다.
 mabinogi_party.1	Mafia
 mabinogi_party.2	Other
 mabinogi_pfhousing.1	- Gold: {0} Gold\n
@@ -1062,6 +1082,9 @@ object.sealstone_fiodh	Seal Stone of Fiodh
 object.sealstone_math	Seal Stone of Math Dungeon
 object.sealstone_rabbie	Seal Stone of Rabbie Dungeon
 objectivepointeventdescmgr.1	Clear Dungeon/Mission
+oghamscriptdescmgr.1	엘리트
+oghamscriptdescmgr.2	에픽
+oghamscriptdescmgr.3	마스터
 partyboarddescmgr.1	Mini-game
 partyboardmgr.1	Practice Rank
 partyboardmgr.2	Unrestricted
