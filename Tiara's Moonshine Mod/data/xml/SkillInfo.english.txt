@@ -5294,9 +5294,9 @@
 7433	Elemental Amplification
 7434	A skill that both greatly amplifies and directly harnesses the caster's Elemental Energy, enhancing it to such an extent that it transcends the limits of traditional alchemy. While catalyzing this effect fully consumes the Elemental Energy used, the process grants one access to alchemical power beyond the boundaries of what can be achieved through alchemy alone.
 7435	Temp
-7452	스파이럴 이럽션
-7453	스파이럴 이럽션은 엘레멘탈 콤비네이션의 조합식을 활용해 사용자가 원하는 위치에 있는 땅의 형태를 소용돌이처럼 날카로운 암석으로 변환시켜 해당 위치에 있는 모든 대상에게 피해를 주는 동시에 중심으로 끌어당기는 스킬. 단단한 갑옷도 뚫어버릴 정도로 날카로운 암석을 만들기 위해선 고속으로 회전하는 응축된 물을 발사하는 워터 캐논의 기술을 응용했기 때문에 워터 캐논의 대미지 영향을 받는다.
-7454	임시
+7452	Fangs of Stone
+7453	Fangs of Stone is a skill that utilizes one's Elemental Compounding formula to cause jagged rocks to erupt from the ground at a specified location. The force and orientation of these stone fangs inflict damage on all targets in the affected area while pulling them toward the center. To transmute rocks dense and sharp enough to pierce even armor, it draws on the fundamentals of the Water Cannon skill, which is able to turn even water into a high-velocity projectile with a heavy impact. As such, it is affected by Water Cannon's damage.
+7454	Temp
 7455	Ignis Plume
 7456	Ventus Howl
 7457	Tri-Assault

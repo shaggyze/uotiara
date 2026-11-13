@@ -52276,7 +52276,7 @@
 62891	GM의 특별한 풍선.
 62892	The character will receive 2x Combat EXP for 1 hour. (Not tradable)
 62893	The pet will receive 2X Combat EXP for 1 hour. (Not tradable)
-62894	운영자의 사과의 마음이 가득 담긴 상자. 사용하면 운영자의 사과와 생활 스킬 수련치 2배 포션, 무제한 던전 통행증, 무제한 그림자 미션 통행증, 완전 회복의 포션 5개, 경험치 상승의 황금 열매를 얻을 수 있다.\n한꺼번에 여러 가지 아이템을 얻어야 하니 가방 공간을 충분히 확보한 후 사용하도록 하자. (거래 불가)
+62894	A box filled with the GMs' sincere apologies, along with several items to make amends. Open it to receive all of the following items:\n- GMs' Apple\n- Life Skill 2x EXP Potion\n- Unrestricted Dungeon Pass\n- Unlimited Shadow Mission Pass\n- Full Recovery Potion x5\n- Golden Experience Fruit.\n\nMake sure you have enough inventory space before opening the box, as you will receive all of the items at once. (Not tradable)
 62895	운영자의 진심 어린 사과의 마음이 가득 담긴 상자. 사용하면 운영자의 사과 5개와 전투 경험치 2배 포션 5개, 생활 스킬 수련치 2배 포션 5개, 무제한 던전 통행증 1개, 무제한 그림자 미션 통행증 1개, 완전 회복의 포션 10개, 경험치 상승의 황금 열매 2개를 얻을 수 있다.\n한꺼번에 여러 가지 아이템을 얻어야 하니 가방 공간을 충분히 확보한 후 사용하도록 하자. (거래 불가)
 62896	운영자의 마음이 담긴 무기 상자. 사용하면 원하는 전투 재능에 맞는 장비를 대여받을 수 있다.
 62897	Advancement Guide's Note
@@ -58892,9 +58892,9 @@
 70039	점검 보상 상자(3단계)
 70040	This free kit has a 100% chance to restore all Durability points to any item that can be repaired at the Magic School, Trading Post, Bangor Pub, Blacksmith, General Shop, or Clothing Shop, or by Engineers, Alchemists, or Fleta.\nRight-click to use. (Not Tradable)
 70041	A special box that contains a Baltane Elite Mission Pass of your choice. (Not Tradable)
-70043	임시 점검 관련 보상이 담긴 상자. 사용하면 무제한 던전 통행증, 무제한 그림자 미션 통행증, 종합 스킬 수련 포션 (1시간)을 얻을 수 있다. 상자 속 아이템들엔 유효기간이 존재한다.\n또한 한꺼번에 여러 가지 아이템을 얻어야 하니 가방 공간을 충분히 확보한 후 사용하도록 하자. (거래 불가)
-70044	임시 점검 관련 보상이 담긴 상자. 사용하면 무제한 던전 통행증 2개, 무제한 그림자 미션 통행증 2개, 종합 스킬 수련 포션 (1시간) 2개, 벨테인 엘리트 미션 통행증 선택 박스 1개, 전투 경험치 포션(2시간) 2개를 얻을 수 있다. 상자 속 아이템들엔 유효기간이 존재한다.\n또한 한꺼번에 여러 가지 아이템을 얻어야 하니 가방 공간을 충분히 확보한 후 사용하도록 하자. (거래 불가)
-70045	임시 점검 관련 보상이 담긴 상자. 사용하면 무제한 던전 통행증 3개, 무제한 그림자 미션 통행증 3개, 종합 스킬 수련 포션 (1시간) 3개, 벨테인 엘리트 미션 통행증 선택 박스 2개, 라데카의 전투 경험치 포션(1시간) 5개, 퍼펙트 무료 수리 키트 10개를 얻을 수 있다. 상자 속 아이템들엔 유효기간이 존재한다.\n또한 한꺼번에 여러 가지 아이템을 얻어야 하니 가방 공간을 충분히 확보한 후 사용하도록 하자. (거래 불가)
+70043	A box containing compensation for a temporary maintenance. Open it to receive all of the following items:\n- Unrestricted Dungeon Pass\n- Unlimited Shadow Mission Pass\n- Complete Skill EXP Potion (1 Hour)\nThe items in this box have an expiration date.\n\nMake sure you have enough inventory space before opening the box, as you will receive all of the items at once. (Not tradable)
+70044	A box containing compensation for a temporary maintenance. Open it to receive all of the following items:\n- Unrestricted Dungeon Pass x2\n- Unlimited Shadow Mission Pass x2\n- Complete Skill EXP Potion (1 Hour) x2\n- Baltane Elite Mission Pass Selection Box\n- Combat EXP Potion (2 Hours) x2\nThe items in this box have an expiration date.\n\nMake sure you have enough inventory space before opening the box, as you will receive all of the items at once. (Not tradable)
+70045	A box containing compensation for a temporary maintenance. Open it to receive all of the following items:\n- Unrestricted Dungeon Pass x3\n- Unlimited Shadow Mission Pass x3\n- Complete Skill EXP Potion (1 Hour) x3\n- Baltane Elite Mission Pass Selection Box x2\n- Ladeca Combat 4x EXP Potion (1 Hour) x5\n- Perfect Free Repair Kit x10\nThe items in this box have an expiration date.\n\nMake sure you have enough inventory space before opening the box, as you will receive all of the items at once. (Not tradable)
 70046	Blaanid's Flower Box
 70047	A box full of flowers! Awarded for collecting all the stickers in the new memoir. Grants items that strengthen equipment and helps with entry into difficult missions, with a small chance to grant material items used in item crafting.
 70048	Ladeca Combat 4x EXP Potion (1 Hour)
@@ -73111,14 +73111,14 @@
 84941	Unrestricted Dungeon Pass
 84942	Unrestricted Dungeon Pass
 84943	Unrestricted Dungeon Pass
-84944	<color=1>This item can no longer be used after the November 13, 2025 update. However, you can exchange it for a Neartite crystal by speaking with Soraia at the Poulnabrone research site.</color>\n\nOffer this pass on the altar in the lobby of any of Uladh's dungeons to enter Basic, Intermediate, or Advanced dungeons. (Does not allow access to Boss Trial or Abyss Dungeons)\n\n(Not Tradable)
-84945	<color=1>This item can no longer be used after the November 13, 2025 update. However, you can exchange it for a Neartite crystal by speaking with Soraia at the Poulnabrone research site.</color>\n\nOffer this pass on the altar in the lobby of any of Uladh's dungeons to enter Basic, Intermediate, or Advanced dungeons. (Does not allow access to Boss Trial or Abyss Dungeons)
-84946	<color=1>This item can no longer be used after the November 13, 2025 update. However, you can exchange it for a Neartite crystal by speaking with Soraia at the Poulnabrone research site.</color>\n\nOffer this pass on the altar in the lobby of any of Uladh's dungeons to enter Basic, Intermediate, or Advanced dungeons. (Does not allow access to Boss Trial or Abyss Dungeons)
-84947	<color=1>This item can no longer be used after the November 13, 2025 update. However, you can exchange it for a Neartite crystal by speaking with Soraia at the Poulnabrone research site.</color>\n\nOffer this pass on the altar in the lobby of any of Uladh's dungeons to enter Basic, Intermediate, or Advanced dungeons. (Does not allow access to Boss Trial or Abyss Dungeons)
+84944	Offer this pass on the altar in an Uladh Dungeon's lobby to enter Basic, Intermediate, or Advanced dungeons (does not grant access to Boss Trial or Abyss Dungeons.)\n(Not Tradable)
+84945	Offer this pass on the altar in an Uladh Dungeon's lobby to enter Basic, Intermediate, or Advanced dungeons (does not grant access to Boss Trial or Abyss Dungeons.)
+84946	Offer this pass on the altar in an Uladh Dungeon's lobby to enter Basic, Intermediate, or Advanced dungeons (does not grant access to Boss Trial or Abyss Dungeons.)
+84947	Offer this pass on the altar in an Uladh Dungeon's lobby to enter Basic, Intermediate, or Advanced dungeons (does not grant access to Boss Trial or Abyss Dungeons.)
 84948	Unrestricted Dungeon Pass
 84949	Offer this pass on the altar in the lobby of any of Uladh's dungeons to enter Basic, Intermediate, or Advanced dungeons. (Does not allow access to Boss Trial or Abyss Dungeons)
 84950	Unrestricted Dungeon Pass (Event)
-84951	<color=1>This item can no longer be used after the November 13, 2025 update. However, you can exchange it for a Neartite crystal by speaking with Soraia at the Poulnabrone research site.</color>\n\nOffer this pass on the altar in the lobby of any of Uladh's dungeons to enter Basic, Intermediate, or Advanced dungeons. (Does not allow access to Boss Trial or Abyss Dungeons)
+84951	Offer this pass on the altar in an Uladh Dungeon's lobby to enter Basic, Intermediate, or Advanced dungeons (does not grant access to Boss Trial or Abyss Dungeons.)
 84952	Mining Drill
 84953	A tool for collecting tough Hillwen Ore. It takes an experienced hand to guide this mighty drill. Comes equipped with 2 Shyllien Fuel Cells to increase its energy efficiency.
 84954	Soluna Blade
@@ -73126,9 +73126,9 @@
 84956	Hard Mode Ciar Advanced Fomor Pass
 84957	Hard Mode Alby Advanced Fomor Pass
 84958	Hard Mode Rundal Advanced Fomor Pass
-84959	<color=1>This item can no longer be used after the November 13, 2025 update. However, you can exchange it for a Neartite crystal by speaking with Soraia at the Poulnabrone research site.</color>\n\nThis is a special Fomor pass. Place it on the altar at the entrance of the Ciar Dungeon to enter the Ciar Advanced Hard Mode Dungeon.\n\n(Tradable)
-84960	<color=1>This item can no longer be used after the November 13, 2025 update. However, you can exchange it for a Neartite crystal by speaking with Soraia at the Poulnabrone research site.</color>\n\nThis is a special Fomor pass. Place it on the altar at the entrance of the Alby Dungeon to enter the Alby Advanced Hard Mode Dungeon.\n\n(Tradable)
-84961	<color=1>This item can no longer be used after the November 13, 2025 update. However, you can exchange it for a Neartite crystal by speaking with Soraia at the Poulnabrone research site.</color>\n\nThis is a special Fomor pass. Place it on the altar at the entrance of the Alby Dungeon to enter the Rundal Advanced Hard Mode Dungeon.\n\n(Tradable)
+84959	Offer this special Fomor Pass on the altar in the Ciar Dungeon's Old Room to enter the Ciar Advanced Hard Mode Dungeon.\n(Tradable)
+84960	Offer this special Fomor Pass on the altar in the Alby Dungeon's Old Room to enter the Alby Advanced Hard Mode Dungeon.\n(Tradable)
+84961	Offer this special Fomor Pass on the altar in the Rundal Dungeon's Old Room to enter the Rundal Advanced Hard Mode Dungeon.\n(Tradable)
 84962	캐릭터명 변경권 보상 교환권
 84963	동물/파트너 캐릭터명 변경권 보상 교환권
 84964	2025년 7월 10일부터 실시간 이름 변경이 가능하도록 사양이 개선되어 마련된 보상 교환권. 사용 시 거래가 1회 가능한 캐릭터명 변경 스크롤과 낭만 농장/달빛 섬 이름 변경 스크롤을 획득할 수 있다.
@@ -73136,9 +73136,9 @@
 84966	Mangled Alby Dungeon Pass
 84967	Mangled Ciar Dungeon Pass
 84968	Mangled Rundal Dungeon Pass
-84969	<color=1>This item can no longer be used after the November 13, 2025 update. However, you can exchange it for a Neartite crystal by speaking with Soraia at the Poulnabrone research site.</color>\n\nA damaged Alby Dungeon pass, too warped and eroded to fulfill its intended purpose. Restoring it might render it usable again.
-84970	<color=1>This item can no longer be used after the November 13, 2025 update. However, you can exchange it for a Neartite crystal by speaking with Soraia at the Poulnabrone research site.</color>\n\nA damaged Ciar Dungeon pass, too warped and eroded to fulfill its intended purpose. Restoring it might render it usable again.
-84971	<color=1>This item can no longer be used after the November 13, 2025 update. However, you can exchange it for a Neartite crystal by speaking with Soraia at the Poulnabrone research site.</color>\n\nA damaged Rundal Dungeon pass, too warped and eroded to fulfill its intended purpose. Restoring it might render it usable again.
+84969	A damaged Alby Dungeon pass. It looks scorched and tattered but, once restored, it may grant you access to the dungeon again.
+84970	A damaged Ciar Dungeon pass. It looks scorched and tattered but, once restored, it may grant you access to the dungeon again.
+84971	A damaged Rundal Dungeon pass. It looks scorched and tattered but, once restored, it may grant you access to the dungeon again.
 84972	Yarn Key
 84973	A key woven from strands of silken yarn that are able to open a special treasure chest.
 84974	Treasure Chest Key
@@ -73289,14 +73289,14 @@
 85145	밀레시안을 환영하는 마음으로 준비한 알록달록한 풍선. 풍선을 장착한 상태에서 행동 불능 상태가 되면, 1회 사용량이 줄어들며 즉시 부활하게 된다. 최대 5회 사용할 수 있다.
 85146	Fallen Pierrot Marionette
 85147	A marionette created recently, based on an incomplete sculpture fashioned by a certain 'fallen one.' Not only is it a splendid reproduction of the original's form, its performance is nothing to scoff at, either. When equipped, you will always summon this unique marionette. Using this puppet alongside special Control Bars will enable it to bring its full power to bear.
-85148	테흐 두인 미션 통행증 - 되살아난 허상 (매우 어려움)
-85149	테흐 두인 미션 통행증 - 페스 피아다 (매우 어려움)
-85150	테흐 두인 미션 통행증 - 일곱 번의 악몽 (매우 어려움)
-85151	테흐 두인 미션 통행증 - 깨어난 심해의 군주 (매우 어려움)
-85152	<color=2>25.07.10 점검 이후 사용할 수 없는 아이템이다. 풀나브론의 소르카에게서 무제한 던전 통행증 혹은 테흐 두인 미션 - 4인 통행증으로 교환할 수 있다.</color>\n\n2023년 9월 21일 업데이트 이전 테흐 두인 미션 통행증으로 <color=1>[사용하기]</color>를 통해, <color=1>[테흐 두인 미션]</color>의 주간 보상 획득 횟수가 <color=1>[1회]</color> 만큼 감소해 보상을 획득할 권한이 한 번 더 주어진다.\n\n<color=1>[주의]\n- 주간 보상 획득 횟수가 0인 경우에는 사용 불가\n- 주간 최대 5회까지 사용 가능\n- 사용 횟수는 토요일 오전 7시에 초기화\n- 캐릭터 단위로 적용</color>
-85153	<color=2>25.07.10 점검 이후 사용할 수 없는 아이템이다. 풀나브론의 소르카에게서 무제한 던전 통행증 혹은 테흐 두인 미션 - 4인 통행증으로 교환할 수 있다.</color>\n\n2023년 9월 21일 업데이트 이전 테흐 두인 미션 통행증으로 <color=1>[사용하기]</color>를 통해, <color=1>[테흐 두인 미션]</color>의 주간 보상 획득 횟수가 <color=1>[1회]</color> 만큼 감소해 보상을 획득할 권한이 한 번 더 주어진다.\n\n<color=1>[주의]\n- 주간 보상 획득 횟수가 0인 경우에는 사용 불가\n- 주간 최대 5회까지 사용 가능\n- 사용 횟수는 토요일 오전 7시에 초기화\n- 캐릭터 단위로 적용</color>
-85154	<color=2>25.07.10 점검 이후 사용할 수 없는 아이템이다. 풀나브론의 소르카에게서 무제한 던전 통행증 혹은 테흐 두인 미션 - 4인 통행증으로 교환할 수 있다.</color>\n\n2023년 9월 21일 업데이트 이전 테흐 두인 미션 통행증으로 <color=1>[사용하기]</color>를 통해, <color=1>[테흐 두인 미션]</color>의 주간 보상 획득 횟수가 <color=1>[1회]</color> 만큼 감소해 보상을 획득할 권한이 한 번 더 주어진다.\n\n<color=1>[주의]\n- 주간 보상 획득 횟수가 0인 경우에는 사용 불가\n- 주간 최대 5회까지 사용 가능\n- 사용 횟수는 토요일 오전 7시에 초기화\n- 캐릭터 단위로 적용</color>
-85155	<color=2>25.07.10 점검 이후 사용할 수 없는 아이템이다. 풀나브론의 소르카에게서 무제한 던전 통행증 혹은 테흐 두인 미션 - 4인 통행증으로 교환할 수 있다.</color>\n\n2023년 9월 21일 업데이트 이전 테흐 두인 미션 통행증으로 <color=1>[사용하기]</color>를 통해, <color=1>[테흐 두인 미션]</color>의 주간 보상 획득 횟수가 <color=1>[1회]</color> 만큼 감소해 보상을 획득할 권한이 한 번 더 주어진다.\n\n<color=1>[주의]\n- 주간 보상 획득 횟수가 0인 경우에는 사용 불가\n- 주간 최대 5회까지 사용 가능\n- 사용 횟수는 토요일 오전 7시에 초기화\n- 캐릭터 단위로 적용</color>
+85148	Tech Duinn Mission Pass - Revived Illusion (Elite)
+85149	Tech Duinn Mission Pass - Feth Fiada (Elite)
+85150	Tech Duinn Mission Pass - Seven Nightmares (Elite)
+85151	Tech Duinn Mission Pass - Awakened Abyssal Lord (Elite)
+85152	<color=2>This item can no longer be used after the November 13, 2025 update. However, you can exchange it for an Unrestricted Dungeon Pass or a Tech Duinn Mission Pass (Party of 4) by speaking with Soraia at the Poulnabrone research site.</color>\n\nA pass that, when used, reduces the tally for the number of times you have received weekly rewards from Tech Duinn Missions by 1, allowing you to obtain rewards an additional time.\n\n<color=1><color=1>[Notes]\n- Cannot be used until you have received Tech Duinn rewards at least once this week.\n- Up to 5 can be used per week.\n- The weekly reward limit resets every Saturday at 7:00 AM (Server Time).\n- Applied per character</color>
+85153	<color=2>This item can no longer be used after the November 13, 2025 update. However, you can exchange it for an Unrestricted Dungeon Pass or a Tech Duinn Mission Pass (Party of 4) by speaking with Soraia at the Poulnabrone research site.</color>\n\nA pass that, when used, reduces the tally for the number of times you have received weekly rewards from Tech Duinn Missions by 1, allowing you to obtain rewards an additional time.\n\n<color=1><color=1>[Notes]\n- Cannot be used until you have received Tech Duinn rewards at least once this week.\n- Up to 5 can be used per week.\n- The weekly reward limit resets every Saturday at 7:00 AM (Server Time).\n- Applied per character</color>
+85154	<color=2>This item can no longer be used after the November 13, 2025 update. However, you can exchange it for an Unrestricted Dungeon Pass or a Tech Duinn Mission Pass (Party of 4) by speaking with Soraia at the Poulnabrone research site.</color>\n\nA pass that, when used, reduces the tally for the number of times you have received weekly rewards from Tech Duinn Missions by 1, allowing you to obtain rewards an additional time.\n\n<color=1><color=1>[Notes]\n- Cannot be used until you have received Tech Duinn rewards at least once this week.\n- Up to 5 can be used per week.\n- The weekly reward limit resets every Saturday at 7:00 AM (Server Time).\n- Applied per character</color>
+85155	<color=2>This item can no longer be used after the November 13, 2025 update. However, you can exchange it for an Unrestricted Dungeon Pass or a Tech Duinn Mission Pass (Party of 4) by speaking with Soraia at the Poulnabrone research site.</color>\n\nA pass that, when used, reduces the tally for the number of times you have received weekly rewards from Tech Duinn Missions by 1, allowing you to obtain rewards an additional time.\n\n<color=1><color=1>[Notes]\n- Cannot be used until you have received Tech Duinn rewards at least once this week.\n- Up to 5 can be used per week.\n- The weekly reward limit resets every Saturday at 7:00 AM (Server Time).\n- Applied per character</color>
 85156	죽음의 인도자 장갑(남성용)
 85157	죽음의 인도자 장갑(여성용)
 85158	어비스 드래곤 뿔(남성용)

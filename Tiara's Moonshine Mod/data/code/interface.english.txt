@@ -466,7 +466,7 @@ pli_airulewizardview.14	Failed to add the new rule.
 pli_airulewizardview.15	This rule does not have a name.
 pli_alchemicsynergymanageview.1	All elements must be selected.
 pli_alchemicsynergymanageview.2	All elements must be selected.
-pli_alchemicsynergymanageview.3	오검 문자 조합식 효과로 4개 속성 모두 고정 속성으로 사용됩니다.
+pli_alchemicsynergymanageview.3	Due to the Ogham Rune Synergy Effect, this skill will consume the energy of all four elements.
 pli_alchemicsynergyview.1	You don't have enough Crystals.
 pli_alchemicsynergyview.2	The required elements have not been fully charged.
 pli_alltalentselectview.1	You must rebirth once before you can make this your active talent.
@@ -1343,8 +1343,8 @@ pli_charactergeneralframe.53	You'll be able to receive the Joyful Japari Park bu
 pli_charactergeneralframe.54	Level {0}
 pli_charactergeneralframe.55	Locked
 pli_charactergeneralframe.56	Lv {0} Exp {1}%
-pli_charactergeneralframe.57	각성 레벨
-pli_charactergeneralframe.58	각성 경험치
+pli_charactergeneralframe.57	Awakening Level
+pli_charactergeneralframe.58	Awakening EXP
 pli_charactermyknightsframe.1	{0}/{1}
 pli_charactermyknightsframe.2	Current Command EXP: {0}\nNext Command Level: {1}
 pli_charactermyknightsframe.3	You cannot open the Special Unit Training Board while talking.
@@ -2048,7 +2048,7 @@ pli_dungeonpassview.1	Unrestricted Dungeon Pass
 pli_dungeonpassview.2	Please select the dungeon you wish to enter.
 pli_dungeonpassview.3	Enter
 pli_dungeonpassview.4	Cancel
-pli_dungeonpassview.5	You cannot access any dungeons here with an Unrestricted Dungeon Pass.\nSpeak with Soraia at the Poulnabrone research site to exchange passes for Neartite.
+pli_dungeonpassview.5	You cannot access any dungeons here with an Unrestricted Dungeon Pass.
 pli_dungeonrankcleared.1	Challenge Successful
 pli_dungeonrankcleared.2	OK
 pli_dungeonstatisticview.1	Misc.
@@ -2360,9 +2360,9 @@ pli_enterdungeonbygoldconfirmview.11	Use {0}<color=2><outlinecolor=3>(+{1})</out
 pli_enterdungeonbygoldconfirmview.12	Use {0} Shineseeker Orbs to enter the dungeon\n(Orbs Remaining: {1})
 pli_enterdungeonbygoldconfirmview.13	Combat VIP Membership In Effect
 pli_enterdungeonbygoldconfirmview.14	Use {0} Shineseeker Orbs to enter the dungeon?
-pli_enterdungeonbygoldconfirmview.15	통행증으로 입장
-pli_enterdungeonbygoldconfirmview.16	입장에 사용할 통행증이 없습니다.
-pli_enterdungeonbygoldconfirmview.17	입장에 사용할 통행증을 선택하세요.
+pli_enterdungeonbygoldconfirmview.15	Enter with Pass
+pli_enterdungeonbygoldconfirmview.16	You do not have a pass that can be used to enter.
+pli_enterdungeonbygoldconfirmview.17	Select a pass to use for entry.
 pli_entryeventview.1	Total Ribbons: {0}
 pli_entryeventview.2	Invitation Code Entered: {0}
 pli_entryeventview.3	Invitation Code Input
@@ -2377,7 +2377,7 @@ pli_entryview.6	VIP Membership Benefits {0}
 pli_entryview.7	Currency {0}
 pli_entryview.8	Growth Guide {0}
 pli_entryview.9	Arcana Achievement Mission
-pli_entryview.10	아르카나 각성 이후 오검 워드를 사용할 수 있습니다.\n\n<color=2>[각성 해금 조건]\n1개 이상 아르카나의 레벨 50, 링크 10단계 달성\n[씨앗과 토양] 퀘스트로 진행하는 아르카나 각성 시나리오 완료</color>
+pli_entryview.10	Ogham Runes can be used after unlocking Arcana Awakening.\n\n<color=2>[Awakening Unlock Requirements]\nReach Level 50 and Link Level 10 with at least 1 Arcana\nComplete the Arcana Awakening storyline, started with the quest 'The Seed and the Soil'</color>
 pli_equipabilitytransferconfirmview.1	Prefix Enchant
 pli_equipabilitytransferconfirmview.2	Suffix Enchant
 pli_equipabilitytransferconfirmview.3	Special Upgrade
@@ -2426,7 +2426,7 @@ pli_equipmentrentalmainview.2	The rented outfit pieces have been sent to your in
 pli_equipmentrentalmainview.3	Failed to rent outfit pieces.
 pli_equipmentrentalmainview.4	Failed to claim the final outfit reward.
 pli_equipmentrentalmainview.5	Do you wish to rent the <color=2><outlinecolor=3>{0}</outlinecolor></color>?\nOnce you've affirmed your desire to rent the selected outfit, any rented outfit pieces\ncurrently in your possession will be retrieved. Keep in mind that once returned, the\ndye information for that rental outfit will be lost.
-pli_equipmentrentalmainview.6	Are you sure you want to finalize your Outfit Set selection?
+pli_equipmentrentalmainview.6	Are you sure you want to finalize your selection of outfit pieces?
 pli_equipmentrentalmainview.7	Select Outfit
 pli_equipmentrentalmainview.8	Finalize Outfit Set
 pli_equipskinslottab.1	You don't have any equipment whose appearance you can save.
@@ -2895,13 +2895,13 @@ pli_freeseasonguidebookview.8	* You may choose a new buff every day at 7:00 AM (
 pli_freeseasonguidebookview.9	All buffs are active.
 pli_freeseasonguidebookview.10	You have not selected any buffs yet.
 pli_freeseasonguidebookview.11	You have not selected any buffs yet.
-pli_freeseasonguidebookview.12	<color=2><outlinecolor=3>Sasha's Rental Redux</outlinecolor></color>\n\n<color=2><outlinecolor=3>Sasha</outlinecolor></color> is back in <color=2><outlinecolor=3>Dunbarton</outlinecolor></color> to support your training!\n\n<color=2><outlinecolor=3>Benefits Available</outlinecolor></color>\n<color=6><outlinecolor=3>Weapons:</outlinecolor></color> Perseus Weapons\n<color=6><outlinecolor=3>Armor:</outlinecolor></color> Refined Armor\n<color=6><outlinecolor=3>Accessory:</outlinecolor></color> Drosera (Rental)\n<color=6><outlinecolor=3>Pets:</outlinecolor></color> Warrior Corgi, Wizard Corgi (Total of 2 Pets/Once per account)\n<color=6><outlinecolor=3>Inventory:</outlinecolor></color> Extra Inventory Rental\n\n <color=2><outlinecolor=3>(Weapons, armor, and accessories will gain additional enhancements as you\nprogress in the Season of Growth Weapon/Armor/Accessory events.)</outlinecolor></color>
-pli_freeseasonguidebookview.13	<color=2><outlinecolor=3>Login Bonus</outlinecolor></color>\n\nWhen registered as the Main Character for the <color=2><outlinecolor=3>Season of Growth</outlinecolor></color> event, you'll receive a free item every day from the <color=2><outlinecolor=3>Login Bonus Scroll.</outlinecolor></color>\n\n<color=2><outlinecolor=3>Event Overview</outlinecolor></color>\n<color=6><outlinecolor=3>Event Progress:</outlinecolor></color> Attendance is counted as soon as you log in.\n<color=6><outlinecolor=3>Scroll Exchange:</outlinecolor></color> Scrolls will be exchanged automatically based on the Scroll Exchange Dates listed.\n\n<color=2><outlinecolor=3>Scroll Exchange Dates</outlinecolor></color>\n<color=6><outlinecolor=3>Login Bonus Scroll 1:</outlinecolor></color> After the 6/11 Maintenance - before 7/16 at 7:00 AM (Server Time) once you've registered your Main Character for the Season of Growth event\n<color=6><outlinecolor=3>Login Bonus Scroll 2:</outlinecolor></color> After 7/16 at 7:00 AM (Server Time) - before 8/13 at 7:00 AM (Server Time) once you've registered your Main Character for the Season of Growth event and log in\n<color=6><outlinecolor=3>Login Bonus Scroll 3:</outlinecolor></color> After 8/13 at 7:00 AM (Server Time) - Before the 9/10 Maintenance once you've registered your Main Character for the Season of Growth event and log in
+pli_freeseasonguidebookview.12	<color=2><outlinecolor=3>Sasha's Rental Redux</outlinecolor></color>\n\n<color=2><outlinecolor=3>Sasha</outlinecolor></color> is back in <color=2><outlinecolor=3>Dunbarton</outlinecolor></color> to support your training!\n\n<color=2><outlinecolor=3>Benefits Available</outlinecolor></color>\n<color=6><outlinecolor=3>Weapons:</outlinecolor></color> Perseus Weapons\n<color=6><outlinecolor=3>Armor:</outlinecolor></color> Refined Armor\n<color=6><outlinecolor=3>Accessory:</outlinecolor></color> Forget-me-not Accessory\n<color=6><outlinecolor=3>Pets:</outlinecolor></color> Warrior Corgi, Wizard Corgi (Total of 2 Pets/Once per account)\n<color=6><outlinecolor=3>Inventory:</outlinecolor></color> Extra Inventory Rental\n\n <color=2><outlinecolor=3>(Weapons, armor, and accessories will gain additional enhancements based on your Season of Gains Weapon/Armor event progress.)</outlinecolor></color>
+pli_freeseasonguidebookview.13	<color=2><outlinecolor=3>Login Bonus</outlinecolor></color>\n\nWhen registered as the Main Character for the <color=2><outlinecolor=3>Season of Growth</outlinecolor></color> event, you'll receive a free item every day from the <color=2><outlinecolor=3>Login Bonus Scroll.</outlinecolor></color>\n\n<color=2><outlinecolor=3>Event Overview</outlinecolor></color>\n<color=6><outlinecolor=3>Event Progress:</outlinecolor></color> Attendance is counted as soon as you log in.\n<color=6><outlinecolor=3>Scroll Exchange:</outlinecolor></color> Scrolls will be exchanged automatically based on the Scroll Exchange Dates listed.\n\n<color=2><outlinecolor=3>Scroll Exchange Dates</outlinecolor></color>\n<color=6><outlinecolor=3>Login Bonus Scroll 1:</outlinecolor></color> After the 11/12 Maintenance - before 12/17 at 7:00 AM (Server Time) once you've registered your Main Character for the Season of Growth event\n<color=6><outlinecolor=3>Login Bonus Scroll 2:</outlinecolor></color> After 12/17 at 7:00 AM (Server Time) - before 1/14/2027 at 7:00 AM (Server Time) once you've registered your Main Character for the Season of Growth event and log in
 pli_freeseasonguidebookview.14	<color=2><outlinecolor=3>[Life In Erinn Research Event]</outlinecolor></color>\n\nFirst, talk to <color=2><outlinecolor=3>Dafydd</outlinecolor></color> to register a Main Character, then go to \n<color=2><outlinecolor=3>Quick View - Event Icon</outlinecolor></color> to get to the event UI.\n\n<color=2><outlinecolor=3>[Event Overview]</outlinecolor></color>\n<color=6><outlinecolor=3>[Participating in the Event]</outlinecolor></color> Earn Research Points by participating in event activities.\n* The Research Point cap resets every day at 6:00 AM (Erinn Time).\n\n<color=6><outlinecolor=3>[Using Points]</outlinecolor></color> Spend <color=2><outlinecolor=3>100</outlinecolor></color> Research Points to open 5 reward boxes.\nRewards are divided into 4 ranks: S, A, B, and C.\n\n<color=2><outlinecolor=3>[Claiming Rewards]</outlinecolor></color>\nRewards can be claimed once every real life day and resets at 7:00 AM.\n\n<color=2><outlinecolor=3>[Returning Rewards]</outlinecolor></color>\nIf you don't like your current rewards, you can return them and get Research Points \nback, based on each reward's rank, and then open a new set of rewards by spending \nmore Research Points. However, you only have a limited number of <color=2><outlinecolor=3>Rank S Returns</outlinecolor></color>\neach day, and those reset at 7:00 AM (Server Time).
 pli_freeseasonguidebookview.15	<color=2><outlinecolor=3>[Fergseus Weapon Event]</outlinecolor></color>\n\nAccessed via <color=2><outlinecolor=3>[Quick View] - [Event Icon]</outlinecolor></color>\n\n<color=2><outlinecolor=3>[Event Overview]</outlinecolor></color>\n<color=6><outlinecolor=3>Objective</outlinecolor></color>: Complete Point Quests to earn points\n* Challenge Quests do not award points\n\n<color=6><outlinecolor=3>Reward Tiers</outlinecolor></color>: <color=2><outlinecolor=3>The number of upgrades on the weapon you receive will vary</outlinecolor></color> based on the number of points you earn\n\n<color=2><outlinecolor=3>[Claiming Rewards]</outlinecolor></color>\nYou can claim your weapon once you've reached 1000 points, or when the event period is over.
 pli_freeseasonguidebookview.16	<color=2><outlinecolor=3>[Refined Armor Event]</outlinecolor></color>\n\nAccessed via <color=2><outlinecolor=3>[Quick View] - [Event Icon]</outlinecolor></color>\n\n<color=2><outlinecolor=3>[Event Overview]</outlinecolor></color>\n<color=6><outlinecolor=3>Objective</outlinecolor></color>: Complete Point Quests to earn points\n* Challenge Quests do not award points\n\n<color=6><outlinecolor=3>Reward Tiers</outlinecolor></color>: <color=2><outlinecolor=3>The number of upgrades on the equipment you receive will vary</outlinecolor></color> based on the number of points you earn\n\n<color=2><outlinecolor=3>[Claiming Rewards]</outlinecolor></color>\nYou can claim your equipment once you've reached 1000 points, or when the event period is over.
 pli_freeseasonguidebookview.17	<color=2><outlinecolor=3>[Forget-me-not Accessory Event]</outlinecolor></color>\n\nAccessed via <color=2><outlinecolor=3>[Quick View] - [Event Icon]</outlinecolor></color>\n\n<color=2><outlinecolor=3>[Event Overview]</outlinecolor></color>\n<color=6><outlinecolor=3>Objective</outlinecolor></color>: Complete Point Quests to earn points\n* Challenge Quests do not award points\n\n<color=6><outlinecolor=3>Reward Tiers</outlinecolor></color>: <color=2><outlinecolor=3>The number of upgrades on the accessory you receive will vary</outlinecolor></color> based on the number of points you earn\n\n<color=2><outlinecolor=3>[Claiming Rewards]</outlinecolor></color>\nYou can claim your accessory once you've reached 1000 points, or when the event period is over.
-pli_freeseasonguidebookview.18	<color=2><outlinecolor=3>[Season of Growth: Main Character Benefits]</outlinecolor></color>\n\n<color=2><outlinecolor=3>Season of Growth Main Characters</outlinecolor></color> receive exclusive benefits\n\n<color=2><outlinecolor=3>[Benefits Overview]</outlinecolor></color>\n<color=6><outlinecolor=3>Event Progression</outlinecolor>: </color> Access to exclusive seasonal events, including Weapon/Armor/Accessory Giveaways and Bingo Event\n\n<color=6><outlinecolor=3>Item Support</outlinecolor></color>:  Upon completing the introductory Season of Growth quest, you will receive a <color=2><outlinecolor=3>Season of Growth Support Box</outlinecolor></color>.\n\n<color=2><outlinecolor=3>[Support Box Contents]</outlinecolor></color>\n- Spirit Memory Scroll (Level 100)\n- Stardust Memory Scroll (Rank 10)\n- Stardust Support Effect Level 5 Scroll\n- Alban Knights Condensed Divine Fruit (Not Tradable)\n- Briogh Potion\n- Triumphant Ten Arcana Scorching Crest Selection Box x5\n- Triumphant Ten Arcana Ice-Scorched Crest Selection Box x2\n<color=2><outlinecolor=3>* If left unused, the items from this box will disappear once the Season of Growth has ended.</outlinecolor></color>\n\n<color=2><outlinecolor=3>[Grandmaster/Dan Advancement Support]</outlinecolor></color>\nUpon completing a Grandmaster Quest, you will receive a Great Talent Seal Selection Box. You can receive up to 3 boxes per day (resets at 7:00 AM, Server Time)\nUpon passing a Dan Advancement Test, you will receive an Additional Advancement Test Ticket. You can receive up to 2 tickets per day (resets at 7:00 AM, Server Time)
+pli_freeseasonguidebookview.18	<color=2><outlinecolor=3>[Season of Growth: Main Character Benefits]</outlinecolor></color>\n\n<color=2><outlinecolor=3>Season of Growth Main Characters</outlinecolor></color> receive exclusive benefits\n\n<color=2><outlinecolor=3>[Benefits Overview]</outlinecolor></color>\n<color=6><outlinecolor=3>Event Progression</outlinecolor></color>:  Access to exclusive seasonal events, including Weapon/Armor Giveaways and Login Bonuses\n\n<color=6><outlinecolor=3>Item Support</outlinecolor></color>:  Upon completing the introductory Season of Growth quest, you will receive a <color=2><outlinecolor=3>Season of Growth Support Box</outlinecolor></color>.\n\n<color=2><outlinecolor=3>[Support Box Contents]</outlinecolor></color>\n- Spirit Memory Scroll (Level 100)\n- Stardust Memory Scroll (Rank 10)\n- Stardust Support Effect Level 5 Scroll\n- Alban Knights Condensed Divine Fruit (Not Tradable)\n- Briogh-Infused Potion\n- Triumphant Ten Arcana Scorching Crest Selection Box x5\n- Triumphant Ten Arcana Ice-Scorched Crest Selection Box x2\n- Unadorned Alban Knights Emblem x10\nAlban Knights Emblem Box x10\n<color=2><outlinecolor=3>* If left unused, the items from this box will disappear once the Season of Growth has ended.</outlinecolor></color>\n\n<color=2><outlinecolor=3>[Grandmaster/Dan Advancement Support]</outlinecolor></color>\nUpon completing a Grandmaster Quest, you will receive a Great Talent Seal Selection Box.\nYou can receive up to 3 boxes per day (resets at 7:00 AM, Server Time). Upon passing\na Dan Advancement Test, you will receive an Additional Advancement Test Ticket.\nYou can receive up to 2 tickets per day (resets at 7:00 AM, Server Time)
 pli_freestylejamjoinview.1	You cannot enter before the host.
 pli_freestylejamjoinview.2	You are too far away from where the Freestyle Jam is taking place.
 pli_furniturecontextmenuview.1	You can't retrieve a workshop bench while a research task is in progress.\nComplete or stop the research first.
@@ -4333,7 +4333,7 @@ pli_lobbylistboxitem.10	Rebirth Available
 pli_lobbylistboxitem.11	Specialized Perk: {0}
 pli_lobbylistboxitem.12	Current Level: {0}\nCumulative Level: {1}
 pli_lobbylistboxitem.13	(VIP)
-pli_lobbylistboxitem.14	\n종족명 : {0}
+pli_lobbylistboxitem.14	\nRace: {0}
 pli_luxurymagicrandomcardview.1	Please select a card.
 pli_luxurymagicrandomcardview.2	You obtained {0}.
 pli_luxurymagicrandomcardview.3	Items are shuffled.
@@ -4467,6 +4467,7 @@ pli_magigraphmaterializationview.10	You confirm that the selected Glyph image is
 pli_magigraphmaterializationview.11	Quality: 
 pli_magigraphpreviewview.1	Play Again
 pli_magigraphpreviewview.2	Background Brightness
+pli_magigraphpreviewview.3	마기그래프 도안을 넣어 주세요
 pli_magigraphrepairview.1	0/{0}
 pli_magigraphrepairview.2	 Cost
 pli_magigraphrepairview.3	{0}/{1}
@@ -4917,66 +4918,66 @@ pli_objectivepointeventview.3	From %04d.%02d.%02d to %04d.%02d.%02d
 pli_objectivepointeventview.4	Claim Reward
 pli_objectivepointeventview.5	Week {0}
 pli_objectivepointeventview.6	Your temporary inventory is full.\nPlease make some space first.
-pli_oghamscriptitemframe.1	{0} 오검 #{1}
-pli_oghamscriptitemframe.2	{0} 장착 중
-pli_oghamscriptitemframe.3	{0} ({1}/{2}) 레벨
-pli_oghamscriptresetconfirmview.1	{0}\n({1}/{2}) 레벨
-pli_oghamscriptresetconfirmview.2	골드: {0}
-pli_oghamscriptresetconfirmview.3	오검 파편 {0}개
-pli_oghamscriptresetconfirmview.4	{0} {1}개
-pli_oghamscriptresetconfirmview.5	신규 효과를 다시 재굴림합니다.\n표시된 재료가 소모됩니다. 진행하시겠습니까?
-pli_oghamscriptresetconfirmview.6	오검 워드 재설정 도움말
-pli_oghamscriptresetconfirmview.7	[오검 워드 재설정]\n오검 워드의 효과를 재설정하여 새로운 효과를 얻거나 기존 효과의 능력치를 변경할 수 있습니다.\n\n[효과 선택]\n기존 효과 선택 시, 저장된 효과가 보존됩니다.\n신규 효과 선택 시 기존의 효과는 사라지고, 신규 효과가 새롭게 적용됩니다.\n\n[재굴림]\n신규 효과를 선택하지 않고 다시 재굴림할 수 있습니다.\n재굴림 시에는 잠금 옵션과 그에 따른 소모 재료는 처음 설정한 것과 동일하게 진행됩니다.
-pli_oghamscriptview.1	{0} 등급 오검 워드 {1}개가 소모됩니다.\n정말 합성 하시겠습니까?
-pli_oghamscriptview.2	오검 워드를 우클릭하면 오검 워드를 잠금 및 잠금 해제할 수 있습니다.\n잠금된 오검 워드는 분해 및 합성을 할 수 없습니다.
-pli_oghamscriptview.3	개별 합성 : 직접 선택하여 등록합니다.
-pli_oghamscriptview.4	엘리트 등급만 자동 등록 됩니다.
-pli_oghamscriptview.5	에픽 등급만 자동 등록 됩니다.
-pli_oghamscriptview.6	마스터 등급만 자동 등록 됩니다.
-pli_oghamscriptview.7	마스터 등급은 합성할 수 없습니다.
-pli_oghamscriptview.8	장착중인 오검은 합성할 수 없습니다.
-pli_oghamscriptview.9	일괄 합성 대상 등급과 다릅니다.
-pli_oghamscriptview.10	장착중인 오검은 분해할 수 없습니다.
-pli_oghamscriptview.11	필터 조건에 해당하지 않습니다.
-pli_oghamscriptview.12	잠금 상태로 인해 선택할 수 없습니다.
-pli_oghamscriptview.13	필터 조건에 해당하지 않습니다.
-pli_oghamscriptview.14	일괄 합성시에는 재료 투입 및 해제가 불가능합니다.
-pli_oghamscriptview.15	등급 일괄 선택 중에는 개별 해제할 수 없습니다.
-pli_oghamscriptview.16	해당 아르카나에 오검을 장착할 수 없습니다.
-pli_oghamscriptview.17	자동 장착 시 조합에 해당하지 않는 오검은 모두 장착 해제됩니다.\n자동 장착 하시겠습니까?
-pli_oghamscriptview.18	장착 해제
-pli_oghamscriptview.19	장착
-pli_oghamscriptview.20	교체
-pli_oghamscriptview.21	{0}\n({1}/{2} 레벨)
+pli_oghamscriptitemframe.1	{0} Ogham Rune #{1}
+pli_oghamscriptitemframe.2	{0} equipped
+pli_oghamscriptitemframe.3	{0} Level ({1}/{2})
+pli_oghamscriptresetconfirmview.1	{0}\nLevel ({1}/{2})
+pli_oghamscriptresetconfirmview.2	Gold: {0}
+pli_oghamscriptresetconfirmview.3	{0} Ogham Fragment(s)
+pli_oghamscriptresetconfirmview.4	{0} x{1}
+pli_oghamscriptresetconfirmview.5	Rerolls the rune's attributes.\nRefreshing will consume the materials shown. Do you wish to proceed?
+pli_oghamscriptresetconfirmview.6	Ogham Rune Refresh Guide
+pli_oghamscriptresetconfirmview.7	[Ogham Rune Refresh]\nThe process of refreshing rerolls the attributes of an Ogham Rune, granting it a new set of attributes and values.\n\n[Selecting Attributes]\nSelecting an existing attribute will preserve it during the refresh. Unselected attributes will be overwritten with a new attribute and value during the refresh.\n\n[Multiple Refreshes]\nWhen performing a series of consecutive refreshes, your selection of which attributes to preserve and reroll will retain the choices made for your initial refresh attempt.
+pli_oghamscriptview.1	{1} {0}-grade Ogham Runes will be consumed.\nProceed with synthesis?
+pli_oghamscriptview.2	Right-click an Ogham Rune to lock or unlock it.\nLocked Ogham Runes cannot be disassembled or synthesized.
+pli_oghamscriptview.3	Individual Synthesis: Manually select Ogham Runes to register.
+pli_oghamscriptview.4	Only Fine-grade Ogham Runes will be auto-registered.
+pli_oghamscriptview.5	Only Exquisite-grade Ogham Runes will be auto-registered.
+pli_oghamscriptview.6	Only Masterwork-grade Ogham Runes will be auto-registered.
+pli_oghamscriptview.7	Masterwork-grade Ogham Runes cannot be synthesized.
+pli_oghamscriptview.8	Equipped Ogham Runes cannot be synthesized.
+pli_oghamscriptview.9	Does not match the target grade for batch synthesis.
+pli_oghamscriptview.10	Equipped Ogham Runes cannot be disassembled.
+pli_oghamscriptview.11	Does not meet the filter conditions.
+pli_oghamscriptview.12	This rune is locked and cannot be selected.
+pli_oghamscriptview.13	Does not meet the filter conditions.
+pli_oghamscriptview.14	Materials cannot be added or removed during batch synthesis.
+pli_oghamscriptview.15	Runes cannot be individually deselected when performing batch selection by grade.
+pli_oghamscriptview.16	Cannot equip Ogham Runes to this Arcana.
+pli_oghamscriptview.17	When using auto-equip, all Ogham Runes that do not match the listed combination will be unequipped.\nProceed with auto-equip?
+pli_oghamscriptview.18	Unequip
+pli_oghamscriptview.19	Equip
+pli_oghamscriptview.20	Replace
+pli_oghamscriptview.21	{0}\n(Level {1}/{2})
 pli_oghamscriptview.22	{0}
-pli_oghamscriptview.23	옵션을 모두 잠근 상태에서 재설정할 수 없습니다.
-pli_oghamscriptview.24	보유 리스트({0}/{1})   장착 중({2}/{3})
-pli_oghamscriptview.25	합성에 사용할 오검 워드를 왼쪽 리스트에서 선택 시 등록됩니다.
-pli_oghamscriptview.26	{0} 등급 '오검 워드: [#{1}] {2}'{을}\n획득할 수 있습니다.
-pli_oghamscriptview.27	{0} 등급 오검 워드 1개를 무작위로 획득할 수 있습니다.
-pli_oghamscriptview.28	일괄 합성시에는 재료 투입 및 해제가 불가능합니다.
-pli_oghamscriptview.29	{0} 등급 오검 워드 {1}개를 무작위로 획득할 수 있습니다.
-pli_oghamscriptview.30	{0}\n({1}/{2} 레벨)
-pli_oghamscriptview.31	{0}에 오검 {1}개가 자동 장착되었습니다
-pli_oghamscriptview.32	조합 오검 중 장착할 수 있는 오검이 없습니다.
-pli_oghamscriptview.33	{0}에 장착 중인 오검 워드입니다.\n정말 교체 하시겠습니까?
-pli_oghamscriptview.34	분해 및 합성 탭에서는 잠금 및 해제가 불가능합니다.
-pli_oghamscriptview.35	{0} 오검 #{1}
-pli_oghamscriptview.36	오검 #{0}
-pli_oghamscriptview.37	보유한 오검 워드가 없어 효과 재설정이 불가능합니다.
-pli_oghamscriptview.38	보유한 오검 워드가 없어 분해가 불가능합니다.
-pli_oghamscriptview.39	보유한 오검 워드가 없어 합성이 불가능합니다.
-pli_oghamscriptview.40	먼저 오검 슬롯을 클릭해주세요.
-pli_oghamscriptview.41	선택한 오검을 분해하시겠습니까?
-pli_oghamscriptview.42	골드와 재료 아이템이 부족합니다.
-pli_oghamscriptview.43	골드가 부족합니다.
-pli_oghamscriptview.44	재료 아이템이 부족합니다.
-pli_oghamscriptview.45	재설정을 실행하시겠습니까?
-pli_oghamscriptview.46	재설정을 실행하시겠습니까?
-pli_oghamscriptview.47	필터가 활성화된 상태에서는 일괄 합성을 진행할 수 없습니다.
-pli_oghamscriptview.48	먼저 아르카나를 선택해주세요.
-pli_oghamscriptview.49	빈 오검 슬롯이 없습니다.
-pli_oghamscriptview.50	장착중인 오검 워드를 리스트의 상단으로 정렬합니다.
+pli_oghamscriptview.23	Cannot perform a reset while all attribute lines are locked.
+pli_oghamscriptview.24	In Possession ({0}/{1}) Equipped ({2}/{3})
+pli_oghamscriptview.25	Ogham Runes selected from the list on the left will be registered for synthesis.
+pli_oghamscriptview.26	{0}-grade Ogham Rune: [#{1}] {2}\ncan be obtained.
+pli_oghamscriptview.27	You will obtain 1 randomly selected {0}-grade Ogham Rune.
+pli_oghamscriptview.28	Materials cannot be added or removed during batch synthesis.
+pli_oghamscriptview.29	You will obtain {1} randomly selected {0}-grade Ogham Runes.
+pli_oghamscriptview.30	{0}\n(Level {1}/{2})
+pli_oghamscriptview.31	{0} - {1} Ogham Rune(s) auto-equipped
+pli_oghamscriptview.32	You do not currently have any of the runes required for the Ogham Rune Synergy Effect.
+pli_oghamscriptview.33	This Ogham Rune is currently equipped to {0}.\nAre you sure you want to replace it?
+pli_oghamscriptview.34	Ogham Runes cannot be locked or unlocked in the Disassembly and Synthesis tabs.
+pli_oghamscriptview.35	{0} Ogham Rune #{1}
+pli_oghamscriptview.36	Ogham Rune #{0}
+pli_oghamscriptview.37	You do not possess any Ogham Runes, so you cannot perform an attribute refresh.
+pli_oghamscriptview.38	You do not possess any Ogham Runes, so there is nothing to disassemble.
+pli_oghamscriptview.39	You do not possess any Ogham Runes, so there is nothing to synthesize.
+pli_oghamscriptview.40	Please click an Ogham Rune Slot first.
+pli_oghamscriptview.41	Are you sure you want to disassemble the selected Ogham Rune?
+pli_oghamscriptview.42	You don't have enough Gold and materials.
+pli_oghamscriptview.43	You don't have enough Gold.
+pli_oghamscriptview.44	You don't have enough materials.
+pli_oghamscriptview.45	Are you sure you want to refresh the rune's attributes?
+pli_oghamscriptview.46	Are you sure you want to refresh the rune's attributes?
+pli_oghamscriptview.47	Batch synthesis cannot be performed while the filter is active.
+pli_oghamscriptview.48	Please select an Arcana first.
+pli_oghamscriptview.49	There are no empty Ogham Rune Slots.
+pli_oghamscriptview.50	Sorts equipped Ogham Runes to the top of the list.
 pli_onlineconcertview.1	%02d:%02d:%02d
 pli_onlineconcertview.2	콘서트까지 {0}시간 {1}분 {2}초 남았습니다.
 pli_onlineconcertview.3	이미 시청 중입니다.
@@ -5159,8 +5160,8 @@ pli_petframe.19	You can view the pet's skill only when you have that pet summone
 pli_petframe.20	This bead cannot be equipped because the slot is locked.\nYou can open the slot through Fynn Syncing.
 pli_petframe.21	You can open the slot through Fynn Syncing.
 pli_petframe.22	Deleted pets cannot be restored. Would you really like to delete the selected pet?
-pli_petframe.23	이름 / 종족 / 초성을 입력하세요.
-pli_petframe.24	펫 메모 / 초성을 입력하세요.
+pli_petframe.23	Enter name / race.
+pli_petframe.24	Enter pet note.
 pli_pethousemainview.1	Rest Finished
 pli_pethousemainview.2	Can Finish Rest
 pli_pethousemainview.3	Pausing will reset rest progress.\nContinue?
@@ -6334,8 +6335,8 @@ pli_semipeakseasonmainview.25	You can change your selection\nof Perseus Weapon\n
 pli_semipeakseasonmainview.26	You've completed all the Point Quests\nand completed the Perseus Weapon!
 pli_semipeakseasonmainview.27	The buff will remain even if you receive all rewards.
 pli_semipeakseasonmainview.28	Do you wish to claim the '{0}'?\nYou cannot change your selection once the weapon has been claimed.
-pli_semipeakseasonmainview.29	The next round of quests will be available starting {0}/{1} at {2}:00 AM (Server Time).\n* Regardless of when the next quests become available, you must complete\nthe Point Quests from the previous mission to progress to the next set.\n* If you are able to complete any event quests you've received, please complete them, then try again.
-pli_semipeakseasonmainview.30	현재 {0}단계
+pli_semipeakseasonmainview.29	The next round of quests will be available on Thursday at {2}:00 AM (Server Time).\n* Regardless of when the next quests become available, you must complete\nthe Point Quests from the previous mission to progress to the next set.\n* If you are able to complete any event quests currently active, please do so, then try again.
+pli_semipeakseasonmainview.30	Stage: {0}
 pli_semipeakseasonmissionviewboxframe.1	You have already completed this quest.
 pli_semipeakseasonmissionviewboxframe.2	{0} Points
 pli_semipeakseasonmissionviewboxframe.3	Special Reward
@@ -6627,26 +6628,26 @@ pli_talentmainview.46	The total level for all Arcana Talents.\nA character's sta
 pli_talentmainview.47	When equipped with a Scythe, 
 pli_talentmainview.48	When equipped with a Wand or Staff, 
 pli_talentmainview.49	Unlock after obtaining the {0} Arcana Talent
-pli_talentmainview.50	Lv.{0}
-pli_talentmainview.51	각성 Lv.{0}
+pli_talentmainview.50	Lv. {0}
+pli_talentmainview.51	Awakening Lv. {0}
 pli_talentmainview.52	 +{0}
-pli_talentmainview.53	각성 해금 조건\n: 아르카나 각성 시나리오 클리어 시 각성이 해금됩니다.\n: 1개 이상 아르카나의 레벨 50, 링크 10단계를 달성하면 수주 가능한 [씨앗과 토양] 퀘스트로 진행 가능합니다.
-pli_talentmainview.54	아르카나 각성 이후 오검 워드를 사용할 수 있습니다.\n\n<color=2>[각성 해금 조건]\n1개 이상 아르카나의 레벨 50, 링크 10단계 달성\n[씨앗과 토양] 퀘스트로 진행하는 아르카나 각성 시나리오 완료</color>
-pli_talentmainview.55	아르카나 일반 재능 경험치\n- 캐릭터 레벨업 시 일반 경험치 획득
-pli_talentmainview.56	아르카나 각성 재능 경험치\n- 주요 던전 클리어 시 각성 경험치 획득
-pli_talentmainview.57	링크 {0}단계
-pli_talentmainview.58	현재 아르카나 각성 레벨 효과 없음
-pli_talentmainview.59	최대 경험치량에 도달하여 더 이상 각성 경험치를 획득할 수 없습니다.
-pli_talentmainview.60	최대 경험치량에 도달하여 더 이상 아르카나 경험치를 획득할 수 없습니다.
-pli_talentmainview.61	현재 적용중인 오검 효과가 없습니다.
-pli_talentmainview.62	최소 3개의 오검 슬롯이 개방되어야 오검 조합 효과 발동이 가능합니다.
-pli_talentmainview.63	조합식에 맞는 오검 워드를 장착 시 오검 조합 효과가 발동됩니다.
-pli_talentmainview.64	현재 활성화된 오검 조합 효과가 없습니다.
-pli_talentmainview.65	조합 오검: {0}, {1}, {2}\n등급 점수 {3}
-pli_talentmainview.66	등급 점수 {0} 적용 중 
-pli_talentmainview.67	{0}경험치를 주입하면 {1}레벨 {2}%에서 {3}레벨 {4}%로 상승합니다.\n정말 주입하겠습니까?
-pli_talentviewoghamframe.1	{0} 각성 시 {1}번 슬롯 해금이 가능합니다.
-pli_talentviewoghamframe.2	{0} 각성 Lv.{1} 달성 시 {2}번 슬롯 해금이 가능합니다.
+pli_talentmainview.53	Awakening Unlock Requirements\n\n- Arcana Awakening is unlocked upon clearing the Arcana Awakening storyline.\n- The storyline begins with the quest 'The Seed and the Soil,' which you'll receive once you've reached Level 50 and Link Level 10 with at least 1 Arcana Talent.
+pli_talentmainview.54	Ogham Runes can be used after unlocking Arcana Awakening.\n\n<color=2>[Awakening Unlock Requirements]\nReach Level 50 and Link Level 10 with at least 1 Arcana\nComplete the Arcana Awakening storyline, started with the quest 'The Seed and the Soil'</color>
+pli_talentmainview.55	Arcana Talent EXP\n- Earned each time your character gains a level
+pli_talentmainview.56	Arcana Awakening EXP\n- Earned by clearing major dungeons
+pli_talentmainview.57	Link Level {0}
+pli_talentmainview.58	No Current Arcana Awakening Level Effect
+pli_talentmainview.59	You have reached the maximum Awakening EXP and cannot earn more.
+pli_talentmainview.60	You have reached the maximum Arcana Talent EXP and cannot earn more.
+pli_talentmainview.61	No Ogham Rune attributes are currently applied.
+pli_talentmainview.62	At least 3 Ogham Rune Slots must be unlocked to activate an Ogham Rune Synergy Effect.
+pli_talentmainview.63	Ogham Rune Synergy Effects can be activated by equipping the runes that match an Arcana's specified combination.
+pli_talentmainview.64	No Ogham Rune Synergy Effects are currently active.
+pli_talentmainview.65	Ogham Combination: {0}, {1}, {2}\nGrade Score: {3}
+pli_talentmainview.66	Grade Score {0} applied
+pli_talentmainview.67	Infusing {0} EXP will increase the level from Level {1} ({2}%) to Level {3} ({4}%).\nDo you wish to infuse this EXP?
+pli_talentviewoghamframe.1	Upon Awakening {0}, Slot {1} will be unlocked.
+pli_talentviewoghamframe.2	Slot {2} will be unlocked upon reaching {0} Awakening Lv. {1}.
 pli_taskquestboarddetailview.1	Success Rate: 
 pli_taskquestboarddetailview.2	{0}-only Mission
 pli_taskquestboarddetailview.3	Common Mission
@@ -7097,7 +7098,7 @@ pli_transmuteview.81	Possible to extract {0}-{1}
 pli_transmuteview.82	{0}-{1}
 pli_transmuteview.83	{0} {and}
 pli_transmuteview.84	{0},
-pli_transmuteview.85	You can obtain a/an {1} by fragmentizing a {0}.
+pli_transmuteview.85	You can obtain a/an {1} by fragmenting a/an {0}.
 pli_transmuteview.86	Current Skill Level: Rank {0}
 pli_transmuteview.87	Success Rate: {0}%
 pli_transmuteview.88	<color=2>Success Rate: 0%</color>
@@ -7518,9 +7519,9 @@ pli_windowbuy.29	Rental
 pli_windowbuy.30	Rental Period 30 Days
 pli_windowbuy.31	Rental Period {0} Days
 pli_windowbuy.32	Excluding the abilities of the item,\nonly the appearance is provided.
-pli_windowbuy.33	가격
-pli_windowbuy.34	보유중인 재화
-pli_windowbuy.35	 - {0}: {1}개
+pli_windowbuy.33	Cost
+pli_windowbuy.34	Currency Owned
+pli_windowbuy.35	- {0}: {1}
 pli_windowcampballoon.1	{0} ({1} to hide)
 pli_windowcampjoin.1	Enter Oracle's Pavilion
 pli_windowcampmake.1	Create Oracle's Pavilion
@@ -8402,13 +8403,13 @@ pli_windowmovieshow.1	An unexpected error has occurred.
 pli_windowmovieshow.2	The file cannot be found.
 pli_windowmovieshow.3	The codec for this movie file cannot be found.
 pli_windowmovieshow.4	This is an unknown file extension.
-pli_windowmulticlassawakeninglevelup.1	최소 대미지 {0} 증가
-pli_windowmulticlassawakeninglevelup.2	최대 대미지 {0} 증가
-pli_windowmulticlassawakeninglevelup.3	마법 공격력 {0} 증가
-pli_windowmulticlassawakeninglevelup.4	모든 속성 연금술 대미지 {0} 증가
-pli_windowmulticlassawakeninglevelup.5	아르카나 스킬 보너스 대미지 {0}% 증가
-pli_windowmulticlassawakeninglevelup.6	힐링 효과 {0}% 증가
-pli_windowmulticlassawakeninglevelup.7	각성 레벨 {0}
+pli_windowmulticlassawakeninglevelup.1	Min Damage +{0}
+pli_windowmulticlassawakeninglevelup.2	Max Damage +{0}
+pli_windowmulticlassawakeninglevelup.3	Magic Attack +{0}
+pli_windowmulticlassawakeninglevelup.4	All Elemental Alchemic Damage +{0}
+pli_windowmulticlassawakeninglevelup.5	Arcana Skill Bonus Damage +{0}%
+pli_windowmulticlassawakeninglevelup.6	Healing Effect +{0}%
+pli_windowmulticlassawakeninglevelup.7	Awakening Level {0}
 pli_windowmulticlasslevelup.1	Arcana Link\nStage {0}
 pli_windownavigationregionconfirm.1	Spend <color=2><outlinecolor=3>{0} Gold</outlinecolor></color> to teleport to the {1}.\nThe fee will be waived if your cumulative level is\nbelow 10,000, or if you currently have an active\nBasic VIP Membership.
 pli_windownavigationregionconfirm.2	Moving to {0}.

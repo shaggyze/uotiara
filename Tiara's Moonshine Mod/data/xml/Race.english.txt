@@ -11148,7 +11148,7 @@
 13550	Disciple
 13551	Disciple
 13552	Disciple
-13556	초목의 카트시
+13556	Floral Catsidhe
 13560	고고한 모모
 13561	
 13564	Phoenix (Event)
