@@ -5245,9 +5245,18 @@
 7375	Healing Wand Effectiveness
 7376	Hand of Restoration
 7377	Hand of Restoration can quickly restore the HP of even allies in critical condition. While it shares a basis and fundamentals with the Healing skill, its restorative potency has been substantially increased through the power of Arcana. Its full power is greatly influenced by the caster's Healing skill, with higher ranks of Healing further amplifying Hand of Restoration's potency.
+7378	엘레멘탈 카타클리즘
+7379	엘레멘탈 나이트가 다루는 모든 원소의 힘을 단 일격에 해방하는 파괴적인 기술. 시전자의 주위에 전개되는 무수히 많은 마법진을 통해 불, 얼음, 번개 속성의 힘이 폭발적으로 증폭되며, 이 힘은 그대로 무기에 집약된다. 한계치까지 힘이 깃든 무기를 전방으로 내리치는 순간, 충격파를 따라 지면이 갈라지며 직사각형 범위 내의 적과 지형을 모조리 초토화한다. 다수의 마법진을 동시에 통제해야 하는 부담으로 인해 재사용 대기시간이 매우 길지만, 마법과 근접 전투 모두에 통달한 자만이 보여줄 수 있는 절정의 기술이기도 하다.\n* 아르카나 각성 스킬은 크리티컬이 확정적으로 발동되지만, 특성 : 연속 공격/스타더스트/정령 실체화 보너스 효과가 적용되지 않는다.\n* 아르카나 각성 스킬은 던전/미션에서 1회만 사용 가능하며, 그 외 지역에서는 별도 횟수 제한이 없다.
+7380	알케믹 컨버전스
+7381	연금술 4속성의 합일을 화살이라는 매개체를 통해 구현하는 알케믹 스팅어만의 기술. 시전 시 주변 환경에 흩어져 있던 불, 물, 바람, 흙의 기운을 화살촉의 끝에 극한까지 응축시키며, 대량의 속성 결정을 투입해 일시적으로 4속성의 평형이 강제로 유지되도록 만든다. 이후 화살이 발사될 때 충격으로 극렬한 원소 연쇄 반응이 일어나며 피격된 지점에 거대한 반구 형태의 폭발을 발생시킨다. 기술 시전 중에는 매우 정밀한 평형 유지가 필요하므로 이동할 수 없다. 시전자의 높은 연금술 숙련도와 집중력을 요구하는 만큼 재사용 대기시간이 매우 길지만, 단 한 발로 전황을 뒤집을 수 있을 정도의 파괴력을 자랑한다.\n* 아르카나 각성 스킬은 크리티컬이 확정적으로 발동되지만, 특성 : 연속 공격/스타더스트/정령 실체화 보너스 효과가 적용되지 않는다.\n* 아르카나 각성 스킬은 던전/미션에서 1회만 사용 가능하며, 그 외 지역에서는 별도 횟수 제한이 없다.
 7382	Twilight Surge
 7383	Whenever a Dark Diviner consumes Dorcha that is amplified through the use of Seething Mana, wisps of Dorcha that did not fully dissipate begin to accumulate within them, building up a negative charge. When this charge reaches a certain threshold, the energy takes on a form that is ephemeral but extremely potent. The Twilight Surge skill compresses this unstable "residual" Dorcha into a dense mass of dark energy, unleashing a searing beam that strikes the target from on high like a lightning bolt. The energy that forms the beam is so volatile that it releases an explosive shockwave at the moment of contact, dealing powerful damage to nearby foes.
 7384	Raise the Dark Diviner Arcana to Level 1 or higher.
+7385	커튼콜
+7386	모든 인형을 무대 위로 불러 세운 가장 찬란한 마지막 공연. 지휘자의 신호와 함께 모든 인형이 집결한다. 서로를 잇는 실을 팽팽히 당기며 바깥을 향해 동시에 내달리면 그 궤적이 쓸고 간 자리에는 아무것도 온전히 남지 않는다. 커튼콜의 신호가 울리는 순간, 그들은 오직 하나의 목적만을 위해 움직인다.\n* 아르카나 각성 스킬은 크리티컬이 확정적으로 발동되지만, 특성 : 연속 공격/스타더스트/정령 실체화 보너스 효과가 적용되지 않는다.\n* 아르카나 각성 스킬은 던전/미션에서 1회만 사용 가능하며, 그 외 지역에서는 별도 횟수 제한이 없다.
+7387	커튼콜 AI
+7388	마그눔 오푸스
+7389	4속성의 에너지를 하나로 압축하여, 기존의 연금술 체계로는 정의할 수 없는 제5의 물질을 생성한다.\n완성된 물질은 정십이면체의 형태로 결정화되어 상공에 소환되며, 지정한 위치를 향해 느리고 묵직하게 낙하한다. 착지 순간 발생하는 충격파는 반경 10m 범위 내의 모든 적에게 강력한 대미지를 입힌다. 4원소를 균등하게 보유할수록 물질의 밀도가 높아지며, 그에 비례하여 충격의 위력 또한 증가한다. 연금술의 극의에 도달한 자만이 이 반응을 온전히 제어할 수 있다.\n* 아르카나 각성 스킬은 크리티컬이 확정적으로 발동되지만, 특성 : 연속 공격/스타더스트/정령 실체화 보너스 효과가 적용되지 않는다.\n* 아르카나 각성 스킬은 던전/미션에서 1회만 사용 가능하며, 그 외 지역에서는 별도 횟수 제한이 없다.
 7390	Erg Warp
 7391	Temp
 7392	Spirit Wand Awakening
@@ -5294,6 +5303,22 @@
 7433	Elemental Amplification
 7434	A skill that both greatly amplifies and directly harnesses the caster's Elemental Energy, enhancing it to such an extent that it transcends the limits of traditional alchemy. While catalyzing this effect fully consumes the Elemental Energy used, the process grants one access to alchemical power beyond the boundaries of what can be achieved through alchemy alone.
 7435	Temp
+7436	성광의 협주곡
+7437	도르카 임펄스
+7438	참회
+7439	캐스케이드 버스트
+7440	아머먼트 살보
+7441	퓨리어스 드라이브
+7442	성광과 음파를 동시에 해방하여 주변의 아군을 치유하고 적을 강타하는 기술. 시전자는 무기를 크게 회전시키며 주변의 마나를 한데 끌어모은다. 충분한 힘이 응집되는 순간 무기를 힘차게 위로 들어올리며, 눈부신 빛과 강렬한 음파가 시전자를 중심으로 광대한 범위에 걸쳐 동시에 폭발적으로 퍼져나간다. 아군의 상처를 치유하고 활력을 불어넣는 한편, 범위 내의 적을 강타하며 전장을 뒤흔든다.\n* 아르카나 각성 스킬은 크리티컬이 확정적으로 발동되지만, 특성 : 연속 공격/스타더스트/정령 실체화 보너스 효과가 적용되지 않는다.\n* 아르카나 각성 스킬은 던전/미션에서 1회만 사용 가능하며, 그 외 지역에서는 별도 횟수 제한이 없다.
+7443	불, 얼음, 번개의 세 속성을 한데 모아 도르카로 전환하여 전방으로 강하게 쏘는 다크 메이지의 기술. 어둠의 힘을 개방하는 만큼 강하고 먼 거리의 적에게 까지 그 영향력이 미친다. 마법의 극에 달해 도르카까지 완벽하게 다룰 수 있을 때 비로소 사용이 가능한 절정의 기술이다.\n* 아르카나 각성 스킬은 크리티컬이 확정적으로 발동되지만, 특성 : 연속 공격/스타더스트/정령 실체화 보너스 효과가 적용되지 않는다.\n* 아르카나 각성 스킬은 던전/미션에서 1회만 사용 가능하며, 그 외 지역에서는 별도 횟수 제한이 없다.
+7444	세이크리드 가드는 견고한 의지와 고결한 울림을 내는 생명력을 기반으로 마나를 결정화하고, 이 결정을 모아 방패의 형상으로 빚어낸다. 이렇게 만들어진 결정과 방패는 세이크리드 가드가 사용하는 기술의 기반이 되며 다양한 형태로 완성된다.\n\참회는 극도로 압축한 한 점의 마나 결정을 빚어내고, 이를 지면에 충돌시켜 방대한 범위를 공격하는 기술이다. 마나 결정을 응집하는 과정 중 주변 마나의 흐름에 의해 시전자는 마나 결정과 함께 천천히 공중으로 부유하게 된다. 극도로 압축된 마나 결정은 마나의 결합을 유지하면서 보석같이 찬란한 빛을 발산한다. 안정적인 마나의 결합을 인위적으로 끊어내면 마나가 불규칙하게 움직이고, 서로 부딪치며 결정을 다시 형성되는 성질이 있지만, 극도로 압축한 마나 결정은 이러한 성질 또한 증폭하여 방대한 크기의 마나 결정을 형성하게 된다. 시전자는 이를 활용해 넓은 범위의 적을 공격한다.\n\n* 방어력은 방어와 보호, 마법방어와 마법보호를 총칭한다.\n* 특성 : '초월 : 생명'으로 증가한 생명력은 대미지에 영향을 주지 않는다.\n* 아르카나 각성 스킬은 크리티컬이 확정적으로 발동되지만, 특성 : 연속 공격/스타더스트/정령 실체화 보너스 효과가 적용되지 않는다.\n* 아르카나 각성 스킬은 던전/미션에서 1회만 사용 가능하며, 그 외 지역에서는 별도 횟수 제한이 없다.
+7445	극한까지 압축한 마나를 랜스의 일격으로 해방하여 마력탄의 연쇄 폭발을 일으키는 기술. 시전자는 숨을 가다듬고 전투 자세를 고쳐 잡으며 랜스에 마나를 극한까지 끌어올린다. 마나의 밀도는 더욱 높아지며, 압축된 에너지는 랜스 전체로 고르게 전달된다. 마나가 임계점에 도달하는 순간, 전방을 향해 랜스를 단숨에 내지른다. 찌르는 충격이 방아쇠가 되어 마력탄들이 공격 범위 전체에서 연쇄적으로 폭발하며, 전장을 순식간에 초토화시킨다.\n* 아르카나 각성 스킬은 크리티컬이 확정적으로 발동되지만, 특성 : 연속 공격/스타더스트/정령 실체화 보너스 효과가 적용되지 않는다.\n* 아르카나 각성 스킬은 던전/미션에서 1회만 사용 가능하며, 그 외 지역에서는 별도 횟수 제한이 없다.
+7446	고도로 숙련된 연성 연금술과 정교한 화기 운용 능력이 결합된 스킬. 시전자는 연성 연금술을 동시에 여러 차례 전개하여 다종의 특수 화기를 한 번에 소환한다. 소환된 모든 화기에서 일제히 발사된 마력탄은 소닉붐을 일으키며, 직사각형 범위 내 분출되는 압도적인 화력과 함께 적들을 관통하고 초토화한다.\n* 아르카나 각성 스킬은 크리티컬이 확정적으로 발동되지만, 특성 : 연속 공격/스타더스트/정령 실체화 보너스 효과가 적용되지 않는다.\n* 아르카나 각성 스킬은 던전/미션에서 1회만 사용 가능하며, 그 외 지역에서는 별도 횟수 제한이 없다.
+7447	포스를 다리에 모두 집중시키고, 발차기를 통해 순식간에 강력한 공격을 가하는 스킬. 모든 포스를 한데 모아 방출하여 넓은 범위의 적을 쓸어버린다. 대지를 찢을 듯한 포스 방출은 전장을 순식간에 초토화 시킬만큼 강하다.\n* 아르카나 각성 스킬은 크리티컬이 확정적으로 발동되지만, 특성 : 연속 공격/스타더스트/정령 실체화 보너스 효과가 적용되지 않는다.\n* 아르카나 각성 스킬은 던전/미션에서 1회만 사용 가능하며, 그 외 지역에서는 별도 횟수 제한이 없다.
+7448	다크 메이지의 아르카나 각성 레벨 30을 달성한다.
+7449	포비든 알케미스트의 아르카나 각성 레벨 30을 달성한다.
+7450	멜로딕 퍼피티어의 아르카나 각성 레벨 30을 달성한다.
+7451	퓨리 파이터의 아르카나 각성 레벨 30을 달성한다.
 7452	Fangs of Stone
 7453	Fangs of Stone is a skill that utilizes one's Elemental Compounding formula to cause jagged rocks to erupt from the ground at a specified location. The force and orientation of these stone fangs inflict damage on all targets in the affected area while pulling them toward the center. To transmute rocks dense and sharp enough to pierce even armor, it draws on the fundamentals of the Water Cannon skill, which is able to turn even water into a high-velocity projectile with a heavy impact. As such, it is affected by Water Cannon's damage.
 7454	Temp

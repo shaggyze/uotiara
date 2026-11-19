@@ -1025,6 +1025,7 @@ msg.useitemresurrection_remote_failed	You have either entered an incorrect name,
 msg.wand_mana_dried_out	The Mana connected to the Wand has disappeared!!
 multiclassdescmgr.1	* {0} Rank {1} or above
 multiclassdescmgr.2	* {0} Level {1} or higher
+multiclassdescmgr.3	* {0}의 아르카나 각성 레벨 {1} 이상
 myknightsdescmgr.1	DIV
 myknightsdescmgr.2	STR
 myknightsdescmgr.3	INT
@@ -1247,6 +1248,20 @@ talentdescmgr.13	Champion
 talentdescmgr.14	Wise
 talentdescmgr.15	Master
 talentdescmgr.16	Grandmaster
+towereventmgr.1	마스터
+towereventmgr.2	에픽
+towereventmgr.3	레어
+towereventmgr.5	근접
+towereventmgr.6	마법사
+towereventmgr.7	연금술사
+towereventmgr.8	회복
+towereventmgr.9	원거리
+towereventmgr.10	파이어
+towereventmgr.11	아이스
+towereventmgr.12	라이트닝
+towereventmgr.13	돌격
+towereventmgr.14	전술
+towereventmgr.15	지원
 usercreatedtotemdescmgr.1	STR
 usercreatedtotemdescmgr.2	DEF
 usercreatedtotemdescmgr.3	HP

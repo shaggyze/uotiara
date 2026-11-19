@@ -738,6 +738,8 @@ pli_balloonpopminigameview.1	Do you want to stop playing the Balloon Popping min
 pli_balloonpopminigameview.2	Time Elapsed
 pli_balloonpopminigameview.3	Time Limit
 pli_balloonpopnorankminigameresultview.1	{0}\nx{1}
+pli_banksearchview.1	 검색창
+pli_banksearchview.2	검색어를 입력하세요.
 pli_banquetchangetabletalkthemeview.1	Change table theme
 pli_banquetchangetabletalkthemeview.2	Current Theme: {0}\n
 pli_banquetchangetabletalkthemeview.3	There is currently no table theme.
@@ -2448,6 +2450,11 @@ pli_equiptuningview.5	Would you like to proceed with Equipment Tuning?
 pli_equiptuningview.6	No equipment has been selected.
 pli_equiptuningview.7	{0} added
 pli_equiptuningview.8	You don't have enough items.
+pli_ergenhanceconfirmview.1	계속 진행하는 경우\n<color=6><outlinecolor=5>{0} 골드</outlinecolor></color>를 소비합니다.
+pli_ergenhanceconfirmview.2	에르그 금화 개방 시에는\n은행 직거래 수수료가 적용되지 않습니다.
+pli_ergenhanceconfirmview.3	에르그 금화 주입 시에는\n은행 직거래 수수료가 적용되지 않습니다.
+pli_ergenhanceconfirmview.4	은행에 금화가 부족합니다.
+pli_ergenhanceconfirmview.5	보유한 금화가 부족합니다.
 pli_ergenhancemainview.1	By infusing a weapon with Erg, you can gain Erg EXP\nor expand the weapon's Erg Max Level.\nSimply place a weapon in the slot to begin the infusion process.
 pli_ergenhancemainview.2	[Infusing Erg]
 pli_ergenhancemainview.3	You can infuse a weapon with Erg extracted from weapons of the same type.\nAdd a weapon of the same type as the target to the Required Materials slot.\nAdd weapons or special items as Additional Materials to gain other supplementary effects.
@@ -2470,6 +2477,11 @@ pli_ergenhancemainview.21	Failed to increase Max Erg Level.
 pli_ergenhancemainview.22	Success Rate: <color=2>{0}</color>({1}) %
 pli_ergenhancemainview.23	[Rank {0} Erg Enhancement]
 pli_ergenhancemainview.24	x%d event in progress
+pli_ergenhancemainview.25	골드가 부족합니다.
+pli_ergenhancemainview.26	은행 잔고가 부족합니다.
+pli_ergenhancemainview.27	금화로 주입
+pli_ergenhancemainview.28	금화로 개방
+pli_ergenhancemainview.29	에르그 주입이 완료되었습니다.
 pli_ergenhancetransferview.1	Select weapon for Erg extraction
 pli_ergenhancetransferview.2	Select weapon to receive Erg
 pli_ergenhancetransferview.3	Transfer
@@ -4334,6 +4346,8 @@ pli_lobbylistboxitem.11	Specialized Perk: {0}
 pli_lobbylistboxitem.12	Current Level: {0}\nCumulative Level: {1}
 pli_lobbylistboxitem.13	(VIP)
 pli_lobbylistboxitem.14	\nRace: {0}
+pli_lobbylistboxitem.16	소지품 검색 가능
+pli_lobbylistboxitem.17	소지품 없음
 pli_luxurymagicrandomcardview.1	Please select a card.
 pli_luxurymagicrandomcardview.2	You obtained {0}.
 pli_luxurymagicrandomcardview.3	Items are shuffled.
@@ -4532,8 +4546,12 @@ pli_manualformview.34	\n<color=4><outlinecolor=1>Craftable only by a Maistir of 
 pli_manualformview.35	\nCraftable only by a Maistir of the relevant field
 pli_mastersordereventmainview.1	You obtained the reward.
 pli_mastersordereventmainview.2	You obtained the reward.
+pli_meetingcareinventoryview.1	소지품으로 보유 중인 검색 결과가 표시되며, 검색 결과 중 원하는 아이템을 즐겨찾기에 등록할 수 있습니다.
+pli_meetingcareinventoryview.2	동물 캐릭터 소지품에 보유 중인 검색 결과가 동물 캐릭터 이름과 함께 표시되며, 한 번이라도 소환을 완료한 동물 캐릭터의 소지품에 대해서만 검색이 가능합니다.
+pli_meetingcareinventoryview.3	소지품 탭에서 즐겨찾기를 설정한 아이템이 표시됩니다.
 pli_meetingcareitemframe.1	Search on Auction House
 pli_meetingcareitemframe.2	Preview
+pli_meetingcarepetitemframe.1	<section><option border=\"false\"/><content><![CDATA[<color=5>검색 결과에 마우스 오버 시 표시되는 정보는, 빠른 검색을 위해 실제와 다르게 표시될 수 있습니다.\n자세하고 정확한 아이템 정보를 원하시면 해당 펫 인벤토리를 열어 확인해 주시기 바랍니다.</color>]]></content></section>
 pli_memolistboxitem.1	Read
 pli_memolistboxitem.2	Unread
 pli_mikugachaponview.1	Congratulations!
@@ -5516,6 +5534,7 @@ pli_premiumservicetabframe.189	Provides Moonlight Island Satisfaction Recovery P
 pli_premiumservicetabframe.190	Provides Moonlight Island Production Equipment Advanced Repair Tools ({0} per day)
 pli_premiumservicetabframe.191	Provides Moonlight Island Landscape Essences ({0} per day)
 pli_premiumservicetabframe.192	Homestead/Moonlight Island Homestead Stone Maintenance Fee -{0}%
+pli_premiumservicetabframe.193	받기 설정
 pli_premiumserviceview.1	VIP Membership
 pli_premiumserviceview.2	Premium PC Cafe
 pli_prestigecostumeautopotionsettingtabframe.1	The selected function will be disabled.\nDo you want to save?\n
@@ -6771,6 +6790,66 @@ pli_totemenhanceview.15	No primary stats were granted because\nenhancement was n
 pli_totemenhanceview.16	\n<color=4><outlinecolor=3>Enhancement Failed</outlinecolor></color>
 pli_totemenhanceview.17	No unique stats were granted because\nenhancement was not performed.
 pli_totemenhanceview.18	{0} ({1}/{2} Level: +{3})
+pli_towereventachievementtab.1	수령 완료
+pli_towereventachievementtab.2	보상 받기
+pli_towereventachievementtab.3	{0}.{1}.{2}
+pli_towereventbuffview.1	현재 효과 : +{0}\n
+pli_towereventbuffview.2	최대 레벨 도달
+pli_towereventbuffview.3	다음 레벨 : +{0}\n필요 포인트 : {1}pt
+pli_towereventbuffview.4	{0}pt 남음
+pli_towereventbuffview.5	{0}pt를 사용하여 버프를 적용합니다.
+pli_towereventbuffview.6	초기화할 수 있는 포인트가 없습니다.
+pli_towereventbuffview.7	선택한 버프가 모두 초기화 됩니다.\n
+pli_towereventbuffview.8	수령 완료
+pli_towereventbuffview.9	보상 받기
+pli_towereventbuffview.10	초기화는 주간 {0}회까지 가능하며,\n 현재 {1}회 남아있습니다.
+pli_towereventcardtooltipview.1	- {0}초
+pli_towereventcollectiontab.1	전체
+pli_towereventcollectiontab.2	마스터
+pli_towereventcollectiontab.3	에픽
+pli_towereventcollectiontab.4	레어
+pli_towereventcollectiontab.5	일반
+pli_towereventfloorview.1	승률 {0}%\n한 번에 클리어\n
+pli_towereventfloorview.2	승률 {0}%\n{1}번 만에 클리어\n
+pli_towereventfloorview.3	도전 중
+pli_towereventfloorview.4	파견 전
+pli_towereventfloorview.5	{0} 층
+pli_towereventinfoview.1	- {0}초
+pli_towereventmainview.1	* 이벤트 기간\n- {0}/{1}/{2} 점검 후 ~ {3}/{4}/{5} 점검 전\n\n* 아래 아이템은 이벤트 종료 후 삭제 처리\n- 탑의 주화\n- 추가 도전권\n- 원정의 훈장\n- 완주의 증표
+pli_towereventprogresstab.1	{0}층
+pli_towereventprogresstab.2	버프 포인트 + {0}pt\n
+pli_towereventprogresstab.3	{0} 저항 - {1}%\n
+pli_towereventprogresstab.6	그룹 시너지: +{0}%
+pli_towereventprogresstab.7	직업 시너지: +{0}%
+pli_towereventprogresstab.8	약점 속성 보너스: +{0}%
+pli_towereventprogresstab.9	저항 속성 페널티: -{0}%
+pli_towereventprogresstab.11	완전 편성 보너스: +{0}%
+pli_towereventprogresstab.12	전투 단축: -{0}초
+pli_towereventprogresstab.14	{0}층으로 이동하기
+pli_towereventprogresstab.15	{0}층 도전하기
+pli_towereventprogresstab.16	도전 중
+pli_towereventprogresstab.17	최고층 달성!
+pli_towereventprogresstab.18	오늘 시도 소진
+pli_towereventprogresstab.19	원정대 미편성
+pli_towereventprogresstab.20	{0}층 재도전 하기
+pli_towereventrecordview.1	시즌 {0}
+pli_towereventrecordview.2	클리어 층 없음
+pli_towereventrecordview.3	풋내기
+pli_towereventrecordview.4	1~19층
+pli_towereventrecordview.5	용병
+pli_towereventrecordview.6	20~39층
+pli_towereventrecordview.7	베테랑
+pli_towereventrecordview.8	40~59층
+pli_towereventrecordview.9	달인
+pli_towereventrecordview.10	60~79층
+pli_towereventrecordview.11	챔피언
+pli_towereventrecordview.12	80~99층
+pli_towereventrecordview.13	그랜드 마스터
+pli_towereventrecordview.14	100층 (MAX) 달성
+pli_towereventsynthesisresultview.1	등급 상승
+pli_towereventsynthesisresultview.2	등급 유지
+pli_towereventsynthesistab.1	합성 실행
+pli_towereventsynthesistab.2	카드를 선택하세요
 pli_tpsmodemanualview.1	Control Manual
 pli_tpsmodemanualview.2	When a Tower Cylinder is installed, change the targeting mode by pressing the TAB key.\n\nIn Aiming mode, use the mouse to control where you aim.\nYou will attack the enemy located in the middle of your screen.\n\nIn Cursor mode, drag your cursor to control where you aim. \nYou will attack the enemy that your cursor is pointing to.\nAuto-targeting using the CTRL key can be used in either mode.
 pli_tpsmodemanualview.3	Do not show this message again.
@@ -7459,6 +7538,7 @@ pli_windowbank.18	Limit
 pli_windowbank.19	Current: {0} / Max: {1}
 pli_windowbank.20	+{0} Bank Limit Expansion Coupon Effect\n<color=5>- Time Remaining: {1} </color>
 pli_windowbank.21	This is the <color=5><outlinecolor=6>maximum amount of Gold</outlinecolor></color> that you can deposit in your bank account. This cap can be increased in the following ways:\n\n<color=2><outlinecolor=3>1.</outlinecolor></color> While you have an active Combination VIP Membership or Life VIP Membership, the deposit limit is increased by 600 million Gold. VIP Memberships are sold in the Item Shop.\n\n<color=2><outlinecolor=3>2.</outlinecolor></color> Using a Bank Limit Expansion Coupon, sold in Item Shop, permanently increases your deposit limit.\n\n<color=2><outlinecolor=3>3.</outlinecolor></color> Using a Bank Limit Expansion Coupon (500 Million) (30 Days), obtained as a Commerce reward, temporarily increases the deposit limit by 500 million Gold.\n\n<color=2><outlinecolor=3>4.</outlinecolor></color> Every additional character on your account (excluding Pets) will increase your deposit limit by the following amount:\n - 30 million Gold each for your first 10 characters\n - 15 million Gold each for your 11th character onwards\n - Note: You can create a maximum of 200 characters.
+pli_windowbank.22	순서 변경
 pli_windowbattlegroundframe.1	\nGuild Members : {0} Members
 pli_windowbattlegroundframe.2	\nGuild Points : {0} Points
 pli_windowbattlegroundframe.3	\nMy Score : {0} Points

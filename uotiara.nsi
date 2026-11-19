@@ -1,6 +1,6 @@
 ﻿RequestExecutionLevel admin
-!define UOSHORTVERSION        "516"
-!define UOLONGVERSION         "0.74.83"
+!define UOSHORTVERSION        "517"
+!define UOLONGVERSION         "0.74.84"
 !define UOSHORTNAME           "UO Tiaras Moonshine Mod"
 !define UOVERSION             "${UOSHORTVERSION}.${UOLONGVERSION}"
 !define UOLONGNAME            "UO Tiaras Moonshine Mod V${UOVERSION}"
@@ -957,13 +957,11 @@ SectionEnd
 Section "Bandit Spotter 2" MOD88
 SetOutPath "$INSTDIR\data\db"
 File "${srcdir}\Tiara's Moonshine Mod\data\db\NpcClientAppearance.xml"
-File "${srcdir}\Tiara's Moonshine Mod\data\db\Race.xml"
 SectionIn 1 2
 SectionEnd
 !macro Remove_${MOD88}
   DetailPrint "*** Removing MOD88..."
   Delete "$INSTDIR\data\db\NpcClientAppearance.xml"
-  Delete "$INSTDIR\data\db\Race.xml"
 !macroend
 Section "Dark Knight Sound" MOD89
 SetOutPath "$INSTDIR\data\db"
@@ -7944,13 +7942,12 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD87" "" "Bandit Spotter 1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD87" "FILE1" "\data\db\CommerceCommon.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD87" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD87" "CREATOR" "Fl0rn, ShaggyZE"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD87" "DESCRIPTION" "Increases volume of Bandit Detection"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD87" "DESCRIPTION" "Increases visibility/volume of Bandits Detection/Heartbeat"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "" "Bandit Spotter 2"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "FILE1" "\data\db\NpcClientAppearance.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "FILE2" "\data\db\Race.xml"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "FILES" "2"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "FILES" "1"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "CREATOR" "Fl0rn, Draconis, poidoe"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "DESCRIPTION" "Makes Bandits appear on the minimap"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD88" "DESCRIPTION" "Makes Bandits huge and appear on the minimap"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "" "Bandit Spotter 3"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE1" "\data\gfx\char\human\male\helmet\male_theater01_paper_h01.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE2" "\data\gfx\char\human\male\helmet\male_theater03_paper_h01.xml"
@@ -7964,7 +7961,7 @@ WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE9" "\data\material\fx
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILE10" "\data\material\_define\material\effect\mat_effect_custom_52baka.xml"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "FILES" "10"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "CREATOR" "hodgepodge, poidoe"
-WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "DESCRIPTION" "Makes Bandits easier to see"
+WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD299" "DESCRIPTION" "Adds caution ring and sign to Bandits"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD89" "" "Dark Knight Sound"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD89" "FILE1" "\data\db\AnimationEvent.anievent"
 WriteRegStr HKLM "${REG_UNINSTALL}\Components\MOD89" "FILES" "1"
